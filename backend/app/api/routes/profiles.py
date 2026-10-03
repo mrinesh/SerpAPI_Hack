@@ -29,6 +29,11 @@ def update_profile(profile_id: str, data: InvestorProfileIn, db: DbSession) -> I
     return profiles.update_profile(db, profile_id, data)
 
 
+@router.delete("/{profile_id}", status_code=status.HTTP_204_NO_CONTENT)
+def delete_profile(profile_id: str, db: DbSession) -> None:
+    profiles.delete_profile(db, profile_id)
+
+
 @router.post("/{profile_id}/runs", status_code=status.HTTP_202_ACCEPTED)
 def start_run(profile_id: str) -> PipelineRun:
     """Start the search -> verify -> enrich -> rank pipeline. Poll GET /api/runs/{id}."""

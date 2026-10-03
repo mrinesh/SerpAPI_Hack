@@ -7,7 +7,10 @@ frontend can handle failures in one place (frontend/src/api/client.ts).
 from typing import Any
 
 from fastapi import FastAPI, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
+
+VALIDATION_MESSAGE = "Some fields are invalid."
 
 
 class AppError(Exception):
@@ -23,6 +26,17 @@ class AppError(Exception):
 class NotFound(AppError):
     status_code = 404
     code = "not_found"
+
+
+class InvalidInput(AppError):
+    """Input that passed schema validation but fails a check needing data (e.g. unknown
+    locality). Same shape as request validation errors, so the UI handles both one way."""
+
+    status_code = 422
+    code = "validation_error"
+
+    def __init__(self, loc: list[str], msg: str) -> None:
+        super().__init__(VALIDATION_MESSAGE, details={"fields": [{"loc": loc, "msg": msg}]})
 
 
 class NotImplementedYet(AppError):
@@ -58,4 +72,24 @@ def register_exception_handlers(app: FastAPI) -> None:
         return JSONResponse(
             status_code=exc.status_code,
             content={"error": {"code": exc.code, "message": exc.message, "details": exc.details}},
+        )
+
+    @app.exception_handler(RequestValidationError)
+    async def _handle_validation_error(_: Request, exc: RequestValidationError) -> JSONResponse:
+        fields = [
+            {
+                "loc": [str(part) for part in err["loc"]],
+                "msg": err["msg"].removeprefix("Value error, "),
+            }
+            for err in exc.errors()
+        ]
+        return JSONResponse(
+            status_code=422,
+            content={
+                "error": {
+                    "code": "validation_error",
+                    "message": VALIDATION_MESSAGE,
+                    "details": {"fields": fields},
+                }
+            },
         )

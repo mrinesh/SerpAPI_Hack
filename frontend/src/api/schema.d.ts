@@ -38,6 +38,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/meta/profile-options": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Profile Options
+         * @description Choices for the profile form: segments and property types, localities, goals, risk.
+         */
+        get: operations["get_profile_options_api_meta_profile_options_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/profiles": {
         parameters: {
             query?: never;
@@ -68,7 +88,8 @@ export interface paths {
         /** Update Profile */
         put: operations["update_profile_api_profiles__profile_id__put"];
         post?: never;
-        delete?: never;
+        /** Delete Profile */
+        delete: operations["delete_profile_api_profiles__profile_id__delete"];
         options?: never;
         head?: never;
         patch?: never;
@@ -407,6 +428,16 @@ export interface components {
             /** Lng */
             lng: number;
         };
+        /** GoalOption */
+        GoalOption: {
+            /** Value */
+            value: string;
+            /** Label */
+            label: string;
+            measure: components["schemas"]["ROIMeasure"];
+            /** Measure Label */
+            measure_label: string;
+        };
         /** HTTPValidationError */
         HTTPValidationError: {
             /** Detail */
@@ -448,33 +479,31 @@ export interface components {
             segment: components["schemas"]["Segment"];
             /** Property Types */
             property_types: components["schemas"]["PropertyType"][];
+            /** Size Min Sqft */
+            size_min_sqft?: number | null;
+            /** Size Max Sqft */
+            size_max_sqft?: number | null;
+            /** Business Type */
+            business_type?: string | null;
             /**
              * City
              * @default Bengaluru
              */
             city: string;
             /** Localities */
-            localities?: string[];
+            localities: string[];
+            /** Must Haves */
+            must_haves?: string[];
             /** Budget Min Inr */
             budget_min_inr?: number | null;
             /** Budget Max Inr */
             budget_max_inr: number;
-            /** Size Min Sqft */
-            size_min_sqft?: number | null;
-            /** Size Max Sqft */
-            size_max_sqft?: number | null;
-            /** Bedrooms */
-            bedrooms?: number[];
-            /** Target Yield Pct */
-            target_yield_pct?: number | null;
-            /** @default balanced */
-            risk_appetite: components["schemas"]["RiskAppetite"];
-            /** @default balanced */
             goal: components["schemas"]["InvestmentGoal"];
-            /** Business Category */
-            business_category?: string | null;
-            /** Must Haves */
-            must_haves?: string[];
+            /** Target Roi Pct */
+            target_roi_pct: number;
+            /** Expected Growth Pct */
+            expected_growth_pct?: number | null;
+            risk_appetite: components["schemas"]["RiskAppetite"];
             /** Id */
             id: string;
             /**
@@ -487,6 +516,7 @@ export interface components {
              * Format: date-time
              */
             updated_at: string;
+            readonly roi_measure: components["schemas"]["ROIMeasure"];
         };
         /** InvestorProfileIn */
         InvestorProfileIn: {
@@ -495,33 +525,31 @@ export interface components {
             segment: components["schemas"]["Segment"];
             /** Property Types */
             property_types: components["schemas"]["PropertyType"][];
+            /** Size Min Sqft */
+            size_min_sqft?: number | null;
+            /** Size Max Sqft */
+            size_max_sqft?: number | null;
+            /** Business Type */
+            business_type?: string | null;
             /**
              * City
              * @default Bengaluru
              */
             city: string;
             /** Localities */
-            localities?: string[];
+            localities: string[];
+            /** Must Haves */
+            must_haves?: string[];
             /** Budget Min Inr */
             budget_min_inr?: number | null;
             /** Budget Max Inr */
             budget_max_inr: number;
-            /** Size Min Sqft */
-            size_min_sqft?: number | null;
-            /** Size Max Sqft */
-            size_max_sqft?: number | null;
-            /** Bedrooms */
-            bedrooms?: number[];
-            /** Target Yield Pct */
-            target_yield_pct?: number | null;
-            /** @default balanced */
-            risk_appetite: components["schemas"]["RiskAppetite"];
-            /** @default balanced */
             goal: components["schemas"]["InvestmentGoal"];
-            /** Business Category */
-            business_category?: string | null;
-            /** Must Haves */
-            must_haves?: string[];
+            /** Target Roi Pct */
+            target_roi_pct: number;
+            /** Expected Growth Pct */
+            expected_growth_pct?: number | null;
+            risk_appetite: components["schemas"]["RiskAppetite"];
         };
         /**
          * Level
@@ -563,6 +591,13 @@ export interface components {
              */
             last_seen_at: string;
         };
+        /** LocalityOption */
+        LocalityOption: {
+            /** Slug */
+            slug: string;
+            /** Name */
+            name: string;
+        };
         /**
          * MatchVerdict
          * @enum {string}
@@ -591,6 +626,13 @@ export interface components {
          * @enum {string}
          */
         NewsTopic: "infrastructure" | "market" | "policy" | "civic" | "other";
+        /** Option */
+        Option: {
+            /** Value */
+            value: string;
+            /** Label */
+            label: string;
+        };
         /** PipelineRun */
         PipelineRun: {
             /** Id */
@@ -639,6 +681,28 @@ export interface components {
             history?: components["schemas"]["TrendPoint"][];
         };
         /**
+         * ProfileOptions
+         * @description Everything the profile form offers, so the UI never hard-codes choices (CHECKLIST F-01).
+         */
+        ProfileOptions: {
+            /** City */
+            city: string;
+            /** Segments */
+            segments: components["schemas"]["SegmentOption"][];
+            /** Localities */
+            localities: components["schemas"]["LocalityOption"][];
+            /** Locality Source */
+            locality_source: string;
+            /** Max Localities */
+            max_localities: number;
+            /** Business Type Suggestions */
+            business_type_suggestions: string[];
+            /** Goals */
+            goals: components["schemas"]["GoalOption"][];
+            /** Risk Levels */
+            risk_levels: components["schemas"]["Option"][];
+        };
+        /**
          * PropertyDetail
          * @description Everything known about one property, for the detail page (CHECKLIST F-07).
          */
@@ -653,9 +717,11 @@ export interface components {
         };
         /**
          * PropertyType
+         * @description Grouped from the listing portals' own categories (NoBroker's site, 99acres), so search
+         *     queries use the portals' vocabulary.
          * @enum {string}
          */
-        PropertyType: "apartment" | "villa" | "independent_house" | "plot" | "office" | "retail" | "warehouse";
+        PropertyType: "apartment" | "house_villa" | "builder_floor" | "plot" | "office" | "shop_showroom" | "warehouse" | "commercial_land";
         /**
          * ProviderMode
          * @enum {string}
@@ -749,6 +815,15 @@ export interface components {
          * @enum {string}
          */
         Segment: "residential" | "commercial";
+        /** SegmentOption */
+        SegmentOption: {
+            /** Value */
+            value: string;
+            /** Label */
+            label: string;
+            /** Property Types */
+            property_types: components["schemas"]["Option"][];
+        };
         /**
          * Sentiment
          * @enum {string}
@@ -980,6 +1055,37 @@ export interface operations {
             };
         };
     };
+    get_profile_options_api_meta_profile_options_get: {
+        parameters: {
+            query?: {
+                city?: string | null;
+            };
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ProfileOptions"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     list_profiles_api_profiles_get: {
         parameters: {
             query?: never;
@@ -1087,6 +1193,35 @@ export interface operations {
                 content: {
                     "application/json": components["schemas"]["InvestorProfile"];
                 };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    delete_profile_api_profiles__profile_id__delete: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                profile_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
             };
             /** @description Validation Error */
             422: {

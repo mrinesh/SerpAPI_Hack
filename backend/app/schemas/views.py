@@ -10,6 +10,7 @@ from app.schemas.area import AreaIntel
 from app.schemas.competitor import CompetitorReport
 from app.schemas.listing import Listing, Verification
 from app.schemas.metrics import InvestmentMetrics
+from app.schemas.profile import ROIMeasure
 
 
 class HealthStatus(BaseModel):
@@ -26,6 +27,38 @@ class BudgetStatus(BaseModel):
     used_this_month: int  # from our own search ledger
     cache_hits_this_month: int
     account_searches_left: int | None = None  # from the SerpApi Account API (free to call)
+
+
+class Option(BaseModel):
+    value: str
+    label: str
+
+
+class SegmentOption(Option):
+    property_types: list[Option]
+
+
+class GoalOption(Option):
+    measure: ROIMeasure  # what the target ROI is compared against for this goal
+    measure_label: str
+
+
+class LocalityOption(BaseModel):
+    slug: str
+    name: str
+
+
+class ProfileOptions(BaseModel):
+    """Everything the profile form offers, so the UI never hard-codes choices (CHECKLIST F-01)."""
+
+    city: str
+    segments: list[SegmentOption]
+    localities: list[LocalityOption]
+    locality_source: str
+    max_localities: int
+    business_type_suggestions: list[str]
+    goals: list[GoalOption]
+    risk_levels: list[Option]
 
 
 class PropertyDetail(BaseModel):

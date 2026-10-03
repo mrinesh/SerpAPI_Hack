@@ -1,22 +1,146 @@
-"""Investor profile CRUD (CHECKLIST F-01)."""
+"""Investor profile CRUD and form options (CHECKLIST F-01).
 
+Profiles are stored as `InvestorProfileIn` JSON in `investor_profiles.data`. Checks that need
+reference data (supported city, known localities) live here, not in the schema.
+"""
+
+from datetime import UTC, datetime
+
+from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.core.errors import NotImplementedYet
-from app.schemas.profile import InvestorProfile, InvestorProfileIn
+from app.core.errors import InvalidInput, NotFound
+from app.db.models import ProfileRow
+from app.reference import load_market
+from app.schemas.profile import (
+    GOAL_MEASURE,
+    MAX_LOCALITIES,
+    PROPERTY_TYPE_LABELS,
+    SEGMENT_PROPERTY_TYPES,
+    InvestmentGoal,
+    InvestorProfile,
+    InvestorProfileIn,
+    RiskAppetite,
+    ROIMeasure,
+    Segment,
+)
+from app.schemas.views import (
+    GoalOption,
+    LocalityOption,
+    Option,
+    ProfileOptions,
+    SegmentOption,
+)
+
+SEGMENT_LABELS = {Segment.RESIDENTIAL: "Residential", Segment.COMMERCIAL: "Commercial"}
+GOAL_LABELS = {
+    InvestmentGoal.RENTAL_INCOME: "Rental income",
+    InvestmentGoal.APPRECIATION: "Appreciation",
+    InvestmentGoal.BALANCED: "Balanced",
+}
+MEASURE_LABELS = {
+    ROIMeasure.RENTAL_YIELD: "Rental yield (annual rent ÷ price, before costs)",
+    ROIMeasure.PRICE_GROWTH: "Price growth (locality's past 12 months, or your estimate)",
+    ROIMeasure.TOTAL_RETURN: "Total return (rental yield + price growth)",
+}
+RISK_LABELS = {
+    RiskAppetite.CONSERVATIVE: "Conservative",
+    RiskAppetite.BALANCED: "Balanced",
+    RiskAppetite.AGGRESSIVE: "Aggressive",
+}
+
+
+def profile_options(city: str) -> ProfileOptions:
+    market = load_market(city)
+    if market is None:
+        raise NotFound(f"No reference data for city {city!r}")
+    return ProfileOptions(
+        city=market.city,
+        segments=[
+            SegmentOption(
+                value=segment,
+                label=SEGMENT_LABELS[segment],
+                property_types=[
+                    Option(value=t, label=PROPERTY_TYPE_LABELS[t])
+                    for t in SEGMENT_PROPERTY_TYPES[segment]
+                ],
+            )
+            for segment in Segment
+        ],
+        localities=[LocalityOption(slug=loc.slug, name=loc.name) for loc in market.localities],
+        locality_source=market.locality_source,
+        max_localities=MAX_LOCALITIES,
+        business_type_suggestions=market.business_type_suggestions,
+        goals=[
+            GoalOption(
+                value=goal,
+                label=GOAL_LABELS[goal],
+                measure=GOAL_MEASURE[goal],
+                measure_label=MEASURE_LABELS[GOAL_MEASURE[goal]],
+            )
+            for goal in InvestmentGoal
+        ],
+        risk_levels=[Option(value=level, label=RISK_LABELS[level]) for level in RiskAppetite],
+    )
 
 
 def create_profile(db: Session, data: InvestorProfileIn) -> InvestorProfile:
-    raise NotImplementedYet("F-01", "Creating a profile")
+    _check_reference_data(data)
+    row = ProfileRow(data=data.model_dump(mode="json"))
+    db.add(row)
+    db.commit()
+    return _to_schema(row)
 
 
 def list_profiles(db: Session) -> list[InvestorProfile]:
-    raise NotImplementedYet("F-01", "Listing profiles")
+    rows = db.scalars(select(ProfileRow).order_by(ProfileRow.updated_at.desc())).all()
+    return [_to_schema(row) for row in rows]
 
 
 def get_profile(db: Session, profile_id: str) -> InvestorProfile:
-    raise NotImplementedYet("F-01", "Reading a profile")
+    return _to_schema(_get_row(db, profile_id))
 
 
 def update_profile(db: Session, profile_id: str, data: InvestorProfileIn) -> InvestorProfile:
-    raise NotImplementedYet("F-01", "Updating a profile")
+    row = _get_row(db, profile_id)
+    _check_reference_data(data)
+    row.data = data.model_dump(mode="json")
+    db.commit()
+    return _to_schema(row)
+
+
+def delete_profile(db: Session, profile_id: str) -> None:
+    db.delete(_get_row(db, profile_id))
+    db.commit()
+
+
+def _get_row(db: Session, profile_id: str) -> ProfileRow:
+    row = db.get(ProfileRow, profile_id)
+    if row is None:
+        raise NotFound(f"Profile {profile_id} not found")
+    return row
+
+
+def _check_reference_data(data: InvestorProfileIn) -> None:
+    market = load_market(data.city)
+    if market is None:
+        raise InvalidInput(["body", "city"], f"{data.city} is not a supported city")
+    unknown = [slug for slug in data.localities if market.locality(slug) is None]
+    if unknown:
+        raise InvalidInput(
+            ["body", "localities"], f"unknown localities for {market.city}: {', '.join(unknown)}"
+        )
+
+
+def _to_schema(row: ProfileRow) -> InvestorProfile:
+    return InvestorProfile(
+        id=row.id,
+        created_at=_as_utc(row.created_at),
+        updated_at=_as_utc(row.updated_at),
+        **row.data,
+    )
+
+
+def _as_utc(value: datetime) -> datetime:
+    # SQLite drops the timezone on the way back in; every timestamp we write is UTC.
+    return value if value.tzinfo is not None else value.replace(tzinfo=UTC)

@@ -48,6 +48,56 @@
         }
       }
     },
+    "/api/meta/profile-options": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Get Profile Options",
+        "description": "Choices for the profile form: segments and property types, localities, goals, risk.",
+        "operationId": "get_profile_options_api_meta_profile_options_get",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "City"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProfileOptions"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/profiles": {
       "get": {
         "tags": [
@@ -190,6 +240,39 @@
                 }
               }
             }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "Delete Profile",
+        "operationId": "delete_profile_api_profiles__profile_id__delete",
+        "parameters": [
+          {
+            "name": "profile_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Profile Id"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
           },
           "422": {
             "description": "Validation Error",
@@ -1132,6 +1215,33 @@
         ],
         "title": "GeoPoint"
       },
+      "GoalOption": {
+        "properties": {
+          "value": {
+            "type": "string",
+            "title": "Value"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "measure": {
+            "$ref": "#/components/schemas/ROIMeasure"
+          },
+          "measure_label": {
+            "type": "string",
+            "title": "Measure Label"
+          }
+        },
+        "type": "object",
+        "required": [
+          "value",
+          "label",
+          "measure",
+          "measure_label"
+        ],
+        "title": "GoalOption"
+      },
       "HTTPValidationError": {
         "properties": {
           "detail": {
@@ -1255,35 +1365,6 @@
             "minItems": 1,
             "title": "Property Types"
           },
-          "city": {
-            "type": "string",
-            "title": "City",
-            "default": "Bengaluru"
-          },
-          "localities": {
-            "items": {
-              "type": "string"
-            },
-            "type": "array",
-            "title": "Localities"
-          },
-          "budget_min_inr": {
-            "anyOf": [
-              {
-                "type": "integer",
-                "minimum": 0.0
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Budget Min Inr"
-          },
-          "budget_max_inr": {
-            "type": "integer",
-            "exclusiveMinimum": 0.0,
-            "title": "Budget Max Inr"
-          },
           "size_min_sqft": {
             "anyOf": [
               {
@@ -1308,51 +1389,81 @@
             ],
             "title": "Size Max Sqft"
           },
-          "bedrooms": {
+          "business_type": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 60
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Business Type"
+          },
+          "city": {
+            "type": "string",
+            "title": "City",
+            "default": "Bengaluru"
+          },
+          "localities": {
             "items": {
-              "type": "integer"
+              "type": "string"
             },
             "type": "array",
-            "title": "Bedrooms"
-          },
-          "target_yield_pct": {
-            "anyOf": [
-              {
-                "type": "number",
-                "maximum": 100.0,
-                "minimum": 0.0
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Target Yield Pct"
-          },
-          "risk_appetite": {
-            "$ref": "#/components/schemas/RiskAppetite",
-            "default": "balanced"
-          },
-          "goal": {
-            "$ref": "#/components/schemas/InvestmentGoal",
-            "default": "balanced"
-          },
-          "business_category": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Business Category"
+            "maxItems": 5,
+            "minItems": 1,
+            "title": "Localities"
           },
           "must_haves": {
             "items": {
               "type": "string"
             },
             "type": "array",
+            "maxItems": 10,
             "title": "Must Haves"
+          },
+          "budget_min_inr": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget Min Inr"
+          },
+          "budget_max_inr": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Budget Max Inr"
+          },
+          "goal": {
+            "$ref": "#/components/schemas/InvestmentGoal"
+          },
+          "target_roi_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Target Roi Pct"
+          },
+          "expected_growth_pct": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 100.0,
+                "minimum": -100.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Expected Growth Pct"
+          },
+          "risk_appetite": {
+            "$ref": "#/components/schemas/RiskAppetite"
           },
           "id": {
             "type": "string",
@@ -1367,6 +1478,10 @@
             "type": "string",
             "format": "date-time",
             "title": "Updated At"
+          },
+          "roi_measure": {
+            "$ref": "#/components/schemas/ROIMeasure",
+            "readOnly": true
           }
         },
         "type": "object",
@@ -1374,10 +1489,15 @@
           "name",
           "segment",
           "property_types",
+          "localities",
           "budget_max_inr",
+          "goal",
+          "target_roi_pct",
+          "risk_appetite",
           "id",
           "created_at",
-          "updated_at"
+          "updated_at",
+          "roi_measure"
         ],
         "title": "InvestorProfile"
       },
@@ -1400,35 +1520,6 @@
             "minItems": 1,
             "title": "Property Types"
           },
-          "city": {
-            "type": "string",
-            "title": "City",
-            "default": "Bengaluru"
-          },
-          "localities": {
-            "items": {
-              "type": "string"
-            },
-            "type": "array",
-            "title": "Localities"
-          },
-          "budget_min_inr": {
-            "anyOf": [
-              {
-                "type": "integer",
-                "minimum": 0.0
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Budget Min Inr"
-          },
-          "budget_max_inr": {
-            "type": "integer",
-            "exclusiveMinimum": 0.0,
-            "title": "Budget Max Inr"
-          },
           "size_min_sqft": {
             "anyOf": [
               {
@@ -1453,51 +1544,81 @@
             ],
             "title": "Size Max Sqft"
           },
-          "bedrooms": {
+          "business_type": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 60
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Business Type"
+          },
+          "city": {
+            "type": "string",
+            "title": "City",
+            "default": "Bengaluru"
+          },
+          "localities": {
             "items": {
-              "type": "integer"
+              "type": "string"
             },
             "type": "array",
-            "title": "Bedrooms"
-          },
-          "target_yield_pct": {
-            "anyOf": [
-              {
-                "type": "number",
-                "maximum": 100.0,
-                "minimum": 0.0
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Target Yield Pct"
-          },
-          "risk_appetite": {
-            "$ref": "#/components/schemas/RiskAppetite",
-            "default": "balanced"
-          },
-          "goal": {
-            "$ref": "#/components/schemas/InvestmentGoal",
-            "default": "balanced"
-          },
-          "business_category": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Business Category"
+            "maxItems": 5,
+            "minItems": 1,
+            "title": "Localities"
           },
           "must_haves": {
             "items": {
               "type": "string"
             },
             "type": "array",
+            "maxItems": 10,
             "title": "Must Haves"
+          },
+          "budget_min_inr": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget Min Inr"
+          },
+          "budget_max_inr": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Budget Max Inr"
+          },
+          "goal": {
+            "$ref": "#/components/schemas/InvestmentGoal"
+          },
+          "target_roi_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Target Roi Pct"
+          },
+          "expected_growth_pct": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 100.0,
+                "minimum": -100.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Expected Growth Pct"
+          },
+          "risk_appetite": {
+            "$ref": "#/components/schemas/RiskAppetite"
           }
         },
         "type": "object",
@@ -1505,7 +1626,11 @@
           "name",
           "segment",
           "property_types",
-          "budget_max_inr"
+          "localities",
+          "budget_max_inr",
+          "goal",
+          "target_roi_pct",
+          "risk_appetite"
         ],
         "title": "InvestorProfileIn"
       },
@@ -1605,6 +1730,24 @@
         "title": "Listing",
         "description": "A cleaned, de-duplicated property candidate. Every factual field is `Sourced`."
       },
+      "LocalityOption": {
+        "properties": {
+          "slug": {
+            "type": "string",
+            "title": "Slug"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          }
+        },
+        "type": "object",
+        "required": [
+          "slug",
+          "name"
+        ],
+        "title": "LocalityOption"
+      },
       "MatchVerdict": {
         "type": "string",
         "enum": [
@@ -1689,6 +1832,24 @@
           "other"
         ],
         "title": "NewsTopic"
+      },
+      "Option": {
+        "properties": {
+          "value": {
+            "type": "string",
+            "title": "Value"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          }
+        },
+        "type": "object",
+        "required": [
+          "value",
+          "label"
+        ],
+        "title": "Option"
       },
       "PipelineRun": {
         "properties": {
@@ -1816,6 +1977,70 @@
         ],
         "title": "PriceTrend"
       },
+      "ProfileOptions": {
+        "properties": {
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "segments": {
+            "items": {
+              "$ref": "#/components/schemas/SegmentOption"
+            },
+            "type": "array",
+            "title": "Segments"
+          },
+          "localities": {
+            "items": {
+              "$ref": "#/components/schemas/LocalityOption"
+            },
+            "type": "array",
+            "title": "Localities"
+          },
+          "locality_source": {
+            "type": "string",
+            "title": "Locality Source"
+          },
+          "max_localities": {
+            "type": "integer",
+            "title": "Max Localities"
+          },
+          "business_type_suggestions": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Business Type Suggestions"
+          },
+          "goals": {
+            "items": {
+              "$ref": "#/components/schemas/GoalOption"
+            },
+            "type": "array",
+            "title": "Goals"
+          },
+          "risk_levels": {
+            "items": {
+              "$ref": "#/components/schemas/Option"
+            },
+            "type": "array",
+            "title": "Risk Levels"
+          }
+        },
+        "type": "object",
+        "required": [
+          "city",
+          "segments",
+          "localities",
+          "locality_source",
+          "max_localities",
+          "business_type_suggestions",
+          "goals",
+          "risk_levels"
+        ],
+        "title": "ProfileOptions",
+        "description": "Everything the profile form offers, so the UI never hard-codes choices (CHECKLIST F-01)."
+      },
       "PropertyDetail": {
         "properties": {
           "listing": {
@@ -1884,14 +2109,16 @@
         "type": "string",
         "enum": [
           "apartment",
-          "villa",
-          "independent_house",
+          "house_villa",
+          "builder_floor",
           "plot",
           "office",
-          "retail",
-          "warehouse"
+          "shop_showroom",
+          "warehouse",
+          "commercial_land"
         ],
-        "title": "PropertyType"
+        "title": "PropertyType",
+        "description": "Grouped from the listing portals' own categories (NoBroker's site, 99acres), so search\nqueries use the portals' vocabulary."
       },
       "ProviderMode": {
         "type": "string",
@@ -2124,6 +2351,32 @@
           "commercial"
         ],
         "title": "Segment"
+      },
+      "SegmentOption": {
+        "properties": {
+          "value": {
+            "type": "string",
+            "title": "Value"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "property_types": {
+            "items": {
+              "$ref": "#/components/schemas/Option"
+            },
+            "type": "array",
+            "title": "Property Types"
+          }
+        },
+        "type": "object",
+        "required": [
+          "value",
+          "label",
+          "property_types"
+        ],
+        "title": "SegmentOption"
       },
       "Sentiment": {
         "type": "string",

@@ -78,7 +78,7 @@ Rejected listings stay in the run with rank `null` so the UI can show what was f
 | Price level | google | `"{locality} Bangalore property rates per sq ft"` |
 | Rental demand (P1) | google_trends | `"flats for rent {locality}"` for up to 5 localities in one call |
 
-**Competitors** (commercial only): google_maps `"{business_category}"` near the property →
+**Competitors** (commercial only): google_maps `"{business_type}"` near the property →
 density, ratings, review volume, saturation. P1: google_maps_reviews for the top competitors →
 `competitor_gaps` prompt.
 
