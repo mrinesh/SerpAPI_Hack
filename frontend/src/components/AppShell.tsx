@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router";
 import { useHealth } from "../api/hooks";
 
 const NAV = [
-  { to: "/", label: "New search", end: true },
+  { to: "/", label: "Profiles", end: true },
   { to: "/saved", label: "Saved" },
   { to: "/compare", label: "Compare" },
   { to: "/alerts", label: "Alerts" },

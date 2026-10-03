@@ -4,6 +4,10 @@
  * rethrown as `ApiError`.
  */
 
+const BASE_URL = "/api"; // proxied to FastAPI by the Vite dev server
+
+const UNREACHABLE = "Can't reach the backend. Is it running? (make dev)";
+
 interface ApiErrorBody {
   error: { code: string; message: string; details: Record<string, unknown> };
 }
@@ -30,9 +34,24 @@ export class ApiError extends Error {
     const id = this.details.feature_id;
     return typeof id === "string" ? id : undefined;
   }
+
+  /** For `validation_error`: {field: message}, keyed by the request-body field name. */
+  get fieldErrors(): Record<string, string> {
+    const fields = this.details.fields;
+    if (!Array.isArray(fields)) return {};
+    const errors: Record<string, string> = {};
+    for (const { loc, msg } of fields as { loc: string[]; msg: string }[]) {
+      const field = loc[0] === "body" ? loc[1] : loc.at(-1);
+      if (field && !(field in errors)) errors[field] = msg;
+    }
+    return errors;
+  }
 }
 
-const BASE_URL = "/api"; // proxied to FastAPI by the Vite dev server
+/** A message for any error from `apiFetch`, including the backend being unreachable. */
+export function describeError(error: unknown): string {
+  return error instanceof ApiError ? error.message : UNREACHABLE; // fetch itself failed
+}
 
 export async function apiFetch<T>(path: string, init: RequestInit = {}): Promise<T> {
   const response = await fetch(`${BASE_URL}${path}`, {
@@ -44,6 +63,10 @@ export async function apiFetch<T>(path: string, init: RequestInit = {}): Promise
   const body: unknown = await response.json().catch(() => null);
   if (!response.ok) {
     const error = (body as ApiErrorBody | null)?.error;
+    // The dev proxy answers 502/504 with no body when FastAPI is down.
+    if (!error && (response.status === 502 || response.status === 504)) {
+      throw new ApiError(response.status, "backend_unreachable", UNREACHABLE);
+    }
     throw new ApiError(
       response.status,
       error?.code ?? "http_error",

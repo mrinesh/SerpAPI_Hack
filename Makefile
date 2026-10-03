@@ -32,9 +32,9 @@ backend: ## Run only the backend
 frontend: ## Run only the frontend
 	cd $(FRONTEND) && npm run dev
 
-test: ## Backend tests + frontend typecheck
+test: ## Backend tests, frontend typecheck and frontend tests
 	cd $(BACKEND) && uv run pytest
-	cd $(FRONTEND) && npm run typecheck
+	cd $(FRONTEND) && npm run typecheck && npm test
 
 lint: ## ruff, format check, eslint, tsc
 	cd $(BACKEND) && uv run ruff check . && uv run ruff format --check .
