@@ -11,7 +11,8 @@ export function PropertyPage() {
     >
       <p>
         Header facts (price, size, type, locality) each with a source link and confidence badge;
-        investment metrics (price per sq ft vs area, yields, cap rate) with assumptions.
+        investment metrics (price per sq ft vs area, rental yield, price growth, total return) against
+        the profile's ROI target.
       </p>
       <p>
         Area panel: amenities map, news and infrastructure, price level, rental demand. Commercial

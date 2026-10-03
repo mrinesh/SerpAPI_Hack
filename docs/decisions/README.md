@@ -14,3 +14,4 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0007](0007-single-user-local-app.md) | Single-user local app; auth deferred | Accepted |
 | [0008](0008-code-computes-llm-explains.md) | Code computes scores and money; the LLM extracts and explains | Accepted |
 | [0009](0009-sqlite-over-duckdb.md) | SQLite over DuckDB; WAL mode, foreign keys on | Accepted |
+| [0010](0010-roi-definition.md) | One ROI target: rental yield, price growth or total return; no net yield or cap rate | Accepted |

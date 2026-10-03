@@ -26,7 +26,7 @@ It is slow and inconsistent, and the results are hard to compare. Realty Intel r
 | **AI verification** | Gemini extracts structured fields, scores each listing against your profile, and flags mismatches and missing data |
 | **Area intelligence** | Amenities (Maps), news and infrastructure (News), price level (Search), rental demand (Trends), cached per locality |
 | **Competitor analysis** | For commercial property: same-category businesses nearby, ratings, review volume, density, market gaps |
-| **Investment metrics** | Price per sq ft vs area average, gross and net rental yield, cap rate |
+| **Investment metrics** | Price per sq ft vs area average, rental yield, price growth and total return, checked against your ROI target |
 | **Trust** | Every data point shows its source and the model's confidence |
 
 ## SerpApi usage

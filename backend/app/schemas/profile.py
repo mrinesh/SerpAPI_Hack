@@ -33,6 +33,21 @@ class InvestmentGoal(StrEnum):
     BALANCED = "balanced"
 
 
+class ROIMeasure(StrEnum):
+    """What the profile's target ROI is compared against (docs/decisions/0010-roi-definition.md)."""
+
+    RENTAL_YIELD = "rental_yield"  # annual rent / price, before costs
+    PRICE_GROWTH = "price_growth"  # past-12-month locality change, or the investor's override
+    TOTAL_RETURN = "total_return"  # rental yield + price growth
+
+
+GOAL_MEASURE: dict[InvestmentGoal, ROIMeasure] = {
+    InvestmentGoal.RENTAL_INCOME: ROIMeasure.RENTAL_YIELD,
+    InvestmentGoal.APPRECIATION: ROIMeasure.PRICE_GROWTH,
+    InvestmentGoal.BALANCED: ROIMeasure.TOTAL_RETURN,
+}
+
+
 class InvestorProfileIn(BaseModel):
     name: str = Field(min_length=1, max_length=80)
     segment: Segment

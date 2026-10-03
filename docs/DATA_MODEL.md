@@ -35,7 +35,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `Verification`, `QualityFlag` | `listing.py` | LLM match score, verdict, mismatches, flags |
 | `AreaIntel` (+ `Amenity`, `NewsItem`, `PriceTrend`, `RentalDemand`) | `area.py` | Per-locality intelligence |
 | `CompetitorReport`, `Competitor` | `competitor.py` | Commercial competition around a point |
-| `InvestmentMetrics` | `metrics.py` | Price per sq ft, yields, cap rate, assumptions |
+| `InvestmentMetrics` | `metrics.py` | Price per sq ft vs area, rental yield, price growth, total return, target check |
 | `Recommendation` | `recommendation.py` | Rank, composite score, breakdown, reason |
 | `PipelineRun`, `StageEvent` | `run.py` | Run status and live progress |
 | `PropertyDetail`, `CompareResult`, `SavedProperty`, `Alert`, `BudgetStatus`, `HealthStatus` | `views.py` | Screen-specific responses |

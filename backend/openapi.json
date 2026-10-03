@@ -1199,16 +1199,19 @@
           "est_monthly_rent_inr": {
             "$ref": "#/components/schemas/Sourced_int_"
           },
-          "gross_yield_pct": {
+          "rental_yield_pct": {
             "$ref": "#/components/schemas/Sourced_float_"
           },
-          "net_yield_pct": {
+          "price_growth_pct": {
             "$ref": "#/components/schemas/Sourced_float_"
           },
-          "cap_rate_pct": {
+          "total_return_pct": {
             "$ref": "#/components/schemas/Sourced_float_"
           },
-          "meets_target_yield": {
+          "roi_measure": {
+            "$ref": "#/components/schemas/ROIMeasure"
+          },
+          "meets_target_roi": {
             "anyOf": [
               {
                 "type": "boolean"
@@ -1217,14 +1220,7 @@
                 "type": "null"
               }
             ],
-            "title": "Meets Target Yield"
-          },
-          "assumptions": {
-            "additionalProperties": {
-              "type": "number"
-            },
-            "type": "object",
-            "title": "Assumptions"
+            "title": "Meets Target Roi"
           }
         },
         "type": "object",
@@ -1233,9 +1229,10 @@
           "area_avg_price_per_sqft",
           "price_vs_area_pct",
           "est_monthly_rent_inr",
-          "gross_yield_pct",
-          "net_yield_pct",
-          "cap_rate_pct"
+          "rental_yield_pct",
+          "price_growth_pct",
+          "total_return_pct",
+          "roi_measure"
         ],
         "title": "InvestmentMetrics"
       },
@@ -1938,6 +1935,16 @@
           "location_mismatch"
         ],
         "title": "QualityFlagKind"
+      },
+      "ROIMeasure": {
+        "type": "string",
+        "enum": [
+          "rental_yield",
+          "price_growth",
+          "total_return"
+        ],
+        "title": "ROIMeasure",
+        "description": "What the profile's target ROI is compared against (docs/decisions/0010-roi-definition.md)."
       },
       "Recommendation": {
         "properties": {

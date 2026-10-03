@@ -5,12 +5,14 @@ is `Sourced` with method `computed` and carries its inputs' sources forward.
 
     price_per_sqft     = price / size
     price_vs_area_pct  = (price_per_sqft / area_avg_price_per_sqft - 1) * 100
-    gross_yield_pct    = est_monthly_rent * 12 / price * 100
-    net_yield_pct      = (rent * 12 * (1 - vacancy) - maintenance - property_tax) / price * 100
-    cap_rate_pct       = net operating income / price * 100    (commercial)
+    rental_yield_pct   = est_monthly_rent * 12 / price * 100          (before any costs)
+    price_growth_pct   = profile.expected_growth_pct if set, else the locality's
+                         past-12-month change in price per sq ft (missing if not found)
+    total_return_pct   = rental_yield_pct + price_growth_pct
+    meets_target_roi   = value of GOAL_MEASURE[profile.goal] >= profile.target_roi_pct
 
-Default assumptions (vacancy, maintenance, tax) are listed in `DEFAULT_ASSUMPTIONS` and
-returned in `InvestmentMetrics.assumptions` so the UI can show them.
+There is no net yield or cap rate: both need cost assumptions (vacancy, maintenance, tax,
+operating costs) that we would have to source (docs/decisions/0010-roi-definition.md).
 """
 
 from app.core.errors import NotImplementedYet
@@ -18,8 +20,6 @@ from app.schemas.area import AreaIntel
 from app.schemas.listing import Listing
 from app.schemas.metrics import InvestmentMetrics
 from app.schemas.profile import InvestorProfile
-
-DEFAULT_ASSUMPTIONS: dict[str, float] = {}  # filled in F-09 with cited sources in docs/PIPELINE.md
 
 
 def compute_metrics(

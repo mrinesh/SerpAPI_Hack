@@ -434,15 +434,12 @@ export interface components {
             area_avg_price_per_sqft: components["schemas"]["Sourced_float_"];
             price_vs_area_pct: components["schemas"]["Sourced_float_"];
             est_monthly_rent_inr: components["schemas"]["Sourced_int_"];
-            gross_yield_pct: components["schemas"]["Sourced_float_"];
-            net_yield_pct: components["schemas"]["Sourced_float_"];
-            cap_rate_pct: components["schemas"]["Sourced_float_"];
-            /** Meets Target Yield */
-            meets_target_yield?: boolean | null;
-            /** Assumptions */
-            assumptions?: {
-                [key: string]: number;
-            };
+            rental_yield_pct: components["schemas"]["Sourced_float_"];
+            price_growth_pct: components["schemas"]["Sourced_float_"];
+            total_return_pct: components["schemas"]["Sourced_float_"];
+            roi_measure: components["schemas"]["ROIMeasure"];
+            /** Meets Target Roi */
+            meets_target_roi?: boolean | null;
         };
         /** InvestorProfile */
         InvestorProfile: {
@@ -676,6 +673,12 @@ export interface components {
          * @enum {string}
          */
         QualityFlagKind: "stale" | "duplicate" | "too_good_to_be_true" | "missing_price" | "missing_size" | "not_a_listing" | "location_mismatch";
+        /**
+         * ROIMeasure
+         * @description What the profile's target ROI is compared against (docs/decisions/0010-roi-definition.md).
+         * @enum {string}
+         */
+        ROIMeasure: "rental_yield" | "price_growth" | "total_return";
         /** Recommendation */
         Recommendation: {
             /** Rank */

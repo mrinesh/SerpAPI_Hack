@@ -1,6 +1,6 @@
 # 0008. Code computes scores and money; the LLM extracts and explains
 
-- **Status:** Accepted
+- **Status:** Accepted (metric list amended by [0010](0010-roi-definition.md))
 - **Date:** 2026-10-03
 
 ## Context

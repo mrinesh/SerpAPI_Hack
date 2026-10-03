@@ -233,8 +233,9 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 
 ### F-09 Investment metrics · P0 · 🧱
 - [ ] Rent estimate (`extract_rent` from search results)
-- [ ] Price per sq ft vs area average, gross and net yield, cap rate (commercial)
-- [ ] Assumptions documented with sources in docs/PIPELINE.md
+- [x] ROI definition settled: rental yield, price growth, total return; no net yield or cap rate (ADR 0010)
+- [ ] Price per sq ft vs area average, rental yield, price growth (override or locality), total return
+- [ ] `meets_target_roi` using the goal's measure
 - [ ] Exhaustive unit tests (pure functions)
 
 ### F-10 Alerts · P1 · 🧱
@@ -269,7 +270,7 @@ Kept current as features land. ✅ means the doc exists and matches the code tod
 - [x] docs/PRODUCT.md, docs/ARCHITECTURE.md, docs/PIPELINE.md
 - [x] docs/SERPAPI_USAGE.md (doubles as the submission's SerpApi explanation)
 - [x] docs/DATA_MODEL.md, docs/API.md, docs/DEVELOPMENT.md
-- [x] docs/decisions/ ADR 0001–0008
+- [x] docs/decisions/ ADR 0001–0010
 - [ ] docs/spikes/S-01 filled with real findings
 - [ ] Screenshots / GIF in README
 - [ ] Final pass: every endpoint in API.md shows its real status

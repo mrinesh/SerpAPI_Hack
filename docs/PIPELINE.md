@@ -88,19 +88,20 @@ density, ratings, review volume, saturation. P1: google_maps_reviews for the top
 |---|---|
 | Price per sq ft | price / size |
 | vs area average | (price per sq ft / locality average − 1) × 100 |
-| Gross yield | monthly rent × 12 / price × 100 |
-| Net yield | (rent × 12 × (1 − vacancy) − maintenance − property tax) / price × 100 |
-| Cap rate (commercial) | net operating income / price × 100 |
+| Rental yield | monthly rent × 12 / price × 100, before any costs |
+| Price growth | investor's override if set, else the locality's past-12-month change in price per sq ft |
+| Total return | rental yield + price growth |
+| Meets target | the goal's measure ≥ `target_roi_pct` (rental income → yield, appreciation → growth, balanced → total) |
 
-Assumptions (vacancy, maintenance, tax) live in `DEFAULT_ASSUMPTIONS` and are returned with
-every result. Document each value and its source here when F-09 lands.
+No net yield or cap rate: both need cost assumptions we would have to source
+([ADR 0010](decisions/0010-roi-definition.md)). Missing inputs give a missing metric, never zero.
 
 ## 6 · Rank (`ranking.py`, F-04)
 
 **In:** verified, enriched listings · **Out:** `list[Recommendation]`
 
 Composite score computed in code, with weights set by `goal` and `risk_appetite`:
-match score, yield vs target, price vs area average, area signals, and quality-flag penalties.
+match score, ROI vs target, price vs area average, area signals, and quality-flag penalties.
 `score_breakdown` exposes each component. Gemini (`explain_recommendation`) writes only the
 reason, highlights and risks, quoting numbers from the inputs.
 

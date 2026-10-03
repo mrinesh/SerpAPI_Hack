@@ -44,7 +44,7 @@ Numbering matches [CHECKLIST.md](../CHECKLIST.md), which tracks status.
 | F-06 | Competitor analysis | Commercial: same-category businesses nearby, ratings, review volume, density, market gaps | P0 |
 | F-07 | Property detail page | Everything above for one property in one view | P0 |
 | F-08 | Saved and compare | Side-by-side comparison of 2–4 shortlisted properties | P1 |
-| F-09 | Investment metrics | Rental yield, cap rate, price per sq ft vs area average | P0 |
+| F-09 | Investment metrics | Rental yield, price growth, total return, price per sq ft vs area average | P0 |
 | F-10 | Alerts | New matching listings and price drops | P1 |
 | F-11 | Source citations and confidence | Source link and confidence on every data point | P0 |
 | F-12 | Listing quality flags | Stale, duplicate and too-good-to-be-true listings | P1 |
