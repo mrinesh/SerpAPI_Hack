@@ -1,3 +1,36 @@
+# Realty Intel: real estate investor intelligence on SerpApi
+
+SerpApi India Hackathon 2026 entry (deadline **Oct 10, 2026, 23:59 IST**; track Commerce &
+Market Intelligence; demo market Bengaluru). Constraints: [HACKATHON_BRIEF.md](HACKATHON_BRIEF.md).
+Product: [docs/PRODUCT.md](docs/PRODUCT.md). Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+Stack: FastAPI (uv) backend in `backend/`, React + Vite + TypeScript frontend in `frontend/`,
+SQLite, official `serpapi` SDK, Gemini via `google-genai`.
+
+## Documentation discipline (required)
+
+Keep docs and the tracker current as work happens, not at the end:
+- **[CHECKLIST.md](CHECKLIST.md)** is the source of truth for status. When starting an item mark
+  it 🟨; when finishing, tick its boxes and set ✅, in the same change as the code.
+- Walk the **definition of done** in [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md#definition-of-done)
+  before calling anything done: tests, lint, CHECKLIST, affected docs (API.md status column,
+  PIPELINE.md, DATA_MODEL.md, SERPAPI_USAGE.md), and a CHANGELOG line.
+- New choices someone could question get an ADR in `docs/decisions/`.
+- Spike findings go in `docs/spikes/`.
+
+## Code rules
+
+- Layers point one way: `api → services → pipeline → integrations`.
+- Only `backend/app/integrations/serpapi/gateway.py` imports `serpapi`; only
+  `backend/app/integrations/llm/` imports `google.genai`.
+- Investor-facing facts are `Sourced[T]`. Scores and money are computed in code; the LLM only
+  extracts and explains (ADR 0008).
+- Unbuilt code raises `NotImplementedYet("<CHECKLIST ID>", "...")`; grep the ID to find stubs.
+- Never spend live SerpApi searches casually: 250/month free tier. Default modes are `replay`;
+  use `record` deliberately and commit the fixtures.
+- After changing a Pydantic schema run `make types`. Never hand-write frontend response types.
+- `make lint` and `make test` must pass.
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
