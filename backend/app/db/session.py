@@ -1,13 +1,13 @@
 """Engine, session factory and the FastAPI session dependency.
 
 SQLite keeps the local-run path to zero services. Tables are created on startup; there are no
-migrations during the hackathon (docs/decisions/0001-stack.md).
+migrations during the hackathon (docs/decisions/0001-stack.md, 0009-sqlite-over-duckdb.md).
 """
 
 from collections.abc import Iterator
 from pathlib import Path
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, event
 from sqlalchemy.orm import Session, sessionmaker
 
 from app.config import get_settings
@@ -28,6 +28,19 @@ engine = create_engine(
     else {},
 )
 SessionLocal = sessionmaker(bind=engine, autoflush=False, expire_on_commit=False)
+
+if engine.dialect.name == "sqlite":
+
+    @event.listens_for(engine, "connect")
+    def _sqlite_pragmas(dbapi_connection, _connection_record) -> None:
+        cursor = dbapi_connection.cursor()
+        # WAL lets the UI keep reading while the pipeline thread writes.
+        cursor.execute("PRAGMA journal_mode=WAL")
+        # Wait for a competing writer instead of failing with "database is locked".
+        cursor.execute("PRAGMA busy_timeout=5000")
+        # SQLite ignores foreign keys unless asked, per connection.
+        cursor.execute("PRAGMA foreign_keys=ON")
+        cursor.close()
 
 
 def init_db() -> None:
