@@ -58,7 +58,7 @@ A request with no fixture in `replay` mode fails with `503 replay_miss`; record 
 | `make demo` | Same, forced to replay mode |
 | `make record` | Backend in record mode (spends searches; commit the new fixtures) |
 | `make backend` / `make frontend` | Run one side |
-| `make test` | Backend tests + frontend typecheck |
+| `make test` | Backend tests (pytest), frontend typecheck and tests (vitest) |
 | `make lint` | ruff, ruff format check, eslint, tsc |
 | `make fmt` | Auto-format and fix the backend |
 | `make types` | Export OpenAPI and regenerate `frontend/src/api/schema.d.ts` |
@@ -77,6 +77,9 @@ A request with no fixture in `replay` mode fails with `503 replay_miss`; record 
 
 **Frontend**
 - Response types come from `src/api/schema.d.ts` (generated), never hand-written.
+- Form choices (property types, localities, goals...) come from `GET /api/meta/profile-options`,
+  never hard-coded.
+- Pure logic (money conversion, form validation) lives in `.ts` files with `*.test.ts` beside them.
 - All HTTP goes through `src/api/client.ts`; data fetching through TanStack Query hooks.
 - One file per route in `src/pages`; shared pieces in `src/components`.
 
@@ -106,6 +109,12 @@ A checklist item is ✅ only when **all** of these are true, in the same commit 
 4. Implement pipeline/service logic, then the route, then the UI.
 5. Record fixtures for any new SerpApi or LLM call (`make record`), commit them.
 6. Walk the definition of done.
+
+## Known tooling issues
+
+- **npm 10.9 cannot add vitest ≥ 4** (`Cannot read properties of null (reading 'edgesOut')`, an
+  npm bug). Installing from the committed lockfile works on npm 10. To add or upgrade frontend
+  dev dependencies, use npm 11 for that one command: `npx npm@11 install -D <package>`.
 
 ## Knowledge graph
 

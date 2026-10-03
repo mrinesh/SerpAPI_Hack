@@ -106,6 +106,7 @@ All errors are `{"error": {"code", "message", "details"}}` (`app/core/errors.py`
 | Code | HTTP | Meaning |
 |---|---|---|
 | `not_found` | 404 | Unknown id |
+| `validation_error` | 422 | Invalid input; `details.fields` lists `{loc, msg}` per field |
 | `not_implemented` | 501 | Scaffolded, not built; `details.feature_id` names the CHECKLIST row |
 | `search_budget_exceeded` | 429 | A live search would exceed the run or monthly budget |
 | `replay_miss` | 503 | Replay mode has no fixture for this request |

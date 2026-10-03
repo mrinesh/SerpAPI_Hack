@@ -22,7 +22,7 @@ Individual and small-firm real estate investors, residential and commercial. The
 
 | Persona | Wants | Key screens |
 |---|---|---|
-| Residential yield investor | 2–3 BHK under a budget with good rental yield near transit | Results, detail (yield, amenities, news) |
+| Residential yield investor | An apartment under a budget with good rental yield near transit | Results, detail (yield, amenities, news) |
 | Commercial investor | Retail or office space where a given business would do well | Results, detail (competitors, density, gaps) |
 
 ## Core value
@@ -36,7 +36,7 @@ Numbering matches [CHECKLIST.md](../CHECKLIST.md), which tracks status.
 
 | ID | Feature | What it does | Priority |
 |---|---|---|---|
-| F-01 | Investor profile | Budget, locations, property type, ROI target, risk appetite, residential or commercial | P0 |
+| F-01 | Investor profile | Residential or commercial, property types, size, 1–5 localities, budget, goal with a target ROI, risk appetite, must-haves; business type for commercial | P0 |
 | F-02 | Property discovery | Turns criteria into SerpApi searches across listing portals and Maps | P0 |
 | F-03 | AI relevance verification | Gemini extracts structured fields, scores each listing against the profile, flags mismatches and missing data | P0 |
 | F-04 | Recommendations | Ranked shortlist with a match score and a plain-language reason for each pick | P0 |

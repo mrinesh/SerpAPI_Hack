@@ -40,6 +40,24 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `PipelineRun`, `StageEvent` | `run.py` | Run status and live progress |
 | `PropertyDetail`, `CompareResult`, `SavedProperty`, `Alert`, `BudgetStatus`, `HealthStatus` | `views.py` | Screen-specific responses |
 
+## Investor profile
+
+`InvestorProfileIn` (`schemas/profile.py`); every check is field-level so the UI can highlight it.
+
+| Field | Rule |
+|---|---|
+| `name` | required, 1–80 chars |
+| `segment` | `residential` or `commercial` |
+| `property_types` | 1+ of the segment's types: Apartment / Flat, Independent House / Villa, Builder Floor, Plot / Land; Office Space, Shop / Showroom, Warehouse / Godown, Commercial Land |
+| `size_min_sqft`, `size_max_sqft` | optional, max ≥ min |
+| `business_type` | required for commercial, not allowed for residential; free text (UI suggests a few) |
+| `city`, `localities` | 1–5 unique slugs from `app/reference/<city>.json` (checked in the service) |
+| `must_haves` | optional, up to 10 non-empty strings |
+| `budget_min_inr`, `budget_max_inr` | whole rupees; max required, max ≥ min |
+| `goal`, `target_roi_pct` | the goal picks the ROI measure (`roi_measure`); target 0–100 ([ADR 0010](decisions/0010-roi-definition.md)) |
+| `expected_growth_pct` | optional override of the locality's past-12-month change, −100 to 100 |
+| `risk_appetite` | `conservative`, `balanced` or `aggressive` |
+
 ## Tables
 
 | Table | Key | Holds | Notes |

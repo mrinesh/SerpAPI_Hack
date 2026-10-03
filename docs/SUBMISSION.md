@@ -27,9 +27,9 @@ locks on first submit; edits stay open).
 | Time | Show |
 |---|---|
 | 0:00–0:15 | Problem: an investor juggling portals, maps and news tabs |
-| 0:15–0:40 | Create a residential profile (Bengaluru, ₹80 L, 2 BHK, yield target) |
+| 0:15–0:40 | Create a residential profile in the wizard (Bengaluru localities, up to ₹80 L, apartment, rental-income goal with a target ROI) |
 | 0:40–1:10 | Live pipeline progress: searches, cache hits, verify, enrich |
-| 1:10–1:50 | Ranked results on the map; open one: reason, yield vs area, amenities, news, source links |
+| 1:10–1:50 | Ranked results on the map; open one: reason, ROI vs target, price vs area, amenities, news, source links |
 | 1:50–2:30 | Commercial profile (cafe): competitor density, ratings, gaps |
 | 2:30–2:50 | Compare 3 properties; alert for a price drop |
 | 2:50–3:00 | SerpApi engines used + "runs offline in replay mode" |

@@ -7,6 +7,7 @@ npm install
 npm run dev        # http://localhost:5173, proxies /api to http://localhost:8000
 npm run typecheck
 npm run lint
+npm test           # vitest
 npm run gen:types  # regenerate src/api/schema.d.ts from ../backend/openapi.json
 ```
 
@@ -17,6 +18,8 @@ npm run gen:types  # regenerate src/api/schema.d.ts from ../backend/openapi.json
 | `src/api/types.ts` | Friendly aliases for the generated types |
 | `src/api/hooks.ts` | TanStack Query hooks, one per endpoint |
 | `src/pages/` | One component per route (see `src/router.tsx`) |
+| `src/components/profile/` | Profile wizard: steps, controls, and `formState.ts` (pure logic + tests) |
+| `src/lib/` | Pure helpers, e.g. `money.ts` (lakh/crore ↔ rupees) |
 | `src/components/` | Shared UI |
 
 Full docs: [../docs/README.md](../docs/README.md).

@@ -6,14 +6,20 @@ Errors use one shape, `{"error": {"code", "message", "details"}}`; see
 
 Status: ✅ built · 🧱 scaffolded (returns `501 not_implemented` with the checklist ID).
 
+Invalid input returns `422` with `details.fields`, a list of `{loc, msg}` where `loc` is like
+`["body", "localities"]`. Schema errors and reference-data errors (unknown locality, unsupported
+city) use the same shape.
+
 | Method | Path | Returns | Feature | Status |
 |---|---|---|---|---|
 | GET | `/health` | `HealthStatus`: version, provider modes, city | I-01 | ✅ |
 | GET | `/meta/budget` | `BudgetStatus`: searches used, cache hits, account searches left | I-05 | 🧱 |
-| POST | `/profiles` | `InvestorProfile` (201) | F-01 | 🧱 |
-| GET | `/profiles` | `InvestorProfile[]` | F-01 | 🧱 |
-| GET | `/profiles/{profile_id}` | `InvestorProfile` | F-01 | 🧱 |
-| PUT | `/profiles/{profile_id}` | `InvestorProfile` | F-01 | 🧱 |
+| GET | `/meta/profile-options?city=` | `ProfileOptions`: segments and property types, localities, goals with their ROI measure, risk levels, limits | F-01 | ✅ |
+| POST | `/profiles` | `InvestorProfile` (201) | F-01 | ✅ |
+| GET | `/profiles` | `InvestorProfile[]` | F-01 | ✅ |
+| GET | `/profiles/{profile_id}` | `InvestorProfile` | F-01 | ✅ |
+| PUT | `/profiles/{profile_id}` | `InvestorProfile` | F-01 | ✅ |
+| DELETE | `/profiles/{profile_id}` | 204 | F-01 | ✅ |
 | POST | `/profiles/{profile_id}/runs` | `PipelineRun` (202); poll the run | I-09 | 🧱 |
 | GET | `/runs/{run_id}` | `PipelineRun` with `StageEvent[]` | I-09, F-20 | 🧱 |
 | GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked | F-04 | 🧱 |

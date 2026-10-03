@@ -41,7 +41,7 @@ code for an ID finds every stub that belongs to it.
 | I-13 | Recorded demo fixtures for judges | P0 | ⬜ | |
 | I-14 | CI: lint, typecheck, tests on push | P1 | ⬜ | |
 | **Features (F-01 to F-08 match the product brief's numbering)** | | | | |
-| F-01 | Investor profile | P0 | 🧱 | |
+| F-01 | Investor profile | P0 | ✅ | |
 | F-02 | Property discovery | P0 | 🧱 | |
 | F-03 | AI relevance verification | P0 | 🧱 | |
 | F-04 | Ranked recommendations with reasons | P0 | 🧱 | |
@@ -151,6 +151,7 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 
 ### I-08 Database · P0 · 🧱
 - [x] Tables defined in `app/db/models.py`, created on startup
+- [x] WAL mode, `busy_timeout`, foreign keys on (ADR 0009)
 - [ ] Repository helpers as each feature needs them
 - [ ] docs/DATA_MODEL.md kept in sync
 
@@ -163,18 +164,19 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 - [x] Routes and placeholder pages for every screen
 - [x] Typed API client with the shared error shape
 - [x] `make types` generates `src/api/schema.d.ts` from OpenAPI (rerun after schema changes)
-- [ ] TanStack Query hooks per endpoint
+- [ ] TanStack Query hooks per endpoint (health and profiles done)
 
 ### I-11 Scheduler · P1 · 🧱
 - [x] APScheduler wiring, off by default (`SCHEDULER_ENABLED`)
 - [ ] Alert job wired to F-10
 
 ### I-12 Locality data and geocoding · P0 · 🧱
-- [x] `app/reference/bengaluru.json` with localities and aliases
+- [x] `app/reference/bengaluru.json`: 15 localities verified on Wikipedia's neighbourhood list, with slugs
 - [ ] Geocode each locality centre via google_maps once; cache permanently
 - [ ] Locality matching (aliases, fuzzy) used by cleaning and area intel
 
 ### I-13 Demo fixtures · P0 · ⬜
+- [ ] Two demo profiles (values chosen with the team, moved here from F-01)
 - [ ] Record one residential and one commercial demo run end to end
 - [ ] Verify `make demo` works on a fresh clone with no `.env`
 
@@ -185,11 +187,16 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 
 ## Features
 
-### F-01 Investor profile · P0 · 🧱
-- [x] Schema with validation (`InvestorProfileIn`)
-- [ ] Profile CRUD service + routes
-- [ ] Onboarding form (residential / commercial branches, budget in lakhs/crores)
-- [ ] Two seeded demo profiles (residential yield, commercial cafe)
+### F-01 Investor profile · P0 · ✅
+- [x] Fields decided with the product owner (2026-10-03): name, segment, property types, size,
+      business type (commercial), 1–5 localities, must-haves, budget, goal, target ROI,
+      growth override, risk appetite. No bedrooms.
+- [x] Schema with field-level validation (`InvestorProfileIn`); `roi_measure` from the goal (ADR 0010)
+- [x] Property types grouped from the portals' categories (NoBroker, 99acres)
+- [x] Profile CRUD + `DELETE`, checks against reference data, `GET /api/meta/profile-options`
+- [x] One 422 shape for schema and reference-data errors
+- [x] Profiles page and 3-step wizard (What → Where → Money), lakh/crore budget input
+- [x] Tests: 25 schema, 8 API, 15 frontend (money + form logic); checked in Chrome
 
 ### F-02 Property discovery · P0 · 🧱
 - [ ] `plan_queries` templates (from S-01)
@@ -197,6 +204,8 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 - [ ] Parsers: price (L / Cr / per month), area (sq ft / sq m / sq yd), portal, canonical URL
 - [ ] Result kind classification (listing / project / aggregate)
 - [ ] De-duplication (canonical URL, then fuzzy title + price + locality)
+- [ ] `listings` columns `price_inr`, `size_sqft`, `price_per_sqft` and a `listing_observations`
+      price-history table (agreed in the storage discussion, ADR 0009)
 - [ ] Unit tests for every parser example in `cleaning.py`
 
 ### F-03 AI relevance verification · P0 · 🧱
