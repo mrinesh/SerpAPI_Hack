@@ -1,0 +1,26 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1791026477.1213968,
+    "seen": 1791026478.8119109,
+    "ast_hash": "7c7ea3317b6aa4e9d65e1a5c3e8af874",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1791026477.1211503,
+    "seen": 1791026478.8119118,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": ""
+  },
+  "HACKATHON_BRIEF.md": {
+    "mtime": 1791025497.0611212,
+    "seen": 1791026478.811913,
+    "ast_hash": "4b4c67746310009dd73da84be3c7b1dd",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791023326.0095465,
+    "seen": 1791026478.811914,
+    "ast_hash": "cef1b64bc4a29454884ee75710fc3d15",
+    "semantic_hash": ""
+  }
+}

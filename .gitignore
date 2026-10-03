@@ -7,3 +7,7 @@ __pycache__/
 venv/
 dist/
 build/
+
+# graphify local artifacts
+graphify-out/cache/
+graphify-out/.graphify_*
