@@ -1,2 +1,87 @@
-# SerpAPI_Hack
+# Realty Intel *(working name)*
 
+**Real estate investor intelligence, built on live search data.** Tell it what you want to buy,
+and it finds listings through SerpApi, has Gemini check each one against your criteria, adds area
+intelligence (and competitor data for commercial property), and returns a ranked shortlist with
+a reason and a source link for every number.
+
+> **Status: framework stage.** The architecture, schemas, API surface and UI shell are in place;
+> features are being built now. Progress lives in **[CHECKLIST.md](CHECKLIST.md)**.
+>
+> Built for the SerpApi India Hackathon 2026 · Track: **Commerce & Market Intelligence** ·
+> Demo market: **Bengaluru**
+
+## Why
+
+Investors research across many tabs: listing portals, maps, news, review sites and market data.
+It is slow and inconsistent, and the results are hard to compare. Realty Intel runs one pipeline:
+
+**criteria → search → clean → AI verification → area and competitor enrichment → ranked shortlist**
+
+## What it does
+
+| | |
+|---|---|
+| **Discovery** | Site-filtered Google searches across 99acres, MagicBricks, Housing.com and NoBroker, plus Google Maps for commercial |
+| **AI verification** | Gemini extracts structured fields, scores each listing against your profile, and flags mismatches and missing data |
+| **Area intelligence** | Amenities (Maps), news and infrastructure (News), price level (Search), rental demand (Trends), cached per locality |
+| **Competitor analysis** | For commercial property: same-category businesses nearby, ratings, review volume, density, market gaps |
+| **Investment metrics** | Price per sq ft vs area average, gross and net rental yield, cap rate |
+| **Trust** | Every data point shows its source and the model's confidence |
+
+## SerpApi usage
+
+Five engines (`google`, `google_maps`, `google_news`, `google_trends`, `google_maps_reviews`)
+through the official `serpapi` Python SDK, plus the free Account, Locations and Search Archive
+APIs. Without search data there is no product. Details and the cost model:
+**[docs/SERPAPI_USAGE.md](docs/SERPAPI_USAGE.md)**.
+
+## Quickstart
+
+Requires [uv](https://docs.astral.sh/uv/), Node.js 22 or 24 LTS (20.19+ works) and make.
+
+```bash
+git clone <repo-url> && cd SerpAPI_Hack
+make setup    # installs backend + frontend, creates .env
+make demo     # replay mode: no API keys needed, no searches spent
+```
+
+- App: <http://localhost:5173>
+- API docs: <http://localhost:8000/docs>
+
+To run against live data, put `SERPAPI_API_KEY` and `GEMINI_API_KEY` in `.env`, set
+`SERPAPI_MODE=live` and `LLM_MODE=live`, then `make dev`. See
+[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md#provider-modes).
+
+## Architecture
+
+```
+React (Vite · TS · Tailwind · Leaflet)  ──/api──▶  FastAPI
+                                                    ├─ services
+                                                    ├─ pipeline: plan → fetch → clean → verify → enrich → rank
+                                                    ├─ SerpApi gateway (cache · budget · record/replay) ──▶ SerpApi
+                                                    ├─ LLM provider (record/replay) ──▶ Gemini
+                                                    └─ SQLite
+```
+
+Full picture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · stage detail:
+[docs/PIPELINE.md](docs/PIPELINE.md) · decisions: [docs/decisions/](docs/decisions/).
+
+## Repository layout
+
+```
+backend/      FastAPI app, pipeline, SerpApi/Gemini integrations, tests, recorded fixtures
+frontend/     React app
+docs/         product, architecture, pipeline, SerpApi usage, API, data model, ADRs
+CHECKLIST.md  feature tracker: what's done, what's pending
+CHANGELOG.md  dated log of changes
+```
+
+## Documentation
+
+Start at **[docs/README.md](docs/README.md)**.
+
+## AI disclosure
+
+Developed with the help of Claude Code. Gemini is used inside the product for extraction,
+verification and explanations.
