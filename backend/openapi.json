@@ -1,0 +1,2708 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Realty Intel API",
+    "description": "SerpApi-powered research and recommendations for real-estate investors.",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/api/health": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Health",
+        "operationId": "health_api_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthStatus"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/meta/budget": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Get Budget",
+        "operationId": "get_budget_api_meta_budget_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BudgetStatus"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/profiles": {
+      "get": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "List Profiles",
+        "operationId": "list_profiles_api_profiles_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/InvestorProfile"
+                  },
+                  "type": "array",
+                  "title": "Response List Profiles Api Profiles Get"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "Create Profile",
+        "operationId": "create_profile_api_profiles_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvestorProfileIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvestorProfile"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/profiles/{profile_id}": {
+      "get": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "Get Profile",
+        "operationId": "get_profile_api_profiles__profile_id__get",
+        "parameters": [
+          {
+            "name": "profile_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Profile Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvestorProfile"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "Update Profile",
+        "operationId": "update_profile_api_profiles__profile_id__put",
+        "parameters": [
+          {
+            "name": "profile_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Profile Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvestorProfileIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvestorProfile"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/profiles/{profile_id}/runs": {
+      "post": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "Start Run",
+        "description": "Start the search -> verify -> enrich -> rank pipeline. Poll GET /api/runs/{id}.",
+        "operationId": "start_run_api_profiles__profile_id__runs_post",
+        "parameters": [
+          {
+            "name": "profile_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Profile Id"
+            }
+          }
+        ],
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PipelineRun"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/runs/{run_id}": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Run",
+        "operationId": "get_run_api_runs__run_id__get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PipelineRun"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/runs/{run_id}/recommendations": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Recommendations",
+        "operationId": "get_recommendations_api_runs__run_id__recommendations_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Recommendation"
+                  },
+                  "title": "Response Get Recommendations Api Runs  Run Id  Recommendations Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/properties/{listing_id}": {
+      "get": {
+        "tags": [
+          "properties"
+        ],
+        "summary": "Get Property",
+        "operationId": "get_property_api_properties__listing_id__get",
+        "parameters": [
+          {
+            "name": "listing_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Listing Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PropertyDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/areas/{locality_key}": {
+      "get": {
+        "tags": [
+          "properties"
+        ],
+        "summary": "Get Area",
+        "description": "`locality_key` looks like \"bengaluru/whitefield\".",
+        "operationId": "get_area_api_areas__locality_key__get",
+        "parameters": [
+          {
+            "name": "locality_key",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Locality Key"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AreaIntel"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/saved": {
+      "get": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "List Saved",
+        "operationId": "list_saved_api_saved_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/SavedProperty"
+                  },
+                  "type": "array",
+                  "title": "Response List Saved Api Saved Get"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Save",
+        "operationId": "save_api_saved_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaveRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SavedProperty"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/saved/{listing_id}": {
+      "delete": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Unsave",
+        "operationId": "unsave_api_saved__listing_id__delete",
+        "parameters": [
+          {
+            "name": "listing_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Listing Id"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/compare": {
+      "get": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Compare",
+        "operationId": "compare_api_compare_get",
+        "parameters": [
+          {
+            "name": "ids",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 2,
+              "maxItems": 4,
+              "title": "Ids"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompareResult"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/alerts": {
+      "get": {
+        "tags": [
+          "alerts"
+        ],
+        "summary": "List Alerts",
+        "operationId": "list_alerts_api_alerts_get",
+        "parameters": [
+          {
+            "name": "unread_only",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "default": false,
+              "title": "Unread Only"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Alert"
+                  },
+                  "title": "Response List Alerts Api Alerts Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/alerts/check": {
+      "post": {
+        "tags": [
+          "alerts"
+        ],
+        "summary": "Check Alerts",
+        "description": "Run the alert check now instead of waiting for the scheduler (used in the demo).",
+        "operationId": "check_alerts_api_alerts_check_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Alert"
+                  },
+                  "type": "array",
+                  "title": "Response Check Alerts Api Alerts Check Post"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Alert": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "profile_id": {
+            "type": "string",
+            "title": "Profile Id"
+          },
+          "kind": {
+            "$ref": "#/components/schemas/AlertKind"
+          },
+          "listing_id": {
+            "type": "string",
+            "title": "Listing Id"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          },
+          "read_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Read At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "profile_id",
+          "kind",
+          "listing_id",
+          "message",
+          "created_at"
+        ],
+        "title": "Alert"
+      },
+      "AlertKind": {
+        "type": "string",
+        "enum": [
+          "new_match",
+          "price_drop"
+        ],
+        "title": "AlertKind"
+      },
+      "Amenity": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "category": {
+            "$ref": "#/components/schemas/AmenityCategory"
+          },
+          "location": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/GeoPoint"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "distance_km": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Distance Km"
+          },
+          "rating": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rating"
+          },
+          "reviews": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reviews"
+          },
+          "source": {
+            "$ref": "#/components/schemas/SourceRef"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "category",
+          "source"
+        ],
+        "title": "Amenity"
+      },
+      "AmenityCategory": {
+        "type": "string",
+        "enum": [
+          "metro",
+          "bus",
+          "school",
+          "hospital",
+          "mall",
+          "supermarket",
+          "park",
+          "tech_park",
+          "other"
+        ],
+        "title": "AmenityCategory"
+      },
+      "AreaIntel": {
+        "properties": {
+          "locality_key": {
+            "type": "string",
+            "title": "Locality Key"
+          },
+          "locality": {
+            "type": "string",
+            "title": "Locality"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "center": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/GeoPoint"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "amenities": {
+            "items": {
+              "$ref": "#/components/schemas/Amenity"
+            },
+            "type": "array",
+            "title": "Amenities"
+          },
+          "news": {
+            "items": {
+              "$ref": "#/components/schemas/NewsItem"
+            },
+            "type": "array",
+            "title": "News"
+          },
+          "infrastructure_summary": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Sourced_str_"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "price_trend": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PriceTrend"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "rental_demand": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/RentalDemand"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "summary": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Summary"
+          },
+          "fetched_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Fetched At"
+          },
+          "expires_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Expires At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "locality_key",
+          "locality",
+          "city",
+          "fetched_at",
+          "expires_at"
+        ],
+        "title": "AreaIntel"
+      },
+      "BudgetStatus": {
+        "properties": {
+          "serpapi_mode": {
+            "$ref": "#/components/schemas/ProviderMode"
+          },
+          "monthly_budget": {
+            "type": "integer",
+            "title": "Monthly Budget"
+          },
+          "used_this_month": {
+            "type": "integer",
+            "title": "Used This Month"
+          },
+          "cache_hits_this_month": {
+            "type": "integer",
+            "title": "Cache Hits This Month"
+          },
+          "account_searches_left": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Account Searches Left"
+          }
+        },
+        "type": "object",
+        "required": [
+          "serpapi_mode",
+          "monthly_budget",
+          "used_this_month",
+          "cache_hits_this_month"
+        ],
+        "title": "BudgetStatus"
+      },
+      "CompareResult": {
+        "properties": {
+          "properties": {
+            "items": {
+              "$ref": "#/components/schemas/PropertyDetail"
+            },
+            "type": "array",
+            "maxItems": 4,
+            "minItems": 2,
+            "title": "Properties"
+          }
+        },
+        "type": "object",
+        "required": [
+          "properties"
+        ],
+        "title": "CompareResult"
+      },
+      "Competitor": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "location": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/GeoPoint"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "distance_km": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Distance Km"
+          },
+          "rating": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rating"
+          },
+          "reviews": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reviews"
+          },
+          "price_level": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Price Level"
+          },
+          "place_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Place Id"
+          },
+          "data_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Data Id"
+          },
+          "source": {
+            "$ref": "#/components/schemas/SourceRef"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "category",
+          "source"
+        ],
+        "title": "Competitor"
+      },
+      "CompetitorReport": {
+        "properties": {
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "center": {
+            "$ref": "#/components/schemas/GeoPoint"
+          },
+          "radius_km": {
+            "type": "number",
+            "title": "Radius Km"
+          },
+          "competitors": {
+            "items": {
+              "$ref": "#/components/schemas/Competitor"
+            },
+            "type": "array",
+            "title": "Competitors"
+          },
+          "density_per_sq_km": {
+            "type": "number",
+            "title": "Density Per Sq Km"
+          },
+          "avg_rating": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avg Rating"
+          },
+          "total_reviews": {
+            "type": "integer",
+            "title": "Total Reviews",
+            "default": 0
+          },
+          "saturation": {
+            "$ref": "#/components/schemas/Level"
+          },
+          "gaps": {
+            "items": {
+              "$ref": "#/components/schemas/Sourced_str_"
+            },
+            "type": "array",
+            "title": "Gaps"
+          },
+          "fetched_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Fetched At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "category",
+          "center",
+          "radius_km",
+          "density_per_sq_km",
+          "saturation",
+          "fetched_at"
+        ],
+        "title": "CompetitorReport"
+      },
+      "ExtractionMethod": {
+        "type": "string",
+        "enum": [
+          "serpapi_field",
+          "regex",
+          "llm",
+          "computed"
+        ],
+        "title": "ExtractionMethod"
+      },
+      "GeoPoint": {
+        "properties": {
+          "lat": {
+            "type": "number",
+            "maximum": 90.0,
+            "minimum": -90.0,
+            "title": "Lat"
+          },
+          "lng": {
+            "type": "number",
+            "maximum": 180.0,
+            "minimum": -180.0,
+            "title": "Lng"
+          }
+        },
+        "type": "object",
+        "required": [
+          "lat",
+          "lng"
+        ],
+        "title": "GeoPoint"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HealthStatus": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "version": {
+            "type": "string",
+            "title": "Version"
+          },
+          "serpapi_mode": {
+            "$ref": "#/components/schemas/ProviderMode"
+          },
+          "llm_mode": {
+            "$ref": "#/components/schemas/ProviderMode"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "version",
+          "serpapi_mode",
+          "llm_mode",
+          "city"
+        ],
+        "title": "HealthStatus"
+      },
+      "InvestmentGoal": {
+        "type": "string",
+        "enum": [
+          "rental_income",
+          "appreciation",
+          "balanced"
+        ],
+        "title": "InvestmentGoal"
+      },
+      "InvestmentMetrics": {
+        "properties": {
+          "price_per_sqft": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "area_avg_price_per_sqft": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "price_vs_area_pct": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "est_monthly_rent_inr": {
+            "$ref": "#/components/schemas/Sourced_int_"
+          },
+          "gross_yield_pct": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "net_yield_pct": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "cap_rate_pct": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "meets_target_yield": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Meets Target Yield"
+          },
+          "assumptions": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object",
+            "title": "Assumptions"
+          }
+        },
+        "type": "object",
+        "required": [
+          "price_per_sqft",
+          "area_avg_price_per_sqft",
+          "price_vs_area_pct",
+          "est_monthly_rent_inr",
+          "gross_yield_pct",
+          "net_yield_pct",
+          "cap_rate_pct"
+        ],
+        "title": "InvestmentMetrics"
+      },
+      "InvestorProfile": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 80,
+            "minLength": 1,
+            "title": "Name"
+          },
+          "segment": {
+            "$ref": "#/components/schemas/Segment"
+          },
+          "property_types": {
+            "items": {
+              "$ref": "#/components/schemas/PropertyType"
+            },
+            "type": "array",
+            "minItems": 1,
+            "title": "Property Types"
+          },
+          "city": {
+            "type": "string",
+            "title": "City",
+            "default": "Bengaluru"
+          },
+          "localities": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Localities"
+          },
+          "budget_min_inr": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget Min Inr"
+          },
+          "budget_max_inr": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Budget Max Inr"
+          },
+          "size_min_sqft": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Size Min Sqft"
+          },
+          "size_max_sqft": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Size Max Sqft"
+          },
+          "bedrooms": {
+            "items": {
+              "type": "integer"
+            },
+            "type": "array",
+            "title": "Bedrooms"
+          },
+          "target_yield_pct": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 100.0,
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target Yield Pct"
+          },
+          "risk_appetite": {
+            "$ref": "#/components/schemas/RiskAppetite",
+            "default": "balanced"
+          },
+          "goal": {
+            "$ref": "#/components/schemas/InvestmentGoal",
+            "default": "balanced"
+          },
+          "business_category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Business Category"
+          },
+          "must_haves": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Must Haves"
+          },
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Updated At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "segment",
+          "property_types",
+          "budget_max_inr",
+          "id",
+          "created_at",
+          "updated_at"
+        ],
+        "title": "InvestorProfile"
+      },
+      "InvestorProfileIn": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 80,
+            "minLength": 1,
+            "title": "Name"
+          },
+          "segment": {
+            "$ref": "#/components/schemas/Segment"
+          },
+          "property_types": {
+            "items": {
+              "$ref": "#/components/schemas/PropertyType"
+            },
+            "type": "array",
+            "minItems": 1,
+            "title": "Property Types"
+          },
+          "city": {
+            "type": "string",
+            "title": "City",
+            "default": "Bengaluru"
+          },
+          "localities": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Localities"
+          },
+          "budget_min_inr": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget Min Inr"
+          },
+          "budget_max_inr": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Budget Max Inr"
+          },
+          "size_min_sqft": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Size Min Sqft"
+          },
+          "size_max_sqft": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Size Max Sqft"
+          },
+          "bedrooms": {
+            "items": {
+              "type": "integer"
+            },
+            "type": "array",
+            "title": "Bedrooms"
+          },
+          "target_yield_pct": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 100.0,
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target Yield Pct"
+          },
+          "risk_appetite": {
+            "$ref": "#/components/schemas/RiskAppetite",
+            "default": "balanced"
+          },
+          "goal": {
+            "$ref": "#/components/schemas/InvestmentGoal",
+            "default": "balanced"
+          },
+          "business_category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Business Category"
+          },
+          "must_haves": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Must Haves"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "segment",
+          "property_types",
+          "budget_max_inr"
+        ],
+        "title": "InvestorProfileIn"
+      },
+      "Level": {
+        "type": "string",
+        "enum": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "title": "Level"
+      },
+      "Listing": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "canonical_url": {
+            "type": "string",
+            "title": "Canonical Url"
+          },
+          "portal": {
+            "$ref": "#/components/schemas/Portal"
+          },
+          "kind": {
+            "$ref": "#/components/schemas/ResultKind"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "segment": {
+            "$ref": "#/components/schemas/Segment"
+          },
+          "property_type": {
+            "$ref": "#/components/schemas/Sourced_PropertyType_"
+          },
+          "price_inr": {
+            "$ref": "#/components/schemas/Sourced_int_"
+          },
+          "size_sqft": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "bedrooms": {
+            "$ref": "#/components/schemas/Sourced_int_"
+          },
+          "locality": {
+            "$ref": "#/components/schemas/Sourced_str_"
+          },
+          "location": {
+            "$ref": "#/components/schemas/Sourced_GeoPoint_"
+          },
+          "amenities": {
+            "$ref": "#/components/schemas/Sourced_list_str__"
+          },
+          "posted_on": {
+            "$ref": "#/components/schemas/Sourced_date_"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "first_seen_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "First Seen At"
+          },
+          "last_seen_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Last Seen At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "canonical_url",
+          "portal",
+          "kind",
+          "title",
+          "segment",
+          "property_type",
+          "price_inr",
+          "size_sqft",
+          "bedrooms",
+          "locality",
+          "location",
+          "amenities",
+          "posted_on",
+          "first_seen_at",
+          "last_seen_at"
+        ],
+        "title": "Listing",
+        "description": "A cleaned, de-duplicated property candidate. Every factual field is `Sourced`."
+      },
+      "MatchVerdict": {
+        "type": "string",
+        "enum": [
+          "strong",
+          "partial",
+          "weak",
+          "reject"
+        ],
+        "title": "MatchVerdict"
+      },
+      "NewsItem": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url"
+          },
+          "outlet": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Outlet"
+          },
+          "published_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Published On"
+          },
+          "snippet": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Snippet"
+          },
+          "topic": {
+            "$ref": "#/components/schemas/NewsTopic",
+            "default": "other"
+          },
+          "sentiment": {
+            "$ref": "#/components/schemas/Sentiment",
+            "default": "neutral"
+          },
+          "source": {
+            "$ref": "#/components/schemas/SourceRef"
+          }
+        },
+        "type": "object",
+        "required": [
+          "title",
+          "url",
+          "source"
+        ],
+        "title": "NewsItem"
+      },
+      "NewsTopic": {
+        "type": "string",
+        "enum": [
+          "infrastructure",
+          "market",
+          "policy",
+          "civic",
+          "other"
+        ],
+        "title": "NewsTopic"
+      },
+      "PipelineRun": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "profile_id": {
+            "type": "string",
+            "title": "Profile Id"
+          },
+          "status": {
+            "$ref": "#/components/schemas/RunStatus"
+          },
+          "current_stage": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PipelineStage"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "events": {
+            "items": {
+              "$ref": "#/components/schemas/StageEvent"
+            },
+            "type": "array",
+            "title": "Events"
+          },
+          "searches_used": {
+            "type": "integer",
+            "title": "Searches Used",
+            "default": 0
+          },
+          "cache_hits": {
+            "type": "integer",
+            "title": "Cache Hits",
+            "default": 0
+          },
+          "error": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          },
+          "finished_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Finished At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "profile_id",
+          "status",
+          "created_at"
+        ],
+        "title": "PipelineRun"
+      },
+      "PipelineStage": {
+        "type": "string",
+        "enum": [
+          "plan",
+          "fetch",
+          "clean",
+          "verify",
+          "enrich",
+          "rank"
+        ],
+        "title": "PipelineStage"
+      },
+      "Portal": {
+        "type": "string",
+        "enum": [
+          "99acres",
+          "magicbricks",
+          "housing",
+          "nobroker",
+          "squareyards",
+          "google_maps",
+          "other"
+        ],
+        "title": "Portal"
+      },
+      "PriceTrend": {
+        "properties": {
+          "avg_price_per_sqft": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "yoy_change_pct": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          },
+          "history": {
+            "items": {
+              "$ref": "#/components/schemas/TrendPoint"
+            },
+            "type": "array",
+            "title": "History"
+          }
+        },
+        "type": "object",
+        "required": [
+          "avg_price_per_sqft",
+          "yoy_change_pct"
+        ],
+        "title": "PriceTrend"
+      },
+      "PropertyDetail": {
+        "properties": {
+          "listing": {
+            "$ref": "#/components/schemas/Listing"
+          },
+          "verification": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Verification"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "metrics": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/InvestmentMetrics"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "area": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AreaIntel"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "competitors": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/CompetitorReport"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "listing"
+        ],
+        "title": "PropertyDetail",
+        "description": "Everything known about one property, for the detail page (CHECKLIST F-07)."
+      },
+      "PropertyType": {
+        "type": "string",
+        "enum": [
+          "apartment",
+          "villa",
+          "independent_house",
+          "plot",
+          "office",
+          "retail",
+          "warehouse"
+        ],
+        "title": "PropertyType"
+      },
+      "ProviderMode": {
+        "type": "string",
+        "enum": [
+          "live",
+          "record",
+          "replay"
+        ],
+        "title": "ProviderMode"
+      },
+      "QualityFlag": {
+        "properties": {
+          "kind": {
+            "$ref": "#/components/schemas/QualityFlagKind"
+          },
+          "severity": {
+            "$ref": "#/components/schemas/Level"
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind",
+          "severity",
+          "reason"
+        ],
+        "title": "QualityFlag"
+      },
+      "QualityFlagKind": {
+        "type": "string",
+        "enum": [
+          "stale",
+          "duplicate",
+          "too_good_to_be_true",
+          "missing_price",
+          "missing_size",
+          "not_a_listing",
+          "location_mismatch"
+        ],
+        "title": "QualityFlagKind"
+      },
+      "Recommendation": {
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Rank"
+          },
+          "listing": {
+            "$ref": "#/components/schemas/Listing"
+          },
+          "verification": {
+            "$ref": "#/components/schemas/Verification"
+          },
+          "metrics": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/InvestmentMetrics"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "score": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Score"
+          },
+          "score_breakdown": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object",
+            "title": "Score Breakdown"
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason"
+          },
+          "highlights": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Highlights"
+          },
+          "risks": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Risks"
+          }
+        },
+        "type": "object",
+        "required": [
+          "rank",
+          "listing",
+          "verification",
+          "score",
+          "reason"
+        ],
+        "title": "Recommendation"
+      },
+      "RentalDemand": {
+        "properties": {
+          "typical_monthly_rent_inr": {
+            "$ref": "#/components/schemas/Sourced_int_"
+          },
+          "search_interest": {
+            "items": {
+              "$ref": "#/components/schemas/TrendPoint"
+            },
+            "type": "array",
+            "title": "Search Interest"
+          },
+          "signal": {
+            "$ref": "#/components/schemas/Level"
+          }
+        },
+        "type": "object",
+        "required": [
+          "typical_monthly_rent_inr",
+          "signal"
+        ],
+        "title": "RentalDemand"
+      },
+      "ResultKind": {
+        "type": "string",
+        "enum": [
+          "listing",
+          "project",
+          "aggregate",
+          "other"
+        ],
+        "title": "ResultKind",
+        "description": "What a search hit actually points at.\n\nPortals rank aggregate pages (\"312 flats for sale in Whitefield\") above single listings, so\neach hit is classified before it is treated as a property. Aggregate pages still feed area\nprice statistics."
+      },
+      "RiskAppetite": {
+        "type": "string",
+        "enum": [
+          "conservative",
+          "balanced",
+          "aggressive"
+        ],
+        "title": "RiskAppetite"
+      },
+      "RunStatus": {
+        "type": "string",
+        "enum": [
+          "pending",
+          "running",
+          "succeeded",
+          "failed"
+        ],
+        "title": "RunStatus"
+      },
+      "SaveRequest": {
+        "properties": {
+          "listing_id": {
+            "type": "string",
+            "title": "Listing Id"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "listing_id"
+        ],
+        "title": "SaveRequest"
+      },
+      "SavedProperty": {
+        "properties": {
+          "listing": {
+            "$ref": "#/components/schemas/Listing"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          },
+          "saved_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Saved At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "listing",
+          "saved_at"
+        ],
+        "title": "SavedProperty"
+      },
+      "Segment": {
+        "type": "string",
+        "enum": [
+          "residential",
+          "commercial"
+        ],
+        "title": "Segment"
+      },
+      "Sentiment": {
+        "type": "string",
+        "enum": [
+          "positive",
+          "neutral",
+          "negative"
+        ],
+        "title": "Sentiment"
+      },
+      "SerpEngine": {
+        "type": "string",
+        "enum": [
+          "google",
+          "google_maps",
+          "google_maps_reviews",
+          "google_news",
+          "google_trends"
+        ],
+        "title": "SerpEngine",
+        "description": "SerpApi engines the platform uses. See docs/SERPAPI_USAGE.md for what each one does."
+      },
+      "SourceRef": {
+        "properties": {
+          "engine": {
+            "$ref": "#/components/schemas/SerpEngine"
+          },
+          "url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Url"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Title"
+          },
+          "search_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Search Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "engine"
+        ],
+        "title": "SourceRef"
+      },
+      "Sourced_GeoPoint_": {
+        "properties": {
+          "value": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/GeoPoint"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "default": 0.0
+          },
+          "method": {
+            "$ref": "#/components/schemas/ExtractionMethod"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "method"
+        ],
+        "title": "Sourced[GeoPoint]"
+      },
+      "Sourced_PropertyType_": {
+        "properties": {
+          "value": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PropertyType"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "default": 0.0
+          },
+          "method": {
+            "$ref": "#/components/schemas/ExtractionMethod"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "method"
+        ],
+        "title": "Sourced[PropertyType]"
+      },
+      "Sourced_date_": {
+        "properties": {
+          "value": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "default": 0.0
+          },
+          "method": {
+            "$ref": "#/components/schemas/ExtractionMethod"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "method"
+        ],
+        "title": "Sourced[date]"
+      },
+      "Sourced_float_": {
+        "properties": {
+          "value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "default": 0.0
+          },
+          "method": {
+            "$ref": "#/components/schemas/ExtractionMethod"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "method"
+        ],
+        "title": "Sourced[float]"
+      },
+      "Sourced_int_": {
+        "properties": {
+          "value": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "default": 0.0
+          },
+          "method": {
+            "$ref": "#/components/schemas/ExtractionMethod"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "method"
+        ],
+        "title": "Sourced[int]"
+      },
+      "Sourced_list_str__": {
+        "properties": {
+          "value": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "default": 0.0
+          },
+          "method": {
+            "$ref": "#/components/schemas/ExtractionMethod"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "method"
+        ],
+        "title": "Sourced[list[str]]"
+      },
+      "Sourced_str_": {
+        "properties": {
+          "value": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "default": 0.0
+          },
+          "method": {
+            "$ref": "#/components/schemas/ExtractionMethod"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "method"
+        ],
+        "title": "Sourced[str]"
+      },
+      "StageEvent": {
+        "properties": {
+          "stage": {
+            "$ref": "#/components/schemas/PipelineStage"
+          },
+          "status": {
+            "$ref": "#/components/schemas/RunStatus"
+          },
+          "message": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Message"
+          },
+          "counts": {
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "type": "object",
+            "title": "Counts"
+          },
+          "started_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Started At"
+          },
+          "finished_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Finished At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "stage",
+          "status"
+        ],
+        "title": "StageEvent"
+      },
+      "TrendPoint": {
+        "properties": {
+          "period": {
+            "type": "string",
+            "title": "Period"
+          },
+          "value": {
+            "type": "number",
+            "title": "Value"
+          }
+        },
+        "type": "object",
+        "required": [
+          "period",
+          "value"
+        ],
+        "title": "TrendPoint"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "Verification": {
+        "properties": {
+          "listing_id": {
+            "type": "string",
+            "title": "Listing Id"
+          },
+          "match_score": {
+            "type": "integer",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Match Score"
+          },
+          "verdict": {
+            "$ref": "#/components/schemas/MatchVerdict"
+          },
+          "matched_criteria": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Matched Criteria"
+          },
+          "mismatches": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Mismatches"
+          },
+          "missing_data": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Missing Data"
+          },
+          "flags": {
+            "items": {
+              "$ref": "#/components/schemas/QualityFlag"
+            },
+            "type": "array",
+            "title": "Flags"
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence"
+          },
+          "model": {
+            "type": "string",
+            "title": "Model"
+          }
+        },
+        "type": "object",
+        "required": [
+          "listing_id",
+          "match_score",
+          "verdict",
+          "confidence",
+          "model"
+        ],
+        "title": "Verification",
+        "description": "The LLM's judgement of one listing against one investor profile (CHECKLIST F-03)."
+      }
+    }
+  }
+}
