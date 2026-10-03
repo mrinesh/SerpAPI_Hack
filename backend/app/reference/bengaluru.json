@@ -1,0 +1,29 @@
+{
+  "city": "Bengaluru",
+  "city_aliases": ["Bengaluru", "Bangalore"],
+  "serpapi_location": "Bengaluru,Karnataka,India",
+  "trends_geo": "IN-KA",
+  "_note": "Locality centres are filled by geocoding through google_maps and cached (CHECKLIST I-12). Do not hand-enter coordinates.",
+  "localities": [
+    {"name": "Whitefield", "aliases": ["ITPL"]},
+    {"name": "Sarjapur Road", "aliases": ["Sarjapura Road"]},
+    {"name": "HSR Layout", "aliases": ["HSR"]},
+    {"name": "Koramangala", "aliases": []},
+    {"name": "Indiranagar", "aliases": ["Indira Nagar"]},
+    {"name": "Bellandur", "aliases": []},
+    {"name": "Marathahalli", "aliases": []},
+    {"name": "Electronic City", "aliases": ["E-City", "Electronics City"]},
+    {"name": "KR Puram", "aliases": ["Krishnarajapuram", "K R Puram"]},
+    {"name": "Hebbal", "aliases": []},
+    {"name": "Yelahanka", "aliases": []},
+    {"name": "Hennur", "aliases": ["Hennur Road"]},
+    {"name": "Thanisandra", "aliases": []},
+    {"name": "Devanahalli", "aliases": []},
+    {"name": "JP Nagar", "aliases": ["J P Nagar"]},
+    {"name": "Jayanagar", "aliases": []},
+    {"name": "Bannerghatta Road", "aliases": []},
+    {"name": "Kanakapura Road", "aliases": []},
+    {"name": "Rajajinagar", "aliases": []},
+    {"name": "Malleshwaram", "aliases": ["Malleswaram"]}
+  ]
+}
