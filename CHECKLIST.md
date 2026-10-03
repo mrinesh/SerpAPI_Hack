@@ -22,7 +22,7 @@ code for an ID finds every stub that belongs to it.
 | ID | Item | Priority | Status | Owner |
 |---|---|---|---|---|
 | **Spikes** | | | | |
-| S-01 | Data coverage spike (Bengaluru, real queries) | P0 | ⬜ | |
+| S-01 | Data coverage spike (Bengaluru, real queries) | P0 | 🟨 | |
 | S-02 | Gemini extraction accuracy check | P0 | ⬜ | |
 | S-03 | Search cost model per run | P0 | ⬜ | |
 | **Infrastructure** | | | | |
@@ -86,10 +86,10 @@ code for an ID finds every stub that belongs to it.
 
 ## Spikes
 
-### S-01 Data coverage spike · P0 · ⬜
+### S-01 Data coverage spike · P0 · 🟨
 Answers the brief's biggest risk: what SerpApi actually returns for Bengaluru property searches.
 Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.md).
-- [ ] Confirm `location` canonical name with the free Locations API (`Client.locations`)
+- [x] Confirm `location` canonical name with the free Locations API: `Bengaluru,Karnataka,India`
 - [ ] Run ~10 residential queries across 99acres / MagicBricks / Housing / NoBroker, record fixtures
 - [ ] Run ~4 commercial queries (office / retail) and 2 Google Maps competitor queries
 - [ ] For each portal: share of hits that are single listings vs aggregate pages
