@@ -7,6 +7,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import { apiFetch } from "./client";
 import type {
+  BudgetStatus,
   HealthStatus,
   InvestorProfile,
   InvestorProfileIn,
@@ -18,6 +19,15 @@ export function useHealth() {
   return useQuery({
     queryKey: ["health"],
     queryFn: () => apiFetch<HealthStatus>("/health"),
+    staleTime: 60_000,
+  });
+}
+
+/** SerpApi searches used this month (our ledger) and left on the account (free Account API). */
+export function useBudget() {
+  return useQuery({
+    queryKey: ["budget"],
+    queryFn: () => apiFetch<BudgetStatus>("/meta/budget"),
     staleTime: 60_000,
   });
 }

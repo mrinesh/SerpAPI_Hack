@@ -1,0 +1,92 @@
+"""Developer command line. Every search goes through the gateway, so modes and budgets apply.
+
+    uv run python -m app.cli serp google q="flat for sale in Whitefield Bangalore"
+    uv run python -m app.cli serp google_maps q="flats for sale Whitefield"
+    uv run python -m app.cli serp google q="..." start=10
+    uv run python -m app.cli budget
+
+Engine defaults (location, gl, hl, google_domain) come from integrations/serpapi/engines.py;
+extra key=value pairs override them. Set SERPAPI_MODE=record to save responses as fixtures.
+"""
+
+import argparse
+import sys
+from typing import Any
+
+from app.config import get_settings
+from app.core.errors import AppError
+from app.db.session import SessionLocal, init_db
+from app.integrations.serpapi import engines
+from app.integrations.serpapi.gateway import SerpApiGateway
+from app.schemas.common import SerpEngine
+from app.services.budget import get_budget_status
+
+BUILDERS = {
+    SerpEngine.GOOGLE: engines.google_search,
+    SerpEngine.GOOGLE_LOCAL: engines.google_local,
+    SerpEngine.GOOGLE_MAPS: engines.google_maps_search,
+    SerpEngine.GOOGLE_NEWS: engines.google_news,
+}
+RESULT_BLOCKS = ("organic_results", "local_results", "news_results")
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(prog="python -m app.cli")
+    commands = parser.add_subparsers(dest="command", required=True)
+    serp = commands.add_parser("serp", help="run one SerpApi search through the gateway")
+    serp.add_argument("engine", choices=[str(e) for e in BUILDERS])
+    serp.add_argument("params", nargs="+", help='key=value pairs; q="..." is required')
+    serp.add_argument("--show", type=int, default=10, help="results to print per block")
+    commands.add_parser("budget", help="searches used this month and left on the account")
+    args = parser.parse_args(argv)
+
+    init_db()
+    settings = get_settings()
+    with SessionLocal() as db:
+        try:
+            if args.command == "budget":
+                print(get_budget_status(db, settings).model_dump_json(indent=2))
+                return 0
+            overrides = _parse_pairs(args.params)
+            engine = SerpEngine(args.engine)
+            q = overrides.pop("q", None)
+            if not q:
+                parser.error('q="..." is required')
+            _, params = BUILDERS[engine](q, settings)
+            params.update(overrides)
+            result = SerpApiGateway(settings, db).search(engine, params)
+        except AppError as exc:
+            print(f"error [{exc.code}]: {exc.message}", file=sys.stderr)
+            return 1
+
+    print(f"mode={settings.serpapi_mode} live={result.live} search_id={result.search_id}")
+    print(f"params={result.params}")
+    for block in RESULT_BLOCKS:
+        items = _items(result.data.get(block))
+        if items:
+            print(f"\n{block}: {len(items)}")
+            for item in items[: args.show]:
+                print(f"  #{item.get('position')} {item.get('title')}")
+                print(f"     {item.get('link') or item.get('address') or ''}")
+    return 0
+
+
+def _parse_pairs(pairs: list[str]) -> dict[str, Any]:
+    parsed: dict[str, Any] = {}
+    for pair in pairs:
+        key, sep, value = pair.partition("=")
+        if not sep:
+            raise SystemExit(f"expected key=value, got {pair!r}")
+        parsed[key] = int(value) if value.isdigit() else value
+    return parsed
+
+
+def _items(block: Any) -> list[dict[str, Any]]:
+    # Google Search nests local results under "places"; the Local and Maps engines don't.
+    if isinstance(block, dict):
+        block = block.get("places", [])
+    return block if isinstance(block, list) else []
+
+
+if __name__ == "__main__":
+    sys.exit(main())

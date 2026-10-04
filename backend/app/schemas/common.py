@@ -14,6 +14,7 @@ class SerpEngine(StrEnum):
     """SerpApi engines the platform uses. See docs/SERPAPI_USAGE.md for what each one does."""
 
     GOOGLE = "google"
+    GOOGLE_LOCAL = "google_local"
     GOOGLE_MAPS = "google_maps"
     GOOGLE_MAPS_REVIEWS = "google_maps_reviews"
     GOOGLE_NEWS = "google_news"

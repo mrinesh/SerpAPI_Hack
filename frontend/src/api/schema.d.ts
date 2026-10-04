@@ -834,7 +834,7 @@ export interface components {
          * @description SerpApi engines the platform uses. See docs/SERPAPI_USAGE.md for what each one does.
          * @enum {string}
          */
-        SerpEngine: "google" | "google_maps" | "google_maps_reviews" | "google_news" | "google_trends";
+        SerpEngine: "google" | "google_local" | "google_maps" | "google_maps_reviews" | "google_news" | "google_trends";
         /** SourceRef */
         SourceRef: {
             engine: components["schemas"]["SerpEngine"];

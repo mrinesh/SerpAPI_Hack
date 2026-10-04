@@ -66,6 +66,20 @@ class ReplayMiss(AppError):
     code = "replay_miss"
 
 
+class ProviderNotConfigured(AppError):
+    """A live call was needed but the provider's API key is not set."""
+
+    status_code = 503
+    code = "provider_not_configured"
+
+
+class UpstreamError(AppError):
+    """An external API (SerpApi, Gemini) failed or returned an unusable response."""
+
+    status_code = 502
+    code = "upstream_error"
+
+
 def register_exception_handlers(app: FastAPI) -> None:
     @app.exception_handler(AppError)
     async def _handle_app_error(_: Request, exc: AppError) -> JSONResponse:

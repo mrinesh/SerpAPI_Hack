@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router";
 
-import { useHealth } from "../api/hooks";
+import { useBudget, useHealth } from "../api/hooks";
 
 const NAV = [
   { to: "/", label: "Profiles", end: true },
@@ -39,14 +39,27 @@ export function AppShell() {
   );
 }
 
-/** Shows which provider modes the backend runs in. The search budget chip joins it in I-05. */
+/** Provider modes and the SerpApi search budget (CHECKLIST I-05). */
 function BackendStatus() {
   const { data, isError } = useHealth();
+  const budget = useBudget();
   if (isError) return <span className="ml-auto text-xs text-red-600">backend offline</span>;
   if (!data) return null;
+  const left = budget.data?.account_searches_left;
   return (
-    <span className="ml-auto rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-600">
-      {data.city} · SerpApi {data.serpapi_mode} · LLM {data.llm_mode}
+    <span className="ml-auto flex gap-2 text-xs text-slate-600">
+      <span className="rounded-full bg-slate-100 px-3 py-1">
+        {data.city} · SerpApi {data.serpapi_mode} · LLM {data.llm_mode}
+      </span>
+      {budget.data && (
+        <span
+          className="rounded-full bg-slate-100 px-3 py-1"
+          title="Live searches this app made this month, and searches left on the SerpApi account"
+        >
+          {budget.data.used_this_month} searches used
+          {left != null && ` · ${left} left`}
+        </span>
+      )}
     </span>
   );
 }

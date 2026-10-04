@@ -15,7 +15,7 @@ import pytest  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402
 
 from app.db.base import Base  # noqa: E402
-from app.db.session import engine  # noqa: E402
+from app.db.session import SessionLocal, engine  # noqa: E402
 from app.main import create_app  # noqa: E402
 
 
@@ -27,3 +27,15 @@ def client() -> TestClient:
     Base.metadata.drop_all(engine)
     with TestClient(create_app()) as c:
         yield c
+
+
+@pytest.fixture
+def db():
+    """A session on an empty database."""
+    from app.db import models  # noqa: F401
+
+    Base.metadata.drop_all(engine)
+    Base.metadata.create_all(engine)
+    session = SessionLocal()
+    yield session
+    session.close()
