@@ -22,6 +22,7 @@ class Locality(BaseModel):
 class Market(BaseModel):
     city: str
     city_aliases: list[str]
+    query_city_name: str  # the city word used in search queries; "Bangalore" was tested in S-01
     serpapi_location: str
     trends_geo: str
     locality_source: str

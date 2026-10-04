@@ -8,7 +8,17 @@ their shape. Columns exist only for what we filter, join or sort on.
 from datetime import datetime
 from typing import Any
 
-from sqlalchemy import JSON, Boolean, DateTime, ForeignKey, Integer, String, Text
+from sqlalchemy import (
+    JSON,
+    Boolean,
+    DateTime,
+    Float,
+    ForeignKey,
+    Integer,
+    String,
+    Text,
+    UniqueConstraint,
+)
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.db.base import Base, new_id, utcnow
@@ -41,18 +51,37 @@ class RunRow(Base):
 
 
 class ListingRow(Base):
-    """One row per canonical property URL, shared across runs (enables price-drop alerts)."""
+    """One row per discovered candidate, shared across runs (enables price-drop alerts).
+
+    `id` is a stable hash of the candidate's identity (pipeline/cleaning.py), so the same
+    snippet entry or Maps project maps to the same row in every run (ADR 0011).
+    """
 
     __tablename__ = "listings"
 
-    id: Mapped[str] = mapped_column(String(32), primary_key=True, default=new_id)
-    canonical_url: Mapped[str] = mapped_column(String(1024), unique=True)
+    id: Mapped[str] = mapped_column(String(32), primary_key=True)
+    kind: Mapped[str] = mapped_column(String(16))  # schemas.listing.ResultKind
     portal: Mapped[str] = mapped_column(String(32))
-    locality_key: Mapped[str | None] = mapped_column(String(128), index=True)
+    locality: Mapped[str | None] = mapped_column(String(64), index=True)  # locality slug
+    price_inr: Mapped[int | None] = mapped_column(Integer)
+    size_sqft: Mapped[float | None] = mapped_column(Float)
+    price_per_sqft: Mapped[float | None] = mapped_column(Float)
     data: Mapped[dict[str, Any]] = mapped_column(JSON)  # schemas.listing.Listing
-    last_price_inr: Mapped[int | None] = mapped_column(Integer)
     first_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
     last_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+
+
+class ListingObservationRow(Base):
+    """A candidate seen in a run, at a price: both "found in this run" and price history."""
+
+    __tablename__ = "listing_observations"
+    __table_args__ = (UniqueConstraint("listing_id", "run_id"),)
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    listing_id: Mapped[str] = mapped_column(ForeignKey("listings.id"), index=True)
+    run_id: Mapped[str] = mapped_column(ForeignKey("pipeline_runs.id"), index=True)
+    price_inr: Mapped[int | None] = mapped_column(Integer)
+    seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
 
 
 class RunResultRow(Base):

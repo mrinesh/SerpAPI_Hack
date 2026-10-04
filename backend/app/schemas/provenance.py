@@ -20,6 +20,7 @@ class ExtractionMethod(StrEnum):
     REGEX = "regex"  # parsed deterministically from result text
     LLM = "llm"  # extracted or inferred by the LLM
     COMPUTED = "computed"  # derived from other sourced values (e.g. price per sq ft)
+    QUERY = "query"  # taken from the search that found it (the locality or type searched for)
 
 
 class SourceRef(BaseModel):

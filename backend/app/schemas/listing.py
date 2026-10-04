@@ -1,8 +1,12 @@
-"""Search hits, cleaned listings, and the LLM's verification of each listing."""
+"""Search hits, discovered property candidates, and the LLM's verification of each.
 
-from datetime import date, datetime
+Shaped by spike S-01 (docs/spikes/S-01-data-coverage.md, ADR 0011): Google returns the portals'
+search pages, never single listings, so a candidate is a priced entry quoted in a search page's
+snippet, or a named housing project from Google Maps.
+"""
+
+from datetime import datetime
 from enum import StrEnum
-from typing import Any
 
 from pydantic import BaseModel, Field
 
@@ -12,73 +16,79 @@ from app.schemas.provenance import Sourced, SourceRef
 
 
 class Portal(StrEnum):
+    """Where a candidate came from: one of the searched portals, or Google Maps."""
+
     NINETY_NINE_ACRES = "99acres"
     MAGICBRICKS = "magicbricks"
-    HOUSING = "housing"
     NOBROKER = "nobroker"
-    SQUARE_YARDS = "squareyards"
     GOOGLE_MAPS = "google_maps"
-    OTHER = "other"
 
 
 class ResultKind(StrEnum):
-    """What a search hit actually points at.
+    SNIPPET_ENTRY = "snippet_entry"  # a priced entry quoted in a portal search page's snippet
+    PROJECT = "project"  # a named housing project from Google Maps, no price quoted
 
-    Portals rank aggregate pages ("312 flats for sale in Whitefield") above single listings, so
-    each hit is classified before it is treated as a property. Aggregate pages still feed area
-    price statistics.
-    """
 
-    LISTING = "listing"  # one specific property
-    PROJECT = "project"  # a builder project page with several units
-    AGGREGATE = "aggregate"  # a search or category page
-    OTHER = "other"
+class SaleStatus(StrEnum):
+    READY_TO_MOVE = "ready_to_move"
+    UNDER_CONSTRUCTION = "under_construction"
+    RESALE = "resale"
+    NEW_LAUNCH = "new_launch"
 
 
 class RawSearchHit(BaseModel):
-    """One organic or local result as returned by SerpApi, before cleaning."""
+    """One organic (portal page) or Maps result as returned by SerpApi, before cleaning."""
 
     engine: SerpEngine
     query: str
+    locality: str  # slug of the locality this search was for
+    property_type: PropertyType  # the type this search was for
     position: int | None = None
     title: str
     link: str | None = None
     snippet: str | None = None
-    rich_snippet: dict[str, Any] | None = None  # SerpApi rich_snippet / extensions, verbatim
-    gps: GeoPoint | None = None  # present on google_maps local results
+    # Google Maps places only
+    gps: GeoPoint | None = None
+    place_type: str | None = None
+    address: str | None = None
+    rating: float | None = None
+    reviews: int | None = None
+    place_id: str | None = None
     search_id: str | None = None
     fetched_at: datetime
 
 
 class Listing(BaseModel):
-    """A cleaned, de-duplicated property candidate. Every factual field is `Sourced`."""
+    """A discovered, de-duplicated property candidate. Every factual field is `Sourced`."""
 
-    id: str
-    canonical_url: str
-    portal: Portal
+    id: str  # stable hash of the candidate's identity, the same in every run
     kind: ResultKind
-    title: str
+    portal: Portal
+    name: str  # project name, or the entry's own headline, e.g. "4 BHK Flat For Sale In Whitefield"
+    url: str | None = None  # the portal search page it was quoted on, or its Google Maps place
     segment: Segment
     property_type: Sourced[PropertyType]
+    locality: Sourced[str]  # locality slug
     price_inr: Sourced[int]
+    price_per_sqft: Sourced[float]
     size_sqft: Sourced[float]
     bedrooms: Sourced[int]
-    locality: Sourced[str]
+    status: Sourced[SaleStatus]
     location: Sourced[GeoPoint]
-    amenities: Sourced[list[str]]
-    posted_on: Sourced[date]
-    sources: list[SourceRef] = Field(default_factory=list)  # every hit merged into this listing
+    rating: float | None = None  # Google Maps rating, for projects
+    reviews: int | None = None
+    evidence: str | None = None  # the snippet text this candidate was parsed from
+    sources: list[SourceRef] = Field(default_factory=list)  # every hit merged into this candidate
     first_seen_at: datetime
     last_seen_at: datetime
 
 
 class QualityFlagKind(StrEnum):
-    STALE = "stale"
+    # No "stale" flag: search results carry no posted dates (S-01).
     DUPLICATE = "duplicate"
     TOO_GOOD_TO_BE_TRUE = "too_good_to_be_true"
     MISSING_PRICE = "missing_price"
     MISSING_SIZE = "missing_size"
-    NOT_A_LISTING = "not_a_listing"
     LOCATION_MISMATCH = "location_mismatch"
 
 

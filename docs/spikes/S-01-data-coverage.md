@@ -94,5 +94,16 @@ All 120 places had GPS coordinates.
 - Profile with L localities and T property types: L × T searches on a fresh run, 0 within the
   cache TTL. Optional Maps project lookup: +1 per locality.
 
-## Decisions
-Pending the F-02 checkpoint with the product owner; recorded here once made.
+## Decisions (product owner, 2026-10-04)
+
+Recorded as [ADR 0011](../decisions/0011-discovery-from-search-snippets.md).
+
+| Question | Decision |
+|---|---|
+| What is a discovered property? | Each priced entry quoted in a portal search page's snippet, linked to that page; plus named residential projects from Google Maps, merged with entries by name |
+| Searches per run | One Google search per locality × property type, page 1 only |
+| Query template | `{type} for sale in {locality} Bangalore under {budget}` + the three-portal OR filter. Types: flat, independent house, builder floor, residential plot, office space, shop, warehouse, commercial land |
+| A query with no portal results | Retry once without the budget phrase |
+| Google Maps | `flats for sale {locality} Bangalore`, one per locality, only when Apartment / Flat is chosen (the only wording tested). Places kept when their type is one observed for housing: Apartment complex, Apartment building, Condominium complex, Gated community, Furnished apartment building |
+| Google Local | Not used: the same projects as Maps for flats, irrelevant results for commercial |
+| Other sites | Results outside the three portals (OLX, Facebook, HousingMan…) are dropped, as are for-rent pages |

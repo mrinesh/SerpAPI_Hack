@@ -1,6 +1,7 @@
 {
   "city": "Bengaluru",
   "city_aliases": ["Bengaluru", "Bangalore"],
+  "query_city_name": "Bangalore",
   "serpapi_location": "Bengaluru,Karnataka,India",
   "trends_geo": "IN-KA",
   "locality_source": "Wikipedia, List of neighbourhoods in Bangalore (https://en.wikipedia.org/wiki/List_of_neighbourhoods_in_Bangalore), checked 2026-10-03. Aliases are the page's spelling where it differs from the display name.",
