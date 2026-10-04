@@ -1,0 +1,418 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "flat for sale in Whitefield Bangalore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 10
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d82513f4b68a5c5e9787",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/gIW_LB8si8Sm5C7rdLbzBlf-UjsLviXPxP53EnbpbbY/6ac1d82513f4b68a5c5e9787.json",
+   "markdown_endpoint": "https://serpapi.com/searches/gIW_LB8si8Sm5C7rdLbzBlf-UjsLviXPxP53EnbpbbY/6ac1d82513f4b68a5c5e9787.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/gIW_LB8si8Sm5C7rdLbzBlf-UjsLviXPxP53EnbpbbY/6ac1d82513f4b68a5c5e9787.json_with_pixel_position",
+   "created_at": "2026-10-04 04:37:57 UTC",
+   "processed_at": "2026-10-04 04:37:57 UTC",
+   "google_url": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&start=10&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/gIW_LB8si8Sm5C7rdLbzBlf-UjsLviXPxP53EnbpbbY/6ac1d82513f4b68a5c5e9787.html",
+   "total_time_taken": 0.68
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "flat for sale in Whitefield Bangalore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 10,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "flat for sale in Whitefield Bangalore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 9040000000,
+   "page_number": 2,
+   "time_taken_displayed": 0.46,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Sale | Upto 50% Off Ethnic Wear, Kurtis & Suits | W",
+    "link": "https://www.wforwoman.com/collections/sale?srsltid=AU7gw4VMDWmXJYUIVaA9a0htM8FkcaVMFgw-lt24clL0bVcGrQvDgSxX",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpgEB6zswFZrtN7qXRSim0iHyG-z7410k1MswuQEhal7YAZXHnGKK-ZLDHPY4VCXOPMWM1exZ6vfg_XG0pLQiEK_T2v-4-ivPAOXJtzkUMgZ_8QZSRbugcZ5SPJBndjovy8Tt8QJ3jWtjlObhtjkh6GRIJT48yijyNkT_OBpDg5xQu66uFeLffuhxygXurrmd9BIs2GT_Kfmxb51ATG-dceya0QGbZHwS&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIGRAB&uoh=1",
+    "displayed_link": "https://www.wforwoman.com › collections › sale",
+    "favicon": "https://serpapi.com/images/i/UklGRowBAABXRUJQVlA4IIABAADwBwCdASogACAAPrkurlcnIacnG_DgFwlsAJ0yhHZ-gvP_oY__8wS9F7_yPZzRoCLlLCXA9RxeANw2jOPW2pM6n8G8g4X-kIAA_vXPa7Kr0YIbdEozVKH0J89aT5BGhFiwiXNf3_zfd5c3_mmOUDPlq1-8YSL78rpO7_TrpxsS0VYVxpBt7p_7DQiXY4_-Faxb5VKYHj_lVPO5dUjZQu98b_9wcf9g4_6YDxaM9v8CevI9jaOV4JNWGhuu0SE_ipdiUO5c63HMXr-nak-ku_geBc6fRyfhzlfWxxmJ5rdQxhz3O1eW9nNvvKZnAKEttIVbzEYnZY7B3OIltzX3yUOx6SDZ_0-cYUhZj8TUeBuxfZbxBkAU5LbmCN6RMcnSAeQ4V2L5riz7dPi_p4yoQYDDD7Llr1zzXCMdHileATeA8EWSmHSgPZ546VBN6LgRXOkWa4u5t3bFa--7rP8KjsDbDu_VV-Bo4Hc_Cm49cA33zjHD3kJXmQTM192uGXgAAAA.webp",
+    "snippet": "Shop the W for Woman sale. Up to 50% off ethnic wear, kurtis, sharara sets & anarkali suits. Limited time offers on designer Indian outfits.",
+    "snippet_highlighted_words": [
+     "sale"
+    ],
+    "rich_snippet": {
+     "bottom": {
+      "extensions": [
+       "Free delivery",
+       "10-day returns"
+      ],
+      "detected_extensions": {
+       "day_returns": 10
+      }
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "Shop the W for Woman sale. Up to 50% off ethnic wear, kurtis, sharara sets & anarkali suits. Limited time offers on designer Indian outfits.",
+      "source_info_link": "https://www.wforwoman.com/collections/sale?srsltid=AU7gw4VMDWmXJYUIVaA9a0htM8FkcaVMFgw-lt24clL0bVcGrQvDgSxX",
+      "icon": "https://serpapi.com/images/i/UklGRowBAABXRUJQVlA4IIABAADwBwCdASogACAAPrkurlcnIacnG_DgFwlsAJ0yhHZ-gvP_oY__8wS9F7_yPZzRoCLlLCXA9RxeANw2jOPW2pM6n8G8g4X-kIAA_vXPa7Kr0YIbdEozVKH0J89aT5BGhFiwiXNf3_zfd5c3_mmOUDPlq1-8YSL78rpO7_TrpxsS0VYVxpBt7p_7DQiXY4_-Faxb5VKYHj_lVPO5dUjZQu98b_9wcf9g4_6YDxaM9v8CevI9jaOV4JNWGhuu0SE_ipdiUO5c63HMXr-nak-ku_geBc6fRyfhzlfWxxmJ5rdQxhz3O1eW9nNvvKZnAKEttIVbzEYnZY7B3OIltzX3yUOx6SDZ_0-cYUhZj8TUeBuxfZbxBkAU5LbmCN6RMcnSAeQ4V2L5riz7dPi_p4yoQYDDD7Llr1zzXCMdHileATeA8EWSmHSgPZ546VBN6LgRXOkWa4u5t3bFa--7rP8KjsDbDu_VV-Bo4Hc_Cm49cA33zjHD3kJXmQTM192uGXgAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZacnRON3FYUlNpbTBpSHlHLXo3NDEwazFNc3d1UUVoYWw3WUFaWEhuR0tLLVpMREhQWTRWQ1hPUE1XTTFleFo2dmZnX1hHMHBMUWlFS19UMnYtNC1pdlBBT1hKdHprVU1nWl84UVpTUmJ1Z2NaNVNQSkJuZGpvdnk4VHQ4UUozald0amxPYmh0amtoNkdSSUpUNDh5aWp5TmtUX09CcERnNXhRdTY2dUZlTGZmdWh4eWdYdXJybWQ5QklzMkdUX0tmbXhiNTFBVEctZGNleWEwUUdiWkh3UxIEGgIIABrQAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkCsAwgAEAAYACAAKhoKBGZsYXQVVGBkQBoFZmxhdHMaBmhvdXNlczKWAS9nb3RvP3VybD1DQUVTWlFIck96QVZva3d1X2JiQ3YxOE1GN3gwdUV0UEl1S1BRT3RjekFXT2VIU2Q4R1BMTnhjMXQ3cnZ2T09hZUdCdXBXdGJab2ZGR3o2NW40SHU2cDNQSW0wN29oSUU1QUhjNmxyNjMtRmFyLWRraUJmT0xqV0ExQnFoTExGMFp6Mks2aURZdVVpUTpKPGI-U2FsZTwvYj4gfCBVcHRvIDUwJSBPZmYgRXRobmljIFdlYXIsIEt1cnRpcyAmYW1wOyBTdWl0cyB8IFcgLSB3Zm9yd29tYW5ClwFTaG9wIHRoZSBXIGZvciBXb21hbiA8Yj5zYWxlPC9iPi4gVXAgdG8gNTAlIG9mZiBldGhuaWMgd2Vhciwga3VydGlzLCBzaGFyYXJhIHNldHMgJmFtcDsgYW5hcmthbGkgc3VpdHMuIExpbWl0ZWQgdGltZSBvZmZlcnMgb24gZGVzaWduZXIgSW5kaWFuIG91dGZpdHMuSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZacnRON3FYUlNpbTBpSHlHLXo3NDEwazFNc3d1UUVoYWw3WUFaWEhuR0tLLVpMREhQWTRWQ1hPUE1XTTFleFo2dmZnX1hHMHBMUWlFS19UMnYtNC1pdlBBT1hKdHprVU1nWl84UVpTUmJ1Z2NaNVNQSkJuZGpvdnk4VHQ4UUozald0amxPYmh0amtoNkdSSUpUNDh5aWp5TmtUX09CcERnNXhRdTY2dUZlTGZmdWh4eWdYdXJybWQ5QklzMkdUX0tmbXhiNTFBVEctZGNleWEwUUdiWkh3UxIEGgIIABrQAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkCsAwgAEAAYACAAKhoKBGZsYXQVVGBkQBoFZmxhdHMaBmhvdXNlczKWAS9nb3RvP3VybD1DQUVTWlFIck96QVZva3d1X2JiQ3YxOE1GN3gwdUV0UEl1S1BRT3RjekFXT2VIU2Q4R1BMTnhjMXQ3cnZ2T09hZUdCdXBXdGJab2ZGR3o2NW40SHU2cDNQSW0wN29oSUU1QUhjNmxyNjMtRmFyLWRraUJmT0xqV0ExQnFoTExGMFp6Mks2aURZdVVpUTpKPGI-U2FsZTwvYj4gfCBVcHRvIDUwJSBPZmYgRXRobmljIFdlYXIsIEt1cnRpcyAmYW1wOyBTdWl0cyB8IFcgLSB3Zm9yd29tYW5ClwFTaG9wIHRoZSBXIGZvciBXb21hbiA8Yj5zYWxlPC9iPi4gVXAgdG8gNTAlIG9mZiBldGhuaWMgd2Vhciwga3VydGlzLCBzaGFyYXJhIHNldHMgJmFtcDsgYW5hcmthbGkgc3VpdHMuIExpbWl0ZWQgdGltZSBvZmZlcnMgb24gZGVzaWduZXIgSW5kaWFuIG91dGZpdHMuSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "wforwoman"
+   },
+   {
+    "position": 2,
+    "title": "TG Sand",
+    "link": "https://sand.telangana.gov.in/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESWQHrOzAVRZjhKzP_oTxUFf6qtlTd5H14wOO2DjveX-471mlV-Er7zpUTITyd2BoPwgSC0XT61xsAr60c00yA74y1wiIMGV2ScJenQt1Tpd9MM3dOwt7A-RIS&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIGhAB&uoh=1",
+    "displayed_link": "https://sand.telangana.gov.in",
+    "snippet": "Bookings. - Regular Order. - Bulk Orders ; Sand Bazaars. - Using Own Transport ; Meeseva & CSC. - Sand Bazaar (Own Transport).",
+    "about_this_result": {
+     "source": {
+      "description": "Bookings. - Regular Order. - Bulk Orders ; Sand Bazaars. - Using Own Transport ; Meeseva & CSC. - Sand Bazaar (Own Transport).",
+      "source_info_link": "https://sand.telangana.gov.in/"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoYBL2dvdG8_dXJsPUNBRVNXUUhyT3pBVlJaamhLelBfb1R4VUZmNnF0bFRkNUgxNHdPTzJEanZlWC00NzFtbFYtRXI3enBVVElUeWQyQm9Qd2dTQzBYVDYxeHNBcjYwYzAweUE3NHkxd2lJTUdWMlNjSmVuUXQxVHBkOU1NM2RPd3Q3QS1SSVMSBBoCCAAa6gISAggAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkDEAggAEAAYACAAKhoKBGZsYXQVMEFKPxoFZmxhdHMaBmhvdXNlczKGAS9nb3RvP3VybD1DQUVTV1FIck96QVZSWmpoS3pQX29UeFVGZjZxdGxUZDVIMTR3T08yRGp2ZVgtNDcxbWxWLUVyN3pwVVRJVHlkMkJvUHdnU0MwWFQ2MXhzQXI2MGMwMHlBNzR5MXdpSU1HVjJTY0plblF0MVRwZDlNTTNkT3d0N0EtUklTOgdURyBTYW5kQoIBQm9va2luZ3MuIC0gUmVndWxhciBPcmRlci4gLSBCdWxrIE9yZGVycyA7IFNhbmQgQmF6YWFycy4gLSBVc2luZyBPd24gVHJhbnNwb3J0IDsgTWVlc2V2YSAmYW1wOyBDU0MuIC0gU2FuZCBCYXphYXIgKE93biBUcmFuc3BvcnQpLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoYBL2dvdG8_dXJsPUNBRVNXUUhyT3pBVlJaamhLelBfb1R4VUZmNnF0bFRkNUgxNHdPTzJEanZlWC00NzFtbFYtRXI3enBVVElUeWQyQm9Qd2dTQzBYVDYxeHNBcjYwYzAweUE3NHkxd2lJTUdWMlNjSmVuUXQxVHBkOU1NM2RPd3Q3QS1SSVMSBBoCCAAa6gISAggAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkDEAggAEAAYACAAKhoKBGZsYXQVMEFKPxoFZmxhdHMaBmhvdXNlczKGAS9nb3RvP3VybD1DQUVTV1FIck96QVZSWmpoS3pQX29UeFVGZjZxdGxUZDVIMTR3T08yRGp2ZVgtNDcxbWxWLUVyN3pwVVRJVHlkMkJvUHdnU0MwWFQ2MXhzQXI2MGMwMHlBNzR5MXdpSU1HVjJTY0plblF0MVRwZDlNTTNkT3d0N0EtUklTOgdURyBTYW5kQoIBQm9va2luZ3MuIC0gUmVndWxhciBPcmRlci4gLSBCdWxrIE9yZGVycyA7IFNhbmQgQmF6YWFycy4gLSBVc2luZyBPd24gVHJhbnNwb3J0IDsgTWVlc2V2YSAmYW1wOyBDU0MuIC0gU2FuZCBCYXphYXIgKE93biBUcmFuc3BvcnQpLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": ": TG Sand:",
+    "read_more_link": "https://sand.telangana.gov.in/#:~:text=Bookings,%2D%20Bulk%20Orders&text=Sand%20Bazaars,%2D%20Using%20Own%20Transport&text=Meeseva%20%26%20CSC,%2D%20Sand%20Bazaar%20(Own%20Transport)"
+   },
+   {
+    "position": 3,
+    "title": "United Nations Convention on Contracts for the ...",
+    "link": "https://uncitral.un.org/sites/default/files/media-documents/uncitral/en/19-09951_e_ebook.pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlwEB6zswFZSQeynFmfyX5XJIRW1bK2H7CJskpSlH-ro6GmdOwtDUjcKv--wLeAQR1q3ZAIZzvQWnycUkiwslBO5Urq9CjFAgodykNY5Ew0lqoMSUKFj7x_MWs2XKqXPa4saffRCzMCkWwo2QwTuUB-maIwDStyEckNhDY_3aI0QpCgpNuqNxwyBJBn9DqrHzwnJFVnN_bV4d&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIHBAB&uoh=1",
+    "displayed_link": "https://uncitral.un.org › files › 19-09951_e_ebook",
+    "favicon": "https://serpapi.com/images/i/UklGRiQBAABXRUJQVlA4IBgBAACwBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0zNELI2DdBhr2gwv9l1NO0S6s0T3RJ82DpWl5Q6HtiLrvwQAD-9hCJtSD1EQYp3sfAJ5hOHoQQkTPHdf07F4UHqVJkNFZYp64o8LndLFqwadJPhWi5SSCFaMMkmWgO3Ie4vQwbUayo-b1sB1HejCadV3lnZtAB_gW3DVaVBb1rm3BL4kT_xU-5gzis3sDbX9s8WwKGTCcMHg3txJ-74wp0hhbQEsrwArTkztkJTBr2Zwxnlwr7q-JoU3ECQtZ83WfEHUbG-J0FN8AmauDpcEhEkvEmjqG599ABQ6FFMeoSvdhrLvpPhkU9TQFMICsqZIJMqBH2qF9Fx8E4AAAA.webp",
+    "date": "11 Apr 1980",
+    "snippet": "The United Nations Convention on Contracts for the International. Sale of Goods provides a uniform text of law for international sales of goods.",
+    "snippet_highlighted_words": [
+     "Sale",
+     "sales"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "pages": 54
+      },
+      "extensions": [
+       "54 pages"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "The United Nations Convention on Contracts for the International. Sale of Goods provides a uniform text of law for international sales of goods.",
+      "source_info_link": "https://uncitral.un.org/sites/default/files/media-documents/uncitral/en/19-09951_e_ebook.pdf",
+      "icon": "https://serpapi.com/images/i/UklGRiQBAABXRUJQVlA4IBgBAACwBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0zNELI2DdBhr2gwv9l1NO0S6s0T3RJ82DpWl5Q6HtiLrvwQAD-9hCJtSD1EQYp3sfAJ5hOHoQQkTPHdf07F4UHqVJkNFZYp64o8LndLFqwadJPhWi5SSCFaMMkmWgO3Ie4vQwbUayo-b1sB1HejCadV3lnZtAB_gW3DVaVBb1rm3BL4kT_xU-5gzis3sDbX9s8WwKGTCcMHg3txJ-74wp0hhbQEsrwArTkztkJTBr2Zwxnlwr7q-JoU3ECQtZ83WfEHUbG-J0FN8AmauDpcEhEkvEmjqG599ABQ6FFMeoSvdhrLvpPhkU9TQFMICsqZIJMqBH2qF9Fx8E4AAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZaU1FleW5GbWZ5WDVYSklSVzFiSzJIN0NKc2twU2xILXJvNkdtZE93dERVamNLdi0td0xlQVFSMXEzWkFJWnp2UVdueWNVa2l3c2xCTzVVcnE5Q2pGQWdvZHlrTlk1RXcwbHFvTVNVS0ZqN3hfTVdzMlhLcVhQYTRzYWZmUkN6TUNrV3dvMlF3VHVVQi1tYUl3RFN0eUVja05oRFlfM2FJMFFwQ2dwTnVxTnh3eUJKQm45RHFySHp3bkpGVm5OX2JWNGQSBBoCCAAakwQSAggBGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDtAwgAEAAYACAAKhoKBGZsYXQV7s0zQBoFZmxhdHMaBmhvdXNlczLaAS9nb3RvP3VybD1DQUVTbHdFQjZ6c3dGWlNRZXluRm1meVg1WEpJUlcxYksySDdDSnNrcFNsSC1ybzZHbWRPd3REVWpjS3YtLXdMZUFRUjFxM1pBSVp6dlFXbnljVWtpd3NsQk81VXJxOUNqRkFnb2R5a05ZNUV3MGxxb01TVUtGajd4X01XczJYS3FYUGE0c2FmZlJDek1Da1d3bzJRd1R1VUItbWFJd0RTdHlFY2tOaERZXzNhSTBRcENncE51cU54d3lCSkJuOURxckh6d25KRlZuTl9iVjRkOkBVbml0ZWQgTmF0aW9ucyBDb252ZW50aW9uIG9uIENvbnRyYWN0cyBmb3IgdGhlIEludGVybmF0aW9uYWwgLi4uQp4BVGhlIFVuaXRlZCBOYXRpb25zIENvbnZlbnRpb24gb24gQ29udHJhY3RzIGZvciB0aGUgSW50ZXJuYXRpb25hbC4gPGI-U2FsZTwvYj4gb2YgR29vZHMgcHJvdmlkZXMgYSB1bmlmb3JtIHRleHQgb2YgbGF3IGZvciBpbnRlcm5hdGlvbmFsIDxiPnNhbGVzPC9iPiBvZiBnb29kcy5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZaU1FleW5GbWZ5WDVYSklSVzFiSzJIN0NKc2twU2xILXJvNkdtZE93dERVamNLdi0td0xlQVFSMXEzWkFJWnp2UVdueWNVa2l3c2xCTzVVcnE5Q2pGQWdvZHlrTlk1RXcwbHFvTVNVS0ZqN3hfTVdzMlhLcVhQYTRzYWZmUkN6TUNrV3dvMlF3VHVVQi1tYUl3RFN0eUVja05oRFlfM2FJMFFwQ2dwTnVxTnh3eUJKQm45RHFySHp3bkpGVm5OX2JWNGQSBBoCCAAakwQSAggBGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDtAwgAEAAYACAAKhoKBGZsYXQV7s0zQBoFZmxhdHMaBmhvdXNlczLaAS9nb3RvP3VybD1DQUVTbHdFQjZ6c3dGWlNRZXluRm1meVg1WEpJUlcxYksySDdDSnNrcFNsSC1ybzZHbWRPd3REVWpjS3YtLXdMZUFRUjFxM1pBSVp6dlFXbnljVWtpd3NsQk81VXJxOUNqRkFnb2R5a05ZNUV3MGxxb01TVUtGajd4X01XczJYS3FYUGE0c2FmZlJDek1Da1d3bzJRd1R1VUItbWFJd0RTdHlFY2tOaERZXzNhSTBRcENncE51cU54d3lCSkJuOURxckh6d25KRlZuTl9iVjRkOkBVbml0ZWQgTmF0aW9ucyBDb252ZW50aW9uIG9uIENvbnRyYWN0cyBmb3IgdGhlIEludGVybmF0aW9uYWwgLi4uQp4BVGhlIFVuaXRlZCBOYXRpb25zIENvbnZlbnRpb24gb24gQ29udHJhY3RzIGZvciB0aGUgSW50ZXJuYXRpb25hbC4gPGI-U2FsZTwvYj4gb2YgR29vZHMgcHJvdmlkZXMgYSB1bmlmb3JtIHRleHQgb2YgbGF3IGZvciBpbnRlcm5hdGlvbmFsIDxiPnNhbGVzPC9iPiBvZiBnb29kcy5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "United Nations Commission on International Trade Law",
+    "read_more_link": "https://uncitral.un.org/sites/default/files/media-documents/uncitral/en/19-09951_e_ebook.pdf#:~:text=The%20United%20Nations%20Convention%20on,goods."
+   },
+   {
+    "position": 4,
+    "title": "Mid Season Sale-Flat 40% Off on Womens Clothing",
+    "link": "https://www.marksandspencer.in/l/offers/sale---womenswear/?srsltid=AU7gw4Vxsx1MnyW5f2yi7lZBRif_mYLMbLhQbb7tsDXOux3sIUZruIrA",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStgEB6zswFbChU4zBdTo2AQPaoaPqJjQ65YDxyTs-Jk0GLa-9QLNs0eDc_EMTs5-hFvHrNP8-1QAqbZnf0tcf88daESBYypG7YKs53OhGQHk_x9ltKTqQkSAkepcN1EUwCkXL83OejW3mE-Es6T6ScFzye2p_wHusS9oGCY8F4ZxwMLGfDgcQ7qAGFTkVJUc42PVg3hvhqzE5peTNQPnIgqtam2vPVcDAj9WMOtPv5lVpFI69Q0Hq_w&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIFRAB&uoh=1",
+    "displayed_link": "https://www.marksandspencer.in › Offers",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA0UlEQVR4AeXJEZDDQABA0YfBSPysUjzKTOmofhSqluIzoVo9vLQch2AoToV1WghnZq-Zc4d--PJ8SpcfwK2iutXA9fk4IRSgL40uL-UGa45TGRmPIZdaOuszhgSlE8YdHktqDrxnxADfzRuniP28NfrUlh5duQIhKDxXb5TKHQx7ju0_TpP9bKub_FxebDV-pzI7sNrDwmbtSes0AfJwoFhOByZIO08QogPr3oFzoMo5es2wdWIE7I1XWssoj9ZtmvdA2wK6isut4aulHYaTj-kPCxpquxm0PjwAAAAASUVORK5CYII.png",
+    "snippet": "Mid-Season Sale: Flat 40% off on Women's dresses, tops and tees,shirts, jeans, trousers,shorts, skirts, blazers and jackets. Buy women clothing online at ...",
+    "snippet_highlighted_words": [
+     "Sale",
+     "Flat",
+     "Buy"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 4.8,
+       "free_day_returns": 35
+      },
+      "extensions": [
+       "4.8",
+       "(store rating)",
+       "Shop nearby (13.2 km)",
+       "Free delivery over ₹1,499",
+       "Free 35-day returns"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "Mid-Season Sale: Flat 40% off on Women's dresses, tops and tees,shirts, jeans, trousers,shorts, skirts, blazers and jackets. Buy women clothing online at ...",
+      "source_info_link": "https://www.marksandspencer.in/l/offers/sale---womenswear/?srsltid=AU7gw4Vxsx1MnyW5f2yi7lZBRif_mYLMbLhQbb7tsDXOux3sIUZruIrA",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA0UlEQVR4AeXJEZDDQABA0YfBSPysUjzKTOmofhSqluIzoVo9vLQch2AoToV1WghnZq-Zc4d--PJ8SpcfwK2iutXA9fk4IRSgL40uL-UGa45TGRmPIZdaOuszhgSlE8YdHktqDrxnxADfzRuniP28NfrUlh5duQIhKDxXb5TKHQx7ju0_TpP9bKub_FxebDV-pzI7sNrDwmbtSes0AfJwoFhOByZIO08QogPr3oFzoMo5es2wdWIE7I1XWssoj9ZtmvdA2wK6isut4aulHYaTj-kPCxpquxm0PjwAAAAASUVORK5CYII.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoQCL2dvdG8_dXJsPUNBRVN0Z0VCNnpzd0ZiQ2hVNHpCZFRvMkFRUGFvYVBxSmpRNjVZRHh5VHMtSmswR0xhLTlRTE5zMGVEY19FTVRzNS1oRnZIck5QOC0xUUFxYlpuZjB0Y2Y4OGRhRVNCWXlwRzdZS3M1M09oR1FIa194OWx0S1RxUWtTQWtlcGNOMUVVd0NrWEw4M09lalczbUUtRXM2VDZTY0Z6eWUycF93SHVzUzlvR0NZOEY0Wnh3TUxHZkRnY1E3cUFHRlRrVkpVYzQyUFZnM2h2aHF6RTVwZVROUVBuSWdxdGFtMnZQVmNEQWo5V01PdFB2NWxWcEZJNjlRMEhxX3cSBBoCCAAajwQSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDpAwgAEAAYACAAKhoKBGZsYXQVzBqJQBoFZmxhdHMaBmhvdXNlczKsAS9nb3RvP3VybD1DQUVTZFFIck96QVZkSUI5a0NaU3BSaG1lckttWnhxXzFxZXpPbW95ZzU2OHE1bUFYS0Y1c2VvaExfazBZdzFJQ0lqeF9ZYkhzM3dMRFhadV9kcThmUE91Z0tPNWdPWjVuZzNBeU1RUUJ6X01WcEhYZWNTVVQ2OVlVZmJSVUhObUVCM1l2X1JJNWxoekc4ZkZFdWdnZ1BVTnRCemlUcFdKSkE6TU1pZCBTZWFzb24gPGI-U2FsZTwvYj4tPGI-RmxhdDwvYj4gNDAlIE9mZiBvbiBXb21lbnMgQ2xvdGhpbmcgLSBNJmFtcDtTIEluZGlhQrsBTWlkLVNlYXNvbiA8Yj5TYWxlPC9iPjogPGI-RmxhdDwvYj4gNDAlIG9mZiBvbiBXb21lbiYjMzk7cyBkcmVzc2VzLCB0b3BzIGFuZCB0ZWVzLHNoaXJ0cywgamVhbnMsIHRyb3VzZXJzLHNob3J0cywgc2tpcnRzLCBibGF6ZXJzIGFuZCBqYWNrZXRzLiA8Yj5CdXk8L2I-IHdvbWVuIGNsb3RoaW5nIG9ubGluZSBhdCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoQCL2dvdG8_dXJsPUNBRVN0Z0VCNnpzd0ZiQ2hVNHpCZFRvMkFRUGFvYVBxSmpRNjVZRHh5VHMtSmswR0xhLTlRTE5zMGVEY19FTVRzNS1oRnZIck5QOC0xUUFxYlpuZjB0Y2Y4OGRhRVNCWXlwRzdZS3M1M09oR1FIa194OWx0S1RxUWtTQWtlcGNOMUVVd0NrWEw4M09lalczbUUtRXM2VDZTY0Z6eWUycF93SHVzUzlvR0NZOEY0Wnh3TUxHZkRnY1E3cUFHRlRrVkpVYzQyUFZnM2h2aHF6RTVwZVROUVBuSWdxdGFtMnZQVmNEQWo5V01PdFB2NWxWcEZJNjlRMEhxX3cSBBoCCAAajwQSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDpAwgAEAAYACAAKhoKBGZsYXQVzBqJQBoFZmxhdHMaBmhvdXNlczKsAS9nb3RvP3VybD1DQUVTZFFIck96QVZkSUI5a0NaU3BSaG1lckttWnhxXzFxZXpPbW95ZzU2OHE1bUFYS0Y1c2VvaExfazBZdzFJQ0lqeF9ZYkhzM3dMRFhadV9kcThmUE91Z0tPNWdPWjVuZzNBeU1RUUJ6X01WcEhYZWNTVVQ2OVlVZmJSVUhObUVCM1l2X1JJNWxoekc4ZkZFdWdnZ1BVTnRCemlUcFdKSkE6TU1pZCBTZWFzb24gPGI-U2FsZTwvYj4tPGI-RmxhdDwvYj4gNDAlIE9mZiBvbiBXb21lbnMgQ2xvdGhpbmcgLSBNJmFtcDtTIEluZGlhQrsBTWlkLVNlYXNvbiA8Yj5TYWxlPC9iPjogPGI-RmxhdDwvYj4gNDAlIG9mZiBvbiBXb21lbiYjMzk7cyBkcmVzc2VzLCB0b3BzIGFuZCB0ZWVzLHNoaXJ0cywgamVhbnMsIHRyb3VzZXJzLHNob3J0cywgc2tpcnRzLCBibGF6ZXJzIGFuZCBqYWNrZXRzLiA8Yj5CdXk8L2I-IHdvbWVuIGNsb3RoaW5nIG9ubGluZSBhdCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "Marks & Spencer India"
+   },
+   {
+    "position": 5,
+    "title": "SALE",
+    "link": "https://myraymond.com/collections/sale-1?srsltid=AU7gw4UaANZ04vFQZGkuUpJ5MKfY9ZxXhezOyUtBwPqc1Mv3opEjxGM8",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpAEB6zswFRHFoGGzVRp-YOPzTWU3rCoSJJ1vQg34YvcUUM45ARJU0SfrzHPUZPX-h05bKToTG1wgIfGy38NnWCShY8fMogcUKibgztD9y-wbOdOM82-iHkIWyJ-TFy_dxNdREMKy9_6tyLPnF263WbLafgnr5_uE0J4mdFNIYFZ3YwVk31ypaXpJ7fa8sx1eGzzjPCkM13pANIhX9sLKfvbCDAXYEg&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIFBAB&uoh=1",
+    "displayed_link": "https://myraymond.com › collections › sale-1",
+    "favicon": "https://serpapi.com/images/i/UklGRhoBAABXRUJQVlA4IA4BAAAwBQCdASocABwAPtE-tFooIigoFAEAGglsALT0E1AZCFlcCo_1RZqNtV16XfE7WF1gAAD-9gL_xHHg13LWheKkpMDzJo8LJMemapjNVFKTacWTJGg-sPRehlvqY9Ma0kbMK9LETWLOne5gJX1OKTP23erUo5_AoKDKh3h_b2I9E9xLHAgnC8e3jT7KKUtxCha9Qt0IAh1I9tVt1A0evNJpdRI73PSO5jL1rK6V5xUwF5B96767MazraarHFecL94XfHQhhvbqn5RjOpTWeKkod0imR-dZTZ-6__pPLnD7jjP4aOjb9u1oeLy5z_hZkcLULrftcNXIHRA879G4-j3__9W2jHqnZLY57rroAAAA.webp",
+    "snippet": "FLAT ₹100 OFF on your first order | Use code: MRFIRST. *T&C Apply. Get up ... SALE. 3543 products. 3543 products. Price. The highest price is Rs. 3,632.00 ...",
+    "snippet_highlighted_words": [
+     "SALE. 3543 products"
+    ],
+    "rich_snippet": {
+     "bottom": {
+      "detected_extensions": {
+       "shop_nearby_km": 13.0,
+       "price": 1000,
+       "currency": "Free delivery over ₹",
+       "day_returns": 15
+      },
+      "extensions": [
+       "Shop nearby (13.0 km)",
+       "Free delivery over ₹1,000",
+       "15-day returns"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "FLAT ₹100 OFF on your first order | Use code: MRFIRST. *T&C Apply. Get up ... SALE. 3543 products. 3543 products. Price. The highest price is Rs. 3,632.00 ...",
+      "source_info_link": "https://myraymond.com/collections/sale-1?srsltid=AU7gw4UaANZ04vFQZGkuUpJ5MKfY9ZxXhezOyUtBwPqc1Mv3opEjxGM8",
+      "icon": "https://serpapi.com/images/i/UklGRhoBAABXRUJQVlA4IA4BAAAwBQCdASocABwAPtE-tFooIigoFAEAGglsALT0E1AZCFlcCo_1RZqNtV16XfE7WF1gAAD-9gL_xHHg13LWheKkpMDzJo8LJMemapjNVFKTacWTJGg-sPRehlvqY9Ma0kbMK9LETWLOne5gJX1OKTP23erUo5_AoKDKh3h_b2I9E9xLHAgnC8e3jT7KKUtxCha9Qt0IAh1I9tVt1A0evNJpdRI73PSO5jL1rK6V5xUwF5B96767MazraarHFecL94XfHQhhvbqn5RjOpTWeKkod0imR-dZTZ-6__pPLnD7jjP4aOjb9u1oeLy5z_hZkcLULrftcNXIHRA879G4-j3__9W2jHqnZLY57rroAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0ZSSEZvR0d6VlJwLVlPUHpUV1UzckNvU0pKMXZRZzM0WXZjVVVNNDVBUkpVMFNmcnpIUFVaUFgtaDA1YktUb1RHMXdnSWZHeTM4Tm5XQ1NoWThmTW9nY1VLaWJnenREOXktd2JPZE9NODItaUhrSVd5Si1URnlfZHhOZFJFTUt5OV82dHlMUG5GMjYzV2JMYWZnbnI1X3VFMEo0bWRGTklZRlozWXdWazMxeXBhWHBKN2ZhOHN4MWVHenpqUENrTTEzcEFOSWhYOXNMS2Z2YkNEQVhZRWcSBBoCCAAatgMSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCQAwgAEAAYACAAKhoKBGZsYXQV6_6FQBoFZmxhdHMaBmhvdXNlczKUAS9nb3RvP3VybD1DQUVTWXdIck96QVZtUWZUems4YTVNSnNscEJ1SzdYSTl4ckRaT2J2SVpGRXVKOEpiVkRQenhjNkhQVll5bzRCeDZnc21jOGlVaktLdS04SFBYSEo2bUJXM0FfMjc5UnM0T1pQLVR0QTJHSTcteTJsSmx0cGlvRmhVTkt3NUJpXzNieDgyN2VnR3c6FzxiPlNBTEU8L2I-IC0gTXlSYXltb25kQrABRkxBVCDigrkxMDAgT0ZGIG9uIHlvdXIgZmlyc3Qgb3JkZXIgfCBVc2UgY29kZTogTVJGSVJTVC4gKlQmYW1wO0MgQXBwbHkuIEdldCB1cCAuLi4gPGI-U0FMRS4gMzU0MyBwcm9kdWN0czwvYj4uIDM1NDMgcHJvZHVjdHMuIFByaWNlLiBUaGUgaGlnaGVzdCBwcmljZSBpcyBScy4gMyw2MzIuMDAmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0ZSSEZvR0d6VlJwLVlPUHpUV1UzckNvU0pKMXZRZzM0WXZjVVVNNDVBUkpVMFNmcnpIUFVaUFgtaDA1YktUb1RHMXdnSWZHeTM4Tm5XQ1NoWThmTW9nY1VLaWJnenREOXktd2JPZE9NODItaUhrSVd5Si1URnlfZHhOZFJFTUt5OV82dHlMUG5GMjYzV2JMYWZnbnI1X3VFMEo0bWRGTklZRlozWXdWazMxeXBhWHBKN2ZhOHN4MWVHenpqUENrTTEzcEFOSWhYOXNMS2Z2YkNEQVhZRWcSBBoCCAAatgMSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCQAwgAEAAYACAAKhoKBGZsYXQV6_6FQBoFZmxhdHMaBmhvdXNlczKUAS9nb3RvP3VybD1DQUVTWXdIck96QVZtUWZUems4YTVNSnNscEJ1SzdYSTl4ckRaT2J2SVpGRXVKOEpiVkRQenhjNkhQVll5bzRCeDZnc21jOGlVaktLdS04SFBYSEo2bUJXM0FfMjc5UnM0T1pQLVR0QTJHSTcteTJsSmx0cGlvRmhVTkt3NUJpXzNieDgyN2VnR3c6FzxiPlNBTEU8L2I-IC0gTXlSYXltb25kQrABRkxBVCDigrkxMDAgT0ZGIG9uIHlvdXIgZmlyc3Qgb3JkZXIgfCBVc2UgY29kZTogTVJGSVJTVC4gKlQmYW1wO0MgQXBwbHkuIEdldCB1cCAuLi4gPGI-U0FMRS4gMzU0MyBwcm9kdWN0czwvYj4uIDM1NDMgcHJvZHVjdHMuIFByaWNlLiBUaGUgaGlnaGVzdCBwcmljZSBpcyBScy4gMyw2MzIuMDAmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "MyRaymond",
+    "read_more_link": "https://myraymond.com/collections/sale-1?srsltid=AU7gw4UaANZ04vFQZGkuUpJ5MKfY9ZxXhezOyUtBwPqc1Mv3opEjxGM8#:~:text=FLAT%20%E2%82%B9100%20OFF%20on%20your,Use%20code%3A%20MRFIRST.%20*T%26C%20Apply.&text=SALE,3543%20products"
+   },
+   {
+    "position": 6,
+    "title": "BAS SALE 2026",
+    "link": "https://bananaclub.co.in/collections/pre-buzz-sale?srsltid=AU7gw4WOYWQF1u4xOo8XdPDdTyNleKW01tWzoQo0rYoZhV6ZrNc_T_Qg",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrgEB6zswFXJSolsmVoycTx4XDeDSMj6KBOlHyoTry1VU58nj7hnP2lvzZbGPVLymZocgmg3hsbrnKggSbeVnxt7y9c3joCdXXnCFTy5QHVjmGwpGsT3wDZzpVjmAEpfvXKN6C4dHus1hDskIjguVanFHFfwzlVhLJfzauyRZNtgYg9ImUoFZFStttSyBxuI4fxB7pN4GtqssmsJ4P1SPTwxIm1b8hEk6vi4RGUAv8Js&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIGBAB&uoh=1",
+    "displayed_link": "https://bananaclub.co.in › collections › pre-buzz-sale",
+    "favicon": "https://serpapi.com/images/i/UklGRooAAABXRUJQVlA4IH4AAAAQBACdASocABwAPtE-tFooIigoFAEAGglqAJ0zJfj3owQj4Gvd0bRIYADsj8LJULRD4qa9mXrl65IIrwRbwrqbwbK_ct9_HQv_43hdt-w46athSd3dHNPazdtyojQYwYidmPqb7VoWRAyUFFOiwhQ6oh-I3w7BbR1_hJaRwAA.webp",
+    "snippet": "Sale price ₹ 999 Regular price ₹ 1,049. 5%. Quick view. Quick ... Bengaluru, Karnataka 560004 · Send Query. VISIT US. Visit our store for an ...",
+    "snippet_highlighted_words": [
+     "Sale price",
+     "price",
+     "Bengaluru"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 4.8,
+       "day_delivery": "5–7",
+       "day_returns": 7
+      },
+      "extensions": [
+       "4.8",
+       "(store rating)",
+       "Shop nearby (13.1 km)",
+       "5–7 day delivery",
+       "7-day returns"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "Sale price ₹ 999 Regular price ₹ 1,049. 5%. Quick view. Quick ... Bengaluru, Karnataka 560004 · Send Query. VISIT US. Visit our store for an ...",
+      "source_info_link": "https://bananaclub.co.in/collections/pre-buzz-sale?srsltid=AU7gw4WOYWQF1u4xOo8XdPDdTyNleKW01tWzoQo0rYoZhV6ZrNc_T_Qg",
+      "icon": "https://serpapi.com/images/i/UklGRooAAABXRUJQVlA4IH4AAAAQBACdASocABwAPtE-tFooIigoFAEAGglqAJ0zJfj3owQj4Gvd0bRIYADsj8LJULRD4qa9mXrl65IIrwRbwrqbwbK_ct9_HQv_43hdt-w46athSd3dHNPazdtyojQYwYidmPqb7VoWRAyUFFOiwhQ6oh-I3w7BbR1_hJaRwAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CvkBL2dvdG8_dXJsPUNBRVNyZ0VCNnpzd0ZYSlNvbHNtVm95Y1R4NFhEZURTTWo2S0JPbEh5b1RyeTFWVTU4bmo3aG5QMmx2elpiR1BWTHltWm9jZ21nM2hzYnJuS2dnU2JlVm54dDd5OWMzam9DZFhYbkNGVHk1UUhWam1Hd3BHc1Qzd0RaenBWam1BRXBmdlhLTjZDNGRIdXMxaERza0lqZ3VWYW5GSEZmd3psVmhMSmZ6YXV5UlpOdGdZZzlJbVVvRlpGU3R0dFN5Qnh1STRmeEI3cE40R3Rxc3Ntc0o0UDFTUFR3eEltMWI4aEVrNnZpNFJHVUF2OEpzEgQaAggAGtMDEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJArQMIABAAGAAgACoaCgRmbGF0FTkhpUAaBWZsYXRzGgZob3VzZXMyoQEvZ290bz91cmw9Q0FFU2JRSHJPekFWMW1oaVZrcWNhZ0FhUlZ5Z0hoZXBCUk5WZUh5ZTlNNDdVejNFOEtfanUyc3MxUy1yWU5mUzZzRGxLQ2ttTWZEOUczMGtyM0hWd3JXS2t1QkxmLVI3RE9ESHlmQlBkTy1XZjNrNUUyUUM2dXYyNGVUT2JIZTYyWi1zamE0RjMtcG9SeFpOWUhBbEFhdzoiQkFTIDxiPlNBTEU8L2I-IDIwMjYgLSBCYW5hbmEgQ2x1YkK1ATxiPlNhbGUgcHJpY2U8L2I-IOKCuSA5OTkgUmVndWxhciA8Yj5wcmljZTwvYj4g4oK5IDEsMDQ5LiA1JS4gUXVpY2sgdmlldy4gUXVpY2sgLi4uIDxiPkJlbmdhbHVydTwvYj4sIEthcm5hdGFrYSA1NjAwMDQgJm1pZGRvdDsgU2VuZCBRdWVyeS4gVklTSVQgVVMuIFZpc2l0IG91ciBzdG9yZSBmb3IgYW4mbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CvkBL2dvdG8_dXJsPUNBRVNyZ0VCNnpzd0ZYSlNvbHNtVm95Y1R4NFhEZURTTWo2S0JPbEh5b1RyeTFWVTU4bmo3aG5QMmx2elpiR1BWTHltWm9jZ21nM2hzYnJuS2dnU2JlVm54dDd5OWMzam9DZFhYbkNGVHk1UUhWam1Hd3BHc1Qzd0RaenBWam1BRXBmdlhLTjZDNGRIdXMxaERza0lqZ3VWYW5GSEZmd3psVmhMSmZ6YXV5UlpOdGdZZzlJbVVvRlpGU3R0dFN5Qnh1STRmeEI3cE40R3Rxc3Ntc0o0UDFTUFR3eEltMWI4aEVrNnZpNFJHVUF2OEpzEgQaAggAGtMDEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJArQMIABAAGAAgACoaCgRmbGF0FTkhpUAaBWZsYXRzGgZob3VzZXMyoQEvZ290bz91cmw9Q0FFU2JRSHJPekFWMW1oaVZrcWNhZ0FhUlZ5Z0hoZXBCUk5WZUh5ZTlNNDdVejNFOEtfanUyc3MxUy1yWU5mUzZzRGxLQ2ttTWZEOUczMGtyM0hWd3JXS2t1QkxmLVI3RE9ESHlmQlBkTy1XZjNrNUUyUUM2dXYyNGVUT2JIZTYyWi1zamE0RjMtcG9SeFpOWUhBbEFhdzoiQkFTIDxiPlNBTEU8L2I-IDIwMjYgLSBCYW5hbmEgQ2x1YkK1ATxiPlNhbGUgcHJpY2U8L2I-IOKCuSA5OTkgUmVndWxhciA8Yj5wcmljZTwvYj4g4oK5IDEsMDQ5LiA1JS4gUXVpY2sgdmlldy4gUXVpY2sgLi4uIDxiPkJlbmdhbHVydTwvYj4sIEthcm5hdGFrYSA1NjAwMDQgJm1pZGRvdDsgU2VuZCBRdWVyeS4gVklTSVQgVVMuIFZpc2l0IG91ciBzdG9yZSBmb3IgYW4mbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "Banana Club",
+    "read_more_link": "https://bananaclub.co.in/collections/pre-buzz-sale?srsltid=AU7gw4WOYWQF1u4xOo8XdPDdTyNleKW01tWzoQo0rYoZhV6ZrNc_T_Qg#:~:text=%E2%82%B9%20999,5%25&text=VISIT%20US"
+   },
+   {
+    "position": 7,
+    "title": "Summer Sale",
+    "link": "https://www.garmin-india.com/c/summer-sale?srsltid=AU7gw4WrRpfHiXzL6SNN6wXDmhHkNiZHTcLeMDdH0J1_P9HDz1CPDXMM",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpgEB6zswFSryB1yo01jut7RQmjN0KNqqu9eJIPD2dMKeWhY8JtI2PzjBQDV0WW8TM83Ed-zc57C7zrCnBK40RpMWOXWUoTSP479-XMRBneQULScQbSvFvSRLTTIP0FvdJYI2NlRAwHxTvhGgyJ4YOz7utxg60HS4Kt8Vhiw-TR1e-zSGE-xzAgle0KwGbrWmUj-asq6P5HqG7MQZGB8hvnVMYxUlxLKl&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIFxAB&uoh=1",
+    "displayed_link": "https://www.garmin-india.com › summer-sale",
+    "favicon": "https://serpapi.com/images/i/UklGRr4AAABXRUJQVlA4ILIAAAAQBQCdASogACAAPtEutFooIagoGAEAGglpAAPjfln-Dqc1K-DV4ZoyleON_qSkOnTgAP7-wpoLTGnmPXX6cYMx_hoFiVYmDjvwJW5J9yxb1kkGSsJvtNqKQ1PZXruziT6cjtIhm4LamtiYT59R9YR2ErYI-SXSJxU4UuZxi3eKe9HO562BJ6D7TuATdonJkHFFvqd6Ms_HmUvD5iEbJZBfzZkvr58UvPP2L2g77zCdAgAA.webp",
+    "snippet": "Summer Sale ; Shop by Series. Forerunner · fenix · Venu · vivoactive ; Shop by Feature. Swimming. Running. Entry Level Running. Watch. Elite Running. Advanced ...",
+    "snippet_highlighted_words": [
+     "Sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Summer Sale ; Shop by Series. Forerunner · fenix · Venu · vivoactive ; Shop by Feature. Swimming. Running. Entry Level Running. Watch. Elite Running. Advanced ...",
+      "source_info_link": "https://www.garmin-india.com/c/summer-sale?srsltid=AU7gw4WrRpfHiXzL6SNN6wXDmhHkNiZHTcLeMDdH0J1_P9HDz1CPDXMM",
+      "icon": "https://serpapi.com/images/i/UklGRr4AAABXRUJQVlA4ILIAAAAQBQCdASogACAAPtEutFooIagoGAEAGglpAAPjfln-Dqc1K-DV4ZoyleON_qSkOnTgAP7-wpoLTGnmPXX6cYMx_hoFiVYmDjvwJW5J9yxb1kkGSsJvtNqKQ1PZXruziT6cjtIhm4LamtiYT59R9YR2ErYI-SXSJxU4UuZxi3eKe9HO562BJ6D7TuATdonJkHFFvqd6Ms_HmUvD5iEbJZBfzZkvr58UvPP2L2g77zCdAgAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZTcnlCMXlvMDFqdXQ3UlFtak4wS05xcXU5ZUpJUEQyZE1LZVdoWThKdEkyUHpqQlFEVjBXVzhUTTgzRWQtemM1N0M3enJDbkJLNDBScE1XT1hXVW9UU1A0NzktWE1SQm5lUVVMU2NRYlN2RnZTUkxUVElQMEZ2ZEpZSTJObFJBd0h4VHZoR2d5SjRZT3o3dXR4ZzYwSFM0S3Q4Vmhpdy1UUjFlLXpTR0UteHpBZ2xlMEt3R2JyV21Vai1hc3E2UDVIcUc3TVFaR0I4aHZuVk1ZeFVseExLbBIEGgIIABrVAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCxAwgAEAAYACAAKhoKBGZsYXQVJuSZQBoFZmxhdHMaBmhvdXNlczKWAS9nb3RvP3VybD1DQUVTWlFIck96QVZUTFNzR3FackdpLWVBVnlxdzZQTEZzRkR2c21qSHczZm14MnZlTmJOSy1KdHliMDd3WlV1b0dFRU45NG8tdG1ldXR0YldEVTVsWF9FSmVjTEhZM2VqdGFrUXN5UHBxMjZwZnRqcHRDRzRXTTRqektRQ2JxdzBGR2x4aUJscDZMUzojU3VtbWVyIDxiPlNhbGU8L2I-IC0gR2FybWluIHwgSW5kaWFCwwFTdW1tZXIgPGI-U2FsZTwvYj4gOyBTaG9wIGJ5IFNlcmllcy4gRm9yZXJ1bm5lciAmbWlkZG90OyBmZW5peCAmbWlkZG90OyBWZW51ICZtaWRkb3Q7IHZpdm9hY3RpdmUgOyBTaG9wIGJ5IEZlYXR1cmUuIFN3aW1taW5nLiBSdW5uaW5nLiBFbnRyeSBMZXZlbCBSdW5uaW5nLiBXYXRjaC4gRWxpdGUgUnVubmluZy4gQWR2YW5jZWQmbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZTcnlCMXlvMDFqdXQ3UlFtak4wS05xcXU5ZUpJUEQyZE1LZVdoWThKdEkyUHpqQlFEVjBXVzhUTTgzRWQtemM1N0M3enJDbkJLNDBScE1XT1hXVW9UU1A0NzktWE1SQm5lUVVMU2NRYlN2RnZTUkxUVElQMEZ2ZEpZSTJObFJBd0h4VHZoR2d5SjRZT3o3dXR4ZzYwSFM0S3Q4Vmhpdy1UUjFlLXpTR0UteHpBZ2xlMEt3R2JyV21Vai1hc3E2UDVIcUc3TVFaR0I4aHZuVk1ZeFVseExLbBIEGgIIABrVAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCxAwgAEAAYACAAKhoKBGZsYXQVJuSZQBoFZmxhdHMaBmhvdXNlczKWAS9nb3RvP3VybD1DQUVTWlFIck96QVZUTFNzR3FackdpLWVBVnlxdzZQTEZzRkR2c21qSHczZm14MnZlTmJOSy1KdHliMDd3WlV1b0dFRU45NG8tdG1ldXR0YldEVTVsWF9FSmVjTEhZM2VqdGFrUXN5UHBxMjZwZnRqcHRDRzRXTTRqektRQ2JxdzBGR2x4aUJscDZMUzojU3VtbWVyIDxiPlNhbGU8L2I-IC0gR2FybWluIHwgSW5kaWFCwwFTdW1tZXIgPGI-U2FsZTwvYj4gOyBTaG9wIGJ5IFNlcmllcy4gRm9yZXJ1bm5lciAmbWlkZG90OyBmZW5peCAmbWlkZG90OyBWZW51ICZtaWRkb3Q7IHZpdm9hY3RpdmUgOyBTaG9wIGJ5IEZlYXR1cmUuIFN3aW1taW5nLiBSdW5uaW5nLiBFbnRyeSBMZXZlbCBSdW5uaW5nLiBXYXRjaC4gRWxpdGUgUnVubmluZy4gQWR2YW5jZWQmbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "Garmin | India",
+    "read_more_link": "https://www.garmin-india.com/c/summer-sale?srsltid=AU7gw4WrRpfHiXzL6SNN6wXDmhHkNiZHTcLeMDdH0J1_P9HDz1CPDXMM#:~:text=Summer%20Sale&text=COMPARE&text=COMPARE&text=COMPARE&text=COMPARE&text=COMPARE"
+   },
+   {
+    "position": 8,
+    "title": "Sale price [sale_price] - Google Merchant Center Help",
+    "link": "https://support.google.com/merchants/answer/6324471?hl=en",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=https://support.google.com/merchants/answer/6324471%3Fhl%3Den&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIIBAB",
+    "displayed_link": "https://support.google.com › merchants › answer",
+    "favicon": "https://serpapi.com/images/i/UklGRq4AAABXRUJQVlA4IKIAAADwAgCdASoQABAAAsBMJbACdDiAN4z-0AFj302FejU2AAD-9nwIHnctDt4yPbFvK77LGPb6brAEqY6T1zYyWbjXB1uF9_Uj7wHz6zN7NYUQSHV49IiqjS-X2Ma8SvIJ1Yz1zaTOUQdbJFjhPMWxQQ-L8rWiceEEj1--p48_g8UrXrinoKsbx2bf93Q4BjOi9thY669Kz4H3_8YLw06o8JwAAAA.webp",
+    "snippet": "During a sale, your sale price is shown as the current price. If the original price and sale price meet certain requirements, the original price may show along ...",
+    "snippet_highlighted_words": [
+     "sale",
+     "sale price",
+     "price",
+     "price",
+     "sale price",
+     "price"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "During a sale, your sale price is shown as the current price. If the original price and sale price meet certain requirements, the original price may show along ...",
+      "source_info_link": "https://support.google.com/merchants/answer/6324471?hl=en",
+      "icon": "https://serpapi.com/images/i/UklGRq4AAABXRUJQVlA4IKIAAADwAgCdASoQABAAAsBMJbACdDiAN4z-0AFj302FejU2AAD-9nwIHnctDt4yPbFvK77LGPb6brAEqY6T1zYyWbjXB1uF9_Uj7wHz6zN7NYUQSHV49IiqjS-X2Ma8SvIJ1Yz1zaTOUQdbJFjhPMWxQQ-L8rWiceEEj1--p48_g8UrXrinoKsbx2bf93Q4BjOi9thY669Kz4H3_8YLw06o8JwAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CjlodHRwczovL3N1cHBvcnQuZ29vZ2xlLmNvbS9tZXJjaGFudHMvYW5zd2VyLzYzMjQ0NzE_aGw9ZW4SBBoCCAAaoQMSAggBGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD7AggAEAAYACAAKhoKBGZsYXQVIKTJQBoFZmxhdHMaBmhvdXNlczI5aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vbWVyY2hhbnRzL2Fuc3dlci82MzI0NDcxP2hsPWVuOjw8Yj5TYWxlIHByaWNlPC9iPiBbc2FsZV9wcmljZV0gLSBHb29nbGUgTWVyY2hhbnQgQ2VudGVyIEhlbHBC0gFEdXJpbmcgYSA8Yj5zYWxlPC9iPiwgeW91ciA8Yj5zYWxlIHByaWNlPC9iPiBpcyBzaG93biBhcyB0aGUgY3VycmVudCA8Yj5wcmljZTwvYj4uIElmIHRoZSBvcmlnaW5hbCA8Yj5wcmljZTwvYj4gYW5kIDxiPnNhbGUgcHJpY2U8L2I-IG1lZXQgY2VydGFpbiByZXF1aXJlbWVudHMsIHRoZSBvcmlnaW5hbCA8Yj5wcmljZTwvYj4gbWF5IHNob3cgYWxvbmcmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CjlodHRwczovL3N1cHBvcnQuZ29vZ2xlLmNvbS9tZXJjaGFudHMvYW5zd2VyLzYzMjQ0NzE_aGw9ZW4SBBoCCAAaoQMSAggBGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD7AggAEAAYACAAKhoKBGZsYXQVIKTJQBoFZmxhdHMaBmhvdXNlczI5aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vbWVyY2hhbnRzL2Fuc3dlci82MzI0NDcxP2hsPWVuOjw8Yj5TYWxlIHByaWNlPC9iPiBbc2FsZV9wcmljZV0gLSBHb29nbGUgTWVyY2hhbnQgQ2VudGVyIEhlbHBC0gFEdXJpbmcgYSA8Yj5zYWxlPC9iPiwgeW91ciA8Yj5zYWxlIHByaWNlPC9iPiBpcyBzaG93biBhcyB0aGUgY3VycmVudCA8Yj5wcmljZTwvYj4uIElmIHRoZSBvcmlnaW5hbCA8Yj5wcmljZTwvYj4gYW5kIDxiPnNhbGUgcHJpY2U8L2I-IG1lZXQgY2VydGFpbiByZXF1aXJlbWVudHMsIHRoZSBvcmlnaW5hbCA8Yj5wcmljZTwvYj4gbWF5IHNob3cgYWxvbmcmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "Google Help",
+    "read_more_link": "https://support.google.com/merchants/answer/6324471?hl=en#:~:text=During%20a%20sale%2C%20your%20sale,view%20the%20difference%20between%20prices."
+   },
+   {
+    "position": 9,
+    "title": "La Rvfleuze - Argent Sale | A COLORS SHOW",
+    "link": "https://www.youtube.com/watch?v=2An67RbHxi4",
+    "displayed_link": "2.6Cr+ views · 7 months ago",
+    "thumbnail": "https://serpapi.com/searches/6ac1d82513f4b68a5c5e9787/images/lvSGUIzEaIZ0czkJyovuC-pvaqP3oDyuVD4fS3XGQYE.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "Paris-based rapper La Rvfleuze (@larvfleuze) channels raw grit and uncompromising force in his performance of 'Argent Sale'.",
+    "duration": "2:45",
+    "about_this_result": {
+     "source": {
+      "description": "Paris-based rapper La Rvfleuze (@larvfleuze) channels raw grit and uncompromising force in his performance of 'Argent Sale'.",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVnJhU0xrOWpWNkdKWk1YZ3dteUl5blQ0UGt2VTQ4eUNIRzRTb0l4bEZveGRFYW1fN01GaFp5RmxSVGhDYUNvZ1lTMFVQX1JaenlRbVd0UWdKSlgzdGlKYzZGZXpnVzlVQlhFRTkxNTJSa2VLOVU3UXNnOW5NQmU0OTNLa3I5N0VTX1ESFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVnJhU0xrOWpWNkdKWk1YZ3dteUl5blQ0UGt2VTQ4eUNIRzRTb0l4bEZveGRFYW1fN01GaFp5RmxSVGhDYUNvZ1lTMFVQX1JaenlRbVd0UWdKSlgzdGlKYzZGZXpnVzlVQlhFRTkxNTJSa2VLOVU3UXNnOW5NQmU0OTNLa3I5N0VTX1ESFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQVNYS1kSwA69PzgdJk9qdwumwJgvXdyaURdA",
+    "source": "YouTube · COLORS"
+   },
+   {
+    "position": 10,
+    "title": "Sale, Mortgage and Gift Permission",
+    "link": "https://southandaman.nic.in/service/sale-mortgage-and-gift-permission/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgQEB6zswFaMfN8h1X8T5jvrOic_p5zokGrOsx81SY4mbuu957fbT4MeN6qxDPB042d1oMDARO9gt8vdxaDz00rVWASPdmjAI2nwm2RaV9uGnxjMesiiB8T9nUMH9jncFD5j2PyS6zTasgHiLCOOedXOjqk38sbLc9hHJwoKpTT1OwKg&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChAWegQIFhAB&uoh=1",
+    "displayed_link": "https://southandaman.nic.in › service › sale-mortgage-an...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEX_mTP_u3f____S0uqEhMaMjMq1tdzOzui0tNyTk82Vlc1UVK9hsFoSiAfVW9AIAAAAQUlEQVR4AWMYOkAQDTAoQYCyEZQBE3ANQRVQS69IQhHQNHGehCKglb1tEYYAfi1q7RVJOKzFdNgZNMBwFw0MWgEAC2Kz-S0-y7YAAAAASUVORK5CYII.png",
+    "date": "28 Jul 2026",
+    "snippet": "Sale, Mortgage and Gift Permission ; Whom To Apply, Deputy Commissioner. ; How To Apply, Application in the format prescribed, by affixing a Court ...",
+    "snippet_highlighted_words": [
+     "Sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Sale, Mortgage and Gift Permission ; Whom To Apply, Deputy Commissioner. ; How To Apply, Application in the format prescribed, by affixing a Court ...",
+      "source_info_link": "https://southandaman.nic.in/service/sale-mortgage-and-gift-permission/",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEX_mTP_u3f____S0uqEhMaMjMq1tdzOzui0tNyTk82Vlc1UVK9hsFoSiAfVW9AIAAAAQUlEQVR4AWMYOkAQDTAoQYCyEZQBE3ANQRVQS69IQhHQNHGehCKglb1tEYYAfi1q7RVJOKzFdNgZNMBwFw0MWgEAC2Kz-S0-y7YAAAAASUVORK5CYII.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cr0BL2dvdG8_dXJsPUNBRVNnUUVCNnpzd0ZhTWZOOGgxWDhUNWp2ck9pY19wNXpva0dyT3N4ODFTWTRtYnV1OTU3ZmJUNE1lTjZxeERQQjA0MmQxb01EQVJPOWd0OHZkeGFEejAwclZXQVNQZG1qQUkybndtMlJhVjl1R254ak1lc2lpQjhUOW5VTUg5am5jRkQ1ajJQeVM2elRhc2dIaUxDT09lZFhPanFrMzhzYkxjOWhISndvS3BUVDFPd0tnEgQaAggAGvoDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQNYDCAAQABgAIAAqGgoEZmxhdBXrAotAGgVmbGF0cxoGaG91c2VzMr0BL2dvdG8_dXJsPUNBRVNnUUVCNnpzd0ZhTWZOOGgxWDhUNWp2ck9pY19wNXpva0dyT3N4ODFTWTRtYnV1OTU3ZmJUNE1lTjZxeERQQjA0MmQxb01EQVJPOWd0OHZkeGFEejAwclZXQVNQZG1qQUkybndtMlJhVjl1R254ak1lc2lpQjhUOW5VTUg5am5jRkQ1ajJQeVM2elRhc2dIaUxDT09lZFhPanFrMzhzYkxjOWhISndvS3BUVDFPd0tnOkI8Yj5TYWxlPC9iPiwgTW9ydGdhZ2UgYW5kIEdpZnQgUGVybWlzc2lvbiAtIFNvdXRoIEFuZGFtYW4gRGlzdHJpY3RCogE8Yj5TYWxlPC9iPiwgTW9ydGdhZ2UgYW5kIEdpZnQgUGVybWlzc2lvbiA7IFdob20gVG8gQXBwbHksIERlcHV0eSBDb21taXNzaW9uZXIuIDsgSG93IFRvIEFwcGx5LCBBcHBsaWNhdGlvbiBpbiB0aGUgZm9ybWF0IHByZXNjcmliZWQsIGJ5IGFmZml4aW5nIGEgQ291cnQmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cr0BL2dvdG8_dXJsPUNBRVNnUUVCNnpzd0ZhTWZOOGgxWDhUNWp2ck9pY19wNXpva0dyT3N4ODFTWTRtYnV1OTU3ZmJUNE1lTjZxeERQQjA0MmQxb01EQVJPOWd0OHZkeGFEejAwclZXQVNQZG1qQUkybndtMlJhVjl1R254ak1lc2lpQjhUOW5VTUg5am5jRkQ1ajJQeVM2elRhc2dIaUxDT09lZFhPanFrMzhzYkxjOWhISndvS3BUVDFPd0tnEgQaAggAGvoDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQNYDCAAQABgAIAAqGgoEZmxhdBXrAotAGgVmbGF0cxoGaG91c2VzMr0BL2dvdG8_dXJsPUNBRVNnUUVCNnpzd0ZhTWZOOGgxWDhUNWp2ck9pY19wNXpva0dyT3N4ODFTWTRtYnV1OTU3ZmJUNE1lTjZxeERQQjA0MmQxb01EQVJPOWd0OHZkeGFEejAwclZXQVNQZG1qQUkybndtMlJhVjl1R254ak1lc2lpQjhUOW5VTUg5am5jRkQ1ajJQeVM2elRhc2dIaUxDT09lZFhPanFrMzhzYkxjOWhISndvS3BUVDFPd0tnOkI8Yj5TYWxlPC9iPiwgTW9ydGdhZ2UgYW5kIEdpZnQgUGVybWlzc2lvbiAtIFNvdXRoIEFuZGFtYW4gRGlzdHJpY3RCogE8Yj5TYWxlPC9iPiwgTW9ydGdhZ2UgYW5kIEdpZnQgUGVybWlzc2lvbiA7IFdob20gVG8gQXBwbHksIERlcHV0eSBDb21taXNzaW9uZXIuIDsgSG93IFRvIEFwcGx5LCBBcHBsaWNhdGlvbiBpbiB0aGUgZm9ybWF0IHByZXNjcmliZWQsIGJ5IGFmZml4aW5nIGEgQ291cnQmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "South Andaman District",
+    "read_more_link": "https://southandaman.nic.in/service/sale-mortgage-and-gift-permission/#:~:text=Sale%2C%20Mortgage%20and%20Gift%20Permission&text=Whom%20To%20Apply,Deputy%20Commissioner.&text=How%20To%20Apply,Court%2Dfee%20stamp%20of%20Re.0.75%20paise"
+   }
+  ],
+  "pagination": {
+   "current": 2,
+   "previous": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnsfQ-ojPP6TkOEHMSYtqRB6o1f_tA:1791088677473&ei=JdjBape5HODU5NoPvMv6EA&start=0&sa=N&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChDx0wN6BAg3EAI",
+   "next": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnsfQ-ojPP6TkOEHMSYtqRB6o1f_tA:1791088677473&ei=JdjBape5HODU5NoPvMv6EA&start=20&sa=N&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChDw0wN6BAg3EAk",
+   "other_pages": {
+    "1": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnsfQ-ojPP6TkOEHMSYtqRB6o1f_tA:1791088677473&ei=JdjBape5HODU5NoPvMv6EA&start=0&sa=N&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChDy0wN6BAg3EAQ",
+    "3": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnsfQ-ojPP6TkOEHMSYtqRB6o1f_tA:1791088677473&ei=JdjBape5HODU5NoPvMv6EA&start=20&sa=N&ved=2ahUKEwjX34ajxZ-XAxVgKlkFHbylHgI4ChDy0wN6BAg3EAc"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 2,
+   "previous_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=0",
+   "previous": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=0",
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+   "other_pages": {
+    "1": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=0",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20"
+   }
+  }
+ }
+}

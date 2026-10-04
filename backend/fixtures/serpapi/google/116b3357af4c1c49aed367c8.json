@@ -1,0 +1,378 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "flat for sale in Hebbal Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d8f92c2bb43aed1bf9c6",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/HV8LTVXoj40jTcMwkghj2CBIv5F_w5Rkayfa4X42TFA/6ac1d8f92c2bb43aed1bf9c6.json",
+   "markdown_endpoint": "https://serpapi.com/searches/HV8LTVXoj40jTcMwkghj2CBIv5F_w5Rkayfa4X42TFA/6ac1d8f92c2bb43aed1bf9c6.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/HV8LTVXoj40jTcMwkghj2CBIv5F_w5Rkayfa4X42TFA/6ac1d8f92c2bb43aed1bf9c6.json_with_pixel_position",
+   "created_at": "2026-10-04 04:41:29 UTC",
+   "processed_at": "2026-10-04 04:41:29 UTC",
+   "google_url": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/HV8LTVXoj40jTcMwkghj2CBIv5F_w5Rkayfa4X42TFA/6ac1d8f92c2bb43aed1bf9c6.html",
+   "total_time_taken": 47.45
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "flat for sale in Hebbal Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "flat for sale in Hebbal Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 136000,
+   "time_taken_displayed": 0.2,
+   "organic_results_state": "Some results for exact spelling but showing fixed spelling",
+   "spelling_fix": "flat for sale in Hebbal Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "showing_results_for": "flat for sale in Hebbal Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "3 BHK Flats in Hebbal, Bangalore for Sale Below 1 Crore",
+    "link": "https://www.99acres.com/3-bhk-flats-in-hebbal-bangalore-north-75-lakhs-to-1-crore-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkQEB6zswFfzNCT-UKpftu08ciZRRrEO09yORdCPL8vHXtYiyHO1dKKyCAn81robmh5rae5Fp9oHILThlpYukqSV1MaLDfX2LDCPCORTp1Fv_TlLkqoLj3pJ2NYI2T-3oIs3fxJN8rXQX1jV_fYh0uPjHTX64vwOr75rscxbEMjW8wgPffaUu0Zikea85adh4bEy-&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 3-bhk-flats-in-hebbal-banga...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find 3 BHK Flats in Hebbal, Bangalore from 75 lakhs to 1 crore on 99acres.com. The flat is over 1800 sq.Ft. Carpet area and comes with 3 bedroom(s), 3 ...",
+    "snippet_highlighted_words": [
+     "3 BHK Flats in Hebbal, Bangalore from 75 lakhs to 1 crore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find 3 BHK Flats in Hebbal, Bangalore from 75 lakhs to 1 crore on 99acres.com. The flat is over 1800 sq.Ft. Carpet area and comes with 3 bedroom(s), 3 ...",
+      "source_info_link": "https://www.99acres.com/3-bhk-flats-in-hebbal-bangalore-north-75-lakhs-to-1-crore-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtIBL2dvdG8_dXJsPUNBRVNrUUVCNnpzd0Zmek5DVC1VS3BmdHUwOGNpWlJSckVPMDl5T1JkQ1BMOHZIWHRZaXlITzFkS0t5Q0FuODFyb2JtaDVyYWU1RnA5b0hJTFRobHBZdWtxU1YxTWFMRGZYMkxEQ1BDT1JUcDFGdl9UbExrcW9MajNwSjJOWUkyVC0zb0lzM2Z4Sk44clhRWDFqVl9mWWgwdVBqSFRYNjR2d09yNzVyc2N4YkVNalc4d2dQZmZhVXUwWmlrZWE4NWFkaDRiRXktEgQaAggAGu8GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAqAYIABAAGAAgACoaCgRmbGF0FYeTmEAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRVOxFNAGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwVKSPnQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRX_e9ZAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVaCDiPhoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVOu7BQBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRXwqqVAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLSAS9nb3RvP3VybD1DQUVTa1FFQjZ6c3dGZnpOQ1QtVUtwZnR1MDhjaVpSUnJFTzA5eU9SZENQTDh2SFh0WWl5SE8xZEtLeUNBbjgxcm9ibWg1cmFlNUZwOW9ISUxUaGxwWXVrcVNWMU1hTERmWDJMRENQQ09SVHAxRnZfVGxMa3FvTGozcEoyTllJMlQtM29JczNmeEpOOHJYUVgxalZfZlloMHVQakhUWDY0dndPcjc1cnNjeGJFTWpXOHdnUGZmYVV1MFppa2VhODVhZGg0YkV5LTpTMyBCSEsgPGI-RmxhdHM8L2I-IGluIDxiPkhlYmJhbDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGUgQmVsb3cgMSBDcm9yZTwvYj5CpgFGaW5kIDxiPjMgQkhLIEZsYXRzIGluIEhlYmJhbCwgQmFuZ2Fsb3JlIGZyb20gNzUgbGFraHMgdG8gMSBjcm9yZTwvYj4gb24gOTlhY3Jlcy5jb20uIFRoZSBmbGF0IGlzIG92ZXIgMTgwMCBzcS5GdC4gQ2FycGV0IGFyZWEgYW5kIGNvbWVzIHdpdGggMyBiZWRyb29tKHMpLCAzJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtIBL2dvdG8_dXJsPUNBRVNrUUVCNnpzd0Zmek5DVC1VS3BmdHUwOGNpWlJSckVPMDl5T1JkQ1BMOHZIWHRZaXlITzFkS0t5Q0FuODFyb2JtaDVyYWU1RnA5b0hJTFRobHBZdWtxU1YxTWFMRGZYMkxEQ1BDT1JUcDFGdl9UbExrcW9MajNwSjJOWUkyVC0zb0lzM2Z4Sk44clhRWDFqVl9mWWgwdVBqSFRYNjR2d09yNzVyc2N4YkVNalc4d2dQZmZhVXUwWmlrZWE4NWFkaDRiRXktEgQaAggAGu8GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAqAYIABAAGAAgACoaCgRmbGF0FYeTmEAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRVOxFNAGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwVKSPnQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRX_e9ZAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVaCDiPhoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVOu7BQBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRXwqqVAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLSAS9nb3RvP3VybD1DQUVTa1FFQjZ6c3dGZnpOQ1QtVUtwZnR1MDhjaVpSUnJFTzA5eU9SZENQTDh2SFh0WWl5SE8xZEtLeUNBbjgxcm9ibWg1cmFlNUZwOW9ISUxUaGxwWXVrcVNWMU1hTERmWDJMRENQQ09SVHAxRnZfVGxMa3FvTGozcEoyTllJMlQtM29JczNmeEpOOHJYUVgxalZfZlloMHVQakhUWDY0dndPcjc1cnNjeGJFTWpXOHdnUGZmYVV1MFppa2VhODVhZGg0YkV5LTpTMyBCSEsgPGI-RmxhdHM8L2I-IGluIDxiPkhlYmJhbDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGUgQmVsb3cgMSBDcm9yZTwvYj5CpgFGaW5kIDxiPjMgQkhLIEZsYXRzIGluIEhlYmJhbCwgQmFuZ2Fsb3JlIGZyb20gNzUgbGFraHMgdG8gMSBjcm9yZTwvYj4gb24gOTlhY3Jlcy5jb20uIFRoZSBmbGF0IGlzIG92ZXIgMTgwMCBzcS5GdC4gQ2FycGV0IGFyZWEgYW5kIGNvbWVzIHdpdGggMyBiZWRyb29tKHMpLCAzJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "99acres.com"
+   },
+   {
+    "position": 2,
+    "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+    "link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiQEB6zswFZaxDYheBKImSTtAbG6Wmwqd1iVwEBoD7nyazB4xq4hLUy2cX2LLGLS1vMk9nc2yH2-QENJQA0oEY7UIeJKQNu9YjhG7MYZweQMcFQUFyb1k80D0B8-4dkkzIk0rfALpbYCz4SN5LHip3SGof3JK-7ii1GmqOyKozwzwLeGSEbOOkGrdow&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBUQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › Flats for Sale in bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "2 BHK Apartment In Rs Abode Apartments For Sale In Hebbal · ₹7,600/sq.ft · 1250 sqft ; 3 BHK House For Sale In Hebbal · ₹6,857/sq.ft · 1400 sqft ; 4+ BHK House For ...",
+    "snippet_highlighted_words": [
+     "2 BHK Apartment In Rs Abode Apartments For Sale In Hebbal"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "2 BHK Apartment In Rs Abode Apartments For Sale In Hebbal · ₹7,600/sq.ft · 1250 sqft ; 3 BHK House For Sale In Hebbal · ₹6,857/sq.ft · 1400 sqft ; 4+ BHK House For ...",
+      "source_info_link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZaYXhEWWhlQktJbVNUdEFiRzZXbXdxZDFpVndFQm9EN255YXpCNHhxNGhMVXkyY1gyTExHTFMxdk1rOW5jMnlIMi1RRU5KUUEwb0VZN1VJZUpLUU51OVlqaEc3TVlad2VRTWNGUVVGeWIxazgwRDBCOC00ZGtreklrMHJmQUxwYllDejRTTjVMSGlwM1NHb2YzSkstN2lpMUdtcU95S296d3p3TGVHU0ViT09rR3Jkb3cSBBoCCAAa-gYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkDCBggAEAAYACAAKhoKBGZsYXQVEkzXQBoFZmxhdHMaBmhvdXNlcyoKCgNmb3IVAAAAACo0CgRzYWxlFRdrI0EaA2J1eRoHZm9yc2FsZRoFcHJpY2UaBnByaWNlcxoEcmVudBoEc29sZCoJCgJpbhUAAAAAKjAKBmhlYmJhbBX4IR5BGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoLaXY7cDtoZWJiYWwqNgoJYmFuZ2Fsb3JlFYJ5x0AaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSomCgV1bmRlchW_IjtAGgViZWxvdxoJbGVzcyB0aGFuGgZ1bmRlcjEqHQoBMRWqLflAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFSqqw0AaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZaYXhEWWhlQktJbVNUdEFiRzZXbXdxZDFpVndFQm9EN255YXpCNHhxNGhMVXkyY1gyTExHTFMxdk1rOW5jMnlIMi1RRU5KUUEwb0VZN1VJZUpLUU51OVlqaEc3TVlad2VRTWNGUVVGeWIxazgwRDBCOC00ZGtreklrMHJmQUxwYllDejRTTjVMSGlwM1NHb2YzSkstN2lpMUdtcU95S296d3p3TGVHU0ViT09rR3Jkb3c6SlByb3BlcnRpZXMgZm9yIDxiPlNhbGUgQmVsb3cgMSBDcm9yZTwvYj4gaW4gPGI-SGViYmFsPC9iPiw8Yj5CYW5nYWxvcmU8L2I-QtMBPGI-MiBCSEsgQXBhcnRtZW50IEluIFJzIEFib2RlIEFwYXJ0bWVudHMgRm9yIFNhbGUgSW4gSGViYmFsPC9iPiAmbWlkZG90OyDigrk3LDYwMC9zcS5mdCAmbWlkZG90OyAxMjUwIHNxZnQgOyAzIEJISyBIb3VzZSBGb3IgU2FsZSBJbiBIZWJiYWwgJm1pZGRvdDsg4oK5Niw4NTcvc3EuZnQgJm1pZGRvdDsgMTQwMCBzcWZ0IDsgNCsgQkhLIEhvdXNlIEZvciZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZaYXhEWWhlQktJbVNUdEFiRzZXbXdxZDFpVndFQm9EN255YXpCNHhxNGhMVXkyY1gyTExHTFMxdk1rOW5jMnlIMi1RRU5KUUEwb0VZN1VJZUpLUU51OVlqaEc3TVlad2VRTWNGUVVGeWIxazgwRDBCOC00ZGtreklrMHJmQUxwYllDejRTTjVMSGlwM1NHb2YzSkstN2lpMUdtcU95S296d3p3TGVHU0ViT09rR3Jkb3cSBBoCCAAa-gYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkDCBggAEAAYACAAKhoKBGZsYXQVEkzXQBoFZmxhdHMaBmhvdXNlcyoKCgNmb3IVAAAAACo0CgRzYWxlFRdrI0EaA2J1eRoHZm9yc2FsZRoFcHJpY2UaBnByaWNlcxoEcmVudBoEc29sZCoJCgJpbhUAAAAAKjAKBmhlYmJhbBX4IR5BGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoLaXY7cDtoZWJiYWwqNgoJYmFuZ2Fsb3JlFYJ5x0AaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSomCgV1bmRlchW_IjtAGgViZWxvdxoJbGVzcyB0aGFuGgZ1bmRlcjEqHQoBMRWqLflAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFSqqw0AaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZaYXhEWWhlQktJbVNUdEFiRzZXbXdxZDFpVndFQm9EN255YXpCNHhxNGhMVXkyY1gyTExHTFMxdk1rOW5jMnlIMi1RRU5KUUEwb0VZN1VJZUpLUU51OVlqaEc3TVlad2VRTWNGUVVGeWIxazgwRDBCOC00ZGtreklrMHJmQUxwYllDejRTTjVMSGlwM1NHb2YzSkstN2lpMUdtcU95S296d3p3TGVHU0ViT09rR3Jkb3c6SlByb3BlcnRpZXMgZm9yIDxiPlNhbGUgQmVsb3cgMSBDcm9yZTwvYj4gaW4gPGI-SGViYmFsPC9iPiw8Yj5CYW5nYWxvcmU8L2I-QtMBPGI-MiBCSEsgQXBhcnRtZW50IEluIFJzIEFib2RlIEFwYXJ0bWVudHMgRm9yIFNhbGUgSW4gSGViYmFsPC9iPiAmbWlkZG90OyDigrk3LDYwMC9zcS5mdCAmbWlkZG90OyAxMjUwIHNxZnQgOyAzIEJISyBIb3VzZSBGb3IgU2FsZSBJbiBIZWJiYWwgJm1pZGRvdDsg4oK5Niw4NTcvc3EuZnQgJm1pZGRvdDsgMTQwMCBzcWZ0IDsgNCsgQkhLIEhvdXNlIEZvciZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore#:~:text=2%20BHK%20Apartment%20In%20Rs,Apartments%20For%20Sale%20In%20Hebbal&text=%E2%82%B97%2C600%2Fsq.ft&text=1250%20sqft&text=3%20BHK%20House%20For%20Sale,In%20Hebbal&text=%E2%82%B96%2C857%2Fsq.ft&text=1400%20sqft&text=4%2B%20BHK%20House%20For%20Sale,In%20R%20T%20Nagar"
+   },
+   {
+    "position": 3,
+    "title": "Flats in Hebbal Bangalore for Sale under ₹ 𝟏 𝐂𝐫𝐨𝐫𝐞",
+    "link": "https://www.magicbricks.com/flats-in-hebbal-bangalore-under-1-crore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShAEB6zswFemvv749iHmBBOE-5rX6d88PwEf57YsLqBT8FOO2rqKbY77HOeBcP6yavVFfDGbfCzBNqhDiOqj6xJ-M68WW9Ww_NV9Odgh0k-rFV6uCMYCiPgoKAOhqv1deD5_7qGoj2NPN-y2RmEuEcrWGxBCIN8b7uk94QifVJJzjJVPaxEo&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBcQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › ... › Flats in Hebbal",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "Choose from over 22+ Flats for sale in Hebbal Bangalore under 1 Crore. Buy Ready to move, Resale, apartments/flats in Hebbal within ₹ 1 Crore. ₹1.15 Cr (₹8,712 ...",
+    "snippet_highlighted_words": [
+     "Choose from over 22+ Flats for sale in Hebbal Bangalore under 1 Crore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Choose from over 22+ Flats for sale in Hebbal Bangalore under 1 Crore. Buy Ready to move, Resale, apartments/flats in Hebbal within ₹ 1 Crore. ₹1.15 Cr (₹8,712 ...",
+      "source_info_link": "https://www.magicbricks.com/flats-in-hebbal-bangalore-under-1-crore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZlbXZ2NzQ5aUhtQkJPRS01clg2ZDg4UHdFZjU3WXNMcUJUOEZPTzJycUtiWTc3SE9lQmNQNnlhdlZGZkRHYmZDekJOcWhEaU9xajZ4Si1NNjhXVzlXd19OVjlPZGdoMGstckZWNnVDTVlDaVBnb0tBT2hxdjFkZUQ1XzdxR29qMk5QTi15MlJtRXVFY3JXR3hCQ0lOOGI3dWs5NFFpZlZKSnpqSlZQYXhFbxIEGgIIABrbBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQKMGCAAQABgAIAAqGgoEZmxhdBWrBUNAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjQKBHNhbGUVeCPsQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgRzb2xkKgkKAmluFQAAAAAqMAoGaGViYmFsFUhx-EAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGgtpdjtwO2hlYmJhbCo2CgliYW5nYWxvcmUVPpsaQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKiYKBXVuZGVyFS3wukAaBWJlbG93GglsZXNzIHRoYW4aBnVuZGVyMSodCgExFSq20EAaAzEncxoGdW5kZXIxGgYxY3JvcmUqKAoFY3JvcmUV0lGrQBoGY3JvcmVzGgYxY3JvcmUaCml2O3A7Y3JvcmUywQEvZ290bz91cmw9Q0FFU2hBRUI2enN3RmVtdnY3NDlpSG1CQk9FLTVyWDZkODhQd0VmNTdZc0xxQlQ4Rk9PMnJxS2JZNzdIT2VCY1A2eWF2VkZmREdiZkN6Qk5xaERpT3FqNnhKLU02OFdXOVd3X05WOU9kZ2gway1yRlY2dUNNWUNpUGdvS0FPaHF2MWRlRDVfN3FHb2oyTlBOLXkyUm1FdUVjcldHeEJDSU44Yjd1azk0UWlmVkpKempKVlBheEVvOlA8Yj5GbGF0czwvYj4gaW4gPGI-SGViYmFsIEJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGUgdW5kZXI8L2I-IOKCuSA8Yj4xIENyb3JlPC9iPkK1ATxiPkNob29zZSBmcm9tIG92ZXIgMjIrIEZsYXRzIGZvciBzYWxlIGluIEhlYmJhbCBCYW5nYWxvcmUgdW5kZXIgMSBDcm9yZTwvYj4uIEJ1eSBSZWFkeSB0byBtb3ZlLCBSZXNhbGUsIGFwYXJ0bWVudHMvZmxhdHMgaW4gSGViYmFsIHdpdGhpbiDigrkgMSBDcm9yZS4g4oK5MS4xNSBDciAo4oK5OCw3MTImbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZlbXZ2NzQ5aUhtQkJPRS01clg2ZDg4UHdFZjU3WXNMcUJUOEZPTzJycUtiWTc3SE9lQmNQNnlhdlZGZkRHYmZDekJOcWhEaU9xajZ4Si1NNjhXVzlXd19OVjlPZGdoMGstckZWNnVDTVlDaVBnb0tBT2hxdjFkZUQ1XzdxR29qMk5QTi15MlJtRXVFY3JXR3hCQ0lOOGI3dWs5NFFpZlZKSnpqSlZQYXhFbxIEGgIIABrbBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQKMGCAAQABgAIAAqGgoEZmxhdBWrBUNAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjQKBHNhbGUVeCPsQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgRzb2xkKgkKAmluFQAAAAAqMAoGaGViYmFsFUhx-EAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGgtpdjtwO2hlYmJhbCo2CgliYW5nYWxvcmUVPpsaQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKiYKBXVuZGVyFS3wukAaBWJlbG93GglsZXNzIHRoYW4aBnVuZGVyMSodCgExFSq20EAaAzEncxoGdW5kZXIxGgYxY3JvcmUqKAoFY3JvcmUV0lGrQBoGY3JvcmVzGgYxY3JvcmUaCml2O3A7Y3JvcmUywQEvZ290bz91cmw9Q0FFU2hBRUI2enN3RmVtdnY3NDlpSG1CQk9FLTVyWDZkODhQd0VmNTdZc0xxQlQ4Rk9PMnJxS2JZNzdIT2VCY1A2eWF2VkZmREdiZkN6Qk5xaERpT3FqNnhKLU02OFdXOVd3X05WOU9kZ2gway1yRlY2dUNNWUNpUGdvS0FPaHF2MWRlRDVfN3FHb2oyTlBOLXkyUm1FdUVjcldHeEJDSU44Yjd1azk0UWlmVkpKempKVlBheEVvOlA8Yj5GbGF0czwvYj4gaW4gPGI-SGViYmFsIEJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGUgdW5kZXI8L2I-IOKCuSA8Yj4xIENyb3JlPC9iPkK1ATxiPkNob29zZSBmcm9tIG92ZXIgMjIrIEZsYXRzIGZvciBzYWxlIGluIEhlYmJhbCBCYW5nYWxvcmUgdW5kZXIgMSBDcm9yZTwvYj4uIEJ1eSBSZWFkeSB0byBtb3ZlLCBSZXNhbGUsIGFwYXJ0bWVudHMvZmxhdHMgaW4gSGViYmFsIHdpdGhpbiDigrkgMSBDcm9yZS4g4oK5MS4xNSBDciAo4oK5OCw3MTImbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "MagicBricks"
+   },
+   {
+    "position": 4,
+    "title": "Properties for Sale Below 1 Crore in Hebbal Kempapura ...",
+    "link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkwEB6zswFQlcb4z5reoo7dU-aBrY9P1EP0Kd404V6SMgMgZOB57zJ2agVGnCus0ZbppbbyrWZacAKQwAm5v3GLWqkVZpcCXnsR_fLrlKyeP2KyP80cfaCR0sVLSWQV5_D4NwFfgapChnozlRJRDzFcZCD6dIjNxSXYGw4Trkbn80UBozAaKc55A-_IK85Fu85O3V9Rc&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › Flats for Sale in bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "2 BHK Apartment In Anagha Peridot For Sale In Nagavara · ₹7,564/sq.ft · 1256 sqft ; 2 BHK Apartment In Sannydhi Apartment For Sale In Dasarahalli · ₹9,524/sq.ft.",
+    "snippet_highlighted_words": [
+     "2 BHK Apartment In Anagha Peridot For Sale In Nagavara · ₹7,564/sq.ft"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "2 BHK Apartment In Anagha Peridot For Sale In Nagavara · ₹7,564/sq.ft · 1256 sqft ; 2 BHK Apartment In Sannydhi Apartment For Sale In Dasarahalli · ₹9,524/sq.ft.",
+      "source_info_link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZRbGNiNHo1cmVvbzdkVS1hQnJZOVAxRVAwS2Q0MDRWNlNNZ01nWk9CNTd6SjJhZ1ZHbkN1czBaYnBwYmJ5cldaYWNBS1F3QW01djNHTFdxa1ZacGNDWG5zUl9mTHJsS3llUDJLeVA4MGNmYUNSMHNWTFNXUVY1X0Q0TndGZmdhcENobm96bFJKUkR6RmNaQ0Q2ZElqTnhTWFlHdzRUcmtibjgwVUJvekFhS2M1NUEtX0lLODVGdTg1TzNWOVJjEgQaAggAGvIGEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAugYIABAAGAAgACoaCgRmbGF0FTu-P0AaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRVw4A1BGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwVuUz9QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRWW3d9AGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVJlA-QBoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEV0CUFQRoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRXZHsZAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLVAS9nb3RvP3VybD1DQUVTa3dFQjZ6c3dGUWxjYjR6NXJlb283ZFUtYUJyWTlQMUVQMEtkNDA0VjZTTWdNZ1pPQjU3ekoyYWdWR25DdXMwWmJwcGJieXJXWmFjQUtRd0FtNXYzR0xXcWtWWnBjQ1huc1JfZkxybEt5ZVAyS3lQODBjZmFDUjBzVkxTV1FWNV9ENE53RmZnYXBDaG5vemxSSlJEekZjWkNENmRJak54U1hZR3c0VHJrYm44MFVCb3pBYUtjNTVBLV9JSzg1RnU4NU8zVjlSYzpHUHJvcGVydGllcyBmb3IgPGI-U2FsZSBCZWxvdyAxIENyb3JlPC9iPiBpbiA8Yj5IZWJiYWw8L2I-IEtlbXBhcHVyYSAuLi5CwQE8Yj4yIEJISyBBcGFydG1lbnQgSW4gQW5hZ2hhIFBlcmlkb3QgRm9yIFNhbGUgSW4gTmFnYXZhcmEgJm1pZGRvdDsg4oK5Nyw1NjQvc3EuZnQ8L2I-ICZtaWRkb3Q7IDEyNTYgc3FmdCA7IDIgQkhLIEFwYXJ0bWVudCBJbiBTYW5ueWRoaSBBcGFydG1lbnQgRm9yIFNhbGUgSW4gRGFzYXJhaGFsbGkgJm1pZGRvdDsg4oK5OSw1MjQvc3EuZnQuSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZRbGNiNHo1cmVvbzdkVS1hQnJZOVAxRVAwS2Q0MDRWNlNNZ01nWk9CNTd6SjJhZ1ZHbkN1czBaYnBwYmJ5cldaYWNBS1F3QW01djNHTFdxa1ZacGNDWG5zUl9mTHJsS3llUDJLeVA4MGNmYUNSMHNWTFNXUVY1X0Q0TndGZmdhcENobm96bFJKUkR6RmNaQ0Q2ZElqTnhTWFlHdzRUcmtibjgwVUJvekFhS2M1NUEtX0lLODVGdTg1TzNWOVJjEgQaAggAGvIGEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAugYIABAAGAAgACoaCgRmbGF0FTu-P0AaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRVw4A1BGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwVuUz9QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRWW3d9AGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVJlA-QBoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEV0CUFQRoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRXZHsZAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLVAS9nb3RvP3VybD1DQUVTa3dFQjZ6c3dGUWxjYjR6NXJlb283ZFUtYUJyWTlQMUVQMEtkNDA0VjZTTWdNZ1pPQjU3ekoyYWdWR25DdXMwWmJwcGJieXJXWmFjQUtRd0FtNXYzR0xXcWtWWnBjQ1huc1JfZkxybEt5ZVAyS3lQODBjZmFDUjBzVkxTV1FWNV9ENE53RmZnYXBDaG5vemxSSlJEekZjWkNENmRJak54U1hZR3c0VHJrYm44MFVCb3pBYUtjNTVBLV9JSzg1RnU4NU8zVjlSYzpHUHJvcGVydGllcyBmb3IgPGI-U2FsZSBCZWxvdyAxIENyb3JlPC9iPiBpbiA8Yj5IZWJiYWw8L2I-IEtlbXBhcHVyYSAuLi5CwQE8Yj4yIEJISyBBcGFydG1lbnQgSW4gQW5hZ2hhIFBlcmlkb3QgRm9yIFNhbGUgSW4gTmFnYXZhcmEgJm1pZGRvdDsg4oK5Nyw1NjQvc3EuZnQ8L2I-ICZtaWRkb3Q7IDEyNTYgc3FmdCA7IDIgQkhLIEFwYXJ0bWVudCBJbiBTYW5ueWRoaSBBcGFydG1lbnQgRm9yIFNhbGUgSW4gRGFzYXJhaGFsbGkgJm1pZGRvdDsg4oK5OSw1MjQvc3EuZnQuSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore#:~:text=2%20BHK%20Apartment%20In%20Anagha,Peridot%20For%20Sale%20In%20Nagavara&text=%E2%82%B97%2C564%2Fsq.ft&text=1256%20sqft&text=2%20BHK%20Apartment%20In%20Sannydhi,Apartment%20For%20Sale%20In%20Dasarahalli&text=%E2%82%B99%2C524%2Fsq.ft"
+   },
+   {
+    "position": 5,
+    "title": "Flats in Bangalore for Sale under ₹ 𝟏 𝐂𝐫𝐨𝐫𝐞",
+    "link": "https://www.magicbricks.com/flats-in-bangalore-under-1-crore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfQHrOzAVzdT-R_AQ44A5kfIkiqJEXaZdxr1BQPonHTDU3f31Wy4SNxlCuu-hy3CMg4VTS3E07iywrSEWCeP7X5Y24PA-2tCBNyjdP_pX-QMY1UMsgz4RsgcbQxVzHgyKd1iFQQLiA0GwrstDsGlu-FH_eZjl1GmNCVkpMF-y&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › flats-in-bangalore-unde...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "Choose from over 3431+ Flats for sale in Bangalore under 1 Crore. Buy ... Flats in Hebbal · Flats in Kanakapura Road · Flats in Bellandur · Flats in Varthur ...",
+    "snippet_highlighted_words": [
+     "Flats in Hebbal"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Choose from over 3431+ Flats for sale in Bangalore under 1 Crore. Buy ... Flats in Hebbal · Flats in Kanakapura Road · Flats in Bellandur · Flats in Varthur ...",
+      "source_info_link": "https://www.magicbricks.com/flats-in-bangalore-under-1-crore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrYBL2dvdG8_dXJsPUNBRVNmUUhyT3pBVnpkVC1SX0FRNDRBNWtmSWtpcUpFWGFaZHhyMUJRUG9uSFREVTNmMzFXeTRTTnhsQ3V1LWh5M0NNZzRWVFMzRTA3aXl3clNFV0NlUDdYNVkyNFBBLTJ0Q0JOeWpkUF9wWC1RTVkxVU1zZ3o0UnNnY2JReFZ6SGd5S2QxaUZRUUxpQTBHd3JzdERzR2x1LUZIX2VaamwxR21OQ1ZrcE1GLXkSBBoCCAAa4wYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCrBggAEAAYACAAKhoKBGZsYXQVW4KgQBoFZmxhdHMaBmhvdXNlcyoKCgNmb3IVAAAAACo0CgRzYWxlFTLl7UAaA2J1eRoHZm9yc2FsZRoFcHJpY2UaBnByaWNlcxoEcmVudBoEc29sZCoJCgJpbhUAAAAAKjAKBmhlYmJhbBVzws88GhRnZW87M2JhZTEwMDAwMDAwMDAwMBoLaXY7cDtoZWJiYWwqNgoJYmFuZ2Fsb3JlFb3fEEEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSomCgV1bmRlchXTuq9AGgViZWxvdxoJbGVzcyB0aGFuGgZ1bmRlcjEqHQoBMRWFb8RAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFQ2ioUAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMrYBL2dvdG8_dXJsPUNBRVNmUUhyT3pBVnpkVC1SX0FRNDRBNWtmSWtpcUpFWGFaZHhyMUJRUG9uSFREVTNmMzFXeTRTTnhsQ3V1LWh5M0NNZzRWVFMzRTA3aXl3clNFV0NlUDdYNVkyNFBBLTJ0Q0JOeWpkUF9wWC1RTVkxVU1zZ3o0UnNnY2JReFZ6SGd5S2QxaUZRUUxpQTBHd3JzdERzR2x1LUZIX2VaamwxR21OQ1ZrcE1GLXk6VzxiPkZsYXRzPC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiDigrkgPGI-MSBDcm9yZTwvYj4gLSBNYWdpY0JyaWNrc0LBAUNob29zZSBmcm9tIG92ZXIgMzQzMSsgRmxhdHMgZm9yIHNhbGUgaW4gQmFuZ2Fsb3JlIHVuZGVyIDEgQ3JvcmUuIEJ1eSAuLi4gPGI-RmxhdHMgaW4gSGViYmFsPC9iPiAmbWlkZG90OyBGbGF0cyBpbiBLYW5ha2FwdXJhIFJvYWQgJm1pZGRvdDsgRmxhdHMgaW4gQmVsbGFuZHVyICZtaWRkb3Q7IEZsYXRzIGluIFZhcnRodXImbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrYBL2dvdG8_dXJsPUNBRVNmUUhyT3pBVnpkVC1SX0FRNDRBNWtmSWtpcUpFWGFaZHhyMUJRUG9uSFREVTNmMzFXeTRTTnhsQ3V1LWh5M0NNZzRWVFMzRTA3aXl3clNFV0NlUDdYNVkyNFBBLTJ0Q0JOeWpkUF9wWC1RTVkxVU1zZ3o0UnNnY2JReFZ6SGd5S2QxaUZRUUxpQTBHd3JzdERzR2x1LUZIX2VaamwxR21OQ1ZrcE1GLXkSBBoCCAAa4wYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCrBggAEAAYACAAKhoKBGZsYXQVW4KgQBoFZmxhdHMaBmhvdXNlcyoKCgNmb3IVAAAAACo0CgRzYWxlFTLl7UAaA2J1eRoHZm9yc2FsZRoFcHJpY2UaBnByaWNlcxoEcmVudBoEc29sZCoJCgJpbhUAAAAAKjAKBmhlYmJhbBVzws88GhRnZW87M2JhZTEwMDAwMDAwMDAwMBoLaXY7cDtoZWJiYWwqNgoJYmFuZ2Fsb3JlFb3fEEEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSomCgV1bmRlchXTuq9AGgViZWxvdxoJbGVzcyB0aGFuGgZ1bmRlcjEqHQoBMRWFb8RAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFQ2ioUAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMrYBL2dvdG8_dXJsPUNBRVNmUUhyT3pBVnpkVC1SX0FRNDRBNWtmSWtpcUpFWGFaZHhyMUJRUG9uSFREVTNmMzFXeTRTTnhsQ3V1LWh5M0NNZzRWVFMzRTA3aXl3clNFV0NlUDdYNVkyNFBBLTJ0Q0JOeWpkUF9wWC1RTVkxVU1zZ3o0UnNnY2JReFZ6SGd5S2QxaUZRUUxpQTBHd3JzdERzR2x1LUZIX2VaamwxR21OQ1ZrcE1GLXk6VzxiPkZsYXRzPC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiDigrkgPGI-MSBDcm9yZTwvYj4gLSBNYWdpY0JyaWNrc0LBAUNob29zZSBmcm9tIG92ZXIgMzQzMSsgRmxhdHMgZm9yIHNhbGUgaW4gQmFuZ2Fsb3JlIHVuZGVyIDEgQ3JvcmUuIEJ1eSAuLi4gPGI-RmxhdHMgaW4gSGViYmFsPC9iPiAmbWlkZG90OyBGbGF0cyBpbiBLYW5ha2FwdXJhIFJvYWQgJm1pZGRvdDsgRmxhdHMgaW4gQmVsbGFuZHVyICZtaWRkb3Q7IEZsYXRzIGluIFZhcnRodXImbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "MagicBricks",
+    "read_more_link": "https://www.magicbricks.com/flats-in-bangalore-under-1-crore-pppfs#:~:text=View%20more"
+   },
+   {
+    "position": 6,
+    "title": "Flats in Hebbal, Bangalore for Sale Below 1 Crore",
+    "link": "https://www.99acres.com/flats-in-hebbal-bangalore-north-75-lakhs-to-1-crore-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiwEB6zswFaXA1kFRhEZeIjV2Vzb4_ReHwEZPj5N0TYm-ex92XTQLOUdsRg-c_5Pc8jgiepPh3gIKNfJNeVQLC98aijogazUSTPextDCpvd4O0rGXGFKHWDWZm7UyjzDs5eZDNVS_-74VK07VWT3SmMsy08VT8KPioDUYmm_pdcHTGOO7CX6JHvQujFYo&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › Flats for sale in Hebbal",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find Flats in Hebbal, Bangalore from 75 lakhs to 1 crore on 99acres.com. , Bangalore Resale of 5 Floors Zero brokerage. Free legal verification.",
+    "snippet_highlighted_words": [
+     "Flats in Hebbal, Bangalore from 75 lakhs to 1 crore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find Flats in Hebbal, Bangalore from 75 lakhs to 1 crore on 99acres.com. , Bangalore Resale of 5 Floors Zero brokerage. Free legal verification.",
+      "source_info_link": "https://www.99acres.com/flats-in-hebbal-bangalore-north-75-lakhs-to-1-crore-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZhWEExa0ZSaEVaZUlqVjJWemI0X1JlSHdFWlBqNU4wVFltLWV4OTJYVFFMT1Vkc1JnLWNfNVBjOGpnaWVwUGgzZ0lLTmZKTmVWUUxDOThhaWpvZ2F6VVNUUGV4dERDcHZkNE8wckdYR0ZLSFdEV1ptN1V5anpEczVlWkROVlNfLTc0VkswN1ZXVDNTbU1zeTA4VlQ4S1Bpb0RVWW1tX3BkY0hUR09PN0NYNkpIdlF1akZZbxIEGgIIABrSBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQIsGCAAQABgAIAAqGgoEZmxhdBUg4o9AGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjQKBHNhbGUVUUduQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgRzb2xkKgkKAmluFQAAAAAqMAoGaGViYmFsFUCo8kAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGgtpdjtwO2hlYmJhbCo2CgliYW5nYWxvcmUVYYvfQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKiYKBXVuZGVyFfQwkT4aBWJlbG93GglsZXNzIHRoYW4aBnVuZGVyMSodCgExFXAw70AaAzEncxoGdW5kZXIxGgYxY3JvcmUqKAoFY3JvcmUVyKaoQBoGY3JvcmVzGgYxY3JvcmUaCml2O3A7Y3JvcmUyygEvZ290bz91cmw9Q0FFU2l3RUI2enN3RmFYQTFrRlJoRVplSWpWMlZ6YjRfUmVId0VaUGo1TjBUWW0tZXg5MlhUUUxPVWRzUmctY181UGM4amdpZXBQaDNnSUtOZkpOZVZRTEM5OGFpam9nYXpVU1RQZXh0RENwdmQ0TzByR1hHRktIV0RXWm03VXlqekRzNWVaRE5WU18tNzRWSzA3VldUM1NtTXN5MDhWVDhLUGlvRFVZbW1fcGRjSFRHT083Q1g2Skh2UXVqRllvOk08Yj5GbGF0czwvYj4gaW4gPGI-SGViYmFsPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSBCZWxvdyAxIENyb3JlPC9iPkKXAUZpbmQgPGI-RmxhdHMgaW4gSGViYmFsLCBCYW5nYWxvcmUgZnJvbSA3NSBsYWtocyB0byAxIGNyb3JlPC9iPiBvbiA5OWFjcmVzLmNvbS4gLCBCYW5nYWxvcmUgUmVzYWxlIG9mIDUgRmxvb3JzIFplcm8gYnJva2VyYWdlLiBGcmVlIGxlZ2FsIHZlcmlmaWNhdGlvbi5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZhWEExa0ZSaEVaZUlqVjJWemI0X1JlSHdFWlBqNU4wVFltLWV4OTJYVFFMT1Vkc1JnLWNfNVBjOGpnaWVwUGgzZ0lLTmZKTmVWUUxDOThhaWpvZ2F6VVNUUGV4dERDcHZkNE8wckdYR0ZLSFdEV1ptN1V5anpEczVlWkROVlNfLTc0VkswN1ZXVDNTbU1zeTA4VlQ4S1Bpb0RVWW1tX3BkY0hUR09PN0NYNkpIdlF1akZZbxIEGgIIABrSBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQIsGCAAQABgAIAAqGgoEZmxhdBUg4o9AGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjQKBHNhbGUVUUduQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgRzb2xkKgkKAmluFQAAAAAqMAoGaGViYmFsFUCo8kAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGgtpdjtwO2hlYmJhbCo2CgliYW5nYWxvcmUVYYvfQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKiYKBXVuZGVyFfQwkT4aBWJlbG93GglsZXNzIHRoYW4aBnVuZGVyMSodCgExFXAw70AaAzEncxoGdW5kZXIxGgYxY3JvcmUqKAoFY3JvcmUVyKaoQBoGY3JvcmVzGgYxY3JvcmUaCml2O3A7Y3JvcmUyygEvZ290bz91cmw9Q0FFU2l3RUI2enN3RmFYQTFrRlJoRVplSWpWMlZ6YjRfUmVId0VaUGo1TjBUWW0tZXg5MlhUUUxPVWRzUmctY181UGM4amdpZXBQaDNnSUtOZkpOZVZRTEM5OGFpam9nYXpVU1RQZXh0RENwdmQ0TzByR1hHRktIV0RXWm03VXlqekRzNWVaRE5WU18tNzRWSzA3VldUM1NtTXN5MDhWVDhLUGlvRFVZbW1fcGRjSFRHT083Q1g2Skh2UXVqRllvOk08Yj5GbGF0czwvYj4gaW4gPGI-SGViYmFsPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSBCZWxvdyAxIENyb3JlPC9iPkKXAUZpbmQgPGI-RmxhdHMgaW4gSGViYmFsLCBCYW5nYWxvcmUgZnJvbSA3NSBsYWtocyB0byAxIGNyb3JlPC9iPiBvbiA5OWFjcmVzLmNvbS4gLCBCYW5nYWxvcmUgUmVzYWxlIG9mIDUgRmxvb3JzIFplcm8gYnJva2VyYWdlLiBGcmVlIGxlZ2FsIHZlcmlmaWNhdGlvbi5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 7,
+    "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+    "link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-cholanayakanahalli_hebbal_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAEB6zswFY_G-uno2zywhyezsdzVKi9dP5LHuExabpeZ9A2qwzorZB7jfzkNFwmnkLrCycvHR6Vj8VvUfM7F3rDTujrnOp5D5LCMyUc-ziyrWpginQX3Dh52aoRfKLtbjyFKFbWejwaD6frB7jXXs7kHudEa6H0-uuI5v2Wbk6Z_CWxUhfQqRE-_BUNBX1lc4xsBbeZ4BVCCcIMPG28&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › Flats for Sale in bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "3 BHK Apartment In K Squre Regium For Sale In Hebbal · 96.48 Lacs. ₹8,000/sq.ft · 1206 sqft ; 4+ BHK House For Sale In R T Nagar · 98 Lacs. ₹8,167/sq.ft · 1200 ...",
+    "snippet_highlighted_words": [
+     "3 BHK Apartment In K Squre Regium For Sale In Hebbal"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "3 BHK Apartment In K Squre Regium For Sale In Hebbal · 96.48 Lacs. ₹8,000/sq.ft · 1206 sqft ; 4+ BHK House For Sale In R T Nagar · 98 Lacs. ₹8,167/sq.ft · 1200 ...",
+      "source_info_link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-cholanayakanahalli_hebbal_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuEBL2dvdG8_dXJsPUNBRVNuQUVCNnpzd0ZZX0ctdW5vMnp5d2h5ZXpzZHpWS2k5ZFA1TEh1RXhhYnBlWjlBMnF3em9yWkI3amZ6a05Gd21ua0xyQ3ljdkhSNlZqOFZ2VWZNN0YzckRUdWpybk9wNUQ1TENNeVVjLXppeXJXcGdpblFYM0RoNTJhb1JmS0x0Ymp5RktGYldlandhRDZmckI3alhYczdrSHVkRWE2SDAtdXVJNXYyV2JrNlpfQ1d4VWhmUXFSRS1fQlVOQlgxbGM0eHNCYmVaNEJWQ0NjSU1QRzI4EgQaAggAGo8HEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA1wYIABAAGAAgACoaCgRmbGF0FYwgqUAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRWyxBZBGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwV12YBQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRVR2gNBGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVj0lBQBoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVtTkGQRoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRUkHMhAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLhAS9nb3RvP3VybD1DQUVTbkFFQjZ6c3dGWV9HLXVubzJ6eXdoeWV6c2R6VktpOWRQNUxIdUV4YWJwZVo5QTJxd3pvclpCN2pmemtORndtbmtMckN5Y3ZIUjZWajhWdlVmTTdGM3JEVHVqcm5PcDVENUxDTXlVYy16aXlyV3BnaW5RWDNEaDUyYW9SZktMdGJqeUZLRmJXZWp3YUQ2ZnJCN2pYWHM3a0h1ZEVhNkgwLXV1STV2MldiazZaX0NXeFVoZlFxUkUtX0JVTkJYMWxjNHhzQmJlWjRCVkNDY0lNUEcyODpKUHJvcGVydGllcyBmb3IgPGI-U2FsZSBCZWxvdyAxIENyb3JlPC9iPiBpbiA8Yj5IZWJiYWw8L2I-LDxiPkJhbmdhbG9yZTwvYj5CzwE8Yj4zIEJISyBBcGFydG1lbnQgSW4gSyBTcXVyZSBSZWdpdW0gRm9yIFNhbGUgSW4gSGViYmFsPC9iPiAmbWlkZG90OyA5Ni40OCBMYWNzLiDigrk4LDAwMC9zcS5mdCAmbWlkZG90OyAxMjA2IHNxZnQgOyA0KyBCSEsgSG91c2UgRm9yIFNhbGUgSW4gUiBUIE5hZ2FyICZtaWRkb3Q7IDk4IExhY3MuIOKCuTgsMTY3L3NxLmZ0ICZtaWRkb3Q7IDEyMDAmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuEBL2dvdG8_dXJsPUNBRVNuQUVCNnpzd0ZZX0ctdW5vMnp5d2h5ZXpzZHpWS2k5ZFA1TEh1RXhhYnBlWjlBMnF3em9yWkI3amZ6a05Gd21ua0xyQ3ljdkhSNlZqOFZ2VWZNN0YzckRUdWpybk9wNUQ1TENNeVVjLXppeXJXcGdpblFYM0RoNTJhb1JmS0x0Ymp5RktGYldlandhRDZmckI3alhYczdrSHVkRWE2SDAtdXVJNXYyV2JrNlpfQ1d4VWhmUXFSRS1fQlVOQlgxbGM0eHNCYmVaNEJWQ0NjSU1QRzI4EgQaAggAGo8HEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA1wYIABAAGAAgACoaCgRmbGF0FYwgqUAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRWyxBZBGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwV12YBQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRVR2gNBGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVj0lBQBoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVtTkGQRoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRUkHMhAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLhAS9nb3RvP3VybD1DQUVTbkFFQjZ6c3dGWV9HLXVubzJ6eXdoeWV6c2R6VktpOWRQNUxIdUV4YWJwZVo5QTJxd3pvclpCN2pmemtORndtbmtMckN5Y3ZIUjZWajhWdlVmTTdGM3JEVHVqcm5PcDVENUxDTXlVYy16aXlyV3BnaW5RWDNEaDUyYW9SZktMdGJqeUZLRmJXZWp3YUQ2ZnJCN2pYWHM3a0h1ZEVhNkgwLXV1STV2MldiazZaX0NXeFVoZlFxUkUtX0JVTkJYMWxjNHhzQmJlWjRCVkNDY0lNUEcyODpKUHJvcGVydGllcyBmb3IgPGI-U2FsZSBCZWxvdyAxIENyb3JlPC9iPiBpbiA8Yj5IZWJiYWw8L2I-LDxiPkJhbmdhbG9yZTwvYj5CzwE8Yj4zIEJISyBBcGFydG1lbnQgSW4gSyBTcXVyZSBSZWdpdW0gRm9yIFNhbGUgSW4gSGViYmFsPC9iPiAmbWlkZG90OyA5Ni40OCBMYWNzLiDigrk4LDAwMC9zcS5mdCAmbWlkZG90OyAxMjA2IHNxZnQgOyA0KyBCSEsgSG91c2UgRm9yIFNhbGUgSW4gUiBUIE5hZ2FyICZtaWRkb3Q7IDk4IExhY3MuIOKCuTgsMTY3L3NxLmZ0ICZtaWRkb3Q7IDEyMDAmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-cholanayakanahalli_hebbal_bangalore#:~:text=3%20BHK%20Apartment%20In%20K,Regium%20For%20Sale%20In%20Hebbal&text=%E2%82%B996.48%20Lacs,%E2%82%B98%2C000%2Fsq.ft&text=1206%20sqft&text=4%2B%20BHK%20House%20For%20Sale,In%20R%20T%20Nagar&text=%E2%82%B998%20Lacs,%E2%82%B98%2C167%2Fsq.ft&text=1200%20sqft"
+   },
+   {
+    "position": 8,
+    "title": "Flats for Sale in Hebbal Bangalore | Apartments ...",
+    "link": "https://www.nobroker.in/flats-for-sale-in-hebbal_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdQHrOzAVTHrWj2wPamn8eVnIz0JkwJ63JdGfm4f8C1_NU5hhVPvj4wd_brP0gUzwpL-5egrG4WGX_huERVXIbebOWJzLLy-2HW6TtSEY8hyFCoI09ok5OKuLUyxx7lakx9TWBaezUG_ksJCFt5EFcqDVNz3FhA&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › Flats for Sale in bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "3 BHK Apartment In Gagan Murthy, Hebbal For Sale In Gagan Murthy Appartments · 1 Cr. ₹5,984/sq.ft ; 2 BHK Apartment In Gopal Nivas For Sale In Hebbal · 78 Lacs.",
+    "snippet_highlighted_words": [
+     "3 BHK Apartment In Gagan Murthy, Hebbal For Sale In Gagan Murthy Appartments"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "3 BHK Apartment In Gagan Murthy, Hebbal For Sale In Gagan Murthy Appartments · 1 Cr. ₹5,984/sq.ft ; 2 BHK Apartment In Gopal Nivas For Sale In Hebbal · 78 Lacs.",
+      "source_info_link": "https://www.nobroker.in/flats-for-sale-in-hebbal_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVlRIcldqMndQYW1uOGVWbkl6MEprd0o2M0pkR2ZtNGY4QzFfTlU1aGhWUHZqNHdkX2JyUDBnVXp3cEwtNWVnckc0V0dYX2h1RVJWWEliZWJPV0p6TEx5LTJIVzZUdFNFWThoeUZDb0kwOW9rNU9LdUxVeXh4N2xha3g5VFdCYWV6VUdfa3NKQ0Z0NUVGY3FEVk56M0ZoQRIEGgIIABquBhICCAAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA9AUIABAAGAAgACoaCgRmbGF0Ff7qmUAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRUmlAlBGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwVKP0LQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRXsfLpAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVsOwiQBoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVZj9OQBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRUAAAAAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTKsAS9nb3RvP3VybD1DQUVTZFFIck96QVZUSHJXajJ3UGFtbjhlVm5JejBKa3dKNjNKZEdmbTRmOEMxX05VNWhoVlB2ajR3ZF9iclAwZ1V6d3BMLTVlZ3JHNFdHWF9odUVSVlhJYmViT1dKekxMeS0ySFc2VHRTRVk4aHlGQ29JMDlvazVPS3VMVXl4eDdsYWt4OVRXQmFlelVHX2tzSkNGdDVFRmNxRFZOejNGaEE6NDxiPkZsYXRzIGZvciBTYWxlIGluIEhlYmJhbCBCYW5nYWxvcmU8L2I-IC0gTm9Ccm9rZXJCtwE8Yj4zIEJISyBBcGFydG1lbnQgSW4gR2FnYW4gTXVydGh5LCBIZWJiYWwgRm9yIFNhbGUgSW4gR2FnYW4gTXVydGh5IEFwcGFydG1lbnRzPC9iPiAmbWlkZG90OyAxIENyLiDigrk1LDk4NC9zcS5mdCA7IDIgQkhLIEFwYXJ0bWVudCBJbiBHb3BhbCBOaXZhcyBGb3IgU2FsZSBJbiBIZWJiYWwgJm1pZGRvdDsgNzggTGFjcy5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVlRIcldqMndQYW1uOGVWbkl6MEprd0o2M0pkR2ZtNGY4QzFfTlU1aGhWUHZqNHdkX2JyUDBnVXp3cEwtNWVnckc0V0dYX2h1RVJWWEliZWJPV0p6TEx5LTJIVzZUdFNFWThoeUZDb0kwOW9rNU9LdUxVeXh4N2xha3g5VFdCYWV6VUdfa3NKQ0Z0NUVGY3FEVk56M0ZoQRIEGgIIABquBhICCAAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA9AUIABAAGAAgACoaCgRmbGF0Ff7qmUAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRUmlAlBGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwVKP0LQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRXsfLpAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVsOwiQBoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVZj9OQBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRUAAAAAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTKsAS9nb3RvP3VybD1DQUVTZFFIck96QVZUSHJXajJ3UGFtbjhlVm5JejBKa3dKNjNKZEdmbTRmOEMxX05VNWhoVlB2ajR3ZF9iclAwZ1V6d3BMLTVlZ3JHNFdHWF9odUVSVlhJYmViT1dKekxMeS0ySFc2VHRTRVk4aHlGQ29JMDlvazVPS3VMVXl4eDdsYWt4OVRXQmFlelVHX2tzSkNGdDVFRmNxRFZOejNGaEE6NDxiPkZsYXRzIGZvciBTYWxlIGluIEhlYmJhbCBCYW5nYWxvcmU8L2I-IC0gTm9Ccm9rZXJCtwE8Yj4zIEJISyBBcGFydG1lbnQgSW4gR2FnYW4gTXVydGh5LCBIZWJiYWwgRm9yIFNhbGUgSW4gR2FnYW4gTXVydGh5IEFwcGFydG1lbnRzPC9iPiAmbWlkZG90OyAxIENyLiDigrk1LDk4NC9zcS5mdCA7IDIgQkhLIEFwYXJ0bWVudCBJbiBHb3BhbCBOaXZhcyBGb3IgU2FsZSBJbiBIZWJiYWwgJm1pZGRvdDsgNzggTGFjcy5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/flats-for-sale-in-hebbal_bangalore#:~:text=3%20BHK%20Apartment%20In%20Gagan,Sale%20In%20Gagan%20Murthy%20Appartments&text=%E2%82%B91%20Cr,%E2%82%B95%2C984%2Fsq.ft&text=2%20BHK%20Apartment%20In%20Gopal,Nivas%20For%20Sale%20In%20Hebbal&text=%E2%82%B978%20Lacs"
+   },
+   {
+    "position": 9,
+    "title": "3 BHK Property in Hebbal, Bangalore from 1 crore to 1.5 ...",
+    "link": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAEB6zswFfVohLfmy0bjti4Ggi5-I67XV8j-MNfhCkrdq5w7Cj3g3_0Og_qzdcXJM91v7RaA-n4oQDP93WkcsLc37fxLMbYIChaDbk7z_ZkK4piDmniSXWCFCSCzbhQboyDKO4QX31AibEd6ZRMhvZE3YJMeEHNPa8Gad2f6MLU8IQAPWva3JGT1s7eb4frDcD9Pc8oJ95QCcUA-lkY&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 3-bhk-property-in-hebbal-b...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "3 BHK Flat in Hebbal, Bangalore. SRI SAI NIVAS · ₹1.36 Cr ; 3 BHK Flat in Guddadahalli, Hebbal. KSR CRIMSON TIDE · ₹1.4 Cr ; 3 BHK Flat in Anand nagar, Hebbal.",
+    "snippet_highlighted_words": [
+     "3 BHK Flat in Hebbal, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "3 BHK Flat in Hebbal, Bangalore. SRI SAI NIVAS · ₹1.36 Cr ; 3 BHK Flat in Guddadahalli, Hebbal. KSR CRIMSON TIDE · ₹1.4 Cr ; 3 BHK Flat in Anand nagar, Hebbal.",
+      "source_info_link": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuEBL2dvdG8_dXJsPUNBRVNuQUVCNnpzd0ZmVm9oTGZteTBianRpNEdnaTUtSTY3WFY4ai1NTmZoQ2tyZHE1dzdDajNnM18wT2dfcXpkY1hKTTkxdjdSYUEtbjRvUURQOTNXa2NzTGMzN2Z4TE1iWUlDaGFEYms3el9aa0s0cGlEbW5pU1hXQ0ZDU0N6YmhRYm95REtPNFFYMzFBaWJFZDZaUk1odlpFM1lKTWVFSE5QYThHYWQyZjZNTFU4SVFBUFd2YTNKR1QxczdlYjRmckRjRDlQYzhvSjk1UUNjVUEtbGtZEgQaAggAGpYHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAzwYIABAAGAAgACoaCgRmbGF0FXbNTkAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRWluzBAGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwV6nraQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRVMk8JAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVzm-QPxoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVQrHHQBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRXD9QBAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLhAS9nb3RvP3VybD1DQUVTbkFFQjZ6c3dGZlZvaExmbXkwYmp0aTRHZ2k1LUk2N1hWOGotTU5maENrcmRxNXc3Q2ozZzNfME9nX3F6ZGNYSk05MXY3UmFBLW40b1FEUDkzV2tjc0xjMzdmeExNYllJQ2hhRGJrN3pfWmtLNHBpRG1uaVNYV0NGQ1NDemJoUWJveURLTzRRWDMxQWliRWQ2WlJNaHZaRTNZSk1lRUhOUGE4R2FkMmY2TUxVOElRQVBXdmEzSkdUMXM3ZWI0ZnJEY0Q5UGM4b0o5NVFDY1VBLWxrWTpZMyBCSEsgUHJvcGVydHkgaW4gPGI-SGViYmFsPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSBCZWxvdzwvYj4gMS41IDxiPkNyb3JlczwvYj5CuAE8Yj4zIEJISyBGbGF0IGluIEhlYmJhbCwgQmFuZ2Fsb3JlPC9iPi4gU1JJIFNBSSBOSVZBUyAmbWlkZG90OyDigrkxLjM2IENyIDsgMyBCSEsgRmxhdCBpbiBHdWRkYWRhaGFsbGksIEhlYmJhbC4gS1NSIENSSU1TT04gVElERSAmbWlkZG90OyDigrkxLjQgQ3IgOyAzIEJISyBGbGF0IGluIEFuYW5kIG5hZ2FyLCBIZWJiYWwuSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuEBL2dvdG8_dXJsPUNBRVNuQUVCNnpzd0ZmVm9oTGZteTBianRpNEdnaTUtSTY3WFY4ai1NTmZoQ2tyZHE1dzdDajNnM18wT2dfcXpkY1hKTTkxdjdSYUEtbjRvUURQOTNXa2NzTGMzN2Z4TE1iWUlDaGFEYms3el9aa0s0cGlEbW5pU1hXQ0ZDU0N6YmhRYm95REtPNFFYMzFBaWJFZDZaUk1odlpFM1lKTWVFSE5QYThHYWQyZjZNTFU4SVFBUFd2YTNKR1QxczdlYjRmckRjRDlQYzhvSjk1UUNjVUEtbGtZEgQaAggAGpYHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAzwYIABAAGAAgACoaCgRmbGF0FXbNTkAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRWluzBAGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwV6nraQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRVMk8JAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVzm-QPxoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVQrHHQBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRXD9QBAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLhAS9nb3RvP3VybD1DQUVTbkFFQjZ6c3dGZlZvaExmbXkwYmp0aTRHZ2k1LUk2N1hWOGotTU5maENrcmRxNXc3Q2ozZzNfME9nX3F6ZGNYSk05MXY3UmFBLW40b1FEUDkzV2tjc0xjMzdmeExNYllJQ2hhRGJrN3pfWmtLNHBpRG1uaVNYV0NGQ1NDemJoUWJveURLTzRRWDMxQWliRWQ2WlJNaHZaRTNZSk1lRUhOUGE4R2FkMmY2TUxVOElRQVBXdmEzSkdUMXM3ZWI0ZnJEY0Q5UGM4b0o5NVFDY1VBLWxrWTpZMyBCSEsgUHJvcGVydHkgaW4gPGI-SGViYmFsPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSBCZWxvdzwvYj4gMS41IDxiPkNyb3JlczwvYj5CuAE8Yj4zIEJISyBGbGF0IGluIEhlYmJhbCwgQmFuZ2Fsb3JlPC9iPi4gU1JJIFNBSSBOSVZBUyAmbWlkZG90OyDigrkxLjM2IENyIDsgMyBCSEsgRmxhdCBpbiBHdWRkYWRhaGFsbGksIEhlYmJhbC4gS1NSIENSSU1TT04gVElERSAmbWlkZG90OyDigrkxLjQgQ3IgOyAzIEJISyBGbGF0IGluIEFuYW5kIG5hZ2FyLCBIZWJiYWwuSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid#:~:text=SRI%20SAI%20NIVAS&text=%E2%82%B91.36%20Cr&text=KSR%20CRIMSON%20TIDE&text=%E2%82%B91.4%20Cr&text=SHRIRAM%20SRISHTI%20APARTME..."
+   },
+   {
+    "position": 10,
+    "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+    "link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-sultanpalya_hebbal_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlQEB6zswFSP2u2bgA6vczb8YlbnA1ZNJc_WMpwJtIJkqe-hJQBO-nnlygDI06HtxBHQdkAu8w6dkP7TGs8P6lHZm25CUYut7MA8g8sQyS8WDa9O2qeUSj2kWzPyU67Ug2pIMVrtR5LXBgCmjOfeNHxaw0Yoz1QjQseUCWJgsKXrN0k-HB7MnmxeLToH5isNlb8fwjNoTuA&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQFnoECBAQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › Flats for Sale in bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "6 - Properties for Sale Below 1 Crore in Hebbal,Bangalore - NoBroker | Flats, Houses Below 1 Crore for Sale in Hebbal · 3 BHK Apartment In Sln Enclave For Sale ...",
+    "snippet_highlighted_words": [
+     "Properties for Sale Below 1 Crore in Hebbal,Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "6 - Properties for Sale Below 1 Crore in Hebbal,Bangalore - NoBroker | Flats, Houses Below 1 Crore for Sale in Hebbal · 3 BHK Apartment In Sln Enclave For Sale ...",
+      "source_info_link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-sultanpalya_hebbal_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtgBL2dvdG8_dXJsPUNBRVNsUUVCNnpzd0ZTUDJ1MmJnQTZ2Y3piOFlsYm5BMVpOSmNfV01wd0p0SUprcWUtaEpRQk8tbm5seWdESTA2SHR4QkhRZGtBdTh3NmRrUDdUR3M4UDZsSFptMjVDVVl1dDdNQThnOHNReVM4V0RhOU8ycWVVU2oya1d6UHlVNjdVZzJwSU1WcnRSNUxYQmdDbWpPZmVOSHhhdzBZb3oxUWpRc2VVQ1dKZ3NLWHJOMGstSEI3TW5teGVMVG9INWlzTmxiOGZ3ak5vVHVBEgQaAggAGu0GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAtQYIABAAGAAgACoaCgRmbGF0FeAjyEAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRXsrx1BGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwVQH8DQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRUu6dpAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVzONCQBoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVNu39QBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRUUuMhAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLYAS9nb3RvP3VybD1DQUVTbFFFQjZ6c3dGU1AydTJiZ0E2dmN6YjhZbGJuQTFaTkpjX1dNcHdKdElKa3FlLWhKUUJPLW5ubHlnREkwNkh0eEJIUWRrQXU4dzZka1A3VEdzOFA2bEhabTI1Q1VZdXQ3TUE4ZzhzUXlTOFdEYTlPMnFlVVNqMmtXelB5VTY3VWcycElNVnJ0UjVMWEJnQ21qT2ZlTkh4YXcwWW96MVFqUXNlVUNXSmdzS1hyTjBrLUhCN01ubXhlTFRvSDVpc05sYjhmd2pOb1R1QTpKUHJvcGVydGllcyBmb3IgPGI-U2FsZSBCZWxvdyAxIENyb3JlPC9iPiBpbiA8Yj5IZWJiYWw8L2I-LDxiPkJhbmdhbG9yZTwvYj5CtgE2IC0gPGI-UHJvcGVydGllcyBmb3IgU2FsZSBCZWxvdyAxIENyb3JlIGluIEhlYmJhbCxCYW5nYWxvcmU8L2I-IC0gTm9Ccm9rZXIgfCBGbGF0cywgSG91c2VzIEJlbG93IDEgQ3JvcmUgZm9yIFNhbGUgaW4gSGViYmFsICZtaWRkb3Q7IDMgQkhLIEFwYXJ0bWVudCBJbiBTbG4gRW5jbGF2ZSBGb3IgU2FsZSZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtgBL2dvdG8_dXJsPUNBRVNsUUVCNnpzd0ZTUDJ1MmJnQTZ2Y3piOFlsYm5BMVpOSmNfV01wd0p0SUprcWUtaEpRQk8tbm5seWdESTA2SHR4QkhRZGtBdTh3NmRrUDdUR3M4UDZsSFptMjVDVVl1dDdNQThnOHNReVM4V0RhOU8ycWVVU2oya1d6UHlVNjdVZzJwSU1WcnRSNUxYQmdDbWpPZmVOSHhhdzBZb3oxUWpRc2VVQ1dKZ3NLWHJOMGstSEI3TW5teGVMVG9INWlzTmxiOGZ3ak5vVHVBEgQaAggAGu0GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAtQYIABAAGAAgACoaCgRmbGF0FeAjyEAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqNAoEc2FsZRXsrx1BGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBHNvbGQqCQoCaW4VAAAAACowCgZoZWJiYWwVQH8DQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaC2l2O3A7aGViYmFsKjYKCWJhbmdhbG9yZRUu6dpAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqJgoFdW5kZXIVzONCQBoFYmVsb3caCWxlc3MgdGhhbhoGdW5kZXIxKh0KATEVNu39QBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRUUuMhAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLYAS9nb3RvP3VybD1DQUVTbFFFQjZ6c3dGU1AydTJiZ0E2dmN6YjhZbGJuQTFaTkpjX1dNcHdKdElKa3FlLWhKUUJPLW5ubHlnREkwNkh0eEJIUWRrQXU4dzZka1A3VEdzOFA2bEhabTI1Q1VZdXQ3TUE4ZzhzUXlTOFdEYTlPMnFlVVNqMmtXelB5VTY3VWcycElNVnJ0UjVMWEJnQ21qT2ZlTkh4YXcwWW96MVFqUXNlVUNXSmdzS1hyTjBrLUhCN01ubXhlTFRvSDVpc05sYjhmd2pOb1R1QTpKUHJvcGVydGllcyBmb3IgPGI-U2FsZSBCZWxvdyAxIENyb3JlPC9iPiBpbiA8Yj5IZWJiYWw8L2I-LDxiPkJhbmdhbG9yZTwvYj5CtgE2IC0gPGI-UHJvcGVydGllcyBmb3IgU2FsZSBCZWxvdyAxIENyb3JlIGluIEhlYmJhbCxCYW5nYWxvcmU8L2I-IC0gTm9Ccm9rZXIgfCBGbGF0cywgSG91c2VzIEJlbG93IDEgQ3JvcmUgZm9yIFNhbGUgaW4gSGViYmFsICZtaWRkb3Q7IDMgQkhLIEFwYXJ0bWVudCBJbiBTbG4gRW5jbGF2ZSBGb3IgU2FsZSZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-sultanpalya_hebbal_bangalore#:~:text=6%20%2D%20Properties%20for%20Sale,Crore%20for%20Sale%20in%20Hebbal&text=3%20BHK%20Apartment%20In%20Sln,For%20Sale%20In%20Rt%20Nagar"
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "Studio flat for sale in hebbal bangalore under 1 crore",
+    "link": "https://www.google.co.in/search?sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&q=Studio+flat+for+sale+in+hebbal+bangalore+under+1+crore&sa=X&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ1QJ6BAgJEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Studio+flat+for+sale+in+hebbal+bangalore+under+1+crore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "2 bhk flat for sale in hebbal bangalore under 1 crore",
+    "link": "https://www.google.co.in/search?sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&q=2+bhk+flat+for+sale+in+hebbal+bangalore+under+1+crore&sa=X&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ1QJ6BAgKEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=2+bhk+flat+for+sale+in+hebbal+bangalore+under+1+crore&start=0"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=10&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8NMDegQISxAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=10&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAE",
+    "3": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=20&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAG",
+    "4": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=30&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAI",
+    "5": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=40&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAK",
+    "6": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=50&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAM",
+    "7": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=60&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAO",
+    "8": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=70&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAQ",
+    "9": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=80&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAS",
+    "10": "https://www.google.co.in/search?q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnux33HuJR6tr55IzXE3vUppcnU-DQ:1791088936072&ei=KNnBas-CBLu7mLQP9oiz2Ao&start=90&sa=N&sstk=AS6-VmIMX8byBbdak_3nmUc275BnQYiCGt8iUDUlg1iB_ul5xQ7R_M1Ptv4wnawWRHSFS3Xd3TW2yglHEwtoelbgQEvFs5czl4uAgg&ved=2ahUKEwjPtq6exp-XAxW7HYYAHXbEDKsQ8tMDegQISxAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=90"
+   }
+  }
+ }
+}

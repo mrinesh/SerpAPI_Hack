@@ -1,0 +1,473 @@
+{
+ "engine": "google_local",
+ "params": {
+  "q": "flats for sale in Whitefield Bangalore",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d8a7b9e8696109963dc0",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/ydrTvQIfFqhqBzEuT8F8ZWo-gDCyQwyufb2sxsM9ypc/6ac1d8a7b9e8696109963dc0.json",
+   "markdown_endpoint": "https://serpapi.com/searches/ydrTvQIfFqhqBzEuT8F8ZWo-gDCyQwyufb2sxsM9ypc/6ac1d8a7b9e8696109963dc0.md",
+   "created_at": "2026-10-04 04:40:07 UTC",
+   "processed_at": "2026-10-04 04:40:07 UTC",
+   "google_local_url": "https://www.google.co.in/search?q=flats+for+sale+in+Whitefield+Bangalore&uule=j+WzIsMzIsbnVsbCwiQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYSIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsXQ==&hl=en&gl=in&udm=1",
+   "raw_html_file": "https://serpapi.com/searches/ydrTvQIfFqhqBzEuT8F8ZWo-gDCyQwyufb2sxsM9ypc/6ac1d8a7b9e8696109963dc0.html",
+   "total_time_taken": 3.18
+  },
+  "search_parameters": {
+   "engine": "google_local",
+   "q": "flats for sale in Whitefield Bangalore",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "local_map": {
+   "gps_coordinates": {
+    "latitude": 12.990173085892906,
+    "longitude": 77.74526596069336
+   }
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Gopalan Atlantis",
+    "type": "Apartment complex",
+    "rating": 4.3,
+    "reviews": 939,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/lHthVxzXRJ7gzQIRlAtZ3cYH1xBu2RHYDsLvAHAcYBI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RZUxTYCI8Eg3mLouhMZ6Q7V0jGaOz4asXQ_dJTs0mzgvVNtzvhUUsn-GDcfLpWjVSnpnNXrnHnUqpwc73Aa78vWv1Ag1TzsVtph1MzVw88GvdxIITCuKY1lTM7coA4M0s7rncHKg=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 4931 4931",
+     "website": "http://www.gopalanenterprises.com/"
+    },
+    "place_id": "14345282893242474274",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=14345282893242474274&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/1tnk_vkz",
+    "gps_coordinates": {
+     "latitude": 12.974711,
+     "longitude": 77.744039
+    },
+    "address": "Gopalan Atlantis, Pattandur Agrahara ECC Rd, Dodsworth Layout, Whitefield, Bengaluru, Karnataka 560066",
+    "phone": "080 4931 4931"
+   },
+   {
+    "position": 2,
+    "title": "Vaswani Exquisite",
+    "type": "Apartment building",
+    "rating": 4.3,
+    "reviews": 277,
+    "description": "\"Luxury 3-4 bhk flats with all critical amenities on ITPL main road.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/t4N4VLJiD9FRa6hZNNFBWsRss701fw0GEAnnbAcPdjI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TBpBpglTY37uhW-JFoXAtrzkpYgWTs5KXXmYjQIsWkWjg8XwOIstcOLVnLL-ocQQvBqIXbwqEHvmHwCReow1RbSiKGvcKU3pxzFvxsiWfMkmGG41VJ6mcvyZq6Ce90jReyQ1Il=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:087479 87479",
+     "website": "http://www.vaswanigroup.com/"
+    },
+    "place_id": "980990278183841470",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=980990278183841470&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11ckyc53x2",
+    "gps_coordinates": {
+     "latitude": 12.989181,
+     "longitude": 77.723876
+    },
+    "address": "ITPL Main Rd, next to Hotel Zuri, Maruthi Nagar, Whitefield, Bengaluru, Karnataka 560048",
+    "phone": "087479 87479"
+   },
+   {
+    "position": 3,
+    "title": "Folium by Sumadhura",
+    "type": "Apartment complex",
+    "rating": 4.1,
+    "reviews": 742,
+    "description": "On-site services",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/Q30pI_RjZi--qe_nJYJYhOFVlNaw6zvQveM3sQWBHFg.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SOye4_Y8ZCBMlqMh3Uo826hnKQaz5Nk29mfbCBGrtX3lMtZbmoBvu9_vszCfKydjmYcRVh4COLBGC2Kv2-vdo3iR_LfhvTQ6bPojzyp85kHRQwxMbIGak4tW1lzcDo0-jj6Wh73w=w1000-h1000-c-n",
+    "links": {
+     "website": "https://sumadhurafolium.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=Folium"
+    },
+    "place_id": "9567649030228319138",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=9567649030228319138&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11kc8p1pyh",
+    "gps_coordinates": {
+     "latitude": 12.966444,
+     "longitude": 77.743492
+    },
+    "address": "Sy. 47/1, Whitefield Village, K.R. Puram Hobli, Bengaluru East Taluk, Bengaluru, Karnataka 560066",
+    "hours": "Open · Closes 6 pm"
+   },
+   {
+    "position": 4,
+    "title": "Prestige Waterford",
+    "type": "Condominium complex",
+    "rating": 4.4,
+    "reviews": 455,
+    "description": "\"Expensive flats but place was okay\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/P4hx-Y9ZfmQss6X9A6NgfnfMy_AC55_Zxy-BL2guFe0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QZnZQ6timir9jeTjCANONOXMd4xEZXEKD1k9QtRhYu8z3XrpYKM65nQiQkhB2WEVB3VKekAr1WveHoI89WEEn_SP5FjDmhk9GDrEOD8-m-OvawbJ_V8ebhoeWlK136KFMmdEFlyEARe1k=w1000-h1000-c-n",
+    "links": {
+     "website": "https://www.prestigeconstructions.com/"
+    },
+    "place_id": "13971216255020941300",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=13971216255020941300&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11jm_2bhpm",
+    "gps_coordinates": {
+     "latitude": 12.981991,
+     "longitude": 77.742182
+    },
+    "address": "Nallurahalli, Borewell Road, Bengaluru, Karnataka 560066",
+    "hours": "Open · Closes 6:30 pm"
+   },
+   {
+    "position": 5,
+    "title": "Alembic Urban Forest",
+    "type": "Apartment complex",
+    "rating": 4.5,
+    "reviews": 539,
+    "description": "On-site services",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/m8SmGxgLf31fJ_yGawbK-yKEZ9wGaKNiCIut0tFczhc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tgf5IAna1yGw2xgkv034LE0XgddQl1vR__h9J4IMtJWZ9Hh9Z6vxWGks_auSSBi_4DMVUtHzlptLMSEmftZ8jyxUxYt9yFKFfhcQdbBLwkiwXdnrme3eim2RfxbwPoABnpMYY=w1000-h1000-c-n",
+    "links": {
+     "website": "https://www.alembicrealestate.com/project/urban-forest-3bhk-apartments-flats-whitefield/"
+    },
+    "place_id": "2912660981688413818",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=2912660981688413818&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11l8k8666t",
+    "gps_coordinates": {
+     "latitude": 12.985122,
+     "longitude": 77.760515
+    },
+    "address": "Hope Farm Junction, Near, Whitefield, Bengaluru, Karnataka 560066"
+   },
+   {
+    "position": 6,
+    "title": "Sumadhura Silver Ripples",
+    "type": "Apartment building",
+    "rating": 4.3,
+    "reviews": 549,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/RXL6dSzqxEUPwONpr1bwz6EYWl-iTF2KrO_-NC5XZ1M.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TOcGQcEAD_-F0GecaI3NE56JnVj0rikH-IOUrxNA8erxUtLmcjqAoCnP9BtCl-17FUnKbZ1JqlytoJVVOOIYM_0WfQPM7vvIsuQOw3zb8i4TFHHhRmsAPIXCCcRykBRvXDw21cVA=w1000-h1000-c-n",
+    "place_id": "6558727473914328380",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=6558727473914328380&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11byvh7_zc",
+    "gps_coordinates": {
+     "latitude": 12.969566,
+     "longitude": 77.738905
+    },
+    "address": "Survey No. 25/2 & 25/1A, Borewell Road, Hobli, KR Puram, Whitefield, Bengaluru, Karnataka 560066"
+   },
+   {
+    "position": 7,
+    "title": "SOBHA Windsor",
+    "type": "Apartment building",
+    "rating": 4.1,
+    "reviews": 302,
+    "description": "\"One of the best upcoming properties in the Whitefield area.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/IjAimNnPAQ8E67Md_iWD-XJffxRl1JhtKPXVe2CebMs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sh-7kwAwyhnFAalY6R9Ctod5moW8KR9_cLIFmae7mumfYXCFYQyTuN5xKHjWyl3NWKAmGIjuhY3w77_Ru921EJbZwHc44zQp2x3WYhB2E43A5HjsobfU_LtK-_Ksp7-7mrZp_Kcg=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 4646 4500",
+     "website": "https://www.sobha.com/bengaluru/sobha-windsor-apartments-in-whitefield/"
+    },
+    "place_id": "10333395527177620688",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=10333395527177620688&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11h0_pfcly",
+    "gps_coordinates": {
+     "latitude": 12.97225,
+     "longitude": 77.764479
+    },
+    "address": "Immadihalli Main Rd, Vijayanagara, Whitefield, Bengaluru, Karnataka 560066",
+    "hours": "Open · Closes 7:30 pm",
+    "phone": "080 4646 4500"
+   },
+   {
+    "position": 8,
+    "title": "Godrej Splendour, Whitefield Bangalore",
+    "type": "Apartment building",
+    "rating": 3.6,
+    "reviews": 793,
+    "description": "\"The flats feel worth the price, with 20+ amenities.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/-f9FehJXvgCyLmWKGvDwIkaAEP8wXP5ZB0n_8Uq-B-w.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q0uZG8K-1qMc36LUsZv4mTH1oZRm192nUHIUYX0aQAhUeLhBWPEYJaSaUCSL0bolvVvMbM9ppstHrnaoEBFiGbQ6pI-VU7O77bmPSCbC_7qdwlFSnLuehyBRRTSPpbewhkbB9IwQ=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:087671 93590",
+     "website": "https://www.godrejproperties.com/bengaluru/residential/godrej-splendour"
+    },
+    "place_id": "12690841577529809955",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=12690841577529809955&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11rvc2jz0r",
+    "gps_coordinates": {
+     "latitude": 13.012024,
+     "longitude": 77.747045
+    },
+    "address": "Belathur Main Rd, Belathur, Krishnarajapuram, J.I.Domsandra, Karnataka 560049",
+    "hours": "Open · Closes 7 pm",
+    "phone": "087671 93590"
+   },
+   {
+    "position": 9,
+    "title": "United Sai Silicon HEIGHTS | Flats Near Hope Farm Junction, Whitefield",
+    "type": "Real Estate Builders & Construction Company",
+    "rating": 4.4,
+    "reviews": 224,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/3SeSNCGorcd7LnofSg4P3M0-psuGf1FFoGq1v5tsnUs.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T4Yvl-GQS1OMaLW0HwNtTkVw5S_Ndx0oosbFzsYY8Bh3g-Ewq1RE7PbPo8LCORbjfAYRl5-glLKfMWehLB_cCsP93I1Xn0ZdfC0OUGahsyIqwXxhT0UmmdBIvxLdN1B7zhNP-v=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:098806 66189",
+     "website": "https://uniteddevelopers.in/sai-silicon-heights/"
+    },
+    "place_id": "13469217710244323948",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=13469217710244323948&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11kmb06hsw",
+    "gps_coordinates": {
+     "latitude": 12.974798,
+     "longitude": 77.766971
+    },
+    "address": "Sy. No.113/4 & 113/2, Nagondanahalli, Vijayanagar Main Rd, opposite to Sri Lakshmi Narayana trading, Immadihalli, Whitefield, Karnataka 560066",
+    "hours": "Open · Closes 7 pm",
+    "phone": "098806 66189"
+   },
+   {
+    "position": 10,
+    "title": "Orchid Whitefield - Goyal & Co | Hariyana Group",
+    "type": "Apartment building",
+    "rating": 4.1,
+    "reviews": 401,
+    "description": "\"Amazing place, very well planned with all flats getting good light and air.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/aN3c-sumrWdBRMmiKvlej0qru07CAAhWJgT4hgKvJDM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T6x-hfxYZWrfZ528599UbXT03vQ2GXXDeJqUyMub618_uBGLC07OIvHolL1NQVO2la7_ZylrTYIwAD6t1zPexMZTAUDO1gqSOPgInRP2eSkhplQuShAsIjoOaK99PfW-Bg2Pk3BA=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080888 66000",
+     "website": "https://goyalco.com/project/residential/orchid-whitefield-2/"
+    },
+    "place_id": "450478362868142225",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=450478362868142225&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11by_dsncq",
+    "gps_coordinates": {
+     "latitude": 12.963752,
+     "longitude": 77.757577
+    },
+    "address": "Goyal and Co, Orchid, Hagadur Main Rd, Immadihalli, Whitefield, Bengaluru, Karnataka 560066",
+    "phone": "080888 66000"
+   },
+   {
+    "position": 11,
+    "title": "Vaswani Pinnacle",
+    "type": "Residents association",
+    "rating": 4.1,
+    "reviews": 620,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/36c6NpZmBAzoBz0AeRWe7eQvKi-LsT64GJnPoYN-Iqw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TCDMu26S9fhe-UA7S_TJXv5gugXXD1lLqH3ewr9icYBc-CC8VhfyVriFSQQDrhU3WjZQByY9B2h8MR39CstpwmS2ANHZ6u036N76SkHop-uzgiY2oqhlmK8nnGQW39esfVp_l4=w1000-h1000-c-n",
+    "place_id": "40570302624301286",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=40570302624301286&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/1hhj3kvvs",
+    "gps_coordinates": {
+     "latitude": 12.967261,
+     "longitude": 77.750122
+    },
+    "address": "VASWANI PINNACLE, Whitefield Main Rd, Narayanappa Garden, Whitefield, Bengaluru, Karnataka 560066",
+    "hours": "Open 24 hours"
+   },
+   {
+    "position": 12,
+    "title": "Gopalan Aqua",
+    "type": "Apartment building",
+    "rating": 4.4,
+    "reviews": 168,
+    "description": "\"Price is competitive and flats are spacious.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/th8z5POIRPaPVBiTP6gzfibEWVaatV46D_xscfptUvA.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QMXJ7spfm5oCbPG-2HNlWVx42TGA37MWing8zbq-AG0b-ELL7QXvDITcOEjvvUk1GwBlkNBgcHnLQ_NlQzwFxFPceNRiG95-Mzg-4trxJjGAiOxUD2km5qBPsIJiCu__tsmK4DBg=w1000-h1000-c-n",
+    "place_id": "2986327857776421160",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=2986327857776421160&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11j2vy238f",
+    "gps_coordinates": {
+     "latitude": 12.979268,
+     "longitude": 77.758513
+    },
+    "address": "Gopalan Aqua, A K Gopalan Colony Main Rd, Whitefield, Bengaluru, Karnataka 560066"
+   },
+   {
+    "position": 13,
+    "title": "Brigade Cosmopolis",
+    "type": "Condominium complex",
+    "rating": 4.4,
+    "reviews": 759,
+    "description": "\"Great connectivity to amenities and excellent flats.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/2qiRopLKNVA3tikhvFeGgQvLFaMKm9uzpTIZDinv4Qc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RXPfIhQ-ZG0u-bODwD46Qkzl2X7-DyNo8gbZVpn8tFSUUVH69tVt3SLDqNfpU3qOYl_jj5eWkbQc5IOY2aW2hfkVFXnZQxmEVB2OuNn13m3EOHa4WuehmR1aFJfv2ryLF-HgTx=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:1800 102 9977",
+     "website": "http://www.brigadecosmopolis.com/?utm_source=GMB"
+    },
+    "place_id": "3570411812935502635",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=3570411812935502635&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/1wz514hz",
+    "gps_coordinates": {
+     "latitude": 12.962066,
+     "longitude": 77.746277
+    },
+    "address": "Nexus Whitefield Mall, Whitefield Main Rd, near the, Palm Meadows, Whitefield, Bengaluru, Karnataka 560066",
+    "hours": "Open · Closes 7 pm",
+    "phone": "1800 102 9977"
+   },
+   {
+    "position": 14,
+    "title": "Umiya Woods",
+    "type": "Condominium complex",
+    "rating": 4.3,
+    "reviews": 223,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/HAtk9ARgIpbpWswaNaBCyK7l1dsg8AWGHNIssSwen-Q.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFROvQ_As1ymKuTnWTNSANIWc4oftMETUUxmaOL7Q-9a6Wq8Tj65n97G0UE02_OEybsRsEQkTz8-FPPl5Lr9nfue1RgQpgqQbdf7ba5LDnKvwIXeA8hLWbuAO-J0OhMv6OMaG0=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 2225 2001",
+     "website": "http://www.umiyaindia.com/"
+    },
+    "place_id": "4285936312875717355",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=4285936312875717355&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/1pp2vlsv9",
+    "gps_coordinates": {
+     "latitude": 12.975343,
+     "longitude": 77.745216
+    },
+    "address": "57, Pattandur Agrahara, 2, Pattandur Agrahara ECC Rd, Dodsworth Layout, Whitefield, Bengaluru, Karnataka 560066",
+    "hours": "Open 24 hours",
+    "phone": "080 2225 2001"
+   },
+   {
+    "position": 15,
+    "title": "Prestige Palms Apartments",
+    "type": "Apartment complex",
+    "rating": 4.3,
+    "reviews": 378,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/ab1xRD3qGIspTggpx9j5tLjebi8tXEF-JZzMfnarKNk.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RHNJ26RMmqZ2SkjtH9xPiFg3u6JjUQBnRwWMqARfsKQ6nF50pJAGP9bx71TO-y3LFbJCik4ekCvJwXl2rKAQOxFKemV8irLtvpn6i3wN6rl-TqXqa3ddqIF_B0imDshXLfF3w-F6hUwgBx=w1000-h1000-c-n",
+    "links": {
+     "website": "https://www.prestigeconstructions.com/"
+    },
+    "place_id": "5732664434181064441",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=5732664434181064441&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/12hvgmv8j",
+    "gps_coordinates": {
+     "latitude": 12.980594,
+     "longitude": 77.74322
+    },
+    "address": "43, ECC Rd, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066"
+   },
+   {
+    "position": 16,
+    "title": "SS Felicity Homes",
+    "type": "Apartment complex",
+    "rating": 3.9,
+    "reviews": 183,
+    "description": "On-site services·Online appointments",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/7Ckdc2pJtRVStotMG6bYySTVC-WAEQ_lVCIRBYlMWt0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QBjHSGP6mTanfvUlzrdKLc4MqvS0QeWiGlJex6DgIAoHxnAty1DSJLgqLRnn5uOQvZCkp2q8nDW_wqoGHXOe_mDAJcLjMjdd7ycdTlSXxq1PZrGSKpOBv0pID6YZySTlRd-nm18g=w1000-h1000-c-n",
+    "place_id": "9825746943333950129",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=9825746943333950129&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/1pp2tjjfc",
+    "gps_coordinates": {
+     "latitude": 12.969452,
+     "longitude": 77.74051
+    },
+    "address": "Borewell Rd, Nallurhalli, Whitefield, Bengaluru, Karnataka 560066",
+    "hours": "Open 24 hours"
+   },
+   {
+    "position": 17,
+    "title": "Prestige Park View",
+    "type": "Apartment complex",
+    "rating": 4.4,
+    "reviews": 1184,
+    "description": "On-site services",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/RVtUaTcZESVlt3P0fC32RhDZmqDjWmdvLmeCrmZRb7w.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q_txXmTnIhAWxyTbrDzvtaQDx3lBHTCZeI6vsQUBAEWCu1tYXM3Wg3iqjpDcLwEsXc9kZ6uc0D7VuyyTzHVasS5hJxXcsNiKJZyeB0Hgiuf10u1ao5THtbv_e8ifvwYIuFaoA=w1000-h1000-c-n",
+    "place_id": "5697965621454755706",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=5697965621454755706&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/1thmjfk0",
+    "gps_coordinates": {
+     "latitude": 12.985479,
+     "longitude": 77.751513
+    },
+    "address": "Whitefield Main Rd, Kadugodi Colony, Kadugodi, Bengaluru, Karnataka 560066",
+    "hours": "Open 24 hours"
+   },
+   {
+    "position": 18,
+    "title": "Assetz Marq",
+    "type": "Condominium complex",
+    "rating": 4.3,
+    "reviews": 1293,
+    "description": "\"Great flats at low price.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RYhYoMuCo1FBX7JosmqE2V0FHk6_84EPkJlWHY9cBBBrUali0Z812Ewjlx0UNnajR4IMlXBALPrfBZAm8U3N05LI3i06FtliXPTnxVcNn2lkUZoZaOqCD6xtTzgNBi6ke09zt0=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RYhYoMuCo1FBX7JosmqE2V0FHk6_84EPkJlWHY9cBBBrUali0Z812Ewjlx0UNnajR4IMlXBALPrfBZAm8U3N05LI3i06FtliXPTnxVcNn2lkUZoZaOqCD6xtTzgNBi6ke09zt0=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:092402 62877",
+     "website": "https://www.assetzproperty.com/marq/"
+    },
+    "place_id": "11452978784067959326",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=11452978784067959326&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11c6rh3nw_",
+    "gps_coordinates": {
+     "latitude": 13.024421,
+     "longitude": 77.763604
+    },
+    "address": "SyNo: 159/1, Assetz Marq, 159/2, Whitefield - Hoskote Rd, Kannamangala, Bengaluru, Karnataka 560115",
+    "hours": "Open · Closes 6:30 pm",
+    "phone": "092402 62877"
+   },
+   {
+    "position": 19,
+    "title": "CitiLights Rustique",
+    "type": "Apartment complex",
+    "rating": 4.3,
+    "reviews": 298,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/3UxXB39k0Nn8qHf372fxVmf6E-Q93VXPzb9HrR8lJ88.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QNG4-NN0MprFuYmIvTH4KpKlaCrmu88AyaFHjdoXGGuslfHxToj8lhhVpxBb0MJCRJc0eUc31Elk4Ua__2-y1ESJFN-pSBE7sl5peM-XKTXPdKsR_unrbxAEzdICSCneBWOls=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 4117 1500"
+    },
+    "place_id": "1777701253786756786",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=1777701253786756786&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11b6_j8fny",
+    "gps_coordinates": {
+     "latitude": 12.974096,
+     "longitude": 77.743381
+    },
+    "address": "63, Pattandur Agrahara ECC Rd, Dodsworth Layout, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066",
+    "phone": "080 4117 1500"
+   },
+   {
+    "position": 20,
+    "title": "SV Legacy - Apartments Near Hope Farm",
+    "type": "Apartment building",
+    "rating": 4.4,
+    "reviews": 92,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8a7b9e8696109963dc0/images/FsRjlB-OGqhCjWuqbblFEgp6T4rN1x-yX9yuOBqNsFs.png",
+    "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRSZiEcQxhTjzHrB4dU2VjGLHgpJ8_eD7p5TLXNYI1pMP6hi8_ukAaEYFxQGzAR3u21IbqJj1BSKefTs86a_fxuiV0Notqs8Ip17LfhALnz-ehJVbErjaXCtEO7wK90ayAV5qOew=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080505 71999",
+     "website": "https://svinfragroup.com/legacy/"
+    },
+    "place_id": "8802274898131459659",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=8802274898131459659&q=flats+for+sale+in+Whitefield+Bangalore&start=0",
+    "provider_id": "/g/11csrpcmsm",
+    "gps_coordinates": {
+     "latitude": 12.98257,
+     "longitude": 77.756141
+    },
+    "address": "Channasandra Main Rd, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066",
+    "hours": "Open · Closes 7 pm",
+    "phone": "080505 71999"
+   }
+  ]
+ }
+}

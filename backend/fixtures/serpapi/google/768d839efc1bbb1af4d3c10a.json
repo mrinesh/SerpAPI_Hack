@@ -1,0 +1,359 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "flat for sale in Whitefield Bangalore site:99acres.com",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d85312eb147443360f4b",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/jeS1aSIwYU9r5jUYYPWkO3-LhcpkgzOsLllYy9Jpv3g/6ac1d85312eb147443360f4b.json",
+   "markdown_endpoint": "https://serpapi.com/searches/jeS1aSIwYU9r5jUYYPWkO3-LhcpkgzOsLllYy9Jpv3g/6ac1d85312eb147443360f4b.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/jeS1aSIwYU9r5jUYYPWkO3-LhcpkgzOsLllYy9Jpv3g/6ac1d85312eb147443360f4b.json_with_pixel_position",
+   "created_at": "2026-10-04 04:38:43 UTC",
+   "processed_at": "2026-10-04 04:38:43 UTC",
+   "google_url": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&oq=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/jeS1aSIwYU9r5jUYYPWkO3-LhcpkgzOsLllYy9Jpv3g/6ac1d85312eb147443360f4b.html",
+   "total_time_taken": 13.64
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "flat for sale in Whitefield Bangalore site:99acres.com",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "flat for sale in Whitefield Bangalore site:99acres.com",
+   "total_results": 94100,
+   "time_taken_displayed": 0.25,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Page 34 - Apartments in Whitefield, Bangalore",
+    "link": "https://www.99acres.com/flats-in-whitefield-bangalore-east-ffid-page-34",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFfFZkyQ_KZgKkdd05z2qNPkHuTQuOZDv9UfCIpE4jngsVsU_OV7dSz8l5j8h0EkSmzJ_sETo40z_wc4LtXfOw9C_8qGj7WrCEsfaH_k14zGASD0D4UfJPY7HhnKS_B-t_QEHHlADUEf3TE2odK87f7sCq1duckxozsBHvq9p&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECB8QAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › flats-in-whitefield-bangalore...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "2 BHK Flat in Whitefield, Bangalore ... The flat is west-Facing. The flat is over 1218 sq.Ft. Super built up area and comes with 2 bedroom(s), 2 bathrooms and 1 ...",
+    "snippet_highlighted_words": [
+     "2 BHK Flat in Whitefield, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "2 BHK Flat in Whitefield, Bangalore ... The flat is west-Facing. The flat is over 1218 sq.Ft. Super built up area and comes with 2 bedroom(s), 2 bathrooms and 1 ...",
+      "source_info_link": "https://www.99acres.com/flats-in-whitefield-bangalore-east-ffid-page-34",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZmRlpreVFfS1pnS2tkZDA1ejJxTlBrSHVUUXVPWkR2OVVmQ0lwRTRqbmdzVnNVX09WN2RTejhsNWo4aDBFa1Ntekpfc0VUbzQwel93YzRMdFhmT3c5Q184cUdqN1dyQ0VzZmFIX2sxNHpHQVNEMEQ0VWZKUFk3SGhuS1NfQi10X1FFSEhsQURVRWYzVEUyb2RLODdmN3NDcTFkdWNreG96c0JIdnE5cBIEGgIIABrCBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQPsFCAAQABgAIAAqGgoEZmxhdBUDrIJAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjsKBHNhbGUV5ihJQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKk0KCndoaXRlZmllbGQVaOPHQBoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaD2l2O3A7d2hpdGVmaWVsZCpWCgliYW5nYWxvcmUVFrDGQBoJYmVuZ2FsdXJ1GhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUyvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RmZGWmt5UV9LWmdLa2RkMDV6MnFOUGtIdVRRdU9aRHY5VWZDSXBFNGpuZ3NWc1VfT1Y3ZFN6OGw1ajhoMEVrU216Sl9zRVRvNDB6X3djNEx0WGZPdzlDXzhxR2o3V3JDRXNmYUhfazE0ekdBU0QwRDRVZkpQWTdIaG5LU19CLXRfUUVISGxBRFVFZjNURTJvZEs4N2Y3c0NxMWR1Y2t4b3pzQkh2cTlwOl1QYWdlIDM0IC0gQXBhcnRtZW50cyBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIDI5NzUrIDxiPkZsYXRzIGZvciBzYWxlPC9iPiAuLi5CsAE8Yj4yIEJISyBGbGF0IGluIFdoaXRlZmllbGQsIEJhbmdhbG9yZTwvYj4gLi4uIFRoZSBmbGF0IGlzIHdlc3QtRmFjaW5nLiBUaGUgZmxhdCBpcyBvdmVyIDEyMTggc3EuRnQuIFN1cGVyIGJ1aWx0IHVwIGFyZWEgYW5kIGNvbWVzIHdpdGggMiBiZWRyb29tKHMpLCAyIGJhdGhyb29tcyBhbmQgMSZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZmRlpreVFfS1pnS2tkZDA1ejJxTlBrSHVUUXVPWkR2OVVmQ0lwRTRqbmdzVnNVX09WN2RTejhsNWo4aDBFa1Ntekpfc0VUbzQwel93YzRMdFhmT3c5Q184cUdqN1dyQ0VzZmFIX2sxNHpHQVNEMEQ0VWZKUFk3SGhuS1NfQi10X1FFSEhsQURVRWYzVEUyb2RLODdmN3NDcTFkdWNreG96c0JIdnE5cBIEGgIIABrCBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQPsFCAAQABgAIAAqGgoEZmxhdBUDrIJAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjsKBHNhbGUV5ihJQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKk0KCndoaXRlZmllbGQVaOPHQBoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaD2l2O3A7d2hpdGVmaWVsZCpWCgliYW5nYWxvcmUVFrDGQBoJYmVuZ2FsdXJ1GhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUyvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RmZGWmt5UV9LWmdLa2RkMDV6MnFOUGtIdVRRdU9aRHY5VWZDSXBFNGpuZ3NWc1VfT1Y3ZFN6OGw1ajhoMEVrU216Sl9zRVRvNDB6X3djNEx0WGZPdzlDXzhxR2o3V3JDRXNmYUhfazE0ekdBU0QwRDRVZkpQWTdIaG5LU19CLXRfUUVISGxBRFVFZjNURTJvZEs4N2Y3c0NxMWR1Y2t4b3pzQkh2cTlwOl1QYWdlIDM0IC0gQXBhcnRtZW50cyBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIDI5NzUrIDxiPkZsYXRzIGZvciBzYWxlPC9iPiAuLi5CsAE8Yj4yIEJISyBGbGF0IGluIFdoaXRlZmllbGQsIEJhbmdhbG9yZTwvYj4gLi4uIFRoZSBmbGF0IGlzIHdlc3QtRmFjaW5nLiBUaGUgZmxhdCBpcyBvdmVyIDEyMTggc3EuRnQuIFN1cGVyIGJ1aWx0IHVwIGFyZWEgYW5kIGNvbWVzIHdpdGggMiBiZWRyb29tKHMpLCAyIGJhdGhyb29tcyBhbmQgMSZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 2,
+    "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+    "link": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkwEB6zswFZMikyeGEC4mPviQDBVhhAs0VhfREBec4yDOcGYc-4RWhqLgSYCsMeFbyOdpHv582bugvffVb9ZbDyTVNq2gJkVsGFvqi6LzmveEM_imuLbjOz_lRslsOl-8dBYwU4B2jogVqYv_VtK6L5vAawe8pPLF4aVMisCjD1G0m3L8tmKzvIdalC1gBRbG44IXNW4&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 2-bhk-society-flats-apartme...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "This project offers 2 BHK flats in Whitefield, Bangalore East. ranging from 1415.0 sq. ft. to 1470.0 sq. ft., ₹1.25 - 1.28 Cr ₹10,241 /sqft Under Construction ...",
+    "snippet_highlighted_words": [
+     "2 BHK flats in Whitefield, Bangalore East"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "This project offers 2 BHK flats in Whitefield, Bangalore East. ranging from 1415.0 sq. ft. to 1470.0 sq. ft., ₹1.25 - 1.28 Cr ₹10,241 /sqft Under Construction ...",
+      "source_info_link": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZaTWlreWVHRUM0bVB2aVFEQlZoaEFzMFZoZlJFQmVjNHlET2NHWWMtNFJXaHFMZ1NZQ3NNZUZieU9kcEh2NTgyYnVndmZmVmI5WmJEeVRWTnEyZ0prVnNHRnZxaTZMem12ZUVNX2ltdUxiak96X2xSc2xzT2wtOGRCWXdVNEIyam9nVnFZdl9WdEs2TDV2QWF3ZThwUExGNGFWTWlzQ2pEMUcwbTNMOHRtS3p2SWRhbEMxZ0JSYkc0NElYTlc0EgQaAggAGswGEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAhQYIABAAGAAgACoaCgRmbGF0FZfFO0AaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRXMEPs_GgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBVVP75AGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRV2_sBAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLVAS9nb3RvP3VybD1DQUVTa3dFQjZ6c3dGWk1pa3llR0VDNG1QdmlRREJWaGhBczBWaGZSRUJlYzR5RE9jR1ljLTRSV2hxTGdTWUNzTWVGYnlPZHBIdjU4MmJ1Z3ZmZlZiOVpiRHlUVk5xMmdKa1ZzR0Z2cWk2THptdmVFTV9pbXVMYmpPel9sUnNsc09sLThkQll3VTRCMmpvZ1ZxWXZfVnRLNkw1dkFhd2U4cFBMRjRhVk1pc0NqRDFHMG0zTDh0bUt6dklkYWxDMWdCUmJHNDRJWE5XNDpOMiBCSEsgU29jaWV0eSA8Yj5GbGF0czwvYj4gLyBBcGFydG1lbnRzIGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-QrIBVGhpcyBwcm9qZWN0IG9mZmVycyA8Yj4yIEJISyBmbGF0cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUgRWFzdDwvYj4uIHJhbmdpbmcgZnJvbSAxNDE1LjAgc3EuIGZ0LiB0byAxNDcwLjAgc3EuIGZ0Liwg4oK5MS4yNSAtIDEuMjggQ3Ig4oK5MTAsMjQxIC9zcWZ0IFVuZGVyIENvbnN0cnVjdGlvbiZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZaTWlreWVHRUM0bVB2aVFEQlZoaEFzMFZoZlJFQmVjNHlET2NHWWMtNFJXaHFMZ1NZQ3NNZUZieU9kcEh2NTgyYnVndmZmVmI5WmJEeVRWTnEyZ0prVnNHRnZxaTZMem12ZUVNX2ltdUxiak96X2xSc2xzT2wtOGRCWXdVNEIyam9nVnFZdl9WdEs2TDV2QWF3ZThwUExGNGFWTWlzQ2pEMUcwbTNMOHRtS3p2SWRhbEMxZ0JSYkc0NElYTlc0EgQaAggAGswGEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAhQYIABAAGAAgACoaCgRmbGF0FZfFO0AaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRXMEPs_GgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBVVP75AGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRV2_sBAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLVAS9nb3RvP3VybD1DQUVTa3dFQjZ6c3dGWk1pa3llR0VDNG1QdmlRREJWaGhBczBWaGZSRUJlYzR5RE9jR1ljLTRSV2hxTGdTWUNzTWVGYnlPZHBIdjU4MmJ1Z3ZmZlZiOVpiRHlUVk5xMmdKa1ZzR0Z2cWk2THptdmVFTV9pbXVMYmpPel9sUnNsc09sLThkQll3VTRCMmpvZ1ZxWXZfVnRLNkw1dkFhd2U4cFBMRjRhVk1pc0NqRDFHMG0zTDh0bUt6dklkYWxDMWdCUmJHNDRJWE5XNDpOMiBCSEsgU29jaWV0eSA8Yj5GbGF0czwvYj4gLyBBcGFydG1lbnRzIGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-QrIBVGhpcyBwcm9qZWN0IG9mZmVycyA8Yj4yIEJISyBmbGF0cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUgRWFzdDwvYj4uIHJhbmdpbmcgZnJvbSAxNDE1LjAgc3EuIGZ0LiB0byAxNDcwLjAgc3EuIGZ0Liwg4oK5MS4yNSAtIDEuMjggQ3Ig4oK5MTAsMjQxIC9zcWZ0IFVuZGVyIENvbnN0cnVjdGlvbiZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 3,
+    "title": "1 BHK Flats in Whitefield, Bangalore for Sale Below 70 Lakhs",
+    "link": "https://www.99acres.com/1-bhk-flats-in-whitefield-bangalore-east-50-lakhs-to-70-lakhs-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlQEB6zswFQPy_ZNmbsqij0Hb6F6q1RzOFRHbMI4FcwCCcTdBAEevNwfSBjm3yQsAmbSGsptwU4u7mntlCBXCSDG0ijP7GMlS3qkvkw6jjw-z99-BNV4etyF46CcIF0IlYy8ie7a3ljYF18oO5-fhYoJTjPYqkbtOJwilVRPWG6VCJ-44m69znIY8kUi0mcmXRH40JR3aTA&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBoQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 1-bhk-flats-in-whitefield-ba...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find 1 BHK Flats in Whitefield, Bangalore from 50 lakhs to 70 lakhs on 99acres.com. ₹65 Lac East Facing … comes with 1 bedroom(s), 1 bathroom and 1 balcony.",
+    "snippet_highlighted_words": [
+     "1 BHK Flats in Whitefield, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find 1 BHK Flats in Whitefield, Bangalore from 50 lakhs to 70 lakhs on 99acres.com. ₹65 Lac East Facing … comes with 1 bedroom(s), 1 bathroom and 1 balcony.",
+      "source_info_link": "https://www.99acres.com/1-bhk-flats-in-whitefield-bangalore-east-50-lakhs-to-70-lakhs-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtgBL2dvdG8_dXJsPUNBRVNsUUVCNnpzd0ZRUHlfWk5tYnNxaWowSGI2RjZxMVJ6T0ZSSGJNSTRGY3dDQ2NUZEJBRWV2TndmU0JqbTN5UXNBbWJTR3NwdHdVNHU3bW50bENCWENTREcwaWpQN0dNbFMzcWt2a3c2amp3LXo5OS1CTlY0ZXR5RjQ2Q2NJRjBJbFl5OGllN2EzbGpZRjE4b081LWZoWW9KVGpQWXFrYnRPSndpbFZSUFdHNlZDSi00NG02OXpuSVk4a1VpMG1jbVhSSDQwSlIzYVRBEgQaAggAGs4GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAhwYIABAAGAAgACoaCgRmbGF0FVeQWEAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRUTmBFAGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBV21rlAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRVGtLFAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLYAS9nb3RvP3VybD1DQUVTbFFFQjZ6c3dGUVB5X1pObWJzcWlqMEhiNkY2cTFSek9GUkhiTUk0RmN3Q0NjVGRCQUVldk53ZlNCam0zeVFzQW1iU0dzcHR3VTR1N21udGxDQlhDU0RHMGlqUDdHTWxTM3Frdmt3Nmpqdy16OTktQk5WNGV0eUY0NkNjSUYwSWxZeThpZTdhM2xqWUYxOG9PNS1maFlvSlRqUFlxa2J0T0p3aWxWUlBXRzZWQ0otNDRtNjl6bklZOGtVaTBtY21YUkg0MEpSM2FUQTpYMSBCSEsgPGI-RmxhdHM8L2I-IGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlPC9iPiBCZWxvdyA3MCBMYWtoc0KnAUZpbmQgPGI-MSBCSEsgRmxhdHMgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlPC9iPiBmcm9tIDUwIGxha2hzIHRvIDcwIGxha2hzIG9uIDk5YWNyZXMuY29tLiDigrk2NSBMYWMgRWFzdCBGYWNpbmcg4oCmIGNvbWVzIHdpdGggMSBiZWRyb29tKHMpLCAxIGJhdGhyb29tIGFuZCAxIGJhbGNvbnkuSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtgBL2dvdG8_dXJsPUNBRVNsUUVCNnpzd0ZRUHlfWk5tYnNxaWowSGI2RjZxMVJ6T0ZSSGJNSTRGY3dDQ2NUZEJBRWV2TndmU0JqbTN5UXNBbWJTR3NwdHdVNHU3bW50bENCWENTREcwaWpQN0dNbFMzcWt2a3c2amp3LXo5OS1CTlY0ZXR5RjQ2Q2NJRjBJbFl5OGllN2EzbGpZRjE4b081LWZoWW9KVGpQWXFrYnRPSndpbFZSUFdHNlZDSi00NG02OXpuSVk4a1VpMG1jbVhSSDQwSlIzYVRBEgQaAggAGs4GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAhwYIABAAGAAgACoaCgRmbGF0FVeQWEAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRUTmBFAGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBV21rlAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRVGtLFAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLYAS9nb3RvP3VybD1DQUVTbFFFQjZ6c3dGUVB5X1pObWJzcWlqMEhiNkY2cTFSek9GUkhiTUk0RmN3Q0NjVGRCQUVldk53ZlNCam0zeVFzQW1iU0dzcHR3VTR1N21udGxDQlhDU0RHMGlqUDdHTWxTM3Frdmt3Nmpqdy16OTktQk5WNGV0eUY0NkNjSUYwSWxZeThpZTdhM2xqWUYxOG9PNS1maFlvSlRqUFlxa2J0T0p3aWxWUlBXRzZWQ0otNDRtNjl6bklZOGtVaTBtY21YUkg0MEpSM2FUQTpYMSBCSEsgPGI-RmxhdHM8L2I-IGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlPC9iPiBCZWxvdyA3MCBMYWtoc0KnAUZpbmQgPGI-MSBCSEsgRmxhdHMgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlPC9iPiBmcm9tIDUwIGxha2hzIHRvIDcwIGxha2hzIG9uIDk5YWNyZXMuY29tLiDigrk2NSBMYWMgRWFzdCBGYWNpbmcg4oCmIGNvbWVzIHdpdGggMSBiZWRyb29tKHMpLCAxIGJhdGhyb29tIGFuZCAxIGJhbGNvbnkuSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 4,
+    "title": "Resale Flats in Whitefield, Bangalore Below 60 Lakhs",
+    "link": "https://www.99acres.com/resale-flats-in-whitefield-bangalore-east-40-lakhs-to-60-lakhs-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlgEB6zswFZzsqFBh8mI7MsUls2XtQBX6jl6O3KzoUytgzbHIBbkP4LD6QvOjkc69Xj515s1VeQHyCA0-FNE9pz98Q2AQcmi2o1sB1yB-mDfqmQ8mcuzsiVASwSHQUjRIbAWU683-pJkb1gLB5wv0jEY3jWCzSBHVTOlTjcbP01uCe6UBejf9KXhSgtlJQ_IrAa1xADPOVZU&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBQQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › resale-flats-in-whitefield-ba...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find Flats in Whitefield, Bangalore from 40 lakhs to 60 lakhs on 99acres.com. ₹45 Lac ₹7,853 … with 1 to 6 BHK options available, priced between ₹68.55 lakh ...",
+    "snippet_highlighted_words": [
+     "Flats in Whitefield, Bangalore from 40 lakhs to 60 lakhs"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find Flats in Whitefield, Bangalore from 40 lakhs to 60 lakhs on 99acres.com. ₹45 Lac ₹7,853 … with 1 to 6 BHK options available, priced between ₹68.55 lakh ...",
+      "source_info_link": "https://www.99acres.com/resale-flats-in-whitefield-bangalore-east-40-lakhs-to-60-lakhs-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtkBL2dvdG8_dXJsPUNBRVNsZ0VCNnpzd0ZaenNxRkJoOG1JN01zVWxzMlh0UUJYNmpsNk8zS3pvVXl0Z3piSElCYmtQNExENlF2T2prYzY5WGo1MTVzMVZlUUh5Q0EwLUZORTlwejk4UTJBUWNtaTJvMXNCMXlCLW1EZnFtUThtY3V6c2lWQVN3U0hRVWpSSWJBV1U2ODMtcEprYjFnTEI1d3YwakVZM2pXQ3pTQkhWVE9sVGpjYlAwMXVDZTZVQmVqZjlLWGhTZ3RsSlFfSXJBYTF4QURQT1ZaVRIEGgIIABrNBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQIYGCAAQABgAIAAqGgoEZmxhdBW9-lFAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjsKBHNhbGUVbrkMQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKk0KCndoaXRlZmllbGQVd9a-QBoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaD2l2O3A7d2hpdGVmaWVsZCpWCgliYW5nYWxvcmUVGNC0QBoJYmVuZ2FsdXJ1GhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy2QEvZ290bz91cmw9Q0FFU2xnRUI2enN3Rlp6c3FGQmg4bUk3TXNVbHMyWHRRQlg2amw2TzNLem9VeXRnemJISUJia1A0TEQ2UXZPamtjNjlYajUxNXMxVmVRSHlDQTAtRk5FOXB6OThRMkFRY21pMm8xc0IxeUItbURmcW1ROG1jdXpzaVZBU3dTSFFValJJYkFXVTY4My1wSmtiMWdMQjV3djBqRVkzaldDelNCSFZUT2xUamNiUDAxdUNlNlVCZWpmOUtYaFNndGxKUV9JckFhMXhBRFBPVlpVOklSZXNhbGUgPGI-RmxhdHM8L2I-IGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IEJlbG93IDYwIExha2hzQrQBRmluZCA8Yj5GbGF0cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUgZnJvbSA0MCBsYWtocyB0byA2MCBsYWtoczwvYj4gb24gOTlhY3Jlcy5jb20uIOKCuTQ1IExhYyDigrk3LDg1MyDigKYgd2l0aCAxIHRvIDYgQkhLIG9wdGlvbnMgYXZhaWxhYmxlLCBwcmljZWQgYmV0d2VlbiDigrk2OC41NSBsYWtoJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtkBL2dvdG8_dXJsPUNBRVNsZ0VCNnpzd0ZaenNxRkJoOG1JN01zVWxzMlh0UUJYNmpsNk8zS3pvVXl0Z3piSElCYmtQNExENlF2T2prYzY5WGo1MTVzMVZlUUh5Q0EwLUZORTlwejk4UTJBUWNtaTJvMXNCMXlCLW1EZnFtUThtY3V6c2lWQVN3U0hRVWpSSWJBV1U2ODMtcEprYjFnTEI1d3YwakVZM2pXQ3pTQkhWVE9sVGpjYlAwMXVDZTZVQmVqZjlLWGhTZ3RsSlFfSXJBYTF4QURQT1ZaVRIEGgIIABrNBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQIYGCAAQABgAIAAqGgoEZmxhdBW9-lFAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjsKBHNhbGUVbrkMQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKk0KCndoaXRlZmllbGQVd9a-QBoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaD2l2O3A7d2hpdGVmaWVsZCpWCgliYW5nYWxvcmUVGNC0QBoJYmVuZ2FsdXJ1GhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy2QEvZ290bz91cmw9Q0FFU2xnRUI2enN3Rlp6c3FGQmg4bUk3TXNVbHMyWHRRQlg2amw2TzNLem9VeXRnemJISUJia1A0TEQ2UXZPamtjNjlYajUxNXMxVmVRSHlDQTAtRk5FOXB6OThRMkFRY21pMm8xc0IxeUItbURmcW1ROG1jdXpzaVZBU3dTSFFValJJYkFXVTY4My1wSmtiMWdMQjV3djBqRVkzaldDelNCSFZUT2xUamNiUDAxdUNlNlVCZWpmOUtYaFNndGxKUV9JckFhMXhBRFBPVlpVOklSZXNhbGUgPGI-RmxhdHM8L2I-IGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IEJlbG93IDYwIExha2hzQrQBRmluZCA8Yj5GbGF0cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUgZnJvbSA0MCBsYWtocyB0byA2MCBsYWtoczwvYj4gb24gOTlhY3Jlcy5jb20uIOKCuTQ1IExhYyDigrk3LDg1MyDigKYgd2l0aCAxIHRvIDYgQkhLIG9wdGlvbnMgYXZhaWxhYmxlLCBwcmljZWQgYmV0d2VlbiDigrk2OC41NSBsYWtoJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 5,
+    "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+    "link": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkgEB6zswFXNwkTefOfKKdMWDIK9LznJtWw2k7XzS0iv4kGiUegKtj4Hk8mSbO8MHgwC_YQpOqH5VxQujcd3SNDj81KbcHqDq5gkWCMMF9OybCWwG86MFBQBmrG0ktDZZiBQCbM220QfhgleAs_ypvHimS-QnqiYMX9Qh-uBqclehab7YrVXLOYMfALU1QjccNQYJFQ&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › Property in Whitefield",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Flat in Whitefield, Bangalore Resale ₹77 Lac ₹12,520 /sqft Ready To Move 615 sqft(57 sqm) 1 bedroom(s), 1 bathroom and 1 balcony. ₹90 Lac ₹6,896 /sqft Ready … ...",
+    "snippet_highlighted_words": [
+     "Flat",
+     "Whitefield",
+     "Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Flat in Whitefield, Bangalore Resale ₹77 Lac ₹12,520 /sqft Ready To Move 615 sqft(57 sqm) 1 bedroom(s), 1 bathroom and 1 balcony. ₹90 Lac ₹6,896 /sqft Ready … ...",
+      "source_info_link": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZYTndrVGVmT2ZLS2RNV0RJSzlMem5KdFd3Mms3WHpTMGl2NGtHaVVlZ0t0ajRIazhtU2JPOE1IZ3dDX1lRcE9xSDVWeFF1amNkM1NORGo4MUtiY0hxRHE1Z2tXQ01NRjlPeWJDV3dHODZNRkJRQm1yRzBrdERaWmlCUUNiTTIyMFFmaGdsZUFzX3lwdkhpbVMtUW5xaVlNWDlRaC11QnFjbGVoYWI3WXJWWExPWU1mQUxVMVFqY2NOUVlKRlESBBoCCAAa3QYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCWBggAEAAYACAAKhoKBGZsYXQVP6XqPxoFZmxhdHMaBmhvdXNlcyoKCgNmb3IVAAAAACo7CgRzYWxlFWSZyD8aA2J1eRoHZm9yc2FsZRoFcHJpY2UaBnByaWNlcxoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFf4Zl0AaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFS3ck0AaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZYTndrVGVmT2ZLS2RNV0RJSzlMem5KdFd3Mms3WHpTMGl2NGtHaVVlZ0t0ajRIazhtU2JPOE1IZ3dDX1lRcE9xSDVWeFF1amNkM1NORGo4MUtiY0hxRHE1Z2tXQ01NRjlPeWJDV3dHODZNRkJRQm1yRzBrdERaWmlCUUNiTTIyMFFmaGdsZUFzX3lwdkhpbVMtUW5xaVlNWDlRaC11QnFjbGVoYWI3WXJWWExPWU1mQUxVMVFqY2NOUVlKRlE6TDIzNSsgUHJvcGVydHkgZm9yIDxiPlNhbGUgaW4gV2hpdGVmaWVsZDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gYmVsb3cgOTAgbGFraHNCxgE8Yj5GbGF0PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBSZXNhbGUg4oK5NzcgTGFjIOKCuTEyLDUyMCAvc3FmdCBSZWFkeSBUbyBNb3ZlIDYxNSBzcWZ0KDU3IHNxbSkgMSBiZWRyb29tKHMpLCAxIGJhdGhyb29tIGFuZCAxIGJhbGNvbnkuIOKCuTkwIExhYyDigrk2LDg5NiAvc3FmdCBSZWFkeSDigKYmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZYTndrVGVmT2ZLS2RNV0RJSzlMem5KdFd3Mms3WHpTMGl2NGtHaVVlZ0t0ajRIazhtU2JPOE1IZ3dDX1lRcE9xSDVWeFF1amNkM1NORGo4MUtiY0hxRHE1Z2tXQ01NRjlPeWJDV3dHODZNRkJRQm1yRzBrdERaWmlCUUNiTTIyMFFmaGdsZUFzX3lwdkhpbVMtUW5xaVlNWDlRaC11QnFjbGVoYWI3WXJWWExPWU1mQUxVMVFqY2NOUVlKRlESBBoCCAAa3QYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCWBggAEAAYACAAKhoKBGZsYXQVP6XqPxoFZmxhdHMaBmhvdXNlcyoKCgNmb3IVAAAAACo7CgRzYWxlFWSZyD8aA2J1eRoHZm9yc2FsZRoFcHJpY2UaBnByaWNlcxoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFf4Zl0AaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFS3ck0AaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZYTndrVGVmT2ZLS2RNV0RJSzlMem5KdFd3Mms3WHpTMGl2NGtHaVVlZ0t0ajRIazhtU2JPOE1IZ3dDX1lRcE9xSDVWeFF1amNkM1NORGo4MUtiY0hxRHE1Z2tXQ01NRjlPeWJDV3dHODZNRkJRQm1yRzBrdERaWmlCUUNiTTIyMFFmaGdsZUFzX3lwdkhpbVMtUW5xaVlNWDlRaC11QnFjbGVoYWI3WXJWWExPWU1mQUxVMVFqY2NOUVlKRlE6TDIzNSsgUHJvcGVydHkgZm9yIDxiPlNhbGUgaW4gV2hpdGVmaWVsZDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gYmVsb3cgOTAgbGFraHNCxgE8Yj5GbGF0PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBSZXNhbGUg4oK5NzcgTGFjIOKCuTEyLDUyMCAvc3FmdCBSZWFkeSBUbyBNb3ZlIDYxNSBzcWZ0KDU3IHNxbSkgMSBiZWRyb29tKHMpLCAxIGJhdGhyb29tIGFuZCAxIGJhbGNvbnkuIOKCuTkwIExhYyDigrk2LDg5NiAvc3FmdCBSZWFkeSDigKYmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "99acres.com"
+   },
+   {
+    "position": 6,
+    "title": "1 BHK Flats in Whitefield, Bangalore for Sale Below 2 Crore",
+    "link": "https://www.99acres.com/1-bhk-flats-in-whitefield-bangalore-east-1-point-5-crores-to-2-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnQEB6zswFXsT01lXkJtYFdZDTVGeFaOlvnvnh3m5BXKSl4i2sxbXo_BLKIM-slnjOVu-_865lXN4tYOYnNvMpwgHZoVOedZicYKp1udIZqOOKl3r-GmUfHXW2b43UGrwN9trbHnGYyupdELraGMwlGgMBrKix76X41wyuI1Sr_JPuVfd2uW8p1JOd6eRqwOLlBPboF1ygpNBrnqpp3gw&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 1-bhk-flats-in-whitefield-ba...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Resale ₹1.55 Cr ₹36,817 /sqft Ready To Move 421 sqft(59 … flat comprises 1 bedroom(s), 1 bathroom and 1 balcony.",
+    "snippet_highlighted_words": [
+     "flat comprises 1 bedroom(s), 1 bathroom and 1 balcony"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Resale ₹1.55 Cr ₹36,817 /sqft Ready To Move 421 sqft(59 … flat comprises 1 bedroom(s), 1 bathroom and 1 balcony.",
+      "source_info_link": "https://www.99acres.com/1-bhk-flats-in-whitefield-bangalore-east-1-point-5-crores-to-2-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZYc1QwMWxYa0p0WUZkWkRUVkdlRmFPbHZudm5oM201QlhLU2w0aTJzeGJYb19CTEtJTS1zbG5qT1Z1LV84NjVsWE40dFlPWW5Odk1wd2dIWm9WT2VkWmljWUtwMXVkSVpxT09LbDNyLUdtVWZIWFcyYjQzVUdyd045dHJiSG5HWXl1cGRFTHJhR013bEdnTUJyS2l4NzZYNDF3eXVJMVNyX0pQdVZmZDJ1VzhwMUpPZDZlUnF3T0xsQlBib0YxeWdwTkJybnFwcDNndxIEGgIIABqsBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQOUFCAAQABgAIAAqGgoEZmxhdBWl2mtAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjsKBHNhbGUVPvcBQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKk0KCndoaXRlZmllbGQV9gC6QBoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaD2l2O3A7d2hpdGVmaWVsZCpWCgliYW5nYWxvcmUVkZC8QBoJYmVuZ2FsdXJ1GhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy4gEvZ290bz91cmw9Q0FFU25RRUI2enN3RlhzVDAxbFhrSnRZRmRaRFRWR2VGYU9sdm52bmgzbTVCWEtTbDRpMnN4YlhvX0JMS0lNLXNsbmpPVnUtXzg2NWxYTjR0WU9Zbk52TXB3Z0hab1ZPZWRaaWNZS3AxdWRJWnFPT0tsM3ItR21VZkhYVzJiNDNVR3J3Tjl0cmJIbkdZeXVwZEVMcmFHTXdsR2dNQnJLaXg3Nlg0MXd5dUkxU3JfSlB1VmZkMnVXOHAxSk9kNmVScXdPTGxCUGJvRjF5Z3BOQnJucXBwM2d3OlcxIEJISyA8Yj5GbGF0czwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGU8L2I-IEJlbG93IDIgQ3JvcmVCfVJlc2FsZSDigrkxLjU1IENyIOKCuTM2LDgxNyAvc3FmdCBSZWFkeSBUbyBNb3ZlIDQyMSBzcWZ0KDU5IOKApiA8Yj5mbGF0IGNvbXByaXNlcyAxIGJlZHJvb20ocyksIDEgYmF0aHJvb20gYW5kIDEgYmFsY29ueTwvYj4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZYc1QwMWxYa0p0WUZkWkRUVkdlRmFPbHZudm5oM201QlhLU2w0aTJzeGJYb19CTEtJTS1zbG5qT1Z1LV84NjVsWE40dFlPWW5Odk1wd2dIWm9WT2VkWmljWUtwMXVkSVpxT09LbDNyLUdtVWZIWFcyYjQzVUdyd045dHJiSG5HWXl1cGRFTHJhR013bEdnTUJyS2l4NzZYNDF3eXVJMVNyX0pQdVZmZDJ1VzhwMUpPZDZlUnF3T0xsQlBib0YxeWdwTkJybnFwcDNndxIEGgIIABqsBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQOUFCAAQABgAIAAqGgoEZmxhdBWl2mtAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjsKBHNhbGUVPvcBQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKk0KCndoaXRlZmllbGQV9gC6QBoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaD2l2O3A7d2hpdGVmaWVsZCpWCgliYW5nYWxvcmUVkZC8QBoJYmVuZ2FsdXJ1GhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy4gEvZ290bz91cmw9Q0FFU25RRUI2enN3RlhzVDAxbFhrSnRZRmRaRFRWR2VGYU9sdm52bmgzbTVCWEtTbDRpMnN4YlhvX0JMS0lNLXNsbmpPVnUtXzg2NWxYTjR0WU9Zbk52TXB3Z0hab1ZPZWRaaWNZS3AxdWRJWnFPT0tsM3ItR21VZkhYVzJiNDNVR3J3Tjl0cmJIbkdZeXVwZEVMcmFHTXdsR2dNQnJLaXg3Nlg0MXd5dUkxU3JfSlB1VmZkMnVXOHAxSk9kNmVScXdPTGxCUGJvRjF5Z3BOQnJucXBwM2d3OlcxIEJISyA8Yj5GbGF0czwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGU8L2I-IEJlbG93IDIgQ3JvcmVCfVJlc2FsZSDigrkxLjU1IENyIOKCuTM2LDgxNyAvc3FmdCBSZWFkeSBUbyBNb3ZlIDQyMSBzcWZ0KDU5IOKApiA8Yj5mbGF0IGNvbXByaXNlcyAxIGJlZHJvb20ocyksIDEgYmF0aHJvb20gYW5kIDEgYmFsY29ueTwvYj4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "99acres.com"
+   },
+   {
+    "position": 7,
+    "title": "2 BHK Ready To Move Flats in Whitefield, Bangalore ...",
+    "link": "https://www.99acres.com/2-bhk-ready-to-move-flats-apartments-in-whitefield-bangalore-east-50-lakhs-to-70-lakhs-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrgEB6zswFcOgH0pkY06JMVeqZT1fgMzGfrPZ29KDTmDgrdbpKf3ICKjFBe_6CIvjF9DHgiB6XGLRnmCGOEnlpENyrAhYzQsbjb2jRubiliydJLodha6PykXxOVdTYJxU8fI-MGTQOwevPsm5cIOwjj6dBrHMIwqYVdEimJKExBzZFYO5jMgZvp7MDnNG6Fvf1R_7JFD-VbOTKDG1s2vmODHrj--qeJu7oQ8g6Ve6vuM&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 2-bhk-ready-to-move-flats-...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "2 BHK Ready to move Flats / Apartments in Whitefield, Bangalore for Sale Below 70 Lakhs ; SOWPARNIKA ASHIYANA · ₹66 Lac. ₹9,705 /sqft · 680 sqft(63 sqm) ; VIGNESH ...",
+    "snippet_highlighted_words": [
+     "2 BHK Ready to move Flats / Apartments in Whitefield, Bangalore for Sale Below 70 Lakhs"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "2 BHK Ready to move Flats / Apartments in Whitefield, Bangalore for Sale Below 70 Lakhs ; SOWPARNIKA ASHIYANA · ₹66 Lac. ₹9,705 /sqft · 680 sqft(63 sqm) ; VIGNESH ...",
+      "source_info_link": "https://www.99acres.com/2-bhk-ready-to-move-flats-apartments-in-whitefield-bangalore-east-50-lakhs-to-70-lakhs-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CvkBL2dvdG8_dXJsPUNBRVNyZ0VCNnpzd0ZjT2dIMHBrWTA2Sk1WZXFaVDFmZ016R2ZyUFoyOUtEVG1EZ3JkYnBLZjNJQ0tqRkJlXzZDSXZqRjlESGdpQjZYR0xSbm1DR09FbmxwRU55ckFoWXpRc2JqYjJqUnViaWxpeWRKTG9kaGE2UHlrWHhPVmRUWUp4VThmSS1NR1RRT3dldlBzbTVjSU93amo2ZEJySE1Jd3FZVmRFaW1KS0V4QnpaRllPNWpNZ1p2cDdNRG5ORzZGdmYxUl83SkZELVZiT1RLREcxczJ2bU9ESHJqLS1xZUp1N29ROGc2VmU2dnVNEgQaAggAGocHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAwAYIABAAGAAgACoaCgRmbGF0FaOzcEAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRVkSwVAGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBU_UbhAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRW8xrNAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTL5AS9nb3RvP3VybD1DQUVTcmdFQjZ6c3dGY09nSDBwa1kwNkpNVmVxWlQxZmdNekdmclBaMjlLRFRtRGdyZGJwS2YzSUNLakZCZV82Q0l2akY5REhnaUI2WEdMUm5tQ0dPRW5scEVOeXJBaFl6UXNiamIyalJ1YmlsaXlkSkxvZGhhNlB5a1h4T1ZkVFlKeFU4ZkktTUdUUU93ZXZQc201Y0lPd2pqNmRCckhNSXdxWVZkRWltSktFeEJ6WkZZTzVqTWdadnA3TURuTkc2RnZmMVJfN0pGRC1WYk9US0RHMXMydm1PREhyai0tcWVKdTdvUThnNlZlNnZ1TTpTMiBCSEsgUmVhZHkgVG8gTW92ZSA8Yj5GbGF0czwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZnJvbSA1MCAuLi5CxAE8Yj4yIEJISyBSZWFkeSB0byBtb3ZlIEZsYXRzIC8gQXBhcnRtZW50cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUgZm9yIFNhbGUgQmVsb3cgNzAgTGFraHM8L2I-IDsgU09XUEFSTklLQSBBU0hJWUFOQSAmbWlkZG90OyDigrk2NiBMYWMuIOKCuTksNzA1IC9zcWZ0ICZtaWRkb3Q7IDY4MCBzcWZ0KDYzIHNxbSkgOyBWSUdORVNIJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CvkBL2dvdG8_dXJsPUNBRVNyZ0VCNnpzd0ZjT2dIMHBrWTA2Sk1WZXFaVDFmZ016R2ZyUFoyOUtEVG1EZ3JkYnBLZjNJQ0tqRkJlXzZDSXZqRjlESGdpQjZYR0xSbm1DR09FbmxwRU55ckFoWXpRc2JqYjJqUnViaWxpeWRKTG9kaGE2UHlrWHhPVmRUWUp4VThmSS1NR1RRT3dldlBzbTVjSU93amo2ZEJySE1Jd3FZVmRFaW1KS0V4QnpaRllPNWpNZ1p2cDdNRG5ORzZGdmYxUl83SkZELVZiT1RLREcxczJ2bU9ESHJqLS1xZUp1N29ROGc2VmU2dnVNEgQaAggAGocHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAwAYIABAAGAAgACoaCgRmbGF0FaOzcEAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRVkSwVAGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBU_UbhAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRW8xrNAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTL5AS9nb3RvP3VybD1DQUVTcmdFQjZ6c3dGY09nSDBwa1kwNkpNVmVxWlQxZmdNekdmclBaMjlLRFRtRGdyZGJwS2YzSUNLakZCZV82Q0l2akY5REhnaUI2WEdMUm5tQ0dPRW5scEVOeXJBaFl6UXNiamIyalJ1YmlsaXlkSkxvZGhhNlB5a1h4T1ZkVFlKeFU4ZkktTUdUUU93ZXZQc201Y0lPd2pqNmRCckhNSXdxWVZkRWltSktFeEJ6WkZZTzVqTWdadnA3TURuTkc2RnZmMVJfN0pGRC1WYk9US0RHMXMydm1PREhyai0tcWVKdTdvUThnNlZlNnZ1TTpTMiBCSEsgUmVhZHkgVG8gTW92ZSA8Yj5GbGF0czwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZnJvbSA1MCAuLi5CxAE8Yj4yIEJISyBSZWFkeSB0byBtb3ZlIEZsYXRzIC8gQXBhcnRtZW50cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUgZm9yIFNhbGUgQmVsb3cgNzAgTGFraHM8L2I-IDsgU09XUEFSTklLQSBBU0hJWUFOQSAmbWlkZG90OyDigrk2NiBMYWMuIOKCuTksNzA1IC9zcWZ0ICZtaWRkb3Q7IDY4MCBzcWZ0KDYzIHNxbSkgOyBWSUdORVNIJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "99Acres",
+    "read_more_link": "https://www.99acres.com/2-bhk-ready-to-move-flats-apartments-in-whitefield-bangalore-east-50-lakhs-to-70-lakhs-ffid#:~:text=2%20BHK%20Ready%20to%20move,for%20Sale%20Below%2070%20Lakhs&text=SOWPARNIKA%20ASHIYANA&text=%E2%82%B966%20Lac,%E2%82%B99%2C705%20%2Fsqft&text=680%20sqft(63%20sqm)&text=VIGNESH%20BUILDWELL%20HOMES"
+   },
+   {
+    "position": 8,
+    "title": "Resale Flats in Whitefield, Bangalore - 2846+ Properties",
+    "link": "https://www.99acres.com/resale-flats-in-whitefield-bangalore-east-ffid-page-2",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFe1J5-grq6SnoyM1ZySGWyLUaiZJSQ7A-HCE3kudJt6tBd58PFU4gvqHr5i3YpZvZQ90sem5eqKKr4jGhmeiTGlHpUrbxduGTm7BrhQyWlja52QPrCqz1gTh-W0UN3egY6jvm_aHW7TsZI70rITFGO9bygZKEFR6NhY_D1zH9pal84hW&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBcQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › resale-flats-in-whitefield-ba...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Flats in Whitefield, Bangalore for Sale offer a range of options from 1 to 6 BHK, with prices spanning from ₹66.5 lakh to ₹15.3 crore. The average property ...",
+    "snippet_highlighted_words": [
+     "Flats in Whitefield, Bangalore for Sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Flats in Whitefield, Bangalore for Sale offer a range of options from 1 to 6 BHK, with prices spanning from ₹66.5 lakh to ₹15.3 crore. The average property ...",
+      "source_info_link": "https://www.99acres.com/resale-flats-in-whitefield-bangalore-east-ffid-page-2",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZlMUo1LWdycTZTbm95TTFaeVNHV3lMVWFpWkpTUTdBLUhDRTNrdWRKdDZ0QmQ1OFBGVTRndnFIcjVpM1lwWnZaUTkwc2VtNWVxS0tyNGpHaG1laVRHbEhwVXJieGR1R1RtN0JyaFF5V2xqYTUyUVByQ3F6MWdUaC1XMFVOM2VnWTZqdm1fYUhXN1RzWkk3MHJJVEZHTzlieWdaS0VGUjZOaFlfRDF6SDlwYWw4NGhXEgQaAggAGr0GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA9gUIABAAGAAgACoaCgRmbGF0FSLPD0AaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRWZI5c_GgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBXCNKFAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRX0cZ5AGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGZTFKNS1ncnE2U25veU0xWnlTR1d5TFVhaVpKU1E3QS1IQ0Uza3VkSnQ2dEJkNThQRlU0Z3ZxSHI1aTNZcFp2WlE5MHNlbTVlcUtLcjRqR2htZWlUR2xIcFVyYnhkdUdUbTdCcmhReVdsamE1MlFQckNxejFnVGgtVzBVTjNlZ1k2anZtX2FIVzdUc1pJNzBySVRGR085YnlnWktFRlI2TmhZX0Qxekg5cGFsODRoVzpRUGFnZSAyIC0gUmVzYWxlIDxiPkZsYXRzPC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIDk5YWNyZXMuY29tQq8BPGI-RmxhdHMgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlIGZvciBTYWxlPC9iPiBvZmZlciBhIHJhbmdlIG9mIG9wdGlvbnMgZnJvbSAxIHRvIDYgQkhLLCB3aXRoIHByaWNlcyBzcGFubmluZyBmcm9tIOKCuTY2LjUgbGFraCB0byDigrkxNS4zIGNyb3JlLiBUaGUgYXZlcmFnZSBwcm9wZXJ0eSZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZlMUo1LWdycTZTbm95TTFaeVNHV3lMVWFpWkpTUTdBLUhDRTNrdWRKdDZ0QmQ1OFBGVTRndnFIcjVpM1lwWnZaUTkwc2VtNWVxS0tyNGpHaG1laVRHbEhwVXJieGR1R1RtN0JyaFF5V2xqYTUyUVByQ3F6MWdUaC1XMFVOM2VnWTZqdm1fYUhXN1RzWkk3MHJJVEZHTzlieWdaS0VGUjZOaFlfRDF6SDlwYWw4NGhXEgQaAggAGr0GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA9gUIABAAGAAgACoaCgRmbGF0FSLPD0AaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRWZI5c_GgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBXCNKFAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRX0cZ5AGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGZTFKNS1ncnE2U25veU0xWnlTR1d5TFVhaVpKU1E3QS1IQ0Uza3VkSnQ2dEJkNThQRlU0Z3ZxSHI1aTNZcFp2WlE5MHNlbTVlcUtLcjRqR2htZWlUR2xIcFVyYnhkdUdUbTdCcmhReVdsamE1MlFQckNxejFnVGgtVzBVTjNlZ1k2anZtX2FIVzdUc1pJNzBySVRGR085YnlnWktFRlI2TmhZX0Qxekg5cGFsODRoVzpRUGFnZSAyIC0gUmVzYWxlIDxiPkZsYXRzPC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIDk5YWNyZXMuY29tQq8BPGI-RmxhdHMgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlIGZvciBTYWxlPC9iPiBvZmZlciBhIHJhbmdlIG9mIG9wdGlvbnMgZnJvbSAxIHRvIDYgQkhLLCB3aXRoIHByaWNlcyBzcGFubmluZyBmcm9tIOKCuTY2LjUgbGFraCB0byDigrkxNS4zIGNyb3JlLiBUaGUgYXZlcmFnZSBwcm9wZXJ0eSZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 9,
+    "title": "Flats in Whitefield, Bangalore for Sale Below 1.5 Crores",
+    "link": "https://www.99acres.com/flats-in-whitefield-bangalore-east-1-crore-to-1-point-5-crores-ffid-page-7",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnQEB6zswFZyVK6e72T4o2x2lGs61bvw0Fhaj_JIn5fWRO5tJihCSQPkze703CRYE8xWETQA2Wuvrs-VlIKBOrKzdvy43cO62Oa2zQ4kxSp9ltPHktVNuxtPBDs9aAwQ3yNZsvrvQFU5LtJq79TUohwjnuZK7pHgVYLR5RhNeM6jzssgx_ovq95EpMCuWuTrevh08J_jblJMRVRCcAVgS&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBUQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › 1 Cr to 1.5 Cr",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find Flats in Whitefield, Bangalore from 1 crore to 1.5 crores on 99acres.com. Buy Flats in Whitefield, Bangalore. Explore 210+ Owner Properties ✓ Projects ...",
+    "snippet_highlighted_words": [
+     "Flats in Whitefield, Bangalore from 1 crore to 1.5 crores"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find Flats in Whitefield, Bangalore from 1 crore to 1.5 crores on 99acres.com. Buy Flats in Whitefield, Bangalore. Explore 210+ Owner Properties ✓ Projects ...",
+      "source_info_link": "https://www.99acres.com/flats-in-whitefield-bangalore-east-1-crore-to-1-point-5-crores-ffid-page-7",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZaeVZLNmU3MlQ0bzJ4MmxHczYxYnZ3MEZoYWpfSkluNWZXUk81dEppaENTUVBremU3MDNDUllFOHhXRVRRQTJXdXZycy1WbElLQk9yS3pkdnk0M2NPNjJPYTJ6UTRreFNwOWx0UEhrdFZOdXh0UEJEczlhQXdRM3lOWnN2cnZRRlU1THRKcTc5VFVvaHdqbnVaSzdwSGdWWUxSNVJoTmVNNmp6c3NneF9vdnE5NUVwTUN1V3VUcmV2aDA4Sl9qYmxKTVJWUkNjQVZnUxIEGgIIABraBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQJMGCAAQABgAIAAqGgoEZmxhdBXEnXVAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjsKBHNhbGUVyV4TQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKk0KCndoaXRlZmllbGQVIMC6QBoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaD2l2O3A7d2hpdGVmaWVsZCpWCgliYW5nYWxvcmUVdL-2QBoJYmVuZ2FsdXJ1GhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy4gEvZ290bz91cmw9Q0FFU25RRUI2enN3Rlp5Vks2ZTcyVDRvMngybEdzNjFidncwRmhhal9KSW41ZldSTzV0SmloQ1NRUGt6ZTcwM0NSWUU4eFdFVFFBMld1dnJzLVZsSUtCT3JLemR2eTQzY082Mk9hMnpRNGt4U3A5bHRQSGt0Vk51eHRQQkRzOWFBd1EzeU5ac3ZydlFGVTVMdEpxNzlUVW9od2pudVpLN3BIZ1ZZTFI1UmhOZU02anpzc2d4X292cTk1RXBNQ3VXdVRyZXZoMDhKX2pibEpNUlZSQ2NBVmdTOlQ8Yj5GbGF0czwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGU8L2I-IEJlbG93IDEuNSBDcm9yZXNCrQFGaW5kIDxiPkZsYXRzIGluIFdoaXRlZmllbGQsIEJhbmdhbG9yZSBmcm9tIDEgY3JvcmUgdG8gMS41IGNyb3JlczwvYj4gb24gOTlhY3Jlcy5jb20uIEJ1eSBGbGF0cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUuIEV4cGxvcmUgMjEwKyBPd25lciBQcm9wZXJ0aWVzIOKckyBQcm9qZWN0cyZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZaeVZLNmU3MlQ0bzJ4MmxHczYxYnZ3MEZoYWpfSkluNWZXUk81dEppaENTUVBremU3MDNDUllFOHhXRVRRQTJXdXZycy1WbElLQk9yS3pkdnk0M2NPNjJPYTJ6UTRreFNwOWx0UEhrdFZOdXh0UEJEczlhQXdRM3lOWnN2cnZRRlU1THRKcTc5VFVvaHdqbnVaSzdwSGdWWUxSNVJoTmVNNmp6c3NneF9vdnE5NUVwTUN1V3VUcmV2aDA4Sl9qYmxKTVJWUkNjQVZnUxIEGgIIABraBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQJMGCAAQABgAIAAqGgoEZmxhdBXEnXVAGgVmbGF0cxoGaG91c2VzKgoKA2ZvchUAAAAAKjsKBHNhbGUVyV4TQBoDYnV5Ggdmb3JzYWxlGgVwcmljZRoGcHJpY2VzGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKk0KCndoaXRlZmllbGQVIMC6QBoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaD2l2O3A7d2hpdGVmaWVsZCpWCgliYW5nYWxvcmUVdL-2QBoJYmVuZ2FsdXJ1GhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy4gEvZ290bz91cmw9Q0FFU25RRUI2enN3Rlp5Vks2ZTcyVDRvMngybEdzNjFidncwRmhhal9KSW41ZldSTzV0SmloQ1NRUGt6ZTcwM0NSWUU4eFdFVFFBMld1dnJzLVZsSUtCT3JLemR2eTQzY082Mk9hMnpRNGt4U3A5bHRQSGt0Vk51eHRQQkRzOWFBd1EzeU5ac3ZydlFGVTVMdEpxNzlUVW9od2pudVpLN3BIZ1ZZTFI1UmhOZU02anpzc2d4X292cTk1RXBNQ3VXdVRyZXZoMDhKX2pibEpNUlZSQ2NBVmdTOlQ8Yj5GbGF0czwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGU8L2I-IEJlbG93IDEuNSBDcm9yZXNCrQFGaW5kIDxiPkZsYXRzIGluIFdoaXRlZmllbGQsIEJhbmdhbG9yZSBmcm9tIDEgY3JvcmUgdG8gMS41IGNyb3JlczwvYj4gb24gOTlhY3Jlcy5jb20uIEJ1eSBGbGF0cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUuIEV4cGxvcmUgMjEwKyBPd25lciBQcm9wZXJ0aWVzIOKckyBQcm9qZWN0cyZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 10,
+    "title": "Page 4 - Apartments in Whitefield, Bangalore",
+    "link": "https://www.99acres.com/flats-in-whitefield-bangalore-east-without-brokerage-ffid-page-4",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkwEB6zswFbkoyldZWQayNCbcB99IKibKeLdpehJ-Rx7UEMmCfZlTEbfSyavRtiGQf2OYDvXnYT7JGwSEgFMLzsk11sId2DPDsRmKf6gmmYbFtGrFdHYASVZVYWjlZAKEvng55IWm5fGcjbImjFi4WLytRaJ12qslhpwg7vc1i00qKWnQQDDRSzLQb-dNqPep2IuABIM&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › flats-in-whitefield-bangalore...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "3 BHK Flat in Whitefield, Bangalore ... This unfurnished 3 bhk flat spans 1,234 sqft on the 18th floor of a 27-Story high-Rise at godrej splendour, whitefield, ...",
+    "snippet_highlighted_words": [
+     "3 BHK Flat in Whitefield, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "3 BHK Flat in Whitefield, Bangalore ... This unfurnished 3 bhk flat spans 1,234 sqft on the 18th floor of a 27-Story high-Rise at godrej splendour, whitefield, ...",
+      "source_info_link": "https://www.99acres.com/flats-in-whitefield-bangalore-east-without-brokerage-ffid-page-4",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0Zia295bGRaV1FheU5DYmNCOTlJS2liS2VMZHBlaEotUng3VUVNbUNmWmxURWJmU3lhdlJ0aUdRZjJPWUR2WG5ZVDdKR3dTRWdGTUx6c2sxMXNJZDJEUERzUm1LZjZnbW1ZYkZ0R3JGZEhZQVNWWlZZV2psWkFLRXZuZzU1SVdtNWZHY2piSW1qRmk0V0x5dFJhSjEycXNsaHB3Zzd2YzFpMDBxS1duUVFERFJTekxRYi1kTnFQZXAySXVBQklNEgQaAggAGsMGEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA_AUIABAAGAAgACoaCgRmbGF0FZwWWUAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRU-kW9AGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBUuSctAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRVQF8BAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLVAS9nb3RvP3VybD1DQUVTa3dFQjZ6c3dGYmtveWxkWldRYXlOQ2JjQjk5SUtpYktlTGRwZWhKLVJ4N1VFTW1DZlpsVEViZlN5YXZSdGlHUWYyT1lEdlhuWVQ3Skd3U0VnRk1MenNrMTFzSWQyRFBEc1JtS2Y2Z21tWWJGdEdyRmRIWUFTVlpWWVdqbFpBS0V2bmc1NUlXbTVmR2NqYkltakZpNFdMeXRSYUoxMnFzbGhwd2c3dmMxaTAwcUtXblFRRERSU3pMUWItZE5xUGVwMkl1QUJJTTpIUGFnZSA0IC0gQXBhcnRtZW50cyBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIDk5YWNyZXMuY29tQq8BPGI-MyBCSEsgRmxhdCBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmU8L2I-IC4uLiBUaGlzIHVuZnVybmlzaGVkIDMgYmhrIGZsYXQgc3BhbnMgMSwyMzQgc3FmdCBvbiB0aGUgMTh0aCBmbG9vciBvZiBhIDI3LVN0b3J5IGhpZ2gtUmlzZSBhdCBnb2RyZWogc3BsZW5kb3VyLCB3aGl0ZWZpZWxkLCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0Zia295bGRaV1FheU5DYmNCOTlJS2liS2VMZHBlaEotUng3VUVNbUNmWmxURWJmU3lhdlJ0aUdRZjJPWUR2WG5ZVDdKR3dTRWdGTUx6c2sxMXNJZDJEUERzUm1LZjZnbW1ZYkZ0R3JGZEhZQVNWWlZZV2psWkFLRXZuZzU1SVdtNWZHY2piSW1qRmk0V0x5dFJhSjEycXNsaHB3Zzd2YzFpMDBxS1duUVFERFJTekxRYi1kTnFQZXAySXVBQklNEgQaAggAGsMGEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA_AUIABAAGAAgACoaCgRmbGF0FZwWWUAaBWZsYXRzGgZob3VzZXMqCgoDZm9yFQAAAAAqOwoEc2FsZRU-kW9AGgNidXkaB2ZvcnNhbGUaBXByaWNlGgZwcmljZXMaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBUuSctAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRVQF8BAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLVAS9nb3RvP3VybD1DQUVTa3dFQjZ6c3dGYmtveWxkWldRYXlOQ2JjQjk5SUtpYktlTGRwZWhKLVJ4N1VFTW1DZlpsVEViZlN5YXZSdGlHUWYyT1lEdlhuWVQ3Skd3U0VnRk1MenNrMTFzSWQyRFBEc1JtS2Y2Z21tWWJGdEdyRmRIWUFTVlpWWVdqbFpBS0V2bmc1NUlXbTVmR2NqYkltakZpNFdMeXRSYUoxMnFzbGhwd2c3dmMxaTAwcUtXblFRRERSU3pMUWItZE5xUGVwMkl1QUJJTTpIUGFnZSA0IC0gQXBhcnRtZW50cyBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIDk5YWNyZXMuY29tQq8BPGI-MyBCSEsgRmxhdCBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmU8L2I-IC4uLiBUaGlzIHVuZnVybmlzaGVkIDMgYmhrIGZsYXQgc3BhbnMgMSwyMzQgc3FmdCBvbiB0aGUgMTh0aCBmbG9vciBvZiBhIDI3LVN0b3J5IGhpZ2gtUmlzZSBhdCBnb2RyZWogc3BsZW5kb3VyLCB3aGl0ZWZpZWxkLCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/flats-in-whitefield-bangalore-east-without-brokerage-ffid-page-4#:~:text=3%20BHK%20Flat%20in%20Whitefield%2C,Bangalore&text=This%20unfurnished%203%20bhk%20flat,high%2DRise%20at%20godrej%20splendour%2C%20whitefield%2C"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=10&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8NMDegQINhAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=10&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAE",
+    "3": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=20&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAG",
+    "4": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=30&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAI",
+    "5": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=40&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAK",
+    "6": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=50&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAM",
+    "7": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=60&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAO",
+    "8": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=70&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAQ",
+    "9": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=80&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAS",
+    "10": "https://www.google.co.in/search?q=flat+for+sale+in+Whitefield+Bangalore+site:99acres.com&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnv5Otg8wmes1ZlWXlfy6X3c0F3o7Q:1791088736739&ei=YNjBaoDbLPzCp84PiOj1kAw&start=90&sa=N&sstk=AS6-VmIz4ncEjTIEV5f9EEUgiJIwx9oXX2ZTvFlPF9yWw-gOQ_PeZYBEwGFeoFdQBB_SUKURLhbVbjiLBUeYlt_au3zs7sLiODn3vg&ved=2ahUKEwiAi6i_xZ-XAxV84ckDHQh0HcIQ8tMDegQINhAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+for+sale+in+Whitefield+Bangalore+site%3A99acres.com&start=90"
+   }
+  }
+ }
+}

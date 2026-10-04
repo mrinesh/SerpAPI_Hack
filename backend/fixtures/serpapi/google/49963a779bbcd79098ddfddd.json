@@ -1,0 +1,352 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "plot for sale in Yelahanka Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d87801289b852aa609bb",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/AHxEyPZtDzfF3Q-G2VnMlFay-bSo2e2RNphynG55xVc/6ac1d87801289b852aa609bb.json",
+   "markdown_endpoint": "https://serpapi.com/searches/AHxEyPZtDzfF3Q-G2VnMlFay-bSo2e2RNphynG55xVc/6ac1d87801289b852aa609bb.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/AHxEyPZtDzfF3Q-G2VnMlFay-bSo2e2RNphynG55xVc/6ac1d87801289b852aa609bb.json_with_pixel_position",
+   "created_at": "2026-10-04 04:39:20 UTC",
+   "processed_at": "2026-10-04 04:39:20 UTC",
+   "google_url": "https://www.google.co.in/search?q=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/AHxEyPZtDzfF3Q-G2VnMlFay-bSo2e2RNphynG55xVc/6ac1d87801289b852aa609bb.html",
+   "total_time_taken": 0.47
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "plot for sale in Yelahanka Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "plot for sale in Yelahanka Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 3720000000,
+   "time_taken_displayed": 0.3,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "2-D line plot - MATLAB",
+    "link": "https://www.mathworks.com/help/matlab/ref/plot.html",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVuCzzp2rfKhKByEFvi9SYd-LklZPeyDnJ4ZA0MgfzioHxVnOlRjgvFKofGTgPC-KfPHjlg2ik-_1qvABEJulPSL8PvSgnjL17yyke94pEDdxjyy0CFxl4wfa6RUXqOeaaJJeWv1Fer8gw&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBoQAQ&uoh=1",
+    "displayed_link": "https://www.mathworks.com › ... › Data Exploration",
+    "favicon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAABQBgCdASocABwAPtE-tFooIigoFAEAGglsALs5QNw9YBNHREYnjzclly06x5B85W87x8OhcyyGvLjAAAD-_SqLE8irFQGprzIJOMFzqp3piDBMPV_hdj7rhnyR0J9PzxGQ3PBzcEITd91fOVFfi-t58aRyga62RwJxe_23wq5MCWWy-XbjkL_6bDiBI3BEIVlKHfAQW3smK25q6J0X6PlS4jJfC70JsQa9tdNPbz2jw25UQcVf19ONcDc3UpUGhapWgSWrJVOComsmy52O4f2IvF9IvyKqlgacCJ4J9SPcHexu3FX2Tw2gQYPnbNo_Woea-9_ce03ruOO4ZzAAAA.webp",
+    "snippet": "This MATLAB function creates a 2-D line plot of the data in Y versus the corresponding values in X.",
+    "snippet_highlighted_words": [
+     "plot"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "This MATLAB function creates a 2-D line plot of the data in Y versus the corresponding values in X.",
+      "source_info_link": "https://www.mathworks.com/help/matlab/ref/plot.html",
+      "icon": "https://serpapi.com/images/i/UklGRgoBAABXRUJQVlA4IP4AAABQBgCdASocABwAPtE-tFooIigoFAEAGglsALs5QNw9YBNHREYnjzclly06x5B85W87x8OhcyyGvLjAAAD-_SqLE8irFQGprzIJOMFzqp3piDBMPV_hdj7rhnyR0J9PzxGQ3PBzcEITd91fOVFfi-t58aRyga62RwJxe_23wq5MCWWy-XbjkL_6bDiBI3BEIVlKHfAQW3smK25q6J0X6PlS4jJfC70JsQa9tdNPbz2jw25UQcVf19ONcDc3UpUGhapWgSWrJVOComsmy52O4f2IvF9IvyKqlgacCJ4J9SPcHexu3FX2Tw2gQYPnbNo_Woea-9_ce03ruOO4ZzAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVnVDenpwMnJmS2hLQnlFRnZpOVNZZC1Ma2xaUGV5RG5KNFpBME1nZnppb0h4Vm5PbFJqZ3ZGS29mR1RnUEMtS2ZQSGpsZzJpay1fMXF2QUJFSnVsUFNMOFB2U2duakwxN3l5a2U5NHBFRGR4anl5MENGeGw0d2ZhNlJVWHFPZWFhSkplV3YxRmVyOGd3EgQaAggAGo0DEgIIARoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA5wIIABAAGAAgACoYCgRwbG90FXTbw0AaBGxhbmQaBXBsb3RzMqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVnVDenpwMnJmS2hLQnlFRnZpOVNZZC1Ma2xaUGV5RG5KNFpBME1nZnppb0h4Vm5PbFJqZ3ZGS29mR1RnUEMtS2ZQSGpsZzJpay1fMXF2QUJFSnVsUFNMOFB2U2duakwxN3l5a2U5NHBFRGR4anl5MENGeGw0d2ZhNlJVWHFPZWFhSkplV3YxRmVyOGd3OikyLUQgbGluZSA8Yj5wbG90PC9iPiAtIE1BVExBQiAtIE1hdGhXb3Jrc0JqVGhpcyBNQVRMQUIgZnVuY3Rpb24gY3JlYXRlcyBhIDItRCBsaW5lIDxiPnBsb3Q8L2I-IG9mIHRoZSBkYXRhIGluIFkgdmVyc3VzIHRoZSBjb3JyZXNwb25kaW5nIHZhbHVlcyBpbiBYLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVnVDenpwMnJmS2hLQnlFRnZpOVNZZC1Ma2xaUGV5RG5KNFpBME1nZnppb0h4Vm5PbFJqZ3ZGS29mR1RnUEMtS2ZQSGpsZzJpay1fMXF2QUJFSnVsUFNMOFB2U2duakwxN3l5a2U5NHBFRGR4anl5MENGeGw0d2ZhNlJVWHFPZWFhSkplV3YxRmVyOGd3EgQaAggAGo0DEgIIARoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA5wIIABAAGAAgACoYCgRwbG90FXTbw0AaBGxhbmQaBXBsb3RzMqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVnVDenpwMnJmS2hLQnlFRnZpOVNZZC1Ma2xaUGV5RG5KNFpBME1nZnppb0h4Vm5PbFJqZ3ZGS29mR1RnUEMtS2ZQSGpsZzJpay1fMXF2QUJFSnVsUFNMOFB2U2duakwxN3l5a2U5NHBFRGR4anl5MENGeGw0d2ZhNlJVWHFPZWFhSkplV3YxRmVyOGd3OikyLUQgbGluZSA8Yj5wbG90PC9iPiAtIE1BVExBQiAtIE1hdGhXb3Jrc0JqVGhpcyBNQVRMQUIgZnVuY3Rpb24gY3JlYXRlcyBhIDItRCBsaW5lIDxiPnBsb3Q8L2I-IG9mIHRoZSBkYXRhIGluIFkgdmVyc3VzIHRoZSBjb3JyZXNwb25kaW5nIHZhbHVlcyBpbiBYLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "MathWorks"
+   },
+   {
+    "position": 2,
+    "title": "Plot: Visualize or graph a function—Wolfram Documentation",
+    "link": "https://reference.wolfram.com/language/ref/Plot.html",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVp1zrBdUHiSAeGicuKhC0yAgUn_U0XqZt2k-Iel0T5QQScb8DQkXGPDxn6zAZdoVJlSZQPvzRUK1TTVebz-BuGAIn4iEyP_gTU5sS5La_RoliQFcFZ8aPKiqxPVcq5f32F8kUzglDXC-qNQ&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://reference.wolfram.com › language › ref › Plot",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAANlBMVEVHcEzdEQDdEQDdEQDdEADdEADdEADcEADdEQDdEQDdEQDdEQDdEADcDwDdEQDaCwDdEQDdEABMP94tAAAAEnRSTlMA66H_bENXJb_bzfaCFLAHkTJ4JEwmAAABDklEQVR4AWIgAQD6nIsEQWIYCIKpTpPsxv8_dhmG4yis4HObhfdqA-gO-al0XqhGgZysDXY9eKGrnh5UT1VeunS2FYBZQ-Elm1tfJ5nHWHu8bd6qU7XdyV9POZeOfR73MvbLFhpb6wDpKM_hmtAFXOuqe3ryUyTQTHgEtAOOv1EnV9Ht6dKG0WAlfxyGuk9_GpsawT8rmzcQDmCutiZ_RZITKBYrsM7LwW_TVGepFjafPdV046ehUamhE1iaD2XpDlztTg09w04zhy6dd-OP7g1poBuM7LxkhbyXeW6wBy9dduq6q9fMTpOXuiVMHx_TuctLVbeDSGPQTz14oe1_RjyA6-68N9z51CFfOHjpO_OsCR7zTHmmAAAAAElFTkSuQmCC.png",
+    "snippet": "Plot[f, {x, xmin, xmax}] generates a plot of f as a function of x from xmin to xmax. Plot[{f1, f2, ...}, {x, xmin, xmax}] plots several functions fi.",
+    "snippet_highlighted_words": [
+     "Plot",
+     "plot",
+     "Plot",
+     "plots"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Plot[f, {x, xmin, xmax}] generates a plot of f as a function of x from xmin to xmax. Plot[{f1, f2, ...}, {x, xmin, xmax}] plots several functions fi.",
+      "source_info_link": "https://reference.wolfram.com/language/ref/Plot.html",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAANlBMVEVHcEzdEQDdEQDdEQDdEADdEADdEADcEADdEQDdEQDdEQDdEQDdEADcDwDdEQDaCwDdEQDdEABMP94tAAAAEnRSTlMA66H_bENXJb_bzfaCFLAHkTJ4JEwmAAABDklEQVR4AWIgAQD6nIsEQWIYCIKpTpPsxv8_dhmG4yis4HObhfdqA-gO-al0XqhGgZysDXY9eKGrnh5UT1VeunS2FYBZQ-Elm1tfJ5nHWHu8bd6qU7XdyV9POZeOfR73MvbLFhpb6wDpKM_hmtAFXOuqe3ryUyTQTHgEtAOOv1EnV9Ht6dKG0WAlfxyGuk9_GpsawT8rmzcQDmCutiZ_RZITKBYrsM7LwW_TVGepFjafPdV046ehUamhE1iaD2XpDlztTg09w04zhy6dd-OP7g1poBuM7LxkhbyXeW6wBy9dduq6q9fMTpOXuiVMHx_TuctLVbeDSGPQTz14oe1_RjyA6-68N9z51CFfOHjpO_OsCR7zTHmmAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVnAxenJCZFVIaVNBZUdpY3VLaEMweUFnVW5fVTBYcVp0MmstSWVsMFQ1UVFTY2I4RFFrWEdQRHhuNnpBWmRvVkpsU1pRUHZ6UlVLMVRUVmViei1CdUdBSW40aUV5UF9nVFU1c1M1TGFfUm9saVFGY0ZaOGFQS2lxeFBWY3E1ZjMyRjhrVXpnbERYQy1xTlESBBoCCAAa8AMSAggBGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDKAwgAEAAYACAAKhgKBHBsb3QVqH88QBoEbGFuZBoFcGxvdHMypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWcDF6ckJkVUhpU0FlR2ljdUtoQzB5QWdVbl9VMFhxWnQyay1JZWwwVDVRUVNjYjhEUWtYR1BEeG42ekFaZG9WSmxTWlFQdnpSVUsxVFRWZWJ6LUJ1R0FJbjRpRXlQX2dUVTVzUzVMYV9Sb2xpUUZjRlo4YVBLaXF4UFZjcTVmMzJGOGtVemdsRFhDLXFOUTpCPGI-UGxvdDwvYj46IFZpc3VhbGl6ZSBvciBncmFwaCBhIGZ1bmN0aW9u4oCUV29sZnJhbSBEb2N1bWVudGF0aW9uQrEBPGI-UGxvdDwvYj5bZiwge3gsIHhtaW4sIHhtYXh9XSBnZW5lcmF0ZXMgYSA8Yj5wbG90PC9iPiBvZiBmIGFzIGEgZnVuY3Rpb24gb2YgeCBmcm9tIHhtaW4gdG8geG1heC4gPGI-UGxvdDwvYj5be2YxLCBmMiwgLi4ufSwge3gsIHhtaW4sIHhtYXh9XSA8Yj5wbG90czwvYj4gc2V2ZXJhbCBmdW5jdGlvbnMgZmkuSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVnAxenJCZFVIaVNBZUdpY3VLaEMweUFnVW5fVTBYcVp0MmstSWVsMFQ1UVFTY2I4RFFrWEdQRHhuNnpBWmRvVkpsU1pRUHZ6UlVLMVRUVmViei1CdUdBSW40aUV5UF9nVFU1c1M1TGFfUm9saVFGY0ZaOGFQS2lxeFBWY3E1ZjMyRjhrVXpnbERYQy1xTlESBBoCCAAa8AMSAggBGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDKAwgAEAAYACAAKhgKBHBsb3QVqH88QBoEbGFuZBoFcGxvdHMypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWcDF6ckJkVUhpU0FlR2ljdUtoQzB5QWdVbl9VMFhxWnQyay1JZWwwVDVRUVNjYjhEUWtYR1BEeG42ekFaZG9WSmxTWlFQdnpSVUsxVFRWZWJ6LUJ1R0FJbjRpRXlQX2dUVTVzUzVMYV9Sb2xpUUZjRlo4YVBLaXF4UFZjcTVmMzJGOGtVemdsRFhDLXFOUTpCPGI-UGxvdDwvYj46IFZpc3VhbGl6ZSBvciBncmFwaCBhIGZ1bmN0aW9u4oCUV29sZnJhbSBEb2N1bWVudGF0aW9uQrEBPGI-UGxvdDwvYj5bZiwge3gsIHhtaW4sIHhtYXh9XSBnZW5lcmF0ZXMgYSA8Yj5wbG90PC9iPiBvZiBmIGFzIGEgZnVuY3Rpb24gb2YgeCBmcm9tIHhtaW4gdG8geG1heC4gPGI-UGxvdDwvYj5be2YxLCBmMiwgLi4ufSwge3gsIHhtaW4sIHhtYXh9XSA8Yj5wbG90czwvYj4gc2V2ZXJhbCBmdW5jdGlvbnMgZmkuSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "wolfram.com"
+   },
+   {
+    "position": 3,
+    "title": "PLOT Definition & Meaning",
+    "link": "https://www.merriam-webster.com/dictionary/plot",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESagHrOzAVeI1Hiw9h8yHjZhHujAR0F5mxMYh0HPqQEm2VKMReyVSgeB4832N7myZrfXrjZ7NVEHudtAEXMasDO6fOfO4PnbuucAUnACGy0ULWGg9N9lGoXlJ9ujC0Uzf5FYu6BBZ5cK2w1Vw&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBAQAQ&uoh=1",
+    "displayed_link": "https://www.merriam-webster.com › dictionary › plot",
+    "favicon": "https://serpapi.com/images/i/UklGRqIBAABXRUJQVlA4IJYBAAAQCQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWJQOABtq5o18m4-QIsDlBv7Tyg_Qv-y4Kv7ADk-SGRPHNZlHLzQvzm2McIPTc02tD9MeoeAA_vYH80Lbn5LwGH1VrLA94qIXT6eUAT9oxRXDwttXTOzNtKwZ74kDKelWwh9bXLQRCZ_qVtaBwH7tKQ3VjwzPjmMwIoP4ADmWRbFSH8lnkIDyl64_fyVSbt6nD5AW62rV_obiGqZ1DE11P7fC9Ua_rJgapTM1Vzz2yxsPW6ObfpM4uwZzGs7uqbMLTgXYL3_nLbuSf8M_Fw_Ss6UzNh5TG_3Fyz_8jMdB3bncOq4a00UrT53lv8X0cdvqOpV77NTPx_-DfFvuY0uS2PexfK-rvF_0yjONCAzFk3P0crF2tDxf62VlxR4twnF1Lm_cRiYIE7EeOnt2GTpvZ-bw5BxvsffUAO5bfj_n_7Prif_4q7I7n_g5MSxY7L0r6689Jf15LibVe1x7VABcO_EHJzJGlAlgW3gI4AEt8COJdPnyb92SQAAA.webp",
+    "snippet": "The meaning of PLOT is a small area of planted ground. How to use plot in a sentence. Synonym Discussion of Plot.",
+    "snippet_highlighted_words": [
+     "a small area of planted ground"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The meaning of PLOT is a small area of planted ground. How to use plot in a sentence. Synonym Discussion of Plot.",
+      "source_info_link": "https://www.merriam-webster.com/dictionary/plot",
+      "icon": "https://serpapi.com/images/i/UklGRqIBAABXRUJQVlA4IJYBAAAQCQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWJQOABtq5o18m4-QIsDlBv7Tyg_Qv-y4Kv7ADk-SGRPHNZlHLzQvzm2McIPTc02tD9MeoeAA_vYH80Lbn5LwGH1VrLA94qIXT6eUAT9oxRXDwttXTOzNtKwZ74kDKelWwh9bXLQRCZ_qVtaBwH7tKQ3VjwzPjmMwIoP4ADmWRbFSH8lnkIDyl64_fyVSbt6nD5AW62rV_obiGqZ1DE11P7fC9Ua_rJgapTM1Vzz2yxsPW6ObfpM4uwZzGs7uqbMLTgXYL3_nLbuSf8M_Fw_Ss6UzNh5TG_3Fyz_8jMdB3bncOq4a00UrT53lv8X0cdvqOpV77NTPx_-DfFvuY0uS2PexfK-rvF_0yjONCAzFk3P0crF2tDxf62VlxR4twnF1Lm_cRiYIE7EeOnt2GTpvZ-bw5BxvsffUAO5bfj_n_7Prif_4q7I7n_g5MSxY7L0r6689Jf15LibVe1x7VABcO_EHJzJGlAlgW3gI4AEt8COJdPnyb92SQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVmVJMUhpdzloOHlIalpoSHVqQVIwRjVteE1ZaDBIUHFRRW0yVktNUmV5VlNnZUI0ODMyTjdteVpyZlhyalo3TlZFSHVkdEFFWE1hc0RPNmZPZk80UG5idXVjQVVuQUNHeTBVTFdHZzlOOWxHb1hsSjl1akMwVXpmNUZZdTZCQlo1Y0sydzFWdxIEGgIIABqjAxICCAEaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQP0CCAAQABgAIAAqGAoEcGxvdBW6sMtAGgRsYW5kGgVwbG90czKdAS9nb3RvP3VybD1DQUVTYWdIck96QVZlSTFIaXc5aDh5SGpaaEh1akFSMEY1bXhNWWgwSFBxUUVtMlZLTVJleVZTZ2VCNDgzMk43bXlacmZYcmpaN05WRUh1ZHRBRVhNYXNETzZmT2ZPNFBuYnV1Y0FVbkFDR3kwVUxXR2c5TjlsR29YbEo5dWpDMFV6ZjVGWXU2QkJaNWNLMncxVnc6NjxiPlBMT1Q8L2I-IERlZmluaXRpb24gJmFtcDsgTWVhbmluZyAtIE1lcnJpYW0tV2Vic3RlckJ4VGhlIG1lYW5pbmcgb2YgUExPVCBpcyA8Yj5hIHNtYWxsIGFyZWEgb2YgcGxhbnRlZCBncm91bmQ8L2I-LiBIb3cgdG8gdXNlIHBsb3QgaW4gYSBzZW50ZW5jZS4gU3lub255bSBEaXNjdXNzaW9uIG9mIFBsb3QuSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVmVJMUhpdzloOHlIalpoSHVqQVIwRjVteE1ZaDBIUHFRRW0yVktNUmV5VlNnZUI0ODMyTjdteVpyZlhyalo3TlZFSHVkdEFFWE1hc0RPNmZPZk80UG5idXVjQVVuQUNHeTBVTFdHZzlOOWxHb1hsSjl1akMwVXpmNUZZdTZCQlo1Y0sydzFWdxIEGgIIABqjAxICCAEaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQP0CCAAQABgAIAAqGAoEcGxvdBW6sMtAGgRsYW5kGgVwbG90czKdAS9nb3RvP3VybD1DQUVTYWdIck96QVZlSTFIaXc5aDh5SGpaaEh1akFSMEY1bXhNWWgwSFBxUUVtMlZLTVJleVZTZ2VCNDgzMk43bXlacmZYcmpaN05WRUh1ZHRBRVhNYXNETzZmT2ZPNFBuYnV1Y0FVbkFDR3kwVUxXR2c5TjlsR29YbEo5dWpDMFV6ZjVGWXU2QkJaNWNLMncxVnc6NjxiPlBMT1Q8L2I-IERlZmluaXRpb24gJmFtcDsgTWVhbmluZyAtIE1lcnJpYW0tV2Vic3RlckJ4VGhlIG1lYW5pbmcgb2YgUExPVCBpcyA8Yj5hIHNtYWxsIGFyZWEgb2YgcGxhbnRlZCBncm91bmQ8L2I-LiBIb3cgdG8gdXNlIHBsb3QgaW4gYSBzZW50ZW5jZS4gU3lub255bSBEaXNjdXNzaW9uIG9mIFBsb3QuSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "Merriam-Webster"
+   },
+   {
+    "position": 4,
+    "title": "PLOT | English meaning - Cambridge Dictionary",
+    "link": "https://dictionary.cambridge.org/dictionary/english/plot",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScwHrOzAVL4zK2_riBDCHwtNHegAqtj0X8kW1q8MbKFm13GGXNIqF3RyEMSp16_BLAabAbEIaTnH0VEfYSwY8RP28HgV9lfSGjIVpc62DUe3DvFW6Mb77WAazTgQN46U_qWft9oUdwV-4fug9bXQHAIDCeqo&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://dictionary.cambridge.org › dictionary › plot",
+    "favicon": "https://serpapi.com/images/i/UklGRgYBAABXRUJQVlA4IPoAAACwBQCdASocABwAPtE-tFooIigoFAEAGgloAJ0zItYBvHREVHkXpPXDWGzTc4H3jF3iXaBhwAAA_vtpBwG61WLVtQXys1U_1yASv-Ef5w8c_CIUsn_wwgNjxQLvmk__sVjppdBYJMRtfxFNHEvkHx0f8-zNn6-JxYcceg26U8_wkm578Wlf2dPLXfU1pT-jxXGgSRjEtx-MVBwZ1m-ZW29GO6_fiqTKagOeTHnoT7LP7zjZIEoPrFtg-KRlPy_KLDpMwG2UbDwBjhU35xXw_zuIY5rrk_GJPIAonnUuAb-TS7WasKzQ17jGOjczOidPI4W5WMfZ-IU4KAAA.webp",
+    "date": "6 days ago",
+    "snippet": "PLOT definition: 1. the story of a book, film, play, etc.: 2. a secret plan made by several people to do something…. Learn more.",
+    "snippet_highlighted_words": [
+     "PLOT",
+     "1"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "PLOT definition: 1. the story of a book, film, play, etc.: 2. a secret plan made by several people to do something…. Learn more.",
+      "source_info_link": "https://dictionary.cambridge.org/dictionary/english/plot",
+      "icon": "https://serpapi.com/images/i/UklGRgYBAABXRUJQVlA4IPoAAACwBQCdASocABwAPtE-tFooIigoFAEAGgloAJ0zItYBvHREVHkXpPXDWGzTc4H3jF3iXaBhwAAA_vtpBwG61WLVtQXys1U_1yASv-Ef5w8c_CIUsn_wwgNjxQLvmk__sVjppdBYJMRtfxFNHEvkHx0f8-zNn6-JxYcceg26U8_wkm578Wlf2dPLXfU1pT-jxXGgSRjEtx-MVBwZ1m-ZW29GO6_fiqTKagOeTHnoT7LP7zjZIEoPrFtg-KRlPy_KLDpMwG2UbDwBjhU35xXw_zuIY5rrk_GJPIAonnUuAb-TS7WasKzQ17jGOjczOidPI4W5WMfZ-IU4KAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVkw0eksyX3JpQkRDSHd0TkhlZ0FxdGowWDhrVzFxOE1iS0ZtMTNHR1hOSXFGM1J5RU1TcDE2X0JMQWFiQWJFSWFUbkgwVkVmWVN3WThSUDI4SGdWOWxmU0dqSVZwYzYyRFVlM0R2Rlc2TWI3N1dBYXpUZ1FONDZVX3FXZnQ5b1Vkd1YtNGZ1ZzliWFFIQUlEQ2VxbxIEGgIIABrIAxICCAEaACICCAEqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAoAMIABAAGAAgACoYCgRwbG90FWyGv0AaBGxhbmQaBXBsb3RzMqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVkw0eksyX3JpQkRDSHd0TkhlZ0FxdGowWDhrVzFxOE1iS0ZtMTNHR1hOSXFGM1J5RU1TcDE2X0JMQWFiQWJFSWFUbkgwVkVmWVN3WThSUDI4SGdWOWxmU0dqSVZwYzYyRFVlM0R2Rlc2TWI3N1dBYXpUZ1FONDZVX3FXZnQ5b1Vkd1YtNGZ1ZzliWFFIQUlEQ2Vxbzo0PGI-UExPVDwvYj4gfCBFbmdsaXNoIG1lYW5pbmcgLSBDYW1icmlkZ2UgRGljdGlvbmFyeUKQATxiPlBMT1Q8L2I-IGRlZmluaXRpb246IDxiPjE8L2I-LiB0aGUgc3Rvcnkgb2YgYSBib29rLCBmaWxtLCBwbGF5LCBldGMuOiAyLiBhIHNlY3JldCBwbGFuIG1hZGUgYnkgc2V2ZXJhbCBwZW9wbGUgdG8gZG8gc29tZXRoaW5n4oCmLiBMZWFybiBtb3JlLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVkw0eksyX3JpQkRDSHd0TkhlZ0FxdGowWDhrVzFxOE1iS0ZtMTNHR1hOSXFGM1J5RU1TcDE2X0JMQWFiQWJFSWFUbkgwVkVmWVN3WThSUDI4SGdWOWxmU0dqSVZwYzYyRFVlM0R2Rlc2TWI3N1dBYXpUZ1FONDZVX3FXZnQ5b1Vkd1YtNGZ1ZzliWFFIQUlEQ2VxbxIEGgIIABrIAxICCAEaACICCAEqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAoAMIABAAGAAgACoYCgRwbG90FWyGv0AaBGxhbmQaBXBsb3RzMqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVkw0eksyX3JpQkRDSHd0TkhlZ0FxdGowWDhrVzFxOE1iS0ZtMTNHR1hOSXFGM1J5RU1TcDE2X0JMQWFiQWJFSWFUbkgwVkVmWVN3WThSUDI4SGdWOWxmU0dqSVZwYzYyRFVlM0R2Rlc2TWI3N1dBYXpUZ1FONDZVX3FXZnQ5b1Vkd1YtNGZ1ZzliWFFIQUlEQ2Vxbzo0PGI-UExPVDwvYj4gfCBFbmdsaXNoIG1lYW5pbmcgLSBDYW1icmlkZ2UgRGljdGlvbmFyeUKQATxiPlBMT1Q8L2I-IGRlZmluaXRpb246IDxiPjE8L2I-LiB0aGUgc3Rvcnkgb2YgYSBib29rLCBmaWxtLCBwbGF5LCBldGMuOiAyLiBhIHNlY3JldCBwbGFuIG1hZGUgYnkgc2V2ZXJhbCBwZW9wbGUgdG8gZG8gc29tZXRoaW5n4oCmLiBMZWFybiBtb3JlLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "Cambridge Dictionary"
+   },
+   {
+    "position": 5,
+    "title": "Plot Mountain! | The Plot Diagram Song | Scratch Garden",
+    "link": "https://www.youtube.com/watch?v=NpWHZJZQDSE",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESZgHrOzAVhj-HHjPWbZvEi4NPyG5c1CKL6IJTV5KzyXYbpnOpR29Fn7EgAaOh5nOS7XSvD441nfXuvfstIB0jMcZkgka5aRgh8qnl2qvfh5cbFkwJJdwAf89F4FQTV5HEIt8GISBc7A&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBUQAQ&uoh=1",
+    "displayed_link": "34.7L+ views · 8 years ago",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "The Plot Diagram song will help you increase your storytelling power and learn the elements of plot. A 'plot mountain' diagram is often used ...",
+    "snippet_highlighted_words": [
+     "Plot",
+     "plot",
+     "plot"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The Plot Diagram song will help you increase your storytelling power and learn the elements of plot. A 'plot mountain' diagram is often used ...",
+      "source_info_link": "https://www.youtube.com/watch?v=NpWHZJZQDSE",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVmhqLUhIalBXYlp2RWk0TlB5RzVjMUNLTDZJSlRWNUt6eVhZYnBuT3BSMjlGbjdFZ0FhT2g1bk9TN1hTdkQ0NDFuZlh1dmZzdElCMGpNY1prZ2thNWFSZ2g4cW5sMnF2Zmg1Y2JGa3dKSmR3QWY4OUY0RlFUVjVIRUl0OEdJU0JjN0ESBBoCCAAa6AMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDCAwgAEAAYACAAKhgKBHBsb3QV4hueQBoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWaGotSEhqUFdiWnZFaTROUHlHNWMxQ0tMNklKVFY1S3p5WFlicG5PcFIyOUZuN0VnQWFPaDVuT1M3WFN2RDQ0MW5mWHV2ZnN0SUIwak1jWmtna2E1YVJnaDhxbmwycXZmaDVjYkZrd0pKZHdBZjg5RjRGUVRWNUhFSXQ4R0lTQmM3QTpFPGI-UGxvdDwvYj4gTW91bnRhaW4hIHwgVGhlIDxiPlBsb3Q8L2I-IERpYWdyYW0gU29uZyB8IFNjcmF0Y2ggR2FyZGVuQrIBVGhlIDxiPlBsb3Q8L2I-IERpYWdyYW0gc29uZyB3aWxsIGhlbHAgeW91IGluY3JlYXNlIHlvdXIgc3Rvcnl0ZWxsaW5nIHBvd2VyIGFuZCBsZWFybiB0aGUgZWxlbWVudHMgb2YgPGI-cGxvdDwvYj4uIEEgJiMzOTs8Yj5wbG90PC9iPiBtb3VudGFpbiYjMzk7IGRpYWdyYW0gaXMgb2Z0ZW4gdXNlZCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVmhqLUhIalBXYlp2RWk0TlB5RzVjMUNLTDZJSlRWNUt6eVhZYnBuT3BSMjlGbjdFZ0FhT2g1bk9TN1hTdkQ0NDFuZlh1dmZzdElCMGpNY1prZ2thNWFSZ2g4cW5sMnF2Zmg1Y2JGa3dKSmR3QWY4OUY0RlFUVjVIRUl0OEdJU0JjN0ESBBoCCAAa6AMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDCAwgAEAAYACAAKhgKBHBsb3QV4hueQBoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWaGotSEhqUFdiWnZFaTROUHlHNWMxQ0tMNklKVFY1S3p5WFlicG5PcFIyOUZuN0VnQWFPaDVuT1M3WFN2RDQ0MW5mWHV2ZnN0SUIwak1jWmtna2E1YVJnaDhxbmwycXZmaDVjYkZrd0pKZHdBZjg5RjRGUVRWNUhFSXQ4R0lTQmM3QTpFPGI-UGxvdDwvYj4gTW91bnRhaW4hIHwgVGhlIDxiPlBsb3Q8L2I-IERpYWdyYW0gU29uZyB8IFNjcmF0Y2ggR2FyZGVuQrIBVGhlIDxiPlBsb3Q8L2I-IERpYWdyYW0gc29uZyB3aWxsIGhlbHAgeW91IGluY3JlYXNlIHlvdXIgc3Rvcnl0ZWxsaW5nIHBvd2VyIGFuZCBsZWFybiB0aGUgZWxlbWVudHMgb2YgPGI-cGxvdDwvYj4uIEEgJiMzOTs8Yj5wbG90PC9iPiBtb3VudGFpbiYjMzk7IGRpYWdyYW0gaXMgb2Z0ZW4gdXNlZCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "YouTube · Scratch Garden"
+   },
+   {
+    "position": 6,
+    "title": "How To Make Box and Whisker Plots",
+    "link": "https://www.youtube.com/watch?v=mhaGAaL6Abw",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESZgHrOzAV3NsBH9VEH9ToAdo8ouFGr-14fGYXcpf6TmI71-rHyCpJvrvIrELA1hbI4UJR_TBR1Kl6_htaMHDev9yonDCcQSF7bJSeOvw2PJdAjBlIpzQTsM6sD0iSicMLpMTg27tUWg&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBQQAQ&uoh=1",
+    "displayed_link": "17L+ views · 7 years ago",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "This statistics video tutorial explains how to make box and whisker plots also known as boxplots by identifying the minimum, maximum, ...",
+    "snippet_highlighted_words": [
+     "plots"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "This statistics video tutorial explains how to make box and whisker plots also known as boxplots by identifying the minimum, maximum, ...",
+      "source_info_link": "https://www.youtube.com/watch?v=mhaGAaL6Abw",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVjNOc0JIOVZFSDlUb0FkbzhvdUZHci0xNGZHWVhjcGY2VG1JNzEtckh5Q3BKdnJ2SXJFTEExaGJJNFVKUl9UQlIxS2w2X2h0YU1IRGV2OXlvbkRDY1FTRjdiSlNlT3Z3MlBKZEFqQmxJcHpRVHNNNnNEMGlTaWNNTHBNVGcyN3RVV2cSBBoCCAAauAMSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCSAwgAEAAYACAAKhgKBHBsb3QVJaviPxoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWM05zQkg5VkVIOVRvQWRvOG91RkdyLTE0ZkdZWGNwZjZUbUk3MS1ySHlDcEp2cnZJckVMQTFoYkk0VUpSX1RCUjFLbDZfaHRhTUhEZXY5eW9uRENjUVNGN2JKU2VPdncyUEpkQWpCbElwelFUc002c0QwaVNpY01McE1UZzI3dFVXZzoySG93IFRvIE1ha2UgQm94IGFuZCBXaGlza2VyIDxiPlBsb3RzPC9iPiAtIFlvdVR1YmVClQFUaGlzIHN0YXRpc3RpY3MgdmlkZW8gdHV0b3JpYWwgZXhwbGFpbnMgaG93IHRvIG1ha2UgYm94IGFuZCB3aGlza2VyIDxiPnBsb3RzPC9iPiBhbHNvIGtub3duIGFzIGJveHBsb3RzIGJ5IGlkZW50aWZ5aW5nIHRoZSBtaW5pbXVtLCBtYXhpbXVtLCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVjNOc0JIOVZFSDlUb0FkbzhvdUZHci0xNGZHWVhjcGY2VG1JNzEtckh5Q3BKdnJ2SXJFTEExaGJJNFVKUl9UQlIxS2w2X2h0YU1IRGV2OXlvbkRDY1FTRjdiSlNlT3Z3MlBKZEFqQmxJcHpRVHNNNnNEMGlTaWNNTHBNVGcyN3RVV2cSBBoCCAAauAMSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCSAwgAEAAYACAAKhgKBHBsb3QVJaviPxoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWM05zQkg5VkVIOVRvQWRvOG91RkdyLTE0ZkdZWGNwZjZUbUk3MS1ySHlDcEp2cnZJckVMQTFoYkk0VUpSX1RCUjFLbDZfaHRhTUhEZXY5eW9uRENjUVNGN2JKU2VPdncyUEpkQWpCbElwelFUc002c0QwaVNpY01McE1UZzI3dFVXZzoySG93IFRvIE1ha2UgQm94IGFuZCBXaGlza2VyIDxiPlBsb3RzPC9iPiAtIFlvdVR1YmVClQFUaGlzIHN0YXRpc3RpY3MgdmlkZW8gdHV0b3JpYWwgZXhwbGFpbnMgaG93IHRvIG1ha2UgYm94IGFuZCB3aGlza2VyIDxiPnBsb3RzPC9iPiBhbHNvIGtub3duIGFzIGJveHBsb3RzIGJ5IGlkZW50aWZ5aW5nIHRoZSBtaW5pbXVtLCBtYXhpbXVtLCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "YouTube · The Organic Chemistry Tutor"
+   },
+   {
+    "position": 7,
+    "title": "Drake - Plot Twist",
+    "link": "https://www.youtube.com/watch?v=QW29Ly55Kvs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESZgHrOzAVTNDqyiBqoUanHL547-Tqw2fStOq89TTn4sDrp1yaUB_0fwtMG-nc99omAxT60_RIwOLL5E_I0HeCQcaXz0bNSBcVZzKvAROrW3a2NO8BySo9BiHLD8aTzn4wxDIENAds_w&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBMQAQ&uoh=1",
+    "displayed_link": "3.2Cr+ views · 4 months ago",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "This video is not available. Drake - Plot Twist. @DrakeVEVO391K likes32M views4 months ago more. Subscribe. Comments.",
+    "snippet_highlighted_words": [
+     "Plot"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "This video is not available. Drake - Plot Twist. @DrakeVEVO391K likes32M views4 months ago more. Subscribe. Comments.",
+      "source_info_link": "https://www.youtube.com/watch?v=QW29Ly55Kvs",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVlRORHF5aUJxb1VhbkhMNTQ3LVRxdzJmU3RPcTg5VFRuNHNEcnAxeWFVQl8wZnd0TUctbmM5OW9tQXhUNjBfUkl3T0xMNUVfSTBIZUNRY2FYejBiTlNCY1Zaekt2QVJPclczYTJOTzhCeVNvOUJpSExEOGFUem40d3hESUVOQWRzX3cSBBoCCAAajwMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDpAggAEAAYACAAKhgKBHBsb3QV888yQBoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWVE5EcXlpQnFvVWFuSEw1NDctVHF3MmZTdE9xODlUVG40c0RycDF5YVVCXzBmd3RNRy1uYzk5b21BeFQ2MF9SSXdPTEw1RV9JMEhlQ1FjYVh6MGJOU0JjVlp6S3ZBUk9yVzNhMk5POEJ5U285QmlITEQ4YVR6bjR3eERJRU5BZHNfdzojRHJha2UgLSA8Yj5QbG90PC9iPiBUd2lzdCAtIFlvdVR1YmVCfFRoaXMgdmlkZW8gaXMgbm90IGF2YWlsYWJsZS4gRHJha2UgLSA8Yj5QbG90PC9iPiBUd2lzdC4gQERyYWtlVkVWTzM5MUsgbGlrZXMzMk0gdmlld3M0IG1vbnRocyBhZ28gbW9yZS4gU3Vic2NyaWJlLiBDb21tZW50cy5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVlRORHF5aUJxb1VhbkhMNTQ3LVRxdzJmU3RPcTg5VFRuNHNEcnAxeWFVQl8wZnd0TUctbmM5OW9tQXhUNjBfUkl3T0xMNUVfSTBIZUNRY2FYejBiTlNCY1Zaekt2QVJPclczYTJOTzhCeVNvOUJpSExEOGFUem40d3hESUVOQWRzX3cSBBoCCAAajwMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDpAggAEAAYACAAKhgKBHBsb3QV888yQBoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWVE5EcXlpQnFvVWFuSEw1NDctVHF3MmZTdE9xODlUVG40c0RycDF5YVVCXzBmd3RNRy1uYzk5b21BeFQ2MF9SSXdPTEw1RV9JMEhlQ1FjYVh6MGJOU0JjVlp6S3ZBUk9yVzNhMk5POEJ5U285QmlITEQ4YVR6bjR3eERJRU5BZHNfdzojRHJha2UgLSA8Yj5QbG90PC9iPiBUd2lzdCAtIFlvdVR1YmVCfFRoaXMgdmlkZW8gaXMgbm90IGF2YWlsYWJsZS4gRHJha2UgLSA8Yj5QbG90PC9iPiBUd2lzdC4gQERyYWtlVkVWTzM5MUsgbGlrZXMzMk0gdmlld3M0IG1vbnRocyBhZ28gbW9yZS4gU3Vic2NyaWJlLiBDb21tZW50cy5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "YouTube · Drake",
+    "read_more_link": "https://www.youtube.com/watch?v=QW29Ly55Kvs#:~:text=This%20video%20is%20not%20available,Comments"
+   },
+   {
+    "position": 8,
+    "title": "Ark Survival Evolved Crop Plot Tutorial",
+    "link": "https://www.youtube.com/watch?v=RmmW21rNWgw",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESZgHrOzAVzxHsmcGl1uwjtJpKehB73z-W9HIbcipLoti2LPml26eBF3GTEOAq7aY6zhJ0RYmX8zfOpOBh_O2JV3xVgV9yNdqi-1SK1n1lG1oziClEL6acovoHsE_-aOnR5wJc4FfuCA&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBgQAQ&uoh=1",
+    "displayed_link": "10K+ views · 3 years ago",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "In this video, I show you the differences in the sizes of crop plots and how to use them in Ark Survival Evolved. Crop Plot Unlock Lvl Water ...",
+    "snippet_highlighted_words": [
+     "plots",
+     "Plot"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "In this video, I show you the differences in the sizes of crop plots and how to use them in Ark Survival Evolved. Crop Plot Unlock Lvl Water ...",
+      "source_info_link": "https://www.youtube.com/watch?v=RmmW21rNWgw",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVnp4SHNtY0dsMXV3anRKcEtlaEI3M3otVzlISWJjaXBMb3RpMkxQbWwyNmVCRjNHVEVPQXE3YVk2emhKMFJZbVg4emZPcE9CaF9PMkpWM3hWZ1Y5eU5kcWktMVNLMW4xbEcxb3ppQ2xFTDZhY292b0hzRV8tYU9uUjV3SmM0RmZ1Q0ESBBoCCAAazAMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCmAwgAEAAYACAAKhgKBHBsb3QV-GJuQBoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWenhIc21jR2wxdXdqdEpwS2VoQjczei1XOUhJYmNpcExvdGkyTFBtbDI2ZUJGM0dURU9BcTdhWTZ6aEowUlltWDh6Zk9wT0JoX08ySlYzeFZnVjl5TmRxaS0xU0sxbjFsRzFvemlDbEVMNmFjb3ZvSHNFXy1hT25SNXdKYzRGZnVDQTo4QXJrIFN1cnZpdmFsIEV2b2x2ZWQgQ3JvcCA8Yj5QbG90PC9iPiBUdXRvcmlhbCAtIFlvdVR1YmVCowFJbiB0aGlzIHZpZGVvLCBJIHNob3cgeW91IHRoZSBkaWZmZXJlbmNlcyBpbiB0aGUgc2l6ZXMgb2YgY3JvcCA8Yj5wbG90czwvYj4gYW5kIGhvdyB0byB1c2UgdGhlbSBpbiBBcmsgU3Vydml2YWwgRXZvbHZlZC4gQ3JvcCA8Yj5QbG90PC9iPiBVbmxvY2sgTHZsIFdhdGVyJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVnp4SHNtY0dsMXV3anRKcEtlaEI3M3otVzlISWJjaXBMb3RpMkxQbWwyNmVCRjNHVEVPQXE3YVk2emhKMFJZbVg4emZPcE9CaF9PMkpWM3hWZ1Y5eU5kcWktMVNLMW4xbEcxb3ppQ2xFTDZhY292b0hzRV8tYU9uUjV3SmM0RmZ1Q0ESBBoCCAAazAMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCmAwgAEAAYACAAKhgKBHBsb3QV-GJuQBoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWenhIc21jR2wxdXdqdEpwS2VoQjczei1XOUhJYmNpcExvdGkyTFBtbDI2ZUJGM0dURU9BcTdhWTZ6aEowUlltWDh6Zk9wT0JoX08ySlYzeFZnVjl5TmRxaS0xU0sxbjFsRzFvemlDbEVMNmFjb3ZvSHNFXy1hT25SNXdKYzRGZnVDQTo4QXJrIFN1cnZpdmFsIEV2b2x2ZWQgQ3JvcCA8Yj5QbG90PC9iPiBUdXRvcmlhbCAtIFlvdVR1YmVCowFJbiB0aGlzIHZpZGVvLCBJIHNob3cgeW91IHRoZSBkaWZmZXJlbmNlcyBpbiB0aGUgc2l6ZXMgb2YgY3JvcCA8Yj5wbG90czwvYj4gYW5kIGhvdyB0byB1c2UgdGhlbSBpbiBBcmsgU3Vydml2YWwgRXZvbHZlZC4gQ3JvcCA8Yj5QbG90PC9iPiBVbmxvY2sgTHZsIFdhdGVyJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "YouTube · Fat Frog's Swamp"
+   },
+   {
+    "position": 9,
+    "title": "Stem and Leaf Plots",
+    "link": "https://www.youtube.com/watch?v=MUCvUgGfzdo",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESZgHrOzAVJYo7LGLIf-VLcuq_xCUi3Zw99gUwHV4_sdY2Ir__WYQ-fALd2xSDYNXW0ffWwwlxtsZjeKbG8D0BXZ66aNgBxLrxSZ4koNWLn6vMWeCXs-98sAiS4-kmdsIJ7qzq9qkLVQ&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBcQAQ&uoh=1",
+    "displayed_link": "16.2L+ views · 7 years ago",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "This statistics video tutorial explains how to make a simple stem and leaf plot.",
+    "snippet_highlighted_words": [
+     "plot"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "This statistics video tutorial explains how to make a simple stem and leaf plot.",
+      "source_info_link": "https://www.youtube.com/watch?v=MUCvUgGfzdo",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVkpZbzdMR0xJZi1WTGN1cV94Q1VpM1p3OTlnVXdIVjRfc2RZMklyX19XWVEtZkFMZDJ4U0RZTlhXMGZmV3d3bHh0c1pqZUtiRzhEMEJYWjY2YU5nQnhMcnhTWjRrb05XTG42dk1XZUNYcy05OHNBaVM0LWttZHNJSjdxenE5cWtMVlESBBoCCAAa6wISAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDFAggAEAAYACAAKhgKBHBsb3QVFxPjPxoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWSllvN0xHTElmLVZMY3VxX3hDVWkzWnc5OWdVd0hWNF9zZFkySXJfX1dZUS1mQUxkMnhTRFlOWFcwZmZXd3dseHRzWmplS2JHOEQwQlhaNjZhTmdCeExyeFNaNGtvTldMbjZ2TVdlQ1hzLTk4c0FpUzQta21kc0lKN3F6cTlxa0xWUTokU3RlbSBhbmQgTGVhZiA8Yj5QbG90czwvYj4gLSBZb3VUdWJlQldUaGlzIHN0YXRpc3RpY3MgdmlkZW8gdHV0b3JpYWwgZXhwbGFpbnMgaG93IHRvIG1ha2UgYSBzaW1wbGUgc3RlbSBhbmQgbGVhZiA8Yj5wbG90PC9iPi5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVkpZbzdMR0xJZi1WTGN1cV94Q1VpM1p3OTlnVXdIVjRfc2RZMklyX19XWVEtZkFMZDJ4U0RZTlhXMGZmV3d3bHh0c1pqZUtiRzhEMEJYWjY2YU5nQnhMcnhTWjRrb05XTG42dk1XZUNYcy05OHNBaVM0LWttZHNJSjdxenE5cWtMVlESBBoCCAAa6wISAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDFAggAEAAYACAAKhgKBHBsb3QVFxPjPxoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWSllvN0xHTElmLVZMY3VxX3hDVWkzWnc5OWdVd0hWNF9zZFkySXJfX1dZUS1mQUxkMnhTRFlOWFcwZmZXd3dseHRzWmplS2JHOEQwQlhaNjZhTmdCeExyeFNaNGtvTldMbjZ2TVdlQ1hzLTk4c0FpUzQta21kc0lKN3F6cTlxa0xWUTokU3RlbSBhbmQgTGVhZiA8Yj5QbG90czwvYj4gLSBZb3VUdWJlQldUaGlzIHN0YXRpc3RpY3MgdmlkZW8gdHV0b3JpYWwgZXhwbGFpbnMgaG93IHRvIG1ha2UgYSBzaW1wbGUgc3RlbSBhbmQgbGVhZiA8Yj5wbG90PC9iPi5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "YouTube · The Organic Chemistry Tutor"
+   },
+   {
+    "position": 10,
+    "title": "Box and Whisker Plots Explained",
+    "link": "https://www.youtube.com/watch?v=nV8jR8M8C74",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESZgHrOzAVFGISd2geyKSFRXaZ1XQieJcdL1DkOckYzYn0BjYmNJqb4eUatcmXLuNXUcqA7mUFl3BeX-1guJISi2S1UgSomj6t0DqoGyMr3NPBiE7j7EhQnlPgvCzGr0vitXPB25mbqA&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQFnoECBkQAQ&uoh=1",
+    "displayed_link": "11.5L+ views · 3 years ago",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "Welcome to Box and Whisker Plots Explained with Mr. J! Need help with how to interpret box and whisker plots (also called box plots)?",
+    "snippet_highlighted_words": [
+     "Plots",
+     "plots",
+     "plots"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Welcome to Box and Whisker Plots Explained with Mr. J! Need help with how to interpret box and whisker plots (also called box plots)?",
+      "source_info_link": "https://www.youtube.com/watch?v=nV8jR8M8C74",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVkZHSVNkMmdleUtTRlJYYVoxWFFpZUpjZEwxRGtPY2tZelluMEJqWW1OSnFiNGVVYXRjbVhMdU5YVWNxQTdtVUZsM0JlWC0xZ3VKSVNpMlMxVWdTb21qNnQwRHFvR3lNcjNOUEJpRTdqN0VoUW5sUGd2Q3pHcjB2aXRYUEIyNW1icUESBBoCCAAazQMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCnAwgAEAAYACAAKhgKBHBsb3QVS-aqPxoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWRkdJU2QyZ2V5S1NGUlhhWjFYUWllSmNkTDFEa09ja1l6WW4wQmpZbU5KcWI0ZVVhdGNtWEx1TlhVY3FBN21VRmwzQmVYLTFndUpJU2kyUzFVZ1NvbWo2dDBEcW9HeU1yM05QQmlFN2o3RWhRbmxQZ3ZDekdyMHZpdFhQQjI1bWJxQTpCQm94IGFuZCBXaGlza2VyIDxiPlBsb3RzPC9iPiBFeHBsYWluZWQgfCBNYXRoIHdpdGggTXIuIEogLSBZb3VUdWJlQpoBV2VsY29tZSB0byBCb3ggYW5kIFdoaXNrZXIgPGI-UGxvdHM8L2I-IEV4cGxhaW5lZCB3aXRoIE1yLiBKISBOZWVkIGhlbHAgd2l0aCBob3cgdG8gaW50ZXJwcmV0IGJveCBhbmQgd2hpc2tlciA8Yj5wbG90czwvYj4gKGFsc28gY2FsbGVkIGJveCA8Yj5wbG90czwvYj4pP0oDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVkZHSVNkMmdleUtTRlJYYVoxWFFpZUpjZEwxRGtPY2tZelluMEJqWW1OSnFiNGVVYXRjbVhMdU5YVWNxQTdtVUZsM0JlWC0xZ3VKSVNpMlMxVWdTb21qNnQwRHFvR3lNcjNOUEJpRTdqN0VoUW5sUGd2Q3pHcjB2aXRYUEIyNW1icUESBBoCCAAazQMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCnAwgAEAAYACAAKhgKBHBsb3QVS-aqPxoEbGFuZBoFcGxvdHMymAEvZ290bz91cmw9Q0FFU1pnSHJPekFWRkdJU2QyZ2V5S1NGUlhhWjFYUWllSmNkTDFEa09ja1l6WW4wQmpZbU5KcWI0ZVVhdGNtWEx1TlhVY3FBN21VRmwzQmVYLTFndUpJU2kyUzFVZ1NvbWo2dDBEcW9HeU1yM05QQmlFN2o3RWhRbmxQZ3ZDekdyMHZpdFhQQjI1bWJxQTpCQm94IGFuZCBXaGlza2VyIDxiPlBsb3RzPC9iPiBFeHBsYWluZWQgfCBNYXRoIHdpdGggTXIuIEogLSBZb3VUdWJlQpoBV2VsY29tZSB0byBCb3ggYW5kIFdoaXNrZXIgPGI-UGxvdHM8L2I-IEV4cGxhaW5lZCB3aXRoIE1yLiBKISBOZWVkIGhlbHAgd2l0aCBob3cgdG8gaW50ZXJwcmV0IGJveCBhbmQgd2hpc2tlciA8Yj5wbG90czwvYj4gKGFsc28gY2FsbGVkIGJveCA8Yj5wbG90czwvYj4pP0oDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "YouTube · Math with Mr. J"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnuvI3pQI51WdfWqZA4A_OiyFCztXQ:1791088760191&ei=eNjBar6nC9aHptQPp8CfqQQ&start=10&sa=N&sstk=AS6-VmKfddwVAETQWutvlFhzcYxSt2SNnYkr32eTwW2_EVBBUs3QLrZvXOhW0-_B1wh9PCj10O7dSP8dGttorX3xkbKSvnQXx0SXkw&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQ8NMDegQIPxAI",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnuvI3pQI51WdfWqZA4A_OiyFCztXQ:1791088760191&ei=eNjBar6nC9aHptQPp8CfqQQ&start=10&sa=N&sstk=AS6-VmKfddwVAETQWutvlFhzcYxSt2SNnYkr32eTwW2_EVBBUs3QLrZvXOhW0-_B1wh9PCj10O7dSP8dGttorX3xkbKSvnQXx0SXkw&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQ8tMDegQIPxAE",
+    "3": "https://www.google.co.in/search?q=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnuvI3pQI51WdfWqZA4A_OiyFCztXQ:1791088760191&ei=eNjBar6nC9aHptQPp8CfqQQ&start=20&sa=N&sstk=AS6-VmKfddwVAETQWutvlFhzcYxSt2SNnYkr32eTwW2_EVBBUs3QLrZvXOhW0-_B1wh9PCj10O7dSP8dGttorX3xkbKSvnQXx0SXkw&ved=2ahUKEwi-w7_KxZ-XAxXWg4kEHSfgJ0UQ8tMDegQIPxAG"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20"
+   }
+  }
+ }
+}

@@ -1,0 +1,367 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "office space for sale in Koramangala Bangalore under 3 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d87dafea45ffeed02e20",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/QeuPsRhUvdj7-PxjPAs6utOAzsS3zSDMyn28dARjEBM/6ac1d87dafea45ffeed02e20.json",
+   "markdown_endpoint": "https://serpapi.com/searches/QeuPsRhUvdj7-PxjPAs6utOAzsS3zSDMyn28dARjEBM/6ac1d87dafea45ffeed02e20.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/QeuPsRhUvdj7-PxjPAs6utOAzsS3zSDMyn28dARjEBM/6ac1d87dafea45ffeed02e20.json_with_pixel_position",
+   "created_at": "2026-10-04 04:39:25 UTC",
+   "processed_at": "2026-10-04 04:39:25 UTC",
+   "google_url": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/QeuPsRhUvdj7-PxjPAs6utOAzsS3zSDMyn28dARjEBM/6ac1d87dafea45ffeed02e20.html",
+   "total_time_taken": 16.95
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "office space for sale in Koramangala Bangalore under 3 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "office space for sale in Koramangala Bangalore under 3 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 59300,
+   "time_taken_displayed": 0.54,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Ready to move Office Space in Bangalore",
+    "link": "https://www.99acres.com/ready-to-move-office-space-for-sale-in-bangalore-1-crore-to-1-point-5-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpAEB6zswFUtbOVeAv3nmJw0KsnmihU4P2SdQfJME1QxSM3ZKxNjzs1rl4BlGBO1Fn-xg4d-UgToL9ToPoMRldCRyl7iriaznmNf1q1ohwk4m4GT0VuSlGisn8z5McWy62LQXL9vr5yjgsczlx5OoVKffmWpUPbnVYkfxfwliNFPcUTi2isIPPYss0-yuudRiAg-8o_tzZSajU3AMA6Hyo_Yg3FBpwg&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ready-to-move-office-space...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Office Space for sale in Bangalore from 1 crore to 1.5 crores , Bangalore Resale ₹1.3 Cr ₹15,853 /sqft Under Construction Under Construction 623 sqft(58 sqm) ...",
+    "snippet_highlighted_words": [
+     "Office Space for sale in Bangalore from 1 crore to 1.5 crores"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Office Space for sale in Bangalore from 1 crore to 1.5 crores , Bangalore Resale ₹1.3 Cr ₹15,853 /sqft Under Construction Under Construction 623 sqft(58 sqm) ...",
+      "source_info_link": "https://www.99acres.com/ready-to-move-office-space-for-sale-in-bangalore-1-crore-to-1-point-5-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0ZVdGJPVmVBdjNubUp3MEtzbm1paFU0UDJTZFFmSk1FMVF4U00zWkt4Tmp6czFybDRCbEdCTzFGbi14ZzRkLVVnVG9MOVRvUG9NUmxkQ1J5bDdpcmlhem5tTmYxcTFvaHdrNG00R1QwVnVTbEdpc244ejVNY1d5NjJMUVhMOXZyNXlqZ3Njemx4NU9vVktmZm1XcFVQYm5WWWtmeGZ3bGlORlBjVVRpMmlzSVBQWXNzMC15dXVkUmlBZy04b190elpTYWpVM0FNQTZIeW9fWWczRkJwd2cSBBoCCAAa9wcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCwBwgAEAAYACAAKhoKBm9mZmljZRUWtexAGgtvZmZpY2VzcGFjZSotCgVzcGFjZRVupupAGgRhcmVhGgRyb29tGgZzcGFjZXMaC29mZmljZXNwYWNlKgoKA2ZvchUAAAAAKi4KBHNhbGUVGG2uQBoHZm9yc2FsZRoFbGVhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEV8fucPxoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFQxs4EAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSpBCgV1bmRlchXwGx5AGgViZWxvdxoJbGVzcyB0aGFuGgp1bmRlcm5lYXRoGgZ3aXRoaW4aBnVuZGVyMxoFYWJvdmUqHgoBMxXNBKw9GgQzLjAwGgZ1bmRlcjMaBjNjcm9yZSooCgVjcm9yZRW_Ox9AGgZjcm9yZXMaBjNjcm9yZRoKaXY7cDtjcm9yZTLsAS9nb3RvP3VybD1DQUVTcEFFQjZ6c3dGVXRiT1ZlQXYzbm1KdzBLc25taWhVNFAyU2RRZkpNRTFReFNNM1pLeE5qenMxcmw0QmxHQk8xRm4teGc0ZC1VZ1RvTDlUb1BvTVJsZENSeWw3aXJpYXpubU5mMXExb2h3azRtNEdUMFZ1U2xHaXNuOHo1TWNXeTYyTFFYTDl2cjV5amdzY3pseDVPb1ZLZmZtV3BVUGJuVllrZnhmd2xpTkZQY1VUaTJpc0lQUFlzczAteXV1ZFJpQWctOG9fdHpaU2FqVTNBTUE2SHlvX1lnM0ZCcHdnOlsxIDxiPmNyb3JlPC9iPiB0byAxLjUgPGI-Y3JvcmVzPC9iPiAtIFJlYWR5IHRvIG1vdmUgPGI-T2ZmaWNlIFNwYWNlPC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-QrEBPGI-T2ZmaWNlIFNwYWNlIGZvciBzYWxlIGluIEJhbmdhbG9yZSBmcm9tIDEgY3JvcmUgdG8gMS41IGNyb3JlczwvYj4gLCBCYW5nYWxvcmUgUmVzYWxlIOKCuTEuMyBDciDigrkxNSw4NTMgL3NxZnQgVW5kZXIgQ29uc3RydWN0aW9uIFVuZGVyIENvbnN0cnVjdGlvbiA2MjMgc3FmdCg1OCBzcW0pJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0ZVdGJPVmVBdjNubUp3MEtzbm1paFU0UDJTZFFmSk1FMVF4U00zWkt4Tmp6czFybDRCbEdCTzFGbi14ZzRkLVVnVG9MOVRvUG9NUmxkQ1J5bDdpcmlhem5tTmYxcTFvaHdrNG00R1QwVnVTbEdpc244ejVNY1d5NjJMUVhMOXZyNXlqZ3Njemx4NU9vVktmZm1XcFVQYm5WWWtmeGZ3bGlORlBjVVRpMmlzSVBQWXNzMC15dXVkUmlBZy04b190elpTYWpVM0FNQTZIeW9fWWczRkJwd2cSBBoCCAAa9wcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCwBwgAEAAYACAAKhoKBm9mZmljZRUWtexAGgtvZmZpY2VzcGFjZSotCgVzcGFjZRVupupAGgRhcmVhGgRyb29tGgZzcGFjZXMaC29mZmljZXNwYWNlKgoKA2ZvchUAAAAAKi4KBHNhbGUVGG2uQBoHZm9yc2FsZRoFbGVhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEV8fucPxoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFQxs4EAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSpBCgV1bmRlchXwGx5AGgViZWxvdxoJbGVzcyB0aGFuGgp1bmRlcm5lYXRoGgZ3aXRoaW4aBnVuZGVyMxoFYWJvdmUqHgoBMxXNBKw9GgQzLjAwGgZ1bmRlcjMaBjNjcm9yZSooCgVjcm9yZRW_Ox9AGgZjcm9yZXMaBjNjcm9yZRoKaXY7cDtjcm9yZTLsAS9nb3RvP3VybD1DQUVTcEFFQjZ6c3dGVXRiT1ZlQXYzbm1KdzBLc25taWhVNFAyU2RRZkpNRTFReFNNM1pLeE5qenMxcmw0QmxHQk8xRm4teGc0ZC1VZ1RvTDlUb1BvTVJsZENSeWw3aXJpYXpubU5mMXExb2h3azRtNEdUMFZ1U2xHaXNuOHo1TWNXeTYyTFFYTDl2cjV5amdzY3pseDVPb1ZLZmZtV3BVUGJuVllrZnhmd2xpTkZQY1VUaTJpc0lQUFlzczAteXV1ZFJpQWctOG9fdHpaU2FqVTNBTUE2SHlvX1lnM0ZCcHdnOlsxIDxiPmNyb3JlPC9iPiB0byAxLjUgPGI-Y3JvcmVzPC9iPiAtIFJlYWR5IHRvIG1vdmUgPGI-T2ZmaWNlIFNwYWNlPC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-QrEBPGI-T2ZmaWNlIFNwYWNlIGZvciBzYWxlIGluIEJhbmdhbG9yZSBmcm9tIDEgY3JvcmUgdG8gMS41IGNyb3JlczwvYj4gLCBCYW5nYWxvcmUgUmVzYWxlIOKCuTEuMyBDciDigrkxNSw4NTMgL3NxZnQgVW5kZXIgQ29uc3RydWN0aW9uIFVuZGVyIENvbnN0cnVjdGlvbiA2MjMgc3FmdCg1OCBzcW0pJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "99acres.com"
+   },
+   {
+    "position": 2,
+    "title": "7+ Commercial property for sale in 4th Block Koramangala, ...",
+    "link": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlAEB6zswFd6k2VDyPvxiSl0nOE7kitRPCmRVq4xGUoL4JXflrsP14oNyLa-5oFek9EHBgMDr2hhGkfoXMAm1C2XQDW5v6ObsXF5qq4rVfTUACl8Y1muwltPNUd9lD8zhH5t_UHK23mhJbETg0Pr-XJ9jp6bjzGlf2raXotCcaJqVLBsYxwcAuqMnhGP8H3kvwflA4Qs3&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-property-in-4th...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Office Space for sale in 4th Block Koramangala, Bangalore Resale ₹3.6 Lac ₹75 /sqft 4,800 sqft(446 sqm) Carpet area Fully furnished plug & play office space ...",
+    "snippet_highlighted_words": [
+     "Office Space for sale in 4th Block Koramangala, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Office Space for sale in 4th Block Koramangala, Bangalore Resale ₹3.6 Lac ₹75 /sqft 4,800 sqft(446 sqm) Carpet area Fully furnished plug & play office space ...",
+      "source_info_link": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZkNmsyVkR5UHZ4aVNsMG5PRTdraXRSUENtUlZxNHhHVW9MNEpYZmxyc1AxNG9OeUxhLTVvRmVrOUVIQmdNRHIyaGhHa2ZvWE1BbTFDMlhRRFc1djZPYnNYRjVxcTRyVmZUVUFDbDhZMW11d2x0UE5VZDlsRDh6aEg1dF9VSEsyM21oSmJFVGcwUHItWEo5anA2Ymp6R2xmMnJhWG90Q2NhSnFWTEJzWXh3Y0F1cU1uaEdQOEgza3Z3ZmxBNFFzMxIEGgIIABrTBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQIwHCAAQABgAIAAqGgoGb2ZmaWNlFcpPX0AaC29mZmljZXNwYWNlKi0KBXNwYWNlFUtsVkAaBGFyZWEaBHJvb20aBnNwYWNlcxoLb2ZmaWNlc3BhY2UqCgoDZm9yFQAAAAAqLgoEc2FsZRXpIL9AGgdmb3JzYWxlGgVsZWFzZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRVXOORAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUV9dvTQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKkEKBXVuZGVyFZa8sj4aBWJlbG93GglsZXNzIHRoYW4aCnVuZGVybmVhdGgaBndpdGhpbhoGdW5kZXIzGgVhYm92ZSoeCgEzFStfDD4aBDMuMDAaBnVuZGVyMxoGM2Nyb3JlKigKBWNyb3JlFWsU3D0aBmNyb3JlcxoGM2Nyb3JlGgppdjtwO2Nyb3JlMtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZkNmsyVkR5UHZ4aVNsMG5PRTdraXRSUENtUlZxNHhHVW9MNEpYZmxyc1AxNG9OeUxhLTVvRmVrOUVIQmdNRHIyaGhHa2ZvWE1BbTFDMlhRRFc1djZPYnNYRjVxcTRyVmZUVUFDbDhZMW11d2x0UE5VZDlsRDh6aEg1dF9VSEsyM21oSmJFVGcwUHItWEo5anA2Ymp6R2xmMnJhWG90Q2NhSnFWTEJzWXh3Y0F1cU1uaEdQOEgza3Z3ZmxBNFFzMzpKNysgQ29tbWVyY2lhbCBwcm9wZXJ0eSBmb3IgPGI-c2FsZTwvYj4gaW4gNHRoIEJsb2NrIDxiPktvcmFtYW5nYWxhPC9iPiAuLi5CtAE8Yj5PZmZpY2UgU3BhY2UgZm9yIHNhbGUgaW4gNHRoIEJsb2NrIEtvcmFtYW5nYWxhLCBCYW5nYWxvcmU8L2I-IFJlc2FsZSDigrkzLjYgTGFjIOKCuTc1IC9zcWZ0IDQsODAwIHNxZnQoNDQ2IHNxbSkgQ2FycGV0IGFyZWEgRnVsbHkgZnVybmlzaGVkIHBsdWcgJmFtcDsgcGxheSBvZmZpY2Ugc3BhY2UmbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZkNmsyVkR5UHZ4aVNsMG5PRTdraXRSUENtUlZxNHhHVW9MNEpYZmxyc1AxNG9OeUxhLTVvRmVrOUVIQmdNRHIyaGhHa2ZvWE1BbTFDMlhRRFc1djZPYnNYRjVxcTRyVmZUVUFDbDhZMW11d2x0UE5VZDlsRDh6aEg1dF9VSEsyM21oSmJFVGcwUHItWEo5anA2Ymp6R2xmMnJhWG90Q2NhSnFWTEJzWXh3Y0F1cU1uaEdQOEgza3Z3ZmxBNFFzMxIEGgIIABrTBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQIwHCAAQABgAIAAqGgoGb2ZmaWNlFcpPX0AaC29mZmljZXNwYWNlKi0KBXNwYWNlFUtsVkAaBGFyZWEaBHJvb20aBnNwYWNlcxoLb2ZmaWNlc3BhY2UqCgoDZm9yFQAAAAAqLgoEc2FsZRXpIL9AGgdmb3JzYWxlGgVsZWFzZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRVXOORAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUV9dvTQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKkEKBXVuZGVyFZa8sj4aBWJlbG93GglsZXNzIHRoYW4aCnVuZGVybmVhdGgaBndpdGhpbhoGdW5kZXIzGgVhYm92ZSoeCgEzFStfDD4aBDMuMDAaBnVuZGVyMxoGM2Nyb3JlKigKBWNyb3JlFWsU3D0aBmNyb3JlcxoGM2Nyb3JlGgppdjtwO2Nyb3JlMtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZkNmsyVkR5UHZ4aVNsMG5PRTdraXRSUENtUlZxNHhHVW9MNEpYZmxyc1AxNG9OeUxhLTVvRmVrOUVIQmdNRHIyaGhHa2ZvWE1BbTFDMlhRRFc1djZPYnNYRjVxcTRyVmZUVUFDbDhZMW11d2x0UE5VZDlsRDh6aEg1dF9VSEsyM21oSmJFVGcwUHItWEo5anA2Ymp6R2xmMnJhWG90Q2NhSnFWTEJzWXh3Y0F1cU1uaEdQOEgza3Z3ZmxBNFFzMzpKNysgQ29tbWVyY2lhbCBwcm9wZXJ0eSBmb3IgPGI-c2FsZTwvYj4gaW4gNHRoIEJsb2NrIDxiPktvcmFtYW5nYWxhPC9iPiAuLi5CtAE8Yj5PZmZpY2UgU3BhY2UgZm9yIHNhbGUgaW4gNHRoIEJsb2NrIEtvcmFtYW5nYWxhLCBCYW5nYWxvcmU8L2I-IFJlc2FsZSDigrkzLjYgTGFjIOKCuTc1IC9zcWZ0IDQsODAwIHNxZnQoNDQ2IHNxbSkgQ2FycGV0IGFyZWEgRnVsbHkgZnVybmlzaGVkIHBsdWcgJmFtcDsgcGxheSBvZmZpY2Ugc3BhY2UmbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 3,
+    "title": "1 crore to 2 crores - Property in Bangalore South",
+    "link": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkgEB6zswFak_61WeoEpzyg25axDmbntiou5jkNuAKKdh_S7pCvbk299120OIS6Qd3XmiiAbjh6IxdzUGXY0i_PtgYXA6qB9jVdQBzyc_2_g4hcA6KzG0JZdZTvMaXgtztO6j4B6j6RDeotRKPKqwxxQ4y1u35ze1gSK7f_oyTS_ekDH7NiYb2aDAAxGc0Eapt70UcQ&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-property-in-ban...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Office Space for sale in 1st Block Koramangala, Bangalore Resale ₹1.15 Cr ₹14,024 /sqft Ready To Move 820 sqft(76 sqm) Carpet area",
+    "snippet_highlighted_words": [
+     "Office Space for sale in 1st Block Koramangala, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Office Space for sale in 1st Block Koramangala, Bangalore Resale ₹1.15 Cr ₹14,024 /sqft Ready To Move 820 sqft(76 sqm) Carpet area",
+      "source_info_link": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0Zha182MVdlb0VwenlnMjVheERtYm50aW91NWprTnVBS0tkaF9TN3BDdmJrMjk5MTIwT0lTNlFkM1htaWlBYmpoNkl4ZHpVR1hZMGlfUHRnWVhBNnFCOWpWZFFCenljXzJfZzRoY0E2S3pHMEpaZFpUdk1hWGd0enRPNmo0QjZqNlJEZW90UktQS3F3eHhRNHkxdTM1emUxZ1NLN2Zfb3lUU19la0RIN05pWWIyYURBQXhHYzBFYXB0NzBVY1ESBBoCCAAasgcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkDrBggAEAAYACAAKhoKBm9mZmljZRV-GXNAGgtvZmZpY2VzcGFjZSotCgVzcGFjZRWIrFVAGgRhcmVhGgRyb29tGgZzcGFjZXMaC29mZmljZXNwYWNlKgoKA2ZvchUAAAAAKi4KBHNhbGUVhyyHQBoHZm9yc2FsZRoFbGVhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEV_dydPxoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFQ4PvUAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSpBCgV1bmRlchWmUGE_GgViZWxvdxoJbGVzcyB0aGFuGgp1bmRlcm5lYXRoGgZ3aXRoaW4aBnVuZGVyMxoFYWJvdmUqHgoBMxX7NfA-GgQzLjAwGgZ1bmRlcjMaBjNjcm9yZSooCgVjcm9yZRXcYFFAGgZjcm9yZXMaBjNjcm9yZRoKaXY7cDtjcm9yZTLUAS9nb3RvP3VybD1DQUVTa2dFQjZ6c3dGYWtfNjFXZW9FcHp5ZzI1YXhEbWJudGlvdTVqa051QUtLZGhfUzdwQ3ZiazI5OTEyME9JUzZRZDNYbWlpQWJqaDZJeGR6VUdYWTBpX1B0Z1lYQTZxQjlqVmRRQnp5Y18yX2c0aGNBNkt6RzBKWmRaVHZNYVhndHp0TzZqNEI2ajZSRGVvdFJLUEtxd3h4UTR5MXUzNXplMWdTSzdmX295VFNfZWtESDdOaVliMmFEQUF4R2MwRWFwdDcwVWNROlJDb21tZXJjaWFsIFByb3BlcnR5IGluIDxiPkJhbmdhbG9yZTwvYj4gU291dGggZm9yIDxiPlNhbGUgQmVsb3c8L2I-IDIgPGI-Q3JvcmU8L2I-Qo0BPGI-T2ZmaWNlIFNwYWNlIGZvciBzYWxlIGluIDFzdCBCbG9jayBLb3JhbWFuZ2FsYSwgQmFuZ2Fsb3JlPC9iPiBSZXNhbGUg4oK5MS4xNSBDciDigrkxNCwwMjQgL3NxZnQgUmVhZHkgVG8gTW92ZSA4MjAgc3FmdCg3NiBzcW0pIENhcnBldCBhcmVhSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0Zha182MVdlb0VwenlnMjVheERtYm50aW91NWprTnVBS0tkaF9TN3BDdmJrMjk5MTIwT0lTNlFkM1htaWlBYmpoNkl4ZHpVR1hZMGlfUHRnWVhBNnFCOWpWZFFCenljXzJfZzRoY0E2S3pHMEpaZFpUdk1hWGd0enRPNmo0QjZqNlJEZW90UktQS3F3eHhRNHkxdTM1emUxZ1NLN2Zfb3lUU19la0RIN05pWWIyYURBQXhHYzBFYXB0NzBVY1ESBBoCCAAasgcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkDrBggAEAAYACAAKhoKBm9mZmljZRV-GXNAGgtvZmZpY2VzcGFjZSotCgVzcGFjZRWIrFVAGgRhcmVhGgRyb29tGgZzcGFjZXMaC29mZmljZXNwYWNlKgoKA2ZvchUAAAAAKi4KBHNhbGUVhyyHQBoHZm9yc2FsZRoFbGVhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEV_dydPxoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFQ4PvUAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSpBCgV1bmRlchWmUGE_GgViZWxvdxoJbGVzcyB0aGFuGgp1bmRlcm5lYXRoGgZ3aXRoaW4aBnVuZGVyMxoFYWJvdmUqHgoBMxX7NfA-GgQzLjAwGgZ1bmRlcjMaBjNjcm9yZSooCgVjcm9yZRXcYFFAGgZjcm9yZXMaBjNjcm9yZRoKaXY7cDtjcm9yZTLUAS9nb3RvP3VybD1DQUVTa2dFQjZ6c3dGYWtfNjFXZW9FcHp5ZzI1YXhEbWJudGlvdTVqa051QUtLZGhfUzdwQ3ZiazI5OTEyME9JUzZRZDNYbWlpQWJqaDZJeGR6VUdYWTBpX1B0Z1lYQTZxQjlqVmRRQnp5Y18yX2c0aGNBNkt6RzBKWmRaVHZNYVhndHp0TzZqNEI2ajZSRGVvdFJLUEtxd3h4UTR5MXUzNXplMWdTSzdmX295VFNfZWtESDdOaVliMmFEQUF4R2MwRWFwdDcwVWNROlJDb21tZXJjaWFsIFByb3BlcnR5IGluIDxiPkJhbmdhbG9yZTwvYj4gU291dGggZm9yIDxiPlNhbGUgQmVsb3c8L2I-IDIgPGI-Q3JvcmU8L2I-Qo0BPGI-T2ZmaWNlIFNwYWNlIGZvciBzYWxlIGluIDFzdCBCbG9jayBLb3JhbWFuZ2FsYSwgQmFuZ2Fsb3JlPC9iPiBSZXNhbGUg4oK5MS4xNSBDciDigrkxNCwwMjQgL3NxZnQgUmVhZHkgVG8gTW92ZSA4MjAgc3FmdCg3NiBzcW0pIENhcnBldCBhcmVhSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 4,
+    "title": "Commercial property in 2nd Block Koramangala, Bangalore",
+    "link": "https://www.99acres.com/commercial-property-in-block-2-koramangala-bangalore-south-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkgEB6zswFdFFH1yPx4Z8SH0Oxj1aM0Rsde9qfZn4ZhzlL1yqfJRHVRy2Oca-v3fiipazcnZXFCN3z9PgMSNv79tZO_fE5T0VZ8A4oeyA-jLOp9kKtJqwuK19D14rW09CX_Kg1MGhfZ56F6KO6GqNFy48t7DNW1VCQxhHbIfWkBqxLAiY8sfHTGAZpmi21HPueJ0iSg&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-property-in-blo...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "The under construction building/office will be available within 3 months. The property is available at 1.91 crore. sale ₹40,000 ₹66 /sqft",
+    "snippet_highlighted_words": [
+     "under",
+     "office",
+     "within 3",
+     "crore",
+     "sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The under construction building/office will be available within 3 months. The property is available at 1.91 crore. sale ₹40,000 ₹66 /sqft",
+      "source_info_link": "https://www.99acres.com/commercial-property-in-block-2-koramangala-bangalore-south-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZkRkZIMXlQeDRaOFNIME94ajFhTTBSc2RlOXFmWm40Wmh6bEwxeXFmSlJIVlJ5Mk9jYS12M2ZpaXBhemNuWlhGQ04zejlQZ01TTnY3OXRaT19mRTVUMFZaOEE0b2V5QS1qTE9wOWtLdEpxd3VLMTlEMTRyVzA5Q1hfS2cxTUdoZlo1NkY2S082R3FORnk0OHQ3RE5XMVZDUXhoSGJJZldrQnF4TEFpWThzZkhUR0FacG1pMjFIUHVlSjBpU2cSBBoCCAAayAcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCBBwgAEAAYACAAKhoKBm9mZmljZRXPFQRAGgtvZmZpY2VzcGFjZSotCgVzcGFjZRXK5QVAGgRhcmVhGgRyb29tGgZzcGFjZXMaC29mZmljZXNwYWNlKgoKA2ZvchUAAAAAKi4KBHNhbGUVhZ-7QBoHZm9yc2FsZRoFbGVhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEV9LjgQBoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFZRh20AaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSpBCgV1bmRlchXgtfk-GgViZWxvdxoJbGVzcyB0aGFuGgp1bmRlcm5lYXRoGgZ3aXRoaW4aBnVuZGVyMxoFYWJvdmUqHgoBMxXB5GQ-GgQzLjAwGgZ1bmRlcjMaBjNjcm9yZSooCgVjcm9yZRXB5GQ-GgZjcm9yZXMaBjNjcm9yZRoKaXY7cDtjcm9yZTLUAS9nb3RvP3VybD1DQUVTa2dFQjZ6c3dGZEZGSDF5UHg0WjhTSDBPeGoxYU0wUnNkZTlxZlpuNFpoemxMMXlxZkpSSFZSeTJPY2EtdjNmaWlwYXpjblpYRkNOM3o5UGdNU052Nzl0Wk9fZkU1VDBWWjhBNG9leUEtakxPcDlrS3RKcXd1SzE5RDE0clcwOUNYX0tnMU1HaGZaNTZGNktPNkdxTkZ5NDh0N0ROVzFWQ1F4aEhiSWZXa0JxeExBaVk4c2ZIVEdBWnBtaTIxSFB1ZUowaVNnOkVDb21tZXJjaWFsIHByb3BlcnR5IGluIDJuZCBCbG9jayA8Yj5Lb3JhbWFuZ2FsYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj5CsAFUaGUgPGI-dW5kZXI8L2I-IGNvbnN0cnVjdGlvbiBidWlsZGluZy88Yj5vZmZpY2U8L2I-IHdpbGwgYmUgYXZhaWxhYmxlIDxiPndpdGhpbiAzPC9iPiBtb250aHMuIFRoZSBwcm9wZXJ0eSBpcyBhdmFpbGFibGUgYXQgMS45MSA8Yj5jcm9yZTwvYj4uIDxiPnNhbGU8L2I-IOKCuTQwLDAwMCDigrk2NiAvc3FmdEoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZkRkZIMXlQeDRaOFNIME94ajFhTTBSc2RlOXFmWm40Wmh6bEwxeXFmSlJIVlJ5Mk9jYS12M2ZpaXBhemNuWlhGQ04zejlQZ01TTnY3OXRaT19mRTVUMFZaOEE0b2V5QS1qTE9wOWtLdEpxd3VLMTlEMTRyVzA5Q1hfS2cxTUdoZlo1NkY2S082R3FORnk0OHQ3RE5XMVZDUXhoSGJJZldrQnF4TEFpWThzZkhUR0FacG1pMjFIUHVlSjBpU2cSBBoCCAAayAcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCBBwgAEAAYACAAKhoKBm9mZmljZRXPFQRAGgtvZmZpY2VzcGFjZSotCgVzcGFjZRXK5QVAGgRhcmVhGgRyb29tGgZzcGFjZXMaC29mZmljZXNwYWNlKgoKA2ZvchUAAAAAKi4KBHNhbGUVhZ-7QBoHZm9yc2FsZRoFbGVhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEV9LjgQBoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFZRh20AaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSpBCgV1bmRlchXgtfk-GgViZWxvdxoJbGVzcyB0aGFuGgp1bmRlcm5lYXRoGgZ3aXRoaW4aBnVuZGVyMxoFYWJvdmUqHgoBMxXB5GQ-GgQzLjAwGgZ1bmRlcjMaBjNjcm9yZSooCgVjcm9yZRXB5GQ-GgZjcm9yZXMaBjNjcm9yZRoKaXY7cDtjcm9yZTLUAS9nb3RvP3VybD1DQUVTa2dFQjZ6c3dGZEZGSDF5UHg0WjhTSDBPeGoxYU0wUnNkZTlxZlpuNFpoemxMMXlxZkpSSFZSeTJPY2EtdjNmaWlwYXpjblpYRkNOM3o5UGdNU052Nzl0Wk9fZkU1VDBWWjhBNG9leUEtakxPcDlrS3RKcXd1SzE5RDE0clcwOUNYX0tnMU1HaGZaNTZGNktPNkdxTkZ5NDh0N0ROVzFWQ1F4aEhiSWZXa0JxeExBaVk4c2ZIVEdBWnBtaTIxSFB1ZUowaVNnOkVDb21tZXJjaWFsIHByb3BlcnR5IGluIDJuZCBCbG9jayA8Yj5Lb3JhbWFuZ2FsYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj5CsAFUaGUgPGI-dW5kZXI8L2I-IGNvbnN0cnVjdGlvbiBidWlsZGluZy88Yj5vZmZpY2U8L2I-IHdpbGwgYmUgYXZhaWxhYmxlIDxiPndpdGhpbiAzPC9iPiBtb250aHMuIFRoZSBwcm9wZXJ0eSBpcyBhdmFpbGFibGUgYXQgMS45MSA8Yj5jcm9yZTwvYj4uIDxiPnNhbGU8L2I-IOKCuTQwLDAwMCDigrk2NiAvc3FmdEoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 5,
+    "title": "Office Space in Hosur Road, Bangalore",
+    "link": "https://www.99acres.com/commercial-office-space-in-hosur-road-bangalore-south-5-crores-to-10-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESowEB6zswFVed2f7BOyOZPN9bDyGWmkFRCkjoiMnkECHucf-BGba4cUxMsvJ3XHlu8W7nEO6_1trVNSklAI5SL4N-eM3KPjLnRY9bT4mufnO-ez0rfLRZX4nr9MGE93OtLXisyV3aKGyfU6lNdb9zg0Fxz5W38FbuUsKYV3A4oziy9B-NAcVH9nRbEP-YgWjlQmIJGcWDqN_8Xr6BseRud16Xj3z1&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBUQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-office-space-in-...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "A modern-Day ready to move office in koramangala, bangalore south for sale. Situated in commercial zone, the carpet area of the property is 3950 sq.Ft. It can ...",
+    "snippet_highlighted_words": [
+     "A modern-Day ready to move office in koramangala, bangalore south for sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "A modern-Day ready to move office in koramangala, bangalore south for sale. Situated in commercial zone, the carpet area of the property is 3950 sq.Ft. It can ...",
+      "source_info_link": "https://www.99acres.com/commercial-office-space-in-hosur-road-bangalore-south-5-crores-to-10-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuoBL2dvdG8_dXJsPUNBRVNvd0VCNnpzd0ZWZWQyZjdCT3lPWlBOOWJEeUdXbWtGUkNram9pTW5rRUNIdWNmLUJHYmE0Y1V4TXN2SjNYSGx1OFc3bkVPNl8xdHJWTlNrbEFJNVNMNE4tZU0zS1BqTG5SWTliVDRtdWZuTy1lejByZkxSWlg0bnI5TUdFOTNPdExYaXN5VjNhS0d5ZlU2bE5kYjl6ZzBGeHo1VzM4RmJ1VXNLWVYzQTRveml5OUItTkFjVkg5blJiRVAtWWdXamxRbUlKR2NXRHFOXzhYcjZCc2VSdWQxNlhqM3oxEgQaAggAGvAHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAqQcIABAAGAAgACoaCgZvZmZpY2UV63PuQBoLb2ZmaWNlc3BhY2UqLQoFc3BhY2UV1t3oQBoEYXJlYRoEcm9vbRoGc3BhY2VzGgtvZmZpY2VzcGFjZSoKCgNmb3IVAAAAACouCgRzYWxlFfh9l0AaB2ZvcnNhbGUaBWxlYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFVHsqj8aCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRX7JtNAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqQQoFdW5kZXIVwKAkQBoFYmVsb3caCWxlc3MgdGhhbhoKdW5kZXJuZWF0aBoGd2l0aGluGgZ1bmRlcjMaBWFib3ZlKh4KATMVv680PhoEMy4wMBoGdW5kZXIzGgYzY3JvcmUqKAoFY3JvcmUVgxeBPhoGY3JvcmVzGgYzY3JvcmUaCml2O3A7Y3JvcmUy6gEvZ290bz91cmw9Q0FFU293RUI2enN3RlZlZDJmN0JPeU9aUE45YkR5R1dta0ZSQ2tqb2lNbmtFQ0h1Y2YtQkdiYTRjVXhNc3ZKM1hIbHU4VzduRU82XzF0clZOU2tsQUk1U0w0Ti1lTTNLUGpMblJZOWJUNG11Zm5PLWV6MHJmTFJaWDRucjlNR0U5M090TFhpc3lWM2FLR3lmVTZsTmRiOXpnMEZ4ejVXMzhGYnVVc0tZVjNBNG96aXk5Qi1OQWNWSDluUmJFUC1ZZ1dqbFFtSUpHY1dEcU5fOFhyNkJzZVJ1ZDE2WGozejE6WTUgPGI-Y3JvcmVzPC9iPiB0byAxMCA8Yj5jcm9yZXM8L2I-IC0gPGI-T2ZmaWNlIFNwYWNlPC9iPiBpbiBIb3N1ciBSb2FkLCA8Yj5CYW5nYWxvcmU8L2I-Qq4BPGI-QSBtb2Rlcm4tRGF5IHJlYWR5IHRvIG1vdmUgb2ZmaWNlIGluIGtvcmFtYW5nYWxhLCBiYW5nYWxvcmUgc291dGggZm9yIHNhbGU8L2I-LiBTaXR1YXRlZCBpbiBjb21tZXJjaWFsIHpvbmUsIHRoZSBjYXJwZXQgYXJlYSBvZiB0aGUgcHJvcGVydHkgaXMgMzk1MCBzcS5GdC4gSXQgY2FuJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuoBL2dvdG8_dXJsPUNBRVNvd0VCNnpzd0ZWZWQyZjdCT3lPWlBOOWJEeUdXbWtGUkNram9pTW5rRUNIdWNmLUJHYmE0Y1V4TXN2SjNYSGx1OFc3bkVPNl8xdHJWTlNrbEFJNVNMNE4tZU0zS1BqTG5SWTliVDRtdWZuTy1lejByZkxSWlg0bnI5TUdFOTNPdExYaXN5VjNhS0d5ZlU2bE5kYjl6ZzBGeHo1VzM4RmJ1VXNLWVYzQTRveml5OUItTkFjVkg5blJiRVAtWWdXamxRbUlKR2NXRHFOXzhYcjZCc2VSdWQxNlhqM3oxEgQaAggAGvAHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAqQcIABAAGAAgACoaCgZvZmZpY2UV63PuQBoLb2ZmaWNlc3BhY2UqLQoFc3BhY2UV1t3oQBoEYXJlYRoEcm9vbRoGc3BhY2VzGgtvZmZpY2VzcGFjZSoKCgNmb3IVAAAAACouCgRzYWxlFfh9l0AaB2ZvcnNhbGUaBWxlYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFVHsqj8aCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRX7JtNAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqQQoFdW5kZXIVwKAkQBoFYmVsb3caCWxlc3MgdGhhbhoKdW5kZXJuZWF0aBoGd2l0aGluGgZ1bmRlcjMaBWFib3ZlKh4KATMVv680PhoEMy4wMBoGdW5kZXIzGgYzY3JvcmUqKAoFY3JvcmUVgxeBPhoGY3JvcmVzGgYzY3JvcmUaCml2O3A7Y3JvcmUy6gEvZ290bz91cmw9Q0FFU293RUI2enN3RlZlZDJmN0JPeU9aUE45YkR5R1dta0ZSQ2tqb2lNbmtFQ0h1Y2YtQkdiYTRjVXhNc3ZKM1hIbHU4VzduRU82XzF0clZOU2tsQUk1U0w0Ti1lTTNLUGpMblJZOWJUNG11Zm5PLWV6MHJmTFJaWDRucjlNR0U5M090TFhpc3lWM2FLR3lmVTZsTmRiOXpnMEZ4ejVXMzhGYnVVc0tZVjNBNG96aXk5Qi1OQWNWSDluUmJFUC1ZZ1dqbFFtSUpHY1dEcU5fOFhyNkJzZVJ1ZDE2WGozejE6WTUgPGI-Y3JvcmVzPC9iPiB0byAxMCA8Yj5jcm9yZXM8L2I-IC0gPGI-T2ZmaWNlIFNwYWNlPC9iPiBpbiBIb3N1ciBSb2FkLCA8Yj5CYW5nYWxvcmU8L2I-Qq4BPGI-QSBtb2Rlcm4tRGF5IHJlYWR5IHRvIG1vdmUgb2ZmaWNlIGluIGtvcmFtYW5nYWxhLCBiYW5nYWxvcmUgc291dGggZm9yIHNhbGU8L2I-LiBTaXR1YXRlZCBpbiBjb21tZXJjaWFsIHpvbmUsIHRoZSBjYXJwZXQgYXJlYSBvZiB0aGUgcHJvcGVydHkgaXMgMzk1MCBzcS5GdC4gSXQgY2FuJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/commercial-office-space-in-hosur-road-bangalore-south-5-crores-to-10-crores-ffid#:~:text=A%20modern%2DDay%20ready%20to%20move,is%203950%20sq.Ft.%20It%20can"
+   },
+   {
+    "position": 6,
+    "title": "Page 9 - Office Space for sale in Bangalore",
+    "link": "https://www.99acres.com/commercial-office-space-in-bangalore-ffid-page-9",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFScJmWEvXX0vV32xRHKE5oQMqtaGsVeAv3KAlqpjeLK9OklGD0L2y5s1W2w-tVVqipYDxkXZ3MVJvwIwxxje38HNh1C45NLyGbeKesayKCtJwx7kQp8DiDDeDKKdZoQTC21ukT5qwTnXpaZch6XIyvKcbYcEI7T0bzYkU_a36g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBcQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-office-space-in-...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "A modern-Day ready to move office in koramangala, bangalore south for sale. Situated in commercial zone, the carpet area of the property is 3950 sq.Ft. It can ...",
+    "snippet_highlighted_words": [
+     "A modern-Day ready to move office in koramangala, bangalore south for sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "A modern-Day ready to move office in koramangala, bangalore south for sale. Situated in commercial zone, the carpet area of the property is 3950 sq.Ft. It can ...",
+      "source_info_link": "https://www.99acres.com/commercial-office-space-in-bangalore-ffid-page-9",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZTY0ptV0V2WFgwdlYzMnhSSEtFNW9RTXF0YUdzVmVBdjNLQWxxcGplTEs5T2tsR0QwTDJ5NXMxVzJ3LXRWVnFpcFlEeGtYWjNNVkp2d0l3eHhqZTM4SE5oMUM0NU5MeUdiZUtlc2F5S0N0Snd4N2tRcDhEaUREZURLS2Rab1FUQzIxdWtUNXF3VG5YcGFaY2g2WEl5dktjYlljRUk3VDBiellrVV9hMzZnEgQaAggAGrQHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA7QYIABAAGAAgACoaCgZvZmZpY2UVYijmQBoLb2ZmaWNlc3BhY2UqLQoFc3BhY2UVqiTeQBoEYXJlYRoEcm9vbRoGc3BhY2VzGgtvZmZpY2VzcGFjZSoKCgNmb3IVAAAAACouCgRzYWxlFRr21EAaB2ZvcnNhbGUaBWxlYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFQ54C0AaCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRXQU9tAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqQQoFdW5kZXIVUVYyPxoFYmVsb3caCWxlc3MgdGhhbhoKdW5kZXJuZWF0aBoGd2l0aGluGgZ1bmRlcjMaBWFib3ZlKh4KATMVy9ozPhoEMy4wMBoGdW5kZXIzGgYzY3JvcmUqKAoFY3JvcmUVkUUbPRoGY3JvcmVzGgYzY3JvcmUaCml2O3A7Y3JvcmUywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RlNjSm1XRXZYWDB2VjMyeFJIS0U1b1FNcXRhR3NWZUF2M0tBbHFwamVMSzlPa2xHRDBMMnk1czFXMnctdFZWcWlwWUR4a1haM01WSnZ3SXd4eGplMzhITmgxQzQ1Tkx5R2JlS2VzYXlLQ3RKd3g3a1FwOERpRERlREtLZFpvUVRDMjF1a1Q1cXdUblhwYVpjaDZYSXl2S2NiWWNFSTdUMGJ6WWtVX2EzNmc6R1BhZ2UgOSAtIDxiPk9mZmljZSBTcGFjZSBmb3Igc2FsZTwvYj4gaW4gPGI-QmFuZ2Fsb3JlPC9iPiAtIDk5YWNyZXMuY29tQq4BPGI-QSBtb2Rlcm4tRGF5IHJlYWR5IHRvIG1vdmUgb2ZmaWNlIGluIGtvcmFtYW5nYWxhLCBiYW5nYWxvcmUgc291dGggZm9yIHNhbGU8L2I-LiBTaXR1YXRlZCBpbiBjb21tZXJjaWFsIHpvbmUsIHRoZSBjYXJwZXQgYXJlYSBvZiB0aGUgcHJvcGVydHkgaXMgMzk1MCBzcS5GdC4gSXQgY2FuJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZTY0ptV0V2WFgwdlYzMnhSSEtFNW9RTXF0YUdzVmVBdjNLQWxxcGplTEs5T2tsR0QwTDJ5NXMxVzJ3LXRWVnFpcFlEeGtYWjNNVkp2d0l3eHhqZTM4SE5oMUM0NU5MeUdiZUtlc2F5S0N0Snd4N2tRcDhEaUREZURLS2Rab1FUQzIxdWtUNXF3VG5YcGFaY2g2WEl5dktjYlljRUk3VDBiellrVV9hMzZnEgQaAggAGrQHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA7QYIABAAGAAgACoaCgZvZmZpY2UVYijmQBoLb2ZmaWNlc3BhY2UqLQoFc3BhY2UVqiTeQBoEYXJlYRoEcm9vbRoGc3BhY2VzGgtvZmZpY2VzcGFjZSoKCgNmb3IVAAAAACouCgRzYWxlFRr21EAaB2ZvcnNhbGUaBWxlYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFQ54C0AaCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRXQU9tAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqQQoFdW5kZXIVUVYyPxoFYmVsb3caCWxlc3MgdGhhbhoKdW5kZXJuZWF0aBoGd2l0aGluGgZ1bmRlcjMaBWFib3ZlKh4KATMVy9ozPhoEMy4wMBoGdW5kZXIzGgYzY3JvcmUqKAoFY3JvcmUVkUUbPRoGY3JvcmVzGgYzY3JvcmUaCml2O3A7Y3JvcmUywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RlNjSm1XRXZYWDB2VjMyeFJIS0U1b1FNcXRhR3NWZUF2M0tBbHFwamVMSzlPa2xHRDBMMnk1czFXMnctdFZWcWlwWUR4a1haM01WSnZ3SXd4eGplMzhITmgxQzQ1Tkx5R2JlS2VzYXlLQ3RKd3g3a1FwOERpRERlREtLZFpvUVRDMjF1a1Q1cXdUblhwYVpjaDZYSXl2S2NiWWNFSTdUMGJ6WWtVX2EzNmc6R1BhZ2UgOSAtIDxiPk9mZmljZSBTcGFjZSBmb3Igc2FsZTwvYj4gaW4gPGI-QmFuZ2Fsb3JlPC9iPiAtIDk5YWNyZXMuY29tQq4BPGI-QSBtb2Rlcm4tRGF5IHJlYWR5IHRvIG1vdmUgb2ZmaWNlIGluIGtvcmFtYW5nYWxhLCBiYW5nYWxvcmUgc291dGggZm9yIHNhbGU8L2I-LiBTaXR1YXRlZCBpbiBjb21tZXJjaWFsIHpvbmUsIHRoZSBjYXJwZXQgYXJlYSBvZiB0aGUgcHJvcGVydHkgaXMgMzk1MCBzcS5GdC4gSXQgY2FuJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/commercial-office-space-in-bangalore-ffid-page-9#:~:text=A%20modern%2DDay%20ready%20to%20move,is%203950%20sq.Ft.%20It%20can"
+   },
+   {
+    "position": 7,
+    "title": "BDA Complex Commercial Properties for resale in ...",
+    "link": "https://www.99acres.com/ready-to-move-office-space-for-resale-in-bda-complex-hsr-layout-bangalore-south-1405-cffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrQEB6zswFSnDy6B1TIdP33VF4Mx0bbyj-K_Dovq9B6juEI93D0FFRBzBi1cXiQU94Hats1SOuzzYsHjlt5yaix3X2M6Ahl-M-a9ST09uD33tGIEAzfrB1DiHQaye3_9OMROzlu1-9hcVhBFP7sZKqawF20wXwMTYgsHXzO9B2VCyl4TsBRwzzSqJmgI7s39Jcwk-A2_rw5KbMk-41L3MYGDVIVJDaHoFnSL7dmU6xw&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBQQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ready-to-move-office-space...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Ready-To-Move office space for sale on the 2nd floor of a 3-Story building in jp nagar 8th phase, bangalore south. Spanning 2800 sqft, it accommodates 20 seats, ...",
+    "snippet_highlighted_words": [
+     "Ready-To-Move office space for sale on the 2nd floor of a 3-Story building in jp nagar 8th phase"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Ready-To-Move office space for sale on the 2nd floor of a 3-Story building in jp nagar 8th phase, bangalore south. Spanning 2800 sqft, it accommodates 20 seats, ...",
+      "source_info_link": "https://www.99acres.com/ready-to-move-office-space-for-resale-in-bda-complex-hsr-layout-bangalore-south-1405-cffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CvgBL2dvdG8_dXJsPUNBRVNyUUVCNnpzd0ZTbkR5NkIxVElkUDMzVkY0TXgwYmJ5ai1LX0RvdnE5QjZqdUVJOTNEMEZGUkJ6QmkxY1hpUVU5NEhhdHMxU091enpZc0hqbHQ1eWFpeDNYMk02QWhsLU0tYTlTVDA5dUQzM3RHSUVBemZyQjFEaUhRYXllM185T01ST3psdTEtOWhjVmhCRlA3c1pLcWF3RjIwd1h3TVRZZ3NIWHpPOUIyVkN5bDRUc0JSd3p6U3FKbWdJN3MzOUpjd2stQTJfcnc1S2JNay00MUwzTVlHRFZJVkpEYUhvRm5TTDdkbVU2eHcSBBoCCAAa3gcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCXBwgAEAAYACAAKhoKBm9mZmljZRWDoqxAGgtvZmZpY2VzcGFjZSotCgVzcGFjZRUYY6hAGgRhcmVhGgRyb29tGgZzcGFjZXMaC29mZmljZXNwYWNlKgoKA2ZvchUAAAAAKi4KBHNhbGUV29yRQBoHZm9yc2FsZRoFbGVhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEVYWMXQBoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFefkt0AaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSpBCgV1bmRlchV0QhdAGgViZWxvdxoJbGVzcyB0aGFuGgp1bmRlcm5lYXRoGgZ3aXRoaW4aBnVuZGVyMxoFYWJvdmUqHgoBMxUYz7Q-GgQzLjAwGgZ1bmRlcjMaBjNjcm9yZSooCgVjcm9yZRVh77o9GgZjcm9yZXMaBjNjcm9yZRoKaXY7cDtjcm9yZTL4AS9nb3RvP3VybD1DQUVTclFFQjZ6c3dGU25EeTZCMVRJZFAzM1ZGNE14MGJieWotS19Eb3ZxOUI2anVFSTkzRDBGRlJCekJpMWNYaVFVOTRIYXRzMVNPdXp6WXNIamx0NXlhaXgzWDJNNkFobC1NLWE5U1QwOXVEMzN0R0lFQXpmckIxRGlIUWF5ZTNfOU9NUk96bHUxLTloY1ZoQkZQN3NaS3Fhd0YyMHdYd01UWWdzSFh6TzlCMlZDeWw0VHNCUnd6elNxSm1nSTdzMzlKY3drLUEyX3J3NUtiTWstNDFMM01ZR0RWSVZKRGFIb0ZuU0w3ZG1VNnh3OjdCREEgQ29tcGxleCBDb21tZXJjaWFsIFByb3BlcnRpZXMgZm9yIHJlc2FsZSBpbiBCREEgLi4uQrABPGI-UmVhZHktVG8tTW92ZSBvZmZpY2Ugc3BhY2UgZm9yIHNhbGUgb24gdGhlIDJuZCBmbG9vciBvZiBhIDMtU3RvcnkgYnVpbGRpbmcgaW4ganAgbmFnYXIgOHRoIHBoYXNlPC9iPiwgYmFuZ2Fsb3JlIHNvdXRoLiBTcGFubmluZyAyODAwIHNxZnQsIGl0IGFjY29tbW9kYXRlcyAyMCBzZWF0cywmbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CvgBL2dvdG8_dXJsPUNBRVNyUUVCNnpzd0ZTbkR5NkIxVElkUDMzVkY0TXgwYmJ5ai1LX0RvdnE5QjZqdUVJOTNEMEZGUkJ6QmkxY1hpUVU5NEhhdHMxU091enpZc0hqbHQ1eWFpeDNYMk02QWhsLU0tYTlTVDA5dUQzM3RHSUVBemZyQjFEaUhRYXllM185T01ST3psdTEtOWhjVmhCRlA3c1pLcWF3RjIwd1h3TVRZZ3NIWHpPOUIyVkN5bDRUc0JSd3p6U3FKbWdJN3MzOUpjd2stQTJfcnc1S2JNay00MUwzTVlHRFZJVkpEYUhvRm5TTDdkbVU2eHcSBBoCCAAa3gcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCXBwgAEAAYACAAKhoKBm9mZmljZRWDoqxAGgtvZmZpY2VzcGFjZSotCgVzcGFjZRUYY6hAGgRhcmVhGgRyb29tGgZzcGFjZXMaC29mZmljZXNwYWNlKgoKA2ZvchUAAAAAKi4KBHNhbGUV29yRQBoHZm9yc2FsZRoFbGVhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEVYWMXQBoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFefkt0AaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSpBCgV1bmRlchV0QhdAGgViZWxvdxoJbGVzcyB0aGFuGgp1bmRlcm5lYXRoGgZ3aXRoaW4aBnVuZGVyMxoFYWJvdmUqHgoBMxUYz7Q-GgQzLjAwGgZ1bmRlcjMaBjNjcm9yZSooCgVjcm9yZRVh77o9GgZjcm9yZXMaBjNjcm9yZRoKaXY7cDtjcm9yZTL4AS9nb3RvP3VybD1DQUVTclFFQjZ6c3dGU25EeTZCMVRJZFAzM1ZGNE14MGJieWotS19Eb3ZxOUI2anVFSTkzRDBGRlJCekJpMWNYaVFVOTRIYXRzMVNPdXp6WXNIamx0NXlhaXgzWDJNNkFobC1NLWE5U1QwOXVEMzN0R0lFQXpmckIxRGlIUWF5ZTNfOU9NUk96bHUxLTloY1ZoQkZQN3NaS3Fhd0YyMHdYd01UWWdzSFh6TzlCMlZDeWw0VHNCUnd6elNxSm1nSTdzMzlKY3drLUEyX3J3NUtiTWstNDFMM01ZR0RWSVZKRGFIb0ZuU0w3ZG1VNnh3OjdCREEgQ29tcGxleCBDb21tZXJjaWFsIFByb3BlcnRpZXMgZm9yIHJlc2FsZSBpbiBCREEgLi4uQrABPGI-UmVhZHktVG8tTW92ZSBvZmZpY2Ugc3BhY2UgZm9yIHNhbGUgb24gdGhlIDJuZCBmbG9vciBvZiBhIDMtU3RvcnkgYnVpbGRpbmcgaW4ganAgbmFnYXIgOHRoIHBoYXNlPC9iPiwgYmFuZ2Fsb3JlIHNvdXRoLiBTcGFubmluZyAyODAwIHNxZnQsIGl0IGFjY29tbW9kYXRlcyAyMCBzZWF0cywmbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/ready-to-move-office-space-for-resale-in-bda-complex-hsr-layout-bangalore-south-1405-cffid#:~:text=Ready%2DTo%2DMove%20office%20space%20for%20sale,sqft%2C%20it%20accommodates%2020%20seats%2C"
+   },
+   {
+    "position": 8,
+    "title": "Office Space for sale in Outer Ring Road South, Bangalore",
+    "link": "https://www.99acres.com/commercial-office-space-in-outer-ring-road-south-bangalore-south-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmAEB6zswFSDkITmsqe6ofeAxNmJyTevsVDgWYIa690JTsnzwWn_T4hKCZJZy6i0KFGbSV8xl2N_vuYNpDQGKXoTadtQ5CU-q-v-b-PGyWp9OI7gg-hMybybpSzWaoLfR4eRu8mtxFuLJRoA7UbImwyljRcHthC5s9Anldxqd-qa711Yd1d4bN6loP8t0DyUIG-6Fynpdc452Nw&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-office-space-in-...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find 6+ Office Space for Sale ・ 400 sqft(37 sqm) Under Construction 4,800 sqft(446 sqm) Carpet area ・ ₹23 Cr ₹20,909 /sqft. Priced at rs4.65 crore,",
+    "snippet_highlighted_words": [
+     "Office Space for Sale",
+     "Under",
+     "area",
+     "crore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find 6+ Office Space for Sale ・ 400 sqft(37 sqm) Under Construction 4,800 sqft(446 sqm) Carpet area ・ ₹23 Cr ₹20,909 /sqft. Priced at rs4.65 crore,",
+      "source_info_link": "https://www.99acres.com/commercial-office-space-in-outer-ring-road-south-bangalore-south-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtwBL2dvdG8_dXJsPUNBRVNtQUVCNnpzd0ZTRGtJVG1zcWU2b2ZlQXhObUp5VGV2c1ZEZ1dZSWE2OTBKVHNuendXbl9UNGhLQ1pKWnk2aTBLRkdiU1Y4eGwyTl92dVlOcERRR0tYb1RhZHRRNUNVLXEtdi1iLVBHeVdwOU9JN2dnLWhNeWJ5YnBTeldhb0xmUjRlUnU4bXR4RnVMSlJvQTdVYkltd3lsalJjSHRoQzVzOUFubGR4cWQtcWE3MTFZZDFkNGJONmxvUDh0MER5VUlHLTZGeW5wZGM0NTJOdxIEGgIIABrZBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQJIHCAAQABgAIAAqGgoGb2ZmaWNlFXVC2UAaC29mZmljZXNwYWNlKi0KBXNwYWNlFdCZ20AaBGFyZWEaBHJvb20aBnNwYWNlcxoLb2ZmaWNlc3BhY2UqCgoDZm9yFQAAAAAqLgoEc2FsZRWUdtVAGgdmb3JzYWxlGgVsZWFzZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRVdSO8_Ggprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVA6jdQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKkEKBXVuZGVyFcjGWD8aBWJlbG93GglsZXNzIHRoYW4aCnVuZGVybmVhdGgaBndpdGhpbhoGdW5kZXIzGgVhYm92ZSoeCgEzFYLluD8aBDMuMDAaBnVuZGVyMxoGM2Nyb3JlKigKBWNyb3JlFQPgdj4aBmNyb3JlcxoGM2Nyb3JlGgppdjtwO2Nyb3JlMtwBL2dvdG8_dXJsPUNBRVNtQUVCNnpzd0ZTRGtJVG1zcWU2b2ZlQXhObUp5VGV2c1ZEZ1dZSWE2OTBKVHNuendXbl9UNGhLQ1pKWnk2aTBLRkdiU1Y4eGwyTl92dVlOcERRR0tYb1RhZHRRNUNVLXEtdi1iLVBHeVdwOU9JN2dnLWhNeWJ5YnBTeldhb0xmUjRlUnU4bXR4RnVMSlJvQTdVYkltd3lsalJjSHRoQzVzOUFubGR4cWQtcWE3MTFZZDFkNGJONmxvUDh0MER5VUlHLTZGeW5wZGM0NTJOdzpHPGI-T2ZmaWNlIFNwYWNlIGZvciBzYWxlPC9iPiBpbiBPdXRlciBSaW5nIFJvYWQgU291dGgsIDxiPkJhbmdhbG9yZTwvYj5CtwFGaW5kIDYrIDxiPk9mZmljZSBTcGFjZSBmb3IgU2FsZTwvYj4g44O7IDQwMCBzcWZ0KDM3IHNxbSkgPGI-VW5kZXI8L2I-IENvbnN0cnVjdGlvbiA0LDgwMCBzcWZ0KDQ0NiBzcW0pIENhcnBldCA8Yj5hcmVhPC9iPiDjg7sg4oK5MjMgQ3Ig4oK5MjAsOTA5IC9zcWZ0LiBQcmljZWQgYXQgcnM0LjY1IDxiPmNyb3JlPC9iPixKAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtwBL2dvdG8_dXJsPUNBRVNtQUVCNnpzd0ZTRGtJVG1zcWU2b2ZlQXhObUp5VGV2c1ZEZ1dZSWE2OTBKVHNuendXbl9UNGhLQ1pKWnk2aTBLRkdiU1Y4eGwyTl92dVlOcERRR0tYb1RhZHRRNUNVLXEtdi1iLVBHeVdwOU9JN2dnLWhNeWJ5YnBTeldhb0xmUjRlUnU4bXR4RnVMSlJvQTdVYkltd3lsalJjSHRoQzVzOUFubGR4cWQtcWE3MTFZZDFkNGJONmxvUDh0MER5VUlHLTZGeW5wZGM0NTJOdxIEGgIIABrZBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQJIHCAAQABgAIAAqGgoGb2ZmaWNlFXVC2UAaC29mZmljZXNwYWNlKi0KBXNwYWNlFdCZ20AaBGFyZWEaBHJvb20aBnNwYWNlcxoLb2ZmaWNlc3BhY2UqCgoDZm9yFQAAAAAqLgoEc2FsZRWUdtVAGgdmb3JzYWxlGgVsZWFzZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRVdSO8_Ggprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVA6jdQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKkEKBXVuZGVyFcjGWD8aBWJlbG93GglsZXNzIHRoYW4aCnVuZGVybmVhdGgaBndpdGhpbhoGdW5kZXIzGgVhYm92ZSoeCgEzFYLluD8aBDMuMDAaBnVuZGVyMxoGM2Nyb3JlKigKBWNyb3JlFQPgdj4aBmNyb3JlcxoGM2Nyb3JlGgppdjtwO2Nyb3JlMtwBL2dvdG8_dXJsPUNBRVNtQUVCNnpzd0ZTRGtJVG1zcWU2b2ZlQXhObUp5VGV2c1ZEZ1dZSWE2OTBKVHNuendXbl9UNGhLQ1pKWnk2aTBLRkdiU1Y4eGwyTl92dVlOcERRR0tYb1RhZHRRNUNVLXEtdi1iLVBHeVdwOU9JN2dnLWhNeWJ5YnBTeldhb0xmUjRlUnU4bXR4RnVMSlJvQTdVYkltd3lsalJjSHRoQzVzOUFubGR4cWQtcWE3MTFZZDFkNGJONmxvUDh0MER5VUlHLTZGeW5wZGM0NTJOdzpHPGI-T2ZmaWNlIFNwYWNlIGZvciBzYWxlPC9iPiBpbiBPdXRlciBSaW5nIFJvYWQgU291dGgsIDxiPkJhbmdhbG9yZTwvYj5CtwFGaW5kIDYrIDxiPk9mZmljZSBTcGFjZSBmb3IgU2FsZTwvYj4g44O7IDQwMCBzcWZ0KDM3IHNxbSkgPGI-VW5kZXI8L2I-IENvbnN0cnVjdGlvbiA0LDgwMCBzcWZ0KDQ0NiBzcW0pIENhcnBldCA8Yj5hcmVhPC9iPiDjg7sg4oK5MjMgQ3Ig4oK5MjAsOTA5IC9zcWZ0LiBQcmljZWQgYXQgcnM0LjY1IDxiPmNyb3JlPC9iPixKAmluSgNmb3IiAhABSABYAGgA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 9,
+    "title": "Page 2 - Office Space for Sale in Bangalore",
+    "link": "https://www.magicbricks.com/office-space-for-sale-in-bangalore-pppfs/page-2",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShgEB6zswFWHSH0Skjhg_jJTpGLeSlnnKQgf22lekJp9Gz3IQLKsaclc3t3PWmpJzu8SVJfEvFlQsOeG2f5DKT8J0w9Oo6iD9SAxcICm02BN1zenhxigiqw21F8Hf-FI4SPZjsX3zgms8UloY5TY4PalWqswM32ISNCm1zI9Juf6B5hpTvQhEGA&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBAQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › page-2",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "Office Space for Sale Koramangala. Super Area. 1600 sqft. Transaction. New Property. Business cum office space is available for sale on a good deal in ...",
+    "snippet_highlighted_words": [
+     "Office Space for Sale Koramangala"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Office Space for Sale Koramangala. Super Area. 1600 sqft. Transaction. New Property. Business cum office space is available for sale on a good deal in ...",
+      "source_info_link": "https://www.magicbricks.com/office-space-for-sale-in-bangalore-pppfs/page-2",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsQBL2dvdG8_dXJsPUNBRVNoZ0VCNnpzd0ZXSFNIMFNramhnX2pKVHBHTGVTbG5uS1FnZjIybGVrSnA5R3ozSVFMS3NhY2xjM3QzUFdtcEp6dThTVkpmRXZGbFFzT2VHMmY1REtUOEowdzlPbzZpRDlTQXhjSUNtMDJCTjF6ZW5oeGlnaXF3MjFGOEhmLUZJNFNQWmpzWDN6Z21zOFVsb1k1VFk0UGFsV3Fzd00zMklTTkNtMXpJOUp1ZjZCNWhwVHZRaEVHQRIEGgIIABqhBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQOkGCAAQABgAIAAqGgoGb2ZmaWNlFeae1UAaC29mZmljZXNwYWNlKi0KBXNwYWNlFRjz1kAaBGFyZWEaBHJvb20aBnNwYWNlcxoLb2ZmaWNlc3BhY2UqCgoDZm9yFQAAAAAqLgoEc2FsZRXSM85AGgdmb3JzYWxlGgVsZWFzZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRXAEEo_Ggprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVXs3YQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKkEKBXVuZGVyFQAAAAAaBWJlbG93GglsZXNzIHRoYW4aCnVuZGVybmVhdGgaBndpdGhpbhoGdW5kZXIzGgVhYm92ZSoeCgEzFRnpJUAaBDMuMDAaBnVuZGVyMxoGM2Nyb3JlKigKBWNyb3JlFVPy-TwaBmNyb3JlcxoGM2Nyb3JlGgppdjtwO2Nyb3JlMsQBL2dvdG8_dXJsPUNBRVNoZ0VCNnpzd0ZXSFNIMFNramhnX2pKVHBHTGVTbG5uS1FnZjIybGVrSnA5R3ozSVFMS3NhY2xjM3QzUFdtcEp6dThTVkpmRXZGbFFzT2VHMmY1REtUOEowdzlPbzZpRDlTQXhjSUNtMDJCTjF6ZW5oeGlnaXF3MjFGOEhmLUZJNFNQWmpzWDN6Z21zOFVsb1k1VFk0UGFsV3Fzd00zMklTTkNtMXpJOUp1ZjZCNWhwVHZRaEVHQTpHUGFnZSAyIC0gPGI-T2ZmaWNlIFNwYWNlIGZvciBTYWxlPC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-IC0gTWFnaWNCcmlja3NCpgE8Yj5PZmZpY2UgU3BhY2UgZm9yIFNhbGUgS29yYW1hbmdhbGE8L2I-LiBTdXBlciBBcmVhLiAxNjAwIHNxZnQuIFRyYW5zYWN0aW9uLiBOZXcgUHJvcGVydHkuIEJ1c2luZXNzIGN1bSBvZmZpY2Ugc3BhY2UgaXMgYXZhaWxhYmxlIGZvciBzYWxlIG9uIGEgZ29vZCBkZWFsIGluJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsQBL2dvdG8_dXJsPUNBRVNoZ0VCNnpzd0ZXSFNIMFNramhnX2pKVHBHTGVTbG5uS1FnZjIybGVrSnA5R3ozSVFMS3NhY2xjM3QzUFdtcEp6dThTVkpmRXZGbFFzT2VHMmY1REtUOEowdzlPbzZpRDlTQXhjSUNtMDJCTjF6ZW5oeGlnaXF3MjFGOEhmLUZJNFNQWmpzWDN6Z21zOFVsb1k1VFk0UGFsV3Fzd00zMklTTkNtMXpJOUp1ZjZCNWhwVHZRaEVHQRIEGgIIABqhBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQOkGCAAQABgAIAAqGgoGb2ZmaWNlFeae1UAaC29mZmljZXNwYWNlKi0KBXNwYWNlFRjz1kAaBGFyZWEaBHJvb20aBnNwYWNlcxoLb2ZmaWNlc3BhY2UqCgoDZm9yFQAAAAAqLgoEc2FsZRXSM85AGgdmb3JzYWxlGgVsZWFzZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRXAEEo_Ggprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVXs3YQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKkEKBXVuZGVyFQAAAAAaBWJlbG93GglsZXNzIHRoYW4aCnVuZGVybmVhdGgaBndpdGhpbhoGdW5kZXIzGgVhYm92ZSoeCgEzFRnpJUAaBDMuMDAaBnVuZGVyMxoGM2Nyb3JlKigKBWNyb3JlFVPy-TwaBmNyb3JlcxoGM2Nyb3JlGgppdjtwO2Nyb3JlMsQBL2dvdG8_dXJsPUNBRVNoZ0VCNnpzd0ZXSFNIMFNramhnX2pKVHBHTGVTbG5uS1FnZjIybGVrSnA5R3ozSVFMS3NhY2xjM3QzUFdtcEp6dThTVkpmRXZGbFFzT2VHMmY1REtUOEowdzlPbzZpRDlTQXhjSUNtMDJCTjF6ZW5oeGlnaXF3MjFGOEhmLUZJNFNQWmpzWDN6Z21zOFVsb1k1VFk0UGFsV3Fzd00zMklTTkNtMXpJOUp1ZjZCNWhwVHZRaEVHQTpHUGFnZSAyIC0gPGI-T2ZmaWNlIFNwYWNlIGZvciBTYWxlPC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-IC0gTWFnaWNCcmlja3NCpgE8Yj5PZmZpY2UgU3BhY2UgZm9yIFNhbGUgS29yYW1hbmdhbGE8L2I-LiBTdXBlciBBcmVhLiAxNjAwIHNxZnQuIFRyYW5zYWN0aW9uLiBOZXcgUHJvcGVydHkuIEJ1c2luZXNzIGN1bSBvZmZpY2Ugc3BhY2UgaXMgYXZhaWxhYmxlIGZvciBzYWxlIG9uIGEgZ29vZCBkZWFsIGluJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "MagicBricks",
+    "read_more_link": "https://www.magicbricks.com/office-space-for-sale-in-bangalore-pppfs/page-2#:~:text=Office%20Space%20for%20Sale%20Koramangala,and%20at%20a%20%E2%82%B98.25%20Cr."
+   },
+   {
+    "position": 10,
+    "title": "Coffee Shops for Sale in Koramangala, Bangalore",
+    "link": "https://www.99acres.com/coffee-shops-for-sale-in-koramangala-bangalore-south-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjAEB6zswFS8PQmlDN8K4EhFXLbfs4OlL_TKrAmafAtidRoYrAeQjyWd7Ii-acyJ2dSVolIApWULoHMuAAoWm-mmCgGuMDMkLlMeKHs2LfFL7ErTHKtWSBVAL3mEdlndxQry3NycwrVajnkduJiHkD8r07M8jK6-LlWP0ikXbZj6QaLKUwshu7IbaCGH38A&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › coffee-shops-for-sale-in-kor...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Ready to move Office Space for sale in Koramangala, Bangalore ... A fully-Furnished, vastu compliant office in the heart of koramangala. With access to modern ...",
+    "snippet_highlighted_words": [
+     "Ready to move Office Space for sale in Koramangala, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Ready to move Office Space for sale in Koramangala, Bangalore ... A fully-Furnished, vastu compliant office in the heart of koramangala. With access to modern ...",
+      "source_info_link": "https://www.99acres.com/coffee-shops-for-sale-in-koramangala-bangalore-south-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CswBL2dvdG8_dXJsPUNBRVNqQUVCNnpzd0ZTOFBRbWxETjhLNEVoRlhMYmZzNE9sTF9US3JBbWFmQXRpZFJvWXJBZVFqeVdkN0lpLWFjeUoyZFNWb2xJQXBXVUxvSE11QUFvV20tbW1DZ0d1TURNa0xsTWVLSHMyTGZGTDdFclRIS3RXU0JWQUwzbUVkbG5keFFyeTNOeWN3clZham5rZHVKaUhrRDhyMDdNOGpLNi1MbFdQMGlrWGJaajZRYUxLVXdzaHU3SWJhQ0dIMzhBEgQaAggAGrYHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA7wYIABAAGAAgACoaCgZvZmZpY2UVuEBiQBoLb2ZmaWNlc3BhY2UqLQoFc3BhY2UVHmliQBoEYXJlYRoEcm9vbRoGc3BhY2VzGgtvZmZpY2VzcGFjZSoKCgNmb3IVAAAAACouCgRzYWxlFXj22EAaB2ZvcnNhbGUaBWxlYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFfY01EAaCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRVPdN5AGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqQQoFdW5kZXIVJKQlPxoFYmVsb3caCWxlc3MgdGhhbhoKdW5kZXJuZWF0aBoGd2l0aGluGgZ1bmRlcjMaBWFib3ZlKh4KATMVh1fbPhoEMy4wMBoGdW5kZXIzGgYzY3JvcmUqKAoFY3JvcmUVNKKbPhoGY3JvcmVzGgYzY3JvcmUaCml2O3A7Y3JvcmUyzAEvZ290bz91cmw9Q0FFU2pBRUI2enN3RlM4UFFtbEROOEs0RWhGWExiZnM0T2xMX1RLckFtYWZBdGlkUm9ZckFlUWp5V2Q3SWktYWN5SjJkU1ZvbElBcFdVTG9ITXVBQW9XbS1tbUNnR3VNRE1rTGxNZUtIczJMZkZMN0VyVEhLdFdTQlZBTDNtRWRsbmR4UXJ5M055Y3dyVmFqbmtkdUppSGtEOHIwN004aks2LUxsV1AwaWtYYlpqNlFhTEtVd3NodTdJYmFDR0gzOEE6PUNvZmZlZSBTaG9wcyBmb3IgPGI-U2FsZSBpbiBLb3JhbWFuZ2FsYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj5CrgE8Yj5SZWFkeSB0byBtb3ZlIE9mZmljZSBTcGFjZSBmb3Igc2FsZSBpbiBLb3JhbWFuZ2FsYSwgQmFuZ2Fsb3JlPC9iPiAuLi4gQSBmdWxseS1GdXJuaXNoZWQsIHZhc3R1IGNvbXBsaWFudCBvZmZpY2UgaW4gdGhlIGhlYXJ0IG9mIGtvcmFtYW5nYWxhLiBXaXRoIGFjY2VzcyB0byBtb2Rlcm4mbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CswBL2dvdG8_dXJsPUNBRVNqQUVCNnpzd0ZTOFBRbWxETjhLNEVoRlhMYmZzNE9sTF9US3JBbWFmQXRpZFJvWXJBZVFqeVdkN0lpLWFjeUoyZFNWb2xJQXBXVUxvSE11QUFvV20tbW1DZ0d1TURNa0xsTWVLSHMyTGZGTDdFclRIS3RXU0JWQUwzbUVkbG5keFFyeTNOeWN3clZham5rZHVKaUhrRDhyMDdNOGpLNi1MbFdQMGlrWGJaajZRYUxLVXdzaHU3SWJhQ0dIMzhBEgQaAggAGrYHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA7wYIABAAGAAgACoaCgZvZmZpY2UVuEBiQBoLb2ZmaWNlc3BhY2UqLQoFc3BhY2UVHmliQBoEYXJlYRoEcm9vbRoGc3BhY2VzGgtvZmZpY2VzcGFjZSoKCgNmb3IVAAAAACouCgRzYWxlFXj22EAaB2ZvcnNhbGUaBWxlYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFfY01EAaCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRVPdN5AGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqQQoFdW5kZXIVJKQlPxoFYmVsb3caCWxlc3MgdGhhbhoKdW5kZXJuZWF0aBoGd2l0aGluGgZ1bmRlcjMaBWFib3ZlKh4KATMVh1fbPhoEMy4wMBoGdW5kZXIzGgYzY3JvcmUqKAoFY3JvcmUVNKKbPhoGY3JvcmVzGgYzY3JvcmUaCml2O3A7Y3JvcmUyzAEvZ290bz91cmw9Q0FFU2pBRUI2enN3RlM4UFFtbEROOEs0RWhGWExiZnM0T2xMX1RLckFtYWZBdGlkUm9ZckFlUWp5V2Q3SWktYWN5SjJkU1ZvbElBcFdVTG9ITXVBQW9XbS1tbUNnR3VNRE1rTGxNZUtIczJMZkZMN0VyVEhLdFdTQlZBTDNtRWRsbmR4UXJ5M055Y3dyVmFqbmtkdUppSGtEOHIwN004aks2LUxsV1AwaWtYYlpqNlFhTEtVd3NodTdJYmFDR0gzOEE6PUNvZmZlZSBTaG9wcyBmb3IgPGI-U2FsZSBpbiBLb3JhbWFuZ2FsYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj5CrgE8Yj5SZWFkeSB0byBtb3ZlIE9mZmljZSBTcGFjZSBmb3Igc2FsZSBpbiBLb3JhbWFuZ2FsYSwgQmFuZ2Fsb3JlPC9iPiAuLi4gQSBmdWxseS1GdXJuaXNoZWQsIHZhc3R1IGNvbXBsaWFudCBvZmZpY2UgaW4gdGhlIGhlYXJ0IG9mIGtvcmFtYW5nYWxhLiBXaXRoIGFjY2VzcyB0byBtb2Rlcm4mbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "99acres.com",
+    "read_more_link": "https://www.99acres.com/coffee-shops-for-sale-in-koramangala-bangalore-south-ffid#:~:text=Ready%20to%20move%20Office%20Space,for%20sale%20in%20Koramangala%2C%20Bangalore&text=A%20fully%2DFurnished%2C%20vastu%20compliant%20office,koramangala.%20With%20access%20to%20modern"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=10&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8NMDegQISBAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=10&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAE",
+    "3": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=20&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAG",
+    "4": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=30&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAI",
+    "5": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=40&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAK",
+    "6": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=50&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAM",
+    "7": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=60&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAO",
+    "8": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=70&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAQ",
+    "9": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=80&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAS",
+    "10": "https://www.google.co.in/search?q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQns4TInnqzJG-ewRLZH2k03wVVLZPA:1791088781277&ei=jdjBasGmEPib4-EPxd2CsAM&start=90&sa=N&sstk=AS6-VmILgjtoh094ggedANY6VEVsYgEgF5R3DjFDZaEJHXOi4lWCPinOdoHaOdoUhzYED43G1ZM4o9qzUzTllc0gPJO-4DXX0joD0g&ved=2ahUKEwiBocbUxZ-XAxX4zTgGHcWuADYQ8tMDegQISBAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+for+sale+in+Koramangala+Bangalore+under+3+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=90"
+   }
+  }
+ }
+}

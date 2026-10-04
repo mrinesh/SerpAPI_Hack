@@ -1,0 +1,382 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "warehouse for sale in KR Puram Bangalore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d8911c38820286c6d807",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/k81QzIf8mZltl_ur4VsRdJ2ypP1NBiv3YGZCsEzGqLU/6ac1d8911c38820286c6d807.json",
+   "markdown_endpoint": "https://serpapi.com/searches/k81QzIf8mZltl_ur4VsRdJ2ypP1NBiv3YGZCsEzGqLU/6ac1d8911c38820286c6d807.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/k81QzIf8mZltl_ur4VsRdJ2ypP1NBiv3YGZCsEzGqLU/6ac1d8911c38820286c6d807.json_with_pixel_position",
+   "created_at": "2026-10-04 04:39:45 UTC",
+   "processed_at": "2026-10-04 04:39:45 UTC",
+   "google_url": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/k81QzIf8mZltl_ur4VsRdJ2ypP1NBiv3YGZCsEzGqLU/6ac1d8911c38820286c6d807.html",
+   "total_time_taken": 11.1
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "warehouse for sale in KR Puram Bangalore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "warehouse for sale in KR Puram Bangalore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 12500,
+   "time_taken_displayed": 0.4,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Commercial Property for Sale in KR Puram, Bangalore",
+    "link": "https://www.magicbricks.com/commercial-property-for-sale-in-k-r-puram-bangalore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkAEB6zswFRlblmRE3Ajh5XxWA0cPZ0qsA2eaOsK9g3GCnE-NuNN_5ol0zghJqijX_Yewh0a7e9vzLK3E_XbOKxHI23K21ymV31FmMJ3GBdfCJklXMGSZrkM7r2lUlBTqjN1FUglLOsjbDQb_-dPCd-PAy7MfQyobGXiX_91sGmDCai-96t4eGJG6MpaQe7yVz4Y&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECBsQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › commercial-property-f...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "This well built warehouse in K R Puram is available for sale, and 3 shops is available for sale. portion of 470 square feet,",
+    "snippet_highlighted_words": [
+     "well built warehouse in K R Puram is available for sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "This well built warehouse in K R Puram is available for sale, and 3 shops is available for sale. portion of 470 square feet,",
+      "source_info_link": "https://www.magicbricks.com/commercial-property-for-sale-in-k-r-puram-bangalore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtEBL2dvdG8_dXJsPUNBRVNrQUVCNnpzd0ZSbGJsbVJFM0FqaDVYeFdBMGNQWjBxc0EyZWFPc0s5ZzNHQ25FLU51Tk5fNW9sMHpnaEpxaWpYX1lld2gwYTdlOXZ6TEszRV9YYk9LeEhJMjNLMjF5bVYzMUZtTUozR0JkZkNKa2xYTUdTWnJrTTdyMmxVbEJUcWpOMUZVZ2xMT3NqYkRRYl8tZFBDZC1QQXk3TWZReW9iR1hpWF85MXNHbURDYWktOTZ0NGVHSkc2TXBhUWU3eVZ6NFkSBBoCCAAaxgYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCOBggAEAAYACAAKkEKCXdhcmVob3VzZRVCMaM_GhNjb21tZXJjaWFsIHByb3BlcnR5Ggp3YXJlaG91c2VzGg5pdjtwO3dhcmVob3VzZSoKCgNmb3IVAAAAACo1CgRzYWxlFZTG60AaB2ZvcnNhbGUaC3JlYWwgZXN0YXRlGgRyZW50GgZyZW50YWwaBHNvbGQqCQoCaW4VAAAAACpDCgJrchVG695AGhBrcmlzaG5hcmFqYXB1cmFtGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoHaXY7cDtrcipQCgVwdXJhbRWU5u5AGhBrcmlzaG5hcmFqYXB1cmFtGgVuYWdhchoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaCml2O3A7cHVyYW0qNgoJYmFuZ2Fsb3JlFRVmBEEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLRAS9nb3RvP3VybD1DQUVTa0FFQjZ6c3dGUmxibG1SRTNBamg1WHhXQTBjUFowcXNBMmVhT3NLOWczR0NuRS1OdU5OXzVvbDB6Z2hKcWlqWF9ZZXdoMGE3ZTl2ekxLM0VfWGJPS3hISTIzSzIxeW1WMzFGbU1KM0dCZGZDSmtsWE1HU1pya003cjJsVWxCVHFqTjFGVWdsTE9zamJEUWJfLWRQQ2QtUEF5N01mUXlvYkdYaVhfOTFzR21EQ2FpLTk2dDRlR0pHNk1wYVFlN3lWejRZOkE8Yj5Db21tZXJjaWFsIFByb3BlcnR5IGZvciBTYWxlIGluIEtSIFB1cmFtPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkKDAVRoaXMgPGI-d2VsbCBidWlsdCB3YXJlaG91c2UgaW4gSyBSIFB1cmFtIGlzIGF2YWlsYWJsZSBmb3Igc2FsZTwvYj4sIGFuZCAzIHNob3BzIGlzIGF2YWlsYWJsZSBmb3Igc2FsZS4gcG9ydGlvbiBvZiA0NzAgc3F1YXJlIGZlZXQsSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtEBL2dvdG8_dXJsPUNBRVNrQUVCNnpzd0ZSbGJsbVJFM0FqaDVYeFdBMGNQWjBxc0EyZWFPc0s5ZzNHQ25FLU51Tk5fNW9sMHpnaEpxaWpYX1lld2gwYTdlOXZ6TEszRV9YYk9LeEhJMjNLMjF5bVYzMUZtTUozR0JkZkNKa2xYTUdTWnJrTTdyMmxVbEJUcWpOMUZVZ2xMT3NqYkRRYl8tZFBDZC1QQXk3TWZReW9iR1hpWF85MXNHbURDYWktOTZ0NGVHSkc2TXBhUWU3eVZ6NFkSBBoCCAAaxgYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCOBggAEAAYACAAKkEKCXdhcmVob3VzZRVCMaM_GhNjb21tZXJjaWFsIHByb3BlcnR5Ggp3YXJlaG91c2VzGg5pdjtwO3dhcmVob3VzZSoKCgNmb3IVAAAAACo1CgRzYWxlFZTG60AaB2ZvcnNhbGUaC3JlYWwgZXN0YXRlGgRyZW50GgZyZW50YWwaBHNvbGQqCQoCaW4VAAAAACpDCgJrchVG695AGhBrcmlzaG5hcmFqYXB1cmFtGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoHaXY7cDtrcipQCgVwdXJhbRWU5u5AGhBrcmlzaG5hcmFqYXB1cmFtGgVuYWdhchoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaCml2O3A7cHVyYW0qNgoJYmFuZ2Fsb3JlFRVmBEEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLRAS9nb3RvP3VybD1DQUVTa0FFQjZ6c3dGUmxibG1SRTNBamg1WHhXQTBjUFowcXNBMmVhT3NLOWczR0NuRS1OdU5OXzVvbDB6Z2hKcWlqWF9ZZXdoMGE3ZTl2ekxLM0VfWGJPS3hISTIzSzIxeW1WMzFGbU1KM0dCZGZDSmtsWE1HU1pya003cjJsVWxCVHFqTjFGVWdsTE9zamJEUWJfLWRQQ2QtUEF5N01mUXlvYkdYaVhfOTFzR21EQ2FpLTk2dDRlR0pHNk1wYVFlN3lWejRZOkE8Yj5Db21tZXJjaWFsIFByb3BlcnR5IGZvciBTYWxlIGluIEtSIFB1cmFtPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkKDAVRoaXMgPGI-d2VsbCBidWlsdCB3YXJlaG91c2UgaW4gSyBSIFB1cmFtIGlzIGF2YWlsYWJsZSBmb3Igc2FsZTwvYj4sIGFuZCAzIHNob3BzIGlzIGF2YWlsYWJsZSBmb3Igc2FsZS4gcG9ydGlvbiBvZiA0NzAgc3F1YXJlIGZlZXQsSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "MagicBricks"
+   },
+   {
+    "position": 2,
+    "title": "Commercial Properties for Sale in Krishnarajapura ...",
+    "link": "https://www.nobroker.in/commercial-properties-for-sale-in-k_r_puram_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFWPAU_NlFYJ34R8ob9tfSXjgbTgQOj-t8kd7JVKpQSFj0TRpFa-kf9IX0ci42F_HngWk2XV6qJ2zC7OpcrhFXGsAYNOEEcZLJEsfhWA3wiSVBYUYPxj827SHIlKWbtij1_Uq3bbxzLRdnFymcXQRHNediJB6nxzEKqmrtVF20qPXV98t&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECB0QAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › commercial-properties-for-sa...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Commercial Property in K R Puram, Bangalore for sale. ₹12 Cr. EMI: ₹9.01 ... Warehouse godown for Sale in K R Puram · Commercial shops for Sale in K R ...",
+    "snippet_highlighted_words": [
+     "Commercial Property in K R Puram, Bangalore for sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Commercial Property in K R Puram, Bangalore for sale. ₹12 Cr. EMI: ₹9.01 ... Warehouse godown for Sale in K R Puram · Commercial shops for Sale in K R ...",
+      "source_info_link": "https://www.nobroker.in/commercial-properties-for-sale-in-k_r_puram_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZXUEFVX05sRllKMzRSOG9iOXRmU1hqZ2JUZ1FPai10OGtkN0pWS3BRU0ZqMFRScEZhLWtmOUlYMGNpNDJGX0huZ1drMlhWNnFKMnpDN09wY3JoRlhHc0FZTk9FRWNaTEpFc2ZoV0Ezd2lTVkJZVVlQeGo4MjdTSElsS1didGlqMV9VcTNiYnh6TFJkbkZ5bWNYUVJITmVkaUpCNm54ekVLcW1ydFZGMjBxUFhWOTh0EgQaAggAGu8GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAtwYIABAAGAAgACpBCgl3YXJlaG91c2UVEDAnQBoTY29tbWVyY2lhbCBwcm9wZXJ0eRoKd2FyZWhvdXNlcxoOaXY7cDt3YXJlaG91c2UqCgoDZm9yFQAAAAAqNQoEc2FsZRVAufFAGgdmb3JzYWxlGgtyZWFsIGVzdGF0ZRoEcmVudBoGcmVudGFsGgRzb2xkKgkKAmluFQAAAAAqQwoCa3IVwNHzPxoQa3Jpc2huYXJhamFwdXJhbRoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaB2l2O3A7a3IqUAoFcHVyYW0VwNHzPxoQa3Jpc2huYXJhamFwdXJhbRoFbmFnYXIaB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgppdjtwO3B1cmFtKjYKCWJhbmdhbG9yZRWr4OxAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUyxgEvZ290bz91cmw9Q0FFU2lBRUI2enN3RldQQVVfTmxGWUozNFI4b2I5dGZTWGpnYlRnUU9qLXQ4a2Q3SlZLcFFTRmowVFJwRmEta2Y5SVgwY2k0MkZfSG5nV2syWFY2cUoyekM3T3BjcmhGWEdzQVlOT0VFY1pMSkVzZmhXQTN3aVNWQllVWVB4ajgyN1NISWxLV2J0aWoxX1VxM2JieHpMUmRuRnltY1hRUkhOZWRpSkI2bnh6RUtxbXJ0VkYyMHFQWFY5OHQ6R0NvbW1lcmNpYWwgUHJvcGVydGllcyBmb3IgPGI-U2FsZTwvYj4gaW4gS3Jpc2huYXJhamFwdXJhIC4uLiAtIE5vQnJva2VyQrEBPGI-Q29tbWVyY2lhbCBQcm9wZXJ0eSBpbiBLIFIgUHVyYW0sIEJhbmdhbG9yZSBmb3Igc2FsZTwvYj4uIOKCuTEyIENyLiBFTUk6IOKCuTkuMDEgLi4uIFdhcmVob3VzZSBnb2Rvd24gZm9yIFNhbGUgaW4gSyBSIFB1cmFtICZtaWRkb3Q7IENvbW1lcmNpYWwgc2hvcHMgZm9yIFNhbGUgaW4gSyBSJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZXUEFVX05sRllKMzRSOG9iOXRmU1hqZ2JUZ1FPai10OGtkN0pWS3BRU0ZqMFRScEZhLWtmOUlYMGNpNDJGX0huZ1drMlhWNnFKMnpDN09wY3JoRlhHc0FZTk9FRWNaTEpFc2ZoV0Ezd2lTVkJZVVlQeGo4MjdTSElsS1didGlqMV9VcTNiYnh6TFJkbkZ5bWNYUVJITmVkaUpCNm54ekVLcW1ydFZGMjBxUFhWOTh0EgQaAggAGu8GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAtwYIABAAGAAgACpBCgl3YXJlaG91c2UVEDAnQBoTY29tbWVyY2lhbCBwcm9wZXJ0eRoKd2FyZWhvdXNlcxoOaXY7cDt3YXJlaG91c2UqCgoDZm9yFQAAAAAqNQoEc2FsZRVAufFAGgdmb3JzYWxlGgtyZWFsIGVzdGF0ZRoEcmVudBoGcmVudGFsGgRzb2xkKgkKAmluFQAAAAAqQwoCa3IVwNHzPxoQa3Jpc2huYXJhamFwdXJhbRoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaB2l2O3A7a3IqUAoFcHVyYW0VwNHzPxoQa3Jpc2huYXJhamFwdXJhbRoFbmFnYXIaB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgppdjtwO3B1cmFtKjYKCWJhbmdhbG9yZRWr4OxAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUyxgEvZ290bz91cmw9Q0FFU2lBRUI2enN3RldQQVVfTmxGWUozNFI4b2I5dGZTWGpnYlRnUU9qLXQ4a2Q3SlZLcFFTRmowVFJwRmEta2Y5SVgwY2k0MkZfSG5nV2syWFY2cUoyekM3T3BjcmhGWEdzQVlOT0VFY1pMSkVzZmhXQTN3aVNWQllVWVB4ajgyN1NISWxLV2J0aWoxX1VxM2JieHpMUmRuRnltY1hRUkhOZWRpSkI2bnh6RUtxbXJ0VkYyMHFQWFY5OHQ6R0NvbW1lcmNpYWwgUHJvcGVydGllcyBmb3IgPGI-U2FsZTwvYj4gaW4gS3Jpc2huYXJhamFwdXJhIC4uLiAtIE5vQnJva2VyQrEBPGI-Q29tbWVyY2lhbCBQcm9wZXJ0eSBpbiBLIFIgUHVyYW0sIEJhbmdhbG9yZSBmb3Igc2FsZTwvYj4uIOKCuTEyIENyLiBFTUk6IOKCuTkuMDEgLi4uIFdhcmVob3VzZSBnb2Rvd24gZm9yIFNhbGUgaW4gSyBSIFB1cmFtICZtaWRkb3Q7IENvbW1lcmNpYWwgc2hvcHMgZm9yIFNhbGUgaW4gSyBSJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/commercial-properties-for-sale-in-k_r_puram_bangalore#:~:text=Commercial%20Property%20in%20K%20R%20Puram%2C,EMI%3A%20%E2%82%B99.01%20Lacs%2Fm&text=Warehouse%20godown%20for%20Sale%20in,for%20Sale%20in%20K%20R%20Puram"
+   },
+   {
+    "position": 3,
+    "title": "Warehouse/Godown For Rent in KR Puram, Bangalore",
+    "link": "https://www.magicbricks.com/warehouse-godown-for-rent-in-k-r-puram-bangalore-pppfr",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjQEB6zswFXWg5RFLVxy4Y5k27vEpo08APXziAEbi8J6A884YdOXvSeqBlAgHM_58tEIy95fbA9llNOzaTgcVFVJD77b8XAgCn0QSJokgh_dLrzMNey_RPCG6j7ajQ5-mAVR_bNBuW2eT1w2cgTNgt8tOkI52xci4of68lVGsIGnsQPNC9nCujVCb9qjEcos&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › warehouse-godown-for...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "Warehouse/ Godown for Rent in ITPL, KR Puram ( 2 km from Krishnarajapura). Super Area. 2000 sqft. Furnishing Status. Unfurnished.",
+    "snippet_highlighted_words": [
+     "Warehouse/ Godown for Rent in ITPL, KR Puram"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Warehouse/ Godown for Rent in ITPL, KR Puram ( 2 km from Krishnarajapura). Super Area. 2000 sqft. Furnishing Status. Unfurnished.",
+      "source_info_link": "https://www.magicbricks.com/warehouse-godown-for-rent-in-k-r-puram-bangalore-pppfr",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZYV2c1UkZMVnh5NFk1azI3dkVwbzA4QVBYemlBRWJpOEo2QTg4NFlkT1h2U2VxQmxBZ0hNXzU4dEVJeTk1ZmJBOWxsTk96YVRnY1ZGVkpENzdiOFhBZ0NuMFFTSm9rZ2hfZExyek1OZXlfUlBDRzZqN2FqUTUtbUFWUl9iTkJ1VzJlVDF3MmNnVE5ndDh0T2tJNTJ4Y2k0b2Y2OGxWR3NJR25zUVBOQzluQ3VqVkNiOXFqRWNvcxIEGgIIABrLBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQJMGCAAQABgAIAAqQQoJd2FyZWhvdXNlFVk5_0AaE2NvbW1lcmNpYWwgcHJvcGVydHkaCndhcmVob3VzZXMaDml2O3A7d2FyZWhvdXNlKgoKA2ZvchUAAAAAKjUKBHNhbGUVx0LjPxoHZm9yc2FsZRoLcmVhbCBlc3RhdGUaBHJlbnQaBnJlbnRhbBoEc29sZCoJCgJpbhUAAAAAKkMKAmtyFev53kAaEGtyaXNobmFyYWphcHVyYW0aB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgdpdjtwO2tyKlAKBXB1cmFtFfDz-kAaEGtyaXNobmFyYWphcHVyYW0aBW5hZ2FyGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoKaXY7cDtwdXJhbSo2CgliYW5nYWxvcmUV5SAFQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZYV2c1UkZMVnh5NFk1azI3dkVwbzA4QVBYemlBRWJpOEo2QTg4NFlkT1h2U2VxQmxBZ0hNXzU4dEVJeTk1ZmJBOWxsTk96YVRnY1ZGVkpENzdiOFhBZ0NuMFFTSm9rZ2hfZExyek1OZXlfUlBDRzZqN2FqUTUtbUFWUl9iTkJ1VzJlVDF3MmNnVE5ndDh0T2tJNTJ4Y2k0b2Y2OGxWR3NJR25zUVBOQzluQ3VqVkNiOXFqRWNvczpFPGI-V2FyZWhvdXNlPC9iPi9Hb2Rvd24gRm9yIDxiPlJlbnQgaW4gS1IgUHVyYW08L2I-LCA8Yj5CYW5nYWxvcmU8L2I-QogBPGI-V2FyZWhvdXNlLyBHb2Rvd24gZm9yIFJlbnQgaW4gSVRQTCwgS1IgUHVyYW08L2I-ICggMiBrbSBmcm9tIEtyaXNobmFyYWphcHVyYSkuIFN1cGVyIEFyZWEuIDIwMDAgc3FmdC4gRnVybmlzaGluZyBTdGF0dXMuIFVuZnVybmlzaGVkLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZYV2c1UkZMVnh5NFk1azI3dkVwbzA4QVBYemlBRWJpOEo2QTg4NFlkT1h2U2VxQmxBZ0hNXzU4dEVJeTk1ZmJBOWxsTk96YVRnY1ZGVkpENzdiOFhBZ0NuMFFTSm9rZ2hfZExyek1OZXlfUlBDRzZqN2FqUTUtbUFWUl9iTkJ1VzJlVDF3MmNnVE5ndDh0T2tJNTJ4Y2k0b2Y2OGxWR3NJR25zUVBOQzluQ3VqVkNiOXFqRWNvcxIEGgIIABrLBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQJMGCAAQABgAIAAqQQoJd2FyZWhvdXNlFVk5_0AaE2NvbW1lcmNpYWwgcHJvcGVydHkaCndhcmVob3VzZXMaDml2O3A7d2FyZWhvdXNlKgoKA2ZvchUAAAAAKjUKBHNhbGUVx0LjPxoHZm9yc2FsZRoLcmVhbCBlc3RhdGUaBHJlbnQaBnJlbnRhbBoEc29sZCoJCgJpbhUAAAAAKkMKAmtyFev53kAaEGtyaXNobmFyYWphcHVyYW0aB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgdpdjtwO2tyKlAKBXB1cmFtFfDz-kAaEGtyaXNobmFyYWphcHVyYW0aBW5hZ2FyGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoKaXY7cDtwdXJhbSo2CgliYW5nYWxvcmUV5SAFQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZYV2c1UkZMVnh5NFk1azI3dkVwbzA4QVBYemlBRWJpOEo2QTg4NFlkT1h2U2VxQmxBZ0hNXzU4dEVJeTk1ZmJBOWxsTk96YVRnY1ZGVkpENzdiOFhBZ0NuMFFTSm9rZ2hfZExyek1OZXlfUlBDRzZqN2FqUTUtbUFWUl9iTkJ1VzJlVDF3MmNnVE5ndDh0T2tJNTJ4Y2k0b2Y2OGxWR3NJR25zUVBOQzluQ3VqVkNiOXFqRWNvczpFPGI-V2FyZWhvdXNlPC9iPi9Hb2Rvd24gRm9yIDxiPlJlbnQgaW4gS1IgUHVyYW08L2I-LCA8Yj5CYW5nYWxvcmU8L2I-QogBPGI-V2FyZWhvdXNlLyBHb2Rvd24gZm9yIFJlbnQgaW4gSVRQTCwgS1IgUHVyYW08L2I-ICggMiBrbSBmcm9tIEtyaXNobmFyYWphcHVyYSkuIFN1cGVyIEFyZWEuIDIwMDAgc3FmdC4gRnVybmlzaGluZyBTdGF0dXMuIFVuZnVybmlzaGVkLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "MagicBricks",
+    "read_more_link": "https://www.magicbricks.com/warehouse-godown-for-rent-in-k-r-puram-bangalore-pppfr#:~:text=Warehouse%2F%20Godown%20for%20Rent%20in,Unfurnished"
+   },
+   {
+    "position": 4,
+    "title": "Factory for sale in KR Puram, Bangalore",
+    "link": "https://www.99acres.com/factory-land-in-kr-puram-bangalore-east-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfwHrOzAVahz1Kw3laif__6HGHVOf1PXrtodzsgNBOsa_eQrnTqh5Vfxu8M166U-2s7b2bl9OGV6-Ybf3uN9T0m2uMRCQrjGAev8PUzp_zuB77XRlopydh2-n29emX1IJnfRLxrlzS5pRl0hMzXehAChm2-QxbPbSS63OKvm2mfo&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECBoQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › factory-land-in-kr-puram-b...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Immediate availability of a 2400 sqft warehouse in keb colony, hoodi, bangalore east. Priced at rs1.25 lac, this commercial property is 0-1 year old and ...",
+    "snippet_highlighted_words": [
+     "2400 sqft warehouse"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Immediate availability of a 2400 sqft warehouse in keb colony, hoodi, bangalore east. Priced at rs1.25 lac, this commercial property is 0-1 year old and ...",
+      "source_info_link": "https://www.99acres.com/factory-land-in-kr-puram-bangalore-east-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVmFoejFLdzNsYWlmX182SEdIVk9mMVBYcnRvZHpzZ05CT3NhX2VRcm5UcWg1VmZ4dThNMTY2VS0yczdiMmJsOU9HVjYtWWJmM3VOOVQwbTJ1TVJDUXJqR0FldjhQVXpwX3p1Qjc3WFJsb3B5ZGgyLW4yOWVtWDFJSm5mUkx4cmx6UzVwUmwwaE16WGVoQUNobTItUXhiUGJTUzYzT0t2bTJtZm8SBBoCCAAa5AYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCdBggAEAAYACAAKkEKCXdhcmVob3VzZRV95fo_GhNjb21tZXJjaWFsIHByb3BlcnR5Ggp3YXJlaG91c2VzGg5pdjtwO3dhcmVob3VzZSoKCgNmb3IVAAAAACo1CgRzYWxlFZoP0EAaB2ZvcnNhbGUaC3JlYWwgZXN0YXRlGgRyZW50GgZyZW50YWwaBHNvbGQqCQoCaW4VAAAAACpDCgJrchUOhaVAGhBrcmlzaG5hcmFqYXB1cmFtGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoHaXY7cDtrcipQCgVwdXJhbRUOhaVAGhBrcmlzaG5hcmFqYXB1cmFtGgVuYWdhchoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaCml2O3A7cHVyYW0qNgoJYmFuZ2Fsb3JlFbCeyUAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTK5AS9nb3RvP3VybD1DQUVTZndIck96QVZhaHoxS3czbGFpZl9fNkhHSFZPZjFQWHJ0b2R6c2dOQk9zYV9lUXJuVHFoNVZmeHU4TTE2NlUtMnM3YjJibDlPR1Y2LVliZjN1TjlUMG0ydU1SQ1FyakdBZXY4UFV6cF96dUI3N1hSbG9weWRoMi1uMjllbVgxSUpuZlJMeHJselM1cFJsMGhNelhlaEFDaG0yLVF4YlBiU1M2M09Ldm0ybWZvOkNGYWN0b3J5IGZvciA8Yj5zYWxlIGluIEtSIFB1cmFtPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIDk5YWNyZXMuY29tQqgBSW1tZWRpYXRlIGF2YWlsYWJpbGl0eSBvZiBhIDxiPjI0MDAgc3FmdCB3YXJlaG91c2U8L2I-IGluIGtlYiBjb2xvbnksIGhvb2RpLCBiYW5nYWxvcmUgZWFzdC4gUHJpY2VkIGF0IHJzMS4yNSBsYWMsIHRoaXMgY29tbWVyY2lhbCBwcm9wZXJ0eSBpcyAwLTEgeWVhciBvbGQgYW5kJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVmFoejFLdzNsYWlmX182SEdIVk9mMVBYcnRvZHpzZ05CT3NhX2VRcm5UcWg1VmZ4dThNMTY2VS0yczdiMmJsOU9HVjYtWWJmM3VOOVQwbTJ1TVJDUXJqR0FldjhQVXpwX3p1Qjc3WFJsb3B5ZGgyLW4yOWVtWDFJSm5mUkx4cmx6UzVwUmwwaE16WGVoQUNobTItUXhiUGJTUzYzT0t2bTJtZm8SBBoCCAAa5AYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCdBggAEAAYACAAKkEKCXdhcmVob3VzZRV95fo_GhNjb21tZXJjaWFsIHByb3BlcnR5Ggp3YXJlaG91c2VzGg5pdjtwO3dhcmVob3VzZSoKCgNmb3IVAAAAACo1CgRzYWxlFZoP0EAaB2ZvcnNhbGUaC3JlYWwgZXN0YXRlGgRyZW50GgZyZW50YWwaBHNvbGQqCQoCaW4VAAAAACpDCgJrchUOhaVAGhBrcmlzaG5hcmFqYXB1cmFtGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoHaXY7cDtrcipQCgVwdXJhbRUOhaVAGhBrcmlzaG5hcmFqYXB1cmFtGgVuYWdhchoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaCml2O3A7cHVyYW0qNgoJYmFuZ2Fsb3JlFbCeyUAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTK5AS9nb3RvP3VybD1DQUVTZndIck96QVZhaHoxS3czbGFpZl9fNkhHSFZPZjFQWHJ0b2R6c2dOQk9zYV9lUXJuVHFoNVZmeHU4TTE2NlUtMnM3YjJibDlPR1Y2LVliZjN1TjlUMG0ydU1SQ1FyakdBZXY4UFV6cF96dUI3N1hSbG9weWRoMi1uMjllbVgxSUpuZlJMeHJselM1cFJsMGhNelhlaEFDaG0yLVF4YlBiU1M2M09Ldm0ybWZvOkNGYWN0b3J5IGZvciA8Yj5zYWxlIGluIEtSIFB1cmFtPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIDk5YWNyZXMuY29tQqgBSW1tZWRpYXRlIGF2YWlsYWJpbGl0eSBvZiBhIDxiPjI0MDAgc3FmdCB3YXJlaG91c2U8L2I-IGluIGtlYiBjb2xvbnksIGhvb2RpLCBiYW5nYWxvcmUgZWFzdC4gUHJpY2VkIGF0IHJzMS4yNSBsYWMsIHRoaXMgY29tbWVyY2lhbCBwcm9wZXJ0eSBpcyAwLTEgeWVhciBvbGQgYW5kJm5ic3A7Li4uSgNmb3JKAmluIgIQAUgAWABoAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 5,
+    "title": "Warehouse / Godown for Rent in KR Puram, Bangalore",
+    "link": "https://www.99acres.com/warehouse-for-rent-in-kr-puram-bangalore-east-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFTUeqPV4-tsBrpXrapWvsxocL6b1EWcR0wF5pemwd3bak9ubOQFPw29Cv_gZncYcySiuJRYk8h3hSwt8aFkUvtlupcARfDOoIASMAfM5Ct1DyHI4OBfmJQQqbJAnpnDdAsZgVojJ4u0NBOb8DVSRsix0E4RKfHwc2n-C9rK8BJtH&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECBwQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › warehouse-for-rent-in-kr-pu...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Located in tc palaya, kr puram, this 350 sqft commercial warehouse is available for lease at rs35,000. Featuring one washroom and immediate availability, it ...",
+    "snippet_highlighted_words": [
+     "Located in tc palaya, kr puram"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Located in tc palaya, kr puram, this 350 sqft commercial warehouse is available for lease at rs35,000. Featuring one washroom and immediate availability, it ...",
+      "source_info_link": "https://www.99acres.com/warehouse-for-rent-in-kr-puram-bangalore-east-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZUVWVxUFY0LXRzQnJwWHJhcFd2c3hvY0w2YjFFV2NSMHdGNXBlbXdkM2Jhazl1Yk9RRlB3MjlDdl9nWm5jWWN5U2l1SlJZazhoM2hTd3Q4YUZrVXZ0bHVwY0FSZkRPb0lBU01BZk01Q3QxRHlISTRPQmZtSlFRcWJKQW5wbkRkQXNaZ1Zvako0dTBOQk9iOERWU1JzaXgwRTRSS2ZId2Mybi1DOXJLOEJKdEgSBBoCCAAa9QYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCuBggAEAAYACAAKkEKCXdhcmVob3VzZRUOS_BAGhNjb21tZXJjaWFsIHByb3BlcnR5Ggp3YXJlaG91c2VzGg5pdjtwO3dhcmVob3VzZSoKCgNmb3IVAAAAACo1CgRzYWxlFbOPYj8aB2ZvcnNhbGUaC3JlYWwgZXN0YXRlGgRyZW50GgZyZW50YWwaBHNvbGQqCQoCaW4VAAAAACpDCgJrchW0QfNAGhBrcmlzaG5hcmFqYXB1cmFtGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoHaXY7cDtrcipQCgVwdXJhbRW0QfNAGhBrcmlzaG5hcmFqYXB1cmFtGgVuYWdhchoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaCml2O3A7cHVyYW0qNgoJYmFuZ2Fsb3JlFXF06UAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLCAS9nb3RvP3VybD1DQUVTaFFFQjZ6c3dGVFVlcVBWNC10c0JycFhyYXBXdnN4b2NMNmIxRVdjUjB3RjVwZW13ZDNiYWs5dWJPUUZQdzI5Q3ZfZ1puY1ljeVNpdUpSWWs4aDNoU3d0OGFGa1V2dGx1cGNBUmZET29JQVNNQWZNNUN0MUR5SEk0T0JmbUpRUXFiSkFucG5EZEFzWmdWb2pKNHUwTkJPYjhEVlNSc2l4MEU0UktmSHdjMm4tQzlySzhCSnRIOkc8Yj5XYXJlaG91c2U8L2I-IC8gR29kb3duIGZvciA8Yj5SZW50IGluIEtSIFB1cmFtPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkKsATxiPkxvY2F0ZWQgaW4gdGMgcGFsYXlhLCBrciBwdXJhbTwvYj4sIHRoaXMgMzUwIHNxZnQgY29tbWVyY2lhbCB3YXJlaG91c2UgaXMgYXZhaWxhYmxlIGZvciBsZWFzZSBhdCByczM1LDAwMC4gRmVhdHVyaW5nIG9uZSB3YXNocm9vbSBhbmQgaW1tZWRpYXRlIGF2YWlsYWJpbGl0eSwgaXQmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZUVWVxUFY0LXRzQnJwWHJhcFd2c3hvY0w2YjFFV2NSMHdGNXBlbXdkM2Jhazl1Yk9RRlB3MjlDdl9nWm5jWWN5U2l1SlJZazhoM2hTd3Q4YUZrVXZ0bHVwY0FSZkRPb0lBU01BZk01Q3QxRHlISTRPQmZtSlFRcWJKQW5wbkRkQXNaZ1Zvako0dTBOQk9iOERWU1JzaXgwRTRSS2ZId2Mybi1DOXJLOEJKdEgSBBoCCAAa9QYSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkCuBggAEAAYACAAKkEKCXdhcmVob3VzZRUOS_BAGhNjb21tZXJjaWFsIHByb3BlcnR5Ggp3YXJlaG91c2VzGg5pdjtwO3dhcmVob3VzZSoKCgNmb3IVAAAAACo1CgRzYWxlFbOPYj8aB2ZvcnNhbGUaC3JlYWwgZXN0YXRlGgRyZW50GgZyZW50YWwaBHNvbGQqCQoCaW4VAAAAACpDCgJrchW0QfNAGhBrcmlzaG5hcmFqYXB1cmFtGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoHaXY7cDtrcipQCgVwdXJhbRW0QfNAGhBrcmlzaG5hcmFqYXB1cmFtGgVuYWdhchoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaCml2O3A7cHVyYW0qNgoJYmFuZ2Fsb3JlFXF06UAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLCAS9nb3RvP3VybD1DQUVTaFFFQjZ6c3dGVFVlcVBWNC10c0JycFhyYXBXdnN4b2NMNmIxRVdjUjB3RjVwZW13ZDNiYWs5dWJPUUZQdzI5Q3ZfZ1puY1ljeVNpdUpSWWs4aDNoU3d0OGFGa1V2dGx1cGNBUmZET29JQVNNQWZNNUN0MUR5SEk0T0JmbUpRUXFiSkFucG5EZEFzWmdWb2pKNHUwTkJPYjhEVlNSc2l4MEU0UktmSHdjMm4tQzlySzhCSnRIOkc8Yj5XYXJlaG91c2U8L2I-IC8gR29kb3duIGZvciA8Yj5SZW50IGluIEtSIFB1cmFtPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkKsATxiPkxvY2F0ZWQgaW4gdGMgcGFsYXlhLCBrciBwdXJhbTwvYj4sIHRoaXMgMzUwIHNxZnQgY29tbWVyY2lhbCB3YXJlaG91c2UgaXMgYXZhaWxhYmxlIGZvciBsZWFzZSBhdCByczM1LDAwMC4gRmVhdHVyaW5nIG9uZSB3YXNocm9vbSBhbmQgaW1tZWRpYXRlIGF2YWlsYWJpbGl0eSwgaXQmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/warehouse-for-rent-in-kr-puram-bangalore-east-ffid#:~:text=Located%20in%20tc%20palaya%2C%20kr,a%20strategic%20bangalore%20east%20location."
+   },
+   {
+    "position": 6,
+    "title": "Shops for Sale in Krishnarajapura ...",
+    "link": "https://www.nobroker.in/commercial-shops-for-sale-in-k_r_puram_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFSCxbj1-2h4DpV35RPBin6jby2qKT_0h82lNM4FfiN8oiPWtYIFOCKGVO9bg6QG7qxqxAbuUyCrUnuk1zF4CbkV-baoCcZKwAaHDd0CiPEyq5255lC8MIUX492peRnYjIhvXB_i05OG7OM7gH-iPwkjecOoDttfQAv-RJB_5AA&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › commercial-shops-for-sale-i...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Shop in K R Puram, Bangalore for sale. ₹3.84 Cr. EMI: ₹2.88 Lacs/m ... Warehouse godown for Sale in K R Puram · Industrial building for Sale in K R ...",
+    "snippet_highlighted_words": [
+     "Warehouse godown for Sale in K R Puram"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Shop in K R Puram, Bangalore for sale. ₹3.84 Cr. EMI: ₹2.88 Lacs/m ... Warehouse godown for Sale in K R Puram · Industrial building for Sale in K R ...",
+      "source_info_link": "https://www.nobroker.in/commercial-shops-for-sale-in-k_r_puram_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZTQ3hiajEtMmg0RHBWMzVSUEJpbjZqYnkycUtUXzBoODJsTk00RmZpTjhvaVBXdFlJRk9DS0dWTzliZzZRRzdxeHF4QWJ1VXlDclVudWsxekY0Q2JrVi1iYW9DY1pLd0FhSERkMENpUEV5cTUyNTVsQzhNSVVYNDkycGVSbllqSWh2WEJfaTA1T0c3T003Z0gtaVB3a2plY09vRHR0ZlFBdi1SSkJfNUFBEgQaAggAGugGEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAsAYIABAAGAAgACpBCgl3YXJlaG91c2UVg3SAPxoTY29tbWVyY2lhbCBwcm9wZXJ0eRoKd2FyZWhvdXNlcxoOaXY7cDt3YXJlaG91c2UqCgoDZm9yFQAAAAAqNQoEc2FsZRUFieZAGgdmb3JzYWxlGgtyZWFsIGVzdGF0ZRoEcmVudBoGcmVudGFsGgRzb2xkKgkKAmluFQAAAAAqQwoCa3IVQM8EQBoQa3Jpc2huYXJhamFwdXJhbRoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaB2l2O3A7a3IqUAoFcHVyYW0VQM8EQBoQa3Jpc2huYXJhamFwdXJhbRoFbmFnYXIaB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgppdjtwO3B1cmFtKjYKCWJhbmdhbG9yZRVDBuFAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RlNDeGJqMS0yaDREcFYzNVJQQmluNmpieTJxS1RfMGg4MmxOTTRGZmlOOG9pUFd0WUlGT0NLR1ZPOWJnNlFHN3F4cXhBYnVVeUNyVW51azF6RjRDYmtWLWJhb0NjWkt3QWFIRGQwQ2lQRXlxNTI1NWxDOE1JVVg0OTJwZVJuWWpJaHZYQl9pMDVPRzdPTTdnSC1pUHdramVjT29EdHRmUUF2LVJKQl81QUE6SVNob3BzIGZvciA8Yj5TYWxlPC9iPiBpbiBLcmlzaG5hcmFqYXB1cmEgS3Jpc2huYXJhamFwdXJhIDxiPkJhbmdhbG9yZTwvYj5CrgFTaG9wIGluIEsgUiBQdXJhbSwgQmFuZ2Fsb3JlIGZvciBzYWxlLiDigrkzLjg0IENyLiBFTUk6IOKCuTIuODggTGFjcy9tIC4uLiA8Yj5XYXJlaG91c2UgZ29kb3duIGZvciBTYWxlIGluIEsgUiBQdXJhbTwvYj4gJm1pZGRvdDsgSW5kdXN0cmlhbCBidWlsZGluZyBmb3IgU2FsZSBpbiBLIFImbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZTQ3hiajEtMmg0RHBWMzVSUEJpbjZqYnkycUtUXzBoODJsTk00RmZpTjhvaVBXdFlJRk9DS0dWTzliZzZRRzdxeHF4QWJ1VXlDclVudWsxekY0Q2JrVi1iYW9DY1pLd0FhSERkMENpUEV5cTUyNTVsQzhNSVVYNDkycGVSbllqSWh2WEJfaTA1T0c3T003Z0gtaVB3a2plY09vRHR0ZlFBdi1SSkJfNUFBEgQaAggAGugGEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAsAYIABAAGAAgACpBCgl3YXJlaG91c2UVg3SAPxoTY29tbWVyY2lhbCBwcm9wZXJ0eRoKd2FyZWhvdXNlcxoOaXY7cDt3YXJlaG91c2UqCgoDZm9yFQAAAAAqNQoEc2FsZRUFieZAGgdmb3JzYWxlGgtyZWFsIGVzdGF0ZRoEcmVudBoGcmVudGFsGgRzb2xkKgkKAmluFQAAAAAqQwoCa3IVQM8EQBoQa3Jpc2huYXJhamFwdXJhbRoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaB2l2O3A7a3IqUAoFcHVyYW0VQM8EQBoQa3Jpc2huYXJhamFwdXJhbRoFbmFnYXIaB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgppdjtwO3B1cmFtKjYKCWJhbmdhbG9yZRVDBuFAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RlNDeGJqMS0yaDREcFYzNVJQQmluNmpieTJxS1RfMGg4MmxOTTRGZmlOOG9pUFd0WUlGT0NLR1ZPOWJnNlFHN3F4cXhBYnVVeUNyVW51azF6RjRDYmtWLWJhb0NjWkt3QWFIRGQwQ2lQRXlxNTI1NWxDOE1JVVg0OTJwZVJuWWpJaHZYQl9pMDVPRzdPTTdnSC1pUHdramVjT29EdHRmUUF2LVJKQl81QUE6SVNob3BzIGZvciA8Yj5TYWxlPC9iPiBpbiBLcmlzaG5hcmFqYXB1cmEgS3Jpc2huYXJhamFwdXJhIDxiPkJhbmdhbG9yZTwvYj5CrgFTaG9wIGluIEsgUiBQdXJhbSwgQmFuZ2Fsb3JlIGZvciBzYWxlLiDigrkzLjg0IENyLiBFTUk6IOKCuTIuODggTGFjcy9tIC4uLiA8Yj5XYXJlaG91c2UgZ29kb3duIGZvciBTYWxlIGluIEsgUiBQdXJhbTwvYj4gJm1pZGRvdDsgSW5kdXN0cmlhbCBidWlsZGluZyBmb3IgU2FsZSBpbiBLIFImbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/commercial-shops-for-sale-in-k_r_puram_bangalore#:~:text=Shop%20in%20K%20R%20Puram%2C%20Bangalore,EMI%3A%20%E2%82%B92.88%20Lacs%2Fm&text=Warehouse%20godown%20for%20Sale%20in,for%20Sale%20in%20K%20R%20Puram"
+   },
+   {
+    "position": 7,
+    "title": "Commercial property for sale in Basavanapura, KR Puram",
+    "link": "https://www.99acres.com/commercial-property-in-basavanapura-bangalore-east-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESigEB6zswFSFMCMcyWsW2M2p4eD1XTANKVxmjqPLHSGpMsd7bUFfUxX1arDhFjzxPae_W7NR-qH2Ri8Alz8YDJcDBvffXT4gy70kSEW7DdoBj0jkmzr_8Bev7lMzBlBleE_aWBEchwXbc2gdrTgRQ37iEfMJLiGiOlwTKxXo3rcQ377FuUx86Lj9HaZY&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECDMQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-property-in-bas...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "KR Puram for Sale 550 sqft(51 sqm) Carpet area suitable for commercial 3-4 retail shops and storage purpose",
+    "snippet_highlighted_words": [
+     "KR Puram for Sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "KR Puram for Sale 550 sqft(51 sqm) Carpet area suitable for commercial 3-4 retail shops and storage purpose",
+      "source_info_link": "https://www.99acres.com/commercial-property-in-basavanapura-bangalore-east-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CskBL2dvdG8_dXJsPUNBRVNpZ0VCNnpzd0ZTRk1DTWN5V3NXMk0ycDRlRDFYVEFOS1Z4bWpxUExIU0dwTXNkN2JVRmZVeFgxYXJEaEZqenhQYWVfVzdOUi1xSDJSaThBbHo4WURKY0RCdmZmWFQ0Z3k3MGtTRVc3RGRvQmowamttenJfOEJldjdsTXpCbEJsZUVfYVdCRWNod1hiYzJnZHJUZ1JRMzdpRWZNSkxpR2lPbHdUS3hYbzNyY1EzNzdGdVV4ODZMajlIYVpZEgQaAggAGr4GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA9wUIABAAGAAgACpBCgl3YXJlaG91c2UVolmmPxoTY29tbWVyY2lhbCBwcm9wZXJ0eRoKd2FyZWhvdXNlcxoOaXY7cDt3YXJlaG91c2UqCgoDZm9yFQAAAAAqNQoEc2FsZRUOQsxAGgdmb3JzYWxlGgtyZWFsIGVzdGF0ZRoEcmVudBoGcmVudGFsGgRzb2xkKgkKAmluFQAAAAAqQwoCa3IVfE-pQBoQa3Jpc2huYXJhamFwdXJhbRoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaB2l2O3A7a3IqUAoFcHVyYW0VfE-pQBoQa3Jpc2huYXJhamFwdXJhbRoFbmFnYXIaB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgppdjtwO3B1cmFtKjYKCWJhbmdhbG9yZRXR03dAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUyyQEvZ290bz91cmw9Q0FFU2lnRUI2enN3RlNGTUNNY3lXc1cyTTJwNGVEMVhUQU5LVnhtanFQTEhTR3BNc2Q3YlVGZlV4WDFhckRoRmp6eFBhZV9XN05SLXFIMlJpOEFsejhZREpjREJ2ZmZYVDRneTcwa1NFVzdEZG9CajBqa216cl84QmV2N2xNekJsQmxlRV9hV0JFY2h3WGJjMmdkclRnUlEzN2lFZk1KTGlHaU9sd1RLeFhvM3JjUTM3N0Z1VXg4NkxqOUhhWlk6RDxiPkNvbW1lcmNpYWwgcHJvcGVydHkgZm9yIHNhbGU8L2I-IGluIEJhc2F2YW5hcHVyYSwgPGI-S1IgUHVyYW08L2I-QnI8Yj5LUiBQdXJhbSBmb3IgU2FsZTwvYj4gNTUwIHNxZnQoNTEgc3FtKSBDYXJwZXQgYXJlYSBzdWl0YWJsZSBmb3IgY29tbWVyY2lhbCAzLTQgcmV0YWlsIHNob3BzIGFuZCBzdG9yYWdlIHB1cnBvc2VKA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CskBL2dvdG8_dXJsPUNBRVNpZ0VCNnpzd0ZTRk1DTWN5V3NXMk0ycDRlRDFYVEFOS1Z4bWpxUExIU0dwTXNkN2JVRmZVeFgxYXJEaEZqenhQYWVfVzdOUi1xSDJSaThBbHo4WURKY0RCdmZmWFQ0Z3k3MGtTRVc3RGRvQmowamttenJfOEJldjdsTXpCbEJsZUVfYVdCRWNod1hiYzJnZHJUZ1JRMzdpRWZNSkxpR2lPbHdUS3hYbzNyY1EzNzdGdVV4ODZMajlIYVpZEgQaAggAGr4GEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA9wUIABAAGAAgACpBCgl3YXJlaG91c2UVolmmPxoTY29tbWVyY2lhbCBwcm9wZXJ0eRoKd2FyZWhvdXNlcxoOaXY7cDt3YXJlaG91c2UqCgoDZm9yFQAAAAAqNQoEc2FsZRUOQsxAGgdmb3JzYWxlGgtyZWFsIGVzdGF0ZRoEcmVudBoGcmVudGFsGgRzb2xkKgkKAmluFQAAAAAqQwoCa3IVfE-pQBoQa3Jpc2huYXJhamFwdXJhbRoHa3JwdXJhbRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaB2l2O3A7a3IqUAoFcHVyYW0VfE-pQBoQa3Jpc2huYXJhamFwdXJhbRoFbmFnYXIaB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgppdjtwO3B1cmFtKjYKCWJhbmdhbG9yZRXR03dAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUyyQEvZ290bz91cmw9Q0FFU2lnRUI2enN3RlNGTUNNY3lXc1cyTTJwNGVEMVhUQU5LVnhtanFQTEhTR3BNc2Q3YlVGZlV4WDFhckRoRmp6eFBhZV9XN05SLXFIMlJpOEFsejhZREpjREJ2ZmZYVDRneTcwa1NFVzdEZG9CajBqa216cl84QmV2N2xNekJsQmxlRV9hV0JFY2h3WGJjMmdkclRnUlEzN2lFZk1KTGlHaU9sd1RLeFhvM3JjUTM3N0Z1VXg4NkxqOUhhWlk6RDxiPkNvbW1lcmNpYWwgcHJvcGVydHkgZm9yIHNhbGU8L2I-IGluIEJhc2F2YW5hcHVyYSwgPGI-S1IgUHVyYW08L2I-QnI8Yj5LUiBQdXJhbSBmb3IgU2FsZTwvYj4gNTUwIHNxZnQoNTEgc3FtKSBDYXJwZXQgYXJlYSBzdWl0YWJsZSBmb3IgY29tbWVyY2lhbCAzLTQgcmV0YWlsIHNob3BzIGFuZCBzdG9yYWdlIHB1cnBvc2VKA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 8,
+    "title": "Warehouse or Godown For Sale in KR Puram Railway ...",
+    "link": "https://www.nobroker.in/warehouse-godown-for-sale-near-kr_puram_railway_station_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlAEB6zswFbVG2wjeOKxolcqoQNUFNgaxq-CNJ3OXmpu5qumPVaGlP6KeA7F2nu1XiYV0zH7cBmqgNOr0rIQ2qRYVMaW2852DvgzM43OacqlEE6pZBI61w7KsodVneqfsD0UNKV5gai96-sCycfGo7kpr7oDRk7Nx_lldeoCaYKQNlW3ROvm7K3S7fHIEjZdfbu3Ghi8R&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECDIQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › warehouse-godown-for-sale-...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "4 - Warehouse or Godown For Sale in KR Puram Railway Station Bangalore ; Godown/Warehouse in Sannatammanahalli, Bangalore for sale · 4.56 Cr. EMI: ₹3.42 Lacs/m.",
+    "snippet_highlighted_words": [
+     "Warehouse or Godown For Sale in KR Puram Railway Station Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "4 - Warehouse or Godown For Sale in KR Puram Railway Station Bangalore ; Godown/Warehouse in Sannatammanahalli, Bangalore for sale · 4.56 Cr. EMI: ₹3.42 Lacs/m.",
+      "source_info_link": "https://www.nobroker.in/warehouse-godown-for-sale-near-kr_puram_railway_station_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZiVkcyd2plT0t4b2xjcW9RTlVGTmdheHEtQ05KM09YbXB1NXF1bVBWYUdsUDZLZUE3RjJudTFYaVlWMHpIN2NCbXFnTk9yMHJJUTJxUllWTWFXMjg1MkR2Z3pNNDNPYWNxbEVFNnBaQkk2MXc3S3NvZFZuZXFmc0QwVU5LVjVnYWk5Ni1zQ3ljZkdvN2twcjdvRFJrN054X2xsZGVvQ2FZS1FObFczUk92bTdLM1M3ZkhJRWpaZGZidTNHaGk4UhIEGgIIABqBBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQMkGCAAQABgAIAAqQQoJd2FyZWhvdXNlFZ8ZE0EaE2NvbW1lcmNpYWwgcHJvcGVydHkaCndhcmVob3VzZXMaDml2O3A7d2FyZWhvdXNlKgoKA2ZvchUAAAAAKjUKBHNhbGUV_gwQQRoHZm9yc2FsZRoLcmVhbCBlc3RhdGUaBHJlbnQaBnJlbnRhbBoEc29sZCoJCgJpbhUAAAAAKkMKAmtyFcC2xEAaEGtyaXNobmFyYWphcHVyYW0aB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgdpdjtwO2tyKlAKBXB1cmFtFcC2xEAaEGtyaXNobmFyYWphcHVyYW0aBW5hZ2FyGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoKaXY7cDtwdXJhbSo2CgliYW5nYWxvcmUVBqQKQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZiVkcyd2plT0t4b2xjcW9RTlVGTmdheHEtQ05KM09YbXB1NXF1bVBWYUdsUDZLZUE3RjJudTFYaVlWMHpIN2NCbXFnTk9yMHJJUTJxUllWTWFXMjg1MkR2Z3pNNDNPYWNxbEVFNnBaQkk2MXc3S3NvZFZuZXFmc0QwVU5LVjVnYWk5Ni1zQ3ljZkdvN2twcjdvRFJrN054X2xsZGVvQ2FZS1FObFczUk92bTdLM1M3ZkhJRWpaZGZidTNHaGk4UjpKPGI-V2FyZWhvdXNlPC9iPiBvciBHb2Rvd24gRm9yIDxiPlNhbGUgaW4gS1IgUHVyYW08L2I-IFJhaWx3YXkgU3RhdGlvbiAuLi5CsAE0IC0gPGI-V2FyZWhvdXNlIG9yIEdvZG93biBGb3IgU2FsZSBpbiBLUiBQdXJhbSBSYWlsd2F5IFN0YXRpb24gQmFuZ2Fsb3JlPC9iPiA7IEdvZG93bi9XYXJlaG91c2UgaW4gU2FubmF0YW1tYW5haGFsbGksIEJhbmdhbG9yZSBmb3Igc2FsZSAmbWlkZG90OyA0LjU2IENyLiBFTUk6IOKCuTMuNDIgTGFjcy9tLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZiVkcyd2plT0t4b2xjcW9RTlVGTmdheHEtQ05KM09YbXB1NXF1bVBWYUdsUDZLZUE3RjJudTFYaVlWMHpIN2NCbXFnTk9yMHJJUTJxUllWTWFXMjg1MkR2Z3pNNDNPYWNxbEVFNnBaQkk2MXc3S3NvZFZuZXFmc0QwVU5LVjVnYWk5Ni1zQ3ljZkdvN2twcjdvRFJrN054X2xsZGVvQ2FZS1FObFczUk92bTdLM1M3ZkhJRWpaZGZidTNHaGk4UhIEGgIIABqBBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQMkGCAAQABgAIAAqQQoJd2FyZWhvdXNlFZ8ZE0EaE2NvbW1lcmNpYWwgcHJvcGVydHkaCndhcmVob3VzZXMaDml2O3A7d2FyZWhvdXNlKgoKA2ZvchUAAAAAKjUKBHNhbGUV_gwQQRoHZm9yc2FsZRoLcmVhbCBlc3RhdGUaBHJlbnQaBnJlbnRhbBoEc29sZCoJCgJpbhUAAAAAKkMKAmtyFcC2xEAaEGtyaXNobmFyYWphcHVyYW0aB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgdpdjtwO2tyKlAKBXB1cmFtFcC2xEAaEGtyaXNobmFyYWphcHVyYW0aBW5hZ2FyGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoKaXY7cDtwdXJhbSo2CgliYW5nYWxvcmUVBqQKQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZiVkcyd2plT0t4b2xjcW9RTlVGTmdheHEtQ05KM09YbXB1NXF1bVBWYUdsUDZLZUE3RjJudTFYaVlWMHpIN2NCbXFnTk9yMHJJUTJxUllWTWFXMjg1MkR2Z3pNNDNPYWNxbEVFNnBaQkk2MXc3S3NvZFZuZXFmc0QwVU5LVjVnYWk5Ni1zQ3ljZkdvN2twcjdvRFJrN054X2xsZGVvQ2FZS1FObFczUk92bTdLM1M3ZkhJRWpaZGZidTNHaGk4UjpKPGI-V2FyZWhvdXNlPC9iPiBvciBHb2Rvd24gRm9yIDxiPlNhbGUgaW4gS1IgUHVyYW08L2I-IFJhaWx3YXkgU3RhdGlvbiAuLi5CsAE0IC0gPGI-V2FyZWhvdXNlIG9yIEdvZG93biBGb3IgU2FsZSBpbiBLUiBQdXJhbSBSYWlsd2F5IFN0YXRpb24gQmFuZ2Fsb3JlPC9iPiA7IEdvZG93bi9XYXJlaG91c2UgaW4gU2FubmF0YW1tYW5haGFsbGksIEJhbmdhbG9yZSBmb3Igc2FsZSAmbWlkZG90OyA0LjU2IENyLiBFTUk6IOKCuTMuNDIgTGFjcy9tLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/warehouse-godown-for-sale-near-kr_puram_railway_station_bangalore#:~:text=4%20%2D%20Warehouse%20or%20Godown,KR%20Puram%20Railway%20Station%20Bangalore&text=Godown%2FWarehouse%20in%20Sannatammanahalli%2C%20Bangalore%20for,sale&text=%E2%82%B94.56%20Cr,EMI%3A%20%E2%82%B93.42%20Lacs%2Fm"
+   },
+   {
+    "position": 9,
+    "title": "Warehouse or Godown For Sale in K R Puram Bus Stand ...",
+    "link": "https://www.nobroker.in/warehouse-godown-for-sale-near-k_r_puram_bus_stand_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwEB6zswFbt0YUwkvizejwdtgHLvFDWETEL3pPbpTfVxGoeAJKVugG8LVGif6gLBN2fAsIn0GEfWZpa8cN208LaUGeaLIQKeDUS3eNSCsHGzszzukMnGC_NG6FlYJW-cWaMXO5XTYKswJrSUzs8huUC7pOPHp6E0R7FJ6gWcWY5qHtdocXyZQygBp4nDMqY6Yg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECDkQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › warehouse-godown-for-sale-...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Thinking to buy Godown or Warehouse in K R Puram Bus Stand Bangalore Check warehouse or godown for sale and save Brokerage to start your new business.",
+    "snippet_highlighted_words": [
+     "warehouse or godown for sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Thinking to buy Godown or Warehouse in K R Puram Bus Stand Bangalore Check warehouse or godown for sale and save Brokerage to start your new business.",
+      "source_info_link": "https://www.nobroker.in/warehouse-godown-for-sale-near-k_r_puram_bus_stand_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZidDBZVXdrdml6ZWp3ZHRnSEx2RkRXRVRFTDNwUGJwVGZWeEdvZUFKS1Z1Z0c4TFZHaWY2Z0xCTjJmQXNJbjBHRWZXWnBhOGNOMjA4TGFVR2VhTElRS2VEVVMzZU5TQ3NIR3pzenp1a01uR0NfTkc2RmxZSlctY1dhTVhPNVhUWUtzd0pyU1V6czhodVVDN3BPUEhwNkUwUjdGSjZnV2NXWTVxSHRkb2NYeVpReWdCcDRuRE1xWTZZZxIEGgIIABrzBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQLsGCAAQABgAIAAqQQoJd2FyZWhvdXNlFdxPD0EaE2NvbW1lcmNpYWwgcHJvcGVydHkaCndhcmVob3VzZXMaDml2O3A7d2FyZWhvdXNlKgoKA2ZvchUAAAAAKjUKBHNhbGUV__cRQRoHZm9yc2FsZRoLcmVhbCBlc3RhdGUaBHJlbnQaBnJlbnRhbBoEc29sZCoJCgJpbhUAAAAAKkMKAmtyFe6j1EAaEGtyaXNobmFyYWphcHVyYW0aB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgdpdjtwO2tyKlAKBXB1cmFtFe6j1EAaEGtyaXNobmFyYWphcHVyYW0aBW5hZ2FyGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoKaXY7cDtwdXJhbSo2CgliYW5nYWxvcmUVW5IDQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZidDBZVXdrdml6ZWp3ZHRnSEx2RkRXRVRFTDNwUGJwVGZWeEdvZUFKS1Z1Z0c4TFZHaWY2Z0xCTjJmQXNJbjBHRWZXWnBhOGNOMjA4TGFVR2VhTElRS2VEVVMzZU5TQ3NIR3pzenp1a01uR0NfTkc2RmxZSlctY1dhTVhPNVhUWUtzd0pyU1V6czhodVVDN3BPUEhwNkUwUjdGSjZnV2NXWTVxSHRkb2NYeVpReWdCcDRuRE1xWTZZZzpVMSAtIDxiPldhcmVob3VzZTwvYj4gb3IgR29kb3duIEZvciA8Yj5TYWxlIGluIEtSIFB1cmFtPC9iPiBCdXMgU3RhbmQgPGI-QmFuZ2Fsb3JlPC9iPkKdAVRoaW5raW5nIHRvIGJ1eSBHb2Rvd24gb3IgV2FyZWhvdXNlIGluIEsgUiBQdXJhbSBCdXMgU3RhbmQgQmFuZ2Fsb3JlIENoZWNrIDxiPndhcmVob3VzZSBvciBnb2Rvd24gZm9yIHNhbGU8L2I-IGFuZCBzYXZlIEJyb2tlcmFnZSB0byBzdGFydCB5b3VyIG5ldyBidXNpbmVzcy5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZidDBZVXdrdml6ZWp3ZHRnSEx2RkRXRVRFTDNwUGJwVGZWeEdvZUFKS1Z1Z0c4TFZHaWY2Z0xCTjJmQXNJbjBHRWZXWnBhOGNOMjA4TGFVR2VhTElRS2VEVVMzZU5TQ3NIR3pzenp1a01uR0NfTkc2RmxZSlctY1dhTVhPNVhUWUtzd0pyU1V6czhodVVDN3BPUEhwNkUwUjdGSjZnV2NXWTVxSHRkb2NYeVpReWdCcDRuRE1xWTZZZxIEGgIIABrzBhIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQLsGCAAQABgAIAAqQQoJd2FyZWhvdXNlFdxPD0EaE2NvbW1lcmNpYWwgcHJvcGVydHkaCndhcmVob3VzZXMaDml2O3A7d2FyZWhvdXNlKgoKA2ZvchUAAAAAKjUKBHNhbGUV__cRQRoHZm9yc2FsZRoLcmVhbCBlc3RhdGUaBHJlbnQaBnJlbnRhbBoEc29sZCoJCgJpbhUAAAAAKkMKAmtyFe6j1EAaEGtyaXNobmFyYWphcHVyYW0aB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgdpdjtwO2tyKlAKBXB1cmFtFe6j1EAaEGtyaXNobmFyYWphcHVyYW0aBW5hZ2FyGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoKaXY7cDtwdXJhbSo2CgliYW5nYWxvcmUVW5IDQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZidDBZVXdrdml6ZWp3ZHRnSEx2RkRXRVRFTDNwUGJwVGZWeEdvZUFKS1Z1Z0c4TFZHaWY2Z0xCTjJmQXNJbjBHRWZXWnBhOGNOMjA4TGFVR2VhTElRS2VEVVMzZU5TQ3NIR3pzenp1a01uR0NfTkc2RmxZSlctY1dhTVhPNVhUWUtzd0pyU1V6czhodVVDN3BPUEhwNkUwUjdGSjZnV2NXWTVxSHRkb2NYeVpReWdCcDRuRE1xWTZZZzpVMSAtIDxiPldhcmVob3VzZTwvYj4gb3IgR29kb3duIEZvciA8Yj5TYWxlIGluIEtSIFB1cmFtPC9iPiBCdXMgU3RhbmQgPGI-QmFuZ2Fsb3JlPC9iPkKdAVRoaW5raW5nIHRvIGJ1eSBHb2Rvd24gb3IgV2FyZWhvdXNlIGluIEsgUiBQdXJhbSBCdXMgU3RhbmQgQmFuZ2Fsb3JlIENoZWNrIDxiPndhcmVob3VzZSBvciBnb2Rvd24gZm9yIHNhbGU8L2I-IGFuZCBzYXZlIEJyb2tlcmFnZSB0byBzdGFydCB5b3VyIG5ldyBidXNpbmVzcy5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "NoBroker"
+   },
+   {
+    "position": 10,
+    "title": "Commercial property for sale in Singayyanapalya, KR Puram",
+    "link": "https://www.99acres.com/commercial-property-in-singayyanapalya-bangalore-east-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjQEB6zswFdVOdBuVvH7gOLzssMbBIb5-JOpgexxWs_6MY9lrcWQiCzzKZE3v7cxiESPKG7NTL8zL0lWRXg7qdnU5uzg8HFPpp26g5tpfyq7QJUZDWQHFbfil5Py72weTP3y_hclSi6CuOBYAH8ovU44j3IZdWulrpAaOWXlEOYFAMLOn5LI2jI1RBt0y_2I&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQFnoECC8QAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-property-in-sin...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Available now in singayyanapalya, kr puram, this 1000 sqft commercial property offers immediate possession at rs8.5 lac. Positioned close to mahadevapura ...",
+    "snippet_highlighted_words": [
+     "kr puram",
+     "commercial property"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Available now in singayyanapalya, kr puram, this 1000 sqft commercial property offers immediate possession at rs8.5 lac. Positioned close to mahadevapura ...",
+      "source_info_link": "https://www.99acres.com/commercial-property-in-singayyanapalya-bangalore-east-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZkVk9kQnVWdkg3Z09MenNzTWJCSWI1LUpPcGdleHhXc182TVk5bHJjV1FpQ3p6S1pFM3Y3Y3hpRVNQS0c3TlRMOHpMMGxXUlhnN3FkblU1dXpnOEhGUHBwMjZnNXRwZnlxN1FKVVpEV1FIRmJmaWw1UHk3MndlVFAzeV9oY2xTaTZDdU9CWUFIOG92VTQ0ajNJWmRXdWxycEFhT1dYbEVPWUZBTUxPbjVMSTJqSTFSQnQweV8ySRIEGgIIABqEBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQL0GCAAQABgAIAAqQQoJd2FyZWhvdXNlFcA8hD8aE2NvbW1lcmNpYWwgcHJvcGVydHkaCndhcmVob3VzZXMaDml2O3A7d2FyZWhvdXNlKgoKA2ZvchUAAAAAKjUKBHNhbGUVYJ7EQBoHZm9yc2FsZRoLcmVhbCBlc3RhdGUaBHJlbnQaBnJlbnRhbBoEc29sZCoJCgJpbhUAAAAAKkMKAmtyFdiSwkAaEGtyaXNobmFyYWphcHVyYW0aB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgdpdjtwO2tyKlAKBXB1cmFtFTbPvUAaEGtyaXNobmFyYWphcHVyYW0aBW5hZ2FyGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoKaXY7cDtwdXJhbSo2CgliYW5nYWxvcmUVEIJGQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZkVk9kQnVWdkg3Z09MenNzTWJCSWI1LUpPcGdleHhXc182TVk5bHJjV1FpQ3p6S1pFM3Y3Y3hpRVNQS0c3TlRMOHpMMGxXUlhnN3FkblU1dXpnOEhGUHBwMjZnNXRwZnlxN1FKVVpEV1FIRmJmaWw1UHk3MndlVFAzeV9oY2xTaTZDdU9CWUFIOG92VTQ0ajNJWmRXdWxycEFhT1dYbEVPWUZBTUxPbjVMSTJqSTFSQnQweV8ySTpHPGI-Q29tbWVyY2lhbCBwcm9wZXJ0eSBmb3Igc2FsZTwvYj4gaW4gU2luZ2F5eWFuYXBhbHlhLCA8Yj5LUiBQdXJhbTwvYj5CsAFBdmFpbGFibGUgbm93IGluIHNpbmdheXlhbmFwYWx5YSwgPGI-a3IgcHVyYW08L2I-LCB0aGlzIDEwMDAgc3FmdCA8Yj5jb21tZXJjaWFsIHByb3BlcnR5PC9iPiBvZmZlcnMgaW1tZWRpYXRlIHBvc3Nlc3Npb24gYXQgcnM4LjUgbGFjLiBQb3NpdGlvbmVkIGNsb3NlIHRvIG1haGFkZXZhcHVyYSZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZkVk9kQnVWdkg3Z09MenNzTWJCSWI1LUpPcGdleHhXc182TVk5bHJjV1FpQ3p6S1pFM3Y3Y3hpRVNQS0c3TlRMOHpMMGxXUlhnN3FkblU1dXpnOEhGUHBwMjZnNXRwZnlxN1FKVVpEV1FIRmJmaWw1UHk3MndlVFAzeV9oY2xTaTZDdU9CWUFIOG92VTQ0ajNJWmRXdWxycEFhT1dYbEVPWUZBTUxPbjVMSTJqSTFSQnQweV8ySRIEGgIIABqEBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQL0GCAAQABgAIAAqQQoJd2FyZWhvdXNlFcA8hD8aE2NvbW1lcmNpYWwgcHJvcGVydHkaCndhcmVob3VzZXMaDml2O3A7d2FyZWhvdXNlKgoKA2ZvchUAAAAAKjUKBHNhbGUVYJ7EQBoHZm9yc2FsZRoLcmVhbCBlc3RhdGUaBHJlbnQaBnJlbnRhbBoEc29sZCoJCgJpbhUAAAAAKkMKAmtyFdiSwkAaEGtyaXNobmFyYWphcHVyYW0aB2tycHVyYW0aFGdlbzszYmFlMTAwMDAwMDAwMDAwGgdpdjtwO2tyKlAKBXB1cmFtFTbPvUAaEGtyaXNobmFyYWphcHVyYW0aBW5hZ2FyGgdrcnB1cmFtGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoKaXY7cDtwdXJhbSo2CgliYW5nYWxvcmUVEIJGQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZkVk9kQnVWdkg3Z09MenNzTWJCSWI1LUpPcGdleHhXc182TVk5bHJjV1FpQ3p6S1pFM3Y3Y3hpRVNQS0c3TlRMOHpMMGxXUlhnN3FkblU1dXpnOEhGUHBwMjZnNXRwZnlxN1FKVVpEV1FIRmJmaWw1UHk3MndlVFAzeV9oY2xTaTZDdU9CWUFIOG92VTQ0ajNJWmRXdWxycEFhT1dYbEVPWUZBTUxPbjVMSTJqSTFSQnQweV8ySTpHPGI-Q29tbWVyY2lhbCBwcm9wZXJ0eSBmb3Igc2FsZTwvYj4gaW4gU2luZ2F5eWFuYXBhbHlhLCA8Yj5LUiBQdXJhbTwvYj5CsAFBdmFpbGFibGUgbm93IGluIHNpbmdheXlhbmFwYWx5YSwgPGI-a3IgcHVyYW08L2I-LCB0aGlzIDEwMDAgc3FmdCA8Yj5jb21tZXJjaWFsIHByb3BlcnR5PC9iPiBvZmZlcnMgaW1tZWRpYXRlIHBvc3Nlc3Npb24gYXQgcnM4LjUgbGFjLiBQb3NpdGlvbmVkIGNsb3NlIHRvIG1haGFkZXZhcHVyYSZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/commercial-property-in-singayyanapalya-bangalore-east-ffid#:~:text=Available%20now%20in%20singayyanapalya%2C%20kr,lac.%20Positioned%20close%20to%20mahadevapura"
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "Small warehouse for sale in kr puram bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&q=Small+warehouse+for+sale+in+kr+puram+bangalore&sa=X&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ1QJ6BAgtEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Small+warehouse+for+sale+in+kr+puram+bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Independent warehouse for sale in kr puram bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&q=Independent+warehouse+for+sale+in+kr+puram+bangalore&sa=X&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ1QJ6BAguEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Independent+warehouse+for+sale+in+kr+puram+bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Industrial warehouse for sale in kr puram bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&q=Industrial+warehouse+for+sale+in+kr+puram+bangalore&sa=X&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ1QJ6BAgsEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Industrial+warehouse+for+sale+in+kr+puram+bangalore&start=0"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=10&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8NMDegQIKhAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=10&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAE",
+    "3": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=20&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAG",
+    "4": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=30&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAI",
+    "5": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=40&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAK",
+    "6": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=50&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAM",
+    "7": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=60&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAO",
+    "8": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=70&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAQ",
+    "9": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=80&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAS",
+    "10": "https://www.google.co.in/search?q=warehouse+for+sale+in+KR+Puram+Bangalore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnu79BdtNer29SyxLcr_uVCD3QuzRw:1791088795223&ei=m9jBaryXDZSmmtkP1ICRuQU&start=90&sa=N&sstk=AS6-VmI0YkQySm8vmXiS_vBKcy6LcoyQfVsybuOYzac6v8ftt-cjrYJp53juqxspaC4XVTldvQHZCzcbHG0BnIi7c_5b2TlFFNc2xg&ved=2ahUKEwj80JnbxZ-XAxUUkyYFHVRAJFcQ8tMDegQIKhAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=warehouse+for+sale+in+KR+Puram+Bangalore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=90"
+   }
+  }
+ }
+}

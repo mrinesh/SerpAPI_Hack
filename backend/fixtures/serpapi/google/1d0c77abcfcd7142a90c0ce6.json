@@ -1,0 +1,375 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "residential plot for sale in Yelahanka Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d92999d5f4e907b23d3f",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/flSF7bX8ufrKEwlpicIs-0IuHVGgwy0tYcLJYq_4NtY/6ac1d92999d5f4e907b23d3f.json",
+   "markdown_endpoint": "https://serpapi.com/searches/flSF7bX8ufrKEwlpicIs-0IuHVGgwy0tYcLJYq_4NtY/6ac1d92999d5f4e907b23d3f.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/flSF7bX8ufrKEwlpicIs-0IuHVGgwy0tYcLJYq_4NtY/6ac1d92999d5f4e907b23d3f.json_with_pixel_position",
+   "created_at": "2026-10-04 04:42:17 UTC",
+   "processed_at": "2026-10-04 04:42:17 UTC",
+   "google_url": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/flSF7bX8ufrKEwlpicIs-0IuHVGgwy0tYcLJYq_4NtY/6ac1d92999d5f4e907b23d3f.html",
+   "total_time_taken": 1.22
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "residential plot for sale in Yelahanka Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "residential plot for sale in Yelahanka Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 91200,
+   "time_taken_displayed": 0.29,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Plots in Yelahanka, Bangalore from 75 lakhs to 1 crore",
+    "link": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmQEB6zswFfsOULifCBwD69wuCur6doJwP49bR1IBDbG8wI7cyhj9qEhtgKuwmDpsjIgx0b1Dkg5N4YFb1QDmcXQRfOeblja-U44N7Ufbcj8UDBlssWReWQqkDJv9sVf4yKktvQ-hZ1q1o8wjNpAk5SDQnC1X1KMkcLwLHRGWYA2JuVjv7DvXYcV7_Cl7Ysh9v2gsJ7JNg29IsUY&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › Plots in Yelahanka",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Residential land / Plots in Yelahanka, Bangalore for Sale Below 1 Crore ; ₹84 Lac. ₹7,000 /sqft · 1,200 sqft(111 sqm) ; ₹90 Lac. ₹10,000 /sqft · 900 sqft(84 sqm).",
+    "snippet_highlighted_words": [
+     "Residential land / Plots in Yelahanka, Bangalore for Sale Below 1 Crore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Residential land / Plots in Yelahanka, Bangalore for Sale Below 1 Crore ; ₹84 Lac. ₹7,000 /sqft · 1,200 sqft(111 sqm) ; ₹90 Lac. ₹10,000 /sqft · 900 sqft(84 sqm).",
+      "source_info_link": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Ct0BL2dvdG8_dXJsPUNBRVNtUUVCNnpzd0Zmc09VTGlmQ0J3RDY5d3VDdXI2ZG9Kd1A0OWJSMUlCRGJHOHdJN2N5aGo5cUVodGdLdXdtRHBzaklneDBiMURrZzVONFlGYjFRRG1jWFFSZk9lYmxqYS1VNDRON1VmYmNqOFVEQmxzc1dSZVdRcWtESnY5c1ZmNHlLa3R2US1oWjFxMW84d2pOcEFrNVNEUW5DMVgxS01rY0x3TEhSR1dZQTJKdVZqdjdEdlhZY1Y3X0NsN1lzaDl2MmdzSjdKTmcyOUlzVVkSBBoCCAAa_gcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkC3BwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFWLC9kAaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVGrepQBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFR9HL0AaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVsvgDQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRUlRQNBGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVc-3DPhoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRU7hLZAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFfjmr0AaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMt0BL2dvdG8_dXJsPUNBRVNtUUVCNnpzd0Zmc09VTGlmQ0J3RDY5d3VDdXI2ZG9Kd1A0OWJSMUlCRGJHOHdJN2N5aGo5cUVodGdLdXdtRHBzaklneDBiMURrZzVONFlGYjFRRG1jWFFSZk9lYmxqYS1VNDRON1VmYmNqOFVEQmxzc1dSZVdRcWtESnY5c1ZmNHlLa3R2US1oWjFxMW84d2pOcEFrNVNEUW5DMVgxS01rY0x3TEhSR1dZQTJKdVZqdjdEdlhZY1Y3X0NsN1lzaDl2MmdzSjdKTmcyOUlzVVk6UjxiPlBsb3RzPC9iPiBpbiA8Yj5ZZWxhaGFua2E8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IGZyb20gNzUgbGFraHMgdG8gPGI-MSBjcm9yZTwvYj5CvwE8Yj5SZXNpZGVudGlhbCBsYW5kIC8gUGxvdHMgaW4gWWVsYWhhbmthLCBCYW5nYWxvcmUgZm9yIFNhbGUgQmVsb3cgMSBDcm9yZTwvYj4gOyDigrk4NCBMYWMuIOKCuTcsMDAwIC9zcWZ0ICZtaWRkb3Q7IDEsMjAwIHNxZnQoMTExIHNxbSkgOyDigrk5MCBMYWMuIOKCuTEwLDAwMCAvc3FmdCAmbWlkZG90OyA5MDAgc3FmdCg4NCBzcW0pLkoCaW5KA2ZvclIEaG9tZSICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Ct0BL2dvdG8_dXJsPUNBRVNtUUVCNnpzd0Zmc09VTGlmQ0J3RDY5d3VDdXI2ZG9Kd1A0OWJSMUlCRGJHOHdJN2N5aGo5cUVodGdLdXdtRHBzaklneDBiMURrZzVONFlGYjFRRG1jWFFSZk9lYmxqYS1VNDRON1VmYmNqOFVEQmxzc1dSZVdRcWtESnY5c1ZmNHlLa3R2US1oWjFxMW84d2pOcEFrNVNEUW5DMVgxS01rY0x3TEhSR1dZQTJKdVZqdjdEdlhZY1Y3X0NsN1lzaDl2MmdzSjdKTmcyOUlzVVkSBBoCCAAa_gcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkC3BwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFWLC9kAaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVGrepQBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFR9HL0AaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVsvgDQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRUlRQNBGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVc-3DPhoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRU7hLZAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFfjmr0AaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMt0BL2dvdG8_dXJsPUNBRVNtUUVCNnpzd0Zmc09VTGlmQ0J3RDY5d3VDdXI2ZG9Kd1A0OWJSMUlCRGJHOHdJN2N5aGo5cUVodGdLdXdtRHBzaklneDBiMURrZzVONFlGYjFRRG1jWFFSZk9lYmxqYS1VNDRON1VmYmNqOFVEQmxzc1dSZVdRcWtESnY5c1ZmNHlLa3R2US1oWjFxMW84d2pOcEFrNVNEUW5DMVgxS01rY0x3TEhSR1dZQTJKdVZqdjdEdlhZY1Y3X0NsN1lzaDl2MmdzSjdKTmcyOUlzVVk6UjxiPlBsb3RzPC9iPiBpbiA8Yj5ZZWxhaGFua2E8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IGZyb20gNzUgbGFraHMgdG8gPGI-MSBjcm9yZTwvYj5CvwE8Yj5SZXNpZGVudGlhbCBsYW5kIC8gUGxvdHMgaW4gWWVsYWhhbmthLCBCYW5nYWxvcmUgZm9yIFNhbGUgQmVsb3cgMSBDcm9yZTwvYj4gOyDigrk4NCBMYWMuIOKCuTcsMDAwIC9zcWZ0ICZtaWRkb3Q7IDEsMjAwIHNxZnQoMTExIHNxbSkgOyDigrk5MCBMYWMuIOKCuTEwLDAwMCAvc3FmdCAmbWlkZG90OyA5MDAgc3FmdCg4NCBzcW0pLkoCaW5KA2ZvclIEaG9tZSICEAFIAFgAaAA",
+    "source": "99acres.com",
+    "read_more_link": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid#:~:text=Residential%20land%20%2F%20Plots%20in,for%20Sale%20Below%201%20Crore&text=%E2%82%B984%20Lac,%E2%82%B97%2C000%20%2Fsqft&text=1%2C200%20sqft(111%20sqm)&text=%E2%82%B990%20Lac,%E2%82%B910%2C000%20%2Fsqft&text=900%20sqft(84%20sqm)"
+   },
+   {
+    "position": 2,
+    "title": "Residential land / Plots in Bangalore for Sale Below 1 Crore",
+    "link": "https://www.99acres.com/residential-land-in-bangalore-75-lakhs-to-1-crore-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiQEB6zswFdUDOu4KbhdmTlZyG1ufN_JvcbYU1FOY10rOOn-rUgznx8wfO1sL9hUkE3RzizuMHhLK5tTGN9qRNmA1QgCDq-uuAYGU1IRryVdlkYaslYlXCu8ww4vA6i2S8qKOadVEIDLMz7dg9jmdLGdG6fxC00VuVPNs6OgyI-uhQX6i-9CKRaOWiA&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECBoQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › Plots in Bangalore",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find Plots in Bangalore from 75 lakhs to 1 crore on 99acres.com. Near Yelahanka, Near Yelahanka, Bangalore ₹97.8 Lac - 2.9 cr ₹7,662 /sqft Ready To Move 1,200- ...",
+    "snippet_highlighted_words": [
+     "Plots",
+     "Bangalore",
+     "1 crore",
+     "Yelahanka",
+     "Yelahanka",
+     "Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find Plots in Bangalore from 75 lakhs to 1 crore on 99acres.com. Near Yelahanka, Near Yelahanka, Bangalore ₹97.8 Lac - 2.9 cr ₹7,662 /sqft Ready To Move 1,200- ...",
+      "source_info_link": "https://www.99acres.com/residential-land-in-bangalore-75-lakhs-to-1-crore-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZkVURPdTRLYmhkbVRsWnlHMXVmTl9KdmNiWVUxRk9ZMTByT09uLXJVZ3pueDh3Zk8xc0w5aFVrRTNSeml6dU1IaExLNXRUR045cVJObUExUWdDRHEtdXVBWUdVMUlScnlWZGxrWWFzbFlsWEN1OHd3NHZBNmkyUzhxS09hZFZFSURMTXo3ZGc5am1kTEdkRzZmeEMwMFZ1VlBOczZPZ3lJLXVoUVg2aS05Q0tSYU9XaUESBBoCCAAahggSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkC_BwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFb_t8EAaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVrzusQBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFfWkA0AaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVdwlgPxoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRVnrPZAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVn_zIPxoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRUSmLxAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFb9trUAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZkVURPdTRLYmhkbVRsWnlHMXVmTl9KdmNiWVUxRk9ZMTByT09uLXJVZ3pueDh3Zk8xc0w5aFVrRTNSeml6dU1IaExLNXRUR045cVJObUExUWdDRHEtdXVBWUdVMUlScnlWZGxrWWFzbFlsWEN1OHd3NHZBNmkyUzhxS09hZFZFSURMTXo3ZGc5am1kTEdkRzZmeEMwMFZ1VlBOczZPZ3lJLXVoUVg2aS05Q0tSYU9XaUE6WDxiPlJlc2lkZW50aWFsIGxhbmQ8L2I-IC8gPGI-UGxvdHM8L2I-IGluIDxiPkJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGUgQmVsb3cgMSBDcm9yZTwvYj5C1gFGaW5kIDxiPlBsb3RzPC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-IGZyb20gNzUgbGFraHMgdG8gPGI-MSBjcm9yZTwvYj4gb24gOTlhY3Jlcy5jb20uIE5lYXIgPGI-WWVsYWhhbmthPC9iPiwgTmVhciA8Yj5ZZWxhaGFua2E8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IOKCuTk3LjggTGFjIC0gMi45IGNyIOKCuTcsNjYyIC9zcWZ0IFJlYWR5IFRvIE1vdmUgMSwyMDAtJm5ic3A7Li4uSgJpbkoDZm9yUgRob21lIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZkVURPdTRLYmhkbVRsWnlHMXVmTl9KdmNiWVUxRk9ZMTByT09uLXJVZ3pueDh3Zk8xc0w5aFVrRTNSeml6dU1IaExLNXRUR045cVJObUExUWdDRHEtdXVBWUdVMUlScnlWZGxrWWFzbFlsWEN1OHd3NHZBNmkyUzhxS09hZFZFSURMTXo3ZGc5am1kTEdkRzZmeEMwMFZ1VlBOczZPZ3lJLXVoUVg2aS05Q0tSYU9XaUESBBoCCAAahggSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkC_BwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFb_t8EAaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVrzusQBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFfWkA0AaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVdwlgPxoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRVnrPZAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVn_zIPxoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRUSmLxAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFb9trUAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZkVURPdTRLYmhkbVRsWnlHMXVmTl9KdmNiWVUxRk9ZMTByT09uLXJVZ3pueDh3Zk8xc0w5aFVrRTNSeml6dU1IaExLNXRUR045cVJObUExUWdDRHEtdXVBWUdVMUlScnlWZGxrWWFzbFlsWEN1OHd3NHZBNmkyUzhxS09hZFZFSURMTXo3ZGc5am1kTEdkRzZmeEMwMFZ1VlBOczZPZ3lJLXVoUVg2aS05Q0tSYU9XaUE6WDxiPlJlc2lkZW50aWFsIGxhbmQ8L2I-IC8gPGI-UGxvdHM8L2I-IGluIDxiPkJhbmdhbG9yZTwvYj4gZm9yIDxiPlNhbGUgQmVsb3cgMSBDcm9yZTwvYj5C1gFGaW5kIDxiPlBsb3RzPC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-IGZyb20gNzUgbGFraHMgdG8gPGI-MSBjcm9yZTwvYj4gb24gOTlhY3Jlcy5jb20uIE5lYXIgPGI-WWVsYWhhbmthPC9iPiwgTmVhciA8Yj5ZZWxhaGFua2E8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IOKCuTk3LjggTGFjIC0gMi45IGNyIOKCuTcsNjYyIC9zcWZ0IFJlYWR5IFRvIE1vdmUgMSwyMDAtJm5ic3A7Li4uSgJpbkoDZm9yUgRob21lIgIQAUgAWABoAA",
+    "source": "99acres.com"
+   },
+   {
+    "position": 3,
+    "title": "Flats in Yelahanka Bangalore for Sale under ₹ 𝟏 𝐂𝐫𝐨𝐫𝐞",
+    "link": "https://www.magicbricks.com/flats-in-yelahanka-bangalore-under-1-crore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShwEB6zswFWjbIIA_DOYPNVHf6ExbI600Yvff8408H4o8vR_-yntEFUV658ePY_dLT5FVxw1FejbVuJ8ERca2p-PqDpkA7gXEWREfGCp5tWMY3UjZvyNbm2G7d6dMx1ckNecSF520cm95469JXzKMu8TJvQjfv56WkDJTqZ_mnMFW6yCZEcluuUQ&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECBQQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › ... › Flats in Yelahanka",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "Choose from over 66+ Flats for sale in Yelahanka Bangalore under 1 Crore. Buy Ready to move, Resale, apartments/flats in Yelahanka within ₹ 1 Crore.",
+    "snippet_highlighted_words": [
+     "Choose from over 66+ Flats for sale in Yelahanka Bangalore under 1 Crore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Choose from over 66+ Flats for sale in Yelahanka Bangalore under 1 Crore. Buy Ready to move, Resale, apartments/flats in Yelahanka within ₹ 1 Crore.",
+      "source_info_link": "https://www.magicbricks.com/flats-in-yelahanka-bangalore-under-1-crore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZXamJJSUFfRE9ZUE5WSGY2RXhiSTYwMFl2ZmY4NDA4SDRvOHZSXy15bnRFRlVWNjU4ZVBZX2RMVDVGVnh3MUZlamJWdUo4RVJjYTJwLVBxRHBrQTdnWEVXUkVmR0NwNXRXTVkzVWpadnlOYm0yRzdkNmRNeDFja05lY1NGNTIwY205NTQ2OUpYektNdThUSnZRamZ2NTZXa0RKVHFaX21uTUZXNnlDWkVjbHV1VVESBBoCCAAarwcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkD3BggAEAAYACAAKk8KC3Jlc2lkZW50aWFsFZIiAT8aCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVAAAAABoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFTp73UAaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVcPnwQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRW8CA1BGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV-LW1QBoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRWS1tZAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFUIrnUAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZXamJJSUFfRE9ZUE5WSGY2RXhiSTYwMFl2ZmY4NDA4SDRvOHZSXy15bnRFRlVWNjU4ZVBZX2RMVDVGVnh3MUZlamJWdUo4RVJjYTJwLVBxRHBrQTdnWEVXUkVmR0NwNXRXTVkzVWpadnlOYm0yRzdkNmRNeDFja05lY1NGNTIwY205NTQ2OUpYektNdThUSnZRamZ2NTZXa0RKVHFaX21uTUZXNnlDWkVjbHV1VVE6TEZsYXRzIGluIDxiPlllbGFoYW5rYSBCYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiDigrkgPGI-MSBDcm9yZTwvYj5CnQE8Yj5DaG9vc2UgZnJvbSBvdmVyIDY2KyBGbGF0cyBmb3Igc2FsZSBpbiBZZWxhaGFua2EgQmFuZ2Fsb3JlIHVuZGVyIDEgQ3JvcmU8L2I-LiBCdXkgUmVhZHkgdG8gbW92ZSwgUmVzYWxlLCBhcGFydG1lbnRzL2ZsYXRzIGluIFllbGFoYW5rYSB3aXRoaW4g4oK5IDEgQ3JvcmUuSgNmb3JKAmluUgRob21lIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZXamJJSUFfRE9ZUE5WSGY2RXhiSTYwMFl2ZmY4NDA4SDRvOHZSXy15bnRFRlVWNjU4ZVBZX2RMVDVGVnh3MUZlamJWdUo4RVJjYTJwLVBxRHBrQTdnWEVXUkVmR0NwNXRXTVkzVWpadnlOYm0yRzdkNmRNeDFja05lY1NGNTIwY205NTQ2OUpYektNdThUSnZRamZ2NTZXa0RKVHFaX21uTUZXNnlDWkVjbHV1VVESBBoCCAAarwcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkD3BggAEAAYACAAKk8KC3Jlc2lkZW50aWFsFZIiAT8aCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVAAAAABoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFTp73UAaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVcPnwQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRW8CA1BGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV-LW1QBoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRWS1tZAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFUIrnUAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZXamJJSUFfRE9ZUE5WSGY2RXhiSTYwMFl2ZmY4NDA4SDRvOHZSXy15bnRFRlVWNjU4ZVBZX2RMVDVGVnh3MUZlamJWdUo4RVJjYTJwLVBxRHBrQTdnWEVXUkVmR0NwNXRXTVkzVWpadnlOYm0yRzdkNmRNeDFja05lY1NGNTIwY205NTQ2OUpYektNdThUSnZRamZ2NTZXa0RKVHFaX21uTUZXNnlDWkVjbHV1VVE6TEZsYXRzIGluIDxiPlllbGFoYW5rYSBCYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiDigrkgPGI-MSBDcm9yZTwvYj5CnQE8Yj5DaG9vc2UgZnJvbSBvdmVyIDY2KyBGbGF0cyBmb3Igc2FsZSBpbiBZZWxhaGFua2EgQmFuZ2Fsb3JlIHVuZGVyIDEgQ3JvcmU8L2I-LiBCdXkgUmVhZHkgdG8gbW92ZSwgUmVzYWxlLCBhcGFydG1lbnRzL2ZsYXRzIGluIFllbGFoYW5rYSB3aXRoaW4g4oK5IDEgQ3JvcmUuSgNmb3JKAmluUgRob21lIgIQAUgAWABoAA",
+    "source": "MagicBricks"
+   },
+   {
+    "position": 4,
+    "title": "Plots for Sale in Yelahanka, Bangalore - 319+ Residential ...",
+    "link": "https://www.magicbricks.com/residential-plots-land-for-sale-in-yelahanka-bangalore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkwEB6zswFW-PDkTF0Jaw4ucfMEYF5X4RES2d5lurpIKYAUtcGtVopNw9S-EGRZKrFmQbtmK8JIUSguMkhqC0U7ji2QD-e5J3L7o21NCnlMBNsfNvh1uaAQ9nk435jmLkhe3NlQByEvfVJN_qdsqEfmlKEYVw31Y2Ty9Q7Q7VFC_6_tdPrWXhbcP_6xKW9V95lEEdu28&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECB0QAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › Plots in Bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "The residential land/plots in Yelahanka are available for sale at an average price of ₹4.59 Cr and a median price of ₹2.62 Cr, with a QoQ growth of -3.93%.",
+    "snippet_highlighted_words": [
+     "residential land",
+     "plots",
+     "Yelahanka",
+     "sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The residential land/plots in Yelahanka are available for sale at an average price of ₹4.59 Cr and a median price of ₹2.62 Cr, with a QoQ growth of -3.93%.",
+      "source_info_link": "https://www.magicbricks.com/residential-plots-land-for-sale-in-yelahanka-bangalore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZXLVBEa1RGMEphdzR1Y2ZNRVlGNVg0UkVTMmQ1bHVycElLWUFVdGNHdFZvcE53OVMtRUdSWktyRm1RYnRtSzhKSVVTZ3VNa2hxQzBVN2ppMlFELWU1SjNMN28yMU5DbmxNQk5zZk52aDF1YUFROW5rNDM1am1Ma2hlM05sUUJ5RXZmVkpOX3Fkc3FFZm1sS0VZVnczMVkyVHk5UTdRN1ZGQ182X3RkUHJXWGhiY1BfNnhLVzlWOTVsRUVkdTI4EgQaAggAGtMHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAmwcIABAAGAAgACpPCgtyZXNpZGVudGlhbBW658pAGglhcGFydG1lbnQaBGhvbWUaBWhvdXNlGgdob3VzaW5nGglyZXNpZGVuY2UaD3Jlc2lkZW50aWFscGxvdCopCgRwbG90FYPcpkAaBGxhbmQaBXBsb3RzGg9yZXNpZGVudGlhbHBsb3QqCgoDZm9yFQAAAAAqLAoEc2FsZRXaitRAGgNidXkaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqNgoJeWVsYWhhbmthFabM5kAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO3llbGFoYW5rYSo2CgliYW5nYWxvcmUVmKX9QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFUh1mT8aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIxKh0KATEV4GlPPxoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRVXIo49GgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLVAS9nb3RvP3VybD1DQUVTa3dFQjZ6c3dGVy1QRGtURjBKYXc0dWNmTUVZRjVYNFJFUzJkNWx1cnBJS1lBVXRjR3RWb3BOdzlTLUVHUlpLckZtUWJ0bUs4SklVU2d1TWtocUMwVTdqaTJRRC1lNUozTDdvMjFOQ25sTUJOc2ZOdmgxdWFBUTluazQzNWptTGtoZTNObFFCeUV2ZlZKTl9xZHNxRWZtbEtFWVZ3MzFZMlR5OVE3UTdWRkNfNl90ZFByV1hoYmNQXzZ4S1c5Vjk1bEVFZHUyODpCPGI-UGxvdHMgZm9yIFNhbGUgaW4gWWVsYWhhbmthPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIE1hZ2ljQnJpY2tzQrsBVGhlIDxiPnJlc2lkZW50aWFsIGxhbmQ8L2I-LzxiPnBsb3RzPC9iPiBpbiA8Yj5ZZWxhaGFua2E8L2I-IGFyZSBhdmFpbGFibGUgZm9yIDxiPnNhbGU8L2I-IGF0IGFuIGF2ZXJhZ2UgcHJpY2Ugb2Yg4oK5NC41OSBDciBhbmQgYSBtZWRpYW4gcHJpY2Ugb2Yg4oK5Mi42MiBDciwgd2l0aCBhIFFvUSBncm93dGggb2YgLTMuOTMlLkoDZm9ySgJpblIEaG9tZSICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZXLVBEa1RGMEphdzR1Y2ZNRVlGNVg0UkVTMmQ1bHVycElLWUFVdGNHdFZvcE53OVMtRUdSWktyRm1RYnRtSzhKSVVTZ3VNa2hxQzBVN2ppMlFELWU1SjNMN28yMU5DbmxNQk5zZk52aDF1YUFROW5rNDM1am1Ma2hlM05sUUJ5RXZmVkpOX3Fkc3FFZm1sS0VZVnczMVkyVHk5UTdRN1ZGQ182X3RkUHJXWGhiY1BfNnhLVzlWOTVsRUVkdTI4EgQaAggAGtMHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAmwcIABAAGAAgACpPCgtyZXNpZGVudGlhbBW658pAGglhcGFydG1lbnQaBGhvbWUaBWhvdXNlGgdob3VzaW5nGglyZXNpZGVuY2UaD3Jlc2lkZW50aWFscGxvdCopCgRwbG90FYPcpkAaBGxhbmQaBXBsb3RzGg9yZXNpZGVudGlhbHBsb3QqCgoDZm9yFQAAAAAqLAoEc2FsZRXaitRAGgNidXkaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqNgoJeWVsYWhhbmthFabM5kAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO3llbGFoYW5rYSo2CgliYW5nYWxvcmUVmKX9QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFUh1mT8aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIxKh0KATEV4GlPPxoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRVXIo49GgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLVAS9nb3RvP3VybD1DQUVTa3dFQjZ6c3dGVy1QRGtURjBKYXc0dWNmTUVZRjVYNFJFUzJkNWx1cnBJS1lBVXRjR3RWb3BOdzlTLUVHUlpLckZtUWJ0bUs4SklVU2d1TWtocUMwVTdqaTJRRC1lNUozTDdvMjFOQ25sTUJOc2ZOdmgxdWFBUTluazQzNWptTGtoZTNObFFCeUV2ZlZKTl9xZHNxRWZtbEtFWVZ3MzFZMlR5OVE3UTdWRkNfNl90ZFByV1hoYmNQXzZ4S1c5Vjk1bEVFZHUyODpCPGI-UGxvdHMgZm9yIFNhbGUgaW4gWWVsYWhhbmthPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiAtIE1hZ2ljQnJpY2tzQrsBVGhlIDxiPnJlc2lkZW50aWFsIGxhbmQ8L2I-LzxiPnBsb3RzPC9iPiBpbiA8Yj5ZZWxhaGFua2E8L2I-IGFyZSBhdmFpbGFibGUgZm9yIDxiPnNhbGU8L2I-IGF0IGFuIGF2ZXJhZ2UgcHJpY2Ugb2Yg4oK5NC41OSBDciBhbmQgYSBtZWRpYW4gcHJpY2Ugb2Yg4oK5Mi42MiBDciwgd2l0aCBhIFFvUSBncm93dGggb2YgLTMuOTMlLkoDZm9ySgJpblIEaG9tZSICEAFIAFgAaAA",
+    "source": "MagicBricks",
+    "read_more_link": "https://www.magicbricks.com/residential-plots-land-for-sale-in-yelahanka-bangalore-pppfs#:~:text=The%20residential%20land%2Fplots%20in%20Yelahanka,a%20QoQ%20growth%20of%20%2D3.93%25."
+   },
+   {
+    "position": 5,
+    "title": "Authority Approved Plots in Bangalore Below 1 Crore",
+    "link": "https://www.99acres.com/authority-approved-plots-land-in-bangalore-75-lakhs-to-1-crore-ffid-page-15",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESngEB6zswFQCgEY1pPGpUUyv-JXazrbVJq50EVQMGgAsqKn62kQreLV3Jh4Tj1oE61oI6zviSx7FG1JdzSA7zxbqFBxaeySSYhCvjJSONIckMtYBqXda6_nN1dSBu7gAXp2W2n7UbXUBjcU7KLV8XcHCrZ8OtDEwD_OPlh9hFzJmwcUtieRK9DMCjGThn48xGRbDjmOBG7EvOEgmZd_HVUA&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › 75 Lakh to 1 Cr",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find Residential land in Bangalore from 75 lakhs to 1 crore on 99acres.com. yelahanka, this west-Facing residential plot of 913 sqft is available for immediate ...",
+    "snippet_highlighted_words": [
+     "west-Facing residential plot of 913 sqft"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find Residential land in Bangalore from 75 lakhs to 1 crore on 99acres.com. yelahanka, this west-Facing residential plot of 913 sqft is available for immediate ...",
+      "source_info_link": "https://www.99acres.com/authority-approved-plots-land-in-bangalore-75-lakhs-to-1-crore-ffid-page-15",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuQBL2dvdG8_dXJsPUNBRVNuZ0VCNnpzd0ZRQ2dFWTFwUEdwVVV5di1KWGF6cmJWSnE1MEVWUU1HZ0FzcUtuNjJrUXJlTFYzSmg0VGoxb0U2MW9JNnp2aVN4N0ZHMUpkelNBN3p4YnFGQnhhZXlTU1loQ3ZqSlNPTklja010WUJxWGRhNl9uTjFkU0J1N2dBWHAyVzJuN1ViWFVCamNVN0tMVjhYY0hDclo4T3RERXdEX09QbGg5aEZ6Sm13Y1V0aWVSSzlETUNqR1RobjQ4eEdSYkRqbU9CRzdFdk9FZ21aZF9IVlVBEgQaAggAGuQHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAnQcIABAAGAAgACpPCgtyZXNpZGVudGlhbBV_XKVAGglhcGFydG1lbnQaBGhvbWUaBWhvdXNlGgdob3VzaW5nGglyZXNpZGVuY2UaD3Jlc2lkZW50aWFscGxvdCopCgRwbG90FdL8tEAaBGxhbmQaBXBsb3RzGg9yZXNpZGVudGlhbHBsb3QqCgoDZm9yFQAAAAAqLAoEc2FsZRW9riFAGgNidXkaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqNgoJeWVsYWhhbmthFejKYD8aFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO3llbGFoYW5rYSo2CgliYW5nYWxvcmUVVhD7QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFaeMkj4aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIxKh0KATEVlFu6QBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRXMFq1AGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLkAS9nb3RvP3VybD1DQUVTbmdFQjZ6c3dGUUNnRVkxcFBHcFVVeXYtSlhhenJiVkpxNTBFVlFNR2dBc3FLbjYya1FyZUxWM0poNFRqMW9FNjFvSTZ6dmlTeDdGRzFKZHpTQTd6eGJxRkJ4YWV5U1NZaEN2akpTT05JY2tNdFlCcVhkYTZfbk4xZFNCdTdnQVhwMlcybjdVYlhVQmpjVTdLTFY4WGNIQ3JaOE90REV3RF9PUGxoOWhGekptd2NVdGllUks5RE1DakdUaG40OHhHUmJEam1PQkc3RXZPRWdtWmRfSFZVQTpBQXV0aG9yaXR5IEFwcHJvdmVkIDxiPlBsb3RzPC9iPiBpbiA8Yj5CYW5nYWxvcmUgQmVsb3cgMSBDcm9yZTwvYj5CrwFGaW5kIFJlc2lkZW50aWFsIGxhbmQgaW4gQmFuZ2Fsb3JlIGZyb20gNzUgbGFraHMgdG8gMSBjcm9yZSBvbiA5OWFjcmVzLmNvbS4geWVsYWhhbmthLCB0aGlzIDxiPndlc3QtRmFjaW5nIHJlc2lkZW50aWFsIHBsb3Qgb2YgOTEzIHNxZnQ8L2I-IGlzIGF2YWlsYWJsZSBmb3IgaW1tZWRpYXRlJm5ic3A7Li4uSgNmb3JKAmluUgRob21lIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuQBL2dvdG8_dXJsPUNBRVNuZ0VCNnpzd0ZRQ2dFWTFwUEdwVVV5di1KWGF6cmJWSnE1MEVWUU1HZ0FzcUtuNjJrUXJlTFYzSmg0VGoxb0U2MW9JNnp2aVN4N0ZHMUpkelNBN3p4YnFGQnhhZXlTU1loQ3ZqSlNPTklja010WUJxWGRhNl9uTjFkU0J1N2dBWHAyVzJuN1ViWFVCamNVN0tMVjhYY0hDclo4T3RERXdEX09QbGg5aEZ6Sm13Y1V0aWVSSzlETUNqR1RobjQ4eEdSYkRqbU9CRzdFdk9FZ21aZF9IVlVBEgQaAggAGuQHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAnQcIABAAGAAgACpPCgtyZXNpZGVudGlhbBV_XKVAGglhcGFydG1lbnQaBGhvbWUaBWhvdXNlGgdob3VzaW5nGglyZXNpZGVuY2UaD3Jlc2lkZW50aWFscGxvdCopCgRwbG90FdL8tEAaBGxhbmQaBXBsb3RzGg9yZXNpZGVudGlhbHBsb3QqCgoDZm9yFQAAAAAqLAoEc2FsZRW9riFAGgNidXkaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqNgoJeWVsYWhhbmthFejKYD8aFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO3llbGFoYW5rYSo2CgliYW5nYWxvcmUVVhD7QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFaeMkj4aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIxKh0KATEVlFu6QBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRXMFq1AGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLkAS9nb3RvP3VybD1DQUVTbmdFQjZ6c3dGUUNnRVkxcFBHcFVVeXYtSlhhenJiVkpxNTBFVlFNR2dBc3FLbjYya1FyZUxWM0poNFRqMW9FNjFvSTZ6dmlTeDdGRzFKZHpTQTd6eGJxRkJ4YWV5U1NZaEN2akpTT05JY2tNdFlCcVhkYTZfbk4xZFNCdTdnQVhwMlcybjdVYlhVQmpjVTdLTFY4WGNIQ3JaOE90REV3RF9PUGxoOWhGekptd2NVdGllUks5RE1DakdUaG40OHhHUmJEam1PQkc3RXZPRWdtWmRfSFZVQTpBQXV0aG9yaXR5IEFwcHJvdmVkIDxiPlBsb3RzPC9iPiBpbiA8Yj5CYW5nYWxvcmUgQmVsb3cgMSBDcm9yZTwvYj5CrwFGaW5kIFJlc2lkZW50aWFsIGxhbmQgaW4gQmFuZ2Fsb3JlIGZyb20gNzUgbGFraHMgdG8gMSBjcm9yZSBvbiA5OWFjcmVzLmNvbS4geWVsYWhhbmthLCB0aGlzIDxiPndlc3QtRmFjaW5nIHJlc2lkZW50aWFsIHBsb3Qgb2YgOTEzIHNxZnQ8L2I-IGlzIGF2YWlsYWJsZSBmb3IgaW1tZWRpYXRlJm5ic3A7Li4uSgNmb3JKAmluUgRob21lIgIQAUgAWABoAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 6,
+    "title": "Plots in Yelahanka, Bangalore Below 1 Crore",
+    "link": "https://www.99acres.com/gated-community-authority-approved-plots-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStgEB6zswFbE98Mrq_7kQjD1d-F9hQUF5GoiX89Qz9GG5P3-V_ZjZldtD33m92_n8Slj1oprSfwHfiKuA9_XoxoEOxuPiMERjVCKrejoQP5ZUxP6DhlVCCqJSTswJ2XFprVpFV6dDpnnPY6Q-wmwJtyl02XDOsVbg2mSTmSix2ppCq7gOC5xm4YXYlwoP74ZdRRRs0vCKSUgRqsRUX56FksvnP4L11ePq_h_OSXWWJzvJb5CNDlRfIg&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECBwQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › gated-community-authority-...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Located in yelahanka, bangalore north, this 800 sq.Ft. North-Facing residential plot is available for immediate sale. Positioned near key hospitals and shrines, ...",
+    "snippet_highlighted_words": [
+     "yelahanka",
+     "bangalore",
+     "residential plot",
+     "sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Located in yelahanka, bangalore north, this 800 sq.Ft. North-Facing residential plot is available for immediate sale. Positioned near key hospitals and shrines, ...",
+      "source_info_link": "https://www.99acres.com/gated-community-authority-approved-plots-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoQCL2dvdG8_dXJsPUNBRVN0Z0VCNnpzd0ZiRTk4TXJxXzdrUWpEMWQtRjloUVVGNUdvaVg4OVF6OUdHNVAzLVZfWmpabGR0RDMzbTkyX244U2xqMW9wclNmd0hmaUt1QTlfWG94b0VPeHVQaU1FUmpWQ0tyZWpvUVA1WlV4UDZEaGxWQ0NxSlNUc3dKMlhGcHJWcEZWNmREcG5uUFk2US13bXdKdHlsMDJYRE9zVmJnMm1TVG1TaXgycHBDcTdnT0M1eG00WVhZbHdvUDc0WmRSUlJzMHZDS1NVZ1Jxc1JVWDU2Rmtzdm5QNEwxMWVQcV9oX09TWFdXSnp2SmI1Q05EbFJmSWcSBBoCCAAauggSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkDzBwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFWxt0EAaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVV1a6QBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFQfjPEAaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVLvcFQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRVDrQJBGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVIXaFPhoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRUWuLRAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFVB4sEAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMoQCL2dvdG8_dXJsPUNBRVN0Z0VCNnpzd0ZiRTk4TXJxXzdrUWpEMWQtRjloUVVGNUdvaVg4OVF6OUdHNVAzLVZfWmpabGR0RDMzbTkyX244U2xqMW9wclNmd0hmaUt1QTlfWG94b0VPeHVQaU1FUmpWQ0tyZWpvUVA1WlV4UDZEaGxWQ0NxSlNUc3dKMlhGcHJWcEZWNmREcG5uUFk2US13bXdKdHlsMDJYRE9zVmJnMm1TVG1TaXgycHBDcTdnT0M1eG00WVhZbHdvUDc0WmRSUlJzMHZDS1NVZ1Jxc1JVWDU2Rmtzdm5QNEwxMWVQcV9oX09TWFdXSnp2SmI1Q05EbFJmSWc6YTxiPlJlc2lkZW50aWFsIGxhbmQ8L2I-IGluIDxiPlllbGFoYW5rYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZnJvbSA3NSBsYWtocyB0byA8Yj4xIGNyb3JlPC9iPiAuLi5CxQFMb2NhdGVkIGluIDxiPnllbGFoYW5rYTwvYj4sIDxiPmJhbmdhbG9yZTwvYj4gbm9ydGgsIHRoaXMgODAwIHNxLkZ0LiBOb3J0aC1GYWNpbmcgPGI-cmVzaWRlbnRpYWwgcGxvdDwvYj4gaXMgYXZhaWxhYmxlIGZvciBpbW1lZGlhdGUgPGI-c2FsZTwvYj4uIFBvc2l0aW9uZWQgbmVhciBrZXkgaG9zcGl0YWxzIGFuZCBzaHJpbmVzLCZuYnNwOy4uLkoCaW5KA2ZvclIEaG9tZSICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoQCL2dvdG8_dXJsPUNBRVN0Z0VCNnpzd0ZiRTk4TXJxXzdrUWpEMWQtRjloUVVGNUdvaVg4OVF6OUdHNVAzLVZfWmpabGR0RDMzbTkyX244U2xqMW9wclNmd0hmaUt1QTlfWG94b0VPeHVQaU1FUmpWQ0tyZWpvUVA1WlV4UDZEaGxWQ0NxSlNUc3dKMlhGcHJWcEZWNmREcG5uUFk2US13bXdKdHlsMDJYRE9zVmJnMm1TVG1TaXgycHBDcTdnT0M1eG00WVhZbHdvUDc0WmRSUlJzMHZDS1NVZ1Jxc1JVWDU2Rmtzdm5QNEwxMWVQcV9oX09TWFdXSnp2SmI1Q05EbFJmSWcSBBoCCAAauggSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkDzBwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFWxt0EAaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVV1a6QBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFQfjPEAaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVLvcFQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRVDrQJBGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVIXaFPhoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRUWuLRAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFVB4sEAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMoQCL2dvdG8_dXJsPUNBRVN0Z0VCNnpzd0ZiRTk4TXJxXzdrUWpEMWQtRjloUVVGNUdvaVg4OVF6OUdHNVAzLVZfWmpabGR0RDMzbTkyX244U2xqMW9wclNmd0hmaUt1QTlfWG94b0VPeHVQaU1FUmpWQ0tyZWpvUVA1WlV4UDZEaGxWQ0NxSlNUc3dKMlhGcHJWcEZWNmREcG5uUFk2US13bXdKdHlsMDJYRE9zVmJnMm1TVG1TaXgycHBDcTdnT0M1eG00WVhZbHdvUDc0WmRSUlJzMHZDS1NVZ1Jxc1JVWDU2Rmtzdm5QNEwxMWVQcV9oX09TWFdXSnp2SmI1Q05EbFJmSWc6YTxiPlJlc2lkZW50aWFsIGxhbmQ8L2I-IGluIDxiPlllbGFoYW5rYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gZnJvbSA3NSBsYWtocyB0byA8Yj4xIGNyb3JlPC9iPiAuLi5CxQFMb2NhdGVkIGluIDxiPnllbGFoYW5rYTwvYj4sIDxiPmJhbmdhbG9yZTwvYj4gbm9ydGgsIHRoaXMgODAwIHNxLkZ0LiBOb3J0aC1GYWNpbmcgPGI-cmVzaWRlbnRpYWwgcGxvdDwvYj4gaXMgYXZhaWxhYmxlIGZvciBpbW1lZGlhdGUgPGI-c2FsZTwvYj4uIFBvc2l0aW9uZWQgbmVhciBrZXkgaG9zcGl0YWxzIGFuZCBzaHJpbmVzLCZuYnNwOy4uLkoCaW5KA2ZvclIEaG9tZSICEAFIAFgAaAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 7,
+    "title": "Freehold Plots in Karnataka Below 1 Crore",
+    "link": "https://www.99acres.com/freehold-plots-land-in-karnataka-75-lakhs-to-1-crore-ffid-page-43",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlAEB6zswFR2CAmrVqDT_pmNt16srXoZrdsHD-KicGUJaO6ENIEWlvdBZIi7wOZfDDmfny8likC3s-p1RHXgX3wiKiW4WEtTWjOuFEdNSUMpOYjWtM66Gbth0vVE2zoJvdLr8Cu_rFKJLAk7o2l_f--gf8NSXnKXR0z42TBpJpbINuQDqmnpGodyqLGwz4KAJhGMvgUN5&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECBcQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › 75 Lakh to 1 Cr",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "lakhs to 1 crore. Freehold Plot in Yelahanka, Bangalore Resale ₹86.4 Lac ₹7,200 /sqft Ready Society Corner Property On 40 ft Wide Road Overlooking Park Located ...",
+    "snippet_highlighted_words": [
+     "Freehold Plot in Yelahanka, Bangalore Resale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "lakhs to 1 crore. Freehold Plot in Yelahanka, Bangalore Resale ₹86.4 Lac ₹7,200 /sqft Ready Society Corner Property On 40 ft Wide Road Overlooking Park Located ...",
+      "source_info_link": "https://www.99acres.com/freehold-plots-land-in-karnataka-75-lakhs-to-1-crore-ffid-page-43",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZSMkNBbXJWcURUX3BtTnQxNnNyWG9acmRzSEQtS2ljR1VKYU82RU5JRVdsdmRCWklpN3dPWmZERG1mbnk4bGlrQzNzLXAxUkhYZ1gzd2lLaVc0V0V0VFdqT3VGRWROU1VNcE9Zald0TTY2R2J0aDB2VkUyem9KdmRMcjhDdV9yRktKTEFrN28ybF9mLS1nZjhOU1huS1hSMHo0MlRCcEpwYklOdVFEcW1ucEdvZHlxTEd3ejRLQUpoR012Z1VONRIEGgIIABrTBxIAGgAiACoAOgBCBAgBEABKEQgBEglLYXJuYXRha2EaAggDWg8IARILOTlhY3Jlcy5jb21yAHoAgkCXBwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFYn2j0AaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVDJepQBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFVyNFEAaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVvdPmPxoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRWYOkVAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV2U-APxoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRUrerdAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFQRIokAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZSMkNBbXJWcURUX3BtTnQxNnNyWG9acmRzSEQtS2ljR1VKYU82RU5JRVdsdmRCWklpN3dPWmZERG1mbnk4bGlrQzNzLXAxUkhYZ1gzd2lLaVc0V0V0VFdqT3VGRWROU1VNcE9Zald0TTY2R2J0aDB2VkUyem9KdmRMcjhDdV9yRktKTEFrN28ybF9mLS1nZjhOU1huS1hSMHo0MlRCcEpwYklOdVFEcW1ucEdvZHlxTEd3ejRLQUpoR012Z1VONTpFRnJlZWhvbGQgPGI-UGxvdHM8L2I-IGluIEthcm5hdGFrYSA8Yj5CZWxvdyAxIENyb3JlPC9iPiAtIDk5YWNyZXMuY29tQrMBbGFraHMgdG8gMSBjcm9yZS4gPGI-RnJlZWhvbGQgUGxvdCBpbiBZZWxhaGFua2EsIEJhbmdhbG9yZSBSZXNhbGU8L2I-IOKCuTg2LjQgTGFjIOKCuTcsMjAwIC9zcWZ0IFJlYWR5IFNvY2lldHkgQ29ybmVyIFByb3BlcnR5IE9uIDQwIGZ0IFdpZGUgUm9hZCBPdmVybG9va2luZyBQYXJrIExvY2F0ZWQmbmJzcDsuLi5KA2ZvckoCaW5SBGhvbWUiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZSMkNBbXJWcURUX3BtTnQxNnNyWG9acmRzSEQtS2ljR1VKYU82RU5JRVdsdmRCWklpN3dPWmZERG1mbnk4bGlrQzNzLXAxUkhYZ1gzd2lLaVc0V0V0VFdqT3VGRWROU1VNcE9Zald0TTY2R2J0aDB2VkUyem9KdmRMcjhDdV9yRktKTEFrN28ybF9mLS1nZjhOU1huS1hSMHo0MlRCcEpwYklOdVFEcW1ucEdvZHlxTEd3ejRLQUpoR012Z1VONRIEGgIIABrTBxIAGgAiACoAOgBCBAgBEABKEQgBEglLYXJuYXRha2EaAggDWg8IARILOTlhY3Jlcy5jb21yAHoAgkCXBwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFYn2j0AaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVDJepQBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFVyNFEAaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVvdPmPxoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRWYOkVAGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV2U-APxoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRUrerdAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFQRIokAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMtYBL2dvdG8_dXJsPUNBRVNsQUVCNnpzd0ZSMkNBbXJWcURUX3BtTnQxNnNyWG9acmRzSEQtS2ljR1VKYU82RU5JRVdsdmRCWklpN3dPWmZERG1mbnk4bGlrQzNzLXAxUkhYZ1gzd2lLaVc0V0V0VFdqT3VGRWROU1VNcE9Zald0TTY2R2J0aDB2VkUyem9KdmRMcjhDdV9yRktKTEFrN28ybF9mLS1nZjhOU1huS1hSMHo0MlRCcEpwYklOdVFEcW1ucEdvZHlxTEd3ejRLQUpoR012Z1VONTpFRnJlZWhvbGQgPGI-UGxvdHM8L2I-IGluIEthcm5hdGFrYSA8Yj5CZWxvdyAxIENyb3JlPC9iPiAtIDk5YWNyZXMuY29tQrMBbGFraHMgdG8gMSBjcm9yZS4gPGI-RnJlZWhvbGQgUGxvdCBpbiBZZWxhaGFua2EsIEJhbmdhbG9yZSBSZXNhbGU8L2I-IOKCuTg2LjQgTGFjIOKCuTcsMjAwIC9zcWZ0IFJlYWR5IFNvY2lldHkgQ29ybmVyIFByb3BlcnR5IE9uIDQwIGZ0IFdpZGUgUm9hZCBPdmVybG9va2luZyBQYXJrIExvY2F0ZWQmbmJzcDsuLi5KA2ZvckoCaW5SBGhvbWUiAhABSABYAGgA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 8,
+    "title": "Plots in Karnataka Below 1 Crore",
+    "link": "https://www.99acres.com/gated-community-freehold-plots-land-in-karnataka-75-lakhs-to-1-crore-ffid-page-33",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpAEB6zswFT-53IAB2YDD8hA-rgrAHEpN8utk_zccobu9EKmixeM7zYiRoHKFFNzjNiuckUkOq7d7Rlz8HwsXylPSuAIuG_1FRNOriDhQs68mT9WK8VQz-9zC90A8xTwlVKj-WKb8iAk_hFNKLMe-pS1-sCJb4i7seUerKWMcMCojRQNGBpAYKFSpdizuHjaRYxYkMtHEuW6RAybNm0RvHxlzD-qMsg&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › 75 Lakh to 1 Cr",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Located near reva university in yelahanka, bangalore north, this 8000 sq.Ft. Residential plot is available for immediate sale. Offering ample space on a well- ...",
+    "snippet_highlighted_words": [
+     "Located near reva university in yelahanka"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Located near reva university in yelahanka, bangalore north, this 8000 sq.Ft. Residential plot is available for immediate sale. Offering ample space on a well- ...",
+      "source_info_link": "https://www.99acres.com/gated-community-freehold-plots-land-in-karnataka-75-lakhs-to-1-crore-ffid-page-33",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0ZULTUzSUFCMllERDhoQS1yZ3JBSEVwTjh1dGtfemNjb2J1OUVLbWl4ZU03ellpUm9IS0ZGTnpqTml1Y2tVa09xN2Q3Umx6OEh3c1h5bFBTdUFJdUdfMUZSTk9yaURoUXM2OG1UOVdLOFZRei05ekM5MEE4eFR3bFZLai1XS2I4aUFrX2hGTktMTWUtcFMxLXNDSmI0aTdzZVVlcktXTWNNQ29qUlFOR0JwQVlLRlNwZGl6dUhqYVJZeFlrTXRIRXVXNlJBeWJObTBSdkh4bHpELXFNc2cSBBoCCAAa2wcSABoAIgAqADoAQgQIARAAShEIARIJS2FybmF0YWthGgIIA1oPCAESCzk5YWNyZXMuY29tcgB6AIJAnwcIABAAGAAgACpPCgtyZXNpZGVudGlhbBWqjZhAGglhcGFydG1lbnQaBGhvbWUaBWhvdXNlGgdob3VzaW5nGglyZXNpZGVuY2UaD3Jlc2lkZW50aWFscGxvdCopCgRwbG90FUsYuUAaBGxhbmQaBXBsb3RzGg9yZXNpZGVudGlhbHBsb3QqCgoDZm9yFQAAAAAqLAoEc2FsZRWGBCdAGgNidXkaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqNgoJeWVsYWhhbmthFdTMeT8aFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO3llbGFoYW5rYSo2CgliYW5nYWxvcmUVa5JYQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFYPtKD8aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIxKh0KATEVgz2vQBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRVpM6BAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLsAS9nb3RvP3VybD1DQUVTcEFFQjZ6c3dGVC01M0lBQjJZREQ4aEEtcmdyQUhFcE44dXRrX3pjY29idTlFS21peGVNN3pZaVJvSEtGRk56ak5pdWNrVWtPcTdkN1JsejhId3NYeWxQU3VBSXVHXzFGUk5PcmlEaFFzNjhtVDlXSzhWUXotOXpDOTBBOHhUd2xWS2otV0tiOGlBa19oRk5LTE1lLXBTMS1zQ0piNGk3c2VVZXJLV01jTUNvalJRTkdCcEFZS0ZTcGRpenVIamFSWXhZa010SEV1VzZSQXliTm0wUnZIeGx6RC1xTXNnOjw8Yj5QbG90czwvYj4gaW4gS2FybmF0YWthIDxiPkJlbG93IDEgQ3JvcmU8L2I-IC0gOTlhY3Jlcy5jb21CrgE8Yj5Mb2NhdGVkIG5lYXIgcmV2YSB1bml2ZXJzaXR5IGluIHllbGFoYW5rYTwvYj4sIGJhbmdhbG9yZSBub3J0aCwgdGhpcyA4MDAwIHNxLkZ0LiBSZXNpZGVudGlhbCBwbG90IGlzIGF2YWlsYWJsZSBmb3IgaW1tZWRpYXRlIHNhbGUuIE9mZmVyaW5nIGFtcGxlIHNwYWNlIG9uIGEgd2VsbC0mbmJzcDsuLi5KA2ZvckoCaW5SBGhvbWUiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0ZULTUzSUFCMllERDhoQS1yZ3JBSEVwTjh1dGtfemNjb2J1OUVLbWl4ZU03ellpUm9IS0ZGTnpqTml1Y2tVa09xN2Q3Umx6OEh3c1h5bFBTdUFJdUdfMUZSTk9yaURoUXM2OG1UOVdLOFZRei05ekM5MEE4eFR3bFZLai1XS2I4aUFrX2hGTktMTWUtcFMxLXNDSmI0aTdzZVVlcktXTWNNQ29qUlFOR0JwQVlLRlNwZGl6dUhqYVJZeFlrTXRIRXVXNlJBeWJObTBSdkh4bHpELXFNc2cSBBoCCAAa2wcSABoAIgAqADoAQgQIARAAShEIARIJS2FybmF0YWthGgIIA1oPCAESCzk5YWNyZXMuY29tcgB6AIJAnwcIABAAGAAgACpPCgtyZXNpZGVudGlhbBWqjZhAGglhcGFydG1lbnQaBGhvbWUaBWhvdXNlGgdob3VzaW5nGglyZXNpZGVuY2UaD3Jlc2lkZW50aWFscGxvdCopCgRwbG90FUsYuUAaBGxhbmQaBXBsb3RzGg9yZXNpZGVudGlhbHBsb3QqCgoDZm9yFQAAAAAqLAoEc2FsZRWGBCdAGgNidXkaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqNgoJeWVsYWhhbmthFdTMeT8aFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO3llbGFoYW5rYSo2CgliYW5nYWxvcmUVa5JYQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFYPtKD8aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIxKh0KATEVgz2vQBoDMSdzGgZ1bmRlcjEaBjFjcm9yZSooCgVjcm9yZRVpM6BAGgZjcm9yZXMaBjFjcm9yZRoKaXY7cDtjcm9yZTLsAS9nb3RvP3VybD1DQUVTcEFFQjZ6c3dGVC01M0lBQjJZREQ4aEEtcmdyQUhFcE44dXRrX3pjY29idTlFS21peGVNN3pZaVJvSEtGRk56ak5pdWNrVWtPcTdkN1JsejhId3NYeWxQU3VBSXVHXzFGUk5PcmlEaFFzNjhtVDlXSzhWUXotOXpDOTBBOHhUd2xWS2otV0tiOGlBa19oRk5LTE1lLXBTMS1zQ0piNGk3c2VVZXJLV01jTUNvalJRTkdCcEFZS0ZTcGRpenVIamFSWXhZa010SEV1VzZSQXliTm0wUnZIeGx6RC1xTXNnOjw8Yj5QbG90czwvYj4gaW4gS2FybmF0YWthIDxiPkJlbG93IDEgQ3JvcmU8L2I-IC0gOTlhY3Jlcy5jb21CrgE8Yj5Mb2NhdGVkIG5lYXIgcmV2YSB1bml2ZXJzaXR5IGluIHllbGFoYW5rYTwvYj4sIGJhbmdhbG9yZSBub3J0aCwgdGhpcyA4MDAwIHNxLkZ0LiBSZXNpZGVudGlhbCBwbG90IGlzIGF2YWlsYWJsZSBmb3IgaW1tZWRpYXRlIHNhbGUuIE9mZmVyaW5nIGFtcGxlIHNwYWNlIG9uIGEgd2VsbC0mbmJzcDsuLi5KA2ZvckoCaW5SBGhvbWUiAhABSABYAGgA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/gated-community-freehold-plots-land-in-karnataka-75-lakhs-to-1-crore-ffid-page-33#:~:text=Located%20near%20reva%20university%20in,ample%20space%20on%20a%20well%2D"
+   },
+   {
+    "position": 9,
+    "title": "Villas for Sale in Yelahanka, Bangalore below 1.5 crores",
+    "link": "https://www.99acres.com/villas-in-yelahanka-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlwEB6zswFbTNEoV8-SjlGGPMIBzPrkxleTUshLNqmkaAa_vRczPk4eUuNhb6ZZDP88h2Mrg7Q4NsRv11-SwJSRk0Qe9xmnJf_gWGwUkm_cyukc3xpRA6yntLHlO5AZf51plRkqJx4ef2KuuvKygyhDdiBKtguOB81X-zSvHB371pDDZcCGWioMWjYVfA4Xel_Yhom7n2XV9K&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECB4QAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › Villas in Yelahanka",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find Villas in Yelahanka, Bangalore from 1 crore to 1.5 crores on 99acres.com. ₹19,666 /sqft Ready To Move 600 sqft(56 sqm) Plot area East Facing 1 Covered … ...",
+    "snippet_highlighted_words": [
+     "Yelahanka",
+     "Bangalore",
+     "1 crore",
+     "crores",
+     "Plot",
+     "1"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find Villas in Yelahanka, Bangalore from 1 crore to 1.5 crores on 99acres.com. ₹19,666 /sqft Ready To Move 600 sqft(56 sqm) Plot area East Facing 1 Covered … ...",
+      "source_info_link": "https://www.99acres.com/villas-in-yelahanka-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZiVE5Fb1Y4LVNqbEdHUE1JQnpQcmt4bGVUVXNoTE5xbWthQWFfdlJjelBrNGVVdU5oYjZaWkRQODhoMk1yZzdRNE5zUnYxMS1Td0pTUmswUWU5eG1uSmZfZ1dHd1VrbV9jeXVrYzN4cFJBNnludExIbE81QVpmNTFwbFJrcUp4NGVmMkt1dXZLeWd5aERkaUJLdGd1T0I4MVgtelN2SEIzNzFwRERaY0NHV2lvTVdqWVZmQTRYZWxfWWhvbTduMlhWOUsSBBoCCAAaiwgSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkDEBwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFVl9SEAaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVUw90QBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFeioNEAaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVbifqQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRUOse1AGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV0yCqPhoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRU7yJhAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFVXvkUAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZiVE5Fb1Y4LVNqbEdHUE1JQnpQcmt4bGVUVXNoTE5xbWthQWFfdlJjelBrNGVVdU5oYjZaWkRQODhoMk1yZzdRNE5zUnYxMS1Td0pTUmswUWU5eG1uSmZfZ1dHd1VrbV9jeXVrYzN4cFJBNnludExIbE81QVpmNTFwbFJrcUp4NGVmMkt1dXZLeWd5aERkaUJLdGd1T0I4MVgtelN2SEIzNzFwRERaY0NHV2lvTVdqWVZmQTRYZWxfWWhvbTduMlhWOUs6TVZpbGxhcyBmb3IgPGI-U2FsZSBpbiBZZWxhaGFua2E8L2I-LCA8Yj5CYW5nYWxvcmUgYmVsb3c8L2I-IDEuNSA8Yj5jcm9yZXM8L2I-QtQBRmluZCBWaWxsYXMgaW4gPGI-WWVsYWhhbmthPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmcm9tIDxiPjEgY3JvcmU8L2I-IHRvIDEuNSA8Yj5jcm9yZXM8L2I-IG9uIDk5YWNyZXMuY29tLiDigrkxOSw2NjYgL3NxZnQgUmVhZHkgVG8gTW92ZSA2MDAgc3FmdCg1NiBzcW0pIDxiPlBsb3Q8L2I-IGFyZWEgRWFzdCBGYWNpbmcgPGI-MTwvYj4gQ292ZXJlZCDigKYmbmJzcDsuLi5KAmluSgNmb3JSBGhvbWUiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZiVE5Fb1Y4LVNqbEdHUE1JQnpQcmt4bGVUVXNoTE5xbWthQWFfdlJjelBrNGVVdU5oYjZaWkRQODhoMk1yZzdRNE5zUnYxMS1Td0pTUmswUWU5eG1uSmZfZ1dHd1VrbV9jeXVrYzN4cFJBNnludExIbE81QVpmNTFwbFJrcUp4NGVmMkt1dXZLeWd5aERkaUJLdGd1T0I4MVgtelN2SEIzNzFwRERaY0NHV2lvTVdqWVZmQTRYZWxfWWhvbTduMlhWOUsSBBoCCAAaiwgSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkDEBwgAEAAYACAAKk8KC3Jlc2lkZW50aWFsFVl9SEAaCWFwYXJ0bWVudBoEaG9tZRoFaG91c2UaB2hvdXNpbmcaCXJlc2lkZW5jZRoPcmVzaWRlbnRpYWxwbG90KikKBHBsb3QVUw90QBoEbGFuZBoFcGxvdHMaD3Jlc2lkZW50aWFscGxvdCoKCgNmb3IVAAAAACosCgRzYWxlFeioNEAaA2J1eRoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACo2Cgl5ZWxhaGFua2EVbifqQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7eWVsYWhhbmthKjYKCWJhbmdhbG9yZRUOse1AGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV0yCqPhoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjEqHQoBMRU7yJhAGgMxJ3MaBnVuZGVyMRoGMWNyb3JlKigKBWNyb3JlFVXvkUAaBmNyb3JlcxoGMWNyb3JlGgppdjtwO2Nyb3JlMtoBL2dvdG8_dXJsPUNBRVNsd0VCNnpzd0ZiVE5Fb1Y4LVNqbEdHUE1JQnpQcmt4bGVUVXNoTE5xbWthQWFfdlJjelBrNGVVdU5oYjZaWkRQODhoMk1yZzdRNE5zUnYxMS1Td0pTUmswUWU5eG1uSmZfZ1dHd1VrbV9jeXVrYzN4cFJBNnludExIbE81QVpmNTFwbFJrcUp4NGVmMkt1dXZLeWd5aERkaUJLdGd1T0I4MVgtelN2SEIzNzFwRERaY0NHV2lvTVdqWVZmQTRYZWxfWWhvbTduMlhWOUs6TVZpbGxhcyBmb3IgPGI-U2FsZSBpbiBZZWxhaGFua2E8L2I-LCA8Yj5CYW5nYWxvcmUgYmVsb3c8L2I-IDEuNSA8Yj5jcm9yZXM8L2I-QtQBRmluZCBWaWxsYXMgaW4gPGI-WWVsYWhhbmthPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmcm9tIDxiPjEgY3JvcmU8L2I-IHRvIDEuNSA8Yj5jcm9yZXM8L2I-IG9uIDk5YWNyZXMuY29tLiDigrkxOSw2NjYgL3NxZnQgUmVhZHkgVG8gTW92ZSA2MDAgc3FmdCg1NiBzcW0pIDxiPlBsb3Q8L2I-IGFyZWEgRWFzdCBGYWNpbmcgPGI-MTwvYj4gQ292ZXJlZCDigKYmbmJzcDsuLi5KAmluSgNmb3JSBGhvbWUiAhABSABYAGgA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 10,
+    "title": "614+ Residential Land / Plots in Bangalore North below 1 ...",
+    "link": "https://www.99acres.com/residential-land-in-bangalore-north-75-lakhs-to-1-crore-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwEB6zswFZGq0E--8XObaZzAk2nl4KMwsE3ABAZXBah6kApRMrguNtGaWauLKUvlLV5fwtQHrU-JTf3S2QFYpPZ3rul00eBoopyv7txnk4dM2lkJmlEGg2eYq_YEJOiS1pVUC3Dz0hJbncTW5A_h1E2Z8wt4oJ08achLSJ1A-Fct0hC22p4WtIFtR2ruun7hpQ&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64QFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › ... › Plots in Bangalore",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Residential land / Plots in Bangalore North for Sale Below 1 Crore ; in Devanahalli, Bangalore · ₹91 Lac. ₹7,583 /sqft ; in Devanahalli, Bangalore. ₹95.92 Lac - ...",
+    "snippet_highlighted_words": [
+     "Residential land / Plots in Bangalore North for Sale Below 1 Crore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Residential land / Plots in Bangalore North for Sale Below 1 Crore ; in Devanahalli, Bangalore · ₹91 Lac. ₹7,583 /sqft ; in Devanahalli, Bangalore. ₹95.92 Lac - ...",
+      "source_info_link": "https://www.99acres.com/residential-land-in-bangalore-north-75-lakhs-to-1-crore-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZaR3EwRS0tOFhPYmFaekFrMm5sNEtNd3NFM0FCQVpYQmFoNmtBcFJNcmd1TnRHYVdhdUxLVXZsTFY1Znd0UUhyVS1KVGYzUzJRRllwUFozcnVsMDBlQm9vcHl2N3R4bms0ZE0ybGtKbWxFR2cyZVlxX1lFSk9pUzFwVlVDM0R6MGhKYm5jVFc1QV9oMUUyWjh3dDRvSjA4YWNoTFNKMUEtRmN0MGhDMjJwNFd0SUZ0UjJydXVuN2hwURIEGgIIABr4BxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQLEHCAAQABgAIAAqTwoLcmVzaWRlbnRpYWwV2w3zQBoJYXBhcnRtZW50GgRob21lGgVob3VzZRoHaG91c2luZxoJcmVzaWRlbmNlGg9yZXNpZGVudGlhbHBsb3QqKQoEcGxvdBXeNa9AGgRsYW5kGgVwbG90cxoPcmVzaWRlbnRpYWxwbG90KgoKA2ZvchUAAAAAKiwKBHNhbGUVtdgCQBoDYnV5Ggdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKjYKCXllbGFoYW5rYRVx8Yg_GhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDt5ZWxhaGFua2EqNgoJYmFuZ2Fsb3JlFek87kAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchUtpNw_GgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMSodCgExFX5cukAaAzEncxoGdW5kZXIxGgYxY3JvcmUqKAoFY3JvcmUVOMOqQBoGY3JvcmVzGgYxY3JvcmUaCml2O3A7Y3JvcmUy0AEvZ290bz91cmw9Q0FFU2p3RUI2enN3RlpHcTBFLS04WE9iYVp6QWsybmw0S013c0UzQUJBWlhCYWg2a0FwUk1yZ3VOdEdhV2F1TEtVdmxMVjVmd3RRSHJVLUpUZjNTMlFGWXBQWjNydWwwMGVCb29weXY3dHhuazRkTTJsa0ptbEVHZzJlWXFfWUVKT2lTMXBWVUMzRHowaEpibmNUVzVBX2gxRTJaOHd0NG9KMDhhY2hMU0oxQS1GY3QwaEMyMnA0V3RJRnRSMnJ1dW43aHBROls2MTQrIDxiPlJlc2lkZW50aWFsIExhbmQ8L2I-IC8gPGI-UGxvdHM8L2I-IGluIDxiPkJhbmdhbG9yZTwvYj4gTm9ydGggPGI-YmVsb3cgMSBjcm9yZTwvYj4uQr0BPGI-UmVzaWRlbnRpYWwgbGFuZCAvIFBsb3RzIGluIEJhbmdhbG9yZSBOb3J0aCBmb3IgU2FsZSBCZWxvdyAxIENyb3JlPC9iPiA7IGluIERldmFuYWhhbGxpLCBCYW5nYWxvcmUgJm1pZGRvdDsg4oK5OTEgTGFjLiDigrk3LDU4MyAvc3FmdCA7IGluIERldmFuYWhhbGxpLCBCYW5nYWxvcmUuIOKCuTk1LjkyIExhYyAtJm5ic3A7Li4uSgJpbkoDZm9yUgRob21lIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZaR3EwRS0tOFhPYmFaekFrMm5sNEtNd3NFM0FCQVpYQmFoNmtBcFJNcmd1TnRHYVdhdUxLVXZsTFY1Znd0UUhyVS1KVGYzUzJRRllwUFozcnVsMDBlQm9vcHl2N3R4bms0ZE0ybGtKbWxFR2cyZVlxX1lFSk9pUzFwVlVDM0R6MGhKYm5jVFc1QV9oMUUyWjh3dDRvSjA4YWNoTFNKMUEtRmN0MGhDMjJwNFd0SUZ0UjJydXVuN2hwURIEGgIIABr4BxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQLEHCAAQABgAIAAqTwoLcmVzaWRlbnRpYWwV2w3zQBoJYXBhcnRtZW50GgRob21lGgVob3VzZRoHaG91c2luZxoJcmVzaWRlbmNlGg9yZXNpZGVudGlhbHBsb3QqKQoEcGxvdBXeNa9AGgRsYW5kGgVwbG90cxoPcmVzaWRlbnRpYWxwbG90KgoKA2ZvchUAAAAAKiwKBHNhbGUVtdgCQBoDYnV5Ggdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKjYKCXllbGFoYW5rYRVx8Yg_GhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDt5ZWxhaGFua2EqNgoJYmFuZ2Fsb3JlFek87kAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchUtpNw_GgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMSodCgExFX5cukAaAzEncxoGdW5kZXIxGgYxY3JvcmUqKAoFY3JvcmUVOMOqQBoGY3JvcmVzGgYxY3JvcmUaCml2O3A7Y3JvcmUy0AEvZ290bz91cmw9Q0FFU2p3RUI2enN3RlpHcTBFLS04WE9iYVp6QWsybmw0S013c0UzQUJBWlhCYWg2a0FwUk1yZ3VOdEdhV2F1TEtVdmxMVjVmd3RRSHJVLUpUZjNTMlFGWXBQWjNydWwwMGVCb29weXY3dHhuazRkTTJsa0ptbEVHZzJlWXFfWUVKT2lTMXBWVUMzRHowaEpibmNUVzVBX2gxRTJaOHd0NG9KMDhhY2hMU0oxQS1GY3QwaEMyMnA0V3RJRnRSMnJ1dW43aHBROls2MTQrIDxiPlJlc2lkZW50aWFsIExhbmQ8L2I-IC8gPGI-UGxvdHM8L2I-IGluIDxiPkJhbmdhbG9yZTwvYj4gTm9ydGggPGI-YmVsb3cgMSBjcm9yZTwvYj4uQr0BPGI-UmVzaWRlbnRpYWwgbGFuZCAvIFBsb3RzIGluIEJhbmdhbG9yZSBOb3J0aCBmb3IgU2FsZSBCZWxvdyAxIENyb3JlPC9iPiA7IGluIERldmFuYWhhbGxpLCBCYW5nYWxvcmUgJm1pZGRvdDsg4oK5OTEgTGFjLiDigrk3LDU4MyAvc3FmdCA7IGluIERldmFuYWhhbGxpLCBCYW5nYWxvcmUuIOKCuTk1LjkyIExhYyAtJm5ic3A7Li4uSgJpbkoDZm9yUgRob21lIgIQAUgAWABoAA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/residential-land-in-bangalore-north-75-lakhs-to-1-crore-ffid#:~:text=Residential%20land%20%2F%20Plots%20in,for%20Sale%20Below%201%20Crore&text=Residential%20land%20%2F%20Plot%20in,Devanahalli%2C%20Bangalore&text=%E2%82%B991%20Lac,%E2%82%B97%2C583%20%2Fsqft&text=Residential%20land%20%2F%20Plot%20in,%E2%82%B995.92%20Lac%20%2D%201.44%20cr"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=10&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8NMDegQIOBAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=10&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAE",
+    "3": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=20&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAG",
+    "4": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=30&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAI",
+    "5": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=40&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAK",
+    "6": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=50&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAM",
+    "7": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=60&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAO",
+    "8": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=70&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAQ",
+    "9": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=80&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAS",
+    "10": "https://www.google.co.in/search?q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=936417aed4b7c340&gl=in&hl=en&sxsrf=APpeQnt8r9AvDdYLFEWuClo6CvQjfL5RDg:1791088938453&ei=KtnBauqhG5yt5NoP8-bO8Qo&start=90&sa=N&sstk=AS6-VmIgEJAXi1_YwzBOUrROC8xmxY0ev3yIwksO3XPCpX9J6eu3KTDHoeWTCIgtW8rup2uEPFtfhUUeCldPRkYV2TBJl-OdQcuu5A&ved=2ahUKEwjq3r-fxp-XAxWcFlkFHXOzM64Q8tMDegQIOBAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=residential+plot+for+sale+in+Yelahanka+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=90"
+   }
+  }
+ }
+}

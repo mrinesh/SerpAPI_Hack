@@ -1,0 +1,498 @@
+{
+ "engine": "google_local",
+ "params": {
+  "q": "shop for sale in Indiranagar Bangalore",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d8abe7b2d38b95ce76a4",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/rOaAz17JtUe_9DTRwLyBgszGBp2hT876FdoFBgdiPNE/6ac1d8abe7b2d38b95ce76a4.json",
+   "markdown_endpoint": "https://serpapi.com/searches/rOaAz17JtUe_9DTRwLyBgszGBp2hT876FdoFBgdiPNE/6ac1d8abe7b2d38b95ce76a4.md",
+   "created_at": "2026-10-04 04:40:11 UTC",
+   "processed_at": "2026-10-04 04:40:11 UTC",
+   "google_local_url": "https://www.google.co.in/search?q=shop+for+sale+in+Indiranagar+Bangalore&uule=j+WzIsMzIsbnVsbCwiQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYSIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsXQ==&hl=en&gl=in&udm=1",
+   "raw_html_file": "https://serpapi.com/searches/rOaAz17JtUe_9DTRwLyBgszGBp2hT876FdoFBgdiPNE/6ac1d8abe7b2d38b95ce76a4.html",
+   "total_time_taken": 4.96
+  },
+  "search_parameters": {
+   "engine": "google_local",
+   "q": "shop for sale in Indiranagar Bangalore",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "local_map": {
+   "gps_coordinates": {
+    "latitude": 12.97407298777324,
+    "longitude": 77.64046669006348
+   }
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Chumbak - Home, Gifts & Accessories",
+    "type": "Home goods store",
+    "rating": 4.1,
+    "reviews": 1004,
+    "description": "Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/WuXUDH-LPQXsVwehwqg1wloJdX_eBK_lQ4KvMaV9jRE.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmNnKnTHFGnCDwAkV28ZFslbzLJEGoIjJfqORfVvgF8JCnX5n1Bfwt86IA6DGiiJtTCk8i5oCZmqZG4c5uhlQAyhIWoVpp24vRReci45po1D9PbNujEzUdN_MqX6nirML1eAWdle=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:081233 73627",
+     "website": "http://www.chumbak.com/"
+    },
+    "place_id": "727813560130124421",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=727813560130124421&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11b6b5w3vv",
+    "gps_coordinates": {
+     "latitude": 12.978164,
+     "longitude": 77.642065
+    },
+    "address": "520, Chinmaya Mission Hospital Rd, near ICICI Bank, Indira Nagar 1st Stage, Bengaluru, Karnataka 560038",
+    "hours": "Open · Closes 9:30 pm",
+    "phone": "081233 73627"
+   },
+   {
+    "position": 2,
+    "title": "Sale Zari – Old Pattu Saree Buyers in Indiranagar Bangalore",
+    "type": "Clothing store",
+    "rating": 5,
+    "reviews": 84,
+    "description": "Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/mFRsv9CyTXqXps5ifJD8gODhDfycSTus7lC_R6c9tVI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmPi3HWwGeJhdyOVzXk0YBvF96mRXwELI-UAudK8BXbKnx0T_V__gjuFTpG9bMctTS9qV_6z_ndFakvVStBmiOzESSwin-iZighlh5JPFMfr73mr_m-XrY-Qs8bb-SvAgre5OSZMavj9adM=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:096003 51512",
+     "website": "https://www.salezari.com/"
+    },
+    "place_id": "7274782254041598472",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=7274782254041598472&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11y4bbk8hg",
+    "gps_coordinates": {
+     "latitude": 12.977477,
+     "longitude": 77.639433
+    },
+    "address": "Metro Station, 783, 9th A Main Rd, near 100 Feet Road, Stage 2, Indiranagar, Bengaluru, Karnataka 560038",
+    "hours": "Open · Closes 8 pm",
+    "phone": "096003 51512"
+   },
+   {
+    "position": 3,
+    "title": "The Shop",
+    "type": "Clothing store",
+    "rating": 4.5,
+    "reviews": 40,
+    "description": "Delivery",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN3M8rlQKGfLzjcFVwlKaW_qv3wgDn3s7kikDe6ucHdPJNyLJwEaC2dkVtVQ1GubZYQJ26WgnirubEhB28Xt-FGaz-ScQU8RCLT15gO4N7kHt26zIAW44IjisFScWjgjXkPEbk=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmN3M8rlQKGfLzjcFVwlKaW_qv3wgDn3s7kikDe6ucHdPJNyLJwEaC2dkVtVQ1GubZYQJ26WgnirubEhB28Xt-FGaz-ScQU8RCLT15gO4N7kHt26zIAW44IjisFScWjgjXkPEbk=w1000-h1000-c-n",
+    "links": {
+     "website": "http://www.theshopindia.com/"
+    },
+    "place_id": "10193786151972994288",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=10193786151972994288&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11v0h08pgw",
+    "gps_coordinates": {
+     "latitude": 12.970084,
+     "longitude": 77.641815
+    },
+    "address": "1147, 12th Main Rd, Indiranagar, Bengaluru, Karnataka 560038",
+    "hours": "Opens soon · 10:30 am"
+   },
+   {
+    "position": 4,
+    "title": "Latin Quarters",
+    "type": "Clothing store",
+    "rating": 4.2,
+    "reviews": 75,
+    "description": "On-site services",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/Gf6Mg_18lFhCeOfBC7NPrCdkku68WVMYGTT-VO5voqo.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmPhNmut9P0cj8L1GS-DlsVRKF1IQSdLbFMHnkaWDPncGpzeGcKFGHSZTXEW7fVDP_RRnIbghdElczWrRxzVWyogpTkobi1OG2ZtosqA1tNePjZQJSjs1vHaBT7COeGlkIgCgEqPJ5BS33k=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 4092 6722",
+     "website": "https://latin-quarters.com/"
+    },
+    "place_id": "5864873370803824534",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=5864873370803824534&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11c1v1tnz3",
+    "gps_coordinates": {
+     "latitude": 12.976407,
+     "longitude": 77.64075
+    },
+    "address": "Akshaya Building, KFC Signal, 660/1, 100 Feet Rd, opp. Reliance Foot Print, Indiranagar, Bengaluru, Karnataka 560038",
+    "hours": "Opens soon · 10:30 am",
+    "phone": "080 4092 6722"
+   },
+   {
+    "position": 5,
+    "title": "Nothing(R) Brand Store",
+    "type": "Cell phone store",
+    "rating": 4.6,
+    "reviews": 752,
+    "description": "\"Excellent service by Aman at Indiranagar showroom, Bengaluru.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/pb4J7-ryFMwL_xM7vvKih4YWOdGwlGkNs-91r91dUAQ.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmOIqJ2ybvX8ic0maxG-wOw7XNrzRJdIxXY5JdGrzoIENLwy3xtwVAgo18uEh5VdIq3ZutqXc-vjXivni7EG7Sn1YzWFpis2lxQdOymfMtgvXH8Eav4rGZF5U7t74K0Iur1UZTR8iS8jZt8=w1000-h1000-c-n",
+    "links": {
+     "website": "https://in.nothing.tech/"
+    },
+    "place_id": "3478748994639063680",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=3478748994639063680&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11n43338m4",
+    "gps_coordinates": {
+     "latitude": 12.976177,
+     "longitude": 77.640772
+    },
+    "address": "V.G.R plaza opp ESI QUATERS 2nd stage DOUBLE ROAD, 100 Feet Rd, Indiranagar, Bengaluru, Karnataka 560038"
+   },
+   {
+    "position": 6,
+    "title": "G.E NORTH EAST SHOP",
+    "rating": 5,
+    "reviews": 7,
+    "description": "\"North East India vegetables and some other items in affordable price.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/xiglKudAKJaIaXmOhM8tLzRbuNLOmqS_LBjHIMBQAPU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmNDeLhs-4YhR5Zz4XiVnLbkBGfVo7jg2yHdWTQeHmlZZJRguZr8R88J7m4lMA7h2dZnPnI6O5M4r1vI_UaELYPSZTS1Kc5oGUrgGSNXURk0irbUTiiro3QdQnPIePc4xp4njoiWUg=w1000-h1000-c-n",
+    "place_id": "12810564697226181936",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=12810564697226181936&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11ml3bv1l8",
+    "gps_coordinates": {
+     "latitude": 12.974504,
+     "longitude": 77.638537
+    },
+    "address": "Motappana, Appareddy Palya Rd, Indiranagar, Karnataka 560038"
+   },
+   {
+    "position": 7,
+    "title": "Rare Rabbit, Indiranagar",
+    "type": "Men's clothing store",
+    "rating": 4.5,
+    "reviews": 361,
+    "description": "\"Nice collections.Sales personnel receive the customers well.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/mTDr1biW-rmZvLFr7Oi-ZIMiRLyN95alcVCfoS0Nz2o.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmMbkI5f1Kkhl3TAfJ_e_WyWpJURo70ux-38FIybJ7WpkbJy5stfRhRNtHvkjer9AsIVFexIHBq-Z8e6w6b1q-mcRrbLpCt3rhNnCu0wX0uQIC5KqX2A7fyhkufQz64DV0qLXS0M=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:091677 81241",
+     "website": "https://stores-rarerabbit.thehouseofrare.com/rare-rabbit-indiranagar-indra-nagar-blr-men-s-clothes-shop-indiranagar-bengaluru-303991/Home"
+    },
+    "place_id": "15091475236522989604",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=15091475236522989604&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11frrsjqf7",
+    "gps_coordinates": {
+     "latitude": 12.972866,
+     "longitude": 77.640856
+    },
+    "address": "Shop No 2, Ground &, 100 Feet Rd, Defence Colony, Indiranagar, Bengaluru, Karnataka 560008",
+    "hours": "Closed · Opens 11 am",
+    "phone": "091677 81241"
+   },
+   {
+    "position": 8,
+    "title": "Club A",
+    "type": "Clothing store",
+    "rating": 4.2,
+    "reviews": 82,
+    "description": "\"Can get good stuff during sale\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/yfB9-YqUBGYUtbiYfjA1AVVhGOCPCBUy-GthVayY3lY.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmOg9BlDPK6xLcfwHReyL-LhmYdjw_FpN7XVboE9E510ulmLV3sBmwSYlooys5hadJu_7q527Fvha-phs4TYq9PKpYqOy3U1aL6Nl3HSgrBC0jZc-YqbzxudqNkM-4chYclkZgo=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 3551 1562",
+     "website": "https://www.nnnow.com/"
+    },
+    "place_id": "2304228975169126700",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=2304228975169126700&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11v0lg8f8l",
+    "gps_coordinates": {
+     "latitude": 12.968885,
+     "longitude": 77.641156
+    },
+    "address": "Shop No – 776, Ground Floor, 100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008",
+    "hours": "Open · Closes 10 pm",
+    "phone": "080 3551 1562"
+   },
+   {
+    "position": 9,
+    "title": "Varnam Craft Collective",
+    "type": "Gift shop",
+    "rating": 4.6,
+    "reviews": 686,
+    "description": "Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/aOTnwaSN0AsejWOaWAk93tNlLtGqyHEtFB7-RrnkQzM.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmM6hkbHoRRi5viJWPFVsImQkFzNTnuUOPPEdLnOUNZqG3JjVoC87_Pi77SBVxAFFVYM4RLA3oWTxU8O9k-9GvyjkzOYxUuLgWEfI9T-6qBXohK1gjo6unMKEtv5eoXtzFnkdqs=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 2525 0360",
+     "website": "http://www.varnamstore.in/"
+    },
+    "place_id": "9578449873434969448",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=9578449873434969448&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/12qfvryv5",
+    "gps_coordinates": {
+     "latitude": 12.975179,
+     "longitude": 77.636348
+    },
+    "address": "No.1332, 1332, Paramahansa Yogananda Rd, Indira Nagar II Stage, Stage 2, Indiranagar, Bengaluru, Karnataka 560008",
+    "hours": "Opens soon · 10:30 am",
+    "phone": "080 2525 0360"
+   },
+   {
+    "position": 10,
+    "title": "MK Retail Supermarket",
+    "type": "Supermarket",
+    "rating": 4.2,
+    "reviews": 6742,
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPjRMgS14cEapZQzGVacrQhDE2f0n89fvN8nxVKghd2KEG-UItiNwru2-ttTdtQm5U6NJGL2cJ3H3amm5cwnWYVWASjX67i7OYcxe3ODaPyh7w85-Z78QBzqTKWbqpMjCOhr4IP-g=w90-h90-n-k-no-l75",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmPjRMgS14cEapZQzGVacrQhDE2f0n89fvN8nxVKghd2KEG-UItiNwru2-ttTdtQm5U6NJGL2cJ3H3amm5cwnWYVWASjX67i7OYcxe3ODaPyh7w85-Z78QBzqTKWbqpMjCOhr4IP-g=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 4169 4848"
+    },
+    "place_id": "6467086067799683082",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=6467086067799683082&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11b7zh93fp",
+    "gps_coordinates": {
+     "latitude": 12.978683,
+     "longitude": 77.644596
+    },
+    "address": "734, Chinmaya Mission Hospital Rd, Indiranagar, Bengaluru, Karnataka 560038",
+    "hours": "Open · Closes 9:30 pm",
+    "phone": "080 4169 4848"
+   },
+   {
+    "position": 11,
+    "title": "Pai International– Indiranagar",
+    "type": "Electronics Company",
+    "rating": 4.6,
+    "reviews": 10195,
+    "description": "\"Good service in pai indiranagar iam taking ref good sales girl meher\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/4KmROqfc6U_SEzJ4_KCVqwz1AKzxUhMbVxFqeKc-YDc.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmOK-ACDRzHPuWZYx1NW3b1qs6GZMPSVY2Ay3N4usQsEps4ntZYu5d5M1e2YKFjBg6ErS1ENbOm8hag_twiORqF2HrPOacE0DqvxGiIJ3Cjwd-AdAqWjspFaKGGunH6dCC62VFD4ig=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 4246 4343",
+     "website": "https://www.paiinternational.in/"
+    },
+    "place_id": "1468429572215141831",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=1468429572215141831&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/1thx711b",
+    "gps_coordinates": {
+     "latitude": 12.97806,
+     "longitude": 77.640695
+    },
+    "address": "No.28/1A, 100 Feet Rd, Bengaluru, Karnataka 560038",
+    "hours": "Open · Closes 10 pm",
+    "phone": "080 4246 4343"
+   },
+   {
+    "position": 12,
+    "title": "dog sale in Bangalore",
+    "type": "Pet store",
+    "rating": 4.5,
+    "reviews": 1418,
+    "description": "\"Best puppies for sale here Highly recommended Dog sale in Bangalore\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/CYQQSYSlyuodT1BMMsqbLXhl3lsz3h0xLk7mOiRgvdo.png",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmNcboG92wA_3Rxo8R8_G0Jq4C1qaAvsGPYgbK0GoA4RnrwDRf2_Un1XqORM1NLxbnuiP1IMnQBVzIJF6-46Ofk4ncnupo8H3xs1jxPoyjOGfhKF1-8W_RknYX2WyvwqIRl317E1Lv4-HuiS=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:077601 46164",
+     "website": "https://dogsaleinbangalore.com/"
+    },
+    "place_id": "1897393846292865176",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=1897393846292865176&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11fcs_9v0j",
+    "gps_coordinates": {
+     "latitude": 12.97827,
+     "longitude": 77.638623
+    },
+    "address": "Metro Station Indira Nagar, Bengaluru, Karnataka 560038",
+    "hours": "Open · Closes 11:30 pm",
+    "phone": "077601 46164"
+   },
+   {
+    "position": 13,
+    "title": "Westside - Indira Nagar, Bangalore",
+    "type": "Shopping mall",
+    "rating": 3.8,
+    "reviews": 1332,
+    "description": "In-store shopping·In-store pick-up·Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/oBv-Nvqk17ElpoJiION9jUfkQ_B5NP3UxEJzl-BMxag.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmNsAge8FSaES5ANiODLXVJ3OwbjhEExKSUwYh04Wi9saVkw8fHzOkhkqCvbpWsPX9jm1FZsbdkWMvRHeSj32dW8JBaRTFeAnXazKXalP_v4yv6ti3kz4v5LJgN2oXvTFxGNx-AVyg=w1000-h1000-c-n",
+    "links": {
+     "website": "https://www.westside.com/?utm_source=google-gmb&utm_medium=gmb-seo-url&utm_campaign=westside-gmb"
+    },
+    "place_id": "2495218306203848324",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=2495218306203848324&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11n86s0p1x",
+    "gps_coordinates": {
+     "latitude": 12.963826,
+     "longitude": 77.641406
+    },
+    "address": "100 Feet Rd, Doopanahalli, Domlur, Bengaluru, Karnataka 560008",
+    "hours": "Closed · Opens 11 am"
+   },
+   {
+    "position": 14,
+    "title": "Croma - Indiranagar",
+    "type": "Electronics store",
+    "rating": 3.9,
+    "reviews": 5347,
+    "description": "Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/tkt8VwTDAdY7Ax9_UtXBeVQ0Xm08n8hZ8XWBNzhLTo0.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmMGvTEamanBFEvfH_7iEw4Wj4BNY-Dq-dzta6TwD6DD8t_PSmwYDXe2sJsspeeGCOkof58AjhsCF2WFj0YXB0PiakcSJof_ACYSwCk4bptecYm47yZz132pf8AlhRmS37hAtLnmBw=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:077958 38017",
+     "website": "https://store.croma.com/croma-indiranagar-electronics-retail-and-repair-shop-indiranagar-bengaluru-263536/Home?utm_source=locator&utm_medium=googleplaces"
+    },
+    "place_id": "10074396314570861193",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=10074396314570861193&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11c5_37v8p",
+    "gps_coordinates": {
+     "latitude": 12.97059,
+     "longitude": 77.641031
+    },
+    "address": "No 767 & 767/1, 100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008",
+    "hours": "Closed · Opens 11 am",
+    "phone": "077958 38017"
+   },
+   {
+    "position": 15,
+    "title": "IndiraNagar Vines mart",
+    "type": "Shoe store",
+    "rating": 5,
+    "reviews": 2,
+    "description": "In-store shopping·Kerbside pickup·Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/kE4Ycif08NZgkp73rJ-EE3uH2zFB-03b3l5IcgPuyjw.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmN7wO_ij4kzmpyWs9I0f-X2iKITyA4K61dG6v7eU3nu6FgASuNEyjNA3rYCoDdFaVhFZu1lgG5-_kmF0Mku6RN-3Dj4w1Z273EIlEcgkIuXPhWDcWT2mmcPl0gRe3A1ElNw0_EdaxEykfWC=w1000-h1000-c-n",
+    "place_id": "5116299771822887995",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=5116299771822887995&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11nvzqvmsx",
+    "gps_coordinates": {
+     "latitude": 12.970181,
+     "longitude": 77.641952
+    },
+    "address": "12th Main Rd, near me wine shop, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008",
+    "hours": "Open 24 hours"
+   },
+   {
+    "position": 16,
+    "title": "Suvasa",
+    "type": "Clothing store",
+    "rating": 4.3,
+    "reviews": 233,
+    "description": "Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/WANFkKDwrPT-clSWhH1L6ol3WLrhxGFJRlgrv7Lq8dU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmN7oHgZx5kh_XSHO1BVQDyFvkRMcYAFM0iX4hGqH06eEuWc-Ge4C90Pn0ymcWsSgTqltbSJ6InMqudo0Ei9XJEV505PmF42ayQg-Mzit-KUaTcE3FM4LFYsKC-lSng5GlPuMjId=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 4850 5070",
+     "website": "http://www.suvasa.in/"
+    },
+    "place_id": "6881439772741165040",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=6881439772741165040&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/1tlw7h_n",
+    "gps_coordinates": {
+     "latitude": 12.972676,
+     "longitude": 77.640684
+    },
+    "address": "K.P. Landmark 267 7th Main, 100 Feet Rd, next to Mothercare, below Woohoo Health Club, Bengaluru, Karnataka 560038",
+    "hours": "Opens soon · 10:30 am",
+    "phone": "080 4850 5070"
+   },
+   {
+    "position": 17,
+    "title": "Brothers Stores",
+    "type": "Grocery store",
+    "rating": 4.4,
+    "reviews": 40,
+    "description": "Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/toDoN6kCGZsLDPnLcozWityJsPmvzFiDwItmAe7278g.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW3td809Ou-jg6IKQXx03lZ892cvABv2vAHb0gBBRwWO7AMMTe_TMJDNUsUfwZGui6EHTzaLrfPfjoEDd9eLXwIqsCEg41HyLjJZYgQuuNxIxqywUKQiWovO6Gly1yK3wUO6l6JUvcTzcmv2Zby7yZeR7ifRctIE_NvaTqSIemOwo_xI9mfNVvXEK4KqMxf7KwfboMBeuQ=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:098479 58152"
+    },
+    "place_id": "8376020529612256510",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=8376020529612256510&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11tk1_x0j1",
+    "gps_coordinates": {
+     "latitude": 12.969675,
+     "longitude": 77.638757
+    },
+    "address": "Indiranagar, Karnataka 560008",
+    "hours": "Open · Closes 10 pm",
+    "phone": "098479 58152"
+   },
+   {
+    "position": 18,
+    "title": "MK Retail Supermarket",
+    "type": "Grocery store",
+    "rating": 4.2,
+    "reviews": 126,
+    "description": "\"All products are sold as per MRP price.\"",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/iIbw8iypsHaYPONj5oF4nu4A5GecF5rUIcfapvufqEI.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmMd7QO0qAhKAKwoAItNwVPxVrZzF6fXIElBB6BQfo0t9hGnG8myQY6RS_6-hzUBTty45tg4qsrFNzjREo4TuinntpmvQUWIq4kY-7vk9sxOnxGKXocpK2Wm7ZlNNKetXYFOziF4=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:081056 33336"
+    },
+    "place_id": "8357507582642858243",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=8357507582642858243&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11tf7_jyhj",
+    "gps_coordinates": {
+     "latitude": 12.978135,
+     "longitude": 77.637138
+    },
+    "address": "548-B, Chinmaya Mission Hospital Rd, Indiranagar, Bengaluru, Karnataka 560038",
+    "hours": "Open · Closes 9 pm",
+    "phone": "081056 33336"
+   },
+   {
+    "position": 19,
+    "title": "Northeast Varieties Shop",
+    "type": "Store",
+    "rating": 4.2,
+    "reviews": 9,
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/Lr4jKSHK1m3E-jhTNliT71b7nUSzu57mMlXvuWPoH00.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmO9o10_7dAor_M3mcryOF0U9W6rpe21mEHHUEK7Nmhukm-HgKnlzFpXAbViI1mwTTyfQSW6uoKHBXSEceno3tWU2IgsilX5bKHHm6XyQjHZ2-i3y1xFdSyDPTBD_bi_Nsj3cchR=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:088925 78957"
+    },
+    "place_id": "12669313755407328652",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=12669313755407328652&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11d_7ytkj1",
+    "gps_coordinates": {
+     "latitude": 12.97658,
+     "longitude": 77.632382
+    },
+    "address": "No. 3, 38, 1st Main Rd, LBS Nagar, Indiranagar, Bengaluru, Karnataka 560008",
+    "hours": "Open · Closes 11 pm",
+    "phone": "088925 78957"
+   },
+   {
+    "position": 20,
+    "title": "Peter England",
+    "type": "Clothing store",
+    "rating": 4.3,
+    "reviews": 624,
+    "description": "In-store shopping·In-store pick-up·Delivery",
+    "thumbnail": "https://serpapi.com/searches/6ac1d8abe7b2d38b95ce76a4/images/ejRsWKUFrm-pcYnMP7s8kXBgvNfc_rW9O4pwNxn42DU.jpeg",
+    "thumbnail_large": "https://lh3.googleusercontent.com/grass-cs/ACvplmPPggi3ZGYiz_u2B2MK5jc3APDGLwREzizj8kHvr7P8HoCXUG7xQ3O2zJ1p4wgdy5rFAPoEdoUdZ4oob4H0n8KXoFSchUwVoSZiAq3frMx8F3zNbbZXVc1eeUxZ8R1dX2DmCPHlsg=w1000-h1000-c-n",
+    "links": {
+     "phone": "tel:080 4210 2261",
+     "website": "https://peterengland.abfrl.in/"
+    },
+    "place_id": "5488732577194309874",
+    "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=5488732577194309874&q=shop+for+sale+in+Indiranagar+Bangalore&start=0",
+    "provider_id": "/g/11kpk9rlv6",
+    "gps_coordinates": {
+     "latitude": 12.972304,
+     "longitude": 77.640975
+    },
+    "address": "100 Feet Rd, next to hira nandani, Indiranagar, Bengaluru, Karnataka 560008",
+    "hours": "Open · Closes 10 pm",
+    "phone": "080 4210 2261"
+   }
+  ]
+ }
+}

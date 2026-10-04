@@ -1,0 +1,859 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "commercial property for sale Koramangala Bangalore",
+  "type": "search",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d8a03b93e3570ee45578",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/W9rDSdJhcUjXnSa5Dj0uxXzMgesfwe9XNWjt7HOEjy8/6ac1d8a03b93e3570ee45578.json",
+   "markdown_endpoint": "https://serpapi.com/searches/W9rDSdJhcUjXnSa5Dj0uxXzMgesfwe9XNWjt7HOEjy8/6ac1d8a03b93e3570ee45578.md",
+   "created_at": "2026-10-04 04:40:00 UTC",
+   "processed_at": "2026-10-04 04:40:00 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/commercial+property+for+sale+Koramangala+Bangalore//data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/W9rDSdJhcUjXnSa5Dj0uxXzMgesfwe9XNWjt7HOEjy8/6ac1d8a03b93e3570ee45578.html",
+   "prettify_html_file": "https://serpapi.com/searches/W9rDSdJhcUjXnSa5Dj0uxXzMgesfwe9XNWjt7HOEjy8/6ac1d8a03b93e3570ee45578.prettify",
+   "total_time_taken": 3.74
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "commercial property for sale Koramangala Bangalore",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "commercial property for sale Koramangala Bangalore"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Shah Real Estate",
+    "place_id": "ChIJDcSks-QVrjsReZu-vTE2Y_4",
+    "data_id": "0x3bae15e4b3a4c40d:0xfe633631bdbe9b79",
+    "data_cid": "18330554495592733561",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15e4b3a4c40d%3A0xfe633631bdbe9b79&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15e4b3a4c40d%3A0xfe633631bdbe9b79&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9421939,
+     "longitude": 77.6274547
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJDcSks-QVrjsReZu-vTE2Y_4",
+    "provider_id": "/g/11vwjz1mks",
+    "rating": 4.9,
+    "reviews": 106,
+    "type": "Real estate rental agency",
+    "types": [
+     "Real estate rental agency",
+     "Real estate consultant"
+    ],
+    "address": "5/1 Ali Manzil 20th h cross Ejipura, Koramangala, Bengaluru, Karnataka 560047, India",
+    "country": "India",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "sunday": "9 AM–10 PM",
+     "monday": "9 AM–10 PM",
+     "tuesday": "9 AM–10 PM",
+     "wednesday": "9 AM–10 PM",
+     "thursday": "9 AM–10 PM",
+     "friday": "9 AM–10 PM",
+     "saturday": "9 AM–10 PM"
+    },
+    "phone": "+91 91485 95789",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMJ9kDjK_tmcc6LnCjUXYeLLqy6Y5lEa0eWCedxiJDDPFK88ho7hAeKnTB_r2kdqa5IEZ7iR6rWo9nTvPTiA-4LExWyeQrsfaDZ-1vALIlW1hho9t4RJzqyajBDc5JVg_VWDBzV=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/WKA9p3icHcTRroIgAADQLyK10rKtBxXvltJWzeTWi2PEFQ0hgSz7wb6hv2m75-F83tzam1k5juCzSa1ULdjdME2VtEzaCVWdU2tiDKDGiZLhJrptFl5hm1e2ozRAMmmPvyeGUD8GJ1-kxGU4YZdnk0G4-8mXS64WPGK5LOJKT6-Xnvib9LxoDoHGKpTFsCuaCMxR-sQj22vzR-AZeEOENgJ7nKvQzg_Zqx9JG0PqZ2VdlRjGr3L98FzXBfx_CuQXsOBFKg"
+   },
+   {
+    "position": 2,
+    "title": "Settler Real Estate Consultants",
+    "place_id": "ChIJOw7CbdQVrjsRNFD3c_iSjlM",
+    "data_id": "0x3bae15d46dc20e3b:0x538e92f873f75034",
+    "data_cid": "6020911347636064308",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15d46dc20e3b%3A0x538e92f873f75034&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15d46dc20e3b%3A0x538e92f873f75034&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.934461299999999,
+     "longitude": 77.61342619999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJOw7CbdQVrjsRNFD3c_iSjlM",
+    "provider_id": "/g/1tx45gs4",
+    "rating": 4.9,
+    "reviews": 17,
+    "type": "Real estate agent",
+    "types": [
+     "Real estate agent",
+     "Commercial real estate agency",
+     "Real estate consultant"
+    ],
+    "address": "3rd Floor, Raheja Arcade, 306, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10:30 AM Mon",
+    "hours": "Closed · Opens 10:30 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "10:30 AM–6 PM",
+     "tuesday": "10:30 AM–6 PM",
+     "wednesday": "10:30 AM–6 PM",
+     "thursday": "10:30 AM–6 PM",
+     "friday": "10:30 AM–6 PM",
+     "saturday": "10:30 AM–6 PM"
+    },
+    "phone": "+91 80 4124 5141",
+    "website": "https://settler.in/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdqOX7gpPCmriXSNdmgIHoLPLwX3Nu83n-Wfv6z6XrzxFovXkWr7v4b9Gjfk0E3i8XDgdkJJPOuBkxEbe2FwQ4zDF4l1mmW3-2vK5JyJQAkbJEO1rJRX65vZqNXT_oKe08M7ZKCGHAy0icf=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/iwLYpXicHcTNboIwAADgJ6oUi8CW7IAKusIAtyU0XpZRSmGlVFt-lJfc2bdZsu_wPX6bYbiYZ8vqGrTiSvGOjYZpqvqB9cOKKmlx_W0MoMYKgq2QSXXNiMcv-U7qlnykleSvR5XkyUxQOvqoB0U9uYtL9HKL1EREob3JKZ8OP7WAIWp9sueVwDjPxq24hSVbR_PJWfaR09lSFgisp3iD7_gUiBKHma3xO3E30_maks8vFTPov3nneHc4BnfY0vpltiGEoPmfgv4P5yhG-Q"
+   },
+   {
+    "position": 3,
+    "title": "Sri Balaji Real Estate",
+    "place_id": "ChIJKYN4vNIVrjsREk7tPCVvcpQ",
+    "data_id": "0x3bae15d2bc788329:0x94726f253ced4e12",
+    "data_cid": "10696734270685007378",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15d2bc788329%3A0x94726f253ced4e12&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15d2bc788329%3A0x94726f253ced4e12&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9392277,
+     "longitude": 77.62831109999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKYN4vNIVrjsREk7tPCVvcpQ",
+    "provider_id": "/g/11fq4crmcl",
+    "rating": 4.8,
+    "reviews": 90,
+    "type": "Real estate agency",
+    "types": [
+     "Real estate agency"
+    ],
+    "address": "No. 1, 1st cross, 1st main Ashwini Layout, Ejipura, Koramangala, Bengaluru, Karnataka 560047, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "sunday": "8:30 AM–9 PM",
+     "monday": "8:30 AM–9 PM",
+     "tuesday": "8:30 AM–9 PM",
+     "wednesday": "8:30 AM–9 PM",
+     "thursday": "8:30 AM–9 PM",
+     "friday": "8:30 AM–9 PM",
+     "saturday": "8:30 AM–9 PM"
+    },
+    "phone": "+91 99022 09306",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmP4ItFS3lmBDwfZoaIEP9DtzrwdjJrjzlM_2uAesW4VlYgqD-j_y8jIS7Lacv14GKnA-mrWafWrN6sjOmvFqVd-YGMCJkaXCjmudro-XAIcPUywpRAhvLQK4-_38WcUB41KX0k=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/z7UPe3icHcRdDoIgAADgE5GarL-tB9RqppXVTOvFMTQdghigzg7YHbpNW9_D9_1UWrdqZRissielECUrOlVIIhpdNHpCBDdKiZUCRBnI7VvGI-jr7dVm3PGG50NgfxMtPf2WQ073kr7ZIZt2qFAJvLF7-fIAzcYF9a_zEJPegrugQYDLBD8TeZwpeuL99nXLwX13cPc1Tl3Ku1wKkCKfRPE4tBdU9eE5gCCzFwmJHWgFqVmvB8s0TVD9J6D5Ac3jRUA"
+   },
+   {
+    "position": 4,
+    "title": "S.Z Real Estate Consultant",
+    "place_id": "ChIJYch9OV0UrjsRMbFWjaJWHTA",
+    "data_id": "0x3bae145d397dc861:0x301d56a28d56b131",
+    "data_cid": "3467022544301109553",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145d397dc861%3A0x301d56a28d56b131&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145d397dc861%3A0x301d56a28d56b131&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.933942,
+     "longitude": 77.6288567
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJYch9OV0UrjsRMbFWjaJWHTA",
+    "provider_id": "/g/1tjwg59h",
+    "rating": 4.4,
+    "reviews": 11,
+    "type": "Real estate agency",
+    "types": [
+     "Real estate agency"
+    ],
+    "address": "S 215, 12th Main Rd, 4th Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "sunday": "10 AM–8 PM",
+     "monday": "10 AM–8 PM",
+     "tuesday": "10 AM–8 PM",
+     "wednesday": "10 AM–8 PM",
+     "thursday": "10 AM–8 PM",
+     "friday": "10 AM–8 PM",
+     "saturday": "10 AM–8 PM"
+    },
+    "phone": "+91 98450 18663",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf4A2FcmBEBBuYD6PktA9r975JsBvy5DpCCZziL86wf6wkAaXMg80Ftkmf0bf6s6zHSoAy1t0JgEYh0lNkg92B1nnxmoAqaPZym3HccuvsDf0neM-GDjnvGuWRbntG6NtQtD9DD=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/1olvCHicHcRJDoIwFADQEwHFoYqJi9YqhghxWDjssKFFS1ulHxAv6Bm8jYlv8b6fEuDhZkFQlUNfWiuronFFza2BwoDPrQ5knTvncRcQQpXeiBEZrLimS0qbM8NbBSSqo8k4cbTtx-yxWFzet80UdwJ3iuSnVE7RCpQW6Cqww-_1wZI-BJTI5blEVaZkNKChMS9tyTPfXno9XHPetI4JZIrUi9ndtHFz3F8NxDiDHbCIsXkXIoS88j_3zA8yGkSQ"
+   },
+   {
+    "position": 5,
+    "title": "M S Properties By Yogesh T",
+    "place_id": "ChIJnWCk8jwVrjsR4eEP2EA_raY",
+    "data_id": "0x3bae153cf2a4609d:0xa6ad3f40d80fe1e1",
+    "data_cid": "12010325329002357217",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae153cf2a4609d%3A0xa6ad3f40d80fe1e1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae153cf2a4609d%3A0xa6ad3f40d80fe1e1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9146583,
+     "longitude": 77.6351832
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJnWCk8jwVrjsR4eEP2EA_raY",
+    "provider_id": "/g/11jztd_3d_",
+    "rating": 5,
+    "reviews": 56,
+    "type": "Real estate agency",
+    "types": [
+     "Real estate agency"
+    ],
+    "address": "b, 79, 9th Main Rd, 4th Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 4 PM",
+    "hours": "Open · Closes 4 PM",
+    "operating_hours": {
+     "sunday": "10 AM–4 PM",
+     "monday": "10 AM–7 PM",
+     "tuesday": "10 AM–7 PM",
+     "wednesday": "10 AM–7 PM",
+     "thursday": "10 AM–7 PM",
+     "friday": "10 AM–7 PM",
+     "saturday": "10 AM–7 PM"
+    },
+    "phone": "+91 96865 27503",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLduLPZ5xjjQ5CBgTp_YW8QbV_tVehH-bo9MO5aYtZWp749_R8rsf_yKSu7ZyurQ2gQm8I8q3KEg_IjL1EWeVbsvKvcf1BtZS4ECADe_Gtl9vjBHh-bH70bUCzu9PDRKsox9sPpYir6YBPLn=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/aFUSk3icHcTNboIwAADgJ6rAFKFLdqBIxMAyUAeBS2NrbWVAWX-Y7iV39m1M9h2-x58wZtKvjtOL5YJLyXtmNVNUjoaNZkHl4HB10hpQ7UQR-hrys82L1r91XenHiB8n3NRhSSpsKiZSQCR8__BPjWnrKVhBvA-VvuB7drBBe7eqfOHlEO7C72WWcLzrci-pWUX0nM304iHTHlZJHG0Y3poezh1KBSBp4JLP-NfCYrPPtLxBXUzNVa0bVOTj24_nui4Q_1MwPgHdqUez"
+   },
+   {
+    "position": 6,
+    "title": "Anthra Real Estate Agency",
+    "place_id": "ChIJM3G8ZkQUrjsRBsilM48tXPI",
+    "data_id": "0x3bae144466bc7133:0xf25c2d8f33a5c806",
+    "data_cid": "17463883548106016774",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae144466bc7133%3A0xf25c2d8f33a5c806&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae144466bc7133%3A0xf25c2d8f33a5c806&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.936784999999999,
+     "longitude": 77.6246374
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJM3G8ZkQUrjsRBsilM48tXPI",
+    "provider_id": "/g/1v1vbmw_",
+    "rating": 4.2,
+    "reviews": 37,
+    "type": "Real estate agency",
+    "types": [
+     "Real estate agency",
+     "Commercial real estate agency",
+     "Retail space rental agency"
+    ],
+    "address": "#113, 6th Cross Rd, 6th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 8:30 PM",
+    "hours": "Open · Closes 8:30 PM",
+    "operating_hours": {
+     "sunday": "10 AM–8:30 PM",
+     "monday": "10 AM–8:30 PM",
+     "tuesday": "10 AM–8:30 PM",
+     "wednesday": "10 AM–8:30 PM",
+     "thursday": "10 AM–8:30 PM",
+     "friday": "10 AM–8:30 PM",
+     "saturday": "10 AM–8:30 PM"
+    },
+    "phone": "+91 98451 05286",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc0Qo3G1es9YlHd1hnJw-oewnN3y6oTP3rGlUz8YIEMGgkmo7S453K56KYazR92-VjHLfqCgqfRbz0ixes5HnNRGNCbLcgRtjrtT5_5kRIdaBgIxjEicMwh4dwM9BcGFA80lMiK=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/9Ugc0HicHcRdboIwAADgE1XKalVM9gBGC_ITV90SnhYstQVKq7RLHRfcGXabJfsevt8f6dzdboNASbQQxgjFvyyfmNGOa7dgZgzE1FgLmA3iOBnGgsE3g0jIbVSrtA2lPnpguNcV-l6ZywlNRL3Pmzrbl0QMo1mflxjleJXXzUyjF_DRp8XtsROPG73OsHtyi1NdUVLtrgUT1PWTu-BPPNCsbRKRPft9x0ovl60vo4SRQ7yBquzyVx9CCIH8nwH9B1UvRGw"
+   },
+   {
+    "position": 7,
+    "title": "Thavarool Real Estate",
+    "place_id": "ChIJqYtpdycTrjsRBLq8I_BvSLI",
+    "data_id": "0x3bae132777698ba9:0xb2486ff023bcba04",
+    "data_cid": "12846641014256744964",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae132777698ba9%3A0xb2486ff023bcba04&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae132777698ba9%3A0xb2486ff023bcba04&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.925160199999999,
+     "longitude": 77.6319042
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqYtpdycTrjsRBLq8I_BvSLI",
+    "provider_id": "/g/11rrhbmhjx",
+    "rating": 4.9,
+    "reviews": 10,
+    "type": "Real estate consultant",
+    "types": [
+     "Real estate consultant"
+    ],
+    "address": "5th Floor, NA Chambers, 3j 3rd Cross, 7th C Main Rd, 3rd Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "sunday": "10 AM–6:30 PM",
+     "monday": "10 AM–6:30 PM",
+     "tuesday": "Closed",
+     "wednesday": "10 AM–6:30 PM",
+     "thursday": "10 AM–6:30 PM",
+     "friday": "10 AM–6:30 PM",
+     "saturday": "10 AM–6:30 PM"
+    },
+    "phone": "+91 63629 37140",
+    "website": "https://thavaroolrealestate.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhKWcmZYwEb-CszlQ2gEbQ_J-HVuXkjyy1geV7QuRd_3srXyD_jF5s41lMXXCL4_PBQug-gop7aHD_Y8iiq06y7u-OjAH-tiJnDjehHPJLSM4arCzG55gLmfgtMiAUa31emBhJxw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/AjfmdnicHcRRboIwGADgE1VAQJYle0BQCcKUmSn60mCtf2EtRdqO4Q09wm5j4vfw_T-Y1p16tyzO3AlICZwaRXsiW01bPSFSWNBXSiGirDD67bj4ZOsDEafjsDijSN15MYXFucApSvam_GnG0QG6DwrzdcGu6ssxxs3SV57D87KMMg9v54UBBLILqiTGx7e6vtmzMTBo04QJ0nXaxg1lyTbNdrlX9dF95fuQiSvovA6_K9ehYs7Sv-FjcGzbRuw1Qe0Tbc1GEA"
+   },
+   {
+    "position": 8,
+    "title": "Address Advisors",
+    "place_id": "ChIJZzu4j4EUrjsR-Gg85Cwouso",
+    "data_id": "0x3bae14818fb83b67:0xcaba282ce43c68f8",
+    "data_cid": "14608032514602461432",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14818fb83b67%3A0xcaba282ce43c68f8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14818fb83b67%3A0xcaba282ce43c68f8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9272482,
+     "longitude": 77.6332522
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZzu4j4EUrjsR-Gg85Cwouso",
+    "provider_id": "/g/11fppc0_m8",
+    "rating": 4.8,
+    "reviews": 387,
+    "type": "Real estate consultant",
+    "types": [
+     "Real estate consultant"
+    ],
+    "address": "The Work Address- Sindhu 1st Floor | 6, 7th main, 80 Feet Rd, 3rd Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "sunday": "9 AM–6:30 PM",
+     "monday": "9:30 AM–6:30 PM",
+     "tuesday": "9:30 AM–6:30 PM",
+     "wednesday": "9:30 AM–6:30 PM",
+     "thursday": "9:30 AM–6:30 PM",
+     "friday": "9:30 AM–6:30 PM",
+     "saturday": "9:30 AM–6:30 PM"
+    },
+    "phone": "+91 87929 26457",
+    "website": "http://addressadvisors.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcekjdcxbtY-mZYjcSfAtBwBckTM6nzqevJRJCwYMsCCW3DZYwbFXOMFUdP9ptrszDoArYuz00B7Sq8U_3u1OTwp2IC1M2e32vdTZBIN3fw_sASrkMzC8PHGYeIKyXJsHb56BSsTg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/feirnnicHcTdboIwGADQJ0IKjX9LvGhrVNg6zcBouTFSKkSEYr9iHW_oI-xtlnguzt-rsraDD9-_VXhUal3eVA_KSN1a1dqR1I1fmjOAJ8EnhNbNl1T1tZDP3AqvycRVJhdiqaOyTvmkHe7qEf_EzAkOjB3wMhMuXx23fLUvdvPOGhiWmhjRDwjRaXKf7U-4D7ap68KIBTxUOHwUaUajb3xxJyCJqfnAZrvNWqjo8_cYwyYfT2gCablwAULIq95Lr_0HkwVGCg"
+   },
+   {
+    "position": 9,
+    "title": "EasyFind Property Solutions",
+    "place_id": "ChIJYRpsniIVrjsRYRYwjgFfoCY",
+    "data_id": "0x3bae15229e6c1a61:0x26a05f018e301661",
+    "data_cid": "2783329030000088673",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15229e6c1a61%3A0x26a05f018e301661&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15229e6c1a61%3A0x26a05f018e301661&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9387758,
+     "longitude": 77.6188684
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJYRpsniIVrjsRYRYwjgFfoCY",
+    "provider_id": "/g/11kp_2t83w",
+    "rating": 4.9,
+    "reviews": 130,
+    "type": "Real estate rental agency",
+    "types": [
+     "Real estate rental agency",
+     "Property management company",
+     "Real estate agent",
+     "Real estate consultant"
+    ],
+    "address": "A Block, Prestige Atlanta, 1, 80 Feet Rd, 3rd Block, Koramangala 8th Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "sunday": "9 AM–9 PM",
+     "monday": "9 AM–2 PM",
+     "tuesday": "Closed",
+     "wednesday": "9 AM–9 PM",
+     "thursday": "9 AM–9 PM",
+     "friday": "9 AM–9 PM",
+     "saturday": "9 AM–9 PM"
+    },
+    "phone": "+91 79751 02130",
+    "website": "http://easyfindprops.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3VA0lC0z6y9YAYvoWCxvzzcI_np1TRVUzJetdbRWk2Pc0NmORpn34VETv-Qzbji15yYlvb7MqbG-t_yd5Y99D4tZcgE31tmEdEuLTNZwsH5cvJOdgW_KYNsTb8bha3VaPxIKAFoEtPuYq=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/JBWea3icHcTNboMgAADgJ6LiqOtcsgPr2Po364zT0IsRMNhWwRaklZfceW-zZN_h-_1prR3McxB0LZpJrWXXjKa5cq1so-yM6z6Q19oYwE2A8eu53wlUYNgtoX-cYoqp0-Xy7rzn60oNYZ4V337TWMGy8vyQcpj0-2xQaF6Q3IEvz07HMJpo59ji88I-gK0mEdE4fpvbA5cEhbYngoy7PDnczCribrMXsqy2NDE5e2JtjYo6va-3-F0Tm4708nILIYSg_Z8D9QcHkkhh"
+   },
+   {
+    "position": 10,
+    "title": "Cushman & Wakefield - Commercial Real Estate Services",
+    "place_id": "ChIJw9ylvFsUrjsRiBUfV-DKVKI",
+    "data_id": "0x3bae145bbca5dcc3:0xa254cae0571f1588",
+    "data_cid": "11697197197071160712",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145bbca5dcc3%3A0xa254cae0571f1588&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145bbca5dcc3%3A0xa254cae0571f1588&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.946632399999999,
+     "longitude": 77.6463342
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJw9ylvFsUrjsRiBUfV-DKVKI",
+    "provider_id": "/g/12hkdwpl5",
+    "rating": 4.4,
+    "reviews": 145,
+    "type": "Commercial real estate agency",
+    "types": [
+     "Commercial real estate agency",
+     "Office space rental agency",
+     "Property maintenance",
+     "Property management company",
+     "Real estate agency",
+     "Real estate agent",
+     "Real estate appraiser",
+     "Real estate consultant",
+     "Real estate developer",
+     "Real estate surveyor"
+    ],
+    "address": "4th Floor, PINE VALLEY BUILDING, Inner Rd, Embassy Golf Links Business Park, Challaghatta, Bengaluru, Karnataka 560071, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9 AM Mon",
+    "hours": "Closed · Opens 9 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM",
+     "tuesday": "9 AM–6 PM",
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "Closed"
+    },
+    "phone": "+91 80 4046 5555",
+    "website": "https://www.cushmanwakefield.com/en/india/offices/bengaluru?utm_source=google&utm_medium=organic&utm_campaign=gmb_uberall_IND002",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOUgnCmOqumW-SfCYkSNop55uSQLGWplAPb-EnoVYoKW70AmFHlycLJFz8i-hQfnUgdQ_ilK0N4r4TEAcqu7KcKhoN6Z9Rum23lMNsTn56qqqoV83aVilUw601m3EfVNsYr7dCBYw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0NvWGnicHcRRboIwGADgE1XqEHBLfECCLsNVEYHgi9EKLVnbn1I6ojf0CN7GxO_hez74MHTmy3EEdycMgInamrqnoIZaDRMK0mH92RhEjRNG_52Q25ypSG61lSXKmqj6ywh0nmezdLMuOxHuLihWUFSQlAEO5epb3OjmZ3Wft4injcrZNT21IsFk1s8OcUi1DRKacCD-8XNv5Ycrfok5KM_XWkMxd89FK_LRx1Ppxk1BTNUH12hZjYtxijFG_D1F6gVcnUXP"
+   },
+   {
+    "position": 11,
+    "title": "Propsoch – Real Estate Advisory | Buy Home in Bangalore",
+    "place_id": "ChIJLdqldJ8RrjsRE37__9GRtwQ",
+    "data_id": "0x3bae119f74a5da2d:0x4b791d1ffff7e13",
+    "data_cid": "339900628018888211",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae119f74a5da2d%3A0x4b791d1ffff7e13&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae119f74a5da2d%3A0x4b791d1ffff7e13&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9275655,
+     "longitude": 77.62154819999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJLdqldJ8RrjsRE37__9GRtwQ",
+    "provider_id": "/g/11s1w2h2p2",
+    "rating": 4.8,
+    "reviews": 236,
+    "type": "Real estate consultant",
+    "types": [
+     "Real estate consultant"
+    ],
+    "address": "2nd floor, Nomad Managed Spaces, 3rd Block, Santhosapuram, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "sunday": "10 AM–7 PM",
+     "monday": "10 AM–7 PM",
+     "tuesday": "10 AM–7 PM",
+     "wednesday": "10 AM–7 PM",
+     "thursday": "10 AM–7 PM",
+     "friday": "10 AM–7 PM",
+     "saturday": "10 AM–7 PM"
+    },
+    "phone": "+91 96653 19605",
+    "website": "https://links.propsoch.com/zJW1h",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfTJ5ha4fgCDKPH313FnpmWLszMyQqwcKYZXc7xV_vqU7u949OhLtbTLQKGHv10rjS0MBunNPNOc6NspVwsq-LV2YfoCM-ojGxzLYApg5XOIHs9WSJc_OgJwABTYzEPH_mNZP9HBLNxoEPM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0ir4QXicHcTBboIwGADgJ6qUoTMs2QGcs4NSamQoXohroI2TFviLMF7S895myb7D9_tQ1rbw4jg35S2kMfJWDVD1wmhbabsQpnFkfwFAApwgCL8bWmfRSl2Wtdy8xZx4rveu2-ZIYU5-9t0o4uJ8EuspL-_d53rwl36qqP3K6D7ekbuL--sBJ-GgGWepeGbQ5iN0iOZPRW02CTLX3TTTImjl6pR-EPCPh0iUqYzGIMyKectJ2bAz90lI2WS2PHkdXYwxUv8LpP8AuvdHUg"
+   },
+   {
+    "position": 12,
+    "title": "S.R Real Estate",
+    "place_id": "ChIJx6Dz20gUrjsRQecfmt59dYs",
+    "data_id": "0x3bae1448dbf3a0c7:0x8b757dde9a1fe741",
+    "data_cid": "10049076538569123649",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1448dbf3a0c7%3A0x8b757dde9a1fe741&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1448dbf3a0c7%3A0x8b757dde9a1fe741&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9416934,
+     "longitude": 77.6166259
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJx6Dz20gUrjsRQecfmt59dYs",
+    "provider_id": "/g/1ptw8s1vf",
+    "rating": 4.5,
+    "reviews": 11,
+    "unclaimed_listing": true,
+    "type": "Real estate agency",
+    "types": [
+     "Real estate agency",
+     "Bottled water supplier"
+    ],
+    "address": "635, Adugodi Main Rd, Koramangala 8th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "sunday": "8 AM–10 PM",
+     "monday": "8 AM–10 PM",
+     "tuesday": "8 AM–10 PM",
+     "wednesday": "8 AM–10 PM",
+     "thursday": "8 AM–10 PM",
+     "friday": "8 AM–10 PM",
+     "saturday": "8 AM–10 PM"
+    },
+    "phone": "+91 98453 83212",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW07rOfz34sVfM-xGyl5fjFe9thbZk0gR5syaUubKJKmCQkX3s7HWc3jMMjK7RRQsySNtG6ZF5qFHWO3HP7v4gD45t7guHCUZzEEgAmR2HBtNq97GQL5G30hwHmOmauIFmjWXXCuwS6VBNfCJUUntrXHJLF6EjJhkWMKJQw1ju9BgkZKxpZy3GkxYT82KorjMcBfOAM7CA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XpKvr3icHcTNckNAAADg6b2vIiSLbTrTA4oNWUIq1E0Ma9Zv7G6RR-3TdKbf4ft9eW04n9i7LHcN2JFxJF0lWDWX48Crge_KsZfJXDAmTfO4brJxwpCkCpzD-glUdquxtLpbp9XUqY68ueetQmKNbUUi7r7n91bUZoBBlJaAYkx9GMcR264Bd_Xc0R4OSkOALvBHJZ-qxiERyEryp20To48PyOTB4wjd6Ky5QGkW1Id9IU5OT9Mss8Ry1W9mUFtekgx8zpB3dnSbek2bYt-Llj0VR5O0ub9O-Qbcdv3-ejv440xxadahgaFlfCx7RVGk5v9SGv4Aocpacw"
+   },
+   {
+    "position": 13,
+    "title": "Your Properties Management",
+    "place_id": "ChIJs_yByIQVrjsRYODBVB_fsI0",
+    "data_id": "0x3bae1584c881fcb3:0x8db0df1f54c1e060",
+    "data_cid": "10209905680907886688",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1584c881fcb3%3A0x8db0df1f54c1e060&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1584c881fcb3%3A0x8db0df1f54c1e060&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.917421099999999,
+     "longitude": 77.6338018
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJs_yByIQVrjsRYODBVB_fsI0",
+    "provider_id": "/g/11jzgjlzj4",
+    "rating": 4.8,
+    "reviews": 75,
+    "type": "Property management company",
+    "types": [
+     "Property management company",
+     "Industrial real estate agency",
+     "Property maintenance",
+     "Real estate consultant"
+    ],
+    "address": "241/1, 3rd Avenue, 5th Main Rd, Teacher's Colony, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours"
+    },
+    "phone": "+91 81529 45566",
+    "website": "https://www.yourpropertiesmanagement.com/",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfsZe3cHSWAWPrW96bm_WxSy9Bw_Q55Q3rt7VaPd5J6VliHx2KFa1RvvmQ9Y1wycc8K61b9cplHq6vcg7IattCNADGt05fRuqIKmB8pyTIVls3C0UwNjCUZkA1fnLxBN-wpj-eQ0w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Qp1JlnicHcRLDoIwFADAE1VaCSgmLgpGQQwRPxDdGHwWUFtAWikc0SN4GxNnMd9PqVQjZ4bBS3NU1HXB2VuyFupKsUqNoBZG0WZSIpAGpe5TbHJ5Zib4-5Sm2zZ17Ku4pP1-cFx9iS0rNls1SbLtzVrbCb_7_ThcZmTXdSJ2TkQPANPQJlcHGu6_7A6KSZAp5UV0sVLYynfvVxAKd9oMhyDh0vTwUUcP73h-UpJXm96NkG4eiMVYzzXBGKPyP6DqB_GdRSA"
+   },
+   {
+    "position": 14,
+    "title": "PropertyAngel",
+    "place_id": "ChIJeZJpL2cUrjsRR3W26wGghFA",
+    "data_id": "0x3bae14672f699279:0x5084a001ebb67547",
+    "data_cid": "5801938150070056263",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14672f699279%3A0x5084a001ebb67547&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14672f699279%3A0x5084a001ebb67547&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.927014,
+     "longitude": 77.622856
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJeZJpL2cUrjsRR3W26wGghFA",
+    "provider_id": "/g/1q2wjbthd",
+    "rating": 4.4,
+    "reviews": 1431,
+    "type": "Property management company",
+    "types": [
+     "Property management company",
+     "Property maintenance"
+    ],
+    "address": "570/571, 16th A Main Rd, 3rd Block, Santhosapuram, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "sunday": "9:30 AM–7 PM",
+     "monday": "9:30 AM–8 PM",
+     "tuesday": "9:30 AM–8 PM",
+     "wednesday": "9:30 AM–8 PM",
+     "thursday": "9:30 AM–8 PM",
+     "friday": "9:30 AM–8 PM",
+     "saturday": "9:30 AM–8 PM"
+    },
+    "phone": "+91 74064 84455",
+    "website": "http://propertyangel.in/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcjya_eCCUN7NoikbqGSI1y6pRQ8_79XTL3kL4fHrMD092FWGF2LUhBskYN_LjnVeRiDd-DpUmaQhmwj_ts13etZ3g5Xbxjvxl-14LIFbs2SnBlPTYZIu5lvSHEyv2tDlupYOk=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/KEdT0nicHcRJDoIwAADAF1U2cUs8iIiSVFwQBS8EaqXS0iItKB_0D_7GxDnM90OUquVM0xixBoUQBcOtxA0SXGGuBkhUWtFkUgIktcXCoRVEZZ-leLmMgnEgHjR_rkPf6Ef18TBJx9P4BC0Kh_dNs3X1qeld1p4JI-JImgQpLPkZHx_uDbh1VGUHUr3KVEnDwupqFXacv8vuzYAxhL6XSzPkDtufkqvf2qwLN6u-M5XL2jrZ0fnL0HUdkP8I8B8cjkS3"
+   },
+   {
+    "position": 15,
+    "title": "Dinakar Group of Realtors",
+    "place_id": "ChIJ7-APhPcUrjsRLVZ4eTQSQhY",
+    "data_id": "0x3bae14f7840fe0ef:0x164212347978562d",
+    "data_cid": "1603864433882846765",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14f7840fe0ef%3A0x164212347978562d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14f7840fe0ef%3A0x164212347978562d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.933364899999999,
+     "longitude": 77.6225207
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ7-APhPcUrjsRLVZ4eTQSQhY",
+    "provider_id": "/g/11g_6x73g",
+    "rating": 3.4,
+    "reviews": 16,
+    "type": "Commercial real estate agency",
+    "types": [
+     "Commercial real estate agency",
+     "Construction company",
+     "Real estate agent"
+    ],
+    "address": "Sukh Sagar Rd, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours"
+    },
+    "phone": "+91 77606 40666",
+    "website": "http://www.dinakargroup.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcdFhYb6nlswBezROvW7AgC0nGpJpRAbQulh8OUU2ufUDyUBDEuxo6pgoXUOGpwaCELwf4dS8FYWNNnVy4-P84IWT3qkPJB-6ahJduTqir34pIFXKby-KiZZSwcOGoft1Ip76_7=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/wp7kUnicHcRdDoIgAADgE5GWTl1bD1rqtJb9keVLU1RoGZBAZBfsDN2mre_h-36IlFxMDaMj1ggzhrtGiaZHjMqGyhFidwP3pRAACcP3g9t9heqInCuHdkIHzXuXPXPXx3OTxjzlO7_aqo54GYQT1cLFAINFqF7M4ZidYBZzXc7DlW7teu9F53y9psfBBhvPTvKD9bht0gA4JUlrdXhce8vmSXRaVgNYXotir1EWs1aOE-46F3emx6ZpAvIfAfoDw5dE8A"
+   },
+   {
+    "position": 16,
+    "title": "Kimia Realty Office Space In Bangalore - Warehouse Space In Bangalore",
+    "place_id": "ChIJ69oPa2MWrjsRubSAQqKxTnI",
+    "data_id": "0x3bae16636b0fdaeb:0x724eb1a24280b4b9",
+    "data_cid": "8236716078965765305",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16636b0fdaeb%3A0x724eb1a24280b4b9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16636b0fdaeb%3A0x724eb1a24280b4b9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.98194,
+     "longitude": 77.601264
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ69oPa2MWrjsRubSAQqKxTnI",
+    "provider_id": "/g/11f1vp70ns",
+    "rating": 5,
+    "reviews": 58,
+    "type": "Commercial real estate agency",
+    "types": [
+     "Commercial real estate agency",
+     "Apartment building",
+     "Construction company",
+     "Corporate office",
+     "Coworking space",
+     "Industrial real estate agency",
+     "Office space rental agency",
+     "Retail space rental agency",
+     "Warehouse"
+    ],
+    "address": "51, Infantry Rd, above Linen Club, opposite Gulistan Shadi Mahal, Shivaji Nagar, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "open_state": "Open · Closes 2 PM",
+    "hours": "Open · Closes 2 PM",
+    "operating_hours": {
+     "sunday": "10 AM–2 PM",
+     "monday": "10 AM–8 PM",
+     "tuesday": "10 AM–8 PM",
+     "wednesday": "10 AM–8 PM",
+     "thursday": "10 AM–8 PM",
+     "friday": "10 AM–8 PM",
+     "saturday": "10 AM–8 PM"
+    },
+    "phone": "+91 98453 08005",
+    "website": "http://kimiarealty.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeyEK_Z1i61pa766EqK-eAMrEvMSH6eICW8sdjpoWlA16GXgathp0ZZUeUcC2D4MrSu5jxbnGXo-tJ0q0hTBkGfRObLG_1jm5QEA2TuYFQ3Wnc9edEF7LpLz5njCe8koGKqhM-D=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/h4G96nicHcTdboIwGADQJ6q0KtWZ7KJi7TYgi1ODcmOwfqPjpy20uM0X9Bl8myU7F-dxV95btwiCRk1GpTFlA4ODXhrtQfuRNG1Q9oVzSLqAsWXdJvDL41NOviixxYxS3sUIWNrza7p9ofAaZXN3qazJGkaoOJSFVxbn-R72Mhqvpmm_HcLq56zFwSD_hjusdstafH68nxNxIlUbbjgb74bjejPJtHyCC1_PEpvcQl1FMK-NiDuVotXzN8EYI_W_RPoPDZNDgA"
+   },
+   {
+    "position": 17,
+    "title": "Commercial Office Bangalore",
+    "place_id": "ChIJJwdbY2YUrjsRLB9KwShnP98",
+    "data_id": "0x3bae1466635b0727:0xdf3f6728c14a1f2c",
+    "data_cid": "16086689818729914156",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1466635b0727%3A0xdf3f6728c14a1f2c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1466635b0727%3A0xdf3f6728c14a1f2c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.932977399999999,
+     "longitude": 77.6356222
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJwdbY2YUrjsRLB9KwShnP98",
+    "provider_id": "/g/11clzrbq6v",
+    "rating": 4.2,
+    "reviews": 9,
+    "unclaimed_listing": true,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency"
+    ],
+    "address": "Temple Tree Building, 335, 1st Main, S.T. Bed, 7th Bock, Koramangala, Bengaluru, Karnataka 560047, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9 AM Mon",
+    "hours": "Closed · Opens 9 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM",
+     "tuesday": "9 AM–6 PM",
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "Closed"
+    },
+    "phone": "+91 70223 06925",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNr7vZCiz4FESk_IVqAlYxpL7PU-93ucJEn4KIDWnk-OUg0-slcg27VQuxOZ61K8LZkhJgY43nGhPrleb7MZpa9LZ4E5vjst6qunUyrcSZoMMyrvM74fKOnk96r0tsgUu1zXLJ5gQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/oJ2ZC3icHcTbDsEwAADQL6p1VqtJPAgjdjEic-mL0EzLqp1e5vKHPsHfSJyH8_1waxsz8DzBgw5TionKmUpTJW0lbYeqm8f00RhAjTcat424LTRuyfjyRtN4XR_mm_tI7J9NhpcliAJHk1iidD7ZyhoUJYPACMq6eLNyz4KEftrPSM0TtkeBnPGlFtUJ56Q5RhlBca-9GhvenSxfmq6JyvOXbnOMzmkh6yjU0BpWOv-9y5IeWw0fPoQQ8P8UyB8kDEXr"
+   },
+   {
+    "position": 18,
+    "title": "RentoSmart | Commercial Leasing Consultants",
+    "place_id": "ChIJ870o4aQVrjsR8vXdN_bj0xM",
+    "data_id": "0x3bae15a4e128bdf3:0x13d3e3f637ddf5f2",
+    "data_cid": "1428736153445332466",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15a4e128bdf3%3A0x13d3e3f637ddf5f2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15a4e128bdf3%3A0x13d3e3f637ddf5f2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.936515799999999,
+     "longitude": 77.627414
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ870o4aQVrjsR8vXdN_bj0xM",
+    "provider_id": "/g/11p64jlv3n",
+    "rating": 4.9,
+    "reviews": 26,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency",
+     "Commercial agent",
+     "Coworking space"
+    ],
+    "address": "No. 612/1, Lotus Building, 3rd, 80 Feet Rd, above Reliance Jewel, 4th Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Mon",
+    "hours": "Closed · Opens 10 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "10 AM–6 PM",
+     "tuesday": "10 AM–6 PM",
+     "wednesday": "10 AM–6 PM",
+     "thursday": "10 AM–6 PM",
+     "friday": "10 AM–6 PM",
+     "saturday": "Closed"
+    },
+    "phone": "+91 97314 51520",
+    "website": "http://www.rentosmart.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLenP0Z_Fi2nQNyWa_1T7kLU6xGWKDFXD_rkk9BHoXohD2X_8bYG1K8b4AoZi8i9Yyq6EkjbcbOe_BbYEsVPNRDaU7nI2rf2cJ4_qXqRNNWSCGxW4rvUzrSKaWNsHQetvrmI3ng=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/PmBQGXicHcRJDoIwAADAFyGLBNHEA4igYuqKBS8NbSpgpZW2rg_0D_7GxDnM91NrfVUj07zU_V4lRHWhN0UlEVxTrntEtGYlS6UMoswgCFm7pHxtHVHcOHwDXrBE9n7Alpn3TGAaxXmEJGPDcCZyUUdOjnxcJHbqYzcQx8ZvhsWr86bsjAleURTiYqoOa7CNymzA5448OWThoi7vtgDA3SR5Qlfes7fcpSUEarah-i7beZ9X44dtWZZR_ycG_wENpkSb"
+   },
+   {
+    "position": 19,
+    "title": "Bren Artimus",
+    "place_id": "ChIJMWh9uFQVrjsR6Te9z32EQt8",
+    "data_id": "0x3bae1554b87d6831:0xdf42847dcfbd37e9",
+    "data_cid": "16087566494811895785",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1554b87d6831%3A0xdf42847dcfbd37e9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1554b87d6831%3A0xdf42847dcfbd37e9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.936601999999999,
+     "longitude": 77.6058036
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMWh9uFQVrjsR6Te9z32EQt8",
+    "provider_id": "/g/11tfdz9gzw",
+    "rating": 4.8,
+    "reviews": 22,
+    "type": "Real estate agency",
+    "types": [
+     "Real estate agency",
+     "Commercial real estate agency"
+    ],
+    "address": "Hosur Rd, opp. Christ University, Dairy Colony, Adugodi, Bengaluru, Karnataka 560029, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "sunday": "9:30 AM–6 PM",
+     "monday": "9:30 AM–6 PM",
+     "tuesday": "9:30 AM–6 PM",
+     "wednesday": "9:30 AM–6 PM",
+     "thursday": "9:30 AM–6 PM",
+     "friday": "9:30 AM–6 PM",
+     "saturday": "9:30 AM–6 PM"
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf1X91f76p9Z25Md8w-jXxiCKZh2AxDdWnBDLFoq6DqVhvZ0__IqjSzWB_KcwWdkL64ZUwn96UtDd8axSjRHJ_1hlGFT3AeZIBmLjwXm8IG3NyR4RnoRm5WBq249uvDs68j7iBm=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eqqTwnicHcRLEoIgAADQE5l_0mZaSExlWQv76LBxGjSJBDIorAt2hm7TTG_xvh-q9U1NbLuj_qiVsu2ah2ruRArdCD0iktvt_aSURZSdJPDKs7Nbxu55DG4x9sJNHRmLlcNltsbUSwZUFwKibC57gPojfWKnqtKe7d4FrNbEFPU1AwE-GBGDg0Z1dBp2LF-uKpd2i_neTxqcQp4xU_IoXfjbVx7kQuY8LGDvBfHjiRSI2PgC-dS4juNY9D-xxA8Z2UPA"
+   },
+   {
+    "position": 20,
+    "title": "Manju real estate",
+    "place_id": "ChIJDbemHQAVrjsRtcE6-A0xDjQ",
+    "data_id": "0x3bae15001da6b70d:0x340e310df83ac1b5",
+    "data_cid": "3750989475715137973",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15001da6b70d%3A0x340e310df83ac1b5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15001da6b70d%3A0x340e310df83ac1b5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9368036,
+     "longitude": 77.6278147
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJDbemHQAVrjsRtcE6-A0xDjQ",
+    "provider_id": "/g/11w2cm4401",
+    "rating": 5,
+    "reviews": 6,
+    "type": "Real estate agency",
+    "types": [
+     "Real estate agency"
+    ],
+    "address": "WJPH+P48, AVS Layout, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "sunday": "9 AM–9 PM",
+     "monday": "9 AM–9 PM",
+     "tuesday": "9 AM–9 PM",
+     "wednesday": "9 AM–9 PM",
+     "thursday": "9 AM–9 PM",
+     "friday": "9 AM–9 PM",
+     "saturday": "9 AM–9 PM"
+    },
+    "phone": "+91 81054 42785",
+    "website": "https://forms.gle/CPXe6wpt19dqih7X7",
+    "extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN5KukrEqOM1QegcUjJXaD-exjUuVyeZyiHao6SOUv4n34LaJ5qQPnEU4JqPWyuroDjihe9c1t99IJvk7BiEyVrmIe6YZAJZZRMBLNnnAFbPLKZSNf__SLBHG69dytTg1espNmiUROmxatT=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/lrLI9XicHcTBboIwAADQL0IgIgaTHWCyaUVAsW7rxXS1FpC20BZmv3Jn_2bJ3uE9f2tjer1y3a6ez5iUrKOjpopIYagwMyK5yxTW2iHajV-nvuP5YjfeVToUe_9AGYEt-MRrhz5aOJ4tRbbZYBlWBZwCMQ8yDBbDoRQpDMBQfthRyXXb1DQivomiLZjuy6RJ7VnxLQ2_UAwQOu6TLBcifvsusx2q8tvlUmXJ5j2MrtacmE91n_MGHgv-wOb08uN7nufU_xNH_AFOL0jV"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&q=commercial+property+for+sale+Koramangala+Bangalore&start=20&type=search"
+  }
+ }
+}

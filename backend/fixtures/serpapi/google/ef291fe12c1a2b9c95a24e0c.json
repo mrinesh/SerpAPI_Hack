@@ -1,0 +1,365 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "builder floor for sale in Jayanagar Bangalore under 2 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d876874d5071f818306f",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/nxvJ_XnbnidOgjOxuO4ekuezntCmaKJcve08phiXJNU/6ac1d876874d5071f818306f.json",
+   "markdown_endpoint": "https://serpapi.com/searches/nxvJ_XnbnidOgjOxuO4ekuezntCmaKJcve08phiXJNU/6ac1d876874d5071f818306f.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/nxvJ_XnbnidOgjOxuO4ekuezntCmaKJcve08phiXJNU/6ac1d876874d5071f818306f.json_with_pixel_position",
+   "created_at": "2026-10-04 04:39:18 UTC",
+   "processed_at": "2026-10-04 04:39:18 UTC",
+   "google_url": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/nxvJ_XnbnidOgjOxuO4ekuezntCmaKJcve08phiXJNU/6ac1d876874d5071f818306f.html",
+   "total_time_taken": 0.73
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "builder floor for sale in Jayanagar Bangalore under 2 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "builder floor for sale in Jayanagar Bangalore under 2 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 22700,
+   "time_taken_displayed": 0.45,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "2 BHK Flats in Jayanagar, Bangalore for Sale Below 2 Crore",
+    "link": "https://www.99acres.com/2-bhk-flats-in-jayanagar-bangalore-south-1-point-5-crores-to-2-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnQEB6zswFW_MRBN0VaIsTAO55NldENN_j70myiCpbYpFslYSE9pLiOzhPwiX9mbPn7J8VOYsKQBD8Ms4jvubXDgE6o18fyq5dLR1RhMIyHzVsxGaSW2vpwYnoOM8VKyD8dhOvBoM_AkTi7ohmLHGvvQk-vK7JqZhBV1m8VyoBxmoEAPxo7tOBbB2jd9pjgzQR_N8CmSpSPTwKS2T6pNm&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBoQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 2-bhk-flats-in-jayanagar-ba...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "2 bhk builder floor in jayanagar, bangalore south available for sale. This property has 2 bedrooms, 2 bathrooms . The furnishing status of the builder floor ...",
+    "snippet_highlighted_words": [
+     "2 bhk builder floor in jayanagar, bangalore south available for sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "2 bhk builder floor in jayanagar, bangalore south available for sale. This property has 2 bedrooms, 2 bathrooms . The furnishing status of the builder floor ...",
+      "source_info_link": "https://www.99acres.com/2-bhk-flats-in-jayanagar-bangalore-south-1-point-5-crores-to-2-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZXX01SQk4wVmFJc1RBTzU1TmxkRU5OX2o3MG15aUNwYllwRnNsWVNFOXBMaU96aFB3aVg5bWJQbjdKOFZPWXNLUUJEOE1zNGp2dWJYRGdFNm8xOGZ5cTVkTFIxUmhNSXlIelZzeEdhU1cydnB3WW5vT004Vkt5RDhkaE92Qm9NX0FrVGk3b2htTEhHdnZRay12SzdKcVpoQlYxbThWeW9CeG1vRUFQeG83dE9CYkIyamQ5cGpnelFSX044Q21TcFNQVHdLUzJUNnBObRIEGgIIABqRCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQMoHCAAQABgAIAAqNAoHYnVpbGRlchXTLNI_GghidWlsZGVycxoMYnVpbGRlcmZsb29yGgxpdjtwO2J1aWxkZXIqKgoFZmxvb3IVFxYqQBoEZmxhdBoIZmxvb3JpbmcaDGJ1aWxkZXJmbG9vcioKCgNmb3IVAAAAACo2CgRzYWxlFfHQREAaA2J1eRoHZm9yc2FsZRoIcHVyY2hhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqSgoJamF5YW5hZ2FyFZBZ6UAaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7amF5YW5hZ2FyKlQKCWJhbmdhbG9yZRXmleZAGghiYW5nbG9yZRoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV3gTFPRoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhU31_9AGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRWbcrc_GgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLiAS9nb3RvP3VybD1DQUVTblFFQjZ6c3dGV19NUkJOMFZhSXNUQU81NU5sZEVOTl9qNzBteWlDcGJZcEZzbFlTRTlwTGlPemhQd2lYOW1iUG43SjhWT1lzS1FCRDhNczRqdnViWERnRTZvMThmeXE1ZExSMVJoTUl5SHpWc3hHYVNXMnZwd1lub09NOFZLeUQ4ZGhPdkJvTV9Ba1RpN29obUxIR3Z2UWstdks3SnFaaEJWMW04VnlvQnhtb0VBUHhvN3RPQmJCMmpkOXBqZ3pRUl9OOENtU3BTUFR3S1MyVDZwTm06VjxiPjI8L2I-IEJISyBGbGF0cyBpbiA8Yj5KYXlhbmFnYXI8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIEJlbG93IDIgQ3JvcmU8L2I-QqwBPGI-MiBiaGsgYnVpbGRlciBmbG9vciBpbiBqYXlhbmFnYXIsIGJhbmdhbG9yZSBzb3V0aCBhdmFpbGFibGUgZm9yIHNhbGU8L2I-LiBUaGlzIHByb3BlcnR5IGhhcyAyIGJlZHJvb21zLCAyIGJhdGhyb29tcyAuIFRoZSBmdXJuaXNoaW5nIHN0YXR1cyBvZiB0aGUgYnVpbGRlciBmbG9vciZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZXX01SQk4wVmFJc1RBTzU1TmxkRU5OX2o3MG15aUNwYllwRnNsWVNFOXBMaU96aFB3aVg5bWJQbjdKOFZPWXNLUUJEOE1zNGp2dWJYRGdFNm8xOGZ5cTVkTFIxUmhNSXlIelZzeEdhU1cydnB3WW5vT004Vkt5RDhkaE92Qm9NX0FrVGk3b2htTEhHdnZRay12SzdKcVpoQlYxbThWeW9CeG1vRUFQeG83dE9CYkIyamQ5cGpnelFSX044Q21TcFNQVHdLUzJUNnBObRIEGgIIABqRCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQMoHCAAQABgAIAAqNAoHYnVpbGRlchXTLNI_GghidWlsZGVycxoMYnVpbGRlcmZsb29yGgxpdjtwO2J1aWxkZXIqKgoFZmxvb3IVFxYqQBoEZmxhdBoIZmxvb3JpbmcaDGJ1aWxkZXJmbG9vcioKCgNmb3IVAAAAACo2CgRzYWxlFfHQREAaA2J1eRoHZm9yc2FsZRoIcHVyY2hhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqSgoJamF5YW5hZ2FyFZBZ6UAaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7amF5YW5hZ2FyKlQKCWJhbmdhbG9yZRXmleZAGghiYW5nbG9yZRoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV3gTFPRoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhU31_9AGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRWbcrc_GgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLiAS9nb3RvP3VybD1DQUVTblFFQjZ6c3dGV19NUkJOMFZhSXNUQU81NU5sZEVOTl9qNzBteWlDcGJZcEZzbFlTRTlwTGlPemhQd2lYOW1iUG43SjhWT1lzS1FCRDhNczRqdnViWERnRTZvMThmeXE1ZExSMVJoTUl5SHpWc3hHYVNXMnZwd1lub09NOFZLeUQ4ZGhPdkJvTV9Ba1RpN29obUxIR3Z2UWstdks3SnFaaEJWMW04VnlvQnhtb0VBUHhvN3RPQmJCMmpkOXBqZ3pRUl9OOENtU3BTUFR3S1MyVDZwTm06VjxiPjI8L2I-IEJISyBGbGF0cyBpbiA8Yj5KYXlhbmFnYXI8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIEJlbG93IDIgQ3JvcmU8L2I-QqwBPGI-MiBiaGsgYnVpbGRlciBmbG9vciBpbiBqYXlhbmFnYXIsIGJhbmdhbG9yZSBzb3V0aCBhdmFpbGFibGUgZm9yIHNhbGU8L2I-LiBUaGlzIHByb3BlcnR5IGhhcyAyIGJlZHJvb21zLCAyIGJhdGhyb29tcyAuIFRoZSBmdXJuaXNoaW5nIHN0YXR1cyBvZiB0aGUgYnVpbGRlciBmbG9vciZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/2-bhk-flats-in-jayanagar-bangalore-south-1-point-5-crores-to-2-crores-ffid#:~:text=2%20bhk%20builder%20floor%20in,status%20of%20the%20builder%20floor"
+   },
+   {
+    "position": 2,
+    "title": "156+ Builder Floor for Sale in Bangalore below 2 crores",
+    "link": "https://www.99acres.com/builder-floor-in-bangalore-1-point-5-crores-to-2-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwEB6zswFbc2g4fxHvaPy43I-dmeCGMnMKZvesM2xTdZoPjPDJvm5I1yKpIecTIYKaRlqB7XnpFg1wPwTeF2E5jByFoS9rYwjqOidqCW-3dZwncpon5paH5LY4TGJT1JGQCez5bHINJfO8ntErX5UGPZvEqqTzyJIffIfrpzuXw_lCeRKJE8Ut2GVXgXxy8YfQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › builder-floor-in-bangalore-...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Located in jayanagar, bangalore south, this 1-5 year old independent builder floor on the 5th of 6 floors in a mid-Rise building. Featuring 3 bedrooms and 3 ...",
+    "snippet_highlighted_words": [
+     "Located in jayanagar, bangalore south"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Located in jayanagar, bangalore south, this 1-5 year old independent builder floor on the 5th of 6 floors in a mid-Rise building. Featuring 3 bedrooms and 3 ...",
+      "source_info_link": "https://www.99acres.com/builder-floor-in-bangalore-1-point-5-crores-to-2-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZiYzJnNGZ4SHZhUHk0M0ktZG1lQ0dNbk1LWnZlc00yeFRkWm9QalBESnZtNUkxeUtwSWVjVElZS2FSbHFCN1hucEZnMXdQd1RlRjJFNWpCeUZvUzlyWXdqcU9pZHFDVy0zZFp3bmNwb241cGFINUxZNFRHSlQxSkdRQ2V6NWJISU5KZk84bnRFclg1VUdQWnZFcXFUenlKSWZmSWZycHp1WHdfbENlUktKRThVdDJHVlhnWHh5OFlmURIEGgIIABruBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQKcHCAAQABgAIAAqNAoHYnVpbGRlchWWpwRBGghidWlsZGVycxoMYnVpbGRlcmZsb29yGgxpdjtwO2J1aWxkZXIqKgoFZmxvb3IVAU0HQRoEZmxhdBoIZmxvb3JpbmcaDGJ1aWxkZXJmbG9vcioKCgNmb3IVAAAAACo2CgRzYWxlFbNUVEAaA2J1eRoHZm9yc2FsZRoIcHVyY2hhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqSgoJamF5YW5hZ2FyFYPUnj8aEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7amF5YW5hZ2FyKlQKCWJhbmdhbG9yZRWXmvdAGghiYW5nbG9yZRoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVPNspPxoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhUaK_lAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRX2-O0_GgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLQAS9nb3RvP3VybD1DQUVTandFQjZ6c3dGYmMyZzRmeEh2YVB5NDNJLWRtZUNHTW5NS1p2ZXNNMnhUZFpvUGpQREp2bTVJMXlLcEllY1RJWUthUmxxQjdYbnBGZzF3UHdUZUYyRTVqQnlGb1M5cll3anFPaWRxQ1ctM2Rad25jcG9uNXBhSDVMWTRUR0pUMUpHUUNlejViSElOSmZPOG50RXJYNVVHUFp2RXFxVHp5SklmZklmcnB6dVh3X2xDZVJLSkU4VXQyR1ZYZ1h4eThZZlE6RTE1NisgPGI-QnVpbGRlciBGbG9vciBmb3IgU2FsZTwvYj4gaW4gPGI-QmFuZ2Fsb3JlIGJlbG93IDIgY3JvcmVzPC9iPkKsATxiPkxvY2F0ZWQgaW4gamF5YW5hZ2FyLCBiYW5nYWxvcmUgc291dGg8L2I-LCB0aGlzIDEtNSB5ZWFyIG9sZCBpbmRlcGVuZGVudCBidWlsZGVyIGZsb29yIG9uIHRoZSA1dGggb2YgNiBmbG9vcnMgaW4gYSBtaWQtUmlzZSBidWlsZGluZy4gRmVhdHVyaW5nIDMgYmVkcm9vbXMgYW5kIDMmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZiYzJnNGZ4SHZhUHk0M0ktZG1lQ0dNbk1LWnZlc00yeFRkWm9QalBESnZtNUkxeUtwSWVjVElZS2FSbHFCN1hucEZnMXdQd1RlRjJFNWpCeUZvUzlyWXdqcU9pZHFDVy0zZFp3bmNwb241cGFINUxZNFRHSlQxSkdRQ2V6NWJISU5KZk84bnRFclg1VUdQWnZFcXFUenlKSWZmSWZycHp1WHdfbENlUktKRThVdDJHVlhnWHh5OFlmURIEGgIIABruBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQKcHCAAQABgAIAAqNAoHYnVpbGRlchWWpwRBGghidWlsZGVycxoMYnVpbGRlcmZsb29yGgxpdjtwO2J1aWxkZXIqKgoFZmxvb3IVAU0HQRoEZmxhdBoIZmxvb3JpbmcaDGJ1aWxkZXJmbG9vcioKCgNmb3IVAAAAACo2CgRzYWxlFbNUVEAaA2J1eRoHZm9yc2FsZRoIcHVyY2hhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqSgoJamF5YW5hZ2FyFYPUnj8aEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7amF5YW5hZ2FyKlQKCWJhbmdhbG9yZRWXmvdAGghiYW5nbG9yZRoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVPNspPxoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhUaK_lAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRX2-O0_GgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLQAS9nb3RvP3VybD1DQUVTandFQjZ6c3dGYmMyZzRmeEh2YVB5NDNJLWRtZUNHTW5NS1p2ZXNNMnhUZFpvUGpQREp2bTVJMXlLcEllY1RJWUthUmxxQjdYbnBGZzF3UHdUZUYyRTVqQnlGb1M5cll3anFPaWRxQ1ctM2Rad25jcG9uNXBhSDVMWTRUR0pUMUpHUUNlejViSElOSmZPOG50RXJYNVVHUFp2RXFxVHp5SklmZklmcnB6dVh3X2xDZVJLSkU4VXQyR1ZYZ1h4eThZZlE6RTE1NisgPGI-QnVpbGRlciBGbG9vciBmb3IgU2FsZTwvYj4gaW4gPGI-QmFuZ2Fsb3JlIGJlbG93IDIgY3JvcmVzPC9iPkKsATxiPkxvY2F0ZWQgaW4gamF5YW5hZ2FyLCBiYW5nYWxvcmUgc291dGg8L2I-LCB0aGlzIDEtNSB5ZWFyIG9sZCBpbmRlcGVuZGVudCBidWlsZGVyIGZsb29yIG9uIHRoZSA1dGggb2YgNiBmbG9vcnMgaW4gYSBtaWQtUmlzZSBidWlsZGluZy4gRmVhdHVyaW5nIDMgYmVkcm9vbXMgYW5kIDMmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/builder-floor-in-bangalore-1-point-5-crores-to-2-crores-ffid#:~:text=Located%20in%20jayanagar%2C%20bangalore%20south%2C,Featuring%203%20bedrooms%20and%203"
+   },
+   {
+    "position": 3,
+    "title": "Flats in Block 3rd Jayanagar East Bangalore for Sale under ...",
+    "link": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkAEB6zswFR0dETTt0BobCD5KKZJr37Lq9B_7FPvge-ODpkHaJXuaMEKljG0KSwwrZ5a9fmujlaMGasq6Xx7LcHt5iYLpzC_Qkg6rIEQbAbFX_T_ynxK9d6z0GEeQ0qIMUsogUZijOnqTjP5sIytHHEnWnAKTkYYn0bg3gXyS1CUmVhKS-Er8PSgH4KSRjH__mqs&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › flats-in-jaya-nagar-bloc...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "₹1.45 Cr 2 BHK. 2 BHK Builder Floor for Sale in Jayanagar Bangalore. Super Area. 1100 sqft. Status. Ready to Move. Builder floor apartment is available for ...",
+    "snippet_highlighted_words": [
+     "2 BHK Builder Floor for Sale in Jayanagar Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "₹1.45 Cr 2 BHK. 2 BHK Builder Floor for Sale in Jayanagar Bangalore. Super Area. 1100 sqft. Status. Ready to Move. Builder floor apartment is available for ...",
+      "source_info_link": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtEBL2dvdG8_dXJsPUNBRVNrQUVCNnpzd0ZSMGRFVFR0MEJvYkNENUtLWkpyMzdMcTlCXzdGUHZnZS1PRHBrSGFKWHVhTUVLbGpHMEtTd3dyWjVhOWZtdWpsYU1HYXNxNlh4N0xjSHQ1aVlMcHpDX1FrZzZySUVRYkFiRlhfVF95bnhLOWQ2ejBHRWVRMHFJTVVzb2dVWmlqT25xVGpQNXNJeXRISEVuV25BS1RrWVluMGJnM2dYeVMxQ1VtVmhLUy1FcjhQU2dINEtTUmpIX19tcXMSBBoCCAAa7wcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkC3BwgAEAAYACAAKjQKB2J1aWxkZXIVawfHPxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFSJySEAaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRXA49NAGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchUUoc5AGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUVRSUGQRoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFXhZpUAaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVgiHTQBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUVuqI3QBoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy0QEvZ290bz91cmw9Q0FFU2tBRUI2enN3RlIwZEVUVHQwQm9iQ0Q1S0taSnIzN0xxOUJfN0ZQdmdlLU9EcGtIYUpYdWFNRUtsakcwS1N3d3JaNWE5Zm11amxhTUdhc3E2WHg3TGNIdDVpWUxwekNfUWtnNnJJRVFiQWJGWF9UX3lueEs5ZDZ6MEdFZVEwcUlNVXNvZ1VaaWpPbnFUalA1c0l5dEhIRW5XbkFLVGtZWW4wYmczZ1h5UzFDVW1WaEtTLUVyOFBTZ0g0S1NSakhfX21xczpTRmxhdHMgaW4gQmxvY2sgM3JkIDxiPkpheWFuYWdhcjwvYj4gRWFzdCA8Yj5CYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiAuLi5CrQHigrkxLjQ1IENyIDIgQkhLLiA8Yj4yIEJISyBCdWlsZGVyIEZsb29yIGZvciBTYWxlIGluIEpheWFuYWdhciBCYW5nYWxvcmU8L2I-LiBTdXBlciBBcmVhLiAxMTAwIHNxZnQuIFN0YXR1cy4gUmVhZHkgdG8gTW92ZS4gQnVpbGRlciBmbG9vciBhcGFydG1lbnQgaXMgYXZhaWxhYmxlIGZvciZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtEBL2dvdG8_dXJsPUNBRVNrQUVCNnpzd0ZSMGRFVFR0MEJvYkNENUtLWkpyMzdMcTlCXzdGUHZnZS1PRHBrSGFKWHVhTUVLbGpHMEtTd3dyWjVhOWZtdWpsYU1HYXNxNlh4N0xjSHQ1aVlMcHpDX1FrZzZySUVRYkFiRlhfVF95bnhLOWQ2ejBHRWVRMHFJTVVzb2dVWmlqT25xVGpQNXNJeXRISEVuV25BS1RrWVluMGJnM2dYeVMxQ1VtVmhLUy1FcjhQU2dINEtTUmpIX19tcXMSBBoCCAAa7wcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkC3BwgAEAAYACAAKjQKB2J1aWxkZXIVawfHPxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFSJySEAaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRXA49NAGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchUUoc5AGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUVRSUGQRoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFXhZpUAaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVgiHTQBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUVuqI3QBoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy0QEvZ290bz91cmw9Q0FFU2tBRUI2enN3RlIwZEVUVHQwQm9iQ0Q1S0taSnIzN0xxOUJfN0ZQdmdlLU9EcGtIYUpYdWFNRUtsakcwS1N3d3JaNWE5Zm11amxhTUdhc3E2WHg3TGNIdDVpWUxwekNfUWtnNnJJRVFiQWJGWF9UX3lueEs5ZDZ6MEdFZVEwcUlNVXNvZ1VaaWpPbnFUalA1c0l5dEhIRW5XbkFLVGtZWW4wYmczZ1h5UzFDVW1WaEtTLUVyOFBTZ0g0S1NSakhfX21xczpTRmxhdHMgaW4gQmxvY2sgM3JkIDxiPkpheWFuYWdhcjwvYj4gRWFzdCA8Yj5CYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiAuLi5CrQHigrkxLjQ1IENyIDIgQkhLLiA8Yj4yIEJISyBCdWlsZGVyIEZsb29yIGZvciBTYWxlIGluIEpheWFuYWdhciBCYW5nYWxvcmU8L2I-LiBTdXBlciBBcmVhLiAxMTAwIHNxZnQuIFN0YXR1cy4gUmVhZHkgdG8gTW92ZS4gQnVpbGRlciBmbG9vciBhcGFydG1lbnQgaXMgYXZhaWxhYmxlIGZvciZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "MagicBricks",
+    "read_more_link": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs#:~:text=%E2%82%B91.45%20Cr%202%20BHK,apartment%20is%20available%20for%20sale."
+   },
+   {
+    "position": 4,
+    "title": "3 BHK Flats in Jayanagar, Bangalore for Sale Below 2 Crore",
+    "link": "https://www.99acres.com/3-bhk-flats-in-jayanagar-bangalore-south-1-point-5-crores-to-2-crores-ffid-page-2",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpAEB6zswFeknnuslgSjep65uvllTbwMBil703TdnnTRW5ArAjIwukEJ70lNJzcQCaIk4JEqIU-K3fRtqITcyOaMQHWDMHuCxUE_IgE3KO1V1Tu4Y3Ilwos2f6dzVnHUtFsfgwKwJon_IiNI2bqwwbvUtUT64XttOb2_2vU6_dARNH4AGqQUEsVoNafsgtHMQGn2mfIW2tuZgOxVPVMC9KPN3BChMHg&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBQQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 3-bhk-flats-in-jayanagar-ba...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "3 BHK Flat in Jayanagar, Bangalore. SRI SAI LEELA PARADISE · ₹1.33 Cr ; 3 BHK Flat in Jayanagar, Bangalore. SRI LAKSHMI NIVAS · ₹1.8 Cr ; 3 BHK Flat in 4th T ...",
+    "snippet_highlighted_words": [
+     "3 BHK Flat in Jayanagar, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "3 BHK Flat in Jayanagar, Bangalore. SRI SAI LEELA PARADISE · ₹1.33 Cr ; 3 BHK Flat in Jayanagar, Bangalore. SRI LAKSHMI NIVAS · ₹1.8 Cr ; 3 BHK Flat in 4th T ...",
+      "source_info_link": "https://www.99acres.com/3-bhk-flats-in-jayanagar-bangalore-south-1-point-5-crores-to-2-crores-ffid-page-2",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0Zla25udXNsZ1NqZXA2NXV2bGxUYndNQmlsNzAzVGRublRSVzVBckFqSXd1a0VKNzBsTkp6Y1FDYUlrNEpFcUlVLUszZlJ0cUlUY3lPYU1RSFdETUh1Q3hVRV9JZ0UzS08xVjFUdTRZM0lsd29zMmY2ZHpWbkhVdEZzZmd3S3dKb25fSWlOSTJicXd3YnZVdFVUNjRYdHRPYjJfMnZVNl9kQVJOSDRBR3FRVUVzVm9OYWZzZ3RITVFHbjJtZklXMnR1WmdPeFZQVk1DOUtQTjNCQ2hNSGcSBBoCCAAapwgSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkDgBwgAEAAYACAAKjQKB2J1aWxkZXIVZwPjPxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFfBFKkAaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRX68FhAGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchVNPutAGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUV9P7SQBoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFRlGgz0aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVtbjPQBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUV7vDIPxoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy7AEvZ290bz91cmw9Q0FFU3BBRUI2enN3RmVrbm51c2xnU2plcDY1dXZsbFRid01CaWw3MDNUZG5uVFJXNUFyQWpJd3VrRUo3MGxOSnpjUUNhSWs0SkVxSVUtSzNmUnRxSVRjeU9hTVFIV0RNSHVDeFVFX0lnRTNLTzFWMVR1NFkzSWx3b3MyZjZkelZuSFV0RnNmZ3dLd0pvbl9JaU5JMmJxd3didlV0VVQ2NFh0dE9iMl8ydlU2X2RBUk5INEFHcVFVRXNWb05hZnNndEhNUUduMm1mSVcydHVaZ094VlBWTUM5S1BOM0JDaE1IZzpPMyBCSEsgRmxhdHMgaW4gPGI-SmF5YW5hZ2FyPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSBCZWxvdyAyIENyb3JlPC9iPkK_ATxiPjMgQkhLIEZsYXQgaW4gSmF5YW5hZ2FyLCBCYW5nYWxvcmU8L2I-LiBTUkkgU0FJIExFRUxBIFBBUkFESVNFICZtaWRkb3Q7IOKCuTEuMzMgQ3IgOyAzIEJISyBGbGF0IGluIEpheWFuYWdhciwgQmFuZ2Fsb3JlLiBTUkkgTEFLU0hNSSBOSVZBUyAmbWlkZG90OyDigrkxLjggQ3IgOyAzIEJISyBGbGF0IGluIDR0aCBUJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuwBL2dvdG8_dXJsPUNBRVNwQUVCNnpzd0Zla25udXNsZ1NqZXA2NXV2bGxUYndNQmlsNzAzVGRublRSVzVBckFqSXd1a0VKNzBsTkp6Y1FDYUlrNEpFcUlVLUszZlJ0cUlUY3lPYU1RSFdETUh1Q3hVRV9JZ0UzS08xVjFUdTRZM0lsd29zMmY2ZHpWbkhVdEZzZmd3S3dKb25fSWlOSTJicXd3YnZVdFVUNjRYdHRPYjJfMnZVNl9kQVJOSDRBR3FRVUVzVm9OYWZzZ3RITVFHbjJtZklXMnR1WmdPeFZQVk1DOUtQTjNCQ2hNSGcSBBoCCAAapwgSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWg8IARILOTlhY3Jlcy5jb21yAHoAgkDgBwgAEAAYACAAKjQKB2J1aWxkZXIVZwPjPxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFfBFKkAaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRX68FhAGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchVNPutAGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUV9P7SQBoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFRlGgz0aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVtbjPQBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUV7vDIPxoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy7AEvZ290bz91cmw9Q0FFU3BBRUI2enN3RmVrbm51c2xnU2plcDY1dXZsbFRid01CaWw3MDNUZG5uVFJXNUFyQWpJd3VrRUo3MGxOSnpjUUNhSWs0SkVxSVUtSzNmUnRxSVRjeU9hTVFIV0RNSHVDeFVFX0lnRTNLTzFWMVR1NFkzSWx3b3MyZjZkelZuSFV0RnNmZ3dLd0pvbl9JaU5JMmJxd3didlV0VVQ2NFh0dE9iMl8ydlU2X2RBUk5INEFHcVFVRXNWb05hZnNndEhNUUduMm1mSVcydHVaZ094VlBWTUM5S1BOM0JDaE1IZzpPMyBCSEsgRmxhdHMgaW4gPGI-SmF5YW5hZ2FyPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSBCZWxvdyAyIENyb3JlPC9iPkK_ATxiPjMgQkhLIEZsYXQgaW4gSmF5YW5hZ2FyLCBCYW5nYWxvcmU8L2I-LiBTUkkgU0FJIExFRUxBIFBBUkFESVNFICZtaWRkb3Q7IOKCuTEuMzMgQ3IgOyAzIEJISyBGbGF0IGluIEpheWFuYWdhciwgQmFuZ2Fsb3JlLiBTUkkgTEFLU0hNSSBOSVZBUyAmbWlkZG90OyDigrkxLjggQ3IgOyAzIEJISyBGbGF0IGluIDR0aCBUJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/3-bhk-flats-in-jayanagar-bangalore-south-1-point-5-crores-to-2-crores-ffid-page-2#:~:text=SRI%20SAI%20LEELA%20PARADISE&text=%E2%82%B91.33%20Cr&text=SRI%20LAKSHMI%20NIVAS&text=%E2%82%B91.8%20Cr&text=SAI%20SRINIKA%20APARTMENT"
+   },
+   {
+    "position": 5,
+    "title": "Flats near Byrasandra Jayanagar Bangalore for Sale under ₹ 𝟐 ...",
+    "link": "https://www.magicbricks.com/flats-in-byrasandra-jayanagar-bangalore-under-2-crore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkgEB6zswFTY-GwCTnOETZpCdKiKDSmD5-2aPihe0fvnd10KjRXFfRNvbE74YsJDDfwDVi7IXZjZQcZVz56fqlIKHMz8DVWiIT2tETpC985ndewDe_j3fE8XL3hsTNgw0O3hwHvStWnwSRjyebt2xEHMNbKAdIB_8nvZsT42bIv0rCKfJw9ktdTvucTqpFdTi3MXExA&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBcQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › flats-in-byrasandra-jaya...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "₹1.45 Cr 2 BHK. 2 BHK Builder Floor for Sale in Jayanagar Bangalore. Super Area. 1100 sqft. Status. Ready to Move. Builder floor apartment is available for ...",
+    "snippet_highlighted_words": [
+     "2 BHK Builder Floor for Sale in Jayanagar Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "₹1.45 Cr 2 BHK. 2 BHK Builder Floor for Sale in Jayanagar Bangalore. Super Area. 1100 sqft. Status. Ready to Move. Builder floor apartment is available for ...",
+      "source_info_link": "https://www.magicbricks.com/flats-in-byrasandra-jayanagar-bangalore-under-2-crore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZUWS1Hd0NUbk9FVFpwQ2RLaUtEU21ENS0yYVBpaGUwZnZuZDEwS2pSWEZmUk52YkU3NFlzSkREZndEVmk3SVhaalpRY1pWejU2ZnFsSUtITXo4RFZXaUlUMnRFVHBDOTg1bmRld0RlX2ozZkU4WEwzaHNUTmd3ME8zaHdIdlN0V253U1JqeWVidDJ4RUhNTmJLQWRJQl84bnZac1Q0MmJJdjByQ0tmSnc5a3RkVHZ1Y1RxcEZkVGkzTVhFeEESBBoCCAAa-AcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkDABwgAEAAYACAAKjQKB2J1aWxkZXIVqr67PxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFa7eRUAaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRUYGthAGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchUkR_VAGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUV5DkJQRoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFYYqr0AaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVqE3OQBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUV2WebQBoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy1AEvZ290bz91cmw9Q0FFU2tnRUI2enN3RlRZLUd3Q1RuT0VUWnBDZEtpS0RTbUQ1LTJhUGloZTBmdm5kMTBLalJYRmZSTnZiRTc0WXNKRERmd0RWaTdJWFpqWlFjWlZ6NTZmcWxJS0hNejhEVldpSVQydEVUcEM5ODVuZGV3RGVfajNmRThYTDNoc1ROZ3cwTzNod0h2U3RXbndTUmp5ZWJ0MnhFSE1OYktBZElCXzhudlpzVDQyYkl2MHJDS2ZKdzlrdGRUdnVjVHFwRmRUaTNNWEV4QTpZRmxhdHMgbmVhciBCeXJhc2FuZHJhIDxiPkpheWFuYWdhciBCYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiDigrkgPGI-MiBDcm9yZTwvYj5CrQHigrkxLjQ1IENyIDIgQkhLLiA8Yj4yIEJISyBCdWlsZGVyIEZsb29yIGZvciBTYWxlIGluIEpheWFuYWdhciBCYW5nYWxvcmU8L2I-LiBTdXBlciBBcmVhLiAxMTAwIHNxZnQuIFN0YXR1cy4gUmVhZHkgdG8gTW92ZS4gQnVpbGRlciBmbG9vciBhcGFydG1lbnQgaXMgYXZhaWxhYmxlIGZvciZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZUWS1Hd0NUbk9FVFpwQ2RLaUtEU21ENS0yYVBpaGUwZnZuZDEwS2pSWEZmUk52YkU3NFlzSkREZndEVmk3SVhaalpRY1pWejU2ZnFsSUtITXo4RFZXaUlUMnRFVHBDOTg1bmRld0RlX2ozZkU4WEwzaHNUTmd3ME8zaHdIdlN0V253U1JqeWVidDJ4RUhNTmJLQWRJQl84bnZac1Q0MmJJdjByQ0tmSnc5a3RkVHZ1Y1RxcEZkVGkzTVhFeEESBBoCCAAa-AcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkDABwgAEAAYACAAKjQKB2J1aWxkZXIVqr67PxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFa7eRUAaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRUYGthAGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchUkR_VAGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUV5DkJQRoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFYYqr0AaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVqE3OQBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUV2WebQBoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy1AEvZ290bz91cmw9Q0FFU2tnRUI2enN3RlRZLUd3Q1RuT0VUWnBDZEtpS0RTbUQ1LTJhUGloZTBmdm5kMTBLalJYRmZSTnZiRTc0WXNKRERmd0RWaTdJWFpqWlFjWlZ6NTZmcWxJS0hNejhEVldpSVQydEVUcEM5ODVuZGV3RGVfajNmRThYTDNoc1ROZ3cwTzNod0h2U3RXbndTUmp5ZWJ0MnhFSE1OYktBZElCXzhudlpzVDQyYkl2MHJDS2ZKdzlrdGRUdnVjVHFwRmRUaTNNWEV4QTpZRmxhdHMgbmVhciBCeXJhc2FuZHJhIDxiPkpheWFuYWdhciBCYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiDigrkgPGI-MiBDcm9yZTwvYj5CrQHigrkxLjQ1IENyIDIgQkhLLiA8Yj4yIEJISyBCdWlsZGVyIEZsb29yIGZvciBTYWxlIGluIEpheWFuYWdhciBCYW5nYWxvcmU8L2I-LiBTdXBlciBBcmVhLiAxMTAwIHNxZnQuIFN0YXR1cy4gUmVhZHkgdG8gTW92ZS4gQnVpbGRlciBmbG9vciBhcGFydG1lbnQgaXMgYXZhaWxhYmxlIGZvciZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "MagicBricks"
+   },
+   {
+    "position": 6,
+    "title": "Flats in Block 1st JayaNagar Bangalore for Sale under ₹ 𝟐 ...",
+    "link": "https://www.magicbricks.com/flats-in-jaya-nagar-block-1-bangalore-under-2-crore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkAEB6zswFZYwRZ1eEN8WzLOF08OHz_NJvMXEJXYULx9dVZK6s0uVMx9Nq8zq6sxuSw1niDiQMz5aTwqxNktOduxcFPhvyDJFYdFMeU0gaul818xTUw2zfc3-HwxToSIFPL9Y0UzMpsN1-Db8B3TMrK2mB7_EaY6PpVEB2lRWVLoXybTrwkeWlWokNgS2aSqkaGc&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › flats-in-jaya-nagar-bloc...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "This is 2bhk flat in very good gated society in JAyanagar 1st block with all good amenities has 1350 sqft west facing with 2 balcoines very good ventilated as ...",
+    "snippet_highlighted_words": [
+     "2bhk flat in very good gated society in JAyanagar 1st block"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "This is 2bhk flat in very good gated society in JAyanagar 1st block with all good amenities has 1350 sqft west facing with 2 balcoines very good ventilated as ...",
+      "source_info_link": "https://www.magicbricks.com/flats-in-jaya-nagar-block-1-bangalore-under-2-crore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtEBL2dvdG8_dXJsPUNBRVNrQUVCNnpzd0ZaWXdSWjFlRU44V3pMT0YwOE9Iel9OSnZNWEVKWFlVTHg5ZFZaSzZzMHVWTXg5TnE4enE2c3h1U3cxbmlEaVFNejVhVHdxeE5rdE9kdXhjRlBodnlESkZZZEZNZVUwZ2F1bDgxOHhUVXcyemZjMy1Id3hUb1NJRlBMOVkwVXpNcHNOMS1EYjhCM1RNcksybUI3X0VhWTZQcFZFQjJsUldWTG9YeWJUcndrZVdsV29rTmdTMmFTcWthR2MSBBoCCAAa8wcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkC7BwgAEAAYACAAKjQKB2J1aWxkZXIVK8RgPxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFTTkJEAaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRVBat9AGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchW9x9hAGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUVhqUMQRoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFZ9bv0AaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVRk_8QBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUVjhifQBoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy0QEvZ290bz91cmw9Q0FFU2tBRUI2enN3RlpZd1JaMWVFTjhXekxPRjA4T0h6X05Kdk1YRUpYWVVMeDlkVlpLNnMwdVZNeDlOcTh6cTZzeHVTdzFuaURpUU16NWFUd3F4Tmt0T2R1eGNGUGh2eURKRllkRk1lVTBnYXVsODE4eFRVdzJ6ZmMzLUh3eFRvU0lGUEw5WTBVek1wc04xLURiOEIzVE1ySzJtQjdfRWFZNlBwVkVCMmxSV1ZMb1h5YlRyd2tlV2xXb2tOZ1MyYVNxa2FHYzpWRmxhdHMgaW4gQmxvY2sgMXN0IDxiPkpheWFOYWdhciBCYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiDigrkgPGI-MiBDcm9yZTwvYj5CrgFUaGlzIGlzIDxiPjJiaGsgZmxhdCBpbiB2ZXJ5IGdvb2QgZ2F0ZWQgc29jaWV0eSBpbiBKQXlhbmFnYXIgMXN0IGJsb2NrPC9iPiB3aXRoIGFsbCBnb29kIGFtZW5pdGllcyBoYXMgMTM1MCBzcWZ0IHdlc3QgZmFjaW5nIHdpdGggMiBiYWxjb2luZXMgdmVyeSBnb29kIHZlbnRpbGF0ZWQgYXMmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtEBL2dvdG8_dXJsPUNBRVNrQUVCNnpzd0ZaWXdSWjFlRU44V3pMT0YwOE9Iel9OSnZNWEVKWFlVTHg5ZFZaSzZzMHVWTXg5TnE4enE2c3h1U3cxbmlEaVFNejVhVHdxeE5rdE9kdXhjRlBodnlESkZZZEZNZVUwZ2F1bDgxOHhUVXcyemZjMy1Id3hUb1NJRlBMOVkwVXpNcHNOMS1EYjhCM1RNcksybUI3X0VhWTZQcFZFQjJsUldWTG9YeWJUcndrZVdsV29rTmdTMmFTcWthR2MSBBoCCAAa8wcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkC7BwgAEAAYACAAKjQKB2J1aWxkZXIVK8RgPxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFTTkJEAaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRVBat9AGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchW9x9hAGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUVhqUMQRoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFZ9bv0AaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVRk_8QBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUVjhifQBoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy0QEvZ290bz91cmw9Q0FFU2tBRUI2enN3RlpZd1JaMWVFTjhXekxPRjA4T0h6X05Kdk1YRUpYWVVMeDlkVlpLNnMwdVZNeDlOcTh6cTZzeHVTdzFuaURpUU16NWFUd3F4Tmt0T2R1eGNGUGh2eURKRllkRk1lVTBnYXVsODE4eFRVdzJ6ZmMzLUh3eFRvU0lGUEw5WTBVek1wc04xLURiOEIzVE1ySzJtQjdfRWFZNlBwVkVCMmxSV1ZMb1h5YlRyd2tlV2xXb2tOZ1MyYVNxa2FHYzpWRmxhdHMgaW4gQmxvY2sgMXN0IDxiPkpheWFOYWdhciBCYW5nYWxvcmU8L2I-IGZvciA8Yj5TYWxlIHVuZGVyPC9iPiDigrkgPGI-MiBDcm9yZTwvYj5CrgFUaGlzIGlzIDxiPjJiaGsgZmxhdCBpbiB2ZXJ5IGdvb2QgZ2F0ZWQgc29jaWV0eSBpbiBKQXlhbmFnYXIgMXN0IGJsb2NrPC9iPiB3aXRoIGFsbCBnb29kIGFtZW5pdGllcyBoYXMgMTM1MCBzcWZ0IHdlc3QgZmFjaW5nIHdpdGggMiBiYWxjb2luZXMgdmVyeSBnb29kIHZlbnRpbGF0ZWQgYXMmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "MagicBricks"
+   },
+   {
+    "position": 7,
+    "title": "Property in 1st Block Jayanagar, Bangalore from 2 crores ...",
+    "link": "https://www.99acres.com/resale-property-in-1st-block-jayanagar-bangalore-south-2-crores-to-3-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESowEB6zswFVUuPFst-Qjrio5OukQC2hagividpkcZ1KKDm5HBmr6biXDu9TzAP8zlK_ihwEM4kjXq0x55P29JRqNs-DcFdb-IYSSvvP2K9G7w4IxRigk8FuGXSM42v9MmaZzbriu1zvcrPa3ATyl3C48ZEjXScng5Cy5JACRNkXvVFczrVtzo3zq5DnAH9LCTP3frQcQ2XKtW68YTqA-S9qrWj_MO&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBUQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › resale-property-in-1st-block...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Resale Property in 1st Block Jayanagar, Bangalore Below 3 Crore ; 2 BHK Flat · ₹2 Cr. ₹14,869 /sqft · 1,345 sqft(125 sqm) ; 2 BHK Builder Floor · ₹2 Cr. ₹30,003 ...",
+    "snippet_highlighted_words": [
+     "2 BHK Builder Floor"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Resale Property in 1st Block Jayanagar, Bangalore Below 3 Crore ; 2 BHK Flat · ₹2 Cr. ₹14,869 /sqft · 1,345 sqft(125 sqm) ; 2 BHK Builder Floor · ₹2 Cr. ₹30,003 ...",
+      "source_info_link": "https://www.99acres.com/resale-property-in-1st-block-jayanagar-bangalore-south-2-crores-to-3-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuoBL2dvdG8_dXJsPUNBRVNvd0VCNnpzd0ZWVXVQRnN0LVFqcmlvNU91a1FDMmhhZ2l2aWRwa2NaMUtLRG01SEJtcjZiaVhEdTlUekFQOHpsS19paHdFTTRralhxMHg1NVAyOUpScU5zLURjRmRiLUlZU1N2dlAySzlHN3c0SXhSaWdrOEZ1R1hTTTQydjlNbWFaemJyaXUxenZjclBhM0FUeWwzQzQ4WkVqWFNjbmc1Q3k1SkFDUk5rWHZWRmN6clZ0em8zenE1RG5BSDlMQ1RQM2ZyUWNRMlhLdFc2OFlUcUEtUzlxcldqX01PEgQaAggAGroIEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA8wcIABAAGAAgACo0CgdidWlsZGVyFV-zCEAaCGJ1aWxkZXJzGgxidWlsZGVyZmxvb3IaDGl2O3A7YnVpbGRlcioqCgVmbG9vchUZqxZAGgRmbGF0GghmbG9vcmluZxoMYnVpbGRlcmZsb29yKgoKA2ZvchUAAAAAKjYKBHNhbGUVuyQVQBoDYnV5Ggdmb3JzYWxlGghwdXJjaGFzZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpKCglqYXlhbmFnYXIVDnPaQBoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtqYXlhbmFnYXIqVAoJYmFuZ2Fsb3JlFZkp3kAaCGJhbmdsb3JlGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchXVKUc-GgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMioeCgEyFfHg00AaBDIuMDAaBnVuZGVyMhoGMmNyb3JlKigKBWNyb3JlFXYgxT8aBmNyb3JlcxoGMmNyb3JlGgppdjtwO2Nyb3JlMuoBL2dvdG8_dXJsPUNBRVNvd0VCNnpzd0ZWVXVQRnN0LVFqcmlvNU91a1FDMmhhZ2l2aWRwa2NaMUtLRG01SEJtcjZiaVhEdTlUekFQOHpsS19paHdFTTRralhxMHg1NVAyOUpScU5zLURjRmRiLUlZU1N2dlAySzlHN3c0SXhSaWdrOEZ1R1hTTTQydjlNbWFaemJyaXUxenZjclBhM0FUeWwzQzQ4WkVqWFNjbmc1Q3k1SkFDUk5rWHZWRmN6clZ0em8zenE1RG5BSDlMQ1RQM2ZyUWNRMlhLdFc2OFlUcUEtUzlxcldqX01POlZQcm9wZXJ0eSBpbiAxc3QgQmxvY2sgPGI-SmF5YW5hZ2FyPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmcm9tIDxiPjIgY3JvcmVzPC9iPiB0byAzIC4uLkLNAVJlc2FsZSBQcm9wZXJ0eSBpbiAxc3QgQmxvY2sgSmF5YW5hZ2FyLCBCYW5nYWxvcmUgQmVsb3cgMyBDcm9yZSA7IDIgQkhLIEZsYXQgJm1pZGRvdDsg4oK5MiBDci4g4oK5MTQsODY5IC9zcWZ0ICZtaWRkb3Q7IDEsMzQ1IHNxZnQoMTI1IHNxbSkgOyA8Yj4yIEJISyBCdWlsZGVyIEZsb29yPC9iPiAmbWlkZG90OyDigrkyIENyLiDigrkzMCwwMDMmbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuoBL2dvdG8_dXJsPUNBRVNvd0VCNnpzd0ZWVXVQRnN0LVFqcmlvNU91a1FDMmhhZ2l2aWRwa2NaMUtLRG01SEJtcjZiaVhEdTlUekFQOHpsS19paHdFTTRralhxMHg1NVAyOUpScU5zLURjRmRiLUlZU1N2dlAySzlHN3c0SXhSaWdrOEZ1R1hTTTQydjlNbWFaemJyaXUxenZjclBhM0FUeWwzQzQ4WkVqWFNjbmc1Q3k1SkFDUk5rWHZWRmN6clZ0em8zenE1RG5BSDlMQ1RQM2ZyUWNRMlhLdFc2OFlUcUEtUzlxcldqX01PEgQaAggAGroIEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJA8wcIABAAGAAgACo0CgdidWlsZGVyFV-zCEAaCGJ1aWxkZXJzGgxidWlsZGVyZmxvb3IaDGl2O3A7YnVpbGRlcioqCgVmbG9vchUZqxZAGgRmbGF0GghmbG9vcmluZxoMYnVpbGRlcmZsb29yKgoKA2ZvchUAAAAAKjYKBHNhbGUVuyQVQBoDYnV5Ggdmb3JzYWxlGghwdXJjaGFzZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpKCglqYXlhbmFnYXIVDnPaQBoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtqYXlhbmFnYXIqVAoJYmFuZ2Fsb3JlFZkp3kAaCGJhbmdsb3JlGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchXVKUc-GgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMioeCgEyFfHg00AaBDIuMDAaBnVuZGVyMhoGMmNyb3JlKigKBWNyb3JlFXYgxT8aBmNyb3JlcxoGMmNyb3JlGgppdjtwO2Nyb3JlMuoBL2dvdG8_dXJsPUNBRVNvd0VCNnpzd0ZWVXVQRnN0LVFqcmlvNU91a1FDMmhhZ2l2aWRwa2NaMUtLRG01SEJtcjZiaVhEdTlUekFQOHpsS19paHdFTTRralhxMHg1NVAyOUpScU5zLURjRmRiLUlZU1N2dlAySzlHN3c0SXhSaWdrOEZ1R1hTTTQydjlNbWFaemJyaXUxenZjclBhM0FUeWwzQzQ4WkVqWFNjbmc1Q3k1SkFDUk5rWHZWRmN6clZ0em8zenE1RG5BSDlMQ1RQM2ZyUWNRMlhLdFc2OFlUcUEtUzlxcldqX01POlZQcm9wZXJ0eSBpbiAxc3QgQmxvY2sgPGI-SmF5YW5hZ2FyPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBmcm9tIDxiPjIgY3JvcmVzPC9iPiB0byAzIC4uLkLNAVJlc2FsZSBQcm9wZXJ0eSBpbiAxc3QgQmxvY2sgSmF5YW5hZ2FyLCBCYW5nYWxvcmUgQmVsb3cgMyBDcm9yZSA7IDIgQkhLIEZsYXQgJm1pZGRvdDsg4oK5MiBDci4g4oK5MTQsODY5IC9zcWZ0ICZtaWRkb3Q7IDEsMzQ1IHNxZnQoMTI1IHNxbSkgOyA8Yj4yIEJISyBCdWlsZGVyIEZsb29yPC9iPiAmbWlkZG90OyDigrkyIENyLiDigrkzMCwwMDMmbmJzcDsuLi5KAmluSgNmb3IiAhABSABYAGgA",
+    "source": "99 Acres",
+    "read_more_link": "https://www.99acres.com/resale-property-in-1st-block-jayanagar-bangalore-south-2-crores-to-3-crores-ffid#:~:text=Resale%20Property%20in%201st%20Block,Jayanagar%2C%20Bangalore%20Below%203%20Crore&text=2%20BHK%20Flat%20in%201st,Block%20Jayanagar%2C%20Bangalore&text=%E2%82%B92%20Cr,%E2%82%B914%2C869%20%2Fsqft&text=1%2C345%20sqft(125%20sqm)&text=2%20BHK%20Builder%20Floor%20in,1st%20Block%20Jayanagar%2C%20Bangalore&text=%E2%82%B92%20Cr,%E2%82%B930%2C003%20%2Fsqft"
+   },
+   {
+    "position": 8,
+    "title": "2 BHK Flats in Jayanagar for Sale under ₹ 1.5 Crore",
+    "link": "https://www.magicbricks.com/2-bhk-flats-in-jayanagar-bangalore-under-1.5-crore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwEB6zswFbcUfstSjLvY4dab1Nju7HFQslsQ1IYwB3CZDxrR62HSJL2YwDmXbu1UzUk67yjrvF4yq9vrz3j_a2kl-I6GqaxKeypjOnLF1xGps_ZWMrhlhmuNiI34NfYBQB3UMytNM0XffH5-o9rnZwZKvNcYLvvdbGnzvi7T9As7_Y7Ln2CuHOEG6aMm5ZFMqA&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBwQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › 2-bhk-flats-in-jayanaga...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "2 BHK Flats in Jayanagar for Sale under ₹ 1.5 Crore ; 2 BHK Apartment for Sale in 4th T Block East, Jayanagar · 2300 sqft · Floor : 4 out of 12 · Oceans Five Home.",
+    "snippet_highlighted_words": [
+     "2 BHK Flats in Jayanagar for Sale under ₹ 1.5 Crore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "2 BHK Flats in Jayanagar for Sale under ₹ 1.5 Crore ; 2 BHK Apartment for Sale in 4th T Block East, Jayanagar · 2300 sqft · Floor : 4 out of 12 · Oceans Five Home.",
+      "source_info_link": "https://www.magicbricks.com/2-bhk-flats-in-jayanagar-bangalore-under-1.5-crore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZiY1Vmc3RTakx2WTRkYWIxTmp1N0hGUXNsc1ExSVl3QjNDWkR4clI2MkhTSkwyWXdEbVhidTFVelVrNjd5anJ2RjR5cTl2cnozal9hMmtsLUk2R3FheEtleXBqT25MRjF4R3BzX1pXTXJobGhtdU5pSTM0TmZZQlFCM1VNeXROTTBYZmZINS1vOXJuWndaS3ZOY1lMdnZkYkduenZpN1Q5QXM3X1k3TG4yQ3VIT0VHNmFNbTVaRk1xQRIEGgIIABqKCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQNIHCAAQABgAIAAqNAoHYnVpbGRlchVdoeA_GghidWlsZGVycxoMYnVpbGRlcmZsb29yGgxpdjtwO2J1aWxkZXIqKgoFZmxvb3IVxSovQBoEZmxhdBoIZmxvb3JpbmcaDGJ1aWxkZXJmbG9vcioKCgNmb3IVAAAAACo2CgRzYWxlFSb91EAaA2J1eRoHZm9yc2FsZRoIcHVyY2hhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqSgoJamF5YW5hZ2FyFeo_3UAaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7amF5YW5hZ2FyKlQKCWJhbmdhbG9yZRVF9gdBGghiYW5nbG9yZRoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVhN-rQBoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhXMVNpAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRWHTDVAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLQAS9nb3RvP3VybD1DQUVTandFQjZ6c3dGYmNVZnN0U2pMdlk0ZGFiMU5qdTdIRlFzbHNRMUlZd0IzQ1pEeHJSNjJIU0pMMll3RG1YYnUxVXpVazY3eWpydkY0eXE5dnJ6M2pfYTJrbC1JNkdxYXhLZXlwak9uTEYxeEdwc19aV01yaGxobXVOaUkzNE5mWUJRQjNVTXl0Tk0wWGZmSDUtbzlyblp3Wkt2TmNZTHZ2ZGJHbnp2aTdUOUFzN19ZN0xuMkN1SE9FRzZhTW01WkZNcUE6WzxiPjI8L2I-IEJISyBGbGF0cyBpbiA8Yj5KYXlhbmFnYXIgQmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSB1bmRlcjwvYj4g4oK5IDEuNSA8Yj5Dcm9yZTwvYj5CwQE8Yj4yIEJISyBGbGF0cyBpbiBKYXlhbmFnYXIgZm9yIFNhbGUgdW5kZXIg4oK5IDEuNSBDcm9yZTwvYj4gOyAyIEJISyBBcGFydG1lbnQgZm9yIFNhbGUgaW4gNHRoIFQgQmxvY2sgRWFzdCwgSmF5YW5hZ2FyICZtaWRkb3Q7IDIzMDAgc3FmdCAmbWlkZG90OyBGbG9vciA6IDQgb3V0IG9mIDEyICZtaWRkb3Q7IE9jZWFucyBGaXZlIEhvbWUuSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZiY1Vmc3RTakx2WTRkYWIxTmp1N0hGUXNsc1ExSVl3QjNDWkR4clI2MkhTSkwyWXdEbVhidTFVelVrNjd5anJ2RjR5cTl2cnozal9hMmtsLUk2R3FheEtleXBqT25MRjF4R3BzX1pXTXJobGhtdU5pSTM0TmZZQlFCM1VNeXROTTBYZmZINS1vOXJuWndaS3ZOY1lMdnZkYkduenZpN1Q5QXM3X1k3TG4yQ3VIT0VHNmFNbTVaRk1xQRIEGgIIABqKCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQNIHCAAQABgAIAAqNAoHYnVpbGRlchVdoeA_GghidWlsZGVycxoMYnVpbGRlcmZsb29yGgxpdjtwO2J1aWxkZXIqKgoFZmxvb3IVxSovQBoEZmxhdBoIZmxvb3JpbmcaDGJ1aWxkZXJmbG9vcioKCgNmb3IVAAAAACo2CgRzYWxlFSb91EAaA2J1eRoHZm9yc2FsZRoIcHVyY2hhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqSgoJamF5YW5hZ2FyFeo_3UAaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7amF5YW5hZ2FyKlQKCWJhbmdhbG9yZRVF9gdBGghiYW5nbG9yZRoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVhN-rQBoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhXMVNpAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRWHTDVAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLQAS9nb3RvP3VybD1DQUVTandFQjZ6c3dGYmNVZnN0U2pMdlk0ZGFiMU5qdTdIRlFzbHNRMUlZd0IzQ1pEeHJSNjJIU0pMMll3RG1YYnUxVXpVazY3eWpydkY0eXE5dnJ6M2pfYTJrbC1JNkdxYXhLZXlwak9uTEYxeEdwc19aV01yaGxobXVOaUkzNE5mWUJRQjNVTXl0Tk0wWGZmSDUtbzlyblp3Wkt2TmNZTHZ2ZGJHbnp2aTdUOUFzN19ZN0xuMkN1SE9FRzZhTW01WkZNcUE6WzxiPjI8L2I-IEJISyBGbGF0cyBpbiA8Yj5KYXlhbmFnYXIgQmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSB1bmRlcjwvYj4g4oK5IDEuNSA8Yj5Dcm9yZTwvYj5CwQE8Yj4yIEJISyBGbGF0cyBpbiBKYXlhbmFnYXIgZm9yIFNhbGUgdW5kZXIg4oK5IDEuNSBDcm9yZTwvYj4gOyAyIEJISyBBcGFydG1lbnQgZm9yIFNhbGUgaW4gNHRoIFQgQmxvY2sgRWFzdCwgSmF5YW5hZ2FyICZtaWRkb3Q7IDIzMDAgc3FmdCAmbWlkZG90OyBGbG9vciA6IDQgb3V0IG9mIDEyICZtaWRkb3Q7IE9jZWFucyBGaXZlIEhvbWUuSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "MagicBricks",
+    "read_more_link": "https://www.magicbricks.com/2-bhk-flats-in-jayanagar-bangalore-under-1.5-crore-pppfs#:~:text=2%20BHK%20Flats%20in%20Jayanagar,Sale%20under%20%E2%82%B9%201.5%20Crore&text=2%20BHK%20Apartment%20for%20Sale,4th%20T%20Block%20East%2C%20Jayanagar&text=2300%20sqft&text=Get%20Phone%20No.%20Contact%20Agent&text=Get%20Phone%20No.%20Contact%20Agent"
+   },
+   {
+    "position": 9,
+    "title": "Flats in RBI Colony Jayanagar Bangalore for Sale under ₹ ...",
+    "link": "https://www.magicbricks.com/flats-in-rbi-colony-jayanagar-bangalore-under-2-crore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkgEB6zswFceA2nUYMtAqVn-gX-i7_huih5muJRyDk6lpXhZgdmuR2tnayCnIi5_2Cdyl-7U58-_I6Dsyoic2ryjPrujtYOY0DJVdd_Sh1Wm1o_lrRvqxyL8uWjK4VPAx1ejpEbWnnibAP1rvSQBuJfUKR9ovrvfgcsHnNEOVNYI4b5Qe1whVGKBbTOJc7sVRk1tDRA&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › flats-in-rbi-colony-jaya...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "₹1.45 Cr | 2 BHK. 2 BHK Builder Floor for Sale in Jayanagar Bangalore. Super Area. 1100 sqft. Status. Ready to Move. Builder floor apartment is available for ...",
+    "snippet_highlighted_words": [
+     "2 BHK Builder Floor for Sale in Jayanagar Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "₹1.45 Cr | 2 BHK. 2 BHK Builder Floor for Sale in Jayanagar Bangalore. Super Area. 1100 sqft. Status. Ready to Move. Builder floor apartment is available for ...",
+      "source_info_link": "https://www.magicbricks.com/flats-in-rbi-colony-jayanagar-bangalore-under-2-crore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZjZUEyblVZTXRBcVZuLWdYLWk3X2h1aWg1bXVKUnlEazZscFhoWmdkbXVSMnRuYXlDbklpNV8yQ2R5bC03VTU4LV9JNkRzeW9pYzJyeWpQcnVqdFlPWTBESlZkZF9TaDFXbTFvX2xyUnZxeHlMOHVXaks0VlBBeDFlanBFYldubmliQVAxcnZTUUJ1SmZVS1I5b3ZydmZnY3NIbk5FT1ZOWUk0YjVRZTF3aFZHS0JiVE9KYzdzVlJrMXREUkESBBoCCAAa9gcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkC-BwgAEAAYACAAKjQKB2J1aWxkZXIVPqDUPxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFVGrP0AaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRXtW95AGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchVnWPlAGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUVYI8NQRoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFVK9t0AaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVwiLdQBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUVxgGbQBoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy1AEvZ290bz91cmw9Q0FFU2tnRUI2enN3RmNlQTJuVVlNdEFxVm4tZ1gtaTdfaHVpaDVtdUpSeURrNmxwWGhaZ2RtdVIydG5heUNuSWk1XzJDZHlsLTdVNTgtX0k2RHN5b2ljMnJ5alBydWp0WU9ZMERKVmRkX1NoMVdtMW9fbHJSdnF4eUw4dVdqSzRWUEF4MWVqcEViV25uaWJBUDFydlNRQnVKZlVLUjlvdnJ2Zmdjc0huTkVPVk5ZSTRiNVFlMXdoVkdLQmJUT0pjN3NWUmsxdERSQTpVRmxhdHMgaW4gUkJJIENvbG9ueSA8Yj5KYXlhbmFnYXIgQmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSB1bmRlcjwvYj4g4oK5IDxiPjI8L2I-IC4uLkKvAeKCuTEuNDUgQ3IgfCAyIEJISy4gPGI-MiBCSEsgQnVpbGRlciBGbG9vciBmb3IgU2FsZSBpbiBKYXlhbmFnYXIgQmFuZ2Fsb3JlPC9iPi4gU3VwZXIgQXJlYS4gMTEwMCBzcWZ0LiBTdGF0dXMuIFJlYWR5IHRvIE1vdmUuIEJ1aWxkZXIgZmxvb3IgYXBhcnRtZW50IGlzIGF2YWlsYWJsZSBmb3ImbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZjZUEyblVZTXRBcVZuLWdYLWk3X2h1aWg1bXVKUnlEazZscFhoWmdkbXVSMnRuYXlDbklpNV8yQ2R5bC03VTU4LV9JNkRzeW9pYzJyeWpQcnVqdFlPWTBESlZkZF9TaDFXbTFvX2xyUnZxeHlMOHVXaks0VlBBeDFlanBFYldubmliQVAxcnZTUUJ1SmZVS1I5b3ZydmZnY3NIbk5FT1ZOWUk0YjVRZTF3aFZHS0JiVE9KYzdzVlJrMXREUkESBBoCCAAa9gcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkC-BwgAEAAYACAAKjQKB2J1aWxkZXIVPqDUPxoIYnVpbGRlcnMaDGJ1aWxkZXJmbG9vchoMaXY7cDtidWlsZGVyKioKBWZsb29yFVGrP0AaBGZsYXQaCGZsb29yaW5nGgxidWlsZGVyZmxvb3IqCgoDZm9yFQAAAAAqNgoEc2FsZRXtW95AGgNidXkaB2ZvcnNhbGUaCHB1cmNoYXNlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKkoKCWpheWFuYWdhchVnWPlAGhJqYXlhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2pheWFuYWdhcipUCgliYW5nYWxvcmUVYI8NQRoIYmFuZ2xvcmUaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFVK9t0AaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVwiLdQBoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUVxgGbQBoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy1AEvZ290bz91cmw9Q0FFU2tnRUI2enN3RmNlQTJuVVlNdEFxVm4tZ1gtaTdfaHVpaDVtdUpSeURrNmxwWGhaZ2RtdVIydG5heUNuSWk1XzJDZHlsLTdVNTgtX0k2RHN5b2ljMnJ5alBydWp0WU9ZMERKVmRkX1NoMVdtMW9fbHJSdnF4eUw4dVdqSzRWUEF4MWVqcEViV25uaWJBUDFydlNRQnVKZlVLUjlvdnJ2Zmdjc0huTkVPVk5ZSTRiNVFlMXdoVkdLQmJUT0pjN3NWUmsxdERSQTpVRmxhdHMgaW4gUkJJIENvbG9ueSA8Yj5KYXlhbmFnYXIgQmFuZ2Fsb3JlPC9iPiBmb3IgPGI-U2FsZSB1bmRlcjwvYj4g4oK5IDxiPjI8L2I-IC4uLkKvAeKCuTEuNDUgQ3IgfCAyIEJISy4gPGI-MiBCSEsgQnVpbGRlciBGbG9vciBmb3IgU2FsZSBpbiBKYXlhbmFnYXIgQmFuZ2Fsb3JlPC9iPi4gU3VwZXIgQXJlYS4gMTEwMCBzcWZ0LiBTdGF0dXMuIFJlYWR5IHRvIE1vdmUuIEJ1aWxkZXIgZmxvb3IgYXBhcnRtZW50IGlzIGF2YWlsYWJsZSBmb3ImbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "MagicBricks",
+    "read_more_link": "https://www.magicbricks.com/flats-in-rbi-colony-jayanagar-bangalore-under-2-crore-pppfs#:~:text=%E2%82%B91.45%20Cr%20%7C%202%20BHK,apartment%20is%20available%20for%20sale."
+   },
+   {
+    "position": 10,
+    "title": "Duplex House in Jayanagar, Bangalore from 2 crores to 3 ...",
+    "link": "https://www.99acres.com/duplex-house-in-jayanagar-bangalore-south-2-crores-to-3-crores-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlgEB6zswFTcpRbb_P_G1SX2QZKWjMA9zXTnKV-q9Vb5A5cO0wiSEDW_7ivXfwGMcVW6h2iEwdTz_H7-lgBFLg0j0FXmcX1zHTHKkP9P79CwFcYlsYxeULbQZzLxneYQg8kcKcRwiVl7f-cIj4yd_ojbpc2yb00c2p7rlfs4rLclFlQFIcMQpHZCr9URbt29uXIhWPdO7HDc&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4QFnoECBsQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › duplex-house-in-jayanagar-...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "This property is located in well planned locality of bangalore south. Equipped with 3 bedrooms, 2 bathrooms and 2 balconies. It's a semi-Furnished property.",
+    "snippet_highlighted_words": [
+     "bangalore",
+     "2",
+     "2"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "This property is located in well planned locality of bangalore south. Equipped with 3 bedrooms, 2 bathrooms and 2 balconies. It's a semi-Furnished property.",
+      "source_info_link": "https://www.99acres.com/duplex-house-in-jayanagar-bangalore-south-2-crores-to-3-crores-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtkBL2dvdG8_dXJsPUNBRVNsZ0VCNnpzd0ZUY3BSYmJfUF9HMVNYMlFaS1dqTUE5elhUbktWLXE5VmI1QTVjTzB3aVNFRFdfN2l2WGZ3R01jVlc2aDJpRXdkVHpfSDctbGdCRkxnMGowRlhtY1gxekhUSEtrUDlQNzlDd0ZjWWxzWXhlVUxiUVp6THhuZVlRZzhrY0tjUndpVmw3Zi1jSWo0eWRfb2picGMyeWIwMGMycDdybGZzNHJMY2xGbFFGSWNNUXBIWkNyOVVSYnQyOXVYSWhXUGRPN0hEYxIEGgIIABqMCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQMUHCAAQABgAIAAqNAoHYnVpbGRlchXOvc4_GghidWlsZGVycxoMYnVpbGRlcmZsb29yGgxpdjtwO2J1aWxkZXIqKgoFZmxvb3IVP672PxoEZmxhdBoIZmxvb3JpbmcaDGJ1aWxkZXJmbG9vcioKCgNmb3IVAAAAACo2CgRzYWxlFe4NL0AaA2J1eRoHZm9yc2FsZRoIcHVyY2hhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqSgoJamF5YW5hZ2FyFaet40AaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7amF5YW5hZ2FyKlQKCWJhbmdhbG9yZRW0_NJAGghiYW5nbG9yZRoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVo6EmPxoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhXq67RAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRV97a0-GgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLZAS9nb3RvP3VybD1DQUVTbGdFQjZ6c3dGVGNwUmJiX1BfRzFTWDJRWktXak1BOXpYVG5LVi1xOVZiNUE1Y08wd2lTRURXXzdpdlhmd0dNY1ZXNmgyaUV3ZFR6X0g3LWxnQkZMZzBqMEZYbWNYMXpIVEhLa1A5UDc5Q3dGY1lsc1l4ZVVMYlFaekx4bmVZUWc4a2NLY1J3aVZsN2YtY0lqNHlkX29qYnBjMnliMDBjMnA3cmxmczRyTGNsRmxRRkljTVFwSFpDcjlVUmJ0Mjl1WEloV1BkTzdIRGM6UUR1cGxleCBIb3VzZSBmb3IgPGI-U2FsZSBpbiBKYXlhbmFnYXI8L2I-LCA8Yj5CYW5nYWxvcmUgYmVsb3c8L2I-IDMgPGI-Y3JvcmVzPC9iPkK1AVRoaXMgcHJvcGVydHkgaXMgbG9jYXRlZCBpbiB3ZWxsIHBsYW5uZWQgbG9jYWxpdHkgb2YgPGI-YmFuZ2Fsb3JlPC9iPiBzb3V0aC4gRXF1aXBwZWQgd2l0aCAzIGJlZHJvb21zLCA8Yj4yPC9iPiBiYXRocm9vbXMgYW5kIDxiPjI8L2I-IGJhbGNvbmllcy4gSXQmIzM5O3MgYSBzZW1pLUZ1cm5pc2hlZCBwcm9wZXJ0eS5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtkBL2dvdG8_dXJsPUNBRVNsZ0VCNnpzd0ZUY3BSYmJfUF9HMVNYMlFaS1dqTUE5elhUbktWLXE5VmI1QTVjTzB3aVNFRFdfN2l2WGZ3R01jVlc2aDJpRXdkVHpfSDctbGdCRkxnMGowRlhtY1gxekhUSEtrUDlQNzlDd0ZjWWxzWXhlVUxiUVp6THhuZVlRZzhrY0tjUndpVmw3Zi1jSWo0eWRfb2picGMyeWIwMGMycDdybGZzNHJMY2xGbFFGSWNNUXBIWkNyOVVSYnQyOXVYSWhXUGRPN0hEYxIEGgIIABqMCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaDwgBEgs5OWFjcmVzLmNvbXIAegCCQMUHCAAQABgAIAAqNAoHYnVpbGRlchXOvc4_GghidWlsZGVycxoMYnVpbGRlcmZsb29yGgxpdjtwO2J1aWxkZXIqKgoFZmxvb3IVP672PxoEZmxhdBoIZmxvb3JpbmcaDGJ1aWxkZXJmbG9vcioKCgNmb3IVAAAAACo2CgRzYWxlFe4NL0AaA2J1eRoHZm9yc2FsZRoIcHVyY2hhc2UaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqSgoJamF5YW5hZ2FyFaet40AaEmpheWFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7amF5YW5hZ2FyKlQKCWJhbmdhbG9yZRW0_NJAGghiYW5nbG9yZRoSamF5YW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVo6EmPxoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhXq67RAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRV97a0-GgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLZAS9nb3RvP3VybD1DQUVTbGdFQjZ6c3dGVGNwUmJiX1BfRzFTWDJRWktXak1BOXpYVG5LVi1xOVZiNUE1Y08wd2lTRURXXzdpdlhmd0dNY1ZXNmgyaUV3ZFR6X0g3LWxnQkZMZzBqMEZYbWNYMXpIVEhLa1A5UDc5Q3dGY1lsc1l4ZVVMYlFaekx4bmVZUWc4a2NLY1J3aVZsN2YtY0lqNHlkX29qYnBjMnliMDBjMnA3cmxmczRyTGNsRmxRRkljTVFwSFpDcjlVUmJ0Mjl1WEloV1BkTzdIRGM6UUR1cGxleCBIb3VzZSBmb3IgPGI-U2FsZSBpbiBKYXlhbmFnYXI8L2I-LCA8Yj5CYW5nYWxvcmUgYmVsb3c8L2I-IDMgPGI-Y3JvcmVzPC9iPkK1AVRoaXMgcHJvcGVydHkgaXMgbG9jYXRlZCBpbiB3ZWxsIHBsYW5uZWQgbG9jYWxpdHkgb2YgPGI-YmFuZ2Fsb3JlPC9iPiBzb3V0aC4gRXF1aXBwZWQgd2l0aCAzIGJlZHJvb21zLCA8Yj4yPC9iPiBiYXRocm9vbXMgYW5kIDxiPjI8L2I-IGJhbGNvbmllcy4gSXQmIzM5O3MgYSBzZW1pLUZ1cm5pc2hlZCBwcm9wZXJ0eS5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "99acres.com",
+    "read_more_link": "https://www.99acres.com/duplex-house-in-jayanagar-bangalore-south-2-crores-to-3-crores-ffid#:~:text=Check%20out%20this%203%20bhk,balconies.%20It's%20a%20semi%2DFurnished%20property."
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=10&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8NMDegQINxAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=10&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAE",
+    "3": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=20&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAG",
+    "4": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=30&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAI",
+    "5": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=40&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAK",
+    "6": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=50&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAM",
+    "7": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=60&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAO",
+    "8": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=70&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAQ",
+    "9": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=80&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAS",
+    "10": "https://www.google.co.in/search?q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&hl=en&gl=in&sxsrf=APpeQnvHpabO4D8LwmJRGGmjBXVWiokAfQ:1791088758527&ei=dtjBauPfH5GymtkPicPK8QI&start=90&sa=N&sstk=AS6-VmKottllRcurzw4CbWq0WM2KG1MZwiiWzkp0911c-AXIUOxQsYimjhM30XNt_OjyDPCPEeuf-Asoj8BJGn0cB3X2VgjoWLlfHQ&ved=2ahUKEwjj8tnJxZ-XAxURmSYFHYmhMi4Q8tMDegQINxAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=builder+floor+for+sale+in+Jayanagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=90"
+   }
+  }
+ }
+}

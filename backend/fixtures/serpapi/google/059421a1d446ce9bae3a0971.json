@@ -1,0 +1,354 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "shop for sale in Indiranagar Bangalore under 2 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d88f124815ffecd5492d",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/-XYY6jPl1nhNe9GZsyTlSUnbz5SdxtMmxQMaSEJ95jk/6ac1d88f124815ffecd5492d.json",
+   "markdown_endpoint": "https://serpapi.com/searches/-XYY6jPl1nhNe9GZsyTlSUnbz5SdxtMmxQMaSEJ95jk/6ac1d88f124815ffecd5492d.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/-XYY6jPl1nhNe9GZsyTlSUnbz5SdxtMmxQMaSEJ95jk/6ac1d88f124815ffecd5492d.json_with_pixel_position",
+   "created_at": "2026-10-04 04:39:43 UTC",
+   "processed_at": "2026-10-04 04:39:43 UTC",
+   "google_url": "https://www.google.co.in/search?q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/-XYY6jPl1nhNe9GZsyTlSUnbz5SdxtMmxQMaSEJ95jk/6ac1d88f124815ffecd5492d.html",
+   "total_time_taken": 1.31
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "shop for sale in Indiranagar Bangalore under 2 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "shop for sale in Indiranagar Bangalore under 2 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 56,
+   "time_taken_displayed": 0.19,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Office Space for Sale in Indiranagar, Bangalore",
+    "link": "https://www.nobroker.in/office-space-for-sale-in-indira_nagar_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISjgEBUDfUEhCqBWyD_5dNmGyq8JDPHO5EN05_6KC8U8ih0utoRGcWeL4BAjW8V5Lp6oY6aYLbCGQSMra4j93RUPtXCgRALAE1F7BQ8kQiAQDuLn7OYNPZitu4AY-fBB6LuzKqJfZV0ybyYgxLlwdGjulEXpGEByVgsKGwAnRIk7Yx2YYARfS4uqi2dnQt4hZW&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBUQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › office-space-for-sale-in-indir...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Office Space for Sale in Indiranagar, Bangalore ・ sale ₹3 Cr EMI: ₹2.25 Lacs/m 100 Feet Rd, for sale ₹3.20 Cr EMI: ₹2.4 Lacs/m ・ shops for Sale in Indira ...",
+    "snippet_highlighted_words": [
+     "Office Space for Sale in Indiranagar, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Office Space for Sale in Indiranagar, Bangalore ・ sale ₹3 Cr EMI: ₹2.25 Lacs/m 100 Feet Rd, for sale ₹3.20 Cr EMI: ₹2.4 Lacs/m ・ shops for Sale in Indira ...",
+      "source_info_link": "https://www.nobroker.in/office-space-for-sale-in-indira_nagar_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cs4BL2dvdG8_dXJsPUNBSVNqZ0VCVURmVUVoQ3FCV3lEXzVkTm1HeXE4SkRQSE81RU4wNV82S0M4VThpaDB1dG9SR2NXZUw0QkFqVzhWNUxwNm9ZNmFZTGJDR1FTTXJhNGo5M1JVUHRYQ2dSQUxBRTFGN0JROGtRaUFRRHVMbjdPWU5QWml0dTRBWS1mQkI2THV6S3FKZlpWMHlieVlneExsd2RHanVsRVhwR0VCeVZnc0tHd0FuUklrN1l4MllZQVJmUzR1cWkyZG5RdDRoWlcSBBoCCAAa0gcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCaBwgAEAAYACAAKj4KBHNob3AVAAAAABoIYnVzaW5lc3MaBnJldGFpbBoGc2hvcHBlGghzaG9wcGluZxoFc2hvcHMaBnN0b3JlcyoKCgNmb3IVAAAAAConCgRzYWxlFSuDzEAaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqbAoLaW5kaXJhbmFnYXIVyZytQBoMaW5kaXJhIG5hZ2FyGgxpbmRpcmEgbmFnYXIaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtpbmRpcmFuYWdhcipMCgliYW5nYWxvcmUVUYu8QBoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchUAAAAAGgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMioeCgEyFY9OCD4aBDIuMDAaBnVuZGVyMhoGMmNyb3JlKigKBWNyb3JlFQAAAAAaBmNyb3JlcxoGMmNyb3JlGgppdjtwO2Nyb3JlMs4BL2dvdG8_dXJsPUNBSVNqZ0VCVURmVUVoQ3FCV3lEXzVkTm1HeXE4SkRQSE81RU4wNV82S0M4VThpaDB1dG9SR2NXZUw0QkFqVzhWNUxwNm9ZNmFZTGJDR1FTTXJhNGo5M1JVUHRYQ2dSQUxBRTFGN0JROGtRaUFRRHVMbjdPWU5QWml0dTRBWS1mQkI2THV6S3FKZlpWMHlieVlneExsd2RHanVsRVhwR0VCeVZnc0tHd0FuUklrN1l4MllZQVJmUzR1cWkyZG5RdDRoWlc6SE9mZmljZSBTcGFjZSBmb3IgPGI-U2FsZSBpbiBJbmRpcmFuYWdhcjwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gLSBOb0Jyb2tlckK1ATxiPk9mZmljZSBTcGFjZSBmb3IgU2FsZSBpbiBJbmRpcmFuYWdhciwgQmFuZ2Fsb3JlPC9iPiDjg7sgc2FsZSDigrkzIENyIEVNSTog4oK5Mi4yNSBMYWNzL20gMTAwIEZlZXQgUmQsIGZvciBzYWxlIOKCuTMuMjAgQ3IgRU1JOiDigrkyLjQgTGFjcy9tIOODuyBzaG9wcyBmb3IgU2FsZSBpbiBJbmRpcmEmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cs4BL2dvdG8_dXJsPUNBSVNqZ0VCVURmVUVoQ3FCV3lEXzVkTm1HeXE4SkRQSE81RU4wNV82S0M4VThpaDB1dG9SR2NXZUw0QkFqVzhWNUxwNm9ZNmFZTGJDR1FTTXJhNGo5M1JVUHRYQ2dSQUxBRTFGN0JROGtRaUFRRHVMbjdPWU5QWml0dTRBWS1mQkI2THV6S3FKZlpWMHlieVlneExsd2RHanVsRVhwR0VCeVZnc0tHd0FuUklrN1l4MllZQVJmUzR1cWkyZG5RdDRoWlcSBBoCCAAa0gcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCaBwgAEAAYACAAKj4KBHNob3AVAAAAABoIYnVzaW5lc3MaBnJldGFpbBoGc2hvcHBlGghzaG9wcGluZxoFc2hvcHMaBnN0b3JlcyoKCgNmb3IVAAAAAConCgRzYWxlFSuDzEAaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqbAoLaW5kaXJhbmFnYXIVyZytQBoMaW5kaXJhIG5hZ2FyGgxpbmRpcmEgbmFnYXIaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtpbmRpcmFuYWdhcipMCgliYW5nYWxvcmUVUYu8QBoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchUAAAAAGgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMioeCgEyFY9OCD4aBDIuMDAaBnVuZGVyMhoGMmNyb3JlKigKBWNyb3JlFQAAAAAaBmNyb3JlcxoGMmNyb3JlGgppdjtwO2Nyb3JlMs4BL2dvdG8_dXJsPUNBSVNqZ0VCVURmVUVoQ3FCV3lEXzVkTm1HeXE4SkRQSE81RU4wNV82S0M4VThpaDB1dG9SR2NXZUw0QkFqVzhWNUxwNm9ZNmFZTGJDR1FTTXJhNGo5M1JVUHRYQ2dSQUxBRTFGN0JROGtRaUFRRHVMbjdPWU5QWml0dTRBWS1mQkI2THV6S3FKZlpWMHlieVlneExsd2RHanVsRVhwR0VCeVZnc0tHd0FuUklrN1l4MllZQVJmUzR1cWkyZG5RdDRoWlc6SE9mZmljZSBTcGFjZSBmb3IgPGI-U2FsZSBpbiBJbmRpcmFuYWdhcjwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gLSBOb0Jyb2tlckK1ATxiPk9mZmljZSBTcGFjZSBmb3IgU2FsZSBpbiBJbmRpcmFuYWdhciwgQmFuZ2Fsb3JlPC9iPiDjg7sgc2FsZSDigrkzIENyIEVNSTog4oK5Mi4yNSBMYWNzL20gMTAwIEZlZXQgUmQsIGZvciBzYWxlIOKCuTMuMjAgQ3IgRU1JOiDigrkyLjQgTGFjcy9tIOODuyBzaG9wcyBmb3IgU2FsZSBpbiBJbmRpcmEmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "NoBroker"
+   },
+   {
+    "position": 2,
+    "title": "Showroom for Sale in Indira nagar Stage 1, Bangalore",
+    "link": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISnAEBUDfUEnhK6lfXmfS0wgBQMbo3Q9G4NeLO28H_lbKVM1A47bkQgfuZa4Q3iaLtl6FeevN2PhmSYeDhSm2vbScV_q21oWdAvyMuB5jpamA7j0N6jKoDKmso485OMTwKMDBRwJXTlu7cF6kYRC73hCHpoJctVMH4ou7sJl9mB4Da66jVzKJpJVRFie2E-onesYI4snSpGKBnCuJXhSg&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › showroom-for-sale-in-i...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "Find over 1 showroom for sale in Indira nagar Stage 1, Bangalore … for Resale in ₹29 Cr ₹16111 / sqft. Commercial showroom is available for sale. Suitable for: ...",
+    "snippet_highlighted_words": [
+     "1 showroom for sale in Indira nagar Stage 1, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find over 1 showroom for sale in Indira nagar Stage 1, Bangalore … for Resale in ₹29 Cr ₹16111 / sqft. Commercial showroom is available for sale. Suitable for: ...",
+      "source_info_link": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuEBL2dvdG8_dXJsPUNBSVNuQUVCVURmVUVuaEs2bGZYbWZTMHdnQlFNYm8zUTlHNE5lTE8yOEhfbGJLVk0xQTQ3YmtRZ2Z1WmE0UTNpYUx0bDZGZWV2TjJQaG1TWWVEaFNtMnZiU2NWX3EyMW9XZEF2eU11QjVqcGFtQTdqME42aktvREttc280ODVPTVR3S01EQlJ3SlhUbHU3Y0Y2a1lSQzczaENIcG9KY3RWTUg0b3U3c0psOW1CNERhNjZqVnpLSnBKVlJGaWUyRS1vbmVzWUk0c25TcEdLQm5DdUpYaFNnEgQaAggAGt8HEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJApwcIABAAGAAgACo-CgRzaG9wFZ7v4D8aCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRUQjbZAGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFceGp0AaDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFR10zUAaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVAAAAABoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhX1Y0g_GgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRUAAAAAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLhAS9nb3RvP3VybD1DQUlTbkFFQlVEZlVFbmhLNmxmWG1mUzB3Z0JRTWJvM1E5RzROZUxPMjhIX2xiS1ZNMUE0N2JrUWdmdVphNFEzaWFMdGw2RmVldk4yUGhtU1llRGhTbTJ2YlNjVl9xMjFvV2RBdnlNdUI1anBhbUE3ajBONmpLb0RLbXNvNDg1T01Ud0tNREJSd0pYVGx1N2NGNmtZUkM3M2hDSHBvSmN0Vk1ING91N3NKbDltQjREYTY2alZ6S0pwSlZSRmllMkUtb25lc1lJNHNuU3BHS0JuQ3VKWGhTZzpCU2hvd3Jvb20gZm9yIDxiPlNhbGUgaW4gSW5kaXJhIG5hZ2FyPC9iPiBTdGFnZSAxLCA8Yj5CYW5nYWxvcmU8L2I-QrUBRmluZCBvdmVyIDxiPjEgc2hvd3Jvb20gZm9yIHNhbGUgaW4gSW5kaXJhIG5hZ2FyIFN0YWdlIDEsIEJhbmdhbG9yZTwvYj4g4oCmIGZvciBSZXNhbGUgaW4g4oK5MjkgQ3Ig4oK5MTYxMTEgLyBzcWZ0LiBDb21tZXJjaWFsIHNob3dyb29tIGlzIGF2YWlsYWJsZSBmb3Igc2FsZS4gU3VpdGFibGUgZm9yOiZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuEBL2dvdG8_dXJsPUNBSVNuQUVCVURmVUVuaEs2bGZYbWZTMHdnQlFNYm8zUTlHNE5lTE8yOEhfbGJLVk0xQTQ3YmtRZ2Z1WmE0UTNpYUx0bDZGZWV2TjJQaG1TWWVEaFNtMnZiU2NWX3EyMW9XZEF2eU11QjVqcGFtQTdqME42aktvREttc280ODVPTVR3S01EQlJ3SlhUbHU3Y0Y2a1lSQzczaENIcG9KY3RWTUg0b3U3c0psOW1CNERhNjZqVnpLSnBKVlJGaWUyRS1vbmVzWUk0c25TcEdLQm5DdUpYaFNnEgQaAggAGt8HEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJApwcIABAAGAAgACo-CgRzaG9wFZ7v4D8aCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRUQjbZAGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFceGp0AaDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFR10zUAaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVAAAAABoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhX1Y0g_GgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRUAAAAAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLhAS9nb3RvP3VybD1DQUlTbkFFQlVEZlVFbmhLNmxmWG1mUzB3Z0JRTWJvM1E5RzROZUxPMjhIX2xiS1ZNMUE0N2JrUWdmdVphNFEzaWFMdGw2RmVldk4yUGhtU1llRGhTbTJ2YlNjVl9xMjFvV2RBdnlNdUI1anBhbUE3ajBONmpLb0RLbXNvNDg1T01Ud0tNREJSd0pYVGx1N2NGNmtZUkM3M2hDSHBvSmN0Vk1ING91N3NKbDltQjREYTY2alZ6S0pwSlZSRmllMkUtb25lc1lJNHNuU3BHS0JuQ3VKWGhTZzpCU2hvd3Jvb20gZm9yIDxiPlNhbGUgaW4gSW5kaXJhIG5hZ2FyPC9iPiBTdGFnZSAxLCA8Yj5CYW5nYWxvcmU8L2I-QrUBRmluZCBvdmVyIDxiPjEgc2hvd3Jvb20gZm9yIHNhbGUgaW4gSW5kaXJhIG5hZ2FyIFN0YWdlIDEsIEJhbmdhbG9yZTwvYj4g4oCmIGZvciBSZXNhbGUgaW4g4oK5MjkgQ3Ig4oK5MTYxMTEgLyBzcWZ0LiBDb21tZXJjaWFsIHNob3dyb29tIGlzIGF2YWlsYWJsZSBmb3Igc2FsZS4gU3VpdGFibGUgZm9yOiZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "MagicBricks"
+   },
+   {
+    "position": 3,
+    "title": "Commercial Properties for Sale Near Indira Nagar ...",
+    "link": "https://www.nobroker.in/commercial-properties-for-sale-near-mkretail_indira_nagar_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISogEBUDfUEgHa8JMw2MVl4qyWpQpOSuIqQvpDPBa0vMofCOxOEReyGX70CDFWLUBGuC2RRHVpIwRIrDlamBM93TMM5ucAd0cSPPgIqHphRjcpb_9_PTw3TLV5MNtDrmd0RiTKElMl_ZtiU779uQifc9GiH1DYygvY5y40uqa_ZkKMBbj5bkHSzlEBC_OrIbMTqHIQdydYTTaD9Z6TTu4djTwfkMw&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › commercial-properties-for-sa...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Shop in Indiranagar, Bangalore for sale. ₹5.05 Cr. EMI: ₹3.8 Lacs/m. Hoysala ... 2 Lacs/m. 100 Feet Rd,, Barbeque Nation -, Indiranagara , bangalore. Shop.",
+    "snippet_highlighted_words": [
+     "Shop in Indiranagar, Bangalore for sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Shop in Indiranagar, Bangalore for sale. ₹5.05 Cr. EMI: ₹3.8 Lacs/m. Hoysala ... 2 Lacs/m. 100 Feet Rd,, Barbeque Nation -, Indiranagara , bangalore. Shop.",
+      "source_info_link": "https://www.nobroker.in/commercial-properties-for-sale-near-mkretail_indira_nagar_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CukBL2dvdG8_dXJsPUNBSVNvZ0VCVURmVUVnSGE4Sk13Mk1WbDRxeVdwUXBPU3VJcVF2cERQQmEwdk1vZkNPeE9FUmV5R1g3MENERldMVUJHdUMyUlJIVnBJd1JJckRsYW1CTTkzVE1NNXVjQWQwY1NQUGdJcUhwaFJqY3BiXzlfUFR3M1RMVjVNTnREcm1kMFJpVEtFbE1sX1p0aVU3Nzl1UWlmYzlHaUgxRFl5Z3ZZNXk0MHVxYV9aa0tNQmJqNWJrSFN6bEVCQ19PckliTVRxSElRZHlkWVRUYUQ5WjZUVHU0ZGpUd2ZrTXcSBBoCCAAa4wcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCrBwgAEAAYACAAKj4KBHNob3AV7Uo7QBoIYnVzaW5lc3MaBnJldGFpbBoGc2hvcHBlGghzaG9wcGluZxoFc2hvcHMaBnN0b3JlcyoKCgNmb3IVAAAAAConCgRzYWxlFc5d2UAaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqbAoLaW5kaXJhbmFnYXIVxQPFQBoMaW5kaXJhIG5hZ2FyGgxpbmRpcmEgbmFnYXIaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtpbmRpcmFuYWdhcipMCgliYW5nYWxvcmUV8ZPTQBoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchUAAAAAGgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMioeCgEyFZbnpT0aBDIuMDAaBnVuZGVyMhoGMmNyb3JlKigKBWNyb3JlFQAAAAAaBmNyb3JlcxoGMmNyb3JlGgppdjtwO2Nyb3JlMukBL2dvdG8_dXJsPUNBSVNvZ0VCVURmVUVnSGE4Sk13Mk1WbDRxeVdwUXBPU3VJcVF2cERQQmEwdk1vZkNPeE9FUmV5R1g3MENERldMVUJHdUMyUlJIVnBJd1JJckRsYW1CTTkzVE1NNXVjQWQwY1NQUGdJcUhwaFJqY3BiXzlfUFR3M1RMVjVNTnREcm1kMFJpVEtFbE1sX1p0aVU3Nzl1UWlmYzlHaUgxRFl5Z3ZZNXk0MHVxYV9aa0tNQmJqNWJrSFN6bEVCQ19PckliTVRxSElRZHlkWVRUYUQ5WjZUVHU0ZGpUd2ZrTXc6TUNvbW1lcmNpYWwgUHJvcGVydGllcyBmb3IgPGI-U2FsZTwvYj4gTmVhciA8Yj5JbmRpcmEgTmFnYXI8L2I-IC4uLiAtIE5vQnJva2VyQqYBPGI-U2hvcCBpbiBJbmRpcmFuYWdhciwgQmFuZ2Fsb3JlIGZvciBzYWxlPC9iPi4g4oK5NS4wNSBDci4gRU1JOiDigrkzLjggTGFjcy9tLiBIb3lzYWxhIC4uLiAyIExhY3MvbS4gMTAwIEZlZXQgUmQsLCBCYXJiZXF1ZSBOYXRpb24gLSwgSW5kaXJhbmFnYXJhICwgYmFuZ2Fsb3JlLiBTaG9wLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CukBL2dvdG8_dXJsPUNBSVNvZ0VCVURmVUVnSGE4Sk13Mk1WbDRxeVdwUXBPU3VJcVF2cERQQmEwdk1vZkNPeE9FUmV5R1g3MENERldMVUJHdUMyUlJIVnBJd1JJckRsYW1CTTkzVE1NNXVjQWQwY1NQUGdJcUhwaFJqY3BiXzlfUFR3M1RMVjVNTnREcm1kMFJpVEtFbE1sX1p0aVU3Nzl1UWlmYzlHaUgxRFl5Z3ZZNXk0MHVxYV9aa0tNQmJqNWJrSFN6bEVCQ19PckliTVRxSElRZHlkWVRUYUQ5WjZUVHU0ZGpUd2ZrTXcSBBoCCAAa4wcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCrBwgAEAAYACAAKj4KBHNob3AV7Uo7QBoIYnVzaW5lc3MaBnJldGFpbBoGc2hvcHBlGghzaG9wcGluZxoFc2hvcHMaBnN0b3JlcyoKCgNmb3IVAAAAAConCgRzYWxlFc5d2UAaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqbAoLaW5kaXJhbmFnYXIVxQPFQBoMaW5kaXJhIG5hZ2FyGgxpbmRpcmEgbmFnYXIaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtpbmRpcmFuYWdhcipMCgliYW5nYWxvcmUV8ZPTQBoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchUAAAAAGgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMioeCgEyFZbnpT0aBDIuMDAaBnVuZGVyMhoGMmNyb3JlKigKBWNyb3JlFQAAAAAaBmNyb3JlcxoGMmNyb3JlGgppdjtwO2Nyb3JlMukBL2dvdG8_dXJsPUNBSVNvZ0VCVURmVUVnSGE4Sk13Mk1WbDRxeVdwUXBPU3VJcVF2cERQQmEwdk1vZkNPeE9FUmV5R1g3MENERldMVUJHdUMyUlJIVnBJd1JJckRsYW1CTTkzVE1NNXVjQWQwY1NQUGdJcUhwaFJqY3BiXzlfUFR3M1RMVjVNTnREcm1kMFJpVEtFbE1sX1p0aVU3Nzl1UWlmYzlHaUgxRFl5Z3ZZNXk0MHVxYV9aa0tNQmJqNWJrSFN6bEVCQ19PckliTVRxSElRZHlkWVRUYUQ5WjZUVHU0ZGpUd2ZrTXc6TUNvbW1lcmNpYWwgUHJvcGVydGllcyBmb3IgPGI-U2FsZTwvYj4gTmVhciA8Yj5JbmRpcmEgTmFnYXI8L2I-IC4uLiAtIE5vQnJva2VyQqYBPGI-U2hvcCBpbiBJbmRpcmFuYWdhciwgQmFuZ2Fsb3JlIGZvciBzYWxlPC9iPi4g4oK5NS4wNSBDci4gRU1JOiDigrkzLjggTGFjcy9tLiBIb3lzYWxhIC4uLiAyIExhY3MvbS4gMTAwIEZlZXQgUmQsLCBCYXJiZXF1ZSBOYXRpb24gLSwgSW5kaXJhbmFnYXJhICwgYmFuZ2Fsb3JlLiBTaG9wLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/commercial-properties-for-sale-near-mkretail_indira_nagar_bangalore#:~:text=Shop%20in%20Indiranagar%2C%20Bangalore%20for,Manipal%20Clinic%20Indiranagar%2C%20Indiranagar%2C%20bangalore&text=2%20Lacs%2Fm,Shop"
+   },
+   {
+    "position": 4,
+    "title": "Shops for Sale in Bangalore Below 2500 sqft",
+    "link": "https://www.99acres.com/commercial-shops-in-bangalore-2000-sq-ft-to-2500-sq-ft-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISmgEBUDfUEtHTXhNoUaz8uGWpQ8Y7Nap9ffBwgAdDcIUdR9TykkSrPaEeNNo57_11apXFkRHMOIeGrofKvzOiiV5DJZIxPHXAEVaW1fAQHehxBd8iKKc6wg_3B6Nr0UPBmWu1AGh5pYfL9-yxrAB1pZjMM7bBc8veQBXeqbSTdugclF1aqmlwhTNhQg9qMich7W07-1D71Op0ymr4&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-shops-in-bangal...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Find Shops for sale in Bangalore from 2000 sq ft to 2500 sq ft , Bangalore Resale ₹2 Cr ₹40,000 /sqft. Recently renovated and just 1-5 years old,",
+    "snippet_highlighted_words": [
+     "Shops for sale in Bangalore from 2000 sq ft to 2500 sq ft"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find Shops for sale in Bangalore from 2000 sq ft to 2500 sq ft , Bangalore Resale ₹2 Cr ₹40,000 /sqft. Recently renovated and just 1-5 years old,",
+      "source_info_link": "https://www.99acres.com/commercial-shops-in-bangalore-2000-sq-ft-to-2500-sq-ft-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Ct4BL2dvdG8_dXJsPUNBSVNtZ0VCVURmVUV0SFRYaE5vVWF6OHVHV3BROFk3TmFwOWZmQndnQWREY0lVZFI5VHlra1NyUGFFZU5ObzU3XzExYXBYRmtSSE1PSWVHcm9mS3Z6T2lpVjVESlpJeFBIWEFFVmFXMWZBUUhlaHhCZDhpS0tjNndnXzNCNk5yMFVQQm1XdTFBR2g1cFlmTDkteXhyQUIxcFpqTU03YkJjOHZlUUJYZXFiU1RkdWdjbEYxYXFtbHdoVE5oUWc5cU1pY2g3VzA3LTFENzFPcDB5bXI0EgQaAggAGtkHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAkgcIABAAGAAgACo-CgRzaG9wFfE0jUAaCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRUhRo5AGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFa3bZz8aDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFb7ovUAaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV7IMnPRoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhVNSCw_GgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRVv1Y49GgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLeAS9nb3RvP3VybD1DQUlTbWdFQlVEZlVFdEhUWGhOb1Vhejh1R1dwUThZN05hcDlmZkJ3Z0FkRGNJVWRSOVR5a2tTclBhRWVOTm81N18xMWFwWEZrUkhNT0llR3JvZkt2ek9paVY1REpaSXhQSFhBRVZhVzFmQVFIZWh4QmQ4aUtLYzZ3Z18zQjZOcjBVUEJtV3UxQUdoNXBZZkw5LXl4ckFCMXBaak1NN2JCYzh2ZVFCWGVxYlNUZHVnY2xGMWFxbWx3aFROaFFnOXFNaWNoN1cwNy0xRDcxT3AweW1yNDpJMjAwMCBzcSBmdCB0byAyNTAwIHNxIGZ0IC0gPGI-U2hvcHM8L2I-IGluIDxiPkJhbmdhbG9yZTwvYj4gLSA5OWFjcmVzLmNvbUKcAUZpbmQgPGI-U2hvcHMgZm9yIHNhbGUgaW4gQmFuZ2Fsb3JlIGZyb20gMjAwMCBzcSBmdCB0byAyNTAwIHNxIGZ0PC9iPiAsIEJhbmdhbG9yZSBSZXNhbGUg4oK5MiBDciDigrk0MCwwMDAgL3NxZnQuIFJlY2VudGx5IHJlbm92YXRlZCBhbmQganVzdCAxLTUgeWVhcnMgb2xkLEoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Ct4BL2dvdG8_dXJsPUNBSVNtZ0VCVURmVUV0SFRYaE5vVWF6OHVHV3BROFk3TmFwOWZmQndnQWREY0lVZFI5VHlra1NyUGFFZU5ObzU3XzExYXBYRmtSSE1PSWVHcm9mS3Z6T2lpVjVESlpJeFBIWEFFVmFXMWZBUUhlaHhCZDhpS0tjNndnXzNCNk5yMFVQQm1XdTFBR2g1cFlmTDkteXhyQUIxcFpqTU03YkJjOHZlUUJYZXFiU1RkdWdjbEYxYXFtbHdoVE5oUWc5cU1pY2g3VzA3LTFENzFPcDB5bXI0EgQaAggAGtkHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloPCAESCzk5YWNyZXMuY29tcgB6AIJAkgcIABAAGAAgACo-CgRzaG9wFfE0jUAaCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRUhRo5AGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFa3bZz8aDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFb7ovUAaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIV7IMnPRoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhVNSCw_GgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRVv1Y49GgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLeAS9nb3RvP3VybD1DQUlTbWdFQlVEZlVFdEhUWGhOb1Vhejh1R1dwUThZN05hcDlmZkJ3Z0FkRGNJVWRSOVR5a2tTclBhRWVOTm81N18xMWFwWEZrUkhNT0llR3JvZkt2ek9paVY1REpaSXhQSFhBRVZhVzFmQVFIZWh4QmQ4aUtLYzZ3Z18zQjZOcjBVUEJtV3UxQUdoNXBZZkw5LXl4ckFCMXBaak1NN2JCYzh2ZVFCWGVxYlNUZHVnY2xGMWFxbWx3aFROaFFnOXFNaWNoN1cwNy0xRDcxT3AweW1yNDpJMjAwMCBzcSBmdCB0byAyNTAwIHNxIGZ0IC0gPGI-U2hvcHM8L2I-IGluIDxiPkJhbmdhbG9yZTwvYj4gLSA5OWFjcmVzLmNvbUKcAUZpbmQgPGI-U2hvcHMgZm9yIHNhbGUgaW4gQmFuZ2Fsb3JlIGZyb20gMjAwMCBzcSBmdCB0byAyNTAwIHNxIGZ0PC9iPiAsIEJhbmdhbG9yZSBSZXNhbGUg4oK5MiBDciDigrk0MCwwMDAgL3NxZnQuIFJlY2VudGx5IHJlbm92YXRlZCBhbmQganVzdCAxLTUgeWVhcnMgb2xkLEoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "99acres.com"
+   },
+   {
+    "position": 5,
+    "title": "18 Commercial Property in Bengaluru between ₹2 and ₹5 ...",
+    "link": "https://buysellproperty.in/commercial/bengaluru/2-cr-to-5-cr",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISgwEBUDfUEkpdanReDdi1BP3eyotJ_C8CzmHeTf9x5kOZmlY6srcAEaCStN8Y-sheqPaTFPoMKV0ii2NAUVptBjMXDL_lg30qyGC_gVNaIoZ84crV6XrITLX53hpnbzrPFTF7YgW7GmDNw41FkSASqyi8SwVbQNWJ-Mar5WxZX_EPjstEKQ&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBcQAQ&uoh=1",
+    "displayed_link": "https://buysellproperty.in › ... › Bengaluru",
+    "favicon": "https://serpapi.com/images/i/UklGRowAAABXRUJQVlA4IIAAAABwBACdASocABwAPtFAtFooIqgoFAEAGgljAMTZpi48kAZ-hMXorR7_mOhDAAD-8LnFwyoOLeLQ99fR-K2sorTHiLt815V5_nI-HPCycYTSIKhhrV7ku-vc_jbwWEhQ7bWjs7_gwjjqdaWTvvorPst8evu2VxLVrnr0aHY1AQ6oAA.webp",
+    "date": "23 Sept 2026",
+    "snippet": "18 live listings in Bengaluru, Showroom for Sale in Indiranagar (Bangalore), Bengaluru in Indiranagar 2.65 Cr₹9,959 / sqft. Contact 2,650 sq ft ...",
+    "snippet_highlighted_words": [
+     "18 live listings in Bengaluru"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "18 live listings in Bengaluru, Showroom for Sale in Indiranagar (Bangalore), Bengaluru in Indiranagar 2.65 Cr₹9,959 / sqft. Contact 2,650 sq ft ...",
+      "source_info_link": "https://buysellproperty.in/commercial/bengaluru/2-cr-to-5-cr",
+      "icon": "https://serpapi.com/images/i/UklGRowAAABXRUJQVlA4IIAAAABwBACdASocABwAPtFAtFooIqgoFAEAGgljAMTZpi48kAZ-hMXorR7_mOhDAAD-8LnFwyoOLeLQ99fR-K2sorTHiLt815V5_nI-HPCycYTSIKhhrV7ku-vc_jbwWEhQ7bWjs7_gwjjqdaWTvvorPst8evu2VxLVrnr0aHY1AQ6oAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBSVNnd0VCVURmVUVrcGRhblJlRGRpMUJQM2V5b3RKX0M4Q3ptSGVUZjl4NWtPWm1sWTZzcmNBRWFDU3ROOFktc2hlcVBhVEZQb01LVjBpaTJOQVVWcHRCak1YRExfbGczMHF5R0NfZ1ZOYUlvWjg0Y3JWNlhySVRMWDUzaHBuYnpyUEZURjdZZ1c3R21ETnc0MUZrU0FTcXlpOFN3VmJRTldKLU1hcjVXeFpYX0VQanN0RUtREgQaAggAGqwHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA9AYIABAAGAAgACo-CgRzaG9wFVzzSj8aCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRVeVFJAGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFXy2sj8aDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFWlVmT8aFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVzKjVPhoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhUGBWZAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRVGS2lAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLAAS9nb3RvP3VybD1DQUlTZ3dFQlVEZlVFa3BkYW5SZURkaTFCUDNleW90Sl9DOEN6bUhlVGY5eDVrT1ptbFk2c3JjQUVhQ1N0TjhZLXNoZXFQYVRGUG9NS1YwaWkyTkFVVnB0QmpNWERMX2xnMzBxeUdDX2dWTmFJb1o4NGNyVjZYcklUTFg1M2hwbmJ6clBGVEY3WWdXN0dtRE53NDFGa1NBU3F5aThTd1ZiUU5XSi1NYXI1V3haWF9FUGpzdEVLUTpEMTggQ29tbWVyY2lhbCBQcm9wZXJ0eSBpbiBCZW5nYWx1cnUgYmV0d2VlbiDigrk8Yj4yPC9iPiBhbmQg4oK5NSAuLi5CoQE8Yj4xOCBsaXZlIGxpc3RpbmdzIGluIEJlbmdhbHVydTwvYj4sIFNob3dyb29tIGZvciBTYWxlIGluIEluZGlyYW5hZ2FyIChCYW5nYWxvcmUpLCBCZW5nYWx1cnUgaW4gSW5kaXJhbmFnYXIgMi42NSBDcuKCuTksOTU5IC8gc3FmdC4gQ29udGFjdCAyLDY1MCBzcSBmdCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBSVNnd0VCVURmVUVrcGRhblJlRGRpMUJQM2V5b3RKX0M4Q3ptSGVUZjl4NWtPWm1sWTZzcmNBRWFDU3ROOFktc2hlcVBhVEZQb01LVjBpaTJOQVVWcHRCak1YRExfbGczMHF5R0NfZ1ZOYUlvWjg0Y3JWNlhySVRMWDUzaHBuYnpyUEZURjdZZ1c3R21ETnc0MUZrU0FTcXlpOFN3VmJRTldKLU1hcjVXeFpYX0VQanN0RUtREgQaAggAGqwHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA9AYIABAAGAAgACo-CgRzaG9wFVzzSj8aCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRVeVFJAGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFXy2sj8aDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFWlVmT8aFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVzKjVPhoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhUGBWZAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRVGS2lAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLAAS9nb3RvP3VybD1DQUlTZ3dFQlVEZlVFa3BkYW5SZURkaTFCUDNleW90Sl9DOEN6bUhlVGY5eDVrT1ptbFk2c3JjQUVhQ1N0TjhZLXNoZXFQYVRGUG9NS1YwaWkyTkFVVnB0QmpNWERMX2xnMzBxeUdDX2dWTmFJb1o4NGNyVjZYcklUTFg1M2hwbmJ6clBGVEY3WWdXN0dtRE53NDFGa1NBU3F5aThTd1ZiUU5XSi1NYXI1V3haWF9FUGpzdEVLUTpEMTggQ29tbWVyY2lhbCBQcm9wZXJ0eSBpbiBCZW5nYWx1cnUgYmV0d2VlbiDigrk8Yj4yPC9iPiBhbmQg4oK5NSAuLi5CoQE8Yj4xOCBsaXZlIGxpc3RpbmdzIGluIEJlbmdhbHVydTwvYj4sIFNob3dyb29tIGZvciBTYWxlIGluIEluZGlyYW5hZ2FyIChCYW5nYWxvcmUpLCBCZW5nYWx1cnUgaW4gSW5kaXJhbmFnYXIgMi42NSBDcuKCuTksOTU5IC8gc3FmdC4gQ29udGFjdCAyLDY1MCBzcSBmdCZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "buysellproperty.in"
+   },
+   {
+    "position": 6,
+    "title": "Shops for Sale Near Indira Nagar Bangalore",
+    "link": "https://www.nobroker.in/commercial-shops-for-sale-near-toit_micro_brewery_indira_nagar_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISpwEBUDfUEo18dwAnwgndrNHj-Wiw3h9WxvgjQg6j-0bgWGYQbpobjvtTKkbdwmd43xvfAJjGDyAniq9o4AylxJy2iCEVYEZI4Onreq0i94ZT1aK1IeOgg9-kLCbGju6yUJKTxeEIiYDuHO6OYjjkBGh-2BIANIQSqjkq5Nv_Ohtndg0D5MYCwELreD7mnP0tRSqQYP1I7PRPyhizE6FQ2rqxqYcVf4hXiQ&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › commercial-shops-for-sale-n...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Shop in Indiranagara , Bangalore for sale. ₹2.66 Cr. EMI: ₹2 Lacs/m. 100 Feet Rd,, Barbeque Nation -, Indiranagara , bangalore. Shop. 1800 sqft. Unfurnished.",
+    "snippet_highlighted_words": [
+     "Shop in Indiranagara , Bangalore for sale"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Shop in Indiranagara , Bangalore for sale. ₹2.66 Cr. EMI: ₹2 Lacs/m. 100 Feet Rd,, Barbeque Nation -, Indiranagara , bangalore. Shop. 1800 sqft. Unfurnished.",
+      "source_info_link": "https://www.nobroker.in/commercial-shops-for-sale-near-toit_micro_brewery_indira_nagar_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CvABL2dvdG8_dXJsPUNBSVNwd0VCVURmVUVvMThkd0Fud2duZHJOSGotV2l3M2g5V3h2Z2pRZzZqLTBiZ1dHWVFicG9ianZ0VEtrYmR3bWQ0M3h2ZkFKakdEeUFuaXE5bzRBeWx4SnkyaUNFVllFWkk0T25yZXEwaTk0WlQxYUsxSWVPZ2c5LWtMQ2JHanU2eVVKS1R4ZUVJaVlEdUhPNk9ZamprQkdoLTJCSUFOSVFTcWprcTVOdl9PaHRuZGcwRDVNWUN3RUxyZUQ3bW5QMHRSU3FRWVAxSTdQUlB5aGl6RTZGUTJycXhxWWNWZjRoWGlREgQaAggAGuIHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAqgcIABAAGAAgACo-CgRzaG9wFWwSsEAaCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRWAKP5AGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFRB8tkAaDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFf2n9EAaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVAAAAABoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhWU7MY-GgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRUAAAAAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLwAS9nb3RvP3VybD1DQUlTcHdFQlVEZlVFbzE4ZHdBbndnbmRyTkhqLVdpdzNoOVd4dmdqUWc2ai0wYmdXR1lRYnBvYmp2dFRLa2Jkd21kNDN4dmZBSmpHRHlBbmlxOW80QXlseEp5MmlDRVZZRVpJNE9ucmVxMGk5NFpUMWFLMUllT2dnOS1rTENiR2p1NnlVSktUeGVFSWlZRHVITzZPWWpqa0JHaC0yQklBTklRU3Fqa3E1TnZfT2h0bmRnMEQ1TVlDd0VMcmVEN21uUDB0UlNxUVlQMUk3UFJQeWhpekU2RlEycnF4cVljVmY0aFhpUTpDPGI-U2hvcHMgZm9yIFNhbGU8L2I-IE5lYXIgPGI-SW5kaXJhIE5hZ2FyIEJhbmdhbG9yZTwvYj4gLSBOb0Jyb2tlckKoATxiPlNob3AgaW4gSW5kaXJhbmFnYXJhICwgQmFuZ2Fsb3JlIGZvciBzYWxlPC9iPi4g4oK5Mi42NiBDci4gRU1JOiDigrkyIExhY3MvbS4gMTAwIEZlZXQgUmQsLCBCYXJiZXF1ZSBOYXRpb24gLSwgSW5kaXJhbmFnYXJhICwgYmFuZ2Fsb3JlLiBTaG9wLiAxODAwIHNxZnQuIFVuZnVybmlzaGVkLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CvABL2dvdG8_dXJsPUNBSVNwd0VCVURmVUVvMThkd0Fud2duZHJOSGotV2l3M2g5V3h2Z2pRZzZqLTBiZ1dHWVFicG9ianZ0VEtrYmR3bWQ0M3h2ZkFKakdEeUFuaXE5bzRBeWx4SnkyaUNFVllFWkk0T25yZXEwaTk0WlQxYUsxSWVPZ2c5LWtMQ2JHanU2eVVKS1R4ZUVJaVlEdUhPNk9ZamprQkdoLTJCSUFOSVFTcWprcTVOdl9PaHRuZGcwRDVNWUN3RUxyZUQ3bW5QMHRSU3FRWVAxSTdQUlB5aGl6RTZGUTJycXhxWWNWZjRoWGlREgQaAggAGuIHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAqgcIABAAGAAgACo-CgRzaG9wFWwSsEAaCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRWAKP5AGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFRB8tkAaDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFf2n9EAaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVAAAAABoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhWU7MY-GgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRUAAAAAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLwAS9nb3RvP3VybD1DQUlTcHdFQlVEZlVFbzE4ZHdBbndnbmRyTkhqLVdpdzNoOVd4dmdqUWc2ai0wYmdXR1lRYnBvYmp2dFRLa2Jkd21kNDN4dmZBSmpHRHlBbmlxOW80QXlseEp5MmlDRVZZRVpJNE9ucmVxMGk5NFpUMWFLMUllT2dnOS1rTENiR2p1NnlVSktUeGVFSWlZRHVITzZPWWpqa0JHaC0yQklBTklRU3Fqa3E1TnZfT2h0bmRnMEQ1TVlDd0VMcmVEN21uUDB0UlNxUVlQMUk3UFJQeWhpekU2RlEycnF4cVljVmY0aFhpUTpDPGI-U2hvcHMgZm9yIFNhbGU8L2I-IE5lYXIgPGI-SW5kaXJhIE5hZ2FyIEJhbmdhbG9yZTwvYj4gLSBOb0Jyb2tlckKoATxiPlNob3AgaW4gSW5kaXJhbmFnYXJhICwgQmFuZ2Fsb3JlIGZvciBzYWxlPC9iPi4g4oK5Mi42NiBDci4gRU1JOiDigrkyIExhY3MvbS4gMTAwIEZlZXQgUmQsLCBCYXJiZXF1ZSBOYXRpb24gLSwgSW5kaXJhbmFnYXJhICwgYmFuZ2Fsb3JlLiBTaG9wLiAxODAwIHNxZnQuIFVuZnVybmlzaGVkLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/commercial-shops-for-sale-near-toit_micro_brewery_indira_nagar_bangalore#:~:text=Shop%20in%20Indiranagara%20%2C%20Bangalore,Unfurnished"
+   },
+   {
+    "position": 7,
+    "title": "Buy, Sell & Rent Sale Shops in Indira Nagar - Properties",
+    "link": "https://www.olx.in/en-in/indira-nagar_g5437579/properties_c3/q-sale-shops",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISkAEBUDfUErqSPbxk-rgNdj3lopkAY2H-wzoGAIojrTGPxZqDbuEANiSjZByo5j8tkm-PtSLd2zN9a1GGIuKTvf3F7mx1sODJOGqnjTsttWPKrz7FDu1tTfdgsZg81PO1-BjjwLhNvMnejS3ekYqThzIXGBjGuWZQayJ7nXEsMzZOXu8v2RMolStFMO09_9LN6J4&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://www.olx.in › ... › categoryInLocation",
+    "favicon": "https://serpapi.com/images/i/UklGRjQBAABXRUJQVlA4ICgBAADQBgCdASocABwAPtFAtFooIqgoFAEAGglsAHeh9V4QfICWAN41IhzdgBxtaPlqK7-Tmz-xdZoxpw27aXiRqQAA_vYBwkNLZ2-bp0Pjjof_FVNGB6--d8qXDe1Fbj5y0xWa8_xRCVj7Iha_rDHVW4-H_pmb6WkiNKW2z_r08j2QusSkMWwUgljU2Tekf9V2tlMNENblx-8D2gZX9S1BfRuuJG1-Lk2BWYRd2uWDgXVBHARAb9n9LTJht7bi3wJr8-4-Q8_tw3jRerB1hDItcPfqwv-0hFv_k6vEEixm-57B1S7MVyrf4mmbT5C14YQi34Ozosrzq6r5gnDsmwF0LaJBIJIyHqOyMc_ecpIfOhEXSkSi_XGeb6SmwcrAAsw8jxRQ_YtmeVAAAA.webp",
+    "snippet": "Find the best Sale Shops in Indira Nagar. Shop for sale ₹ 12,00,000 Fancy and stationery shop for sale ₹ 3,00,000 … x Grocery Shop for Sale | Low Rent ₹6,000",
+    "snippet_highlighted_words": [
+     "Shop for sale ₹ 12,00,000"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find the best Sale Shops in Indira Nagar. Shop for sale ₹ 12,00,000 Fancy and stationery shop for sale ₹ 3,00,000 … x Grocery Shop for Sale | Low Rent ₹6,000",
+      "source_info_link": "https://www.olx.in/en-in/indira-nagar_g5437579/properties_c3/q-sale-shops",
+      "icon": "https://serpapi.com/images/i/UklGRjQBAABXRUJQVlA4ICgBAADQBgCdASocABwAPtFAtFooIqgoFAEAGglsAHeh9V4QfICWAN41IhzdgBxtaPlqK7-Tmz-xdZoxpw27aXiRqQAA_vYBwkNLZ2-bp0Pjjof_FVNGB6--d8qXDe1Fbj5y0xWa8_xRCVj7Iha_rDHVW4-H_pmb6WkiNKW2z_r08j2QusSkMWwUgljU2Tekf9V2tlMNENblx-8D2gZX9S1BfRuuJG1-Lk2BWYRd2uWDgXVBHARAb9n9LTJht7bi3wJr8-4-Q8_tw3jRerB1hDItcPfqwv-0hFv_k6vEEixm-57B1S7MVyrf4mmbT5C14YQi34Ozosrzq6r5gnDsmwF0LaJBIJIyHqOyMc_ecpIfOhEXSkSi_XGeb6SmwcrAAsw8jxRQ_YtmeVAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtEBL2dvdG8_dXJsPUNBSVNrQUVCVURmVUVycVNQYnhrLXJnTmRqM2xvcGtBWTJILXd6b0dBSW9qclRHUHhacURidUVBTmlTalpCeW81ajh0a20tUHRTTGQyek45YTFHR0l1S1R2ZjNGN214MXNPREpPR3FualRzdHRXUEtyejdGRHUxdFRmZGdzWmc4MVBPMS1Camp3TGhOdk1uZWpTM2VrWXFUaHpJWEdCakd1V1pRYXlKN25YRXNNelpPWHU4djJSTW9sU3RGTU8wOV85TE42SjQSBBoCCAAazQcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCVBwgAEAAYACAAKj4KBHNob3AVkRuFQBoIYnVzaW5lc3MaBnJldGFpbBoGc2hvcHBlGghzaG9wcGluZxoFc2hvcHMaBnN0b3JlcyoKCgNmb3IVAAAAAConCgRzYWxlFV-HykAaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqbAoLaW5kaXJhbmFnYXIVVjtUQBoMaW5kaXJhIG5hZ2FyGgxpbmRpcmEgbmFnYXIaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtpbmRpcmFuYWdhcipMCgliYW5nYWxvcmUVAAAAABoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchUAAAAAGgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMioeCgEyFaDz-j8aBDIuMDAaBnVuZGVyMhoGMmNyb3JlKigKBWNyb3JlFQAAAAAaBmNyb3JlcxoGMmNyb3JlGgppdjtwO2Nyb3JlMtEBL2dvdG8_dXJsPUNBSVNrQUVCVURmVUVycVNQYnhrLXJnTmRqM2xvcGtBWTJILXd6b0dBSW9qclRHUHhacURidUVBTmlTalpCeW81ajh0a20tUHRTTGQyek45YTFHR0l1S1R2ZjNGN214MXNPREpPR3FualRzdHRXUEtyejdGRHUxdFRmZGdzWmc4MVBPMS1Camp3TGhOdk1uZWpTM2VrWXFUaHpJWEdCakd1V1pRYXlKN25YRXNNelpPWHU4djJSTW9sU3RGTU8wOV85TE42SjQ6SUJ1eSwgU2VsbCAmYW1wOyA8Yj5SZW50IFNhbGUgU2hvcHM8L2I-IGluIDxiPkluZGlyYSBOYWdhcjwvYj4gLSBPTFggSW5kaWFCrAFGaW5kIHRoZSBiZXN0IFNhbGUgU2hvcHMgaW4gSW5kaXJhIE5hZ2FyLiA8Yj5TaG9wIGZvciBzYWxlIOKCuSAxMiwwMCwwMDA8L2I-IEZhbmN5IGFuZCBzdGF0aW9uZXJ5IHNob3AgZm9yIHNhbGUg4oK5IDMsMDAsMDAwIOKApiB4IEdyb2NlcnkgU2hvcCBmb3IgU2FsZSB8IExvdyBSZW50IOKCuTYsMDAwSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtEBL2dvdG8_dXJsPUNBSVNrQUVCVURmVUVycVNQYnhrLXJnTmRqM2xvcGtBWTJILXd6b0dBSW9qclRHUHhacURidUVBTmlTalpCeW81ajh0a20tUHRTTGQyek45YTFHR0l1S1R2ZjNGN214MXNPREpPR3FualRzdHRXUEtyejdGRHUxdFRmZGdzWmc4MVBPMS1Camp3TGhOdk1uZWpTM2VrWXFUaHpJWEdCakd1V1pRYXlKN25YRXNNelpPWHU4djJSTW9sU3RGTU8wOV85TE42SjQSBBoCCAAazQcSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCVBwgAEAAYACAAKj4KBHNob3AVkRuFQBoIYnVzaW5lc3MaBnJldGFpbBoGc2hvcHBlGghzaG9wcGluZxoFc2hvcHMaBnN0b3JlcyoKCgNmb3IVAAAAAConCgRzYWxlFV-HykAaB2ZvcnNhbGUaBHJlbnQaBXNhbGVzGgRzb2xkKgkKAmluFQAAAAAqbAoLaW5kaXJhbmFnYXIVVjtUQBoMaW5kaXJhIG5hZ2FyGgxpbmRpcmEgbmFnYXIaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtpbmRpcmFuYWdhcipMCgliYW5nYWxvcmUVAAAAABoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZSouCgV1bmRlchUAAAAAGgViZWxvdxoJbGVzcyB0aGFuGgZ3aXRoaW4aBnVuZGVyMioeCgEyFaDz-j8aBDIuMDAaBnVuZGVyMhoGMmNyb3JlKigKBWNyb3JlFQAAAAAaBmNyb3JlcxoGMmNyb3JlGgppdjtwO2Nyb3JlMtEBL2dvdG8_dXJsPUNBSVNrQUVCVURmVUVycVNQYnhrLXJnTmRqM2xvcGtBWTJILXd6b0dBSW9qclRHUHhacURidUVBTmlTalpCeW81ajh0a20tUHRTTGQyek45YTFHR0l1S1R2ZjNGN214MXNPREpPR3FualRzdHRXUEtyejdGRHUxdFRmZGdzWmc4MVBPMS1Camp3TGhOdk1uZWpTM2VrWXFUaHpJWEdCakd1V1pRYXlKN25YRXNNelpPWHU4djJSTW9sU3RGTU8wOV85TE42SjQ6SUJ1eSwgU2VsbCAmYW1wOyA8Yj5SZW50IFNhbGUgU2hvcHM8L2I-IGluIDxiPkluZGlyYSBOYWdhcjwvYj4gLSBPTFggSW5kaWFCrAFGaW5kIHRoZSBiZXN0IFNhbGUgU2hvcHMgaW4gSW5kaXJhIE5hZ2FyLiA8Yj5TaG9wIGZvciBzYWxlIOKCuSAxMiwwMCwwMDA8L2I-IEZhbmN5IGFuZCBzdGF0aW9uZXJ5IHNob3AgZm9yIHNhbGUg4oK5IDMsMDAsMDAwIOKApiB4IEdyb2NlcnkgU2hvcCBmb3IgU2FsZSB8IExvdyBSZW50IOKCuTYsMDAwSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "OLX"
+   },
+   {
+    "position": 8,
+    "title": "35 Shops & Offices for Sale in Indira Nagar",
+    "link": "https://www.olx.in/indira-nagar_g5437579/for-sale-shops-offices_c1733/q-running",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISlgEBUDfUEpfFGMCMJmfTy494AdaS29e67CWlcMb6jWP8olXVGaT6C0oY7aFPiO6O4gA1u4ZrTdjWo3NfV4f7biPTAxl0kfB6AouZP8gJHYGywMrnNRGUSlhNWrjElTLri2i0tEjPzXE4YU023X8aZZZHP5t9iDHuF4a_qQSPDcmBnsTwOLmqVOxAEYdL_CB-VBd_heeGpEk&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.olx.in › ... › categoryInLocation",
+    "favicon": "https://serpapi.com/images/i/UklGRjQBAABXRUJQVlA4ICgBAADQBgCdASocABwAPtFAtFooIqgoFAEAGglsAHeh9V4QfICWAN41IhzdgBxtaPlqK7-Tmz-xdZoxpw27aXiRqQAA_vYBwkNLZ2-bp0Pjjof_FVNGB6--d8qXDe1Fbj5y0xWa8_xRCVj7Iha_rDHVW4-H_pmb6WkiNKW2z_r08j2QusSkMWwUgljU2Tekf9V2tlMNENblx-8D2gZX9S1BfRuuJG1-Lk2BWYRd2uWDgXVBHARAb9n9LTJht7bi3wJr8-4-Q8_tw3jRerB1hDItcPfqwv-0hFv_k6vEEixm-57B1S7MVyrf4mmbT5C14YQi34Ozosrzq6r5gnDsmwF0LaJBIJIyHqOyMc_ecpIfOhEXSkSi_XGeb6SmwcrAAsw8jxRQ_YtmeVAAAA.webp",
+    "snippet": "Find 35 Shops & Offices for Sale in Indira Nagar on OLX. Choose shops suitable for grocery, mobile, salon, clothing, chemist & more. Browse commercial shops ...",
+    "snippet_highlighted_words": [
+     "35 Shops & Offices for Sale in Indira Nagar"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find 35 Shops & Offices for Sale in Indira Nagar on OLX. Choose shops suitable for grocery, mobile, salon, clothing, chemist & more. Browse commercial shops ...",
+      "source_info_link": "https://www.olx.in/indira-nagar_g5437579/for-sale-shops-offices_c1733/q-running",
+      "icon": "https://serpapi.com/images/i/UklGRjQBAABXRUJQVlA4ICgBAADQBgCdASocABwAPtFAtFooIqgoFAEAGglsAHeh9V4QfICWAN41IhzdgBxtaPlqK7-Tmz-xdZoxpw27aXiRqQAA_vYBwkNLZ2-bp0Pjjof_FVNGB6--d8qXDe1Fbj5y0xWa8_xRCVj7Iha_rDHVW4-H_pmb6WkiNKW2z_r08j2QusSkMWwUgljU2Tekf9V2tlMNENblx-8D2gZX9S1BfRuuJG1-Lk2BWYRd2uWDgXVBHARAb9n9LTJht7bi3wJr8-4-Q8_tw3jRerB1hDItcPfqwv-0hFv_k6vEEixm-57B1S7MVyrf4mmbT5C14YQi34Ozosrzq6r5gnDsmwF0LaJBIJIyHqOyMc_ecpIfOhEXSkSi_XGeb6SmwcrAAsw8jxRQ_YtmeVAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtkBL2dvdG8_dXJsPUNBSVNsZ0VCVURmVUVwZkZHTUNNSm1mVHk0OTRBZGFTMjllNjdDV2xjTWI2aldQOG9sWFZHYVQ2QzBvWTdhRlBpTzZPNGdBMXU0WnJUZGpXbzNOZlY0ZjdiaVBUQXhsMGtmQjZBb3VaUDhnSkhZR3l3TXJuTlJHVVNsaE5XcmpFbFRMcmkyaTB0RWpQelhFNFlVMDIzWDhhWlpaSFA1dDlpREh1RjRhX3FRU1BEY21CbnNUd09MbXFWT3hBRVlkTF9DQi1WQmRfaGVlR3BFaxIEGgIIABrdBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQKUHCAAQABgAIAAqPgoEc2hvcBXt69M_GghidXNpbmVzcxoGcmV0YWlsGgZzaG9wcGUaCHNob3BwaW5nGgVzaG9wcxoGc3RvcmVzKgoKA2ZvchUAAAAAKicKBHNhbGUVPz_DQBoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpsCgtpbmRpcmFuYWdhchVUdldAGgxpbmRpcmEgbmFnYXIaDGluZGlyYSBuYWdhchoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2luZGlyYW5hZ2FyKkwKCWJhbmdhbG9yZRXGN_U-GhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFYE1SzsaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVV08QPxoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUVAAAAABoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy2QEvZ290bz91cmw9Q0FJU2xnRUJVRGZVRXBmRkdNQ01KbWZUeTQ5NEFkYVMyOWU2N0NXbGNNYjZqV1A4b2xYVkdhVDZDMG9ZN2FGUGlPNk80Z0ExdTRaclRkaldvM05mVjRmN2JpUFRBeGwwa2ZCNkFvdVpQOGdKSFlHeXdNcm5OUkdVU2xoTldyakVsVExyaTJpMHRFalB6WEU0WVUwMjNYOGFaWlpIUDV0OWlESHVGNGFfcVFTUERjbUJuc1R3T0xtcVZPeEFFWWRMX0NCLVZCZF9oZWVHcEVrOkkzNSA8Yj5TaG9wczwvYj4gJmFtcDsgT2ZmaWNlcyBmb3IgPGI-U2FsZSBpbiBJbmRpcmEgTmFnYXI8L2I-IC0gT0xYIEluZGlhQrQBRmluZCA8Yj4zNSBTaG9wcyAmYW1wOyBPZmZpY2VzIGZvciBTYWxlIGluIEluZGlyYSBOYWdhcjwvYj4gb24gT0xYLiBDaG9vc2Ugc2hvcHMgc3VpdGFibGUgZm9yIGdyb2NlcnksIG1vYmlsZSwgc2Fsb24sIGNsb3RoaW5nLCBjaGVtaXN0ICZhbXA7IG1vcmUuIEJyb3dzZSBjb21tZXJjaWFsIHNob3BzJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtkBL2dvdG8_dXJsPUNBSVNsZ0VCVURmVUVwZkZHTUNNSm1mVHk0OTRBZGFTMjllNjdDV2xjTWI2aldQOG9sWFZHYVQ2QzBvWTdhRlBpTzZPNGdBMXU0WnJUZGpXbzNOZlY0ZjdiaVBUQXhsMGtmQjZBb3VaUDhnSkhZR3l3TXJuTlJHVVNsaE5XcmpFbFRMcmkyaTB0RWpQelhFNFlVMDIzWDhhWlpaSFA1dDlpREh1RjRhX3FRU1BEY21CbnNUd09MbXFWT3hBRVlkTF9DQi1WQmRfaGVlR3BFaxIEGgIIABrdBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQKUHCAAQABgAIAAqPgoEc2hvcBXt69M_GghidXNpbmVzcxoGcmV0YWlsGgZzaG9wcGUaCHNob3BwaW5nGgVzaG9wcxoGc3RvcmVzKgoKA2ZvchUAAAAAKicKBHNhbGUVPz_DQBoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpsCgtpbmRpcmFuYWdhchVUdldAGgxpbmRpcmEgbmFnYXIaDGluZGlyYSBuYWdhchoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2luZGlyYW5hZ2FyKkwKCWJhbmdhbG9yZRXGN_U-GhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFYE1SzsaBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVV08QPxoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUVAAAAABoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUy2QEvZ290bz91cmw9Q0FJU2xnRUJVRGZVRXBmRkdNQ01KbWZUeTQ5NEFkYVMyOWU2N0NXbGNNYjZqV1A4b2xYVkdhVDZDMG9ZN2FGUGlPNk80Z0ExdTRaclRkaldvM05mVjRmN2JpUFRBeGwwa2ZCNkFvdVpQOGdKSFlHeXdNcm5OUkdVU2xoTldyakVsVExyaTJpMHRFalB6WEU0WVUwMjNYOGFaWlpIUDV0OWlESHVGNGFfcVFTUERjbUJuc1R3T0xtcVZPeEFFWWRMX0NCLVZCZF9oZWVHcEVrOkkzNSA8Yj5TaG9wczwvYj4gJmFtcDsgT2ZmaWNlcyBmb3IgPGI-U2FsZSBpbiBJbmRpcmEgTmFnYXI8L2I-IC0gT0xYIEluZGlhQrQBRmluZCA8Yj4zNSBTaG9wcyAmYW1wOyBPZmZpY2VzIGZvciBTYWxlIGluIEluZGlyYSBOYWdhcjwvYj4gb24gT0xYLiBDaG9vc2Ugc2hvcHMgc3VpdGFibGUgZm9yIGdyb2NlcnksIG1vYmlsZSwgc2Fsb24sIGNsb3RoaW5nLCBjaGVtaXN0ICZhbXA7IG1vcmUuIEJyb3dzZSBjb21tZXJjaWFsIHNob3BzJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "OLX"
+   },
+   {
+    "position": 9,
+    "title": "Shops for Rent in Indiranagar, Bangalore 2",
+    "link": "https://www.nobroker.in/rent-commercial-shops-in-indira_nagar_bangalore-page-2",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISlQEBUDfUEl7xkjlPe3y5_AxLqjsEXh3V9Al3nAdd4llVhjjzH6VgA0rDDqRiA4-wUxsOlF63MeTQR_crjXdDhTokpxE0aMFlu_M_e2xKBvFWknWCnPpL-Fr34G7ghfx48bU95GbWPLZboY9gRPXddYs0AgYcq1v59OeFZVYsy2pVpEBX5IBV6x42XDw0nNj7RWB-H_6-Cg&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBoQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › rent-commercial-shops-in-in...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Get WITHOUT BROKERAGE Shop for Rent in Indiranagar, Bangalore only on NoBroker. Check Now Shop for Rent in Pune WITHOUT BROKERAGE to SAVE YOUR MONEY. 2.",
+    "snippet_highlighted_words": [
+     "Shop for Rent in Indiranagar",
+     "Bangalore",
+     "Shop for Rent in",
+     "2"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Get WITHOUT BROKERAGE Shop for Rent in Indiranagar, Bangalore only on NoBroker. Check Now Shop for Rent in Pune WITHOUT BROKERAGE to SAVE YOUR MONEY. 2.",
+      "source_info_link": "https://www.nobroker.in/rent-commercial-shops-in-indira_nagar_bangalore-page-2",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtgBL2dvdG8_dXJsPUNBSVNsUUVCVURmVUVsN3hramxQZTN5NV9BeExxanNFWGgzVjlBbDNuQWRkNGxsVmhqanpINlZnQTByRERxUmlBNC13VXhzT2xGNjNNZVRRUl9jcmpYZERoVG9rcHhFMGFNRmx1X01fZTJ4S0J2RldrbldDblBwTC1GcjM0RzdnaGZ4NDhiVTk1R2JXUExaYm9ZOWdSUFhkZFlzMEFnWWNxMXY1OU9lRlpWWXN5MnBWcEVCWDVJQlY2eDQyWER3MG5OajdSV0ItSF82LUNnEgQaAggAGtYHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAngcIABAAGAAgACo-CgRzaG9wFQAAAAAaCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRW3YZdAGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFSg0wUAaDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFQGU30AaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVAAAAABoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhUgm5pAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRUAAAAAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLYAS9nb3RvP3VybD1DQUlTbFFFQlVEZlVFbDd4a2psUGUzeTVfQXhMcWpzRVhoM1Y5QWwzbkFkZDRsbFZoamp6SDZWZ0EwckREcVJpQTQtd1V4c09sRjYzTWVUUVJfY3JqWGREaFRva3B4RTBhTUZsdV9NX2UyeEtCdkZXa25XQ25QcEwtRnIzNEc3Z2hmeDQ4YlU5NUdiV1BMWmJvWTlnUlBYZGRZczBBZ1ljcTF2NTlPZUZaVllzeTJwVnBFQlg1SUJWNng0MlhEdzBuTmo3UldCLUhfNi1DZzpDPGI-U2hvcHMgZm9yIFJlbnQgaW4gSW5kaXJhbmFnYXI8L2I-LCA8Yj5CYW5nYWxvcmUgMjwvYj4gLSBOb0Jyb2tlckK0AUdldCBXSVRIT1VUIEJST0tFUkFHRSA8Yj5TaG9wIGZvciBSZW50IGluIEluZGlyYW5hZ2FyPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBvbmx5IG9uIE5vQnJva2VyLiBDaGVjayBOb3cgPGI-U2hvcCBmb3IgUmVudCBpbjwvYj4gUHVuZSBXSVRIT1VUIEJST0tFUkFHRSB0byBTQVZFIFlPVVIgTU9ORVkuIDxiPjI8L2I-LkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtgBL2dvdG8_dXJsPUNBSVNsUUVCVURmVUVsN3hramxQZTN5NV9BeExxanNFWGgzVjlBbDNuQWRkNGxsVmhqanpINlZnQTByRERxUmlBNC13VXhzT2xGNjNNZVRRUl9jcmpYZERoVG9rcHhFMGFNRmx1X01fZTJ4S0J2RldrbldDblBwTC1GcjM0RzdnaGZ4NDhiVTk1R2JXUExaYm9ZOWdSUFhkZFlzMEFnWWNxMXY1OU9lRlpWWXN5MnBWcEVCWDVJQlY2eDQyWER3MG5OajdSV0ItSF82LUNnEgQaAggAGtYHEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAngcIABAAGAAgACo-CgRzaG9wFQAAAAAaCGJ1c2luZXNzGgZyZXRhaWwaBnNob3BwZRoIc2hvcHBpbmcaBXNob3BzGgZzdG9yZXMqCgoDZm9yFQAAAAAqJwoEc2FsZRW3YZdAGgdmb3JzYWxlGgRyZW50GgVzYWxlcxoEc29sZCoJCgJpbhUAAAAAKmwKC2luZGlyYW5hZ2FyFSg0wUAaDGluZGlyYSBuYWdhchoMaW5kaXJhIG5hZ2FyGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7aW5kaXJhbmFnYXIqTAoJYmFuZ2Fsb3JlFQGU30AaFGluZGlyYW5hZ2FyYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUqLgoFdW5kZXIVAAAAABoFYmVsb3caCWxlc3MgdGhhbhoGd2l0aGluGgZ1bmRlcjIqHgoBMhUgm5pAGgQyLjAwGgZ1bmRlcjIaBjJjcm9yZSooCgVjcm9yZRUAAAAAGgZjcm9yZXMaBjJjcm9yZRoKaXY7cDtjcm9yZTLYAS9nb3RvP3VybD1DQUlTbFFFQlVEZlVFbDd4a2psUGUzeTVfQXhMcWpzRVhoM1Y5QWwzbkFkZDRsbFZoamp6SDZWZ0EwckREcVJpQTQtd1V4c09sRjYzTWVUUVJfY3JqWGREaFRva3B4RTBhTUZsdV9NX2UyeEtCdkZXa25XQ25QcEwtRnIzNEc3Z2hmeDQ4YlU5NUdiV1BMWmJvWTlnUlBYZGRZczBBZ1ljcTF2NTlPZUZaVllzeTJwVnBFQlg1SUJWNng0MlhEdzBuTmo3UldCLUhfNi1DZzpDPGI-U2hvcHMgZm9yIFJlbnQgaW4gSW5kaXJhbmFnYXI8L2I-LCA8Yj5CYW5nYWxvcmUgMjwvYj4gLSBOb0Jyb2tlckK0AUdldCBXSVRIT1VUIEJST0tFUkFHRSA8Yj5TaG9wIGZvciBSZW50IGluIEluZGlyYW5hZ2FyPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBvbmx5IG9uIE5vQnJva2VyLiBDaGVjayBOb3cgPGI-U2hvcCBmb3IgUmVudCBpbjwvYj4gUHVuZSBXSVRIT1VUIEJST0tFUkFHRSB0byBTQVZFIFlPVVIgTU9ORVkuIDxiPjI8L2I-LkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "NoBroker"
+   },
+   {
+    "position": 10,
+    "title": "Commercial Properties for Sale in Indiranagar, Kodihalli ...",
+    "link": "https://www.realestateindia.com/bangalore-property/commercial-property-for-sale-in-indiranagar-kodihalli.htm",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAISswEBUDfUEkzDxXPrM7jKZ6GTLe2cS3a79W0WURLmp5FeJpdFNmkLupTpiD1zKqb3sLDanzFH6uUeJALn7OLw71ynBLzeO55OljLyt-rD5OROzYVOfz-QOtcyywW1-20OcavK0WeSEKi9QMQY3Ob6HVfc0CH4Htnrlt3KA5UJL6jZRyIFW5pdYFQ0fQvGOPpxG08cguXVSnP_sVyePAK6DjKxNvTBn5Yr1aloeSVR6rbl3NPBHw&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQFnoECBQQAQ&uoh=1",
+    "displayed_link": "https://www.realestateindia.com › ... › Kodihalli",
+    "favicon": "https://serpapi.com/images/i/UklGRrYBAABXRUJQVlA4IKoBAADwCACdASogACAAPtEutFooIagoGAEAGglsAKwvkEGdYDbO88B_YMkA_QDrcG_IQYdyKbHeRnLQJzr9FQsAwFflAaov4xQEnbEmJocnu12XAAD-_sLK9e1I4DU2KmrMyA2OXMlo3NONsj7Xj9ATV_j_ZUTQGPCJa0K-Xi2zfuTIrnvl-qMncItB927g21_Ms8H7hvu9-5PgaI6Vzy7e-5bQ_kQ8N14EPCaS5zOmXYl0Y9KWU3_qrLmPUMbDRigFLxjcxRTVaxMx2c4tafoEvK2VtUtt1wifQH7aXkZtNcH9kN2DEGacY5olMyydXJ_-6aHm4IPkjrC9abq-hy4y58N1jovqtM39DLwZzZjVNo-2F-9nDJ_Wp3EcXHY5DvWkHaHb_PRx2xD-hQCrB5mukBVDi0eh3yMQRBJeSkW77gZ5uATgIim24Fr4pgg7Uz2aRsDP-ctwW2dYJrjGOmtij--o97bgYD_onQaZHsRI_0FaDKcg9SsksY0UZYwGNAk2K9oDLYYYbJg-VWxonABz6ADmr-OAdNVxGZ9TOVUYwW_PlloiPOXG05dAAAA.webp",
+    "snippet": "Commercial Building for sale in Indiranagar to Kormangala , Intermediate Ring Road, Near Domlur (EGL), Banglore. Total area - 2 acres , amount - 350cr Total ...",
+    "snippet_highlighted_words": [
+     "Commercial Building for sale in Indiranagar to"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Commercial Building for sale in Indiranagar to Kormangala , Intermediate Ring Road, Near Domlur (EGL), Banglore. Total area - 2 acres , amount - 350cr Total ...",
+      "source_info_link": "https://www.realestateindia.com/bangalore-property/commercial-property-for-sale-in-indiranagar-kodihalli.htm",
+      "icon": "https://serpapi.com/images/i/UklGRrYBAABXRUJQVlA4IKoBAADwCACdASogACAAPtEutFooIagoGAEAGglsAKwvkEGdYDbO88B_YMkA_QDrcG_IQYdyKbHeRnLQJzr9FQsAwFflAaov4xQEnbEmJocnu12XAAD-_sLK9e1I4DU2KmrMyA2OXMlo3NONsj7Xj9ATV_j_ZUTQGPCJa0K-Xi2zfuTIrnvl-qMncItB927g21_Ms8H7hvu9-5PgaI6Vzy7e-5bQ_kQ8N14EPCaS5zOmXYl0Y9KWU3_qrLmPUMbDRigFLxjcxRTVaxMx2c4tafoEvK2VtUtt1wifQH7aXkZtNcH9kN2DEGacY5olMyydXJ_-6aHm4IPkjrC9abq-hy4y58N1jovqtM39DLwZzZjVNo-2F-9nDJ_Wp3EcXHY5DvWkHaHb_PRx2xD-hQCrB5mukBVDi0eh3yMQRBJeSkW77gZ5uATgIim24Fr4pgg7Uz2aRsDP-ctwW2dYJrjGOmtij--o97bgYD_onQaZHsRI_0FaDKcg9SsksY0UZYwGNAk2K9oDLYYYbJg-VWxonABz6ADmr-OAdNVxGZ9TOVUYwW_PlloiPOXG05dAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoACL2dvdG8_dXJsPUNBSVNzd0VCVURmVUVrekR4WFByTTdqS1o2R1RMZTJjUzNhNzlXMFdVUkxtcDVGZUpwZEZObWtMdXBUcGlEMXpLcWIzc0xEYW56Rkg2dVVlSkFMbjdPTHc3MXluQkx6ZU81NU9sakx5dC1yRDVPUk96WVZPZnotUU90Y3l5d1cxLTIwT2NhdkswV2VTRUtpOVFNUVkzT2I2SFZmYzBDSDRIdG5ybHQzS0E1VUpMNmpaUnlJRlc1cGRZRlEwZlF2R09QcHhHMDhjZ3VYVlNuUF9zVnllUEFLNkRqS3hOdlRCbjVZcjFhbG9lU1ZSNnJibDNOUEJIdxIEGgIIABr9BxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQMUHCAAQABgAIAAqPgoEc2hvcBX2ruM-GghidXNpbmVzcxoGcmV0YWlsGgZzaG9wcGUaCHNob3BwaW5nGgVzaG9wcxoGc3RvcmVzKgoKA2ZvchUAAAAAKicKBHNhbGUVKQjGQBoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpsCgtpbmRpcmFuYWdhchU8VJ9AGgxpbmRpcmEgbmFnYXIaDGluZGlyYSBuYWdhchoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2luZGlyYW5hZ2FyKkwKCWJhbmdhbG9yZRUULOpAGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFe53vz0aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVUnFVPxoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUV-rxPOxoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUygAIvZ290bz91cmw9Q0FJU3N3RUJVRGZVRWt6RHhYUHJNN2pLWjZHVExlMmNTM2E3OVcwV1VSTG1wNUZlSnBkRk5ta0x1cFRwaUQxektxYjNzTERhbnpGSDZ1VWVKQUxuN09MdzcxeW5CTHplTzU1T2xqTHl0LXJENU9ST3pZVk9mei1RT3RjeXl3VzEtMjBPY2F2SzBXZVNFS2k5UU1RWTNPYjZIVmZjMENINEh0bnJsdDNLQTVVSkw2alpSeUlGVzVwZFlGUTBmUXZHT1BweEcwOGNndVhWU25QX3NWeWVQQUs2RGpLeE52VEJuNVlyMWFsb2VTVlI2cmJsM05QQkh3OkpCdXkgQ29tbWVyY2lhbCBQcm9wZXJ0eSBpbiA8Yj5JbmRpcmFuYWdhcjwvYj4sIEtvZGloYWxsaSwgPGI-QmFuZ2Fsb3JlPC9iPkKsATxiPkNvbW1lcmNpYWwgQnVpbGRpbmcgZm9yIHNhbGUgaW4gSW5kaXJhbmFnYXIgdG88L2I-IEtvcm1hbmdhbGEgLCBJbnRlcm1lZGlhdGUgUmluZyBSb2FkLCBOZWFyIERvbWx1ciAoRUdMKSwgQmFuZ2xvcmUuIFRvdGFsIGFyZWEgLSAyIGFjcmVzICwgYW1vdW50IC0gMzUwY3IgVG90YWwmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoACL2dvdG8_dXJsPUNBSVNzd0VCVURmVUVrekR4WFByTTdqS1o2R1RMZTJjUzNhNzlXMFdVUkxtcDVGZUpwZEZObWtMdXBUcGlEMXpLcWIzc0xEYW56Rkg2dVVlSkFMbjdPTHc3MXluQkx6ZU81NU9sakx5dC1yRDVPUk96WVZPZnotUU90Y3l5d1cxLTIwT2NhdkswV2VTRUtpOVFNUVkzT2I2SFZmYzBDSDRIdG5ybHQzS0E1VUpMNmpaUnlJRlc1cGRZRlEwZlF2R09QcHhHMDhjZ3VYVlNuUF9zVnllUEFLNkRqS3hOdlRCbjVZcjFhbG9lU1ZSNnJibDNOUEJIdxIEGgIIABr9BxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQMUHCAAQABgAIAAqPgoEc2hvcBX2ruM-GghidXNpbmVzcxoGcmV0YWlsGgZzaG9wcGUaCHNob3BwaW5nGgVzaG9wcxoGc3RvcmVzKgoKA2ZvchUAAAAAKicKBHNhbGUVKQjGQBoHZm9yc2FsZRoEcmVudBoFc2FsZXMaBHNvbGQqCQoCaW4VAAAAACpsCgtpbmRpcmFuYWdhchU8VJ9AGgxpbmRpcmEgbmFnYXIaDGluZGlyYSBuYWdhchoUaW5kaXJhbmFnYXJiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2luZGlyYW5hZ2FyKkwKCWJhbmdhbG9yZRUULOpAGhRpbmRpcmFuYWdhcmJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlKi4KBXVuZGVyFe53vz0aBWJlbG93GglsZXNzIHRoYW4aBndpdGhpbhoGdW5kZXIyKh4KATIVUnFVPxoEMi4wMBoGdW5kZXIyGgYyY3JvcmUqKAoFY3JvcmUV-rxPOxoGY3JvcmVzGgYyY3JvcmUaCml2O3A7Y3JvcmUygAIvZ290bz91cmw9Q0FJU3N3RUJVRGZVRWt6RHhYUHJNN2pLWjZHVExlMmNTM2E3OVcwV1VSTG1wNUZlSnBkRk5ta0x1cFRwaUQxektxYjNzTERhbnpGSDZ1VWVKQUxuN09MdzcxeW5CTHplTzU1T2xqTHl0LXJENU9ST3pZVk9mei1RT3RjeXl3VzEtMjBPY2F2SzBXZVNFS2k5UU1RWTNPYjZIVmZjMENINEh0bnJsdDNLQTVVSkw2alpSeUlGVzVwZFlGUTBmUXZHT1BweEcwOGNndVhWU25QX3NWeWVQQUs2RGpLeE52VEJuNVlyMWFsb2VTVlI2cmJsM05QQkh3OkpCdXkgQ29tbWVyY2lhbCBQcm9wZXJ0eSBpbiA8Yj5JbmRpcmFuYWdhcjwvYj4sIEtvZGloYWxsaSwgPGI-QmFuZ2Fsb3JlPC9iPkKsATxiPkNvbW1lcmNpYWwgQnVpbGRpbmcgZm9yIHNhbGUgaW4gSW5kaXJhbmFnYXIgdG88L2I-IEtvcm1hbmdhbGEgLCBJbnRlcm1lZGlhdGUgUmluZyBSb2FkLCBOZWFyIERvbWx1ciAoRUdMKSwgQmFuZ2xvcmUuIFRvdGFsIGFyZWEgLSAyIGFjcmVzICwgYW1vdW50IC0gMzUwY3IgVG90YWwmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "RealEstateIndia.Com",
+    "read_more_link": "https://www.realestateindia.com/bangalore-property/commercial-property-for-sale-in-indiranagar-kodihalli.htm#:~:text=Commercial%20Building%20for%20sale%20in,%3A%202%20acres%20(87%2C125sqft)%20S..."
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvNalRa9QU6vVTKtsl_VNnBQJrd4w:1791088784034&ei=kNjBatvVAZebwbkP1L-awAI&start=10&sa=N&sstk=AS6-VmK7M_YC4DrW4za7UF6DPPIa4qewY-vQphDddvmKVjw4K_KdvqEtAVnusLFYZQv8jeQj8-dryj2VA9tTy0Vhaq0Oq6ybiEiA0w&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQ8NMDegQISBAO",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvNalRa9QU6vVTKtsl_VNnBQJrd4w:1791088784034&ei=kNjBatvVAZebwbkP1L-awAI&start=10&sa=N&sstk=AS6-VmK7M_YC4DrW4za7UF6DPPIa4qewY-vQphDddvmKVjw4K_KdvqEtAVnusLFYZQv8jeQj8-dryj2VA9tTy0Vhaq0Oq6ybiEiA0w&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQ8tMDegQISBAE",
+    "3": "https://www.google.co.in/search?q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvNalRa9QU6vVTKtsl_VNnBQJrd4w:1791088784034&ei=kNjBatvVAZebwbkP1L-awAI&start=20&sa=N&sstk=AS6-VmK7M_YC4DrW4za7UF6DPPIa4qewY-vQphDddvmKVjw4K_KdvqEtAVnusLFYZQv8jeQj8-dryj2VA9tTy0Vhaq0Oq6ybiEiA0w&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQ8tMDegQISBAG",
+    "4": "https://www.google.co.in/search?q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvNalRa9QU6vVTKtsl_VNnBQJrd4w:1791088784034&ei=kNjBatvVAZebwbkP1L-awAI&start=30&sa=N&sstk=AS6-VmK7M_YC4DrW4za7UF6DPPIa4qewY-vQphDddvmKVjw4K_KdvqEtAVnusLFYZQv8jeQj8-dryj2VA9tTy0Vhaq0Oq6ybiEiA0w&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQ8tMDegQISBAI",
+    "5": "https://www.google.co.in/search?q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvNalRa9QU6vVTKtsl_VNnBQJrd4w:1791088784034&ei=kNjBatvVAZebwbkP1L-awAI&start=40&sa=N&sstk=AS6-VmK7M_YC4DrW4za7UF6DPPIa4qewY-vQphDddvmKVjw4K_KdvqEtAVnusLFYZQv8jeQj8-dryj2VA9tTy0Vhaq0Oq6ybiEiA0w&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQ8tMDegQISBAK",
+    "6": "https://www.google.co.in/search?q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvNalRa9QU6vVTKtsl_VNnBQJrd4w:1791088784034&ei=kNjBatvVAZebwbkP1L-awAI&start=50&sa=N&sstk=AS6-VmK7M_YC4DrW4za7UF6DPPIa4qewY-vQphDddvmKVjw4K_KdvqEtAVnusLFYZQv8jeQj8-dryj2VA9tTy0Vhaq0Oq6ybiEiA0w&ved=2ahUKEwjb3e7VxZ-XAxWXTTABHdSfBigQ8tMDegQISBAM"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=shop+for+sale+in+Indiranagar+Bangalore+under+2+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=50"
+   }
+  }
+ }
+}

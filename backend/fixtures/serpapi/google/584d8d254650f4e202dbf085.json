@@ -1,0 +1,410 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "2 BHK flat for sale in Hebbal Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d87b3ee4c26e91f6ac1b",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/tth7iPRN-2AgdivgYr9stoM_86CRIhD_MUPH0Ld4-bI/6ac1d87b3ee4c26e91f6ac1b.json",
+   "markdown_endpoint": "https://serpapi.com/searches/tth7iPRN-2AgdivgYr9stoM_86CRIhD_MUPH0Ld4-bI/6ac1d87b3ee4c26e91f6ac1b.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/tth7iPRN-2AgdivgYr9stoM_86CRIhD_MUPH0Ld4-bI/6ac1d87b3ee4c26e91f6ac1b.json_with_pixel_position",
+   "created_at": "2026-10-04 04:39:23 UTC",
+   "processed_at": "2026-10-04 04:39:23 UTC",
+   "google_url": "https://www.google.co.in/search?q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&oq=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/tth7iPRN-2AgdivgYr9stoM_86CRIhD_MUPH0Ld4-bI/6ac1d87b3ee4c26e91f6ac1b.html",
+   "total_time_taken": 0.55
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "2 BHK flat for sale in Hebbal Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "2 BHK flat for sale in Hebbal Bangalore under 1 crore site:99acres.com OR site:magicbricks.com OR site:nobroker.in",
+   "total_results": 546000000,
+   "time_taken_displayed": 0.41,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Bengaluru",
+    "link": "https://en.wikipedia.org/wiki/Bengaluru",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYgHrOzAVEQIsW9JAKQGOSmmwAIaA2TFyhc-0jwp4frF5bc-liWA2W0fxxaGlqt0Ku83V4lOCu1GZykxQWyOSx0WuWPqLpaeUF1WzNPOcIYrEJB1wEcWXy9kQxr1dHNkOG9Wd&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0QFnoECB0QAQ&uoh=1",
+    "displayed_link": "https://en.wikipedia.org › wiki › Bengaluru",
+    "favicon": "https://serpapi.com/images/i/UklGRqIAAABXRUJQVlA4IJYAAACQBACdASocABwAPtEutFooIagoGAEAGglpAAPhag38OpTAa4LU1EDlND7sAAAA_vYBJn72wN5WCZhxbfpmwOpA1vfrecvWOCVICC3-_rM6qzQWc8D3etVbTfBEeNbqJu-10k1h5hVXEe_3vpL5NJSAtUHvrJ6e_LkA__pZx-xvTn7v-qaIRjl47m2LoP17C7tcoPGgAAA.webp",
+    "snippet": "Bengaluru, also known as Bangalore is the capital and largest city of the southern Indian state of Karnataka. As per the 2011 census, the city had a ...",
+    "snippet_highlighted_words": [
+     "Bangalore"
+    ],
+    "sitelinks": {
+     "inline": [
+      {
+       "title": "Etymology",
+       "link": "https://en.wikipedia.org/wiki/Bengaluru#Etymology"
+      },
+      {
+       "title": "History",
+       "link": "https://en.wikipedia.org/wiki/Bengaluru#History"
+      },
+      {
+       "title": "Geography",
+       "link": "https://en.wikipedia.org/wiki/Bengaluru#Geography"
+      },
+      {
+       "title": "Infrastructure",
+       "link": "https://en.wikipedia.org/wiki/Bengaluru#Infrastructure"
+      }
+     ]
+    },
+    "about_this_result": {
+     "source": {
+      "description": "Bengaluru, also known as Bangalore is the capital and largest city of the southern Indian state of Karnataka. As per the 2011 census, the city had a ...",
+      "source_info_link": "https://en.wikipedia.org/wiki/Bengaluru",
+      "icon": "https://serpapi.com/images/i/UklGRqIAAABXRUJQVlA4IJYAAACQBACdASocABwAPtEutFooIagoGAEAGglpAAPhag38OpTAa4LU1EDlND7sAAAA_vYBJn72wN5WCZhxbfpmwOpA1vfrecvWOCVICC3-_rM6qzQWc8D3etVbTfBEeNbqJu-10k1h5hVXEe_3vpL5NJSAtUHvrJ6e_LkA__pZx-xvTn7v-qaIRjl47m2LoP17C7tcoPGgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpIBL2dvdG8_dXJsPUNBRVNZZ0hyT3pBVkVRSXNXOUpBS1FHT1NtbXdBSWFBMlRGeWhjLTBqd3A0ZnJGNWJjLWxpV0EyVzBmeHhhR2xxdDBLdTgzVjRsT0N1MUdaeWt4UVd5T1N4MFd1V1BxTHBhZVVGMVd6TlBPY0lZckVKQjF3RWNXWHk5a1F4cjFkSE5rT0c5V2QSBBoCCAAa5wMSAggBGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQK0DCAAQABgAIAAqRwoBMhXWRrE_Gg8yIGJoayBhcGFydG1lbnQaCzIgYmhrIGZsYXRzGgQyYmhrGgkyYmhrIGZsYXQaBDJiaGsaCDJiaGtmbGF0MpIBL2dvdG8_dXJsPUNBRVNZZ0hyT3pBVkVRSXNXOUpBS1FHT1NtbXdBSWFBMlRGeWhjLTBqd3A0ZnJGNWJjLWxpV0EyVzBmeHhhR2xxdDBLdTgzVjRsT0N1MUdaeWt4UVd5T1N4MFd1V1BxTHBhZVVGMVd6TlBPY0lZckVKQjF3RWNXWHk5a1F4cjFkSE5rT0c5V2Q6FUJlbmdhbHVydSAtIFdpa2lwZWRpYUKkAUJlbmdhbHVydSwgYWxzbyBrbm93biBhcyA8Yj5CYW5nYWxvcmU8L2I-IGlzIHRoZSBjYXBpdGFsIGFuZCBsYXJnZXN0IGNpdHkgb2YgdGhlIHNvdXRoZXJuIEluZGlhbiBzdGF0ZSBvZiBLYXJuYXRha2EuIEFzIHBlciB0aGUgMjAxMSBjZW5zdXMsIHRoZSBjaXR5IGhhZCBhJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpIBL2dvdG8_dXJsPUNBRVNZZ0hyT3pBVkVRSXNXOUpBS1FHT1NtbXdBSWFBMlRGeWhjLTBqd3A0ZnJGNWJjLWxpV0EyVzBmeHhhR2xxdDBLdTgzVjRsT0N1MUdaeWt4UVd5T1N4MFd1V1BxTHBhZVVGMVd6TlBPY0lZckVKQjF3RWNXWHk5a1F4cjFkSE5rT0c5V2QSBBoCCAAa5wMSAggBGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQK0DCAAQABgAIAAqRwoBMhXWRrE_Gg8yIGJoayBhcGFydG1lbnQaCzIgYmhrIGZsYXRzGgQyYmhrGgkyYmhrIGZsYXQaBDJiaGsaCDJiaGtmbGF0MpIBL2dvdG8_dXJsPUNBRVNZZ0hyT3pBVkVRSXNXOUpBS1FHT1NtbXdBSWFBMlRGeWhjLTBqd3A0ZnJGNWJjLWxpV0EyVzBmeHhhR2xxdDBLdTgzVjRsT0N1MUdaeWt4UVd5T1N4MFd1V1BxTHBhZVVGMVd6TlBPY0lZckVKQjF3RWNXWHk5a1F4cjFkSE5rT0c5V2Q6FUJlbmdhbHVydSAtIFdpa2lwZWRpYUKkAUJlbmdhbHVydSwgYWxzbyBrbm93biBhcyA8Yj5CYW5nYWxvcmU8L2I-IGlzIHRoZSBjYXBpdGFsIGFuZCBsYXJnZXN0IGNpdHkgb2YgdGhlIHNvdXRoZXJuIEluZGlhbiBzdGF0ZSBvZiBLYXJuYXRha2EuIEFzIHBlciB0aGUgMjAxMSBjZW5zdXMsIHRoZSBjaXR5IGhhZCBhJm5ic3A7Li4uSgJpbkoDZm9yIgIQAUgAWABoAA",
+    "source": "Wikipedia",
+    "read_more_link": "https://en.wikipedia.org/wiki/Bengaluru#:~:text=Bengaluru%2C%20%5Bb%5D%20also%20known%20as,southern%20Indian%20state%20of%20Karnataka.&text=is%20the%20capital%20and%20largest,most%20populous%20in%20South%20India."
+   },
+   {
+    "position": 2,
+    "title": "District Bengaluru Urban, Government of Karnataka",
+    "link": "https://bengaluruurban.nic.in/en/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXAHrOzAVC8tbt1H626hCO-MFta7hN7Fjwq0Mb3pYgemoZbdHGHObtXgE3OeIaIHRYKTEzxNICQ6o5k5rq6D9F9dYh2yhaBooH4ftUAxpEqq5tVajuKigMl-rXYjy&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0QFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://bengaluruurban.nic.in › ...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEX_mTP_u3f____S0uqEhMaMjMq1tdzOzui0tNyTk82Vlc1UVK9hsFoSiAfVW9AIAAAAQUlEQVR4AWMYOkAQDTAoQYCyEZQBE3ANQRVQS69IQhHQNHGehCKglb1tEYYAfi1q7RVJOKzFdNgZNMBwFw0MWgEAC2Kz-S0-y7YAAAAASUVORK5CYII.png",
+    "date": "3 days ago",
+    "snippet": "Bengaluru Urban District. selection 1:2 and 1:3 List Bangalore urban district. Geographical Area: 2196 sq km Population: 96,21,551 Literacy ...",
+    "snippet_highlighted_words": [
+     "1",
+     "2",
+     "1",
+     "Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Bengaluru Urban District. selection 1:2 and 1:3 List Bangalore urban district. Geographical Area: 2196 sq km Population: 96,21,551 Literacy ...",
+      "source_info_link": "https://bengaluruurban.nic.in/en/",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEX_mTP_u3f____S0uqEhMaMjMq1tdzOzui0tNyTk82Vlc1UVK9hsFoSiAfVW9AIAAAAQUlEQVR4AWMYOkAQDTAoQYCyEZQBE3ANQRVQS69IQhHQNHGehCKglb1tEYYAfi1q7RVJOKzFdNgZNMBwFw0MWgEAC2Kz-S0-y7YAAAAASUVORK5CYII.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CooBL2dvdG8_dXJsPUNBRVNYQUhyT3pBVkM4dGJ0MUg2MjZoQ08tTUZ0YTdoTjdGandxME1iM3BZZ2Vtb1piZEhHSE9idFhnRTNPZUlhSUhSWUtURXp4TklDUTZvNWs1cnE2RDlGOWRZaDJ5aGFCb29INGZ0VUF4cEVxcTV0VmFqdUtpZ01sLXJYWWp5EgQaAggAGpEEEgIIARoAIgIIASoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQNUDCAAQABgAIAAqRwoBMhUCAbM_Gg8yIGJoayBhcGFydG1lbnQaCzIgYmhrIGZsYXRzGgQyYmhrGgkyYmhrIGZsYXQaBDJiaGsaCDJiaGtmbGF0MooBL2dvdG8_dXJsPUNBRVNYQUhyT3pBVkM4dGJ0MUg2MjZoQ08tTUZ0YTdoTjdGandxME1iM3BZZ2Vtb1piZEhHSE9idFhnRTNPZUlhSUhSWUtURXp4TklDUTZvNWs1cnE2RDlGOWRZaDJ5aGFCb29INGZ0VUF4cEVxcTV0VmFqdUtpZ01sLXJYWWp5OjlEaXN0cmljdCBCZW5nYWx1cnUgVXJiYW4sIEdvdmVybm1lbnQgb2YgS2FybmF0YWthIHwgSW5kaWFCsAFCZW5nYWx1cnUgVXJiYW4gRGlzdHJpY3QuIHNlbGVjdGlvbiA8Yj4xPC9iPjo8Yj4yPC9iPiBhbmQgPGI-MTwvYj46MyBMaXN0IDxiPkJhbmdhbG9yZTwvYj4gdXJiYW4gZGlzdHJpY3QuIEdlb2dyYXBoaWNhbCBBcmVhOiAyMTk2IHNxIGttIFBvcHVsYXRpb246IDk2LDIxLDU1MSBMaXRlcmFjeSZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CooBL2dvdG8_dXJsPUNBRVNYQUhyT3pBVkM4dGJ0MUg2MjZoQ08tTUZ0YTdoTjdGandxME1iM3BZZ2Vtb1piZEhHSE9idFhnRTNPZUlhSUhSWUtURXp4TklDUTZvNWs1cnE2RDlGOWRZaDJ5aGFCb29INGZ0VUF4cEVxcTV0VmFqdUtpZ01sLXJYWWp5EgQaAggAGpEEEgIIARoAIgIIASoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQNUDCAAQABgAIAAqRwoBMhUCAbM_Gg8yIGJoayBhcGFydG1lbnQaCzIgYmhrIGZsYXRzGgQyYmhrGgkyYmhrIGZsYXQaBDJiaGsaCDJiaGtmbGF0MooBL2dvdG8_dXJsPUNBRVNYQUhyT3pBVkM4dGJ0MUg2MjZoQ08tTUZ0YTdoTjdGandxME1iM3BZZ2Vtb1piZEhHSE9idFhnRTNPZUlhSUhSWUtURXp4TklDUTZvNWs1cnE2RDlGOWRZaDJ5aGFCb29INGZ0VUF4cEVxcTV0VmFqdUtpZ01sLXJYWWp5OjlEaXN0cmljdCBCZW5nYWx1cnUgVXJiYW4sIEdvdmVybm1lbnQgb2YgS2FybmF0YWthIHwgSW5kaWFCsAFCZW5nYWx1cnUgVXJiYW4gRGlzdHJpY3QuIHNlbGVjdGlvbiA8Yj4xPC9iPjo8Yj4yPC9iPiBhbmQgPGI-MTwvYj46MyBMaXN0IDxiPkJhbmdhbG9yZTwvYj4gdXJiYW4gZGlzdHJpY3QuIEdlb2dyYXBoaWNhbCBBcmVhOiAyMTk2IHNxIGttIFBvcHVsYXRpb246IDk2LDIxLDU1MSBMaXRlcmFjeSZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "bengaluruurban.nic.in"
+   },
+   {
+    "position": 3,
+    "title": "DAAD Information Centre Bangalore",
+    "link": "https://www.daad.in/en/about-us/daad-in-india/daad-information-centre-bangalore/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiwEB6zswFTi69dNVjY2NrCvpKQ48-kK2xwdSCQBnJnDjxGg5-Qsz231EkIqqxj-9wORyGewNisyU6Q6ZUJhn4wMxeUJkBm-OGzaZpzxIgNcvUPn5Ykvv_gNa2p8einL76R5xQSFqMHrdr8gOb2nwijUpZY35iQ3QJekVU5CHCaHmxkfxBq1gllU4gVik&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0QFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://www.daad.in › about-us › daad-in-india › daad-i...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAATlBMVEVHcEwAWqYAXqsAX60AXqwAYK8AXaoAW6YAX60ATY0AXqwATY4AVp0AW60ATqgAVKs8drn____r8PfC0uZtlMbU3-0AWKy4yuKZs9aKqNEPs5OZAAAADXRSTlMALIfG6_-GX_ER4xI9RffX3QAAANpJREFUeAF9k0UWxSAMAIPUhQbn_gf9gtQfsx0kCjuEMt40nLUE7nR9s9N3FzWMzYVxOtzcPJgrbrdD88oQZfpvWSNi2f-NcTaRDf9Ipddi_zGnHBaN0hgjEY0tGQGQpki1CrFuEqXIlkB7SBG_NuiypcDOMoKYg2LA71IY1MlyaO7Segw5plfpi3w-qzCUZ9lDIm5JsnsqzepQrjmVSxGsFcLtFxtyKp8JIShE1GIvH3RFJsxm98IfLQve-6CbvWfjudmL_bE0O0N9TCoDtjNVRrMy1Ld1oAQKX-RIFcqFs2FFAAAAAElFTkSuQmCC.png",
+    "snippet": "The Information Centre in Bengaluru is responsible for carrying out DAAD activities in Karnataka. Bengaluru 560052 Tel. +91 96862 76419 info.bangalore@daad.de. ...",
+    "snippet_highlighted_words": [
+     "bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The Information Centre in Bengaluru is responsible for carrying out DAAD activities in Karnataka. Bengaluru 560052 Tel. +91 96862 76419 info.\nbangalore@daad.de. ...",
+      "source_info_link": "https://www.daad.in/en/about-us/daad-in-india/daad-information-centre-bangalore/",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAATlBMVEVHcEwAWqYAXqsAX60AXqwAYK8AXaoAW6YAX60ATY0AXqwATY4AVp0AW60ATqgAVKs8drn____r8PfC0uZtlMbU3-0AWKy4yuKZs9aKqNEPs5OZAAAADXRSTlMALIfG6_-GX_ER4xI9RffX3QAAANpJREFUeAF9k0UWxSAMAIPUhQbn_gf9gtQfsx0kCjuEMt40nLUE7nR9s9N3FzWMzYVxOtzcPJgrbrdD88oQZfpvWSNi2f-NcTaRDf9Ipddi_zGnHBaN0hgjEY0tGQGQpki1CrFuEqXIlkB7SBG_NuiypcDOMoKYg2LA71IY1MlyaO7Segw5plfpi3w-qzCUZ9lDIm5JsnsqzepQrjmVSxGsFcLtFxtyKp8JIShE1GIvH3RFJsxm98IfLQve-6CbvWfjudmL_bE0O0N9TCoDtjNVRrMy1Ld1oAQKX-RIFcqFs2FFAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZUaTY5ZE5WalkyTnJDdnBLUTQ4LWtLMnh3ZFNDUUJuSm5EanhHZzUtUXN6MjMxRWtJcXF4ai05d09SeUdld05pc3lVNlE2WlVKaG40d014ZVVKa0JtLU9HemFacHp4SWdOY3ZVUG41WWt2dl9nTmEycDhlaW5MNzZSNXhRU0ZxTUhyZHI4Z09iMm53aWpVcFpZMzVpUTNRSmVrVlU1Q0hDYUhteGtmeEJxMWdsbFU0Z1ZpaxIEGgIIABq9BBICCAAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAgwQIABAAGAAgACpHCgEyFUjfjUAaDzIgYmhrIGFwYXJ0bWVudBoLMiBiaGsgZmxhdHMaBDJiaGsaCTJiaGsgZmxhdBoEMmJoaxoIMmJoa2ZsYXQyygEvZ290bz91cmw9Q0FFU2l3RUI2enN3RlRpNjlkTlZqWTJOckN2cEtRNDgta0syeHdkU0NRQm5KbkRqeEdnNS1Rc3oyMzFFa0lxcXhqLTl3T1J5R2V3TmlzeVU2UTZaVUpobjR3TXhlVUprQm0tT0d6YVpwenhJZ05jdlVQbjVZa3Z2X2dOYTJwOGVpbkw3NlI1eFFTRnFNSHJkcjhnT2IybndpalVwWlkzNWlRM1FKZWtWVTVDSENhSG14a2Z4QnExZ2xsVTRnVmlrOihEQUFEIEluZm9ybWF0aW9uIENlbnRyZSA8Yj5CYW5nYWxvcmU8L2I-Qq8BVGhlIEluZm9ybWF0aW9uIENlbnRyZSBpbiBCZW5nYWx1cnUgaXMgcmVzcG9uc2libGUgZm9yIGNhcnJ5aW5nIG91dCBEQUFEIGFjdGl2aXRpZXMgaW4gS2FybmF0YWthLiBCZW5nYWx1cnUgNTYwMDUyIFRlbC4gKzkxIDk2ODYyIDc2NDE5IGluZm8uPGI-YmFuZ2Fsb3JlPC9iPkBkYWFkLmRlLiZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZUaTY5ZE5WalkyTnJDdnBLUTQ4LWtLMnh3ZFNDUUJuSm5EanhHZzUtUXN6MjMxRWtJcXF4ai05d09SeUdld05pc3lVNlE2WlVKaG40d014ZVVKa0JtLU9HemFacHp4SWdOY3ZVUG41WWt2dl9nTmEycDhlaW5MNzZSNXhRU0ZxTUhyZHI4Z09iMm53aWpVcFpZMzVpUTNRSmVrVlU1Q0hDYUhteGtmeEJxMWdsbFU0Z1ZpaxIEGgIIABq9BBICCAAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAgwQIABAAGAAgACpHCgEyFUjfjUAaDzIgYmhrIGFwYXJ0bWVudBoLMiBiaGsgZmxhdHMaBDJiaGsaCTJiaGsgZmxhdBoEMmJoaxoIMmJoa2ZsYXQyygEvZ290bz91cmw9Q0FFU2l3RUI2enN3RlRpNjlkTlZqWTJOckN2cEtRNDgta0syeHdkU0NRQm5KbkRqeEdnNS1Rc3oyMzFFa0lxcXhqLTl3T1J5R2V3TmlzeVU2UTZaVUpobjR3TXhlVUprQm0tT0d6YVpwenhJZ05jdlVQbjVZa3Z2X2dOYTJwOGVpbkw3NlI1eFFTRnFNSHJkcjhnT2IybndpalVwWlkzNWlRM1FKZWtWVTVDSENhSG14a2Z4QnExZ2xsVTRnVmlrOihEQUFEIEluZm9ybWF0aW9uIENlbnRyZSA8Yj5CYW5nYWxvcmU8L2I-Qq8BVGhlIEluZm9ybWF0aW9uIENlbnRyZSBpbiBCZW5nYWx1cnUgaXMgcmVzcG9uc2libGUgZm9yIGNhcnJ5aW5nIG91dCBEQUFEIGFjdGl2aXRpZXMgaW4gS2FybmF0YWthLiBCZW5nYWx1cnUgNTYwMDUyIFRlbC4gKzkxIDk2ODYyIDc2NDE5IGluZm8uPGI-YmFuZ2Fsb3JlPC9iPkBkYWFkLmRlLiZuYnNwOy4uLkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "DAAD India"
+   },
+   {
+    "position": 4,
+    "title": "r/bangalore",
+    "link": "https://www.reddit.com/r/bangalore/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXgHrOzAVR7qiDSNGCzFxJxLIu1KqWfIDfYXfXqpNcGiGHw0DHrd3b7qEqKbrimV5dlEAgSvCMg-UhcnKv63WLXv9swOY1qyXG5qmwtn9J1RWkOp6b-8UXdoxmpWwbtU&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0QFnoECBcQAQ&uoh=1",
+    "displayed_link": "11.1L+ followers",
+    "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+    "snippet": "Welcome to r/bangalore. The one and only official Reddit page of Namma Bengaluru. parts of Karnataka is to be posted in r/Karnataka. al important news ...",
+    "snippet_highlighted_words": [
+     "bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Welcome to r/bangalore. The one and only official Reddit page of Namma Bengaluru. parts of Karnataka is to be posted in r/Karnataka. al important news ...",
+      "source_info_link": "https://www.reddit.com/r/bangalore/",
+      "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVlI3cWlEU05HQ3pGeEp4TEl1MUtxV2ZJRGZZWGZYcXBOY0dpR0h3MERIcmQzYjdxRXFLYnJpbVY1ZGxFQWdTdkNNZy1VaGNuS3Y2M1dMWHY5c3dPWTFxeVhHNXFtd3RuOUoxUldrT3A2Yi04VVhkb3htcFd3YnRVEgQaAggAGuoDEgIIARoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCwAwgAEAAYACAAKkcKATIVspE1QBoPMiBiaGsgYXBhcnRtZW50GgsyIGJoayBmbGF0cxoEMmJoaxoJMmJoayBmbGF0GgQyYmhrGggyYmhrZmxhdDKNAS9nb3RvP3VybD1DQUVTWGdIck96QVZSN3FpRFNOR0N6RnhKeExJdTFLcVdmSURmWVhmWHFwTmNHaUdIdzBESHJkM2I3cUVxS2JyaW1WNWRsRUFnU3ZDTWctVWhjbkt2NjNXTFh2OXN3T1kxcXlYRzVxbXd0bjlKMVJXa09wNmItOFVYZG94bXBXd2J0VTobci88Yj5iYW5nYWxvcmU8L2I-IC0gUmVkZGl0QqYBV2VsY29tZSB0byByLzxiPmJhbmdhbG9yZTwvYj4uIFRoZSBvbmUgYW5kIG9ubHkgb2ZmaWNpYWwgUmVkZGl0IHBhZ2Ugb2YgTmFtbWEgQmVuZ2FsdXJ1LiBwYXJ0cyBvZiBLYXJuYXRha2EgaXMgdG8gYmUgcG9zdGVkIGluIHIvS2FybmF0YWthLiBhbCBpbXBvcnRhbnQgbmV3cyZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVlI3cWlEU05HQ3pGeEp4TEl1MUtxV2ZJRGZZWGZYcXBOY0dpR0h3MERIcmQzYjdxRXFLYnJpbVY1ZGxFQWdTdkNNZy1VaGNuS3Y2M1dMWHY5c3dPWTFxeVhHNXFtd3RuOUoxUldrT3A2Yi04VVhkb3htcFd3YnRVEgQaAggAGuoDEgIIARoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCwAwgAEAAYACAAKkcKATIVspE1QBoPMiBiaGsgYXBhcnRtZW50GgsyIGJoayBmbGF0cxoEMmJoaxoJMmJoayBmbGF0GgQyYmhrGggyYmhrZmxhdDKNAS9nb3RvP3VybD1DQUVTWGdIck96QVZSN3FpRFNOR0N6RnhKeExJdTFLcVdmSURmWVhmWHFwTmNHaUdIdzBESHJkM2I3cUVxS2JyaW1WNWRsRUFnU3ZDTWctVWhjbkt2NjNXTFh2OXN3T1kxcXlYRzVxbXd0bjlKMVJXa09wNmItOFVYZG94bXBXd2J0VTobci88Yj5iYW5nYWxvcmU8L2I-IC0gUmVkZGl0QqYBV2VsY29tZSB0byByLzxiPmJhbmdhbG9yZTwvYj4uIFRoZSBvbmUgYW5kIG9ubHkgb2ZmaWNpYWwgUmVkZGl0IHBhZ2Ugb2YgTmFtbWEgQmVuZ2FsdXJ1LiBwYXJ0cyBvZiBLYXJuYXRha2EgaXMgdG8gYmUgcG9zdGVkIGluIHIvS2FybmF0YWthLiBhbCBpbXBvcnRhbnQgbmV3cyZuYnNwOy4uLkoDZm9ySgJpbiICEAFIAFgAaAA",
+    "source": "Reddit · r/bangalore"
+   },
+   {
+    "position": 5,
+    "title": "Bangalore Principles of Judicial Conduct (2002)",
+    "link": "https://www.unodc.org/pdf/crime/corruption/judicial_group/Bangalore_principles.pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjQEB6zswFbDfzJ01Pjjm_3uOAN9KI6_sciSUGXDYo-i4v1843-5ETsZpbJ4bFT5L9Q-jnsSOzXxAb4Lnh0rl7ubVOt92m6wilPKEMY1ohxdFw_I-ZsDw8p-KVSPYEDc5nx5YJYW5XNGAEo-bUZ6xx9IAhL8-WCMNU2bEFjbIeoboj0MGg7t2k76pJNhj724&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0QFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://www.unodc.org › crime › judicial_group",
+    "favicon": "https://serpapi.com/images/i/UklGRlABAABXRUJQVlA4IEQBAABwBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0vbaQLkA3lVGgrgJUD2RvY_IzDs2OjaCQ1Mjy9DSa658aop98SubgoAAD-9gL9ZZZ3FzljfbV2J5xndxqjy6dL_pPBOnhkT5n-N0l1JHxv-b4zOniADQAra1vzBIBAZ6pft6CYtIhUm0xfJj_f8uy-C7b8TYOW3DvN7ytfsYjL03yZwr4jRp1yDDx9skEOtYoM6Ouc7nb-u2Ci1AnSJd83EIKU4KjSw7e9ED_V0mEPhsFrz5nflCt5-5r07VEbbQd0QQLeIXqlZewpBrZZ_OD3Kri9eakinkQCdHI3rA_ymgyQI7s9oLOPqrkU2N4vo0W2wMv0oOZ5qOu9dojt39a3egIs626epU3XdnWx6ptvel1SUMLExsAQTYIKJ2smLd4pczLyaugAAAA.webp",
+    "snippet": "A judge shall exhibit and promote high standards of judicial conduct",
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "pages": 11
+      },
+      "extensions": [
+       "11 pages"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "A judge shall exhibit and promote high standards of judicial conduct",
+      "source_info_link": "https://www.unodc.org/pdf/crime/corruption/judicial_group/Bangalore_principles.pdf",
+      "icon": "https://serpapi.com/images/i/UklGRlABAABXRUJQVlA4IEQBAABwBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0vbaQLkA3lVGgrgJUD2RvY_IzDs2OjaCQ1Mjy9DSa658aop98SubgoAAD-9gL9ZZZ3FzljfbV2J5xndxqjy6dL_pPBOnhkT5n-N0l1JHxv-b4zOniADQAra1vzBIBAZ6pft6CYtIhUm0xfJj_f8uy-C7b8TYOW3DvN7ytfsYjL03yZwr4jRp1yDDx9skEOtYoM6Ouc7nb-u2Ci1AnSJd83EIKU4KjSw7e9ED_V0mEPhsFrz5nflCt5-5r07VEbbQd0QQLeIXqlZewpBrZZ_OD3Kri9eakinkQCdHI3rA_ymgyQI7s9oLOPqrkU2N4vo0W2wMv0oOZ5qOu9dojt39a3egIs626epU3XdnWx6ptvel1SUMLExsAQTYIKJ2smLd4pczLyaugAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZiRGZ6SjAxUGpqbV8zdU9BTjlLSTZfc2NpU1VHWERZby1pNHYxODQzLTVFVHNacGJKNGJGVDVMOVEtam5zU096WHhBYjRMbmgwcmw3dWJWT3Q5Mm02d2lsUEtFTVkxb2h4ZEZ3X0ktWnNEdzhwLUtWU1BZRURjNW54NVlKWVc1WE5HQUVvLWJVWjZ4eDlJQWhMOC1XQ01OVTJiRUZqYkllb2JvajBNR2c3dDJrNzZwSk5oajcyNBIEGgIIABrqAxICCAEaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAsAMIABAAGAAgACpHCgEyFY5nLUAaDzIgYmhrIGFwYXJ0bWVudBoLMiBiaGsgZmxhdHMaBDJiaGsaCTJiaGsgZmxhdBoEMmJoaxoIMmJoa2ZsYXQyzQEvZ290bz91cmw9Q0FFU2pRRUI2enN3RmJEZnpKMDFQamptXzN1T0FOOUtJNl9zY2lTVUdYRFlvLWk0djE4NDMtNUVUc1pwYko0YkZUNUw5US1qbnNTT3pYeEFiNExuaDBybDd1YlZPdDkybTZ3aWxQS0VNWTFvaHhkRndfSS1ac0R3OHAtS1ZTUFlFRGM1bng1WUpZVzVYTkdBRW8tYlVaNnh4OUlBaEw4LVdDTU5VMmJFRmpiSWVvYm9qME1HZzd0Mms3NnBKTmhqNzI0Oj48Yj5CYW5nYWxvcmU8L2I-IFByaW5jaXBsZXMgb2YgSnVkaWNpYWwgQ29uZHVjdCAoMjAwMikgLSBVTk9EQ0JEQSBqdWRnZSBzaGFsbCBleGhpYml0IGFuZCBwcm9tb3RlIGhpZ2ggc3RhbmRhcmRzIG9mIGp1ZGljaWFsIGNvbmR1Y3RKAmluSgNmb3IiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZiRGZ6SjAxUGpqbV8zdU9BTjlLSTZfc2NpU1VHWERZby1pNHYxODQzLTVFVHNacGJKNGJGVDVMOVEtam5zU096WHhBYjRMbmgwcmw3dWJWT3Q5Mm02d2lsUEtFTVkxb2h4ZEZ3X0ktWnNEdzhwLUtWU1BZRURjNW54NVlKWVc1WE5HQUVvLWJVWjZ4eDlJQWhMOC1XQ01OVTJiRUZqYkllb2JvajBNR2c3dDJrNzZwSk5oajcyNBIEGgIIABrqAxICCAEaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAsAMIABAAGAAgACpHCgEyFY5nLUAaDzIgYmhrIGFwYXJ0bWVudBoLMiBiaGsgZmxhdHMaBDJiaGsaCTJiaGsgZmxhdBoEMmJoaxoIMmJoa2ZsYXQyzQEvZ290bz91cmw9Q0FFU2pRRUI2enN3RmJEZnpKMDFQamptXzN1T0FOOUtJNl9zY2lTVUdYRFlvLWk0djE4NDMtNUVUc1pwYko0YkZUNUw5US1qbnNTT3pYeEFiNExuaDBybDd1YlZPdDkybTZ3aWxQS0VNWTFvaHhkRndfSS1ac0R3OHAtS1ZTUFlFRGM1bng1WUpZVzVYTkdBRW8tYlVaNnh4OUlBaEw4LVdDTU5VMmJFRmpiSWVvYm9qME1HZzd0Mms3NnBKTmhqNzI0Oj48Yj5CYW5nYWxvcmU8L2I-IFByaW5jaXBsZXMgb2YgSnVkaWNpYWwgQ29uZHVjdCAoMjAwMikgLSBVTk9EQ0JEQSBqdWRnZSBzaGFsbCBleGhpYml0IGFuZCBwcm9tb3RlIGhpZ2ggc3RhbmRhcmRzIG9mIGp1ZGljaWFsIGNvbmR1Y3RKAmluSgNmb3IiAhABSABYAGgA",
+    "source": "United Nations Office on Drugs and Crime"
+   },
+   {
+    "position": 6,
+    "title": "Bangalore: India's Silicon Valley, a city straining under pressure",
+    "link": "https://www.youtube.com/watch?v=xZs5ZyM8exA",
+    "displayed_link": "5.8L+ views · 4 months ago",
+    "thumbnail": "https://serpapi.com/searches/6ac1d87b3ee4c26e91f6ac1b/images/TdIoOfB8Nv3OwHK_5HoLcNpDaebjECHfUtJ3kH2eCpc.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "Bengaluru, still popularly known as Bangalore, has transformed into India's Silicon Valley. The South Indian city of nearly 15 million people ...",
+    "duration": "15:32",
+    "about_this_result": {
+     "source": {
+      "description": "Bengaluru, still popularly known as Bangalore, has transformed into India's Silicon Valley. The South Indian city of nearly 15 million people ...",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVkhGdzQ4LTJmVXE2aGh1bm01MGpESDdOQXJMVWZjaEJPWFphSE5TTHJ1ZjFidmRuNFk2dVk4c0U5bURPdUplQnl2LXd3Zy1pbjhiZ2lBUFRLSFZyWTQ1ZUFjYkZvZUM2WDlpUUlrdmtaNjlSSE9jXzZ5UzlzVm5KbXh1ejRLdlZCckESFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVkhGdzQ4LTJmVXE2aGh1bm01MGpESDdOQXJMVWZjaEJPWFphSE5TTHJ1ZjFidmRuNFk2dVk4c0U5bURPdUplQnl2LXd3Zy1pbjhiZ2lBUFRLSFZyWTQ1ZUFjYkZvZUM2WDlpUUlrdmtaNjlSSE9jXzZ5UzlzVm5KbXh1ejRLdlZCckESFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSmY8ua1RD4KpjvF8wYrci1NBttCrKAACgWig",
+    "source": "YouTube · FRANCE 24 English"
+   },
+   {
+    "position": 7,
+    "title": "Bengaluru | History, Points of Interest, & Facts",
+    "link": "https://www.britannica.com/place/Bangalore-India",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESawHrOzAVn3_0WXOErKoNq85UkOw2Ma7gPvGTr45fZHw6wixcb4NKaHcPFPWONkpzNOcsOITcJZKcv1EVKKCD_-GTGxzAmjXWCyVMLkgDMFTq4JEbG5QCqoq0OX7-KId5ck1zPXj5SNnRbDB7&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0QFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.britannica.com › place › Bangalore-India",
+    "favicon": "https://serpapi.com/images/i/UklGRsIBAABXRUJQVlA4ILYBAADwCACdASogACAAPtE-tFooIigoFAEAGglqAJ0yy8Z4HYK8ufftA9jv017Af6x-kB7APQrTb2N0E-CzEqWCas8PAGtfs_hy1cd_Q-LxctPZgAD-0olmCDofFrwKNFJefRmYKRj8vZV0-MDEa3lnaI83UKUXRFf6nDzQB5JS4_F7TveOvzOY-fcRKtGW56THLd_2CUOwdS_0VZCKBSj_6uThdoY_tS3o3suv43iMshKMU0cih3wGuNpo2cEMKi7voFu7nl7B2UZT0UQOP_Gw33S6P-tlvj-N6MYNXDLikRV6L_jeJfhqBckx77otMycRIceJ6Z_TVxM_CspTu9nbuGuaNKZ7UQ91cLlucL5S_x0upmNDhJO51OvZr2ztTM7Q6aCPRMJfWNXyJlg16k3-zkqTn9IhOYJoCWagmE5A4-P28BP9L0NTEB_VayiHJyZ0J9WBpXLaF0y7pzd_x4T7lN2KEnk0EHPB0oa_Ro4EySv9WmrmEs5UjpKBDugoP2tQ8egNslCHCcL1Ib6jKNKNZ1gOqXq3JVAg-8-2opbfs2D56-nN7OcWhW1xCS3TXFBtN4BRG_AAAAA.webp",
+    "date": "4 days ago",
+    "snippet": "Bengaluru, capital city of Karnataka state in southern India. It is one of India's largest cities, lying 3113 feet (949 meters) above sea ...",
+    "about_this_result": {
+     "source": {
+      "description": "Bengaluru, capital city of Karnataka state in southern India. It is one of India's largest cities, lying 3113 feet (949 meters) above sea ...",
+      "source_info_link": "https://www.britannica.com/place/Bangalore-India",
+      "icon": "https://serpapi.com/images/i/UklGRsIBAABXRUJQVlA4ILYBAADwCACdASogACAAPtE-tFooIigoFAEAGglqAJ0yy8Z4HYK8ufftA9jv017Af6x-kB7APQrTb2N0E-CzEqWCas8PAGtfs_hy1cd_Q-LxctPZgAD-0olmCDofFrwKNFJefRmYKRj8vZV0-MDEa3lnaI83UKUXRFf6nDzQB5JS4_F7TveOvzOY-fcRKtGW56THLd_2CUOwdS_0VZCKBSj_6uThdoY_tS3o3suv43iMshKMU0cih3wGuNpo2cEMKi7voFu7nl7B2UZT0UQOP_Gw33S6P-tlvj-N6MYNXDLikRV6L_jeJfhqBckx77otMycRIceJ6Z_TVxM_CspTu9nbuGuaNKZ7UQ91cLlucL5S_x0upmNDhJO51OvZr2ztTM7Q6aCPRMJfWNXyJlg16k3-zkqTn9IhOYJoCWagmE5A4-P28BP9L0NTEB_VayiHJyZ0J9WBpXLaF0y7pzd_x4T7lN2KEnk0EHPB0oa_Ro4EySv9WmrmEs5UjpKBDugoP2tQ8egNslCHCcL1Ib6jKNKNZ1gOqXq3JVAg-8-2opbfs2D56-nN7OcWhW1xCS3TXFBtN4BRG_AAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVm4zXzBXWE9FcktvTnE4NVVrT3cyTWE3Z1B2R1RyNDVmWkh3NndpeGNiNE5LYUhjUEZQV09Oa3B6Tk9jc09JVGNKWktjdjFFVktLQ0RfLUdUR3h6QW1qWFdDeVZNTGtnRE1GVHE0SkViRzVRQ3FvcTBPWDctS0lkNWNrMXpQWGo1U05uUmJEQjcSBBoCCAAakwQSAggBGgAiAggBKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA1wMIABAAGAAgACpHCgEyFXq4GEAaDzIgYmhrIGFwYXJ0bWVudBoLMiBiaGsgZmxhdHMaBDJiaGsaCTJiaGsgZmxhdBoEMmJoaxoIMmJoa2ZsYXQyngEvZ290bz91cmw9Q0FFU2F3SHJPekFWbjNfMFdYT0VyS29OcTg1VWtPdzJNYTdnUHZHVHI0NWZaSHc2d2l4Y2I0TkthSGNQRlBXT05rcHpOT2NzT0lUY0paS2N2MUVWS0tDRF8tR1RHeHpBbWpYV0N5Vk1Ma2dETUZUcTRKRWJHNVFDcW9xME9YNy1LSWQ1Y2sxelBYajVTTm5SYkRCNzpBQmVuZ2FsdXJ1IHwgSGlzdG9yeSwgUG9pbnRzIG9mIEludGVyZXN0LCAmYW1wOyBGYWN0cyB8IEJyaXRhbm5pY2FClgFCZW5nYWx1cnUsIGNhcGl0YWwgY2l0eSBvZiBLYXJuYXRha2Egc3RhdGUgaW4gc291dGhlcm4gSW5kaWEuIEl0IGlzIG9uZSBvZiBJbmRpYSYjMzk7cyBsYXJnZXN0IGNpdGllcywgbHlpbmcgMzExMyBmZWV0ICg5NDkgbWV0ZXJzKSBhYm92ZSBzZWEmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVm4zXzBXWE9FcktvTnE4NVVrT3cyTWE3Z1B2R1RyNDVmWkh3NndpeGNiNE5LYUhjUEZQV09Oa3B6Tk9jc09JVGNKWktjdjFFVktLQ0RfLUdUR3h6QW1qWFdDeVZNTGtnRE1GVHE0SkViRzVRQ3FvcTBPWDctS0lkNWNrMXpQWGo1U05uUmJEQjcSBBoCCAAakwQSAggBGgAiAggBKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA1wMIABAAGAAgACpHCgEyFXq4GEAaDzIgYmhrIGFwYXJ0bWVudBoLMiBiaGsgZmxhdHMaBDJiaGsaCTJiaGsgZmxhdBoEMmJoaxoIMmJoa2ZsYXQyngEvZ290bz91cmw9Q0FFU2F3SHJPekFWbjNfMFdYT0VyS29OcTg1VWtPdzJNYTdnUHZHVHI0NWZaSHc2d2l4Y2I0TkthSGNQRlBXT05rcHpOT2NzT0lUY0paS2N2MUVWS0tDRF8tR1RHeHpBbWpYV0N5Vk1Ma2dETUZUcTRKRWJHNVFDcW9xME9YNy1LSWQ1Y2sxelBYajVTTm5SYkRCNzpBQmVuZ2FsdXJ1IHwgSGlzdG9yeSwgUG9pbnRzIG9mIEludGVyZXN0LCAmYW1wOyBGYWN0cyB8IEJyaXRhbm5pY2FClgFCZW5nYWx1cnUsIGNhcGl0YWwgY2l0eSBvZiBLYXJuYXRha2Egc3RhdGUgaW4gc291dGhlcm4gSW5kaWEuIEl0IGlzIG9uZSBvZiBJbmRpYSYjMzk7cyBsYXJnZXN0IGNpdGllcywgbHlpbmcgMzExMyBmZWV0ICg5NDkgbWV0ZXJzKSBhYm92ZSBzZWEmbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "Britannica"
+   },
+   {
+    "position": 8,
+    "title": "TiE Bangalore",
+    "link": "https://bangalore.tie.org/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESVQHrOzAV5FOF8wiQ9PjYK60QnqioUs2mrAGm4ORrDFxELYcFxnlA5sfnwR_I5vaBYbrQMkMpuVSANoOZ8Y6XRtLxPzsl35sIQXJzM-X0HpX4zV2HTa4&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0QFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://bangalore.tie.org",
+    "favicon": "https://serpapi.com/images/i/UklGRlIBAABXRUJQVlA4IEYBAADQBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0dkU8A5EDWcvQA6UZvq4NaYAF_xgLfMTQKBT83rgS6ZWcJtAAA_vYGFH42Eb8id2gUiprXJszDvFg59TZijKNivedlVrYJOTQzJBrK6sQzkjeNwlMB8g3gmlUtYLnXOv8sstzQ7Kjx_QzRfRvtSR8hhCnT6NG3u8LWs67BJfwwLB1faii6MyrcWghlGsW2RDrDCLNQYBdDoLnOnx1pgeV4qs0r_COnAGPRNPNwISXU3A9Hq8FgfoaRSwWsplzXORHodVNLK8av8Ts-7bMIfe4lb7gp8rbYrrjeFz5vnzgcx1yTEv2D1_uyxX857EBfmJXX8dtv9GuE28SsHxiC_-Fx-YqlUpbYvNVX_iESkfUDxUeW1SFlPI1NXXpVPz_X_P-jnVPbJck-poAAAA.webp",
+    "snippet": "Where Founders Grow & Communities Thrive. At TiE Bangalore, we don't offer one-size-fits-all solutions — we build a thriving community that empowers you.",
+    "snippet_highlighted_words": [
+     "Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Where Founders Grow & Communities Thrive. At TiE Bangalore, we don't offer one-size-fits-all solutions — we build a thriving community that empowers you.",
+      "source_info_link": "https://bangalore.tie.org/",
+      "icon": "https://serpapi.com/images/i/UklGRlIBAABXRUJQVlA4IEYBAADQBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0dkU8A5EDWcvQA6UZvq4NaYAF_xgLfMTQKBT83rgS6ZWcJtAAA_vYGFH42Eb8id2gUiprXJszDvFg59TZijKNivedlVrYJOTQzJBrK6sQzkjeNwlMB8g3gmlUtYLnXOv8sstzQ7Kjx_QzRfRvtSR8hhCnT6NG3u8LWs67BJfwwLB1faii6MyrcWghlGsW2RDrDCLNQYBdDoLnOnx1pgeV4qs0r_COnAGPRNPNwISXU3A9Hq8FgfoaRSwWsplzXORHodVNLK8av8Ts-7bMIfe4lb7gp8rbYrrjeFz5vnzgcx1yTEv2D1_uyxX857EBfmJXX8dtv9GuE28SsHxiC_-Fx-YqlUpbYvNVX_iESkfUDxUeW1SFlPI1NXXpVPz_X_P-jnVPbJck-poAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoEBL2dvdG8_dXJsPUNBRVNWUUhyT3pBVjVGT0Y4d2lROVBqWUs2MFFucWlvVXMybXJBR200T1JyREZ4RUxZY0Z4bmxBNXNmbndSX0k1dmFCWWJyUU1rTXB1VlNBTm9PWjhZNlhSdEx4UHpzbDM1c0lRWEp6TS1YMEhwWDR6VjJIVGE0EgQaAggAGtsDEgIIARoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkChAwgAEAAYACAAKkcKATIVmnmhQBoPMiBiaGsgYXBhcnRtZW50GgsyIGJoayBmbGF0cxoEMmJoaxoJMmJoayBmbGF0GgQyYmhrGggyYmhrZmxhdDKBAS9nb3RvP3VybD1DQUVTVlFIck96QVY1Rk9GOHdpUTlQallLNjBRbnFpb1VzMm1yQUdtNE9SckRGeEVMWWNGeG5sQTVzZm53Ul9JNXZhQlliclFNa01wdVZTQU5vT1o4WTZYUnRMeFB6c2wzNXNJUVhKek0tWDBIcFg0elYySFRhNDoUVGlFIDxiPkJhbmdhbG9yZTwvYj5CqgFXaGVyZSBGb3VuZGVycyBHcm93ICZhbXA7IENvbW11bml0aWVzIFRocml2ZS4gQXQgVGlFIDxiPkJhbmdhbG9yZTwvYj4sIHdlIGRvbiYjMzk7dCBvZmZlciBvbmUtc2l6ZS1maXRzLWFsbCBzb2x1dGlvbnMg4oCUIHdlIGJ1aWxkIGEgdGhyaXZpbmcgY29tbXVuaXR5IHRoYXQgZW1wb3dlcnMgeW91LkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoEBL2dvdG8_dXJsPUNBRVNWUUhyT3pBVjVGT0Y4d2lROVBqWUs2MFFucWlvVXMybXJBR200T1JyREZ4RUxZY0Z4bmxBNXNmbndSX0k1dmFCWWJyUU1rTXB1VlNBTm9PWjhZNlhSdEx4UHpzbDM1c0lRWEp6TS1YMEhwWDR6VjJIVGE0EgQaAggAGtsDEgIIARoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkChAwgAEAAYACAAKkcKATIVmnmhQBoPMiBiaGsgYXBhcnRtZW50GgsyIGJoayBmbGF0cxoEMmJoaxoJMmJoayBmbGF0GgQyYmhrGggyYmhrZmxhdDKBAS9nb3RvP3VybD1DQUVTVlFIck96QVY1Rk9GOHdpUTlQallLNjBRbnFpb1VzMm1yQUdtNE9SckRGeEVMWWNGeG5sQTVzZm53Ul9JNXZhQlliclFNa01wdVZTQU5vT1o4WTZYUnRMeFB6c2wzNXNJUVhKek0tWDBIcFg0elYySFRhNDoUVGlFIDxiPkJhbmdhbG9yZTwvYj5CqgFXaGVyZSBGb3VuZGVycyBHcm93ICZhbXA7IENvbW11bml0aWVzIFRocml2ZS4gQXQgVGlFIDxiPkJhbmdhbG9yZTwvYj4sIHdlIGRvbiYjMzk7dCBvZmZlciBvbmUtc2l6ZS1maXRzLWFsbCBzb2x1dGlvbnMg4oCUIHdlIGJ1aWxkIGEgdGhyaXZpbmcgY29tbXVuaXR5IHRoYXQgZW1wb3dlcnMgeW91LkoCaW5KA2ZvciICEAFIAFgAaAA",
+    "source": "TiE Bangalore",
+    "read_more_link": "https://bangalore.tie.org/#:~:text=Where%20Founders%20Grow%20%26%20Communities,thriving%20community%20that%20empowers%20you."
+   },
+   {
+    "position": 9,
+    "title": "TRAVEL BANGALORE LIKE A LOCAL | 45 spots, 30+ Cafes ...",
+    "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE",
+    "displayed_link": "1.8L+ views · 3 months ago",
+    "thumbnail": "https://serpapi.com/searches/6ac1d87b3ee4c26e91f6ac1b/images/TdIoOfB8Nv3OwHK_5HoLcIee8B0VDlvJzB_Gve0_K9A.jpeg",
+    "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+    "snippet": "TRAVEL BANGALORE LIKE A LOCAL | 45 spots, 30+ Cafes, Budget & More · Comments.",
+    "duration": "32:26",
+    "key_moments": [
+     {
+      "time": "00:00",
+      "title": "Intro",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=0"
+     },
+     {
+      "time": "00:17",
+      "title": "Places to Visit Section",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=17"
+     },
+     {
+      "time": "10:08",
+      "title": "PDF Travel Guidebook",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=608"
+     },
+     {
+      "time": "11:36",
+      "title": "Property Recommendations in Bangalore",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=696"
+     },
+     {
+      "time": "13:35",
+      "title": "Food, Restaurants & Cafes List",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=815"
+     },
+     {
+      "time": "16:38",
+      "title": "Commute Options",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=998"
+     },
+     {
+      "time": "19:14",
+      "title": "Budget",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=1154"
+     },
+     {
+      "time": "19:56",
+      "title": "Mistakes To Avoid in Bangalore",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=1196"
+     },
+     {
+      "time": "20:51",
+      "title": "FAQs - best time to visit, safety etc",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=1251"
+     },
+     {
+      "time": "23:08",
+      "title": "More places to visit & offbeat spots",
+      "link": "https://www.youtube.com/watch?v=OHwrfiPEuHE&t=1388"
+     }
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "TRAVEL BANGALORE LIKE A LOCAL | 45 spots, 30+ Cafes, Budget & More · Comments.",
+      "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+     }
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVmZnSTZ2WHZmbnZLSVk2Tlg0WnlWQXMwT0lHMFhpZ1VNMDdER3RsNGwtYzRNN1o1RWNRY0lyWHBYd0UwQVE3Z0htcUc1S3JMdkNRUks4NDRqTjgzM1lQb19GXzNaOHl2VTI3YVp0QlJGNEQzN0t1ck9IWVNsZlB5aW1OMUtmYWFUdWcSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpgBL2dvdG8_dXJsPUNBRVNaZ0hyT3pBVmZnSTZ2WHZmbnZLSVk2Tlg0WnlWQXMwT0lHMFhpZ1VNMDdER3RsNGwtYzRNN1o1RWNRY0lyWHBYd0UwQVE3Z0htcUc1S3JMdkNRUks4NDRqTjgzM1lQb19GXzNaOHl2VTI3YVp0QlJGNEQzN0t1ck9IWVNsZlB5aW1OMUtmYWFUdWcSFgoQCgQIMEgCCgQISEgCCgIIPxoCCAAaFhIAGgAiACoAMgA6AEIASgBaAHIAegAiAhABSABYAGgA",
+    "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRxo0RjjBt8haJn5JriH8hDNeriRDEnoeu1Ig",
+    "source": "YouTube · Xplore The Earth"
+   },
+   {
+    "position": 10,
+    "title": "Is Bangalore worth it as a foreigner? : r/india_tourism",
+    "link": "https://www.reddit.com/r/india_tourism/comments/1qo57f4/is_bangalore_worth_it_as_a_foreigner/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmAEB6zswFW_Z-njbA0as5BQrX4B4nzSFIwb9p6-1w0N8kJWpfZ6yjm0jbG6CA6_oH7gcMaaRIWPIjMzjgFeeckwAxZjFsXqGpsBRy4l5lVd-E5BcjWsZ8PL-65Fow1LFFbKNCHMVFTMWaPO2BoTfQeW8qRZ7eGFn4plAbg_RUe3eMC5fgm6DLzEcV0g0KjgI7luhLB-zmm2_rg&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0QFnoECBUQAQ&uoh=1",
+    "displayed_link": "20+ comments · 8 months ago",
+    "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+    "snippet": "Hello! I am in South India right now as a foreigner, I am wondering if its worth seeing Bangalore for a few nights? my other option is to ...",
+    "snippet_highlighted_words": [
+     "Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Hello! I am in South India right now as a foreigner, I am wondering if its worth seeing Bangalore for a few nights? my other option is to ...",
+      "source_info_link": "https://www.reddit.com/r/india_tourism/comments/1qo57f4/is_bangalore_worth_it_as_a_foreigner/",
+      "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtwBL2dvdG8_dXJsPUNBRVNtQUVCNnpzd0ZXX1otbmpiQTBhczVCUXJYNEI0bnpTRkl3YjlwNi0xdzBOOGtKV3BmWjZ5am0wamJHNkNBNl9vSDdnY01hYVJJV1BJak16amdGZWVja3dBeFpqRnNYcUdwc0JSeTRsNWxWZC1FNUJjaldzWjhQTC02NUZvdzFMRkZiS05DSE1WRlRNV2FQTzJCb1RmUWVXOHFSWjdlR0ZuNHBsQWJnX1JVZTNlTUM1ZmdtNkRMekVjVjBnMEtqZ0k3bHVoTEItem1tMl9yZxIEGgIIABrWBBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQJ4ECAAQABgAIAAqRwoBMhXooZJAGg8yIGJoayBhcGFydG1lbnQaCzIgYmhrIGZsYXRzGgQyYmhrGgkyYmhrIGZsYXQaBDJiaGsaCDJiaGtmbGF0MtwBL2dvdG8_dXJsPUNBRVNtQUVCNnpzd0ZXX1otbmpiQTBhczVCUXJYNEI0bnpTRkl3YjlwNi0xdzBOOGtKV3BmWjZ5am0wamJHNkNBNl9vSDdnY01hYVJJV1BJak16amdGZWVja3dBeFpqRnNYcUdwc0JSeTRsNWxWZC1FNUJjaldzWjhQTC02NUZvdzFMRkZiS05DSE1WRlRNV2FQTzJCb1RmUWVXOHFSWjdlR0ZuNHBsQWJnX1JVZTNlTUM1ZmdtNkRMekVjVjBnMEtqZ0k3bHVoTEItem1tMl9yZzpHSXMgPGI-QmFuZ2Fsb3JlPC9iPiB3b3J0aCBpdCBhcyBhIGZvcmVpZ25lcj8gOiByL2luZGlhX3RvdXJpc20gLSBSZWRkaXRCmQFIZWxsbyEgSSBhbSBpbiBTb3V0aCBJbmRpYSByaWdodCBub3cgYXMgYSBmb3JlaWduZXIsIEkgYW0gd29uZGVyaW5nIGlmIGl0cyB3b3J0aCBzZWVpbmcgPGI-QmFuZ2Fsb3JlPC9iPiBmb3IgYSBmZXcgbmlnaHRzPyBteSBvdGhlciBvcHRpb24gaXMgdG8mbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtwBL2dvdG8_dXJsPUNBRVNtQUVCNnpzd0ZXX1otbmpiQTBhczVCUXJYNEI0bnpTRkl3YjlwNi0xdzBOOGtKV3BmWjZ5am0wamJHNkNBNl9vSDdnY01hYVJJV1BJak16amdGZWVja3dBeFpqRnNYcUdwc0JSeTRsNWxWZC1FNUJjaldzWjhQTC02NUZvdzFMRkZiS05DSE1WRlRNV2FQTzJCb1RmUWVXOHFSWjdlR0ZuNHBsQWJnX1JVZTNlTUM1ZmdtNkRMekVjVjBnMEtqZ0k3bHVoTEItem1tMl9yZxIEGgIIABrWBBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQJ4ECAAQABgAIAAqRwoBMhXooZJAGg8yIGJoayBhcGFydG1lbnQaCzIgYmhrIGZsYXRzGgQyYmhrGgkyYmhrIGZsYXQaBDJiaGsaCDJiaGtmbGF0MtwBL2dvdG8_dXJsPUNBRVNtQUVCNnpzd0ZXX1otbmpiQTBhczVCUXJYNEI0bnpTRkl3YjlwNi0xdzBOOGtKV3BmWjZ5am0wamJHNkNBNl9vSDdnY01hYVJJV1BJak16amdGZWVja3dBeFpqRnNYcUdwc0JSeTRsNWxWZC1FNUJjaldzWjhQTC02NUZvdzFMRkZiS05DSE1WRlRNV2FQTzJCb1RmUWVXOHFSWjdlR0ZuNHBsQWJnX1JVZTNlTUM1ZmdtNkRMekVjVjBnMEtqZ0k3bHVoTEItem1tMl9yZzpHSXMgPGI-QmFuZ2Fsb3JlPC9iPiB3b3J0aCBpdCBhcyBhIGZvcmVpZ25lcj8gOiByL2luZGlhX3RvdXJpc20gLSBSZWRkaXRCmQFIZWxsbyEgSSBhbSBpbiBTb3V0aCBJbmRpYSByaWdodCBub3cgYXMgYSBmb3JlaWduZXIsIEkgYW0gd29uZGVyaW5nIGlmIGl0cyB3b3J0aCBzZWVpbmcgPGI-QmFuZ2Fsb3JlPC9iPiBmb3IgYSBmZXcgbmlnaHRzPyBteSBvdGhlciBvcHRpb24gaXMgdG8mbmJzcDsuLi5KA2ZvckoCaW4iAhABSABYAGgA",
+    "source": "Reddit · r/india_tourism"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvaXbQC60QfcbbbQFGiBPKJJ8-94g:1791088763840&ei=e9jBas_cMoOkiLMPlL6d6QI&start=10&sa=N&sstk=AS6-VmJxoJtfCN0lxH_BCfXmvBTcZdIsuXU597ORYcuxcewcytPZ9JRf4tVin1x7L21ozQtmJEcJj9Hw3nX41JCuHHrXpf3RcHomWw&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0Q8NMDegQINBAK",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvaXbQC60QfcbbbQFGiBPKJJ8-94g:1791088763840&ei=e9jBas_cMoOkiLMPlL6d6QI&start=10&sa=N&sstk=AS6-VmJxoJtfCN0lxH_BCfXmvBTcZdIsuXU597ORYcuxcewcytPZ9JRf4tVin1x7L21ozQtmJEcJj9Hw3nX41JCuHHrXpf3RcHomWw&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0Q8tMDegQINBAE",
+    "3": "https://www.google.co.in/search?q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvaXbQC60QfcbbbQFGiBPKJJ8-94g:1791088763840&ei=e9jBas_cMoOkiLMPlL6d6QI&start=20&sa=N&sstk=AS6-VmJxoJtfCN0lxH_BCfXmvBTcZdIsuXU597ORYcuxcewcytPZ9JRf4tVin1x7L21ozQtmJEcJj9Hw3nX41JCuHHrXpf3RcHomWw&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0Q8tMDegQINBAG",
+    "4": "https://www.google.co.in/search?q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site:99acres.com+OR+site:magicbricks.com+OR+site:nobroker.in&sca_esv=142066d6165a6f48&gl=in&hl=en&sxsrf=APpeQnvaXbQC60QfcbbbQFGiBPKJJ8-94g:1791088763840&ei=e9jBas_cMoOkiLMPlL6d6QI&start=30&sa=N&sstk=AS6-VmJxoJtfCN0lxH_BCfXmvBTcZdIsuXU597ORYcuxcewcytPZ9JRf4tVin1x7L21ozQtmJEcJj9Hw3nX41JCuHHrXpf3RcHomWw&ved=2ahUKEwiPhp7MxZ-XAxUDEmIAHRRfJy0Q8tMDegQINBAI"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=2+BHK+flat+for+sale+in+Hebbal+Bangalore+under+1+crore+site%3A99acres.com+OR+site%3Amagicbricks.com+OR+site%3Anobroker.in&start=30"
+   }
+  }
+ }
+}

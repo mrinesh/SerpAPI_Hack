@@ -1,0 +1,848 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "flats for sale Whitefield Bangalore",
+  "type": "search",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d89e5abea595eaa78031",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/cEWMQpcKkJipo6BKIzubzxRQeEw1B3ND1MzNiwgXIqI/6ac1d89e5abea595eaa78031.json",
+   "markdown_endpoint": "https://serpapi.com/searches/cEWMQpcKkJipo6BKIzubzxRQeEw1B3ND1MzNiwgXIqI/6ac1d89e5abea595eaa78031.md",
+   "created_at": "2026-10-04 04:39:58 UTC",
+   "processed_at": "2026-10-04 04:39:58 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/flats+for+sale+Whitefield+Bangalore//data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/cEWMQpcKkJipo6BKIzubzxRQeEw1B3ND1MzNiwgXIqI/6ac1d89e5abea595eaa78031.html",
+   "prettify_html_file": "https://serpapi.com/searches/cEWMQpcKkJipo6BKIzubzxRQeEw1B3ND1MzNiwgXIqI/6ac1d89e5abea595eaa78031.prettify",
+   "total_time_taken": 0.73
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "flats for sale Whitefield Bangalore",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "flats for sale Whitefield Bangalore"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Vaswani Exquisite",
+    "place_id": "ChIJaSemWOsRrjsRvm5C43UtnQ0",
+    "data_id": "0x3bae11eb58a62769:0xd9d2d75e3426ebe",
+    "data_cid": "980990278183841470",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11eb58a62769%3A0xd9d2d75e3426ebe&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11eb58a62769%3A0xd9d2d75e3426ebe&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9892583,
+     "longitude": 77.7236661
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJaSemWOsRrjsRvm5C43UtnQ0",
+    "provider_id": "/g/11ckyc53x2",
+    "rating": 4.3,
+    "reviews": 277,
+    "type": "Apartment building",
+    "types": [
+     "Apartment building",
+     "Back office",
+     "Condominium complex"
+    ],
+    "address": "ITPL Main Rd, next to Hotel Zuri, Maruthi Nagar, KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560048, India",
+    "country": "India",
+    "phone": "+91 87479 87479",
+    "website": "http://www.vaswanigroup.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlm38dQlH8sCdu0mzSpSdE5xirCaIgJZa7OHyTZg3jqWqvjnBWd36_ZqPjj2SSqREtY0d1IxkeV4sQEFZ-mQ95qHvEP77wYXsaitK_LNpsH5pgoFWxLkwRhWKifiZYuupm6SeQ_=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/PF-jOHicHcRRToMwGADgE3V0MsY08UEXls4tCnSx0hdCaFdglLb7y0Av6Bl2GxO_h-_-23hv4SkI-iZcKGNUL0eQ19oMXg5-URsdKAuoBgTBC8nTE-t1uBFZTzawFSPWP9RSkURze91We_XGq_iDfJ-4CjvH3K0bXpkI1yV3adc9UOryxBdYLPfzRX6uIEt2HOnsMXLklqRxPBVfULX-UB7fLZDIKrNj8_Ey5Q07tOeWF-No9ZrKrHyelhhj1Pxfo-EPvmdGLg"
+   },
+   {
+    "position": 2,
+    "title": "Gopalan Atlantis",
+    "place_id": "ChIJo9wEIgASrjsRIp80bsmuFMc",
+    "data_id": "0x3bae12002204dca3:0xc714aec96e349f22",
+    "data_cid": "14345282893242474274",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae12002204dca3%3A0xc714aec96e349f22&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae12002204dca3%3A0xc714aec96e349f22&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.974710799999999,
+     "longitude": 77.74403939999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJo9wEIgASrjsRIp80bsmuFMc",
+    "provider_id": "/g/1tnk_vkz",
+    "rating": 4.3,
+    "reviews": 939,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex",
+     "Housing society",
+     "Condominium complex"
+    ],
+    "address": "Pattandur Agrahara ECC Rd, Dodsworth Layout, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open now",
+    "phone": "+91 80 4931 4931",
+    "website": "http://www.gopalanenterprises.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm-7lI7vcYuALCuTo2lTNX_qW07-c7MH4mPulEhZeFS3rO_MrbLfKYa4DsGhA0exKcE0pmTmAFSM1wEvek2Q8WYZeycLjcRxoxEHL3It8X8gudx3ZByRY60TZW8egeCrE1iuUHdDg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Oo3S9nicHcTRboIwFADQL6oUMUJM9sC0ihE2h10QXoxe79ptLWW0VfxEP8G_Mdl5OI-7dK6zsyBQMhoJY4RCb7EH0zps3QiMDkRnCVhigzQrt7zSJFbr-AK1T_O552as-Nv-8FfRmEBcZBO99YrJBpe7qH8_FP0p_9rUx8nCrmRKcdgAo53mOl3uivDKLvg7_kiqusEb5D9QDmZgWR6tXbJPhD8PUfN6K-sp5U2VoMB5z8Jv_5mdF-LlGlJKifwfSPsEtVBE5g"
+   },
+   {
+    "position": 3,
+    "title": "DivyaSree Republic of Whitefield",
+    "place_id": "ChIJ1cKvyKURrjsRoH169xOi8Uk",
+    "data_id": "0x3bae11a5c8afc2d5:0x49f1a213f77a7da0",
+    "data_cid": "5328218040796085664",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11a5c8afc2d5%3A0x49f1a213f77a7da0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11a5c8afc2d5%3A0x49f1a213f77a7da0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9655668,
+     "longitude": 77.7257532
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ1cKvyKURrjsRoH169xOi8Uk",
+    "provider_id": "/g/11cjj031x3",
+    "rating": 4.3,
+    "reviews": 1357,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex",
+     "Condominium complex"
+    ],
+    "address": "next to Accenture, EPIP Zone, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "website": "http://www.row.co.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnccLjzFT_PPpxGwdEr8d6NnLfU4dDOXa898BxpD7sAfGQelYNdvZnGjV4XatYINMi8jrgTbTqGTW36wkGY5N6Mo71QAH33DYOZjdrTZd-4XE4Tdfz1aOkci2SzHWtkcqXTum_LScBMwRWj=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zFVp7XicHcTbboIwGADgJ6rAQMQlu8DgyhJOah2HG4N_OViwRVqH4SW99m1M9l18r2er1CA_Na1vzUUjRNNXd1mNILiquFqAuGrNIBFIJDXX3yck5QABm7_JKUmGB57odnSoHfGgPlrUi7PSWTubx-CtpFvjXdXnEf0rOGa_Vlaq_CcKLw4bG3ImN0xS0546nC8jOxQrY-f6punlccHoSAqKrGxrEVrPRhl3cPk4zH6qOrhl5H49BQfYhNM-ZV-Toes6av8HxN-yrkeG"
+   },
+   {
+    "position": 4,
+    "title": "Folium by Sumadhura",
+    "place_id": "ChIJt8U70QASrjsRopte9hkex4Q",
+    "data_id": "0x3bae1200d13bc5b7:0x84c71e19f65e9ba2",
+    "data_cid": "9567649030228319138",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1200d13bc5b7%3A0x84c71e19f65e9ba2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1200d13bc5b7%3A0x84c71e19f65e9ba2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.966443799999999,
+     "longitude": 77.7434918
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJt8U70QASrjsRopte9hkex4Q",
+    "provider_id": "/g/11kc8p1pyh",
+    "rating": 4.1,
+    "reviews": 742,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex"
+    ],
+    "address": "Sy. 47/1, Whitefield Village, K.R. Puram Hobli, Bengaluru East Taluk, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "sunday": "10 AM–6 PM",
+     "monday": "10 AM–6 PM",
+     "tuesday": "10 AM–6 PM",
+     "wednesday": "10 AM–6 PM",
+     "thursday": "10 AM–6 PM",
+     "friday": "10 AM–6 PM",
+     "saturday": "10 AM–6 PM"
+    },
+    "website": "https://sumadhurafolium.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=Folium",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmOE96heANoIAVSAim2KD32_bUzbQ7WJqgyDAHOPP32997CN025Pq3nCsUzijr3cKBLMNdz1xP2Dd0uMvkEozRTocfnGLm06xR8dWsCJrMR91cPMETOCGpij40jpZ-_b3IN5Vffdg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/H411xnicHcRJDoIwAADAFxVKKyomHioQV6AiSuKFhAIFlBYpbvzQJ_gbE-cw30_Z962a6fq1xBqXkl_zu8o7JkWfi15jstF5qwBTQOlkFdIobgLXGpc58eWanA6katDWwShJj0O6n8SbG387ZBVQipFlTWwfIpPesLDVcajqDrPtYuf52WC8KHIyePceF1cOYSRZIZa7Bo5f4TSLlb3pvNAyGPXcKLCXbVWPYN2eQZLitW-eiiLj86cBIQTlfwbEDyMuQ2A"
+   },
+   {
+    "position": 5,
+    "title": "Alembic Urban Forest",
+    "place_id": "ChIJTdrFbF0PrjsReq6tHLvZayg",
+    "data_id": "0x3bae0f5d6cc5da4d:0x286bd9bb1cadae7a",
+    "data_cid": "2912660981688413818",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0f5d6cc5da4d%3A0x286bd9bb1cadae7a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0f5d6cc5da4d%3A0x286bd9bb1cadae7a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.985121999999999,
+     "longitude": 77.7605145
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJTdrFbF0PrjsReq6tHLvZayg",
+    "provider_id": "/g/11l8k8666t",
+    "rating": 4.5,
+    "reviews": 539,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex"
+    ],
+    "address": "Hope Farm Junction, Near, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "website": "https://www.alembicrealestate.com/project/urban-forest-3bhk-apartments-flats-whitefield/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnY8RaYBgPlJDRc09AriTfnLEe73ugxFTj_PbveFgsPjFwc7MZJA9ekZFSDleZqs7iJI3ng2wiA93ta0UdLP38JzOVdJKjPv7pQExrLRVmoGl1GP-8AUm_c9VP4oFbFC_whGrY=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/KHNORHicHcRRboIwAADQE1WqXQIs8aOKZassVkQM_BCtXQFLi7SK8YDeYbcx2ft4f6_aud5-ep6q0UQaI5W4WTFwo53QbsJN58neAm6B9fBXyrKDLoL0WCwkUzRKOQzx0GS_OlkJH93kg2RtxU53QaRlLRm5_1NSHIpLSXaREuXV-g39RlrOxgaHyB3h_pwwFNDnJj_Tdcvufr9dPYYkzTsTq2nMQID3XcXDnH0YciLLaqzjoZiPUwghqP_nQL8BD1tEAQ"
+   },
+   {
+    "position": 6,
+    "title": "Prestige Waterford",
+    "place_id": "ChIJq0gUpUARrjsR9L-vSCm748E",
+    "data_id": "0x3bae1140a51448ab:0xc1e3bb2948afbff4",
+    "data_cid": "13971216255020941300",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1140a51448ab%3A0xc1e3bb2948afbff4&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1140a51448ab%3A0xc1e3bb2948afbff4&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9819914,
+     "longitude": 77.74218189999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq0gUpUARrjsR9L-vSCm748E",
+    "provider_id": "/g/11jm_2bhpm",
+    "rating": 4.4,
+    "reviews": 455,
+    "type": "Condominium complex",
+    "types": [
+     "Condominium complex"
+    ],
+    "address": "Nallurahalli, Borewell Road, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "sunday": "9:30 AM–6:30 PM",
+     "monday": "9:30 AM–6:30 PM",
+     "tuesday": "9:30 AM–6:30 PM",
+     "wednesday": "9:30 AM–6:30 PM",
+     "thursday": "9:30 AM–6:30 PM",
+     "friday": "9:30 AM–6:30 PM",
+     "saturday": "9:30 AM–6:30 PM"
+    },
+    "website": "https://www.prestigeconstructions.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnDX26EsFbJz2qQ4dTdkaTgL9x0ISuF9gL9G90JWYNPPvp7uawHCzxxn7WdrDaK8iN4FXGtuGxz6kJfg2hett8R1Q7_s8u6eS8GfvvUGpXr5zss8fdTZ6FUS86i6DFIFY2Am9q7V85t1wQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Lu5BRnicHcbBboIwGADgJ0IK01KW7GDEVtliQFDAi2FQilEL8rdAeEjvvo3LLl--17NWqoVP07zVHzPRNOLGNfCuaKTiUs2K5m6KFowCDDCXm30QJ9JLbbwG-utP9iOcl3F5zWPx445oG2nq_o25yE-yXRD0raPzYbOaxlE6Sdl5-Te57OY0ZUqzccJXvxJ2zZUieyt0zkA05hFhVd8fWJt2iwmAVGV8wvQQEXzBHt3SzF7e3YdzJAtlDeHXYCGEjPrfwpBvIsRGHw"
+   },
+   {
+    "position": 7,
+    "title": "Orchid Whitefield - Goyal & Co | Hariyana Group",
+    "place_id": "ChIJHVbRSOUNrjsRkVDBLa9rQAY",
+    "data_id": "0x3bae0de548d1561d:0x6406baf2dc15091",
+    "data_cid": "450478362868142225",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0de548d1561d%3A0x6406baf2dc15091&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0de548d1561d%3A0x6406baf2dc15091&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.963752099999999,
+     "longitude": 77.757577
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJHVbRSOUNrjsRkVDBLa9rQAY",
+    "provider_id": "/g/11by_dsncq",
+    "rating": 4.1,
+    "reviews": 401,
+    "type": "Apartment building",
+    "types": [
+     "Apartment building",
+     "Apartment complex",
+     "Condominium complex"
+    ],
+    "address": "Goyal and Co, Orchid, Hagadur Main Rd, Immadihalli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "phone": "+91 80888 66000",
+    "website": "https://goyalco.com/project/residential/orchid-whitefield-2/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkkqiHJcXSJvXTl6EU4ud51iqa3Ust9eqZSd_glBb8mnFbYVM3gDU_I0TtRnyeczQo28mk9KH6Ri0PUU-7R-uGxsY21JQ7pPrcgrI352kaGcqOxlxJfHFUwyAWX2AsIBQQdVbChLA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/WdNfdHicHcRJDoIwAADAF1UKuCcecAXUCEgVvRgptRBKC7Qo-EOf4G9MnMN8P6lSpZxqGkvNHhWCMtJIUmPBFeGqh0Wh0VICLIHULDvwwnOeV5nt4ujoPqOQDVeo3yQDPavuJpJqQqrrMblRNo_HBV_Hl9PepEt0c2CoAt4R_PaFMS7yydYeBhn0EAKjADSbVl4M3fVHpVdjWjvmwMjvG1wdWta6D3uNXp11jgxLOnPfT07xIt1Zs5cOIQTpfwz4DwXuRSw"
+   },
+   {
+    "position": 8,
+    "title": "Sumadhura Silver Ripples",
+    "place_id": "ChIJQ9Za7gMSrjsRPDVCTeNHBVs",
+    "data_id": "0x3bae1203ee5ad643:0x5b0547e34d42353c",
+    "data_cid": "6558727473914328380",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1203ee5ad643%3A0x5b0547e34d42353c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1203ee5ad643%3A0x5b0547e34d42353c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.969565699999999,
+     "longitude": 77.7389046
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQ9Za7gMSrjsRPDVCTeNHBVs",
+    "provider_id": "/g/11byvh7_zc",
+    "rating": 4.3,
+    "reviews": 549,
+    "type": "Apartment building",
+    "types": [
+     "Apartment building",
+     "Apartment complex",
+     "Gated community"
+    ],
+    "address": "Survey No. 25/2 & 25/1A, Borewell Road, Hobli, KR Puram, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmkKmq7sTBCsKMHuAmqRLC4UwPAWlKtAbvpb5x_DkAO7zHscx_iMFZxItX0jiOpj5lZIWl6aLBTTPulbrt-793X8R45fJ_nnKc6hvyp9NJc47N3jiz2AhMKFIR9aXZJ-0Zy3Pn5lw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/oZDeY3icHcRdCoIwAADgEy1X_mXQwyxEXZaIofgiOcxpc64207phR-g2Qd_D9_1QpYTcaBqj-qIZhobVo6wfZOCq5mpBhl5rhAREAqkhP4nTrL_h_m7L1N1JHPkj6u_JYWecpxhlDCtUPUVlzuX-hk7225dkLtvIK-ZA5bBrT6IzWRFkzLoc3DSNR1Y9FLAdPV8nhnkNS84xsejzJZxjSAz7qHfte4VohL0gcS55EQJYvPSYm2zaTksIIaD_CeA_J7ZFNg"
+   },
+   {
+    "position": 9,
+    "title": "Gopalan Aqua",
+    "place_id": "ChIJTUGFHaAPrjsRKOmdSV2RcSk",
+    "data_id": "0x3bae0fa01d85414d:0x2971915d499de928",
+    "data_cid": "2986327857776421160",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0fa01d85414d%3A0x2971915d499de928&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0fa01d85414d%3A0x2971915d499de928&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.979268399999999,
+     "longitude": 77.7585134
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJTUGFHaAPrjsRKOmdSV2RcSk",
+    "provider_id": "/g/11j2vy238f",
+    "rating": 4.4,
+    "reviews": 168,
+    "type": "Apartment building",
+    "types": [
+     "Apartment building",
+     "Apartment complex"
+    ],
+    "address": "A K Gopalan Colony Main Rd, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm9WH8-yjRkrexPAiasms8c5kusq_XPapeRxzAEyvj7ik0_DD0i0ZlHHEgzuPxVybXY_TXHRINgLK9n-UmBIqlEGrppwTBTTYa0qFx5_D4SNQdy-MP9suwuhjD_2DfcwTISAffEXQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/LtoM9HicHcTdboIwGADQJ6p0m2ayZBeY4ko2TcWq6E2DXSn_FD46wDf0EfY2Jp6L839P-97Ah-OU6dtMN40ulQXVyabuVd3PZFM52gCSgMDxaMj4qXJPdImmPCw6NTIvi6GCpVwUFloRsdiocLx5_vSXv2cFFoTgDF9KSn19s2w8TtfoLHhEw2Crf77dGh2qVdCW_ldnzMBXnJ9j3K7HhSDz_Xb3O6ENc8EONs2JeCWJHHiw95LEj3afwwvGGKXPJaoflJBGyw"
+   },
+   {
+    "position": 10,
+    "title": "Spectra Raaya",
+    "place_id": "ChIJQxXlwEMTrjsR2b0oqIrY30o",
+    "data_id": "0x3bae1343c0e51543:0x4adfd88aa828bdd9",
+    "data_cid": "5395268968651472345",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1343c0e51543%3A0x4adfd88aa828bdd9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1343c0e51543%3A0x4adfd88aa828bdd9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.961408299999999,
+     "longitude": 77.7303898
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQxXlwEMTrjsR2b0oqIrY30o",
+    "provider_id": "/g/11hz_3yn4z",
+    "rating": 4.4,
+    "reviews": 221,
+    "unclaimed_listing": true,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex"
+    ],
+    "address": "577/443, Siddhapura Main Rd, Varthur, Hobli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "phone": "+91 98450 99933",
+    "website": "http://www.spectraraaya.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnAQYnvcgQqj2SHqvv3TMK6nJnPqfLb5NXGmfUFSBdu3Lvflc8fR3GBWEQ5xqiNlgSeWu9tH7IFZQ-Nj4AcgaIpcTJbC4l2ZSKtOEsNl9vMs57EFShFsYXvNDkjgJVabsWLfLt9=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FoyzIHicHcTRFoEwGADgJ5oiIee4CCXJyCLcadqSWeVf4w09g7dxju_i-34KpWoYG4YorA6vKi7yFvInraTKperQ6mHwGhAFBIYb7LZJKt34JDXlcVP2SNBobSXr1UCGctuwKLPxcfFge59Mr60VaSboiO2sxTT1Yvvd3LDgJE9bRwXDpX-OES77LuWXZU2TMJv1Re9MVmrjARaOXoM99HxS-HA6ajy_lzw8XDJIIxYpZ_LqmqaJiv8UyR-DwkTm"
+   },
+   {
+    "position": 11,
+    "title": "The Five Summits Address",
+    "place_id": "ChIJF4yI-e0RrjsRa5CIBtOAwBY",
+    "data_id": "0x3bae11edf9888c17:0x16c080d30688906b",
+    "data_cid": "1639451908198928491",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11edf9888c17%3A0x16c080d30688906b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11edf9888c17%3A0x16c080d30688906b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.985408999999999,
+     "longitude": 77.72686999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJF4yI-e0RrjsRa5CIBtOAwBY",
+    "provider_id": "/g/11c43n4wln",
+    "rating": 4.4,
+    "reviews": 179,
+    "type": "Apartment building",
+    "types": [
+     "Apartment building"
+    ],
+    "address": "THE FIVE SUMMITS, Road No. 10, opposite Mercedes Benz Research & Development India, EPIP Zone, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "sunday": "10 AM–7 PM",
+     "monday": "10 AM–7 PM",
+     "tuesday": "10 AM–7 PM",
+     "wednesday": "10 AM–7 PM",
+     "thursday": "10 AM–7 PM",
+     "friday": "10 AM–7 PM",
+     "saturday": "10 AM–7 PM"
+    },
+    "phone": "+91 80887 74433",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmASPRsiAMZvFTPRvy_y3CbaRJzVjnUpYzseRF7P0kJH6sQrea-M13pJ57vfvNpcH1NWoFedktPxH7mbFqoTSh9cbEK9NS7tk8HA7uZeYRuwCv8N8r7b4qetoDuerQN7mQGb62a=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/csTLPHicHcTdboIwGADQJ6rAmBaXeEHcsMHYlIIavVlo_QRFaKWl_rygz7C3WeK5OH-v2lptvjzvUoejSqnqAoOBXqrOQmdHUrVepQ2SBhkvJpwV2zbOGTeneLV3ScG4e_w-wrkoefrcnLu13j0N8AQzv0nJxGQ9lGgVhDodY3d0VEsS0K1K4NBYdie4FclVFXk9leJnOaU5tk1EYjzsYceH29xFNOqx-LyCVd8D9BnFbbYQk49ydgt830f1e4m6f6cyRSo"
+   },
+   {
+    "position": 12,
+    "title": "SOBHA Windsor",
+    "place_id": "ChIJ5cyMCKgNrjsR0EwIuXuYZ48",
+    "data_id": "0x3bae0da8088ccce5:0x8f67987bb9084cd0",
+    "data_cid": "10333395527177620688",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0da8088ccce5%3A0x8f67987bb9084cd0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0da8088ccce5%3A0x8f67987bb9084cd0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9722495,
+     "longitude": 77.7644794
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ5cyMCKgNrjsR0EwIuXuYZ48",
+    "provider_id": "/g/11h0_pfcly",
+    "rating": 4.1,
+    "reviews": 302,
+    "type": "Apartment building",
+    "types": [
+     "Apartment building"
+    ],
+    "address": "Immadihalli Main Rd, Vijayanagara, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 7:30 PM",
+    "hours": "Open · Closes 7:30 PM",
+    "operating_hours": {
+     "sunday": "9 AM–7:30 PM",
+     "monday": "9 AM–7:30 PM",
+     "tuesday": "9 AM–7:30 PM",
+     "wednesday": "9 AM–7:30 PM",
+     "thursday": "9 AM–7:30 PM",
+     "friday": "9 AM–7:30 PM",
+     "saturday": "9 AM–7:30 PM"
+    },
+    "phone": "+91 80 4646 4500",
+    "website": "https://www.sobha.com/bengaluru/sobha-windsor-apartments-in-whitefield/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnq-Ee7Ypr7nS0lygMX7WbBiqbysvz8NZDd09ayVQZi5ZBAvDPcrDZggBW_DSqIA85GmyAwAHXBYtvxb1-PTE_i4mogJl4Ndz5Hu3MqnZ02FM_9SXG7PbuTVUNgA_bfpDNO4monkg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/fk184HicHcpNjoIwGADQE1XqD0FNXJRUZSYBUVCwGzKt-EEGWqAFxRvOEbzNTGbzVu_9UxjT6LVlVcV8AkpBlfc674SSJpdmIlRtQaOR0EhbxDuFcSJbtM2da9M5MsLVCH7qJNwtWz7q4bUMGL3h1dd4ObLSZi4ZaCg6ygDcJKNR-0GW9r4eyYN4qXs1w5NPURhvs3JRK_isFsHtZXv93G8lw7Odn62idO-EvI8v5wBIxu8NDQ5_V37D5jHFGKPiX4HkLwpaRXg"
+   },
+   {
+    "position": 13,
+    "title": "T-ZED Homes",
+    "place_id": "ChIJwdLVzQkSrjsRWL1eJjUbpFc",
+    "data_id": "0x3bae1209cdd5d2c1:0x57a41b35265ebd58",
+    "data_cid": "6315202492571237720",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1209cdd5d2c1%3A0x57a41b35265ebd58&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1209cdd5d2c1%3A0x57a41b35265ebd58&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9599104,
+     "longitude": 77.74399389999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwdLVzQkSrjsRWL1eJjUbpFc",
+    "provider_id": "/g/1tvt8ss7",
+    "rating": 4.3,
+    "reviews": 250,
+    "type": "Gated community",
+    "types": [
+     "Gated community"
+    ],
+    "address": "Off, Varthur Main Rd, opposite Midtown Rhythm, Palm Meadows, R Narayanapura, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnH8BwWTB8KCDfR5Z2tyvQr1I2KxxYVpcD8-xMGBShOT7UFuNUqUvcApEpDTUoYGnOL1DNI7ngIZANg9edza4FgPzpKXYc96nowE8vu7P-eP6oXo87akNaRXYau1Fn0dd0VTZc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vB-QYnicHcTbDoIgAADQLyLRLlJbD5pZzlIzLPXNIeFWAQVe6gP7h_6mrfNwvp9Ga6kWhnFrxiMmBLvRVtEnEVxTrkdE3A0mFSAKKMPZpgk-8y1y-zN2UbjyLum0tPSrOzzNwAqHoThJ4iEw7DfusYmxnfltlD2yjjhyLT2ciWLD453pRYHNWVA6EZvT-l1NfJa8ZZgXZD7jol-jrrUTQJOZyAWyq2tUpXlRtabPYV3DEy7JsjchhKD5TwD_AcgYQ4k"
+   },
+   {
+    "position": 14,
+    "title": "United Sai Silicon HEIGHTS | Flats Near Hope Farm Junction, Whitefield",
+    "place_id": "ChIJg_V1r5gNrjsRbGKD_SRG7Lo",
+    "data_id": "0x3bae0d98af75f583:0xbaec4624fd83626c",
+    "data_cid": "13469217710244323948",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0d98af75f583%3A0xbaec4624fd83626c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0d98af75f583%3A0xbaec4624fd83626c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.974798499999999,
+     "longitude": 77.7669706
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJg_V1r5gNrjsRbGKD_SRG7Lo",
+    "provider_id": "/g/11kmb06hsw",
+    "rating": 4.4,
+    "reviews": 224,
+    "type": "Construction company",
+    "types": [
+     "Construction company"
+    ],
+    "address": "Sy. No.113/4 & 113/2, Nagondanahalli, Vijayanagar Main Rd, opposite to Sri Lakshmi Narayana trading, Immadihalli, Whitefield, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "sunday": "9 AM–7 PM",
+     "monday": "9 AM–7 PM",
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM",
+     "thursday": "9 AM–7 PM",
+     "friday": "9 AM–7 PM",
+     "saturday": "9 AM–7 PM"
+    },
+    "phone": "+91 98806 66189",
+    "website": "https://uniteddevelopers.in/sai-silicon-heights/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkupmbWCq8VmVXDUkoFnsAEKKXTBxoFYDDBCFnWz2mMGAHPMM2-A2UUvolzJMM5PGxe7EHEYD8u1frBWxrDI6xkT_Uk46EyJNn54dMBPgkJ_T2XuavEq0NgSiM0QmluxuiBeUpr=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zFyMu3icHcRdboIwAADgE1Uqw5-Y7IHaImJq2EYFn4xiLaa0RUpd5wV3Bm9j4vfwPf-bYejsIgja5mMkjBEtd5b3tdED18OoNioQnQW1BTaI0--8KKXr1Klc3uY7taswkybRNiabTVUgb5I9xmiZ6PIRKrqK05zSEMQhY3fTPjJKJ_nK8xlJyR7P3fjSo9L3eD31sjgwGU3JX7bVk-hMUS5kdijCyh3v5Aa34udK4ZdqnXdXxFnXf_6OIYSgeV8D_QI8FUSD"
+   },
+   {
+    "position": 15,
+    "title": "Brigade Cosmopolis",
+    "place_id": "ChIJ6QhF6fcNrjsRKwvhg6CmjDE",
+    "data_id": "0x3bae0df7e94508e9:0x318ca6a083e10b2b",
+    "data_cid": "3570411812935502635",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0df7e94508e9%3A0x318ca6a083e10b2b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0df7e94508e9%3A0x318ca6a083e10b2b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9620655,
+     "longitude": 77.7462766
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ6QhF6fcNrjsRKwvhg6CmjDE",
+    "provider_id": "/g/1wz514hz",
+    "rating": 4.4,
+    "reviews": 759,
+    "type": "Condominium complex",
+    "types": [
+     "Condominium complex"
+    ],
+    "address": "Nexus Whitefield Mall, Whitefield Main Rd, near the, Palm Meadows, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "sunday": "9:30 AM–7 PM",
+     "monday": "9:30 AM–7 PM",
+     "tuesday": "9:30 AM–7 PM",
+     "wednesday": "9:30 AM–7 PM",
+     "thursday": "9:30 AM–7 PM",
+     "friday": "9:30 AM–7 PM",
+     "saturday": "9:30 AM–7 PM"
+    },
+    "phone": "+91 1800 102 9977",
+    "website": "http://www.brigadecosmopolis.com/?utm_source=GMB",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmWF6mONwBlNtGLELoyrPJCFA0S8lJ_ee7ZlprUYSKvUZ-1KrVab_DaN_P2y9dHinNI2Qj3Uf7IdzGIBhk57MifgF6K3TdDmWPAuHhErAvnszKgXOCx1muM5Z1Z20VDT8_C-qml=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vHKE8XicHcRZcoIwAADQE0UCjKLO-MEigiiisrT8MBZiYs2CSXC7YM_Q23Sm7-P9_hCtezU3DErsERYCUzQoJFvBNeJ61Apm4F6BVgFluNEhyytWhRO2Sx8eTfVqs9yIl8zWfujC45SuG4Scmvay-Dwm96IGZiLL01cTnNIms16zLrrwNLb233ZxduLuvYo9ch0728sZh5PEzruAVZk7RGQp3TtX7wR_7PynyYbtuDZrC5ZBPm18cGN08TAhhID83wL-BylAQ8E"
+   },
+   {
+    "position": 16,
+    "title": "KOTS Quatre",
+    "place_id": "ChIJcT5xIIwPrjsRC7Iqwv-Kg8Y",
+    "data_id": "0x3bae0f8c20713e71:0xc6838affc22ab20b",
+    "data_cid": "14304429672537698827",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0f8c20713e71%3A0xc6838affc22ab20b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0f8c20713e71%3A0xc6838affc22ab20b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9835917,
+     "longitude": 77.7557394
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJcT5xIIwPrjsRC7Iqwv-Kg8Y",
+    "provider_id": "/g/11s0ksbyxb",
+    "rating": 4.6,
+    "reviews": 72,
+    "type": "Furnished apartment building",
+    "types": [
+     "Furnished apartment building",
+     "Apartment building",
+     "Apartment complex",
+     "Condominium complex",
+     "Condominium rental agency",
+     "Gated community",
+     "Serviced apartment"
+    ],
+    "address": "Kots Quatre, 165, Pattandur Agrahara Maithri Layout 3rd Main Rd, Maithri Layout, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "phone": "+91 85508 80555",
+    "website": "https://www.kots.world/bangalore/whitefield/kots-quatre?utm_source=google_business_profile&utm_medium=organic&utm_campaign=KOTS%20Quatre&utm_content=website",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldaGYIVVLsxPYtGe7LVN_qpetX89mkG6ZGT7uPxRwPthPnPx8F4JWVHP0-d3B9NTd7ejNYl9nZJZa2c6kYt3SolP3OxLY8Qz-Ve4dlDBpCeOx_qIij2gv3j78HABj0AF1TFrL0Ew=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/egeIY3icHcRdDoIgAADgE5EUzZ-2HrRSa86oHIUvrSHTlMCCknXDjtBt2voevu-nMabXM8cRDRrVStWCPzV_MCUNl2bE1M2pew2YBtoJ0z0ujqK6JHRNSKYtpibhXkby873n5uQHty5xy6TwntjuB2waLLH14-nmSFIMQYWiIC8qj7c5FYEsN-VlwtyOGnRQAqOtzai_ewPCp5VYRv2Cb-35vr62k_qFWs9Pw6iFYTwu4kcGV8N8GEMIQfOfAfkD1cNESg"
+   },
+   {
+    "position": 17,
+    "title": "SV Legacy - Apartments Near Hope Farm",
+    "place_id": "ChIJy9xkkAUOrjsRS552JmL2J3o",
+    "data_id": "0x3bae0e059064dccb:0x7a27f66226769e4b",
+    "data_cid": "8802274898131459659",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e059064dccb%3A0x7a27f66226769e4b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e059064dccb%3A0x7a27f66226769e4b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9825701,
+     "longitude": 77.756141
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJy9xkkAUOrjsRS552JmL2J3o",
+    "provider_id": "/g/11csrpcmsm",
+    "rating": 4.4,
+    "reviews": 92,
+    "type": "Apartment building",
+    "types": [
+     "Apartment building"
+    ],
+    "address": "Channasandra Main Rd, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "sunday": "9:30 AM–7 PM",
+     "monday": "9:30 AM–7 PM",
+     "tuesday": "9:30 AM–7 PM",
+     "wednesday": "9:30 AM–7 PM",
+     "thursday": "9:30 AM–7 PM",
+     "friday": "9:30 AM–7 PM",
+     "saturday": "9:30 AM–7 PM"
+    },
+    "phone": "+91 80505 71999",
+    "website": "https://svinfragroup.com/legacy/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWloFDswvSncZUIycI2P0B2MZcFx9L3h3rJxRHoKbd-Y7iMJamcSy8M66yEj_ibQLWsmcfOfS2FLsTSzXqOFIRFNI7L8KCVmylIfYOQmzdWXgI0JvmnmP7P5zD-J0AfqZLXIDQp2Sg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XBcRxHicHcTbboIwGADgJ6pUyESX7EJljcUyDlU53CzzF4qGtmjxAG_oI_g2S_wuvtez7rrWfFpWUzsjobVoyqspL6BVV6puBFpaojUIDDLWfJVEm7TRxDP3G1dQbGkP1I7wwg4KII8Zc2rn4j-SlV7vDyh3j4H_J4H302Ay6b9Pv8d9zFIjoQorbhNmNnzIziGhCfmhLpuulzvZN7TKw1gOhzQTFPs3qWTkRh-Dh3w8r84Fy6gXtzYXX_cxxhjV7wGpf-zORP8"
+   },
+   {
+    "position": 18,
+    "title": "CitiLights Rustique",
+    "place_id": "ChIJ14_8JAASrjsRsua5JN-pqxg",
+    "data_id": "0x3bae120024fc8fd7:0x18aba9df24b9e6b2",
+    "data_cid": "1777701253786756786",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae120024fc8fd7%3A0x18aba9df24b9e6b2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae120024fc8fd7%3A0x18aba9df24b9e6b2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9740957,
+     "longitude": 77.743381
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ14_8JAASrjsRsua5JN-pqxg",
+    "provider_id": "/g/11b6_j8fny",
+    "rating": 4.3,
+    "reviews": 298,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex"
+    ],
+    "address": "63, Pattandur Agrahara ECC Rd, Dodsworth Layout, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "phone": "+91 80 4117 1500",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldMIlb2d8dstd2Q9npyRTEsWaK6FxAwNHfAY4Pen7dvtgaYwmkgJUWXIoyzN7_2QuZ3HtzGR6l3wT6TjvnvvToREmtxpEk1PcndXVP579Vjtile_f-jI2CjZylsRFZ7hBk00Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/yH1n9XicHcRBjoIwFADQE1UqjKAmLhiDwkw00FRRNkbbWgZKS-wXxAPOHbyNiW_xXv8lQGvnjqNKbySNkUrcrbgxo0FoGDHTOLK1iFlknTAmKc0V3yTq4vIpt8DdbKbbgdDI5udff_UI-218DY9fqdAB70Cej31Ty59dfkjM8NwGJze7F14MzzXxlddTn1ad7jpqSNTAo43qcco0P-zTSTDbV_CnxOmKqsRdVsWgLFkVQfldY5wt-jHGGJWfGdJvrXdFyQ"
+   },
+   {
+    "position": 19,
+    "title": "Prestige Park View",
+    "place_id": "ChIJuWLywAQOrjsRetcyKYs9E08",
+    "data_id": "0x3bae0e04c0f262b9:0x4f133d8b2932d77a",
+    "data_cid": "5697965621454755706",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e04c0f262b9%3A0x4f133d8b2932d77a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e04c0f262b9%3A0x4f133d8b2932d77a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9854791,
+     "longitude": 77.75151319999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuWLywAQOrjsRetcyKYs9E08",
+    "provider_id": "/g/1thmjfk0",
+    "rating": 4.4,
+    "reviews": 1184,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex"
+    ],
+    "address": "Whitefield Main Rd, Kadugodi Colony, Kadugodi, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/wPVLRqR8iQT57IsqSIdQHZlmG8onDxYsdPE2bM_mcpkpOz99dk3i-7V_9uZAhUpc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/xBIyJnicu1mUUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rXx4Q5hNUGGSRGRhiau5ZXBjsmRLoEZWT626Rn-dSEVmcEuBqlOQbn5tckF3gX2VpmZJtnKlrHhZvWRrlmBFakGxbbmhgYKCbASaTdfMAv3koDg"
+   },
+   {
+    "position": 20,
+    "title": "SS Felicity Homes",
+    "place_id": "ChIJ8-j-agESrjsRseJMMskQXIg",
+    "data_id": "0x3bae12016afee8f3:0x885c10c9324ce2b1",
+    "data_cid": "9825746943333950129",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae12016afee8f3%3A0x885c10c9324ce2b1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae12016afee8f3%3A0x885c10c9324ce2b1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9694728,
+     "longitude": 77.7405107
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8-j-agESrjsRseJMMskQXIg",
+    "provider_id": "/g/1pp2tjjfc",
+    "rating": 3.9,
+    "reviews": 183,
+    "type": "Apartment complex",
+    "types": [
+     "Apartment complex"
+    ],
+    "address": "Borewell Rd, Nallurhalli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkvOVHovL0Z_CB9qZ7HAS_prPFc7xgBxo4eSGbEy-EBzpeVPQRqmwtoj97DZd-nGvUlcgjA_8wE-Yeq8-m4JZFrMpswp1r7IKRYdEpLjIIpPoWIiQ4dw-gWVXpKnAW-Gr47kaIPkw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/uwGYUHicHcTdToMwGADQJ_oGiyTdTLwAZVA3Y8ccOG6IlqbIT_vRVjp9Qx_BtzHxXJzfn845tLdBMHY3K6m1HMWnFYZr5YRyK66nQKIFbsEGcV6wl2pYnstcL4ewbu6T7VyTPD41aNiOk6tMrjoSp-w9_YI0-UZRsmMxT97pfkse6hZUtpxHLvu42fgULmLewBQ91jvzhNbj2hC6Ly5tioeeUmS6oh_HqPUgq_IV9yquIDMRGd4oG_ydX4dhCN3_HNQfHg1FyA"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&q=flats+for+sale+Whitefield+Bangalore&start=20&type=search"
+  }
+ }
+}

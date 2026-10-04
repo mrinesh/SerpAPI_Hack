@@ -1,0 +1,883 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "office space for sale Indiranagar Bangalore",
+  "type": "search",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac1d8a41f56fa272b8690a3",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/Uan7pryNnPz-HZOWQYEdkwvRmjBNLZACw1lNNPt10X8/6ac1d8a41f56fa272b8690a3.json",
+   "markdown_endpoint": "https://serpapi.com/searches/Uan7pryNnPz-HZOWQYEdkwvRmjBNLZACw1lNNPt10X8/6ac1d8a41f56fa272b8690a3.md",
+   "created_at": "2026-10-04 04:40:04 UTC",
+   "processed_at": "2026-10-04 04:40:04 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/office+space+for+sale+Indiranagar+Bangalore//data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/Uan7pryNnPz-HZOWQYEdkwvRmjBNLZACw1lNNPt10X8/6ac1d8a41f56fa272b8690a3.html",
+   "prettify_html_file": "https://serpapi.com/searches/Uan7pryNnPz-HZOWQYEdkwvRmjBNLZACw1lNNPt10X8/6ac1d8a41f56fa272b8690a3.prettify",
+   "total_time_taken": 1.17
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "office space for sale Indiranagar Bangalore",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "office space for sale Indiranagar Bangalore"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Offices Hub",
+    "place_id": "ChIJdUW_UR0UrjsRatYp14GC7QQ",
+    "data_id": "0x3bae141d51bf4575:0x4ed8281d729d66a",
+    "data_cid": "355083439804372586",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae141d51bf4575%3A0x4ed8281d729d66a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae141d51bf4575%3A0x4ed8281d729d66a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.968839,
+     "longitude": 77.641691
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdUW_UR0UrjsRatYp14GC7QQ",
+    "provider_id": "/g/11c6vtqc_h",
+    "rating": 5,
+    "reviews": 577,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency"
+    ],
+    "address": "100 Feet Rd, above Arrow showroom, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9 AM Mon",
+    "hours": "Closed · Opens 9 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "9 AM–5 PM",
+     "tuesday": "Closed",
+     "wednesday": "Closed",
+     "thursday": "Closed",
+     "friday": "Closed",
+     "saturday": "Closed"
+    },
+    "phone": "+91 80 4206 2030",
+    "website": "https://officeshub.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yuJoo3qMrRTFpf_DSz8bxA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=94.98699&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eqtUzXicHc1RCsIgGADg2_iWuoqYgUQQPQS9VO_DOTcFt_9P3dy6TOfqNkUX-L7P26aEcc9YTMGYNDmT0c3GxxUq2gF03ih0kWro2VSwZMe-HpTzB1QDuEYu4wVg87yG2-OMbXW6v8p6PhJdV9o7MyQZjQra0i7_xAAN7TCSLEtOrBRrsqgsxZaKcicEQZe0lZz8kxYmWXD-BXFxOes"
+   },
+   {
+    "position": 2,
+    "title": "Spacelance Bangalore - Virtual Office and Desk Space in Indiranagar, Bangalore",
+    "place_id": "ChIJ_2MTZKQWrjsR-yjPGYXROmw",
+    "data_id": "0x3bae16a4641363ff:0x6c3ad18519cf28fb",
+    "data_cid": "7798776074339297531",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16a4641363ff%3A0x6c3ad18519cf28fb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16a4641363ff%3A0x6c3ad18519cf28fb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9783704,
+     "longitude": 77.63658269999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ_2MTZKQWrjsR-yjPGYXROmw",
+    "provider_id": "/g/11g6982ybg",
+    "rating": 4.9,
+    "reviews": 201,
+    "type": "Coworking space",
+    "types": [
+     "Coworking space",
+     "Business center",
+     "Virtual office rental",
+     "Video conferencing service"
+    ],
+    "address": "2nd Floor, 198, Chinmaya Mission Hospital Rd, opposite to HDFC Bank, Stage 2, Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Mon",
+    "hours": "Closed · Opens 10 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "10 AM–6 PM",
+     "tuesday": "10 AM–6 PM",
+     "wednesday": "10 AM–6 PM",
+     "thursday": "10 AM–6 PM",
+     "friday": "10 AM–6 PM",
+     "saturday": "10 AM–6 PM"
+    },
+    "phone": "+91 94000 31100",
+    "website": "https://www.spacelance.com/virtual-office/bangalore",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkiEInKcCuWXvzc4KKOXdgsuqQamoDy5xgjkUJ9qU3sP5-ru45UVWwKIyxLow6VBrQoBRjFzgysc5IXGwgZmSWWlhnELKy9Upg7LJ3wm8pu3KKQqii9FhxaNkcf1G6znpb8JERz=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/UJjMZXicHcRdDoIgAADgE5E2s7Kth36sFFdpGa63IgNTAUVCvWBn6DZtfQ_f90ObRsiZYRTUGhDOSZEqmdaYsyZlzQDz0iBCAiyBNBa76HhGeeZ6DOKVQsm7xyMID8mDSFWFt5KvO7slrzz2nSq25NEGtRrZ8QVp6HVtwPX4sqxDvoxem550EttestXkWp4QKihzA9g5sSCTwLd0ORXKgjCssszZ0Pa2z_FzuB33TNynvhv1cz00TRPQ_xiwHyCSRqE"
+   },
+   {
+    "position": 3,
+    "title": "Office Hub",
+    "place_id": "ChIJW_6uxBIVrjsR8A2sFR37Zaw",
+    "data_id": "0x3bae1512c4aefe5b:0xac65fb1d15ac0df0",
+    "data_cid": "12422611249507601904",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1512c4aefe5b%3A0xac65fb1d15ac0df0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1512c4aefe5b%3A0xac65fb1d15ac0df0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9601638,
+     "longitude": 77.6438237
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJW_6uxBIVrjsR8A2sFR37Zaw",
+    "provider_id": "/g/11zkgxrhmt",
+    "rating": 4.5,
+    "reviews": 8,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency"
+    ],
+    "address": "Tower B, Diamond District, Lower Ground, IBC MOSS, Indiranagar, Kodihalli, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours"
+    },
+    "phone": "+91 80 3527 1927",
+    "website": "https://office-hub.com/in",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnosL6vs1rpSk518hJFNbaWx0CbA0Yu2ZAxYTqS_Qk4Ck8mqPf8sRqsNJ_0vEbGGID3LS7JKFUvsIIO6mfYvIIVl2iK5RG7KVHHQRDZTYSuVSY0tsBgAGXoGQF5ElB8qvDVjgWaJG_ZKVs=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/MmNotnicHcTdboIwGADQJ0KKDiUmXqBIKRgVysrKDRGCZeOn4FeqT7l732bJzsV5_zZKjbA1za5ZLYSUoqtnqB-VHFQ9qEUle1OMYFRggOkGyTXNBgmntQbrMdLWtpwm9M_lLXuhQ-kiPi9z98XTiRZx-3FonX663h1IJjiHBdLHEmPirU50E0b-pwZCLuv-zjUhrFt-R3aCNxELgjjx8pTTmVGOFOyFi78kjn372O2dSXvsR2S3EBd5xGD3tBBCRvN_ZQx_CdJF8A"
+   },
+   {
+    "position": 4,
+    "title": "91Springboard Indiranagar",
+    "place_id": "ChIJCfhk2rEWrjsRUeu-QIuauDY",
+    "data_id": "0x3bae16b1da64f809:0x36b89a8b40beeb51",
+    "data_cid": "3943071396640254801",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16b1da64f809%3A0x36b89a8b40beeb51&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16b1da64f809%3A0x36b89a8b40beeb51&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9816126,
+     "longitude": 77.645646
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCfhk2rEWrjsRUeu-QIuauDY",
+    "provider_id": "/g/11dflb5186",
+    "rating": 4.2,
+    "reviews": 1074,
+    "type": "Coworking space",
+    "types": [
+     "Coworking space"
+    ],
+    "address": "George Thangaiah Complex, Sir.c.v. Raman General Hospital, 13, 80 Feet Rd, near Sir, Kalyan Nagar, Indira Nagar 1st Stage, H Colony, Indiranagar, Bengaluru, Karnataka 560038, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours"
+    },
+    "phone": "+91 95975 19191",
+    "website": "https://www.91springboard.com/co-working-office-space-bengaluru/indiranagar/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn6FS00dxzdOaRdrQYfH0nPzmMhygWap2RkQH2DSw1ZTDC2k7EyDzFQugLURsN5M_jTNWDk5OnykHzSd4orlmIGRoKRfwLAP-WlwcZeu3215mxkL9EJndvfaGx1pRGiEvWpCeNi=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Vu-wDXicHcRLjoIwAADQE1UKDpqZxIURhFFEKJhm3BjSluIU2oaCfC7oGbyNiW_xXs-q67T5say6Wi64UrxmvWEtUbJjslsQ1VhcG0AMMNY2REmO5WqfQUjHmZ4LRNv0rwyhTObmVE0cF9pBIg0dLxvsa-7tHLH2J2_epz2PLsjE7un2n8fYE-5ZTiKcM_ql2rr5DZA6onKItgnA9UCurF86ttuMIvr2D5I-yiIYbY2Cu__Aesfi-2awIYSg-kyAfAOQ8kVx"
+   },
+   {
+    "position": 5,
+    "title": "Tisha Corporate Services",
+    "place_id": "ChIJWZ4KV-EVrjsR6UcUWh-b-vQ",
+    "data_id": "0x3bae15e1570a9e59:0xf4fa9b1f5a1447e9",
+    "data_cid": "17652592248389650409",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15e1570a9e59%3A0xf4fa9b1f5a1447e9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15e1570a9e59%3A0xf4fa9b1f5a1447e9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9689067,
+     "longitude": 77.6416244
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWZ4KV-EVrjsR6UcUWh-b-vQ",
+    "provider_id": "/g/1vm_wb2c",
+    "rating": 5,
+    "reviews": 246,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency"
+    ],
+    "address": "TERRECE FLOOR, 1137, 100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8 AM Mon",
+    "hours": "Closed · Opens 8 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "8 AM–8:30 PM",
+     "tuesday": "8 AM–8:30 PM",
+     "wednesday": "8:30 AM–8:30 PM",
+     "thursday": "8 AM–8:30 PM",
+     "friday": "8 AM–8:30 PM",
+     "saturday": "8 AM–6 PM"
+    },
+    "phone": "+91 99011 38006",
+    "website": "https://bangaloreoffice.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmFW8Cyh_eiAICEQzqB2s4yn3OSju2WzUNeXvhr5-t12K8yDj8vsF-szWjOhI34AuePXoIk0WxfXwO72BN1htWeu30XOqFaJx8ZtbDEcgvoGWxc4i4ZoL0L4E1QqBOsfPhxfAPo1Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/f3TQdHicHcRLDoIwFADAE1VaqJGYuAAFRY0FPylxY7QpVFQqvoLADT2CtzFxFvP9KGOeMLasu3IGudb5XdYgX0KXRpZmIPTDyp-ABCCwvMU23vNHyN1pp07y6kXTIOkr3wbalQ7bFbXN-8NGpo16DZEh9srtZoXbQIig5wVTkUO9Wsapjm6Yt1n6ZiPb3xBluKwdnLIqPC9b92gus0DkjZ7zVtArPeo1XtOAJJXPIItVm3mxJsnkTTDGSP0XqPwB6RtFIQ"
+   },
+   {
+    "position": 6,
+    "title": "Share Office Solutions",
+    "place_id": "ChIJRSqfs6QWrjsRDLQdharcEoc",
+    "data_id": "0x3bae16a4b39f2a45:0x8712dcaa851db40c",
+    "data_cid": "9733084369636930572",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16a4b39f2a45%3A0x8712dcaa851db40c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16a4b39f2a45%3A0x8712dcaa851db40c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9821969,
+     "longitude": 77.63688719999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJRSqfs6QWrjsRDLQdharcEoc",
+    "provider_id": "/g/11gcpd36m5",
+    "rating": 4.4,
+    "reviews": 41,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency",
+     "Coworking space"
+    ],
+    "address": "4th Main, 849, 12th Cross Rd, near BDA Complex, Indira Nagar 1st Stage, Bengaluru, Karnataka 560038, India",
+    "country": "India",
+    "open_state": "Open · Closes 12 AM",
+    "hours": "Open · Closes 12 AM",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "9:30 AM–6:30 PM",
+     "tuesday": "9:30 AM–6:30 PM",
+     "wednesday": "9:30 AM–6:30 PM",
+     "thursday": "9:30 AM–6:30 PM",
+     "friday": "9:30 AM–6:30 PM",
+     "saturday": "9:30 AM–6:30 PM"
+    },
+    "phone": "+91 97399 66778",
+    "website": "https://www.shareofficesolutions.com/",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWks6uR6JCNA3Qe6vfj7riwUIjmKA5Ca2eHzYe5pM-T3ght6u9kWv5si5LJj_yGXJgg80XIGpK0OG8wRX4WZA-4yax1fFg7-ygf4KmxS6Yvkg4D_3c145egVprG3h8nCVGRemGEi=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2DSt1nicHcTbboIwGADgJ6qU9SAu2QVhWxV0B-YEd2NMU_4CAg0tIL6gz7C3WbLv4vu9a-eMffS8iyYL6Dq4qMGqXnatU61byK7xwFgkLbJeuE4_9llt-ZDyOHoLyafiY1Et-3L63lRNErLo_KDWt6NiZof2BLTjw6rORmZLto2r0yzyGCDA-UaYBL-LYEpzmv2EiM7nq1-8whLNUNCkuX7x41gDfT4R6VOm4GB6QXTQRgeRqka8lE-TjzFG-n-J2j_7vENN"
+   },
+   {
+    "position": 7,
+    "title": "315Work Avenue IND1 - Coworking Space",
+    "place_id": "ChIJHSLKHgYXrjsR1R4JyxLOT2M",
+    "data_id": "0x3bae17061eca221d:0x634fce12cb091ed5",
+    "data_cid": "7156164913026113237",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17061eca221d%3A0x634fce12cb091ed5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17061eca221d%3A0x634fce12cb091ed5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.983335199999999,
+     "longitude": 77.6386255
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJHSLKHgYXrjsR1R4JyxLOT2M",
+    "provider_id": "/g/11mbq2j58q",
+    "rating": 4.8,
+    "reviews": 12,
+    "type": "Coworking space",
+    "types": [
+     "Coworking space"
+    ],
+    "address": "648/1/J, Swami Vivekananda Rd, Binnamangala, Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "sunday": "9:30 AM–6:30 PM",
+     "monday": "9:30 AM–6:30 PM",
+     "tuesday": "9:30 AM–6:30 PM",
+     "wednesday": "9:30 AM–6:30 PM",
+     "thursday": "9:30 AM–6:30 PM",
+     "friday": "9:30 AM–6:30 PM",
+     "saturday": "9:30 AM–6:30 PM"
+    },
+    "phone": "+91 88844 65601",
+    "website": "https://315workavenue.com/coworking-office-space-bangalore/indiranagar/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlGaYULGRSR4clrVp-mf_uL8WyloggFO39-5OdHdIlAh76CJHsHM5ZsHpim_u8QtDkfrSZfX5fm--7LP4OrQViVaq9V3Tti9xYTAgE3eReaSI_O2rkNScVldq0UySLuOIpsdpcx0w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Qk49rXicHcRLjoIwAADQE1XqICqTzIL4KwanSrEKG0JKKcRCa1uiHnGOMLcx8S3e_1_rnLbfnidbfyKUEpKPlhumBscHN2Gq94S2gFlgvQilx-wid1V-TnYpSWdMGqpB35Rjsry8pBJii_0QBLhGdSyjdjFf7ZFFh6CwSHd9OS5Pbn1rDCmaa9D0ACyS4wybE-1odQ-pn7kufOZZJDY-T3lF4hJ_mdsvYVTWd3h-kWTEsba1Zk_4-HlMIYSg_czA8Abae0Wa"
+   },
+   {
+    "position": 8,
+    "title": "Indiranagar Premium Office Space for rent",
+    "place_id": "ChIJGeZpYAATrjsRTfE_c29pUkk",
+    "data_id": "0x3bae13006069e619:0x4952696f733ff14d",
+    "data_cid": "5283401240254869837",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae13006069e619%3A0x4952696f733ff14d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae13006069e619%3A0x4952696f733ff14d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9676066,
+     "longitude": 77.6562891
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJGeZpYAATrjsRTfE_c29pUkk",
+    "provider_id": "/g/11yyc909r_",
+    "unclaimed_listing": true,
+    "type": "Corporate office",
+    "types": [
+     "Corporate office"
+    ],
+    "address": "No. P3&, Edifice builders Pvt Ltd, 4, Jeevan Bima Nagar Main Rd, above HDFC Bank, LIC Colony, HAL 3rd Stage, Sector 12, Jeevan Bima Nagar, Bengaluru, Karnataka 560075, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9 AM Mon",
+    "hours": "Closed · Opens 9 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM",
+     "tuesday": "9 AM–6 PM",
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "9 AM–6 PM"
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmEXS3ITsUHJHK-nComW-uNYkluMShToxvj4m-YLtMndhPdZRvfgO8jV8OouUU2E1UO0SKBGqa5ex63umCleuyy6yZ9tYDWYq7fPs1VTm1jWyUldwUfm7b7lpxUPdcocJWh9HbTtev2NgOU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/QsDAK3icHc1LcoIwAADQE0VArKgzLlrLiF8YSYyw0xCSofmgSRBO6drbtNPN2773i1vbmoXnCR6OmNZMUGfog2hlqbIjoqXHWgOIAcb7TE4ZxDK-5OEGGpRskx1QKy0xcMfiR7hDzqHuu2YiQbG3B1XxrCpPXc3SWXOepdohNI4DlPr57mt9v37Qfho6ufobh2E6lHNbfOPiHtWZCc5QBg0ekKieqJbRLRJtj7KKaLLFfJ7coKXd-MhStHwGvu8D_i8B6hf6NkjI"
+   },
+   {
+    "position": 9,
+    "title": "Empire Estates | Furnished Office Space for Rent in Bangalore | Plug and Play Commercial Office Space",
+    "place_id": "ChIJMdq8OIcWrjsRGe_tZDX5iOk",
+    "data_id": "0x3bae168738bcda31:0xe988f93564edef19",
+    "data_cid": "16827974015391756057",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae168738bcda31%3A0xe988f93564edef19&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae168738bcda31%3A0xe988f93564edef19&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9729908,
+     "longitude": 77.60943689999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMdq8OIcWrjsRGe_tZDX5iOk",
+    "provider_id": "/g/1tnk_vnz",
+    "rating": 4.7,
+    "reviews": 30,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency",
+     "Commercial agent",
+     "Commercial real estate agency",
+     "Real estate agency",
+     "Real estate consultant"
+    ],
+    "address": "1st Floor, Centre point, No 102, Residency Rd, opposite Najarjuna hotel, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+    "country": "India",
+    "open_state": "Open · Closes 10 PM",
+    "hours": "Open · Closes 10 PM",
+    "operating_hours": {
+     "sunday": "10 AM–10 PM",
+     "monday": "10 AM–10 PM",
+     "tuesday": "10 AM–10 PM",
+     "wednesday": "10 AM–10 PM",
+     "thursday": "10 AM–10 PM",
+     "friday": "10 AM–10 PM",
+     "saturday": "10 AM–10 PM"
+    },
+    "phone": "+91 98861 20344",
+    "website": "http://www.empireestates.in/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmhJjDrVFjE0e6Ls-EM7f3td-JK3UMuy3ojGaz_G29A1Zqh_3S66ZOor5bNEo_jRtUWHQa0ELiA_H6JEUvy9OL2OuqmRvcEHxjWNrt2PMUpfLzx855L7P-PeIZq7Ox34YLgxMM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/YmSB2HicHcRRboIwAADQExUqHTCX7INkVWQtMBSJ_BDXVWoDFGhxyAF3h93GxPfx_v-EMb1-s-1GIKtWqm74pPnIVGd4ZyymWrvuNWAaaDsIs_RQtCKSH-NxIzHkHtEAU_-CzA-IPlFOpztScnteqq2zDlblICq097wyUaP7HWNVyczkRfh1hphcgyr0Ipzf7uuEOMk0tNmN4XCWRTwaJ6V5fyHL_Oq6xE9Bynfl4CczejmReqb0_XcFIQTiOQPdA52jQvY"
+   },
+   {
+    "position": 10,
+    "title": "Common Desk",
+    "place_id": "ChIJBYK7kaMWrjsRbzUsyuBpLTo",
+    "data_id": "0x3bae16a391bb8205:0x3a2d69e0ca2c356f",
+    "data_cid": "4192123242337285487",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16a391bb8205%3A0x3a2d69e0ca2c356f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16a391bb8205%3A0x3a2d69e0ca2c356f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.976719899999999,
+     "longitude": 77.6354198
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBYK7kaMWrjsRbzUsyuBpLTo",
+    "provider_id": "/g/11c1xfbw4k",
+    "rating": 4.2,
+    "reviews": 76,
+    "type": "Coworking space",
+    "types": [
+     "Coworking space"
+    ],
+    "address": "1st Floor, 271, 14th Cross Rd, Stage 2, Eshwara Layout, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open · Closes 11:30 PM",
+    "hours": "Open · Closes 11:30 PM",
+    "operating_hours": {
+     "sunday": "7 AM–11:30 PM",
+     "monday": "7 AM–11:30 PM",
+     "tuesday": "7 AM–11:30 PM",
+     "wednesday": "7 AM–11:30 PM",
+     "thursday": "7 AM–11:30 PM",
+     "friday": "7 AM–11:30 PM",
+     "saturday": "7 AM–11:30 PM"
+    },
+    "phone": "+91 99868 88639",
+    "website": "https://commondesk.in/",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmGaXJRFt4BS4tUg19J4gTFcuaFWs_UOA6XXu-Qw-ozdt0XUz2HULcfDy5MepWIdF0W1p3FbofwqZoyDNXZpPYFZ3X5i3VmnaCUwDnBKLWLxLGAzjEuTacCD4j-XgwDwURwLegwWQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rVzF43icHcTbbsIgAADQL8JSW01c4kOV4Y15qWWwviwVkWossEGD9g_9BP_GxPNwno_ae-s-ouhaJz1ljLrK1sl_YbSX2veEaSJlHRAOuCib59uCNbOKL3Ps08k-9VTFo2WqCizaCjP3SzfZkPMW7AIw3dFDTrv-nBJxQvfBl7RsccSQxTbBB3MKf6W5ozUv7fYHlwkfnJPvRldTGpCerAgjNzLLustnW1RiitIL4CqgQPNApApsNw4xhBDU7wXQL8LsRV8"
+   },
+   {
+    "position": 11,
+    "title": "Attic Space- Symbiosis",
+    "place_id": "ChIJS9EjMDoXrjsR20gvMNUC1sk",
+    "data_id": "0x3bae173a3023d14b:0xc9d602d5302f48db",
+    "data_cid": "14543815161299290331",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae173a3023d14b%3A0xc9d602d5302f48db&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae173a3023d14b%3A0xc9d602d5302f48db&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9728336,
+     "longitude": 77.640877
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJS9EjMDoXrjsR20gvMNUC1sk",
+    "provider_id": "/g/11fryglqkk",
+    "rating": 3.9,
+    "reviews": 18,
+    "type": "Business center",
+    "types": [
+     "Business center",
+     "Coworking space"
+    ],
+    "address": "Building #268, 100 Feet Rd, 7th Cross, HAL 2nd Stage, Motappapalya, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours"
+    },
+    "phone": "+91 80 4717 8622",
+    "website": "https://atticspace.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWli9kOCazj_tVaVWKxruclF6vvFwCGfxai_i1KNsYxOYM5zA-ZeOHDsMgPp46SJvevn8bJKRZOsa4WRiyWdcU7uuukonWQ-TB-zxTGxA8mzQH9Ylodk0g2_gIo9047rOc2yEkhXNA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/QH5YsnicHcRLjoIwAADQE1Wq4odJXOAXJVpl0IobgrUWhtoS2mLlhnMEb2PiW7z3f651pX4ch-f9DpOScWoUrYkUmgrdIfLhsEoBooBy_CDax5gXXolmWfuX6lN2wqGtDeHLYdMsn7PV3WZFWnTDnUosSraD1gcXioK52rJ95Q5_Nw1txPi6CaMLUpmLo-KFb-Q4MsaUUuADiKegtfHK-uNHewi8hMtbCVkvZWvpQXdUI9J7Lcr8vPMnzy6EEOTfCRAfolJGrQ"
+   },
+   {
+    "position": 12,
+    "title": "WorkDen - Executive 1 - 100ft road",
+    "place_id": "ChIJM47qfw0VrjsRdYZbZTXJWfY",
+    "data_id": "0x3bae150d7fea8e33:0xf659c935655b8675",
+    "data_cid": "17751440637428467317",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae150d7fea8e33%3A0xf659c935655b8675&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae150d7fea8e33%3A0xf659c935655b8675&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.969012399999999,
+     "longitude": 77.6410013
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJM47qfw0VrjsRdYZbZTXJWfY",
+    "provider_id": "/g/11j14n_vcr",
+    "rating": 4.2,
+    "reviews": 27,
+    "type": "Coworking space",
+    "types": [
+     "Coworking space"
+    ],
+    "address": "42 Estates, #775, 100 Feet Rd, HAL 2nd Stage, Doopanahalli, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "sunday": "9 AM–9 PM",
+     "monday": "9 AM–9 PM",
+     "tuesday": "9 AM–9 PM",
+     "wednesday": "9 AM–9 PM",
+     "thursday": "9 AM–9 PM",
+     "friday": "9 AM–9 PM",
+     "saturday": "9 AM–9 PM"
+    },
+    "phone": "+91 98862 31266",
+    "website": "http://www.workden.in/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk6ZguN1L6-nmOLxsadXImDfQEISlGSx-W8m5ndxDtdBXRGDzmO0iS0ApMo-iZSA0E5R01qI3UB4f4zZvLtO7UVzwzeRTCXXy6SM3EWlC17-7fiXXwda5VizpZxxZ-ATSUYHViM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/cqiAj3icHcRJboMwFADQE_1gRICqUhckoAQJSoIZXO8iRqvYprVTHF8wZ-htKvUt3u9z1npVr46zzN5uknJahrsavjsp9CD0rpPcmVYFnQLlROfyUrWfAZ3u724WgOBFZtStJymPx2uS4uWEDbQv3Be9iXV_IOUptrxADKNozSUwiiOU-CVyv1KvPuzHvaU_mS7CurGbHcrqSMgjwLmXtMvRDSEcGSFbf_MbZldqDIWowvXHuWH52-YihGD-vwPxBwqhQ60"
+   },
+   {
+    "position": 13,
+    "title": "Office Space In Bangalore",
+    "place_id": "ChIJ753LGmgXrjsRGILDZ3vcOC0",
+    "data_id": "0x3bae17681acb9def:0x2d38dc7b67c38218",
+    "data_cid": "3258596752982508056",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17681acb9def%3A0x2d38dc7b67c38218&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17681acb9def%3A0x2d38dc7b67c38218&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.981943099999999,
+     "longitude": 77.6012334
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ753LGmgXrjsRGILDZ3vcOC0",
+    "provider_id": "/g/11rxtwjvr6",
+    "rating": 4.8,
+    "reviews": 62,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency",
+     "Commercial agent",
+     "Commercial real estate agency",
+     "Coworking space",
+     "Industrial real estate agency",
+     "Technology park",
+     "Warehouse"
+    ],
+    "address": "19/2, Infantry Rd, opp. Gulistan Shadi Mahal, Shivaji Nagar, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "sunday": "9 AM–7 PM",
+     "monday": "9 AM–7 PM",
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM",
+     "thursday": "9 AM–7 PM",
+     "friday": "9 AM–7 PM",
+     "saturday": "9 AM–7 PM"
+    },
+    "phone": "+91 80500 08005",
+    "website": "https://officebangalore.com/",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnij8dCy0SVeGQ1VC-83pluvDPSrXc4DIfNr8oWjTU3gYev523uxpLO5Jp-GPzxqIgrxw4AmG8ttEw3pVWWHkQ5TReAxp236Jxul7RMVIagUJOoWWJP7asAp5yj-Y3m88gsz69M=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/KIcIQHicHcRdDoIgAADgE-FPZFJbD66a6bLMVPLREWGmQoJJXbAzdJu2vofv-6mUEnJhmk0FDcY5a-ggaU94p2inDMJbkwkJiATS9LZJnOLuVqPL6mWdcuof7XwFEBTN8FzHp_5Mpuvguu8Rx3WaQVbQpzOBgxa7gxMK4Mdv_QhYr8ep1_pIqc0IRY7x9n500oR6WkzgLNRD4yZRHpQsCw8c4zB2S-kJ51WDArYIMfmezaPlaFuWBar_BHQ_RhxEOg"
+   },
+   {
+    "position": 14,
+    "title": "Realty Corp",
+    "place_id": "ChIJ____P68WrjsRwBx54NdKnI0",
+    "data_id": "0x3bae16af3fffffff:0x8d9c4ad7e0791cc0",
+    "data_cid": "10204113146759158976",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16af3fffffff%3A0x8d9c4ad7e0791cc0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16af3fffffff%3A0x8d9c4ad7e0791cc0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9742021,
+     "longitude": 77.6416813
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ____P68WrjsRwBx54NdKnI0",
+    "provider_id": "/g/11g6bj18st",
+    "rating": 5,
+    "reviews": 20,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency",
+     "Commercial agent",
+     "Commercial real estate agency",
+     "Construction company",
+     "Corporate office",
+     "Real estate agency",
+     "Property investment company",
+     "Real estate consultant",
+     "Real estate rental agency",
+     "Retail space rental agency"
+    ],
+    "address": "#65, 1st Floor, 1st Cross, 6th Main, Defence Colony, Indiranagar, Bengaluru, Karnataka 560038, India",
+    "country": "India",
+    "open_state": "Open · Closes 4 PM",
+    "hours": "Open · Closes 4 PM",
+    "operating_hours": {
+     "sunday": "9 AM–4 PM",
+     "monday": "9 AM–7 PM",
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM",
+     "thursday": "9 AM–7 PM",
+     "friday": "9 AM–7 PM",
+     "saturday": "9 AM–7 PM"
+    },
+    "phone": "+91 98860 25027",
+    "website": "http://www.realtycorpindia.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnzeah3K2bRKlxwS023Sn9NS76j9fHNJakdmAitdAQYAo4WAgr2UD7Dn9efqSzy3FqOoAPzEYDkQ50UX4pODVhUHzAdyRs1YJi1-z8sNJsmJbn6i2oPYdVa2Izz9cNtIsl7HxCW=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/SFWMjnicHcRRDoIgGADgE5GIldnWA8ua2WamqfloSGIpWD-t4oKdodu09T1834_QeoC5ZXXCGTVKNR1_AL8zJTWXesRUbzUDIAYILBok8aGQhlfC2ZJTsu1ezxQTJ5VelLrTi3cOorC61j1tdU33JVXjgjZ3kvmuLz1-vqXm7axvO0Vjsyr9636Cs-N42Pm5yAJD63cCdhm2NjIziELow5OctkTFZZ1XZGOMxyK9gc4NXsti8bQxxkj8Z0j-AC7IRFE"
+   },
+   {
+    "position": 15,
+    "title": "Urban Vault 1133 - Coworking Space in Indiranagar",
+    "place_id": "ChIJoxUd6NwXrjsRA27PKFdNYPw",
+    "data_id": "0x3bae17dce81d15a3:0xfc604d5728cf6e03",
+    "data_cid": "18185620332064239107",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17dce81d15a3%3A0xfc604d5728cf6e03&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17dce81d15a3%3A0xfc604d5728cf6e03&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9696261,
+     "longitude": 77.6415861
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJoxUd6NwXrjsRA27PKFdNYPw",
+    "provider_id": "/g/11fj5z4g7d",
+    "rating": 3.6,
+    "reviews": 28,
+    "type": "Coworking space",
+    "types": [
+     "Coworking space"
+    ],
+    "address": "1133, 100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "sunday": "9:30 AM–9 PM",
+     "monday": "9:30 AM–9 PM",
+     "tuesday": "9:30 AM–9 PM",
+     "wednesday": "9:30 AM–9 PM",
+     "thursday": "9:30 AM–9 PM",
+     "friday": "9:30 AM–9 PM",
+     "saturday": "9:30 AM–9 PM"
+    },
+    "phone": "+91 89510 62852",
+    "website": "http://www.urbanvault.in/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmz3IEsoTVGrCX3aTfJDo2Lb-iz6OFzh5TBgARmma6o7Iy2uV_3rK8gO_lCnK2Kwj1FXqkJ-O4DBbIDzal0xD9jCjkLQjFSWaY0zCE2lZmmAOUebaFy1FEAPJ8FbAB0n7-luzL2=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/0DXC2nicHcRXDoIwAADQE1VKcSd-lFFlJDhw_phCsIgdSiFqL-gZvI2J7-N9P1Xb3vXUsnjl9JhSjJedLptCybaUba9QwmJ3DQoNtIUX62W2F8YJA62y3bzxDg7NLpGvUJKDqxmmxFSDzGV4LQQdqlH4Rt3u7DTxmKVn7skYxc_aJofHLQJp33fz0DeUw5c_qb36lqxqstnTIzRegPhJCJxuy5ySt00CvIzGJMculCPAO5Og2dOGEILqfwHkDwiQQyc"
+   },
+   {
+    "position": 16,
+    "title": "IBC Managed Office Space Services Private",
+    "place_id": "ChIJMa_XkpAVrjsRyHQsLGdrFjQ",
+    "data_id": "0x3bae159092d7af31:0x34166b672c2c74c8",
+    "data_cid": "3753305430326801608",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae159092d7af31%3A0x34166b672c2c74c8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae159092d7af31%3A0x34166b672c2c74c8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9600066,
+     "longitude": 77.6436147
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMa_XkpAVrjsRyHQsLGdrFjQ",
+    "provider_id": "/g/11w3vk9p93",
+    "rating": 4.4,
+    "reviews": 34,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency"
+    ],
+    "address": "Tower B, Diamond District, 9th Floor, Pent House, HAL Old Airport Rd, Kodihalli, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Mon",
+    "hours": "Closed · Opens 10 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "10 AM–6 PM",
+     "tuesday": "10 AM–6 PM",
+     "wednesday": "10 AM–6 PM",
+     "thursday": "10 AM–6 PM",
+     "friday": "10 AM–6 PM",
+     "saturday": "10 AM–6 PM"
+    },
+    "phone": "+91 99001 74500",
+    "website": "https://moss.space/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkR_SEapfK4j735lkLN9tixXBVeM0pySZA0IMUj98wy0zAczkhkoDSYfhG6qrT3bBKBg49t9Jv7c-5Kt07tb76hPidRk7LPtjS_8aL_h55egHm4WGxE3u2sk9jBF-U94WblCHpP1Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/t3YjSXicHcRNcoIwGADQE0ViAWOccQHWioIdBBXthpE0JhIkqfn8vWGP4G2c8S3e818CGDtwnEa6HaG1aPjZ8hPTLfAWOkwfHWEsYhZZJ4iydFmorMzHO7OPvZq4fqOSbwqH2yZc8zk29_wnwNP5qqb96x0_AvZQUunPfLuXk97faelWYRwKjwKdXQhDfgyYQEV6Mj38ZookKdR52d8lpfR9LqKjV0xuY_f8YRWtwy-0ol5RNaPIpN3F8NrFGCP5nqH2BaLxQ98"
+   },
+   {
+    "position": 17,
+    "title": "Share Office Solutions",
+    "place_id": "ChIJtdXxZIkXrjsRkNp7WmuJqhE",
+    "data_id": "0x3bae178964f1d5b5:0x11aa896b5a7bda90",
+    "data_cid": "1272980938858158736",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae178964f1d5b5%3A0x11aa896b5a7bda90&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae178964f1d5b5%3A0x11aa896b5a7bda90&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9806259,
+     "longitude": 77.6292459
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJtdXxZIkXrjsRkNp7WmuJqhE",
+    "provider_id": "/g/11fdlfq08q",
+    "rating": 4.1,
+    "reviews": 115,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency",
+     "Business center",
+     "Commercial real estate agency",
+     "Conference center",
+     "Corporate campus",
+     "Coworking space",
+     "Property investment company",
+     "Retail space rental agency"
+    ],
+    "address": "14, Thamarai Kannan Rd, Halasuru, Murphy Town, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours"
+    },
+    "phone": "+91 97399 66778",
+    "website": "https://shareofficesolutions.com/about",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlnBVIcZeS6-_vDsfOFzFeEMmztYYjEYDNh8uhQfgoUgYk6S0YBsIal48HzQsRJOwvQ94h7gR8BRYs2m8CXPiZD8oCkxuT02xlUDK6-bpg4GksR5XEkV6IImZCAO-E_ysBJdu17=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/1_Y-LXicHcRbcoIwFADQFUUipZh2ph_yULHTAlEp4cdpY0yUQJje4IMNugZ344zn49xvytoO3h1Hq5eRNEZq0YP456a1orUjbhpHdoA4IHCmC5qtf3QbFAmvxMpH21ME-3Q2zET81QyWsWPMom9FepXvpdlIVvsrzAJIfrVHFkMOdJmeT_mbpyaSkoAycBsSltmhiogJ60u_xu5Fb6JPH_110pvXQF_LuC78JGmqcJqieHuFYLnrx5OP8xhjjNRzjtoHaOlEAg"
+   },
+   {
+    "position": 18,
+    "title": "Indiranagar Real Estate Brokers",
+    "place_id": "ChIJDwwjaTwXrjsRb6v-BDyzQ70",
+    "data_id": "0x3bae173c69230c0f:0xbd43b33c04feab6f",
+    "data_cid": "13637941166971202415",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae173c69230c0f%3A0xbd43b33c04feab6f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae173c69230c0f%3A0xbd43b33c04feab6f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9700499,
+     "longitude": 77.6413902
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJDwwjaTwXrjsRb6v-BDyzQ70",
+    "provider_id": "/g/11h1yh82tl",
+    "rating": 4,
+    "reviews": 1,
+    "type": "Office space rental agency",
+    "types": [
+     "Office space rental agency",
+     "Commercial agent",
+     "Construction company",
+     "Real estate agency",
+     "Property investment company",
+     "Real estate consultant",
+     "Real estate rental agency",
+     "Retail space rental agency"
+    ],
+    "address": "100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open · Closes 2 PM",
+    "hours": "Open · Closes 2 PM",
+    "operating_hours": {
+     "sunday": "9 AM–2 PM",
+     "monday": "9 AM–7 PM",
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM",
+     "thursday": "9 AM–7 PM",
+     "friday": "9 AM–7 PM",
+     "saturday": "9 AM–7 PM"
+    },
+    "phone": "+91 98860 25027",
+    "website": "http://www.realtycorpindia.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlatWb6DGrXHhXIJDwnSApYAKxc4coOe9YqRTshf_l0h-apML_OMSH0hF3se1LgCsGsE9RMl-t44T36OyUDnXDQss4yHmMe-czHluWUg7W-TExGUbCGJOhGAncmqdvHluOEWemmrQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/EQtCT3icHclJDoIwFADQE1VqIBpNXBDB1oFUEVJcGa21XXRAfh1v6BG8jcbN27zPW4fQwjiKjI57yntl5BVkJ7wL0oWe8DZSLSABCKKUluuKm0Pgx0FGuobqZr7I7m6btrt0-RCJ8EyOdpeyAn3eG6zRoS1We1ZsKdazGGR_paZAIB-VhUEhSap4wJ515ppsA5A8qS0kEi9qrrxWQ46q_EHq45QsmCapE_Zyuv2O5Vxa220m9z7GGOm_Arkv811Fow"
+   },
+   {
+    "position": 19,
+    "title": "WORKAPLACE (Coworking and Managed office space Indiranagar )",
+    "place_id": "ChIJ2UffVZMXrjsR0j2aTfJjWmE",
+    "data_id": "0x3bae179355df47d9:0x615a63f24d9a3dd2",
+    "data_cid": "7015029261918158290",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae179355df47d9%3A0x615a63f24d9a3dd2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae179355df47d9%3A0x615a63f24d9a3dd2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9798622,
+     "longitude": 77.6403225
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2UffVZMXrjsR0j2aTfJjWmE",
+    "provider_id": "/g/11tn9mf5bw",
+    "rating": 4.2,
+    "reviews": 5,
+    "type": "Coworking space",
+    "types": [
+     "Coworking space"
+    ],
+    "address": "279, 5th Main Road, 6th Cross Rd, Indira Nagar II Stage, Bengaluru, Karnataka 560038, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Mon",
+    "hours": "Closed · Opens 10 AM Mon",
+    "operating_hours": {
+     "sunday": "Closed",
+     "monday": "10 AM–7 PM",
+     "tuesday": "10 AM–7 PM",
+     "wednesday": "10 AM–7 PM",
+     "thursday": "10 AM–7 PM",
+     "friday": "10 AM–7 PM",
+     "saturday": "10 AM–7 PM"
+    },
+    "phone": "+91 63605 08590",
+    "website": "https://www.workaplace.com/premium-office-in-hsr",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnTcazrtNGEHrihIN2wXNj54ZGL0WBWrOckMJAemtCY4NyZMxlJ8p9pXk70re7sXxBWBQQSYy4fJVdjwh_cFVuVEZX52vfYncFzD75Gvgoz78546sMb8ux9yMu3Qk4pThTXgDYDxqUeub5J=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/cd2583icHcRLUoMwAADQE1Fimwh1xkWRlsoISkUIbBwb08RCk5hP-VzStbdxxrd4vz_cWmXufL_nqwWTkvXUGaqJFJYKuyDy4jNlPGI842_2h5eyFiX5mLXNk-1ef_HHfDng_IxgmzyBOqr1M-mydEMv9qGB-dRmY5-Gaq1wFwBNA4PHqI6K4rWZ4CmtPs8Dfye7ylXbFqPl9dQIspvjACVXJucgRPDWZMfQjespc6uig6rkJWZxE4_fb9QdUXo_3AAAPP4_8cQf2IdH8g"
+   },
+   {
+    "position": 20,
+    "title": "Office Spaces",
+    "place_id": "ChIJ-VUyEFsUrjsRdJdYHEQKJWo",
+    "data_id": "0x3bae145b103255f9:0x6a250a441c589774",
+    "data_cid": "7648530829808277364",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145b103255f9%3A0x6a250a441c589774&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145b103255f9%3A0x6a250a441c589774&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9681005,
+     "longitude": 77.6458056
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ-VUyEFsUrjsRdJdYHEQKJWo",
+    "provider_id": "/g/1tdncpny",
+    "rating": 4.2,
+    "reviews": 26,
+    "unclaimed_listing": true,
+    "type": "Real estate agency",
+    "types": [
+     "Real estate agency"
+    ],
+    "address": "4164, 13th A Main Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Permanently closed",
+    "hours": "Permanently closed",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkoQR4HkFbRENiHJBfRGS7UiXZlR5uXhBhfX99XL8650YWJPqGceB9Z_69CduJzAhUxMFzehEioOkX0aIPXFrSwe-k4qWMisEiZG_ybAqjPlI4lXModrnO45BxKJG-vx6m3XEE=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/hl4343icHcThEoEwAADgJ5rmVOTOj3KrRGS4pj-OmTZNUyviAb2Dt3Hn-_F9P7xp7npsGJIPerlSuWStZjVVZcPKpkfVzcjvGlANtOGGONmmhVpjMyz8E0ZLEUbeBQeb4U6QTGKrJdzjF-I4ZDGyLbhPo6QKKPOc7GA703MbvV2-62L_zTgSalUQeJwlxK83TwYKs0pjoZHIgsPr5FbXRM5MSWJ1rsuVaXndPArAo7NvA4LQ5NmHEAL-n4LyB8xfQ7A"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&q=office+space+for+sale+Indiranagar+Bangalore&start=20&type=search"
+  }
+ }
+}
