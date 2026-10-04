@@ -25,6 +25,8 @@ Reference CHECKLIST IDs.
   - Tooling: Makefile, `.env.example`, ruff, pytest (8 tests), eslint, tsc.
 
 ### Changed
+- 2026-10-04 · `graphify-out/` is gitignored and no longer tracked; the graph is rebuilt locally
+  by graphify's hooks. `.gitattributes` (its merge rule) removed.
 - 2026-10-03 · ROI is one target compared against the goal's measure: rental yield, price growth
   or total return. Net yield and cap rate removed (ADR 0010).
 - 2026-10-03 · Property types now follow the listing portals' categories; bedrooms dropped from

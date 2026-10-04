@@ -118,5 +118,7 @@ A checklist item is ✅ only when **all** of these are true, in the same commit 
 
 ## Knowledge graph
 
-This repo keeps a graphify knowledge graph in `graphify-out/` for code navigation. After
-changing code, run `graphify update .` (AST only, no API cost).
+graphify keeps a knowledge graph of the code in `graphify-out/` for navigation. It is
+**local only** (gitignored): its git hooks rebuild it after every commit and checkout, which made
+the tracked copy show up as modified constantly. On a fresh clone, or after changing code,
+run `graphify update .` (AST only, no API cost).
