@@ -11,6 +11,7 @@ import type {
   HealthStatus,
   InvestorProfile,
   InvestorProfileIn,
+  Listing,
   PipelineRun,
   ProfileOptions,
 } from "./types";
@@ -93,5 +94,29 @@ export function useStartRun() {
   return useMutation({
     mutationFn: (profileId: string) =>
       apiFetch<PipelineRun>(`/profiles/${profileId}/runs`, { method: "POST" }),
+  });
+}
+
+// --- Pipeline runs (I-09, F-02, F-20) --------------------------------------------------
+
+const isActive = (run: PipelineRun | undefined) =>
+  run?.status === "pending" || run?.status === "running";
+
+/** A run, polled every second while it is pending or running. */
+export function useRun(runId: string | undefined) {
+  return useQuery({
+    queryKey: ["runs", runId],
+    queryFn: () => apiFetch<PipelineRun>(`/runs/${runId}`),
+    enabled: runId !== undefined,
+    refetchInterval: (query) => (isActive(query.state.data) ? 1000 : false),
+  });
+}
+
+/** Candidates a run discovered. Fetched once the run has finished. */
+export function useRunListings(run: PipelineRun | undefined) {
+  return useQuery({
+    queryKey: ["runs", run?.id, "listings"],
+    queryFn: () => apiFetch<Listing[]>(`/runs/${run?.id}/listings`),
+    enabled: run !== undefined && !isActive(run),
   });
 }
