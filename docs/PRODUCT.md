@@ -37,7 +37,7 @@ Numbering matches [CHECKLIST.md](../CHECKLIST.md), which tracks status.
 | ID | Feature | What it does | Priority |
 |---|---|---|---|
 | F-01 | Investor profile | Residential or commercial, property types, size, 1–5 localities, budget, goal with a target ROI, risk appetite, must-haves; business type for commercial | P0 |
-| F-02 | Property discovery | Turns criteria into SerpApi searches across listing portals and Maps | P0 |
+| F-02 | Property discovery | Turns criteria into SerpApi searches of 99acres, MagicBricks and NoBroker (via Google) and Google Maps; reads the prices the portals' search pages quote | P0 |
 | F-03 | AI relevance verification | Gemini extracts structured fields, scores each listing against the profile, flags mismatches and missing data | P0 |
 | F-04 | Recommendations | Ranked shortlist with a match score and a plain-language reason for each pick | P0 |
 | F-05 | Area intelligence | Per locality: news, infrastructure, amenities, price level, rental demand | P0 |
@@ -67,7 +67,7 @@ Numbering matches [CHECKLIST.md](../CHECKLIST.md), which tracks status.
 
 | Risk | Answer |
 |---|---|
-| **Data coverage:** SerpApi returns search results, not a property database; portals limit what is visible | Spike S-01 measures real coverage before the design is locked. Result-kind classification separates single listings from aggregate pages. Missing fields are shown as missing, never guessed. |
+| **Data coverage:** SerpApi returns search results, not a property database; portals limit what is visible | Measured in [spike S-01](spikes/S-01-data-coverage.md): Google returns portal search pages, not single listings, but their snippets quote real prices. Discovery reads those entries ([ADR 0011](decisions/0011-discovery-from-search-snippets.md)); missing fields are shown as missing, never guessed. |
 | **Terms of service and cost** | SerpApi is the only data source; portals are linked, not scraped ([ADR 0002](decisions/0002-serpapi-as-the-only-listing-source.md)). Aggressive caching, locality-keyed enrichment and a search budget ([SERPAPI_USAGE.md](SERPAPI_USAGE.md)). |
 | **AI accuracy** | Regex first, LLM only for gaps; every field keeps its source text and confidence ([ADR 0004](decisions/0004-provenance-on-every-field.md)); scores and money maths are computed in code ([ADR 0008](decisions/0008-code-computes-llm-explains.md)). |
 

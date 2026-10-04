@@ -27,7 +27,8 @@ Keep docs and the tracker current as work happens, not at the end:
   extracts and explains (ADR 0008).
 - Unbuilt code raises `NotImplementedYet("<CHECKLIST ID>", "...")`; grep the ID to find stubs.
 - Never spend live SerpApi searches casually: 250/month free tier. Default modes are `replay`;
-  use `record` deliberately and commit the fixtures.
+  use `record` deliberately and commit the fixtures. One-off searches go through the gateway:
+  `uv run python -m app.cli serp <engine> q="..."` (never call `serpapi` directly).
 - After changing a Pydantic schema run `make types`. Never hand-write frontend response types.
 - `make lint` and `make test` must pass.
 

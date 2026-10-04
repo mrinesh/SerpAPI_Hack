@@ -110,6 +110,8 @@ All errors are `{"error": {"code", "message", "details"}}` (`app/core/errors.py`
 | `not_implemented` | 501 | Scaffolded, not built; `details.feature_id` names the CHECKLIST row |
 | `search_budget_exceeded` | 429 | A live search would exceed the run or monthly budget |
 | `replay_miss` | 503 | Replay mode has no fixture for this request |
+| `provider_not_configured` | 503 | A live call needs an API key that is not set |
+| `upstream_error` | 502 | SerpApi or Gemini failed or returned an unusable response |
 | `internal_error` | 500 | Anything else |
 
 ## Configuration
@@ -131,9 +133,11 @@ backend/
     jobs/           APScheduler wiring, alert job
     pipeline/       one module per stage; enrichment/ for area and competitors
     reference/      static market data (Bengaluru localities)
+    cli.py          developer command line: one search or budget check through the gateway
     schemas/        Pydantic domain models
     services/       use cases behind each route
   fixtures/         recorded SerpApi and LLM responses (committed)
+  scripts/          analysis scripts, e.g. s01_analyze.py for the data-coverage spike
   tests/            unit/ and integration/
 frontend/
   src/

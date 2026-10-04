@@ -30,6 +30,7 @@ environment variables override `.env`.
 | `SERPAPI_MONTHLY_BUDGET` | `250` | Live searches allowed per calendar month |
 | `SERPAPI_RUN_BUDGET` | `40` | Live searches allowed per pipeline run |
 | `SERPAPI_CACHE_TTL_HOURS` | `72` | How long a cached search is reused |
+| `SERPAPI_TIMEOUT_S` | `60` | Per-request timeout; some searches took over 30 s in S-01 |
 | `SERPAPI_LOCATION` | `Bengaluru,Karnataka,India` | SerpApi `location` parameter |
 | `GEMINI_API_KEY` | – | Needed for `live` / `record` LLM mode only |
 | `LLM_MODE` | `replay` | Same three modes, for Gemini |
@@ -62,7 +63,7 @@ A request with no fixture in `replay` mode fails with `503 replay_miss`; record 
 | `make lint` | ruff, ruff format check, eslint, tsc |
 | `make fmt` | Auto-format and fix the backend |
 | `make types` | Export OpenAPI and regenerate `frontend/src/api/schema.d.ts` |
-| `make reset-db` | Delete the local SQLite database (recreated on next start) |
+| `make reset-db` | Delete the local SQLite database (recreated on next start; also clears the search ledger) |
 
 ## Conventions
 
@@ -109,6 +110,28 @@ A checklist item is ✅ only when **all** of these are true, in the same commit 
 4. Implement pipeline/service logic, then the route, then the UI.
 5. Record fixtures for any new SerpApi or LLM call (`make record`), commit them.
 6. Walk the definition of done.
+
+## One-off searches
+
+The developer CLI sends a single search through the gateway, so modes, cache and budget apply:
+
+```bash
+cd backend
+uv run python -m app.cli budget                                  # used this month, left on account
+SERPAPI_MODE=record uv run python -m app.cli serp google q="flat for sale in Hebbal Bangalore"
+uv run python -m app.cli serp google_maps q="flats for sale Hebbal Bangalore"
+uv run python scripts/s01_analyze.py                             # tabulate recorded Google results
+```
+
+Engine defaults (location, `gl`, `hl`, domain) come from `engines.py`; extra `key=value` pairs
+override them. In `record` mode the response is saved under `backend/fixtures/serpapi/`; commit it.
+
+## Discovery runs and replay
+
+In `replay` mode a run only succeeds for searches that were recorded. These profiles replay
+fully from the S-01 fixtures: apartment in Whitefield up to ₹80 L (Google + Maps), and office
+space in Koramangala up to ₹3 Cr. Other profiles report "No recorded … response" for each
+missing search; record them in `record` mode first.
 
 ## Known tooling issues
 

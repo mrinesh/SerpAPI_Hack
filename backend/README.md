@@ -20,7 +20,9 @@ uv run ruff check . && uv run ruff format .      # lint / format
 | `app/integrations/llm/` | Gemini provider, record/replay, prompts |
 | `app/schemas/` | Pydantic domain models, the shared contract |
 | `app/db/` | SQLAlchemy tables and session |
+| `app/cli.py` | One search or a budget check through the gateway (`uv run python -m app.cli --help`) |
 | `fixtures/` | Recorded SerpApi and LLM responses (committed) |
+| `scripts/` | Analysis scripts, e.g. `s01_analyze.py` (spike S-01) |
 | `openapi.json` | Exported API schema; source for frontend types (`make types`) |
 
 Full docs: [../docs/README.md](../docs/README.md).

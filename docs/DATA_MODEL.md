@@ -14,7 +14,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 {
   "value": 8500000,
   "confidence": 0.9,
-  "method": "regex",            // serpapi_field | regex | llm | computed
+  "method": "regex",            // serpapi_field | regex | llm | computed | query
   "sources": [{
     "engine": "google",
     "url": "https://www.99acres.com/...",
@@ -30,8 +30,8 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | Schema | Module | Purpose |
 |---|---|---|
 | `InvestorProfileIn` / `InvestorProfile` | `profile.py` | Criteria for a run |
-| `RawSearchHit` | `listing.py` | One SerpApi result before cleaning |
-| `Listing` | `listing.py` | Cleaned, de-duplicated property candidate; all facts `Sourced` |
+| `RawSearchHit` | `listing.py` | One portal page (Google) or housing place (Maps) before cleaning, with the locality and type it was searched for |
+| `Listing` | `listing.py` | A discovered candidate: `snippet_entry` (priced entry quoted on a portal search page) or `project` (Google Maps place). Name, url, price, ₹/sq ft, size, BHK, sale status, GPS, rating, evidence text; all facts `Sourced` ([ADR 0011](decisions/0011-discovery-from-search-snippets.md)) |
 | `Verification`, `QualityFlag` | `listing.py` | LLM match score, verdict, mismatches, flags |
 | `AreaIntel` (+ `Amenity`, `NewsItem`, `PriceTrend`, `RentalDemand`) | `area.py` | Per-locality intelligence |
 | `CompetitorReport`, `Competitor` | `competitor.py` | Commercial competition around a point |
@@ -64,7 +64,8 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 |---|---|---|---|
 | `investor_profiles` | `id` | `InvestorProfileIn` JSON | |
 | `pipeline_runs` | `id` | status, current stage, `StageEvent[]`, searches used, cache hits | FK profile |
-| `listings` | `id`, unique `canonical_url` | `Listing` JSON, `locality_key`, `last_price_inr` | Shared across runs; enables price-drop alerts |
+| `listings` | `id` = stable hash of the candidate's identity | `Listing` JSON; `kind`, `portal`, `locality`, `price_inr`, `size_sqft`, `price_per_sqft` columns | Shared across runs, so a repeat run updates the same rows |
+| `listing_observations` | `id`; unique (`listing_id`, `run_id`) | price at the time | One row per candidate per run: "found in this run" and price history |
 | `run_results` | `id` | `Recommendation` JSON, `rank` | One row per listing per run; rank null when rejected |
 | `area_intel` | `locality_key` | `AreaIntel` JSON, `expires_at` | e.g. `bengaluru/whitefield` |
 | `competitor_reports` | hash(centre, category, radius) | `CompetitorReport` JSON | |
@@ -80,6 +81,8 @@ erDiagram
     investor_profiles ||--o{ alerts : "receives"
     pipeline_runs ||--o{ run_results : "produces"
     listings ||--o{ run_results : "ranked in"
+    pipeline_runs ||--o{ listing_observations : "found"
+    listings ||--o{ listing_observations : "seen at a price"
     listings ||--o| saved_properties : "saved as"
     listings ||--o{ alerts : "about"
     area_intel ||--o{ listings : "locality_key"
@@ -89,6 +92,8 @@ erDiagram
 
 1. Edit the Pydantic schema in `app/schemas`.
 2. If a filtered or sorted column is needed, add it to `app/db/models.py`. There are no
-   migrations during the hackathon: delete `backend/data/realty_intel.db` to recreate tables.
+   migrations during the hackathon: drop the changed table (e.g. `sqlite3 backend/data/realty_intel.db
+   "drop table listings"`) and restart, or `make reset-db` to recreate everything. Dropping one
+   table keeps the search ledger, which the monthly budget is counted from.
 3. Run `make types` to regenerate the frontend types.
 4. Update this page.

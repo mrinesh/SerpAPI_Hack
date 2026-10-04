@@ -22,19 +22,19 @@ code for an ID finds every stub that belongs to it.
 | ID | Item | Priority | Status | Owner |
 |---|---|---|---|---|
 | **Spikes** | | | | |
-| S-01 | Data coverage spike (Bengaluru, real queries) | P0 | 🟨 | |
+| S-01 | Data coverage spike (Bengaluru, real queries) | P0 | ✅ | |
 | S-02 | Gemini extraction accuracy check | P0 | ⬜ | |
-| S-03 | Search cost model per run | P0 | ⬜ | |
+| S-03 | Search cost model per run | P0 | ✅ | |
 | **Infrastructure** | | | | |
 | I-01 | Repo scaffold, tooling, docs skeleton | P0 | ✅ | |
-| I-02 | SerpApi gateway: params, cache, TTL | P0 | 🧱 | |
-| I-03 | SerpApi record / replay fixtures | P0 | 🧱 | |
-| I-04 | Search budget ledger and caps | P0 | 🧱 | |
-| I-05 | Budget endpoint via SerpApi Account API | P1 | 🧱 | |
+| I-02 | SerpApi gateway: params, cache, TTL | P0 | ✅ | |
+| I-03 | SerpApi record / replay fixtures | P0 | ✅ | |
+| I-04 | Search budget ledger and caps | P0 | ✅ | |
+| I-05 | Budget endpoint via SerpApi Account API | P1 | ✅ | |
 | I-06 | Gemini provider with structured output | P0 | 🧱 | |
 | I-07 | LLM record / replay cache | P0 | 🧱 | |
 | I-08 | Database schema and session | P0 | 🧱 | |
-| I-09 | Pipeline orchestrator, background runs, stage events | P0 | 🧱 | |
+| I-09 | Pipeline orchestrator, background runs, stage events | P0 | ✅ | |
 | I-10 | Frontend shell, routing, API client, generated types | P0 | 🧱 | |
 | I-11 | Background scheduler | P1 | 🧱 | |
 | I-12 | Bengaluru locality data and geocoding | P0 | 🧱 | |
@@ -42,7 +42,7 @@ code for an ID finds every stub that belongs to it.
 | I-14 | CI: lint, typecheck, tests on push | P1 | ⬜ | |
 | **Features (F-01 to F-08 match the product brief's numbering)** | | | | |
 | F-01 | Investor profile | P0 | ✅ | |
-| F-02 | Property discovery | P0 | 🧱 | |
+| F-02 | Property discovery | P0 | ✅ | |
 | F-03 | AI relevance verification | P0 | 🧱 | |
 | F-04 | Ranked recommendations with reasons | P0 | 🧱 | |
 | F-05 | Area intelligence | P0 | 🧱 | |
@@ -54,7 +54,7 @@ code for an ID finds every stub that belongs to it.
 | F-11 | Source citations and confidence | P0 | 🧱 | |
 | F-12 | Listing quality flags | P1 | 🧱 | |
 | F-19 | Results map view | P0 | ⬜ | |
-| F-20 | Live pipeline progress view | P0 | ⬜ | |
+| F-20 | Live pipeline progress view | P0 | ✅ | |
 | **Later (P2)** | | | | |
 | F-13 | Risk scoring (flood, legal, oversupply) | P2 | ⏸️ | |
 | F-14 | Neighbourhood trend forecasting | P2 | ⏸️ | |
@@ -86,26 +86,28 @@ code for an ID finds every stub that belongs to it.
 
 ## Spikes
 
-### S-01 Data coverage spike · P0 · 🟨
+### S-01 Data coverage spike · P0 · ✅
 Answers the brief's biggest risk: what SerpApi actually returns for Bengaluru property searches.
-Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.md).
+Findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.md); decisions in
+[ADR 0011](docs/decisions/0011-discovery-from-search-snippets.md). 24 searches of the 25 approved.
 - [x] Confirm `location` canonical name with the free Locations API: `Bengaluru,Karnataka,India`
-- [ ] Run ~10 residential queries across 99acres / MagicBricks / Housing / NoBroker, record fixtures
-- [ ] Run ~4 commercial queries (office / retail) and 2 Google Maps competitor queries
-- [ ] For each portal: share of hits that are single listings vs aggregate pages
-- [ ] For each field (price, size, BHK, locality, posted date): how often it is in title / snippet / rich_snippet
-- [ ] Check what google_news, google_trends and the "property rates" query return for 2 localities
-- [ ] Decide final query templates and update `query_planner.py` docstring and docs/SERPAPI_USAGE.md
+- [x] 15 Google queries across 99acres / MagicBricks / NoBroker (Housing.com dropped by the product
+      owner), residential and commercial, recorded as fixtures
+- [x] 3 Google Maps and 3 Google Local queries
+- [x] Per portal: single listings 0 of 87; all search pages (+2 NoBroker project pages)
+- [x] Per field: price, ₹/sq ft, size, BHK, status coverage measured; no posted dates, no rich_snippet
+- [x] Query templates decided with the product owner and implemented in `query_planner.py`
+- [ ] google_news, google_trends and "property rates" queries: moved to F-05, which needs them
 
 ### S-02 Gemini extraction accuracy · P0 · ⬜
 - [ ] Hand-label 20 S-01 hits (kind, price, size, BHK, locality)
 - [ ] Run regex parsers + `extract_listing` and record field-level accuracy in the spike doc
 - [ ] Decide which fields need the LLM and which regex handles alone
 
-### S-03 Search cost model · P0 · ⬜
-- [ ] Count searches for a fresh residential run (3 localities) and a repeat run
-- [ ] Count extra searches for a commercial run
-- [ ] Set `SERPAPI_RUN_BUDGET` and document the model in docs/SERPAPI_USAGE.md
+### S-03 Search cost model · P0 · ✅
+- [x] Fresh run: L × T Google + L Maps (flats only); repeat run within the TTL: 0
+- [x] Commercial run: L × T Google, no Maps
+- [x] `SERPAPI_RUN_BUDGET` 40 covers the largest profile (25); model in docs/SERPAPI_USAGE.md
 
 ---
 
@@ -118,27 +120,28 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 - [x] Makefile, `.env.example`, docs skeleton, ADRs, this checklist
 - [x] Tests: health, 501 contract, cache key, profile validation
 
-### I-02 SerpApi gateway · P0 · 🧱
+### I-02 SerpApi gateway · P0 · ✅
 `backend/app/integrations/serpapi/gateway.py`
 - [x] `cache_key` (stable, ignores `api_key` and param order) + tests
-- [x] Engine parameter builders in `engines.py` (confirm in S-01)
-- [ ] `search()`: DB cache lookup with TTL → live call via `serpapi.Client` → write cache
-- [ ] Map SerpApi errors (`SerpApiError`, timeouts) to `AppError`s
-- [ ] Tests with a fake client
+- [x] Engine parameter builders in `engines.py`, checked against SerpApi docs (no `num`; Google Local added)
+- [x] `search()`: DB cache lookup with TTL → live call via `serpapi.Client` → write cache
+- [x] Map SerpApi errors (`SerpApiError`, timeouts, non-Success status) to `AppError`s
+- [x] Tests with a fake client (13 cases)
+- [x] Developer CLI `app/cli.py` for one-off searches through the gateway
 
-### I-03 SerpApi record / replay · P0 · 🧱
-- [ ] Record mode writes `fixtures/serpapi/<engine>/<key>.json` (with `api_key` stripped)
-- [ ] Replay mode reads fixtures only and raises `ReplayMiss` on a miss
-- [ ] `make record` target documented in docs/DEVELOPMENT.md
+### I-03 SerpApi record / replay · P0 · ✅
+- [x] Record mode writes `fixtures/serpapi/<engine>/<key>.json` (with `api_key` stripped), also from cache
+- [x] Replay mode reads fixtures only and raises `ReplayMiss` on a miss
+- [x] `make record` and the CLI documented in docs/DEVELOPMENT.md
 
-### I-04 Search budget · P0 · 🧱
-- [ ] Write every lookup to `search_ledger` (live or cached)
-- [ ] Enforce `SERPAPI_RUN_BUDGET` per run and `SERPAPI_MONTHLY_BUDGET` per calendar month
-- [ ] Surface searches used and cache hits on the run (`PipelineRun.searches_used`)
+### I-04 Search budget · P0 · ✅
+- [x] Write every lookup to `search_ledger` (live or cached)
+- [x] Enforce `SERPAPI_RUN_BUDGET` per run and `SERPAPI_MONTHLY_BUDGET` per calendar month
+- [x] Surface searches used and cache hits on the run (`PipelineRun.searches_used`)
 
-### I-05 Budget endpoint · P1 · 🧱
-- [ ] `GET /api/meta/budget`: ledger totals + `Client.account()` searches left
-- [ ] Budget chip in the app header
+### I-05 Budget endpoint · P1 · ✅
+- [x] `GET /api/meta/budget`: ledger totals + `Client.account()` searches left (skipped in replay)
+- [x] Budget chip in the app header
 
 ### I-06 Gemini provider · P0 · 🧱
 - [ ] `generate_structured` with `response_schema` = Pydantic model; validate; retry once
@@ -155,10 +158,11 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 - [ ] Repository helpers as each feature needs them
 - [ ] docs/DATA_MODEL.md kept in sync
 
-### I-09 Pipeline orchestrator · P0 · 🧱
-- [ ] `start_run`: create run row, launch `run_pipeline` in a background thread
-- [ ] Emit `StageEvent`s with counts per stage; persist partial results
-- [ ] Failure handling: failed stage marks run failed, earlier results stay viewable
+### I-09 Pipeline orchestrator · P0 · ✅
+- [x] `start_run`: create run row, launch `run_pipeline` in a background thread
+- [x] Emit `StageEvent`s with counts per stage; persist partial results
+- [x] Failure handling: failed stage marks run failed, earlier results stay viewable
+- [ ] Each later feature adds its stage (verify F-03, enrich F-05/F-06/F-09, rank F-04)
 
 ### I-10 Frontend shell · P0 · 🧱
 - [x] Routes and placeholder pages for every screen
@@ -176,7 +180,8 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 - [ ] Locality matching (aliases, fuzzy) used by cleaning and area intel
 
 ### I-13 Demo fixtures · P0 · ⬜
-- [ ] Two demo profiles (values chosen with the team, moved here from F-01)
+- [ ] Two demo profiles (values chosen with the team, moved here from F-01). Already replayable
+      from S-01 fixtures: apartment in Whitefield ≤ ₹80 L; office in Koramangala ≤ ₹3 Cr
 - [ ] Record one residential and one commercial demo run end to end
 - [ ] Verify `make demo` works on a fresh clone with no `.env`
 
@@ -198,15 +203,18 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 - [x] Profiles page and 3-step wizard (What → Where → Money), lakh/crore budget input
 - [x] Tests: 25 schema, 8 API, 15 frontend (money + form logic); checked in Chrome
 
-### F-02 Property discovery · P0 · 🧱
-- [ ] `plan_queries` templates (from S-01)
-- [ ] `fetch_hits`: organic and local results → `RawSearchHit`
-- [ ] Parsers: price (L / Cr / per month), area (sq ft / sq m / sq yd), portal, canonical URL
-- [ ] Result kind classification (listing / project / aggregate)
-- [ ] De-duplication (canonical URL, then fuzzy title + price + locality)
-- [ ] `listings` columns `price_inr`, `size_sqft`, `price_per_sqft` and a `listing_observations`
-      price-history table (agreed in the storage discussion, ADR 0009)
-- [ ] Unit tests for every parser example in `cleaning.py`
+### F-02 Property discovery · P0 · ✅
+Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0011-discovery-from-search-snippets.md)).
+- [x] `plan_queries`: one Google search per locality × type with the tested wording, retry without
+      budget, Google Maps projects for flats
+- [x] `fetch_hits`: portal pages (no rentals) and Maps housing places → `RawSearchHit`
+- [x] Snippet-entry parsing: prices (Lac / Cr, ranges, "from"), ₹/sq ft, size (sq ft / sq m / sq yd),
+      BHK, status, type words, names; filters, statistics and EMIs skipped
+- [x] Candidates: priced snippet entries + Maps projects, matched by name; page-title fallbacks noted
+- [x] De-duplication and stable candidate ids across runs
+- [x] `listings` columns `price_inr`, `size_sqft`, `price_per_sqft` and `listing_observations`
+- [x] Runs from the app: "Find properties" → run page with candidates
+- [x] Tests built from verbatim fixture text (34 parser/planner, 6 end-to-end run cases)
 
 ### F-03 AI relevance verification · P0 · 🧱
 - [ ] `extract_listing` prompt + `extract` (fills regex gaps only)
@@ -258,16 +266,18 @@ Record findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-cov
 - [ ] "Where this came from" panel on the detail page
 
 ### F-12 Listing quality flags · P1 · 🧱
-- [ ] Too-good-to-be-true (price per sq ft vs locality average)
-- [ ] Stale, duplicate, not-a-listing, missing price/size
+- [ ] Too-good-to-be-true (price per sq ft vs locality average); also catches rents quoted as sale
+      prices (S-01: "₹3.6 Lac … ₹75 /sqft … 4,800 sqft")
+- [ ] Missing price/size (duplicates are already merged in cleaning). No stale flag: no posted dates
 - [ ] Flag chips on cards and the detail page
 
 ### F-19 Results map view · P0 · ⬜
-- [ ] Leaflet + OpenStreetMap tiles, markers coloured by score
+- [ ] Leaflet + OpenStreetMap tiles, markers coloured by score (Maps projects carry GPS; snippet
+      entries only when matched to a project, else the locality centre from F-05)
 - [ ] Amenity and competitor layers on the detail page
 
-### F-20 Live pipeline progress · P0 · ⬜
-- [ ] Poll `GET /api/runs/{id}`; show each stage with counts, searches used, cache hits
+### F-20 Live pipeline progress · P0 · ✅
+- [x] Poll `GET /api/runs/{id}`; show each stage with counts, searches used, cache hits
 
 ---
 
@@ -279,8 +289,8 @@ Kept current as features land. ✅ means the doc exists and matches the code tod
 - [x] docs/PRODUCT.md, docs/ARCHITECTURE.md, docs/PIPELINE.md
 - [x] docs/SERPAPI_USAGE.md (doubles as the submission's SerpApi explanation)
 - [x] docs/DATA_MODEL.md, docs/API.md, docs/DEVELOPMENT.md
-- [x] docs/decisions/ ADR 0001–0010
-- [ ] docs/spikes/S-01 filled with real findings
+- [x] docs/decisions/ ADR 0001–0011
+- [x] docs/spikes/S-01 filled with real findings
 - [ ] Screenshots / GIF in README
 - [ ] Final pass: every endpoint in API.md shows its real status
 

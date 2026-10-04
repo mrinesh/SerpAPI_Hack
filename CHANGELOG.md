@@ -6,6 +6,15 @@ Reference CHECKLIST IDs.
 ## [Unreleased]
 
 ### Added
+- 2026-10-04 · F-02: property discovery, end to end.
+  - SerpApi gateway (I-02–I-04): replay / live / record, DB cache with TTL, per-run and monthly
+    budgets, search ledger, error mapping. `GET /api/meta/budget` + header chip (I-05).
+  - S-01 data-coverage spike: 24 searches, 23 recorded as fixtures; findings and ADR 0011.
+  - Discovery: tested query templates, portal-page snippet parsing, Google Maps projects,
+    candidates with stable ids and per-run observations.
+  - Background runs with live stage progress (I-09, F-20); run page with priced entries and
+    projects.
+  - `app/cli.py` (one-off searches, budget) and `scripts/s01_analyze.py`.
 - 2026-10-03 · F-01: investor profiles, end to end.
   - API: profile CRUD including `DELETE`, `GET /api/meta/profile-options`, and checks against
     reference data (supported city, known localities).
@@ -25,6 +34,11 @@ Reference CHECKLIST IDs.
   - Tooling: Makefile, `.env.example`, ruff, pytest (8 tests), eslint, tsc.
 
 ### Changed
+- 2026-10-04 · Listings are discovered candidates (snippet entries, Maps projects); `listings` keyed
+  by a stable identity hash, with price columns; new `listing_observations` (ADR 0011).
+- 2026-10-04 · Google Search params drop `num` (not in SerpApi's docs); `SERPAPI_TIMEOUT_S`
+  default 60 s (two S-01 searches exceeded 30 s).
+- 2026-10-04 · Deleting a profile also deletes its runs, observations and alerts.
 - 2026-10-04 · `graphify-out/` is gitignored and no longer tracked; the graph is rebuilt locally
   by graphify's hooks. `.gitattributes` (its merge rule) removed.
 - 2026-10-03 · ROI is one target compared against the goal's measure: rental yield, price growth

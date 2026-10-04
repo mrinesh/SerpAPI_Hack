@@ -18,41 +18,63 @@ Each stage emits a `StageEvent` (status, message, counts) that the UI polls, so 
 the pipeline working live (F-20). A failing stage marks the run failed without discarding
 earlier results.
 
-> Status: stages are scaffolded. Details marked *(S-01)* are confirmed by the data coverage
-> spike and must be updated here when it lands.
+> Status: plan, fetch and clean are built (F-02); verify, enrich and rank are reported as "not
+> built yet" in every run. The discovery design comes from spike S-01
+> ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
 ## 1 · Plan (`query_planner.py`, F-02)
 
 **In:** `InvestorProfile` · **Out:** `list[PlannedQuery]`
 
-Deterministic templates, not an LLM, so the same profile always costs the same searches and hits
-the same cache keys. One site-filtered Google query per locality and portal group, plus Maps
-queries for commercial listings. Capped by `SERPAPI_RUN_BUDGET`.
+Deterministic, so the same profile always costs the same searches and hits the same cache keys.
 
-Draft template *(S-01)*:
-```
-{bhk} BHK {type} for sale {locality} Bangalore
-  site:99acres.com OR site:magicbricks.com OR site:housing.com OR site:nobroker.in
-```
+| Search | When | Query (S-01 wording) |
+|---|---|---|
+| Google | one per locality × property type, page 1 only | `{type} for sale in {locality} Bangalore under {budget}` + `site:99acres.com OR site:magicbricks.com OR site:nobroker.in` |
+| Google, retry | only if the first returned no portal page | the same without `under {budget}` |
+| Google Maps | one per locality, only when Apartment / Flat is chosen | `flats for sale {locality} Bangalore` |
+
+Type words: flat, independent house, builder floor, residential plot, office space, shop,
+warehouse, commercial land ("plot" alone returned MATLAB pages; "2 BHK" in the query returned
+generic pages). Budget: "under 80 lakh", "under 1.5 crore". Cost on a fresh run: L × T Google
+searches plus up to L Maps searches; nothing within the cache TTL.
 
 ## 2 · Fetch (`discovery.py`, F-02)
 
-**In:** planned queries · **Out:** `list[RawSearchHit]`
+**In:** planned queries · **Out:** `list[RawSearchHit]` and a `FetchReport`
 
-Runs each query through the SerpApi gateway. Keeps `title`, `link`, `snippet`, `rich_snippet`,
-`gps_coordinates` and `search_metadata.id` for provenance. Stops issuing live searches once the
-run budget is spent and says so in the stage event.
+Runs each query through the SerpApi gateway (replay, cache, budget). Keeps Google results only
+from the three portals and not for-rent pages (MagicBricks `-pppfr`, "for Rent" titles); keeps Maps
+places only of the housing types seen in S-01. Each hit keeps its SerpApi `search_id`. A query that
+fails (e.g. not recorded in replay mode) is reported and skipped; the search budget stops the
+stage early. The stage fails only if nothing at all came back.
 
-## 3 · Clean (`cleaning.py`, F-02)
+## 3 · Clean (`cleaning.py`, `persist.py`, F-02)
 
-**In:** raw hits · **Out:** `list[Listing]`
+**In:** raw hits · **Out:** candidate `Listing`s, saved with one observation per run
 
-1. Detect portal and canonicalise the URL.
-2. Regex-parse price (`85 L`, `1.25 Cr`, `₹45,000/month`), area (sq ft, sq m, sq yd), BHK.
-3. Classify the result: single **listing**, builder **project**, **aggregate** page, other.
-   Aggregate pages are not properties, but their price ranges feed locality price stats.
-4. De-duplicate: canonical URL first, then fuzzy title + price + locality (`rapidfuzz`).
-   Merged listings keep every source.
+Google never returns single listings, only the portals' search pages, so candidates are:
+- **Snippet entries:** each priced entry quoted in a page's snippet, linked to that page.
+- **Projects:** Google Maps housing places, with GPS, rating and reviews.
+
+Snippet parsing is regex over NFKC-normalised text (MagicBricks writes "₹ 1 Crore" in math-bold
+characters):
+1. Split the snippet into segments at `;`, `・` and `…`; split again at each price.
+2. Prices: `₹60 Lac`, `1.70 Cr`, `96.48 Lacs`, `rs4.65 crore`; ranges keep the lower bound and
+   "₹3.57 Cr+" is a starting price (both noted). Skipped: filters and statistics ("between",
+   "average price of", "within", "under"…), and EMIs / per-month amounts.
+3. Per entry: ₹/sq ft (only if no other ₹ amount sits between it and the price), size (sq ft;
+   sq m × 10.7639; sq yd × 9), BHK or "n bedrooms", sale status, property-type words.
+   Missing BHK and status fall back to the page title ("2 BHK Flats in …", "Ready to move
+   Flats …"), noted as such. Price = rate × size, or size = price ÷ rate, when one is missing
+   (marked computed).
+4. Name: 99acres' capitalised project before the price, NoBroker's "In <project> For Sale In",
+   an entry headline, or "<BHK> <type> in <locality>".
+5. Merge duplicates (same identity, or same locality and price with near-identical names);
+   give entries the GPS of a Maps project with the same name.
+
+Confidence is fixed per method: text 0.8, computed 0.6, taken from the search 0.5, Maps field 0.9.
+Candidate ids are stable hashes, so a repeat run updates the same rows and adds observations.
 
 ## 4 · Verify (`verification.py`, `quality.py`, F-03, F-12)
 
@@ -62,7 +84,8 @@ run budget is spent and says so in the stage event.
   value carries confidence and the exact text span it came from.
 - `verify` (Gemini, prompt `verify_listing`): 0–100 match score, verdict, matched criteria,
   mismatches, missing data.
-- `flag_listing` (rules): stale, duplicate, too-good-to-be-true, not a listing, missing data.
+- `flag_listing` (rules): too-good-to-be-true (also catches rents quoted as sale prices),
+  missing data. No stale flag: search results carry no posted dates.
 
 Rejected listings stay in the run with rank `null` so the UI can show what was filtered and why.
 

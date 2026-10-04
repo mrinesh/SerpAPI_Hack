@@ -22,7 +22,7 @@ It is slow and inconsistent, and the results are hard to compare. Realty Intel r
 
 | | |
 |---|---|
-| **Discovery** | Site-filtered Google searches across 99acres, MagicBricks, Housing.com and NoBroker, plus Google Maps for commercial |
+| **Discovery** | Site-filtered Google searches of 99acres, MagicBricks and NoBroker, reading the prices their search pages quote, plus housing projects from Google Maps |
 | **AI verification** | Gemini extracts structured fields, scores each listing against your profile, and flags mismatches and missing data |
 | **Area intelligence** | Amenities (Maps), news and infrastructure (News), price level (Search), rental demand (Trends), cached per locality |
 | **Competitor analysis** | For commercial property: same-category businesses nearby, ratings, review volume, density, market gaps |
@@ -31,10 +31,11 @@ It is slow and inconsistent, and the results are hard to compare. Realty Intel r
 
 ## SerpApi usage
 
-Five engines (`google`, `google_maps`, `google_news`, `google_trends`, `google_maps_reviews`)
-through the official `serpapi` Python SDK, plus the free Account, Locations and Search Archive
-APIs. Without search data there is no product. Details and the cost model:
-**[docs/SERPAPI_USAGE.md](docs/SERPAPI_USAGE.md)**.
+Discovery runs on `google` (site-filtered portal searches) and `google_maps` (housing projects)
+through the official `serpapi` Python SDK; `google_news`, `google_trends` and
+`google_maps_reviews` come with area intelligence and competitor analysis. The free Account,
+Locations and Search Archive APIs are used too. Without search data there is no product. Details,
+what we measured, and the cost model: **[docs/SERPAPI_USAGE.md](docs/SERPAPI_USAGE.md)**.
 
 ## Quickstart
 
