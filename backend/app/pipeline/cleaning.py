@@ -78,6 +78,7 @@ _AREA = re.compile(
     re.IGNORECASE,
 )
 _BHK = re.compile(r"(?<![\d,]\s)(?<![\d,])(?P<n>\d)\s?\+?\s?BHK", re.IGNORECASE)
+_BEDROOMS = re.compile(r"(?<!and )(?<!to )(?<![\d,])\b(?P<n>\d)\s*bedroom", re.IGNORECASE)
 # Words that make a number a filter, statistic or instalment rather than an asking price,
 # e.g. "priced between ₹68.55 lakh", "average price of ₹4.59 Cr", "within ₹ 1 Crore",
 # "EMI: ₹2 Lacs".
@@ -94,7 +95,10 @@ _NOBROKER_NAME = re.compile(
 )
 _FOR_SALE_SENTENCE = re.compile(r"[^.;·]*\bfor sale in\b[^.;·]*", re.IGNORECASE)
 # Search-page blurbs, not entries: "Find over 28+ 2 BHK Flats for sale in …", "Choose from …".
-_PAGE_BLURB = re.compile(r"^(?:find|choose|explore|buy|search)\b|\d+\+", re.IGNORECASE)
+_PAGE_BLURB = re.compile(
+    r"^(?:find|choose|explore|buy|search)\b|\d+\+|\bfrom\b.*\bto\b|\b(?:below|under|between)\b",
+    re.IGNORECASE,
+)
 _STATUS = (
     (re.compile(r"under construction", re.I), SaleStatus.UNDER_CONSTRUCTION),
     (re.compile(r"ready to move", re.I), SaleStatus.READY_TO_MOVE),
@@ -189,7 +193,9 @@ def parse_area_sqft(text: str) -> float | None:
 
 
 def parse_bedrooms(text: str) -> int | None:
-    m = _BHK.search(normalize_text(text))
+    """From "2 BHK", or 99acres' "comprises 2 bedrooms" / "1 bedroom(s)"."""
+    text = normalize_text(text)
+    m = _BHK.search(text) or _BEDROOMS.search(text)
     return int(m["n"]) if m else None
 
 
@@ -249,7 +255,7 @@ def snippet_entries(snippet: str) -> list[SnippetEntry]:
 
 def _entry(evidence: str, head: str, body: str, price: PriceMention | None) -> SnippetEntry:
     text = f"{head} {body}"
-    ppsf = parse_price_per_sqft(body)
+    ppsf = _adjacent_price_per_sqft(body, price)
     size = parse_area_sqft(body) or parse_area_sqft(head)
     entry = SnippetEntry(
         evidence=evidence.strip(" ·."),
@@ -268,6 +274,20 @@ def _entry(evidence: str, head: str, body: str, price: PriceMention | None) -> S
     elif entry.size_sqft is None and ppsf and entry.price_inr:
         entry.size_sqft, entry.size_computed = round(entry.price_inr / ppsf, 1), True
     return entry
+
+
+def _adjacent_price_per_sqft(body: str, price: PriceMention | None) -> float | None:
+    """The ₹/sq ft that follows this price, unless another ₹ amount sits in between: in
+    "available at 1.91 crore. sale ₹40,000 ₹66 /sqft" the ₹66 belongs to the ₹40,000."""
+    text = normalize_text(body)
+    m = _PRICE_PER_SQFT.search(text)
+    if m is None:
+        return None
+    if price is not None:
+        between = text[price.end - price.start : m.start()]
+        if re.search(r"₹\s?\d", between):
+            return None
+    return float(m["value"].replace(",", ""))
 
 
 def _caps_name(head: str) -> str | None:

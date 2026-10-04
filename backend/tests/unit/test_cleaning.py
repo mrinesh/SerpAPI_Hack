@@ -161,3 +161,28 @@ def test_search_page_blurbs_are_not_names():
     )
     (entry,) = snippet_entries(snippet)
     assert entry.price_inr == 8_400_000 and entry.headline is None
+
+
+def test_price_per_sqft_only_attaches_to_its_own_price():
+    snippet = (
+        "The under construction building/office will be available within 3 months. "
+        "The property is available at 1.91 crore. sale ₹40,000 ₹66 /sqft"
+    )
+    (entry,) = snippet_entries(snippet)
+    assert entry.price_inr == 19_100_000
+    assert entry.price_per_sqft is None and entry.size_sqft is None
+
+
+def test_filter_phrases_are_not_headlines():
+    snippet = (
+        "Office Space for sale in Bangalore from 1 crore to 1.5 crores , Bangalore Resale ₹1.3 Cr "
+        "₹15,853 /sqft Under Construction Under Construction 623 sqft(58 sqm) ..."
+    )
+    (entry,) = snippet_entries(snippet)
+    assert entry.headline is None and entry.price_inr == 13_000_000 and entry.size_sqft == 623
+
+
+def test_bedroom_counts_written_out():
+    assert parse_bedrooms("comprises 2 bedrooms, 3 bathrooms .") == 2
+    assert parse_bedrooms("615 sqft(57 sqm) 1 bedroom(s), 1 bathroom") == 1
+    assert parse_bedrooms("2 and 3 bedroom apartment.") is None
