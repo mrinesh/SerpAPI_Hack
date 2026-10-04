@@ -38,7 +38,7 @@ class Settings(BaseSettings):
     serpapi_monthly_budget: int = 250  # free tier
     serpapi_run_budget: int = 40  # hard cap on live searches per pipeline run
     serpapi_cache_ttl_hours: int = 72
-    serpapi_timeout_s: int = 30
+    serpapi_timeout_s: int = 60  # two S-01 searches took longer than 30 s
 
     # LLM (Gemini). `gemini_model` reasons and scores; `gemini_model_lite` does bulk extraction.
     gemini_api_key: str | None = None
