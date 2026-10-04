@@ -1,15 +1,46 @@
-"""Pipeline runs and their results (CHECKLIST I-09, F-04)."""
+"""Pipeline runs and what they found (CHECKLIST I-09, F-02, F-04)."""
 
+from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.core.errors import NotImplementedYet
+from app.core.errors import NotFound, NotImplementedYet
+from app.db.models import ListingObservationRow, ListingRow, RunRow
+from app.pipeline.orchestrator import to_schema
+from app.schemas.listing import Listing, ResultKind
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
 
 
 def get_run(db: Session, run_id: str) -> PipelineRun:
-    raise NotImplementedYet("I-09", "Reading run status")
+    return to_schema(_get_row(db, run_id))
+
+
+def get_run_listings(db: Session, run_id: str) -> list[Listing]:
+    """Candidates found by this run: priced entries cheapest first, then unpriced projects."""
+    _get_row(db, run_id)
+    rows = db.scalars(
+        select(ListingRow)
+        .join(ListingObservationRow, ListingObservationRow.listing_id == ListingRow.id)
+        .where(ListingObservationRow.run_id == run_id)
+    ).all()
+    listings = [Listing.model_validate(row.data) for row in rows]
+    return sorted(
+        listings,
+        key=lambda item: (
+            item.kind is not ResultKind.SNIPPET_ENTRY,
+            item.price_inr.value is None,
+            item.price_inr.value or 0,
+            item.name,
+        ),
+    )
 
 
 def get_recommendations(db: Session, run_id: str) -> list[Recommendation]:
     raise NotImplementedYet("F-04", "Reading ranked recommendations")
+
+
+def _get_row(db: Session, run_id: str) -> RunRow:
+    row = db.get(RunRow, run_id)
+    if row is None:
+        raise NotFound(f"Run {run_id} not found")
+    return row

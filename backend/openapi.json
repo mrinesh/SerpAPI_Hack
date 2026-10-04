@@ -372,6 +372,53 @@
         }
       }
     },
+    "/api/runs/{run_id}/listings": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Run Listings",
+        "description": "Candidates this run discovered (F-02): not yet AI-checked or ranked.",
+        "operationId": "get_run_listings_api_runs__run_id__listings_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Listing"
+                  },
+                  "title": "Response Get Run Listings Api Runs  Run Id  Listings Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/runs/{run_id}/recommendations": {
       "get": {
         "tags": [
@@ -1189,7 +1236,8 @@
           "serpapi_field",
           "regex",
           "llm",
-          "computed"
+          "computed",
+          "query"
         ],
         "title": "ExtractionMethod"
       },
@@ -1649,19 +1697,26 @@
             "type": "string",
             "title": "Id"
           },
-          "canonical_url": {
-            "type": "string",
-            "title": "Canonical Url"
+          "kind": {
+            "$ref": "#/components/schemas/ResultKind"
           },
           "portal": {
             "$ref": "#/components/schemas/Portal"
           },
-          "kind": {
-            "$ref": "#/components/schemas/ResultKind"
-          },
-          "title": {
+          "name": {
             "type": "string",
-            "title": "Title"
+            "title": "Name"
+          },
+          "url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Url"
           },
           "segment": {
             "$ref": "#/components/schemas/Segment"
@@ -1669,8 +1724,14 @@
           "property_type": {
             "$ref": "#/components/schemas/Sourced_PropertyType_"
           },
+          "locality": {
+            "$ref": "#/components/schemas/Sourced_str_"
+          },
           "price_inr": {
             "$ref": "#/components/schemas/Sourced_int_"
+          },
+          "price_per_sqft": {
+            "$ref": "#/components/schemas/Sourced_float_"
           },
           "size_sqft": {
             "$ref": "#/components/schemas/Sourced_float_"
@@ -1678,17 +1739,44 @@
           "bedrooms": {
             "$ref": "#/components/schemas/Sourced_int_"
           },
-          "locality": {
-            "$ref": "#/components/schemas/Sourced_str_"
+          "status": {
+            "$ref": "#/components/schemas/Sourced_SaleStatus_"
           },
           "location": {
             "$ref": "#/components/schemas/Sourced_GeoPoint_"
           },
-          "amenities": {
-            "$ref": "#/components/schemas/Sourced_list_str__"
+          "rating": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rating"
           },
-          "posted_on": {
-            "$ref": "#/components/schemas/Sourced_date_"
+          "reviews": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reviews"
+          },
+          "evidence": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Evidence"
           },
           "sources": {
             "items": {
@@ -1711,24 +1799,23 @@
         "type": "object",
         "required": [
           "id",
-          "canonical_url",
-          "portal",
           "kind",
-          "title",
+          "portal",
+          "name",
           "segment",
           "property_type",
+          "locality",
           "price_inr",
+          "price_per_sqft",
           "size_sqft",
           "bedrooms",
-          "locality",
+          "status",
           "location",
-          "amenities",
-          "posted_on",
           "first_seen_at",
           "last_seen_at"
         ],
         "title": "Listing",
-        "description": "A cleaned, de-duplicated property candidate. Every factual field is `Sourced`."
+        "description": "A discovered, de-duplicated property candidate. Every factual field is `Sourced`."
       },
       "LocalityOption": {
         "properties": {
@@ -1946,13 +2033,11 @@
         "enum": [
           "99acres",
           "magicbricks",
-          "housing",
           "nobroker",
-          "squareyards",
-          "google_maps",
-          "other"
+          "google_maps"
         ],
-        "title": "Portal"
+        "title": "Portal",
+        "description": "Where a candidate came from: one of the searched portals, or Google Maps."
       },
       "PriceTrend": {
         "properties": {
@@ -2153,12 +2238,10 @@
       "QualityFlagKind": {
         "type": "string",
         "enum": [
-          "stale",
           "duplicate",
           "too_good_to_be_true",
           "missing_price",
           "missing_size",
-          "not_a_listing",
           "location_mismatch"
         ],
         "title": "QualityFlagKind"
@@ -2264,13 +2347,10 @@
       "ResultKind": {
         "type": "string",
         "enum": [
-          "listing",
-          "project",
-          "aggregate",
-          "other"
+          "snippet_entry",
+          "project"
         ],
-        "title": "ResultKind",
-        "description": "What a search hit actually points at.\n\nPortals rank aggregate pages (\"312 flats for sale in Whitefield\") above single listings, so\neach hit is classified before it is treated as a property. Aggregate pages still feed area\nprice statistics."
+        "title": "ResultKind"
       },
       "RiskAppetite": {
         "type": "string",
@@ -2290,6 +2370,16 @@
           "failed"
         ],
         "title": "RunStatus"
+      },
+      "SaleStatus": {
+        "type": "string",
+        "enum": [
+          "ready_to_move",
+          "under_construction",
+          "resale",
+          "new_launch"
+        ],
+        "title": "SaleStatus"
       },
       "SaveRequest": {
         "properties": {
@@ -2539,19 +2629,17 @@
         ],
         "title": "Sourced[PropertyType]"
       },
-      "Sourced_date_": {
+      "Sourced_SaleStatus_": {
         "properties": {
           "value": {
             "anyOf": [
               {
-                "type": "string",
-                "format": "date"
+                "$ref": "#/components/schemas/SaleStatus"
               },
               {
                 "type": "null"
               }
-            ],
-            "title": "Value"
+            ]
           },
           "confidence": {
             "type": "number",
@@ -2586,7 +2674,7 @@
         "required": [
           "method"
         ],
-        "title": "Sourced[date]"
+        "title": "Sourced[SaleStatus]"
       },
       "Sourced_float_": {
         "properties": {
@@ -2683,57 +2771,6 @@
           "method"
         ],
         "title": "Sourced[int]"
-      },
-      "Sourced_list_str__": {
-        "properties": {
-          "value": {
-            "anyOf": [
-              {
-                "items": {
-                  "type": "string"
-                },
-                "type": "array"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Value"
-          },
-          "confidence": {
-            "type": "number",
-            "maximum": 1.0,
-            "minimum": 0.0,
-            "title": "Confidence",
-            "default": 0.0
-          },
-          "method": {
-            "$ref": "#/components/schemas/ExtractionMethod"
-          },
-          "sources": {
-            "items": {
-              "$ref": "#/components/schemas/SourceRef"
-            },
-            "type": "array",
-            "title": "Sources"
-          },
-          "note": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Note"
-          }
-        },
-        "type": "object",
-        "required": [
-          "method"
-        ],
-        "title": "Sourced[list[str]]"
       },
       "Sourced_str_": {
         "properties": {

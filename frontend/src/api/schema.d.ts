@@ -132,6 +132,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/runs/{run_id}/listings": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Run Listings
+         * @description Candidates this run discovered (F-02): not yet AI-checked or ranked.
+         */
+        get: operations["get_run_listings_api_runs__run_id__listings_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/runs/{run_id}/recommendations": {
         parameters: {
             query?: never;
@@ -420,7 +440,7 @@ export interface components {
          * ExtractionMethod
          * @enum {string}
          */
-        ExtractionMethod: "serpapi_field" | "regex" | "llm" | "computed";
+        ExtractionMethod: "serpapi_field" | "regex" | "llm" | "computed" | "query";
         /** GeoPoint */
         GeoPoint: {
             /** Lat */
@@ -558,26 +578,32 @@ export interface components {
         Level: "low" | "medium" | "high";
         /**
          * Listing
-         * @description A cleaned, de-duplicated property candidate. Every factual field is `Sourced`.
+         * @description A discovered, de-duplicated property candidate. Every factual field is `Sourced`.
          */
         Listing: {
             /** Id */
             id: string;
-            /** Canonical Url */
-            canonical_url: string;
-            portal: components["schemas"]["Portal"];
             kind: components["schemas"]["ResultKind"];
-            /** Title */
-            title: string;
+            portal: components["schemas"]["Portal"];
+            /** Name */
+            name: string;
+            /** Url */
+            url?: string | null;
             segment: components["schemas"]["Segment"];
             property_type: components["schemas"]["Sourced_PropertyType_"];
+            locality: components["schemas"]["Sourced_str_"];
             price_inr: components["schemas"]["Sourced_int_"];
+            price_per_sqft: components["schemas"]["Sourced_float_"];
             size_sqft: components["schemas"]["Sourced_float_"];
             bedrooms: components["schemas"]["Sourced_int_"];
-            locality: components["schemas"]["Sourced_str_"];
+            status: components["schemas"]["Sourced_SaleStatus_"];
             location: components["schemas"]["Sourced_GeoPoint_"];
-            amenities: components["schemas"]["Sourced_list_str__"];
-            posted_on: components["schemas"]["Sourced_date_"];
+            /** Rating */
+            rating?: number | null;
+            /** Reviews */
+            reviews?: number | null;
+            /** Evidence */
+            evidence?: string | null;
             /** Sources */
             sources?: components["schemas"]["SourceRef"][];
             /**
@@ -670,9 +696,10 @@ export interface components {
         PipelineStage: "plan" | "fetch" | "clean" | "verify" | "enrich" | "rank";
         /**
          * Portal
+         * @description Where a candidate came from: one of the searched portals, or Google Maps.
          * @enum {string}
          */
-        Portal: "99acres" | "magicbricks" | "housing" | "nobroker" | "squareyards" | "google_maps" | "other";
+        Portal: "99acres" | "magicbricks" | "nobroker" | "google_maps";
         /** PriceTrend */
         PriceTrend: {
             avg_price_per_sqft: components["schemas"]["Sourced_float_"];
@@ -738,7 +765,7 @@ export interface components {
          * QualityFlagKind
          * @enum {string}
          */
-        QualityFlagKind: "stale" | "duplicate" | "too_good_to_be_true" | "missing_price" | "missing_size" | "not_a_listing" | "location_mismatch";
+        QualityFlagKind: "duplicate" | "too_good_to_be_true" | "missing_price" | "missing_size" | "location_mismatch";
         /**
          * ROIMeasure
          * @description What the profile's target ROI is compared against (docs/decisions/0010-roi-definition.md).
@@ -774,14 +801,9 @@ export interface components {
         };
         /**
          * ResultKind
-         * @description What a search hit actually points at.
-         *
-         *     Portals rank aggregate pages ("312 flats for sale in Whitefield") above single listings, so
-         *     each hit is classified before it is treated as a property. Aggregate pages still feed area
-         *     price statistics.
          * @enum {string}
          */
-        ResultKind: "listing" | "project" | "aggregate" | "other";
+        ResultKind: "snippet_entry" | "project";
         /**
          * RiskAppetite
          * @enum {string}
@@ -792,6 +814,11 @@ export interface components {
          * @enum {string}
          */
         RunStatus: "pending" | "running" | "succeeded" | "failed";
+        /**
+         * SaleStatus
+         * @enum {string}
+         */
+        SaleStatus: "ready_to_move" | "under_construction" | "resale" | "new_launch";
         /** SaveRequest */
         SaveRequest: {
             /** Listing Id */
@@ -873,10 +900,9 @@ export interface components {
             /** Note */
             note?: string | null;
         };
-        /** Sourced[date] */
-        Sourced_date_: {
-            /** Value */
-            value?: string | null;
+        /** Sourced[SaleStatus] */
+        Sourced_SaleStatus_: {
+            value?: components["schemas"]["SaleStatus"] | null;
             /**
              * Confidence
              * @default 0
@@ -907,21 +933,6 @@ export interface components {
         Sourced_int_: {
             /** Value */
             value?: number | null;
-            /**
-             * Confidence
-             * @default 0
-             */
-            confidence: number;
-            method: components["schemas"]["ExtractionMethod"];
-            /** Sources */
-            sources?: components["schemas"]["SourceRef"][];
-            /** Note */
-            note?: string | null;
-        };
-        /** Sourced[list[str]] */
-        Sourced_list_str__: {
-            /** Value */
-            value?: string[] | null;
             /**
              * Confidence
              * @default 0
@@ -1283,6 +1294,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["PipelineRun"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_run_listings_api_runs__run_id__listings_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Listing"][];
                 };
             };
             /** @description Validation Error */

@@ -104,8 +104,5 @@ def test_update_and_delete_unknown_profile_are_404(client):
     assert client.delete("/api/profiles/nope").status_code == 404
 
 
-def test_starting_a_run_reports_the_unbuilt_pipeline(client):
-    profile_id = client.post("/api/profiles", json=RESIDENTIAL).json()["id"]
-    response = client.post(f"/api/profiles/{profile_id}/runs")
-    assert response.status_code == 501
-    assert response.json()["error"]["details"]["feature_id"] == "I-09"
+def test_starting_a_run_for_an_unknown_profile_is_404(client):
+    assert client.post("/api/profiles/nope/runs").status_code == 404

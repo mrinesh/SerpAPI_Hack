@@ -35,6 +35,6 @@ def delete_profile(profile_id: str, db: DbSession) -> None:
 
 
 @router.post("/{profile_id}/runs", status_code=status.HTTP_202_ACCEPTED)
-def start_run(profile_id: str) -> PipelineRun:
+def start_run(profile_id: str, db: DbSession) -> PipelineRun:
     """Start the search -> verify -> enrich -> rank pipeline. Poll GET /api/runs/{id}."""
-    return orchestrator.start_run(profile_id)
+    return orchestrator.start_run(db, profile_id)

@@ -6,11 +6,11 @@ reference data (supported city, known localities) live here, not in the schema.
 
 from datetime import UTC, datetime
 
-from sqlalchemy import select
+from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from app.core.errors import InvalidInput, NotFound
-from app.db.models import ProfileRow
+from app.db.models import AlertRow, ListingObservationRow, ProfileRow, RunResultRow, RunRow
 from app.reference import load_market
 from app.schemas.profile import (
     GOAL_MEASURE,
@@ -110,7 +110,15 @@ def update_profile(db: Session, profile_id: str, data: InvestorProfileIn) -> Inv
 
 
 def delete_profile(db: Session, profile_id: str) -> None:
-    db.delete(_get_row(db, profile_id))
+    """Delete the profile with its runs, their observations and its alerts. Discovered listings
+    stay: other runs may share them. The search ledger keeps its rows for budget history."""
+    row = _get_row(db, profile_id)
+    run_ids = select(RunRow.id).where(RunRow.profile_id == profile_id)
+    db.execute(delete(ListingObservationRow).where(ListingObservationRow.run_id.in_(run_ids)))
+    db.execute(delete(RunResultRow).where(RunResultRow.run_id.in_(run_ids)))
+    db.execute(delete(RunRow).where(RunRow.profile_id == profile_id))
+    db.execute(delete(AlertRow).where(AlertRow.profile_id == profile_id))
+    db.delete(row)
     db.commit()
 
 
