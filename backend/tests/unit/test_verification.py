@@ -43,6 +43,12 @@ class FakeLLM:
 
     def generate_structured(self, **kwargs):
         self.calls.append(kwargs)
+        if kwargs["task"] == "extract_price_level":
+            from app.pipeline.enrichment.price_level import PriceLevelExtract
+
+            return PriceLevelExtract(
+                result_index=None, low=None, high=None, evidence=None, confidence=0
+            )
         return self.extraction if kwargs["task"] == "extract_listing" else self.assessment
 
 
@@ -244,3 +250,14 @@ def test_prompt_files_have_no_bom_and_prompts_ignore_one(tmp_path, monkeypatch):
     (tmp_path / "task.md").write_text("\ufeffPrompt", encoding="utf-8")
     monkeypatch.setattr("app.pipeline.verification.PROMPTS", tmp_path)
     assert prompt_for("task").startswith("Prompt")
+
+
+def test_implausibly_cheap_candidate_is_kept_but_capped_at_weak():
+    from tests.unit.test_quality import BENCHMARK
+
+    listing = candidate()
+    listing.price_inr.value, listing.size_sqft.value = 360_000, 4_800
+    result = verify(context(), listing, BENCHMARK)
+    assert result.verdict == MatchVerdict.WEAK and result.match_score <= 59
+    assert any("monthly rent" in reason for reason in result.mismatches)
+    assert verify(context(), candidate(), BENCHMARK).verdict == MatchVerdict.STRONG

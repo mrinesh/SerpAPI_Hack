@@ -25,6 +25,7 @@ export type SaleStatus = Schemas["SaleStatus"];
 export type Portal = Schemas["Portal"];
 export type RunStatus = Schemas["RunStatus"];
 export type Verification = Schemas["Verification"];
+export type QualityFlag = Schemas["QualityFlag"];
 export type InvestmentMetrics = Schemas["InvestmentMetrics"];
 export type AreaIntel = Schemas["AreaIntel"];
 export type CompetitorReport = Schemas["CompetitorReport"];

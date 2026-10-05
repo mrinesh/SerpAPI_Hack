@@ -1,4 +1,8 @@
-"""Validated LLM cache and record/replay. Replay never calls the inner provider (I-07)."""
+"""Validated LLM cache and record/replay. Replay never calls the inner provider (I-07).
+
+Record mode serves an existing fixture first, so re-recording only pays for prompts that have
+none; delete a fixture to refresh it.
+"""
 
 import hashlib
 import json
@@ -53,19 +57,13 @@ class RecordingLLM:
         model = self.model_for(tier)
         key = cache_key(task, model, prompt, tier, schema.model_json_schema())
         path = self._fixtures_dir / task / f"{key}.json"
-        if self._mode is ProviderMode.REPLAY:
-            if not path.is_file():
-                raise ReplayMiss(
-                    f"No recorded LLM response for {task}. Record it once with LLM_MODE=record.",
-                    details={"task": task, "key": key},
-                )
-            try:
-                fixture = json.loads(path.read_text(encoding="utf-8"))
-                if fixture["key"] != key or fixture["model"] != model:
-                    raise ValueError("fixture metadata does not match request")
-                return schema.model_validate(fixture["response"])
-            except (ValueError, KeyError, TypeError) as exc:
-                raise UpstreamError(f"Invalid recorded LLM response for {task}.") from exc
+        if self._mode is ProviderMode.REPLAY and not path.is_file():
+            raise ReplayMiss(
+                f"No recorded LLM response for {task}. Record it once with LLM_MODE=record.",
+                details={"task": task, "key": key},
+            )
+        if self._mode in (ProviderMode.REPLAY, ProviderMode.RECORD) and path.is_file():
+            return self._read_fixture(path, task, key, model, schema)
 
         row = self._db.get(LlmCacheRow, key) if self._db is not None else None
         result = None
@@ -103,3 +101,13 @@ class RecordingLLM:
             )
             temporary.replace(path)
         return result
+
+    @staticmethod
+    def _read_fixture(path: Path, task: str, key: str, model: str, schema: type[M]) -> M:
+        try:
+            fixture = json.loads(path.read_text(encoding="utf-8"))
+            if fixture["key"] != key or fixture["model"] != model:
+                raise ValueError("fixture metadata does not match request")
+            return schema.model_validate(fixture["response"])
+        except (ValueError, KeyError, TypeError) as exc:
+            raise UpstreamError(f"Invalid recorded LLM response for {task}.") from exc

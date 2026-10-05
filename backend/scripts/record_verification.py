@@ -2,6 +2,9 @@
 
 Run from backend: uv run python scripts/record_verification.py --profile residential
 Use --profile commercial for the Koramangala office example. No shared app DB is changed.
+Existing fixtures are reused, so only requests without one are paid for. `--serpapi-record`
+also records searches that have no fixture yet (the price-level lookups); it spends a SerpApi
+search for each.
 """
 
 import argparse
@@ -13,10 +16,15 @@ from pathlib import Path
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--profile", choices=["residential", "commercial"], default="residential")
+    parser.add_argument(
+        "--serpapi-record",
+        action="store_true",
+        help="record SerpApi searches that have no fixture (spends one search each)",
+    )
     args = parser.parse_args()
     with tempfile.TemporaryDirectory(prefix="realty-verification-") as temporary:
         os.environ["DATABASE_URL"] = f"sqlite:///{(Path(temporary) / 'record.db').as_posix()}"
-        os.environ["SERPAPI_MODE"] = "replay"
+        os.environ["SERPAPI_MODE"] = "record" if args.serpapi_record else "replay"
         os.environ["LLM_MODE"] = "record"
         # Imports follow the overrides so global session/settings use this isolated DB.
         from app.config import get_settings

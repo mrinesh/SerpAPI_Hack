@@ -27,3 +27,18 @@ def test_demo_profile_replays_without_keys(client, name):
     counts = next(event for event in run["events"] if event["stage"] == "verify")["counts"]
     assert counts["checked"] == len(verifications)
     assert counts["rejected"] == sum(v["verdict"] == "reject" for v in verifications)
+
+
+def test_commercial_demo_flags_the_rent_quoted_as_a_sale(client):
+    """S-01's "₹3.6 Lac … ₹75 /sqft … 4,800 sqft" office, against the recorded area level."""
+    profile_id = client.post("/api/profiles", json=DEMO_PROFILES["commercial"]).json()["id"]
+    run_id = client.post(f"/api/profiles/{profile_id}/runs").json()["id"]
+    listings = {item["id"]: item for item in client.get(f"/api/runs/{run_id}/listings").json()}
+    flagged = {
+        listings[v["listing_id"]]["price_inr"]["value"]: v
+        for v in client.get(f"/api/runs/{run_id}/verifications").json()
+        if any(flag["kind"] == "too_good_to_be_true" for flag in v["flags"])
+    }
+    assert list(flagged) == [360_000]
+    assert flagged[360_000]["verdict"] == "weak"
+    assert "₹17,501/sq ft" in flagged[360_000]["mismatches"][-1]

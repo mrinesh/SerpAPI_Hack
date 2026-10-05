@@ -99,3 +99,12 @@ def test_text_record_replay(tmp_path):
 def test_task_cannot_escape_fixture_directory(tmp_path):
     with pytest.raises(ValueError):
         call(RecordingLLM(Provider(), ProviderMode.REPLAY, tmp_path), task="../escape")
+
+
+def test_record_mode_reuses_an_existing_fixture_without_calling_the_provider(db, tmp_path):
+    provider = Provider()
+    assert call(RecordingLLM(provider, ProviderMode.RECORD, tmp_path, db)).value == 42
+    fresh_db_provider = Provider()
+    # No DB cache (db=None): only the fixture can answer, so re-recording costs nothing.
+    assert call(RecordingLLM(fresh_db_provider, ProviderMode.RECORD, tmp_path)).value == 42
+    assert fresh_db_provider.calls == 0

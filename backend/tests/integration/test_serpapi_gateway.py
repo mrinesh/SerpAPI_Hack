@@ -178,3 +178,14 @@ def test_budget_endpoint_in_replay_mode(client):
         "cache_hits_this_month": 0,
         "account_searches_left": None,
     }
+
+
+def test_record_mode_serves_an_existing_fixture_without_spending(make_gateway, db, tmp_path):
+    recorder, _ = make_gateway(ProviderMode.RECORD)
+    recorder.search(GOOGLE, {"q": "flats"}, run_id="r1")
+    db.query(SerpCacheRow).delete()
+    db.commit()
+    again, fresh = make_gateway(ProviderMode.RECORD)
+    assert again.search(GOOGLE, {"q": "flats"}, run_id="r2").live is False
+    assert fresh.calls == []
+    assert ledger(db)[-1] == (False, "r2")

@@ -45,14 +45,14 @@ code for an ID finds every stub that belongs to it.
 | F-02 | Property discovery | P0 | ✅ | |
 | F-03 | AI relevance verification | P0 | ✅ | |
 | F-04 | Ranked recommendations with reasons | P0 | 🧱 | |
-| F-05 | Area intelligence | P0 | 🧱 | |
+| F-05 | Area intelligence | P0 | 🟨 | |
 | F-06 | Competitor analysis (commercial) | P0 | 🧱 | |
 | F-07 | Property detail page | P0 | 🧱 | |
 | F-08 | Saved properties and side-by-side compare | P1 | 🧱 | |
 | F-09 | Investment metrics | P0 | 🧱 | |
 | F-10 | Alerts (new match, price drop) | P1 | 🧱 | |
 | F-11 | Source citations and confidence | P0 | 🧱 | |
-| F-12 | Listing quality flags | P1 | 🧱 | |
+| F-12 | Listing quality flags | P1 | 🟨 | |
 | F-19 | Results map view | P0 | ⬜ | |
 | F-20 | Live pipeline progress view | P0 | ✅ | |
 | **Later (P2)** | | | | |
@@ -237,11 +237,12 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [ ] `explain_recommendation` prompt: reason, highlights, risks
 - [ ] Results page list with score, reason and key metrics
 
-### F-05 Area intelligence · P0 · 🧱
+### F-05 Area intelligence · P0 · 🟨
 - [ ] `locality_key` + cache per locality with TTL
 - [ ] Amenities from google_maps (metro, school, hospital) with distances
 - [ ] News from google_news, classified by topic and sentiment
-- [ ] Price level per sq ft from google search
+- [x] Price level per sq ft from google search (`enrichment/price_level.py`, ADR 0014; used by
+      F-12 flags, not yet shown as area intel; YoY change still to do)
 - [ ] Area summary + infrastructure summary with citations
 - [ ] P1: rental demand from google_trends (compare localities in one call) + chart
 
@@ -276,11 +277,12 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [ ] `<SourcedValue>` UI component: value, confidence badge, source link popover
 - [ ] "Where this came from" panel on the detail page
 
-### F-12 Listing quality flags · P1 · 🧱
-- [ ] Too-good-to-be-true (price per sq ft vs locality average); also catches rents quoted as sale
-      prices (S-01: "₹3.6 Lac … ₹75 /sqft … 4,800 sqft")
-- [ ] Missing price/size (duplicates are already merged in cleaning). No stale flag: no posted dates
-- [ ] Flag chips on cards and the detail page
+### F-12 Listing quality flags · P1 · 🟨
+- [x] Too-good-to-be-true (price per sq ft under 40% of the sourced locality level, run-median
+      fallback, no flat rate; ADR 0014); catches S-01's "₹3.6 Lac … ₹75 /sqft … 4,800 sqft"
+- [x] Missing price/size (duplicates are already merged in cleaning). No stale flag: no posted dates
+- [x] Flag chips on run cards
+- [ ] Flag chips on the detail page (F-07)
 
 ### F-19 Results map view · P0 · ⬜
 - [ ] Leaflet + OpenStreetMap tiles, markers coloured by score (Maps projects carry GPS; snippet

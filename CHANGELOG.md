@@ -13,6 +13,11 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-06 · F-12 price flags (part): too-good-to-be-true against a per-locality price level
+  from a live Google search, read by DeepSeek with a validated quote; run-median fallback, no flat
+  rate (ADR 0014). Missing price/size flags; flag chips on run cards. A high flag caps at weak.
+  Recorded for both demos (2 searches, 2 lite calls): the ₹3.6 L Koramangala "sale" at ₹75/sq ft
+  is now flagged against ₹17,501/sq ft. Record mode in both gateways reuses existing fixtures.
 - 2026-10-06 · F-03 / I-07 complete: live DeepSeek recordings committed for both demo profiles
   (residential: first 16 of 28 candidates; commercial: all 6); both replay with no key.
   - `VERIFY_MAX_CANDIDATES` (default 16) caps checks per run; the rest are reported `unchecked`.

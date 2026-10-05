@@ -1,0 +1,13 @@
+{
+  "key": "bf84431175d54b8bcc4b544a9cc3a1965281bec2db9440bbacf86369058b11a6",
+  "task": "extract_price_level",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "result_index": 5,
+    "low": 11700.0,
+    "high": 12600.0,
+    "evidence": "The average property price in Whitefield ranges from ₹11,700 to ₹12,600 per sq.ft.",
+    "confidence": 0.95
+  }
+}
