@@ -13,6 +13,15 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-05 · F-03: DeepSeek relevance verification, implemented and tested offline.
+  - Gap-only extraction with exact evidence, supported units/enums and original provenance.
+  - Profile verification with deterministic constraint overrides, missing-data handling and
+    explicit unverified ROI; rejected candidates retained with reasons.
+  - Incremental stage progress, per-run snapshots and durable partial results on failure;
+    `GET /api/runs/{id}/verifications` and run UI with a "Filtered out" view.
+  - I-07: validated LLM DB cache and record/replay, keyed by task/model/tier/schema/prompt.
+  - Recording script for residential/commercial demos using existing SerpApi fixtures.
+    Live acceptance and committed LLM recordings remain pending: no key configured here.
 - 2026-10-04 · F-02: property discovery, end to end.
   - SerpApi gateway (I-02–I-04): replay / live / record, DB cache with TTL, per-run and monthly
     budgets, search ledger, error mapping. `GET /api/meta/budget` + header chip (I-05).

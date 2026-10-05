@@ -1,7 +1,8 @@
 import { useState, type ReactNode } from "react";
 
-import type { Listing, Portal, ProfileOptions, SaleStatus } from "../../api/types";
+import type { Listing, Portal, ProfileOptions, SaleStatus, Verification } from "../../api/types";
 import { formatInr } from "../../lib/money";
+import { groupCandidates } from "./groupCandidates";
 
 const PORTAL_LABELS: Record<Portal, string> = {
   "99acres": "99acres",
@@ -17,14 +18,17 @@ const STATUS_LABELS: Record<SaleStatus, string> = {
   new_launch: "New launch",
 };
 
-type Tab = "priced" | "projects";
+type Tab = "priced" | "projects" | "filtered";
 
-/** Candidates a discovery run found (F-02): not yet AI-checked or ranked. */
-export function CandidateList({ listings, options }: { listings: Listing[]; options: ProfileOptions }) {
-  const priced = listings.filter((l) => l.kind === "snippet_entry");
-  const projects = listings.filter((l) => l.kind === "project");
-  const [tab, setTab] = useState<Tab>(priced.length > 0 ? "priced" : "projects");
-  const shown = tab === "priced" ? priced : projects;
+/** Discovered candidates with relevance checks. Rejects remain visible with their reasons. */
+export function CandidateList({ listings, options, verifications }: {
+  listings: Listing[]; options: ProfileOptions; verifications: Verification[];
+}) {
+  const groups = groupCandidates(listings, verifications);
+  const { priced, projects, filtered } = groups;
+  const checks = new Map(verifications.map((check) => [check.listing_id, check]));
+  const [tab, setTab] = useState<Tab>(priced.length > 0 ? "priced" : projects.length > 0 ? "projects" : "filtered");
+  const shown = groups[tab];
   const typeLabel = (value: string | null | undefined) =>
     options.segments.flatMap((s) => s.property_types).find((t) => t.value === value)?.label ?? value;
   const localityName = (slug: string | null | undefined) =>
@@ -43,12 +47,18 @@ export function CandidateList({ listings, options }: { listings: Listing[]; opti
         <TabButton active={tab === "projects"} onClick={() => setTab("projects")}>
           Projects on Google Maps ({projects.length})
         </TabButton>
+        <TabButton active={tab === "filtered"} onClick={() => setTab("filtered")}>
+          Filtered out ({filtered.length})
+        </TabButton>
       </div>
       <p className="text-xs text-slate-500">
-        {tab === "priced"
+        {tab === "filtered"
+          ? "Candidates that fail your criteria. Their source links and rejection reasons are kept for review."
+          : tab === "priced"
           ? "Prices quoted on the portals' search pages. The link opens the page that quoted it, not a single unit."
           : "Housing projects in the locality from Google Maps. No price is quoted for these yet."}
       </p>
+      {shown.length === 0 && <p className="text-sm text-slate-500">No candidates in this view.</p>}
       <ul className="divide-y divide-slate-100 rounded-xl border border-slate-200 bg-white">
         {shown.map((listing) => (
           <li key={listing.id} className="grid gap-1 px-4 py-3 sm:grid-cols-[1fr_auto]">
@@ -74,6 +84,9 @@ export function CandidateList({ listings, options }: { listings: Listing[]; opti
                   “{listing.evidence}”
                 </p>
               )}
+              {checks.has(listing.id)
+                ? <VerificationSummary verification={checks.get(listing.id)!} />
+                : <p className="mt-2 text-xs text-slate-500">Not yet AI-checked</p>}
             </div>
             <div className="text-left sm:text-right">
               {listing.price_inr.value != null && (
@@ -102,6 +115,37 @@ export function CandidateList({ listings, options }: { listings: Listing[]; opti
         ))}
       </ul>
     </section>
+  );
+}
+
+const VERDICT_LABELS: Record<Verification["verdict"], string> = {
+  strong: "Strong match", partial: "Partial match", weak: "Weak match", reject: "Filtered out",
+};
+
+function VerificationSummary({ verification }: { verification: Verification }) {
+  const rejected = verification.verdict === "reject";
+  return (
+    <div className="mt-3 space-y-2 text-xs">
+      <p className={rejected ? "font-medium text-red-700" : "font-medium text-slate-700"}>
+        {VERDICT_LABELS[verification.verdict]} · Relevance {verification.match_score}/100
+        {" · "}{Math.round(verification.confidence * 100)}% confidence
+      </p>
+      <CheckReasons label="Matched" reasons={verification.matched_criteria ?? []} />
+      <CheckReasons label={rejected ? "Rejection reasons" : "Mismatches"} reasons={verification.mismatches ?? []} />
+      <CheckReasons label="Missing or unconfirmed" reasons={verification.missing_data ?? []} />
+    </div>
+  );
+}
+
+function CheckReasons({ label, reasons }: { label: string; reasons: string[] }) {
+  if (reasons.length === 0) return null;
+  return (
+    <div>
+      <p className="font-medium text-slate-600">{label}</p>
+      <ul className="list-disc space-y-0.5 pl-4 text-slate-500">
+        {reasons.map((reason, index) => <li key={`${index}-${reason}`}>{reason}</li>)}
+      </ul>
+    </div>
   );
 }
 

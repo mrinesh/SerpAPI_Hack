@@ -18,8 +18,9 @@ Each stage emits a `StageEvent` (status, message, counts) that the UI polls, so 
 the pipeline working live (F-20). A failing stage marks the run failed without discarding
 earlier results.
 
-> Status: plan, fetch and clean are built (F-02); verify, enrich and rank are reported as "not
-> built yet" in every run. The discovery design comes from spike S-01
+> Status: plan, fetch and clean (F-02), and verification (F-03) are implemented. Enrich and rank
+> are reported as "not built yet". Verification needs recorded LLM fixtures in replay mode;
+> live acceptance and demo recordings are pending an available DeepSeek key. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
 ## 1 · Plan (`query_planner.py`, F-02)
@@ -84,10 +85,28 @@ Candidate ids are stable hashes, so a repeat run updates the same rows and adds 
   value carries confidence and the exact text span it came from.
 - `verify` (LLM reasoning tier, prompt `verify_listing`): 0–100 match score, verdict, matched criteria,
   mismatches, missing data.
-- `flag_listing` (rules): too-good-to-be-true (also catches rents quoted as sale prices),
+- `flag_listing` (F-12, still pending): too-good-to-be-true (also catches rents quoted as sale prices),
   missing data. No stale flag: search results carry no posted dates.
 
 Rejected listings stay in the run with rank `null` so the UI can show what was filtered and why.
+
+Extraction cannot replace any non-null field, including query-derived fields. New fields require
+an exact span in the candidate's evidence, matching currency/units or enum words, and retain the
+original sources. No evidence means no extraction call; Maps projects are still verified.
+Budget, segment, type, locality and requested size violations override the model to reject.
+Missing core facts and range/starting prices cap confidence and prevent a strong verdict.
+ROI is explicitly unverified until F-09. See [ADR 0013](decisions/0013-grounded-verification.md).
+
+Each completed check commits independently; progress counts checked and rejected candidates.
+If a provider fails, the run fails with a clear error, while discovery and earlier checks remain
+readable. `GET /api/runs/{id}/listings` returns run snapshots; `/verifications` returns completed
+checks including rejects. The run UI refreshes these as verification advances. Enrichment and
+composite ranking are separate future stages; relevance scores are not investment returns.
+
+The LLM wrapper caches validated responses in `llm_cache`. Its key includes task, model, tier,
+schema and prompt; record mode writes fixtures even on a DB cache hit. Replay reads only those
+fixtures and fails on a miss. Prompts omit run timestamps and profile ID/name to reuse identical
+criteria and evidence across repeat runs.
 
 ## 5 · Enrich (`enrichment/`, `metrics.py`, F-05, F-06, F-09)
 

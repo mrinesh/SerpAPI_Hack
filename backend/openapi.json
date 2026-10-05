@@ -378,7 +378,7 @@
           "runs"
         ],
         "summary": "Get Run Listings",
-        "description": "Candidates this run discovered (F-02): not yet AI-checked or ranked.",
+        "description": "All candidates from this run, including extraction additions and rejected candidates.",
         "operationId": "get_run_listings_api_runs__run_id__listings_get",
         "parameters": [
           {
@@ -402,6 +402,53 @@
                     "$ref": "#/components/schemas/Listing"
                   },
                   "title": "Response Get Run Listings Api Runs  Run Id  Listings Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/runs/{run_id}/verifications": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Run Verifications",
+        "description": "Completed relevance checks (F-03), including reasons for rejection.",
+        "operationId": "get_run_verifications_api_runs__run_id__verifications_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Verification"
+                  },
+                  "title": "Response Get Run Verifications Api Runs  Run Id  Verifications Get"
                 }
               }
             }

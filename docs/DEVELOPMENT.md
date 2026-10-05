@@ -136,6 +136,23 @@ fully from the S-01 fixtures: apartment in Whitefield up to ₹80 L (Google + Ma
 space in Koramangala up to ₹3 Cr. Other profiles report "No recorded … response" for each
 missing search; record them in `record` mode first.
 
+F-03 additionally needs LLM fixtures for the exact criteria and candidate evidence. They have
+not yet been captured in this checkout; a replay miss marks verification failed while keeping
+discovered candidates visible. To capture real responses after setting `DEEPSEEK_API_KEY`:
+
+```bash
+cd backend
+uv run python scripts/record_verification.py --profile residential
+uv run python scripts/record_verification.py --profile commercial
+```
+
+These scripts force SerpApi replay and DeepSeek record, use a temporary isolated database,
+and write validated LLM fixtures. They spend DeepSeek calls only. Residential criteria:
+Whitefield apartment, max ₹80 L, rental income, 4% target, balanced risk, no must-haves or size
+limits. Commercial criteria: Koramangala office, max ₹3 Cr, business type `IT services`, same
+goal/target/risk. Other criteria require their own recordings. No fake LLM responses are shipped
+as real provider recordings; tests generate fake responses in temporary fixture directories.
+
 ## Known tooling issues
 
 - **npm 10.9 cannot add vitest ≥ 4** (`Cannot read properties of null (reading 'edgesOut')`, an

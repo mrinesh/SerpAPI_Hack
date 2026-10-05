@@ -17,6 +17,8 @@ class ModelTier(StrEnum):
 class LLMProvider(Protocol):
     name: str
 
+    def model_for(self, tier: ModelTier) -> str: ...
+
     def generate_structured(
         self, *, task: str, prompt: str, schema: type[M], tier: ModelTier = ModelTier.REASONING
     ) -> M:

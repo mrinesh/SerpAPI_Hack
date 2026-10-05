@@ -32,7 +32,7 @@ code for an ID finds every stub that belongs to it.
 | I-04 | Search budget ledger and caps | P0 | ✅ | |
 | I-05 | Budget endpoint via SerpApi Account API | P1 | ✅ | |
 | I-06 | DeepSeek provider with structured output | P0 | ✅ | |
-| I-07 | LLM record / replay cache | P0 | 🧱 | |
+| I-07 | LLM record / replay cache | P0 | 🟨 | |
 | I-08 | Database schema and session | P0 | 🧱 | |
 | I-09 | Pipeline orchestrator, background runs, stage events | P0 | ✅ | |
 | I-10 | Frontend shell, routing, API client, generated types | P0 | 🧱 | |
@@ -43,7 +43,7 @@ code for an ID finds every stub that belongs to it.
 | **Features (F-01 to F-08 match the product brief's numbering)** | | | | |
 | F-01 | Investor profile | P0 | ✅ | |
 | F-02 | Property discovery | P0 | ✅ | |
-| F-03 | AI relevance verification | P0 | 🧱 | |
+| F-03 | AI relevance verification | P0 | 🟨 | |
 | F-04 | Ranked recommendations with reasons | P0 | 🧱 | |
 | F-05 | Area intelligence | P0 | 🧱 | |
 | F-06 | Competitor analysis (commercial) | P0 | 🧱 | |
@@ -151,8 +151,10 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
   thinking for extraction (both `deepseek-v4-pro`)
 - [x] `python -m app.cli llm "<prompt>"` for a live connectivity check
 
-### I-07 LLM record / replay · P0 · 🧱
-- [ ] Cache in `llm_cache`, fixtures in `fixtures/llm/<task>/<key>.json`
+### I-07 LLM record / replay · P0 · 🟨
+- [x] Cache in `llm_cache`, fixtures in `fixtures/llm/<task>/<key>.json`
+- [x] Validated record/replay, model/tier/schema-aware keys, no network or DB cache in replay;
+      tested with fake provider outputs
 - [ ] Replay mode runs the whole demo without a DeepSeek key
 
 ### I-08 Database · P0 · 🧱
@@ -219,10 +221,16 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [x] Runs from the app: "Find properties" → run page with candidates
 - [x] Tests built from verbatim fixture text (34 parser/planner, 6 end-to-end run cases)
 
-### F-03 AI relevance verification · P0 · 🧱
-- [ ] `extract_listing` prompt + `extract` (fills regex gaps only)
-- [ ] `verify_listing` prompt + `verify` → `Verification`
-- [ ] Rejected listings kept with reasons and shown in a "filtered out" list
+### F-03 AI relevance verification · P0 · 🟨
+- [x] `extract_listing` prompt + `extract` (fills regex gaps only, checks evidence and units)
+- [x] `verify_listing` prompt + `verify` → `Verification`; hard constraints enforced in code
+- [x] Pipeline stage with incremental progress/persistence; per-run listing snapshots
+- [x] `GET /api/runs/{id}/verifications`; rejected listings retained with null rank
+- [x] Run UI shows match score, confidence, matched/missing criteria and "Filtered out" reasons
+- [x] Offline tests: evidence grounding, constraints, uncertainty, persistence, failures, replay
+- [ ] Live DeepSeek acceptance and committed demo recordings: key not configured in this
+      checkout. `backend/scripts/record_verification.py` records using existing search fixtures.
+      Implementation is complete; 🟨 remains until the live/replay definition of done is met.
 
 ### F-04 Ranked recommendations · P0 · 🧱
 - [ ] Composite score in code, weights by goal and risk appetite, `score_breakdown`

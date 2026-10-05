@@ -14,6 +14,7 @@ import type {
   Listing,
   PipelineRun,
   ProfileOptions,
+  Verification,
 } from "./types";
 
 export function useHealth() {
@@ -89,7 +90,7 @@ export function useDeleteProfile() {
   });
 }
 
-/** Starts the search pipeline for a profile. Returns 501 until CHECKLIST I-09 is built. */
+/** Starts the search and verification pipeline for a profile. */
 export function useStartRun() {
   return useMutation({
     mutationFn: (profileId: string) =>
@@ -112,11 +113,29 @@ export function useRun(runId: string | undefined) {
   });
 }
 
-/** Candidates a run discovered. Fetched once the run has finished. */
+/** Candidates and partial checks, refreshed as verification advances. */
 export function useRunListings(run: PipelineRun | undefined) {
   return useQuery({
-    queryKey: ["runs", run?.id, "listings"],
+    queryKey: ["runs", run?.id, "listings", run?.status, checkedCount(run)],
     queryFn: () => apiFetch<Listing[]>(`/runs/${run?.id}/listings`),
-    enabled: run !== undefined && !isActive(run),
+    enabled: hasCandidates(run),
+  });
+}
+
+function checkedCount(run: PipelineRun | undefined) {
+  return run?.events?.find((event) => event.stage === "verify")?.counts?.checked ?? 0;
+}
+
+function hasCandidates(run: PipelineRun | undefined) {
+  return run !== undefined && (
+    !isActive(run) || (run.events ?? []).some((event) => event.stage === "clean" && event.status === "succeeded")
+  );
+}
+
+export function useRunVerifications(run: PipelineRun | undefined) {
+  return useQuery({
+    queryKey: ["runs", run?.id, "verifications", run?.status, checkedCount(run)],
+    queryFn: () => apiFetch<Verification[]>(`/runs/${run?.id}/verifications`),
+    enabled: hasCandidates(run),
   });
 }

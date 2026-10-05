@@ -4,9 +4,9 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.core.errors import NotFound, NotImplementedYet
-from app.db.models import ListingObservationRow, ListingRow, RunRow
+from app.db.models import ListingObservationRow, ListingRow, RunResultRow, RunRow
 from app.pipeline.orchestrator import to_schema
-from app.schemas.listing import Listing, ResultKind
+from app.schemas.listing import Listing, ResultKind, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
 
@@ -23,7 +23,12 @@ def get_run_listings(db: Session, run_id: str) -> list[Listing]:
         .join(ListingObservationRow, ListingObservationRow.listing_id == ListingRow.id)
         .where(ListingObservationRow.run_id == run_id)
     ).all()
-    listings = [Listing.model_validate(row.data) for row in rows]
+    snapshots = {
+        row.listing_id: row.recommendation["listing"]
+        for row in db.scalars(select(RunResultRow).where(RunResultRow.run_id == run_id))
+        if "listing" in row.recommendation
+    }
+    listings = [Listing.model_validate(snapshots.get(row.id, row.data)) for row in rows]
     return sorted(
         listings,
         key=lambda item: (
@@ -33,6 +38,19 @@ def get_run_listings(db: Session, run_id: str) -> list[Listing]:
             item.name,
         ),
     )
+
+
+def get_verifications(db: Session, run_id: str) -> list[Verification]:
+    """Completed checks, including rejects; partial results remain readable after a failure."""
+    _get_row(db, run_id)
+    rows = db.scalars(
+        select(RunResultRow).where(RunResultRow.run_id == run_id).order_by(RunResultRow.id)
+    )
+    return [
+        Verification.model_validate(row.recommendation["verification"])
+        for row in rows
+        if row.recommendation.get("verification") is not None
+    ]
 
 
 def get_recommendations(db: Session, run_id: str) -> list[Recommendation]:
