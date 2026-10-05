@@ -80,9 +80,9 @@ Candidate ids are stable hashes, so a repeat run updates the same rows and adds 
 
 **In:** listings + profile · **Out:** `Verification` per listing
 
-- `extract` (Gemini lite, prompt `extract_listing`): fills only the fields regex missed; each
+- `extract` (LLM lite tier, prompt `extract_listing`): fills only the fields regex missed; each
   value carries confidence and the exact text span it came from.
-- `verify` (Gemini, prompt `verify_listing`): 0–100 match score, verdict, matched criteria,
+- `verify` (LLM reasoning tier, prompt `verify_listing`): 0–100 match score, verdict, matched criteria,
   mismatches, missing data.
 - `flag_listing` (rules): too-good-to-be-true (also catches rents quoted as sale prices),
   missing data. No stale flag: search results carry no posted dates.
@@ -125,7 +125,7 @@ No net yield or cap rate: both need cost assumptions we would have to source
 
 Composite score computed in code, with weights set by `goal` and `risk_appetite`:
 match score, ROI vs target, price vs area average, area signals, and quality-flag penalties.
-`score_breakdown` exposes each component. Gemini (`explain_recommendation`) writes only the
+`score_breakdown` exposes each component. The LLM (`explain_recommendation`) writes only the
 reason, highlights and risks, quoting numbers from the inputs.
 
 ## LLM calls per run

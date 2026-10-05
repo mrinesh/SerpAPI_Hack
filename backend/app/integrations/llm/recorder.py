@@ -3,7 +3,7 @@
 Same three modes as the SerpApi gateway. Responses are keyed by hash(task, model, prompt):
 - live: call the provider and cache in `llm_cache`;
 - record: also write `fixtures/llm/<task>/<key>.json`;
-- replay: serve fixtures only, so the demo runs with no Gemini key.
+- replay: serve fixtures only, so the demo runs with no DeepSeek key.
 """
 
 from pathlib import Path

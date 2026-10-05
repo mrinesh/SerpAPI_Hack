@@ -18,7 +18,7 @@ locks on first submit; edits stay open).
 | Repo | *public GitHub URL* |
 | Demo video | *unlisted URL, < 3 min, tested in incognito* |
 | Pre-existing project? | No *(confirm)* |
-| AI tools used | Claude Code (development), Gemini (in-product LLM) *(confirm full list)* |
+| AI tools used | Claude Code (development), DeepSeek V4 Pro (in-product LLM) *(confirm full list)* |
 | Community source | BangPypers *(confirm)* |
 | Team | *names + emails; every member must have contributed* |
 

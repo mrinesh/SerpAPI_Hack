@@ -9,10 +9,16 @@ os.environ["DATABASE_URL"] = f"sqlite:///{_tmp / 'test.db'}"
 os.environ["SERPAPI_MODE"] = "replay"
 os.environ["LLM_MODE"] = "replay"
 os.environ["SERPAPI_API_KEY"] = ""
-os.environ["GEMINI_API_KEY"] = ""
+os.environ["DEEPSEEK_API_KEY"] = ""
 
 import pytest  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402
+
+from app.config import Settings  # noqa: E402
+
+# Settings ignore empty env vars, so the blank keys above would fall through to the developer's
+# real keys in .env. Tests never read .env.
+Settings.model_config["env_file"] = None
 
 from app.db.base import Base  # noqa: E402
 from app.db.session import SessionLocal, engine  # noqa: E402

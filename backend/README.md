@@ -1,6 +1,6 @@
 # Backend
 
-FastAPI service: SerpApi discovery, Gemini verification, area and competitor enrichment, ranking.
+FastAPI service: SerpApi discovery, DeepSeek verification, area and competitor enrichment, ranking.
 
 ```bash
 uv sync                                          # install
@@ -17,7 +17,7 @@ uv run ruff check . && uv run ruff format .      # lint / format
 | `app/services/` | Use cases behind each route |
 | `app/pipeline/` | One module per stage: plan, fetch, clean, verify, enrich, rank |
 | `app/integrations/serpapi/` | The only code that calls SerpApi (cache, budget, record/replay) |
-| `app/integrations/llm/` | Gemini provider, record/replay, prompts |
+| `app/integrations/llm/` | DeepSeek provider, record/replay, prompts |
 | `app/schemas/` | Pydantic domain models, the shared contract |
 | `app/db/` | SQLAlchemy tables and session |
 | `app/cli.py` | One search or a budget check through the gateway (`uv run python -m app.cli --help`) |

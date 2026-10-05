@@ -74,7 +74,7 @@ class ProviderNotConfigured(AppError):
 
 
 class UpstreamError(AppError):
-    """An external API (SerpApi, Gemini) failed or returned an unusable response."""
+    """An external API (SerpApi, DeepSeek) failed or returned an unusable response."""
 
     status_code = 502
     code = "upstream_error"

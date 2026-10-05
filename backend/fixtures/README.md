@@ -1,7 +1,7 @@
 # Recorded fixtures
 
 Responses recorded in `record` mode and served in `replay` mode, so the app (and the judges)
-can run the full demo with no SerpApi or Gemini key and no search credits.
+can run the full demo with no SerpApi or DeepSeek key and no search credits.
 
 - `serpapi/<engine>/<cache_key>.json`: `{"engine", "params", "response"}`, where `response` is the
   raw SerpApi JSON. `cache_key` comes from `app/integrations/serpapi/gateway.py::cache_key` and

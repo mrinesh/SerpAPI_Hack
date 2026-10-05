@@ -17,12 +17,12 @@ flowchart LR
         PIPE[Pipeline<br/>app/pipeline]
         JOBS[Scheduler<br/>app/jobs]
         GW[SerpApi gateway<br/>cache · budget · record/replay]
-        LLM[LLM provider<br/>Gemini · record/replay]
+        LLM[LLM provider<br/>DeepSeek · record/replay]
         DB[(SQLite)]
     end
 
     SERP[(SerpApi<br/>google · google_maps<br/>google_news · google_trends<br/>google_maps_reviews)]
-    GEM[(Gemini API)]
+    GEM[(DeepSeek API)]
     OSM[(OpenStreetMap tiles)]
     FIX[[fixtures/<br/>recorded responses]]
 
@@ -47,7 +47,7 @@ flowchart LR
 | API | `backend/app/api` | HTTP shape, validation, status codes | services |
 | Services | `backend/app/services` | Use cases: profiles, runs, detail, portfolio, alerts | pipeline, db |
 | Pipeline | `backend/app/pipeline` | plan → fetch → clean → verify → enrich → rank | integrations, schemas |
-| Integrations | `backend/app/integrations` | The only code that talks to SerpApi and Gemini | config, db |
+| Integrations | `backend/app/integrations` | The only code that talks to SerpApi and DeepSeek | config, db |
 | Schemas | `backend/app/schemas` | Pydantic domain models; the contract for every layer and for generated TS types | nothing |
 | Data | `backend/app/db` | SQLAlchemy tables; nested objects stored as schema JSON | schemas |
 | Jobs | `backend/app/jobs` | Scheduled alert checks (APScheduler, in-process) | services |
@@ -64,7 +64,7 @@ orchestrator.
 2. **Every fact is sourced.** Investor-facing values are `Sourced[T]`: value, confidence,
    extraction method, source links. ([ADR 0004](decisions/0004-provenance-on-every-field.md))
 3. **Code decides numbers, the LLM handles language.** Scores, yields and price comparisons are
-   computed in Python; Gemini extracts fields from messy text and writes explanations.
+   computed in Python; the LLM (DeepSeek) extracts fields from messy text and writes explanations.
    ([ADR 0008](decisions/0008-code-computes-llm-explains.md))
 4. **Enrich per locality, not per property.** Area intelligence is cached per locality and
    shared by every listing in it. ([ADR 0006](decisions/0006-locality-keyed-enrichment.md))
@@ -81,7 +81,7 @@ sequenceDiagram
     participant API
     participant Orch as Orchestrator (background thread)
     participant GW as SerpApi gateway
-    participant LLM as Gemini
+    participant LLM as DeepSeek
     participant DB
 
     UI->>API: POST /api/profiles/{id}/runs
@@ -111,7 +111,7 @@ All errors are `{"error": {"code", "message", "details"}}` (`app/core/errors.py`
 | `search_budget_exceeded` | 429 | A live search would exceed the run or monthly budget |
 | `replay_miss` | 503 | Replay mode has no fixture for this request |
 | `provider_not_configured` | 503 | A live call needs an API key that is not set |
-| `upstream_error` | 502 | SerpApi or Gemini failed or returned an unusable response |
+| `upstream_error` | 502 | SerpApi or DeepSeek failed or returned an unusable response |
 | `internal_error` | 500 | Anything else |
 
 ## Configuration
@@ -129,7 +129,7 @@ backend/
     db/             engine/session, tables
     integrations/
       serpapi/      gateway (cache, budget, record/replay), engine param builders
-      llm/          provider protocol, Gemini, record/replay wrapper, prompts/*.md
+      llm/          provider protocol, DeepSeek, record/replay wrapper, prompts/*.md
     jobs/           APScheduler wiring, alert job
     pipeline/       one module per stage; enrichment/ for area and competitors
     reference/      static market data (Bengaluru localities)

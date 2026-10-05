@@ -23,7 +23,7 @@ code for an ID finds every stub that belongs to it.
 |---|---|---|---|---|
 | **Spikes** | | | | |
 | S-01 | Data coverage spike (Bengaluru, real queries) | P0 | ✅ | |
-| S-02 | Gemini extraction accuracy check | P0 | ⬜ | |
+| S-02 | LLM extraction accuracy check | P0 | ⬜ | |
 | S-03 | Search cost model per run | P0 | ✅ | |
 | **Infrastructure** | | | | |
 | I-01 | Repo scaffold, tooling, docs skeleton | P0 | ✅ | |
@@ -31,7 +31,7 @@ code for an ID finds every stub that belongs to it.
 | I-03 | SerpApi record / replay fixtures | P0 | ✅ | |
 | I-04 | Search budget ledger and caps | P0 | ✅ | |
 | I-05 | Budget endpoint via SerpApi Account API | P1 | ✅ | |
-| I-06 | Gemini provider with structured output | P0 | 🧱 | |
+| I-06 | DeepSeek provider with structured output | P0 | ✅ | |
 | I-07 | LLM record / replay cache | P0 | 🧱 | |
 | I-08 | Database schema and session | P0 | 🧱 | |
 | I-09 | Pipeline orchestrator, background runs, stage events | P0 | ✅ | |
@@ -74,7 +74,7 @@ code for an ID finds every stub that belongs to it.
 | Day | Date | Goal | Items |
 |---|---|---|---|
 | 0 | Sat Oct 3 | Framework; start the coverage spike | I-01 ✅, S-01 |
-| 1 | Sun Oct 4 | SerpApi and Gemini plumbing; spike conclusions | S-01, S-02, S-03, I-02–I-04, I-06, I-07, F-01 |
+| 1 | Sun Oct 4 | SerpApi and LLM plumbing; spike conclusions | S-01, S-02, S-03, I-02–I-04, I-06, I-07, F-01 |
 | 2 | Mon Oct 5 | Discovery and verification end to end | F-02, F-03, I-08, I-09, I-12 |
 | 3 | Tue Oct 6 | Enrichment and ranking: full pipeline in replay | F-05, F-09, F-04 |
 | 4 | Wed Oct 7 | UI core and commercial path | I-10, F-01 UI, F-20, F-19, F-07, F-06 |
@@ -99,7 +99,7 @@ Findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.m
 - [x] Query templates decided with the product owner and implemented in `query_planner.py`
 - [ ] google_news, google_trends and "property rates" queries: moved to F-05, which needs them
 
-### S-02 Gemini extraction accuracy · P0 · ⬜
+### S-02 LLM extraction accuracy · P0 · ⬜
 - [ ] Hand-label 20 S-01 hits (kind, price, size, BHK, locality)
 - [ ] Run regex parsers + `extract_listing` and record field-level accuracy in the spike doc
 - [ ] Decide which fields need the LLM and which regex handles alone
@@ -143,14 +143,17 @@ Findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.m
 - [x] `GET /api/meta/budget`: ledger totals + `Client.account()` searches left (skipped in replay)
 - [x] Budget chip in the app header
 
-### I-06 Gemini provider · P0 · 🧱
-- [ ] `generate_structured` with `response_schema` = Pydantic model; validate; retry once
-- [ ] `generate_text`
-- [ ] Model tiers: `GEMINI_MODEL` for reasoning, `GEMINI_MODEL_LITE` for extraction
+### I-06 DeepSeek provider · P0 · ✅
+DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
+- [x] `generate_structured`: JSON mode, Pydantic schema in the system prompt; validate; retry once
+- [x] `generate_text`
+- [x] Model tiers: `DEEPSEEK_MODEL` with thinking for reasoning, `DEEPSEEK_MODEL_LITE` without
+  thinking for extraction (both `deepseek-v4-pro`)
+- [x] `python -m app.cli llm "<prompt>"` for a live connectivity check
 
 ### I-07 LLM record / replay · P0 · 🧱
 - [ ] Cache in `llm_cache`, fixtures in `fixtures/llm/<task>/<key>.json`
-- [ ] Replay mode runs the whole demo without a Gemini key
+- [ ] Replay mode runs the whole demo without a DeepSeek key
 
 ### I-08 Database · P0 · 🧱
 - [x] Tables defined in `app/db/models.py`, created on startup
@@ -306,7 +309,7 @@ From [HACKATHON_BRIEF.md](HACKATHON_BRIEF.md#submission-checklist); details in [
 - [ ] **First submit by Thu Oct 8** (timestamp locks on first submit; edits allowed after)
 - [ ] Demo video under 3 min, running locally, opens in incognito
 - [ ] Project description, SerpApi usage explanation (from docs/SERPAPI_USAGE.md)
-- [ ] Disclosures: new project; AI tools used (Claude Code, Gemini); community source = BangPypers (confirm)
+- [ ] Disclosures: new project; AI tools used (Claude Code, DeepSeek); community source = BangPypers (confirm)
 - [ ] Track: Commerce & Market Intelligence
 - [ ] Teammates added (name + email), all of whom contributed
 - [ ] Tick: rules, terms, links tested in incognito

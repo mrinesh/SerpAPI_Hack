@@ -5,6 +5,13 @@ Reference CHECKLIST IDs.
 
 ## [Unreleased]
 
+### Changed
+- 2026-10-05 · I-06: DeepSeek V4 Pro replaces Gemini (ADR 0012). `DeepSeekProvider` uses the
+  `openai` SDK against the OpenAI-compatible API: JSON-mode structured output validated with
+  Pydantic and retried once, thinking on for the reasoning tier and off for lite extraction.
+  `DEEPSEEK_*` settings replace `GEMINI_*`; `python -m app.cli llm` checks connectivity.
+  Tests no longer read `.env`, so they cannot pick up real API keys.
+
 ### Added
 - 2026-10-04 · F-02: property discovery, end to end.
   - SerpApi gateway (I-02–I-04): replay / live / record, DB cache with TTL, per-run and monthly

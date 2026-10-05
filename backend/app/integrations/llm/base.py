@@ -1,5 +1,5 @@
-"""The LLM interface the pipeline depends on. Gemini is the only implementation today
-(docs/decisions/0005-llm-behind-an-interface.md)."""
+"""The LLM interface the pipeline depends on. DeepSeek is the only implementation today
+(docs/decisions/0005-llm-behind-an-interface.md, 0012-deepseek-replaces-gemini.md)."""
 
 from enum import StrEnum
 from typing import Protocol, TypeVar

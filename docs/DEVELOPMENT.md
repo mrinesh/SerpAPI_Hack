@@ -32,10 +32,13 @@ environment variables override `.env`.
 | `SERPAPI_CACHE_TTL_HOURS` | `72` | How long a cached search is reused |
 | `SERPAPI_TIMEOUT_S` | `60` | Per-request timeout; some searches took over 30 s in S-01 |
 | `SERPAPI_LOCATION` | `Bengaluru,Karnataka,India` | SerpApi `location` parameter |
-| `GEMINI_API_KEY` | – | Needed for `live` / `record` LLM mode only |
-| `LLM_MODE` | `replay` | Same three modes, for Gemini |
-| `GEMINI_MODEL` | `gemini-3.8-flash` | Scoring, explanations, summaries |
-| `GEMINI_MODEL_LITE` | `gemini-3.5-flash-lite` | High-volume field extraction |
+| `DEEPSEEK_API_KEY` | – | Needed for `live` / `record` LLM mode only |
+| `LLM_MODE` | `replay` | Same three modes, for DeepSeek |
+| `DEEPSEEK_MODEL` | `deepseek-v4-pro` | Scoring, explanations, summaries (thinking on) |
+| `DEEPSEEK_MODEL_LITE` | `deepseek-v4-pro` | High-volume field extraction (thinking off) |
+| `DEEPSEEK_MAX_TOKENS` | `16384` | Completion cap per call, thinking included |
+| `DEEPSEEK_TIMEOUT_S` | `120` | Per-request timeout; thinking replies take several seconds |
+| `DEEPSEEK_BASE_URL` | `https://api.deepseek.com` | OpenAI-compatible endpoint |
 | `AREA_INTEL_TTL_HOURS` | `168` | How long locality intelligence is reused |
 | `SCHEDULER_ENABLED` | `false` | Run scheduled alert checks (spends live searches) |
 | `DATABASE_URL` | SQLite file at `backend/data/realty_intel.db` | Any SQLAlchemy URL |
@@ -70,7 +73,7 @@ A request with no fixture in `replay` mode fails with `503 replay_miss`; record 
 **Backend**
 - Dependencies point one way: `api → services → pipeline → integrations`.
 - Only `integrations/serpapi/gateway.py` imports `serpapi`; only `integrations/llm/` imports
-  `google.genai`.
+  `openai`.
 - Investor-facing facts are `Sourced[T]`. Numbers are computed in code, never by the LLM.
 - Prompts live in `integrations/llm/prompts/<task>.md`, not in Python strings.
 - Unbuilt code raises `NotImplementedYet("<CHECKLIST ID>", "<what>")`.

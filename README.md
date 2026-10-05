@@ -1,7 +1,7 @@
 # Realty Intel *(working name)*
 
 **Real estate investor intelligence, built on live search data.** Tell it what you want to buy,
-and it finds listings through SerpApi, has Gemini check each one against your criteria, adds area
+and it finds listings through SerpApi, has DeepSeek check each one against your criteria, adds area
 intelligence (and competitor data for commercial property), and returns a ranked shortlist with
 a reason and a source link for every number.
 
@@ -23,7 +23,7 @@ It is slow and inconsistent, and the results are hard to compare. Realty Intel r
 | | |
 |---|---|
 | **Discovery** | Site-filtered Google searches of 99acres, MagicBricks and NoBroker, reading the prices their search pages quote, plus housing projects from Google Maps |
-| **AI verification** | Gemini extracts structured fields, scores each listing against your profile, and flags mismatches and missing data |
+| **AI verification** | DeepSeek V4 Pro extracts structured fields, scores each listing against your profile, and flags mismatches and missing data |
 | **Area intelligence** | Amenities (Maps), news and infrastructure (News), price level (Search), rental demand (Trends), cached per locality |
 | **Competitor analysis** | For commercial property: same-category businesses nearby, ratings, review volume, density, market gaps |
 | **Investment metrics** | Price per sq ft vs area average, rental yield, price growth and total return, checked against your ROI target |
@@ -50,7 +50,7 @@ make demo     # replay mode: no API keys needed, no searches spent
 - App: <http://localhost:5173>
 - API docs: <http://localhost:8000/docs>
 
-To run against live data, put `SERPAPI_API_KEY` and `GEMINI_API_KEY` in `.env`, set
+To run against live data, put `SERPAPI_API_KEY` and `DEEPSEEK_API_KEY` in `.env`, set
 `SERPAPI_MODE=live` and `LLM_MODE=live`, then `make dev`. See
 [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md#provider-modes).
 
@@ -61,7 +61,7 @@ React (Vite · TS · Tailwind · Leaflet)  ──/api──▶  FastAPI
                                                     ├─ services
                                                     ├─ pipeline: plan → fetch → clean → verify → enrich → rank
                                                     ├─ SerpApi gateway (cache · budget · record/replay) ──▶ SerpApi
-                                                    ├─ LLM provider (record/replay) ──▶ Gemini
+                                                    ├─ LLM provider (record/replay) ──▶ DeepSeek
                                                     └─ SQLite
 ```
 
@@ -71,7 +71,7 @@ Full picture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · stage detail:
 ## Repository layout
 
 ```
-backend/      FastAPI app, pipeline, SerpApi/Gemini integrations, tests, recorded fixtures
+backend/      FastAPI app, pipeline, SerpApi/DeepSeek integrations, tests, recorded fixtures
 frontend/     React app
 docs/         product, architecture, pipeline, SerpApi usage, API, data model, ADRs
 CHECKLIST.md  feature tracker: what's done, what's pending
@@ -84,5 +84,5 @@ Start at **[docs/README.md](docs/README.md)**.
 
 ## AI disclosure
 
-Developed with the help of Claude Code. Gemini is used inside the product for extraction,
+Developed with the help of Claude Code. DeepSeek is used inside the product for extraction,
 verification and explanations.

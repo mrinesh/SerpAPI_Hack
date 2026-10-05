@@ -4,9 +4,14 @@
     uv run python -m app.cli serp google_maps q="flats for sale Whitefield"
     uv run python -m app.cli serp google q="..." start=10
     uv run python -m app.cli budget
+    uv run python -m app.cli llm "Reply with one word: ready"
+    uv run python -m app.cli llm --tier lite "..."
 
 Engine defaults (location, gl, hl, google_domain) come from integrations/serpapi/engines.py;
 extra key=value pairs override them. Set SERPAPI_MODE=record to save responses as fixtures.
+
+`llm` sends one prompt straight to the DeepSeek provider, live, whatever LLM_MODE says: it is a
+connectivity and prompt check, not a pipeline call, so nothing is cached or recorded.
 """
 
 import argparse
@@ -16,6 +21,8 @@ from typing import Any
 from app.config import get_settings
 from app.core.errors import AppError
 from app.db.session import SessionLocal, init_db
+from app.integrations.llm.base import ModelTier
+from app.integrations.llm.deepseek import DeepSeekProvider
 from app.integrations.serpapi import engines
 from app.integrations.serpapi.gateway import SerpApiGateway
 from app.schemas.common import SerpEngine
@@ -38,10 +45,16 @@ def main(argv: list[str] | None = None) -> int:
     serp.add_argument("params", nargs="+", help='key=value pairs; q="..." is required')
     serp.add_argument("--show", type=int, default=10, help="results to print per block")
     commands.add_parser("budget", help="searches used this month and left on the account")
+    llm = commands.add_parser("llm", help="send one prompt to the LLM provider (live)")
+    llm.add_argument("prompt")
+    llm.add_argument("--tier", choices=[str(t) for t in ModelTier], default=ModelTier.REASONING)
     args = parser.parse_args(argv)
 
-    init_db()
     settings = get_settings()
+    if args.command == "llm":
+        return _llm(DeepSeekProvider(settings), args.prompt, ModelTier(args.tier))
+
+    init_db()
     with SessionLocal() as db:
         try:
             if args.command == "budget":
@@ -68,6 +81,16 @@ def main(argv: list[str] | None = None) -> int:
             for item in items[: args.show]:
                 print(f"  #{item.get('position')} {item.get('title')}")
                 print(f"     {item.get('link') or item.get('address') or ''}")
+    return 0
+
+
+def _llm(provider: DeepSeekProvider, prompt: str, tier: ModelTier) -> int:
+    print(f"provider={provider.name} model={provider.model_for(tier)} tier={tier}")
+    try:
+        print(provider.generate_text(task="cli", prompt=prompt, tier=tier))
+    except AppError as exc:
+        print(f"error [{exc.code}]: {exc.message}", file=sys.stderr)
+        return 1
     return 0
 
 

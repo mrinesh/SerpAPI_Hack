@@ -1,6 +1,6 @@
 # 0005. Gemini, behind a provider interface
 
-- **Status:** Accepted
+- **Status:** Superseded by [0012](0012-deepseek-replaces-gemini.md) (provider choice; the interface stands)
 - **Date:** 2026-10-03
 
 ## Context

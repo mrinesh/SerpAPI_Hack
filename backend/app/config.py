@@ -40,11 +40,15 @@ class Settings(BaseSettings):
     serpapi_cache_ttl_hours: int = 72
     serpapi_timeout_s: int = 60  # two S-01 searches took longer than 30 s
 
-    # LLM (Gemini). `gemini_model` reasons and scores; `gemini_model_lite` does bulk extraction.
-    gemini_api_key: str | None = None
+    # LLM (DeepSeek, OpenAI-compatible API). `deepseek_model` reasons and scores with thinking
+    # on; `deepseek_model_lite` does bulk extraction with thinking off (ADR 0012).
+    deepseek_api_key: str | None = None
     llm_mode: ProviderMode = ProviderMode.REPLAY
-    gemini_model: str = "gemini-3.8-flash"
-    gemini_model_lite: str = "gemini-3.5-flash-lite"
+    deepseek_base_url: str = "https://api.deepseek.com"
+    deepseek_model: str = "deepseek-v4-pro"
+    deepseek_model_lite: str = "deepseek-v4-pro"
+    deepseek_max_tokens: int = 16384  # completion tokens, thinking included; JSON past it is cut
+    deepseek_timeout_s: int = 120
 
     # Market defaults. Bengaluru is the demo market; nothing in the pipeline is city-specific.
     default_city: str = "Bengaluru"

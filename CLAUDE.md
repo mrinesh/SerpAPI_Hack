@@ -5,7 +5,7 @@ Market Intelligence; demo market Bengaluru). Constraints: [HACKATHON_BRIEF.md](H
 Product: [docs/PRODUCT.md](docs/PRODUCT.md). Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 Stack: FastAPI (uv) backend in `backend/`, React + Vite + TypeScript frontend in `frontend/`,
-SQLite, official `serpapi` SDK, Gemini via `google-genai`.
+SQLite, official `serpapi` SDK, DeepSeek V4 Pro via the `openai` SDK (ADR 0012).
 
 ## Documentation discipline (required)
 
@@ -22,7 +22,7 @@ Keep docs and the tracker current as work happens, not at the end:
 
 - Layers point one way: `api → services → pipeline → integrations`.
 - Only `backend/app/integrations/serpapi/gateway.py` imports `serpapi`; only
-  `backend/app/integrations/llm/` imports `google.genai`.
+  `backend/app/integrations/llm/` imports `openai`.
 - Investor-facing facts are `Sourced[T]`. Scores and money are computed in code; the LLM only
   extracts and explains (ADR 0008).
 - Unbuilt code raises `NotImplementedYet("<CHECKLIST ID>", "...")`; grep the ID to find stubs.

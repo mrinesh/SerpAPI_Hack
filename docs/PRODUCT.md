@@ -38,7 +38,7 @@ Numbering matches [CHECKLIST.md](../CHECKLIST.md), which tracks status.
 |---|---|---|---|
 | F-01 | Investor profile | Residential or commercial, property types, size, 1–5 localities, budget, goal with a target ROI, risk appetite, must-haves; business type for commercial | P0 |
 | F-02 | Property discovery | Turns criteria into SerpApi searches of 99acres, MagicBricks and NoBroker (via Google) and Google Maps; reads the prices the portals' search pages quote | P0 |
-| F-03 | AI relevance verification | Gemini extracts structured fields, scores each listing against the profile, flags mismatches and missing data | P0 |
+| F-03 | AI relevance verification | The LLM (DeepSeek V4 Pro) extracts structured fields, scores each listing against the profile, flags mismatches and missing data | P0 |
 | F-04 | Recommendations | Ranked shortlist with a match score and a plain-language reason for each pick | P0 |
 | F-05 | Area intelligence | Per locality: news, infrastructure, amenities, price level, rental demand | P0 |
 | F-06 | Competitor analysis | Commercial: same-category businesses nearby, ratings, review volume, density, market gaps | P0 |
