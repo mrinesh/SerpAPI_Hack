@@ -27,6 +27,7 @@ from app.integrations.serpapi.gateway import SerpApiGateway
 from app.pipeline.cleaning import normalize_hits
 from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
+from app.pipeline.enrichment.price_level import price_levels
 from app.pipeline.persist import save_candidates, save_verification
 from app.pipeline.query_planner import plan_queries
 from app.pipeline.verification import extract, verify
@@ -150,20 +151,33 @@ def run_pipeline(run_id: str) -> None:
                     "candidates": len(result.listings),
                     "checked": 0,
                     "rejected": 0,
+                    "flagged": 0,
                     "unchecked": len(result.listings) - len(checking),
                 }
+                event.message = "Looking up locality price levels"
                 tracker.replace(event)
+                # Benchmarks for price flags: one search per locality and type (ADR 0014).
+                levels, level_notes = price_levels(ctx, market, result.listings)
                 for listing in checking:
                     extracted = extract(ctx, listing)
-                    verification = verify(ctx, extracted)
+                    benchmark = levels.get(
+                        (extracted.locality.value, extracted.property_type.value)
+                    )
+                    verification = verify(ctx, extracted, benchmark)
                     save_verification(db, run_id, extracted, verification)
                     event.counts["checked"] += 1
                     event.counts["rejected"] += int(verification.verdict == "reject")
+                    event.counts["flagged"] += int(
+                        any(flag.kind == "too_good_to_be_true" for flag in verification.flags)
+                    )
                     event.message = (
                         f"Checked {event.counts['checked']} of {len(checking)} candidates; "
-                        f"{event.counts['rejected']} filtered out"
+                        f"{event.counts['rejected']} filtered out, "
+                        f"{event.counts['flagged']} flagged as implausibly cheap"
                     )
                     tracker.replace(event)
+                if level_notes and checking:
+                    event.message += ". Price levels: " + "; ".join(level_notes)
                 if event.counts["unchecked"]:
                     event.message += (
                         f"; {event.counts['unchecked']} more not checked "

@@ -15,7 +15,15 @@ from pydantic import BaseModel, Field
 from app.integrations.llm.base import ModelTier
 from app.pipeline.cleaning import normalize_text, parse_property_type, parse_status
 from app.pipeline.context import PipelineContext
-from app.schemas.listing import Listing, MatchVerdict, SaleStatus, Verification
+from app.pipeline.quality import flag_listing
+from app.schemas.common import Level
+from app.schemas.listing import (
+    Listing,
+    MatchVerdict,
+    QualityFlagKind,
+    SaleStatus,
+    Verification,
+)
 from app.schemas.profile import SEGMENT_PROPERTY_TYPES, PropertyType, Segment
 from app.schemas.provenance import ExtractionMethod, Sourced
 
@@ -183,7 +191,11 @@ def _supported_value(name: str, raw: str, evidence: str):
     return None
 
 
-def verify(ctx: PipelineContext, listing: Listing) -> Verification:
+def verify(
+    ctx: PipelineContext, listing: Listing, benchmark: Sourced[float] | None = None
+) -> Verification:
+    """`benchmark` is the locality's price level; it drives flags only, never the prompt, so
+    recorded verifications stay valid when price levels change."""
     profile = ctx.profile.model_dump(
         mode="json", exclude={"id", "name", "created_at", "updated_at"}
     )
@@ -245,6 +257,18 @@ def verify(ctx: PipelineContext, listing: Listing) -> Verification:
         result.match_score = min(result.match_score, 69)
         if result.verdict is MatchVerdict.STRONG:
             result.verdict = MatchVerdict.PARTIAL
+    result.flags = flag_listing(listing, benchmark)
+    suspicious = [
+        flag.reason
+        for flag in result.flags
+        if flag.kind is QualityFlagKind.TOO_GOOD_TO_BE_TRUE and flag.severity is Level.HIGH
+    ]
+    if suspicious:
+        # Implausibly cheap is suspicious, not proven wrong: keep it visible but never above weak.
+        result.mismatches = list(dict.fromkeys([*result.mismatches, *suspicious]))
+        if result.verdict in (MatchVerdict.STRONG, MatchVerdict.PARTIAL):
+            result.verdict = MatchVerdict.WEAK
+        result.match_score = min(result.match_score, 59)
     if result.verdict is MatchVerdict.REJECT:
         result.match_score = min(result.match_score, 39)
     return result

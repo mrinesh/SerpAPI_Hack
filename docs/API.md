@@ -37,8 +37,10 @@ city) use the same shape.
 Run listings include grounded extraction additions and rejected candidates, from snapshots
 within that run. Verification responses can be read while the run is active or after a failure;
 an unchecked candidate has no verification yet. Both endpoints return 404 for an unknown run.
-`verify` stage counts contain `candidates`, `checked`, `rejected` and `unchecked` (candidates past
-`VERIFY_MAX_CANDIDATES`, default 16, which have no verification). F-04 ranking is still pending.
+`verify` stage counts contain `candidates`, `checked`, `rejected`, `flagged` (too good to be true)
+and `unchecked` (candidates past `VERIFY_MAX_CANDIDATES`, default 16, which have no verification).
+Each `Verification.flags` entry is a `QualityFlag` (`kind`, `severity`, `reason`, ADR 0014).
+F-04 ranking is still pending.
 
 ## Frontend types
 

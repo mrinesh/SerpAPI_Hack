@@ -57,6 +57,7 @@ def test_verification_stops_at_the_per_run_limit(client, monkeypatch):
         "candidates": len(listings),
         "checked": 3,
         "rejected": event["counts"]["rejected"],
+        "flagged": event["counts"]["flagged"],
         "unchecked": len(listings) - 3,
     }
     assert "limit 3 per run" in event["message"]

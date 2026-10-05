@@ -85,8 +85,15 @@ Candidate ids are stable hashes, so a repeat run updates the same rows and adds 
   value carries confidence and the exact text span it came from.
 - `verify` (LLM reasoning tier, prompt `verify_listing`): 0–100 match score, verdict, matched criteria,
   mismatches, missing data.
-- `flag_listing` (F-12, still pending): too-good-to-be-true (also catches rents quoted as sale prices),
-  missing data. No stale flag: search results carry no posted dates.
+- `price_levels` (`enrichment/price_level.py`, F-05 price level): before checking, one Google
+  search per locality and property type ("flat price per sq ft in Whitefield Bangalore"); DeepSeek
+  lite picks a quoted sale rate and its span, code validates it and takes a range's midpoint.
+  Falls back to the median of ≥ 3 rates quoted in the run; otherwise no benchmark.
+- `flag_listing` (`quality.py`, F-12): `too_good_to_be_true` (high) when the rate is under 40% of
+  the benchmark, which catches rents quoted as sale prices; `missing_price` / `missing_size` (low).
+  A high flag caps the verdict at weak and adds its reason to mismatches. Flags are applied in
+  code, never sent to the verify prompt. No stale flag: search results carry no posted dates.
+  See [ADR 0014](decisions/0014-area-relative-price-flags.md).
 
 Rejected listings stay in the run with rank `null` so the UI can show what was filtered and why.
 

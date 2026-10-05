@@ -52,6 +52,8 @@ environment variables override `.env`.
 | `record` | yes | DB cache **and** `backend/fixtures/` | Capturing demo data to commit |
 
 A request with no fixture in `replay` mode fails with `503 replay_miss`; record it once with a key.
+`record` mode serves an existing fixture before spending anything (SerpApi and DeepSeek alike),
+so re-recording a demo pays only for new requests. Delete a fixture file to refresh it.
 
 ## Commands
 
