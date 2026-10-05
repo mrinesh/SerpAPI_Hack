@@ -23,6 +23,7 @@ def main() -> int:
         from app.db.models import RunRow
         from app.db.session import SessionLocal, engine, init_db
         from app.pipeline.orchestrator import run_pipeline
+        from app.reference.demo_profiles import DEMO_PROFILES
         from app.schemas.profile import InvestorProfileIn
         from app.schemas.run import RunStatus
         from app.services.profiles import create_profile
@@ -32,25 +33,7 @@ def main() -> int:
             print("DEEPSEEK_API_KEY is not configured. Add it to the repo's .env before recording.")
             return 1
         init_db()
-        data = {
-            "name": "Whitefield demo",
-            "segment": "residential",
-            "property_types": ["apartment"],
-            "localities": ["whitefield"],
-            "budget_max_inr": 8_000_000,
-            "goal": "rental_income",
-            "target_roi_pct": 4,
-            "risk_appetite": "balanced",
-        }
-        if args.profile == "commercial":
-            data.update(
-                name="Koramangala office demo",
-                segment="commercial",
-                property_types=["office"],
-                localities=["koramangala"],
-                budget_max_inr=30_000_000,
-                business_type="IT services",
-            )
+        data = DEMO_PROFILES[args.profile]
         try:
             with SessionLocal() as db:
                 profile = create_profile(db, InvestorProfileIn.model_validate(data))

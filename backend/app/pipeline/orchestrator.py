@@ -144,19 +144,31 @@ def run_pipeline(run_id: str) -> None:
                 )
 
             with tracker.stage(PipelineStage.VERIFY) as event:
-                event.counts = {"candidates": len(result.listings), "checked": 0, "rejected": 0}
+                # Discovery order is deterministic, so a capped run checks the same candidates.
+                checking = result.listings[: settings.verify_max_candidates]
+                event.counts = {
+                    "candidates": len(result.listings),
+                    "checked": 0,
+                    "rejected": 0,
+                    "unchecked": len(result.listings) - len(checking),
+                }
                 tracker.replace(event)
-                for listing in result.listings:
+                for listing in checking:
                     extracted = extract(ctx, listing)
                     verification = verify(ctx, extracted)
                     save_verification(db, run_id, extracted, verification)
                     event.counts["checked"] += 1
                     event.counts["rejected"] += int(verification.verdict == "reject")
                     event.message = (
-                        f"Checked {event.counts['checked']} of {len(result.listings)} candidates; "
+                        f"Checked {event.counts['checked']} of {len(checking)} candidates; "
                         f"{event.counts['rejected']} filtered out"
                     )
                     tracker.replace(event)
+                if event.counts["unchecked"]:
+                    event.message += (
+                        f"; {event.counts['unchecked']} more not checked "
+                        f"(limit {settings.verify_max_candidates} per run)"
+                    )
                 if not result.listings:
                     event.message = "No candidates to verify"
 

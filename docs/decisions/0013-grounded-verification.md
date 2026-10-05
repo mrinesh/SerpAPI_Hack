@@ -31,5 +31,10 @@ Repeat runs update shared listings, but old verification must remain tied to the
 
 Hard constraints and extraction grounding are testable without live providers. Free-text
 judgements still need live accuracy validation; existing search data cannot prove missing
-facts. F-03 stays in progress in the checklist until real demo recordings and live acceptance
-are complete. Tests create clearly fake temporary fixtures; none are shipped as live recordings.
+facts. Tests create clearly fake temporary fixtures; none are shipped as live recordings.
+
+**Per-run limit (2026-10-06).** Each candidate costs about two DeepSeek calls and ~30 s, so a
+run checks at most `VERIFY_MAX_CANDIDATES` (default 16) in deterministic discovery order and
+reports the rest as `unchecked`, not failed. This bounds live spend and lets the residential demo
+(28 candidates, 16 recorded) succeed in replay. Unchecked candidates are shown but never ranked
+as verified. Prompt files are read as `utf-8-sig`, because a BOM would change every cache key.

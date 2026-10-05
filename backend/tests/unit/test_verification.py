@@ -7,6 +7,7 @@ import pytest
 
 from app.integrations.llm.base import ModelTier
 from app.pipeline.verification import (
+    PROMPTS,
     ExtractedListing,
     VerificationAssessment,
     _supported_value,
@@ -234,3 +235,12 @@ def test_identity_and_timestamps_do_not_change_prompts():
     first = prompt_for("extract_listing", listing=listing_input(listing))
     listing.last_seen_at = datetime(2027, 1, 1, tzinfo=UTC)
     assert prompt_for("extract_listing", listing=listing_input(listing)) == first
+
+
+def test_prompt_files_have_no_bom_and_prompts_ignore_one(tmp_path, monkeypatch):
+    # A BOM would silently change every prompt and so every LLM cache key and fixture.
+    for path in PROMPTS.glob("*.md"):
+        assert not path.read_bytes().startswith(b"\xef\xbb\xbf"), path.name
+    (tmp_path / "task.md").write_text("\ufeffPrompt", encoding="utf-8")
+    monkeypatch.setattr("app.pipeline.verification.PROMPTS", tmp_path)
+    assert prompt_for("task").startswith("Prompt")

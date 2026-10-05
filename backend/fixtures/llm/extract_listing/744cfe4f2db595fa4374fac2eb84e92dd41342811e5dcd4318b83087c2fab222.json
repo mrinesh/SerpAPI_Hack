@@ -1,0 +1,33 @@
+{
+  "key": "744cfe4f2db595fa4374fac2eb84e92dd41342811e5dcd4318b83087c2fab222",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.5,
+      "evidence": "DivyaSree Republic of Whitefield"
+    },
+    "price_inr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    }
+  }
+}

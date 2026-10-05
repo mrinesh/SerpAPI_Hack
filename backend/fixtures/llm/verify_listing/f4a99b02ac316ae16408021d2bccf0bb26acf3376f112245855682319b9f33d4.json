@@ -1,0 +1,26 @@
+{
+  "key": "f4a99b02ac316ae16408021d2bccf0bb26acf3376f112245855682319b9f33d4",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: asking price ₹69.3 Lac is within ₹80 Lac maximum",
+      "Property type: apartment matches requested apartment",
+      "Segment: residential matches requested residential",
+      "Locality: Whitefield search context matches requested locality, but not confirmed for exact unit"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Unit size (sq ft) not provided; prevents strong verification and budget per sq ft analysis",
+      "Exact address/location within Whitefield not confirmed; locality is query-derived from search page",
+      "Bedroom count not provided",
+      "Rental yield/ROI not available; target ROI of 4% cannot be checked at this stage",
+      "Final unit price should be verified; current price is from a search snippet, not a detailed listing",
+      "Individual listing status not confirmed; source is a search results page snippet"
+    ],
+    "confidence": 0.6
+  }
+}

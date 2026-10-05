@@ -21,6 +21,18 @@ from app.schemas.provenance import ExtractionMethod, Sourced
 
 PROMPTS = Path(__file__).resolve().parents[1] / "integrations" / "llm" / "prompts"
 EXTRACT_FIELDS = ("property_type", "price_inr", "size_sqft", "bedrooms", "status")
+# Gaps in these cap confidence and block a strong verdict.
+CORE_FACTS = (
+    ("price_inr", "Asking price is missing; budget cannot be confirmed."),
+    ("size_sqft", "Property size is missing."),
+    ("property_type", "Property type is missing."),
+    ("locality", "Locality is missing."),
+)
+PRICE_UNCONFIRMED = (
+    "Final unit price is unconfirmed; the quoted price is a range or starting price."
+)
+# Always noted, never a cap: ROI is unknowable until investment metrics exist (F-09).
+ROI_UNVERIFIED = "Target ROI requires investment metrics; it is not verified at this stage."
 
 
 class ExtractedField(BaseModel):
@@ -54,7 +66,8 @@ def listing_input(listing: Listing) -> dict:
 
 
 def prompt_for(task: str, **inputs: object) -> str:
-    prompt = (PROMPTS / f"{task}.md").read_text(encoding="utf-8").strip()
+    # utf-8-sig drops an editor BOM, which would otherwise enter the prompt and the cache key.
+    prompt = (PROMPTS / f"{task}.md").read_text(encoding="utf-8-sig").strip()
     return prompt + "\n\nINPUT JSON:\n" + json.dumps(inputs, sort_keys=True, ensure_ascii=False)
 
 
@@ -214,22 +227,10 @@ def verify(ctx: PipelineContext, listing: Listing) -> Verification:
             hard_mismatches.append("Property size is below the minimum size.")
         if ctx.profile.size_max_sqft is not None and size > ctx.profile.size_max_sqft:
             hard_mismatches.append("Property size exceeds the maximum size.")
-    missing = [
-        label
-        for field, label in (
-            ("price_inr", "Asking price is missing; budget cannot be confirmed."),
-            ("size_sqft", "Property size is missing."),
-            ("property_type", "Property type is missing."),
-            ("locality", "Locality is missing."),
-        )
-        if getattr(listing, field).value is None
-    ]
-    if price_is_bound:
-        missing.append(
-            "Final unit price is unconfirmed; the quoted price is a range or starting price."
-        )
-    missing.append("Target ROI requires investment metrics; it is not verified at this stage.")
-    result.missing_data = list(dict.fromkeys([*result.missing_data, *missing]))
+    gaps = [label for field, label in CORE_FACTS if getattr(listing, field).value is None]
+    uncertain = bool(gaps) or price_is_bound
+    notes = [*gaps, *([PRICE_UNCONFIRMED] if price_is_bound else []), ROI_UNVERIFIED]
+    result.missing_data = list(dict.fromkeys([*result.missing_data, *notes]))
     result.mismatches = list(dict.fromkeys([*result.mismatches, *hard_mismatches]))
     if hard_mismatches:
         result.verdict = MatchVerdict.REJECT
@@ -239,7 +240,7 @@ def verify(ctx: PipelineContext, listing: Listing) -> Verification:
     elif result.verdict is MatchVerdict.REJECT and not result.mismatches:
         # Missing evidence is uncertainty, not a confirmed failure of the criteria.
         result.verdict = MatchVerdict.WEAK
-    if missing[:-1]:
+    if uncertain:
         result.confidence = min(result.confidence, 0.6)
         result.match_score = min(result.match_score, 69)
         if result.verdict is MatchVerdict.STRONG:

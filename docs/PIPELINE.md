@@ -18,9 +18,9 @@ Each stage emits a `StageEvent` (status, message, counts) that the UI polls, so 
 the pipeline working live (F-20). A failing stage marks the run failed without discarding
 earlier results.
 
-> Status: plan, fetch and clean (F-02), and verification (F-03) are implemented. Enrich and rank
-> are reported as "not built yet". Verification needs recorded LLM fixtures in replay mode;
-> live acceptance and demo recordings are pending an available DeepSeek key. Discovery comes from S-01
+> Status: plan, fetch and clean (F-02), and verification (F-03) are built. Enrich and rank are
+> reported as "not built yet". Both demo profiles replay end to end with no keys, from committed
+> SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
 ## 1 · Plan (`query_planner.py`, F-02)
@@ -96,6 +96,10 @@ original sources. No evidence means no extraction call; Maps projects are still 
 Budget, segment, type, locality and requested size violations override the model to reject.
 Missing core facts and range/starting prices cap confidence and prevent a strong verdict.
 ROI is explicitly unverified until F-09. See [ADR 0013](decisions/0013-grounded-verification.md).
+
+At most `VERIFY_MAX_CANDIDATES` (default 16, about 2 DeepSeek calls each) are checked per run,
+in discovery order, which is deterministic. The rest stay visible as "Not AI-checked" and are
+counted as `unchecked`. The residential demo has 28 candidates; recordings cover the first 16.
 
 Each completed check commits independently; progress counts checked and rejected candidates.
 If a provider fails, the run fails with a clear error, while discovery and earlier checks remain

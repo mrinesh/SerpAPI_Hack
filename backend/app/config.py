@@ -8,6 +8,7 @@ from enum import StrEnum
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 BACKEND_DIR = Path(__file__).resolve().parent.parent
@@ -49,6 +50,9 @@ class Settings(BaseSettings):
     deepseek_model_lite: str = "deepseek-v4-pro"
     deepseek_max_tokens: int = 16384  # completion tokens, thinking included; JSON past it is cut
     deepseek_timeout_s: int = 120
+    # Candidates DeepSeek checks per run (about 2 calls each); the rest stay unchecked. The
+    # residential demo has 28 candidates and recordings for the first 16 (ADR 0013).
+    verify_max_candidates: int = Field(default=16, ge=1)
 
     # Market defaults. Bengaluru is the demo market; nothing in the pipeline is city-specific.
     default_city: str = "Bengaluru"

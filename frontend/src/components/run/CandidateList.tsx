@@ -86,7 +86,7 @@ export function CandidateList({ listings, options, verifications }: {
               )}
               {checks.has(listing.id)
                 ? <VerificationSummary verification={checks.get(listing.id)!} />
-                : <p className="mt-2 text-xs text-slate-500">Not yet AI-checked</p>}
+                : <p className="mt-2 text-xs text-slate-500">Not AI-checked</p>}
             </div>
             <div className="text-left sm:text-right">
               {listing.price_inr.value != null && (

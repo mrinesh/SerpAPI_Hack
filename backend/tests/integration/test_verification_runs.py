@@ -3,10 +3,11 @@
 import pytest
 from sqlalchemy import select
 
-from app.config import ProviderMode
+from app.config import ProviderMode, get_settings
 from app.core.errors import UpstreamError
 from app.db.models import ListingRow, RunResultRow
 from app.db.session import SessionLocal
+from app.integrations.llm.deepseek import DeepSeekProvider
 from app.integrations.llm.recorder import RecordingLLM
 from app.pipeline import orchestrator
 from tests.unit.test_profile_schema import RESIDENTIAL
@@ -30,15 +31,35 @@ def test_verifies_and_retains_rejected_candidates(client, monkeypatch):
     assert run["status"] == "succeeded", run
     listings = client.get(f"/api/runs/{run_id}/listings").json()
     verifications = client.get(f"/api/runs/{run_id}/verifications").json()
-    assert {v["listing_id"] for v in verifications} == {listing["id"] for listing in listings}
+    limit = get_settings().verify_max_candidates
+    assert len(verifications) == min(limit, len(listings))
+    assert {v["listing_id"] for v in verifications} <= {listing["id"] for listing in listings}
     rejects = [v for v in verifications if v["verdict"] == "reject"]
     assert rejects and all(v["mismatches"] for v in rejects)
     checked = next(event for event in run["events"] if event["stage"] == "verify")
-    assert checked["counts"]["checked"] == len(listings)
+    assert checked["counts"]["checked"] == len(verifications)
+    assert checked["counts"]["unchecked"] == len(listings) - len(verifications)
     assert checked["counts"]["rejected"] == len(rejects)
     with SessionLocal() as db:
         rows = db.scalars(select(RunResultRow).where(RunResultRow.run_id == run_id)).all()
         assert len(rows) == len(listings) and all(row.rank is None for row in rows)
+
+
+def test_verification_stops_at_the_per_run_limit(client, monkeypatch):
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    monkeypatch.setattr(get_settings(), "verify_max_candidates", 3)
+    run_id, run = start(client)
+    assert run["status"] == "succeeded", run
+    listings = client.get(f"/api/runs/{run_id}/listings").json()
+    assert len(client.get(f"/api/runs/{run_id}/verifications").json()) == 3
+    event = next(event for event in run["events"] if event["stage"] == "verify")
+    assert event["counts"] == {
+        "candidates": len(listings),
+        "checked": 3,
+        "rejected": event["counts"]["rejected"],
+        "unchecked": len(listings) - 3,
+    }
+    assert "limit 3 per run" in event["message"]
 
 
 def test_second_candidate_failure_preserves_first_check_and_all_discovery(client, monkeypatch):
@@ -99,7 +120,15 @@ def test_run_snapshot_does_not_change_with_shared_listing(client, monkeypatch):
     assert client.get(f"/api/runs/{run_id}/listings").json() == original
 
 
-def test_missing_llm_fixture_fails_clearly_and_keeps_discovery(client):
+def test_missing_llm_fixture_fails_clearly_and_keeps_discovery(client, monkeypatch, tmp_path):
+    # An empty fixture dir: the committed demo recordings would otherwise answer this profile.
+    monkeypatch.setattr(
+        orchestrator,
+        "get_llm",
+        lambda settings, db: RecordingLLM(
+            DeepSeekProvider(settings), ProviderMode.REPLAY, tmp_path, db
+        ),
+    )
     run_id, run = start(client)
     assert run["status"] == "failed"
     assert "No recorded LLM response" in run["error"]

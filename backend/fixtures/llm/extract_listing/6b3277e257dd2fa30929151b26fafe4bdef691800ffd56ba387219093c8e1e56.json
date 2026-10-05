@@ -1,0 +1,33 @@
+{
+  "key": "6b3277e257dd2fa30929151b26fafe4bdef691800ffd56ba387219093c8e1e56",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "price_inr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    }
+  }
+}

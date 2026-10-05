@@ -2,7 +2,8 @@
 
 Responses recorded in `record` mode and served in `replay` mode, so the app (and the judges)
 can run recorded stages with no SerpApi or DeepSeek key and no search credits. S-01 search
-fixtures are committed; real F-03 LLM recordings are still pending an available DeepSeek key.
+fixtures are committed, as are live F-03 DeepSeek recordings for both demo profiles
+(`app/reference/demo_profiles.py`): the first 16 residential candidates and all 6 commercial ones.
 
 - `serpapi/<engine>/<cache_key>.json`: `{"engine", "params", "response"}`, where `response` is the
   raw SerpApi JSON. `cache_key` comes from `app/integrations/serpapi/gateway.py::cache_key` and

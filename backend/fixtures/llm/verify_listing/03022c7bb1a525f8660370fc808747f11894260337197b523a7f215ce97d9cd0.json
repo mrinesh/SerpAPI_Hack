@@ -1,0 +1,25 @@
+{
+  "key": "03022c7bb1a525f8660370fc808747f11894260337197b523a7f215ce97d9cd0",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 70,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: asking price ₹1.15 Cr within investor max ₹3 Cr",
+      "Property type: office",
+      "Segment: commercial",
+      "Locality: Koramangala (snippet says 1st Block Koramangala; query-derived, treat as search context)"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Rental income or rental yield evidence not present; target ROI 4% cannot be confirmed",
+      "Asking price and area are regex-extracted from a search snippet, not verified against a full listing page",
+      "Locality is query-derived (searched for Koramangala) and may include nearby areas",
+      "Business type 'IT services' is not confirmed by candidate evidence",
+      "Risk appetite 'balanced' is investor preference, not candidate property data"
+    ],
+    "confidence": 0.7
+  }
+}

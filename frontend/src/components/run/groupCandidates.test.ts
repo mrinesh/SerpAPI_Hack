@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 import type { Listing, Verification } from "../../api/types";
 import { groupCandidates } from "./groupCandidates";
 

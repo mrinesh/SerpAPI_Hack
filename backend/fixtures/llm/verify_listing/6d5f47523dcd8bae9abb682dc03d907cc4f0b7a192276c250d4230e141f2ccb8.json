@@ -1,0 +1,23 @@
+{
+  "key": "6d5f47523dcd8bae9abb682dc03d907cc4f0b7a192276c250d4230e141f2ccb8",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality matches requested Whitefield: search query and evidence address mention Whitefield Village, Bengaluru.",
+      "Property type aligns with requested apartment: Google Maps categorizes it as an apartment complex.",
+      "Segment aligns: candidate is residential, matching requested residential segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "No asking price or price range in candidate evidence; cannot verify budget_max_inr of 8,000,000 INR.",
+      "No unit size or area provided; size requirement cannot be checked (profile has no size range, but candidate lacks size evidence).",
+      "Locality and property type are query-derived from a Google Maps search and have moderate confidence; this is a project placeholder, not a verified individual priced unit.",
+      "Rental income goal, 4% target ROI, and balanced risk appetite are investor preferences, not evidence about this property's actual returns or risk."
+    ],
+    "confidence": 0.55
+  }
+}

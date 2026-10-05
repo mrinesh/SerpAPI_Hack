@@ -1,0 +1,24 @@
+{
+  "key": "620ef70fe06ac93433d31985ea5036b6820378fdac9559021ba6a9ab6588e0a4",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 60,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Property type is reported as apartment, matching the requested property type.",
+      "Locality/address is in Whitefield, matching the requested locality (query-derived, medium confidence).",
+      "Segment is residential, matching the requested segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is unavailable; cannot verify budget_max_inr of 8,000,000.",
+      "Unit size is unavailable; final unit size is unknown, though the profile does not specify size constraints.",
+      "Rental yield / target ROI of 4.0% cannot be confirmed at this stage.",
+      "Locality and property type are query-derived from Google Maps search context, not a verified individual unit listing.",
+      "This is a Maps project, not a priced unit; no final price or unit inventory evidence is available."
+    ],
+    "confidence": 0.6
+  }
+}
