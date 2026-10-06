@@ -137,7 +137,10 @@ once per locality of the rankable candidates, cached in `area_intel` for `AREA_I
 Amenities are kept by Maps place type, with distances computed in code. The rank stage turns them
 into the `area` score (metro, schools and hospitals within 3 km), measured from the listing's
 coordinates when it has them, else the centre. Growth is stored for F-09, not scored here.
-Any provider error leaves that part empty; enrichment never fails a run.
+A provider error never fails a run, but it is never silent: each section records `ok`, `empty`
+or `failed` with the error in `warnings`, a failed section makes the area expire at once so the
+next run retries, and a cached area is reused only when it matches the current schema version
+and provider modes ([ADR 0019](decisions/0019-visible-failures-validated-cache-withheld-metrics.md)).
 
 **Competitors** (commercial only): google_maps `"{business_type}"` near the property →
 density, ratings, review volume, saturation. P1: google_maps_reviews for the top competitors →
@@ -154,7 +157,7 @@ least 3 ([ADR 0017](decisions/0017-investment-metrics-and-roi-score.md)). Cached
 |---|---|
 | Price per sq ft | price / size |
 | vs area average | (price per sq ft / locality average − 1) × 100 |
-| Rental yield | area rent per sq ft per month × 12 / price per sq ft × 100, before any costs; none for a price flagged too good to be true |
+| Rental yield | area rent per sq ft per month × 12 / price per sq ft × 100, before any costs; withheld for a price flagged too good to be true or a starting / range price (ADR 0019) |
 | Price growth | investor's override if set, else the locality's past-12-month change in price per sq ft |
 | Total return | rental yield + price growth |
 | Meets target | the goal's measure ≥ `target_roi_pct` (rental income → yield, appreciation → growth, balanced → total) |

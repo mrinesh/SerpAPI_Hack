@@ -42,6 +42,10 @@ an unchecked candidate has no verification yet. Both endpoints return 404 for an
 `verify` stage counts contain `candidates`, `checked`, `rejected`, `flagged` (too good to be true)
 and `unchecked` (candidates past `VERIFY_MAX_CANDIDATES`, default 16, which have no verification).
 Each `Verification.flags` entry is a `QualityFlag` (`kind`, `severity`, `reason`, ADR 0014).
+`AreaIntel.section_status` / `warnings` say which area sections failed and why; enrich stage
+counts add `area_warnings`. `InvestmentMetrics.target_roi_pct` is the target the verdict used,
+and `assessment_note` explains a missing verdict (ADR 0019). A corrupt cached area makes
+`GET /areas/{key}` return 500 `internal_error` with `details.operation = "area_cache_read"`.
 `rank` stage counts contain `ranked` and `explained` (AI reasons that passed the number check).
 
 ## Frontend types

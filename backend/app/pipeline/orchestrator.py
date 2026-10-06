@@ -198,7 +198,7 @@ def run_pipeline(run_id: str) -> None:
                 )
                 areas = {}
                 notes = []
-                event.counts = {"localities": len(localities), "from_cache": 0}
+                event.counts = {"localities": len(localities), "from_cache": 0, "area_warnings": 0}
                 for slug in localities:
                     local_levels = {t: lvl for (loc, t), lvl in levels.items() if loc == slug}
                     area, cached = get_area_intel(
@@ -206,6 +206,7 @@ def run_pipeline(run_id: str) -> None:
                     )
                     areas[slug] = area
                     event.counts["from_cache"] += int(cached)
+                    event.counts["area_warnings"] += len(area.warnings)
                     notes.append(_area_note(area, cached))
                     event.message = "; ".join(notes)
                     tracker.replace(event)
@@ -361,6 +362,9 @@ def _area_note(area, cached: bool) -> str:
         parts.append(f"growth {area.price_growth_pct.value:g}% (past 12 months)")
     for kind, rent in sorted(area.rent_levels.items()):
         parts.append(f"{kind} rent ₹{rent.value:g}/sq ft/month")
+    if area.warnings:
+        failed = ", ".join(f"{w.section} ({w.code})" for w in area.warnings)
+        parts.append(f"{len(area.warnings)} section(s) could not be loaded: {failed}")
     return f"{area.locality}: {', '.join(parts)}" + (" (cached)" if cached else "")
 
 

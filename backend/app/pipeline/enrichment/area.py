@@ -7,15 +7,21 @@ in that locality reuses it. Five searches per new locality (recorded in F-05):
 - google "<locality> Bangalore property price trend year on year" -> past-12-month growth
 Distances are computed in code. DeepSeek lite reads the growth figure from one quoted snippet
 (validated in code) and writes the summaries, which may quote only the figures they are given.
-Any provider error leaves that part empty; enrichment never fails a run.
+A provider error never fails a run, but it is never silent either (ADR 0019): the section is
+marked failed with the error in `warnings`, and the area expires at once so the next run
+retries. A cached area is reused only if it parses and matches the current schema version and
+provider modes.
 News and Google Trends demand are not collected yet.
 """
 
+import logging
 import math
 import re
+from collections.abc import Callable
 from datetime import UTC, datetime, timedelta
+from typing import TypeVar
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ValidationError
 
 from app.config import Settings
 from app.core.errors import AppError
@@ -29,10 +35,14 @@ from app.pipeline.enrichment.rent_level import rent_level
 from app.pipeline.grounding import allowed_numbers, grounded
 from app.pipeline.verification import prompt_for
 from app.reference import Market
-from app.schemas.area import Amenity, AmenityCategory, AreaAccess, AreaIntel
+from app.schemas.area import Amenity, AmenityCategory, AreaAccess, AreaIntel, AreaIssue
 from app.schemas.common import GeoPoint, SerpEngine
 from app.schemas.profile import PropertyType
 from app.schemas.provenance import ExtractionMethod, Sourced, SourceRef
+
+log = logging.getLogger(__name__)
+T = TypeVar("T")
+AREA_SCHEMA_VERSION = 2  # bump when AreaIntel's meaning changes, so cached areas are rebuilt
 
 AMENITY_QUERIES: dict[AmenityCategory, str] = {
     AmenityCategory.METRO: "metro station",
@@ -321,25 +331,67 @@ def code_summary(
     return " ".join(parts) or f"Little area data was found for {name}.", infra
 
 
+class Sections:
+    """Runs each part of an area, recording "ok", "empty" or "failed" with the error, so a
+    provider failure is visible instead of looking like missing data (ADR 0019)."""
+
+    def __init__(self, area: AreaIntel) -> None:
+        self.area = area
+
+    def run(self, name: str, provider: str, action: Callable[[], T]) -> T | None:
+        self.area.warnings = [w for w in self.area.warnings if w.section != name]
+        try:
+            value = action()
+        except AppError as exc:
+            log.warning(
+                "area section failed locality=%s section=%s provider=%s code=%s",
+                self.area.locality_key,
+                name,
+                provider,
+                exc.code,
+            )
+            self.area.warnings.append(
+                AreaIssue(section=name, provider=provider, code=exc.code, message=exc.message)
+            )
+            self.area.section_status[name] = "failed"
+            return None
+        self.area.section_status[name] = "ok" if value else "empty"
+        return value
+
+    @property
+    def failed(self) -> bool:
+        return "failed" in self.area.section_status.values()
+
+
 def _summarize(
     ctx: PipelineContext,
     name: str,
     amenities: list[Amenity],
     growth: Sourced[float] | None,
     centre_access: AreaAccess | None,
+    sections: Sections | None = None,
 ) -> tuple[str, str, bool]:
     fallback = code_summary(name, amenities, growth, centre_access)
     if not amenities and growth is None:
         return (*fallback, False)
     figures = summary_figures(name, amenities, growth, centre_access)
-    try:
-        written = ctx.llm.generate_structured(
+
+    def write() -> AreaSummary:
+        return ctx.llm.generate_structured(
             task="summarize_area",
             prompt=prompt_for("summarize_area", figures=figures),
             schema=AreaSummary,
             tier=ModelTier.LITE,
         )
-    except AppError:
+
+    if sections is not None:
+        written = sections.run("summary", "deepseek", write)
+    else:
+        try:
+            written = write()
+        except AppError:
+            written = None
+    if written is None:
         return (*fallback, False)
     allowed = allowed_numbers(figures)
     if all(
@@ -354,16 +406,12 @@ def _summarize(
 
 
 def _search(ctx: PipelineContext, call: EngineCall):
-    try:
-        return ctx.serp.search(*call, run_id=ctx.run_id)
-    except AppError:
-        return None
+    """Raises AppError on any provider failure; callers record it as a failed section."""
+    return ctx.serp.search(*call, run_id=ctx.run_id)
 
 
 def _growth(ctx: PipelineContext, name: str, market: Market) -> Sourced[float] | None:
     response = _search(ctx, growth_call(name, market, ctx.settings))
-    if response is None:
-        return None
     results = [
         {"index": i, "title": r.get("title"), "link": r.get("link"), "snippet": snippet}
         for i, r in enumerate(response.data.get("organic_results", [])[:MAX_GROWTH_RESULTS])
@@ -371,15 +419,12 @@ def _growth(ctx: PipelineContext, name: str, market: Market) -> Sourced[float] |
     ]
     if not results:
         return None
-    try:
-        extract = ctx.llm.generate_structured(
-            task="extract_price_growth",
-            prompt=prompt_for("extract_price_growth", locality=name, results=results),
-            schema=PriceGrowthExtract,
-            tier=ModelTier.LITE,
-        )
-    except AppError:
-        return None
+    extract = ctx.llm.generate_structured(
+        task="extract_price_growth",
+        prompt=prompt_for("extract_price_growth", locality=name, results=results),
+        schema=PriceGrowthExtract,
+        tier=ModelTier.LITE,
+    )
     chosen = next((r for r in results if r["index"] == extract.result_index), None)
     pct = supported_growth(extract, chosen["snippet"]) if chosen else None
     if pct is None:
@@ -400,33 +445,72 @@ def _growth(ctx: PipelineContext, name: str, market: Market) -> Sourced[float] |
     )
 
 
+def provider_modes(settings: Settings) -> dict[str, str]:
+    return {"serpapi": str(settings.serpapi_mode), "llm": str(settings.llm_mode)}
+
+
 def build_area_intel(ctx: PipelineContext, market: Market, slug: str) -> AreaIntel:
     place = market.locality(slug)
     name = place.name if place else slug.replace("-", " ").title()
-    geocoded = _search(ctx, geocode_call(name, market, ctx.settings))
-    centre = parse_centre(geocoded.data, market) if geocoded else None
-    amenities: list[Amenity] = []
-    if centre is not None:
-        for category in AMENITY_QUERIES:
-            response = _search(ctx, amenity_call(category, centre, ctx.settings))
-            if response is not None:
-                amenities += parse_amenities(response.data, category, centre, response.search_id)
-    growth = _growth(ctx, name, market)
     now = datetime.now(UTC)
     area = AreaIntel(
         locality_key=locality_key(name, market.city),
         locality=name,
         city=market.city,
-        center=centre,
-        amenities=amenities,
-        price_growth_pct=growth,
+        schema_version=AREA_SCHEMA_VERSION,
+        provider_modes=provider_modes(ctx.settings),
         fetched_at=now,
         expires_at=now + timedelta(hours=ctx.settings.area_intel_ttl_hours),
     )
-    centre_access = access_from(centre, area, "locality centre") if centre and amenities else None
-    area.summary, area.infrastructure_summary, area.summary_by_ai = _summarize(
-        ctx, name, amenities, growth, centre_access
+    sections = Sections(area)
+    area.center = sections.run(
+        "centre",
+        "serpapi",
+        lambda: parse_centre(_search(ctx, geocode_call(name, market, ctx.settings)).data, market),
     )
+    if area.center is not None:
+        for category in AMENITY_QUERIES:
+
+            def nearby(category: AmenityCategory = category) -> list[Amenity]:
+                response = _search(ctx, amenity_call(category, area.center, ctx.settings))
+                return parse_amenities(response.data, category, area.center, response.search_id)
+
+            area.amenities += sections.run(str(category), "serpapi", nearby) or []
+    area.price_growth_pct = sections.run(
+        "growth", "serpapi+deepseek", lambda: _growth(ctx, name, market)
+    )
+    centre_access = (
+        access_from(area.center, area, "locality centre")
+        if area.center and area.amenities
+        else None
+    )
+    area.summary, area.infrastructure_summary, area.summary_by_ai = _summarize(
+        ctx, name, area.amenities, area.price_growth_pct, centre_access, sections
+    )
+    if sections.failed:
+        area.expires_at = area.fetched_at  # keep it to inspect, but retry on the next run
+    return area
+
+
+def read_cached(row: AreaIntelRow | None, settings: Settings) -> AreaIntel | None:
+    """The cached area when it is still valid for the running code and providers, else None."""
+    if row is None:
+        return None
+    expires = row.expires_at.replace(tzinfo=row.expires_at.tzinfo or UTC)
+    if expires <= datetime.now(UTC):
+        return None
+    try:
+        area = AreaIntel.model_validate(row.data)
+    except ValidationError:
+        log.warning("area cache unreadable locality=%s; rebuilding", row.locality_key)
+        return None
+    if area.schema_version != AREA_SCHEMA_VERSION or area.provider_modes != provider_modes(
+        settings
+    ):
+        log.info(
+            "area cache from other code or providers locality=%s; rebuilding", row.locality_key
+        )
+        return None
     return area
 
 
@@ -443,14 +527,23 @@ def get_area_intel(
     place = market.locality(slug)
     key = locality_key(place.name if place else slug, market.city)
     row = ctx.db.get(AreaIntelRow, key)
-    expires = row.expires_at.replace(tzinfo=row.expires_at.tzinfo or UTC) if row else None
-    cached = row is not None and expires > datetime.now(UTC)
-    area = AreaIntel.model_validate(row.data) if cached else build_area_intel(ctx, market, slug)
+    area = read_cached(row, ctx.settings)
+    cached = area is not None
+    log.info("area cache %s locality=%s", "hit" if cached else "miss", key)
+    if area is None:
+        area = build_area_intel(ctx, market, slug)
     merged = {**area.price_levels, **(levels or {})}
     area.price_levels = {PropertyType(kind): level for kind, level in merged.items()}
+    sections = Sections(area)
     for kind in sorted(types or set()):
         if PropertyType(kind) not in area.rent_levels:
-            found = rent_level(ctx, market, area.locality, PropertyType(kind))
+            # Missing rent is fetched on every run (cheap once cached), so its failure does not
+            # need to expire the rest of the area.
+            found = sections.run(
+                f"rent:{kind}",
+                "serpapi+deepseek",
+                lambda kind=kind: rent_level(ctx, market, area.locality, PropertyType(kind)),
+            )
             if found is not None:
                 area.rent_levels[PropertyType(kind)] = found
     if row is None:
@@ -465,9 +558,10 @@ def get_area_intel(
 def long_run_growth(ctx: PipelineContext, name: str, market: Market) -> Sourced[float] | None:
     """Average yearly price change over several years, from the growth search's results (used
     for suggested targets, ADR 0018). Reuses the F-05 search, so it adds one lite call."""
-    response = _search(ctx, growth_call(name, market, ctx.settings))
-    if response is None:
-        return None
+    try:
+        response = _search(ctx, growth_call(name, market, ctx.settings))
+    except AppError:
+        return None  # a suggestion never fails; the target field simply stays empty
     results = [
         {"index": i, "title": r.get("title"), "link": r.get("link"), "snippet": snippet}
         for i, r in enumerate(response.data.get("organic_results", [])[:MAX_GROWTH_RESULTS])

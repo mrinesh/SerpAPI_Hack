@@ -20,3 +20,6 @@ class InvestmentMetrics(BaseModel):
     total_return_pct: Sourced[float]  # rental yield + price growth
     roi_measure: ROIMeasure  # which of the three the profile's target ROI is compared against
     meets_target_roi: bool | None = None  # None when the measured value is missing
+    # Frozen at computation, so editing the profile later does not change an old verdict.
+    target_roi_pct: float | None = None
+    assessment_note: str | None = None  # why there is no verdict, when there is none (ADR 0019)

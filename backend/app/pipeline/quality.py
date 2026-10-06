@@ -9,11 +9,21 @@ Duplicates are merged in cleaning, so they need no flag. There is no "stale" fla
 results carry no posted dates (S-01).
 """
 
+import re
+
 from app.schemas.common import Level
 from app.schemas.listing import Listing, QualityFlag, QualityFlagKind
 from app.schemas.provenance import ExtractionMethod, Sourced
 
 TOO_LOW_SHARE = 0.4  # a sale rate under 40% of the area's level is implausible (ADR 0014)
+
+
+_BOUND = re.compile(r"range|starting price|lower bound", re.I)
+
+
+def price_is_bound(listing: Listing) -> bool:
+    """True when the quote is a range or a starting price, not a final unit price."""
+    return bool(listing.price_inr.note and _BOUND.search(listing.price_inr.note))
 
 
 def listing_rate(listing: Listing) -> float | None:

@@ -94,7 +94,8 @@ def test_a_price_flagged_as_implausible_gets_no_yield():
     listing.price_inr.value, listing.size_sqft.value = 360_000, 4_800  # ₹75/sq ft
     found = metrics(listing, flags=[flag])
     assert found.rental_yield_pct.value is None
-    assert "implausible" in found.rental_yield_pct.note
+    assert "implausibly low" in found.rental_yield_pct.note
+    assert found.assessment_note.startswith("No target check: the price looks implausibly low")
 
 
 def test_the_investors_growth_beats_the_area_figure():
@@ -216,3 +217,53 @@ def test_rent_level_is_the_median_of_at_least_three_checked_pairs():
     rate, used, checked = median_rate(RentExtract(pairs=pairs, confidence=0.8), results)
     assert (rate, checked, len(used)) == (40.0, 3, 3)
     assert median_rate(RentExtract(pairs=pairs[:2], confidence=0.8), results) is None
+
+
+@pytest.mark.parametrize("note", ["starting price", "price range; lower bound used"])
+def test_a_starting_price_or_range_withholds_price_dependent_metrics(note):
+    listing = candidate()
+    listing.price_inr.note = note
+    found = metrics(listing)
+    assert found.price_vs_area_pct.value is None
+    assert found.rental_yield_pct.value is None and found.total_return_pct.value is None
+    assert "unconfirmed" in found.rental_yield_pct.note
+    assert found.meets_target_roi is None
+    assert found.assessment_note == (
+        "No target check: the final unit price is unconfirmed (a range or starting price)."
+    )
+    assert found.price_growth_pct.value == 29  # growth does not depend on the price
+
+
+def test_an_appreciation_verdict_does_not_depend_on_an_unconfirmed_price():
+    listing = candidate()
+    listing.price_inr.note = "starting price"
+    found = metrics(listing, goal="appreciation", target_roi_pct=20)
+    assert found.meets_target_roi is True and found.assessment_note is None
+
+
+def test_the_target_is_frozen_into_the_metrics():
+    assert metrics(target_roi_pct=3.5).target_roi_pct == 3.5
+
+
+@pytest.mark.parametrize(
+    ("kwargs", "note"),
+    [
+        ({"rent": None}, "No target check: missing an area rent level."),
+        (
+            {"rent": None, "growth": None, "goal": "balanced"},
+            "No target check: missing an area rent level and a price growth figure for this "
+            "locality.",
+        ),
+        (
+            {"growth": None, "goal": "appreciation"},
+            "No target check: missing a price growth figure for this locality.",
+        ),
+    ],
+)
+def test_missing_inputs_explain_the_missing_verdict(kwargs, note):
+    found = metrics(**kwargs)
+    assert found.meets_target_roi is None and found.assessment_note == note
+
+
+def test_a_verdict_has_no_assessment_note():
+    assert metrics().assessment_note is None

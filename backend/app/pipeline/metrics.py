@@ -18,7 +18,7 @@ There is no net yield or cap rate: both need cost assumptions (vacancy, maintena
 operating costs) that we would have to source (docs/decisions/0010-roi-definition.md).
 """
 
-from app.pipeline.quality import listing_rate
+from app.pipeline.quality import listing_rate, price_is_bound
 from app.schemas.listing import Listing, QualityFlagKind, Verification
 from app.schemas.metrics import InvestmentMetrics
 from app.schemas.profile import GOAL_MEASURE, InvestorProfile, ROIMeasure
@@ -56,10 +56,18 @@ def compute_metrics(
     suspicious = verification is not None and any(
         flag.kind is QualityFlagKind.TOO_GOOD_TO_BE_TRUE for flag in verification.flags
     )
+    # Price-dependent figures are withheld when the price itself cannot be trusted (ADR 0019).
+    blocked = (
+        "the price looks implausibly low for the area (likely a rent or a data error)"
+        if suspicious
+        else "the final unit price is unconfirmed (a range or starting price)"
+        if price_is_bound(listing)
+        else None
+    )
 
-    vs_area = (rate / level - 1) * 100 if rate and level else None
+    vs_area = (rate / level - 1) * 100 if rate and level and not blocked else None
     monthly_rent = rent * listing.size_sqft.value if rent and listing.size_sqft.value else None
-    rental_yield = rent * 12 / rate * 100 if rent and rate and not suspicious else None
+    rental_yield = rent * 12 / rate * 100 if rent and rate and not blocked else None
 
     if profile.expected_growth_pct is not None:
         growth = Sourced(
@@ -82,7 +90,11 @@ def compute_metrics(
     metrics = InvestmentMetrics(
         price_per_sqft=_computed(rate, "quoted rate, else price ÷ size", rate_source),
         area_avg_price_per_sqft=_computed(level, "locality price level", price_level),
-        price_vs_area_pct=_computed(vs_area, "price per sq ft vs the area level", price_level),
+        price_vs_area_pct=_computed(
+            vs_area,
+            "price per sq ft vs the area level" + (f"; not computed: {blocked}" if blocked else ""),
+            price_level,
+        ),
         est_monthly_rent_inr=Sourced(
             value=round(monthly_rent) if monthly_rent is not None else None,
             confidence=rent_level.confidence if monthly_rent is not None and rent_level else 0.0,
@@ -93,17 +105,42 @@ def compute_metrics(
         rental_yield_pct=_computed(
             rental_yield,
             "annual area rent ÷ price, before costs"
-            + ("; not computed for a price flagged as implausible" if suspicious else ""),
+            + (f"; not computed: {blocked}" if blocked else ""),
             rent_level,
             price_level if rate is None else None,
         ),
         price_growth_pct=growth,
         total_return_pct=_computed(total, "rental yield + price growth", rent_level, growth),
         roi_measure=GOAL_MEASURE[profile.goal],
+        target_roi_pct=profile.target_roi_pct,
     )
     measured = measure_value(metrics)
     metrics.meets_target_roi = None if measured is None else measured >= profile.target_roi_pct
+    metrics.assessment_note = _assessment_note(metrics, blocked, rent, rate, growth)
     return metrics
+
+
+def _assessment_note(
+    metrics: InvestmentMetrics,
+    blocked: str | None,
+    rent: float | None,
+    rate: float | None,
+    growth: Sourced,
+) -> str | None:
+    """Why the target has no verdict, in plain words; None when it has one."""
+    if metrics.meets_target_roi is not None:
+        return None
+    needs_price = metrics.roi_measure is not ROIMeasure.PRICE_GROWTH
+    if needs_price and blocked:
+        return f"No target check: {blocked}."
+    missing = []
+    if needs_price and not rate:
+        missing.append("a price per sq ft for this listing")
+    if needs_price and not rent:
+        missing.append("an area rent level")
+    if metrics.roi_measure is not ROIMeasure.RENTAL_YIELD and growth.value is None:
+        missing.append("a price growth figure for this locality")
+    return "No target check: missing " + " and ".join(missing) + "." if missing else None
 
 
 def measure_value(metrics: InvestmentMetrics) -> float | None:

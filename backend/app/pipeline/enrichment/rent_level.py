@@ -14,7 +14,6 @@ import statistics
 from pydantic import BaseModel, Field
 
 from app.config import Settings
-from app.core.errors import AppError
 from app.integrations.llm.base import ModelTier
 from app.integrations.serpapi import engines
 from app.integrations.serpapi.engines import EngineCall
@@ -111,30 +110,29 @@ def median_rate(extract: RentExtract, results: list[dict]) -> tuple[float, list[
 def rent_level(
     ctx: PipelineContext, market: Market, name: str, property_type: PropertyType
 ) -> Sourced[float] | None:
-    try:
-        response = ctx.serp.search(
-            *rent_call(name, property_type, market, ctx.settings), run_id=ctx.run_id
-        )
-        results = [
-            {"index": i, "title": r.get("title"), "link": r.get("link"), "snippet": snippet}
-            for i, r in enumerate(response.data.get("organic_results", [])[:MAX_RESULTS])
-            if (snippet := r.get("snippet"))
-        ]
-        if not results:
-            return None
-        extract = ctx.llm.generate_structured(
-            task="extract_rent",
-            prompt=prompt_for(
-                "extract_rent",
-                locality=name,
-                property_type=QUERY_WORDS[property_type],
-                results=results,
-            ),
-            schema=RentExtract,
-            tier=ModelTier.LITE,
-        )
-    except AppError:
-        return None  # a missing recording or a provider error means no rent level
+    """None when the results hold too few checked pairs; raises AppError when a provider fails,
+    so the caller can record the failure (ADR 0019)."""
+    response = ctx.serp.search(
+        *rent_call(name, property_type, market, ctx.settings), run_id=ctx.run_id
+    )
+    results = [
+        {"index": i, "title": r.get("title"), "link": r.get("link"), "snippet": snippet}
+        for i, r in enumerate(response.data.get("organic_results", [])[:MAX_RESULTS])
+        if (snippet := r.get("snippet"))
+    ]
+    if not results:
+        return None
+    extract = ctx.llm.generate_structured(
+        task="extract_rent",
+        prompt=prompt_for(
+            "extract_rent",
+            locality=name,
+            property_type=QUERY_WORDS[property_type],
+            results=results,
+        ),
+        schema=RentExtract,
+        tier=ModelTier.LITE,
+    )
     found = median_rate(extract, results)
     if found is None:
         return None

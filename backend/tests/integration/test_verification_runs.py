@@ -4,7 +4,7 @@ import pytest
 from sqlalchemy import select
 
 from app.config import ProviderMode, get_settings
-from app.core.errors import UpstreamError
+from app.core.errors import ReplayMiss, UpstreamError
 from app.db.models import ListingRow, RunResultRow
 from app.db.session import SessionLocal
 from app.integrations.llm.deepseek import DeepSeekProvider
@@ -201,7 +201,11 @@ def test_missing_area_data_leaves_the_area_score_empty_but_the_run_succeeds(clie
     from app.pipeline.enrichment import area as area_module
 
     monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
-    monkeypatch.setattr(area_module, "_search", lambda *_: None)
+
+    def fail(*_args):
+        raise ReplayMiss("No recorded google_maps response")
+
+    monkeypatch.setattr(area_module, "_search", fail)
     run_id, run = start(client)
     assert run["status"] == "succeeded", run
     recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
@@ -228,3 +232,44 @@ def test_missing_rent_leaves_roi_empty_but_the_run_succeeds(client, monkeypatch)
         assert r["score_breakdown"]["roi"] is None
         assert r["metrics"]["rental_yield_pct"]["value"] is None
         assert r["metrics"]["meets_target_roi"] is None
+
+
+def test_an_area_section_failure_is_reported_not_hidden(client, monkeypatch):
+    from app.pipeline.enrichment import area as area_module
+
+    real = area_module._growth
+
+    def no_growth(*_args):
+        raise ReplayMiss("No recorded google response for the growth search")
+
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    monkeypatch.setattr(area_module, "_growth", no_growth)
+    run_id, run = start(client)
+    assert run["status"] == "succeeded", run
+    [area] = client.get(f"/api/runs/{run_id}/areas").json()
+    assert area["section_status"]["growth"] == "failed"
+    assert area["section_status"]["metro"] == "ok"
+    [warning] = area["warnings"]
+    assert (warning["section"], warning["code"]) == ("growth", "replay_miss")
+    assert area["expires_at"] == area["fetched_at"]
+    event = next(e for e in run["events"] if e["stage"] == "enrich")
+    assert event["counts"]["area_warnings"] == 1
+    assert "growth (replay_miss)" in event["message"]
+    # The next run retries the failed section instead of serving the partial area.
+    monkeypatch.setattr(area_module, "_growth", real)
+    _, again = start(client)
+    assert next(e for e in again["events"] if e["stage"] == "enrich")["counts"]["from_cache"] == 0
+
+
+def test_a_corrupt_cached_area_gives_a_clear_error(client, monkeypatch):
+    from app.db.models import AreaIntelRow
+
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    start(client)
+    with SessionLocal() as db:
+        row = db.get(AreaIntelRow, "bengaluru/whitefield")
+        row.data = {**row.data, "center": "not a point"}
+        db.commit()
+    response = client.get("/api/areas/bengaluru/whitefield")
+    assert response.status_code == 500
+    assert response.json()["error"]["details"]["operation"] == "area_cache_read"

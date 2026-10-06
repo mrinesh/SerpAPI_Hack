@@ -1,5 +1,5 @@
 import type { AreaIntel, PropertyType } from "../../api/types";
-import { nearestByCategory } from "./areaText";
+import { areaWarnings, nearestByCategory } from "./areaText";
 
 /** F-05: one card per locality of the ranked candidates. Distances are computed in code; the
  * summary is AI-written only when every number in it was checked (ADR 0016). */
@@ -29,6 +29,14 @@ function AreaCard({ area, typeLabel }: { area: AreaIntel; typeLabel: (value: Pro
           </span>
         )}
       </header>
+      {areaWarnings(area).length > 0 && (
+        <div className="rounded-md border border-amber-200 bg-amber-50 p-2 text-xs text-amber-800">
+          <p className="font-medium">Some area data could not be loaded; it will be retried on the next search.</p>
+          <ul className="list-disc pl-4">
+            {areaWarnings(area).map((line) => <li key={line}>{line}</li>)}
+          </ul>
+        </div>
+      )}
       {area.summary && <p className="text-slate-700">{area.summary}</p>}
       {area.infrastructure_summary && <p className="text-slate-600">{area.infrastructure_summary}</p>}
       <dl className="grid grid-cols-2 gap-2 text-xs">

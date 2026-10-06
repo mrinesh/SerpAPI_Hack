@@ -459,6 +459,21 @@ export interface components {
              * @default false
              */
             summary_by_ai: boolean;
+            /** Section Status */
+            section_status?: {
+                [key: string]: "ok" | "empty" | "failed";
+            };
+            /** Warnings */
+            warnings?: components["schemas"]["AreaIssue"][];
+            /**
+             * Schema Version
+             * @default 1
+             */
+            schema_version: number;
+            /** Provider Modes */
+            provider_modes?: {
+                [key: string]: string;
+            };
             /**
              * Fetched At
              * Format: date-time
@@ -469,6 +484,21 @@ export interface components {
              * Format: date-time
              */
             expires_at: string;
+        };
+        /**
+         * AreaIssue
+         * @description One part of an area that could not be loaded; shown to the investor, never hidden as empty
+         *     (ADR 0019, after gscode007's F-05 branch).
+         */
+        AreaIssue: {
+            /** Section */
+            section: string;
+            /** Provider */
+            provider: string;
+            /** Code */
+            code: string;
+            /** Message */
+            message: string;
         };
         /** BudgetStatus */
         BudgetStatus: {
@@ -590,6 +620,10 @@ export interface components {
             roi_measure: components["schemas"]["ROIMeasure"];
             /** Meets Target Roi */
             meets_target_roi?: boolean | null;
+            /** Target Roi Pct */
+            target_roi_pct?: number | null;
+            /** Assessment Note */
+            assessment_note?: string | null;
         };
         /** InvestorProfile */
         InvestorProfile: {

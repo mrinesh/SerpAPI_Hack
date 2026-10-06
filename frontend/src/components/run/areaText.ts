@@ -22,3 +22,18 @@ export function nearestByCategory(area: AreaIntel, limit = 3): { label: string; 
     return items.length > 0 ? [{ label, items }] : [];
   });
 }
+
+const SECTION_LABELS: Record<string, string> = {
+  centre: "Locality centre", metro: "Metro stations", school: "Schools", hospital: "Hospitals",
+  growth: "Price growth", summary: "AI summary",
+};
+
+/** "Price growth: No recorded google response…", one line per section that failed (ADR 0019). */
+export function areaWarnings(area: AreaIntel): string[] {
+  return (area.warnings ?? []).map((warning) => {
+    const label = warning.section.startsWith("rent:")
+      ? `Rent (${warning.section.slice(5).replace("_", " ")})`
+      : SECTION_LABELS[warning.section] ?? warning.section;
+    return `${label}: ${warning.message}`;
+  });
+}

@@ -16,6 +16,7 @@ from types import SimpleNamespace
 from sqlalchemy.orm import Session
 
 from app.config import Settings
+from app.core.errors import AppError
 from app.db.models import AreaIntelRow
 from app.integrations.llm.factory import get_llm
 from app.integrations.serpapi.gateway import SerpApiGateway
@@ -132,7 +133,7 @@ def suggest_target(
                 price = (cached.price_levels.get(kind) if cached else None) or searched_level(
                     ctx, market, name, PropertyType(kind)
                 )
-                rent = (cached.rent_levels.get(kind) if cached else None) or rent_level(
+                rent = (cached.rent_levels.get(kind) if cached else None) or _rent(
                     ctx, market, name, PropertyType(kind)
                 )
                 yield_ = area_yield(rent, price)
@@ -142,3 +143,10 @@ def suggest_target(
                     TargetSuggestionPart(locality=name, property_type=kind, typical=typical)
                 )
     return combine(measure, parts, data.risk_appetite)
+
+
+def _rent(ctx, market: Market, name: str, kind: PropertyType) -> Sourced[float] | None:
+    try:
+        return rent_level(ctx, market, name, kind)
+    except AppError:
+        return None  # a suggestion never fails; the part is simply missing

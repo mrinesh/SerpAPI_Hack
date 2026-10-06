@@ -15,7 +15,7 @@ from pydantic import BaseModel, Field
 from app.integrations.llm.base import ModelTier
 from app.pipeline.cleaning import normalize_text, parse_property_type, parse_status
 from app.pipeline.context import PipelineContext
-from app.pipeline.quality import flag_listing
+from app.pipeline.quality import flag_listing, price_is_bound
 from app.schemas.common import Level
 from app.schemas.listing import (
     Listing,
@@ -220,15 +220,12 @@ def verify(
     if locality is not None and locality not in ctx.profile.localities:
         hard_mismatches.append("Locality is outside the selected localities.")
     price = listing.price_inr.value
-    price_is_bound = bool(
-        listing.price_inr.note
-        and re.search(r"range|starting price|lower bound", listing.price_inr.note, re.I)
-    )
+    price_bound = price_is_bound(listing)
     if price is not None:
         if price > ctx.profile.budget_max_inr:
             hard_mismatches.append("Quoted price exceeds the maximum budget.")
         if (
-            not price_is_bound
+            not price_bound
             and ctx.profile.budget_min_inr is not None
             and price < ctx.profile.budget_min_inr
         ):
@@ -240,8 +237,8 @@ def verify(
         if ctx.profile.size_max_sqft is not None and size > ctx.profile.size_max_sqft:
             hard_mismatches.append("Property size exceeds the maximum size.")
     gaps = [label for field, label in CORE_FACTS if getattr(listing, field).value is None]
-    uncertain = bool(gaps) or price_is_bound
-    notes = [*gaps, *([PRICE_UNCONFIRMED] if price_is_bound else []), ROI_UNVERIFIED]
+    uncertain = bool(gaps) or price_bound
+    notes = [*gaps, *([PRICE_UNCONFIRMED] if price_bound else []), ROI_UNVERIFIED]
     result.missing_data = list(dict.fromkeys([*result.missing_data, *notes]))
     result.mismatches = list(dict.fromkeys([*result.mismatches, *hard_mismatches]))
     if hard_mismatches:
