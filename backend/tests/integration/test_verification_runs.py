@@ -42,7 +42,12 @@ def test_verifies_and_retains_rejected_candidates(client, monkeypatch):
     assert checked["counts"]["rejected"] == len(rejects)
     with SessionLocal() as db:
         rows = db.scalars(select(RunResultRow).where(RunResultRow.run_id == run_id)).all()
-        assert len(rows) == len(listings) and all(row.rank is None for row in rows)
+        assert len(rows) == len(listings)
+        rejected = {v["listing_id"] for v in rejects}
+        ranks = sorted(row.rank for row in rows if row.rank is not None)
+        # F-04 ranks every checked candidate that was not rejected; the rest stay unranked.
+        assert ranks == list(range(1, len(verifications) - len(rejects) + 1))
+        assert all(row.rank is None for row in rows if row.listing_id in rejected)
 
 
 def test_verification_stops_at_the_per_run_limit(client, monkeypatch):
@@ -139,3 +144,39 @@ def test_missing_llm_fixture_fails_clearly_and_keeps_discovery(client, monkeypat
 
 def test_verifications_for_unknown_run_return_404(client):
     assert client.get("/api/runs/missing/verifications").status_code == 404
+
+
+def test_recommendations_are_ranked_and_the_top_five_explained(client, monkeypatch):
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    run_id, run = start(client)
+    assert run["status"] == "succeeded", run
+    recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
+    assert [r["rank"] for r in recommendations] == list(range(1, len(recommendations) + 1))
+    assert all(r["verification"]["verdict"] != "reject" for r in recommendations)
+    scores = [r["score"] for r in recommendations]
+    assert scores == sorted(scores, reverse=True)
+    explained = [r["explained"] for r in recommendations]
+    assert explained == [True] * min(5, len(explained)) + [False] * (len(explained) - 5)
+    assert all(r["reason"].startswith(f"#{r['rank']} of ") for r in recommendations[5:])
+    assert recommendations[0]["score_breakdown"]["roi"] is None
+    event = next(e for e in run["events"] if e["stage"] == "rank")
+    assert event["counts"] == {"ranked": len(recommendations), "explained": 5}
+
+
+def test_explanation_failure_keeps_scores_and_code_reasons(client, monkeypatch):
+    class FailingExplainer(FakeLLM):
+        def generate_structured(self, **kwargs):
+            if kwargs["task"] == "explain_recommendation":
+                raise UpstreamError("Provider temporarily unavailable")
+            return super().generate_structured(**kwargs)
+
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FailingExplainer())
+    run_id, run = start(client)
+    assert run["status"] == "failed"
+    assert next(e for e in run["events"] if e["stage"] == "rank")["status"] == "failed"
+    recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
+    assert recommendations and not any(r["explained"] for r in recommendations)
+
+
+def test_recommendations_for_unknown_run_return_404(client):
+    assert client.get("/api/runs/missing/recommendations").status_code == 404

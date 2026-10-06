@@ -18,8 +18,8 @@ Each stage emits a `StageEvent` (status, message, counts) that the UI polls, so 
 the pipeline working live (F-20). A failing stage marks the run failed without discarding
 earlier results.
 
-> Status: plan, fetch and clean (F-02), and verification (F-03) are built. Enrich and rank are
-> reported as "not built yet". Both demo profiles replay end to end with no keys, from committed
+> Status: plan, fetch and clean (F-02), verification (F-03, with F-12 price flags) and rank
+> (F-04) are built. Enrich is reported as "not built yet" (F-05, F-09). Both demo profiles replay end to end with no keys, from committed
 > SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
@@ -153,10 +153,19 @@ No net yield or cap rate: both need cost assumptions we would have to source
 
 **In:** verified, enriched listings · **Out:** `list[Recommendation]`
 
-Composite score computed in code, with weights set by `goal` and `risk_appetite`:
-match score, ROI vs target, price vs area average, area signals, and quality-flag penalties.
-`score_breakdown` exposes each component. The LLM (`explain_recommendation`) writes only the
-reason, highlights and risks, quoting numbers from the inputs.
+Composite score computed in code, with weights set by `goal` and `risk_appetite`
+([ADR 0015](decisions/0015-composite-ranking.md)): relevance (F-03 match score), value (price
+per sq ft against the locality level), evidence (confidence and completeness), ROI vs target
+(F-09, not available yet) and area signals (F-05, not available yet), minus 25 points per
+high-severity flag. Unavailable components are left out and the rest renormalised;
+`score_breakdown` gives each component's points, or `null`. Rejected and unchecked candidates
+are not ranked. Ties go to the lower price, then the id.
+
+Every ranked candidate gets a reason written by code. The top 5 also get one from
+`explain_recommendation` (LLM lite tier), which receives pre-formatted display figures. Code
+checks every number in its reason, highlights and risks against those figures; a failing
+reason falls back to the code reason. Scores are saved before any explanation call, so a
+provider failure keeps the ranking.
 
 ## LLM calls per run
 

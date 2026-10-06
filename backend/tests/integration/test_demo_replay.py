@@ -42,3 +42,19 @@ def test_commercial_demo_flags_the_rent_quoted_as_a_sale(client):
     assert list(flagged) == [360_000]
     assert flagged[360_000]["verdict"] == "weak"
     assert "₹17,501/sq ft" in flagged[360_000]["mismatches"][-1]
+
+
+@pytest.mark.parametrize("name", DEMO_PROFILES)
+def test_demo_recommendations_replay_with_recorded_explanations(client, name):
+    profile_id = client.post("/api/profiles", json=DEMO_PROFILES[name]).json()["id"]
+    run_id = client.post(f"/api/profiles/{profile_id}/runs").json()["id"]
+    recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
+    assert [r["rank"] for r in recommendations] == list(range(1, len(recommendations) + 1))
+    assert all(r["verification"]["verdict"] != "reject" for r in recommendations)
+    # Recorded explanations all pass the number guard; the rest keep code reasons.
+    top = min(5, len(recommendations))
+    assert [r["explained"] for r in recommendations[:top]] == [True] * top
+    assert not any(r["explained"] for r in recommendations[top:])
+    if name == "commercial":
+        # The rent quoted as a sale (₹3.6 L, flagged) ranks last, below every genuine office.
+        assert recommendations[-1]["listing"]["price_inr"]["value"] == 360_000

@@ -28,8 +28,9 @@ from app.pipeline.cleaning import normalize_hits
 from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
 from app.pipeline.enrichment.price_level import price_levels
-from app.pipeline.persist import save_candidates, save_verification
+from app.pipeline.persist import save_candidates, save_recommendation, save_verification
 from app.pipeline.query_planner import plan_queries
+from app.pipeline.ranking import EXPLAIN_TOP, explain, level_for, place_name, score_candidates
 from app.pipeline.verification import extract, verify
 from app.reference import load_market
 from app.schemas.run import PipelineRun, PipelineStage, RunStatus, StageEvent
@@ -47,7 +48,6 @@ STAGE_ORDER: tuple[PipelineStage, ...] = (
 )
 NOT_BUILT = {
     PipelineStage.ENRICH: "F-05",
-    PipelineStage.RANK: "F-04",
 }
 
 
@@ -158,6 +158,7 @@ def run_pipeline(run_id: str) -> None:
                 tracker.replace(event)
                 # Benchmarks for price flags: one search per locality and type (ADR 0014).
                 levels, level_notes = price_levels(ctx, market, result.listings)
+                checked = []
                 for listing in checking:
                     extracted = extract(ctx, listing)
                     benchmark = levels.get(
@@ -165,6 +166,7 @@ def run_pipeline(run_id: str) -> None:
                     )
                     verification = verify(ctx, extracted, benchmark)
                     save_verification(db, run_id, extracted, verification)
+                    checked.append((extracted, verification))
                     event.counts["checked"] += 1
                     event.counts["rejected"] += int(verification.verdict == "reject")
                     event.counts["flagged"] += int(
@@ -188,6 +190,34 @@ def run_pipeline(run_id: str) -> None:
 
             for stage, feature in NOT_BUILT.items():
                 tracker.note(stage, f"Not built yet ({feature})")
+
+            with tracker.stage(PipelineStage.RANK) as event:
+                # Scores and code reasons are saved first, so an explanation failure keeps them.
+                ranked = score_candidates(ctx.profile, checked, levels, market)
+                for recommendation in ranked:
+                    save_recommendation(db, run_id, recommendation)
+                top = ranked[:EXPLAIN_TOP]
+                event.counts = {"ranked": len(ranked), "explained": 0}
+                event.message = (
+                    f"Ranked {len(ranked)} candidates; writing reasons for the top {len(top)}"
+                )
+                tracker.replace(event)
+                for recommendation in top:
+                    written = explain(
+                        ctx,
+                        recommendation,
+                        len(ranked),
+                        level_for(levels, recommendation.listing),
+                        place_name(market, recommendation.listing),
+                    )
+                    save_recommendation(db, run_id, written)
+                    event.counts["explained"] += int(written.explained)
+                event.message = (
+                    f"Ranked {len(ranked)} candidates; "
+                    f"{event.counts['explained']} of the top {len(top)} explained by AI"
+                    if ranked
+                    else "No candidates to rank"
+                )
             tracker.finish(RunStatus.SUCCEEDED)
         except Exception as exc:  # the run must end in a recorded state, whatever happened
             if not isinstance(exc, (AppError, StageFailed)):

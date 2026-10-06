@@ -3,7 +3,7 @@
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.core.errors import NotFound, NotImplementedYet
+from app.core.errors import NotFound
 from app.db.models import ListingObservationRow, ListingRow, RunResultRow, RunRow
 from app.pipeline.orchestrator import to_schema
 from app.schemas.listing import Listing, ResultKind, Verification
@@ -54,7 +54,23 @@ def get_verifications(db: Session, run_id: str) -> list[Verification]:
 
 
 def get_recommendations(db: Session, run_id: str) -> list[Recommendation]:
-    raise NotImplementedYet("F-04", "Reading ranked recommendations")
+    """Ranked candidates in rank order; empty until the rank stage has run."""
+    _get_row(db, run_id)
+    rows = db.scalars(
+        select(RunResultRow)
+        .where(RunResultRow.run_id == run_id, RunResultRow.rank.is_not(None))
+        .order_by(RunResultRow.rank)
+    )
+    return [
+        Recommendation(
+            rank=row.rank,
+            listing=row.recommendation["listing"],
+            verification=row.recommendation["verification"],
+            **row.recommendation["recommendation"],
+        )
+        for row in rows
+        if row.recommendation.get("recommendation")
+    ]
 
 
 def _get_row(db: Session, run_id: str) -> RunRow:

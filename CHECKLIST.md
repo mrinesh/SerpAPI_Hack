@@ -44,7 +44,7 @@ code for an ID finds every stub that belongs to it.
 | F-01 | Investor profile | P0 | ✅ | |
 | F-02 | Property discovery | P0 | ✅ | |
 | F-03 | AI relevance verification | P0 | ✅ | |
-| F-04 | Ranked recommendations with reasons | P0 | 🧱 | |
+| F-04 | Ranked recommendations with reasons | P0 | ✅ | |
 | F-05 | Area intelligence | P0 | 🟨 | |
 | F-06 | Competitor analysis (commercial) | P0 | 🧱 | |
 | F-07 | Property detail page | P0 | 🧱 | |
@@ -232,10 +232,14 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
       (`backend/scripts/record_verification.py`): residential first 16 of 28, commercial all 6
 - [x] `VERIFY_MAX_CANDIDATES` (default 16) caps DeepSeek spend per run; rest shown unchecked
 
-### F-04 Ranked recommendations · P0 · 🧱
-- [ ] Composite score in code, weights by goal and risk appetite, `score_breakdown`
-- [ ] `explain_recommendation` prompt: reason, highlights, risks
-- [ ] Results page list with score, reason and key metrics
+### F-04 Ranked recommendations · P0 · ✅
+- [x] Composite score in code, weights by goal and risk appetite, `score_breakdown` (ADR 0015);
+      ROI and area-signal components are `null` until F-09 / F-05 fill them
+- [x] `explain_recommendation` prompt: reason, highlights, risks; top 5 per run, every number
+      checked against display figures, code reason as fallback
+- [x] "Recommended" tab on the run page: rank, score, reason, highlights, risks, breakdown
+- [x] Recorded for both demos (9 lite calls); tests for weights, value curve, penalties,
+      ties, number guard, failure handling and demo replay
 
 ### F-05 Area intelligence · P0 · 🟨
 - [ ] `locality_key` + cache per locality with TTL

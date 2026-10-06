@@ -43,6 +43,14 @@ class FakeLLM:
 
     def generate_structured(self, **kwargs):
         self.calls.append(kwargs)
+        if kwargs["task"] == "explain_recommendation":
+            from app.pipeline.ranking import Explanation
+
+            return Explanation(
+                reason="A fake explanation without numbers.",
+                highlights=["Fits the profile"],
+                risks=["Not a verified unit"],
+            )
         if kwargs["task"] == "extract_price_level":
             from app.pipeline.enrichment.price_level import PriceLevelExtract
 

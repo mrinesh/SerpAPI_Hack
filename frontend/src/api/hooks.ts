@@ -14,6 +14,7 @@ import type {
   Listing,
   PipelineRun,
   ProfileOptions,
+  Recommendation,
   Verification,
 } from "./types";
 
@@ -137,5 +138,17 @@ export function useRunVerifications(run: PipelineRun | undefined) {
     queryKey: ["runs", run?.id, "verifications", run?.status, checkedCount(run)],
     queryFn: () => apiFetch<Verification[]>(`/runs/${run?.id}/verifications`),
     enabled: hasCandidates(run),
+  });
+}
+
+/** The ranked shortlist (F-04), once the rank stage has finished. */
+export function useRunRecommendations(run: PipelineRun | undefined) {
+  const ranked = (run?.events ?? []).some(
+    (event) => event.stage === "rank" && (event.status === "succeeded" || event.status === "failed"),
+  );
+  return useQuery({
+    queryKey: ["runs", run?.id, "recommendations", run?.status],
+    queryFn: () => apiFetch<Recommendation[]>(`/runs/${run?.id}/recommendations`),
+    enabled: run !== undefined && ranked,
   });
 }

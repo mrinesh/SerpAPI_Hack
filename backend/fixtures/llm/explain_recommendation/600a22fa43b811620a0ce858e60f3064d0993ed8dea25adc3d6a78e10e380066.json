@@ -1,0 +1,19 @@
+{
+  "key": "600a22fa43b811620a0ce858e60f3064d0993ed8dea25adc3d6a78e10e380066",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This office in Koramangala matches your commercial segment, office type, and is within your budget at ₹1.91 Cr, but the locality is only query-derived and not verified, and the size and ROI are missing. Check the exact location and unit size before proceeding.",
+    "highlights": [
+      "Reported price ₹1.91 Cr is within the ₹3 Cr budget",
+      "Commercial office type matches your requested office",
+      "Listed in Koramangala search context"
+    ],
+    "risks": [
+      "Locality is query-derived with confidence 0.5, may not be for this exact listing",
+      "Missing size (sq ft) prevents suitability and ROI assessment",
+      "Price is from a search snippet, not a verified final unit price"
+    ]
+  }
+}

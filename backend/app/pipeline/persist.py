@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 
 from app.db.models import ListingObservationRow, ListingRow, RunResultRow
 from app.schemas.listing import Listing, Verification
+from app.schemas.recommendation import Recommendation
 
 
 def save_candidates(db: Session, run_id: str, listings: list[Listing]) -> None:
@@ -84,5 +85,25 @@ def save_verification(
     result.recommendation = {
         "listing": listing.model_dump(mode="json"),
         "verification": verification.model_dump(mode="json"),
+    }
+    db.commit()
+
+
+def save_recommendation(db: Session, run_id: str, recommendation: Recommendation) -> None:
+    """Set the rank and add the ranking fields to the run's snapshot; one commit each, so code
+    reasons survive a later explanation failure."""
+    result = db.scalar(
+        select(RunResultRow).where(
+            RunResultRow.run_id == run_id,
+            RunResultRow.listing_id == recommendation.listing.id,
+        )
+    )
+    result.rank = recommendation.rank
+    result.recommendation = {
+        **result.recommendation,
+        "recommendation": recommendation.model_dump(
+            mode="json",
+            include={"score", "score_breakdown", "reason", "highlights", "risks", "explained"},
+        ),
     }
     db.commit()
