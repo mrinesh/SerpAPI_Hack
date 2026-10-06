@@ -1,0 +1,33 @@
+{
+  "key": "92109adf44c082d0bcfad523ceb18aa62e6bf86a8e4bde01584260ac28893687",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.5,
+      "evidence": "Nallurahalli, Borewell Road, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066, India"
+    },
+    "price_inr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "key": "d3806bd49be35e242e887498fbbc09146ce5a028e93ebb035f6d3c19ae44e0df",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 20,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Property type apartment matches requested property type",
+      "Segment residential matches requested segment",
+      "Locality appears to be Whitefield from search query, which is one of the requested localities"
+    ],
+    "mismatches": [
+      "Asking price ₹85 Lac exceeds maximum budget ₹80 Lac by ₹5 Lac"
+    ],
+    "missing_data": [
+      "Exact unit address/locality not confirmed; the Whitefield locality is query-derived with low confidence and the page may cover nearby areas",
+      "Property size is a computed estimate from price and price per sq ft and is not verified",
+      "Investment metrics such as rental yield and ROI are not available in this stage",
+      "Listing is a snippet from a search page, so the final unit price and availability are not independently verified"
+    ],
+    "confidence": 0.75
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "key": "df4d30ed1bcaf6baaf57ad5a2c0a5e21a98257e798c736df9482134752f03ae8",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 62,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality: Whitefield is in the investor's target localities (Whitefield/Yelahanka).",
+      "Property type: apartment is in the allowed property types (apartment/plot), though query-derived with medium confidence.",
+      "Segment: residential matches the requested residential segment.",
+      "City: Bengaluru address matches the requested city."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is not provided, so the budget max of 8,000,000 INR cannot be verified.",
+      "Unit size/size_sqft is not provided; cannot assess size constraints or suitability beyond type.",
+      "No bedroom count or individual unit details are supplied; this is a Maps project, not a priced unit.",
+      "No rental yield, ROI, or rental income data; investment goal and target_roi of 4.0% cannot be confirmed at this stage.",
+      "Property type and locality are partly query-derived (confidence 0.5) and indicate search context, not a verified individual listing.",
+      "No status or availability information supplied."
+    ],
+    "confidence": 0.45
+  }
+}

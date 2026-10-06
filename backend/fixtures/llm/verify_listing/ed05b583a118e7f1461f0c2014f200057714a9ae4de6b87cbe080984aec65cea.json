@@ -1,0 +1,24 @@
+{
+  "key": "ed05b583a118e7f1461f0c2014f200057714a9ae4de6b87cbe080984aec65cea",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: listed price ₹75,00,000 is within maximum budget ₹80,00,000.",
+      "Property type: listed as apartment, which matches requested apartment/plot.",
+      "Segment: residential matches requested residential."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Locality is only query-derived (Whitefield search context); the actual listing's locality is not confirmed and the page may cover nearby areas.",
+      "No size (sq ft) is available, so size requirement cannot be verified.",
+      "No bedroom count, exact location, or listing status is available for this snippet entry.",
+      "Rental income, rental yield/ROI, and risk indicators are not included and cannot be confirmed at this stage.",
+      "Price is extracted from a search snippet/listing title; final unit price should be verified against the individual listing."
+    ],
+    "confidence": 0.55
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "key": "42ea832c93d40ee87950069995ab4980e206ac2b1a9ae4e1e3a293315b751dac",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 68,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: listed price of ₹72,00,000 is within the investor's maximum budget of ₹80,00,000.",
+      "Property type: apartment is one of the requested property types (apartment, plot).",
+      "Segment: residential matches the investor's requested segment.",
+      "Locality: Whitefield appears in the candidate and is one of the investor's preferred localities, though only as query context."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Verified property address/locality: locality is derived from search query and may cover nearby areas; individual listing location is not confirmed.",
+      "Verified unit price: ₹72 Lac is extracted from a search results page snippet, not a specific listing detail; final asking price and availability need confirmation.",
+      "Verified size: size_sqft is computed from price ÷ price per sq ft and is only an estimate (confidence 0.6).",
+      "Bedrooms/BHK: candidate's bedrooms field is null; evidence mentions '2 and 3 bedroom apartment' but no specific unit is confirmed.",
+      "Rental yield, ROI, and investment metrics: the investor's goal (rental income) and target ROI (4.0%) cannot be confirmed at this stage; no rent or yield data is present.",
+      "Must-have criteria: none were specified in the profile, so no must-have checks were performed."
+    ],
+    "confidence": 0.6
+  }
+}

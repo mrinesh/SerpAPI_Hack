@@ -1,0 +1,24 @@
+{
+  "key": "71a7a76cb0fbdcae4860ce1053e0308735b481003a978856bbf0dcc3ddc093af",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Reported locality Whitefield matches one of the requested localities (whitefield, yelahanka) with query-derived search context.",
+      "Reported property type apartment matches requested property types (apartment, plot).",
+      "Residential segment matches investor's requested residential segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is not provided; cannot confirm compliance with budget_max_inr 8,000,000.",
+      "Unit size is not provided; size constraint is null but missing size prevents strong verification.",
+      "Listing is a Google Maps project, not a priced unit; locality and property type are query-derived and indicate search context only.",
+      "No rental income or ROI evidence; target_roi_pct 4.0 cannot be confirmed at this stage.",
+      "Number of bedrooms is not provided."
+    ],
+    "confidence": 0.55
+  }
+}

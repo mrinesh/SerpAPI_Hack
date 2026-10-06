@@ -1,0 +1,25 @@
+{
+  "key": "af66467fe49f622d9525cc752571e6b38f3c5a7b028432ad381a1f4ef191444b",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality: Whitefield is explicitly mentioned in the evidence and matches one of the profile's preferred localities.",
+      "Property type: Apartment complex matches the profile's allowed property types (apartment, plot).",
+      "Segment: Residential matches the profile's requested segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is not available for this Google Maps project, so budget_max_inr of 8,000,000 cannot be checked.",
+      "Unit size is not available; size_min_sqft/size_max_sqft are not specified, but size cannot be confirmed at unit level.",
+      "Locality is query-derived with confidence 0.5; it should be treated as search context rather than a verified listing location, despite the evidence text mentioning Whitefield.",
+      "Property type is query-derived from Google Maps place type 'Apartment complex' with confidence 0.5.",
+      "No rental income, rental yield, or ROI evidence is present, so the goal 'rental_income' and target_roi_pct 4.0% cannot be confirmed.",
+      "This is a Maps project result, not a priced individual unit, so it may not represent an available sale listing."
+    ],
+    "confidence": 0.6
+  }
+}

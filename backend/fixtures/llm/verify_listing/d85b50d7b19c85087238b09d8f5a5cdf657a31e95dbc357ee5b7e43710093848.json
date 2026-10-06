@@ -1,0 +1,24 @@
+{
+  "key": "d85b50d7b19c85087238b09d8f5a5cdf657a31e95dbc357ee5b7e43710093848",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 25,
+    "verdict": "reject",
+    "matched_criteria": [
+      "property type: apartment (matches requested apartment/plot)",
+      "segment: residential (matches requested residential)"
+    ],
+    "mismatches": [
+      "budget: candidate price is ₹88,00,000 (8,800,000 INR), which exceeds the maximum budget of ₹8,000,000 by ₹800,000"
+    ],
+    "missing_data": [
+      "locality: 'whitefield' is query-derived and not confirmed for this individual listing; the page may cover nearby areas",
+      "rental income / target ROI: no rental yield or income evidence is present in this snippet, so the rental_income goal and 4% target ROI cannot be checked",
+      "size: 1500.2 sq ft is computed from price ÷ price per sq ft and is not a verified listing size",
+      "city: Bengaluru is not independently confirmed for this particular unit beyond the search page context"
+    ],
+    "confidence": 0.8
+  }
+}

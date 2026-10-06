@@ -1,0 +1,25 @@
+{
+  "key": "ac865a743da679d0a27d1dd9a17ecbbd25c9b4b87ddbfcb0695ceb784662dc2d",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 25,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Property type: apartment matches requested types",
+      "Segment: residential matches requested segment",
+      "Locality: whitefield appears in profile localities but only from query context with low confidence"
+    ],
+    "mismatches": [
+      "Asking price 8,800,000 INR exceeds budget_max 8,000,000 INR by 800,000 INR"
+    ],
+    "missing_data": [
+      "Locality is query-derived and not verified; listing page may cover nearby areas",
+      "Computed size 1,500 sqft is an estimate from price ÷ price per sqft, not a confirmed listing size",
+      "No rent, yield, or ROI data available to evaluate the rental income goal or target ROI of 4%",
+      "Asking price is taken from a snippet and may not represent the final unit price for the specific property"
+    ],
+    "confidence": 0.8
+  }
+}

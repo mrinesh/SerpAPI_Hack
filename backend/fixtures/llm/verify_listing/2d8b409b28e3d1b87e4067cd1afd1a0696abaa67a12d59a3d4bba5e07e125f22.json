@@ -1,0 +1,25 @@
+{
+  "key": "2d8b409b28e3d1b87e4067cd1afd1a0696abaa67a12d59a3d4bba5e07e125f22",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 50,
+    "verdict": "weak",
+    "matched_criteria": [
+      "Property type is apartment, matching one of the requested property types (apartment/plot).",
+      "Locality is Whitefield, matching one of the requested localities (Whitefield/Yelahanka).",
+      "Segment is residential, matching the requested segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "No asking price available; cannot verify the budget maximum of 8,000,000 INR.",
+      "No unit size available; size preferences cannot be confirmed.",
+      "No bedroom count available.",
+      "This is a Google Maps project listing, not a priced individual unit; asking price and floor-plan size are not established.",
+      "Locality and property type are query-derived and indicate search context only, with moderate confidence.",
+      "Investment metrics such as rental yield/ROI are not available at this stage; target_roi_pct of 4% cannot be confirmed."
+    ],
+    "confidence": 0.5
+  }
+}

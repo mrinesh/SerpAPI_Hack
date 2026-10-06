@@ -1,0 +1,23 @@
+{
+  "key": "7c8c8ddb596570c9d649261ef1ca7ae5c3e1dd914f8c31d7dee6a499922d5992",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 70,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality matches investor's requested Whitefield based on address evidence",
+      "Property type aligns with requested apartment",
+      "Segment aligns with residential"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "No asking price supplied; cannot verify budget_max_inr 8,000,000",
+      "No unit size supplied; cannot verify size constraints",
+      "No rental yield or ROI evidence supplied; goal rental_income and target_roi_pct cannot be confirmed",
+      "Listing is a Google Maps project-level entry, not a specific priced unit; price range/starting price absent"
+    ],
+    "confidence": 0.65
+  }
+}

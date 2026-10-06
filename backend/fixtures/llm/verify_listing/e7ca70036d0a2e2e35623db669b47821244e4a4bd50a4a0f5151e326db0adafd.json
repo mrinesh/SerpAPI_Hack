@@ -1,0 +1,26 @@
+{
+  "key": "e7ca70036d0a2e2e35623db669b47821244e4a4bd50a4a0f5151e326db0adafd",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "City matches Bengaluru (address states Bengaluru, Karnataka 560066)",
+      "Locality matches Whitefield (address includes 'Whitefield Village' and searched locality is 'whitefield')",
+      "Segment is residential, matching investor's residential segment",
+      "Property type is listed as apartment (Google Maps place type 'Apartment complex'), which is an allowed property type"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price or price per sqft not available; cannot confirm budget_max_inr 8,000,000",
+      "Unit size (size_sqft) not available; cannot confirm size constraints",
+      "Property type is query-derived with confidence 0.5; no verified individual listing or unit data",
+      "No rental yield, ROI, or income data; cannot assess goal rental_income or target_roi_pct 4.0",
+      "Locality value is query-derived; address supports Whitefield but no final listing confirmation",
+      "No status or availability data"
+    ],
+    "confidence": 0.55
+  }
+}

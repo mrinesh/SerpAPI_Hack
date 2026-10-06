@@ -1,0 +1,24 @@
+{
+  "key": "2ff86e4ad2b1ecb8d912a5ba5723472a688d8d5c644989942e8be1d62141085f",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 60,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Residential segment matches requested segment",
+      "Locality is Whitefield, which is in requested localities (query-derived search context)",
+      "Property type appears to be apartment complex, matching requested apartment type (query-derived Google Maps place type)"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is missing; cannot verify budget_max_inr 8,000,000",
+      "Unit size is missing; cannot assess requested size or unit specifics",
+      "ROI/rental yield evidence is missing; target_roi_pct 4.0 cannot be confirmed at this stage",
+      "Property type and locality are query-derived (confidence 0.5) and reflect search context, not verified listing facts",
+      "Source is a Google Maps project, not a priced individual unit, so final unit price and availability are not established"
+    ],
+    "confidence": 0.6
+  }
+}

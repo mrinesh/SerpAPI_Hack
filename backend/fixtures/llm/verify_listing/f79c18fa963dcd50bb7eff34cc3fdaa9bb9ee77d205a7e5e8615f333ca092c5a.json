@@ -1,0 +1,27 @@
+{
+  "key": "f79c18fa963dcd50bb7eff34cc3fdaa9bb9ee77d205a7e5e8615f333ca092c5a",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 70,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: listed price ₹72,00,000 is within the maximum budget of ₹80,00,000.",
+      "Property type: apartment is among the allowed property types.",
+      "Segment: residential matches the requested segment.",
+      "Locality: Whitefield is one of the requested localities (query-derived, needs verification)."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Individual listing identity is not verified; the source is a search results snippet, not a specific property page.",
+      "Locality is query-derived (confidence 0.5) and the page may cover nearby areas; not confirmed for this individual unit.",
+      "Size is computed from price and price per sq ft (approx 1,419 sq ft), not a confirmed field; no direct size data.",
+      "Price and price per sq ft were extracted from a snippet; final unit price may differ.",
+      "No bedroom count available; cannot verify 2 or 3 BHK specifics.",
+      "Rental income goal, target ROI of 4%, and risk appetite cannot be confirmed from listing data; investment metrics are not available.",
+      "No missing must_haves were provided in the profile."
+    ],
+    "confidence": 0.55
+  }
+}

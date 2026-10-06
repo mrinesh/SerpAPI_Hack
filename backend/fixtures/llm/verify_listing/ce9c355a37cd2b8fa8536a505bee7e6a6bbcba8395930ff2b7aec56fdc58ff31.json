@@ -1,0 +1,25 @@
+{
+  "key": "ce9c355a37cd2b8fa8536a505bee7e6a6bbcba8395930ff2b7aec56fdc58ff31",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Asking price ₹60 Lac (6,000,000) is within the ₹8,000,000 maximum budget (snippet-sourced).",
+      "Property type 'apartment' matches the investor's allowed property types.",
+      "Residential segment matches the requested segment.",
+      "Locality 'Whitefield' matches one of the investor's preferred localities (query-derived, unconfirmed)."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Verified individual listing / final asking price; current price is from a search-page snippet and may not be the final unit price.",
+      "Exact built-up/carpet size; 733 sqft is computed from price ÷ price per sqft and is an estimate.",
+      "Property location confirmation within Whitefield; locality is query-derived and may cover nearby areas.",
+      "Bedrooms/configuration and other unit details.",
+      "Rental income/rental yield evidence to assess the 4% target ROI; investment metrics are not available at this stage."
+    ],
+    "confidence": 0.5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "key": "a8a983747fc23dbff4bc89039c1e5193403624b120a7ac80829c22abb23b6f03",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Whitefield locality matches one of the requested localities (query-derived; address evidence includes Whitefield)",
+      "Apartment property type matches requested property_types (query-derived from Google Maps place type: Condominium complex)",
+      "Residential segment matches profile segment",
+      "Bengaluru city matches profile city"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price not provided; cannot confirm budget_max_inr 8,000,000",
+      "Unit size (sqft) not provided; size_min/max not requested but missing size prevents strong match",
+      "Bedrooms and unit configuration not provided",
+      "Rental income, rental yield, ROI, or price growth not provided; cannot assess goal rental_income or target_roi_pct 4.0",
+      "Listing is a Google Maps project/place entry, not a priced unit listing; locality and property_type are query-derived with moderate confidence",
+      "Availability/status not provided"
+    ],
+    "confidence": 0.6
+  }
+}

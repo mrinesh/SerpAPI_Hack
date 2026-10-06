@@ -1,0 +1,26 @@
+{
+  "key": "ccfa557305bc3b59643a2e4814b745103449fdd5325f9d4176a492ed15b405b2",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 62,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Property type: Google Maps place type is apartment building, matching profile's allowed apartment type.",
+      "Segment: listed as residential, matching profile segment.",
+      "Locality: evidence address and search context are in Whitefield, Bengaluru, matching one of the requested localities."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is not provided; cannot verify budget_max of 8,000,000 INR.",
+      "Size in sq ft is not provided; no unit size available.",
+      "Bedrooms are not provided.",
+      "Rental yield / ROI cannot be confirmed at this stage.",
+      "Price per sq ft is not provided.",
+      "Listing is a Google Maps project page ('Vaswani Exquisite'), not a specific priced unit.",
+      "Locality and property type are query-derived with confidence 0.5; they indicate search context rather than verified listing facts."
+    ],
+    "confidence": 0.65
+  }
+}

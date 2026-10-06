@@ -1,0 +1,26 @@
+{
+  "key": "5d905609f50477773c30a74ba421384af06ad78ac1cc9e85c06e1f0cfd85e32c",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 30,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Budget: asking price ₹50,00,000 is within the investor's maximum of ₹80,00,000.",
+      "Segment: candidate is residential, matching the investor's requested residential segment.",
+      "City: listing evidence references Bangalore/Bengaluru, matching the investor's city."
+    ],
+    "mismatches": [
+      "Property type: candidate is an independent house/villa (house_villa), which is not one of the investor's requested property types (apartment or plot)."
+    ],
+    "missing_data": [
+      "Locality: the Whitefield locality is derived from the search query and may cover nearby areas; the specific listing locality is not confirmed.",
+      "Size: 1,200 sq ft is computed from price and price per sq ft, not a verified unit size.",
+      "Price: the ₹50 Lac figure is a starting/list price from a search snippet, not a confirmed final unit price.",
+      "Rental yield and ROI: no rental income or yield data is available to evaluate the investor's 4% target ROI.",
+      "Property type certainty is based on regex extraction from a snippet, not a verified listing detail."
+    ],
+    "confidence": 0.82
+  }
+}

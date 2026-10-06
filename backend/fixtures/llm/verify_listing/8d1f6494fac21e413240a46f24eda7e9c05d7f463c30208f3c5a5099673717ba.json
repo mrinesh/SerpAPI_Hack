@@ -1,0 +1,25 @@
+{
+  "key": "8d1f6494fac21e413240a46f24eda7e9c05d7f463c30208f3c5a5099673717ba",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 20,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Property type is apartment, which is in requested property types.",
+      "Segment is residential, matching profile segment.",
+      "Locality is listed as whitefield, which is one of the requested localities, though this is derived from the search query and not confirmed for the individual unit."
+    ],
+    "mismatches": [
+      "Asking price is ₹84,00,000, which exceeds the maximum budget of ₹80,00,000 by ₹4,00,000."
+    ],
+    "missing_data": [
+      "Size (sq ft) is not provided.",
+      "The candidate is a search snippet entry, not a verified individual listing, so the final unit price and exact unit identity are not confirmed.",
+      "Rental yield and ROI are not provided, so the target ROI of 4% cannot be checked.",
+      "Locality is query-derived and may cover nearby areas, so exact locality of the unit is not confirmed."
+    ],
+    "confidence": 0.7
+  }
+}

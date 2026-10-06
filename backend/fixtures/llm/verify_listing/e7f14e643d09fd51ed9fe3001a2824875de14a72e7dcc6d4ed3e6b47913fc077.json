@@ -1,0 +1,24 @@
+{
+  "key": "e7f14e643d09fd51ed9fe3001a2824875de14a72e7dcc6d4ed3e6b47913fc077",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality: candidate address and search context indicate Whitefield, which is in the investor's requested localities.",
+      "Property type: candidate is identified as an apartment complex, matching the requested apartment type (though query-derived).",
+      "Segment: residential, matching the investor's requested residential segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is not provided; cannot verify the investor's maximum budget of 8,000,000 INR.",
+      "Property size (sq ft) is not provided; investor size constraints are null, but missing size prevents a strong match.",
+      "Rental yield and ROI cannot be confirmed at this stage; no financial metrics are available for the rental_income goal and 4% target ROI.",
+      "Property type and locality are query-derived (confidence 0.5); locality is supported by the address, but the listing's own sourced fields lack a direct verified type beyond Google Maps place type.",
+      "Listing kind is 'project' from Google Maps, not a priced individual unit; status/availability not provided."
+    ],
+    "confidence": 0.55
+  }
+}

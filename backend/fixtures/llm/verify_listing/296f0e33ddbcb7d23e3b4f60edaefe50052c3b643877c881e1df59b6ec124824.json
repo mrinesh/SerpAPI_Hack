@@ -1,0 +1,24 @@
+{
+  "key": "296f0e33ddbcb7d23e3b4f60edaefe50052c3b643877c881e1df59b6ec124824",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 68,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Price ₹69.3 Lac is within the maximum budget of ₹80 Lac.",
+      "Property type apartment is in the accepted list (apartment, plot).",
+      "Segment residential matches the requested segment.",
+      "Locality Whitefield matches one of the preferred localities (as search context; page title says Whitefield, Bangalore)."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Size (sq ft) is not available; size match cannot be assessed.",
+      "Bedrooms count unavailable.",
+      "Exact address/locality is not confirmed; locality value is query-derived and may cover nearby areas.",
+      "This evidence is a search result snippet from 99acres, not a verified individual listing with final unit price."
+    ],
+    "confidence": 0.55
+  }
+}

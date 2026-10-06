@@ -1,0 +1,26 @@
+{
+  "key": "84b2250daf0b4dca16213e9a91f2d76e97b397f3aeaeb445b0d09ab0309261d3",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 20,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Segment: residential matches profile.",
+      "Locality: Whitefield is in the allowed list, but the locality is inferred from the search query and not verified for an individual listing.",
+      "Budget: indicated price of ₹50 lakh is below the maximum of ₹80 lakh, though this is from a search snippet and may not be the final unit price."
+    ],
+    "mismatches": [
+      "Property type: candidate is classified as house_villa (independent house/villa), but profile only accepts apartment or plot."
+    ],
+    "missing_data": [
+      "Verified individual listing details are not available; the source is a search-page snippet, so property type, price, size, and locality may not correspond to a specific confirmed unit.",
+      "Asking price is not confirmed as final; may be a starting price or range.",
+      "Size is computed from price ÷ price per sq ft and is an estimate.",
+      "Rental income, rental yield, and target ROI cannot be confirmed at this stage.",
+      "No must_have criteria specified, so none checked."
+    ],
+    "confidence": 0.7
+  }
+}

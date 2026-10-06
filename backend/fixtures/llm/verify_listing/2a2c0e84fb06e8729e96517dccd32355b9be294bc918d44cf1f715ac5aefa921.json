@@ -1,0 +1,24 @@
+{
+  "key": "2a2c0e84fb06e8729e96517dccd32355b9be294bc918d44cf1f715ac5aefa921",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 20,
+    "verdict": "reject",
+    "matched_criteria": [
+      "segment: residential",
+      "property_type: apartment"
+    ],
+    "mismatches": [
+      "Budget exceeded: listed asking price ₹84,00,000 is above profile budget_max ₹80,00,000."
+    ],
+    "missing_data": [
+      "Locality is query-derived (confidence 0.5) and may cover nearby areas; actual property location not verified.",
+      "Size (sqft) is missing or not extracted from source.",
+      "Final unit price is not established; extracted ₹84,00,000 is an asking price from a search snippet.",
+      "Rental income potential, yield, and ROI are not assessed at this stage."
+    ],
+    "confidence": 0.85
+  }
+}

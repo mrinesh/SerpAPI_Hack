@@ -1,0 +1,24 @@
+{
+  "key": "8677c0a4adb63079e29e549917062fde23d51859683c515bec96f4ad2f9f2203",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 62,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Listed price ₹69.3 Lac is within budget max ₹80 Lac",
+      "Segment is residential as required"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Locality is query-derived and may include nearby areas; not confirmed for this exact unit",
+      "Property type is inferred from a search result title, not a verified individual listing",
+      "Unit size (sq ft) is missing, so size constraints and per-sqft price cannot be checked",
+      "Bedroom count is missing",
+      "Rental yield, expected ROI, and rental income evidence are not provided; ROI cannot be confirmed at this stage",
+      "Asking price comes from a search snippet and may be a starting or representative price rather than final unit price"
+    ],
+    "confidence": 0.5
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "key": "aa7ec9478cecade8613acb59aec31b094087d30ecf0f6ded869d47c15ab074af",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 62,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality: Whitefield matches one of the requested localities.",
+      "Property type: Apartment matches requested apartment/plot types.",
+      "Segment: Residential matches requested residential segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is unavailable; cannot confirm budget max INR 8,000,000.",
+      "Unit size is unavailable; no size constraints requested but prevents strong match.",
+      "Rental yield/ROI target of 4.0% is not confirmed; investment metrics are not present at this stage.",
+      "Locality and property type are query-derived search context with moderate confidence, not verified from a priced unit listing.",
+      "No individual unit or price is available; this is a project-level Google Maps record.",
+      "No must-have criteria supplied to check."
+    ],
+    "confidence": 0.55
+  }
+}

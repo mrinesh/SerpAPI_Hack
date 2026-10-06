@@ -1,0 +1,24 @@
+{
+  "key": "8f417e6e273551bf6d4dc51f39607375d16e118d3a7fd992d1155686dc8fe667",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 15,
+    "verdict": "reject",
+    "matched_criteria": [
+      "property_type: apartment matches requested property types (apartment, plot)",
+      "segment: residential matches requested residential segment"
+    ],
+    "mismatches": [
+      "Budget: evidence lists price ₹85,00,000, which exceeds profile budget_max of ₹80,00,000 by ₹5,00,000."
+    ],
+    "missing_data": [
+      "Locality is query-derived with low confidence (Whitefield) and not independently confirmed; the source page may cover nearby areas.",
+      "Size is computed from price ÷ price per sqft (1240.2 sqft) and is only an estimate; actual size not provided.",
+      "Rental yield or ROI evidence is absent; cannot confirm rental_income goal or 4% target ROI.",
+      "Price is taken from a search snippet and may not represent the final unit asking price; final price not verified."
+    ],
+    "confidence": 0.8
+  }
+}

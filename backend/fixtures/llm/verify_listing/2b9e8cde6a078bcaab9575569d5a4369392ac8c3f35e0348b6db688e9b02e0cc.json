@@ -1,0 +1,25 @@
+{
+  "key": "2b9e8cde6a078bcaab9575569d5a4369392ac8c3f35e0348b6db688e9b02e0cc",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 60,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality matches requested Whitefield (query-derived, confidence 0.5).",
+      "Property type 'apartment' matches requested apartment.",
+      "Segment is residential, matching requested segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price not provided; budget_max_inr 8,000,000 cannot be verified.",
+      "Unit size_sqft not provided; no size comparison possible.",
+      "No bedroom count or specific unit details.",
+      "No rental yield, ROI, or financial metrics; target ROI 4% and rental_income goal cannot be confirmed at this stage.",
+      "Listing is a Google Maps project place, not a verified individual unit with availability or final price.",
+      "Locality and property type are query-derived with low confidence; not independently confirmed for this specific project."
+    ],
+    "confidence": 0.4
+  }
+}

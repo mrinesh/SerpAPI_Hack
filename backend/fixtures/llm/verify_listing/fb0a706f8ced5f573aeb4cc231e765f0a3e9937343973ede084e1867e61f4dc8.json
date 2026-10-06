@@ -1,0 +1,27 @@
+{
+  "key": "fb0a706f8ced5f573aeb4cc231e765f0a3e9937343973ede084e1867e61f4dc8",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 62,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Evidence address is in Bengaluru, Karnataka, matching the requested city.",
+      "Evidence address mentions Whitefield Main Rd, Kadugodi, consistent with the requested Whitefield locality (locality field is query-derived, low confidence).",
+      "Property type in source is apartment complex, matching one of the accepted property_types (apartment, plot), though this is query-derived and low confidence.",
+      "Segment is residential, matching the requested residential segment."
+    ],
+    "mismatches": [
+      "No confirmed mismatches against hard constraints from available evidence."
+    ],
+    "missing_data": [
+      "Asking price is missing, so budget_max_inr of 8,000,000 cannot be verified.",
+      "Unit size and configuration are missing; profile has no size_min/max, but this limits full evaluation.",
+      "No rental income, yield, or other return evidence; goal rental_income and target_roi_pct of 4.0 cannot be assessed.",
+      "Locality and property_type are query-derived from Google Maps search context, not independently verified listing attributes.",
+      "This is a Google Maps project entry, not a priced unit listing; listing status and availability are unknown."
+    ],
+    "confidence": 0.35
+  }
+}

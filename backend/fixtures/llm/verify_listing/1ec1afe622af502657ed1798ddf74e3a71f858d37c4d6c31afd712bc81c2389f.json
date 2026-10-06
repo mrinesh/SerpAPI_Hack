@@ -1,0 +1,26 @@
+{
+  "key": "1ec1afe622af502657ed1798ddf74e3a71f858d37c4d6c31afd712bc81c2389f",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 50,
+    "verdict": "weak",
+    "matched_criteria": [
+      "Locality: Whitefield matches investor profile localities.",
+      "Property type: apartment matches investor profile property_types.",
+      "Segment: residential matches investor profile segment.",
+      "City: Bengaluru matches investor profile city."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is not available for this Google Maps project; cannot confirm budget_max_inr of 8,000,000.",
+      "Unit size is not available; cannot assess requested size constraints (no size_min/max specified).",
+      "Rental income/rental yield evidence is not available; cannot confirm target_roi_pct of 4.0 or goal rental_income.",
+      "Investment metrics (ROI, yield, growth) are not yet available and cannot be confirmed at this stage.",
+      "This is a project-level Google Maps listing, not a specific priced unit; no availability or final unit price is established.",
+      "Query-derived locality and property type have confidence 0.5 and indicate search context only."
+    ],
+    "confidence": 0.55
+  }
+}

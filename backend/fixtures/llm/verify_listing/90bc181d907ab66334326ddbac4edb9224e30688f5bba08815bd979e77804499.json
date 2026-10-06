@@ -1,0 +1,24 @@
+{
+  "key": "90bc181d907ab66334326ddbac4edb9224e30688f5bba08815bd979e77804499",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 72,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: quoted price ₹76,00,000 is below the investor's maximum budget of ₹80,00,000.",
+      "Property type: apartment matches the investor's allowed property types.",
+      "Segment: residential matches the investor's segment.",
+      "Locality: search context indicates Whitefield, one of the investor's preferred localities."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Locality is query-derived only (confidence 0.5); the exact property locality is not verified from an individual listing and the page may cover nearby areas.",
+      "Candidate is a search-page snippet, not a verified individual listing; the asking price and size may not be final or unit-specific.",
+      "Rental yield / ROI cannot be confirmed at this stage; goal and target ROI are investor preferences, not property performance data.",
+      "Bedrooms are not available in the sourced data."
+    ],
+    "confidence": 0.55
+  }
+}

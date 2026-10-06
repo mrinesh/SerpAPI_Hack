@@ -1,0 +1,25 @@
+{
+  "key": "6f94216c0fa0b496446a04a7c55fe9c14e715dde67af14ec3bfe017465145dc7",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: listed ₹60 Lac is within the ₹80 Lac maximum budget",
+      "Property type: apartment matches requested apartment/plot",
+      "Segment: residential matches requested residential segment"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Locality is query-derived with confidence 0.5; final listing address/location is not confirmed and the page may cover nearby areas",
+      "Exact unit size is missing; the 733 sqft figure is a computed estimate from price ÷ rate, not a measured or listed size",
+      "Final asking price is not independently verified; the ₹60 Lac figure is parsed from a search snippet and may not be the final unit price",
+      "No rental income, rental yield, or return data are available, so the 4% rental yield target cannot be confirmed",
+      "Risk appetite cannot be assessed from this snippet",
+      "This is a search-page snippet entry, not a verified individual listing"
+    ],
+    "confidence": 0.55
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key": "e383f4779d06f7d97210a1b70a46cbdb3a0f519c817db1beceb902bb02451c98",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 70,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Property type: candidate is apartment; profile accepts apartment",
+      "Segment: candidate is residential; profile seeks residential",
+      "Locality: candidate locality Whitefield matches requested locality list"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price not available; cannot confirm within budget max ₹80,00,000",
+      "Unit size not available; no profile size constraint but cannot verify size",
+      "No bedroom or status data; candidate is a Google Maps project listing, not a verified individual unit",
+      "Property type and locality are query-derived search context, not a confirmed individual listing",
+      "Rental yield/ROI cannot be confirmed at this stage"
+    ],
+    "confidence": 0.55
+  }
+}
