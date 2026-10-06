@@ -1,0 +1,502 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "flat rent per sq ft in Whitefield Bangalore",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4c12b5e3494799a521bca",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/GwB_5sXAjvwiW2Sr8XWQu0e0HPxMtRkedyIFZ90eltQ/6ac4c12b5e3494799a521bca.json",
+   "markdown_endpoint": "https://serpapi.com/searches/GwB_5sXAjvwiW2Sr8XWQu0e0HPxMtRkedyIFZ90eltQ/6ac4c12b5e3494799a521bca.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/GwB_5sXAjvwiW2Sr8XWQu0e0HPxMtRkedyIFZ90eltQ/6ac4c12b5e3494799a521bca.json_with_pixel_position",
+   "created_at": "2026-10-06 09:36:43 UTC",
+   "processed_at": "2026-10-06 09:36:43 UTC",
+   "google_url": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&oq=flat+rent+per+sq+ft+in+Whitefield+Bangalore&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/GwB_5sXAjvwiW2Sr8XWQu0e0HPxMtRkedyIFZ90eltQ/6ac4c12b5e3494799a521bca.html",
+   "total_time_taken": 0.84
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "flat rent per sq ft in Whitefield Bangalore",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "flat rent per sq ft in Whitefield Bangalore",
+   "total_results": 127,
+   "time_taken_displayed": 0.41,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+   "link": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&udm=local&lsack=K8HEaqvHHvuHw8cPuv7NuQc&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQtgN6BAhMEAM",
+   "image": "https://serpapi.com/searches/6ac4c12b5e3494799a521bca/images/GUO7mR_TS2nhrdFoRHfKnw.png",
+   "gps_coordinates": {
+    "latitude": 12.978631303205383,
+    "longitude": 77.75625228881836
+   }
+  },
+  "local_results": {
+   "places": [
+    {
+     "position": 1,
+     "title": "United Sai Silicon HEIGHTS | Flats Near Hope Farm Junction, Whitefield",
+     "type": "Real Estate Builders & Construction Company",
+     "rating": 4.4,
+     "reviews": 224,
+     "description": "\"The place is around 1.5-2 kms from Whitefield main road yet quite peaceful.\"",
+     "thumbnail": "https://serpapi.com/searches/6ac4c12b5e3494799a521bca/images/L28C1D5dt4lAEttWxMVzalhJAKbnHbkWTrAm-0EPVioCUlSo7PrGOU5v466pgSC_.jpeg",
+     "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SkKMdjAZDaFkOB7T2znAZwrttTc7e28CYmY-r2KGgPElzJlshmjnOUqaQNwwGtn64bvmqhfkDysqJYWHpJ8jdWeaiXctB9c4bX2INdstEXEXlS3DYWeRvNo3D2LErN6yQmtRHU=w1000-h1000-c-n",
+     "links": {
+      "phone": "tel:098806 66189",
+      "website": "https://uniteddevelopers.in/sai-silicon-heights/"
+     },
+     "place_id": "13469217710244323948",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=13469217710244323948&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=0",
+     "provider_id": "/g/11kmb06hsw",
+     "gps_coordinates": {
+      "latitude": 12.974798,
+      "longitude": 77.766971
+     },
+     "address": "Sy. No.113/4 & 113/2, Nagondanahalli, Vijayanagar Main Rd, opposite to Sri Lakshmi Narayana trading, Immadihalli, Whitefield, Karnataka 560066",
+     "hours": "Open · Closes 7 pm",
+     "phone": "098806 66189"
+    },
+    {
+     "position": 2,
+     "title": "Prestige Park View",
+     "type": "Apartment complex",
+     "rating": 4.4,
+     "reviews": 1184,
+     "description": "On-site services",
+     "thumbnail": "https://serpapi.com/searches/6ac4c12b5e3494799a521bca/images/L28C1D5dt4lAEttWxMVzamJSUcVYBIBrd4dCICGpAZIMus988oyhk9kP2XP32seG.jpeg",
+     "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RootgJoYODJo-AuQIKMmJHEZQG85TFJGoV8L4OrDry7O1PphPeuXaOJhOvy9yQq8iS0hVIsL9uZPIEkxcJXPnqj0rQ6M76vZNRCVabvJO8zmjwM0aaiOj6FZt6eyjK5yG1MM8=w1000-h1000-c-n",
+     "place_id": "5697965621454755706",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=5697965621454755706&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=0",
+     "provider_id": "/g/1thmjfk0",
+     "gps_coordinates": {
+      "latitude": 12.985479,
+      "longitude": 77.751513
+     },
+     "address": "Whitefield Main Rd, Kadugodi Colony, Kadugodi, Bengaluru, Karnataka 560066",
+     "hours": "Open 24 hours"
+    },
+    {
+     "position": 3,
+     "title": "Queens & Kings 1Bhk Flat",
+     "type": "Furnished apartment building",
+     "rating": 3.9,
+     "reviews": 30,
+     "thumbnail": "https://serpapi.com/searches/6ac4c12b5e3494799a521bca/images/L28C1D5dt4lAEttWxMVzascL6-v8C77q1Ph4B6HqNJAHnoca7zrBLwIfI9vE7-Yi.jpeg",
+     "thumbnail_large": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZzhiv7s5TnGvj7Yxo16FDS8hvLRnsyaJELfTbkbn1Z3nyimmeKIeQoOr4zfbV8pMTh2xZnwT9BS0FirLDFbC_MReFrJtc-Kg594eo1d4Pn_jyWBeaBHZfjPCYki0vcudkGadySw=w1000-h1000-c-n",
+     "place_id": "14855624635511455765",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=14855624635511455765&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=0",
+     "provider_id": "/g/11slplns6s",
+     "gps_coordinates": {
+      "latitude": 12.980281,
+      "longitude": 77.745425
+     },
+     "address": "21, 4th Cross, White Rose Layout Rd, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066"
+    }
+   ],
+   "more_locations_link": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&udm=local&lsack=K8HEaqvHHvuHw8cPuv7NuQc&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQjGp6BAhQEAE"
+  },
+  "knowledge_graph": {
+   "place_id": "ChIJg_V1r5gNrjsRbGKD_SRG7Lo"
+  },
+  "related_questions": [
+   {
+    "question": "What is the price range for plots in Whitefield, Bangalore?",
+    "type": "ai_overview",
+    "page_token": "Ms3sYXicHdBtbpswAIBh7TL9mQBeMiVSVCmNIWUL1MY22H8mxyY4wXys8crHv91hR-ipeppVO8H76P3zbq9t_fHlr3Guv2-Xy2EYFlXXVbZcqG5xbZfyPrVqqaS1Z6nq7frb2n-8qB18U_unV7VHtO_ZAXvZjG0ZVStRaEb93uWWuyII15Qpx1mfl23isiJ-EW2MZW09SoSngw1Kjs_j6ZYEtIi5JHBgtQ9JoQd1w3fkWYEawREd74T1gACLiVdNaW6Ocg6fMBRTafUeN4MvgM0Y3ADiiQOzRkqrs7L91ORsJQ62QLN-OdPPljdeaR7TjJkpK_DvpDbrlFYzBVqkhPv4aKYcDqOmjiXM_MK5AWUdU5nz-QydwdHJg0b_SKEJeREGGTSBpgakUYJ0wQFpGeZjd0UUz-pmG9psvqrQmpKEz0njgVMD_SzS3zU4rbDfIxo5hNDDRb3twMP_17ufl8Zt-9eu-gf_h47T",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Ms3sYXicHdBtbpswAIBh7TL9mQBeMiVSVCmNIWUL1MY22H8mxyY4wXys8crHv91hR-ipeppVO8H76P3zbq9t_fHlr3Guv2-Xy2EYFlXXVbZcqG5xbZfyPrVqqaS1Z6nq7frb2n-8qB18U_unV7VHtO_ZAXvZjG0ZVStRaEb93uWWuyII15Qpx1mfl23isiJ-EW2MZW09SoSngw1Kjs_j6ZYEtIi5JHBgtQ9JoQd1w3fkWYEawREd74T1gACLiVdNaW6Ocg6fMBRTafUeN4MvgM0Y3ADiiQOzRkqrs7L91ORsJQ62QLN-OdPPljdeaR7TjJkpK_DvpDbrlFYzBVqkhPv4aKYcDqOmjiXM_MK5AWUdU5nz-QydwdHJg0b_SKEJeREGGTSBpgakUYJ0wQFpGeZjd0UUz-pmG9psvqrQmpKEz0njgVMD_SzS3zU4rbDfIxo5hNDDRb3twMP_17ufl8Zt-9eu-gf_h47T",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlUxQTVWVzAxTFZKTFpEZGpVR05XUjNvM1QzaFhXV1JsUWpkVFlYUnBlWGxvYzJ0RVJHRXdOMUU0V0VGT1RETlFSV1UzYTFBemFFRXhaVmN0V1dwMFpHWlNTM2w1VlhWV1lXTkRRVmwwUzI5dmFtNUxkRUp1WkRGRlFSSVhTemhJUldGeGRraElkblZJZHpoalVIVjJOMDUxVVdNYUlrRkVjM0k1WmxGbFdHbFhVekY0ZHpFNE1WcGthRVZRV2pNMGRFaFJhRFJxWVZFIiwiZmN2IjoiMyIsImVpIjoiSzhIRWFxdkhIdnVIdzhjUHV2N051UWMiLCJxYyI6IkNpdG1iR0YwSUhKbGJuUWdjR1Z5SUhOeElHWjBJR2x1SUhkb2FYUmxabWxsYkdRZ1ltRnVaMkZzYjNKbEVBQjlvOFFYUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHByaWNlIHJhbmdlIGZvciBwbG90cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmU/IiwibGsiOiJHaGh3Ykc5MElIQnlhV05sSUdsdUlIZG9hWFJsWm1sbGJHUSIsImJzIjoiYzQyUVBRdkNNQkNHY2Mza0tFSGxCWEh6QXpvSkRnVTNmMEZ4UE5PckNiWkpTU1BGZjI5YVB3Y0Y1M3VlOTk0N2NSRGJURk9BYVJBMG9fWkdNVHpaRTZOd0huWHBRZ05qa1drVHVEQmM1Z3ZzNHBoSzV6bE5wQngxeU1PTFhQdmlCSW5WTTVvc1RNNVV3ck1OZlRBaE9lb3o0dmdqYlMyWDdSX0c4V21JVkV3eWZlMzRkejhVVkxsTDB6bHBNcFhqOWc2MDM0RFljWk5wOWd3VkYtNVJHSnREdWFwaXIweGMzdFNrN29fb2E4VDdQdHJPNWV6VjVMYzBITndBIiwiaWQiOiJmY19LOEhFYXF2SEh2dUh3OGNQdXY3TnVRY18yIn0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlUxQTVWVzAxTFZKTFpEZGpVR05XUjNvM1QzaFhXV1JsUWpkVFlYUnBlWGxvYzJ0RVJHRXdOMUU0V0VGT1RETlFSV1UzYTFBemFFRXhaVmN0V1dwMFpHWlNTM2w1VlhWV1lXTkRRVmwwUzI5dmFtNUxkRUp1WkRGRlFSSVhTemhJUldGeGRraElkblZJZHpoalVIVjJOMDUxVVdNYUlrRkVjM0k1WmxGbFdHbFhVekY0ZHpFNE1WcGthRVZRV2pNMGRFaFJhRFJxWVZFIiwiZmN2IjoiMyIsImVpIjoiSzhIRWFxdkhIdnVIdzhjUHV2N051UWMiLCJxYyI6IkNpdG1iR0YwSUhKbGJuUWdjR1Z5SUhOeElHWjBJR2x1SUhkb2FYUmxabWxsYkdRZ1ltRnVaMkZzYjNKbEVBQjlvOFFYUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHByaWNlIHJhbmdlIGZvciBwbG90cyBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmU%2FIiwibGsiOiJHaGh3Ykc5MElIQnlhV05sSUdsdUlIZG9hWFJsWm1sbGJHUSIsImJzIjoiYzQyUVBRdkNNQkNHY2Mza0tFSGxCWEh6QXpvSkRnVTNmMEZ4UE5PckNiWkpTU1BGZjI5YVB3Y0Y1M3VlOTk0N2NSRGJURk9BYVJBMG9fWkdNVHpaRTZOd0huWHBRZ05qa1drVHVEQmM1Z3ZzNHBoSzV6bE5wQngxeU1PTFhQdmlCSW5WTTVvc1RNNVV3ck1OZlRBaE9lb3o0dmdqYlMyWDdSX0c4V21JVkV3eWZlMzRkejhVVkxsTDB6bHBNcFhqOWc2MDM0RFljWk5wOWd3VkYtNVJHSnREdWFwaXIweGMzdFNrN29fb2E4VDdQdHJPNWV6VjVMYzBITndBIiwiaWQiOiJmY19LOEhFYXF2SEh2dUh3OGNQdXY3TnVRY18yIn0%3D"
+   },
+   {
+    "question": "What is an ideal rent for a 2bhk at Bangalore?",
+    "type": "ai_overview",
+    "page_token": "ucbbhnicHdDbbtowAIBh7WV6CXXCmEBCk1JsQ1oc2fEhzs3kOIEAzmFtmtPd3mGPsKfq07TaA_z6pP_PP3et7x_f_pZd175tl8thGBaXprm4YmGbxbVemreptktrnMuMvW_XP9bg59nuYG-Dp1cbUNG2cs8eYy6nHI8hcXKdC1lpBYCZWWAQ6-MbUbYmI0cyUjf0PVU5FjPRhaJjltBJHdhMAHrKZDBx52h6CI6yLiEBYVdA0AqUxnoOlYHsKO4bxvaoY3dwZKqcyAznvCon6jY4A7kuMOv5FbybW4qLun02uIUKu8aidoowoHEVRqxm58xbDcnj6JHqtCpqxDO0mShnyHCyj_H4zg7aZ072BLpn7mmfoGCdihTZ6jTAMn-JYIl0grwYll4uSj_ChOaJ9nktmR6bKxVstjdXSRS-fHUri0oWJ_K3Tdq9cM77snnugv6ETmM6PJxtv_Mf_r_e_TpX3bZ9bS6fbjWOng",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ucbbhnicHdDbbtowAIBh7WV6CXXCmEBCk1JsQ1oc2fEhzs3kOIEAzmFtmtPd3mGPsKfq07TaA_z6pP_PP3et7x_f_pZd175tl8thGBaXprm4YmGbxbVemreptktrnMuMvW_XP9bg59nuYG-Dp1cbUNG2cs8eYy6nHI8hcXKdC1lpBYCZWWAQ6-MbUbYmI0cyUjf0PVU5FjPRhaJjltBJHdhMAHrKZDBx52h6CI6yLiEBYVdA0AqUxnoOlYHsKO4bxvaoY3dwZKqcyAznvCon6jY4A7kuMOv5FbybW4qLun02uIUKu8aidoowoHEVRqxm58xbDcnj6JHqtCpqxDO0mShnyHCyj_H4zg7aZ072BLpn7mmfoGCdihTZ6jTAMn-JYIl0grwYll4uSj_ChOaJ9nktmR6bKxVstjdXSRS-fHUri0oWJ_K3Tdq9cM77snnugv6ETmM6PJxtv_Mf_r_e_TpX3bZ9bS6fbjWOng",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlUxQTVWVzAxTFZKTFpEZGpVR05XUjNvM1QzaFhXV1JsUWpkVFlYUnBlWGxvYzJ0RVJHRXdOMUU0V0VGT1RETlFSV1UzYTFBemFFRXhaVmN0V1dwMFpHWlNTM2w1VlhWV1lXTkRRVmwwUzI5dmFtNUxkRUp1WkRGRlFSSVhTemhJUldGeGRraElkblZJZHpoalVIVjJOMDUxVVdNYUlrRkVjM0k1WmxGbFdHbFhVekY0ZHpFNE1WcGthRVZRV2pNMGRFaFJhRFJxWVZFIiwiZmN2IjoiMyIsImVpIjoiSzhIRWFxdkhIdnVIdzhjUHV2N051UWMiLCJxYyI6IkNpdG1iR0YwSUhKbGJuUWdjR1Z5SUhOeElHWjBJR2x1SUhkb2FYUmxabWxsYkdRZ1ltRnVaMkZzYjNKbEVBQjlvOFFYUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgYW4gaWRlYWwgcmVudCBmb3IgYSAyYmhrIGF0IEJhbmdhbG9yZT8iLCJsayI6IkdpMTNhR0YwSUdseklHRnVJR2xrWldGc0lISmxiblFnWm05eUlHRWdNbUpvYXlCaGRDQmlZVzVuWVd4dmNtVSIsImJzIjoiYzQyUVBRdkNNQkNHY2Mza0tFSGxCWEh6QXpvSkRnVTNmMEZ4UE5PckNiWkpTU1BGZjI5YVB3Y0Y1M3VlOTk0N2NSRGJURk9BYVJBMG9fWkdNVHpaRTZOd0huWHBRZ05qa1drVHVEQmM1Z3ZzNHBoSzV6bE5wQngxeU1PTFhQdmlCSW5WTTVvc1RNNVV3ck1OZlRBaE9lb3o0dmdqYlMyWDdSX0c4V21JVkV3eWZlMzRkejhVVkxsTDB6bHBNcFhqOWc2MDM0RFljWk5wOWd3VkYtNVJHSnREdWFwaXIweGMzdFNrN29fb2E4VDdQdHJPNWV6VjVMYzBITndBIiwiaWQiOiJmY19LOEhFYXF2SEh2dUh3OGNQdXY3TnVRY18yIn0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlUxQTVWVzAxTFZKTFpEZGpVR05XUjNvM1QzaFhXV1JsUWpkVFlYUnBlWGxvYzJ0RVJHRXdOMUU0V0VGT1RETlFSV1UzYTFBemFFRXhaVmN0V1dwMFpHWlNTM2w1VlhWV1lXTkRRVmwwUzI5dmFtNUxkRUp1WkRGRlFSSVhTemhJUldGeGRraElkblZJZHpoalVIVjJOMDUxVVdNYUlrRkVjM0k1WmxGbFdHbFhVekY0ZHpFNE1WcGthRVZRV2pNMGRFaFJhRFJxWVZFIiwiZmN2IjoiMyIsImVpIjoiSzhIRWFxdkhIdnVIdzhjUHV2N051UWMiLCJxYyI6IkNpdG1iR0YwSUhKbGJuUWdjR1Z5SUhOeElHWjBJR2x1SUhkb2FYUmxabWxsYkdRZ1ltRnVaMkZzYjNKbEVBQjlvOFFYUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgYW4gaWRlYWwgcmVudCBmb3IgYSAyYmhrIGF0IEJhbmdhbG9yZT8iLCJsayI6IkdpMTNhR0YwSUdseklHRnVJR2xrWldGc0lISmxiblFnWm05eUlHRWdNbUpvYXlCaGRDQmlZVzVuWVd4dmNtVSIsImJzIjoiYzQyUVBRdkNNQkNHY2Mza0tFSGxCWEh6QXpvSkRnVTNmMEZ4UE5PckNiWkpTU1BGZjI5YVB3Y0Y1M3VlOTk0N2NSRGJURk9BYVJBMG9fWkdNVHpaRTZOd0huWHBRZ05qa1drVHVEQmM1Z3ZzNHBoSzV6bE5wQngxeU1PTFhQdmlCSW5WTTVvc1RNNVV3ck1OZlRBaE9lb3o0dmdqYlMyWDdSX0c4V21JVkV3eWZlMzRkejhVVkxsTDB6bHBNcFhqOWc2MDM0RFljWk5wOWd3VkYtNVJHSnREdWFwaXIweGMzdFNrN29fb2E4VDdQdHJPNWV6VjVMYzBITndBIiwiaWQiOiJmY19LOEhFYXF2SEh2dUh3OGNQdXY3TnVRY18yIn0%3D"
+   },
+   {
+    "question": "Why is Whitefield famous for?",
+    "type": "ai_overview",
+    "page_token": "Sq55SnicHdBLbuIwAABQzWVYghNrmIKEKoXYQEqcsWM7iTejYAMGnE8hNCm73qWn6mmqzg2e3senO9WXr1-D7br2Np9M-r4fH5vm6PZj3YxP9aS8vdd6okvndqW-zKd_pt7zQS_QfRMsXzcBFW0rQwbSR_CeXjyfYWJVLUuDLOROXVNv9lKAxku4rVjFGMtsI0DHVI7v2tmbXLsoB_LChA0FjtQOBoESZBp7BMiw-F08RC8RhrrqKpMNVwJcv4MRN8hZ6txZrzqRcQ22eUD3MoqSNQXZypQ0N00KyZYCVZOqfeE_MkhidT76BpNcAYcNmoUcGR6j2U2tGBf-05DwyI-hhciabYIsLnLsp8j6RliYrAg1eQF5LVkxNCcq2EOfXSUeUUyz7p6GUhUQ_1VVtOR-u5HILNm6TVIxlKofHfTbAo7-fy7-Hapu3l6b4zcXDYIK",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Sq55SnicHdBLbuIwAABQzWVYghNrmIKEKoXYQEqcsWM7iTejYAMGnE8hNCm73qWn6mmqzg2e3senO9WXr1-D7br2Np9M-r4fH5vm6PZj3YxP9aS8vdd6okvndqW-zKd_pt7zQS_QfRMsXzcBFW0rQwbSR_CeXjyfYWJVLUuDLOROXVNv9lKAxku4rVjFGMtsI0DHVI7v2tmbXLsoB_LChA0FjtQOBoESZBp7BMiw-F08RC8RhrrqKpMNVwJcv4MRN8hZ6txZrzqRcQ22eUD3MoqSNQXZypQ0N00KyZYCVZOqfeE_MkhidT76BpNcAYcNmoUcGR6j2U2tGBf-05DwyI-hhciabYIsLnLsp8j6RliYrAg1eQF5LVkxNCcq2EOfXSUeUUyz7p6GUhUQ_1VVtOR-u5HILNm6TVIxlKofHfTbAo7-fy7-Hapu3l6b4zcXDYIK",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlUxQTVWVzAxTFZKTFpEZGpVR05XUjNvM1QzaFhXV1JsUWpkVFlYUnBlWGxvYzJ0RVJHRXdOMUU0V0VGT1RETlFSV1UzYTFBemFFRXhaVmN0V1dwMFpHWlNTM2w1VlhWV1lXTkRRVmwwUzI5dmFtNUxkRUp1WkRGRlFSSVhTemhJUldGeGRraElkblZJZHpoalVIVjJOMDUxVVdNYUlrRkVjM0k1WmxGbFdHbFhVekY0ZHpFNE1WcGthRVZRV2pNMGRFaFJhRFJxWVZFIiwiZmN2IjoiMyIsImVpIjoiSzhIRWFxdkhIdnVIdzhjUHV2N051UWMiLCJxYyI6IkNpdG1iR0YwSUhKbGJuUWdjR1Z5SUhOeElHWjBJR2x1SUhkb2FYUmxabWxsYkdRZ1ltRnVaMkZzYjNKbEVBQjlvOFFYUHciLCJxdWVzdGlvbiI6IldoeSBpcyBXaGl0ZWZpZWxkIGZhbW91cyBmb3I/IiwibGsiOiJHaHgzYUhrZ2FYTWdkMmhwZEdWbWFXVnNaQ0JtWVcxdmRYTWdabTl5IiwiYnMiOiJjNDJRUFF2Q01CQ0djYzNrS0VIbEJYSHpBem9KRGdVM2YwRnhQTk9yQ2JaSlNTUEZmMjlhUHdjRjUzdWU5OTQ3Y1JEYlRGT0FhUkEwb19aR01UelpFNk53SG5YcFFnTmprV2tUdURCYzVndnM0cGhLNXpsTnBCeDF5TU9MWFB2aUJJblZNNW9zVE01VXdyTU5mVEFoT2VvejR2Z2piUzJYN1JfRzhXbUlWRXd5ZmUzNGR6OFVWTGxMMHpscE1wWGo5ZzYwMzREWWNaTnA5Z3dWRi01UkdKdER1YXBpcjB4YzN0U2s3b19vYThUN1B0ck81ZXpWNUxjMEhOd0EiLCJpZCI6ImZjX0s4SEVhcXZISHZ1SHc4Y1B1djdOdVFjXzIifQ==",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlUxQTVWVzAxTFZKTFpEZGpVR05XUjNvM1QzaFhXV1JsUWpkVFlYUnBlWGxvYzJ0RVJHRXdOMUU0V0VGT1RETlFSV1UzYTFBemFFRXhaVmN0V1dwMFpHWlNTM2w1VlhWV1lXTkRRVmwwUzI5dmFtNUxkRUp1WkRGRlFSSVhTemhJUldGeGRraElkblZJZHpoalVIVjJOMDUxVVdNYUlrRkVjM0k1WmxGbFdHbFhVekY0ZHpFNE1WcGthRVZRV2pNMGRFaFJhRFJxWVZFIiwiZmN2IjoiMyIsImVpIjoiSzhIRWFxdkhIdnVIdzhjUHV2N051UWMiLCJxYyI6IkNpdG1iR0YwSUhKbGJuUWdjR1Z5SUhOeElHWjBJR2x1SUhkb2FYUmxabWxsYkdRZ1ltRnVaMkZzYjNKbEVBQjlvOFFYUHciLCJxdWVzdGlvbiI6IldoeSBpcyBXaGl0ZWZpZWxkIGZhbW91cyBmb3I%2FIiwibGsiOiJHaHgzYUhrZ2FYTWdkMmhwZEdWbWFXVnNaQ0JtWVcxdmRYTWdabTl5IiwiYnMiOiJjNDJRUFF2Q01CQ0djYzNrS0VIbEJYSHpBem9KRGdVM2YwRnhQTk9yQ2JaSlNTUEZmMjlhUHdjRjUzdWU5OTQ3Y1JEYlRGT0FhUkEwb19aR01UelpFNk53SG5YcFFnTmprV2tUdURCYzVndnM0cGhLNXpsTnBCeDF5TU9MWFB2aUJJblZNNW9zVE01VXdyTU5mVEFoT2VvejR2Z2piUzJYN1JfRzhXbUlWRXd5ZmUzNGR6OFVWTGxMMHpscE1wWGo5ZzYwMzREWWNaTnA5Z3dWRi01UkdKdER1YXBpcjB4YzN0U2s3b19vYThUN1B0ck81ZXpWNUxjMEhOd0EiLCJpZCI6ImZjX0s4SEVhcXZISHZ1SHc4Y1B1djdOdVFjXzIifQ%3D%3D"
+   },
+   {
+    "question": "Where can I find commercial space for rent in Bangalore?",
+    "type": "ai_overview",
+    "page_token": "o71UgHicHdBdkpowAADg6WX2UfkpdnTG6SyS0MY1NCEJhJcOJipKCOgiCm-9Q4-wp9rTdKbfEb4_H-Zs688vf6u-795X8_nj8Zid2vZkDjPVzs52Xr6PVs1Vacy-VPVq8W3hfj-qNRhUuLmpkPCuExF10ikcmV8gDLpBje41Y5iX8GcgnSURoIO7STDsoLuO0CBgEZZZf9Y2fJOONtozkrIiVjWyWa23-8w0fHoNNIB3WRuGveJ-sMTNouKSgv6WwtChjrkxn44HjvguRwnN6SKJiCcg4mkkghIqv5xefRWjxc4RVxaLhE2qP2Russ_1L3Yxzz3DUoBnqxthaI6gbICLIzhh0A8pbwORLavUxwlm6Cu2bcDAMtb25IBKvyWggjKHXgoqT_PKT2JMdC59ZgWVz_ZMOJ3UxTQiplvMCyhiZMgl3NAfGLHR3RZef1U1DYhrNoS8HNWw9l_-X69_H5t-1d3a0z_cQ4wT",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=o71UgHicHdBdkpowAADg6WX2UfkpdnTG6SyS0MY1NCEJhJcOJipKCOgiCm-9Q4-wp9rTdKbfEb4_H-Zs688vf6u-795X8_nj8Zid2vZkDjPVzs52Xr6PVs1Vacy-VPVq8W3hfj-qNRhUuLmpkPCuExF10ikcmV8gDLpBje41Y5iX8GcgnSURoIO7STDsoLuO0CBgEZZZf9Y2fJOONtozkrIiVjWyWa23-8w0fHoNNIB3WRuGveJ-sMTNouKSgv6WwtChjrkxn44HjvguRwnN6SKJiCcg4mkkghIqv5xefRWjxc4RVxaLhE2qP2Russ_1L3Yxzz3DUoBnqxthaI6gbICLIzhh0A8pbwORLavUxwlm6Cu2bcDAMtb25IBKvyWggjKHXgoqT_PKT2JMdC59ZgWVz_ZMOJ3UxTQiplvMCyhiZMgl3NAfGLHR3RZef1U1DYhrNoS8HNWw9l_-X69_H5t-1d3a0z_cQ4wT",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlUxQTVWVzAxTFZKTFpEZGpVR05XUjNvM1QzaFhXV1JsUWpkVFlYUnBlWGxvYzJ0RVJHRXdOMUU0V0VGT1RETlFSV1UzYTFBemFFRXhaVmN0V1dwMFpHWlNTM2w1VlhWV1lXTkRRVmwwUzI5dmFtNUxkRUp1WkRGRlFSSVhTemhJUldGeGRraElkblZJZHpoalVIVjJOMDUxVVdNYUlrRkVjM0k1WmxGbFdHbFhVekY0ZHpFNE1WcGthRVZRV2pNMGRFaFJhRFJxWVZFIiwiZmN2IjoiMyIsImVpIjoiSzhIRWFxdkhIdnVIdzhjUHV2N051UWMiLCJxYyI6IkNpdG1iR0YwSUhKbGJuUWdjR1Z5SUhOeElHWjBJR2x1SUhkb2FYUmxabWxsYkdRZ1ltRnVaMkZzYjNKbEVBQjlvOFFYUHciLCJxdWVzdGlvbiI6IldoZXJlIGNhbiBJIGZpbmQgY29tbWVyY2lhbCBzcGFjZSBmb3IgcmVudCBpbiBCYW5nYWxvcmU/IiwibGsiOiJHaU5pWVc1bllXeHZjbVVnWTI5dGJXVnlZMmxoYkNCemNHRmpaU0JtYjNJZ2NtVnVkQSIsImJzIjoiYzQyUVBRdkNNQkNHY2Mza0tFSGxCWEh6QXpvSkRnVTNmMEZ4UE5PckNiWkpTU1BGZjI5YVB3Y0Y1M3VlOTk0N2NSRGJURk9BYVJBMG9fWkdNVHpaRTZOd0huWHBRZ05qa1drVHVEQmM1Z3ZzNHBoSzV6bE5wQngxeU1PTFhQdmlCSW5WTTVvc1RNNVV3ck1OZlRBaE9lb3o0dmdqYlMyWDdSX0c4V21JVkV3eWZlMzRkejhVVkxsTDB6bHBNcFhqOWc2MDM0RFljWk5wOWd3VkYtNVJHSnREdWFwaXIweGMzdFNrN29fb2E4VDdQdHJPNWV6VjVMYzBITndBIiwiaWQiOiJmY19LOEhFYXF2SEh2dUh3OGNQdXY3TnVRY18yIn0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlUxQTVWVzAxTFZKTFpEZGpVR05XUjNvM1QzaFhXV1JsUWpkVFlYUnBlWGxvYzJ0RVJHRXdOMUU0V0VGT1RETlFSV1UzYTFBemFFRXhaVmN0V1dwMFpHWlNTM2w1VlhWV1lXTkRRVmwwUzI5dmFtNUxkRUp1WkRGRlFSSVhTemhJUldGeGRraElkblZJZHpoalVIVjJOMDUxVVdNYUlrRkVjM0k1WmxGbFdHbFhVekY0ZHpFNE1WcGthRVZRV2pNMGRFaFJhRFJxWVZFIiwiZmN2IjoiMyIsImVpIjoiSzhIRWFxdkhIdnVIdzhjUHV2N051UWMiLCJxYyI6IkNpdG1iR0YwSUhKbGJuUWdjR1Z5SUhOeElHWjBJR2x1SUhkb2FYUmxabWxsYkdRZ1ltRnVaMkZzYjNKbEVBQjlvOFFYUHciLCJxdWVzdGlvbiI6IldoZXJlIGNhbiBJIGZpbmQgY29tbWVyY2lhbCBzcGFjZSBmb3IgcmVudCBpbiBCYW5nYWxvcmU%2FIiwibGsiOiJHaU5pWVc1bllXeHZjbVVnWTI5dGJXVnlZMmxoYkNCemNHRmpaU0JtYjNJZ2NtVnVkQSIsImJzIjoiYzQyUVBRdkNNQkNHY2Mza0tFSGxCWEh6QXpvSkRnVTNmMEZ4UE5PckNiWkpTU1BGZjI5YVB3Y0Y1M3VlOTk0N2NSRGJURk9BYVJBMG9fWkdNVHpaRTZOd0huWHBRZ05qa1drVHVEQmM1Z3ZzNHBoSzV6bE5wQngxeU1PTFhQdmlCSW5WTTVvc1RNNVV3ck1OZlRBaE9lb3o0dmdqYlMyWDdSX0c4V21JVkV3eWZlMzRkejhVVkxsTDB6bHBNcFhqOWc2MDM0RFljWk5wOWd3VkYtNVJHSnREdWFwaXIweGMzdFNrN29fb2E4VDdQdHJPNWV6VjVMYzBITndBIiwiaWQiOiJmY19LOEhFYXF2SEh2dUh3OGNQdXY3TnVRY18yIn0%3D"
+   }
+  ],
+  "ai_overview": {
+   "page_token": "jFKcfHiczZbJcuo4FIYfoJ-jvSEBY0anynVLVjwCAScMgY3LyEYGT-CBIbt-l36qfpZetGyGmDB07l10tRbIsnSOjo7Pp58__nTnvvPXb3_bcbyMnkqlzWZTxEGAXauIguLcLxnRzkelWeBGIbJ_REESImtucsgOA8-ibJezfAq73NynksS1uE0BAkVToDLRvGEyYcTIfFfLbSG2kVezTUkMx29bdeq9LscatVtzFQpFHE1Zc67VlAVjtZbldSJvmqiXrBsviYaoLABOnxqRtSARbhdRSS-RH-f3yjMZFKOi5esSX-yzIyYQ12oMNkWGZirFbsnwyBrwnzasgDHp1PRZuLmKBwB-x5tAXPBK3hHPZ13OGpNpPu0ULRuLd7xlZoKGswhI07eLj2diJuHjGuem9dmMtHegKVkvEHOofOdAuWDOgr1nfGsOn3nI0n4-dbXxfH5SARB3QE8B9nVjkvuz7UmunvfvEVCacpUn30O7EztoYdCdAMHe295rA16yTnuLEdlGKJmYFDBdmoakK5fmyEbZQxildQ37LB2I1bBdab274apW323lXvN97UnLmadJHa2EpmSdGximZeq2Tv_IxmWmXKPZSqP5kDGFohNUUR4qyZvqr03Eio2g2C7y5SNOMP9B8kdK3w6unZFPq1U4ltzXBlPDCzMIgzMXhwXkY3QggOfwQFFO03YCnTxsMUjOi-CIEAaXOMFjJJ8Rk3XHPV-1k_VZmIrAz3MW-dPJX49DfF-eHnf3lpCU7t7zoTQF8PV6gAKfMnYKYJOfTC8TSKDm9zCsqsr-oJ1cKdOCenEbpamwielheOD7-HHH-fSlOSC3BolTBQovKH2RXEvwuDsJ75AhgtOeh89MKVdZTDNMTqvdviLvtcG3VglHbr5gkMdHfmOqgrZQLUPgpZ7YE8eJ3ASrelJjwXVcAm_6cyKE_m9MHSUqXSDcYwp-hykiUfiKRB387Z2eJEo9SNRtpsSMqYNEpY6OEiVfSNQlU06eKUnLpl-DGxL1s0wpd5g6Ob7KlHiNKXybqUyi8kzZHY1I1PYzTVcl6pOpX5Gowa9KVIaYte_O9SpZ4Ju6Jbx0naHgLKRHsT_ooRbLvIHWsxGC9w3-V92aefGTZ5jugz43n3hGjXfmg05eBE-WSa24mWvEhdDy48LSCgvRqjCLC3O_MLLnsTWbW65Z4A0fG24QWpTnhgFHG_Wlp8zKYMfTQHbaUb9vQ6bTa0ij9TDwNBRJbDgaD5E7Ehp69ZGersaNbbdRfYGzx1cghv2wO5h8qO3Nx6I23ShBXVFbjrtj6anbVR5Hy5HuxI5ms_UoakGxxtLlSYd-fm8MG8MEL4zeBPqzaZ_Wt2zohM4kiyri_L66RoG72koBRU4XWVyZ8kLEkSKpYvCigRHmEYCkgiAGAyMg_QZoUp2UAM-Q6qEiZOhWRP5km1WjWWYQi5BZmzEG5eF4t-SqFSryQ678DyMyaFs",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=jFKcfHiczZbJcuo4FIYfoJ-jvSEBY0anynVLVjwCAScMgY3LyEYGT-CBIbt-l36qfpZetGyGmDB07l10tRbIsnSOjo7Pp58__nTnvvPXb3_bcbyMnkqlzWZTxEGAXauIguLcLxnRzkelWeBGIbJ_REESImtucsgOA8-ibJezfAq73NynksS1uE0BAkVToDLRvGEyYcTIfFfLbSG2kVezTUkMx29bdeq9LscatVtzFQpFHE1Zc67VlAVjtZbldSJvmqiXrBsviYaoLABOnxqRtSARbhdRSS-RH-f3yjMZFKOi5esSX-yzIyYQ12oMNkWGZirFbsnwyBrwnzasgDHp1PRZuLmKBwB-x5tAXPBK3hHPZ13OGpNpPu0ULRuLd7xlZoKGswhI07eLj2diJuHjGuem9dmMtHegKVkvEHOofOdAuWDOgr1nfGsOn3nI0n4-dbXxfH5SARB3QE8B9nVjkvuz7UmunvfvEVCacpUn30O7EztoYdCdAMHe295rA16yTnuLEdlGKJmYFDBdmoakK5fmyEbZQxildQ37LB2I1bBdab274apW323lXvN97UnLmadJHa2EpmSdGximZeq2Tv_IxmWmXKPZSqP5kDGFohNUUR4qyZvqr03Eio2g2C7y5SNOMP9B8kdK3w6unZFPq1U4ltzXBlPDCzMIgzMXhwXkY3QggOfwQFFO03YCnTxsMUjOi-CIEAaXOMFjJJ8Rk3XHPV-1k_VZmIrAz3MW-dPJX49DfF-eHnf3lpCU7t7zoTQF8PV6gAKfMnYKYJOfTC8TSKDm9zCsqsr-oJ1cKdOCenEbpamwielheOD7-HHH-fSlOSC3BolTBQovKH2RXEvwuDsJ75AhgtOeh89MKVdZTDNMTqvdviLvtcG3VglHbr5gkMdHfmOqgrZQLUPgpZ7YE8eJ3ASrelJjwXVcAm_6cyKE_m9MHSUqXSDcYwp-hykiUfiKRB387Z2eJEo9SNRtpsSMqYNEpY6OEiVfSNQlU06eKUnLpl-DGxL1s0wpd5g6Ob7KlHiNKXybqUyi8kzZHY1I1PYzTVcl6pOpX5Gowa9KVIaYte_O9SpZ4Ju6Jbx0naHgLKRHsT_ooRbLvIHWsxGC9w3-V92aefGTZ5jugz43n3hGjXfmg05eBE-WSa24mWvEhdDy48LSCgvRqjCLC3O_MLLnsTWbW65Z4A0fG24QWpTnhgFHG_Wlp8zKYMfTQHbaUb9vQ6bTa0ij9TDwNBRJbDgaD5E7Ehp69ZGersaNbbdRfYGzx1cghv2wO5h8qO3Nx6I23ShBXVFbjrtj6anbVR5Hy5HuxI5ms_UoakGxxtLlSYd-fm8MG8MEL4zeBPqzaZ_Wt2zohM4kiyri_L66RoG72koBRU4XWVyZ8kLEkSKpYvCigRHmEYCkgiAGAyMg_QZoUp2UAM-Q6qEiZOhWRP5km1WjWWYQi5BZmzEG5eF4t-SqFSryQ678DyMyaFs"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Houses for rent in Whitefield-bengaluru-karnataka-india for ...",
+    "link": "https://www.rentmystay.com/whitefield-bengaluru-karnataka-india/all",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfgHrOzAVNFW3P5fBTCIJIl18OFUiASDjPzG2-p52dThNWx-2LoA10CU822gyeDytS3Tbk9J3LQo47wDcDnRwnHnNtS7x9Hw6Iuqo2kNcSzsncrupY2eYZPTjfiiOUByGq-wnYxYDvDzzvEJChSYej6BBG_o9CjUbSKlCc4yFjw&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECCwQAQ&uoh=1",
+    "displayed_link": "https://www.rentmystay.com › all",
+    "favicon": "https://serpapi.com/images/i/UklGRqAAAABXRUJQVlA4IJQAAABwBACdASocABwAPsEusFgnoaenm_DwGAlsAJ0yhHA3lbjAAIqMx45kwrAGsADWN52jKYESB5tRrjWNC7Hs0n-Hy7_2fnew5-f_iz2GC1oMN4_SHjVEEMnMWuWTuZWTcMgR3G7FMIlpRFf9Lpzv_4L_Rum2eh07kIw9Khnfg_FiujPvttOJ2L50DHQpQNYhsK9-QAAA.webp",
+    "snippet": "starting 7k/month Service apartments, All these types of flats range from 15K to 35K subjected to the type of flat, locality and furnishing status.",
+    "snippet_highlighted_words": [
+     "flats",
+     "flat"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "starting 7k/month Service apartments, All these types of flats range from 15K to 35K subjected to the type of flat, locality and furnishing status.",
+      "source_info_link": "https://www.rentmystay.com/whitefield-bengaluru-karnataka-india/all",
+      "icon": "https://serpapi.com/images/i/UklGRqAAAABXRUJQVlA4IJQAAABwBACdASocABwAPsEusFgnoaenm_DwGAlsAJ0yhHA3lbjAAIqMx45kwrAGsADWN52jKYESB5tRrjWNC7Hs0n-Hy7_2fnew5-f_iz2GC1oMN4_SHjVEEMnMWuWTuZWTcMgR3G7FMIlpRFf9Lpzv_4L_Rum2eh07kIw9Khnfg_FiujPvttOJ2L50DHQpQNYhsK9-QAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrgBL2dvdG8_dXJsPUNBRVNmZ0hyT3pBVk5GVzNQNWZCVENJSklsMThPRlVpQVNEalB6RzItcDUyZFRoTld4LTJMb0ExMENVODIyZ3llRHl0UzNUYms5SjNMUW80N3dEY0RuUnduSG5OdFM3eDlIdzZJdXFvMmtOY1N6c25jcnVwWTJlWVpQVGpmaWlPVUJ5R3Etd25ZeFlEdkR6enZFSkNoU1llajZCQkdfbzlDalViU0tsQ2M0eUZqdxIEGgIIABrvBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQLcHCAAQABgAIAAqHAoEZmxhdBUdHkhAGgVmbGF0cxoIZmxhdHJlbnQqPgoEcmVudBVOJ5lAGg9hcGFydG1lbnRzIG5lYXIaBnJlbnRhbBoHcmVudGFscxoFcmVudHMaCGZsYXRyZW50KjEKA3BlchUAAAAAGgJieRoFZXZlcnkaBWZvciBhGgNwc2YaBXBlcnNxGgdwZXJzcWZ0KlQKAnNxFQAAAAAaA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHc3F1YXJlZBoFcGVyc3EaB3BlcnNxZnQaBHNxZnQaB2l2O3A7c3EqUAoCZnQVAAAAABoEZmVldBoHZmVldCB0bxoEZm9vdBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdwZXJzcWZ0GgRzcWZ0KgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBXIpGNAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRV2JmI_GgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTK4AS9nb3RvP3VybD1DQUVTZmdIck96QVZORlczUDVmQlRDSUpJbDE4T0ZVaUFTRGpQekcyLXA1MmRUaE5XeC0yTG9BMTBDVTgyMmd5ZUR5dFMzVGJrOUozTFFvNDd3RGNEblJ3bkhuTnRTN3g5SHc2SXVxbzJrTmNTenNuY3J1cFkyZVlaUFRqZmlpT1VCeUdxLXduWXhZRHZEenp2RUpDaFNZZWo2QkJHX285Q2pVYlNLbENjNHlGanc6VEhvdXNlcyBmb3IgPGI-cmVudDwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4tPGI-YmVuZ2FsdXJ1PC9iPi1rYXJuYXRha2EtaW5kaWEgZm9yIC4uLkKhAXN0YXJ0aW5nIDdrL21vbnRoIFNlcnZpY2UgYXBhcnRtZW50cywgQWxsIHRoZXNlIHR5cGVzIG9mIDxiPmZsYXRzPC9iPiByYW5nZSBmcm9tIDE1SyB0byAzNUsgc3ViamVjdGVkIHRvIHRoZSB0eXBlIG9mIDxiPmZsYXQ8L2I-LCBsb2NhbGl0eSBhbmQgZnVybmlzaGluZyBzdGF0dXMuSgJpblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrgBL2dvdG8_dXJsPUNBRVNmZ0hyT3pBVk5GVzNQNWZCVENJSklsMThPRlVpQVNEalB6RzItcDUyZFRoTld4LTJMb0ExMENVODIyZ3llRHl0UzNUYms5SjNMUW80N3dEY0RuUnduSG5OdFM3eDlIdzZJdXFvMmtOY1N6c25jcnVwWTJlWVpQVGpmaWlPVUJ5R3Etd25ZeFlEdkR6enZFSkNoU1llajZCQkdfbzlDalViU0tsQ2M0eUZqdxIEGgIIABrvBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQLcHCAAQABgAIAAqHAoEZmxhdBUdHkhAGgVmbGF0cxoIZmxhdHJlbnQqPgoEcmVudBVOJ5lAGg9hcGFydG1lbnRzIG5lYXIaBnJlbnRhbBoHcmVudGFscxoFcmVudHMaCGZsYXRyZW50KjEKA3BlchUAAAAAGgJieRoFZXZlcnkaBWZvciBhGgNwc2YaBXBlcnNxGgdwZXJzcWZ0KlQKAnNxFQAAAAAaA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHc3F1YXJlZBoFcGVyc3EaB3BlcnNxZnQaBHNxZnQaB2l2O3A7c3EqUAoCZnQVAAAAABoEZmVldBoHZmVldCB0bxoEZm9vdBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdwZXJzcWZ0GgRzcWZ0KgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBXIpGNAGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRV2JmI_GgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTK4AS9nb3RvP3VybD1DQUVTZmdIck96QVZORlczUDVmQlRDSUpJbDE4T0ZVaUFTRGpQekcyLXA1MmRUaE5XeC0yTG9BMTBDVTgyMmd5ZUR5dFMzVGJrOUozTFFvNDd3RGNEblJ3bkhuTnRTN3g5SHc2SXVxbzJrTmNTenNuY3J1cFkyZVlaUFRqZmlpT1VCeUdxLXduWXhZRHZEenp2RUpDaFNZZWo2QkJHX285Q2pVYlNLbENjNHlGanc6VEhvdXNlcyBmb3IgPGI-cmVudDwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4tPGI-YmVuZ2FsdXJ1PC9iPi1rYXJuYXRha2EtaW5kaWEgZm9yIC4uLkKhAXN0YXJ0aW5nIDdrL21vbnRoIFNlcnZpY2UgYXBhcnRtZW50cywgQWxsIHRoZXNlIHR5cGVzIG9mIDxiPmZsYXRzPC9iPiByYW5nZSBmcm9tIDE1SyB0byAzNUsgc3ViamVjdGVkIHRvIHRoZSB0eXBlIG9mIDxiPmZsYXQ8L2I-LCBsb2NhbGl0eSBhbmQgZnVybmlzaGluZyBzdGF0dXMuSgJpblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "source": "RentMyStay"
+   },
+   {
+    "position": 2,
+    "title": "1 bhk & 2 bhk Furnished Flats For Rent in Whitefield, ...",
+    "link": "https://www.facebook.com/groups/1817115108455185/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbAHrOzAV0kdkMk7Iag91H4sp2LQveOo9EGkbGKEsC6jFrg3yw88PAgxu77cc39-8zeKIRsT3p_r-XtVmz0QU1ks1n5laKxZyg6z1s7885RAvYwFwEvQ5jhMy5oVysrQGTFUaHgMbyWFt4rTKJA&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECCMQAQ&uoh=1",
+    "displayed_link": "42K+ followers",
+    "favicon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+    "snippet": "Fully Furnished Flsts available in Whitefield. Rent : 24,441/- (including maintenance) + 2L. Rent - 35k Deposit … 27 Sqft - 1700 Sqft flat with covered car ...",
+    "snippet_highlighted_words": [
+     "Rent : 24,441"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Fully Furnished Flsts available in Whitefield. Rent : 24,441/- (including maintenance) + 2L. Rent - 35k Deposit … 27 Sqft - 1700 Sqft flat with covered car ...",
+      "source_info_link": "https://www.facebook.com/groups/1817115108455185/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVjBrZGtNazdJYWc5MUg0c3AyTFF2ZU9vOUVHa2JHS0VzQzZqRnJnM3l3ODhQQWd4dTc3Y2MzOS04emVLSVJzVDNwX3ItWHRWbXowUVUxa3MxbjVsYUt4WnlnNnoxczc4ODVSQXZZd0Z3RXZRNWpoTXk1b1Z5c3JRR1RGVWFIZ01ieVdGdDRyVEtKQRIEGgIIABruBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQLYHCAAQABgAIAAqHAoEZmxhdBUv7UE_GgVmbGF0cxoIZmxhdHJlbnQqPgoEcmVudBWEY4BAGg9hcGFydG1lbnRzIG5lYXIaBnJlbnRhbBoHcmVudGFscxoFcmVudHMaCGZsYXRyZW50KjEKA3BlchXRVWs-GgJieRoFZXZlcnkaBWZvciBhGgNwc2YaBXBlcnNxGgdwZXJzcWZ0KlQKAnNxFUEQrz0aA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHc3F1YXJlZBoFcGVyc3EaB3BlcnNxZnQaBHNxZnQaB2l2O3A7c3EqUAoCZnQVQRCvPRoEZmVldBoHZmVldCB0bxoEZm9vdBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdwZXJzcWZ0GgRzcWZ0KgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBXj8X5AGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRXAWXVAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTKgAS9nb3RvP3VybD1DQUVTYkFIck96QVYwa2RrTWs3SWFnOTFINHNwMkxRdmVPbzlFR2tiR0tFc0M2akZyZzN5dzg4UEFneHU3N2NjMzktOHplS0lSc1QzcF9yLVh0Vm16MFFVMWtzMW41bGFLeFp5ZzZ6MXM3ODg1UkF2WXdGd0V2UTVqaE15NW9WeXNyUUdURlVhSGdNYnlXRnQ0clRLSkE6XzEgYmhrICZhbXA7IDIgYmhrIEZ1cm5pc2hlZCA8Yj5GbGF0czwvYj4gRm9yIDxiPlJlbnQ8L2I-IGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-Qq0BRnVsbHkgRnVybmlzaGVkIEZsc3RzIGF2YWlsYWJsZSBpbiBXaGl0ZWZpZWxkLiA8Yj5SZW50IDogMjQsNDQxPC9iPi8tIChpbmNsdWRpbmcgbWFpbnRlbmFuY2UpICsgMkwuIFJlbnQgLSAzNWsgRGVwb3NpdCDigKYgMjcgU3FmdCAtIDE3MDAgU3FmdCBmbGF0IHdpdGggY292ZXJlZCBjYXImbmJzcDsuLi5KAmluUgJieVIFZm9yIGEiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVjBrZGtNazdJYWc5MUg0c3AyTFF2ZU9vOUVHa2JHS0VzQzZqRnJnM3l3ODhQQWd4dTc3Y2MzOS04emVLSVJzVDNwX3ItWHRWbXowUVUxa3MxbjVsYUt4WnlnNnoxczc4ODVSQXZZd0Z3RXZRNWpoTXk1b1Z5c3JRR1RGVWFIZ01ieVdGdDRyVEtKQRIEGgIIABruBxIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQLYHCAAQABgAIAAqHAoEZmxhdBUv7UE_GgVmbGF0cxoIZmxhdHJlbnQqPgoEcmVudBWEY4BAGg9hcGFydG1lbnRzIG5lYXIaBnJlbnRhbBoHcmVudGFscxoFcmVudHMaCGZsYXRyZW50KjEKA3BlchXRVWs-GgJieRoFZXZlcnkaBWZvciBhGgNwc2YaBXBlcnNxGgdwZXJzcWZ0KlQKAnNxFUEQrz0aA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHc3F1YXJlZBoFcGVyc3EaB3BlcnNxZnQaBHNxZnQaB2l2O3A7c3EqUAoCZnQVQRCvPRoEZmVldBoHZmVldCB0bxoEZm9vdBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdwZXJzcWZ0GgRzcWZ0KgkKAmluFQAAAAAqTQoKd2hpdGVmaWVsZBXj8X5AGhN3aGl0ZWZpZWxkYmFuZ2Fsb3JlGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoPaXY7cDt3aGl0ZWZpZWxkKlYKCWJhbmdhbG9yZRXAWXVAGgliZW5nYWx1cnUaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTKgAS9nb3RvP3VybD1DQUVTYkFIck96QVYwa2RrTWs3SWFnOTFINHNwMkxRdmVPbzlFR2tiR0tFc0M2akZyZzN5dzg4UEFneHU3N2NjMzktOHplS0lSc1QzcF9yLVh0Vm16MFFVMWtzMW41bGFLeFp5ZzZ6MXM3ODg1UkF2WXdGd0V2UTVqaE15NW9WeXNyUUdURlVhSGdNYnlXRnQ0clRLSkE6XzEgYmhrICZhbXA7IDIgYmhrIEZ1cm5pc2hlZCA8Yj5GbGF0czwvYj4gRm9yIDxiPlJlbnQ8L2I-IGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-Qq0BRnVsbHkgRnVybmlzaGVkIEZsc3RzIGF2YWlsYWJsZSBpbiBXaGl0ZWZpZWxkLiA8Yj5SZW50IDogMjQsNDQxPC9iPi8tIChpbmNsdWRpbmcgbWFpbnRlbmFuY2UpICsgMkwuIFJlbnQgLSAzNWsgRGVwb3NpdCDigKYgMjcgU3FmdCAtIDE3MDAgU3FmdCBmbGF0IHdpdGggY292ZXJlZCBjYXImbmJzcDsuLi5KAmluUgJieVIFZm9yIGEiAhABSABYAGgA",
+    "source": "Facebook · 1 bhk & 2 bhk Furnished Flats For Rent in Whitefield, Bangalore"
+   },
+   {
+    "position": 3,
+    "title": "965 Flats for Rent in whitefield, Bangalore Karnataka ...",
+    "link": "https://www.nobroker.in/property/rent/bangalore/whitefield?searchParam=W3sicGxhY2VOYW1lIjoid2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKSl9EWUNXZ1NyanNSRHVRdVNEYWtQTzgiLCJsYXQiOiIxMi45ODMiLCJsb24iOiI3Ny43NTUifV0=&sharedAccomodation=0",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAIB6zswFee6Ts3kC-Vqv6TGM8zU4X-zwlBGTGzJWefcmKdDbL-XPBhYNybe7x7G510709hwZDJrQcxQNSDoZMEre0ESErPiPIrVb78812pcArTYwpGVJJGSS39PqdXRhbY2c9o37hckUN4Bc8mTosyF4dmRGHC55gixxlzN7XunZdhbG9kb3sI__A0vX29cImJRVyEWmS2EbQb-k-ZajvvDIL-tqFauANihmTS0rZhgg_FysQcbKg3psS7tp6x25AJyVtgIipewblIAbbi1aJnDftjkHfcvmNDhhtcJpoR5gcl6cfIkvSgP1IDwkRN-5FhzqHcfhVakM56fsz-ydA8qc0berZBdvxerjhtu_Xcl0U1dfFCD9VhoDtLTbg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECC4QAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Flats for Rent in whitefield, Bangalore Karnataka ・ ₹45,000 + 4,000 maintenance. Semi Furnished 1370 sqft Family. Semi Furnished 1245 sqft All. Semi Furnished ...",
+    "snippet_highlighted_words": [
+     "Flats for Rent in whitefield, Bangalore Karnataka"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Flats for Rent in whitefield, Bangalore Karnataka ・ ₹45,000 + 4,000 maintenance. Semi Furnished 1370 sqft Family. Semi Furnished 1245 sqft All. Semi Furnished ...",
+      "source_info_link": "https://www.nobroker.in/property/rent/bangalore/whitefield?searchParam=W3sicGxhY2VOYW1lIjoid2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKSl9EWUNXZ1NyanNSRHVRdVNEYWtQTzgiLCJsYXQiOiIxMi45ODMiLCJsb24iOiI3Ny43NTUifV0=&sharedAccomodation=0",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZlZTZUczNrQy1WcXY2VEdNOHpVNFgtendsQkdUR3pKV2VmY21LZERiTC1YUEJoWU55YmU3eDdHNTEwNzA5aHdaREpyUWN4UU5TRG9aTUVyZTBFU0VyUGlQSXJWYjc4ODEycGNBclRZd3BHVkpKR1NTMzlQcWRYUmhiWTJjOW8zN2hja1VONEJjOG1Ub3N5RjRkbVJHSEM1NWdpeHhsek43WHVuWmRoYkc5a2Izc0lfX0EwdlgyOWNJbUpSVnlFV21TMkViUWItay1aYWp2dkRJTC10cUZhdUFOaWhtVFMwclpoZ2dfRnlzUWNiS2czcHNTN3RwNngyNUFKeVZ0Z0lpcGV3YmxJQWJiaTFhSm5EZnRqa0hmY3ZtTkRoaHRjSnBvUjVnY2w2Y2ZJa3ZTZ1AxSUR3a1JOLTVGaHpxSGNmaFZha001NmZzei15ZEE4cWMwYmVyWkJkdnhlcmpodHVfWGNsMFUxZGZGQ0Q5VmhvRHRMVGJnEgQaAggAGt0JEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJApQkIABAAGAAgACocCgRmbGF0Ffi3kEAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FfMj3kAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVLPUsPxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBUs9Sw_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFcO86UAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFQhnskAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZlZTZUczNrQy1WcXY2VEdNOHpVNFgtendsQkdUR3pKV2VmY21LZERiTC1YUEJoWU55YmU3eDdHNTEwNzA5aHdaREpyUWN4UU5TRG9aTUVyZTBFU0VyUGlQSXJWYjc4ODEycGNBclRZd3BHVkpKR1NTMzlQcWRYUmhiWTJjOW8zN2hja1VONEJjOG1Ub3N5RjRkbVJHSEM1NWdpeHhsek43WHVuWmRoYkc5a2Izc0lfX0EwdlgyOWNJbUpSVnlFV21TMkViUWItay1aYWp2dkRJTC10cUZhdUFOaWhtVFMwclpoZ2dfRnlzUWNiS2czcHNTN3RwNngyNUFKeVZ0Z0lpcGV3YmxJQWJiaTFhSm5EZnRqa0hmY3ZtTkRoaHRjSnBvUjVnY2w2Y2ZJa3ZTZ1AxSUR3a1JOLTVGaHpxSGNmaFZha001NmZzei15ZEE4cWMwYmVyWkJkdnhlcmpodHVfWGNsMFUxZGZGQ0Q5VmhvRHRMVGJnOl05NjUgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj53aGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5CsgE8Yj5GbGF0cyBmb3IgUmVudCBpbiB3aGl0ZWZpZWxkLCBCYW5nYWxvcmUgS2FybmF0YWthPC9iPiDjg7sg4oK5NDUsMDAwICsgNCwwMDAgbWFpbnRlbmFuY2UuIFNlbWkgRnVybmlzaGVkIDEzNzAgc3FmdCBGYW1pbHkuIFNlbWkgRnVybmlzaGVkIDEyNDUgc3FmdCBBbGwuIFNlbWkgRnVybmlzaGVkJm5ic3A7Li4uSgJpblIFZm9yIGFSAmJ5IgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZlZTZUczNrQy1WcXY2VEdNOHpVNFgtendsQkdUR3pKV2VmY21LZERiTC1YUEJoWU55YmU3eDdHNTEwNzA5aHdaREpyUWN4UU5TRG9aTUVyZTBFU0VyUGlQSXJWYjc4ODEycGNBclRZd3BHVkpKR1NTMzlQcWRYUmhiWTJjOW8zN2hja1VONEJjOG1Ub3N5RjRkbVJHSEM1NWdpeHhsek43WHVuWmRoYkc5a2Izc0lfX0EwdlgyOWNJbUpSVnlFV21TMkViUWItay1aYWp2dkRJTC10cUZhdUFOaWhtVFMwclpoZ2dfRnlzUWNiS2czcHNTN3RwNngyNUFKeVZ0Z0lpcGV3YmxJQWJiaTFhSm5EZnRqa0hmY3ZtTkRoaHRjSnBvUjVnY2w2Y2ZJa3ZTZ1AxSUR3a1JOLTVGaHpxSGNmaFZha001NmZzei15ZEE4cWMwYmVyWkJkdnhlcmpodHVfWGNsMFUxZGZGQ0Q5VmhvRHRMVGJnEgQaAggAGt0JEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJApQkIABAAGAAgACocCgRmbGF0Ffi3kEAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FfMj3kAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVLPUsPxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBUs9Sw_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFcO86UAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFQhnskAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZlZTZUczNrQy1WcXY2VEdNOHpVNFgtendsQkdUR3pKV2VmY21LZERiTC1YUEJoWU55YmU3eDdHNTEwNzA5aHdaREpyUWN4UU5TRG9aTUVyZTBFU0VyUGlQSXJWYjc4ODEycGNBclRZd3BHVkpKR1NTMzlQcWRYUmhiWTJjOW8zN2hja1VONEJjOG1Ub3N5RjRkbVJHSEM1NWdpeHhsek43WHVuWmRoYkc5a2Izc0lfX0EwdlgyOWNJbUpSVnlFV21TMkViUWItay1aYWp2dkRJTC10cUZhdUFOaWhtVFMwclpoZ2dfRnlzUWNiS2czcHNTN3RwNngyNUFKeVZ0Z0lpcGV3YmxJQWJiaTFhSm5EZnRqa0hmY3ZtTkRoaHRjSnBvUjVnY2w2Y2ZJa3ZTZ1AxSUR3a1JOLTVGaHpxSGNmaFZha001NmZzei15ZEE4cWMwYmVyWkJkdnhlcmpodHVfWGNsMFUxZGZGQ0Q5VmhvRHRMVGJnOl05NjUgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj53aGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5CsgE8Yj5GbGF0cyBmb3IgUmVudCBpbiB3aGl0ZWZpZWxkLCBCYW5nYWxvcmUgS2FybmF0YWthPC9iPiDjg7sg4oK5NDUsMDAwICsgNCwwMDAgbWFpbnRlbmFuY2UuIFNlbWkgRnVybmlzaGVkIDEzNzAgc3FmdCBGYW1pbHkuIFNlbWkgRnVybmlzaGVkIDEyNDUgc3FmdCBBbGwuIFNlbWkgRnVybmlzaGVkJm5ic3A7Li4uSgJpblIFZm9yIGFSAmJ5IgIQAUgAWABoAA",
+    "source": "NoBroker"
+   },
+   {
+    "position": 4,
+    "title": "Flats for Rent in Whitefield, Bangalore Below 40000",
+    "link": "https://www.99acres.com/flats-for-rent-in-whitefield-bangalore-east-30-thousand-to-40-thousand-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESngEB6zswFVZkKU3XmluPxlfPB66APv0rawWypzjFvrbX3Z27uF1MoQuuTAydwq6fEUTRTAHtvkFMUaSfyZ8SFI1Zvqlj5TavKXh0dfG_UCIEqtdbhI3k3wVjtlYB2Y4mSTvK6-JxFno2XjKk6_Z_1lrjvRYkcb1x1-P9UgiDmURH0JJYksnTj1em3ctlOb1i_7wPlwSWXpEAKN2_j8-slA&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECCEQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › flats-for-rent-in-whitefield-b...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Rent in Whitefield, This flat consists of 2 bathrooms & 2 balconies in 1200 sq.Ft. rent 850 sqft(79 sqm) ,50,000 1,540 sqft(143 sqm) ₹40,000 / month 1,650 sqft ...",
+    "snippet_highlighted_words": [
+     "Rent",
+     "Whitefield",
+     "flat",
+     "sq",
+     "Ft",
+     "rent",
+     "sqft",
+     "sqft",
+     "sqft"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Rent in Whitefield, This flat consists of 2 bathrooms & 2 balconies in 1200 sq.Ft. rent 850 sqft(79 sqm) ,50,000 1,540 sqft(143 sqm) ₹40,000 / month 1,650 sqft ...",
+      "source_info_link": "https://www.99acres.com/flats-for-rent-in-whitefield-bangalore-east-30-thousand-to-40-thousand-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuQBL2dvdG8_dXJsPUNBRVNuZ0VCNnpzd0ZWWmtLVTNYbWx1UHhsZlBCNjZBUHYwcmF3V3lwempGdnJiWDNaMjd1RjFNb1F1dVRBeWR3cTZmRVVUUlRBSHR2a0ZNVWFTZnlaOFNGSTFadnFsajVUYXZLWGgwZGZHX1VDSUVxdGRiaEkzazN3Vmp0bFlCMlk0bVNUdks2LUp4Rm5vMlhqS2s2X1pfMWxyanZSWWtjYjF4MS1QOVVnaURtVVJIMEpKWWtzblRqMWVtM2N0bE9iMWlfN3dQbHdTV1hwRUFLTjJfajgtc2xBEgQaAggAGuIIEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAqggIABAAGAAgACocCgRmbGF0FX0HbUAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FcqNukAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFVmlfT4aAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVZE4UQBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVkThRAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFQRtgEAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFQO7rkAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMuQBL2dvdG8_dXJsPUNBRVNuZ0VCNnpzd0ZWWmtLVTNYbWx1UHhsZlBCNjZBUHYwcmF3V3lwempGdnJiWDNaMjd1RjFNb1F1dVRBeWR3cTZmRVVUUlRBSHR2a0ZNVWFTZnlaOFNGSTFadnFsajVUYXZLWGgwZGZHX1VDSUVxdGRiaEkzazN3Vmp0bFlCMlk0bVNUdks2LUp4Rm5vMlhqS2s2X1pfMWxyanZSWWtjYjF4MS1QOVVnaURtVVJIMEpKWWtzblRqMWVtM2N0bE9iMWlfN3dQbHdTV1hwRUFLTjJfajgtc2xBOk88Yj5GbGF0czwvYj4gZm9yIDxiPlJlbnQ8L2I-IGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IEJlbG93IDQwMDAwQu0BPGI-UmVudDwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4sIFRoaXMgPGI-ZmxhdDwvYj4gY29uc2lzdHMgb2YgMiBiYXRocm9vbXMgJmFtcDsgMiBiYWxjb25pZXMgaW4gMTIwMCA8Yj5zcTwvYj4uPGI-RnQ8L2I-LiA8Yj5yZW50PC9iPiA4NTAgPGI-c3FmdDwvYj4oNzkgc3FtKSAsNTAsMDAwIDEsNTQwIDxiPnNxZnQ8L2I-KDE0MyBzcW0pIOKCuTQwLDAwMCAvIG1vbnRoIDEsNjUwIDxiPnNxZnQ8L2I-Jm5ic3A7Li4uSgJpblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuQBL2dvdG8_dXJsPUNBRVNuZ0VCNnpzd0ZWWmtLVTNYbWx1UHhsZlBCNjZBUHYwcmF3V3lwempGdnJiWDNaMjd1RjFNb1F1dVRBeWR3cTZmRVVUUlRBSHR2a0ZNVWFTZnlaOFNGSTFadnFsajVUYXZLWGgwZGZHX1VDSUVxdGRiaEkzazN3Vmp0bFlCMlk0bVNUdks2LUp4Rm5vMlhqS2s2X1pfMWxyanZSWWtjYjF4MS1QOVVnaURtVVJIMEpKWWtzblRqMWVtM2N0bE9iMWlfN3dQbHdTV1hwRUFLTjJfajgtc2xBEgQaAggAGuIIEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAqggIABAAGAAgACocCgRmbGF0FX0HbUAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FcqNukAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFVmlfT4aAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVZE4UQBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVkThRAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFQRtgEAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFQO7rkAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMuQBL2dvdG8_dXJsPUNBRVNuZ0VCNnpzd0ZWWmtLVTNYbWx1UHhsZlBCNjZBUHYwcmF3V3lwempGdnJiWDNaMjd1RjFNb1F1dVRBeWR3cTZmRVVUUlRBSHR2a0ZNVWFTZnlaOFNGSTFadnFsajVUYXZLWGgwZGZHX1VDSUVxdGRiaEkzazN3Vmp0bFlCMlk0bVNUdks2LUp4Rm5vMlhqS2s2X1pfMWxyanZSWWtjYjF4MS1QOVVnaURtVVJIMEpKWWtzblRqMWVtM2N0bE9iMWlfN3dQbHdTV1hwRUFLTjJfajgtc2xBOk88Yj5GbGF0czwvYj4gZm9yIDxiPlJlbnQ8L2I-IGluIDxiPldoaXRlZmllbGQ8L2I-LCA8Yj5CYW5nYWxvcmU8L2I-IEJlbG93IDQwMDAwQu0BPGI-UmVudDwvYj4gaW4gPGI-V2hpdGVmaWVsZDwvYj4sIFRoaXMgPGI-ZmxhdDwvYj4gY29uc2lzdHMgb2YgMiBiYXRocm9vbXMgJmFtcDsgMiBiYWxjb25pZXMgaW4gMTIwMCA8Yj5zcTwvYj4uPGI-RnQ8L2I-LiA8Yj5yZW50PC9iPiA4NTAgPGI-c3FmdDwvYj4oNzkgc3FtKSAsNTAsMDAwIDEsNTQwIDxiPnNxZnQ8L2I-KDE0MyBzcW0pIOKCuTQwLDAwMCAvIG1vbnRoIDEsNjUwIDxiPnNxZnQ8L2I-Jm5ic3A7Li4uSgJpblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "source": "99acres.com"
+   },
+   {
+    "position": 5,
+    "title": "2 BHK Fully Furnished Flats for rent in Whitefield, Bangalore",
+    "link": "https://www.99acres.com/2-bhk-furnished-flats-for-rent-in-whitefield-bangalore-east-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkwEB6zswFQZvVcrwjYx5z5pNrcdRGG8B9BHzF0tPbNw3Fs2wICpuEHNlsuqiqcXfsIT8bB6YmmBZg5yZn1KK341XgHFnLfn4QfK2JWNU-WzCRAA4LvvLEf_BW6K-BdTBBiExf1zYZYTF8ZWIHjWEFBzHZxHlratB-nQ5ttBnueZ0Hhd4WDU5g9cjKiEC0hZyDTPdJ-k&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECB8QAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › 2-bhk-furnished-flats-for-re...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Flat for rent in Whitefield, Bangalore ₹38,000 / month + Deposit 2 months rent 850 sqft(79 sqm) Rental is positioned from 38,000 per month … ₹30,000 / month ...",
+    "snippet_highlighted_words": [
+     "Flat for rent in Whitefield, Bangalore ₹38,000 / month"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Flat for rent in Whitefield, Bangalore ₹38,000 / month + Deposit 2 months rent 850 sqft(79 sqm) Rental is positioned from 38,000 per month … ₹30,000 / month ...",
+      "source_info_link": "https://www.99acres.com/2-bhk-furnished-flats-for-rent-in-whitefield-bangalore-east-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZRWnZWY3J3all4NXo1cE5yY2RSR0c4QjlCSHpGMHRQYk53M0ZzMndJQ3B1RUhObHN1cWlxY1hmc0lUOGJCNlltbUJaZzV5Wm4xS0szNDFYZ0hGbkxmbjRRZksySldOVS1XekNSQUE0THZ2TEVmX0JXNkstQmRUQkJpRXhmMXpZWllURjhaV0lIaldFRkJ6SFp4SGxyYXRCLW5RNXR0Qm51ZVowSGhkNFdEVTVnOWNqS2lFQzBoWnlEVFBkSi1rEgQaAggAGqIIEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA6gcIABAAGAAgACocCgRmbGF0FZ_XS0AaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FVK5t0AaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQv07T4aAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVbg_5PxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVuD_k_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFWxTv0AaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFf6kt0AaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZRWnZWY3J3all4NXo1cE5yY2RSR0c4QjlCSHpGMHRQYk53M0ZzMndJQ3B1RUhObHN1cWlxY1hmc0lUOGJCNlltbUJaZzV5Wm4xS0szNDFYZ0hGbkxmbjRRZksySldOVS1XekNSQUE0THZ2TEVmX0JXNkstQmRUQkJpRXhmMXpZWllURjhaV0lIaldFRkJ6SFp4SGxyYXRCLW5RNXR0Qm51ZVowSGhkNFdEVTVnOWNqS2lFQzBoWnlEVFBkSi1rOlkyIEJISyBGdWxseSBGdXJuaXNoZWQgPGI-RmxhdHM8L2I-IGZvciA8Yj5yZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkKyATxiPkZsYXQgZm9yIHJlbnQgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlIOKCuTM4LDAwMCAvIG1vbnRoPC9iPiArIERlcG9zaXQgMiBtb250aHMgcmVudCA4NTAgc3FmdCg3OSBzcW0pIFJlbnRhbCBpcyBwb3NpdGlvbmVkIGZyb20gMzgsMDAwIHBlciBtb250aCDigKYg4oK5MzAsMDAwIC8gbW9udGgmbmJzcDsuLi5KAmluUgVmb3IgYVICYnkiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZRWnZWY3J3all4NXo1cE5yY2RSR0c4QjlCSHpGMHRQYk53M0ZzMndJQ3B1RUhObHN1cWlxY1hmc0lUOGJCNlltbUJaZzV5Wm4xS0szNDFYZ0hGbkxmbjRRZksySldOVS1XekNSQUE0THZ2TEVmX0JXNkstQmRUQkJpRXhmMXpZWllURjhaV0lIaldFRkJ6SFp4SGxyYXRCLW5RNXR0Qm51ZVowSGhkNFdEVTVnOWNqS2lFQzBoWnlEVFBkSi1rEgQaAggAGqIIEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJA6gcIABAAGAAgACocCgRmbGF0FZ_XS0AaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FVK5t0AaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQv07T4aAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVbg_5PxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVuD_k_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFWxTv0AaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFf6kt0AaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZRWnZWY3J3all4NXo1cE5yY2RSR0c4QjlCSHpGMHRQYk53M0ZzMndJQ3B1RUhObHN1cWlxY1hmc0lUOGJCNlltbUJaZzV5Wm4xS0szNDFYZ0hGbkxmbjRRZksySldOVS1XekNSQUE0THZ2TEVmX0JXNkstQmRUQkJpRXhmMXpZWllURjhaV0lIaldFRkJ6SFp4SGxyYXRCLW5RNXR0Qm51ZVowSGhkNFdEVTVnOWNqS2lFQzBoWnlEVFBkSi1rOlkyIEJISyBGdWxseSBGdXJuaXNoZWQgPGI-RmxhdHM8L2I-IGZvciA8Yj5yZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkKyATxiPkZsYXQgZm9yIHJlbnQgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlIOKCuTM4LDAwMCAvIG1vbnRoPC9iPiArIERlcG9zaXQgMiBtb250aHMgcmVudCA4NTAgc3FmdCg3OSBzcW0pIFJlbnRhbCBpcyBwb3NpdGlvbmVkIGZyb20gMzgsMDAwIHBlciBtb250aCDigKYg4oK5MzAsMDAwIC8gbW9udGgmbmJzcDsuLi5KAmluUgVmb3IgYVICYnkiAhABSABYAGgA",
+    "source": "99acres.com"
+   },
+   {
+    "position": 6,
+    "title": "910 Flats for Rent in Whitefield, Bangalore Karnataka ...",
+    "link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKZ193TlhmTVJyanNSLVJVQjJCS2x6ekEiLCJsYXQiOiIxMi45NzYiLCJsb24iOiI3Ny43NDIifV0=&sharedAccomodation=0",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAIB6zswFV8qKluf3y14YtFSrtnPAnibZQrwaggeFNXSKJDN2Clhof15-qHbYYeQbL4tggH5OU4evxzqBZ1hhpymEiMbL52GySqqmgfpTOlNgsT8JcD3J_AGee3wpcYLAr0YhRTVvJAWBylf03ZJUa-GYRv44uo-lzTJCDuWJJ4F9TeeNQIAF6hmsQo5LOtgS94Nnd-9gjsGKTHOj9y7uJue5aK82rrvzILn0xj-1uc0ZcGtt2WURqyZDkL4-jtRNhllaMq-dK0QZJ9LxBG8NRhL3tvwNGiXSNVAPXpzAoRwlTrqgrLjuLCfhZFLcLAkiu3QXbucPlCBXXQZuTyU-6JpPMKuLsgPliXfxC4fr-pJW3LhjaElT9RaayzOBA&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECCAQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Flats for Rent in Whitefield, Bangalore Karnataka. Apartments, Flats for Rent in Whitefield, Bangalore ・ ₹16,000 + maintenance Included. Semi Furnished 500 ...",
+    "snippet_highlighted_words": [
+     "Flats for Rent in Whitefield, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Flats for Rent in Whitefield, Bangalore Karnataka. Apartments, Flats for Rent in Whitefield, Bangalore ・ ₹16,000 + maintenance Included. Semi Furnished 500  ...",
+      "source_info_link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKZ193TlhmTVJyanNSLVJVQjJCS2x6ekEiLCJsYXQiOiIxMi45NzYiLCJsb24iOiI3Ny43NDIifV0=&sharedAccomodation=0",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZWOHFLbHVmM3kxNFl0RlNydG5QQW5pYlpRcndhZ2dlRk5YU0tKRE4yQ2xob2YxNS1xSGJZWWVRYkw0dGdnSDVPVTRldnh6cUJaMWhocHltRWlNYkw1Mkd5U3FxbWdmcFRPbE5nc1Q4SmNEM0pfQUdlZTN3cGNZTEFyMFloUlRWdkpBV0J5bGYwM1pKVWEtR1lSdjQ0dW8tbHpUSkNEdVdKSjRGOVRlZU5RSUFGNmhtc1FvNUxPdGdTOTRObmQtOWdqc0dLVEhPajl5N3VKdWU1YUs4MnJydnpJTG4weGotMXVjMFpjR3R0MldVUnF5WkRrTDQtanRSTmhsbGFNcS1kSzBRWko5THhCRzhOUmhMM3R2d05HaVhTTlZBUFhwekFvUndsVHJxZ3JManVMQ2ZoWkZMY0xBa2l1M1FYYnVjUGxDQlhYUVp1VHlVLTZKcFBNS3VMc2dQbGlYZnhDNGZyLXBKVzNMaGphRWxUOVJhYXl6T0JBEgQaAggAGtsJEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAowkIABAAGAAgACocCgRmbGF0FVMXMEAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FQE55EAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVUnBqPxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVScGo_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFQJg1EAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFUQayEAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZWOHFLbHVmM3kxNFl0RlNydG5QQW5pYlpRcndhZ2dlRk5YU0tKRE4yQ2xob2YxNS1xSGJZWWVRYkw0dGdnSDVPVTRldnh6cUJaMWhocHltRWlNYkw1Mkd5U3FxbWdmcFRPbE5nc1Q4SmNEM0pfQUdlZTN3cGNZTEFyMFloUlRWdkpBV0J5bGYwM1pKVWEtR1lSdjQ0dW8tbHpUSkNEdVdKSjRGOVRlZU5RSUFGNmhtc1FvNUxPdGdTOTRObmQtOWdqc0dLVEhPajl5N3VKdWU1YUs4MnJydnpJTG4weGotMXVjMFpjR3R0MldVUnF5WkRrTDQtanRSTmhsbGFNcS1kSzBRWko5THhCRzhOUmhMM3R2d05HaVhTTlZBUFhwekFvUndsVHJxZ3JManVMQ2ZoWkZMY0xBa2l1M1FYYnVjUGxDQlhYUVp1VHlVLTZKcFBNS3VMc2dQbGlYZnhDNGZyLXBKVzNMaGphRWxUOVJhYXl6T0JBOl05MTAgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5CsAE8Yj5GbGF0cyBmb3IgUmVudCBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmU8L2I-IEthcm5hdGFrYS4gQXBhcnRtZW50cywgRmxhdHMgZm9yIFJlbnQgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlIOODuyDigrkxNiwwMDAgKyBtYWludGVuYW5jZSBJbmNsdWRlZC4gU2VtaSBGdXJuaXNoZWQgNTAwICZuYnNwOy4uLkoCaW5SAmJ5UgVmb3IgYSICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZWOHFLbHVmM3kxNFl0RlNydG5QQW5pYlpRcndhZ2dlRk5YU0tKRE4yQ2xob2YxNS1xSGJZWWVRYkw0dGdnSDVPVTRldnh6cUJaMWhocHltRWlNYkw1Mkd5U3FxbWdmcFRPbE5nc1Q4SmNEM0pfQUdlZTN3cGNZTEFyMFloUlRWdkpBV0J5bGYwM1pKVWEtR1lSdjQ0dW8tbHpUSkNEdVdKSjRGOVRlZU5RSUFGNmhtc1FvNUxPdGdTOTRObmQtOWdqc0dLVEhPajl5N3VKdWU1YUs4MnJydnpJTG4weGotMXVjMFpjR3R0MldVUnF5WkRrTDQtanRSTmhsbGFNcS1kSzBRWko5THhCRzhOUmhMM3R2d05HaVhTTlZBUFhwekFvUndsVHJxZ3JManVMQ2ZoWkZMY0xBa2l1M1FYYnVjUGxDQlhYUVp1VHlVLTZKcFBNS3VMc2dQbGlYZnhDNGZyLXBKVzNMaGphRWxUOVJhYXl6T0JBEgQaAggAGtsJEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAowkIABAAGAAgACocCgRmbGF0FVMXMEAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FQE55EAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVUnBqPxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVScGo_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFQJg1EAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFUQayEAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZWOHFLbHVmM3kxNFl0RlNydG5QQW5pYlpRcndhZ2dlRk5YU0tKRE4yQ2xob2YxNS1xSGJZWWVRYkw0dGdnSDVPVTRldnh6cUJaMWhocHltRWlNYkw1Mkd5U3FxbWdmcFRPbE5nc1Q4SmNEM0pfQUdlZTN3cGNZTEFyMFloUlRWdkpBV0J5bGYwM1pKVWEtR1lSdjQ0dW8tbHpUSkNEdVdKSjRGOVRlZU5RSUFGNmhtc1FvNUxPdGdTOTRObmQtOWdqc0dLVEhPajl5N3VKdWU1YUs4MnJydnpJTG4weGotMXVjMFpjR3R0MldVUnF5WkRrTDQtanRSTmhsbGFNcS1kSzBRWko5THhCRzhOUmhMM3R2d05HaVhTTlZBUFhwekFvUndsVHJxZ3JManVMQ2ZoWkZMY0xBa2l1M1FYYnVjUGxDQlhYUVp1VHlVLTZKcFBNS3VMc2dQbGlYZnhDNGZyLXBKVzNMaGphRWxUOVJhYXl6T0JBOl05MTAgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5CsAE8Yj5GbGF0cyBmb3IgUmVudCBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmU8L2I-IEthcm5hdGFrYS4gQXBhcnRtZW50cywgRmxhdHMgZm9yIFJlbnQgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlIOODuyDigrkxNiwwMDAgKyBtYWludGVuYW5jZSBJbmNsdWRlZC4gU2VtaSBGdXJuaXNoZWQgNTAwICZuYnNwOy4uLkoCaW5SAmJ5UgVmb3IgYSICEAFIAFgAaAA",
+    "source": "NoBroker"
+   },
+   {
+    "position": 7,
+    "title": "721 Flats for Rent in Whitefield, Bangalore Karnataka ...",
+    "link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKZ193TlhmTVJyanNSLVJVQjJCS2x6ekEiLCJsYXQiOiIxMi45OSIsImxvbiI6Ijc3LjcyIn1d&sharedAccomodation=0",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmAIB6zswFSAZ2ell7Mw0IMkAbH45kMlipCLAlI9qAGnCX-ZJdsfXl9OPcxh-mBkzJMbFbinqjyrJucZA7LSvYjLJUllFqqNa2PfHxteg1R3OVjy0C6VTpOGz2eEITFGCRDSC1-D5c8rO1x8thSR2YTvvpOef-d0cFPH0JXeiXPIDtDIlfQL5qKDUbHF5XAUHaIegFuZpQB5PNWfm7An44vyEeHkmU3ko0yehb_UgYpA3KPFN1p2s1ZYMcactzkjGawIpUStqgj3GzKCbFneXioz0D8TOhZXkIcqz9QgsbYAoBk_mCV1ZmOaJDKdozXqVJB_KSu6bzP8fEQB4ccAo5Xx34qfEDsAARvVLI3Y7LAyzZXyFEymWXyHj&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECEEQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › Bangalore › Whitefield",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Flats for Rent in Whitefield, Bangalore Karnataka … 721 - Apartments, Flats for Rent in Whitefield, Bangalore Karnataka. Semi furnished 1110 sqft Family. In ...",
+    "snippet_highlighted_words": [
+     "Flats for Rent in Whitefield, Bangalore Karnataka"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Flats for Rent in Whitefield, Bangalore Karnataka … 721 - Apartments, Flats for Rent in Whitefield, Bangalore Karnataka. Semi furnished 1110 sqft Family. In  ...",
+      "source_info_link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKZ193TlhmTVJyanNSLVJVQjJCS2x6ekEiLCJsYXQiOiIxMi45OSIsImxvbiI6Ijc3LjcyIn1d&sharedAccomodation=0",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoYDL2dvdG8_dXJsPUNBRVNtQUlCNnpzd0ZTQVoyZWxsN013MElNa0FiSDQ1a01saXBDTEFsSTlxQUduQ1gtWkpkc2ZYbDlPUGN4aC1tQmt6Sk1iRmJpbnFqeXJKdWNaQTdMU3ZZakxKVWxsRnFxTmEyUGZIeHRlZzFSM09WankwQzZWVHBPR3oyZUVJVEZHQ1JEU0MxLUQ1YzhyTzF4OHRoU1IyWVR2dnBPZWYtZDBjRlBIMEpYZWlYUElEdERJbGZRTDVxS0RVYkhGNVhBVUhhSWVnRnVacFFCNVBOV2ZtN0FuNDR2eUVlSGttVTNrbzB5ZWhiX1VnWXBBM0tQRk4xcDJzMVpZTWNhY3R6a2pHYXdJcFVTdHFnajNHektDYkZuZVhpb3owRDhUT2haWGtJY3F6OVFnc2JZQW9Ca19tQ1YxWm1PYUpES2RvelhxVkpCX0tTdTZielA4ZkVRQjRjY0FvNVh4MzRxZkVEc0FBUnZWTEkzWTdMQXl6Wlh5RkV5bVdYeUhqEgQaAggAGtQJEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAnAkIABAAGAAgACocCgRmbGF0FZKTBkAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FdxImUAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVqthNPhoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBWq2E0-GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFT4OpUAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFQ5lk0AaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMoYDL2dvdG8_dXJsPUNBRVNtQUlCNnpzd0ZTQVoyZWxsN013MElNa0FiSDQ1a01saXBDTEFsSTlxQUduQ1gtWkpkc2ZYbDlPUGN4aC1tQmt6Sk1iRmJpbnFqeXJKdWNaQTdMU3ZZakxKVWxsRnFxTmEyUGZIeHRlZzFSM09WankwQzZWVHBPR3oyZUVJVEZHQ1JEU0MxLUQ1YzhyTzF4OHRoU1IyWVR2dnBPZWYtZDBjRlBIMEpYZWlYUElEdERJbGZRTDVxS0RVYkhGNVhBVUhhSWVnRnVacFFCNVBOV2ZtN0FuNDR2eUVlSGttVTNrbzB5ZWhiX1VnWXBBM0tQRk4xcDJzMVpZTWNhY3R6a2pHYXdJcFVTdHFnajNHektDYkZuZVhpb3owRDhUT2haWGtJY3F6OVFnc2JZQW9Ca19tQ1YxWm1PYUpES2RvelhxVkpCX0tTdTZielA4ZkVRQjRjY0FvNVh4MzRxZkVEc0FBUnZWTEkzWTdMQXl6Wlh5RkV5bVdYeUhqOl03MjEgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5CrwE8Yj5GbGF0cyBmb3IgUmVudCBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUgS2FybmF0YWthPC9iPiDigKYgNzIxIC0gQXBhcnRtZW50cywgRmxhdHMgZm9yIFJlbnQgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlIEthcm5hdGFrYS4gU2VtaSBmdXJuaXNoZWQgMTExMCBzcWZ0IEZhbWlseS4gSW4gJm5ic3A7Li4uSgJpblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoYDL2dvdG8_dXJsPUNBRVNtQUlCNnpzd0ZTQVoyZWxsN013MElNa0FiSDQ1a01saXBDTEFsSTlxQUduQ1gtWkpkc2ZYbDlPUGN4aC1tQmt6Sk1iRmJpbnFqeXJKdWNaQTdMU3ZZakxKVWxsRnFxTmEyUGZIeHRlZzFSM09WankwQzZWVHBPR3oyZUVJVEZHQ1JEU0MxLUQ1YzhyTzF4OHRoU1IyWVR2dnBPZWYtZDBjRlBIMEpYZWlYUElEdERJbGZRTDVxS0RVYkhGNVhBVUhhSWVnRnVacFFCNVBOV2ZtN0FuNDR2eUVlSGttVTNrbzB5ZWhiX1VnWXBBM0tQRk4xcDJzMVpZTWNhY3R6a2pHYXdJcFVTdHFnajNHektDYkZuZVhpb3owRDhUT2haWGtJY3F6OVFnc2JZQW9Ca19tQ1YxWm1PYUpES2RvelhxVkpCX0tTdTZielA4ZkVRQjRjY0FvNVh4MzRxZkVEc0FBUnZWTEkzWTdMQXl6Wlh5RkV5bVdYeUhqEgQaAggAGtQJEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAnAkIABAAGAAgACocCgRmbGF0FZKTBkAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FdxImUAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EVqthNPhoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBWq2E0-GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFT4OpUAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFQ5lk0AaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMoYDL2dvdG8_dXJsPUNBRVNtQUlCNnpzd0ZTQVoyZWxsN013MElNa0FiSDQ1a01saXBDTEFsSTlxQUduQ1gtWkpkc2ZYbDlPUGN4aC1tQmt6Sk1iRmJpbnFqeXJKdWNaQTdMU3ZZakxKVWxsRnFxTmEyUGZIeHRlZzFSM09WankwQzZWVHBPR3oyZUVJVEZHQ1JEU0MxLUQ1YzhyTzF4OHRoU1IyWVR2dnBPZWYtZDBjRlBIMEpYZWlYUElEdERJbGZRTDVxS0RVYkhGNVhBVUhhSWVnRnVacFFCNVBOV2ZtN0FuNDR2eUVlSGttVTNrbzB5ZWhiX1VnWXBBM0tQRk4xcDJzMVpZTWNhY3R6a2pHYXdJcFVTdHFnajNHektDYkZuZVhpb3owRDhUT2haWGtJY3F6OVFnc2JZQW9Ca19tQ1YxWm1PYUpES2RvelhxVkpCX0tTdTZielA4ZkVRQjRjY0FvNVh4MzRxZkVEc0FBUnZWTEkzWTdMQXl6Wlh5RkV5bVdYeUhqOl03MjEgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5CrwE8Yj5GbGF0cyBmb3IgUmVudCBpbiBXaGl0ZWZpZWxkLCBCYW5nYWxvcmUgS2FybmF0YWthPC9iPiDigKYgNzIxIC0gQXBhcnRtZW50cywgRmxhdHMgZm9yIFJlbnQgaW4gV2hpdGVmaWVsZCwgQmFuZ2Fsb3JlIEthcm5hdGFrYS4gU2VtaSBmdXJuaXNoZWQgMTExMCBzcWZ0IEZhbWlseS4gSW4gJm5ic3A7Li4uSgJpblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "source": "NoBroker"
+   },
+   {
+    "position": 8,
+    "title": "684 Flats for Rent in Whitefield, Bangalore Karnataka ...",
+    "link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKNlo1MzZmNE5yanNSeE1DVzlfUlJoLVkiLCJsYXQiOiIxMi45NyIsImxvbiI6Ijc3Ljc0OCJ9XQ==&sharedAccomodation=0",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAIB6zswFegJLDyklDj_R8ZSHMJNzg5P02CfxA1_QZkooJGSPuBrWWGbfDFd1ZZ21L-zgKLvCrg2LZv3N8_V8MY-7uiSwXDXlQZIIbGxG9eXXLxJD9nIzigtswwSiy1R4nAYmVBALi5Av78-PFPG3jd8GO19DNQ61khDGDNsOL8r67o3-x8tvAOA70aVjBtwgy8x_cbMCNhjlTwB6WiWoYkGxGBlUMcMzJrrIsMyZxQAZAADdFWUPJVSf5lVau_RSArddXuwg3GWXoBW7T1NnHZoL96HS_h3WBKFhU1DlsXy39OEJV96WQ9W63HZLnjJAGfNwhI-VbBQEoN6WFg7m9hEJt1JgXZJJwxFLWzH9rlVHmoL7LZ3MGwx42ZgZw&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECEcQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "2 BHK House for Rent In Whitefield · 16,000 · 700 sqft ; 1 RK Flat for Rent In Whitefield · 20,000 · 300 sqft ; 3 BHK House for Rent In Whitefield · 1 Lacs · 1225 sqft.",
+    "snippet_highlighted_words": [
+     "2 BHK House for Rent In Whitefield · 16,000 · 700 sqft"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "2 BHK House for Rent In Whitefield · 16,000 · 700 sqft ; 1 RK Flat for Rent In Whitefield · 20,000 · 300 sqft ; 3 BHK House for Rent In Whitefield · 1 Lacs · 1225 sqft.",
+      "source_info_link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKNlo1MzZmNE5yanNSeE1DVzlfUlJoLVkiLCJsYXQiOiIxMi45NyIsImxvbiI6Ijc3Ljc0OCJ9XQ==&sharedAccomodation=0",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZlZ0pMRHlrbERqX1I4WlNITUpOemc1UDAyQ2Z4QTFfUVprb29KR1NQdUJyV1dHYmZERmQxWloyMUwtemdLTHZDcmcyTFp2M044X1Y4TVktN3VpU3dYRFhsUVpJSWJHeEc5ZVhYTHhKRDluSXppZ3Rzd3dTaXkxUjRuQVltVkJBTGk1QXY3OC1QRlBHM2pkOEdPMTlETlE2MWtoREdETnNPTDhyNjdvMy14OHR2QU9BNzBhVmpCdHdneTh4X2NiTUNOaGpsVHdCNldpV29Za0d4R0JsVU1jTXpKcnJJc015WnhRQVpBQURkRldVUEpWU2Y1bFZhdV9SU0FyZGRYdXdnM0dXWG9CVzdUMU5uSFpvTDk2SFNfaDNXQktGaFUxRGxzWHkzOU9FSlY5NldROVc2M0haTG5qSkFHZk53aEktVmJCUUVvTjZXRmc3bTloRUp0MUpnWFpKSnd4RkxXekg5cmxWSG1vTDdMWjNNR3d4NDJaZ1p3EgQaAggAGoQKEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAzAkIABAAGAAgACocCgRmbGF0FUhzdUAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FXb84EAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EV5kGuPxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBXmQa4_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFaVm90AaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFWNS5UAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZlZ0pMRHlrbERqX1I4WlNITUpOemc1UDAyQ2Z4QTFfUVprb29KR1NQdUJyV1dHYmZERmQxWloyMUwtemdLTHZDcmcyTFp2M044X1Y4TVktN3VpU3dYRFhsUVpJSWJHeEc5ZVhYTHhKRDluSXppZ3Rzd3dTaXkxUjRuQVltVkJBTGk1QXY3OC1QRlBHM2pkOEdPMTlETlE2MWtoREdETnNPTDhyNjdvMy14OHR2QU9BNzBhVmpCdHdneTh4X2NiTUNOaGpsVHdCNldpV29Za0d4R0JsVU1jTXpKcnJJc015WnhRQVpBQURkRldVUEpWU2Y1bFZhdV9SU0FyZGRYdXdnM0dXWG9CVzdUMU5uSFpvTDk2SFNfaDNXQktGaFUxRGxzWHkzOU9FSlY5NldROVc2M0haTG5qSkFHZk53aEktVmJCUUVvTjZXRmc3bTloRUp0MUpnWFpKSnd4RkxXekg5cmxWSG1vTDdMWjNNR3d4NDJaZ1p3Ol02ODQgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5C2QE8Yj4yIEJISyBIb3VzZSBmb3IgUmVudCBJbiBXaGl0ZWZpZWxkICZtaWRkb3Q7IDE2LDAwMCAmbWlkZG90OyA3MDAgc3FmdDwvYj4gOyAxIFJLIEZsYXQgZm9yIFJlbnQgSW4gV2hpdGVmaWVsZCAmbWlkZG90OyAyMCwwMDAgJm1pZGRvdDsgMzAwIHNxZnQgOyAzIEJISyBIb3VzZSBmb3IgUmVudCBJbiBXaGl0ZWZpZWxkICZtaWRkb3Q7IDEgTGFjcyAmbWlkZG90OyAxMjI1IHNxZnQuSgJpblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZlZ0pMRHlrbERqX1I4WlNITUpOemc1UDAyQ2Z4QTFfUVprb29KR1NQdUJyV1dHYmZERmQxWloyMUwtemdLTHZDcmcyTFp2M044X1Y4TVktN3VpU3dYRFhsUVpJSWJHeEc5ZVhYTHhKRDluSXppZ3Rzd3dTaXkxUjRuQVltVkJBTGk1QXY3OC1QRlBHM2pkOEdPMTlETlE2MWtoREdETnNPTDhyNjdvMy14OHR2QU9BNzBhVmpCdHdneTh4X2NiTUNOaGpsVHdCNldpV29Za0d4R0JsVU1jTXpKcnJJc015WnhRQVpBQURkRldVUEpWU2Y1bFZhdV9SU0FyZGRYdXdnM0dXWG9CVzdUMU5uSFpvTDk2SFNfaDNXQktGaFUxRGxzWHkzOU9FSlY5NldROVc2M0haTG5qSkFHZk53aEktVmJCUUVvTjZXRmc3bTloRUp0MUpnWFpKSnd4RkxXekg5cmxWSG1vTDdMWjNNR3d4NDJaZ1p3EgQaAggAGoQKEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAzAkIABAAGAAgACocCgRmbGF0FUhzdUAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50FXb84EAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EV5kGuPxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBXmQa4_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFaVm90AaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFWNS5UAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZlZ0pMRHlrbERqX1I4WlNITUpOemc1UDAyQ2Z4QTFfUVprb29KR1NQdUJyV1dHYmZERmQxWloyMUwtemdLTHZDcmcyTFp2M044X1Y4TVktN3VpU3dYRFhsUVpJSWJHeEc5ZVhYTHhKRDluSXppZ3Rzd3dTaXkxUjRuQVltVkJBTGk1QXY3OC1QRlBHM2pkOEdPMTlETlE2MWtoREdETnNPTDhyNjdvMy14OHR2QU9BNzBhVmpCdHdneTh4X2NiTUNOaGpsVHdCNldpV29Za0d4R0JsVU1jTXpKcnJJc015WnhRQVpBQURkRldVUEpWU2Y1bFZhdV9SU0FyZGRYdXdnM0dXWG9CVzdUMU5uSFpvTDk2SFNfaDNXQktGaFUxRGxzWHkzOU9FSlY5NldROVc2M0haTG5qSkFHZk53aEktVmJCUUVvTjZXRmc3bTloRUp0MUpnWFpKSnd4RkxXekg5cmxWSG1vTDdMWjNNR3d4NDJaZ1p3Ol02ODQgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5C2QE8Yj4yIEJISyBIb3VzZSBmb3IgUmVudCBJbiBXaGl0ZWZpZWxkICZtaWRkb3Q7IDE2LDAwMCAmbWlkZG90OyA3MDAgc3FmdDwvYj4gOyAxIFJLIEZsYXQgZm9yIFJlbnQgSW4gV2hpdGVmaWVsZCAmbWlkZG90OyAyMCwwMDAgJm1pZGRvdDsgMzAwIHNxZnQgOyAzIEJISyBIb3VzZSBmb3IgUmVudCBJbiBXaGl0ZWZpZWxkICZtaWRkb3Q7IDEgTGFjcyAmbWlkZG90OyAxMjI1IHNxZnQuSgJpblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKNlo1MzZmNE5yanNSeE1DVzlfUlJoLVkiLCJsYXQiOiIxMi45NyIsImxvbiI6Ijc3Ljc0OCJ9XQ%3D%3D&sharedAccomodation=0#:~:text=2%20BHK%20House%20for%20Rent,In%20Whitefield&text=%E2%82%B916%2C000&text=700%20sqft&text=1%20RK%20Flat%20for%20Rent,In%20Whitefield&text=%E2%82%B920%2C000&text=300%20sqft&text=3%20BHK%20House%20for%20Rent,In%20Whitefield&text=%E2%82%B91%20Lacs&text=1225%20sqft"
+   },
+   {
+    "position": 9,
+    "title": "855 Flats for Rent in Whitefield, Bangalore Karnataka ...",
+    "link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKZFgteU92d05yanNSdXFmZVpmajRQQlkiLCJsYXQiOiIxMi45NzIiLCJsb24iOiI3Ny43NSJ9XQ==&sharedAccomodation=0",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAIB6zswFVfdC446hP0LjnWSJuoQnY-E3fqYm0yDqAnA1svuNMClWdUjGort26Unh_eemy2AemBvN2UAlPkesK8IwT4TjsO1tQBTtZMc6yJQdTljd8Tq8pcpzvlY7US78kmMknM-QQGFV3mN0ASveO74LZb7gJJQiO6Xtse4WDBri_3ZnH8rr5HMqsXeVOM30MzwszUJfPw1RDqiI4cPn6pzWAUMAXFwvWuyrnYcGbw98rvajb85-gQGbXd6H3eo1DyAFlzaRa4-y-loaf-AkPliBfaEjO7wLmbXXeaWbk85al3f9lgm7pz5UBMdB5QJeNn4-qVyKeofxvkbE_Xx6lgUqMZ_iENusiCICScX5Gn0a_KGqj42uuz0Fz0WZA&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQFnoECEQQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "2 BHK Apartment In Balaji Pristine for Rent In Whitefield · 44,000 · 1190 sqft ; 2 BHK Apartment In Balaji Pristine for Rent In Whitefield · 37,000 · 1190 sqft.",
+    "snippet_highlighted_words": [
+     "2 BHK Apartment In Balaji Pristine for Rent In Whitefield"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "2 BHK Apartment In Balaji Pristine for Rent In Whitefield · 44,000 · 1190 sqft ; 2 BHK Apartment In Balaji Pristine for Rent In Whitefield · 37,000 · 1190 sqft.",
+      "source_info_link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKZFgteU92d05yanNSdXFmZVpmajRQQlkiLCJsYXQiOiIxMi45NzIiLCJsb24iOiI3Ny43NSJ9XQ==&sharedAccomodation=0",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZWZmRDNDQ2aFAwTGpuV1NKdW9RblktRTNmcVltMHlEcUFuQTFzdnVOTUNsV2RVakdvcnQyNlVuaF9lZW15MkFlbUJ2TjJVQWxQa2VzSzhJd1Q0VGpzTzF0UUJUdFpNYzZ5SlFkVGxqZDhUcThwY3B6dmxZN1VTNzhrbU1rbk0tUVFHRlYzbU4wQVN2ZU83NExaYjdnSkpRaU82WHRzZTRXREJyaV8zWm5IOHJyNUhNcXNYZVZPTTMwTXp3c3pVSmZQdzFSRHFpSTRjUG42cHpXQVVNQVhGd3ZXdXlyblljR2J3OThydmFqYjg1LWdRR2JYZDZIM2VvMUR5QUZsemFSYTQteS1sb2FmLUFrUGxpQmZhRWpPN3dMbWJYWGVhV2JrODVhbDNmOWxnbTdwejVVQk1kQjVRSmVObjQtcVZ5S2VvZnh2a2JFX1h4NmxnVXFNWl9pRU51c2lDSUNTY1g1R24wYV9LR3FqNDJ1dXowRnowV1pBEgQaAggAGu4JEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAtgkIABAAGAAgACocCgRmbGF0FdN4kEAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50Fc8J5UAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EV8M1gPxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBXwzWA_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFcTt9EAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFU-fzEAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZWZmRDNDQ2aFAwTGpuV1NKdW9RblktRTNmcVltMHlEcUFuQTFzdnVOTUNsV2RVakdvcnQyNlVuaF9lZW15MkFlbUJ2TjJVQWxQa2VzSzhJd1Q0VGpzTzF0UUJUdFpNYzZ5SlFkVGxqZDhUcThwY3B6dmxZN1VTNzhrbU1rbk0tUVFHRlYzbU4wQVN2ZU83NExaYjdnSkpRaU82WHRzZTRXREJyaV8zWm5IOHJyNUhNcXNYZVZPTTMwTXp3c3pVSmZQdzFSRHFpSTRjUG42cHpXQVVNQVhGd3ZXdXlyblljR2J3OThydmFqYjg1LWdRR2JYZDZIM2VvMUR5QUZsemFSYTQteS1sb2FmLUFrUGxpQmZhRWpPN3dMbWJYWGVhV2JrODVhbDNmOWxnbTdwejVVQk1kQjVRSmVObjQtcVZ5S2VvZnh2a2JFX1h4NmxnVXFNWl9pRU51c2lDSUNTY1g1R24wYV9LR3FqNDJ1dXowRnowV1pBOl04NTUgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5CwwE8Yj4yIEJISyBBcGFydG1lbnQgSW4gQmFsYWppIFByaXN0aW5lIGZvciBSZW50IEluIFdoaXRlZmllbGQ8L2I-ICZtaWRkb3Q7IDQ0LDAwMCAmbWlkZG90OyAxMTkwIHNxZnQgOyAyIEJISyBBcGFydG1lbnQgSW4gQmFsYWppIFByaXN0aW5lIGZvciBSZW50IEluIFdoaXRlZmllbGQgJm1pZGRvdDsgMzcsMDAwICZtaWRkb3Q7IDExOTAgc3FmdC5KAmluUgJieVIFZm9yIGEiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZWZmRDNDQ2aFAwTGpuV1NKdW9RblktRTNmcVltMHlEcUFuQTFzdnVOTUNsV2RVakdvcnQyNlVuaF9lZW15MkFlbUJ2TjJVQWxQa2VzSzhJd1Q0VGpzTzF0UUJUdFpNYzZ5SlFkVGxqZDhUcThwY3B6dmxZN1VTNzhrbU1rbk0tUVFHRlYzbU4wQVN2ZU83NExaYjdnSkpRaU82WHRzZTRXREJyaV8zWm5IOHJyNUhNcXNYZVZPTTMwTXp3c3pVSmZQdzFSRHFpSTRjUG42cHpXQVVNQVhGd3ZXdXlyblljR2J3OThydmFqYjg1LWdRR2JYZDZIM2VvMUR5QUZsemFSYTQteS1sb2FmLUFrUGxpQmZhRWpPN3dMbWJYWGVhV2JrODVhbDNmOWxnbTdwejVVQk1kQjVRSmVObjQtcVZ5S2VvZnh2a2JFX1h4NmxnVXFNWl9pRU51c2lDSUNTY1g1R24wYV9LR3FqNDJ1dXowRnowV1pBEgQaAggAGu4JEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAtgkIABAAGAAgACocCgRmbGF0FdN4kEAaBWZsYXRzGghmbGF0cmVudCo-CgRyZW50Fc8J5UAaD2FwYXJ0bWVudHMgbmVhchoGcmVudGFsGgdyZW50YWxzGgVyZW50cxoIZmxhdHJlbnQqMQoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaA3BzZhoFcGVyc3EaB3BlcnNxZnQqVAoCc3EV8M1gPxoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBXwzWA_GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpNCgp3aGl0ZWZpZWxkFcTt9EAaE3doaXRlZmllbGRiYW5nYWxvcmUaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg9pdjtwO3doaXRlZmllbGQqVgoJYmFuZ2Fsb3JlFU-fzEAaCWJlbmdhbHVydRoTd2hpdGVmaWVsZGJhbmdhbG9yZRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMowDL2dvdG8_dXJsPUNBRVNuQUlCNnpzd0ZWZmRDNDQ2aFAwTGpuV1NKdW9RblktRTNmcVltMHlEcUFuQTFzdnVOTUNsV2RVakdvcnQyNlVuaF9lZW15MkFlbUJ2TjJVQWxQa2VzSzhJd1Q0VGpzTzF0UUJUdFpNYzZ5SlFkVGxqZDhUcThwY3B6dmxZN1VTNzhrbU1rbk0tUVFHRlYzbU4wQVN2ZU83NExaYjdnSkpRaU82WHRzZTRXREJyaV8zWm5IOHJyNUhNcXNYZVZPTTMwTXp3c3pVSmZQdzFSRHFpSTRjUG42cHpXQVVNQVhGd3ZXdXlyblljR2J3OThydmFqYjg1LWdRR2JYZDZIM2VvMUR5QUZsemFSYTQteS1sb2FmLUFrUGxpQmZhRWpPN3dMbWJYWGVhV2JrODVhbDNmOWxnbTdwejVVQk1kQjVRSmVObjQtcVZ5S2VvZnh2a2JFX1h4NmxnVXFNWl9pRU51c2lDSUNTY1g1R24wYV9LR3FqNDJ1dXowRnowV1pBOl04NTUgPGI-RmxhdHM8L2I-IGZvciA8Yj5SZW50PC9iPiBpbiA8Yj5XaGl0ZWZpZWxkPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPiBLYXJuYXRha2EgV2l0aG91dCAuLi5CwwE8Yj4yIEJISyBBcGFydG1lbnQgSW4gQmFsYWppIFByaXN0aW5lIGZvciBSZW50IEluIFdoaXRlZmllbGQ8L2I-ICZtaWRkb3Q7IDQ0LDAwMCAmbWlkZG90OyAxMTkwIHNxZnQgOyAyIEJISyBBcGFydG1lbnQgSW4gQmFsYWppIFByaXN0aW5lIGZvciBSZW50IEluIFdoaXRlZmllbGQgJm1pZGRvdDsgMzcsMDAwICZtaWRkb3Q7IDExOTAgc3FmdC5KAmluUgJieVIFZm9yIGEiAhABSABYAGgA",
+    "source": "NoBroker",
+    "read_more_link": "https://www.nobroker.in/property/rent/bangalore/Whitefield?searchParam=W3sicGxhY2VOYW1lIjoiV2hpdGVmaWVsZCIsInBsYWNlSWQiOiJDaElKZFgteU92d05yanNSdXFmZVpmajRQQlkiLCJsYXQiOiIxMi45NzIiLCJsb24iOiI3Ny43NSJ9XQ%3D%3D&sharedAccomodation=0#:~:text=2%20BHK%20Apartment%20In%20Balaji,Pristine%20for%20Rent%20In%20Whitefield&text=%E2%82%B944%2C000&text=1190%20sqft&text=2%20BHK%20Apartment%20In%20Balaji,Pristine%20for%20Rent%20In%20Whitefield&text=%E2%82%B937%2C000&text=1190%20sqft"
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "1 BHK Flats for rent in Whitefield, Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&q=1+BHK+Flats+for+rent+in+Whitefield,+Bangalore&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ1QJ6BAg7EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=1+BHK+Flats+for+rent+in+Whitefield%2C+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Fully furnished 1 BHK for rent in Whitefield, Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&q=Fully+furnished+1+BHK+for+rent+in+Whitefield,+Bangalore&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ1QJ6BAhAEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Fully+furnished+1+BHK+for+rent+in+Whitefield%2C+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "2 BHK Flats for rent in Whitefield, Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&q=2+BHK+Flats+for+rent+in+Whitefield,+Bangalore&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ1QJ6BAg-EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=2+BHK+Flats+for+rent+in+Whitefield%2C+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Cheap 2 BHK Flats for rent in Whitefield, Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&q=Cheap+2+BHK+Flats+for+rent+in+Whitefield,+Bangalore&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ1QJ6BAg_EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Cheap+2+BHK+Flats+for+rent+in+Whitefield%2C+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "3 BHK Flats for rent in Whitefield, Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&q=3+BHK+Flats+for+rent+in+Whitefield,+Bangalore&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ1QJ6BAg9EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=3+BHK+Flats+for+rent+in+Whitefield%2C+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Gated community Apartments for rent in Whitefield, Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&q=Gated+community+Apartments+for+rent+in+Whitefield,+Bangalore&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ1QJ6BAg5EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Gated+community+Apartments+for+rent+in+Whitefield%2C+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "1 BHK Room for rent in Whitefield, Bangalore under 5000",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&q=1+BHK+Room+for+rent+in+Whitefield,+Bangalore+under+5000&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ1QJ6BAg8EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=1+BHK+Room+for+rent+in+Whitefield%2C+Bangalore+under+5000&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Studio apartment for rent in Whitefield Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&q=Studio+apartment+for+rent+in+Whitefield+Bangalore&sa=X&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ1QJ6BAg6EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Studio+apartment+for+rent+in+Whitefield+Bangalore&start=0"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=10&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8NMDegQINxAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=10&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAE",
+    "3": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=20&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAG",
+    "4": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=30&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAI",
+    "5": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=40&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAK",
+    "6": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=50&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAM",
+    "7": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=60&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAO",
+    "8": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=70&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAQ",
+    "9": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=80&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAS",
+    "10": "https://www.google.co.in/search?q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQns195m2dljd_hfMXd-3UyU4rLHkNQ:1791279403506&ei=K8HEaqvHHvuHw8cPuv7NuQc&start=90&sa=N&sstk=AS6-VmJFnFGWaJC6tEMG5mhHswJ5TiLGyWYb98oHFLoOnlAhalt749RAoWzDQlJVoZ7BIRAdOdwNAiq1D8oeToWeqB15hcRMyGxwjg&ved=2ahUKEwjriKjki6WXAxX7w_ACHTp_M3cQ8tMDegQINxAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=flat+rent+per+sq+ft+in+Whitefield+Bangalore&start=90"
+   }
+  }
+ }
+}

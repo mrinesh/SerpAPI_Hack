@@ -76,3 +76,27 @@ def test_demo_areas_replay_with_centre_amenities_growth_and_summary(client, name
     assert area["summary_by_ai"] and "metro" in area["infrastructure_summary"].lower()
     recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
     assert all(r["score_breakdown"]["area"] is not None for r in recommendations)
+
+
+@pytest.mark.parametrize(("name", "rent"), [("residential", 32.5), ("commercial", 84.4)])
+def test_demo_metrics_replay_with_recorded_rent(client, name, rent):
+    profile_id = client.post("/api/profiles", json=DEMO_PROFILES[name]).json()["id"]
+    run_id = client.post(f"/api/profiles/{profile_id}/runs").json()["id"]
+    [area] = client.get(f"/api/runs/{run_id}/areas").json()
+    assert next(iter(area["rent_levels"].values()))["value"] == rent
+    recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
+    for r in recommendations:
+        metrics = r["metrics"]
+        priced = r["listing"]["price_inr"]["value"] is not None
+        flagged = any(f["kind"] == "too_good_to_be_true" for f in r["verification"]["flags"])
+        has_rate = priced and (
+            r["listing"]["price_per_sqft"]["value"] or r["listing"]["size_sqft"]["value"]
+        )
+        assert (metrics["rental_yield_pct"]["value"] is not None) == bool(has_rate and not flagged)
+        assert (r["score_breakdown"]["roi"] is None) == (metrics["meets_target_roi"] is None)
+    # Recorded: Sowparnika Columns, ₹8,185/sq ft against ₹32.5/sq ft/month -> 4.76%, meets 4%.
+    if name == "residential":
+        top = recommendations[0]
+        assert top["listing"]["name"] == "Sowparnika Columns"
+        assert top["metrics"]["rental_yield_pct"]["value"] == 4.76
+        assert top["metrics"]["meets_target_roi"] is True

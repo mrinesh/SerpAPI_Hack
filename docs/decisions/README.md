@@ -21,3 +21,4 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0014](0014-area-relative-price-flags.md) | Price flags against a sourced per-locality price level, not a flat rate | Accepted |
 | [0015](0015-composite-ranking.md) | Composite ranking in code; grounded AI explanations for the top five | Accepted |
 | [0016](0016-area-intelligence-and-score.md) | Area intelligence from five searches; area score is amenity access only | Accepted |
+| [0017](0017-investment-metrics-and-roi-score.md) | Rental yield from a quoted area rent; proportional ROI score | Accepted |

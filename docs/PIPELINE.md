@@ -19,7 +19,7 @@ the pipeline working live (F-20). A failing stage marks the run failed without d
 earlier results.
 
 > Status: plan, fetch and clean (F-02), verification (F-03, with F-12 price flags) and rank
-> (F-04) are built, and enrich has area intelligence (F-05). Investment metrics (F-09) are next. Both demo profiles replay end to end with no keys, from committed
+> (F-04) are built, and enrich has area intelligence (F-05) and investment metrics (F-09). Both demo profiles replay end to end with no keys, from committed
 > SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
@@ -143,19 +143,26 @@ Any provider error leaves that part empty; enrichment never fails a run.
 density, ratings, review volume, saturation. P1: google_maps_reviews for the top competitors →
 `competitor_gaps` prompt.
 
-**Metrics**: pure functions, no I/O:
+**Rent level** (`enrichment/rent_level.py`, F-09): one Google search per locality and type
+("flat rent per sq ft in Whitefield Bangalore"); `extract_rent` (LLM lite) lists quoted rent
+and size pairs; code checks each against its snippet and takes the median rent ÷ size of at
+least 3 ([ADR 0017](decisions/0017-investment-metrics-and-roi-score.md)). Cached in the area.
+
+**Metrics** (`metrics.py`, F-09): pure functions, no I/O:
 
 | Metric | Formula |
 |---|---|
 | Price per sq ft | price / size |
 | vs area average | (price per sq ft / locality average − 1) × 100 |
-| Rental yield | monthly rent × 12 / price × 100, before any costs |
+| Rental yield | area rent per sq ft per month × 12 / price per sq ft × 100, before any costs; none for a price flagged too good to be true |
 | Price growth | investor's override if set, else the locality's past-12-month change in price per sq ft |
 | Total return | rental yield + price growth |
 | Meets target | the goal's measure ≥ `target_roi_pct` (rental income → yield, appreciation → growth, balanced → total) |
 
 No net yield or cap rate: both need cost assumptions we would have to source
 ([ADR 0010](decisions/0010-roi-definition.md)). Missing inputs give a missing metric, never zero.
+The rank stage turns the goal's measure into the `roi` score: measure ÷ (1.5 × target) × 100,
+capped at 100. Missing the target lowers the score; it never filters a candidate.
 
 ## 6 · Rank (`ranking.py`, F-04)
 

@@ -425,6 +425,10 @@ export interface components {
             price_levels?: {
                 [key: string]: components["schemas"]["Sourced_float_"];
             };
+            /** Rent Levels */
+            rent_levels?: {
+                [key: string]: components["schemas"]["Sourced_float_"];
+            };
             rental_demand?: components["schemas"]["RentalDemand"] | null;
             /** Summary */
             summary?: string | null;

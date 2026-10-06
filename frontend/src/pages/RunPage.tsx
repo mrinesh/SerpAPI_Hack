@@ -71,6 +71,7 @@ export function RunPage() {
           options={options.data}
           verifications={verifications.data ?? []}
           recommendations={recommendations.data ?? []}
+          targetRoi={profile.data?.target_roi_pct}
         />
       )}
     </div>

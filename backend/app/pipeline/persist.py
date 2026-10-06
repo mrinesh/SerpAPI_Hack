@@ -111,6 +111,7 @@ def save_recommendation(db: Session, run_id: str, recommendation: Recommendation
                 "risks",
                 "explained",
                 "access",
+                "metrics",
             },
         ),
     }

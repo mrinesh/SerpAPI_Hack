@@ -1,0 +1,35 @@
+{
+  "key": "15a950516c5d23a5f2220a81b8c7e9b1b5a86d624efbd950b30aaf5e6ac46abb",
+  "task": "extract_rent",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "pairs": [
+      {
+        "result_index": 1,
+        "monthly_rent": 170000.0,
+        "size_sqft": 1800.0,
+        "evidence": "₹1.7 Lac / month + Deposit 10 months rent 1,800 sqft"
+      },
+      {
+        "result_index": 6,
+        "monthly_rent": 135000.0,
+        "size_sqft": 1600.0,
+        "evidence": "₹1.35 Lac / month 1,600 sqft"
+      },
+      {
+        "result_index": 6,
+        "monthly_rent": 210000.0,
+        "size_sqft": 4000.0,
+        "evidence": "₹2.1 Lac / month + Deposit 5 months rent 4,000 sqft"
+      },
+      {
+        "result_index": 7,
+        "monthly_rent": 135000.0,
+        "size_sqft": 1600.0,
+        "evidence": "1600 sqft co-Working office space is available for lease at rs 1.35 lac"
+      }
+    ],
+    "confidence": 0.9
+  }
+}

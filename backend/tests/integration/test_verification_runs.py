@@ -213,3 +213,18 @@ def test_missing_area_data_leaves_the_area_score_empty_but_the_run_succeeds(clie
 def test_area_routes_return_404_when_unknown(client):
     assert client.get("/api/runs/missing/areas").status_code == 404
     assert client.get("/api/areas/bengaluru/nowhere").status_code == 404
+
+
+def test_missing_rent_leaves_roi_empty_but_the_run_succeeds(client, monkeypatch):
+    from app.pipeline.enrichment import area as area_module
+
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    monkeypatch.setattr(area_module, "rent_level", lambda *_: None)
+    run_id, run = start(client)
+    assert run["status"] == "succeeded", run
+    recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
+    assert recommendations
+    for r in recommendations:
+        assert r["score_breakdown"]["roi"] is None
+        assert r["metrics"]["rental_yield_pct"]["value"] is None
+        assert r["metrics"]["meets_target_roi"] is None

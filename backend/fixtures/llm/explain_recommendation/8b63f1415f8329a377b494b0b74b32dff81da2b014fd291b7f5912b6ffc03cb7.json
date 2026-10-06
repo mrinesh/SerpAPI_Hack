@@ -1,0 +1,19 @@
+{
+  "key": "8b63f1415f8329a377b494b0b74b32dff81da2b014fd291b7f5912b6ffc03cb7",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This candidate fits your budget and property type, and the listed price is 15% below the Whitefield area average. However, the source is only a search snippet, not a verified individual listing, so the exact unit, price, and locality need confirmation. Check the final asking price and verify the property's precise location and size before proceeding.",
+    "highlights": [
+      "Listed price ₹76 L is within your budget 'up to ₹80 L'.",
+      "Rate of ₹10,340/sq ft is 15% below the area level of ₹12,150/sq ft.",
+      "Ready to move in and located in Whitefield, matching your preferred locality."
+    ],
+    "risks": [
+      "No verified individual listing; source is a search results snippet, so details may not correspond to an exact unit.",
+      "Rental yield is 3.8% before costs, below the 4% target ROI.",
+      "Locality is query-derived and may cover nearby areas; individual property locality not confirmed."
+    ]
+  }
+}

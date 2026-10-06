@@ -18,12 +18,14 @@ from app.integrations.llm.base import ModelTier
 from app.pipeline.context import PipelineContext
 from app.pipeline.enrichment.area import growth_text, listing_access
 from app.pipeline.grounding import allowed_numbers, grounded
+from app.pipeline.metrics import measure_value
 from app.pipeline.quality import listing_rate
 from app.pipeline.verification import listing_input, prompt_for
 from app.reference import Market
 from app.schemas.area import AreaAccess, AreaIntel
 from app.schemas.common import Level
 from app.schemas.listing import Listing, MatchVerdict, QualityFlagKind, Verification
+from app.schemas.metrics import InvestmentMetrics
 from app.schemas.profile import InvestmentGoal, InvestorProfile, RiskAppetite
 from app.schemas.provenance import Sourced
 from app.schemas.recommendation import Recommendation
@@ -52,6 +54,7 @@ RISK_SHIFTS: dict[RiskAppetite, dict[str, float]] = {
 METRO_FULL_KM, METRO_ZERO_KM = 0.5, 4.0
 NEARBY_FULL = 3
 AREA_PARTS = {"metro": 0.5, "schools": 0.25, "hospitals": 0.25}
+ROI_FULL_AT = 1.5  # ROI points: full marks at 1.5x the investor's target (ADR 0017)
 VALUE_SLOPE = 125  # value score points per 100% of the area level: 0.6x -> 100, 1.4x -> 0
 FLAG_PENALTY = 25  # points off per high-severity quality flag
 EXPLAIN_TOP = 5  # LLM-written reasons per run
@@ -118,15 +121,26 @@ def area_score(access: AreaAccess | None) -> float | None:
     return sum(AREA_PARTS[name] * value for name, value in parts.items())
 
 
+def roi_score(metrics: InvestmentMetrics | None, target: float) -> float | None:
+    """Proportional to the goal's measure: 0 at 0%, 66.7 at the target, 100 at 1.5x it."""
+    measured = measure_value(metrics) if metrics is not None else None
+    if measured is None:
+        return None
+    if target <= 0:
+        return 100.0 if measured >= 0 else 0.0
+    return _clamp(measured / (ROI_FULL_AT * target) * 100)
+
+
 def components(
     listing: Listing,
     verification: Verification,
     level: Sourced[float] | None,
     access: AreaAccess | None = None,
+    roi: float | None = None,
 ) -> dict[str, float | None]:
     return {
         "relevance": float(verification.match_score),
-        "roi": None,  # F-09 investment metrics
+        "roi": roi,
         "value": value_score(listing, verification, level),
         "evidence": evidence_score(listing, verification),
         "area": area_score(access),
@@ -162,6 +176,7 @@ def score_candidates(
     levels: dict[LevelKey, Sourced[float]],
     market: Market | None = None,
     areas: dict[str, AreaIntel] | None = None,
+    metrics: dict[str, InvestmentMetrics] | None = None,
 ) -> list[Recommendation]:
     """Rank every checked candidate that was not rejected; each gets a code-written reason."""
     weights = weights_for(profile.goal, profile.risk_appetite)
@@ -173,14 +188,20 @@ def score_candidates(
         access = listing_access(
             listing.location.value, (areas or {}).get(listing.locality.value or "")
         )
+        found = (metrics or {}).get(listing.id)
+        roi = roi_score(found, profile.target_roi_pct)
         score, breakdown = composite(
-            components(listing, verification, level, access), weights, flag_penalty(verification)
+            components(listing, verification, level, access, roi),
+            weights,
+            flag_penalty(verification),
         )
-        scored.append((score, listing, verification, breakdown, access))
+        scored.append((score, listing, verification, breakdown, access, found))
     scored.sort(key=lambda item: (-item[0], item[1].price_inr.value or 0, item[1].id))
     total = len(scored)
     recommendations = []
-    for rank, (score, listing, verification, breakdown, access) in enumerate(scored, start=1):
+    for rank, (score, listing, verification, breakdown, access, found) in enumerate(
+        scored, start=1
+    ):
         recommendation = Recommendation(
             rank=rank,
             listing=listing,
@@ -188,10 +209,15 @@ def score_candidates(
             score=score,
             score_breakdown=breakdown,
             access=access,
+            metrics=found,
             reason="",
         )
         recommendation.reason = code_reason(
-            recommendation, total, level_for(levels, listing), place_name(market, listing)
+            recommendation,
+            total,
+            level_for(levels, listing),
+            place_name(market, listing),
+            profile.target_roi_pct,
         )
         recommendations.append(recommendation)
     return recommendations
@@ -210,7 +236,11 @@ def inr_short(value: int) -> str:
 
 
 def code_reason(
-    recommendation: Recommendation, total: int, level: Sourced[float] | None, place: str
+    recommendation: Recommendation,
+    total: int,
+    level: Sourced[float] | None,
+    place: str,
+    target_roi: float | None = None,
 ) -> str:
     verification = recommendation.verification
     parts = [
@@ -229,7 +259,20 @@ def code_reason(
         parts.append(f"Quoted at {figures['price']}.")
     else:
         parts.append("No price is quoted yet.")
+    if (yield_text := _yield_text(recommendation)) and target_roi is not None:
+        verdict = "meets" if recommendation.metrics.meets_target_roi else "below"
+        if recommendation.metrics.roi_measure == "rental_yield":
+            parts.append(f"Estimated {yield_text}, {verdict} the {_compact(target_roi)}% target.")
+        else:
+            parts.append(f"Estimated {yield_text}.")
     return " ".join(parts)
+
+
+def _yield_text(recommendation: Recommendation) -> str | None:
+    metrics = recommendation.metrics
+    if metrics is None or metrics.rental_yield_pct.value is None:
+        return None
+    return f"rental yield {metrics.rental_yield_pct.value:.1f}% before costs"
 
 
 def display_figures(
@@ -275,6 +318,19 @@ def display_figures(
         figures["hospitals"] = f"{access.hospitals_3km} hospitals found within 3 km"
     if text := growth_text(growth):
         figures["price_growth"] = f"{place}: {text}"
+    metrics = recommendation.metrics
+    if metrics is not None:
+        if yield_text := _yield_text(recommendation):
+            figures["rental_yield"] = yield_text
+        if metrics.est_monthly_rent_inr.value:
+            figures["est_rent"] = f"about {inr_short(metrics.est_monthly_rent_inr.value)} a month"
+        if metrics.total_return_pct.value is not None:
+            figures["total_return"] = f"total return {metrics.total_return_pct.value:.1f}%"
+        if metrics.meets_target_roi is not None and profile is not None:
+            figures["target_check"] = (
+                f"{'meets' if metrics.meets_target_roi else 'below'} the "
+                f"{_compact(profile.target_roi_pct)}% target"
+            )
     if profile is not None:
         figures["budget"] = f"up to {inr_short(profile.budget_max_inr)}"
         figures["target_roi"] = f"{_compact(profile.target_roi_pct)}% target ROI"

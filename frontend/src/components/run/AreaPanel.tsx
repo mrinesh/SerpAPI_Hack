@@ -17,6 +17,7 @@ export function AreaPanel({ areas, typeLabel }: {
 
 function AreaCard({ area, typeLabel }: { area: AreaIntel; typeLabel: (value: PropertyType) => string }) {
   const levels = Object.entries(area.price_levels ?? {}) as [PropertyType, NonNullable<AreaIntel["price_levels"]>[string]][];
+  const rents = area.rent_levels ?? {};
   const growth = area.price_growth_pct;
   return (
     <article className="space-y-3 rounded-xl border border-slate-200 bg-white p-4 text-sm">
@@ -36,6 +37,14 @@ function AreaCard({ area, typeLabel }: { area: AreaIntel; typeLabel: (value: Pro
             <dt className="text-slate-500">{typeLabel(kind)} price level</dt>
             <dd className="font-medium" title={level.note ?? undefined}>
               ₹{Math.round(level.value ?? 0).toLocaleString("en-IN")}/sq ft
+            </dd>
+          </div>
+        ))}
+        {Object.entries(rents).map(([kind, rent]) => rent?.value != null && (
+          <div key={`rent-${kind}`}>
+            <dt className="text-slate-500">{typeLabel(kind as PropertyType)} rent</dt>
+            <dd className="font-medium" title={rent.note ?? undefined}>
+              ₹{rent.value}/sq ft/month
             </dd>
           </div>
         ))}

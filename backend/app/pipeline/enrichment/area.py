@@ -25,6 +25,7 @@ from app.integrations.serpapi import engines
 from app.integrations.serpapi.engines import EngineCall
 from app.pipeline.cleaning import normalize_text
 from app.pipeline.context import PipelineContext
+from app.pipeline.enrichment.rent_level import rent_level
 from app.pipeline.grounding import allowed_numbers, grounded
 from app.pipeline.verification import prompt_for
 from app.reference import Market
@@ -387,9 +388,11 @@ def get_area_intel(
     market: Market,
     slug: str,
     levels: dict[PropertyType, Sourced[float]] | None = None,
+    types: set[PropertyType] | None = None,
 ) -> tuple[AreaIntel, bool]:
     """The cached area for `slug` (built when missing or expired), with this run's price levels
-    merged in. Returns (area, served_from_cache)."""
+    merged in and a rent level fetched for each of `types` it lacks (F-09). Returns
+    (area, served_from_cache)."""
     place = market.locality(slug)
     key = locality_key(place.name if place else slug, market.city)
     row = ctx.db.get(AreaIntelRow, key)
@@ -398,6 +401,11 @@ def get_area_intel(
     area = AreaIntel.model_validate(row.data) if cached else build_area_intel(ctx, market, slug)
     merged = {**area.price_levels, **(levels or {})}
     area.price_levels = {PropertyType(kind): level for kind, level in merged.items()}
+    for kind in sorted(types or set()):
+        if PropertyType(kind) not in area.rent_levels:
+            found = rent_level(ctx, market, area.locality, PropertyType(kind))
+            if found is not None:
+                area.rent_levels[PropertyType(kind)] = found
     if row is None:
         row = AreaIntelRow(locality_key=key)
         ctx.db.add(row)

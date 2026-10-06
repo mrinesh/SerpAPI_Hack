@@ -2,13 +2,15 @@ import type { Recommendation } from "../../api/types";
 import { formatInr } from "../../lib/money";
 import { accessLine } from "./areaText";
 import { FlagChips } from "./FlagChips";
+import { metricsLine, targetBadge } from "./metricsText";
 import { breakdownRows } from "./scoreBreakdown";
 
 /** F-04: the ranked shortlist. Scores are computed in code; reasons are AI-written for the top
  * picks and code-written for the rest (ADR 0015). */
-export function RecommendationList({ recommendations, describe }: {
+export function RecommendationList({ recommendations, describe, targetRoi }: {
   recommendations: Recommendation[];
   describe: (recommendation: Recommendation) => string;
+  targetRoi?: number;
 }) {
   if (recommendations.length === 0) {
     return <p className="text-sm text-slate-500">No candidates could be ranked.</p>;
@@ -20,17 +22,21 @@ export function RecommendationList({ recommendations, describe }: {
           key={recommendation.listing.id}
           recommendation={recommendation}
           details={describe(recommendation)}
+          targetRoi={targetRoi}
         />
       ))}
     </ol>
   );
 }
 
-function RecommendationCard({ recommendation, details }: {
+function RecommendationCard({ recommendation, details, targetRoi }: {
   recommendation: Recommendation;
   details: string;
+  targetRoi?: number;
 }) {
   const { listing, verification } = recommendation;
+  const returns = metricsLine(recommendation.metrics);
+  const badge = targetRoi != null ? targetBadge(recommendation.metrics, targetRoi) : null;
   return (
     <li className="grid gap-3 px-4 py-4 sm:grid-cols-[auto_1fr_auto]">
       <p className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">
@@ -42,6 +48,23 @@ function RecommendationCard({ recommendation, details }: {
           <p className="text-xs text-slate-500">{details}</p>
           {accessLine(recommendation.access) && (
             <p className="text-xs text-slate-500">{accessLine(recommendation.access)}</p>
+          )}
+          {(returns || badge) && (
+            <p className="text-xs text-slate-600">
+              {returns}
+              {badge && (
+                <span
+                  className={`ml-2 rounded-full border px-2 py-0.5 font-medium ${
+                    recommendation.metrics?.meets_target_roi
+                      ? "border-emerald-200 bg-emerald-50 text-emerald-800"
+                      : "border-slate-200 bg-slate-50 text-slate-600"
+                  }`}
+                  title="Estimated from area rents and quoted prices, before costs"
+                >
+                  {badge}
+                </span>
+              )}
+            </p>
           )}
         </div>
         <p className="text-sm text-slate-700">

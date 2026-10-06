@@ -24,9 +24,9 @@ type Tab = "recommended" | "priced" | "projects" | "filtered";
 
 /** The ranked shortlist first (F-04), then every discovered candidate with its relevance check.
  * Rejects remain visible with their reasons. */
-export function CandidateList({ listings, options, verifications, recommendations }: {
+export function CandidateList({ listings, options, verifications, recommendations, targetRoi }: {
   listings: Listing[]; options: ProfileOptions; verifications: Verification[];
-  recommendations: Recommendation[];
+  recommendations: Recommendation[]; targetRoi?: number;
 }) {
   const groups = groupCandidates(listings, verifications);
   const { priced, projects, filtered } = groups;
@@ -65,7 +65,7 @@ export function CandidateList({ listings, options, verifications, recommendation
       </div>
       <p className="text-xs text-slate-500">
         {tab === "recommended"
-          ? "Ranked by a score computed from relevance, price against the area level, evidence quality and access to metro, schools and hospitals. ROI is not included yet."
+          ? "Ranked by a score computed from relevance, ROI against your target, price against the area level, evidence quality and access to metro, schools and hospitals. Yields use area rents and are before costs."
           : tab === "filtered"
           ? "Candidates that fail your criteria. Their source links and rejection reasons are kept for review."
           : tab === "priced"
@@ -75,6 +75,7 @@ export function CandidateList({ listings, options, verifications, recommendation
       {tab === "recommended" && (
         <RecommendationList
           recommendations={recommendations}
+          targetRoi={targetRoi}
           describe={({ listing }) => [
             typeLabel(listing.property_type.value),
             localityName(listing.locality.value),
