@@ -1,5 +1,5 @@
 import type { AreaIntel, PropertyType } from "../../api/types";
-import { areaWarnings, nearestByCategory } from "./areaText";
+import { areaWarnings, nearestByCategory, newsForPanel } from "./areaText";
 
 /** F-05: one card per locality of the ranked candidates. Distances are computed in code; the
  * summary is AI-written only when every number in it was checked (ADR 0016). */
@@ -87,10 +87,44 @@ function AreaCard({ area, typeLabel }: { area: AreaIntel; typeLabel: (value: Pro
           </div>
         ))}
       </div>
+      <LocalNews area={area} />
       <p className="text-xs text-slate-400">
         Amenities come from one Google Maps search per category near the locality centre, so counts are a sample.
         Price change is past data, not a forecast.
       </p>
     </article>
+  );
+}
+
+const SENTIMENT_STYLES: Record<string, string> = {
+  positive: "border-emerald-200 bg-emerald-50 text-emerald-800",
+  negative: "border-red-200 bg-red-50 text-red-700",
+  neutral: "border-slate-200 bg-slate-50 text-slate-600",
+};
+
+/** Recent locality news as published, with AI topic and sentiment labels (display only). */
+function LocalNews({ area }: { area: AreaIntel }) {
+  const items = newsForPanel(area);
+  if (items.length === 0) return null;
+  return (
+    <div className="space-y-1 text-xs">
+      <p className="font-medium text-slate-600">Local news</p>
+      <ul className="space-y-1">
+        {items.map((item) => (
+          <li key={item.url} className="flex flex-wrap items-baseline gap-1 text-slate-600">
+            {item.classified && (
+              <span className={`rounded-full border px-1.5 ${SENTIMENT_STYLES[item.sentiment ?? "neutral"]}`}>
+                {item.topic}
+              </span>
+            )}
+            <a href={item.url} target="_blank" rel="noreferrer" className="underline">{item.title}</a>
+            <span className="text-slate-400">
+              {[item.outlet, item.published_on].filter(Boolean).join(" · ")}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <p className="text-slate-400">Headlines as published; a planned project is not a completed one. Labels are AI-assigned.</p>
+    </div>
   );
 }

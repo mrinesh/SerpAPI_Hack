@@ -6,19 +6,23 @@ from types import SimpleNamespace
 import pytest
 
 from app.config import get_settings
-from app.core.errors import ReplayMiss
+from app.core.errors import ReplayMiss, UpstreamError
 from app.db.models import AreaIntelRow
 from app.pipeline.enrichment.area import (
     AreaSummary,
+    ClassifiedNews,
     PriceGrowthExtract,
     _summarize,
     access_from,
+    apply_labels,
     get_area_intel,
     haversine_km,
     listing_access,
     locality_key,
     parse_amenities,
     parse_centre,
+    parse_news,
+    same_event,
     supported_growth,
 )
 from app.pipeline.ranking import area_score
@@ -259,10 +263,11 @@ def test_failed_sections_are_recorded_and_the_area_expires_at_once(db):
     level = Sourced(value=12_150.0, confidence=0.7, method=ExtractionMethod.LLM)
     first, cached = get_area_intel(ctx, MARKET, "whitefield", {"apartment": level})
     assert not cached and first.center is None and first.amenities == []
-    assert first.section_status == {"centre": "failed", "growth": "failed"}
+    assert first.section_status == {"centre": "failed", "growth": "failed", "news": "failed"}
     assert {(w.section, w.code) for w in first.warnings} == {
         ("centre", "replay_miss"),
         ("growth", "replay_miss"),
+        ("news", "replay_miss"),
     }
     assert first.expires_at == first.fetched_at  # retried next run, never cached as empty
     assert first.price_levels["apartment"].value == 12_150  # still saved for inspection
@@ -323,6 +328,109 @@ def test_a_cached_area_is_rebuilt_unless_valid_for_this_code_and_providers(db, s
     get_area_intel(ctx, MARKET, "whitefield")
     row = db.get(AreaIntelRow, "bengaluru/whitefield")
     row.data = spoil(row.data)
+    db.commit()
+    _, cached = get_area_intel(ctx, MARKET, "whitefield")
+    assert not cached
+
+
+# --- news (F-05; adapted from gscode007's branch) ----------------------------------------
+
+
+WHITEFIELD_PLACE = MARKET.locality("whitefield")
+
+
+def article(title, link, iso_date="2026-09-20T10:00:00Z", snippet=None, source="Deccan Herald"):
+    return {"title": title, "link": link, "iso_date": iso_date, "snippet": snippet,
+            "source": {"name": source}}  # fmt: skip
+
+
+def test_news_keeps_locality_articles_one_per_story_group_newest_first():
+    data = {
+        "news_results": [
+            article("Metro line reaches Whitefield", "https://a.in/1", "2026-09-10T00:00:00Z"),
+            {  # a story group: the first article naming the locality stands for the event
+                "highlight": article("Citywide rain alert", "https://b.in/2"),
+                "stories": [
+                    article("Whitefield roads flooded", "https://c.in/3", "2026-09-30T00:00:00Z"),
+                    article("Flooding in Whitefield again", "https://d.in/4"),
+                ],
+            },
+            article("Koramangala cafe opens", "https://e.in/5"),  # another locality
+            {"title": "A group header without a link"},
+            article("Metro line reaches Whitefield", "https://a.in/1#frag"),  # same URL
+            article("", "https://f.in/6"),  # malformed
+            article("Whitefield news", "ftp://g.in/7"),  # not a web link
+        ]
+    }
+    news = parse_news(data, WHITEFIELD_PLACE, "s-1")
+    assert [n.title for n in news] == ["Whitefield roads flooded", "Metro line reaches Whitefield"]
+    assert news[0].published_on.isoformat() == "2026-09-30" and news[0].outlet == "Deccan Herald"
+    assert news[0].source.search_id == "s-1" and not news[0].classified
+
+
+def test_differently_worded_reports_of_one_event_are_kept_once():
+    # Recorded Koramangala headlines: seven outlets, one incident.
+    a = "Man found dead inside car in Bengaluru's Koramangala"
+    b = "Man found dead inside parked car in Koramangala"
+    c = "Koramangala waste centre opens for practical learning"
+    place = MARKET.locality("koramangala")
+    assert same_event(a, b, place) and not same_event(a, c, place)
+
+
+def test_recorded_whitefield_news_parses_to_ten_distinct_items():
+    import json
+    from pathlib import Path
+
+    data = json.loads(
+        (
+            Path(__file__).parents[2] / "fixtures/serpapi/google_news/c993e726aace25efbffcad46.json"
+        ).read_text(encoding="utf-8")
+    )["response"]
+    news = parse_news(data, WHITEFIELD_PLACE, None)
+    assert len(news) == 10
+    assert all("whitefield" in (n.title + (n.snippet or "")).lower() for n in news)
+    dates = [n.published_on for n in news]
+    assert dates == sorted(dates, reverse=True)
+
+
+def test_labels_must_cover_every_article_exactly_once():
+    news = parse_news(
+        {
+            "news_results": [
+                article("Whitefield A", "https://a.in"),
+                article("Whitefield B", "https://b.in"),
+            ]
+        },
+        WHITEFIELD_PLACE,
+        None,
+    )
+    labels = ClassifiedNews.model_validate(
+        {
+            "items": [
+                {"index": 1, "topic": "civic", "sentiment": "negative"},
+                {"index": 0, "topic": "infrastructure", "sentiment": "positive"},
+            ]
+        }
+    )
+    labelled = apply_labels(news, labels)
+    assert [(n.topic, n.sentiment, n.classified) for n in labelled] == [
+        ("infrastructure", "positive", True),
+        ("civic", "negative", True),
+    ]
+    assert not news[0].classified  # the input list is not modified
+    for bad in ([0], [0, 0, 1], [0, 2]):
+        partial = ClassifiedNews.model_validate(
+            {"items": [{"index": i, "topic": "other", "sentiment": "neutral"} for i in bad]}
+        )
+        with pytest.raises(UpstreamError):
+            apply_labels(news, partial)
+
+
+def test_an_area_cached_before_news_existed_is_rebuilt(db):
+    ctx = ok_ctx(db)
+    get_area_intel(ctx, MARKET, "whitefield")
+    row = db.get(AreaIntelRow, "bengaluru/whitefield")
+    row.data = {**row.data, "schema_version": 2}
     db.commit()
     _, cached = get_area_intel(ctx, MARKET, "whitefield")
     assert not cached

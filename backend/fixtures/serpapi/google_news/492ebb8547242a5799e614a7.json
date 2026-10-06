@@ -1,0 +1,1436 @@
+{
+ "engine": "google_news",
+ "params": {
+  "q": "\"Koramangala\" Bengaluru",
+  "gl": "in",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4d1dd19c5f69a15dab774",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/yNKddziGyR1p54kJ8mGMSf7Tq1zhu1hvHM2idm_l3k4/6ac4d1dd19c5f69a15dab774.json",
+   "markdown_endpoint": "https://serpapi.com/searches/yNKddziGyR1p54kJ8mGMSf7Tq1zhu1hvHM2idm_l3k4/6ac4d1dd19c5f69a15dab774.md",
+   "created_at": "2026-10-06 10:47:57 UTC",
+   "processed_at": "2026-10-06 10:47:57 UTC",
+   "google_news_url": "https://news.google.com/search?q=%22Koramangala%22+Bengaluru&hl=en&gl=IN",
+   "raw_html_file": "https://serpapi.com/searches/yNKddziGyR1p54kJ8mGMSf7Tq1zhu1hvHM2idm_l3k4/6ac4d1dd19c5f69a15dab774.html",
+   "total_time_taken": 1.33
+  },
+  "search_parameters": {
+   "engine": "google_news",
+   "gl": "in",
+   "hl": "en",
+   "q": "\"Koramangala\" Bengaluru"
+  },
+  "news_results": [
+   {
+    "position": 1,
+    "title": "Man found dead inside parked car in Bengaluru's Koramangala",
+    "source": {
+     "name": "Deccan Herald",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/man-found-dead-inside-parked-car-in-bengalurus-koramangala-4152683",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-09-20%2Fk2yzooox%2FWhatsApp-Image-2026-09-20-at-12.06.10.jpeg?rect=0%2C0%2C695%2C391&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUtPRVZPWlV4cGFHeEdWVWhVVFJDSEF4aTNCU2dLTWdZQlFJN3R3QVE",
+    "date": "09/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-20T07:00:00Z"
+   },
+   {
+    "position": 2,
+    "title": "Man found dead inside luxury car in Bengaluru's Koramangala",
+    "source": {
+     "name": "India Today",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Nagarjun Dwarakanath"
+     ]
+    },
+    "link": "https://www.indiatoday.in/cities/bengaluru/story/kodagu-man-found-dead-in-luxury-car-in-bengaluru-koramangala-2998830-2026-09-20",
+    "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/koramangla-bengaluru-death-201640845-16x9_0.jpeg?VersionId=4TmBYFxRoIKJmX00zXMHY.LWEzTzk7Tz&size=1280:720",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUROeTFUTW10QlkyWXlRMjVIVFJDZkF4ampCU2dLTWdhQlVaQlF1UVk",
+    "date": "09/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-20T07:00:00Z"
+   },
+   {
+    "position": 3,
+    "title": "Man found dead inside parked car in Koramangala",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/national/karnataka/man-found-dead-inside-parked-car-in-koramangala/article71487564.ece",
+    "thumbnail": "https://www.thehindu.com/theme/images/amp-og-image.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxjMll5TjBOVFpUQjRNSEZ4VFJDcUJCaXFCQ2dLTWdhTmtwQUlOUVk",
+    "date": "09/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-20T07:00:00Z"
+   },
+   {
+    "position": 4,
+    "title": "Man found dead inside car in Bengaluru's Koramangala",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/Sep/21/man-found-dead-inside-car-in-bengalurus-koramangala",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress/2026-04-04/hjygg0tr/death-3.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXlaMVJEVWxkNU9HcDJhVkJDVFJDSEF4aVBCaWdLTWdNZFVBdw",
+    "date": "09/21/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-21T07:00:00Z"
+   },
+   {
+    "position": 5,
+    "title": "46-year-old man found dead inside luxury car in Bengaluru’s Koramangala",
+    "source": {
+     "name": "ThePrint",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://theprint.in/india/46-year-old-man-found-dead-inside-luxury-car-in-bengalurus-koramangala/3048215/",
+    "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2023/06/theprint_default_image_new.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpVek5zVjFaMk56WkZRVzE2VFJDZkF4ampCU2dLTWdhTmNaYUlMUWc",
+    "date": "09/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-20T07:00:00Z"
+   },
+   {
+    "position": 6,
+    "title": "Realtor found dead in Audi in Bengaluru, cops suspect cardiac arrest",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/realtor-found-dead-in-audi-in-bengaluru-cops-suspect-cardiac-arrest/articleshow/134371043.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-134371041,width-1280,height-720,imgsize-177850,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUlNR3BMZG1kM1ZrRnFNMkV6VFJDZkF4ampCU2dLTWdrQllKS09OV2FaRFFJ",
+    "date": "09/21/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-21T07:00:00Z"
+   },
+   {
+    "position": 7,
+    "title": "Bengaluru's Circular Textile Lab Wants Your Old Clothes & A Future Beyond Fast Fashion",
+    "source": {
+     "name": "homegrown.co.in",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://homegrown.co.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Avani Adiga"
+     ]
+    },
+    "link": "https://homegrown.co.in/homegrown-voices/bengalurus-circular-textile-lab-wants-your-old-clothes-a-future-beyond-fast-fashion",
+    "thumbnail": "https://media.assettype.com/homegrown/2026-09-22/htczyzo6/YouTube-19.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iNkNnNTRhMmhRY1hkWGNIVm9XVE5ZVFJDZkF4ampCU2dLTWc0QkFJNkFrS290eThrQjJEb3lPQQ",
+    "date": "09/23/2026, 09:30 AM, +0000 UTC",
+    "iso_date": "2026-09-23T09:30:00Z"
+   },
+   {
+    "position": 8,
+    "title": "Bengaluru CEO fixes footpath near Koramangala society, builds a ramp: ‘It cost me ₹2,700’ | Trending",
+    "source": {
+     "name": "Hindustan Times",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Trisha Sengupta"
+     ]
+    },
+    "link": "https://www.hindustantimes.com/trending/bengaluru-ceo-fixes-footpath-near-koramangala-society-builds-a-ramp-it-cost-me-2700-101789433009196.html",
+    "date": "09/15/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-15T07:00:00Z"
+   },
+   {
+    "position": 9,
+    "title": "Weather Forecast and Conditions for Koramangala, Bengaluru, Karnataka, India - The Weather Channel | Weather.com",
+    "source": {
+     "name": "The Weather Channel",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://weather.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://weather.com/in/karnataka/bengaluru/locality/koramangala/today",
+    "date": "07/10/2026, 11:10 AM, +0000 UTC",
+    "iso_date": "2026-07-10T11:10:40Z"
+   },
+   {
+    "position": 10,
+    "title": "Bengaluru Water Supply Cut For 60 Hours: Check Dates, Timings & Areas Affected by BWSSB Maintenance Disruption",
+    "source": {
+     "name": "goodreturns.in",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.goodreturns.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Harshika Yadav"
+     ]
+    },
+    "link": "https://www.goodreturns.in/news/bengaluru-water-supply-cut-for-60-hours-across-cauvery-stages-check-dates-timings-areas-affected-bws-1455871.html",
+    "thumbnail": "https://images.goodreturns.in/img/2025/09/water-supply-in-bengaluru-by-bwssb2-1757582721.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVdNekJNY1ZGVE5GazJUVFo2VFJDMEFoallCQ2dLTWdrRkE0Q25FbXV4V1FB",
+    "date": "09/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-29T07:00:00Z"
+   },
+   {
+    "position": 11,
+    "title": "Bengaluru CEO spends Rs 2,700 to fix broken footpath: ‘Got no response from authorities’",
+    "source": {
+     "name": "The Indian Express",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://indianexpress.com/article/trending/trending-in-india/bengaluru-ceo-rs-2700-footpath-repair-koramangala-10880793/",
+    "thumbnail": "https://images.indianexpress.com/2026/09/Bengaluru-CEO-repairs-footpath.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVdNWFYzU25Ga1pFSjRjRWRQVFJDZkF4ampCU2dLTWdrUkFJZ0ptaVpzcGdJ",
+    "date": "09/16/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-16T07:00:00Z"
+   },
+   {
+    "position": 12,
+    "title": "LUSH Opens First Bengaluru Store At Nexus Mall",
+    "source": {
+     "name": "Passionate In Marketing",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.passionateinmarketing.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.passionateinmarketing.com/lush-launched-its-first-store-in-bengaluru-bringing-fresh-handmade-cosmetics-closer-to-the-citys-beauty-lovers/",
+    "thumbnail": "https://pimwp.s3-accelerate.amazonaws.com/2026/09/LUSH-Launched-Its-First-Store-in-Bengaluru-Bringing-Fresh-Handmade-Cosmetics-Closer-to-the-Citys-Beauty-Lovers.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDRVa2hoVHpOQmJEQkpiVXRvVFJDZkF4ampCU2dLTWdZRkFZcW9QQVU",
+    "date": "09/25/2026, 04:11 PM, +0000 UTC",
+    "iso_date": "2026-09-25T16:11:06Z"
+   },
+   {
+    "position": 13,
+    "title": "Bengaluru CEO pays ₹2,700 to repair broken footpath after complaints go unanswered",
+    "source": {
+     "name": "CNBC TV18",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cnbctv18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.cnbctv18.com/india/bengaluru-ceo-pays-2700-to-repair-broken-footpath-after-complaints-go-unanswered-19992700.htm",
+    "thumbnail": "https://images.cnbctv18.com/uploads/2026/09/koramangala-footpath-2026-09-47937905adef3c60a36a373a329610b6.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXZWbk5TUzAxSmJrODBVa2t3VFJDZkF4ampCU2dLTWdtTkFZZ29saWFhVXdF",
+    "date": "09/17/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-17T07:00:00Z"
+   },
+   {
+    "position": 14,
+    "title": "46-year-old man found dead inside luxury car parked on Koramangala road in Bengaluru",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Anjali Singh"
+     ]
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/46-year-old-man-found-dead-inside-luxury-car-parked-on-koramangala-road-in-bengaluru/articleshow/134372028.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-134372049,width-1280,height-720,imgsize-1137703,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNUpaWHB3UVU1YWVGQlBWV3BsVFJDZkF4ampCU2dLTWdNQkloUQ",
+    "date": "09/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-20T07:00:00Z"
+   },
+   {
+    "position": 15,
+    "title": "Central GST Superintendent caught taking ₹8 lakh bribe in Bengaluru",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/cgst-superintendent-mediator-held-in-8-lakh-bribe-trap/article71477349.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/hhlqy6/article71479483.ece/alternates/LANDSCAPE_1200/Kendriya_Sadan_02.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxNV05LVlVwMVQyUlZWRTU2VFJDZkF4ampCU2dLTWdhQmtvVGl3UUk",
+    "date": "09/17/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-17T07:00:00Z"
+   },
+   {
+    "position": 16,
+    "title": "Kodagu Man Found Dead Inside Luxury Car in Bengaluru's Koramangala, Police Probe Underway - India Today",
+    "source": {
+     "name": "India Today",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.indiatoday.in/india/video/kodagu-man-found-dead-inside-luxury-car-in-bengalurus-koramangala-police-probe-underway-ytvd-2998806-2026-09-20",
+    "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/video/202609/manfounddeadinsideluxurycarinbengaluru-s0-original-sixteen-to-nine.jpg?VersionId=Cir9xrVJjbESuuYZgc9QZ2pETwMZVWy4?size=647:363",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWFTMVpvYVdrNGJEaHBURnBMVFJDZkF4ampCU2dLTWdZbE5ZTHRtUWs",
+    "date": "09/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-20T07:00:00Z"
+   },
+   {
+    "position": 17,
+    "title": "Bengaluru's Koramangala gets ‘wealth from waste’ centre",
+    "source": {
+     "name": "Deccan Herald",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/bengalurus-koramangala-gets-wealth-from-waste-centre-4138564",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-09-07%2Fhrv1l5xr%2FiStock-1253813515.jpg?rect=0%2C0%2C1253%2C705&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHpiRlpFTW1KZllqaFRYMU5sVFJDZkF4ampCU2dLTWdZeGs0SXlPUVU",
+    "date": "09/07/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-07T07:00:00Z"
+   },
+   {
+    "position": 18,
+    "title": "Bengaluru CEO gets broken footpath fixed for Rs 2,700 after complaints go unanswered",
+    "source": {
+     "name": "India Today",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.indiatoday.in/trending-news/story/bengaluru-ceo-gets-broken-koramangala-footpath-fixed-for-rs-2700-after-complaints-go-unanswered-2994828-2026-09-15",
+    "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/bengaluru-ceo-gets-broken-footpath-fixed-for-rs-2-700-after-complaints-go-unanswered-photo-siddhar-150017830-16x9_0.jpg?VersionId=AIcVfJQqKrCZL51Hr05HfYS6ZhZDpE3n&size=1280:720",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNXlTekZHTkZwRWNtTkNUVWwwVFJDZkF4ampCU2dLTWd1UkFZWkl3bU05Z0h0cTRB",
+    "date": "09/15/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-15T07:00:00Z"
+   },
+   {
+    "position": 19,
+    "title": "Visit L Street in Koramangala and be awed",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Liffy Thomas"
+     ]
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/visit-l-street-in-koramangala-and-be-awed/article71393365.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/isxcc9/article71399095.ece/alternates/LANDSCAPE_1200/L5.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJiVUp3Y0dKMWFXOVRPWGRUVFJDZkF4ampCU2dLTWdZQlFJb2dOd1k",
+    "date": "08/28/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-28T07:00:00Z"
+   },
+   {
+    "position": 20,
+    "title": "Happy Streets to brighten up Koramangala on June 7",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/happy-streets-to-brighten-up-koramangala-on-june-7/articleshow/131537798.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-131537797,width-1280,height-720,imgsize-309026,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUliM05OUmtacWRXWkJRVE5qVFJDZkF4ampCU2dLTWdrQkFvNWx1bVZGNUFJ",
+    "date": "06/05/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-05T07:00:00Z"
+   },
+   {
+    "position": 21,
+    "title": "Kunal Kamra’s gigs moved from Whitefield to Koramangala after protests in Bengaluru",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/entertainment/events/bangalore/kunal-kamras-gigs-moved-from-whitefield-to-koramangala-after-protests-in-bengaluru/articleshow/132828589.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-132828577,width-1280,height-720,imgsize-30508,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVRRMGx1V2w5NWRIRlpVVGRpVFJDZkF4ampCU2dLTWdZTmNwTDBKQWc",
+    "date": "08/04/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-04T07:00:00Z"
+   },
+   {
+    "position": 22,
+    "title": "LUSH #LUSHIndia #LUSHBengaluru #Bengaluru #Bangalore #NexusMallKoramangala #FreshHandmadeCosmetics #HandmadeBeauty #BeautyIndia #BeautyNews #BeautyLaunch #Skincare #Haircare #BathAndBody #Fragrance",
+    "source": {
+     "name": "City Today News",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://citytoday.media&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://citytoday.media/tag/lush-lushindia-lushbengaluru-bengaluru-bangalore-nexusmallkoramangala-freshhandmadecosmetics-handmadebeauty-beautyindia-beautynews-beautylaunch-skincare-haircare-bathandbody-fragrance/",
+    "date": "09/23/2026, 12:25 PM, +0000 UTC",
+    "iso_date": "2026-09-23T12:25:12Z"
+   },
+   {
+    "position": 23,
+    "title": "Kunal Kamra’s Bengaluru show shifted after right-wing outfit seeks police action",
+    "source": {
+     "name": "The Indian Express",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Kiran Parashar"
+     ]
+    },
+    "link": "https://indianexpress.com/article/cities/bangalore/kunal-kamra-bengaluru-show-shifted-koramangala-whitefield-venue-row-10815388/",
+    "thumbnail": "https://images.indianexpress.com/2026/02/kunal-kamra-2.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9NRkZpZDBwR2FXVkdRakIwVFJDZkF4ampCU2dLTWdZSllwTDBwQWM",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 24,
+    "title": "Bengaluru Bus Shelter Turns Waiting Into Public Comfort",
+    "source": {
+     "name": "urbanacres.in",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://urbanacres.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://urbanacres.in/bengaluru-bus-shelter-shows-how-waiting-can-become-public-comfort/",
+    "thumbnail": "https://urbanacres.in/wp-content/uploads/2026/09/urban-acres-news-203753.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXZhbE5JTmtSaVdETlhURkJoVFJERUF4aW1CU2dLTWdZQm9JZ0RWd00",
+    "date": "09/27/2026, 07:28 AM, +0000 UTC",
+    "iso_date": "2026-09-27T07:28:46Z"
+   },
+   {
+    "position": 25,
+    "title": "Bengaluru’s first peptide party cancelled in Koramangala",
+    "source": {
+     "name": "Deccan Herald",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/bengalurus-first-peptide-party-cancelled-in-koramangala-4127805",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-08-28%2Fib7y47lk%2Fistockphoto-1129779844-612x612.jpg?rect=0%2C0%2C612%2C344&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBibVI1Wm5kNFZIRlVOREJhVFJEWUFoamtCQ2dLTWdhQnBZUUt0Z00",
+    "date": "08/28/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-28T07:00:00Z"
+   },
+   {
+    "position": 26,
+    "title": "Nexus Koramangala outlets fined Rs 85,000 for waste segregation lapses, plastic violations",
+    "source": {
+     "name": "Deccan Herald",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/nexus-koramangala-outlets-fined-rs-85000-for-waste-segregation-lapses-plastic-violations-4127196",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-08-28%2Fitm05v37%2FChatGPT-Image-Aug-28-2026-041235-PM.png?rect=0%2C0%2C1536%2C864&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWtiR05mZVhScE9IaDJPVmN6VFJDZkF4ampCU2dLTWdZTk1JUldGQW8",
+    "date": "08/28/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-28T07:00:00Z"
+   },
+   {
+    "position": 27,
+    "title": "Fake marks card racket busted in Bengaluru, founder of Koramangala-based company booked",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/national/karnataka/fake-marks-card-racket-busted-in-bengaluru-founder-of-koramangala-based-company-booked/article71075998.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/5i1ahi/article71076229.ece/alternates/LANDSCAPE_1200/GBTVS_8-7-2006_14-18-55_09GBPIC2.JPG",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVNlRWhpWDJwYWRXWkxjbGhMVFJDZkF4ampCU2dLTWdtRklJcW5OZVZiYWdJ",
+    "date": "06/08/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-08T07:00:00Z"
+   },
+   {
+    "position": 28,
+    "title": "Weather forecast and conditions for Koramangala, Bengaluru, Karnataka - The Weather Channel | weather.com",
+    "source": {
+     "name": "The Weather Channel",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://weather.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://weather.com/en-IN/in/karnataka/bengaluru/locality/koramangala/today",
+    "date": "09/03/2026, 10:55 AM, +0000 UTC",
+    "iso_date": "2026-09-03T10:55:32Z"
+   },
+   {
+    "position": 29,
+    "title": "Day Before Bengaluru \"Peptide Party\", Food Regulator Cancels Event",
+    "source": {
+     "name": "NDTV",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Deepak Bopanna"
+     ]
+    },
+    "link": "https://www.ndtv.com/india-news/day-before-bengaluru-peptide-party-food-regulator-cancels-event-11972645",
+    "thumbnail": "https://c.ndtvimg.com/2023-03/2vl2sq2_bengaluru-generic-getty-_625x300_29_March_23.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNDJTMHN4YUhSZmRHRm9hbkF3VFJDZkF4ampCU2dLTWdzQk1JSm14S0lPeE9vT2ZB",
+    "date": "08/28/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-28T07:00:00Z"
+   },
+   {
+    "position": 30,
+    "title": "E3 Electric Opens First Experience Centre In Bengaluru",
+    "source": {
+     "name": "carandbike.com",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.carandbike.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Abhishek Nigam"
+     ]
+    },
+    "link": "https://www.carandbike.com/news/e3-electricai-opens-first-experience-centre-in-bengaluru-3221405",
+    "thumbnail": "https://images.carandbike.com/cms/E3_Electirc_EC_11_d9ec15412a.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVdhVFpDZFU5UVNWOXNha3hDVFJERUF4aW1CU2dLTWdrSmdJelFzT1dDN0FF",
+    "date": "08/18/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-18T07:00:00Z"
+   },
+   {
+    "position": 31,
+    "title": "‘Waste into wealth’: Bengaluru opens solid waste management centre in Koramangala",
+    "source": {
+     "name": "The News Minute",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thenewsminute.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thenewsminute.com/karnataka/waste-into-wealth-bengaluru-opens-solid-waste-management-centre-in-koramangala",
+    "thumbnail": "https://cf-images.assettype.com/thenewsminute/2026-09-08/juzn02m6/Bengaluruwastemanagement.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTBPRk5rUkdGcWVsTkhSRXhYVFJDWUF4andCU2dLTWdrQlVKcGpudWt0YVFJ",
+    "date": "09/08/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-08T07:00:00Z"
+   },
+   {
+    "position": 32,
+    "title": "E3 Electric Opens Its First Experience Centre In Bengaluru",
+    "source": {
+     "name": "Autocar Professional",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.autocarpro.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.autocarpro.in/news/e3-electric-opens-its-first-experience-centre-in-bengaluru-134139",
+    "thumbnail": "https://img.autocarpro.in/autocarpro/997fdeaf-08ed-4490-82bc-105ce3fa4ac6_E3-Electric-EC3.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUhhVTVZTVVSTlRqaFRRMDh5VFJERUF4aW1CU2dLTWdB",
+    "date": "08/17/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-17T07:00:00Z"
+   },
+   {
+    "position": 33,
+    "title": "E3 Electric.Ai Opens First Flagship Experience Centre in Koramangala, Bengaluru",
+    "source": {
+     "name": "iamabiker.com",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://iamabiker.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Avin Richards"
+     ]
+    },
+    "link": "https://iamabiker.com/avin/2026/e3-electric-ai-opens-first-flagship-experience-centre-in-koramangala-bengaluru/",
+    "thumbnail": "https://iamabiker.com/wp-content/uploads/2026/08/E3-Electric.Ai-Opens-First-Flagship-Experience-Centre-in-Koramangala-Bengaluru.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVZVRzFaVGpZNWIxbEdaMGRmVFJDZkF4ampCU2dLTWdB",
+    "date": "08/17/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-17T07:00:00Z"
+   },
+   {
+    "position": 34,
+    "title": "Bengaluru’s new parking rules could eliminate traffic chokepoints at notorious junctions",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/bengalurus-new-parking-rules-could-eliminate-traffic-chokepoints-at-notorious-junctions/article71370245.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/pavpvi/article71374063.ece/alternates/LANDSCAPE_1200/ALL_3540A.JPG",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iNkNnNXpVVXR6WkRCZlZVSk1TbGhGVFJDZkF4ampCU2dLTWc0QkVJYnJsQ1o2RTVtSHNhS0tLQQ",
+    "date": "08/21/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-21T07:00:00Z"
+   },
+   {
+    "position": 35,
+    "title": "Weather forecast and conditions for Koramangala 6 Block, Bengaluru, Karnataka - The Weather Channel | weather.com",
+    "source": {
+     "name": "The Weather Channel",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://weather.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://weather.com/en-IN/weather/today/l/neighborhood.85355627",
+    "date": "07/19/2026, 03:33 PM, +0000 UTC",
+    "iso_date": "2026-07-19T15:33:32Z"
+   },
+   {
+    "position": 36,
+    "title": "Foodsta Kitchens expands Kokoro's footprint with third Bengaluru outlet at Nexus Koramangala",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "http://hospitality.economictimes.indiatimes.com/news/restaurants/foodsta-kitchens-expands-kokoros-footprint-with-third-bengaluru-outlet-at-nexus-koramangala/133047713",
+    "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-133047713,imgsize-161736,width-1200,height=627,overlay-ethospitality,resizemode-75/restaurants/foodsta-kitchens-expands-kokoros-footprint-with-third-bengaluru-outlet-at-nexus-koramangala.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUZRMUF6ZGpaalFXWmFORGhCVFJDUUF4ai1CU2dLTWdB",
+    "date": "08/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-09T07:00:00Z"
+   },
+   {
+    "position": 37,
+    "title": "'Entered room to steal innerwear & sanitary pads': Bengaluru man arrested for trespassing into ladies PG in Koramangala",
+    "source": {
+     "name": "Deccan Herald",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/entered-room-to-steal-innerwear-sanitary-pads-bengaluru-man-arrested-for-trespassing-into-ladies-pg-in-koramangala-4128541",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-08-29%2F0e14q4cu%2F187061a9-6454-483b-a499-8e9da4d3d6f0.png?rect=0%2C0%2C1672%2C941&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVBSMWxDV2tsMFZUY3RjR04yVFJDZkF4amlCU2dLTWdZOU1wTDBtQWs",
+    "date": "08/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-29T07:00:00Z"
+   },
+   {
+    "position": 38,
+    "title": "10-day Book Brahma Literature Festival to kick off in Bengaluru on August 14",
+    "source": {
+     "name": "Deccan Herald",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/10-day-book-brahma-literature-festival-to-kick-off-in-bengalurus-koramangala-on-august-14-4088403",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2025-09-20%2Fmiss9qyg%2Ffile82h3bmsxni9r9q46ehs.jpeg?rect=0%2C0%2C3870%2C2177&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTNjbTVHV205VlRpMHlXalIwVFJDZkF4ampCU2dLTWdhQkVvWW9qZ28",
+    "date": "07/26/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-26T07:00:00Z"
+   },
+   {
+    "position": 39,
+    "title": "Kunal Kamra performs in Bengaluru amid tight security after Hindutva group objects",
+    "source": {
+     "name": "The News Minute",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thenewsminute.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Shivani Kava",
+      "Nandini Chandrashekar"
+     ]
+    },
+    "link": "https://www.thenewsminute.com/karnataka/kunal-kamra-performs-in-bengaluru-amid-tight-security-after-hindutva-group-objects",
+    "thumbnail": "https://cf-images.assettype.com/thenewsminute%2F2025-03-25%2Fyk2w9yos%2FKunalkamra.jpg?rect=0%2C165%2C1080%2C608&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXZRbkpEUjAxT2RtWTNibVl4VFJDZkF4amlCU2dLTWdZSlVwVDBwQWM",
+    "date": "08/02/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-02T07:00:00Z"
+   },
+   {
+    "position": 40,
+    "title": "Comedian Kunal Kamra's Bengaluru show relocated amid right-wing backlash",
+    "source": {
+     "name": "India Today",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.indiatoday.in/entertainment/ott/story/kunal-kamra-bengaluru-show-moved-koramangala-right-wing-objections-2962675-2026-08-03",
+    "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202608/kunal-kamra-104135164-original-sixteen-to-nine.jpeg?VersionId=AzTXPvWS4hZSugYd_5y.FAFg4lEDojSp&size=1280:720",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUllVWcxYlZGemVHaENhRzlyVFJDZkF4ampCU2dLTWdZaFI1QXJJZ2c",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 41,
+    "title": "Koramangala waste centre opens for practical learning",
+    "source": {
+     "name": "nammaward.in",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://nammaward.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://nammaward.in/wardpulse/koramangala-waste-centre-opens-for-practical-learning",
+    "thumbnail": "https://nammaward.in/_next/image?url=https%3A%2F%2Fifxng3igsmvptlcs.public.blob.vercel-storage.com%2Fimage%2Fnews%2Fe508ff89-c8b5-405e-8515-d1822d288a01-T6Qe5ZdVMT5wWwo33F5D1eSxTZ9uNT.jpg&w=3840&q=75",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDFUMlJMV1UwMlUyTTJNRk4xVFJDb0FSaXNBaWdCTWdrQm9KVFRPS2ZJN1FF",
+    "date": "09/08/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-08T07:00:00Z"
+   },
+   {
+    "position": 42,
+    "title": "Kunal Kamra moves Bengaluru shows from Whitefield to Koramangala after Hindutva group seeks cancellation",
+    "source": {
+     "name": "The Statesman",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.thestatesman.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thestatesman.com/entertainment/kunal-kamra-whitefield-show-cancelled-hindutva-opposition-bengaluru-1503623758.html",
+    "thumbnail": "https://www.thestatesman.com/wp-content/uploads/2025/04/Kunal-Kamra-jpg.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXhjVGc0YlVad2VrOVZhakJFVFJDZkF4ampCU2dLTWdZSmdwRDBMQVk",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 43,
+    "title": "Happy Streets in Bengaluru: Fitness meets fun in Koramangala",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/happy-streets-in-bengaluru-fitness-meets-fun-in-koramangala/articleshow/131572874.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-131572873,width-1280,height-720,imgsize-165994,resizemode-72,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDJTbnBzVEhoeWFtWXhPWEJFVFJDZkF4amlCU2dLTWdZVkk1Z29GUW8",
+    "date": "06/08/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-08T07:00:00Z"
+   },
+   {
+    "position": 44,
+    "title": "Koramangala BDA complex in Bengaluru set for demolition, casting shadow over livelihood of 500 families",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/koramangala-bda-complex-in-bengaluru-set-for-demolition-livelihood-concerns-loom/articleshow/133713164.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-133723072,width-1280,height-720,imgsize-1128672,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNU1PRTlFYW5OdGRERkRWM2Q0VFJDZkF4ampCU2dLTWdNQllBNA",
+    "date": "09/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-03T07:00:00Z"
+   },
+   {
+    "position": 45,
+    "title": "Power shutdown across Bengaluru on June 22, 23",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/power-shutdown-across-bengaluru-on-june-22-23/articleshow/131882269.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-33486062,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXlZVWxXVlhWcWNGcENVVEZFVFJDZkF4ampCU2dLTWdNRm94QQ",
+    "date": "06/21/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-21T07:00:00Z"
+   },
+   {
+    "position": 46,
+    "title": "Kunal Kamra shifts Bengaluru comedy shows to Koramangala after protests by Hindutva outfits",
+    "source": {
+     "name": "Telegraph India",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.telegraphindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.telegraphindia.com/entertainment/kunal-kamra-shifts-bengaluru-comedy-shows-to-koramangala-after-protests-by-hindutva-outfits/cid/2173076",
+    "thumbnail": "https://assets.telegraphindia.com/telegraph/2026/Aug/1785734737_1743502511_kunal-kamra.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVpZMHBoWDJWUWMycG9WbGg0VFJERUF4aW1CU2dLTWdhaFJwWUxKZ2c",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 47,
+    "title": "Koramangala bakery faces backlash | Reservations or reputation?",
+    "source": {
+     "name": "Deccan Herald",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Shraddha Ak"
+     ]
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/koramangala-bakery-faces-backlash-reservations-or-reputation-4085079",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-07-24%2F8qdv7ore%2Ffile86uc3in7cj41i2pmduqo.jpeg?rect=0%2C0%2C1138%2C640&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVdXa0l5YURkNVZFdHlVekJOVFJDZkF4ampCU2dLTWdhVlVZeHJyUWM",
+    "date": "07/23/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-23T07:00:00Z"
+   },
+   {
+    "position": 48,
+    "title": "Citizens May Have To Foot Rs 1,300 Crore Bengaluru Flyover Bill",
+    "source": {
+     "name": "NDTV",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Deepak Bopanna"
+     ]
+    },
+    "link": "https://www.ndtv.com/india-news/citizens-to-foot-1-300-crore-bengaluru-flyover-bill-through-special-taxes-11682481",
+    "thumbnail": "https://c.ndtvimg.com/2026-06/j80063kk_tax_625x300_23_June_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWpkR3BmVEhaYUxWWXdjM1IzVFJDZkF4ampCU2dLTWdrSkVJQnNIV285c1FB",
+    "date": "06/24/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-24T07:00:00Z"
+   },
+   {
+    "position": 49,
+    "title": "Kunal Kamra moves Bengaluru stand-up shows to Koramangala following venue opposition",
+    "source": {
+     "name": "Indulge Express",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.indulgexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Prattusa Mallik"
+     ]
+    },
+    "link": "https://www.indulgexpress.com/msociety/2026/Aug/03/kunal-kamra-relocates-bengaluru-stand-up-shows-to-koramangala-following-venue-opposition",
+    "thumbnail": "https://cf-images.assettype.com/indulgexpress/2026-08-03/pq994b02/II.avif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXpkblpPYXpReGIycGxSaTAwVFJDZkF4ampCU2dLTWdhdE5ZN09vUWc",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 50,
+    "title": "E3 Electric opens its first store in Bengaluru",
+    "source": {
+     "name": "Autocar India",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.autocarindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.autocarindia.com/bike-news/e3-electric-opens-its-first-store-in-bengaluru-440507",
+    "thumbnail": "https://asset.autocarindia.com/static/news/images/20260817_101123_060ff0d6.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVZMGRFWDFoQlQwUlNSM2xKVFJEREF4aW9CU2dLTWdZQkVZVDF2QVk",
+    "date": "08/17/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-17T07:00:00Z"
+   },
+   {
+    "position": 51,
+    "title": "Bengaluru police inspector dies in Madhya Pradesh bus crash during cybercrime probe",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/Aug/29/bengaluru-police-inspector-dies-in-madhya-pradesh-bus-crash-during-cybercrime-probe",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress/2026-08-28/uipybte8/B%E2%80%99luru-police.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iNkNnNVRhRTl3Vm14NVRqVm5SbGw1VFJEREF4aW5CU2dLTWc0QkVJcEpHU2E0U1dxQmtqWkhFdw",
+    "date": "08/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-29T07:00:00Z"
+   },
+   {
+    "position": 52,
+    "title": "'Little Fat Black Shirt': Bengaluru Coffee Shop Body Shames Customer On His Bill, Apologizes",
+    "source": {
+     "name": "ETV Bharat",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.etvbharat.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.etvbharat.com/en/bharat/little-fat-black-shirt-bengaluru-coffee-shop-body-shames-customer-on-his-bill-apologizes-enn26082303845",
+    "thumbnail": "https://imgs.etvbharat.com/etvbharat/prod-images/23-08-2026/1200-675-27464321-1053-27464321-1787488637541.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNVhRVUV0Y1ZoS1FWTnRhR1puVFJDZkF4ampCU2dLTWdPWkJ4WQ",
+    "date": "08/23/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-23T07:00:00Z"
+   },
+   {
+    "position": 53,
+    "title": "Aurya Diamonds Opens New Store in Koramangala, Bengaluru",
+    "source": {
+     "name": "Business Standard",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.business-standard.com/content/press-releases-ani/aurya-diamonds-opens-new-store-in-koramangala-bengaluru-126061600011_1.html",
+    "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-06/16/full/20260615184610.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUpZMU00TmtGa1NYVk5aMnB5VFJEZ0F4aUFCU2dLTWdB",
+    "date": "06/16/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-16T07:00:00Z"
+   },
+   {
+    "position": 54,
+    "title": "Kunal Kamra cancels Whitefield shows after Hindutva activists’ opposition, shifts performances to Koramangala",
+    "source": {
+     "name": "telanganatoday.com",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://telanganatoday.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://telanganatoday.com/kunal-kamra-cancels-whitefield-shows-after-hindutva-activists-opposition-shifts-performances-to-koramangala",
+    "thumbnail": "https://media.telanganatoday.com/wp-content/uploads/2026/08/Kunal-Kamra-cancels-Whitefield-shows-after-Hindutva-activists-opposition-shifts-performances-to-Koramangala.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVNaMjFPTmpWbmQzbElZV0Z3VFJDb0F4alVCU2dLTWdZWlZvenNvUWc",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 55,
+    "title": "Over 50 Animals Rescued from an Illegal Bengaluru Pet Shop Following Efforts by PETA India",
+    "source": {
+     "name": "petaindia.com",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.petaindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.petaindia.com/blog/over-50-animals-rescued-from-an-illegal-bengaluru-pet-shop-following-efforts-by-peta-india/",
+    "thumbnail": "https://www.petaindia.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-01-at-1.08.33-PM-1-e1782389444841.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpOSEJrVkhOUVZFcFlka3BpVFJDRkJCalJCQ2dLTWdZWkVJeE54UVE",
+    "date": "06/25/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-25T07:00:00Z"
+   },
+   {
+    "position": 56,
+    "title": "Right-wing leader booked over ‘cancelled’ Kunal Kamra Bengaluru show claims",
+    "source": {
+     "name": "The Indian Express",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://indianexpress.com/article/cities/bangalore/bengaluru-police-book-right-wing-leader-kunal-kamra-show-10822709/",
+    "thumbnail": "https://images.indianexpress.com/2026/08/Kunal-kamra.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTBka2w1VjNsRllVOWlaV1JDVFJDZkF4ampCU2dLTWdrTlFwSVVLYWV4WndJ",
+    "date": "08/07/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-07T07:00:00Z"
+   },
+   {
+    "position": 57,
+    "title": "Aurya Diamonds Launches High-Tech Experiential Store in Koramangala, Bengaluru",
+    "source": {
+     "name": "This Week India",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thisweekindia.news&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://thisweekindia.news/aurya-diamonds-launches-high-tech-experiential-store-in-koramangala-bengaluru/",
+    "thumbnail": "https://thisweekindia.news/wp-content/uploads/2026/06/Aurya-Diamonds-Launches-High-Tech-Experiential-Store-in-Koramangala-thisweekindia-300x193.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHlTa0ZLUzBKbFMwWTFNMUZ5VFJEQkFSaXNBaWdLTWdZQkVJZ21DZ3M",
+    "date": "06/19/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-19T07:00:00Z"
+   },
+   {
+    "position": 58,
+    "title": "Bengaluru: Kunal Kamra cancels Whitefield shows, moves performances to Koramangala venue",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/Aug/03/bengaluru-kunal-kamra-cancels-whitefield-shows-moves-performances-to-koramangala-venue",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2025-04-08%2Fwklp52pw%2FANI_20250408084828.jpg?rect=0%2C0%2C600%2C338&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTVMWFJQYTBwQlVEVTVjbnB5VFJEU0FoallCQ2dLTWdhZEJvYnNrUW8",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 59,
+    "title": "‘Little fat black shirt’: Subko Coffee apologises over body-shaming remark on Bengaluru customer’s bill",
+    "source": {
+     "name": "StoryBoard 18",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.storyboard18.com/brand-marketing/little-fat-black-shirt-subko-coffee-apologises-over-body-shaming-remark-on-bengaluru-customers-bill-108456.htm",
+    "thumbnail": "https://images.storyboard18.com/storyboard18/2026/08/Visuals-Page-2026-08-22T104249.794-2026-08-c161e2cae8430145658592483348398b-1019x573.jpg?impolicy=website&width=675&height=1200",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNDFkSE5mVURocVIxbFRTbmhCVFJEOEFoaWpCU2dLTWdB",
+    "date": "08/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-22T07:00:00Z"
+   },
+   {
+    "position": 60,
+    "title": "No MSG, no meat, handmade tofu: Bengaluru Chinese restaurant, run by Chinese family, serving only vegetari",
+    "source": {
+     "name": "The Economic Times",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://m.economictimes.com/magazines/panache/no-msg-no-meat-handmade-tofu-bengaluru-chinese-restaurant-serving-only-vegetarian-dishes-goes-viral/articleshow/133058713.cms",
+    "thumbnail": "https://m.economictimes.com/thumb/msid-133058738,width-1200,height-900,resizemode-4,imgsize-200296/tofu.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNUxjRmxsU25SSU1tUlFjVkYyVFJEZ0F4aUFCU2dLTWd1VkFJakpEQ1ZNb2F2Z1BR",
+    "date": "08/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-09T07:00:00Z"
+   },
+   {
+    "position": 61,
+    "title": "Best 10 Spots for Onam Sadya in Bangalore 2026",
+    "source": {
+     "name": "karnataka.com",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.karnataka.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.karnataka.com/restaurants/onam-sadya-in-bangalore/",
+    "thumbnail": "https://www.karnataka.com/wp-content/uploads/2026/08/onam-sadya-in-bangalore.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTVlQzFWTTI5aE9GVXRaVXh0VFJDb0F4alVCU2dLTWdrQjhJUUMyNkZFMUFB",
+    "date": "08/25/2026, 06:27 AM, +0000 UTC",
+    "iso_date": "2026-08-25T06:27:19Z"
+   },
+   {
+    "position": 62,
+    "title": "Bengaluru ‘Peptide Party’ cancelled: Founder breaks silence, says ‘our intent was… never harm’ | Trending",
+    "source": {
+     "name": "Hindustan Times",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Trisha Sengupta"
+     ]
+    },
+    "link": "https://www.hindustantimes.com/trending/bengaluru-peptide-party-cancelled-founder-breaks-silence-says-our-intent-was-never-harm-101787976220460.html",
+    "thumbnail": "https://www.hindustantimes.com/ht-img/img/2026/08/29/1600x900/logo/Peptide_Party_Bengaluru_Founder_Sowmay_Jain_FSDA_1787976866568_1787976873015_7fe91309-2988-4257-8256-cca199d5babf.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXJkRE50Vm1SWGJWSkVabXRIVFJDZkF4ampCU2dLTWdZVlFaalZvQWc",
+    "date": "08/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-29T07:00:00Z"
+   },
+   {
+    "position": 63,
+    "title": "Man arrested for molesting woman in Bengaluru's Koramangala",
+    "source": {
+     "name": "Deccan Herald",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/man-arrested-for-molesting-womanin-bengalurus-koramangala-4027960",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-04-07%2Fub3oxv5f%2Farrestistock_1135661328_927983_1608116579.jpg?rect=0%2C30%2C1116%2C586&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNDFaR1JJVTJ0VFgzVkdWbVprVFJDUkF4ajhCU2dLTWdzUkJJYW5EYVBKZ1VxWGVB",
+    "date": "06/04/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-04T07:00:00Z"
+   },
+   {
+    "position": 64,
+    "title": "Bengaluru Cafe Faces Backlash Over Body-Shaming Bill, Subko Issues Public Apology – India Today - India Today",
+    "source": {
+     "name": "India Today",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indiatoday.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.indiatoday.in/india/video/bengaluru-cafe-faces-backlash-over-body-shaming-bill-subko-issues-public-apology-ytvd-2977913-2026-08-23",
+    "thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/video/202608/bengalurucafefacesbacklashoverbody-shamingbill-s0-original-sixteen-to-nine.jpg?VersionId=S.pyWeIcOA2wbC8KJZA4o5Y_3BatfNDW?size=647:363",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWhVMEZXWmkxTVVtSmtkbmxXVFJDZkF4ampCU2dLTWdZQkFKUmtFQXc",
+    "date": "08/23/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-23T07:00:00Z"
+   },
+   {
+    "position": 65,
+    "title": "E3 Electric.Ai Opens First Flagship Showroom in Bengaluru",
+    "source": {
+     "name": "ACKO Drive",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://ackodrive.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://ackodrive.com/news/e3-electric-ai-opens-first-flagship-showroom-in-bengaluru/",
+    "thumbnail": "https://acko-cms.ackoassets.com/acko_drive_thumb_2026_08_17_T140128_330_9dc7cdcd19.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNURYMjB5WkdVNFQycHpOMlJVVFJDUkF4ajhCU2dLTWdtQklZYnhFT1I3eFFJ",
+    "date": "08/17/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-17T07:00:00Z"
+   },
+   {
+    "position": 66,
+    "title": "How accessible is Koramangala? A case study on bus connectivity challenges",
+    "source": {
+     "name": "Citizen Matters",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://citizenmatters.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://citizenmatters.in/how-accessible-is-koramangala-a-case-study-on-bus-connectivity-challenges/",
+    "thumbnail": "https://images-citizenmatters.sgp1.digitaloceanspaces.com/wp-content/uploads-new/2026/06/bengaluru-koramangala-bus-datajam-JUNE2026-300x198.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJXVmhxY0VSWVJ6VktSWGxrVFJDMkFSaVVBaWdCTWdZQnNZYUVUZ00",
+    "date": "06/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-03T07:00:00Z"
+   },
+   {
+    "position": 67,
+    "title": "E3 Electric Opens Its First Experience Centre in Bengaluru",
+    "source": {
+     "name": "entrepreneurindia.com",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.entrepreneurindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.entrepreneurindia.com/blog/en/news/e3-electric-opens-its-first-experience-centre-in-bengaluru.60812",
+    "thumbnail": "https://www.entrepreneurindia.com/img/1600x940/uploads/news/fi/6a82cf496c27b.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW5Na1Z5TlhoYWRHdFdhM1Z6VFJDb0F4alRCU2dLTWdhQkFZalNKQVU",
+    "date": "08/17/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-17T07:00:00Z"
+   },
+   {
+    "position": 68,
+    "title": "Aurya Diamonds launches experiential store in Bengaluru's Koramangala",
+    "source": {
+     "name": "India Retailing",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.indiaretailing.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.indiaretailing.com/aurya-diamonds-launches-experiential-store-in-bengalurus-koramangala",
+    "thumbnail": "https://cdn.indiaretailing.com/images/ZZLK7FCL_Pic_1_-_Aurya_Diamonds_Brings_Weightless_Luxury_to_Koramangala_with_Their_New_Experiential_Store.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhZM05mUWtvM1RGaHZjVzVxVFJEQ0FSaURBaWdCTWdZQmNJYU5MUVE",
+    "date": "06/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-22T07:00:00Z"
+   },
+   {
+    "position": 69,
+    "title": "Joyalukkas Launches Exclusive ‘Brilliance Diamond Jewellery Show’ in Koramangala, Bengaluru",
+    "source": {
+     "name": "This Week India",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thisweekindia.news&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://thisweekindia.news/joyalukkas-launches-exclusive-brilliance-diamond-jewellery-show-in-koramangala-bengaluru/",
+    "thumbnail": "https://thisweekindia.news/wp-content/uploads/2026/05/Joyalukkas-Launches-Exclusive-%E2%80%98Brilliance-Diamond-Jewellery-Show-in-Koramangala-thisweekindia.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNW9WWE5CU1RZd2JqaGlOMWs0VFJDOEF4aXpCU2dLTWdzQklJWWl4YU1raG5ybWV3",
+    "date": "05/15/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-15T07:00:00Z"
+   },
+   {
+    "position": 70,
+    "title": "Bengaluru: Zones blur, planning in peril",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Aknisree Karthik",
+      "Mohammed Yacoob"
+     ]
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/Jul/09/bengaluru-zones-blur-planning-in-peril",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress/2026-07-09/dlwfvdxy/premises-wit.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXlibE4zZVhnMFRWaHJaR1k1VFJDZkF4ampCU2dLTWdrRlFJaEZucWhNcmdF",
+    "date": "07/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-09T07:00:00Z"
+   },
+   {
+    "position": 71,
+    "title": "Grand Mercure Bangalore welcomes Tarushree Singh as director of sales & marketing",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "http://hospitality.economictimes.indiatimes.com/news/hotels/grand-mercure-bangalore-welcomes-tarushree-singh-as-director-of-sales-marketing/131956237",
+    "thumbnail": "https://etimg.etb2bimg.com/photo/131956253.cms",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1Na28zT1dGb2FUSjNTakk1VFJDZkF4ampCU2dLTWdZdFpaU3VxUWM",
+    "date": "06/25/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-25T07:00:00Z"
+   },
+   {
+    "position": 72,
+    "title": "Subko Cafe Apologises After Bengaluru Customer Is Body Shamed On Bill",
+    "source": {
+     "name": "NDTV Profit",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ndtvprofit.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.ndtvprofit.com/trending/bengaluru-cafe-subko-apologises-after-customer-is-body-shamed-on-bill-11947705",
+    "thumbnail": "https://c.ndtvimg.com/2026-08/bc9coc84_bengaluru-cafe-subko-apologises-after-customer-is-body-shamed-on-bill_625x300_23_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1600,height=900",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXVVWFYwUWpRNFFrTXdWekZUVFJDZkF4ampCU2dLTWdrQk1JU0xJQ01YVUFF",
+    "date": "08/23/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-23T07:00:00Z"
+   },
+   {
+    "position": 73,
+    "title": "‘Little fat black shirt’: Bengaluru customer finds shocking body-shaming remark on Subko Coffee bill; cof",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/etimes/trending/little-fat-black-shirt-bengaluru-customer-finds-shocking-body-shaming-remark-on-subko-coffee-bill-coffee-chain-apologises/articleshow/133411856.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-33486062,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXlZVWxXVlhWcWNGcENVVEZFVFJDZkF4ampCU2dLTWdNRm94QQ",
+    "date": "08/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-22T07:00:00Z"
+   },
+   {
+    "position": 74,
+    "title": "The Circle.Work Expands into South India with its First Bengaluru Centre",
+    "source": {
+     "name": "thewire.in",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://m.thewire.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://m.thewire.in/article/ptiprnews/the-circle-work-expands-into-south-india-with-its-first-bengaluru-centre",
+    "date": "07/27/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-27T07:00:00Z"
+   },
+   {
+    "position": 75,
+    "title": "18-year-old Bangalore founder behind $7,239 MRR startup finds home at Zo House",
+    "source": {
+     "name": "Hotelier India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.hotelierindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.hotelierindia.com/operations/from-zo-house-bangalore-to-y-combinator-how-an-18-year-old-built-a-7239-mrr-startup-in-72-hours",
+    "thumbnail": "https://www.hotelierindia.com/cloud/2026/06/25/jbsi9K1e-zo-house-koramangala-20250526110719-1-1200x800.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdibFJ3VG01eFVFaHBVWEUyVFJERUF4aW1CU2dLTWdZQmdJTHd4QVE",
+    "date": "06/26/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-26T07:00:00Z"
+   },
+   {
+    "position": 76,
+    "title": "Towering personalities from across India to attend Book Brahma Literature Festival in Bengaluru",
+    "source": {
+     "name": "The South First",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thesouthfirst.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://thesouthfirst.com/karnataka/towering-personalities-from-across-india-to-attend-book-brahma-literature-festival-in-bengaluru/",
+    "thumbnail": "https://s3.ap-south-1.amazonaws.com/media.thesouthfirst.com/wp-content/uploads/2026/07/BBLF.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTJRazR5TjBjeE1YRm1ORkJrVFJDZkF4ampCU2dLTWdZWkFwS3RsUW8",
+    "date": "08/08/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-08T07:00:00Z"
+   },
+   {
+    "position": 77,
+    "title": "Aurya Diamonds Opens Experiential Store in Bengaluru’s Koramangala",
+    "source": {
+     "name": "Indian Jeweller",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.indianjeweller.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.indianjeweller.in/Indian-Jewellery-News/16290/aurya-diamonds-opens-experiential-store-in-bengalurus-koramangala",
+    "thumbnail": "https://www.indianjeweller.in/public/assets/uploads/news/1782106263_f5e1797c935b27f53ebc.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFiRm8xWkRrek1rdHlMWGhoVFJEcEJCanhBeWdLTWdZQlFJcHNwUVU",
+    "date": "06/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-22T07:00:00Z"
+   },
+   {
+    "position": 78,
+    "title": "Can a temple help you get a promotion? Bengaluru's 'Techie Ganesha' has techies lining up",
+    "source": {
+     "name": "Moneycontrol.com",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Thadhagath Pathi"
+     ]
+    },
+    "link": "https://www.moneycontrol.com/news/trends/can-a-temple-help-you-get-a-promotion-bengaluru-s-techie-ganesha-has-techies-lining-up-13968105.html",
+    "thumbnail": "https://images.moneycontrol.com/static-mcnews/2024/06/20240624060445_Ganeshaaa.png?impolicy=website&width=1600&height=900",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXhMVTUzU2s1T2EzVk1kWGhIVFJDZkF4ampCU2dLTWdrVkFJTEpqU21pbGdB",
+    "date": "07/07/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-07T07:00:00Z"
+   },
+   {
+    "position": 79,
+    "title": "Aurya Diamonds Launches Experiential Flagship Store In Bengaluru’s Koramangala",
+    "source": {
+     "name": "IFAB MEDIA",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://infashionbusiness.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://infashionbusiness.com/home/news_details/8068",
+    "thumbnail": "https://infashionbusiness.com/admin_assets/images/products/infashion-1782117743.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9YMDE0U3pGUk4zTkZXbFJ3VFJEZ0F4aUFCU2dLTWdZQmNJYU5MUVE",
+    "date": "06/22/2026, 08:46 AM, +0000 UTC",
+    "iso_date": "2026-06-22T08:46:08Z"
+   },
+   {
+    "position": 80,
+    "title": "Ola renews 4.27 lakh sq ft Bengaluru office lease for a total rent of ₹281 crore for five years | Real Estate News",
+    "source": {
+     "name": "Hindustan Times",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Mehul Thakkar"
+     ]
+    },
+    "link": "https://www.hindustantimes.com/real-estate/ola-renews-4-27-lakh-sq-ft-bengaluru-office-lease-for-a-total-rent-of-281-crore-101782734709648.html",
+    "date": "06/30/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-30T07:00:00Z"
+   },
+   {
+    "position": 81,
+    "title": "Bengaluru to host 3rd edition of Book Brahma Literature Festival from 14 August",
+    "source": {
+     "name": "The South First",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thesouthfirst.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://thesouthfirst.com/featured/bengaluru-to-host-3rd-edition-of-brahma-literature-festival-from-14-august/",
+    "thumbnail": "https://s3.ap-south-1.amazonaws.com/media.thesouthfirst.com/wp-content/uploads/2026/07/BBLF.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTJRazR5TjBjeE1YRm1ORkJrVFJDZkF4ampCU2dLTWdZWkFwS3RsUW8",
+    "date": "07/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-29T07:00:00Z"
+   },
+   {
+    "position": 82,
+    "title": "FIFA World Cup 2026: Karnataka CM DK Shivakumar to watch WC final live telecast",
+    "source": {
+     "name": "ANI News",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aninews.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.aninews.in/news/sports/football/fifa-world-cup-2026-karnataka-cm-dk-shivakumar-to-watch-wc-final-live-telecast20260718195506",
+    "thumbnail": "https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20260718141611.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXJaVUoyTFVVNGRUWjNkR0pRVFJEZ0F4aUFCU2dLTWdhZE5wWUxuZ2s",
+    "date": "07/18/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-18T07:00:00Z"
+   },
+   {
+    "position": 83,
+    "title": "Man dies by suicide in Bengaluru; kin allege friends hurt his private parts",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/Jul/15/man-dies-by-suicide-in-bengaluru-kin-allege-friends-hurt-his-private-parts",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress/2026-07-15/ufgpjd3j/death-1-1.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXlaMVJEVWxkNU9HcDJhVkJDVFJDSEF4aVBCaWdLTWdNZFVBdw",
+    "date": "07/15/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-15T07:00:00Z"
+   },
+   {
+    "position": 84,
+    "title": "Koramangala battles post-storm mess",
+    "source": {
+     "name": "Bangalore Mirror",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://bangaloremirror.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://bangaloremirror.indiatimes.com/bangalore/civic/koramangala-battles-post-storm-mess/articleshow/131318111.cms",
+    "thumbnail": "https://bangaloremirror.indiatimes.com/thumb/msid-131318015,width-1200,height-900,resizemode-4/.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNURSMFZTZDJVNVNVSXdVSGR4VFJEZ0F4aUFCU2dLTWdZQllKVEZ0Z1k",
+    "date": "05/26/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-26T07:00:00Z"
+   },
+   {
+    "position": 85,
+    "title": "Founder of Koramangala based company booked by CCB for running fake Marks Card racket and cheating students promising admission in reputed colleges in Bengaluru",
+    "source": {
+     "name": "countryandpolitics.in",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.countryandpolitics.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.countryandpolitics.in/2026/06/08/founder-of-koramangala-based-company-booked-by-ccb-for-running-fake-marks-card-racket-and-cheating-students-promising-admission-in-reputed-colleges-in-bengaluru/",
+    "thumbnail": "https://www.countryandpolitics.in/wp-content/uploads/2026/05/Screenshot_2026-05-27-20-18-05-14_e2d5b3f32b79de1d45acd1fad96fbb0f-2.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXJPRFEzV0hoMk5FUnZjVGcwVFJDSUFoaWdCaWdLTWdZQnNJaUx1UVE",
+    "date": "06/08/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-08T07:00:00Z"
+   },
+   {
+    "position": 86,
+    "title": "Transgender groups clash over begging turf in Bengaluru",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/transgender-groups-clash-over-begging-turf-in-bengaluru/article71088369.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/7nzb4e/article71088540.ece/alternates/LANDSCAPE_1200/Elevated_Expressway_35.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWhkMGxUYmtzeVJISkNWalZEVFJDZkF4ampCU2dLTWdZQlVJaUNOZ1U",
+    "date": "06/11/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-11T07:00:00Z"
+   },
+   {
+    "position": 87,
+    "title": "NATUF Café Launches Premium Dining Experience Bengaluru",
+    "source": {
+     "name": "Passionate In Marketing",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.passionateinmarketing.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.passionateinmarketing.com/ebg-group-launches-natuf-cafe-in-koramangala-bengaluru/",
+    "thumbnail": "https://pimwp.s3-accelerate.amazonaws.com/2026/05/yttrgghv.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVVSMkZLWkZsWk5IWnNkamhqVFJDZkF4ampCU2dLTWdB",
+    "date": "05/28/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-28T07:00:00Z"
+   },
+   {
+    "position": 88,
+    "title": "The story behind Bengaluru’s most authentic Thai restaurant and bakery, Thai Basil",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Anagha Maareesha"
+     ]
+    },
+    "link": "https://www.thehindu.com/food/features/the-story-behind-bengalurus-most-authentic-thai-restaurant/article70872731.ece",
+    "thumbnail": "https://th-i.thgim.com/public/food/morz97/article70887900.ece/alternates/LANDSCAPE_1200/Edited%20pic.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHdhVTlrVkdkMFNIVXhNeTFrVFJDZkF4ampCU2dLTWdhZFZaYktwUWc",
+    "date": "04/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-04-22T07:00:00Z"
+   },
+   {
+    "position": 89,
+    "title": "Karnataka FDA cancels India’s first biohacking ‘Peptide Party’ in Koramangala",
+    "source": {
+     "name": "The News Mill",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://thenewsmill.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://thenewsmill.com/2026/08/karnataka-fda-cancels-indias-first-biohacking-peptide-party-in-koramangala/",
+    "thumbnail": "https://thenewsmill.com/wp-content/uploads/2026/08/karnataka-fda-cancels-indias-first-biohacking-peptide-party-in-koramangala.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW5iMVZ0TkhWalprSnZjRVU0VFJEZ0F4aUFCU2dLTWdZbFJZcXRvUVU",
+    "date": "08/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-29T07:00:00Z"
+   },
+   {
+    "position": 90,
+    "title": "Bengaluru landowner sold 17 flats, made ₹11.8 crore and paid no tax — then won the tax dispute | Know how",
+    "source": {
+     "name": "Livemint",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.livemint.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Eshita Gain"
+     ]
+    },
+    "link": "https://www.livemint.com/money/personal-finance/bengaluru-landowner-sold-17-flats-made-11-8-crore-and-paid-no-tax-then-won-the-tax-dispute-know-how-11784029111218.html",
+    "thumbnail": "https://www.livemint.com/lm-img/img/2026/07/14/1600x900/logo/pexels-photo-6863176_1783931556545_1783931572173_d2685e1a-a561-4267-ac4d-de8e1373ca85_1784033774807_bf024282-cbfa-421e-ad81-5024c126d726.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNU9kalV3ZHpjeFdrRnNWRGhOVFJDZkF4ampCU2dLTWdrTkFKVEdLS2NlWUFN",
+    "date": "07/14/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-14T07:00:00Z"
+   },
+   {
+    "position": 91,
+    "title": "Onam Sadya Comes Home to Koramangala at Grand Mercure Bangalore",
+    "source": {
+     "name": "HospiBuz",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://hospibuz.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://hospibuz.com/hotel/Hotel-listicles/onam-sadya-comes-home-to-koramangala-at-grand-mercure-bangalore-12260514",
+    "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/hospibuz/media/media_files/2026/08/14/onam-sadya_grand-mercure-bangalore-2026-08-14-16-36-47.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNHdTV1ZNZEhsamVHZHpjbDk1VFJERUF4aW1CU2dLTWdB",
+    "date": "08/14/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-14T07:00:00Z"
+   },
+   {
+    "position": 92,
+    "title": "The best Bengali restaurants in Bengaluru",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Jessica Jeba"
+     ]
+    },
+    "link": "https://www.thehindu.com/food/features/where-to-find-bengalurus-finest-bengali-fare/article71088459.ece",
+    "thumbnail": "https://th-i.thgim.com/public/food/features/ljcbsw/article71088479.ece/alternates/LANDSCAPE_1200/Fish%20Kabiraji.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTZSVGRwY2xGeVlYbFRabk5JVFJDZkF4ampCU2dLTWdrQkFZcUtMU1RRNGdJ",
+    "date": "06/15/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-15T07:00:00Z"
+   },
+   {
+    "position": 93,
+    "title": "City's footballing fraternity holds breath for World Cup final",
+    "source": {
+     "name": "NEWSTRAIL",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://newstrailindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://newstrailindia.com/inner.php?id=30424",
+    "thumbnail": "https://newstrailindia.com/admin/uploads/1784463428_deccanherald_2026-07-18_f1nr0qih_file7o3qidjboomj2o79o7h.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJSVEZFTVcxRlZYYzNMV2ROVFJDZkF4ampCU2dLTWdhQmNZVE1UUU0",
+    "date": "07/19/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-19T07:00:00Z"
+   },
+   {
+    "position": 94,
+    "title": "Bengaluru’s Rs 1,300-crore Indiranagar flyover: Property owners may have to pay levy to fund 11-km...",
+    "source": {
+     "name": "Moneycontrol.com",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Christin Mathew Philip"
+     ]
+    },
+    "link": "https://www.moneycontrol.com/news/india/bengaluru-s-rs-1-300-crore-indiranagar-flyover-property-owners-may-have-to-pay-levy-to-fund-11-km-stretch-13957594.html",
+    "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/06/20260624072632_ejipura.jpg?impolicy=website&width=350&height=196",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTNYMGc1VWpoNmJXZGtlSGxxVFJERUFSamVBaWdLTWdZQklJYnVHQWc",
+    "date": "06/24/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-24T07:00:00Z"
+   },
+   {
+    "position": 95,
+    "title": "Spice Lounge Food Works opens second Wing Zone outlet in Bengaluru",
+    "source": {
+     "name": "scanx.trade",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://scanx.trade&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://scanx.trade/stock-market-news/companies/spice-lounge-food-works-opens-first-wing-zone-outlet-in-bengaluru/45604829",
+    "thumbnail": "https://news-images.dhan.co/spice-lounge-food-works-opens-first-wing-zone-outlet-in-bengaluru.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUtUazFPZERoZll6TjNXVFIyVFJDaUF4amRCU2dLTWdZUlVJcklLUVk",
+    "date": "07/14/2026, 08:05 PM, +0000 UTC",
+    "iso_date": "2026-07-14T20:05:29Z"
+   },
+   {
+    "position": 96,
+    "title": "Two gelatin sticks found near PM Modi’s convoy route in Bengaluru outskirts",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/May/10/two-gelatin-sticks-found-near-pm-modis-convoy-route-in-bengaluru-outskirts",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2025-02-14%2Ftqswfz2s%2Fpm-modi-thailand.JPG?rect=0%2C0%2C860%2C484&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVhVzlyYjAwd00wNVBMVk5WVFJDZkF4amlCU2dLTWdZdFZZVE5KUWc",
+    "date": "05/11/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-11T07:00:00Z"
+   },
+   {
+    "position": 97,
+    "title": "Residents take charge, transform littered Koramangala streets in Bengaluru",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/residents-take-charge-transform-littered-koramangala-streets-in-bengaluru/articleshow/131294361.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-131294348,width-1280,height-720,imgsize-131142,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXpMWFl3TWpkNmJEaEZPRXR0VFJDZ0F4amlCU2dLTWdhQlVZeXNwUWM",
+    "date": "05/24/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-24T07:00:00Z"
+   },
+   {
+    "position": 98,
+    "title": "Gelatin Sticks Found Along PM's Route Near Bengaluru: Fresh Details Emerge",
+    "source": {
+     "name": "NDTV",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Deepak Bopanna"
+     ]
+    },
+    "link": "https://www.ndtv.com/india-news/gelatin-sticks-batteries-found-on-pm-modi-route-panic-plot-suspected-11482168",
+    "thumbnail": "https://c.ndtvimg.com/2026-05/h7sb3mus_modi-in-bengaluru_625x300_12_May_26.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNDNhRW93YTNOSGJGcHhRVGhvVFJDeUF4akNCU2dLTWdzQkVJaUFycWNHZ0VvSll3",
+    "date": "05/12/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-12T07:00:00Z"
+   },
+   {
+    "position": 99,
+    "title": "Where to go for authentic Onam Sadhya in Bangalore",
+    "source": {
+     "name": "lifestyleasia.com",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.lifestyleasia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Sushmita Mahanta"
+     ]
+    },
+    "link": "https://www.lifestyleasia.com/ind/dining/food/best-onam-sadhya-2026-feasts-in-bangalore/",
+    "thumbnail": "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2026/08/21103256/Untitled-design-2026-08-21T103249.163.jpg?tr=w-1200,h-900",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTVaWFZKZEVobmRYVjNaVVJrVFJEZ0F4aUFCU2dLTWdtSkFJVFBzS1JqaUFJ",
+    "date": "08/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-22T07:00:00Z"
+   },
+   {
+    "position": 100,
+    "title": "CM Shivakumar Appeals For Calm During FIFA World Cup Final Screening",
+    "source": {
+     "name": "Rediff",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.rediff.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.rediff.com/sports/report/karnataka-cm-urges-patience-for-fifa-world-cup-final/20260719.htm",
+    "thumbnail": "https://im.rediff.com/1600-900/news/2023/may/21shivakumar.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVJjV2h5WWsxcVVtWXpNbVpoVFJDZkF4ampCU2dLTWdZdGhZYXV0UVU",
+    "date": "07/19/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-19T07:00:00Z"
+   }
+  ],
+  "menu_links": [
+   {
+    "title": "India",
+    "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE"
+   },
+   {
+    "title": "World",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Your local news",
+    "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+   },
+   {
+    "title": "Business",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Technology",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Entertainment",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Sports",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Science",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Health",
+    "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE"
+   }
+  ]
+ }
+}

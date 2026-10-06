@@ -2172,6 +2172,17 @@
             ],
             "title": "Published On"
           },
+          "published_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Published Text"
+          },
           "snippet": {
             "anyOf": [
               {
@@ -2190,6 +2201,11 @@
           "sentiment": {
             "$ref": "#/components/schemas/Sentiment",
             "default": "neutral"
+          },
+          "classified": {
+            "type": "boolean",
+            "title": "Classified",
+            "default": false
           },
           "source": {
             "$ref": "#/components/schemas/SourceRef"

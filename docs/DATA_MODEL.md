@@ -67,6 +67,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `listings` | `id` = stable hash of the candidate's identity | `Listing` JSON; `kind`, `portal`, `locality`, `price_inr`, `size_sqft`, `price_per_sqft` columns | Shared across runs, so a repeat run updates the same rows |
 | `listing_observations` | `id`; unique (`listing_id`, `run_id`) | price at the time | One row per candidate per run: "found in this run" and price history |
 | `run_results` | `id` | Progressive JSON: `listing` snapshot, nullable `verification`, and for ranked rows `recommendation` (score, score_breakdown, reason, highlights, risks, explained, access, metrics) | One row per listing per run; rank 1..n for ranked candidates, null for rejects and unchecked |
+| `run_area_intel` | `id` | `run_id`, `locality_key`, `AreaIntel` JSON as the run used it | One row per run and locality; frozen (ADR 0020); deleted with the profile |
 | `area_intel` | `locality_key` | `AreaIntel` JSON (centre, amenities, `price_growth_pct`, per-type `price_levels` and `rent_levels`, summaries, `section_status`, `warnings`, `schema_version`, `provider_modes`), `expires_at` (= `fetched_at` when a section failed) | e.g. `bengaluru/whitefield`; rebuilt after the TTL |
 | `competitor_reports` | hash(centre, category, radius) | `CompetitorReport` JSON | |
 | `serp_cache` | `cache_key` | raw SerpApi JSON, `search_id` | Same key as fixture file names |

@@ -97,6 +97,18 @@ class RunResultRow(Base):
     recommendation: Mapped[dict[str, Any]] = mapped_column(JSON)
 
 
+class RunAreaRow(Base):
+    """The area evidence one run used, frozen: later cache refreshes do not change it (ADR 0020,
+    after gscode007's F-05 branch; the per-run snapshot rule of ADR 0013)."""
+
+    __tablename__ = "run_area_intel"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    run_id: Mapped[str] = mapped_column(ForeignKey("pipeline_runs.id"), index=True)
+    locality_key: Mapped[str] = mapped_column(String(128))
+    data: Mapped[dict[str, Any]] = mapped_column(JSON)  # schemas.area.AreaIntel
+
+
 class AreaIntelRow(Base):
     __tablename__ = "area_intel"
 

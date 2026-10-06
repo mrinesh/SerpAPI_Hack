@@ -30,7 +30,12 @@ from app.pipeline.discovery import fetch_hits
 from app.pipeline.enrichment.area import get_area_intel
 from app.pipeline.enrichment.price_level import price_levels
 from app.pipeline.metrics import compute_metrics
-from app.pipeline.persist import save_candidates, save_recommendation, save_verification
+from app.pipeline.persist import (
+    save_candidates,
+    save_recommendation,
+    save_run_area,
+    save_verification,
+)
 from app.pipeline.query_planner import plan_queries
 from app.pipeline.ranking import EXPLAIN_TOP, explain, level_for, place_name, score_candidates
 from app.pipeline.verification import extract, verify
@@ -205,6 +210,7 @@ def run_pipeline(run_id: str) -> None:
                         ctx, market, slug, local_levels, set(ctx.profile.property_types)
                     )
                     areas[slug] = area
+                    save_run_area(db, run_id, area)
                     event.counts["from_cache"] += int(cached)
                     event.counts["area_warnings"] += len(area.warnings)
                     notes.append(_area_note(area, cached))

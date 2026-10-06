@@ -9,6 +9,7 @@ from app.db.models import (
     ListingObservationRow,
     ListingRow,
     ProfileRow,
+    RunAreaRow,
     RunResultRow,
     RunRow,
 )
@@ -84,8 +85,14 @@ def get_recommendations(db: Session, run_id: str) -> list[Recommendation]:
 
 
 def get_run_areas(db: Session, run_id: str) -> list[AreaIntel]:
-    """Area intelligence for the localities of this run's ranked candidates (F-05)."""
+    """The area evidence this run used, frozen at enrichment (ADR 0020). Runs from before
+    snapshots existed fall back to the shared locality cache."""
     run = _get_row(db, run_id)
+    frozen = db.scalars(
+        select(RunAreaRow).where(RunAreaRow.run_id == run_id).order_by(RunAreaRow.locality_key)
+    ).all()
+    if frozen:
+        return [AreaIntel.model_validate(row.data) for row in frozen]
     profile = db.get(ProfileRow, run.profile_id)
     city = (profile.data.get("city") if profile else None) or "Bengaluru"
     market = load_market(city)

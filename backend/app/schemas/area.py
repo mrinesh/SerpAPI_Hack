@@ -56,9 +56,11 @@ class NewsItem(BaseModel):
     url: str
     outlet: str | None = None
     published_on: date | None = None
+    published_text: str | None = None  # the provider's own date text, e.g. "2 days ago"
     snippet: str | None = None
     topic: NewsTopic = NewsTopic.OTHER
     sentiment: Sentiment = Sentiment.NEUTRAL
+    classified: bool = False  # topic and sentiment were set by `classify_news` (ADR 0020)
     source: SourceRef
 
 
@@ -89,7 +91,7 @@ class AreaIntel(BaseModel):
     city: str
     center: GeoPoint | None = None  # geocoded once per TTL (I-12)
     amenities: list[Amenity] = Field(default_factory=list)  # nearest metro, schools, hospitals
-    news: list[NewsItem] = Field(default_factory=list)  # not collected yet (F-05 news)
+    news: list[NewsItem] = Field(default_factory=list)  # newest first; display only (ADR 0020)
     # Past-12-month change quoted in search results; for F-09's price-growth ROI. Never a forecast,
     # and null (not zero) when no result states it (ADR 0010).
     price_growth_pct: Sourced[float] | None = None

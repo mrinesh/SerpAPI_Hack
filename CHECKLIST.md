@@ -247,7 +247,9 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 ### F-05 Area intelligence · P0 · 🟨
 - [x] `locality_key` + cache per locality with TTL (`area_intel`, 7 days)
 - [x] Amenities from google_maps (metro, school, hospital) with distances (ADR 0016)
-- [ ] News from google_news, classified by topic and sentiment (deferred by the product owner)
+- [x] News from google_news, classified by topic and sentiment; display only (ADR 0020, after
+      gscode007's branch, reusing their recordings)
+- [x] Frozen per-run area evidence (`run_area_intel`)
 - [x] Price level per sq ft from google search (`enrichment/price_level.py`, ADR 0014), shown
       per type in the area panel; past-12-month growth from its own search (`extract_price_growth`)
 - [x] Area summary + infrastructure summary, number-checked, code fallback

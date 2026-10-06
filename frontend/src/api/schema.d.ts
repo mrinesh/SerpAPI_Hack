@@ -772,12 +772,19 @@ export interface components {
             outlet?: string | null;
             /** Published On */
             published_on?: string | null;
+            /** Published Text */
+            published_text?: string | null;
             /** Snippet */
             snippet?: string | null;
             /** @default other */
             topic: components["schemas"]["NewsTopic"];
             /** @default neutral */
             sentiment: components["schemas"]["Sentiment"];
+            /**
+             * Classified
+             * @default false
+             */
+            classified: boolean;
             source: components["schemas"]["SourceRef"];
         };
         /**
