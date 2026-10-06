@@ -63,7 +63,7 @@ def price_levels(
     for locality, property_type in keys:
         place = market.locality(locality)
         name = place.name if place else locality
-        level = _searched_level(ctx, market, name, property_type)
+        level = searched_level(ctx, market, name, property_type)
         if level is None:
             level = peer_median(listings, locality, property_type)
         if level is None:
@@ -115,7 +115,7 @@ def supported_rate(extract: PriceLevelExtract, snippet: str) -> float | None:
     return (extract.low + high) / 2
 
 
-def _searched_level(
+def searched_level(
     ctx: PipelineContext, market: Market, locality: str, property_type: PropertyType
 ) -> Sourced[float] | None:
     query = f"{QUERY_WORDS[property_type]} price per sq ft in {locality} {market.query_city_name}"

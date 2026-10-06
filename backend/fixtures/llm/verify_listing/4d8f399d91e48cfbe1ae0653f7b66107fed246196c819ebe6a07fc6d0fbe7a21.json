@@ -1,0 +1,26 @@
+{
+  "key": "4d8f399d91e48cfbe1ae0653f7b66107fed246196c819ebe6a07fc6d0fbe7a21",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality matches requested Whitefield (query-derived)",
+      "Property type matches requested apartment (Google Maps place type)",
+      "Segment matches requested residential"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is not quoted, so budget max of 8,000,000 INR cannot be checked",
+      "Unit size (sqft) is not provided; requested size range is null so no size mismatch but size evidence is absent",
+      "Bedrooms not provided",
+      "ROI target of 3.0% rental yield cannot be confirmed; no rental income or price data",
+      "Investment goal rental_income and risk appetite balanced are preferences, not evidence of returns or safety",
+      "Candidate is a Google Maps project (Vaswani Exquisite), not an individual priced unit",
+      "Locality and property type are derived from the search query with moderate confidence, not from a verified listing"
+    ],
+    "confidence": 0.45
+  }
+}

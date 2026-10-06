@@ -161,7 +161,9 @@ least 3 ([ADR 0017](decisions/0017-investment-metrics-and-roi-score.md)). Cached
 
 No net yield or cap rate: both need cost assumptions we would have to source
 ([ADR 0010](decisions/0010-roi-definition.md)). Missing inputs give a missing metric, never zero.
-The rank stage turns the goal's measure into the `roi` score: measure ÷ (1.5 × target) × 100,
+The profile wizard suggests a target from the same sources before any run: the area's typical
+yield, multi-year average growth, or both, adjusted for risk appetite
+([ADR 0018](decisions/0018-suggested-target-roi.md)). The rank stage turns the goal's measure into the `roi` score: measure ÷ (1.5 × target) × 100,
 capped at 100. Missing the target lowers the score; it never filters a candidate.
 
 ## 6 · Rank (`ranking.py`, F-04)

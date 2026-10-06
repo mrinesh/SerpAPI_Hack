@@ -73,6 +73,16 @@ class PriceGrowthExtract(BaseModel):
     confidence: float = Field(ge=0, le=1)
 
 
+class LongRunGrowthExtract(BaseModel):
+    """Output schema of the `extract_long_run_growth` prompt."""
+
+    result_index: int | None
+    total_pct: float | None
+    years: int | None
+    evidence: str | None
+    confidence: float = Field(ge=0, le=1)
+
+
 class AreaSummary(BaseModel):
     """Output schema of the `summarize_area` prompt."""
 
@@ -186,6 +196,43 @@ def supported_growth(extract: PriceGrowthExtract, snippet: str) -> float | None:
     if (extract.pct < 0) != bool(_FALL.search(span)):
         return None
     return extract.pct
+
+
+_YEAR_WORDS = {"two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8,
+               "nine": 9, "ten": 10}  # fmt: skip
+_YEARS = re.compile(r"\b(\d+|" + "|".join(_YEAR_WORDS) + r")\s*(?:-\s*)?(?:years?|yrs?)\b", re.I)
+MIN_YEARS, MAX_YEARS = 2, 10
+
+
+def annualised(total_pct: float, years: int) -> float:
+    """Compound yearly rate from a total change over `years`: (1 + total)^(1/years) - 1."""
+    return ((1 + total_pct / 100) ** (1 / years) - 1) * 100
+
+
+def supported_long_run(extract: LongRunGrowthExtract, snippet: str) -> float | None:
+    """The yearly rate when the span is in the snippet and quotes the total "%" change and its
+    multi-year period (2-10 years), is not about rent, and its direction matches the sign."""
+    if extract.total_pct is None or extract.years is None or not extract.evidence:
+        return None
+    if extract.confidence <= 0 or not MIN_YEARS <= extract.years <= MAX_YEARS:
+        return None
+    span, text = normalize_text(extract.evidence), normalize_text(snippet)
+    if span not in text or _RENT.search(span):
+        return None
+    periods = {
+        int(m.group(1)) if m.group(1).isdigit() else _YEAR_WORDS[m.group(1).lower()]
+        for m in _YEARS.finditer(span)
+    }
+    quoted = {
+        float(m.group().replace(",", ""))
+        for m in _NUMBER.finditer(span)
+        if span[m.end() : m.end() + 2].lstrip().startswith("%")
+    }
+    if extract.years not in periods or abs(extract.total_pct) not in quoted:
+        return None
+    if extract.total_pct == 0 or (extract.total_pct < 0) != bool(_FALL.search(span)):
+        return None
+    return round(annualised(extract.total_pct, extract.years), 2)
 
 
 def access_from(point: GeoPoint, area: AreaIntel, measured_from: str) -> AreaAccess:
@@ -413,3 +460,48 @@ def get_area_intel(
     row.fetched_at, row.expires_at = area.fetched_at, area.expires_at
     ctx.db.commit()
     return area, cached
+
+
+def long_run_growth(ctx: PipelineContext, name: str, market: Market) -> Sourced[float] | None:
+    """Average yearly price change over several years, from the growth search's results (used
+    for suggested targets, ADR 0018). Reuses the F-05 search, so it adds one lite call."""
+    response = _search(ctx, growth_call(name, market, ctx.settings))
+    if response is None:
+        return None
+    results = [
+        {"index": i, "title": r.get("title"), "link": r.get("link"), "snippet": snippet}
+        for i, r in enumerate(response.data.get("organic_results", [])[:MAX_GROWTH_RESULTS])
+        if (snippet := r.get("snippet"))
+    ]
+    if not results:
+        return None
+    try:
+        extract = ctx.llm.generate_structured(
+            task="extract_long_run_growth",
+            prompt=prompt_for("extract_long_run_growth", locality=name, results=results),
+            schema=LongRunGrowthExtract,
+            tier=ModelTier.LITE,
+        )
+    except AppError:
+        return None
+    chosen = next((r for r in results if r["index"] == extract.result_index), None)
+    rate = supported_long_run(extract, chosen["snippet"]) if chosen else None
+    if rate is None:
+        return None
+    return Sourced(
+        value=rate,
+        confidence=min(extract.confidence, 0.6),
+        method=ExtractionMethod.COMPUTED,
+        sources=[
+            SourceRef(
+                engine=SerpEngine.GOOGLE,
+                url=chosen["link"],
+                title=chosen["title"],
+                search_id=response.search_id,
+            )
+        ],
+        note=(
+            f"Average a year over {extract.years} years; past data, not a forecast. "
+            f'Evidence: "{extract.evidence}"'
+        ),
+    )

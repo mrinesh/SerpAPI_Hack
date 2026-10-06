@@ -36,3 +36,5 @@ export type CompareResult = Schemas["CompareResult"];
 export type SavedProperty = Schemas["SavedProperty"];
 export type Alert = Schemas["Alert"];
 export type SourceRef = Schemas["SourceRef"];
+export type TargetSuggestion = Schemas["TargetSuggestion"];
+export type TargetSuggestionIn = Schemas["TargetSuggestionIn"];

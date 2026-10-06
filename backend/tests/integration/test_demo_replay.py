@@ -94,9 +94,46 @@ def test_demo_metrics_replay_with_recorded_rent(client, name, rent):
         )
         assert (metrics["rental_yield_pct"]["value"] is not None) == bool(has_rate and not flagged)
         assert (r["score_breakdown"]["roi"] is None) == (metrics["meets_target_roi"] is None)
-    # Recorded: Sowparnika Columns, ₹8,185/sq ft against ₹32.5/sq ft/month -> 4.76%, meets 4%.
+    # Recorded: Sowparnika Columns, ₹8,185/sq ft against ₹32.5/sq ft/month -> 4.76%, meets the
+    # suggested 3%. Its rank depends on the recorded relevance checks; only its metrics are pinned.
     if name == "residential":
-        top = recommendations[0]
-        assert top["listing"]["name"] == "Sowparnika Columns"
-        assert top["metrics"]["rental_yield_pct"]["value"] == 4.76
-        assert top["metrics"]["meets_target_roi"] is True
+        [sowparnika] = [r for r in recommendations if r["listing"]["name"] == "Sowparnika Columns"]
+        assert sowparnika["rank"] <= 3
+        assert sowparnika["metrics"]["rental_yield_pct"]["value"] == 4.76
+        assert sowparnika["metrics"]["meets_target_roi"] is True
+
+
+@pytest.mark.parametrize("name", DEMO_PROFILES)
+def test_demo_targets_are_the_wizards_suggestions(client, name):
+    profile = DEMO_PROFILES[name]
+    keys = ("segment", "property_types", "localities", "goal", "risk_appetite")
+    response = client.post(
+        "/api/profiles/target-suggestion", json={key: profile[key] for key in keys}
+    )
+    assert response.status_code == 200
+    suggestion = response.json()
+    assert suggestion["target_roi_pct"] == profile["target_roi_pct"]
+    assert suggestion["parts"][0]["typical"]["sources"], "the suggestion must be sourced"
+
+
+def test_suggestion_without_recorded_data_is_empty_not_an_error(client):
+    body = {
+        "segment": "residential",
+        "property_types": ["apartment"],
+        "localities": ["hebbal"],
+        "goal": "rental_income",
+        "risk_appetite": "balanced",
+    }
+    suggestion = client.post("/api/profiles/target-suggestion", json=body).json()
+    assert suggestion["target_roi_pct"] is None and suggestion["parts"] == []
+
+
+def test_suggestion_rejects_unknown_localities(client):
+    body = {
+        "segment": "residential",
+        "property_types": ["apartment"],
+        "localities": ["atlantis"],
+        "goal": "rental_income",
+        "risk_appetite": "balanced",
+    }
+    assert client.post("/api/profiles/target-suggestion", json=body).status_code == 422

@@ -1,0 +1,13 @@
+{
+  "key": "7dd6d0665871ab07e5803e8526ef16c0468b9f5fb0ab83485290f43b2875e921",
+  "task": "extract_long_run_growth",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "result_index": 1,
+    "total_pct": 92.2,
+    "years": 5,
+    "evidence": "+92.2% in last 5 years",
+    "confidence": 0.95
+  }
+}

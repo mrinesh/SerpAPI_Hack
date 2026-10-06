@@ -1,0 +1,25 @@
+{
+  "key": "08f1975086ff4c6ba70fd67c371e935094632858e2858de5fced0c06b57d1d43",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 20,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Residential segment aligns with profile",
+      "Snippet price evidence of ₹50,00,000 is below the ₹80,00,000 maximum budget"
+    ],
+    "mismatches": [
+      "Property type: profile requests apartment, but candidate is house_villa (independent house/villa)."
+    ],
+    "missing_data": [
+      "Final unit price not confirmed; snippet price may be a starting price, not the final asking price.",
+      "Locality is query-derived only (Whitefield search context) and not verified to the specific listing.",
+      "Size is computed from price ÷ price per sqft (approx 1200 sqft), not directly sourced.",
+      "No rental yield, ROI, or expected growth data provided; target ROI 3% cannot be checked.",
+      "Candidate is a snippet_entry from a search results page, not a verified individual listing."
+    ],
+    "confidence": 0.9
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "key": "4759d0c671786ce25ce73664be049b3ec966d9df99c2b630ed6ee4aed1102e6d",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "City: Bengaluru",
+      "Locality: Whitefield",
+      "Property type: apartment",
+      "Segment: residential"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price or price range is not provided, so budget fit cannot be verified.",
+      "Unit size and bedroom count are not provided, so size and layout fit cannot be verified.",
+      "Rental yield and ROI cannot be confirmed at this stage.",
+      "Property type and locality are query-derived search context, not verified individual listing facts.",
+      "This is a Google Maps project entry, not a priced unit listing; availability and status are unknown."
+    ],
+    "confidence": 0.5
+  }
+}

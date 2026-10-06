@@ -22,3 +22,4 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0015](0015-composite-ranking.md) | Composite ranking in code; grounded AI explanations for the top five | Accepted |
 | [0016](0016-area-intelligence-and-score.md) | Area intelligence from five searches; area score is amenity access only | Accepted |
 | [0017](0017-investment-metrics-and-roi-score.md) | Rental yield from a quoted area rent; proportional ROI score | Accepted |
+| [0018](0018-suggested-target-roi.md) | Suggest the target ROI from the market's sourced typical value | Accepted |

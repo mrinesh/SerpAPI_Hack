@@ -207,6 +207,8 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
 - [x] Profile CRUD + `DELETE`, checks against reference data, `GET /api/meta/profile-options`
 - [x] One 422 shape for schema and reference-data errors
 - [x] Profiles page and 3-step wizard (What → Where → Money), lakh/crore budget input
+- [x] Suggested target ROI on the Money step from sourced area yield / multi-year growth,
+      adjusted for risk; never overwrites the investor's value (ADR 0018)
 - [x] Tests: 25 schema, 8 API, 15 frontend (money + form logic); checked in Chrome
 
 ### F-02 Property discovery · P0 · ✅

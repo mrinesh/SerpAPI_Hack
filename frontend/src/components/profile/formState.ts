@@ -12,6 +12,7 @@ import type {
   PropertyType,
   RiskAppetite,
   Segment,
+  TargetSuggestionIn,
 } from "../../api/types";
 import { fromInr, toInr, type MoneyUnit } from "../../lib/money";
 
@@ -221,4 +222,32 @@ function parsePercent(text: string, min: number, max: number): number | null | "
 
 function numberOrNull(value: number | null | "invalid"): number | null {
   return typeof value === "number" ? value : null;
+}
+
+/** What a target suggestion depends on, once known; risk defaults to balanced until chosen. */
+export function suggestionInput(
+  form: ProfileFormState, options: ProfileOptions,
+): TargetSuggestionIn | null {
+  if (!form.segment || form.propertyTypes.length === 0 || form.localities.length === 0 || !form.goal)
+    return null;
+  return {
+    segment: form.segment,
+    property_types: form.propertyTypes,
+    city: options.city,
+    localities: form.localities,
+    goal: form.goal,
+    risk_appetite: form.riskAppetite || "balanced",
+  };
+}
+
+/** The target to show after a suggestion arrives, or null to leave the field alone: only an
+ * empty field, or one still holding the previous suggestion, is filled. An investor's own value,
+ * including a saved profile's, is never overwritten. */
+export function applySuggestion(
+  current: string, suggested: number | null | undefined, lastSuggested: string | null,
+): string | null {
+  if (suggested == null) return null;
+  const next = String(suggested);
+  if (current === next) return null;
+  return current.trim() === "" || current === lastSuggested ? next : null;
 }

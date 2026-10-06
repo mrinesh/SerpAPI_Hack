@@ -10,7 +10,8 @@ ADR 0010 defined the ROI measures: rental yield before costs, price growth, and 
 with the goal choosing which one is compared with the investor's target. Price growth exists
 (F-05). Rent does not: the recorded Whitefield searches have no flat rents. Rent results quote
 a monthly rent next to a size ("₹38,000 / month … 850 sqft"), and rarely a per-sq-ft rate. Both
-demo profiles have a rental-income goal and a 4% target.
+demo profiles have a rental-income goal and, at the time, a 4% target (later 3% and 6%, the
+suggested targets of ADR 0018).
 
 ## Decision
 

@@ -2,9 +2,11 @@ import { describe, expect, it } from "vitest";
 
 import type { InvestorProfile, ProfileOptions } from "../../api/types";
 import {
+  applySuggestion,
   emptyForm,
   firstStepWithError,
   formFromProfile,
+  suggestionInput,
   toPayload,
   validateAll,
   validateStep,
@@ -127,5 +129,25 @@ describe("toPayload", () => {
       roi_measure: "total_return",
     };
     expect(toPayload(formFromProfile(profile), OPTIONS)).toEqual(payload);
+  });
+});
+
+describe("target suggestion", () => {
+  it("fills an empty field or one still holding the last suggestion, never the investor's value", () => {
+    expect(applySuggestion("", 3, null)).toBe("3");
+    expect(applySuggestion("3", 3.5, "3")).toBe("3.5"); // risk changed, untouched suggestion
+    expect(applySuggestion("4", 3.5, "3")).toBeNull(); // the investor typed 4
+    expect(applySuggestion("4", 3, null)).toBeNull(); // editing a saved profile
+    expect(applySuggestion("3", 3, "3")).toBeNull(); // nothing to change
+    expect(applySuggestion("", null, null)).toBeNull(); // no data
+  });
+
+  it("asks only once the profile says what and where, with balanced risk by default", () => {
+    const form = { ...emptyForm(), segment: "residential", propertyTypes: ["apartment"],
+      localities: ["whitefield"], goal: "rental_income" } as ProfileFormState;
+    const options = { city: "Bengaluru" } as ProfileOptions;
+    expect(suggestionInput(form, options)).toEqual({ segment: "residential", property_types: ["apartment"],
+      city: "Bengaluru", localities: ["whitefield"], goal: "rental_income", risk_appetite: "balanced" });
+    expect(suggestionInput({ ...form, goal: "" }, options)).toBeNull();
   });
 });

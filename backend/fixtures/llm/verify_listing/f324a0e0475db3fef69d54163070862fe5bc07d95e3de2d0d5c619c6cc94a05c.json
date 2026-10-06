@@ -1,0 +1,26 @@
+{
+  "key": "f324a0e0475db3fef69d54163070862fe5bc07d95e3de2d0d5c619c6cc94a05c",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Asking price ₹75,00,000 is within profile's maximum budget of ₹80,00,000 (based on regex-extracted snippet price, not a verified final unit price).",
+      "Property type 'apartment' matches requested property type.",
+      "Segment 'residential' matches requested segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Locality is query-derived only (searched Whitefield; page may cover nearby areas). The actual unit's locality is not confirmed.",
+      "No size_sqft available for this candidate; requested size range is empty, but missing size prevents a strong verdict.",
+      "Asking price is regex-extracted from a search snippet and may not be the final unit price; treat as indicative.",
+      "Property type is regex-derived from listing title/search snippet, not a verified individual listing detail.",
+      "Rental income goal, target ROI 3%, and balanced risk appetite are investor preferences; no rental yield or return data are available at this stage.",
+      "Listing is a snippet_entry from a search result, not a fully verified individual property listing.",
+      "Price per square foot is not available."
+    ],
+    "confidence": 0.55
+  }
+}

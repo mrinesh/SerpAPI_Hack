@@ -153,9 +153,10 @@ uv run python scripts/record_verification.py --profile commercial
 These scripts force SerpApi replay and DeepSeek record, use a temporary isolated database,
 and write validated LLM fixtures. They spend DeepSeek calls only, about 30 seconds per candidate.
 Delete the stale files in `fixtures/llm/<task>/` first after a prompt change. Residential criteria:
-Whitefield apartment, max ₹80 L, rental income, 4% target, balanced risk, no must-haves or size
-limits. Commercial criteria: Koramangala office, max ₹3 Cr, business type `IT services`, same
-goal/target/risk. Other criteria require their own recordings. No fake LLM responses are shipped
+Whitefield apartment, max ₹80 L, rental income, 3% target, balanced risk, no must-haves or size
+limits. Commercial criteria: Koramangala office, max ₹3 Cr, business type `IT services`, 6%
+target, same goal and risk. Both targets are the wizard's suggestions (ADR 0018), so in the demo
+you accept the suggested value. Other criteria require their own recordings. No fake LLM responses are shipped
 as real provider recordings; tests generate fake responses in temporary fixture directories.
 
 ## Known tooling issues

@@ -162,6 +162,48 @@
         }
       }
     },
+    "/api/profiles/target-suggestion": {
+      "post": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "Suggest Target",
+        "description": "A typical target ROI for these localities and goal, from sourced search results.",
+        "operationId": "suggest_target_api_profiles_target_suggestion_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TargetSuggestionIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TargetSuggestion"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/profiles/{profile_id}": {
       "get": {
         "tags": [
@@ -3046,6 +3088,120 @@
           "status"
         ],
         "title": "StageEvent"
+      },
+      "TargetSuggestion": {
+        "properties": {
+          "target_roi_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target Roi Pct"
+          },
+          "measure": {
+            "$ref": "#/components/schemas/ROIMeasure"
+          },
+          "typical_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Typical Pct"
+          },
+          "basis": {
+            "type": "string",
+            "title": "Basis"
+          },
+          "parts": {
+            "items": {
+              "$ref": "#/components/schemas/TargetSuggestionPart"
+            },
+            "type": "array",
+            "title": "Parts"
+          }
+        },
+        "type": "object",
+        "required": [
+          "target_roi_pct",
+          "measure",
+          "typical_pct",
+          "basis"
+        ],
+        "title": "TargetSuggestion"
+      },
+      "TargetSuggestionIn": {
+        "properties": {
+          "segment": {
+            "$ref": "#/components/schemas/Segment"
+          },
+          "property_types": {
+            "items": {
+              "$ref": "#/components/schemas/PropertyType"
+            },
+            "type": "array",
+            "minItems": 1,
+            "title": "Property Types"
+          },
+          "city": {
+            "type": "string",
+            "title": "City",
+            "default": "Bengaluru"
+          },
+          "localities": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 5,
+            "minItems": 1,
+            "title": "Localities"
+          },
+          "goal": {
+            "$ref": "#/components/schemas/InvestmentGoal"
+          },
+          "risk_appetite": {
+            "$ref": "#/components/schemas/RiskAppetite"
+          }
+        },
+        "type": "object",
+        "required": [
+          "segment",
+          "property_types",
+          "localities",
+          "goal",
+          "risk_appetite"
+        ],
+        "title": "TargetSuggestionIn",
+        "description": "The profile fields a suggestion depends on; the wizard knows them by its Money step."
+      },
+      "TargetSuggestionPart": {
+        "properties": {
+          "locality": {
+            "type": "string",
+            "title": "Locality"
+          },
+          "property_type": {
+            "$ref": "#/components/schemas/PropertyType"
+          },
+          "typical": {
+            "$ref": "#/components/schemas/Sourced_float_"
+          }
+        },
+        "type": "object",
+        "required": [
+          "locality",
+          "property_type",
+          "typical"
+        ],
+        "title": "TargetSuggestionPart"
       },
       "TrendPoint": {
         "properties": {

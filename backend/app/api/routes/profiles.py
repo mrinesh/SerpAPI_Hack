@@ -4,6 +4,7 @@ from app.api.deps import DbSession
 from app.pipeline import orchestrator
 from app.schemas.profile import InvestorProfile, InvestorProfileIn
 from app.schemas.run import PipelineRun
+from app.schemas.target import TargetSuggestion, TargetSuggestionIn
 from app.services import profiles
 
 router = APIRouter(prefix="/profiles", tags=["profiles"])
@@ -12,6 +13,12 @@ router = APIRouter(prefix="/profiles", tags=["profiles"])
 @router.post("", status_code=status.HTTP_201_CREATED)
 def create_profile(data: InvestorProfileIn, db: DbSession) -> InvestorProfile:
     return profiles.create_profile(db, data)
+
+
+@router.post("/target-suggestion")
+def suggest_target(data: TargetSuggestionIn, db: DbSession) -> TargetSuggestion:
+    """A typical target ROI for these localities and goal, from sourced search results."""
+    return profiles.suggest_target(db, data)
 
 
 @router.get("")
