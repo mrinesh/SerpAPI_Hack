@@ -12,7 +12,10 @@ class Recommendation(BaseModel):
     verification: Verification
     metrics: InvestmentMetrics | None = None
     score: float = Field(ge=0, le=100)  # composite of match, metrics and area signals
-    score_breakdown: dict[str, float] = Field(default_factory=dict)
+    # Points each component contributed, plus `flag_penalty` (negative); None = not available
+    # yet (ROI until F-09, area signals until F-05). See docs/decisions/0015-composite-ranking.md.
+    score_breakdown: dict[str, float | None] = Field(default_factory=dict)
     reason: str  # plain-language "why this one", grounded in sourced fields
     highlights: list[str] = Field(default_factory=list)
     risks: list[str] = Field(default_factory=list)
+    explained: bool = False  # True when `reason` was written by the LLM and passed the number check

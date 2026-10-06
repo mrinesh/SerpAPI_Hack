@@ -13,6 +13,12 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-06 · F-04 ranked recommendations: composite score in code from relevance, value
+  against the locality price level and evidence, weighted by goal and risk appetite, minus
+  flag penalties (ADR 0015); ROI and area signals reserved for F-09 / F-05. Code reasons for
+  every pick; DeepSeek reasons for the top 5, with every number checked against the figures
+  given. `GET /api/runs/{id}/recommendations`; "Recommended" tab with a score breakdown.
+  Recorded for both demos (9 lite calls, no searches).
 - 2026-10-06 · F-12 price flags (part): too-good-to-be-true against a per-locality price level
   from a live Google search, read by DeepSeek with a validated quote; run-median fallback, no flat
   rate (ADR 0014). Missing price/size flags; flag chips on run cards. A high flag caps at weak.

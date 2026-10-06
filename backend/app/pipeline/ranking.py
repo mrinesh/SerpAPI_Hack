@@ -1,16 +1,61 @@
-"""Stage 6, rank: composite score and plain-language reasons (CHECKLIST F-04).
+"""Stage 6, rank: composite score and plain-language reasons (CHECKLIST F-04, ADR 0015).
 
 The score is a weighted blend computed in code (not by the LLM) so it is reproducible:
-match score, ROI vs target, price vs area average, area signals, and quality-flag penalties.
-Weights depend on `profile.goal` and `profile.risk_appetite`; `score_breakdown` exposes them.
-The LLM (`explain_recommendation`) only writes the reason, highlights and risks.
+relevance (the F-03 match score), value (price per sq ft against the locality price level),
+evidence (confidence and data completeness), ROI vs target (F-09) and area signals (F-05), minus
+quality-flag penalties. Weights depend on `profile.goal` and `profile.risk_appetite`; a component
+that is not available (ROI and area signals until F-09 / F-05 exist) is left out and the others
+are renormalised. `score_breakdown` exposes the points each component contributed.
+
+Every ranked candidate gets a reason written by code. The top `EXPLAIN_TOP` also get one from
+the LLM (`explain_recommendation`), which may only quote the display figures it is given: a
+reason quoting any other number falls back to the code reason (ADR 0008).
 """
+
+import re
 
 from pydantic import BaseModel
 
-from app.core.errors import NotImplementedYet
+from app.integrations.llm.base import ModelTier
 from app.pipeline.context import PipelineContext
+from app.pipeline.quality import listing_rate
+from app.pipeline.verification import listing_input, prompt_for
+from app.reference import Market
+from app.schemas.common import Level
+from app.schemas.listing import Listing, MatchVerdict, QualityFlagKind, Verification
+from app.schemas.profile import InvestmentGoal, InvestorProfile, RiskAppetite
+from app.schemas.provenance import Sourced
 from app.schemas.recommendation import Recommendation
+
+COMPONENTS = ("relevance", "roi", "value", "evidence", "area")
+# Percentage points per component, by investment goal (ADR 0015).
+WEIGHTS: dict[InvestmentGoal, dict[str, float]] = {
+    InvestmentGoal.RENTAL_INCOME: {
+        "relevance": 40, "roi": 25, "value": 15, "evidence": 15, "area": 5,
+    },
+    InvestmentGoal.APPRECIATION: {
+        "relevance": 35, "roi": 20, "value": 25, "evidence": 10, "area": 10,
+    },
+    InvestmentGoal.BALANCED: {
+        "relevance": 40, "roi": 20, "value": 20, "evidence": 12, "area": 8,
+    },
+}  # fmt: skip
+# Conservative investors weigh evidence more; aggressive ones weigh a below-market price more.
+RISK_SHIFTS: dict[RiskAppetite, dict[str, float]] = {
+    RiskAppetite.CONSERVATIVE: {"relevance": -5, "value": -5, "evidence": 10},
+    RiskAppetite.BALANCED: {},
+    RiskAppetite.AGGRESSIVE: {"evidence": -5, "value": 5},  # evidence never drops below 5
+}
+VALUE_SLOPE = 125  # value score points per 100% of the area level: 0.6x -> 100, 1.4x -> 0
+FLAG_PENALTY = 25  # points off per high-severity quality flag
+EXPLAIN_TOP = 5  # LLM-written reasons per run
+VERDICT_WORDS = {
+    MatchVerdict.STRONG: "strong match",
+    MatchVerdict.PARTIAL: "partial match",
+    MatchVerdict.WEAK: "weak match",
+}
+
+LevelKey = tuple[str | None, object]
 
 
 class Explanation(BaseModel):
@@ -21,5 +66,266 @@ class Explanation(BaseModel):
     risks: list[str]
 
 
-def rank(ctx: PipelineContext, run_id: str) -> list[Recommendation]:
-    raise NotImplementedYet("F-04", "Ranking and explanations")
+# --- scoring (pure) -----------------------------------------------------------------------
+
+
+def weights_for(goal: InvestmentGoal, risk: RiskAppetite) -> dict[str, float]:
+    weights = dict(WEIGHTS[goal])
+    for component, shift in RISK_SHIFTS[risk].items():
+        weights[component] += shift
+    return weights
+
+
+def is_too_good(verification: Verification) -> bool:
+    return any(flag.kind is QualityFlagKind.TOO_GOOD_TO_BE_TRUE for flag in verification.flags)
+
+
+def value_score(
+    listing: Listing, verification: Verification, level: Sourced[float] | None
+) -> float | None:
+    """50 at the area level, higher when cheaper. None when it cannot be judged, or when the
+    price is flagged as implausible (a suspicious bargain must not score as value)."""
+    rate = listing_rate(listing)
+    if rate is None or level is None or not level.value or is_too_good(verification):
+        return None
+    return _clamp(50 + (1 - rate / level.value) * VALUE_SLOPE)
+
+
+def evidence_score(listing: Listing, verification: Verification) -> float:
+    facts = (listing.price_inr.value, listing.size_sqft.value, listing.status.value)
+    completeness = sum(fact is not None for fact in facts) / len(facts)
+    return _clamp(100 * (0.5 * verification.confidence + 0.5 * completeness))
+
+
+def components(
+    listing: Listing, verification: Verification, level: Sourced[float] | None
+) -> dict[str, float | None]:
+    return {
+        "relevance": float(verification.match_score),
+        "roi": None,  # F-09 investment metrics
+        "value": value_score(listing, verification, level),
+        "evidence": evidence_score(listing, verification),
+        "area": None,  # F-05 area intelligence
+    }
+
+
+def composite(
+    parts: dict[str, float | None], weights: dict[str, float], penalty: float
+) -> tuple[float, dict[str, float | None]]:
+    """Score and breakdown: available components renormalised to 100%, minus the penalty."""
+    available = {name: value for name, value in parts.items() if value is not None}
+    total_weight = sum(weights[name] for name in available)
+    breakdown: dict[str, float | None] = {
+        name: (
+            round(weights[name] / total_weight * parts[name], 1)
+            if parts[name] is not None
+            else None
+        )
+        for name in COMPONENTS
+    }
+    breakdown["flag_penalty"] = -penalty
+    score = sum(value for value in breakdown.values() if value is not None)
+    return round(_clamp(score), 1), breakdown
+
+
+def flag_penalty(verification: Verification) -> float:
+    return FLAG_PENALTY * sum(flag.severity is Level.HIGH for flag in verification.flags)
+
+
+def score_candidates(
+    profile: InvestorProfile,
+    checked: list[tuple[Listing, Verification]],
+    levels: dict[LevelKey, Sourced[float]],
+    market: Market | None = None,
+) -> list[Recommendation]:
+    """Rank every checked candidate that was not rejected; each gets a code-written reason."""
+    weights = weights_for(profile.goal, profile.risk_appetite)
+    scored = []
+    for listing, verification in checked:
+        if verification.verdict is MatchVerdict.REJECT:
+            continue
+        level = level_for(levels, listing)
+        score, breakdown = composite(
+            components(listing, verification, level), weights, flag_penalty(verification)
+        )
+        scored.append((score, listing, verification, breakdown))
+    scored.sort(key=lambda item: (-item[0], item[1].price_inr.value or 0, item[1].id))
+    total = len(scored)
+    recommendations = []
+    for rank, (score, listing, verification, breakdown) in enumerate(scored, start=1):
+        recommendation = Recommendation(
+            rank=rank,
+            listing=listing,
+            verification=verification,
+            score=score,
+            score_breakdown=breakdown,
+            reason="",
+        )
+        recommendation.reason = code_reason(
+            recommendation, total, level_for(levels, listing), place_name(market, listing)
+        )
+        recommendations.append(recommendation)
+    return recommendations
+
+
+# --- reasons ------------------------------------------------------------------------------
+
+
+def inr_short(value: int) -> str:
+    """₹76 L, ₹1.15 Cr, ₹45,000."""
+    if value >= 10_000_000:
+        return f"₹{_compact(value / 10_000_000)} Cr"
+    if value >= 100_000:
+        return f"₹{_compact(value / 100_000)} L"
+    return f"₹{value:,}"
+
+
+def code_reason(
+    recommendation: Recommendation, total: int, level: Sourced[float] | None, place: str
+) -> str:
+    verification = recommendation.verification
+    parts = [
+        f"#{recommendation.rank} of {total}: {VERDICT_WORDS[verification.verdict]}, "
+        f"relevance {verification.match_score}/100."
+    ]
+    figures = display_figures(recommendation, total, level, place, None)
+    if is_too_good(verification):
+        parts.append(f"Quoted at {figures['price']}, which looks implausibly low for the area.")
+    elif "price_vs_area" in figures:
+        parts.append(
+            f"Quoted at {figures['price']}, {figures['price_vs_area']} {place}'s "
+            f"{figures['area_level']} level."
+        )
+    elif "price" in figures:
+        parts.append(f"Quoted at {figures['price']}.")
+    else:
+        parts.append("No price is quoted yet.")
+    return " ".join(parts)
+
+
+def display_figures(
+    recommendation: Recommendation,
+    total: int,
+    level: Sourced[float] | None,
+    place: str,
+    profile: InvestorProfile | None,
+) -> dict[str, str]:
+    """The only figures an explanation may quote, already formatted for display."""
+    listing, verification = recommendation.listing, recommendation.verification
+    figures = {
+        "name": listing.name,
+        "rank": f"#{recommendation.rank} of {total}",
+        "score": f"{_compact(recommendation.score)}/100",  # as the UI shows it, e.g. 74.5
+        "relevance": f"{verification.match_score}/100",
+        "verdict": VERDICT_WORDS[verification.verdict],
+    }
+    if listing.price_inr.value:
+        figures["price"] = inr_short(listing.price_inr.value)
+    if listing.size_sqft.value:
+        figures["size"] = f"{listing.size_sqft.value:,.0f} sq ft"
+    if listing.bedrooms.value:
+        figures["bedrooms"] = f"{listing.bedrooms.value} BHK"
+    rate = listing_rate(listing)
+    if rate:
+        figures["rate"] = f"₹{rate:,.0f}/sq ft"
+    if level is not None and level.value:
+        figures["area_level"] = f"₹{level.value:,.0f}/sq ft"
+        if rate and not is_too_good(verification):
+            change = round((rate / level.value - 1) * 100)
+            figures["price_vs_area"] = (
+                "in line with" if change == 0 else
+                f"{abs(change)}% {'below' if change < 0 else 'above'}"
+            )  # fmt: skip
+    if profile is not None:
+        figures["budget"] = f"up to {inr_short(profile.budget_max_inr)}"
+        figures["target_roi"] = f"{_compact(profile.target_roi_pct)}% target ROI"
+    figures["place"] = place
+    return figures
+
+
+_NUMBER = re.compile(r"\d[\d,]*(?:\.\d+)?")
+
+
+def numbers_in(text: str) -> set[str]:
+    return {_canonical(match) for match in _NUMBER.findall(text)}
+
+
+def grounded(text: str, allowed: set[str]) -> bool:
+    """True when every number in `text` appears in the display figures (ADR 0008)."""
+    return numbers_in(text) <= allowed
+
+
+def guard(
+    explanation: Explanation, figures: dict[str, str], fallback: str
+) -> tuple[str, list[str], list[str], bool]:
+    allowed = set().union(*(numbers_in(value) for value in figures.values()))
+    explained = bool(explanation.reason.strip()) and grounded(explanation.reason, allowed)
+    keep = [item for item in explanation.highlights[:3] if item.strip() and grounded(item, allowed)]
+    risks = [item for item in explanation.risks[:3] if item.strip() and grounded(item, allowed)]
+    return (explanation.reason.strip() if explained else fallback), keep, risks, explained
+
+
+def explain(
+    ctx: PipelineContext,
+    recommendation: Recommendation,
+    total: int,
+    level: Sourced[float] | None,
+    place: str,
+) -> Recommendation:
+    figures = display_figures(recommendation, total, level, place, ctx.profile)
+    profile = ctx.profile.model_dump(
+        mode="json", exclude={"id", "name", "created_at", "updated_at"}
+    )
+    verification = recommendation.verification.model_dump(
+        mode="json", include={"verdict", "matched_criteria", "mismatches", "missing_data", "flags"}
+    )
+    strengths = [
+        name
+        for name, points in sorted(
+            recommendation.score_breakdown.items(), key=lambda item: -(item[1] or 0)
+        )
+        if name != "flag_penalty" and points
+    ]
+    explanation = ctx.llm.generate_structured(
+        task="explain_recommendation",
+        prompt=prompt_for(
+            "explain_recommendation",
+            profile=profile,
+            listing=listing_input(recommendation.listing),
+            verification=verification,
+            figures=figures,
+            strongest_score_parts=strengths,
+        ),
+        schema=Explanation,
+        tier=ModelTier.LITE,
+    )
+    reason, highlights, risks, explained = guard(explanation, figures, recommendation.reason)
+    return recommendation.model_copy(
+        update={"reason": reason, "highlights": highlights, "risks": risks, "explained": explained}
+    )
+
+
+# --- helpers ------------------------------------------------------------------------------
+
+
+def level_for(levels: dict[LevelKey, Sourced[float]], listing: Listing) -> Sourced[float] | None:
+    return levels.get((listing.locality.value, listing.property_type.value))
+
+
+def place_name(market: Market | None, listing: Listing) -> str:
+    slug = listing.locality.value or ""
+    locality = market.locality(slug) if market else None
+    return locality.name if locality else slug.replace("-", " ").title()
+
+
+def _clamp(value: float) -> float:
+    return max(0.0, min(100.0, value))
+
+
+def _compact(value: float) -> str:
+    return f"{value:.2f}".rstrip("0").rstrip(".")
+
+
+def _canonical(number: str) -> str:
+    text = number.replace(",", "")
+    return text.rstrip("0").rstrip(".") if "." in text else text

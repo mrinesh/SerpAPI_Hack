@@ -1,8 +1,10 @@
 import { useState, type ReactNode } from "react";
 
-import type { Listing, Portal, ProfileOptions, QualityFlag, SaleStatus, Verification } from "../../api/types";
+import type { Listing, Portal, ProfileOptions, Recommendation, SaleStatus, Verification } from "../../api/types";
 import { formatInr } from "../../lib/money";
+import { FlagChips } from "./FlagChips";
 import { groupCandidates } from "./groupCandidates";
+import { RecommendationList } from "./RecommendationList";
 
 const PORTAL_LABELS: Record<Portal, string> = {
   "99acres": "99acres",
@@ -18,17 +20,22 @@ const STATUS_LABELS: Record<SaleStatus, string> = {
   new_launch: "New launch",
 };
 
-type Tab = "priced" | "projects" | "filtered";
+type Tab = "recommended" | "priced" | "projects" | "filtered";
 
-/** Discovered candidates with relevance checks. Rejects remain visible with their reasons. */
-export function CandidateList({ listings, options, verifications }: {
+/** The ranked shortlist first (F-04), then every discovered candidate with its relevance check.
+ * Rejects remain visible with their reasons. */
+export function CandidateList({ listings, options, verifications, recommendations }: {
   listings: Listing[]; options: ProfileOptions; verifications: Verification[];
+  recommendations: Recommendation[];
 }) {
   const groups = groupCandidates(listings, verifications);
   const { priced, projects, filtered } = groups;
   const checks = new Map(verifications.map((check) => [check.listing_id, check]));
-  const [tab, setTab] = useState<Tab>(priced.length > 0 ? "priced" : projects.length > 0 ? "projects" : "filtered");
-  const shown = groups[tab];
+  // Until the reader picks a tab, follow the data: the shortlist appears once ranking finishes.
+  const [chosen, setTab] = useState<Tab | null>(null);
+  const tab: Tab = chosen ?? (recommendations.length > 0 ? "recommended"
+    : priced.length > 0 ? "priced" : projects.length > 0 ? "projects" : "filtered");
+  const shown = tab === "recommended" ? [] : groups[tab];
   const typeLabel = (value: string | null | undefined) =>
     options.segments.flatMap((s) => s.property_types).find((t) => t.value === value)?.label ?? value;
   const localityName = (slug: string | null | undefined) =>
@@ -40,7 +47,12 @@ export function CandidateList({ listings, options, verifications }: {
 
   return (
     <section className="space-y-3">
-      <div className="flex items-center gap-2" role="tablist">
+      <div className="flex flex-wrap items-center gap-2" role="tablist">
+        {recommendations.length > 0 && (
+          <TabButton active={tab === "recommended"} onClick={() => setTab("recommended")}>
+            Recommended ({recommendations.length})
+          </TabButton>
+        )}
         <TabButton active={tab === "priced"} onClick={() => setTab("priced")}>
           Priced entries ({priced.length})
         </TabButton>
@@ -52,14 +64,31 @@ export function CandidateList({ listings, options, verifications }: {
         </TabButton>
       </div>
       <p className="text-xs text-slate-500">
-        {tab === "filtered"
+        {tab === "recommended"
+          ? "Ranked by a score computed from relevance, price against the area level and evidence quality. ROI and area signals are not included yet."
+          : tab === "filtered"
           ? "Candidates that fail your criteria. Their source links and rejection reasons are kept for review."
           : tab === "priced"
           ? "Prices quoted on the portals' search pages. The link opens the page that quoted it, not a single unit."
           : "Housing projects in the locality from Google Maps. No price is quoted for these yet."}
       </p>
-      {shown.length === 0 && <p className="text-sm text-slate-500">No candidates in this view.</p>}
-      <ul className="divide-y divide-slate-100 rounded-xl border border-slate-200 bg-white">
+      {tab === "recommended" && (
+        <RecommendationList
+          recommendations={recommendations}
+          describe={({ listing }) => [
+            typeLabel(listing.property_type.value),
+            localityName(listing.locality.value),
+            listing.size_sqft.value != null &&
+              `${Math.round(listing.size_sqft.value)} sq ft${listing.size_sqft.method === "computed" ? " (computed)" : ""}`,
+            listing.status.value && STATUS_LABELS[listing.status.value],
+            PORTAL_LABELS[listing.portal],
+          ].filter(Boolean).join(" · ")}
+        />
+      )}
+      {tab !== "recommended" && shown.length === 0 && (
+        <p className="text-sm text-slate-500">No candidates in this view.</p>
+      )}
+      {tab !== "recommended" && <ul className="divide-y divide-slate-100 rounded-xl border border-slate-200 bg-white">
         {shown.map((listing) => (
           <li key={listing.id} className="grid gap-1 px-4 py-3 sm:grid-cols-[1fr_auto]">
             <div className="min-w-0">
@@ -113,7 +142,7 @@ export function CandidateList({ listings, options, verifications }: {
             </div>
           </li>
         ))}
-      </ul>
+      </ul>}
     </section>
   );
 }
@@ -134,38 +163,6 @@ function VerificationSummary({ verification }: { verification: Verification }) {
       <CheckReasons label="Matched" reasons={verification.matched_criteria ?? []} />
       <CheckReasons label={rejected ? "Rejection reasons" : "Mismatches"} reasons={verification.mismatches ?? []} />
       <CheckReasons label="Missing or unconfirmed" reasons={verification.missing_data ?? []} />
-    </div>
-  );
-}
-
-const FLAG_LABELS: Record<QualityFlag["kind"], string> = {
-  too_good_to_be_true: "Too good to be true",
-  missing_price: "No price",
-  missing_size: "No size",
-  duplicate: "Duplicate",
-  location_mismatch: "Location mismatch",
-};
-
-const FLAG_STYLES: Record<QualityFlag["severity"], string> = {
-  high: "border-amber-300 bg-amber-50 text-amber-800",
-  medium: "border-amber-200 bg-amber-50 text-amber-700",
-  low: "border-slate-200 bg-slate-50 text-slate-600",
-};
-
-/** F-12 quality flags; the reason is the tooltip (high ones are also listed as mismatches). */
-function FlagChips({ flags }: { flags: QualityFlag[] }) {
-  if (flags.length === 0) return null;
-  return (
-    <div className="flex flex-wrap gap-1">
-      {flags.map((flag) => (
-        <span
-          key={flag.kind}
-          title={flag.reason}
-          className={`rounded-full border px-2 py-0.5 font-medium ${FLAG_STYLES[flag.severity]}`}
-        >
-          {FLAG_LABELS[flag.kind]}
-        </span>
-      ))}
     </div>
   );
 }

@@ -2334,7 +2334,14 @@
           },
           "score_breakdown": {
             "additionalProperties": {
-              "type": "number"
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
             },
             "type": "object",
             "title": "Score Breakdown"
@@ -2356,6 +2363,11 @@
             },
             "type": "array",
             "title": "Risks"
+          },
+          "explained": {
+            "type": "boolean",
+            "title": "Explained",
+            "default": false
           }
         },
         "type": "object",

@@ -24,7 +24,7 @@ city) use the same shape.
 | GET | `/runs/{run_id}` | `PipelineRun` with `StageEvent[]`, searches used, cache hits | I-09, F-20 | ✅ |
 | GET | `/runs/{run_id}/listings` | `Listing[]` the run discovered: priced entries cheapest first, then projects | F-02 | ✅ |
 | GET | `/runs/{run_id}/verifications` | `Verification[]`: completed checks, including rejects and reasons | F-03 | ✅ |
-| GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked | F-04 | 🧱 |
+| GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked; empty until the rank stage runs | F-04 | ✅ |
 | GET | `/properties/{listing_id}` | `PropertyDetail` | F-07 | 🧱 |
 | GET | `/areas/{locality_key}` | `AreaIntel`; key like `bengaluru/whitefield` | F-05 | 🧱 |
 | GET | `/saved` | `SavedProperty[]` | F-08 | 🧱 |
@@ -40,7 +40,7 @@ an unchecked candidate has no verification yet. Both endpoints return 404 for an
 `verify` stage counts contain `candidates`, `checked`, `rejected`, `flagged` (too good to be true)
 and `unchecked` (candidates past `VERIFY_MAX_CANDIDATES`, default 16, which have no verification).
 Each `Verification.flags` entry is a `QualityFlag` (`kind`, `severity`, `reason`, ADR 0014).
-F-04 ranking is still pending.
+`rank` stage counts contain `ranked` and `explained` (AI reasons that passed the number check).
 
 ## Frontend types
 

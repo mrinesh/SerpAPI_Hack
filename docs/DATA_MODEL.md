@@ -66,7 +66,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `pipeline_runs` | `id` | status, current stage, `StageEvent[]`, searches used, cache hits | FK profile |
 | `listings` | `id` = stable hash of the candidate's identity | `Listing` JSON; `kind`, `portal`, `locality`, `price_inr`, `size_sqft`, `price_per_sqft` columns | Shared across runs, so a repeat run updates the same rows |
 | `listing_observations` | `id`; unique (`listing_id`, `run_id`) | price at the time | One row per candidate per run: "found in this run" and price history |
-| `run_results` | `id` | Progressive JSON: `listing` snapshot and nullable `verification`; F-04 will add recommendation fields | One row per listing per run; rank null until ranked, and for rejects |
+| `run_results` | `id` | Progressive JSON: `listing` snapshot, nullable `verification`, and for ranked rows `recommendation` (score, score_breakdown, reason, highlights, risks, explained) | One row per listing per run; rank 1..n for ranked candidates, null for rejects and unchecked |
 | `area_intel` | `locality_key` | `AreaIntel` JSON, `expires_at` | e.g. `bengaluru/whitefield` |
 | `competitor_reports` | hash(centre, category, radius) | `CompetitorReport` JSON | |
 | `serp_cache` | `cache_key` | raw SerpApi JSON, `search_id` | Same key as fixture file names |

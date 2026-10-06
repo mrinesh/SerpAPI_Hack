@@ -803,7 +803,7 @@ export interface components {
             score: number;
             /** Score Breakdown */
             score_breakdown?: {
-                [key: string]: number;
+                [key: string]: number | null;
             };
             /** Reason */
             reason: string;
@@ -811,6 +811,11 @@ export interface components {
             highlights?: string[];
             /** Risks */
             risks?: string[];
+            /**
+             * Explained
+             * @default false
+             */
+            explained: boolean;
         };
         /** RentalDemand */
         RentalDemand: {
