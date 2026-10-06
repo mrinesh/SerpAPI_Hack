@@ -1,0 +1,70 @@
+{
+  "key": "1d255ed3117ccd5f024f0999c248218b39807626184290812442437ac5f24ad9",
+  "task": "classify_news",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "items": [
+      {
+        "index": 0,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 1,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 2,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 3,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 4,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 5,
+        "topic": "civic",
+        "sentiment": "positive"
+      },
+      {
+        "index": 6,
+        "topic": "civic",
+        "sentiment": "neutral"
+      },
+      {
+        "index": 7,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 8,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 9,
+        "topic": "civic",
+        "sentiment": "positive"
+      },
+      {
+        "index": 10,
+        "topic": "infrastructure",
+        "sentiment": "positive"
+      },
+      {
+        "index": 11,
+        "topic": "civic",
+        "sentiment": "positive"
+      }
+    ]
+  }
+}

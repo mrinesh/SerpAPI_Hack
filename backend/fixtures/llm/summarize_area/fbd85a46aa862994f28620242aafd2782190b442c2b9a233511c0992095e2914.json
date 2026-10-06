@@ -1,0 +1,26 @@
+{
+  "key": "fbd85a46aa862994f28620242aafd2782190b442c2b9a233511c0992095e2914",
+  "task": "summarize_area",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "facts": [
+      {
+        "news_index": 5,
+        "quote": "Bengaluru CEO fixes footpath near Koramangala society, builds a ramp: ‘It cost me ₹2,700’ | Trending"
+      },
+      {
+        "news_index": 9,
+        "quote": "Bengaluru's Koramangala gets ‘wealth from waste’ centre"
+      },
+      {
+        "news_index": 10,
+        "quote": "Visit L Street in Koramangala and be awed"
+      },
+      {
+        "news_index": 11,
+        "quote": "Happy Streets to brighten up Koramangala on June 7"
+      }
+    ]
+  }
+}

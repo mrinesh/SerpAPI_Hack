@@ -7,8 +7,9 @@ a reason and a source link for every number.
 
 > **Status: framework stage.** The architecture, schemas, API surface and UI shell are in place;
 > features are being built now. Progress lives in **[CHECKLIST.md](CHECKLIST.md)**.
-> Discovery and DeepSeek relevance verification are implemented; live F-03 acceptance and
-> LLM demo recordings are pending. See [recording instructions](docs/DEVELOPMENT.md#discovery-runs-and-replay).
+> Discovery, DeepSeek verification and area intelligence are implemented and recorded for both
+> offline demos. Investment metrics, ranking and property details remain pending. See
+> [the F-05 implementation/debugging guide](docs/F05_AREA_INTELLIGENCE.md).
 >
 > Built for the SerpApi India Hackathon 2026 · Track: **Commerce & Market Intelligence** ·
 > Demo market: **Bengaluru**

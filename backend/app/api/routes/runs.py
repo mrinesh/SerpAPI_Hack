@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 
 from app.api.deps import DbSession
+from app.schemas.area import AreaIntel
 from app.schemas.listing import Listing, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
@@ -29,3 +30,9 @@ def get_run_verifications(run_id: str, db: DbSession) -> list[Verification]:
 @router.get("/{run_id}/recommendations")
 def get_recommendations(run_id: str, db: DbSession) -> list[Recommendation]:
     return runs.get_recommendations(db, run_id)
+
+
+@router.get("/{run_id}/areas")
+def get_run_areas(run_id: str, db: DbSession) -> list[AreaIntel]:
+    """F-05 area snapshots; available progressively during enrichment."""
+    return runs.get_areas(db, run_id)

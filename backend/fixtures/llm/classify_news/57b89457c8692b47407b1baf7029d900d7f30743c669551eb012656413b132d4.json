@@ -1,0 +1,70 @@
+{
+  "key": "57b89457c8692b47407b1baf7029d900d7f30743c669551eb012656413b132d4",
+  "task": "classify_news",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "items": [
+      {
+        "index": 0,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 1,
+        "topic": "policy",
+        "sentiment": "positive"
+      },
+      {
+        "index": 2,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 3,
+        "topic": "other",
+        "sentiment": "neutral"
+      },
+      {
+        "index": 4,
+        "topic": "infrastructure",
+        "sentiment": "positive"
+      },
+      {
+        "index": 5,
+        "topic": "market",
+        "sentiment": "positive"
+      },
+      {
+        "index": 6,
+        "topic": "other",
+        "sentiment": "negative"
+      },
+      {
+        "index": 7,
+        "topic": "other",
+        "sentiment": "neutral"
+      },
+      {
+        "index": 8,
+        "topic": "market",
+        "sentiment": "positive"
+      },
+      {
+        "index": 9,
+        "topic": "civic",
+        "sentiment": "positive"
+      },
+      {
+        "index": 10,
+        "topic": "civic",
+        "sentiment": "negative"
+      },
+      {
+        "index": 11,
+        "topic": "infrastructure",
+        "sentiment": "positive"
+      }
+    ]
+  }
+}

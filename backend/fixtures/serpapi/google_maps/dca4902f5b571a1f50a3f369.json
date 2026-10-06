@@ -1,0 +1,1160 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "hospital near Whitefield Bengaluru",
+  "type": "search",
+  "hl": "en",
+  "ll": "@12.9698196,77.7499721,15z"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4d1bb3d34dddfd8055916",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/-kGTkA0slDqZbMV3RlVJTYnMVxSwwismUAw2eNcyfK0/6ac4d1bb3d34dddfd8055916.json",
+   "markdown_endpoint": "https://serpapi.com/searches/-kGTkA0slDqZbMV3RlVJTYnMVxSwwismUAw2eNcyfK0/6ac4d1bb3d34dddfd8055916.md",
+   "created_at": "2026-10-06 10:47:23 UTC",
+   "processed_at": "2026-10-06 10:47:23 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/hospital+near+Whitefield+Bengaluru/@12.9698196,77.7499721,15z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/-kGTkA0slDqZbMV3RlVJTYnMVxSwwismUAw2eNcyfK0/6ac4d1bb3d34dddfd8055916.html",
+   "prettify_html_file": "https://serpapi.com/searches/-kGTkA0slDqZbMV3RlVJTYnMVxSwwismUAw2eNcyfK0/6ac4d1bb3d34dddfd8055916.prettify",
+   "total_time_taken": 0.87
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "hospital near Whitefield Bengaluru",
+   "ll": "@12.9698196,77.7499721,15z",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "hospital near Whitefield Bengaluru"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Aster Hospital Whitefield Bangalore",
+    "place_id": "ChIJKbNMTagRrjsRDX0itEVFtLE",
+    "data_id": "0x3bae11a84d4cb329:0xb1b44545b4227d0d",
+    "data_cid": "12804935806198381837",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11a84d4cb329%3A0xb1b44545b4227d0d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11a84d4cb329%3A0xb1b44545b4227d0d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9894945,
+     "longitude": 77.7337373
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKbNMTagRrjsRDX0itEVFtLE",
+    "provider_id": "/g/11t9lm3vgh",
+    "rating": 4.7,
+    "reviews": 10993,
+    "type": "Hospital",
+    "types": [
+     "Hospital",
+     "Doctor",
+     "Family practice physician",
+     "Health consultant",
+     "Neurologist",
+     "Otolaryngologist",
+     "Urologist"
+    ],
+    "address": "Sadaramangala, Plot No. 3 & 4, Main Road, off Whitefield, opposite ITPL Main Road, Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 4510 8888",
+    "website": "https://www.asterhospitals.in/hospitals/aster-whitefield-bangalore",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPRXeJeTogzBFYDHYg80C3iGpHjsZsIuYx7-YEHG7ltr6H4Cb0G_wOQ7uAiaANLWxFi8pQjTpiRfaddYpynWb7O32OVJJ1vHiFHRGubmMIC1gldPKLxwKzY_1JHuAG7Sqrebdv5=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/EZVxJnicHcRdboIwAADgEyFlqDVL9oAorahDmVHri-GnlppCK22BecGdYbcx8Xv4_v8qY5T-dF1R-SMmJRPUatoWsjG0MaNC1i5rM62dQrtB2ClR79IzjelBsuc8IgtM2AyEPkcK3_VFrywZoEOWGEFh2ikehzlA1z7ZQxvwLPjenIaIz9T-flA8vWVlSdRvc8ph4n8kxzj2OswjnCKb19tV6DFR7taboV8_ydWLsQ0Q_Hm0NC-7yVfvAQCc6n3hNC-guEUj"
+   },
+   {
+    "position": 2,
+    "title": "Manipal Hospital Whitefield",
+    "place_id": "ChIJocj7BfwRrjsRZhaB8omuyNQ",
+    "data_id": "0x3bae11fc05fbc8a1:0xd4c8ae89f2811666",
+    "data_cid": "15332696838885152358",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11fc05fbc8a1%3A0xd4c8ae89f2811666&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11fc05fbc8a1%3A0xd4c8ae89f2811666&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.988055399999999,
+     "longitude": 77.72877439999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJocj7BfwRrjsRZhaB8omuyNQ",
+    "provider_id": "/g/11bzsghy7z",
+    "rating": 4.7,
+    "reviews": 37145,
+    "type": "Private hospital",
+    "types": [
+     "Private hospital",
+     "Fertility clinic",
+     "Orthopedic clinic",
+     "Orthopedic surgeon",
+     "Pain control clinic"
+    ],
+    "address": "ITPL Main Rd, opposite PRESTIGE SHANTINIKETAN, KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 1800 102 4647",
+    "website": "https://www.manipalhospitals.com/whitefield/?utm_source=Organic&utm_medium=GMB&utm_campaign=website-click",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMbIbSiz8volsU39K3tWycEL6L_sDgQ_2pWCUN6bn4Mqt5snXaYmMV2kHQ0v27L_ehcQAI5P6Xf2td9SiDf4J-GaD7ND_D9o42Wa1sSq6FsqmyPmFLT9cNLHmdMsgDoYLzMGZQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/3sLjBnicHcRLDoIwFADAEyFYfmLiwlg_aEskqIgbAhWLkbbgqxg9oHfwNibOYr6fWusWxqbZ1PaAK8Wb6gHVnSmpK6kHTAmT3wsAg4E5nfVtI2gZlsn1PepVA3s72Ng6fbE58UgOmMc5atPZPvJK6dBOuyCPRSboAd1WsdUjn-RVzeJp6G694wXpc5Bc8cVZG8sC-xHOcaAclBZDSDpvAZ14bcWC7AIWkZU4U-BYZeRNl6d48hxalmXU_5khfzamQ_E"
+   },
+   {
+    "position": 3,
+    "title": "Manipal Hospital Varthur Road",
+    "place_id": "ChIJSxo6HfYNrjsRu4rk-Jxt-CQ",
+    "data_id": "0x3bae0df61d3a1a4b:0x24f86d9cf8e48abb",
+    "data_cid": "2663999700547701435",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0df61d3a1a4b%3A0x24f86d9cf8e48abb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0df61d3a1a4b%3A0x24f86d9cf8e48abb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9581418,
+     "longitude": 77.7455758
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJSxo6HfYNrjsRu4rk-Jxt-CQ",
+    "provider_id": "/g/1q6h_ysgm",
+    "rating": 4.7,
+    "reviews": 25627,
+    "type": "Private hospital",
+    "types": [
+     "Private hospital"
+    ],
+    "address": "Survey No. 10P &, 12P, Whitefield Main Rd, Varthur Kodi, Palm Meadows, Ramagondanahalli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 1800 102 4647",
+    "website": "https://www.manipalhospitals.com/varthurroad/?utm_source=GMB&utm_medium=",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN4u6l8-ItsKF3bk8BiHess7JEH5YrgFNHR455uO9SIbmB-Fbjnucx1hrbK9jzQDOD3Dn3hSgrh4ieDiyxYydG2S94w6NDzJ2bSCkhY8bqOraAQlG2ZJgP3iEXz1lTNg_eRyP7b=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/cdV8tnicHcRdDoIgAADgE5E_aGlbDxaZ2aaVPWQvLYiBhViAmV6wM3Sbtr6H7_vhxjz01LIEhyPWNEzQVlNFGmmoNCPS1BZTF60B0Va0eD1EnXntWARgbfQmhvgezKuEaj1Jl4lfKhZnyd7z_TYPizWu5yDGN9mSt8MV3oS3YYdyBJGEvGCKexVFVf8u--vKLUKvG2doSF1cLO68DPAzV5doJ1buKWVbWC2PgyMOGTvTfb-d4Fnn2LYN-H8C5A9NwERl"
+   },
+   {
+    "position": 4,
+    "title": "Motherhood Hospital Whitefield – Best Maternity Hospital In Bangalore",
+    "place_id": "ChIJR8r1P_YNrjsRstAuDa2M_4I",
+    "data_id": "0x3bae0df63ff5ca47:0x82ff8cad0d2ed0b2",
+    "data_cid": "9439418018870251698",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0df63ff5ca47%3A0x82ff8cad0d2ed0b2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0df63ff5ca47%3A0x82ff8cad0d2ed0b2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9589749,
+     "longitude": 77.7467214
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJR8r1P_YNrjsRstAuDa2M_4I",
+    "provider_id": "/g/11b76ttv10",
+    "rating": 4.4,
+    "reviews": 3166,
+    "type": "Maternity hospital",
+    "types": [
+     "Maternity hospital",
+     "Birth center",
+     "Fertility clinic",
+     "Obstetrician-gynecologist",
+     "Hospital",
+     "Neonatal physician",
+     "Women's health clinic",
+     "Pediatrician",
+     "Pharmacy",
+     "Pregnancy care center"
+    ],
+    "type_id": "maternity_hospital",
+    "type_ids": [
+     "maternity_hospital",
+     "birth_center",
+     "fertility_clinic",
+     "gynecologist",
+     "hospital",
+     "neonatal_physician",
+     "obstetrics_gynecology_clinic",
+     "pediatrician",
+     "pharmacy",
+     "pregnancy_care_center"
+    ],
+    "address": "34, Whitefield Main Rd, next to Forum Value Mall, Prestige Ozone, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 6901 9080",
+    "website": "https://www.motherhoodindia.com/locations/bangalore/whitefield/?utm_source=gmb_mhi&utm_medium=localseo&utm_campaign=whitefield",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking garage",
+       "Free parking lot",
+       "Free street parking",
+       "On-site parking",
+       "Paid parking garage",
+       "Paid parking lot",
+       "Paid street parking"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": false
+    },
+    "user_review": "\"Very well maintained hospital in Whitefield.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmODZM7O0ERFCp-avAyNZR74bU_MXPtP-T6YvocaI5tDJ5xr7O6Sx8WrumjL9t1G_KPWuvr_VL7CmF7fTdLnBzphyBWZS5Za4ZPqgCm3MIe6H9IFhpOmc5q0dM49EduAkdmLhDXLdw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Gw33D3icHcRdboIwAADgE1VqBDqW-IAgG64IUTewLwRbRuMorW3Bnxt6hN1myb6H7_fJrVXm1XF6vph1UnZ9O5pWUznYdrAzKoXT6cYYQI0TRpPqRR6TDOVwvUsiBZopvG_JDrmnzzqrCluAg3-cJG1Sz8Yb76ZR7u9vL6UexRkHdv5WfxTlOOn6C6NIJOj7wPCweih-X5Vk75HGJcWli8QiS1v_PUgTrnJBvQtkmRus2Rj-MIF5XGF2XV7nEELA_6dg-APeG0UV"
+   },
+   {
+    "position": 5,
+    "title": "Cloudnine Hospital - Whitefield | Best Maternity & Pregnancy Centre",
+    "place_id": "ChIJa0vYVgcOrjsRXKoeg5IpicQ",
+    "data_id": "0x3bae0e0756d84b6b:0xc4892992831eaa5c",
+    "data_cid": "14161896212485024348",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e0756d84b6b%3A0xc4892992831eaa5c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e0756d84b6b%3A0xc4892992831eaa5c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9877734,
+     "longitude": 77.7322179
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJa0vYVgcOrjsRXKoeg5IpicQ",
+    "provider_id": "/g/1ptzn3r4b",
+    "rating": 4.6,
+    "reviews": 9823,
+    "type": "Maternity hospital",
+    "types": [
+     "Maternity hospital",
+     "Child health care center",
+     "Children's hospital",
+     "Obstetrician-gynecologist",
+     "Gynecologist",
+     "Hospital",
+     "Women's health clinic",
+     "Pediatrician",
+     "Pregnancy care center"
+    ],
+    "type_id": "maternity_hospital",
+    "type_ids": [
+     "maternity_hospital",
+     "child_health_care_centre",
+     "childrens_hospital",
+     "gynecologist",
+     "gynecologist_only",
+     "hospital",
+     "obstetrics_gynecology_clinic",
+     "pediatrician",
+     "pregnancy_care_center"
+    ],
+    "address": "Survey No. 88, Nagarjuna Sai Signet , 2nd Floor, Plot no.11, Whitefield Main Rd, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 99728 99728",
+    "website": "https://www.cloudninecare.com/centre/whitefield?utm_city=bengaluru&utm_source=gmb&utm_medium=organic&utm_campaign=bengaluru+whitefield+c9-hospital-gmb-website+c9-hospital-whitefield&utm_content=website-button",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "On-site parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "book_online": "https://www.cloudninecare.com/centre/whitefield?utm_campaign=cloudnine-google-reserve&utm_source=google-reserve&utm_medium=13553184226984459347&rwg_token=AE37R_ifDu4VyrcxbaN_8sg2YcRomhT89lL45uqkbHPizZArw18BzlGrEBYn_l2gNJYhT5dfm11uYrxFJ7r1TDx4hzE4WSKRTA%3D%3D",
+    "user_review": "\"So far out experience is good with cloudnine hospital whitefild\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMK6xF2dIY6OzBNgjYLz81M6UwyasJA9N2CxOCEUpZQKCS_dwSqJ7wB1zU919dGwIKyOPR9hN-qKjSG73xeEh9YOA4BfrkJHlY9fAgS9VceVl2L-4BabMFnY0lTaHPYaWk2Zn_Bsg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/UwisY3icHcTbDoIgAADQLyIvNYu2HsR109TKrNFLIyRYEZpYmH_YJ_Q3bZ2H8_2Ipqn02LKk6Pd4WXLJnprVtFQNU02PlneL10RrQLXlB69K3uPIa2duscRe2qGEX_GqGzmxl5s30aEPEzdo02CaV8dNFGSnwmSPcGiQ0-XQgcXcLKN3ut5CkYBHdM3mw37LpgLi1B-gS30LFxLDi88zuKdsL90VGCByjmcK23JHFmtMDjf3qE5I84lxbNsG4j8F6gerbUQ4"
+   },
+   {
+    "position": 6,
+    "title": "Aster Women & Children Hospital - Best Maternity & Pregnancy Hospital in Bengaluru",
+    "place_id": "ChIJMT-ThhoRrjsRLlSqOtLx8xs",
+    "data_id": "0x3bae111a86933f31:0x1bf3f1d23aaa542e",
+    "data_cid": "2014219343594411054",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae111a86933f31%3A0x1bf3f1d23aaa542e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae111a86933f31%3A0x1bf3f1d23aaa542e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9918102,
+     "longitude": 77.7336195
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMT-ThhoRrjsRLlSqOtLx8xs",
+    "provider_id": "/g/11lgdjtmb4",
+    "rating": 4.8,
+    "reviews": 13366,
+    "type": "Maternity hospital",
+    "types": [
+     "Maternity hospital",
+     "Child health care center",
+     "Children's hospital",
+     "Obstetrician-gynecologist",
+     "Hospital",
+     "Medical diagnostic imaging center",
+     "Women's health clinic",
+     "Pediatrician",
+     "Pregnancy care center"
+    ],
+    "type_id": "maternity_hospital",
+    "type_ids": [
+     "maternity_hospital",
+     "child_health_care_centre",
+     "childrens_hospital",
+     "gynecologist",
+     "hospital",
+     "medical_diagnostic_imaging_center",
+     "obstetrics_gynecology_clinic",
+     "pediatrician",
+     "pregnancy_care_center"
+    ],
+    "address": "Plot No. 7 B & 7 C, opp. ITPL Main Road, Sadara Mangala Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2302 1222",
+    "website": "https://www.asterhospitals.in/hospitals/aster-women-children-bangalore",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot",
+       "Paid street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Aster Hospital Whitefield outstanding service.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPLMPf3mijvM7brFRvo45gxwDQq_ixyBFv6KaYwsnxpcyFSBS3gmCil3hZKWyooKSudfsh3tgcJBfamV3hWE14bPkjpp8LroSx50F7bOpxSZD4h4x-3FRbYJkaLiL674B_O1PFh=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/o4teRXicHcTBDoIgAADQLzJ1kLa2DllxUJsmWy4vTUnBEiFBxS_sG_qbtt7hfT9Ma6m2tt0xsKJC0K4eVT0Q0eu61ysiuE2HUimLKHt_mGTH0_icNoC3z-nsVwPKJgHX1MzHy_vemiVAkxeVt1n1RpIF4QADyg9tB1gR5YsQER4fjWJAUxIGTcmvgOUnF1bp6ynlJh4ENmsH-VUiDS6OkEFjAZRVt_BVxm3s-TC4J26K2G52Hcex2H9i9T9oMkYa"
+   },
+   {
+    "position": 7,
+    "title": "Ayu Health Hospitals",
+    "place_id": "ChIJOQxLwKYNrjsRo8ozxwsZ7aw",
+    "data_id": "0x3bae0da6c04b0c39:0xaced190bc733caa3",
+    "data_cid": "12460643282381425315",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0da6c04b0c39%3A0xaced190bc733caa3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0da6c04b0c39%3A0xaced190bc733caa3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9658553,
+     "longitude": 77.74931269999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJOQxLwKYNrjsRo8ozxwsZ7aw",
+    "provider_id": "/g/11scjpmf_g",
+    "rating": 4.9,
+    "reviews": 128,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "4th Floor Site No, 3, Whitefield Main Rd, Narayanappa Garden, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 4718 6724",
+    "website": "https://ayu.health/bangalore/hospital/ayu-health-multi-speciality-hospital-narayanappa-garden-whitefield-373?utm_source=google&utm_medium=organic&utm_campaign=GMB_narayanappa-garden-whitefield",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNQ94HuVf4S8efW1Z7ecFgiuoVmm5p9ItCz7wU7MYeIX62vYH5Cb6LLcyczik7cj1mN3WuxegsDvUe7nCZNeQIEXJ7N4Cux9qNtcnNvsC8HiNcW2s-kzgqBhvl5WfK5eSQXBFEI=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/dW7ifnicHcTdboIwGADQJ0JAwYqJF7NqYNMmhCjo3fblo6C0Rfsj4wX3DL6Nyc7Fef01xvR66ftdM5twpXiHVuMDlDQozQSU8PnjW2sPtP9BXd8JlidRak91VCywLsMLQdjx1qqTEHGfZIaO5HkkhzNm1XzqzmlMf-b7PfzC2N4IXEPBZqUdkOuNOyKR9MIwz7bVJ2ERtUNyZwYkc5ou0pZBOdXebeT3deO6uKy_Yizyar3bZqtnGASB1_wPnnwDqsxFMA"
+   },
+   {
+    "position": 8,
+    "title": "Svastha Hospital",
+    "place_id": "ChIJ9WAztx0RrjsRpQ7CP91EnlU",
+    "data_id": "0x3bae111db73360f5:0x559e44dd3fc20ea5",
+    "data_cid": "6169444256592301733",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae111db73360f5%3A0x559e44dd3fc20ea5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae111db73360f5%3A0x559e44dd3fc20ea5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9660082,
+     "longitude": 77.7492376
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9WAztx0RrjsRpQ7CP91EnlU",
+    "provider_id": "/g/11cm02t64p",
+    "rating": 3.8,
+    "reviews": 2428,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "Site Number 3, Main Road, Narayanappa Garden, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80953 70000",
+    "website": "https://www.svasthahospital.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "book_online": "https://book.healthplix.com/dr-dr-sandeep-s-physician-and-diabetologist-bangalore-division-bangalore-division?utm_source=gmb_cta&rwg_token=AE37R_hsVG1bnjjdMCaJjF0cnKu7v1X8vmKImdBKP0332d5lu5dSzMCiXM1dvsjlXmECo4QpUhzn5A_GOVdhdn3JB_BvYvIW8A%3D%3D",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPOTE4eOQHChb11WiT58qY-xPq3ljFPVojVVGhTB8i2Y18Vx_aSdRWoTUi68lakvBNbce78Ut8sn_dIyT4mcNMLkGMOwMIHoRlDjzOA8DDD2DvYC0AO6vMbKq6iNwPNxbmoIzM0wg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/QGqQb3icHcTbDoIgAADQLzKxi7G2Hky6uEKsyOZTU2KioWSQWn_YJ_Q3bZ2H8_0IY-56ZttSjAa5UrnkT80fTNWG12bAVGXnj1Rri2nb89u7rCJCl2NO9htfZI5zLugENonVR81IlqsoVmUcrwVdwGKYODDuL-nxejgreipcKNNbuwgzxqfwZKCuL9fgRccVC_Hutsakw8FGHSQq38SDCKEhahMfeMRtcbZt3CLsorDPKhW8MejyeecAACzxn1n1D-z5RUk"
+   },
+   {
+    "position": 9,
+    "title": "Sri Sathya Sai Super Speciality Hospital Registration Block",
+    "place_id": "ChIJi6GjovERrjsRrdtF1xeGDKM",
+    "data_id": "0x3bae11f1a2a3a18b:0xa30c8617d745dbad",
+    "data_cid": "11748912964856830893",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11f1a2a3a18b%3A0xa30c8617d745dbad&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11f1a2a3a18b%3A0xa30c8617d745dbad&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.98167,
+     "longitude": 77.7297554
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJi6GjovERrjsRrdtF1xeGDKM",
+    "provider_id": "/g/11c6vxk43s",
+    "rating": 4.2,
+    "reviews": 544,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "4, SAI Baba Hospital Road, KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closes soon · 4:30 PM · Opens 7:30 AM Wed",
+    "hours": "Closes soon · 4:30 PM · Opens 7:30 AM Wed",
+    "operating_hours": {
+     "tuesday": "7:30 AM–4:30 PM",
+     "wednesday": "7:30 AM–4:30 PM",
+     "thursday": "7:30 AM–4:30 PM",
+     "friday": "7:30 AM–4:30 PM",
+     "saturday": "7:30 AM–4:30 PM",
+     "sunday": "Closed",
+     "monday": "7:30 AM–4:30 PM"
+    },
+    "phone": "+91 80 2800 4600",
+    "website": "https://sssihms.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmP6QB3_PsF2Qjax0O2giBSys9Fys79fOkrKCJiJcSA8snsxXEkpvJmWAuSggPjiBndnFpO-HnBvs3jCwEfd2cDVOaT0_O9xwre1vWH85UoOz3Q_vH5we8lonQ7za7isx58lD22O=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/N35mYHicHcRLDoIwFADAEyG1BAETF3wkBBeF4G9HSCkFLC3hYUEv6Bm8jYmzmO-nnecR9qYpWmvDleKCPYFNVMmZyXlD1WDyqQIwKJh-qEcxZLs8sMoMYpz31YoI5l1QvMCLX-B4DXlMpzDtUlr4LkhY78fHqNPh5j8LzrO-C2Qt45EYiQw0WH24HJsa0-hKqjMqibcuE9vqW-LaF0XeVl7qxF6YK5TMnXfldLDarogwJodlixAy2v_UkD_fwkWg"
+   },
+   {
+    "position": 10,
+    "title": "Manipal Hospital EPIP Whitefield",
+    "place_id": "ChIJ0w0-IAANrjsRQC0AZ5dupc8",
+    "data_id": "0x3bae0d00203e0dd3:0xcfa56e9767002d40",
+    "data_cid": "14962486933555522880",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0d00203e0dd3%3A0xcfa56e9767002d40&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0d00203e0dd3%3A0xcfa56e9767002d40&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9581418,
+     "longitude": 77.7455758
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ0w0-IAANrjsRQC0AZ5dupc8",
+    "provider_id": "/g/11zbpp130m",
+    "rating": 4.7,
+    "reviews": 60,
+    "unclaimed_listing": true,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "Manipal Hospital 1, Whitefield Main Rd, Palm Meadows, KIADB Export Promotion Industrial Area, Krishnarajapuram, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmP4h7dDIc6RCppLh6eeHhf0-a2Sa00No4WHvP5gScM2Wxiir2dtRou9uaEc3ocklcoDAYHDi8INzwDVr1YnmYVQMxfnx_qImJYqH8iVDgzvwERbs63tH0n43zslHheoFVXbXApxngsgeE2l=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/8V8xLHicHcTdboIwGADQJ0IqIFOTXRCLKcs0ignIlcHP2pKVfpWWn_CSXu9tluxcnN-3dM7Yre8rGS4EolC8t7wD1I5rtwBsfdHV1npg_WQ3GNWeIvnxoBnE-c6YbxlzzuSTeHVwqQk5YlSy4bQSFzgE5dQ0XfBwOfabvk4hRPhRgDSpGG3W2XEeadEtK91WxfkwPfV0e2XtV_Vi66agYh7GNL_bOHSM6CicrWKS47643q-JmbSwgqeB-hyXhBBP_g-e_gMNV0kX"
+   },
+   {
+    "position": 11,
+    "title": "Vydehi Hospital",
+    "place_id": "ChIJIy4WaPYRrjsRBZfcU6n_l3o",
+    "data_id": "0x3bae11f668162e23:0x7a97ffa953dc9705",
+    "data_cid": "8833810296832038661",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11f668162e23%3A0x7a97ffa953dc9705&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11f668162e23%3A0x7a97ffa953dc9705&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9757752,
+     "longitude": 77.7294426
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJIy4WaPYRrjsRBZfcU6n_l3o",
+    "provider_id": "/g/11bzyq5rtl",
+    "rating": 3.8,
+    "reviews": 3320,
+    "type": "Hospital",
+    "types": [
+     "Hospital",
+     "Blood bank",
+     "Cancer treatment center",
+     "Cardiovascular and thoracic surgeon",
+     "Diagnostic center",
+     "Emergency care service",
+     "Endocrinologist",
+     "Heart hospital",
+     "Neurologist",
+     "Oncologist"
+    ],
+    "address": "#82, Nallurahalli Main Rd, near BMTC 18th Depot, Vijayanagar, Nallurhalli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 4906 9000",
+    "website": "https://vims.ac.in/vims-hospital/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPsGfipqGzlAksqohjDHQfAkz26X2gUtl6WWet21oX4VgaxdeIAa5yVYXMAA4u9lm56XgI5NY5v2-MGTTHVXBcw5uRR_PIoE0mKREyI7qgSblmuEgqv6Ed0mgWF_lhL4GRGVAU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/MHPhWXicHcTdboIwGADQJwIKoywz8aJmrJChUaZQrwyr5etGS8UW_17QZ_BtTDwX53GXzh3sJAiUfPPBGFBitOLITe9E73xudADHxlqP24CQWaeLdmlp-3cY6E2Rzg5G_n9mq5Z0tyhhEWycSupauCg0LK6guexFThp8rbZsTkg8fiiNEwY5XmzxKfLmdL3OKjbjZzyW5W6ZmxTp7zK95u8D_PwqPaYwnJJ0jzTUXzsli5iWtCKb6TlECHnyNff6J8CIROM"
+   },
+   {
+    "position": 12,
+    "title": "Amrik Hospital",
+    "place_id": "ChIJQTPFVAIOrjsRzYPqFLupWLk",
+    "data_id": "0x3bae0e0254c53341:0xb958a9bb14ea83cd",
+    "data_cid": "13355611315942097869",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e0254c53341%3A0xb958a9bb14ea83cd&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e0254c53341%3A0xb958a9bb14ea83cd&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.982790999999999,
+     "longitude": 77.7479165
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQTPFVAIOrjsRzYPqFLupWLk",
+    "provider_id": "/g/11bxdcgvy7",
+    "rating": 4,
+    "reviews": 742,
+    "type": "Hospital",
+    "types": [
+     "Hospital",
+     "Consultant",
+     "Diabetologist",
+     "Diagnostic center",
+     "General practitioner",
+     "Hospice",
+     "Pharmacy",
+     "Physical therapy clinic"
+    ],
+    "address": "209, Swami Vivekananda Road, Prasanth Layout, Prasanth Extension, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 96323 23091",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOqP6CZHfFUmmYO_irEyeEBTqhcAy3q48lDlZFyTJHKQ_ZIGZ31RE-D4BtmZMPpbCqIdUiBY5x1a3OrCgTCXy2daxlyoWW4-ZGerr-Wy2eONb-W577zGae7jzMcT1uOFbh3w-bl=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/JwHDlnicHcRLjoIwAADQE1XAwmBMXEgFdCZaZ4Jh7IZArVTTUmjrp17QM3gbE9_ivZ7c2t5MPU9wOGqVagW7GKap6izr7Igq6bW6NgZQ483RtRcSD9svRJbHbCflHlcnnTqWJsXA6dzBIZyIhSCZK76XP78VWeUEBn8pWISJlWS97Rs0rA67U7KP7kENsUZtgf7d-FDfhVNlGQKSM61B6cYMbxpQRnH8yGsWnx9rWgQXnDUc3kAjZrfA933AP1PQvQGN0ESW"
+   },
+   {
+    "position": 13,
+    "title": "Sri Sathya Sai Institute of Higher Medical Sciences",
+    "place_id": "ChIJSfEzxiASrjsR4_79jHDWEkQ",
+    "data_id": "0x3bae1220c633f149:0x4412d6708cfdfee3",
+    "data_cid": "4905218723050028771",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1220c633f149%3A0x4412d6708cfdfee3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1220c633f149%3A0x4412d6708cfdfee3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.981277599999999,
+     "longitude": 77.7293937
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJSfEzxiASrjsR4_79jHDWEkQ",
+    "provider_id": "/g/11d_d2v1qp",
+    "rating": 4.2,
+    "reviews": 2721,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2800 4600",
+    "website": "https://sssihms.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMChhWfKzBgIzfMb6dCSc3bTlPrcqXVUXJ7tzIOQHOC4b_mhaio-_20h_PgC_TlfQhdlV63uHpIp6mRl83aNyyjBfJfcxMk8uCnXV79DnlG6JSG9hEty0dYSia5kiEbuuPxdYstsg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/PEXQU3icHcRRboIwGADgEyGdbKhLfNBqFAyK4hCeCBTaHy0to-0UbrgjeBsTv4fv-Q9at-rbtjk4IyYl45VRVUek0JXQIyIbm3W5UhZR9gL_tbwJMMCF7oYl8wYaFG6JI-IUZx525DeJfxJ_ogfvcNwe8GeRNZDX0srGCLKQ4ezM6RFKHruO2bZe6zYnPnXyfd9fl9Sn5BHcpgaLJJ7MVoJvXD_azGCte1SmUZ1_3ep1YUz4KFOlFZvfPxBCFrwnlngBobxHTg"
+   },
+   {
+    "position": 14,
+    "title": "Dinu multi-speciality Hospital",
+    "place_id": "ChIJYR7dgI0TrjsR1LmczRLjlHo",
+    "data_id": "0x3bae138d80dd1e61:0x7a94e312cd9cb9d4",
+    "data_cid": "8832934439078902228",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae138d80dd1e61%3A0x7a94e312cd9cb9d4&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae138d80dd1e61%3A0x7a94e312cd9cb9d4&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9557457,
+     "longitude": 77.73011819999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJYR7dgI0TrjsR1LmczRLjlHo",
+    "provider_id": "/g/11kj71fxqq",
+    "rating": 4.7,
+    "reviews": 183,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "Varthur Main Rd, Patel Narayanswamy Layout, Siddapura, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–9 PM",
+     "wednesday": "9 AM–9 PM",
+     "thursday": "9 AM–9 PM",
+     "friday": "9 AM–9 PM",
+     "saturday": "9 AM–9 PM",
+     "sunday": "10 AM–9 PM",
+     "monday": "9 AM–9 PM"
+    },
+    "phone": "+91 81474 78282",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdOSx3N5TP-qm-1Cc6VJBgE8vFdNFzlae7eU9QgNrdK9bABWrk7A96riASsZBHjVwk44iKa6jn0LKbjtcc__AZ9FuD3eveaFVXt375kG-E88m_UjGMw3fZoo6Co8sBwCkN5jifsHv6UWheS=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/xhTPK3icHcTBboIwAADQL6pgKgVMPLRMNMOxGQYaLgRLLbRAZ1vB-JM772-W-A7v77e19sesHadv4YIrxXt2N0xTNVo22gVVg8N1bQygxsGYyOHQfGYPmHrfX-A2gGVEUfFO-DaY4iaNn33NfJaHR57qJgkvmJy09HGIdIczU5K9KGa5WnVJjcToHpKLsJRWFS7D-P4G2cTquDhb6HtyB7ZBMFS52H3M8FoqhSIVGDJHMvVEdzX7CeWnlmWbeem6LmhfUzD-Az1RRok"
+   },
+   {
+    "position": 15,
+    "title": "Sri Narayana Hospital",
+    "place_id": "ChIJ087mWxwNrjsRmJUp5I7LvxM",
+    "data_id": "0x3bae0d1c5be6ced3:0x13bfcb8ee4299598",
+    "data_cid": "1423079821846091160",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0d1c5be6ced3%3A0x13bfcb8ee4299598&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0d1c5be6ced3%3A0x13bfcb8ee4299598&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9685027,
+     "longitude": 77.7656748
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ087mWxwNrjsRmJUp5I7LvxM",
+    "provider_id": "/g/11vwj94gy_",
+    "rating": 4.4,
+    "reviews": 176,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "NO:43, SRI BYRAVESHWARA BUILDING, 9019727344, Immadihalli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 90197 27344",
+    "website": "http://www.srinarayanahospital.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "book_online": "https://www.apollo247.com/doctors/65f5fd9d-c98b-4ed0-a7b5-0c45b4774e2b?rwg_token=AE37R_jBcglGaCDOOTIrd5VDQJQVR1irMRn8Il7Ahhz335JZKAa7E85-C6GB94KIUvkriuEUTWC2A1hpGt1lwcemE7FEl-PYqA%3D%3D",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfYK8G8UmGVhlpwDGF8gqD4baggiU3a8kwsEc3ULaruTE9b7ZRa_muqbMRnzH2A-muYY2pUc1guLhyg96Rsk7Z9EhwCsBfqfbtkaMS2hczErarOX7Xa4WLX4zpYl3UymPnAIQuDbQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/O4HfZ3icHcRdCoIwAADgE5mmkhr0YGkWGZW1Ul9iG7qFbup-kLxhR-g2Qd_D9_1QpXq5NM2WOjPSdaSttKwE7riquJrhjplEQCkNLM0wXDcsrYuDn_iAJXfa9mOUbH0yRC6ChLyAA_1mlDF2QAqFvsUB8soMPpke0DHj084ODaaLwu4BnhOd0jcJFplsvDKI6biR63qokWrg8WpTPMUCilPu5dB9pLk79UXrgDc783B_0RG6rMa5ZVkG_Y8N_gNi1ka5"
+   },
+   {
+    "position": 16,
+    "title": "Sathya Sai Hospital",
+    "place_id": "ChIJN2K7m4QRrjsRWJZWgL1Ngjs",
+    "data_id": "0x3bae11849bbb6237:0x3b824dbd80569658",
+    "data_cid": "4288075271507449432",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11849bbb6237%3A0x3b824dbd80569658&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11849bbb6237%3A0x3b824dbd80569658&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.981485399999999,
+     "longitude": 77.7299626
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJN2K7m4QRrjsRWJZWgL1Ngjs",
+    "provider_id": "/g/11gmf1wn8g",
+    "rating": 4.2,
+    "reviews": 252,
+    "unclaimed_listing": true,
+    "type": "Hospital department",
+    "types": [
+     "Hospital department"
+    ],
+    "address": "XPJH+HXW, KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Closed",
+     "monday": "Open 24 hours"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM0RMf39fHzkaSowoNE22kn-Kd1YWdxewdkmBfEdST6zeVjhEJruHU49BmyKzptrJcx8xiR3Cvj37Wkz_XhrUEkS-81atu-SlYNlKMbwLY26UNiiAiGCEtPaKdgBHzTyNSjdhjm=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vyntYHicHcTbboMgAADQL6Lelt6SPlRDauo0S6nrfFocoCggBrBafrDf0L9Z0vNwXk9m7Wj2nidYtGqVagWdDNVYDZYOdoWV9FpdGwOw8Y7JfRQy9y95E-2a1PEaqVkVMAz5ADISVDey0JlwGTeQoOva0e-ewbOe0vJjF8tH5karz3jZLt0lSu59tLlx9_vDdAk5AtugthNAoipElv_Nn1W4LouuO3anBNqvOiNtnLrro0A9Yb08zIHv-4C9x2D4BxKdRnw"
+   },
+   {
+    "position": 17,
+    "title": "Medicover Hospitals",
+    "place_id": "ChIJQz1rsEgRrjsR3hOTTeUK9Kk",
+    "data_id": "0x3bae1148b06b3d43:0xa9f40ae54d9313de",
+    "data_cid": "12246425266692494302",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1148b06b3d43%3A0xa9f40ae54d9313de&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1148b06b3d43%3A0xa9f40ae54d9313de&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9913551,
+     "longitude": 77.72321339999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQz1rsEgRrjsR3hOTTeUK9Kk",
+    "provider_id": "/g/11vwfdwf21",
+    "rating": 4.6,
+    "reviews": 5546,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "351 ITPL Main Road, Whitefield Road, ITPL Main Road Hoodi Village, Krishnarajapura, Hobli, Hoodi, Bengaluru, Karnataka 560048, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 40 6833 4455",
+    "website": "https://www.medicoverhospitals.in/hospitals/karnataka/bengaluru/?utm_source=google&utm_medium=organic&utm_campaign=gmb-bangalore",
+    "extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPK1ezZG4LSF4FFDKvz8b-KvF883ViviEFgu4xpC1o2ccVz0_DOafkqG7i4V-y2o6DsonXb8ybbsVFRpajFEAgsYtilPBGD33wijn1n-7fScg7FOJGvzrkFOqLGxPPy8oKxoqd0LiXatury=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2H204XicHcTRboIwFADQL6oUIdKY7MGJt4mQQDQhbi8LdFiq2Au0VOAn9-zfmOw8nNdfY21ntp7XNsFKIsq2Hk09CNS21nYl8OHJoTSGCOPt9q5rH3ni18s3D9MzhABx4hZWkcQBY0GhnDqAHMOp2_u4FqJY6E-cldd7zyMVFmRe4yY2qC8Vm6vKFHDqyhscdtJ8WdXmnzwOgqe6aV-T6HoWMoLsyN0y3CHrUz7l-cwwmbD_pam6lHYc5o-nTyklzf-C6DfFR0h3"
+   },
+   {
+    "position": 18,
+    "title": "Sri Sathya Sai General Hospital Old",
+    "place_id": "ChIJD-cwCv4NrjsR9STRIUE_qfc",
+    "data_id": "0x3bae0dfe0a30e70f:0xf7a93f4121d124f5",
+    "data_cid": "17845864547405079797",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0dfe0a30e70f%3A0xf7a93f4121d124f5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0dfe0a30e70f%3A0xf7a93f4121d124f5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.981964,
+     "longitude": 77.7297851
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJD-cwCv4NrjsR9STRIUE_qfc",
+    "provider_id": "/g/11fz9wq480",
+    "rating": 4.2,
+    "reviews": 54,
+    "unclaimed_listing": true,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "address": "XPJH+QWM, KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "phone": "+91 80 2800 4600",
+    "website": "http://www.sssmt.org.in/pages/contactus.htm",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNZxYfFuD5rYEoo5aTJgAg8ZsRWYvG9d9BOUhEhST0APp8FwaIi3_gktiOjxjA2v1UIXlPFWoQyPISfF2_Y57BJml2XwXaZH5fIIu9VZAD6AhEEKgouzghJZ-cNZxZByF_teodC=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FXE2GXicHc1LDoIwFADAEyGIQcXERVGqxUTxD90QUqFVC4_QAuoFPYO30biZ7XzeQutKTUxTikGPA3CZNSqrGZQ6K3WPQWHyOlXKYMpEs7aSxZo-4hw3c6eOfQAnPQQc8TFVu3PcLtyL622Owhf7g4XCaoy7lFwHCb_r6-b2uCG77R9JJEN8hu0zJPsc20nsjLygkHbURSldOjkhjXuiaD5EwvdXHJoXFwE12C-m3hMnOoPLbNr1LcsyxF9mlF-yikU6"
+   },
+   {
+    "position": 19,
+    "title": "ELV Health Care",
+    "place_id": "ChIJeZe-YLARrjsRIaGon3RD3xg",
+    "data_id": "0x3bae11b060be9779:0x18df43749fa8a121",
+    "data_cid": "1792225344890642721",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11b060be9779%3A0x18df43749fa8a121&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11b060be9779%3A0x18df43749fa8a121&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9764418,
+     "longitude": 77.7583566
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJeZe-YLARrjsRIaGon3RD3xg",
+    "provider_id": "/g/11t5h63p80",
+    "rating": 4.4,
+    "reviews": 395,
+    "type": "Hospital",
+    "types": [
+     "Hospital",
+     "Dental clinic",
+     "Diagnostic center",
+     "Obstetrician-gynecologist",
+     "Orthopedic clinic",
+     "Orthopedic surgeon",
+     "Pediatrician",
+     "Pharmacy"
+    ],
+    "address": "MR ASTER, Ground Floor Vijayanagar, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 11 PM",
+    "hours": "Open · Closes 11 PM",
+    "operating_hours": {
+     "tuesday": "6:30 AM–11 PM",
+     "wednesday": "6:30 AM–11 PM",
+     "thursday": "6:30 AM–11 PM",
+     "friday": "6:30 AM–11 PM",
+     "saturday": "6:30 AM–11 PM",
+     "sunday": "6:30 AM–11 PM",
+     "monday": "6:30 AM–11 PM"
+    },
+    "phone": "+91 95352 64855",
+    "website": "https://elvhealthcare.co.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOsD_mFhtfy8YXSTQ2xna38a2ig4pTkgJkV2oTDpDiWdnEN74UzhzFn0h9tubREp5hm2IRq4huV4zZUyTsNBCRyY7XzB80oWl8f7gMmEiuJZJa5P61Hp80GVOed_HLJmRCoyJk=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zw9oRHicHcRJDoIwAADAFyEFUaqJB1kUG1dEXC4GWVoCXbRFhQf6B39j4hzm-yFKCTnW9Zr0e5hzXOeNzB8pZypnqpdyquNHIqWWSn3qPkVNN9K70hlRRQvPp320M98s6cPELLElogqjKjZ55AmvPGbMX9vWoSPdjAEyUs0t9MWAUHMR3i3SxFZ3ObSRXDtu2J7tU-dAwI81LGy8on7ZoAtKBtuhEQgI5vEmz67BEtHQ5S2qJi8DAKCR_6nGfqUORQA"
+   },
+   {
+    "position": 20,
+    "title": "Apollo Medical Centre - Marathahalli, Bengaluru",
+    "place_id": "ChIJa6gOAjwSrjsRTZNZs_54w2M",
+    "data_id": "0x3bae123c020ea86b:0x63c378feb359934d",
+    "data_cid": "7188722465539461965",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae123c020ea86b%3A0x63c378feb359934d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae123c020ea86b%3A0x63c378feb359934d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9561598,
+     "longitude": 77.71687419999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJa6gOAjwSrjsRTZNZs_54w2M",
+    "provider_id": "/g/1tdsh6gx",
+    "rating": 4.4,
+    "reviews": 7737,
+    "type": "Medical Center",
+    "types": [
+     "Medical Center",
+     "Dermatologist",
+     "Medical clinic",
+     "Medical laboratory",
+     "Otolaryngologist"
+    ],
+    "address": "673/A, Varthur Main Rd, opposite to Shriram Samruddhi Apartments, near Kundalahalli, Kundalahalli, Brookefield, SignalWhitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "tuesday": "8 AM–9 PM",
+     "wednesday": "8 AM–9 PM",
+     "thursday": "8 AM–9 PM",
+     "friday": "8 AM–9 PM",
+     "saturday": "8 AM–9 PM",
+     "sunday": "8 AM–9 PM",
+     "monday": "8 AM–9 PM"
+    },
+    "phone": "+91 1800 103 1010",
+    "website": "https://www.apolloclinic.com/clinic-locator/india/karnataka/bengaluru/kundalahalli?utm_source=GMB&utm_medium=GMBWebsiteButton&utm_campaign=GMBWhitefield",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMrWedjubtvZAt-uXBsaaAQxXQHlrdtaxAC94MbbgauA0AZukkPOIRVK6Lx39O4FLKYjP4PKqPD8IBoaZRvf-jYtXpM1rJOTadH60J78CMqP_WU-PZzu4ap6Yoo7VSuAULvqRU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eGtHLnicHcRJDoIwAADAFxVKJIgmHirGyBYqiiwXUxYhCBS6IPGB_sHfmDiH-X4aIUa-VdWuWSk1pXVXSV6xgg6iGoRS0F6tGeEcFFxF1jx2vc_iqmxlLuYMCSCTPScEnZfkfOpYKciCrI3u53lNJIIok88nDuzw5hrestoE-tFz0xbr2J3wwbT3lGTh_ABtKpLR15gTXEl5MqCzNi1_wvc4Ajh7S52MRkrp-naRKPLmKYx2Lw1CCJr_BRh-qS9E2Q"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9698196%2C77.7499721%2C15z&q=hospital+near+Whitefield+Bengaluru&start=20&type=search"
+  }
+ }
+}

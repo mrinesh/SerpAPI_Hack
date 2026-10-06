@@ -9,6 +9,7 @@
 | [DATA_MODEL.md](DATA_MODEL.md) | Schemas, tables, provenance model |
 | [API.md](API.md) | Endpoints and their build status |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Setup, config, commands, conventions, definition of done |
+| [F05_AREA_INTELLIGENCE.md](F05_AREA_INTELLIGENCE.md) | F-05 architecture, file walkthrough, cache/evidence decisions, API examples and debugging |
 | [decisions/](decisions/) | Architecture Decision Records |
 | [spikes/](spikes/) | Investigation write-ups (S-01 data coverage, ...) |
 | [SUBMISSION.md](SUBMISSION.md) | Hackathon form drafts, demo script, pre-submit checks |

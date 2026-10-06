@@ -18,8 +18,9 @@ Each stage emits a `StageEvent` (status, message, counts) that the UI polls, so 
 the pipeline working live (F-20). A failing stage marks the run failed without discarding
 earlier results.
 
-> Status: plan, fetch and clean (F-02), and verification (F-03) are built. Enrich and rank are
-> reported as "not built yet". Both demo profiles replay end to end with no keys, from committed
+> Status: plan, fetch and clean (F-02), verification (F-03) and area enrichment (F-05 P0) are built.
+> Ranking, investment metrics and competitors remain pending. Both demo profiles replay end to end
+> with no keys, from committed
 > SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
@@ -112,7 +113,7 @@ Each completed check commits independently; progress counts checked and rejected
 If a provider fails, the run fails with a clear error, while discovery and earlier checks remain
 readable. `GET /api/runs/{id}/listings` returns run snapshots; `/verifications` returns completed
 checks including rejects. The run UI refreshes these as verification advances. Enrichment and
-composite ranking are separate future stages; relevance scores are not investment returns.
+composite ranking remain separate stages; relevance scores are not investment returns.
 
 The LLM wrapper caches validated responses in `llm_cache`. Its key includes task, model, tier,
 schema and prompt; record mode writes fixtures even on a DB cache hit. Replay reads only those
@@ -121,15 +122,26 @@ criteria and evidence across repeat runs.
 
 ## 5 · Enrich (`enrichment/`, `metrics.py`, F-05, F-06, F-09)
 
-**Area intelligence**: once per locality, cached `AREA_INTEL_TTL_HOURS`:
+**Area intelligence (built)**: once per discovered locality, cached `AREA_INTEL_TTL_HOURS`
+(default 168). Uses canonical reference names/aliases, validates source results and preserves
+partial failures as section warnings. Snapshots are committed per run/locality. Existing
+verification price levels are attached without repeating their searches.
 
-| Signal | Engine | Query shape *(S-01)* |
+Maps returns up to five typed metro, school and hospital matches each, within 10 km when
+coordinates exist. Distances are straight-line from the locality centre. News must mention
+the locality in its own title/snippet; DeepSeek classifies it and selects complete evidence
+quotes, which code validates before exposing infrastructure facts. GET APIs never spend
+credits. Details: [F-05 guide](F05_AREA_INTELLIGENCE.md).
+
+Searches:
+
+| Signal | Engine | Query shape |
 |---|---|---|
 | Locality centre | google_maps | `"{locality}, Bengaluru"` |
-| Amenities | google_maps | `"metro station"`, `"school"`, `"hospital"` near the centre |
-| News and infrastructure | google_news | `"{locality} Bengaluru"` → classified by `classify_news` |
-| Price level | google | `"{locality} Bangalore property rates per sq ft"` |
-| Rental demand (P1) | google_trends | `"flats for rent {locality}"` for up to 5 localities in one call |
+| Amenities | google_maps | `"{category} near {locality} {city}"`, with `ll` from the sourced centre |
+| News and infrastructure | google_news | `"{locality}" Bengaluru` → classified by `classify_news` |
+| Price level | google | Reuse F-12 per-locality/type benchmark searches; no extra F-05 call |
+| Rental demand (P1, pending) | google_trends | `"flats for rent {locality}"` for up to 5 localities in one call |
 
 **Competitors** (commercial only): google_maps `"{business_type}"` near the property →
 density, ratings, review volume, saturation. P1: google_maps_reviews for the top competitors →
@@ -164,8 +176,8 @@ reason, highlights and risks, quoting numbers from the inputs.
 |---|---|---|
 | `extract_listing` | lite | ≤ 1 per listing, only when regex left gaps |
 | `verify_listing` | reasoning | 1 per listing |
-| `classify_news` | lite | 1 per new locality |
-| `summarize_area` | reasoning | 1 per new locality |
+| `classify_news` | lite | At most 1 per new locality with matched news |
+| `summarize_area` | reasoning | At most 1 per new locality with infrastructure/civic/policy news |
 | `extract_rent` | lite | 1 per new locality and unit type |
 | `competitor_gaps` | reasoning | 1 per commercial property (P1) |
 | `explain_recommendation` | reasoning | 1 per top-N listing |

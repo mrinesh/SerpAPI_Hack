@@ -158,6 +158,19 @@ limits. Commercial criteria: Koramangala office, max ₹3 Cr, business type `IT 
 goal/target/risk. Other criteria require their own recordings. No fake LLM responses are shipped
 as real provider recordings; tests generate fake responses in temporary fixture directories.
 
+## Area intelligence recording (F-05)
+
+```bash
+cd backend
+uv run python scripts/record_area_intel.py --profile both
+```
+
+Uses configured SerpApi/DeepSeek keys, forces record mode and writes real fixtures from an
+isolated temporary database. At most ten new searches and four LLM calls for the two demo
+localities; existing recordings are reused. `make demo` then replays without network access.
+Start a new run: runs created before F-05 have no area snapshots. Full architecture, code
+walkthrough, API examples and debugging checklist: [F-05 guide](F05_AREA_INTELLIGENCE.md).
+
 ## Known tooling issues
 
 - **npm 10.9 cannot add vitest ≥ 4** (`Cannot read properties of null (reading 'edgesOut')`, an

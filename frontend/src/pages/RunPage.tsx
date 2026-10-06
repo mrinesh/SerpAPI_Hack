@@ -1,10 +1,11 @@
 import { Link, useParams } from "react-router";
 
 import { describeError } from "../api/client";
-import { useProfile, useProfileOptions, useRun, useRunListings, useRunVerifications } from "../api/hooks";
+import { useProfile, useProfileOptions, useRun, useRunListings, useRunVerifications, useRunAreas } from "../api/hooks";
 import { Notice } from "../components/Notice";
 import { CandidateList } from "../components/run/CandidateList";
 import { StageList } from "../components/run/StageList";
+import { AreaIntelPanel } from "../components/run/AreaIntelPanel";
 
 /** Discovery and relevance verification, with live progress and partial results. */
 export function RunPage() {
@@ -14,6 +15,7 @@ export function RunPage() {
   const options = useProfileOptions();
   const listings = useRunListings(run.data);
   const verifications = useRunVerifications(run.data);
+  const areas = useRunAreas(run.data);
 
   if (run.error) return <Notice tone="error">{describeError(run.error)}</Notice>;
   if (!run.data) return <p className="text-sm text-slate-500">Loading…</p>;
@@ -42,6 +44,8 @@ export function RunPage() {
       )}
 
       <StageList run={run.data} />
+      {areas.error && <Notice tone="error">{describeError(areas.error)}</Notice>}
+      {areas.data && areas.data.length > 0 && <AreaIntelPanel areas={areas.data} />}
 
       {listings.error && <Notice tone="error">{describeError(listings.error)}</Notice>}
       {verifications.error && <Notice tone="error">{describeError(verifications.error)}</Notice>}

@@ -4,7 +4,7 @@
 
 `start_run` creates a `pipeline_runs` row and runs `run_pipeline` on a background thread with its
 own database session; the UI polls `GET /api/runs/{id}` for `StageEvent`s. Built so far: plan,
-fetch and clean (F-02), and verify (F-03). Later stages are reported as not built yet.
+fetch and clean (F-02), verify (F-03), and area enrichment (F-05). Ranking is not built yet.
 A failing stage marks the
 run failed but keeps everything saved so far.
 """
@@ -20,13 +20,14 @@ from sqlalchemy.orm import Session
 
 from app.config import get_settings
 from app.core.errors import AppError, InvalidInput
-from app.db.models import RunRow, SearchLedgerRow
+from app.db.models import RunAreaIntelRow, RunRow, SearchLedgerRow
 from app.db.session import SessionLocal
 from app.integrations.llm.factory import get_llm
 from app.integrations.serpapi.gateway import SerpApiGateway
 from app.pipeline.cleaning import normalize_hits
 from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
+from app.pipeline.enrichment.area import get_area_intel
 from app.pipeline.enrichment.price_level import price_levels
 from app.pipeline.persist import save_candidates, save_verification
 from app.pipeline.query_planner import plan_queries
@@ -46,7 +47,6 @@ STAGE_ORDER: tuple[PipelineStage, ...] = (
     PipelineStage.RANK,
 )
 NOT_BUILT = {
-    PipelineStage.ENRICH: "F-05",
     PipelineStage.RANK: "F-04",
 }
 
@@ -186,6 +186,53 @@ def run_pipeline(run_id: str) -> None:
                 if not result.listings:
                     event.message = "No candidates to verify"
 
+            with tracker.stage(PipelineStage.ENRICH) as event:
+                localities = sorted(
+                    {
+                        listing.locality.value
+                        for listing in result.listings
+                        if listing.locality.value
+                    }
+                )
+                event.counts = {
+                    "localities": len(localities),
+                    "areas": 0,
+                    "warnings": 0,
+                    "cache_hits": 0,
+                }
+                for locality in localities:
+                    event.message = f"Enriching {locality}"
+                    tracker.replace(event)
+                    area = get_area_intel(
+                        ctx,
+                        locality,
+                        benchmarks={
+                            kind: value
+                            for (slug, kind), value in levels.items()
+                            if slug == locality
+                        },
+                    )
+                    db.merge(
+                        RunAreaIntelRow(
+                            run_id=run_id,
+                            locality_key=area.locality_key,
+                            data=area.model_dump(mode="json"),
+                        )
+                    )
+                    db.commit()
+                    event.counts["areas"] += 1
+                    event.counts["warnings"] += len(area.warnings)
+                    event.counts["cache_hits"] += int(area.cache_hit)
+                    tracker.update_search_counts()
+                    event.message = (
+                        f"{event.counts['areas']} of {len(localities)} localities enriched; "
+                        f"{event.counts['warnings']} section warnings. "
+                        "Investment metrics and competitors are not built yet (F-09, F-06)."
+                    )
+                    tracker.replace(event)
+                if not localities:
+                    event.message = "No discovered localities to enrich"
+            tracker.update_search_counts()
             for stage, feature in NOT_BUILT.items():
                 tracker.note(stage, f"Not built yet ({feature})")
             tracker.finish(RunStatus.SUCCEEDED)

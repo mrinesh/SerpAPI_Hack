@@ -1,0 +1,951 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "school near Koramangala Bengaluru",
+  "type": "search",
+  "hl": "en",
+  "ll": "@12.9352403,77.624532,15z"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4d1da2c2bb46b6c52014b",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/GXAzoQYy0ym3NuHteOw4LzFr0GnKdFQkmB6vFXQDSLk/6ac4d1da2c2bb46b6c52014b.json",
+   "markdown_endpoint": "https://serpapi.com/searches/GXAzoQYy0ym3NuHteOw4LzFr0GnKdFQkmB6vFXQDSLk/6ac4d1da2c2bb46b6c52014b.md",
+   "created_at": "2026-10-06 10:47:54 UTC",
+   "processed_at": "2026-10-06 10:47:54 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/school+near+Koramangala+Bengaluru/@12.9352403,77.624532,15z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/GXAzoQYy0ym3NuHteOw4LzFr0GnKdFQkmB6vFXQDSLk/6ac4d1da2c2bb46b6c52014b.html",
+   "prettify_html_file": "https://serpapi.com/searches/GXAzoQYy0ym3NuHteOw4LzFr0GnKdFQkmB6vFXQDSLk/6ac4d1da2c2bb46b6c52014b.prettify",
+   "total_time_taken": 0.66
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "school near Koramangala Bengaluru",
+   "ll": "@12.9352403,77.624532,15z",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "school near Koramangala Bengaluru"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "EuroKids Preschool in Koramangala, Bengaluru",
+    "place_id": "ChIJVWZELkUUrjsRYBx0z0hRtlo",
+    "data_id": "0x3bae14452e446655:0x5ab65148cf741c60",
+    "data_cid": "6536501282334841952",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14452e446655%3A0x5ab65148cf741c60&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14452e446655%3A0x5ab65148cf741c60&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.935129,
+     "longitude": 77.621419
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVWZELkUUrjsRYBx0z0hRtlo",
+    "provider_id": "/g/1tf273bl",
+    "rating": 4.9,
+    "reviews": 426,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school",
+     "Playgroup"
+    ],
+    "address": "No. 73, 5th Block, 3rd Cross Rd, KHB Block Koramangala, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8 AM Wed",
+    "hours": "Closed · Opens 8 AM Wed",
+    "operating_hours": {
+     "tuesday": "8 AM–4 PM",
+     "wednesday": "8 AM–4 PM",
+     "thursday": "8 AM–4 PM",
+     "friday": "8 AM–4 PM",
+     "saturday": "8 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–4 PM"
+    },
+    "phone": "+91 98862 87085",
+    "website": "https://www.eurokidsindia.com/preschool-in-bangalore/koramangala/?utm_source=google&utm_medium=organic&utm_id=gmb_listing",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ru5p3mkMx_DvzGbnjZgB5MkLyCL8M193vcU4KCOVWlEHJVkhMkaLp4K8CvgeDGIE3Ze5YxPtpW-ANBYT5Fyg2GypHJ6o4N_Qs0HOpKT2d--1WJo9TxP3rbqwNp_ackqP0Rehlf=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/NVW0ZXicHcTvEoEwAADwJ5qWlZM7Hwilf-JSx5eOmY2ljU3KC3oGb-PO78Pv-2FaSzUyjIqhHhWCVuSpyAOLWpNa97C4GVQqgBVQxiQpLp2zedoS3XjclrPm7R3r655O7ZhHnRsNY9NBDd5aobvKi2ruBzlnMT9E0gqHbkPJzFvO0Z7YuzbVsgCTZLrL7EVH-14n_WAgrKRcK-ivZJj1TwCYRSCcrE3R43h_JbI8YH5P4Yaw6jx-mRBCwP5jUP8ALiND_w"
+   },
+   {
+    "position": 2,
+    "title": "Edumeta the i School Koramangala 8th block",
+    "place_id": "ChIJFSMgVxQVrjsRoBYdulf4LL0",
+    "data_id": "0x3bae151457202315:0xbd2cf857ba1d16a0",
+    "data_cid": "13631543227811960480",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae151457202315%3A0xbd2cf857ba1d16a0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae151457202315%3A0xbd2cf857ba1d16a0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.943239799999999,
+     "longitude": 77.6161822
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJFSMgVxQVrjsRoBYdulf4LL0",
+    "provider_id": "/g/11h14l3kkn",
+    "rating": 4.9,
+    "reviews": 107,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school"
+    ],
+    "address": "655,2nd C Main, 2nd B Cross Rd, Koramangala 8th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM",
+     "thursday": "9 AM–7 PM",
+     "friday": "9 AM–7 PM",
+     "saturday": "10 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–7 PM"
+    },
+    "phone": "+91 98450 01247",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ToKZJspYkAhbqZVJ2ODoB7id7cI5T35V2yqm6mJD2RuUfxgf9h8sROrCnhRUIK0ZcILLhIBi6cZj7Yd4pDLFf7Q2YiBuKAcBLjYaMKs-wW1PMeLiSKsGwFVgNgPaHkFcETlvMaqQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/YzknY3icHcRbcoIwFADQFUUQH9TO9ANELCSoIOLAH14hiQIBLxRdokvobjrT83F-36LvW_zUtErMJlwpXhUDFg9QTV80_QRUrfEWCSBBzdqd5WsVK5r52KZ3S1y6LPGNvaNsU15N8BbxbJEYr65e1r5jRMOpfPJyJT4w2j_WjYhOHtUz8BgTni2XkN3M9DpvHeaWZmik0h6oBTa7pXlAkYzn6SEomDxS3I5uwnf8kH_fXdjE1U-Qd-HXONV1nYj_gTR_zoVE_g"
+   },
+   {
+    "position": 3,
+    "title": "Gurukulam",
+    "place_id": "ChIJn7UYlkMUrjsR1x6kN5oZsnE",
+    "data_id": "0x3bae14439618b59f:0x71b2199a37a41ed7",
+    "data_cid": "8192638822289514199",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14439618b59f%3A0x71b2199a37a41ed7&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14439618b59f%3A0x71b2199a37a41ed7&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.938031599999999,
+     "longitude": 77.62486109999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJn7UYlkMUrjsR1x6kN5oZsnE",
+    "provider_id": "/g/1hd_hx3pv",
+    "rating": 4.9,
+    "reviews": 221,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "Kindergarten",
+     "Nursery school"
+    ],
+    "address": "525, 17th D Main Rd, 6th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–7 PM",
+     "wednesday": "8:30 AM–7 PM",
+     "thursday": "8:30 AM–7 PM",
+     "friday": "8:30 AM–7 PM",
+     "saturday": "8:30 AM–7 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–7 PM"
+    },
+    "phone": "+91 98452 82342",
+    "website": "http://www.gurukulamacademy.org/",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SP6-xcqPVXRm0MpPPfI08TIrwdLSt8kzlqtGlEO6HKeZcgNiztVu9R02P40a0xY1qhxH-x0pcjJkgRfkaR9im854PUsgi10YJRASWyRn5K89Io35E9aro-a9MScZjldFQTYQc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/lgQodXicHcRJDoIwFADQExU-KoaauHDhgIjW4oQ78sUyFAq0RvSA3sHbmPgW7_vJjGn0xLZlNrSEUkKmD512qGqT1sZCVdmi0QQ10fZse85fNGJj0mPLThdeQdgwdvfBO_jd87aJjFe-ZWuWcr4br4L0imKbv83pQTkM2AgS6GOnzfoV6aHBYl0Kfi8TTvPKc0fsqEXuQLzms-j84rUbeNRXQ3dOk06RhIYRXgt5W-wP8R6nTwcASPYfSf0DEAFDtw"
+   },
+   {
+    "position": 4,
+    "title": "United World Academy, Koramangala Campus",
+    "place_id": "ChIJeV7Eol8UrjsRQOcc-vb-Mac",
+    "data_id": "0x3bae145fa2c45e79:0xa731fef6fa1ce740",
+    "data_cid": "12047690814904395584",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145fa2c45e79%3A0xa731fef6fa1ce740&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145fa2c45e79%3A0xa731fef6fa1ce740&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9319203,
+     "longitude": 77.6325743
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJeV7Eol8UrjsRQOcc-vb-Mac",
+    "provider_id": "/g/11gbxbrpc6",
+    "rating": 4.7,
+    "reviews": 14,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Kindergarten",
+     "Nursery school",
+     "School"
+    ],
+    "address": "28, 80 Feet Rd, S.T. Bed, 4th Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8:30 AM Wed",
+    "hours": "Closed · Opens 8:30 AM Wed",
+    "operating_hours": {
+     "tuesday": "8:30 AM–4 PM",
+     "wednesday": "8:30 AM–4 PM",
+     "thursday": "8:30 AM–4 PM",
+     "friday": "8:30 AM–4 PM",
+     "saturday": "8:30 AM–1 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–4 PM"
+    },
+    "phone": "+91 76249 81601",
+    "website": "https://uwa.edu.in/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TvgexUqq9p22yNH9UnyTFg6inm7EQZCW-vQNYZ8lSDU5wssp11-z-oPjDx79-oGd0br3n9gurn1uAZRZwKdZSbf4K__MV-TSgqCoQbt1jmGn1x1NuLY8jOKAWl0FyL0kdEEt8=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/dnJuFnicHcRLDoIwFADAEz1p_VITFwRRExRFQGI3JnwsIrRAi4AH9A7exsRZzPeTKVXJpaYV2WTEhGBF2sq0iQVXKVejWJQaqyTEEqRmOOFjIP6LpX1Q16QajwdnRwI--Bs2f_ByYbnUDOHlOleqF946mHVSVhjDG8QpX_cLAmKboKiZcMLahuPWoGfa2Qn1ovvUvt0OF_A9VpvCjRTOyy3HPXba_VXPj7YRFmgz7NEzsSylrzqMEILsfwz8BzVFRCc"
+   },
+   {
+    "position": 5,
+    "title": "Carmel Garden Public School",
+    "place_id": "ChIJ3VQPvYwUrjsRuRbxdyISYvg",
+    "data_id": "0x3bae148cbd0f54dd:0xf862122277f116b9",
+    "data_cid": "17897887808374249145",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae148cbd0f54dd%3A0xf862122277f116b9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae148cbd0f54dd%3A0xf862122277f116b9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.917289,
+     "longitude": 77.63203
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3VQPvYwUrjsRuRbxdyISYvg",
+    "provider_id": "/g/1vgqbjbp",
+    "unclaimed_listing": true,
+    "type": "ICSE school",
+    "types": [
+     "ICSE school",
+     "Day care center",
+     "Kindergarten",
+     "State board school"
+    ],
+    "address": "8, 4th Ave St, Teacher's Colony, Jakkasandra, 1st Block Koramangala, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8:30 AM Wed",
+    "hours": "Closed · Opens 8:30 AM Wed",
+    "operating_hours": {
+     "tuesday": "8:30 AM–4 PM",
+     "wednesday": "8:30 AM–4 PM",
+     "thursday": "8:30 AM–4 PM",
+     "friday": "8:30 AM–4 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "8:30 AM–4 PM"
+    },
+    "phone": "+91 96631 96754",
+    "website": "http://www.carmelgardenschool.org/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RQFGP12Ne89JMDHfC43CgLPz40W9w4uVE6_ZC6DyXIr8i6Dm4nq6_3HhPUW2omnGn_j1PZDRWv-J57Hnbp7IApUZfZ5R9t5ecE0I4g1FHWxY0ugdA74ivHr7FZQmaWYB3IVieX=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/QO57_3icHcRdDoIgAADgE5GYqNnWg2mGrZq5FcaLKyK0JZhgfxfsDN2mre_h-34qY1o9tqxr5QyEUuLKe807pqTh0gyYaizRasA00Fa4JvUryDfJPLOHaz4KFqsYnyPkRGKZvREkwQP1u5lX0siLX0XajWovbpC8eaWDq2xLhqqRc1le7IzGObmDhetjeWz9NGy39EzdPDAuZzOYImEnmDz3sBen0Ef1HXd-QjfNgeynTrqreTF52BBCUP1nQP4APdFBwA"
+   },
+   {
+    "position": 6,
+    "title": "National Public School",
+    "place_id": "ChIJgwbBtzkUrjsRUgILl8pxu-4",
+    "data_id": "0x3bae1439b7c10683:0xeebb71ca970b0252",
+    "data_cid": "17202468316603155026",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1439b7c10683%3A0xeebb71ca970b0252&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1439b7c10683%3A0xeebb71ca970b0252&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9490812,
+     "longitude": 77.6209241
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJgwbBtzkUrjsRUgILl8pxu-4",
+    "provider_id": "/m/02vxc50",
+    "type": "CBSE school",
+    "types": [
+     "CBSE school",
+     "Education center"
+    ],
+    "address": "80 Feet Rd, National Games Village Complex, Rajendra Nagar, Koramangala, Bengaluru, Karnataka 560047, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8 AM Wed",
+    "hours": "Closed · Opens 8 AM Wed",
+    "operating_hours": {
+     "tuesday": "8 AM–4 PM",
+     "wednesday": "8 AM–4 PM",
+     "thursday": "8 AM–4 PM",
+     "friday": "8 AM–4 PM",
+     "saturday": "8 AM–12 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–4 PM"
+    },
+    "phone": "+91 80 2570 5171",
+    "website": "http://www.npskrm.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TcH9DP4wv_cNID-gu_ItHieVvJ4P0SEkwUH1_RqxGjC6TwAeauPPhOFKZfCpxBSnJsel5shTCMgMeCpyXeb5CBhBrNd4F6EXZCk1KN2S-uySfZW-VI2T-W5U1X_OhfEYtYMVxZwg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_pLvUXicHcRJDoIwAADAF5VFgQQTD1JAkIBEkO1CtJZWRUBbLDzRJ_gbE-cw3w_lfGArWW7pUiJ9T1o8MvxCfcdxxyXUP2QyMIAYYPImyq-zmSLPtGNNvGsU-TYgY-1z74qz906LlcS5i6On1ofntL1BIxUbfBrjmO7doGrgMFlJt2O41RlNYUhCDIe5wGcdWtR6RRfNNZyignc1iBYJGOekqXKQ-YsU5PpRLeo9bZySl2E2VYKshaooCqD_Eeh-689E-w"
+   },
+   {
+    "position": 7,
+    "title": "St. Francis High School",
+    "place_id": "ChIJWbZr3l0UrjsRUROw16fm4sY",
+    "data_id": "0x3bae145dde6bb659:0xc6e2e6a7d7b01351",
+    "data_cid": "14331270572798907217",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145dde6bb659%3A0xc6e2e6a7d7b01351&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145dde6bb659%3A0xc6e2e6a7d7b01351&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9244823,
+     "longitude": 77.62975279999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWbZr3l0UrjsRUROw16fm4sY",
+    "provider_id": "/g/1tdl4l0_",
+    "type": "High school",
+    "types": [
+     "High school"
+    ],
+    "address": "Sarjapur - Marathahalli Rd, opp. to Krupanidhi College, Koramangala 1A Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8:15 AM Wed",
+    "hours": "Closed · Opens 8:15 AM Wed",
+    "operating_hours": {
+     "tuesday": "8:15 AM–3 PM",
+     "wednesday": "8:15 AM–3 PM",
+     "thursday": "8:15 AM–3 PM",
+     "friday": "8:15 AM–3 PM",
+     "saturday": "8:15 AM–3 PM",
+     "sunday": "Closed",
+     "monday": "8:15 AM–3 PM"
+    },
+    "phone": "+91 80 2563 5858",
+    "website": "http://www.stfrancishighschoolsslc.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RoIlBc4rR2dQNIIYIcDWoAXCJLs658gDi8L2r4LccQUkwLeCtpCPS6khwOKSnmS0qQaPO5I9aM-u38-F1DSn9bWfWO309P-0Ecn7o8qqPfgc3IqBYWTzhMALw0sldcTpePjRAMnw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/iC8spHicHcRRboIwGADgE1WqiAMTHxC2pFuRAprOR_ZbWye2QGsavaFH8DYmfg_f86Gc6-0yCDoVTqQxshNXK0Yw2gntJmAugewtAotskG746ZbUhnRrmI_17FBtCNkTyLlJf7NvahdRLPNTTGfjnAJUu7OnInN9xprFWfnyp9GXBg9Vy8qIJG2BrmGMvqZ5o5M_fuRliBOG8CfoDxMPAztKCMmw3vPtXRUp9dh2B9j2gv3XaaH9yk8xxki9B6RfWB5D6w"
+   },
+   {
+    "position": 8,
+    "title": "DBM and RJS School",
+    "place_id": "ChIJlf5IWlkUrjsRz8Jr9ma_aro",
+    "data_id": "0x3bae14595a48fe95:0xba6abf66f66bc2cf",
+    "data_cid": "13432759287527752399",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14595a48fe95%3A0xba6abf66f66bc2cf&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14595a48fe95%3A0xba6abf66f66bc2cf&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.927287,
+     "longitude": 77.6235189
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJlf5IWlkUrjsRz8Jr9ma_aro",
+    "provider_id": "/g/1tf7w4m3",
+    "type": "State board school",
+    "types": [
+     "State board school",
+     "High school",
+     "Primary school"
+    ],
+    "address": "1, 16th Main Rd, 3rd Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "hours": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "operating_hours": {
+     "tuesday": "9 AM–5 PM",
+     "wednesday": "9 AM–5 PM",
+     "thursday": "9 AM–5 PM",
+     "friday": "9 AM–5 PM",
+     "saturday": "9 AM–5 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–5 PM"
+    },
+    "phone": "+91 90352 44614",
+    "website": "http://www.rjsschools.edu.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QNVveCkF0k71s8lot3guAvRv_VRv6jWQXzBLjzXcK6TLDDPgr8QdqQA9sg_MimRNNusOC4zjLcAyRXi4g8WjJhvEl13k_Sau4lODTX6PePyyM8PfLTB03aQDF2PStFEiu3wIpXyQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/b_FKBHicHcTbboIwAADQL0LKShgu2QOIJE7EFon0jZhay6VStBdT_nCfsL9Z4nk4f7-d1rP68n3RwRWXkgtmFHtSOWk26RWVd5_PyqPKU35SNr1b4_Js2WbMwfgZqFhIDblJbGXbc2WjocFkSYthIXQf1UWWIf6M8fWBk7Xi7aG_V2Vp1HETLkNBE1eRPuRxM_x0disCOLaniwnFMatJhBhy7hCjW1GnAF5wln-gk863vYGv3Uwc_n4FAACve0-96R82Y0Wy"
+   },
+   {
+    "position": 9,
+    "title": "Bachpan Play School, Koramangala",
+    "place_id": "ChIJC246Y0YUrjsRQAG0dbOJ09s",
+    "data_id": "0x3bae1446633a6e0b:0xdbd389b375b40140",
+    "data_cid": "15840155718259048768",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1446633a6e0b%3A0xdbd389b375b40140&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1446633a6e0b%3A0xdbd389b375b40140&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9409808,
+     "longitude": 77.6218767
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJC246Y0YUrjsRQAG0dbOJ09s",
+    "provider_id": "/g/12624309g",
+    "rating": 4.9,
+    "reviews": 190,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school"
+    ],
+    "address": "No: 289, 19th Main Road, near NGV Gate, behind Police Station, 6th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–6 PM",
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "9 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM"
+    },
+    "phone": "+91 96860 44111",
+    "website": "https://koramangala.bachpanglobal.in/",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RZELvwzvRK2R_WJ4lsmIDGLkQV70uGzcoPSnRwdf8eENel-Ov_tlqelrjxcF0Z-JvZ0bdaUNWqk4_Z4FDn6baI1JTeeyykdXErF4MbYGiujqoXNjd0lxoi6qHcitdfNWlMqYHq=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eYPmXXicHcRJDoIwAADAF1WqErfEg4msalVcUC5E2spWW0sLiB_0Df7GxDnM95Np_VQzw2DZsJcKkTJaK1phwTXluofFw0ifCmAFlLFAYd5Ng8haN-27CVaDIA59k6mHt3TW5f48hrXzxmJ34EFL7hNqIcrAtok1k5RVxQvbMAJ-E8GE3E4olKUZR6a95KPk5vX9I6VdV5KLVdnmJrk6eV1IcUEFgewl8pF0ca7JHYVsI6-unLd9CCHI_mPAfwQ1RuU"
+   },
+   {
+    "position": 10,
+    "title": "Greenwood High - Koramangala Preschool",
+    "place_id": "ChIJ3RteDPsVrjsRUE7acUJMA7s",
+    "data_id": "0x3bae15fb0c5e1bdd:0xbb034c4271da4e50",
+    "data_cid": "13475698358284340816",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15fb0c5e1bdd%3A0xbb034c4271da4e50&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15fb0c5e1bdd%3A0xbb034c4271da4e50&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9263058,
+     "longitude": 77.6248568
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3RteDPsVrjsRUE7acUJMA7s",
+    "provider_id": "/g/11fhzgvf2y",
+    "rating": 4.5,
+    "reviews": 62,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Nursery school"
+    ],
+    "address": "No.377, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8 AM Wed",
+    "hours": "Closed · Opens 8 AM Wed",
+    "operating_hours": {
+     "tuesday": "8 AM–4 PM",
+     "wednesday": "8 AM–4 PM",
+     "thursday": "8 AM–4 PM",
+     "friday": "8 AM–4 PM",
+     "saturday": "8 AM–1 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–4 PM"
+    },
+    "phone": "+91 80 2553 1833",
+    "website": "https://greenwoodhigh.edu.in/academics/pre-schools/koramangala-pre-school/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QAE4LLmNarLw5vlplcPOZQe8gi_rBDzYXPX2gJT7maGgKWiE3FCn-ZTSMulfu3TVevE5egQbAHF1koiDhzT8rCaQDIUTuw0KZxl4nh1ZetLL39hNoOAyAULB_gSqNwO-Manhko=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/se_pC3icHcRJDoIwAADAF5VFNC6Jhyq4FpBYXLgYbGpLLC3SIsoHfYO_MXEO8_1wYyo9sW3BPYspxQRtNK2JkoZKYxFV2qzSgGigbRgdi_c4gUEfoTLKa9QOnqISZBdnCR2x4lLP_O582p16bIOHZb5k22MReIu5BBneh424NR4-0GcwoCy5wtXCvavC5x0e1fM88dcpblpnm71EX3I3owYhb8wjFcM3TNHswvaPqI1BmEt-V9PWdRwH8P8EyB-GnkUi"
+   },
+   {
+    "position": 11,
+    "title": "Jumpstart International Preschool and Learning Center, Koramangala",
+    "place_id": "ChIJuyp2FyUVrjsR64ZXvdbJac8",
+    "data_id": "0x3bae152517762abb:0xcf69c9d6bd5786eb",
+    "data_cid": "14945698762542515947",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae152517762abb%3A0xcf69c9d6bd5786eb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae152517762abb%3A0xcf69c9d6bd5786eb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.927173699999999,
+     "longitude": 77.63762009999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuyp2FyUVrjsR64ZXvdbJac8",
+    "provider_id": "/g/11k4nty2mw",
+    "rating": 5,
+    "reviews": 216,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "International school",
+     "Kindergarten",
+     "Learning center",
+     "Montessori school",
+     "Nursery school",
+     "Playgroup"
+    ],
+    "address": "Krishna Prasad, 14/A, 1st Main Rd, 1st Block Koramangala, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM",
+     "thursday": "9 AM–7 PM",
+     "friday": "9 AM–7 PM",
+     "saturday": "9 AM–7 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–7 PM"
+    },
+    "phone": "+91 83760 01010",
+    "website": "https://jumpstartpreschool.in/centers/jumpstart-kormanagala-preschool/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SwUBY_KnPilj7q0jfPFQmb3E87GXGaotjPq9xEBM8GP8VVPopvoSRMhdKaaW894xMX6i27XfB0yYNLPYHmRojZvx4ZO0QvWkkBxIalX7IDKKfoY24I0FOhK2alO5r0llCPR26jsTiDXsKw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2xFZ1XicHcRBcoIwFADQEyEpUgFnXEhVyqRIxBaCm05KgRADH00EPKXr3saZvsX7e3Cte7U0TcnnsxqgluVNldcCOl12elZAa9a9MgplKHO9z5q7dxy__Pwbd6SRwrkgUZHdof2Zb10noAEDLcjFm7Z-5AbETVMC_QDHJOK_mLHM9ewpoovGcmjlo3u-_yD5e5uAOA2TfYrRYcjOZ38KmaROuMG4gtyyQ7SLObaYjF-vSMo3klgLoT6bDVV4XI0vCCGD_18Y3ROJt0a8"
+   },
+   {
+    "position": 12,
+    "title": "Bethany High School - ICSE School in Bangalore",
+    "place_id": "ChIJJ7jAc0YUrjsRvQuaf7GlZdM",
+    "data_id": "0x3bae144673c0b827:0xd365a5b17f9a0bbd",
+    "data_cid": "15232763496419167165",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae144673c0b827%3A0xd365a5b17f9a0bbd&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae144673c0b827%3A0xd365a5b17f9a0bbd&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9406862,
+     "longitude": 77.6208596
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJ7jAc0YUrjsRvQuaf7GlZdM",
+    "provider_id": "/m/05zz9ls",
+    "type": "ICSE school",
+    "types": [
+     "ICSE school",
+     "High school"
+    ],
+    "address": "CA-12, 20th Main Rd, Next to Koramangala Police station, 6th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8 AM Wed",
+    "hours": "Closed · Opens 8 AM Wed",
+    "operating_hours": {
+     "tuesday": "8 AM–3 PM",
+     "wednesday": "8 AM–3 PM",
+     "thursday": "8 AM–3 PM",
+     "friday": "8 AM–3 PM",
+     "saturday": "8 AM–3 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–3 PM"
+    },
+    "phone": "+91 80 2553 1815",
+    "website": "https://bethanyinstitutions.edu.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RR7m3L8qSbto7ru1TviNGuXr4P41vsuS5RSAenhpy9y9PGqRKbfpRiWIPHZuquzpxxT3S0oNe6vtrsN7egyL31aRmbnTPZfmgLTfI6KxHf90oBtH4lAlJbi36ti1RSdsgylbZe=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jYBm9HicHcTRroIgAADQLzJhmGbbfbCXrJxz4NadbxdDZENAAZN-sG_ob9rueTif9-icscc4liPaca25ZN6ypdfKMeV2vZ5ibmzU28jGRX0XIcc4m1B1mAl1Ols8bFdRn_3vkjQJXK0ne0wKpkYT8pA35xnf6GCwuF-asvOzf5ltaxEBumbp6hZbZ4yHCsE_PFHVNt0w8aodLultK4cc6JMrE1nIKxUodQJi8rA8SNqxnycEAETj_32kvvR6Rmk"
+   },
+   {
+    "position": 13,
+    "title": "Footprints: Play School, Day Care & Creche in Koramangala, Bengaluru",
+    "place_id": "ChIJRTZ6rIUUrjsRJBzSMHL3iwc",
+    "data_id": "0x3bae1485ac7a3645:0x78bf77230d21c24",
+    "data_cid": "543800249845685284",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1485ac7a3645%3A0x78bf77230d21c24&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1485ac7a3645%3A0x78bf77230d21c24&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9396927,
+     "longitude": 77.62068359999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJRTZ6rIUUrjsRJBzSMHL3iwc",
+    "provider_id": "/g/11hbq9p5bp",
+    "rating": 4.8,
+    "reviews": 157,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "After school program",
+     "Day care center",
+     "Kindergarten",
+     "Nursery school",
+     "Playgroup"
+    ],
+    "address": "Sixth Block, Building No 217, Fourth Cross, 19th Main Road, behind Bethany High School, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–6:30 PM",
+     "wednesday": "9 AM–6:30 PM",
+     "thursday": "9 AM–6:30 PM",
+     "friday": "9 AM–6:30 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–6:30 PM"
+    },
+    "phone": "+91 74062 22118",
+    "website": "https://www.footprintseducation.in/pre-school-daycare-koramangala-bengaluru?utm_campaign=koramangala-bengaluru&utm_source=Google_Business_Listings&source=Google_Business_Listings&utm_medium=GBL",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QIkYWJ7CvmAOff4Zfn3dp0tcHexKl6NmmFw4bDkyS5JzSrX0E9xQrvPJcqVi8Ff2rZZv8aVj9IxqgIgI6vVIQFZNfsit4P0CmhiaPBaQ_Fymrzh93hCCr5hOcRGY02xlYDqUy1=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vyMIZHicHcRJDoIwAADAFyEVcMHEA6JoMWHRiMLFYKUtSlnayuIHfYO_MXEO8_1QKWuxUNWC6iNSVaTIXiLjqCplVsoRqphKaqEgoQjV8s75YIbwGZ_dmd0yy8fYSHCp32sg0S7r98XUY8zpjNv6ORwn7vvIL2Bj9iFvAxc1UT53sMaTpJ2n0cOEfUMggdM2gqGTeFjk0giAzWieBqs0vDoD429q6tS2-YT66LCNgdYX8bo5DeNlNwYAKPQ_UsofvA9FiA"
+   },
+   {
+    "position": 14,
+    "title": "The Freethinking School Montessori, Koramangala",
+    "place_id": "ChIJ4VqXGlkUrjsRRDFb6pH5egE",
+    "data_id": "0x3bae14591a975ae1:0x17af991ea5b3144",
+    "data_cid": "106671946294047044",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14591a975ae1%3A0x17af991ea5b3144&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14591a975ae1%3A0x17af991ea5b3144&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9339406,
+     "longitude": 77.6338727
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4VqXGlkUrjsRRDFb6pH5egE",
+    "provider_id": "/g/12613yznk",
+    "rating": 4.9,
+    "reviews": 11,
+    "type": "Montessori preschool",
+    "types": [
+     "Montessori preschool",
+     "After school program",
+     "Children's camp",
+     "Day care center",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school",
+     "Playgroup",
+     "Preschool"
+    ],
+    "address": "18, 3rd Main Rd, S.T. Bed, Cauvery Colony, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–6 PM",
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "9 AM–6 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM"
+    },
+    "phone": "+91 73533 53500",
+    "website": "https://www.thefreethinkingschool.com/?utm_source=google&utm_medium=gbp",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R2wMIWqpKC_zvrNsKuFV05IzYfac69jlWZB911p3DmtyheaOBTq1g1mwfQ4QtYRjNRYalh4cruN5opC9o67Vi8V8_AxO04pkaes23ciX0xD09oLuvpEu7RPhUsBVjSnnRWoj1e4Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/3SnF4HicHcRdDoIgAADgExmQ9kNbD6m1tcqSSrOX5hiJpkACWd2wI3Sbtr6H7_vhxig9AaDmbq-QsqiZ1aylUhgmTI_KBhRKO1Q7GsyitHxh0u82y_SuVsHl_WgjvbKLBA6W7-ya0yGu6vTsY4SUGzbmxVm-9Q93VKCmu8ZebDJSRSTLa-7R1kYDqQIsh6OkHCfjy-y5hZ665Uz3XVqe4DOEWK7tQ83tiOz4UftJtReCpLJCzIunHYIQOvw_dcQPJZZFwg"
+   },
+   {
+    "position": 15,
+    "title": "Narayana Schools",
+    "place_id": "ChIJh1_1DEkUrjsRF1neXwOxz5c",
+    "data_id": "0x3bae14490cf55f87:0x97cfb1035fde5917",
+    "data_cid": "10939156647957649687",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14490cf55f87%3A0x97cfb1035fde5917&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14490cf55f87%3A0x97cfb1035fde5917&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9426353,
+     "longitude": 77.6145032
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJh1_1DEkUrjsRF1neXwOxz5c",
+    "provider_id": "/g/1ptz11cz7",
+    "rating": 4.7,
+    "reviews": 172,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution",
+     "CBSE school",
+     "College",
+     "Education center",
+     "Junior college"
+    ],
+    "address": "476, nearby Corporation Bank, 8th Block, Adugodi, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 5:30 PM",
+    "hours": "Open · Closes 5:30 PM",
+    "operating_hours": {
+     "tuesday": "8:15 AM–5:30 PM",
+     "wednesday": "8:15 AM–5:30 PM",
+     "thursday": "8:15 AM–5:30 PM",
+     "friday": "8:15 AM–5:30 PM",
+     "saturday": "8:15 AM–5:30 PM",
+     "sunday": "Closed",
+     "monday": "8:15 AM–5:30 PM"
+    },
+    "phone": "+91 1800 102 3344",
+    "website": "https://branches.narayanaschools.in/narayana-school/education-in-bengaluru/education-in-Koramangala/narayana-etechnoschool-in-Koramangala-bengaluru--2htrfR/home",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QqoVd6D8HGCncfe_aCKLwrTi-GOT1gbAHxoD0wCrwoCLKTiPnBPhjFcis9Nddm0A-TEaCziwnGa56EIv1-iJTKi_MDDsLCRl1upQX9GnYITtNX2LANfplQFwRKAii_qcVz4-U=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/AUSdUnicHcRLDoIwFADAExWKHyImLmpRVBDF1N-KYEF4Bluk1aoH9A7exsRZzPdTad2ooW3XVdcqpSzr4q6KlkuhC6EtLq922SjEFVI2iffw8pKb3OWuP5gFVPBzkWY0jEzLAAUr5pQnMntKHxvaGkmjkMFajNfVZcpBeXGeXzFBbJLRNxgRZH13Mn84CBYshHTp-yqim9q5N8nBC8RxznR86EQkPjd1MjWbkACkN75799B2ZByMMar-cyR-GgNEHA"
+   },
+   {
+    "position": 16,
+    "title": "Koala Preschool",
+    "place_id": "ChIJ23rKJugVrjsROdGTICK2cYQ",
+    "data_id": "0x3bae15e826ca7adb:0x8471b6222093d139",
+    "data_cid": "9543609343066493241",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15e826ca7adb%3A0x8471b6222093d139&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15e826ca7adb%3A0x8471b6222093d139&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9263674,
+     "longitude": 77.6339457
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ23rKJugVrjsROdGTICK2cYQ",
+    "provider_id": "/g/11j3s8sx37",
+    "rating": 4.9,
+    "reviews": 182,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Kindergarten",
+     "Montessori school"
+    ],
+    "address": "344, 6th Main Rd, behind Wipro Park, 1st Block Koramangala, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "tuesday": "8:45 AM–6 PM",
+     "wednesday": "8:45 AM–6 PM",
+     "thursday": "8:45 AM–6 PM",
+     "friday": "8:45 AM–6 PM",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed",
+     "monday": "8:45 AM–6 PM"
+    },
+    "phone": "+91 70191 23333",
+    "website": "https://www.koalapreschool.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T6vbNnZ1BvXnXtBu8unj0V2coy8_A28JfIwMBlZvJwwXSiB3vmGH1AJ6jq7pATppamyWf24qPVcTaROBie6nInSqJxjOU9WkaUSzo76xCwtIrOiUMyLzU8qf5gU3n1U17w2DN-=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ErjxbHicHcTdboIwGADQJ6pQmIBLdkE1UcgEM6gQbxZs-B18LbZQ8QX3DL6NiefiPP8bpYT8NIy-sVc153VfTrK8MQ6qBLVifDBqIRGTSBp-lLXLJnXmawQXTOYcckUmb4LOPFuML96vb3lhFegj6S9zqHWetMSeh_0B-6HTja7wUyGKYckq62M8nVla_MSkLR0IIBnDexfTTfZX0OTBXee-1Sq4xS09Lt8P6o3VuqY2YIpdbe0i9KWxaZqoec8QvAC0z0Ur"
+   },
+   {
+    "position": 17,
+    "title": "Podar jumbo kids Koramangala : 14+ years in Early childhood development",
+    "place_id": "ChIJ8_Hww08UrjsR1_28hVbWUYc",
+    "data_id": "0x3bae144fc3f0f1f3:0x8751d65685bcfdd7",
+    "data_cid": "9750810335333121495",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae144fc3f0f1f3%3A0x8751d65685bcfdd7&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae144fc3f0f1f3%3A0x8751d65685bcfdd7&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.940597799999999,
+     "longitude": 77.6236789
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8_Hww08UrjsR1_28hVbWUYc",
+    "provider_id": "/g/1yg93lf6z",
+    "rating": 4.9,
+    "reviews": 71,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "After school program",
+     "Day care center",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school",
+     "Playgroup"
+    ],
+    "address": "437, 18th Main Rd, 6th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "tuesday": "8 AM–7 PM",
+     "wednesday": "8 AM–7 PM",
+     "thursday": "8 AM–7 PM",
+     "friday": "8 AM–7 PM",
+     "saturday": "8 AM–1:30 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–7 PM"
+    },
+    "phone": "+91 98860 92292",
+    "website": "http://www.preschoolanddaycareinbangalore.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S3NLt8M0jdyBiitPm61UmzfRdekg5sZ3tcK6xAQn7ykkD7ID5eIuoPUOQ6P0wiWhc4C8n1JjbfaCvTHzuhpbYIcXVYgWq-51YbGKSUwLwBioocOY6Jb1f4Cj3IhWkw3PQV-IB63Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/woKXFnicHcRLcoIwAADQE0WSicTPTBeCMxq_UEVKdyWGJCAJNaEp3rBH8DbO9C3e808619l5ENwkHgljxI33lt-Z0Y5rN2KmDURnAbPABotDrobZCR92brqH9XWIlHJJS1DWPqr3K29EaD-xY1vyu0j1ZGia5YQuQ057k2THlCTQq1yycTzVaFOX1Vf8c14_etmVBWUfl0Lk3yBERbnanjK_85Eyhh0LsilRNY5rTGXeeJykF0AjgtM3jyCEQP7PgH4BD8lE-A"
+   },
+   {
+    "position": 18,
+    "title": "Neev Early Years Koramangala",
+    "place_id": "ChIJ_apTrEQUrjsR4KSSQkSgxb8",
+    "data_id": "0x3bae1444ac53aafd:0xbfc5a0444292a4e0",
+    "data_cid": "13818627246691362016",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1444ac53aafd%3A0xbfc5a0444292a4e0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1444ac53aafd%3A0xbfc5a0444292a4e0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9350265,
+     "longitude": 77.62446299999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ_apTrEQUrjsR4KSSQkSgxb8",
+    "provider_id": "/g/1vc807pc",
+    "rating": 4.6,
+    "reviews": 14,
+    "type": "Preschool",
+    "types": [
+     "Preschool"
+    ],
+    "address": "No 421, 100 Feet Road, 17th Main Road, Koramangala 4 Block, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "hours": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "operating_hours": {
+     "tuesday": "9 AM–5 PM",
+     "wednesday": "9 AM–5 PM",
+     "thursday": "9 AM–5 PM",
+     "friday": "9 AM–5 PM",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–5 PM"
+    },
+    "phone": "+91 80 4098 3345",
+    "website": "http://www.neevschools.com/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QUmNNiEKJyg-KPmg4EEDiXv_UdtzUElZx6HJ5ceJhHefl9h21VO-kPQry5hFiP-5SjuN5hAJ9fQXcQFMkizEQqE72Uv-jM7icizaw79rETcB8Cwnfh1NcE88b-lCn60yzYGEY=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ZZXMaXicHcTdTsIwFADgJzpsQ8c2Ey8QD5IR6hoZP94YOXRtoetwLcztAX0H38bE7-L7_VHeX9xDEBh1N5JNI424OtFSY72wfkRNHciLA3Lgginb6j7jZc2YxmXeS1gWtbxHfNa720d59EOJ5v17sshjErlaiMpkahxtXuFc8LaP1VwXEL-drixW0zyr-I74fHXWA_IvTMblDU6rRJMePrska3FNT-mss5WKGGGaHsDM7CTsh_0L7h-7KAxDUP8T2D8Bk0Ob"
+   },
+   {
+    "position": 19,
+    "title": "Lawrence High School, Koramangala",
+    "place_id": "ChIJK8BZqFsUrjsRw5st5Q8PUhI",
+    "data_id": "0x3bae145ba859c02b:0x12520f0fe52d9bc3",
+    "data_cid": "1320134201716874179",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145ba859c02b%3A0x12520f0fe52d9bc3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145ba859c02b%3A0x12520f0fe52d9bc3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.939797599999999,
+     "longitude": 77.6157983
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJK8BZqFsUrjsRw5st5Q8PUhI",
+    "provider_id": "/g/1tvw3cl8",
+    "unclaimed_listing": true,
+    "type": "ICSE school",
+    "types": [
+     "ICSE school",
+     "School"
+    ],
+    "address": "8th, Block 315, 2nd C Main Rd, CV Raman Nagar, Koramangala, Bengaluru, Karnataka 560030, India",
+    "country": "India",
+    "open_state": "Open · Closes 2 AM",
+    "hours": "Open · Closes 2 AM",
+    "operating_hours": {
+     "tuesday": "7 AM–2 AM",
+     "wednesday": "7 AM–2 AM",
+     "thursday": "7 AM–2 AM",
+     "friday": "7 AM–2 AM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "7 AM–2 AM"
+    },
+    "phone": "+91 80 2572 2777",
+    "website": "https://www.lawrencekoramangala.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TEqLpza-grr85R4edyQoTPKw9-_U6gDWy_oDpoFEJ_zj7pBc7oA78Xt-16-mEC-6HKlqwBi1_NeIOfsUl7vhu-YSiq4vNJKRJIdqAYSa2G_vHPpnnr92tTZLr1cSlzaVmOj5hL=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/uMKVjXicHcRRboIwGADgE_0CTkGW7AEnU4GgE5xzLw2ptcWUtrQVAhf0DN7GZN_D93wwa5V5dxzO3iZUSsrJ3RCNpbBE2AmWjUOVAWzAOFF-qoewjNtMjRVQrRfzw4xchm9Z7tM-BHT06eo0ILlS8itO0HgL1BIHMgoWvxY8H5r4E_xNytt-WXsoJ9vd1Rx50LE7nIu6nXV5kh6S7aWNzkU1XaNus1dC6HBqy79Me7jgY_XT7G5zln30nuu6wP7HIF5b4ESx"
+   },
+   {
+    "position": 20,
+    "title": "B Mona High School",
+    "place_id": "ChIJSR9VKUUUrjsRfA4Vhj4jonw",
+    "data_id": "0x3bae144529551f49:0x7ca2233e86150e7c",
+    "data_cid": "8980779358374661756",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae144529551f49%3A0x7ca2233e86150e7c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae144529551f49%3A0x7ca2233e86150e7c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9349177,
+     "longitude": 77.6218238
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJSR9VKUUUrjsRfA4Vhj4jonw",
+    "provider_id": "/g/1yl479w6d",
+    "type": "High school",
+    "types": [
+     "High school"
+    ],
+    "address": "77, 3rd Cross Rd, KHB Block Koramangala, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8:30 AM Wed",
+    "hours": "Closed · Opens 8:30 AM Wed",
+    "operating_hours": {
+     "tuesday": "8:30 AM–3 PM",
+     "wednesday": "8:30 AM–3 PM",
+     "thursday": "8:30 AM–3 PM",
+     "friday": "8:30 AM–3 PM",
+     "saturday": "8:30 AM–1 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–3 PM"
+    },
+    "phone": "+91 80 2552 3240",
+    "website": "https://bmhs.co.in/",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TXI38jzrerbBDRxaKrouywqt2pZSSdWt6CrAzCy9DCFv2NLWGf62XZSxws0bUk80oJPeft82_FpHbSbl9Fv5LNCxFEOTHd3FyDLdiXVJ0IBl4Gnqp-Xi66Ehs5NUaWq5iwbFFv9g=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/AWYeGnicHcRJDoIwAADAF1UqCAETDwoWUIJGVIgXY6EsirS0lcUf-gR_Y-Ic5vsppWRirih1qU0KSouavAThKW0kaeQkpU-lYAKkAghlGcbVaB0TXzPvb044XjmH4bbl9DX2rVTZJYqyWBo2X77t0XJs1KlhELu5oSaXaOgFxKeHCelmT3JpqlfEPBzh2kKdHoT2gNa7o5dpaHSCrErOG-iv6pnbtAwklWGsS6GHp1vc6lWPEeqsYtFPIYSg_J-C5gc140Ve"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9352403%2C77.624532%2C15z&q=school+near+Koramangala+Bengaluru&start=20&type=search"
+  }
+ }
+}

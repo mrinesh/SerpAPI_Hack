@@ -37,10 +37,10 @@ def test_residential_run_finds_priced_entries_and_projects(client):
         "fetch": "succeeded",
         "clean": "succeeded",
         "verify": "succeeded",
-        "enrich": "pending",
+        "enrich": "succeeded",
         "rank": "pending",
     }
-    assert (run["searches_used"], run["cache_hits"]) == (0, 2)  # replay never spends
+    assert run["searches_used"] == 0 and run["cache_hits"] >= 2  # replay never spends
 
     entries = [item for item in listings if item["kind"] == "snippet_entry"]
     projects = [item for item in listings if item["kind"] == "project"]
@@ -71,7 +71,7 @@ def test_commercial_run_skips_maps(client):
     }
     run, listings = run_for(client, profile)
     assert run["status"] == "succeeded"
-    assert run["cache_hits"] == 1
+    assert run["searches_used"] == 0 and run["cache_hits"] >= 1
     assert listings and {item["kind"] for item in listings} == {"snippet_entry"}
 
 

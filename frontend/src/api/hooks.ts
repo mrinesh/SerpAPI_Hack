@@ -7,6 +7,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import { apiFetch } from "./client";
 import type {
+  AreaIntel,
   BudgetStatus,
   HealthStatus,
   InvestorProfile,
@@ -136,6 +137,16 @@ export function useRunVerifications(run: PipelineRun | undefined) {
   return useQuery({
     queryKey: ["runs", run?.id, "verifications", run?.status, checkedCount(run)],
     queryFn: () => apiFetch<Verification[]>(`/runs/${run?.id}/verifications`),
+    enabled: hasCandidates(run),
+  });
+}
+
+/** Area snapshots refresh as each locality finishes, including partial section results. */
+export function useRunAreas(run: PipelineRun | undefined) {
+  const event = run?.events?.find((item) => item.stage === "enrich");
+  return useQuery({
+    queryKey: ["runs", run?.id, "areas", run?.status, event?.counts?.areas ?? 0],
+    queryFn: () => apiFetch<AreaIntel[]>(`/runs/${run?.id}/areas`),
     enabled: hasCandidates(run),
   });
 }

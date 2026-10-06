@@ -10,7 +10,14 @@ from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from app.core.errors import InvalidInput, NotFound
-from app.db.models import AlertRow, ListingObservationRow, ProfileRow, RunResultRow, RunRow
+from app.db.models import (
+    AlertRow,
+    ListingObservationRow,
+    ProfileRow,
+    RunAreaIntelRow,
+    RunResultRow,
+    RunRow,
+)
 from app.reference import load_market
 from app.schemas.profile import (
     GOAL_MEASURE,
@@ -116,6 +123,7 @@ def delete_profile(db: Session, profile_id: str) -> None:
     run_ids = select(RunRow.id).where(RunRow.profile_id == profile_id)
     db.execute(delete(ListingObservationRow).where(ListingObservationRow.run_id.in_(run_ids)))
     db.execute(delete(RunResultRow).where(RunResultRow.run_id.in_(run_ids)))
+    db.execute(delete(RunAreaIntelRow).where(RunAreaIntelRow.run_id.in_(run_ids)))
     db.execute(delete(RunRow).where(RunRow.profile_id == profile_id))
     db.execute(delete(AlertRow).where(AlertRow.profile_id == profile_id))
     db.delete(row)

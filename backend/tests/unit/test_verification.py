@@ -1,5 +1,6 @@
 """Verification against a fake LLM: evidence grounding, hard constraints and uncertainty."""
 
+import json
 from datetime import UTC, datetime
 from types import SimpleNamespace
 
@@ -43,6 +44,18 @@ class FakeLLM:
 
     def generate_structured(self, **kwargs):
         self.calls.append(kwargs)
+        if kwargs["task"] == "classify_news":
+            inputs = json.loads(kwargs["prompt"].split("INPUT JSON:\n")[1])
+            return kwargs["schema"].model_validate(
+                {
+                    "items": [
+                        {"index": i, "topic": "other", "sentiment": "neutral"}
+                        for i in range(len(inputs["news_items"]))
+                    ]
+                }
+            )
+        if kwargs["task"] == "summarize_area":
+            return kwargs["schema"].model_validate({"facts": []})
         if kwargs["task"] == "extract_price_level":
             from app.pipeline.enrichment.price_level import PriceLevelExtract
 

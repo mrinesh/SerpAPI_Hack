@@ -67,7 +67,8 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `listings` | `id` = stable hash of the candidate's identity | `Listing` JSON; `kind`, `portal`, `locality`, `price_inr`, `size_sqft`, `price_per_sqft` columns | Shared across runs, so a repeat run updates the same rows |
 | `listing_observations` | `id`; unique (`listing_id`, `run_id`) | price at the time | One row per candidate per run: "found in this run" and price history |
 | `run_results` | `id` | Progressive JSON: `listing` snapshot and nullable `verification`; F-04 will add recommendation fields | One row per listing per run; rank null until ranked, and for rejects |
-| `area_intel` | `locality_key` | `AreaIntel` JSON, `expires_at` | e.g. `bengaluru/whitefield` |
+| `area_intel` | `locality_key` | Normalized `AreaIntel` JSON, assembly/expiry timestamps | Shared locality cache; excludes run-specific prices; partial results expire immediately |
+| `run_area_intel` | (`run_id`, `locality_key`) | Frozen `AreaIntel` JSON, including existing price benchmarks | FK run; deleted with profile; unaffected by later cache refreshes |
 | `competitor_reports` | hash(centre, category, radius) | `CompetitorReport` JSON | |
 | `serp_cache` | `cache_key` | raw SerpApi JSON, `search_id` | Same key as fixture file names |
 | `search_ledger` | autoincrement | engine, key, run, `live` | Budget is computed from this |
@@ -80,6 +81,7 @@ erDiagram
     investor_profiles ||--o{ pipeline_runs : "has"
     investor_profiles ||--o{ alerts : "receives"
     pipeline_runs ||--o{ run_results : "produces"
+    pipeline_runs ||--o{ run_area_intel : "enriches"
     listings ||--o{ run_results : "ranked in"
     pipeline_runs ||--o{ listing_observations : "found"
     listings ||--o{ listing_observations : "seen at a price"
@@ -87,6 +89,14 @@ erDiagram
     listings ||--o{ alerts : "about"
     area_intel ||--o{ listings : "locality_key"
 ```
+
+## F-05 area payload
+
+`AreaIntel` adds centre provenance, structured `InfrastructureFact` evidence, `AreaIssue` warnings,
+section statuses, source retrieval timestamps, cache flags and a per-property-type benchmark map.
+Assembly time differs from original provider retrieval/publication time. Price growth and rental
+demand remain unavailable. See [F-05 guide](F05_AREA_INTELLIGENCE.md). The added run-area table is
+created automatically at startup; no existing tables or data need to be dropped.
 
 ## Changing the model
 

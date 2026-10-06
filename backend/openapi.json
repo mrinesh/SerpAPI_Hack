@@ -512,6 +512,53 @@
         }
       }
     },
+    "/api/runs/{run_id}/areas": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Run Areas",
+        "description": "F-05 area snapshots; available progressively during enrichment.",
+        "operationId": "get_run_areas_api_runs__run_id__areas_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AreaIntel"
+                  },
+                  "title": "Response Get Run Areas Api Runs  Run Id  Areas Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/properties/{listing_id}": {
       "get": {
         "tags": [
@@ -970,10 +1017,31 @@
             "type": "string",
             "title": "City"
           },
+          "region": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Region"
+          },
           "center": {
             "anyOf": [
               {
                 "$ref": "#/components/schemas/GeoPoint"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "center_source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SourceRef"
               },
               {
                 "type": "null"
@@ -1003,6 +1071,23 @@
                 "type": "null"
               }
             ]
+          },
+          "infrastructure": {
+            "items": {
+              "$ref": "#/components/schemas/InfrastructureFact"
+            },
+            "type": "array",
+            "title": "Infrastructure"
+          },
+          "price_levels": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Sourced_float_"
+            },
+            "propertyNames": {
+              "$ref": "#/components/schemas/PropertyType"
+            },
+            "type": "object",
+            "title": "Price Levels"
           },
           "price_trend": {
             "anyOf": [
@@ -1035,6 +1120,62 @@
             ],
             "title": "Summary"
           },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "source_retrieved_at": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Source Retrieved At"
+          },
+          "warnings": {
+            "items": {
+              "$ref": "#/components/schemas/AreaIssue"
+            },
+            "type": "array",
+            "title": "Warnings"
+          },
+          "section_status": {
+            "additionalProperties": {
+              "type": "string",
+              "enum": [
+                "ok",
+                "empty",
+                "failed",
+                "unavailable"
+              ]
+            },
+            "type": "object",
+            "title": "Section Status"
+          },
+          "cache_hit": {
+            "type": "boolean",
+            "title": "Cache Hit",
+            "default": false
+          },
+          "stale": {
+            "type": "boolean",
+            "title": "Stale",
+            "default": false
+          },
+          "schema_version": {
+            "type": "integer",
+            "title": "Schema Version",
+            "default": 1
+          },
+          "provider_modes": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Provider Modes"
+          },
           "fetched_at": {
             "type": "string",
             "format": "date-time",
@@ -1055,6 +1196,34 @@
           "expires_at"
         ],
         "title": "AreaIntel"
+      },
+      "AreaIssue": {
+        "properties": {
+          "operation": {
+            "type": "string",
+            "title": "Operation"
+          },
+          "provider": {
+            "type": "string",
+            "title": "Provider"
+          },
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          }
+        },
+        "type": "object",
+        "required": [
+          "operation",
+          "provider",
+          "code",
+          "message"
+        ],
+        "title": "AreaIssue"
       },
       "BudgetStatus": {
         "properties": {
@@ -1380,6 +1549,23 @@
           "city"
         ],
         "title": "HealthStatus"
+      },
+      "InfrastructureFact": {
+        "properties": {
+          "topic": {
+            "$ref": "#/components/schemas/NewsTopic"
+          },
+          "evidence": {
+            "$ref": "#/components/schemas/Sourced_str_"
+          }
+        },
+        "type": "object",
+        "required": [
+          "topic",
+          "evidence"
+        ],
+        "title": "InfrastructureFact",
+        "description": "An exact news evidence quote selected by the model, not an inferred project status."
       },
       "InvestmentGoal": {
         "type": "string",
@@ -1924,6 +2110,17 @@
               }
             ],
             "title": "Published On"
+          },
+          "published_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Published Text"
           },
           "snippet": {
             "anyOf": [

@@ -1,11 +1,15 @@
 """Pipeline runs and what they found (CHECKLIST I-09, F-02, F-04)."""
 
+from datetime import UTC, datetime
+
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.core.errors import NotFound, NotImplementedYet
-from app.db.models import ListingObservationRow, ListingRow, RunResultRow, RunRow
+from app.db.models import ListingObservationRow, ListingRow, RunAreaIntelRow, RunResultRow, RunRow
+from app.pipeline.enrichment.area import as_utc
 from app.pipeline.orchestrator import to_schema
+from app.schemas.area import AreaIntel
 from app.schemas.listing import Listing, ResultKind, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
@@ -55,6 +59,21 @@ def get_verifications(db: Session, run_id: str) -> list[Verification]:
 
 def get_recommendations(db: Session, run_id: str) -> list[Recommendation]:
     raise NotImplementedYet("F-04", "Reading ranked recommendations")
+
+
+def get_areas(db: Session, run_id: str) -> list[AreaIntel]:
+    """Frozen run snapshots, including partial results and that run's existing price levels."""
+    _get_row(db, run_id)
+    rows = db.scalars(
+        select(RunAreaIntelRow)
+        .where(RunAreaIntelRow.run_id == run_id)
+        .order_by(RunAreaIntelRow.locality_key)
+    )
+    areas = [AreaIntel.model_validate(row.data) for row in rows]
+    return [
+        area.model_copy(update={"stale": as_utc(area.expires_at) <= datetime.now(UTC)})
+        for area in areas
+    ]
 
 
 def _get_row(db: Session, run_id: str) -> RunRow:

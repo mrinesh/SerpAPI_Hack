@@ -13,6 +13,11 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-06 · F-05 P0: locality cache, typed Maps amenities with straight-line distances,
+  locality-matched/dated News, DeepSeek topics and validated complete infrastructure evidence
+  quotes. Read-only area/run-area APIs, immutable run snapshots, existing price benchmark reuse,
+  explicit section warnings and a run-page panel. Real recordings cover Whitefield/Koramangala;
+  cache/normalization/evidence/failure/API tests and a debugging guide. Trends remains P1.
 - 2026-10-06 · F-12 price flags (part): too-good-to-be-true against a per-locality price level
   from a live Google search, read by DeepSeek with a validated quote; run-median fallback, no flat
   rate (ADR 0014). Missing price/size flags; flag chips on run cards. A high flag caps at weak.

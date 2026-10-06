@@ -18,8 +18,8 @@ results fetched for that investor's criteria; without SerpApi there is no shortl
 | Engine | Used for | Status |
 |---|---|---|
 | `google` | Discovery: site-filtered searches of 99acres, MagicBricks and NoBroker. Google returns their search pages, whose snippets quote priced entries *(S-01)*. Also the locality price level per sq ft ("office space price per sq ft in Koramangala Bangalore"), the benchmark for price flags (ADR 0014) | Built (F-02, F-12) |
-| `google_maps` | Discovery: named housing projects with GPS, rating and reviews for flat profiles *(S-01)*. Later: amenities and commercial competitors | Discovery built (F-02); rest planned (F-05, F-06) |
-| `google_news` | Neighbourhood news and infrastructure announcements | Planned (F-05) |
+| `google_maps` | Discovery: named housing projects with GPS, rating and reviews for flat profiles *(S-01)*. Later: amenities and commercial competitors | Discovery and area centre/amenities built (F-02, F-05); competitors pending (F-06) |
+| `google_news` | Locality-matched news and sourced infrastructure/civic/policy evidence | Built (F-05 P0) |
 | `google_trends` | Rental and buying search interest, up to 5 localities per call | Planned (F-05) |
 | `google_maps_reviews` | Review text of top competitors, to find market gaps | Planned (F-06b) |
 | `google_local` | Tested in S-01: the same projects as Maps for flats, irrelevant results for commercial | Not used |
@@ -61,8 +61,9 @@ default timeout is 60 s because two searches exceeded 30 s.
 | Run | Searches |
 |---|---|
 | Fresh run, L localities × T property types | L × T Google, + L Google Maps if flats are wanted, + at most 1 retry per empty query, + up to L × T price-level Google searches (localities with candidates) |
-| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level = 9 |
-| Largest profile: 5 localities × 4 types, with flats | 20 Google + 5 Maps + 20 price level = 45; the per-run cap of 40 stops discovery-first runs before that, and price levels then fall back to run medians |
+| Area enrichment for A discovered localities | Up to 5A additional searches: centre + metro/school/hospital + News; cached per locality for 168 hours |
+| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 15 area = 24 |
+| Largest profile: 5 localities × 4 types, with flats | Up to 45 discovery/price-level searches + 25 area searches before retries; the per-run cap of 40 is authoritative. Missing area sections expose budget warnings; price levels may fall back to run medians |
 | Repeat run within the cache TTL | 0 |
 
 ## Data handling

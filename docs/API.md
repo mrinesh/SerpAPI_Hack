@@ -26,7 +26,8 @@ city) use the same shape.
 | GET | `/runs/{run_id}/verifications` | `Verification[]`: completed checks, including rejects and reasons | F-03 | ✅ |
 | GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked | F-04 | 🧱 |
 | GET | `/properties/{listing_id}` | `PropertyDetail` | F-07 | 🧱 |
-| GET | `/areas/{locality_key}` | `AreaIntel`; key like `bengaluru/whitefield` | F-05 | 🧱 |
+| GET | `/areas/{locality_key}` | Latest shared `AreaIntel`; read-only, explicit stale state; 404 before enrichment | F-05 | ✅ |
+| GET | `/runs/{run_id}/areas` | Run-specific `AreaIntel[]` snapshots with existing price benchmarks and section warnings | F-05 | ✅ |
 | GET | `/saved` | `SavedProperty[]` | F-08 | 🧱 |
 | POST | `/saved` | `SavedProperty` (201) | F-08 | 🧱 |
 | DELETE | `/saved/{listing_id}` | 204 | F-08 | 🧱 |
@@ -41,6 +42,17 @@ an unchecked candidate has no verification yet. Both endpoints return 404 for an
 and `unchecked` (candidates past `VERIFY_MAX_CANDIDATES`, default 16, which have no verification).
 Each `Verification.flags` entry is a `QualityFlag` (`kind`, `severity`, `reason`, ADR 0014).
 F-04 ranking is still pending.
+
+## Area intelligence (F-05)
+
+Areas are produced during the enrich stage, once per discovered locality. Both GET endpoints
+are read-only and never call external providers. A run created before F-05, or one still
+enriching, may return an empty/partial list. Unknown runs return 404; unknown geography returns
+422. Section failures return readable partial data with `warnings` and `section_status`, rather
+than pretending failed requests were empty results. `stale` indicates that a new run should
+refresh the area. Only run snapshots contain the existing per-property-type `price_levels`.
+
+Schema, examples, cache behavior and diagnostics: [F-05 guide](F05_AREA_INTELLIGENCE.md).
 
 ## Frontend types
 

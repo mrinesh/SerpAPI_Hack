@@ -6,10 +6,12 @@ keeps enrichment inside the search budget. See docs/decisions/0006-locality-keye
 
 from datetime import date, datetime
 from enum import StrEnum
+from typing import Literal
 
 from pydantic import BaseModel, Field
 
 from app.schemas.common import GeoPoint, Level
+from app.schemas.profile import PropertyType
 from app.schemas.provenance import Sourced, SourceRef
 
 
@@ -54,6 +56,7 @@ class NewsItem(BaseModel):
     url: str
     outlet: str | None = None
     published_on: date | None = None
+    published_text: str | None = None  # preserve provider text when a date cannot be parsed
     snippet: str | None = None
     topic: NewsTopic = NewsTopic.OTHER
     sentiment: Sentiment = Sentiment.NEUTRAL
@@ -77,16 +80,45 @@ class RentalDemand(BaseModel):
     signal: Level
 
 
+class AreaIssue(BaseModel):
+    operation: str
+    provider: str
+    code: str
+    message: str
+
+
+class InfrastructureFact(BaseModel):
+    """An exact news evidence quote selected by the model, not an inferred project status."""
+
+    topic: NewsTopic
+    evidence: Sourced[str]
+
+
 class AreaIntel(BaseModel):
     locality_key: str  # normalised slug; the cache key
     locality: str
     city: str
+    region: str | None = None
     center: GeoPoint | None = None
+    center_source: SourceRef | None = None
     amenities: list[Amenity] = Field(default_factory=list)
     news: list[NewsItem] = Field(default_factory=list)
     infrastructure_summary: Sourced[str] | None = None
+    infrastructure: list[InfrastructureFact] = Field(default_factory=list)
+    price_levels: dict[PropertyType, Sourced[float]] = Field(default_factory=dict)
     price_trend: PriceTrend | None = None
     rental_demand: RentalDemand | None = None
     summary: str | None = None
+    sources: list[SourceRef] = Field(default_factory=list)
+    # Original SerpApi retrieval text keyed by search_id; fetched_at is assembly time.
+    source_retrieved_at: dict[str, str] = Field(default_factory=dict)
+    warnings: list[AreaIssue] = Field(default_factory=list)
+    section_status: dict[str, Literal["ok", "empty", "failed", "unavailable"]] = Field(
+        default_factory=dict
+    )
+    cache_hit: bool = False
+    stale: bool = False
+    schema_version: int = 1
+    provider_modes: dict[str, str] = Field(default_factory=dict)
     fetched_at: datetime
     expires_at: datetime

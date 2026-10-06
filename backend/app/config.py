@@ -62,7 +62,7 @@ class Settings(BaseSettings):
     serpapi_google_domain: str = "google.co.in"
 
     # Enrichment results are shared per locality, so they can live longer than search caches.
-    area_intel_ttl_hours: int = 168
+    area_intel_ttl_hours: int = Field(default=168, ge=1)
 
     # Background jobs (alerts, scheduled refresh). Off by default for local runs.
     scheduler_enabled: bool = False

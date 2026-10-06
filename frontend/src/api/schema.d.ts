@@ -189,6 +189,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/runs/{run_id}/areas": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Run Areas
+         * @description F-05 area snapshots; available progressively during enrichment.
+         */
+        get: operations["get_run_areas_api_runs__run_id__areas_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/properties/{listing_id}": {
         parameters: {
             query?: never;
@@ -370,16 +390,56 @@ export interface components {
             locality: string;
             /** City */
             city: string;
+            /** Region */
+            region?: string | null;
             center?: components["schemas"]["GeoPoint"] | null;
+            center_source?: components["schemas"]["SourceRef"] | null;
             /** Amenities */
             amenities?: components["schemas"]["Amenity"][];
             /** News */
             news?: components["schemas"]["NewsItem"][];
             infrastructure_summary?: components["schemas"]["Sourced_str_"] | null;
+            /** Infrastructure */
+            infrastructure?: components["schemas"]["InfrastructureFact"][];
+            /** Price Levels */
+            price_levels?: {
+                [key: string]: components["schemas"]["Sourced_float_"];
+            };
             price_trend?: components["schemas"]["PriceTrend"] | null;
             rental_demand?: components["schemas"]["RentalDemand"] | null;
             /** Summary */
             summary?: string | null;
+            /** Sources */
+            sources?: components["schemas"]["SourceRef"][];
+            /** Source Retrieved At */
+            source_retrieved_at?: {
+                [key: string]: string;
+            };
+            /** Warnings */
+            warnings?: components["schemas"]["AreaIssue"][];
+            /** Section Status */
+            section_status?: {
+                [key: string]: "ok" | "empty" | "failed" | "unavailable";
+            };
+            /**
+             * Cache Hit
+             * @default false
+             */
+            cache_hit: boolean;
+            /**
+             * Stale
+             * @default false
+             */
+            stale: boolean;
+            /**
+             * Schema Version
+             * @default 1
+             */
+            schema_version: number;
+            /** Provider Modes */
+            provider_modes?: {
+                [key: string]: string;
+            };
             /**
              * Fetched At
              * Format: date-time
@@ -390,6 +450,17 @@ export interface components {
              * Format: date-time
              */
             expires_at: string;
+        };
+        /** AreaIssue */
+        AreaIssue: {
+            /** Operation */
+            operation: string;
+            /** Provider */
+            provider: string;
+            /** Code */
+            code: string;
+            /** Message */
+            message: string;
         };
         /** BudgetStatus */
         BudgetStatus: {
@@ -493,6 +564,14 @@ export interface components {
             llm_mode: components["schemas"]["ProviderMode"];
             /** City */
             city: string;
+        };
+        /**
+         * InfrastructureFact
+         * @description An exact news evidence quote selected by the model, not an inferred project status.
+         */
+        InfrastructureFact: {
+            topic: components["schemas"]["NewsTopic"];
+            evidence: components["schemas"]["Sourced_str_"];
         };
         /**
          * InvestmentGoal
@@ -659,6 +738,8 @@ export interface components {
             outlet?: string | null;
             /** Published On */
             published_on?: string | null;
+            /** Published Text */
+            published_text?: string | null;
             /** Snippet */
             snippet?: string | null;
             /** @default other */
@@ -1407,6 +1488,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["Recommendation"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_run_areas_api_runs__run_id__areas_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AreaIntel"][];
                 };
             };
             /** @description Validation Error */

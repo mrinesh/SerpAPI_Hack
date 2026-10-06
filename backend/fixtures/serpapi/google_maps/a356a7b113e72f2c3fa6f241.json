@@ -1,0 +1,1470 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "school near Whitefield Bengaluru",
+  "type": "search",
+  "hl": "en",
+  "ll": "@12.9698196,77.7499721,15z"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4d1b99d99f40a01e1c37d",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/pFxepdh0Q9srmaFMHoNbqQbR1mS5nHvqJky73mq6EBE/6ac4d1b99d99f40a01e1c37d.json",
+   "markdown_endpoint": "https://serpapi.com/searches/pFxepdh0Q9srmaFMHoNbqQbR1mS5nHvqJky73mq6EBE/6ac4d1b99d99f40a01e1c37d.md",
+   "created_at": "2026-10-06 10:47:21 UTC",
+   "processed_at": "2026-10-06 10:47:21 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/school+near+Whitefield+Bengaluru/@12.9698196,77.7499721,15z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/pFxepdh0Q9srmaFMHoNbqQbR1mS5nHvqJky73mq6EBE/6ac4d1b99d99f40a01e1c37d.html",
+   "prettify_html_file": "https://serpapi.com/searches/pFxepdh0Q9srmaFMHoNbqQbR1mS5nHvqJky73mq6EBE/6ac4d1b99d99f40a01e1c37d.prettify",
+   "total_time_taken": 1.29
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "school near Whitefield Bengaluru",
+   "ll": "@12.9698196,77.7499721,15z",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "school near Whitefield Bengaluru"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "The Bangalore School",
+    "place_id": "ChIJz_DNH_8NrjsRGalorL4dZ6w",
+    "data_id": "0x3bae0dff1fcdf0cf:0xac671dbeac68a919",
+    "data_cid": "12422930801898334489",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0dff1fcdf0cf%3A0xac671dbeac68a919&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0dff1fcdf0cf%3A0xac671dbeac68a919&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9706905,
+     "longitude": 77.7481446
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJz_DNH_8NrjsRGalorL4dZ6w",
+    "provider_id": "/g/119tfyztx",
+    "rating": 4.7,
+    "reviews": 182,
+    "type": "Preschool",
+    "types": [
+     "Preschool"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool"
+    ],
+    "address": "307, Inner Cir Rd, Dodsworth Layout, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 5:30 PM",
+    "hours": "Open · Closes 5:30 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–5:30 PM",
+     "wednesday": "8:30 AM–5:30 PM",
+     "thursday": "8:30 AM–5:30 PM",
+     "friday": "8:30 AM–5:30 PM",
+     "saturday": "8:30 AM–5:30 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–5:30 PM"
+    },
+    "phone": "+91 80 2845 0003",
+    "website": "http://www.thebangaloreschool.in/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true,
+     "online_classes": false
+    },
+    "user_review": "\"The school is very hygiene and also they provide very hygiene food to kids.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlUse_7Pr5Wp5ETyTv43Zxc8GrdRuyfKvM_rJzpVy11gsxoCaoRmOs1OXNHSB3IG-2TZgjRNvan-hVyouHT_4Z_5FpOM2FEBHkBewc_JCVaafWU2uWeyNi-TqD_i_AYq8WalvyLQg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/kHZ85nicHcTbDoIgAADQLyJvuVpbD1mW3dSMpHxhjAgrExS16A_7hP6mrfNwvp-8aaQaGUaROz0uBC9Yq1hNRdmwsulR8TC4VIAqoIxJkMQQFQfF8CCuXSRdH2rY9Z3sRYeL-py0-rLutrhevWWqLYurl5gSkTwiZUXHMNh7znIBbJjxWxJ2pAR5qkUbQNzPsDuX0dae-15w99iT4tU0JeSCDnaLmA6vAFYzfMWTUzVEpOj0ZsfHT8s0TZD_p6D8AU3-Rl8"
+   },
+   {
+    "position": 2,
+    "title": "The Sommer School",
+    "place_id": "ChIJHeODC3wNrjsReE7caY9b2Bk",
+    "data_id": "0x3bae0d7c0b83e31d:0x19d85b8f69dc4e78",
+    "data_cid": "1862339117432196728",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0d7c0b83e31d%3A0x19d85b8f69dc4e78&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0d7c0b83e31d%3A0x19d85b8f69dc4e78&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9601426,
+     "longitude": 77.74687899999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJHeODC3wNrjsReE7caY9b2Bk",
+    "provider_id": "/g/11rt_j0kf7",
+    "rating": 4.8,
+    "reviews": 197,
+    "type": "Preschool",
+    "types": [
+     "Preschool"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool"
+    ],
+    "address": "The Sommer House, 186/A, Whitefield Main Rd, opp. The Forum Neighbourhood Mall, Palm Meadows, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 7 PM",
+    "hours": "Open · Closes 7 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM",
+     "thursday": "9 AM–7 PM",
+     "friday": "9 AM–7 PM",
+     "saturday": "9 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–7 PM"
+    },
+    "phone": "+91 63667 09491",
+    "website": "http://www.thesommerschool.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true,
+     "online_classes": false
+    },
+    "user_review": "\"Classrooms are equipped with age-appropriate learning materials and toys.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmfGEVOxrHNESbLWmbn33hkgdGsvAXmHaAGb9HU96sI25kooTjKFnDnaZlH3j9_R6yZ9mnnAts-kJRxAp-jcRCI4gmkle9PQOTaPw2i-lV6QBlC9xL-ZdbLGHQBNdkj8EzjLdqy=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/6JS1GnicHcTbboIwAADQLyqgOGJN9lCVUZUoIF7CywKFlfWKtirsB_0G_2aJ5-G8nq21nZm5rmh9h2pNRXMzzZVoZRtlHaKlSzsDiAHGRThL8pP8icLjrr_ibbiv4pOslO-3nNaRuaOzxCWKKogPMDCr8QfXOmebL7VUZSGwz-B3FgwFlEohawBfZz3qACPZYjWhkosGJukuL5PH-BeIY5DOxQL2MSjqKo5wOt_WnE3DPxbXl-HzMfI8D7TvCVD_ZrVEqg"
+   },
+   {
+    "position": 3,
+    "title": "Bachpan Play School, White Field, Bengaluru",
+    "place_id": "ChIJDQo4uv4NrjsRfjWY_9wnE3I",
+    "data_id": "0x3bae0dfeba380a0d:0x721327dcff98357e",
+    "data_cid": "8219957575015740798",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0dfeba380a0d%3A0x721327dcff98357e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0dfeba380a0d%3A0x721327dcff98357e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.968800799999999,
+     "longitude": 77.7648384
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJDQo4uv4NrjsRfjWY_9wnE3I",
+    "provider_id": "/g/11cfczwwm",
+    "rating": 4.9,
+    "reviews": 146,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution",
+     "Preschool"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution",
+     "preschool"
+    ],
+    "address": "Survey no. 42/6, Diagonally appartment, Immadihalli Main Rd, opposite Karumariamma temple, opposite Sai Sunrise, Nagondanahalli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "tuesday": "8 AM–6:30 PM",
+     "wednesday": "8 AM–6:30 PM",
+     "thursday": "8 AM–6:30 PM",
+     "friday": "8 AM–6:30 PM",
+     "saturday": "9:30 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–6:30 PM"
+    },
+    "phone": "+91 99000 38268",
+    "website": "http://www.bachpanglobal.com/",
+    "user_review": "\"The staff is very supportive, and the teachers took great care of our child.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnmpuwEMFOeFJVVLiM8IWV7AKkNRREJbxai5AJSSmtm7LrVNLC0x72W-2R3kuTGwtKgFfQ13s-4KB1VLoqpIkPnMluOYEwgeul1HLMrFmYACBgAPI6x-ZoGTglRWb4He5fnRcU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/StIbnHicHcTbboIwAADQL6qAiBiTPVQDcinKCpa4t9HUYugFaRv4wv3D_mbJzsP5_RmsnczR88QQbrjWXDBn2Ey1skzZDdXS45MB1ADjwQzXbafk5JakSm8sLQhBr-qQdySG5XjFOCn69fsVwaJppJUxmskVnf013nZgi8PRtZfFljx9fgahAbvyFBCk31M-1qoS7vZIFs6cCDJUzal8wPOJwzrfr-BLX1oucNfvMhY9Fab3jyXwfR8M_1Og_gDGJ0Nb"
+   },
+   {
+    "position": 4,
+    "title": "Whitefield Global School",
+    "place_id": "ChIJd822Ww8OrjsRRgCSkK_YKpw",
+    "data_id": "0x3bae0e0f5bb6cd77:0x9c2ad8af90920046",
+    "data_cid": "11253044867494969414",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e0f5bb6cd77%3A0x9c2ad8af90920046&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e0f5bb6cd77%3A0x9c2ad8af90920046&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9824244,
+     "longitude": 77.7574972
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJd822Ww8OrjsRRgCSkK_YKpw",
+    "provider_id": "/g/11_s8n7l8",
+    "type": "CBSE school",
+    "types": [
+     "CBSE school",
+     "ICSE school",
+     "International school",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school",
+     "Primary school",
+     "Secondary school",
+     "Senior high school"
+    ],
+    "type_id": "cbse_school",
+    "type_ids": [
+     "cbse_school",
+     "icse_school",
+     "international_school",
+     "kindergarten",
+     "montessori_school",
+     "nursery_school",
+     "primary_school",
+     "secondary_school",
+     "senior_high_school"
+    ],
+    "address": "KRS Garden, Channasandra Main Rd, near Hope Farm Circle, Ambedkar Nagar, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 5:45 PM",
+    "hours": "Open · Closes 5:45 PM",
+    "operating_hours": {
+     "tuesday": "8 AM–5:45 PM",
+     "wednesday": "8 AM–5:45 PM",
+     "thursday": "8 AM–5:45 PM",
+     "friday": "8 AM–5:45 PM",
+     "saturday": "8 AM–3 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–5:45 PM"
+    },
+    "phone": "+91 80 2845 3443",
+    "website": "http://wgs-cet.in/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnnqxwIwxCvjy-UUbGCuXads00Gw4uBavZJvfZvfcTu3Ep484WrLkgW65a34VNhyC0xNQStwcQiu6kTA1mRVqanBSIhnosv2WBGQSvT38T8hjTjUIlrJydhC8ONR_RBaw43FiBi=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FImVwnicHcRdboIwAADgE1XqWg1ZsgdLJmIWNqCI8WWpFSmILdI_OOHOsNuY-D18_3_CmEG_B0Ev0KJRqulrq-uRK2lqaRZc3YNm0IBroIPNLv-hlZSPySd-ilw3g7I8x5E9souGMPbYEuZOe3c9uSunFn0OOMTV-HVrqvWKIXxIxRzBKc0K43nW2vWNbpb3_PBgkhSJkEq7t4rEWeEoCmkoOtqVST_u54uIwu80_80J8xhtW9J--CWEEIjXHMgn8WtFng"
+   },
+   {
+    "position": 5,
+    "title": "EuroKids Preschool in Whitefield, Bengaluru",
+    "place_id": "ChIJ00rmxfgNrjsRVi84NnEii8Q",
+    "data_id": "0x3bae0df8c5e64ad3:0xc48b227136382f56",
+    "data_cid": "14162451322832957270",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0df8c5e64ad3%3A0xc48b227136382f56&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0df8c5e64ad3%3A0xc48b227136382f56&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.974257699999999,
+     "longitude": 77.7455696
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ00rmxfgNrjsRVi84NnEii8Q",
+    "provider_id": "/g/11r8wbc9x",
+    "rating": 4.8,
+    "reviews": 145,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school",
+     "Playgroup"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "day_care_center",
+     "kindergarten",
+     "montessori_school",
+     "nursery_school",
+     "playgroup"
+    ],
+    "address": "21, 1st Cross, Pattandur Agrahara ECC Rd, Shankarappa Layout, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9 AM Wed",
+    "hours": "Closed · Opens 9 AM Wed",
+    "operating_hours": {
+     "tuesday": "9 AM–4 PM",
+     "wednesday": "9 AM–4 PM",
+     "thursday": "9 AM–4 PM",
+     "friday": "9 AM–4 PM",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–4 PM"
+    },
+    "phone": "+91 93795 72265",
+    "website": "https://www.eurokidsindia.com/preschool-in-bangalore/borewell-road-whitefield/?utm_source=google&utm_medium=organic&utm_id=gmb_listing",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true,
+     "online_classes": false
+    },
+    "user_review": "\"Excellent curriculum and focused on kids learning and adaptation.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkWcLzUYQorUJTfwVzzgKs2WQjJomwqwa7rwz8EWJZNWgkra8RYoIpmJWwL4zXp5UUDiQSeQFSdqhqChLkz-kAAKQ0l5LwvwnWZb3B_f_smSWNr0v0i-nnCPZLjDdcddkL5Fyv-=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/WIBv1nicHcTbDoIgAADQLyLp4mptPdjFlbEWmVG-NEODQkHBZPGDfUN_09Z5ON8Pb9vaTD2v5MMeU4qVxcsUmirZFrLtUVV5rDaAGmC8YH3YH4kgFLnkgpVOouPdnpxjWzMg-BmpyjY2G2vrJisSpTvChM4mh4va1FVELBq5c-0nyfKB4wKHcd7wZsGRcEAEwRbD0ke2s5Kkt-H8er-aKiY7DTv4AFIu9il6LnOa5wL54bsDM9uHEAL-nwL5A1ysRu4"
+   },
+   {
+    "position": 6,
+    "title": "VedaVihaan The Global School - Best Pre School & Day Care Whitefield - Campus - 2, ವೇದ ವಿಹಾನ್ ಗ್ಲೋಬಲ್ ಸ್ಕೂಲ್ - ವೈಟ್ ಫೀಲ್ಡ್",
+    "place_id": "ChIJkZNd-64NrjsRD2YvdtaNwL8",
+    "data_id": "0x3bae0daefb5d9391:0xbfc08dd6762f660f",
+    "data_cid": "13817199609018017295",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0daefb5d9391%3A0xbfc08dd6762f660f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0daefb5d9391%3A0xbfc08dd6762f660f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9667002,
+     "longitude": 77.7604266
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJkZNd-64NrjsRD2YvdtaNwL8",
+    "provider_id": "/g/11j4vl3prz",
+    "rating": 4.9,
+    "reviews": 252,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "CBSE school",
+     "Child care agency",
+     "Day care center",
+     "ICSE school",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school",
+     "Playgroup"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "cbse_school",
+     "child_care_agency",
+     "day_care_center",
+     "icse_school",
+     "kindergarten",
+     "montessori_school",
+     "nursery_school",
+     "playgroup"
+    ],
+    "address": "PNK Tyres, 184, Sri Byraweshware Nilya Whitefield Main Road, Immadihalli Main Rd, near JK Tyre Steel Wheels, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–6 PM",
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "9 AM–6 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM"
+    },
+    "phone": "+91 84312 47406",
+    "website": "http://www.vedavihaan.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Online classes",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE ",
+       "Affiliated with CISCE "
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     },
+     {
+      "children": [
+       "Has changing table(s)",
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking",
+       "On-site parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_classes": true,
+     "onsite_services": true
+    },
+    "user_review": "\"The school encourages learning ,values,and extracurricular activities.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzX80EbyYzUDbdMyfPEY59sMuar6Ie6YiP1_s7gNjudM7dLr6uEN6vxejzzQOQ2JcAPBECS9qBA7-etdIslLACIx8FI3hRmgNqo2qAvSiMuD6U3YnDk2yaWV8dQfAXaT9FSOyt=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XugN5nicHcThEoEwAADgJ5pSZ5U7P0Y5OaUU6perbRbS1DbUC3oGb-PO9-P7fiopH2KqaXVljhjnrKZK0A7zRtJGjjC_a-whABZAaGi1i9JjPWS27pV9PuzdkgT9OfLyiSMCVXTQpzC_ROOTsFh4VSSwyKaDygvh802vwxBvY2ONUTT3FonTzpEFqCS-qDdo4b_tpW9WuzsLW2606JlcAuXCvZk37s3oi-PBJvEZZUXqLJNtL2evsa7roPqPQfMDaGlEgA"
+   },
+   {
+    "position": 7,
+    "title": "Narayana eTechno (CBSE) School - Whitefield",
+    "place_id": "ChIJCfj2rQITrjsRdYju7XVXbhY",
+    "data_id": "0x3bae1302adf6f809:0x166e5775edee8875",
+    "data_cid": "1616325480287209589",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1302adf6f809%3A0x166e5775edee8875&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1302adf6f809%3A0x166e5775edee8875&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.968389499999999,
+     "longitude": 77.7417613
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCfj2rQITrjsRdYju7XVXbhY",
+    "provider_id": "/g/11h0qtb2x6",
+    "rating": 4.2,
+    "reviews": 408,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution",
+     "CBSE school",
+     "College",
+     "Education center",
+     "Junior college"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution",
+     "cbse_school",
+     "college",
+     "education_center",
+     "junior_college"
+    ],
+    "address": "No 251, Emerald Enclave, Ramagondanahalli Borewell Rd, beside SUMADHURA ANANDAM, Palm Meadows, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closes soon · 4:30 PM · Opens 8:15 AM Wed",
+    "hours": "Closes soon · 4:30 PM · Opens 8:15 AM Wed",
+    "operating_hours": {
+     "tuesday": "8:15 AM–4:30 PM",
+     "wednesday": "8:15 AM–4:30 PM",
+     "thursday": "8:15 AM–4:30 PM",
+     "friday": "8:15 AM–4:30 PM",
+     "saturday": "8:15 AM–4:30 PM",
+     "sunday": "8:15 AM–4:30 PM",
+     "monday": "8:15 AM–4:30 PM"
+    },
+    "phone": "+91 1800 102 3344",
+    "website": "https://branches.narayanaschools.in/narayana-school/education-in-bengaluru/education-in-Whitefield/narayana-etechnoschool-in-Whitefield-bengaluru--5zlmV0/home",
+    "user_review": "\"Excellent academic with integrated curriculum for children.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmX9XnKFa6_0UDNkfUnnjDeFIvcpMwj2y_YTD0hGPt9yWEZLASVWXhcg8o5--SpMXsJiFmHzHinjLDqAsgsGe6ewr7KiJNOhZ_tju0B0Mm-H_JyUcJJ5Kx8WA7VE2mhFAOMAx6QJwV74Us=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rIhIc3icHcTbboIwGADgJ6p0HkBNvKhBYEU8c5AbYpquhdmW-VeRPaT3exuTfRff30ta28Lcca5yNBDGiCu_A78xoy3XdsCMckQLiAECh0SH3SlXxazQcXBxK5z6m--vVOvG58Hng7VJ1wz76nzysQx3dtbnq3JNjlleSCamZoLQsU0KoHWgot-o1s3a_yEgIOQu725eXNPNVpaVbe54iROFoor2KaN0Ej-nOfGy1VDJgGwT8nT3tMu8cQqL7gNjjOT_DOk3YtlGkQ"
+   },
+   {
+    "position": 8,
+    "title": "KLAY Whitefield Main Road - Preschools and Daycare",
+    "place_id": "ChIJZQ4mZ0INrjsRQ8z773CsL0M",
+    "data_id": "0x3bae0d4267260e65:0x432fac70effbcc43",
+    "data_cid": "4841277725509143619",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0d4267260e65%3A0x432fac70effbcc43&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0d4267260e65%3A0x432fac70effbcc43&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9622041,
+     "longitude": 77.74766819999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZQ4mZ0INrjsRQ8z773CsL0M",
+    "provider_id": "/g/11gzpy_zrx",
+    "rating": 4.8,
+    "reviews": 427,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "After school program",
+     "Day care center",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "after_school_program",
+     "day_care_center",
+     "kindergarten",
+     "montessori_school",
+     "nursery_school"
+    ],
+    "address": "122/1, Whitefield Main Rd, Palm Meadows, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 7:30 PM",
+    "hours": "Open · Closes 7:30 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–7:30 PM",
+     "wednesday": "8:30 AM–7:30 PM",
+     "thursday": "8:30 AM–7:30 PM",
+     "friday": "8:30 AM–7:30 PM",
+     "saturday": "9:30 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–7:30 PM"
+    },
+    "phone": "+91 76767 08888",
+    "website": "https://klay.co.in/foundational-development-program/bangalore/whitefield-main-road/?utm_source=GMB&utm_medium=gmb_organic_bangalore&utm_campaign=bangalore-whitefield-main-road",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     },
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true,
+     "online_classes": false
+    },
+    "user_review": "\"The classrooms are bright, clean, and child-friendly.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWngAYjj5oNvv8LaiOIxpsvXF0iIwEX-Kshc0KuFDhakJnr5TbyZQhrEoV3V0px-FSubFIHrai8Vq8ErSnXG2pFtMegnuWiiCleS0-gPeXPIC5lQFb1n3wb0tbmr6WXLUP5LsorQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/DSYT7XicHcRRboIwAADQExWKhIUs2QdxVJmoIArVP9o0bR20XVtAT7gz7DZLfB_v71d4b9x7GA4iDrjWfGCTY5Zq5ZnyAdVjyI0D1AEXZttTde4Uz673e6IP85yWvTwWD-NmjKAslhyDnRMU7ib0KfrvL2WTM3neamFz3cYtNA-AmomgYmt7mbY_aW4bhTcrg_yecTV1Uq4H1kDAK4arYp0MNSKRihcCPRntW4fLS5WUTtv6Y4kghEC8pkD9A9P5RaM"
+   },
+   {
+    "position": 9,
+    "title": "United World Academy, Whitefield Campus",
+    "place_id": "ChIJG8aMEv4TrjsRkBM8t-8mjhA",
+    "data_id": "0x3bae13fe128cc61b:0x108e26efb73c1390",
+    "data_cid": "1192933762312967056",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae13fe128cc61b%3A0x108e26efb73c1390&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae13fe128cc61b%3A0x108e26efb73c1390&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9608448,
+     "longitude": 77.7326483
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJG8aMEv4TrjsRkBM8t-8mjhA",
+    "provider_id": "/g/11gmc43c5l",
+    "rating": 4.8,
+    "reviews": 29,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "International school",
+     "Kindergarten"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "international_school",
+     "kindergarten"
+    ],
+    "address": "126/5/3, Nallurahalli Main Rd, Palm Meadows, Siddapura, Whitefield, Village, Varthur, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8:30 AM Wed",
+    "hours": "Closed · Opens 8:30 AM Wed",
+    "operating_hours": {
+     "tuesday": "8:30 AM–4 PM",
+     "wednesday": "8:30 AM–4 PM",
+     "thursday": "8:30 AM–4 PM",
+     "friday": "8:30 AM–4 PM",
+     "saturday": "8:30 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–4 PM"
+    },
+    "phone": "+91 76249 81601",
+    "website": "https://uwa.edu.in/",
+    "user_review": "\"This preschool has a nice campus supported by good staff and facilities.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnZkhw1q9MtIGGnlN_CLwZ_aZP9snf6VNGkploP5aKE2RNoFxVc7_x3AHdDbshDgO70LbKdOq7fE3-G-o5ctCD4qR1_aw2gdmcwbsX3CKPeiC37Hdd-J6jLFs87Pmrv4swTJVM6DQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/SQ5UOHicHcRRboIwGADgE1XAKtUlPhBQmCBWYtjCC4EW201owb9ar-gRdhuTfQ_f30saM8KH4_QSz4TWou_u0N2YVqZTZsb04IgREAMETpAU9Pylqqu03rQ-mM84Vn1eh5mt6qaia1AXv8zj69hrumzS7bzI9e5ZMlI_cZDwqAUZiSNxszblx4lcthjFSC-ZCaPFVHh1Y-eCD8y28I3DlHY_ISYJ52jv_2Y7WBE63B4LsOd9efCj08Z6rusi-T9D6g3VmkRk"
+   },
+   {
+    "position": 10,
+    "title": "EuroSchool Whitefield - CBSE School",
+    "place_id": "ChIJq-m3y5ERrjsRwHNtyLEB-1s",
+    "data_id": "0x3bae1191cbb7e9ab:0x5bfb01b1c86d73c0",
+    "data_cid": "6627893139689272256",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1191cbb7e9ab%3A0x5bfb01b1c86d73c0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1191cbb7e9ab%3A0x5bfb01b1c86d73c0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.985636099999999,
+     "longitude": 77.7137513
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq-m3y5ERrjsRwHNtyLEB-1s",
+    "provider_id": "/g/11b6cqm50f",
+    "rating": 4.3,
+    "reviews": 122,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution",
+     "CBSE school",
+     "Education center",
+     "Elementary school",
+     "High school",
+     "Higher secondary school",
+     "Kindergarten",
+     "Middle school",
+     "Nursery school",
+     "Preschool"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution",
+     "cbse_school",
+     "education_center",
+     "elementary_school",
+     "high_school",
+     "higher_secondary_school",
+     "kindergarten",
+     "middle_school",
+     "nursery_school",
+     "preschool"
+    ],
+    "address": "No. 36, 183, NCPR Industrial Layout, Doddanakundi Industrial Area 2, Seetharampalya, Whitefield, Bengaluru, Karnataka 560048, India",
+    "country": "India",
+    "open_state": "Closes soon · 5 PM · Opens 8 AM Wed",
+    "hours": "Closes soon · 5 PM · Opens 8 AM Wed",
+    "operating_hours": {
+     "tuesday": "8 AM–5 PM",
+     "wednesday": "8 AM–5 PM",
+     "thursday": "8 AM–5 PM",
+     "friday": "8 AM–5 PM",
+     "saturday": "8 AM–5 PM",
+     "sunday": "10 AM–2 PM",
+     "monday": "8 AM–5 PM"
+    },
+    "phone": "+91 80 6983 2148",
+    "website": "https://www.euroschoolindia.com/best-schools-in-bangalore/cbse-whitefield/?utm_source=google&utm_medium=organic&utm_id=gmb_listing",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "user_review": "\"My kid is studying here under the expert tutelage of euroschool teachers.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWliUA23U4F70qnFuuPe1eKLGXVK2vg4_rqtApx1ujyIfk-YkSNcZDzmvxeNJdyj-trpUwC4XR28cLJYIfbTEG7nDm9gX6-9NGH5RpPnWz46jqAKJZ8QkE6BBmse2SFsJ8-0MkpL=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zyRdnHicHcTbEoFAAADQL9raksSMh9A9TSLixYy1Nl22rd2QH_QN_saM83C-n1wIxmeyXOUjiTQNqXDPcYcaKjAVEmpqmTAOEAdcNt0k3h2qe2qqo1SzJ7Cldt_HWMFB6GT7QH0Q7dy1wmQvpS8G71aCY7mN0Gn1rh8vHPnXoQCiY-lzqWWJaqDQP3q3y85yJnRVT0mmg2nkuOOExfTw1vSiNQP_ZGxKS18sao7Vrc19A8B1ycL5U4EQgvw_AvQHQsBDrA"
+   },
+   {
+    "position": 11,
+    "title": "Vydehi School of Excellence",
+    "place_id": "ChIJOepcy_cRrjsRVq3-j3e7y0E",
+    "data_id": "0x3bae11f7cb5cea39:0x41cbbb778ffead56",
+    "data_cid": "4741089154928913750",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11f7cb5cea39%3A0x41cbbb778ffead56&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11f7cb5cea39%3A0x41cbbb778ffead56&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9743965,
+     "longitude": 77.73103119999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJOepcy_cRrjsRVq3-j3e7y0E",
+    "provider_id": "/g/1tc_2jks",
+    "type": "CBSE school",
+    "types": [
+     "CBSE school",
+     "Co-ed school",
+     "High school",
+     "Higher secondary school",
+     "K-12 school",
+     "Kindergarten",
+     "Preschool",
+     "Primary school",
+     "Secondary school",
+     "Senior high school"
+    ],
+    "type_id": "cbse_school",
+    "type_ids": [
+     "cbse_school",
+     "coed_school",
+     "high_school",
+     "higher_secondary_school",
+     "k_12_school",
+     "kindergarten",
+     "preschool",
+     "primary_school",
+     "secondary_school",
+     "senior_high_school"
+    ],
+    "address": "Vydehi Campus 82, Main Road, next to TESCO, EPIP Zone, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closes soon · 4:30 PM · Opens 7:30 AM Wed",
+    "hours": "Closes soon · 4:30 PM · Opens 7:30 AM Wed",
+    "operating_hours": {
+     "tuesday": "7:30 AM–4:30 PM",
+     "wednesday": "7:30 AM–4:30 PM",
+     "thursday": "7:30 AM–4:30 PM",
+     "friday": "7:30 AM–4:30 PM",
+     "saturday": "7:30 AM–4:30 PM",
+     "sunday": "Closed",
+     "monday": "7:30 AM–4:30 PM"
+    },
+    "phone": "+91 80 6993 6600",
+    "website": "http://www.vydehischool.com/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking",
+       "On-site parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnA0fK4tILxXAFuYLRBkUIC9wVahv3y2aaGpaDXUnCdOKbI6jtlSAyMEyNi-t1wBtYzmLa8mUqd-VIW93MXxBJIWimlNY3xYbguhJXydCsdh2TybCmgJLFgFL9u7FF52DY6NvDX=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/P_T0-HicHcRLcoIwAADQE0UQ_JTOdMHHaDDSjooky_AxsSWBNkFIL9gz9DbO-Bbv_08Y0-tXx2mFP-Ndx9tm0M1P1SnTKDOrOunwXoNKA-2Eu-PHuVChe90vDMITCeFA8TH6ylEcjBcm7r71GNv2LCG5iuv3fYlWn6Y9hfawsdkNmPkYGforMXuR-XcNLqgI_AOZohQVN9lm1J9oyQeRElvHuhbe2Zax5CmGHOJgWEO49BK6yu4JeRvnrusC8bwC6gFrO0SQ"
+   },
+   {
+    "position": 12,
+    "title": "LITTLE ODYSSEY PRESCHOOL Whitefield",
+    "place_id": "ChIJ0YFGx_0NrjsROusOu3ycRZ8",
+    "data_id": "0x3bae0dfdc74681d1:0x9f459c7cbb0eeb3a",
+    "data_cid": "11476751284951771962",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0dfdc74681d1%3A0x9f459c7cbb0eeb3a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0dfdc74681d1%3A0x9f459c7cbb0eeb3a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9677677,
+     "longitude": 77.76556339999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ0YFGx_0NrjsROusOu3ycRZ8",
+    "provider_id": "/g/11q3spxp1p",
+    "rating": 4.9,
+    "reviews": 97,
+    "type": "Preschool",
+    "types": [
+     "Preschool"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool"
+    ],
+    "address": "No 6, Rudrappa layout, Immadihalli Main Rd, beside MK Elite Apartment, Immadihalli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–6:30 PM",
+     "wednesday": "8:30 AM–6:30 PM",
+     "thursday": "8:30 AM–6:30 PM",
+     "friday": "8:30 AM–6:30 PM",
+     "saturday": "9:30 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–6:30 PM"
+    },
+    "phone": "+91 86601 70956",
+    "website": "http://littleodyssey.org/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Amazing teachers, best learning facility , curriculum & environment.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmQGCkkUw4ykZ1XSHFU3AWHnyY0Q-YUG2Pxp4qbCa4Kn-6q8q6FdYQhdDR1yOjTDuvi755hmIrH-MPzLN1pCgT4-T9g3hX204NvHNWMXEw2IpF04kFvTBUB2QaalSocPTvePaU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/dCtnTHicHcRRkoIgAADQE5GoVLvN9FGW0exmWDBqf0YOlAoYptkBu8PeZmd6H-_vLdvW2JnjVNIfCa1FVTxscedatYVqR1zXjjAWcAuss8AHQpM63gRlyXo0lCc3PeKQ-YsEqyGDMcjYxiNPg5pzkKMfBSbNVzMJL1ksL6uDO-xvdPXortPxWNbbOwY78vqNXBMIigD9Fr5MPYiiDkfJLl333taEEJVhR5ds6cV5Xh01J7QrSM7mvQshBPIzB-ofdXBCUA"
+   },
+   {
+    "position": 13,
+    "title": "Kangaroo Kids International Preschool in Whitefield, Bengaluru",
+    "place_id": "ChIJt2YQARIRrjsRJiuI5p7NtNg",
+    "data_id": "0x3bae1112011066b7:0xd8b4cd9ee6882b26",
+    "data_cid": "15615331890356562726",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1112011066b7%3A0xd8b4cd9ee6882b26&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1112011066b7%3A0xd8b4cd9ee6882b26&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9649594,
+     "longitude": 77.7583447
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJt2YQARIRrjsRJiuI5p7NtNg",
+    "provider_id": "/g/11fnrc_yvj",
+    "rating": 4.9,
+    "reviews": 160,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "International school",
+     "Kindergarten",
+     "Nursery school",
+     "Playgroup"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "international_school",
+     "kindergarten",
+     "nursery_school",
+     "playgroup"
+    ],
+    "address": "Maruthi Krupa, Kangaroo Kids International Preschool, 232, Hagadur Main Rd, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "hours": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "operating_hours": {
+     "tuesday": "9 AM–5 PM",
+     "wednesday": "9 AM–5 PM",
+     "thursday": "9 AM–5 PM",
+     "friday": "9 AM–5 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "9 AM–5 PM"
+    },
+    "phone": "+91 95134 42892",
+    "website": "https://www.kangarookids.in/preschool-in-bangalore/whitefield/?utm_source=google&utm_medium=organic&utm_id=gmb_listing",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true,
+     "online_classes": false
+    },
+    "user_review": "\"Kangaroo kids emphasises on academic as well as extra curricular activities.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnb1dyb4ws6wjZE5XBz1ZLt4lMiLz6tr3Lenz6nOeYAFytVUhrl6mI7ZGY1olEFsHXBGmowsiOz7NTkt5jtwj3_2jDt-mqbr_82wfv53Z3DTEWn_MS-K-Lyo0jJfl3wxh32d_5bYA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/De9AJnicHcRJDoIwFADQE1WGAhoTFxgBBxyiOMCGBKzUWlqlXyvc0CN4GxPf4n0_FOCuhobBKe5VUlacPBVpSimACOiVsjaqu0KlQsrwp9tNchSFdW4LRytPsyxwT-POymJw-PIadx40OCai88SapH7YwmFPG-7Vs34WpZbkQaimp3FUS62u666_Sm7gMtAM5zabAKofRZMPbH15uTjDkyQ4iny5QwsUt9Jk8wvH-k2xfc7dIvVH2jJNE9H_JRI_Vn9F_Q"
+   },
+   {
+    "position": 14,
+    "title": "SISA Indo Swiss Academy",
+    "place_id": "ChIJhWHlyQQOrjsRi0lZRt0afIE",
+    "data_id": "0x3bae0e04c9e56185:0x817c1add4659498b",
+    "data_cid": "9330362065675176331",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e04c9e56185%3A0x817c1add4659498b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e04c9e56185%3A0x817c1add4659498b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.970606799999999,
+     "longitude": 77.7502619
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhWHlyQQOrjsRi0lZRt0afIE",
+    "provider_id": "/g/11c71jzgbx",
+    "rating": 4.2,
+    "reviews": 175,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution",
+     "Career guidance service",
+     "Charter school",
+     "Consultant",
+     "Education center",
+     "Educational consultant",
+     "Learning center",
+     "Studying center"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution",
+     "career_guidance_service",
+     "charter_school",
+     "consultant",
+     "education_center",
+     "educational_consultant",
+     "learning_center",
+     "studying_center"
+    ],
+    "address": "HDFC Bank, 41, Opp:, Whitefield Main Rd, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8:30 AM Wed",
+    "hours": "Closed · Opens 8:30 AM Wed",
+    "operating_hours": {
+     "tuesday": "8:30 AM–4 PM",
+     "wednesday": "8:30 AM–4 PM",
+     "thursday": "8:30 AM–4 PM",
+     "friday": "8:30 AM–4 PM",
+     "saturday": "8:30 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–4 PM"
+    },
+    "phone": "+91 95380 31913",
+    "website": "https://sisaacademy.org/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "user_review": "\"A wonderful school with dedicated staff and a positive learning atmosphere.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkfKNGoRLdGypM88kam2bekRvjVntNSK1YEUVKVHSkitnsy92b20ppI_QiGYBPp-Kjudn-crqDvQhaFCiz0dY7Q3LYmBCt7W4RObNXoxUrteucBXr2zePvhAcLfXbEhAdWF4fO2mA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/mM8NXnicHcRJDoIwAADAF1VqNXFJPIAKGhABleVkoBSKSFtpQeWHPsHfmDiH-X6oUkIuNe1OJ6OS8_JOOklazJkiTI0wb7RSSIAlkJq-C7xzVBe2a_HAya23OMznddqgjNRBfwuZck_2ONleQjvcnepKMfleoAxBIfZXv7ISwxPAvnU5A7h9bHqfpua6GmCezPyJkzTGWs2iaXDM3Ji_Lq0iHTbiFg3E66mOnSLOtlTPI3NaHFGjr55jCCGg_zFgP0j2Rjc"
+   },
+   {
+    "position": 15,
+    "title": "Chrysalis Kids, Whitefield",
+    "place_id": "ChIJLws4uv4NrjsRZWRqsaMGvJE",
+    "data_id": "0x3bae0dfeba380b2f:0x91bc06a3b16a6465",
+    "data_cid": "10501275731247129701",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0dfeba380b2f%3A0x91bc06a3b16a6465&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0dfeba380b2f%3A0x91bc06a3b16a6465&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.964146699999999,
+     "longitude": 77.7494286
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJLws4uv4NrjsRZWRqsaMGvJE",
+    "provider_id": "/g/12qfmh9_s",
+    "rating": 4.6,
+    "reviews": 73,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Educational institution",
+     "Kindergarten",
+     "Montessori school",
+     "Nursery school"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "educational_institution",
+     "kindergarten",
+     "montessori_school",
+     "nursery_school"
+    ],
+    "address": "3 & 4, behind First Cry Showroom, Giddens Layout, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closes soon · 5 PM · Opens 8 AM Wed",
+    "hours": "Closes soon · 5 PM · Opens 8 AM Wed",
+    "operating_hours": {
+     "tuesday": "8 AM–5 PM",
+     "wednesday": "8 AM–5 PM",
+     "thursday": "8 AM–5 PM",
+     "friday": "8 AM–5 PM",
+     "saturday": "8 AM–5 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–5 PM"
+    },
+    "phone": "+91 70223 76608",
+    "website": "https://www.chrysaliskids.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_classes": true
+    },
+    "user_review": "\"The teachers are well trained and are approachable.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWloFPNcAeNzHgb_DW3v7z4uZAmmqy5a_8UvcNRB89Er6mTiBtSl8SutZzhU3xYjscHbOKbJ6fz0bvH0aIcrQBAr1Q4RjP_lV1bYQWRbkCusVjoMO9KL-UguAP6XlOhyc5eTbDGHUQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/wLpy9HicHcRNUoMwGADQE6WEoUXqjItg1bRV_grFdsM036RJMZBKErTc0CN4G2d8i_f7I629mnvPUzKYCa2F4s7wAXRveW9noDtPXA0Cg4xHaJGVtdLPWQKEJxMVrFnVwXg3zd2RdN3nbXFqomqEpIij5dMQduUltjsV7Zw9TrIKvg-tAcrSLduE5wmzkeLTGoY8JoOfz4s2a9TeZ4e8LtjHozP7Vr-ly-0rqoQjWfiuUnmDBS_Z6oVW-cOXjzFG8n9A_R82N0XK"
+   },
+   {
+    "position": 16,
+    "title": "Prachitee Experiential School- Borewell Road, Whitefield",
+    "place_id": "ChIJUTXCOwESrjsRs82kpjs3R58",
+    "data_id": "0x3bae12013bc23551:0x9f47373ba6a4cdb3",
+    "data_cid": "11477202904715414963",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae12013bc23551%3A0x9f47373ba6a4cdb3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae12013bc23551%3A0x9f47373ba6a4cdb3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9694378,
+     "longitude": 77.7421468
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJUTXCOwESrjsRs82kpjs3R58",
+    "provider_id": "/g/11bwfm7m57",
+    "rating": 4.7,
+    "reviews": 231,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "Montessori preschool"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "day_care_center",
+     "montessori_preschool"
+    ],
+    "address": "66, Borewell Rd, Dodsworth Layout, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "hours": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "operating_hours": {
+     "tuesday": "9 AM–5 PM",
+     "wednesday": "9 AM–5 PM",
+     "thursday": "9 AM–5 PM",
+     "friday": "9 AM–5 PM",
+     "saturday": "9 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–5 PM"
+    },
+    "phone": "+91 99007 60197",
+    "website": "http://www.prachitee.com/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true,
+     "online_classes": false
+    },
+    "user_review": "\"Teachers are very energetic and show lots of  enthusiasm to engage kids.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlPfaxVtzWGAGriGM2GF-XWhiStm53rAAQ3uMA_2jvmkB4_IaFmuYUQZlnlK4bZ4dn2vi8wAPfrLNW23zzolEzePr0801V5UEEM1T3vTqwn_xGOstRlYOJpNcn3T0890dW3on5S=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/i_s6yXicHcRdDoIgAADgE5EoullbD7Qp_VlWFtWLKzK1EAxQmxfsDN2mre_h-34KY2o9sixeoEEuZc6zRmeKSWEyYQZMVlZea8A00BaebuOE8vh-eR9MTwkmqiSRQ0JwpEW5M5WHFMYb1EQ4dR5t9Zy46ewSVs1pvzlzwRfu9ezehNOWfofju1quqIP6XvKgz2IFfWgfvH0QRHaC2uTVifRN1tps-Wk9r1dMoAT6Q3ijSApvN-5sCCEo_jMgfmZERE0"
+   },
+   {
+    "position": 17,
+    "title": "Indus Early Learning Centre Whitefield",
+    "place_id": "ChIJV21s6P8RrjsRoinnyv9qrf4",
+    "data_id": "0x3bae11ffe86c6d57:0xfead6affcae729a2",
+    "data_cid": "18351441703457991074",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11ffe86c6d57%3A0xfead6affcae729a2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11ffe86c6d57%3A0xfead6affcae729a2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.974347799999999,
+     "longitude": 77.74530349999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJV21s6P8RrjsRoinnyv9qrf4",
+    "provider_id": "/g/1pycgl_3t",
+    "rating": 4.9,
+    "reviews": 77,
+    "unclaimed_listing": true,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Kindergarten",
+     "Nursery school"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "kindergarten",
+     "nursery_school"
+    ],
+    "address": "132, ECC Road 3 & 4, Dodsworth Layout, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8:30 AM Wed",
+    "hours": "Closed · Opens 8:30 AM Wed",
+    "operating_hours": {
+     "tuesday": "8:30 AM–2:30 PM",
+     "wednesday": "8:30 AM–2:30 PM",
+     "thursday": "8:30 AM–2:30 PM",
+     "friday": "8:30 AM–2:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "8:30 AM–2:30 PM"
+    },
+    "phone": "+91 97392 00007",
+    "website": "https://whitefield.indusschool.com/",
+    "user_review": "\"The school has a very natural atmosphere and is very calm.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrAh1BHSUNMqAJcZxZdvdKfJzd76epvY6mqM8KnZv5xpV4LAdA_nOSCS0nbBXNa-zRnajlmeu0CnszTNotrlSWYGufPsfpeP6cLpJQ47OEDYNl8s5q2ZwLrg6G9dQkogHZ3poH=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/5jO_snicHcTbDoIgAADQLyLpZpetB6yWMzPLbvLSChBXCChozR_sG_qbts7D-X5ya7WZOo7I-x2uFBesNqwiSlombYeowuHaAGKAcZC_jw_nokJ51_OTY7QpUUDwG9OGrrOgpSOX6SZ1i3IzXkvcDN_6NAgRRVe5TeYJlHfvEt1Au5e3hyhYDefStIdI2Uok53RVZ7HJNItdEupgNxhtl4s0EmMzLHv4FVbcXU3o7qm4j_ta-bNXF0II8v8EyB_J8EXO"
+   },
+   {
+    "position": 18,
+    "title": "Glentree Academy School - Whitefield Bangalore",
+    "place_id": "ChIJ76YaIQUSrjsRhKBQZ4z2ahc",
+    "data_id": "0x3bae1205211aa6ef:0x176af68c6750a084",
+    "data_cid": "1687432093292863620",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1205211aa6ef%3A0x176af68c6750a084&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1205211aa6ef%3A0x176af68c6750a084&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9654628,
+     "longitude": 77.73487
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ76YaIQUSrjsRhKBQZ4z2ahc",
+    "provider_id": "/g/1q663t7sy",
+    "type": "CBSE school",
+    "types": [
+     "CBSE school"
+    ],
+    "type_id": "cbse_school",
+    "type_ids": [
+     "cbse_school"
+    ],
+    "address": "Nallurahalli Main Rd, Palm Meadows, Nallurhalli, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closed · Opens 8 AM Wed",
+    "hours": "Closed · Opens 8 AM Wed",
+    "operating_hours": {
+     "tuesday": "8 AM–4 PM",
+     "wednesday": "8 AM–4 PM",
+     "thursday": "8 AM–4 PM",
+     "friday": "8 AM–4 PM",
+     "saturday": "8 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–4 PM"
+    },
+    "phone": "+91 78997 38130",
+    "website": "https://www.glentreeacademy.com/glentree-whitefield",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "On-site parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnUvsbNWXHPu0IrxK0jISHuqyePJYWTjeOz42Hewdk2uD2Hs-_8mjVPcIaX1COZphBlafyy0bD_zscTykGIwMoRlb2GhkaMEbjvmsMvH9DZivVHlJmix4qeXaSvy1yaW_FehwlJ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/E3Aq8XicHcRBcoIwFADQEwUCZWGdcaFFDThURlHQDRNiSoBA0A_BeMGeobfpjG_x_n7FMPQwt20pPqxSqVLyEfiDqW7g3WAx1dplD4gBAntJDnGSdicNxXeakXjEweO5w3VwJOPd8Di8pEnN9y_PJXy6Ne7ouwRQPmvrc8wCmjlf-2svVpL-GIMLP38BS0yzDaZIHWThbkVDo3VR6xYiTT79a6XPRIZt9fTuPKNHbRxD03zDxSTDxeRgjJF4z1D3DwxjRzc"
+   },
+   {
+    "position": 19,
+    "title": "Daffodil Pre-School Whitefield",
+    "place_id": "ChIJlWSNrQESrjsRnJQq3TVzGMs",
+    "data_id": "0x3bae1201ad8d6495:0xcb187335dd2a949c",
+    "data_cid": "14634573664321442972",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1201ad8d6495%3A0xcb187335dd2a949c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1201ad8d6495%3A0xcb187335dd2a949c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9765429,
+     "longitude": 77.7400463
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJlWSNrQESrjsRnJQq3TVzGMs",
+    "provider_id": "/g/11sb4vyz7l",
+    "rating": 4.8,
+    "reviews": 133,
+    "type": "Preschool",
+    "types": [
+     "Preschool"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool"
+    ],
+    "address": "Daffodil Pre School #8, Prestige Sunflower, ECC Rd, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–6:30 PM",
+     "wednesday": "8:30 AM–6:30 PM",
+     "thursday": "8:30 AM–6:30 PM",
+     "friday": "8:30 AM–6:30 PM",
+     "saturday": "10 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–6:30 PM"
+    },
+    "phone": "+91 99454 76356",
+    "website": "https://www.daffodilpreschool.in/",
+    "user_review": "\"Nice schools for kids, supportive staff, and very good curriculam\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlPKdr49BLuMnd48Wupyu_Ap_WR92MaVdpmp1r20Rve6XIJDWjikT4F7IpaQReC7GMaoz80TGe_QUes0qfuxB9_-fPpdiqVoF02R3sYFip7KbL7LTXZEcoSzFll7qFEWjpRY1w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/L2sJCHicHcTdboIwGADQJ6oUJKuYeKGb9Q8S7NDibgiWCmilH5Tq9AF9B99myc7Feb-qvgczdhxVDQel1qWS1shO6KaXTT8Q-uqUYJAwyDjTJYsTruJN0fnBLLRRU_gjbuFhsylknAVelO8LuILbeZjd5Ee6Wn_xc31JfEpWkG-Z_CSLKNfPEU4WMtvupMHtyf7OggydYijqdq8p9tjQHGgNZHMMSZikP3Ohv59UKdLSOT8DO7j3yd3FGKPqf4GaPwyQRDM"
+   },
+   {
+    "position": 20,
+    "title": "Maple Bear Canadian Preschool and Daycare",
+    "place_id": "ChIJUztwev4NrjsRnN2X2aB3rDs",
+    "data_id": "0x3bae0dfe7a703b53:0x3bac77a0d997dd9c",
+    "data_cid": "4299943276961062300",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0dfe7a703b53%3A0x3bac77a0d997dd9c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0dfe7a703b53%3A0x3bac77a0d997dd9c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.972678199999999,
+     "longitude": 77.750517
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJUztwev4NrjsRnN2X2aB3rDs",
+    "provider_id": "/g/1tf6f1zz",
+    "rating": 4.6,
+    "reviews": 92,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "Summer camp organizer"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "day_care_center",
+     "summer_camp"
+    ],
+    "address": "No. 14, IAS House, Subbarao Compound, Whitefield Main Rd, opposite to गणेशा मंदिर, Sathya Sai Layout, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "hours": "Closes soon · 5 PM · Opens 9 AM Wed",
+    "operating_hours": {
+     "tuesday": "9 AM–5 PM",
+     "wednesday": "9 AM–5 PM",
+     "thursday": "9 AM–5 PM",
+     "friday": "9 AM–5 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "9 AM–5 PM"
+    },
+    "phone": "+91 99023 38532",
+    "website": "http://www.maplebear.in/whitefield/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true,
+     "online_classes": false
+    },
+    "user_review": "\"Maple Bear has an inclusive environment with the right teachers and staff.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnTgixdlzVEojC5d5oBpctsaKbQqBbhkbsBccLgef_ZpYasjWl2PUuDs6I0zaMVEkmbefmtvJRgUWMvIGakT3K_FvvJvaTYRd07SeFLoTXHNmhf7IQqU3opLg6UlBeXNuiEwQhY=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_ndQGHicHcRBjoIwFADQEyF1iJiYuBgcHFA0gkVkNqaU0iqFVn-pxgt6Bm9jMm_x3i9hjIaZ60rhjbhSXLIB2I2q3rDejKjqXK7BoeCA-x1lO1z0mJ8ftXweQnVZTOqJCjQ1QNZVeg0q0VYQUJpw1pz-dEngUsivXT78gB-jJ9kcwrarWNMZu8p4Xmxs_Eta7K1PS2tXluAyq9F0z5aJwsdo24lmGqfX3FM64X4uA3bcDufwnopyfh8jhBzxP3X6D2zCRzQ"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9698196%2C77.7499721%2C15z&q=school+near+Whitefield+Bengaluru&start=20&type=search"
+  }
+ }
+}

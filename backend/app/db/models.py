@@ -106,6 +106,16 @@ class AreaIntelRow(Base):
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
 
 
+class RunAreaIntelRow(Base):
+    """Immutable area snapshot per run, independent of later locality cache refreshes."""
+
+    __tablename__ = "run_area_intel"
+
+    run_id: Mapped[str] = mapped_column(ForeignKey("pipeline_runs.id"), primary_key=True)
+    locality_key: Mapped[str] = mapped_column(String(128), primary_key=True)
+    data: Mapped[dict[str, Any]] = mapped_column(JSON)
+
+
 class CompetitorReportRow(Base):
     __tablename__ = "competitor_reports"
 

@@ -45,7 +45,7 @@ code for an ID finds every stub that belongs to it.
 | F-02 | Property discovery | P0 | ✅ | |
 | F-03 | AI relevance verification | P0 | ✅ | |
 | F-04 | Ranked recommendations with reasons | P0 | 🧱 | |
-| F-05 | Area intelligence | P0 | 🟨 | |
+| F-05 | Area intelligence (P0; Trends P1 pending) | P0 | ✅ | |
 | F-06 | Competitor analysis (commercial) | P0 | 🧱 | |
 | F-07 | Property detail page | P0 | 🧱 | |
 | F-08 | Saved properties and side-by-side compare | P1 | 🧱 | |
@@ -237,13 +237,16 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [ ] `explain_recommendation` prompt: reason, highlights, risks
 - [ ] Results page list with score, reason and key metrics
 
-### F-05 Area intelligence · P0 · 🟨
-- [ ] `locality_key` + cache per locality with TTL
-- [ ] Amenities from google_maps (metro, school, hospital) with distances
-- [ ] News from google_news, classified by topic and sentiment
+### F-05 Area intelligence · P0 · ✅
+Implementation and debugging: [docs/F05_AREA_INTELLIGENCE.md](docs/F05_AREA_INTELLIGENCE.md).
+
+- [x] Canonical locality names/aliases + existing SQLite cache with TTL, explicit partial failures and immutable run snapshots
+- [x] Maps metro/school/hospital matches, deduplication, sourced coordinates and straight-line distances from locality centre
+- [x] Locality-matched, deduplicated News with dates, topics, sentiment and original retrieval timestamps
 - [x] Price level per sq ft from google search (`enrichment/price_level.py`, ADR 0014; used by
-      F-12 flags, not yet shown as area intel; YoY change still to do)
-- [ ] Area summary + infrastructure summary with citations
+      F-12 flags and attached to run area snapshots; no duplicate search; growth inputs remain F-09)
+- [x] Structured infrastructure/civic/policy evidence, complete validated quotes and source links; run-page area panel
+- [x] Typed read-only area/run-area APIs; real recordings for both demos; normalization/cache/failure/API tests
 - [ ] P1: rental demand from google_trends (compare localities in one call) + chart
 
 ### F-06 Competitor analysis (commercial) · P0 · 🧱
