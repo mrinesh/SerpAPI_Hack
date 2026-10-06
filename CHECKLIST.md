@@ -37,7 +37,7 @@ code for an ID finds every stub that belongs to it.
 | I-09 | Pipeline orchestrator, background runs, stage events | P0 | ✅ | |
 | I-10 | Frontend shell, routing, API client, generated types | P0 | 🧱 | |
 | I-11 | Background scheduler | P1 | 🧱 | |
-| I-12 | Bengaluru locality data and geocoding | P0 | 🧱 | |
+| I-12 | Bengaluru locality data and geocoding | P0 | 🟨 | |
 | I-13 | Recorded demo fixtures for judges | P0 | ⬜ | |
 | I-14 | CI: lint, typecheck, tests on push | P1 | ⬜ | |
 | **Features (F-01 to F-08 match the product brief's numbering)** | | | | |
@@ -179,9 +179,10 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
 - [x] APScheduler wiring, off by default (`SCHEDULER_ENABLED`)
 - [ ] Alert job wired to F-10
 
-### I-12 Locality data and geocoding · P0 · 🧱
+### I-12 Locality data and geocoding · P0 · 🟨
 - [x] `app/reference/bengaluru.json`: 15 localities verified on Wikipedia's neighbourhood list, with slugs
-- [ ] Geocode each locality centre via google_maps once; cache permanently
+- [x] Geocode each locality centre via google_maps (F-05), kept with the area for its TTL and
+      in replay fixtures; rejected outside the market's bounding box
 - [ ] Locality matching (aliases, fuzzy) used by cleaning and area intel
 
 ### I-13 Demo fixtures · P0 · ⬜
@@ -242,13 +243,16 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
       ties, number guard, failure handling and demo replay
 
 ### F-05 Area intelligence · P0 · 🟨
-- [ ] `locality_key` + cache per locality with TTL
-- [ ] Amenities from google_maps (metro, school, hospital) with distances
-- [ ] News from google_news, classified by topic and sentiment
-- [x] Price level per sq ft from google search (`enrichment/price_level.py`, ADR 0014; used by
-      F-12 flags, not yet shown as area intel; YoY change still to do)
-- [ ] Area summary + infrastructure summary with citations
-- [ ] P1: rental demand from google_trends (compare localities in one call) + chart
+- [x] `locality_key` + cache per locality with TTL (`area_intel`, 7 days)
+- [x] Amenities from google_maps (metro, school, hospital) with distances (ADR 0016)
+- [ ] News from google_news, classified by topic and sentiment (deferred by the product owner)
+- [x] Price level per sq ft from google search (`enrichment/price_level.py`, ADR 0014), shown
+      per type in the area panel; past-12-month growth from its own search (`extract_price_growth`)
+- [x] Area summary + infrastructure summary, number-checked, code fallback
+- [x] Area score fills F-04's `area` component (amenity access only; growth reserved for F-09)
+- [x] Area panel on the run page; access line on recommendation cards
+- [x] Recorded for both demos (10 searches, 4 lite calls; 9 explanations re-recorded)
+- [ ] P1: rental demand from google_trends (compare localities in one call) + chart (deferred)
 
 ### F-06 Competitor analysis (commercial) · P0 · 🧱
 - [ ] Same-category places near the property via google_maps

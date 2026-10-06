@@ -6,10 +6,12 @@ keeps enrichment inside the search budget. See docs/decisions/0006-locality-keye
 
 from datetime import date, datetime
 from enum import StrEnum
+from typing import Literal
 
 from pydantic import BaseModel, Field
 
 from app.schemas.common import GeoPoint, Level
+from app.schemas.profile import PropertyType
 from app.schemas.provenance import Sourced, SourceRef
 
 
@@ -65,12 +67,6 @@ class TrendPoint(BaseModel):
     value: float
 
 
-class PriceTrend(BaseModel):
-    avg_price_per_sqft: Sourced[float]
-    yoy_change_pct: Sourced[float]
-    history: list[TrendPoint] = Field(default_factory=list)
-
-
 class RentalDemand(BaseModel):
     typical_monthly_rent_inr: Sourced[int]
     search_interest: list[TrendPoint] = Field(default_factory=list)  # Google Trends series
@@ -81,12 +77,27 @@ class AreaIntel(BaseModel):
     locality_key: str  # normalised slug; the cache key
     locality: str
     city: str
-    center: GeoPoint | None = None
-    amenities: list[Amenity] = Field(default_factory=list)
-    news: list[NewsItem] = Field(default_factory=list)
-    infrastructure_summary: Sourced[str] | None = None
-    price_trend: PriceTrend | None = None
-    rental_demand: RentalDemand | None = None
+    center: GeoPoint | None = None  # geocoded once per TTL (I-12)
+    amenities: list[Amenity] = Field(default_factory=list)  # nearest metro, schools, hospitals
+    news: list[NewsItem] = Field(default_factory=list)  # not collected yet (F-05 news)
+    # Past-12-month change quoted in search results; for F-09's price-growth ROI. Never a forecast,
+    # and null (not zero) when no result states it (ADR 0010).
+    price_growth_pct: Sourced[float] | None = None
+    # Sale price per sq ft by property type, from runs' price-level lookups (ADR 0014).
+    price_levels: dict[PropertyType, Sourced[float]] = Field(default_factory=dict)
+    rental_demand: RentalDemand | None = None  # not collected yet (F-05 P1)
     summary: str | None = None
+    infrastructure_summary: str | None = None
+    summary_by_ai: bool = False  # True when the summaries passed the number check (ADR 0016)
     fetched_at: datetime
     expires_at: datetime
+
+
+class AreaAccess(BaseModel):
+    """Distances from a listing (or its locality centre) to the area's amenities, in code."""
+
+    metro_name: str | None = None
+    metro_km: float | None = None
+    schools_3km: int = 0
+    hospitals_3km: int = 0
+    measured_from: Literal["listing", "locality centre"]

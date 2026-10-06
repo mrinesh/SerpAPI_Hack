@@ -13,6 +13,13 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-06 · F-05 area intelligence: geocoded locality centre (I-12), nearest metro stations,
+  schools and hospitals from Google Maps with distances computed in code, past-12-month price
+  growth from a quoted snippet (validated), and number-checked AI summaries; cached per
+  locality for 7 days. Fills F-04's `area` score with amenity access (ADR 0016).
+  `GET /api/runs/{id}/areas`, `GET /api/areas/{key}`, area panel on the run page. Recorded for
+  both demos: Whitefield +29%, metro 1.8 km; Koramangala +26.9%, metro 2.7 km. News and
+  Trends deferred.
 - 2026-10-06 · F-04 ranked recommendations: composite score in code from relevance, value
   against the locality price level and evidence, weighted by goal and risk appetite, minus
   flag penalties (ADR 0015); ROI and area signals reserved for F-09 / F-05. Code reasons for

@@ -1,0 +1,12 @@
+{
+  "key": "9572a745a93b5a88f0360c0c4910c34792a9333ef76ec8e6021fd780d5d14785",
+  "task": "extract_price_growth",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "result_index": 1,
+    "pct": 26.9,
+    "evidence": "Koramangala property prices have changed +26.9% in 1 year",
+    "confidence": 0.95
+  }
+}

@@ -6,6 +6,8 @@
   "trends_geo": "IN-KA",
   "locality_source": "Wikipedia, List of neighbourhoods in Bangalore (https://en.wikipedia.org/wiki/List_of_neighbourhoods_in_Bangalore), checked 2026-10-03. Aliases are the page's spelling where it differs from the display name.",
   "_note": "Locality centres are filled by geocoding through google_maps and cached (CHECKLIST I-12). Do not hand-enter coordinates. Add listing-text aliases only from observed data (I-12).",
+  "bounds": {"south": 12.7, "west": 77.3, "north": 13.3, "east": 77.9},
+  "_bounds_note": "A loose box around Bengaluru Urban, widened; it only rejects geocodes that land in another city. It is not a locality coordinate.",
   "localities": [
     {"slug": "whitefield", "name": "Whitefield", "aliases": []},
     {"slug": "sarjapura", "name": "Sarjapura", "aliases": []},

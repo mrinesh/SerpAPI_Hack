@@ -61,7 +61,8 @@ default timeout is 60 s because two searches exceeded 30 s.
 | Run | Searches |
 |---|---|
 | Fresh run, L localities × T property types | L × T Google, + L Google Maps if flats are wanted, + at most 1 retry per empty query, + up to L × T price-level Google searches (localities with candidates) |
-| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level = 9 |
+| Area intelligence, per new locality, per 7-day TTL (F-05) | 1 Maps geocode + 3 Maps amenities + 1 Google growth = 5 |
+| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 15 area = 24 |
 | Largest profile: 5 localities × 4 types, with flats | 20 Google + 5 Maps + 20 price level = 45; the per-run cap of 40 stops discovery-first runs before that, and price levels then fall back to run medians |
 | Repeat run within the cache TTL | 0 |
 

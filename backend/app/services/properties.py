@@ -2,7 +2,8 @@
 
 from sqlalchemy.orm import Session
 
-from app.core.errors import NotImplementedYet
+from app.core.errors import NotFound, NotImplementedYet
+from app.db.models import AreaIntelRow
 from app.schemas.area import AreaIntel
 from app.schemas.views import PropertyDetail
 
@@ -12,4 +13,8 @@ def get_property_detail(db: Session, listing_id: str) -> PropertyDetail:
 
 
 def get_area(db: Session, locality_key: str) -> AreaIntel:
-    raise NotImplementedYet("F-05", "Reading area intelligence")
+    """The cached area for a key like `bengaluru/whitefield`, even if past its refresh time."""
+    row = db.get(AreaIntelRow, locality_key)
+    if row is None:
+        raise NotFound(f"No area intelligence for {locality_key}")
+    return AreaIntel.model_validate(row.data)

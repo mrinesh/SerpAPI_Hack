@@ -1,0 +1,28 @@
+import { describe, expect, it } from "vitest";
+import type { AreaIntel } from "../../api/types";
+import { accessLine, nearestByCategory } from "./areaText";
+
+describe("area text", () => {
+  it("formats access, noting when it is measured from the locality centre", () => {
+    expect(accessLine({
+      metro_name: "Kadugodi Tree Park", metro_km: 1.8, schools_3km: 4, hospitals_3km: 3,
+      measured_from: "locality centre",
+    })).toBe("Metro 1.8 km · 4 schools · 3 hospitals found within 3 km (from the locality centre)");
+    expect(accessLine({ metro_km: null, schools_3km: 0, hospitals_3km: 1, measured_from: "listing" }))
+      .toBe("No metro within 5 km · 0 schools · 1 hospitals found within 3 km");
+    expect(accessLine(null)).toBeNull();
+  });
+
+  it("keeps the nearest amenities per category and skips empty ones", () => {
+    const amenity = (name: string, category: string, distance_km: number) =>
+      ({ name, category, distance_km, source: { engine: "google_maps" } });
+    const area = { amenities: [
+      amenity("Far", "school", 3), amenity("Near", "school", 0.5), amenity("Mid", "school", 1),
+      amenity("Very far", "school", 4), amenity("Clinic", "hospital", 2),
+    ] } as unknown as AreaIntel;
+    expect(nearestByCategory(area).map((g) => [g.label, g.items.map((a) => a.name)])).toEqual([
+      ["Schools", ["Near", "Mid", "Far"]],
+      ["Hospitals", ["Clinic"]],
+    ]);
+  });
+});

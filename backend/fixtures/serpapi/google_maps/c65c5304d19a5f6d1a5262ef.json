@@ -1,0 +1,191 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "Whitefield, Bengaluru",
+  "type": "search",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4b702eeabd30f42683cc6",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/Fq98EEL5jkf_iozOXIZCCW4y8v39_EarnsNxJld-hII/6ac4b702eeabd30f42683cc6.json",
+   "markdown_endpoint": "https://serpapi.com/searches/Fq98EEL5jkf_iozOXIZCCW4y8v39_EarnsNxJld-hII/6ac4b702eeabd30f42683cc6.md",
+   "created_at": "2026-10-06 08:53:22 UTC",
+   "processed_at": "2026-10-06 08:53:22 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/Whitefield%2C+Bengaluru//data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/Fq98EEL5jkf_iozOXIZCCW4y8v39_EarnsNxJld-hII/6ac4b702eeabd30f42683cc6.html",
+   "prettify_html_file": "https://serpapi.com/searches/Fq98EEL5jkf_iozOXIZCCW4y8v39_EarnsNxJld-hII/6ac4b702eeabd30f42683cc6.prettify",
+   "total_time_taken": 0.5
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Whitefield, Bengaluru",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Showing results for type: \"place\" instead of type: \"search\"",
+   "query_displayed": "Whitefield, Bengaluru"
+  },
+  "place_results": {
+   "title": "Whitefield",
+   "place_id": "ChIJg_wNXfMRrjsR-RUB2BKlzzA",
+   "data_id": "0x3bae11f35d0dfc83:0x30cfa512d80115f9",
+   "data_cid": "3517211334351590905",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11f35d0dfc83%3A0x30cfa512d80115f9&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11f35d0dfc83%3A0x30cfa512d80115f9&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 12.9698196,
+    "longitude": 77.7499721
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJg_wNXfMRrjsR-RUB2BKlzzA",
+   "provider_id": "/m/02_rc8",
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkFtbcfCLkwP-Iye5o3H8gOcJFlzFTl05vTic78iEFks7X4YYBf0CcxQVYIXx7Ci8071lasiR6Qm-mUT-NZZNrTsR8BhVnS21_DZQ9cCvVRknlTB8imLZkwquKKTbUDpttc1MrJMA=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/DfacMHicHcRLDoIwFADAE1WKP6qJC0GJfwULChujLwhNS4u0inpDj-BtTJzFfD-FMZUeWpYoOq1cqVxkd53VoKTJpGmBKq280gg00tZ4Fu7ogfvmAldvxZsdmr-ynurMSL6FhS_ePhW496AMHMKmPtfOsZsk7hV78AziZH58Oh4j2LHFWbOwH5SojCjapOmmpjokbhHLfds-TdJgAN4jDrkU1CWsXKW8ud2XS3qJJpUxYK_rxXo8amyMMSr-A5I_qQVEwg",
+   "description": {
+    "snippet": "Known for its tech parks and upmarket apartment complexes, lively Whitefield is also a shopping and entertainment hub. Upscale malls like Phoenix Marketcity and VR Bengaluru house global brands, movie theaters, live music, and alfresco bars. Hip mall eateries serve Pan-Asian, European, and Indian cuisines. Beyond the malls, casual South Indian cafes and popular brewpubs are frequented by an after-hours office crowd."
+   },
+   "address": "Bengaluru, Karnataka, India",
+   "country": "India",
+   "images": [
+    {
+     "title": "All",
+     "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkFtbcfCLkwP-Iye5o3H8gOcJFlzFTl05vTic78iEFks7X4YYBf0CcxQVYIXx7Ci8071lasiR6Qm-mUT-NZZNrTsR8BhVnS21_DZQ9cCvVRknlTB8imLZkwquKKTbUDpttc1MrJMA=w1000-h1000-c-n",
+     "serpapi_thumbnail": "https://serpapi.com/images/url/DfacMHicHcRLDoIwFADAE1WKP6qJC0GJfwULChujLwhNS4u0inpDj-BtTJzFfD-FMZUeWpYoOq1cqVxkd53VoKTJpGmBKq280gg00tZ4Fu7ogfvmAldvxZsdmr-ynurMSL6FhS_ePhW496AMHMKmPtfOsZsk7hV78AziZH58Oh4j2LHFWbOwH5SojCjapOmmpjokbhHLfds-TdJgAN4jDrkU1CWsXKW8ud2XS3qJJpUxYK_rxXo8amyMMSr-A5I_qQVEwg"
+    },
+    {
+     "title": "Videos",
+     "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlXEVv2ry3E-iMKsO1mktY0uEUoEWJTVywZcY9pXJfEN53eQDEFxsj6rlmDkCd2pkTRchfKXQDtqlTq33OoEsqpGwJowpwmIDEP8Z6biuAlO_DkYYDFIGmtIlQV2UKOIohQ3Kyzpg=w1000-h1000-c-n",
+     "serpapi_thumbnail": "https://serpapi.com/images/url/uiVZVHicHcRdDoIgAADgE5Emy1VbDy3I1JXZzJ9e2iKTEgQFI7thR-g2bX0P3_dDtZZqblmMwlElRMXKXpUdEY0uGz0igluVVIAooKzl5rBPMpbj9Ol0A8Tgvg1VNOa1LuweHwXOgiQdzIkUM5kHN7ybwDJGeP1SD7djHNWrqyPr5EDoLcxjpFuWtBBGAqtWeiYQRhruI7yfntzLvV-y6IzqokBr3-PaZ3HqHMPIFzSG4fCW1cKMbdsG9D8BzQ8860Z3"
+    }
+   ],
+   "web_results_link": "https://www.google.com/search?q=local+guide+program&ibp=gwp;0,26,OiwKKiImV2hpdGVmaWVsZCBCZW5nYWx1cnUsIEthcm5hdGFrYSwgSW5kaWEoAg&pcl=lp",
+   "serpapi_web_results_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&ibp=gwp%3B0%2C26%2COiwKKiImV2hpdGVmaWVsZCBCZW5nYWx1cnUsIEthcm5hdGFrYSwgSW5kaWEoAg&q=local+guide+program",
+   "vacation_rentals": [
+    {
+     "position": 1,
+     "title": "Astra Hotels - Whitefield | Hotel near ITPL - International Tech Park, KTPO & EPIP Zone | Hotels near TCS, SAP Labs & GE.",
+     "price": "$20",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmObqmgypcRPZfvEKOx2dnSYwUk3BXyyMQSrB7QBCrANc9mMiEZeBf4CID3ex95gp2yKkDF-k0Sf3Kz8HrD3uRf0ClLCClRoX6uxYxWrALj7zGjfFUZyRiz---bgwt28WV8ncT89=w120-h120-n-k-no",
+     "data_id": "0x3bae13b93f51d52b:0xa75831577cc45d93",
+     "data_cid": "12058442254109662611",
+     "place_id": "ChIJK9VRP7kTrjsRk13EfFcxWKc",
+     "gps_coordinates": {
+      "latitude": 12.977341,
+      "longitude": 77.725103
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJK9VRP7kTrjsRk13EfFcxWKc"
+    },
+    {
+     "position": 2,
+     "title": "Essotto Recreation Hub",
+     "price": "$29",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMrKocAiifrn7v80h4Vgjpw-oeTN6sIfIF5jKreQSaBNhtMJqU9S1Ki4ZL1Yp7-WVpmAHB0fB8vT4-YD-6nh_TFnKP_JY5M6sjGGl2qc-9asWJtLi7bGNqQTpDALK0zjHi3Zc7-aA1cILo=w120-h120-n-k-no",
+     "data_id": "0x3bae15386493fe8d:0xc36eac3f36cb737d",
+     "data_cid": "14082382472336339837",
+     "place_id": "ChIJjf6TZDgVrjsRfXPLNj-sbsM",
+     "gps_coordinates": {
+      "latitude": 12.976802,
+      "longitude": 77.726542
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJjf6TZDgVrjsRfXPLNj-sbsM"
+    },
+    {
+     "position": 3,
+     "title": "Zip By Spree Hotels Purple Orchid Whitefield",
+     "property_type": "3-star hotel",
+     "price": "$74",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW0YIWTL_YsZRCCw5G8sp0Daa_OTetjii6DHT-t7NDAP35690biaLIw6Rdrrq9TDLLC4YebPxtmxqrdbIm2HdPSQ6KKjvWN7h7AdMRlMbIgZ9sUX9T-4g-37z9cYdjEY0tcquLF9VynfapcM1VNSIl1nFPPiAHyqMSP_WIuPDlYdkmBAuZFd25s=w120-h120-n-k-no",
+     "data_id": "0x3bae0f9c911727cf:0x8afdd76d4fb5d374",
+     "data_cid": "10015398010830574452",
+     "place_id": "ChIJzycXkZwPrjsRdNO1T23X_Yo",
+     "gps_coordinates": {
+      "latitude": 12.98382,
+      "longitude": 77.75248
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJzycXkZwPrjsRdNO1T23X_Yo"
+    },
+    {
+     "position": 4,
+     "title": "Earth Hotels",
+     "property_type": "3-star hotel",
+     "price": "$42",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdGcyqLv5zj_O-B3ectOTeb4puuYKakoZjtcgEMsKdlaGy6mUNw58Xp6TrpcGG6A10yMYXED2JTW0pohXWxc_WH3jNBGH85CiBvqiHazuDUqbFvUoMQ_5B1acdsYLPCdjaeDGfD=w120-h120-n-k-no",
+     "data_id": "0x3bae11448597d2f1:0x895f4d08f3fcd955",
+     "data_cid": "9898715206832150869",
+     "place_id": "ChIJ8dKXhUQRrjsRVdn88whNX4k",
+     "gps_coordinates": {
+      "latitude": 12.977921,
+      "longitude": 77.711927
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8dKXhUQRrjsRVdn88whNX4k"
+    },
+    {
+     "position": 5,
+     "title": "ACASA SUITES",
+     "price": "$21",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMFdsbvjmp1llZs5S0xmttvK7IzGt1sD1rvpownS97dss07q9iEDkp9sez8yuncqwNy4MpvaJ3U0fm76-6jcbVdZWRxDnwgkzmC560gnSCQCoXQQewVBIqfu7cA6dFtOLMsRreqKfu6N6rX=w120-h120-n-k-no",
+     "data_id": "0x3bae0de53c524dfb:0x3ba52039aeb06b9c",
+     "data_cid": "4297876851511028636",
+     "place_id": "ChIJ-01SPOUNrjsRnGuwrjkgpTs",
+     "gps_coordinates": {
+      "latitude": 12.967917,
+      "longitude": 77.751185
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ-01SPOUNrjsRnGuwrjkgpTs"
+    },
+    {
+     "position": 6,
+     "title": "Suraksha Stay ITPL Hotel (Bengaluru)",
+     "price": "$12",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNc_3-rk5I9vB2ibQ-PlP5q0S5Dj0R80RjtwfyCM8DacKqr0Sjzcvp9QC1gzZM7tBxZQ6anfVegOcqnkLM-O0vtA3P_UJM0TnCXX_ZqDBn-6JHmNnr3vSZhZBUlFqju8hghMJV5=w120-h120-n-k-no",
+     "data_id": "0x3bae0ffe0e6116b9:0x329474dd9176b674",
+     "data_cid": "3644666493426644596",
+     "place_id": "ChIJuRZhDv4PrjsRdLZ2kd10lDI",
+     "gps_coordinates": {
+      "latitude": 12.981205,
+      "longitude": 77.757816
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuRZhDv4PrjsRdLZ2kd10lDI"
+    },
+    {
+     "position": 7,
+     "title": "Homeslice manor",
+     "price": "$14",
+     "check_in_date": "2026-10-07",
+     "data_id": "0x3bae13007da07fb3:0x9a4cb5a86760a2f8",
+     "data_cid": "11118461314964431608",
+     "place_id": "ChIJs3-gfQATrjsR-KJgZ6i1TJo",
+     "gps_coordinates": {
+      "latitude": 12.964321,
+      "longitude": 77.731332
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJs3-gfQATrjsR-KJgZ6i1TJo"
+    },
+    {
+     "position": 8,
+     "title": "C Suites Gilbert",
+     "price": "$12",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW3XhjGGMvRLB_bqe3oRFT7HC1q1bgm2LNfJ7hiVqDjZKHlhnpO3c863LoIHU1DnPlZjC1m3rDmi5BZ65g-EQlbDvHWywVDNayUc53sXNWH9gfDdLHhatCMtxqpOVkMLoB90zzbaQL9sKYKi-nrdLycrPuk4KaGM1oA4pUgoXYuHemHPEqyPuioU=w120-h120-n-k-no",
+     "data_id": "0x3bae0e021bffffe1:0xbc7268ff50438d54",
+     "data_cid": "13579031272248020308",
+     "place_id": "ChIJ4f__GwIOrjsRVI1DUP9ocrw",
+     "gps_coordinates": {
+      "latitude": 12.979861,
+      "longitude": 77.749438
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4f__GwIOrjsRVI1DUP9ocrw"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "key": "c3dc6ee2d96b095c25101e2d5fbbd2fc788e74be491774346f3bde4826cd72dc",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This office space in Koramangala is listed within your budget of up to ₹3 Cr at ₹1.91 Cr, and it matches your requested commercial segment and office type. However, the listing is from a search snippet, the locality may cover nearby areas, and it is under construction, so verify the exact location and final price before proceeding. The ROI target of 4% is not assessed yet, so rental income potential cannot be confirmed.",
+    "highlights": [
+      "Listed price ₹1.91 Cr is within your budget of up to ₹3 Cr",
+      "Matches your requested office property type and commercial segment",
+      "Located in Koramangala, a high-growth area with 26.9% price growth over the past 12 months"
+    ],
+    "risks": [
+      "Listing is from a search snippet, so price and details may not be verified",
+      "Locality is query-derived and may cover nearby areas, not necessarily the specific block",
+      "Property is under construction, which may delay rental income; size is missing so suitability is unclear"
+    ]
+  }
+}

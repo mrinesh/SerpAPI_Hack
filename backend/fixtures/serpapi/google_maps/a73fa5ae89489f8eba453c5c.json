@@ -1,0 +1,723 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "metro station",
+  "type": "search",
+  "hl": "en",
+  "ll": "@12.9352403,77.624532,14z"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4b7476feec400209187bd",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/Zb0j0eJSyTgRAhJQTkppB9LZotsqnr4dt8ApUlk4Sbs/6ac4b7476feec400209187bd.json",
+   "markdown_endpoint": "https://serpapi.com/searches/Zb0j0eJSyTgRAhJQTkppB9LZotsqnr4dt8ApUlk4Sbs/6ac4b7476feec400209187bd.md",
+   "created_at": "2026-10-06 08:54:31 UTC",
+   "processed_at": "2026-10-06 08:54:31 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/metro+station/@12.9352403,77.624532,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/Zb0j0eJSyTgRAhJQTkppB9LZotsqnr4dt8ApUlk4Sbs/6ac4b7476feec400209187bd.html",
+   "prettify_html_file": "https://serpapi.com/searches/Zb0j0eJSyTgRAhJQTkppB9LZotsqnr4dt8ApUlk4Sbs/6ac4b7476feec400209187bd.prettify",
+   "total_time_taken": 0.85
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "metro station",
+   "ll": "@12.9352403,77.624532,14z",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "metro station"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Jayanagar",
+    "place_id": "ChIJ6zSXdpkVrjsRvb2SqkmrHBc",
+    "data_id": "0x3bae1599769734eb:0x171cab49aa92bdbd",
+    "data_cid": "1665394295102946749",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1599769734eb%3A0x171cab49aa92bdbd&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1599769734eb%3A0x171cab49aa92bdbd&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9296749,
+     "longitude": 77.5801753
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ6zSXdpkVrjsRvb2SqkmrHBc",
+    "provider_id": "/g/11fx8zvb49",
+    "rating": 4.5,
+    "reviews": 8444,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "4th Block, Jayanagar, Bengaluru, Karnataka 560070, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMyorrArOOS0WRbn08pfN4YBEdlT5GSmHTXCPb1a-KUVPbzeumsczfKc3ae4Ju1VmdwL16GwRZ31RnQ4qKNMnOLHtM8huQAd_jFJG5q7lLbgza4EcuToF2Ukw2-MiBDU6onkR91=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ZGq7sHicHcRZboJAAADQE43MyKJt0g-kiBEQZbHLj4FhhNZZcJYSuaBn8DYmfR_vce-1HtSrZdHennVCdJQYRSQWXBOuZ1gwq5O1UgAryw_-BsrSm5DSl1lWwI-84XA5nHfO1ypsaelGBduUn8G-QTWIq-O-mYhhCk_nGNs1cbYGHVk7JsiLxvzbRjk_ONd4l_Is2eh02ZuD355-19vIvS5o0nRT7YTYlGI9ry7jHKQ_q_fKE_ySv6C3EUEIQf8_BvwJpJxElQ"
+   },
+   {
+    "position": 2,
+    "title": "Rashtreeya Vidyalaya Road",
+    "place_id": "ChIJGymEHp4VrjsRR5cYC8E5tWM",
+    "data_id": "0x3bae159e1e84291b:0x63b539c10b189747",
+    "data_cid": "7184712281817126727",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae159e1e84291b%3A0x63b539c10b189747&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae159e1e84291b%3A0x63b539c10b189747&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9215877,
+     "longitude": 77.5802611
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJGymEHp4VrjsRR5cYC8E5tWM",
+    "provider_id": "/g/11g8w891wr",
+    "rating": 4.4,
+    "reviews": 11486,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Jayanagar, Bengaluru, Karnataka 560070, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPT9GWwz-Bd3r-Iwuy4nhJvhGZi7NOx214wvfeIeiyo-7EEfoTDbBOz4h8RLSufdy4Tc4nLx1eHRw53Tt3sljLBiidlvfPWc9V5b4VNYn9kIV67EECM5VuUPr6XIIqLdXT1y4xcnw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_rNRQ3icHczRFoEwAADQL5pKCznHg3CYEzpM4Y21WsxGW638oU_wNxwv9_F-3kzrhxpaFmduJ5cy57RStCRSaCp0h8i7lZdnpQBR1nhSP_g9wv48MS8QpG4JkKlaKNiyZvNT0V9vmq4DTZ1RRItWgv5slkk8vQSbF2SDbbirsrSFmEARNg5dbI3nYu0qfg2Dokh5nUUJ8WPvAuP1Ufg3FPd-w2TlxdU-KnsHhJ5hesBOCxsizMg4tm0D9pcA8QVKKUXG"
+   },
+   {
+    "position": 3,
+    "title": "Trinity",
+    "place_id": "ChIJvZXncIMWrjsRKX3IzO54xDY",
+    "data_id": "0x3bae168370e795bd:0x36c478eeccc87d29",
+    "data_cid": "3946412140516637993",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae168370e795bd%3A0x36c478eeccc87d29&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae168370e795bd%3A0x36c478eeccc87d29&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.97303,
+     "longitude": 77.6168395
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJvZXncIMWrjsRKX3IzO54xDY",
+    "provider_id": "/m/0hgqp5x",
+    "rating": 4.4,
+    "reviews": 12352,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Mahatma Gandhi Rd, Yellappa Chetty Layout, Sivanchetti Gardens, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN8sm89V3YCzljTwpxpNhWVXdg9kEXYWaHoYcxw7d1Q4H5kUQZFIQb8N_q-UoOcq2o4DXzd0F_wUKe8kaUTljyt_2CxOUX-Kj48jTDXkHITov4hVxI0Zrp_gZkJibo1p9ZapxUF8w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/v-xOj3icHcRRboMgAADQE1GxdRku6cdiZ3RNbEzEoj_GooEJChVWWG_YI_Q2TfY-3vPBrdXmIwgk322YUkyOv2ZcqVrsuNgNVXPA1t4YQE3wmdy0nAtkZhTXuya5y6ly2uuCn2sysFh8kebcZ6qh3r0PYRllbwKXbZqXF1R0V4DViV63KjqQ-wDTzuHjiESPKzn92W6b-BMm4DhFaKoORGR5pW4Rr30O21V3rBXfPxcV6rjttccpcnsXQggB_5-C5QWFREa5"
+   },
+   {
+    "position": 4,
+    "title": "Nadaprabhu Kempegowda Metro Station, Majestic",
+    "place_id": "ChIJZQRCbwUWrjsRko0PHW2ZX6k",
+    "data_id": "0x3bae16056f420465:0xa95f996d1d0f8d92",
+    "data_cid": "12204642209115377042",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16056f420465%3A0xa95f996d1d0f8d92&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16056f420465%3A0xa95f996d1d0f8d92&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.975691999999999,
+     "longitude": 77.572844
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZQRCbwUWrjsRko0PHW2ZX6k",
+    "provider_id": "/m/0hgq_t6",
+    "rating": 4.5,
+    "reviews": 8894,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Kempegowda Rd, Kempegowda, Sevashrama, Bengaluru, Karnataka 560009, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhw2j58Tsx3UdaIG6DHzcbvzFtnzognTD7Fhwp4G05mH2AalH5MQ8Vx2Um2E6we7xg-IXt2BduvSuRRfkDfl6GGB96btoeJG15uADDpMf2SC-tqIJAPxNo7gl2UoNtUGtU79pu=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ooRxfHicHcRNjoIwGADQE1WwDqCTuECrBROJfzWzxVraaGmr_QqEC84Z5jaT-Bbv71cBOP8dRVrNJtJaqUXw4s2tAWFgwm0byXftPeI-yted022levxI5hc_zNi9LmlKipHfunELZrTSXEi2Vb37onHSFjivdZHsj_PrgFmLN2kvskGi8gfw6h66czidmidpdErpapHewIodnSYhJ8TtG3xeI3iVu_wwVDaTGjNbAaPAsoULy34axzFSnzky_5bXRJM"
+   },
+   {
+    "position": 5,
+    "title": "Sir M. Visveshwaraya Station, Central College",
+    "place_id": "ChIJmR7YxQwWrjsRW5vq4ycsdm4",
+    "data_id": "0x3bae160cc5d81e99:0x6e762c27e3ea9b5b",
+    "data_cid": "7959597941263080283",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae160cc5d81e99%3A0x6e762c27e3ea9b5b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae160cc5d81e99%3A0x6e762c27e3ea9b5b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.974280499999999,
+     "longitude": 77.5839458
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJmR7YxQwWrjsRW5vq4ycsdm4",
+    "provider_id": "/g/11bwkbxjqt",
+    "rating": 4.4,
+    "reviews": 537,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Post Office Road, Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560009, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMhHD80D5ERHJTHnDMvnua6Ujk5vGfFxQzZyYPbw4eKlR5ZDvTR4UaaLm76zyWpai5w1ufuN3BhAB3FPTaQziDT_XrG8cYsx-heg3rzaokWJpnh19frylJs7DWpMlgCQzLMN0Cd=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/c1lE8XicHcTbDoIgAADQLzJxZreth5LKWbZ0NquXRoRQITDwkvxg39DftHUezvfD6lqZmety5g-olJSTxhCNpaiJqAdYVi7VyBgHG3cRtopXCYvgBMBglUVxHgmYtKJBo-PzFbSbcv1O7aU_H27dkGx5Flxgm2fDI0K7ajyyfaHQI-i8pmz2_pItlv76kKPUPmB-PenNBJ_N22GE-toi-SpiJZg3LXXPYzOGhUo4DVO7S_YgvM87DwDgsP_YET_KRkXj"
+   },
+   {
+    "position": 6,
+    "title": "Dr. B.R. Ambedkar Station Vidhana Soudha",
+    "place_id": "ChIJ-wIASG4WrjsRaLxJGOEWl2c",
+    "data_id": "0x3bae166e480002fb:0x679716e11849bc68",
+    "data_cid": "7464460063420824680",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae166e480002fb%3A0x679716e11849bc68&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae166e480002fb%3A0x679716e11849bc68&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.979692499999999,
+     "longitude": 77.5926343
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ-wIASG4WrjsRaLxJGOEWl2c",
+    "provider_id": "/m/0hgln08",
+    "rating": 4.6,
+    "reviews": 801,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Ambedkar Veedhi, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPqUrWiDHS7ordOYmIk9BZ_bGBEbb7wcaCp-cjyHngVnT3qf7NTWQww-Bou-VW2tpIgbnWHHfgWotMTxJrAq8MrllalyIs-Q6FqTrdOqITwbaHgXfvWxqPRG09L2CglVvhzOFXk=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/9mRjqnicHcxLcoIwAADQEwWozog640KwGDpVsE2J7aZDIoSWkJCPRLxgz9Db6Lh5y_f_11jbm6Xv82bqMSkZr86m0lQKWwnrUdn5TJfGAGr8dTz0vMvVh8Y_G_geSn3KPru0XURf32QbPRMSOlrGPaC_IxSsEGiq6nCP8ME5EMkzKPDE9ikjAkNYMyztDl1e9FrNd5rzko-pAYdZotD9VSlypITsWA_4ovK3bbB4ncSMF0NzzZJju3JPQRCA5iEF4gZK3Ecd"
+   },
+   {
+    "position": 7,
+    "title": "Bommanahalli Metro Station",
+    "place_id": "ChIJweJ3eZcVrjsRvWO5l55NnB0",
+    "data_id": "0x3bae15977977e2c1:0x1d9c4d9e97b963bd",
+    "data_cid": "2133665667012453309",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15977977e2c1%3A0x1d9c4d9e97b963bd&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15977977e2c1%3A0x1d9c4d9e97b963bd&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.910648,
+     "longitude": 77.62640499999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJweJ3eZcVrjsRvWO5l55NnB0",
+    "provider_id": "/g/11ft6zqd0s",
+    "rating": 4.4,
+    "reviews": 1553,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Roopena Agrahara, Bommanahalli, Bengaluru, Karnataka 560068, India",
+    "country": "India",
+    "phone": "+91 1800 4251 2345",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNhJDUa-04xtY9M4g9qTDVxG1IEzjjr1beZprvlw9vC3RrJ1-xlxx3FxQFcqhcJ1lvv5dlT9W6DrlF3cOmuBkQGNrs6prZ1_9BlEFHVUxaAkYLyE6gfjUeNW_D1-ewkiheQ9jmiIzy-zWc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/-O4jvXicHcRNjoIwGADQE1VoUJKauFABR6IYjEhwY5hOpxU-fmxrqRzSvbcx8S3e-yW07tXccUB4E951HNhDMUm7VrNWT2jXOFyWSiGqnOXa9NAkIg6yErlTqwuyn3JyPwVnu8HbcKwqiX_ZpZcGBmLW3lHGGFmw1otsGtG7oDEGY2Z_cCK5H0iIPHpoHqs63SRS-b284CtZQRj9nDNbLuti9wx9_l9lLMmvAUZsqG-CpaRqbtvxicacLgbsui4S3ylqP9mfSH8"
+   },
+   {
+    "position": 8,
+    "title": "Balagangadharanatha Swamiji Stn., Hosahalli",
+    "place_id": "ChIJT50hxeU9rjsRlPxnxhLf-Vc",
+    "data_id": "0x3bae3de5c5219d4f:0x57f9df12c667fc94",
+    "data_cid": "6339343222231792788",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae3de5c5219d4f%3A0x57f9df12c667fc94&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae3de5c5219d4f%3A0x57f9df12c667fc94&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.974297499999999,
+     "longitude": 77.5454436
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJT50hxeU9rjsRlPxnxhLf-Vc",
+    "provider_id": "/g/1hf0gcgzb",
+    "rating": 4.4,
+    "reviews": 637,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Chord Rd, Govindaraja Nagar Ward, Stage 1, Vijayanagar, Bengaluru, Karnataka 560040, India",
+    "country": "India",
+    "website": "http://www.bmrc.co.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM5_FCyUBS0UD248IfLkKFutmvvDFWD_eqAQ5A1vrHnincAgGWDhYkvf7yg6peoMdNxFvg7HZfWNDeL7LfbLfRdlESPyOXDFT8yBEWQQHKKX1I4AofSNRr3zAAlP4R2Ru5sAYkKaA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/MO6sYnicHcRRboIwGADgEyGgIGbJHn6tFQMygRl0L0ZrWwylRVq64Q09wm6zZN_D9_uqjen0m-uKejbhSnFBB017oqSh0kyIal3eX7R2iHZhZTvR7sIzXo2HZekd0DRYbFnaJHgwrbUIV-hMH5CH4Ns-lndJgG8qVJ8ay6KRzzuqdrfsB1sexV-syhBNo5RdU1bcxLrcjx9HhD8X43Jd5XmcJEd_G4BiZVb0syeA2AfFtBhCDacmucD7t-95nlP_Txz5BxOpRQg"
+   },
+   {
+    "position": 9,
+    "title": "Lalbagh",
+    "place_id": "ChIJFZ7lcOsVrjsRpI3gtGXhbdc",
+    "data_id": "0x3bae15eb70e59e15:0xd76de165b4e08da4",
+    "data_cid": "15523311317558529444",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15eb70e59e15%3A0xd76de165b4e08da4&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15eb70e59e15%3A0xd76de165b4e08da4&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.946287,
+     "longitude": 77.5800611
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJFZ7lcOsVrjsRpI3gtGXhbdc",
+    "provider_id": "/g/11d_8cn8mf",
+    "rating": 4.5,
+    "reviews": 3000,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Mavalli, Bengaluru, Karnataka 560004, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNbJbv-GPlGOOOpeKwHBf-YhvH5zBK0bUPHzWR5aYRTTktHqQPcF7SvkdoO39vkQCAAQ76iEl8re66weOCPPy5aU0TOOsD-f3XWdNE8i3qOSmLZK9yfUFmAcgTQeWwmQ6lVvBw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/33OC8HicHcTbDoIgAADQLyJpTrtsPahdXLaA0qzelFCbICYEqw_sH_qbts7D-X4arXs1dxzeuKNaypqzp2IDlZ1mnR5RKZx6KJQCVDlBZHou9uW2NGCD-QYh1LPExmEFLo2JvXeYwDLD8Ts_eMXlkKatjh8E0_XkaNqbRO7MtCQKAjLx7ys-HZjvW4YijF9ekcEUIbUElXvOb_vV9O4-0FHsrsnsVWVrEdA6JSy3gvj8ZEK7sGMIIWj-U9D9ACxSRDc"
+   },
+   {
+    "position": 10,
+    "title": "Yelachenahalli",
+    "place_id": "ChIJezEhr10VrjsR8Kkc4v3gXeo",
+    "data_id": "0x3bae155daf21317b:0xea5de0fde21ca9f0",
+    "data_cid": "16887901558734105072",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae155daf21317b%3A0xea5de0fde21ca9f0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae155daf21317b%3A0xea5de0fde21ca9f0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.896052899999999,
+     "longitude": 77.5701606
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJezEhr10VrjsR8Kkc4v3gXeo",
+    "provider_id": "/g/11c0xqffgs",
+    "rating": 4.4,
+    "reviews": 7013,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Kanakapura Rd Harsha Layout Kumaraswamy Layout Bengaluru, Arisinakunte, Karnataka 560078, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO22U21OZx-BEcQObCPwhVhGWn64iZxV_KcLBawZvAj8db_2-i2bpJWFs0W0v9HNRvIuVrv79Qb0py2PgeRCGH9fbIs4DhODyIz0-wqWoXrnK_4qX7nAAbMeHvr4vR7bLNv8mItWQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OoJ9-3icHcTbDoIgAADQLyKJXGZbD2YX7Wa6Jc0XF0RSUzAgrP6wT-hv2joP5_vhxrR67Dg1H_QqKauaPTRTVArDhOlR2TiVOmkNqHaC0LZ1kyB0QP2keILpnKYJCfcdz_kSi6F7LZ55uaab6akrbHAbnUmJwBWRdoUXGmJo_WiX2fiRK-v5KYHtC-0rloXLyL-QWLsznsxe8RuC7o7lUYl16d6PnggCsmWRVa7NPLLZ2VETG5xOuj6EEPD_FIgf29hFLA"
+   },
+   {
+    "position": 11,
+    "title": "Kudlu Gate Metro Station",
+    "place_id": "ChIJIakSxv8VrjsR_uXLc2Ykep0",
+    "data_id": "0x3bae15ffc612a921:0x9d7a246673cbe5fe",
+    "data_cid": "11347422233561392638",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15ffc612a921%3A0x9d7a246673cbe5fe&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15ffc612a921%3A0x9d7a246673cbe5fe&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.8900206,
+     "longitude": 77.6391819
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJIakSxv8VrjsR_uXLc2Ykep0",
+    "provider_id": "/g/11kbhh2wl7",
+    "rating": 4.5,
+    "reviews": 819,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "1a, Hosur Rd, Kudlu Gate, Industrial Layout, Singasandra, Bengaluru, Karnataka 560068, India",
+    "country": "India",
+    "phone": "+91 1800 4251 2345",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM63g2YBfOkEAODl2Yh4ZYT0qWjTvCG91uGQwmSh1uBRLYJwYooK0akx4Gw8zQgY2-yaKnOZgAgODOqn3R43IZlZG0G3mKfuwKudUAltei80MI0weVo9Vqdof_xtmTBOU4DrIOCMKRTh-0=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/56Jxi3icHcTbToMwAADQL-oolJjNxAcupsFKmiGbKS-GsNLqehm0Xacf6bt_Y7LzcP5-pfcX95gkSqKNsFYoHhxfJ2s8N34zWZ2IdXQOTC4pqutF6fYBiYyVMz0_F7RWGZP5wHq4vH_11wrv0oD3Ub_JNJTdK3uJzFoCx_Mtx3H7sxcsA98jMXQQhaA1XQzqctQMasAQI03mEEk4HQrl-ecWtg2M_Gh3x-Vk54-b131JD3m9NrRqSddLAJ9iCiEE8v4EzD9WG0a_"
+   },
+   {
+    "position": 12,
+    "title": "Halasuru",
+    "place_id": "ChIJSd03apkWrjsRmpKnR3Cq5Ck",
+    "data_id": "0x3bae16996a37dd49:0x29e4aa7047a7929a",
+    "data_cid": "3018725049460298394",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16996a37dd49%3A0x29e4aa7047a7929a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16996a37dd49%3A0x29e4aa7047a7929a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9763635,
+     "longitude": 77.62671499999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJSd03apkWrjsRmpKnR3Cq5Ck",
+    "provider_id": "/m/0h96rqf",
+    "rating": 4.4,
+    "reviews": 4039,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Old Madras Rd, Halasuru, Gupta Layout, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOAs_TtkzK_esjuVTNH82hmOs12dvchbkOyh3WELxDgkYYgOKS1TvHV4_QP0BRpdzInaoATDNewTKQYGMLFWpYg9yGORjwrfHqWv6UbxYH_W6vKHJ5z0yEepry-XwrAXzUbvdU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/gmbtknicHcRLjsIgAADQE9VSf9FJXHT8oVVRh1pZNZYixH5gAKntAb3D3GYS3-L9vYW1ynz5fikGPS4lL9nTME1lbVlte1RWPtc3Yzxq_HDuVFmh0KTYFl2UMvN4XvABTvqiQibo546KrECtGCTL3WvBC0I4in4C7OBlmJ6O4Pus8m5T32SIFwfW4OhE1vvdKlGET9s1Oj8afYe_iRvH2YvANBm7CG5HHWiXTOnWuzY6vHZx5vJ41gQAAE98pl79D_1mRqQ"
+   },
+   {
+    "position": 13,
+    "title": "BTM Layout",
+    "place_id": "ChIJC2hz-f0UrjsRc0WcLXUKXMI",
+    "data_id": "0x3bae14fdf973680b:0xc25c0a752d9c4573",
+    "data_cid": "14005080439608067443",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14fdf973680b%3A0xc25c0a752d9c4573&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14fdf973680b%3A0xc25c0a752d9c4573&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.916488,
+     "longitude": 77.60806099999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJC2hz-f0UrjsRc0WcLXUKXMI",
+    "provider_id": "/g/11yhrrwvxj",
+    "rating": 4.5,
+    "reviews": 357,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "BTM Layout 2nd Stage, BTM Layout, Bengaluru, Karnataka 560076, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNM_wSWcTH7VrQhmFnKrF4GJf2tantnOBX7CY23c_FgH_2VBJPZw4oTAPTaC78THHP1HK83OAlg8G1AiWW4VJRdWz8NsF8W9ima0QDtVKkJt117OTUxIsmHR3MegioZuATPK8_EbUTrIEm9=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_FYkgXicHcTRroIgAADQLzJF3aS2Hsgy0pXWRalenJGhS6ABXVs_eZ_v37R1Hs7_X2ftw8xcd-iCCVeKD-3TtJopaVtpJ0wJl-vGGIcZF8W_j0HstvX4QxnBUaX3nUhkppNwnd5820gr88Uxik9-wOqE49qvFmlxHkNFUEGaOIIE4wLgDAY5GjhcA9RTGlbp4UrfcGcSSKe9aLz90lbZPbUARDkpXxsj8CHYtrxX5yciRQbr1aUkerMS0_kIPM9zuu_MkR9GEEXA"
+   },
+   {
+    "position": 14,
+    "title": "Cubbon Park",
+    "place_id": "ChIJdUZ_eWUWrjsRfo6CcEaixkU",
+    "data_id": "0x3bae1665797f4675:0x45c6a24670828e7e",
+    "data_cid": "5027884457424752254",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1665797f4675%3A0x45c6a24670828e7e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1665797f4675%3A0x45c6a24670828e7e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.980900799999999,
+     "longitude": 77.59746539999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdUZ_eWUWrjsRfo6CcEaixkU",
+    "provider_id": "/m/0hgrpz1",
+    "rating": 4.5,
+    "reviews": 3254,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Shivaji Nagar, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "website": "http://www.bmrc.co.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPyknkwY23O4ySByZ_M_WXLw_CnzhT-zAQ9OheYegB0CXPGsDjsrit7MwGvVRGi3AqC4ZYG_bJtIz4w58evnfjMjIVb-ItB9kQbOs_NeeBbsjdoNClkR6-zS2ZAnSWBQmqmtoM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2z0BIXicHcRLDoIwFADAE1VQ8Ju4oDUhGBERI8KmEaxUPq3yKg0c0Dt4GxNnMd8PV-oJK8OouTUqpCxq9gbW5lIoJtQol41RtFcAlIPhkO5ZN4e-EpVOJlZg9xHuU-rT-LLTlIiBn9DghMuAs4QV2CSXgwubEtqHmvva7c5H92E5L2KniUuzrfIGW08XrBP30i-9c4Y8hZdVmAVA94zhDMqb3JO6Os7QEE1SR0QxDptXo6S_1mPTNBH_nyPxA9tBRh8"
+   },
+   {
+    "position": 15,
+    "title": "Indiranagar",
+    "place_id": "ChIJZbZd-qQWrjsRe7G5a9GUZ9U",
+    "data_id": "0x3bae16a4fa5db665:0xd56794d16bb9b17b",
+    "data_cid": "15377423079856255355",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16a4fa5db665%3A0xd56794d16bb9b17b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16a4fa5db665%3A0xd56794d16bb9b17b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9782619,
+     "longitude": 77.6385257
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZbZd-qQWrjsRe7G5a9GUZ9U",
+    "provider_id": "/m/0h9756w",
+    "rating": 4.4,
+    "reviews": 13350,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Chinmaya Mission Hospital Rd, Binnamangala, Stage 1, Indiranagar, Bengaluru, Karnataka 560038, India",
+    "country": "India",
+    "website": "http://english.bmrc.co.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPiWlqR5VklRqfb6znv7Pc5okUO2c2w58d5o2vI51bKoA5QpAt9b5xjhBUD6KpySeGdfHFdx8YauKsnSI4wCdJLzc5pBy0_fsI7ZVXFmyR2XxSqu4564mDKgFwicFTqaSdmektG=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/WzU_ZnicHcRZboJAGADgEyGL_KAmPqAGi5io4NqXBmYGsMyGM2xesGfobZr0e_h-fyqtpVqYJq2mk1KIkpJWkRcSXBOuJ0gws3xlShlImcG6k5QdnzfaJHCtadIUuffmnX9EIOrLwUFODzMMwukisPNYBHCSgZ7nMHxXq8vGi-WYki0uPkI8zB5ZGyueRm6_xrv9G4FcjdZXoSL_83oP2Zg49yFtWhc8l23iMuyfKDw3WYoZqfV22duWZRnV_8jgf93ORdc"
+   },
+   {
+    "position": 16,
+    "title": "Chickpete",
+    "place_id": "ChIJ-7zgFwgWrjsRe_Sgg1nXcV4",
+    "data_id": "0x3bae160817e0bcfb:0x5e71d75983a0f47b",
+    "data_cid": "6805457291393954939",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae160817e0bcfb%3A0x5e71d75983a0f47b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae160817e0bcfb%3A0x5e71d75983a0f47b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9675461,
+     "longitude": 77.5747925
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ-7zgFwgWrjsRe_Sgg1nXcV4",
+    "provider_id": "/g/11bvv70zgv",
+    "rating": 4.2,
+    "reviews": 7910,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Old Tharagupet, Mamulpet, Chickpet, Bengaluru, Karnataka 560053, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO0qJlM1cuOtYf4EHU67Uqffja89RSwxV8YUB5ulcIG6ucRc8H7DR3sN2AsawrW6X2g-gRdbPSqnCdTEwgOKQXp8cS9LFECdpilTwWusEEL_ddqVyNHeh4E-v5J7U99GIVQ7kmCew=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eIuQ3XicHcRZUoMwGADgEwXowuZMHyrG0sXSshWeHPwTghrWJKQe0SP0Ns74PXyP30bKQTyZJm9WBut7xqkSdIK-k7STBvStyaZKCATC3AbzwNvIGg_8bQEqkmW9xmHmuNlY11-V58eJvudemT3bisN-5yiIwQvdl3glzsutqPR0c4olQywmH5dk7AKSYs2i47UYPEj80ysOyPDJU31TAuPTOyFj_nMOabPGaLYPbub7u31-db_bgOqNXliWhZr_AXV_ChpFLg"
+   },
+   {
+    "position": 17,
+    "title": "Banashankari",
+    "place_id": "ChIJFfoeVXcVrjsRUKMZuV47coQ",
+    "data_id": "0x3bae1577551efa15:0x84723b5eb919a350",
+    "data_cid": "9543755838369932112",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1577551efa15%3A0x84723b5eb919a350&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1577551efa15%3A0x84723b5eb919a350&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9155385,
+     "longitude": 77.5736288
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJFfoeVXcVrjsRUKMZuV47coQ",
+    "provider_id": "/g/11g8w8wvzx",
+    "rating": 4.4,
+    "reviews": 1977,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Sarbandapalya, Banashankari, Bengaluru, Karnataka 560070, India",
+    "country": "India",
+    "website": "http://english.bmrc.co.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNefQXSH1Kb-EbaDnA800ELPDMEVxfZFg7YrP16SY2ksbvqa0pTqEveJ5HxsUNg-YFnZ_kKha-JIalp90Mf29iITAJSh3htW4NCS1GGH8AOnG5vMrXi8iUyIz_eX9HRd6UhzZry=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/VgEn1HicHcRJDoIwAADAF1WKK5h4IIIsCi6IAhdSsLRELNhWRD_oG_yNiXOY74dK2Yq5otR0NCBNQ2r8EJgXDZOYyUHR3BTCkRCgEIqx7Nr6FuByH4eOus6BlSOTGRqE1mZn-tapL9MVmSV8p07DZHgVeXdHsD3erQ57E6cXUUBAsmJpdl1TBDwX1a0O_XKoV-7R8EI6ovI8DpahatuOZmyZPel8HldaFb3cd4Zj3TlcphF9p_y1eKoQQkD_F4D9ACFGQ_I"
+   },
+   {
+    "position": 18,
+    "title": "National College",
+    "place_id": "ChIJpdMgH-4VrjsRLMrgPnksIvs",
+    "data_id": "0x3bae15ee1f20d3a5:0xfb222c793ee0ca2c",
+    "data_cid": "18096075151985658412",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15ee1f20d3a5%3A0xfb222c793ee0ca2c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15ee1f20d3a5%3A0xfb222c793ee0ca2c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9506135,
+     "longitude": 77.5737362
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpdMgH-4VrjsRLMrgPnksIvs",
+    "provider_id": "/g/11bwz03scc",
+    "rating": 4.5,
+    "reviews": 8809,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Vishweshwarapura, Shankarapura, Bengaluru, Karnataka 560004, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPiS2PaSvGGgB-511RUytLk9RwvgCxvlXBtrQ0uTGEjGBEwqrY50U1XCBHGjJ6-4NcaYwW-69xzJ97xHkOyoOo-RwBGxu-6GXtFojfLFvcpRdLCm-b98QjAv_BsIntwFRcJ87gIjA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zd7KTnicHcRNjoIwGADQE31SHEUxmQUlUiXEn6oRVwYrFitQhpYWveEcwduY-Bbv_V9o3aiZ45TFz4BLycu8U3nLZK3zWg-YrBzeZkoBU04QmqasNvfdcJPtDCEcw9h16eGpk4dPreFhb8oU63aLuj2ZC4Ln9q89jdHBTUO8ICL2YLRi2ckewfP7V-xP-sVj_ZRrCdRi0nfgkVRHUtySyLCGXpOwgos_3YrAnLFa1tpGlMXTCV-K4Ne6CCEovjOoP_zTRSo"
+   },
+   {
+    "position": 19,
+    "title": "Mahatma Gandhi Road",
+    "place_id": "ChIJvwy9o30WrjsR_3Soez0XLL8",
+    "data_id": "0x3bae167da3bd0cbf:0xbf2c173d7ba874ff",
+    "data_cid": "13775410913054586111",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae167da3bd0cbf%3A0xbf2c173d7ba874ff&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae167da3bd0cbf%3A0xbf2c173d7ba874ff&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9755162,
+     "longitude": 77.6066919
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJvwy9o30WrjsR_3Soez0XLL8",
+    "provider_id": "/m/0h98h54",
+    "rating": 4.5,
+    "reviews": 4952,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Shivajinagar, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO99Iu4bqlrVGVJ7FyzjHBG9ZIXX7YAWpKc4XbNfvvrQx_eB65L-gEhwYC6WGoOXbLkLkjb078kxhMdlQiYkNXQFqGIh5oCJVfLb7_A-Jz5vBbjtU9dvZJO8zdORdhealeNTag=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/sE_263icHcRRboIwAADQExUwioiJH0AmggjBTCz-GFpqKxSKtFbHAb3DbrNk7-P9fphSg1ybJmdzgwpBOXlKMmLRK9IrA4vOpGMlJcDS9AI98C5z3ei5QA8-FmERO9ufqdn5oXuJIHRK7zzs8QKi9Kb1mL-vxF_aCaBf7FUGy3MoMoiSNmkbZDmr9s0ONc_vZZvCfPsII2aLIC5uCXKuHognW_uoUSe31pc4W011dqwZqThJvyu6ec0sywLsfwz6P13MRRY"
+   },
+   {
+    "position": 20,
+    "title": "Ragigudda",
+    "place_id": "ChIJ3UzAmwsVrjsRLu_EFi5LIwI",
+    "data_id": "0x3bae150b9bc04cdd:0x2234b2e16c4ef2e",
+    "data_cid": "154049473583312686",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae150b9bc04cdd%3A0x2234b2e16c4ef2e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae150b9bc04cdd%3A0x2234b2e16c4ef2e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.916988499999999,
+     "longitude": 77.5882045
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3UzAmwsVrjsRLu_EFi5LIwI",
+    "provider_id": "/g/11xtwxdpnt",
+    "rating": 4.7,
+    "reviews": 107,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Marenahalli, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560041, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMycYmQkQMtxJ8NUf63mTLTC1qCdEwM-gGJ-GLEeITh4B_KqvpGhYSxMnHulikUf3J1pJTYxYpsj4VHwvAa4GSycUIR6luLCqPz7118q-iXkc_SLiqei2E6a-we-lGPd4qO4Q6uO-R0EFo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/j7hR83icHcTdboIwGADQJ_qEjgbNkl04glUGUwSWcUVIrZRRaGvLj3vI3e9tTDwX5_-PW6vMq-MI7q0aKRvBRsNuVA6WDXZFZe80t9oYoMbZBpMSfXKnZZ92aWKXaPNZXH2vz-M8QDq4hHMCDYmAxCE75By_Vx96UoSX2ZIM-1G0XXH1IqSivFxKZX7w136etjUm2Z0Wh7MvxjjQp981QhsN7XdHqyxuNWtfQr-GmYEgpwvWR5z64xHObriTbzNyXRf4cwrDA6zNRvA"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9352403%2C77.624532%2C14z&q=metro+station&start=20&type=search"
+  }
+ }
+}

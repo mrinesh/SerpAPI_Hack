@@ -1,0 +1,19 @@
+{
+  "key": "55a5acdeffa9e6164af61b7466e452de721678bef406160f0537641486e1b31d",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This office space matches your requested property type, commercial segment, and locality of Koramangala, and the asking price is within your budget. However, the unit-level price of ₹75/sq ft is far below the area average of ₹17,501/sq ft, so it is likely a data error or a monthly rent. Before going further, verify the actual sale price and exact location with the listing agent.",
+    "highlights": [
+      "Property type is office, matching your request.",
+      "Located in Koramangala, your preferred locality.",
+      "Asking price of ₹3.6 L is within your budget of up to ₹3 Cr."
+    ],
+    "risks": [
+      "Price of ₹75/sq ft is suspiciously low compared to area average of ₹17,501/sq ft; may be a data error or monthly rent.",
+      "Listing is from a search page, not a verified individual unit; exact location and price need confirmation.",
+      "No rental income or yield data provided, so the 4% target ROI cannot be assessed yet."
+    ]
+  }
+}

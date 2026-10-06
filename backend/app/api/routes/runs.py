@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 
 from app.api.deps import DbSession
+from app.schemas.area import AreaIntel
 from app.schemas.listing import Listing, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
@@ -24,6 +25,12 @@ def get_run_listings(run_id: str, db: DbSession) -> list[Listing]:
 def get_run_verifications(run_id: str, db: DbSession) -> list[Verification]:
     """Completed relevance checks (F-03), including reasons for rejection."""
     return runs.get_verifications(db, run_id)
+
+
+@router.get("/{run_id}/areas")
+def get_run_areas(run_id: str, db: DbSession) -> list[AreaIntel]:
+    """Area intelligence for the localities of this run's ranked candidates (F-05)."""
+    return runs.get_run_areas(db, run_id)
 
 
 @router.get("/{run_id}/recommendations")

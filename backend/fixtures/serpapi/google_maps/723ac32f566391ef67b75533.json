@@ -1,0 +1,373 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "Koramangala, Bengaluru",
+  "type": "search",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4b746e396eb895f88790c",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/ZSDd4X0zwwsvwMldFA8O-5sxmor6BEOYALeJrvrRQKU/6ac4b746e396eb895f88790c.json",
+   "markdown_endpoint": "https://serpapi.com/searches/ZSDd4X0zwwsvwMldFA8O-5sxmor6BEOYALeJrvrRQKU/6ac4b746e396eb895f88790c.md",
+   "created_at": "2026-10-06 08:54:30 UTC",
+   "processed_at": "2026-10-06 08:54:30 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/Koramangala%2C+Bengaluru//data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/ZSDd4X0zwwsvwMldFA8O-5sxmor6BEOYALeJrvrRQKU/6ac4b746e396eb895f88790c.html",
+   "prettify_html_file": "https://serpapi.com/searches/ZSDd4X0zwwsvwMldFA8O-5sxmor6BEOYALeJrvrRQKU/6ac4b746e396eb895f88790c.prettify",
+   "total_time_taken": 0.8
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Koramangala, Bengaluru",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Showing results for type: \"place\" instead of type: \"search\"",
+   "query_displayed": "Koramangala, Bengaluru"
+  },
+  "place_results": {
+   "title": "Koramangala",
+   "place_id": "ChIJLfyY2E4UrjsRVq4AjI7zgRY",
+   "data_id": "0x3bae144ed898fc2d:0x1681f38e8c00ae56",
+   "data_cid": "1621845134389849686",
+   "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae144ed898fc2d%3A0x1681f38e8c00ae56&engine=google_maps_reviews&hl=en",
+   "photos_link": "https://serpapi.com/search.json?data_id=0x3bae144ed898fc2d%3A0x1681f38e8c00ae56&engine=google_maps_photos&hl=en",
+   "gps_coordinates": {
+    "latitude": 12.9352403,
+    "longitude": 77.624532
+   },
+   "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJLfyY2E4UrjsRVq4AjI7zgRY",
+   "provider_id": "/m/06bm4z",
+   "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SBKQSzIrVpgER3IfxUNOjw5PRsU22msuw2prm3YtNfntWTNkS6f_ACMV2IVNVBtzYz_TWMctfKCZkzAiAh72ycCIO0Xyt3oJf4xic0JEoAtUimOsoz53UV8egjVqXKW-n1Xdb5=w1000-h1000-c-n",
+   "serpapi_thumbnail": "https://serpapi.com/images/url/VLXFVnicHcRNjoIwGADQE1VqK-NPMotKXCCxjCIFZ2MyHVpQaRn6GaQX9AxzGxPf4v0_a4DOrYLgVtOJtlbfqruremkNVAYm0raB7hySDrmA8aIZl9k62Wc-7kWnNwcaq0fO08sQfh1cTkjr7gPp-paegCsDxZFfsw91ZtFOkFhwsQZ_8udjsZOgkuj76lnD6jkZZRSnuByB2q2aPRqJtxvLIG_a1Fkf0lwsKn0Rf2VSIDMtf3_Cz2GKMUb1e4nMC8t-RZU",
+   "description": {
+    "snippet": "Cosmopolitan Koramangala is popular with young tech workers and students, due to the many IT companies and colleges in the area. Hip restaurants and rooftop bars cluster around 80 Feet Main Road, while the streets around Jyoti Nivas College are also known for trendy stores selling funky clothes and accessories. Upscale apartment complexes are interspersed with the commercial buildings on the tree-lined avenues."
+   },
+   "address": "Bengaluru, Karnataka, India",
+   "country": "India",
+   "images": [
+    {
+     "title": "All",
+     "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SBKQSzIrVpgER3IfxUNOjw5PRsU22msuw2prm3YtNfntWTNkS6f_ACMV2IVNVBtzYz_TWMctfKCZkzAiAh72ycCIO0Xyt3oJf4xic0JEoAtUimOsoz53UV8egjVqXKW-n1Xdb5=w1000-h1000-c-n",
+     "serpapi_thumbnail": "https://serpapi.com/images/url/VLXFVnicHcRNjoIwGADQE1VqK-NPMotKXCCxjCIFZ2MyHVpQaRn6GaQX9AxzGxPf4v0_a4DOrYLgVtOJtlbfqruremkNVAYm0raB7hySDrmA8aIZl9k62Wc-7kWnNwcaq0fO08sQfh1cTkjr7gPp-paegCsDxZFfsw91ZtFOkFhwsQZ_8udjsZOgkuj76lnD6jkZZRSnuByB2q2aPRqJtxvLIG_a1Fkf0lwsKn0Rf2VSIDMtf3_Cz2GKMUb1e4nMC8t-RZU"
+    },
+    {
+     "title": "Street View & 360°",
+     "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SExF5K4Hu2mkGDW5YTsZwwp-cWvRmWnmilxMqY3_tsWkbafTOZnG9pN5ke0xEz6aVEr6koAIutRRHiQ1S53nl7_aZ9vqU0qaXkBv0rs5Q_fZRxTsklMKwj8okHnuxH2V5s2hE=w1000-h1000-c-n",
+     "serpapi_thumbnail": "https://serpapi.com/images/url/VqTXsHicHcTdboIwGADQJ6pUsGws8UIjymLUiGgHNwQb_mxpga9A5wPuHXwbk52L8_qrtG7hy7JE5cxKpUqRD5D3TEmdSz1jqrHKFhADBNbqSOtf7-KbLdkvgsFu-G5DSRxBMk0tYnQMGyqbWphDFzupBsrvWRGdErnz2iPhOTb-081ufu9ytfoedBgG9Xl-IY4UH2mWeGN3xV32w9cj7oGc0yIJTQRcHPbT41PxQA4msG8E7MpfTnOMMar-Z0i-Aaa2Re4"
+    },
+    {
+     "title": "Videos",
+     "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RGQUZ9JK4InjvFFF47pwhfim1KOBgHJL9UjZWZj-rVor7_hyHIWrwI6-F5NQ0uCsnnK6RCveoIf7YJ0zJtX2DZh1MNGSV-LXHIiyIpCM0qMBCvsZWx23ui5h4rSZTFGiNpepM=w1000-h1000-c-n",
+     "serpapi_thumbnail": "https://serpapi.com/images/url/uIFA-nicHcRdDoIgAADgE5FYlrOth7KhaNr6MYuXHhwJroAANTtgd-g2bX0P3_fDrFVm7jh3NhnVUtZ32hqqKyksFXZUyYdTKwMqA4yzzEs-BPtoV5AgST0smg4h5PmqZzf-cNPtqo6TTVA0pCQN0Cep_SsbYlzqHs8AmuY72IZGiHS2Dzsq8c2_JPCd2PN4TZib5dHhBDbnGPMBqzCDz2wVdoaUr_Gk5VPm6QM5oojniqps0bsQQsD-V0D8AMUrQ2Y"
+    }
+   ],
+   "web_results_link": "https://www.google.com/search?q=local+guide+program&ibp=gwp;0,26,Oi0KKyInS29yYW1hbmdhbGEgQmVuZ2FsdXJ1LCBLYXJuYXRha2EsIEluZGlhKAI&pcl=lp",
+   "serpapi_web_results_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&ibp=gwp%3B0%2C26%2COi0KKyInS29yYW1hbmdhbGEgQmVuZ2FsdXJ1LCBLYXJuYXRha2EsIEluZGlhKAI&q=local+guide+program",
+   "hotels": [
+    {
+     "position": 1,
+     "title": "Grand Mercure Bangalore",
+     "rating": 4.5,
+     "reviews": 8390,
+     "type": "5-star hotel",
+     "price": "$319",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMw2yotD-tGVdWa_XqTF1cNoFBkJKOITaZkkw2Zx6_MUWXfXvCLIu-PMqrA9DaWsuawi2V4dZhUmMoSuLx5Jx-19-gzeRDakZUy12sscHP_u0YoQfNNG9X6lFaLBbWflt8Fro0gtqXk4yaD=w120-h120-n-k-no",
+     "data_id": "0x3bae145e9b6fb02b:0x320b03cd74e611e2",
+     "data_cid": "3605980107604627938",
+     "place_id": "ChIJK7Bvm14UrjsR4hHmdM0DCzI",
+     "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145e9b6fb02b%3A0x320b03cd74e611e2&engine=google_maps_reviews&hl=en",
+     "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145e9b6fb02b%3A0x320b03cd74e611e2&engine=google_maps_photos&hl=en",
+     "gps_coordinates": {
+      "latitude": 12.92899,
+      "longitude": 77.627678
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJK7Bvm14UrjsR4hHmdM0DCzI"
+    },
+    {
+     "position": 2,
+     "title": "Regenta Inn Grand Koramangala",
+     "rating": 4.5,
+     "reviews": 1253,
+     "type": "3-star hotel",
+     "price": "$42",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO0nluwAJnlURFPODGarEIOW_MaJD9Osvc-TG6fLvEMfFiB2_sjKjUBX1ocxI0UO9uBbqjfgexhUdIaD59mysHaGayVU3Vprv0oS3MsiVbne6-CEFkTkEWMjsflT-oHztMD2zzglg=w120-h120-n-k-no",
+     "data_id": "0x3bae15c3fd5c92fd:0x61901948419864aa",
+     "data_cid": "7030146816454190250",
+     "place_id": "ChIJ_ZJc_cMVrjsRqmSYQUgZkGE",
+     "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15c3fd5c92fd%3A0x61901948419864aa&engine=google_maps_reviews&hl=en",
+     "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15c3fd5c92fd%3A0x61901948419864aa&engine=google_maps_photos&hl=en",
+     "gps_coordinates": {
+      "latitude": 12.94341,
+      "longitude": 77.621448
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ_ZJc_cMVrjsRqmSYQUgZkGE"
+    },
+    {
+     "position": 3,
+     "title": "Halcyon Hotel Residences",
+     "rating": 4,
+     "reviews": 3266,
+     "type": "3-star hotel",
+     "price": "$70",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW35gkzLkklahlipgJ9jXUVY6KO5wGoG5il4vKVdWkQbavC2dXQTc9ybimvpJTWsyCvpZcBJ8hvqkMyN7kgAx0eQPxWvdnxOeLdLZm_gQOUFaqA4mf6dKZCCotPInWKQ1_O5OWY41EiyaLu7ZKym7ijfCNaaHIJoJiwj7dkJknBN_-c4tFIAM4H1=w120-h120-n-k-no",
+     "data_id": "0x3bae145affffffdb:0xcf256c160f190e1",
+     "data_cid": "932903461374234849",
+     "place_id": "ChIJ2____1oUrjsR4ZDxYMFW8gw",
+     "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145affffffdb%3A0xcf256c160f190e1&engine=google_maps_reviews&hl=en",
+     "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145affffffdb%3A0xcf256c160f190e1&engine=google_maps_photos&hl=en",
+     "gps_coordinates": {
+      "latitude": 12.935928,
+      "longitude": 77.631386
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2____1oUrjsR4ZDxYMFW8gw"
+    },
+    {
+     "position": 4,
+     "title": "Alchemy Suites Koramanagala",
+     "rating": 4.7,
+     "reviews": 2085,
+     "type": "3-star hotel",
+     "price": "$28",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW2ymh3YdNqS0B6rYKOGvSf-mnLOLOGmtNWBxT7Qr0x_mKxCAidPc6iaM3nXj-d9XWmVA_wvd8EaUyxm8zyPlOQ7IJlh974hNFtJeV1XGK6TwFFT6exE5sRSgdUj4jSi-tno8vNKJJGhVhVYjk330NiToxRNauKahQ3tPkBTIl_Um2KYg3zcmIl8=w120-h120-n-k-no",
+     "data_id": "0x3bae151188fcfe97:0x444ba07b6c44b01e",
+     "data_cid": "4921203469790261278",
+     "place_id": "ChIJl_78iBEVrjsRHrBEbHugS0Q",
+     "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae151188fcfe97%3A0x444ba07b6c44b01e&engine=google_maps_reviews&hl=en",
+     "photos_link": "https://serpapi.com/search.json?data_id=0x3bae151188fcfe97%3A0x444ba07b6c44b01e&engine=google_maps_photos&hl=en",
+     "gps_coordinates": {
+      "latitude": 12.935262,
+      "longitude": 77.631019
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJl_78iBEVrjsRHrBEbHugS0Q"
+    },
+    {
+     "position": 5,
+     "title": "HOTEL PEARLINN KORAMANGALA",
+     "rating": 3.4,
+     "reviews": 612,
+     "type": "3-star hotel",
+     "price": "$14",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOZOaQ_DaHZZAabrhY37wqVGB5tu5hyTZKHH06TU_tlY-u-Qc7278Bi6_JaqbAo6sL6OMrgrWbwtU9NTwq94oU7H7lUAJa0cJT5rFmJrOwrk_3GxJUIpeZXvbP8PkLTmI15KDrtIg=w120-h120-n-k-no",
+     "data_id": "0x3bae577b558d0bdf:0x3097d05769a6064c",
+     "data_cid": "3501496309157070412",
+     "place_id": "ChIJ3wuNVXtXrjsRTAamaVfQlzA",
+     "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae577b558d0bdf%3A0x3097d05769a6064c&engine=google_maps_reviews&hl=en",
+     "photos_link": "https://serpapi.com/search.json?data_id=0x3bae577b558d0bdf%3A0x3097d05769a6064c&engine=google_maps_photos&hl=en",
+     "gps_coordinates": {
+      "latitude": 12.938056,
+      "longitude": 77.631195
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3wuNVXtXrjsRTAamaVfQlzA"
+    },
+    {
+     "position": 6,
+     "title": "Silicrest Hotel",
+     "rating": 4.2,
+     "reviews": 1413,
+     "type": "3-star hotel",
+     "price": "$46",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMX2DjdzItNJUpSjSu1Dacn0m8Ekf3epDaqaoPJOmwkkLdgTm1nqyUufT0QHjuZEsKStJ9J5j7hujr2PHLJlfY1aMJWaGfTvGNHaWUMbUaVZ8mAZceQR8oQbq6n_BsVVplt60CymhXl9G0O=w120-h120-n-k-no",
+     "data_id": "0x3bae145d49a66731:0xa742e9e6184feb5e",
+     "data_cid": "12052452727256509278",
+     "place_id": "ChIJMWemSV0UrjsRXutPGObpQqc",
+     "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145d49a66731%3A0xa742e9e6184feb5e&engine=google_maps_reviews&hl=en",
+     "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145d49a66731%3A0xa742e9e6184feb5e&engine=google_maps_photos&hl=en",
+     "gps_coordinates": {
+      "latitude": 12.934476,
+      "longitude": 77.629516
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMWemSV0UrjsRXutPGObpQqc"
+    },
+    {
+     "position": 7,
+     "title": "Davanam Sarovar Portico Hotel Suites",
+     "rating": 4.2,
+     "reviews": 14432,
+     "type": "4-star hotel",
+     "price": "$149",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM_MSJ_eF8VvblIj9MmmSyHRk7Aglu97APgZzYMrLzpk07dd3IRZ7X4aRjR7btMaT01BOdPckLXQAnIjuPIBujMm5VN07LNjVpGVwz8geIjrh-wXQe31zPhMx9rLs-s5ydWeAQnawIYXs4=w120-h120-n-k-no",
+     "data_id": "0x3bae14f7bfddad33:0x8a15f92465b7b675",
+     "data_cid": "9950132886465656437",
+     "place_id": "ChIJM63dv_cUrjsRdba3ZST5FYo",
+     "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14f7bfddad33%3A0x8a15f92465b7b675&engine=google_maps_reviews&hl=en",
+     "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14f7bfddad33%3A0x8a15f92465b7b675&engine=google_maps_photos&hl=en",
+     "gps_coordinates": {
+      "latitude": 12.921619,
+      "longitude": 77.620715
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJM63dv_cUrjsRdba3ZST5FYo"
+    },
+    {
+     "position": 8,
+     "title": "Savoury Business Hotel",
+     "rating": 4.1,
+     "reviews": 13778,
+     "type": "3-star hotel",
+     "price": "$28",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOKz9H_7yvZGlUfidUiIa2W3Rtk57srPZuDpQe9DG0IQJe26-ga-TDkiTpPqX0xZevCGEsf04s9jKZW01tRaJCFuf6IGIbVZ9ai1vlUd3nattORSG-npdNMI3j2QuqQsQvRI-p2=w120-h120-n-k-no",
+     "data_id": "0x3bae145707cf6007:0xbf1db10b276acfee",
+     "data_cid": "13771357897032912878",
+     "place_id": "ChIJB2DPB1cUrjsR7s9qJwuxHb8",
+     "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145707cf6007%3A0xbf1db10b276acfee&engine=google_maps_reviews&hl=en",
+     "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145707cf6007%3A0xbf1db10b276acfee&engine=google_maps_photos&hl=en",
+     "gps_coordinates": {
+      "latitude": 12.926019,
+      "longitude": 77.616985
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJB2DPB1cUrjsR7s9qJwuxHb8"
+    }
+   ],
+   "vacation_rentals": [
+    {
+     "position": 1,
+     "title": "Splendor lux 5 BHK Villa by Susan Homestay",
+     "property_type": "Villa",
+     "capacity": "Sleeps 16",
+     "price": "$176",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh5.googleusercontent.com/proxy/xOkAx2o7-y73-Ka29LT7ETHKAo4URUZpenlk2Duf_T8dh7ccxGh1hD7LOTPVfc-N1R3PhVvOiaKHLgBFmyl6j2JH_QFrMJycnwEP82M0m_WhDs3OInZ1jw6p7QV66doryW-MB9GaaIFdl5zaTtUdsUuzwjjSCg=w120-h120-n-k-no",
+     "data_id": "0x0:0x6c49b506c8fe8359",
+     "data_cid": "7802966870142649177",
+     "place_id": "CgkRWYP-yAa1SWw",
+     "gps_coordinates": {
+      "latitude": 12.940215,
+      "longitude": 77.618324
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=CgkRWYP-yAa1SWw"
+    },
+    {
+     "position": 2,
+     "title": "5BHK BGH Spacez Villa with Picture Windows",
+     "property_type": "Villa",
+     "capacity": "Sleeps 15",
+     "price": "$331",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh4.googleusercontent.com/proxy/b8DHg6iiTAQdzJXjTlrjW7DWbV9hdLeMLEvzdb53isywPRdkp04MUfAbP1YshXP8TdwPCz6LxFnHTDIEfxeJt6ci7XPPPDZ_Z2D8ReiIQxZ0uXWHBsx8XrlV-L9GdICmWpzrYIzVCQKwEQ8Cfil5FvQNgB9jrQM=w120-h120-n-k-no",
+     "data_id": "0x0:0xab688ef2d66014da",
+     "data_cid": "12351279151693436122",
+     "place_id": "CgkR2hRg1vKOaKs",
+     "gps_coordinates": {
+      "latitude": 12.935523,
+      "longitude": 77.634178
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=CgkR2hRg1vKOaKs"
+    },
+    {
+     "position": 3,
+     "title": "Heritage Haven Luxury Spacez Villa",
+     "property_type": "Villa",
+     "capacity": "Sleeps 10",
+     "price": "$304",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh4.googleusercontent.com/proxy/Ef2ETasqiKja9qqgSY0muQoS61IUgNSZPfINDCbmbY-iflkxF3srNujtAqJqsVizyIVumpafHx4fiqiTdaPUgihsMgeQrx71eBG2TW-6yO7A5IyRkOlQe3EeNYCh5YUoB48eGBO-rYj-uEULf0u45b6m2ezWbg=w120-h120-n-k-no",
+     "data_id": "0x0:0x5679c13237a627a1",
+     "data_cid": "6231223980869953441",
+     "place_id": "CgkRoSemNzLBeVY",
+     "gps_coordinates": {
+      "latitude": 12.924532,
+      "longitude": 77.619476
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=CgkRoSemNzLBeVY"
+    },
+    {
+     "position": 4,
+     "title": "Urban Escape Villa by Spacez",
+     "property_type": "Villa",
+     "capacity": "Sleeps 12",
+     "price": "$270",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh5.googleusercontent.com/proxy/0tott2nQUR_kG8wB8W_MzU8N4lOaFWlzrIpPNKZFMzuJR0Y5KI1QnvG3MdcIavlGCVB-MC7L8c5R42C-dAEOF-pvne7pQHuw8Za6repIXNCX5Ax_Kwk1840YnHVcKloRyMUU5KkqJbuSEiYAn4bWztMZxzDxukE=w120-h120-n-k-no",
+     "data_id": "0x0:0xb4694e83247031ce",
+     "data_cid": "13000008124540662222",
+     "place_id": "CgkRzjFwJINOabQ",
+     "gps_coordinates": {
+      "latitude": 12.937809,
+      "longitude": 77.625023
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=CgkRzjFwJINOabQ"
+    },
+    {
+     "position": 5,
+     "title": "Vana Vista Villa by Spacez",
+     "property_type": "Villa",
+     "capacity": "Sleeps 12",
+     "price": "$270",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW34_qY31qM3ViACM_b-jMkTfCyzYrJgzcB86BWk9MupP4VWl2u0yxFxyYgqqnrV4yJcNU_uLS4SqzSfe8XXlXMCjzajinOo28r1naI7sd87FDmIcpit5EkXfWDWJMZg-YIoTqrOI_V2Bj1fA9hCT_iqSkSkznUNwHubLtMUOL6tcRPDzdw6YuWKEA=w120-h120-n-k-no",
+     "data_id": "0x0:0x20b5660832ec66b0",
+     "data_cid": "2356902165398447792",
+     "place_id": "CgkRsGbsMghmtSA",
+     "gps_coordinates": {
+      "latitude": 12.9295,
+      "longitude": 77.623177
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=CgkRsGbsMghmtSA"
+    },
+    {
+     "position": 6,
+     "title": "Regal Sapphire 5BHK Spacez Villa",
+     "property_type": "Villa",
+     "capacity": "Sleeps 12",
+     "price": "$196",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW3CsiUutaOEfstToOhpwjwnJVL8hZeQoPYCdst8dBBET3da0LDkzbMQmQdmDs0W6-zV1X6iPXpnPsnEMKCtztdWcWVe6QYbWzyjHWZdiwhcEq-d87zIPSZxZszV12Q85inx1xmbKAKrLoqiN57dZztmqhocyExsqCd3cTpesK5edyATZjRXxTvP=w120-h120-n-k-no",
+     "data_id": "0x0:0x85f07804817159d9",
+     "data_cid": "9651345962201864665",
+     "place_id": "CgkR2VlxgQR48IU",
+     "gps_coordinates": {
+      "latitude": 12.931884,
+      "longitude": 77.631538
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=CgkR2VlxgQR48IU"
+    },
+    {
+     "position": 7,
+     "title": "Classic Charm Villa by Spacez",
+     "property_type": "Villa",
+     "capacity": "Sleeps 8",
+     "price": "$394",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW2KcDYgc-SF2xX4iALheP1qDsDDmZCnGtQb9B3unN_vNXR9xffjC0f2A0uaLMoS75f9P6-OaJWkasiL96E0Oz5B5B3JDbBzm9yk7lsgEFmCbLSgObktWoiR_xr37UI-zEoPj7wbJnKeFtBaTIf56Xim5nvxApC3L1AzBH3DEsVDsp1jYY1Tx5gb=w120-h120-n-k-no",
+     "data_id": "0x0:0xbbd8da2b4e3ed6d7",
+     "data_cid": "13535808559593215703",
+     "place_id": "CgkR19Y-Tiva2Ls",
+     "gps_coordinates": {
+      "latitude": 12.92739,
+      "longitude": 77.628159
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=CgkR19Y-Tiva2Ls"
+    },
+    {
+     "position": 8,
+     "title": "Namma Woodland Villa | Golf Course Views",
+     "property_type": "Villa",
+     "capacity": "Sleeps 10",
+     "price": "$308",
+     "check_in_date": "2026-10-07",
+     "thumbnail": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW095x6gK-MTqG1lVXdz_upYdL2ZFkwnmjDUwqhfVoaURmSKt0ExCNjxNB4Vrf4t1rpygJ02AaXapH2zo5bDNV4hjJ02IK-Zyvw10akAwUZ8gl2L_TSyOu3IxNuwwgBADhr7UnRyrrSGnew4GKOLeXLanpZfcu9fw7fhywTYVZRBNSPz5RTvtvqk=w120-h120-n-k-no",
+     "data_id": "0x0:0x552d0db3c986adbc",
+     "data_cid": "6137576933007207868",
+     "place_id": "CgkRvK2GybMNLVU",
+     "gps_coordinates": {
+      "latitude": 12.935893,
+      "longitude": 77.62178
+     },
+     "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=CgkRvK2GybMNLVU"
+    }
+   ]
+  }
+ }
+}

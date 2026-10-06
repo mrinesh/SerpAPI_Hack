@@ -1,0 +1,1196 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "school",
+  "type": "search",
+  "hl": "en",
+  "ll": "@12.9352403,77.624532,14z"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4b748f9bee97190b0a106",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/pflIfUzLtspVgO-dKvobxuNctRJDFxExelROogqc9gs/6ac4b748f9bee97190b0a106.json",
+   "markdown_endpoint": "https://serpapi.com/searches/pflIfUzLtspVgO-dKvobxuNctRJDFxExelROogqc9gs/6ac4b748f9bee97190b0a106.md",
+   "created_at": "2026-10-06 08:54:32 UTC",
+   "processed_at": "2026-10-06 08:54:32 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/school/@12.9352403,77.624532,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/pflIfUzLtspVgO-dKvobxuNctRJDFxExelROogqc9gs/6ac4b748f9bee97190b0a106.html",
+   "prettify_html_file": "https://serpapi.com/searches/pflIfUzLtspVgO-dKvobxuNctRJDFxExelROogqc9gs/6ac4b748f9bee97190b0a106.prettify",
+   "total_time_taken": 0.76
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "school",
+   "ll": "@12.9352403,77.624532,14z",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "school"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "ORCHIDS The International School - CBSE School Sarjapur Road - Affiliation No. 830782",
+    "place_id": "ChIJKxDR8OByrjsRq9eHj89_eNo",
+    "data_id": "0x3bae72e0f0d1102b:0xda787fcf8f87d7ab",
+    "data_cid": "15742473026916571051",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae72e0f0d1102b%3A0xda787fcf8f87d7ab&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae72e0f0d1102b%3A0xda787fcf8f87d7ab&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9170635,
+     "longitude": 77.67044779999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKxDR8OByrjsRq9eHj89_eNo",
+    "provider_id": "/g/12qgq4p7d",
+    "rating": 4.5,
+    "reviews": 332,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution"
+    ],
+    "address": "Survey no. 19, 13, Ambalipura - Sarjapur Rd, beside Springfield Apartments, Haralur, Ambalipura, Hobli, Vathur, Bengaluru, Karnataka 560102, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–6 PM",
+     "wednesday": "8:30 AM–6 PM",
+     "thursday": "8:30 AM–6 PM",
+     "friday": "8:29 AM–6 PM",
+     "saturday": "8:30 AM–4:25 PM",
+     "sunday": "9 AM–6 PM",
+     "monday": "8:29 AM–6 PM"
+    },
+    "phone": "+91 99994 31999",
+    "website": "https://www.orchidsinternationalschool.com/bangalore-branches/sarjapur-road",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"Great academics and extracurricular activities organised...\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf32E1D5nSTLcE6G2svjVy5f0qMep96xJTQGyWVklsSEbDcKWg4Th7vlEcXQ3ua8p3utFzmC_f3HDycPmfT1-fLYuWVOuOqcCu3d4jfedD19BGuFks-a0TgzZRfAvg_R7DJo14t=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jGq2z3icHcRbjoIwFADQFVVai89kPtAiE8X4amD0xzDXtkQeRdvi4AZdg7sxmfNx3q_c2sZMPa_MaU9prUrhjLiDrq2obQ905al7ZgwC4wXBrKhiSfshYYP6wGMIh1HftNekG0h8W4tmMvxb8l3UpUlRmkP4y2CVKp_no7YM4WdHXTZuqLOLZzU_S_rNOthWkhMk46NLk43b3GDu6MW_SnFhZDKL3KIwKMNcPU97GbTqvB-xpSa-_XoQjDHK_wdUfwBPl0R6"
+   },
+   {
+    "position": 2,
+    "title": "Anikethan Public School",
+    "place_id": "ChIJKaKOwsEUrjsR38wJkzXxROE",
+    "data_id": "0x3bae14c1c28ea229:0xe144f1359309ccdf",
+    "data_cid": "16232364169352563935",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14c1c28ea229%3A0xe144f1359309ccdf&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14c1c28ea229%3A0xe144f1359309ccdf&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.8997493,
+     "longitude": 77.62632769999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKaKOwsEUrjsR38wJkzXxROE",
+    "provider_id": "/g/1yg4m12x7",
+    "unclaimed_listing": true,
+    "type": "Public educational institution",
+    "types": [
+     "Public educational institution"
+    ],
+    "type_id": "public_school",
+    "type_ids": [
+     "public_school"
+    ],
+    "address": "2, Begur Rd, Vivekananda Nagar, Bommanahalli, Bengaluru, Karnataka 560114, India",
+    "country": "India",
+    "extensions": [
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOJ4Obys_X02H_5ndskRXh8j1ynMjzr00lH1PlbFwe1q8uNlIKSTMcEpgp2XwSKRpQ7MpVvZ3VRbYNqjeaimUJB2s5xAKFS98Ww-qWXi1io0k2BArOUCDFpc6RPt3Z1moyGQrul=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/76qGgXicHcRJDoIwAADAFyEtuKCJB1xwIYiCC3ohUBsWS1vaIuIHfYO_MXEO8_3kSnE50XWSm72MsYzgRmKBGFWYqh5ilZ6JREoNSd2ePzmp_G3fTzsZR8BYxwN6l48gyq0SdtQr3wIAsoZ7kjothrXV7MjGDY8eWvKMG1EbugE_jDx-ft7Mc5Bed3WJk6I6bWeGHLxs1wnH1qXV6ktUwIKBhzGzhX-aLxyOhsFemTdYsW51EA2ZthAAoOX_kUZ_yW1FTw"
+   },
+   {
+    "position": 3,
+    "title": "ORCHIDS The International School - C V Raman Nagar - CBSE - Affiliation No. 831089",
+    "place_id": "ChIJEW_qZ-ITrjsRs2kVxCbJOfo",
+    "data_id": "0x3bae13e267ea6f11:0xfa39c926c41569b3",
+    "data_cid": "18030663751490169267",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae13e267ea6f11%3A0xfa39c926c41569b3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae13e267ea6f11%3A0xfa39c926c41569b3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9694466,
+     "longitude": 77.66808069999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJEW_qZ-ITrjsRs2kVxCbJOfo",
+    "provider_id": "/g/11f3stq81d",
+    "rating": 4.3,
+    "reviews": 274,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution"
+    ],
+    "address": "Khata no:152, CV Raman Nagar, Survey no 136/3B, 7th Cross Road Vibhutipura Village, Jagadish Nagar, New Thippasandra, Bengaluru, Karnataka 560075, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:32 PM",
+    "hours": "Open · Closes 6:32 PM",
+    "operating_hours": {
+     "tuesday": "9:30 AM–6:32 PM",
+     "wednesday": "9:30 AM–6:33 PM",
+     "thursday": "9:30 AM–6:34 PM",
+     "friday": "9:30 AM–6:35 PM",
+     "saturday": "9:30 AM–6:36 PM",
+     "sunday": "9:30 AM–6:30 PM",
+     "monday": "9:30 AM–6:31 PM"
+    },
+    "phone": "+91 99994 31999",
+    "website": "http://www.orchidsinternationalschool.com/bangalore-branches/cv-raman-nagar/?utm_source=googlemaps&utm_medium=website&utm_campaign=maps-listing",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"Curriculum and activities are well designed.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfh5ZGHMsuKIi7gSYaj-qZF0RDbdPEBkiZvJPg5eNs4v08kDb2-zWXc8Adl9_RkYLI0XSlun6cdDVJWfBHPf5lFhxkoc-zrDUwoWTVbYd-MUP_9wsDp-t6-2JrQJgfo3wy0WmcV=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/m299lHicHcRJDoIwFADQE32pA06JC0idcAhOIGwIFGi1hSotol7QM3gbE9_ifT9M65saG4Zg3RaVkoqsVllFZKmzUreILAxaxUoBUYZl2bxY58wM54uNqlfLy4AegvgK93CG9jhJ3anNL-HDcamZbVXvgYYcJx14-2cytFIxivY8WC_R-SDqsk9S7Dl-bi_c3BQz9uSSwLvCp0b6Ry8JUtic3GjUKHwD3YeOU-0cmstu80J-QbxJ00YIAftPoPwBZvRExA"
+   },
+   {
+    "position": 4,
+    "title": "Charan's Public School",
+    "place_id": "ChIJi016-R8UrjsRNKTOPq7SpdE",
+    "data_id": "0x3bae141ff97a4d8b:0xd1a5d2ae3ecea434",
+    "data_cid": "15106712170904069172",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae141ff97a4d8b%3A0xd1a5d2ae3ecea434&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae141ff97a4d8b%3A0xd1a5d2ae3ecea434&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.968411999999999,
+     "longitude": 77.63113299999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJi016-R8UrjsRNKTOPq7SpdE",
+    "provider_id": "/m/010fg23q",
+    "type": "General education school",
+    "types": [
+     "General education school",
+     "College",
+     "High school",
+     "Higher secondary school",
+     "Middle school",
+     "Nursery school",
+     "Preschool",
+     "Primary school",
+     "Private educational institution"
+    ],
+    "type_id": "general_education_school",
+    "type_ids": [
+     "general_education_school",
+     "college",
+     "high_school",
+     "higher_secondary_school",
+     "middle_school",
+     "nursery_school",
+     "preschool",
+     "primary_school",
+     "private_school"
+    ],
+    "address": "325, 1st Main Rd, Halasuru, Cambridge Layout, Domlur, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open · Closes 3:30 PM",
+    "hours": "Open · Closes 3:30 PM",
+    "operating_hours": {
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM",
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "10 AM–12 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 80 2557 6440",
+    "website": "https://www.charanspublicschool.in/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Assisted listening devices",
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOBU08kEzznFfQZHeWp6tKB8828IvHiRm1o_ocuFoJ3ZK2j-_2jCymdKg_xrXKNr3wkKDTh6zfM4JQUVmO1NdT_M1otCj73IKwxW-Hoxl1T8y4JktY6tlIOVf9_4N56PlsXTT9P=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/BQCK4nicHcTbboIwGADgJ6pQQFaXeKE4AzSCmoqHm2apHAYtP6FVkBfcM_g2S_ZdfO_fyphOf1qWrNxZCVDK_KHzXkBr8tbMBCir7L-1RkJbq-DZSZWuTzZpvqap3RaHW5ifO9_QNSEOiZ7hz1Fh4CAeW4jdG3VqxJ06eKk7LfnYX2jSu0NDN6zyp2LnxYdTplKc3BnfYTBB_eFGdBjPKIRRYkZeXtyYq29klGbFgnvJ3N9LfWFssV8O2LZtVP0vUPsHiD5Ecg"
+   },
+   {
+    "position": 5,
+    "title": "Bambinos.Live - Future School",
+    "place_id": "ChIJD6H5w50UrjsRpF_IYcgu7DI",
+    "data_id": "0x3bae149dc3f9a10f:0x32ec2ec861c85fa4",
+    "data_cid": "3669359234568970148",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae149dc3f9a10f%3A0x32ec2ec861c85fa4&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae149dc3f9a10f%3A0x32ec2ec861c85fa4&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9002792,
+     "longitude": 77.6506589
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJD6H5w50UrjsRpF_IYcgu7DI",
+    "provider_id": "/g/11j95vr5vp",
+    "rating": 4.7,
+    "reviews": 8180,
+    "type": "English language school",
+    "types": [
+     "English language school",
+     "Mathematics school"
+    ],
+    "type_id": "english_language_school",
+    "type_ids": [
+     "english_language_school",
+     "mathematics_school"
+    ],
+    "address": "36/5, Hustlehub Tech Park, Somasundarapalya Main Rd, Adjacent 27th Main Road, ITI Layout, Sector 2, HSR Layout, Haralukunte Village Bengaluru, Bengaluru, Karnataka 560102, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 94038 90176",
+    "website": "https://bambinos.live/",
+    "extensions": [
+     {
+      "service_options": [
+       "Online classes"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_classes": true
+    },
+    "user_review": "\"The best part is your child can learn in front of parents with ease of home.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd_twQMvq1dSZCl8KDD-iDU4QZ_okdEv2tU5Y0OO92WZH4IJEpEu-3QJ-jWr52PlXNAuJlb-sHHZ7wJcdnbBLSrCzrP_8sg5uL5QU2krQ-9ND5LcoIQxOCuNU5uwnTKlSzrKdOapw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/VkgHpnicHcRJDoIwAADAF1UWbVwSDwgkbIINEpUL0ZaAUlvsYo0_9An-xsQ5zPfTKzXKlWXRfjrpOO9oq2UrMGeqZWqC-d3qxFlKgKXleZvhnpFGGbR9PhxS1j5dpEEArkE1Q3XDBxI-XVXBk10US_dQR7M4CcdQgylKwO0goLujx9zTCb0AGUX13CSYsMsmK4X_FrtmITuoM4gqdxAILPMAZpjH6FX4Oq-gNmyf0vItUlKcR7M2jm3boP-PAfsBoM5E0Q"
+   },
+   {
+    "position": 6,
+    "title": "Sri Sai Public School",
+    "place_id": "ChIJb9PbXOoUrjsRMRR3Il7go_U",
+    "data_id": "0x3bae14ea5cdbd36f:0xf5a3e05e22771431",
+    "data_cid": "17700237655405958193",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14ea5cdbd36f%3A0xf5a3e05e22771431&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14ea5cdbd36f%3A0xf5a3e05e22771431&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.898917299999999,
+     "longitude": 77.6241256
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJb9PbXOoUrjsRMRR3Il7go_U",
+    "provider_id": "/g/11b8697qpv",
+    "type": "Public educational institution",
+    "types": [
+     "Public educational institution",
+     "School"
+    ],
+    "type_id": "public_school",
+    "type_ids": [
+     "public_school",
+     "school"
+    ],
+    "address": "4th Main Rd, Hongasandra, Bengaluru, Karnataka 560114, India",
+    "country": "India",
+    "open_state": "Open · Closes 4 PM",
+    "hours": "Open · Closes 4 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–4 PM",
+     "wednesday": "9 AM–4 PM",
+     "thursday": "9 AM–4 PM",
+     "friday": "9 AM–4 PM",
+     "saturday": "9 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–4 PM"
+    },
+    "phone": "+91 98803 48647",
+    "website": "https://srisaiblossomsedu.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN5cQAln5Kw7rrD11S3cWtlsLZkhFDrrZ6AABHGGA1tA33pHm1pZaT-nYC8CoFYSfJA3-sucLegakH3j1k9zxEGzEhYoqZpNdPVaxwN_j8JgW5LMfJM3CW7VRpj9vze3so-h1lJ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/4j6BQXicFcbbDoIgAADQLyJlzG5bD2SlM3PdptOX5ohgikBA2fzBvqG_qV7OzufNndN27nmCoxFTign6sNQQJR2VbkRU5zFTWwuI9XD41KLLAnLAQgbbfmLMCsITIoUTNq1avlkZU40xXsZRhKHDCOm4g7qqz0CW4TRUm_J0SzAC9kFSyuo2Rg1sZ8NrHQ1rXqp7pbPrPq9ffXZppgkrgnR3S3YoLCb5UTez50CRVYBDkSx66Pv-r38JkF9WlERz"
+   },
+   {
+    "position": 7,
+    "title": "BRS Global School | Best CBSE School in Sarjapur Road",
+    "place_id": "ChIJL9raxmoTrjsRKnEfXycK_N8",
+    "data_id": "0x3bae136ac6dada2f:0xdffc0a275f1f712a",
+    "data_cid": "16139786328804913450",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae136ac6dada2f%3A0xdffc0a275f1f712a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae136ac6dada2f%3A0xdffc0a275f1f712a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9058377,
+     "longitude": 77.6753597
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJL9raxmoTrjsRKnEfXycK_N8",
+    "provider_id": "/g/11tcztrh97",
+    "type": "CBSE school",
+    "types": [
+     "CBSE school",
+     "Educational institution",
+     "High school",
+     "Higher secondary school",
+     "Preschool",
+     "Primary school",
+     "Secondary school"
+    ],
+    "type_id": "cbse_school",
+    "type_ids": [
+     "cbse_school",
+     "educational_institution",
+     "high_school",
+     "higher_secondary_school",
+     "preschool",
+     "primary_school",
+     "secondary_school"
+    ],
+    "address": "15/3, 1st Cross Rd, Kasavanahalli, Eastwood Twp, Bengaluru, Karnataka 560035, India",
+    "country": "India",
+    "open_state": "Open · Closes 4:30 PM",
+    "hours": "Open · Closes 4:30 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–4:30 PM",
+     "wednesday": "8:30 AM–4:30 PM",
+     "thursday": "8:30 AM–4:30 PM",
+     "friday": "8:30 AM–4:30 PM",
+     "saturday": "8:30 AM–4:30 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–4:30 PM"
+    },
+    "phone": "+91 93438 64556",
+    "website": "https://brsglobalschool.edu.in/sarjapur-road/?utm_source=Google+&utm_medium=Search&utm_campaign=GMB",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": false
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN_raN56Fna2jGluNzwjhhbE-JBpBTrrYEdpvkeI3rx72ZdVxTCPfJ0c-aFPY1UBSLhdjLAzAOLmqm4riYgBzI1GLzeoMr56d8W_6gL1JAYaytfXG40a71wG28ZwuOmBjK841jS4aM0-fNh=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/MGoCVXicHcTBboIwAADQL6q0iEiWeKBGiVjRRN2GF9OV0q5Sytoiyk_uvL8x2Tu8v1_pfefegqCR04kwRjS8d9wy03re-gkzOhCWOgeYC9LlvWt0cbW0mMXrloYqa_piHJSUXyuQ4w6frC1XVXe_8c3UPubhpXp_nJaHOocM0PWhRGd8JLJSJB3TPdE_OrLfpcDjBmVk5GZnZ3GVfFxjQVCelvTp688sgnSOhixMLkO_11htkwipY0R3ENSFXAwIQgjk_wy0LwzvRxc"
+   },
+   {
+    "position": 8,
+    "title": "St. Thomas Public School",
+    "place_id": "ChIJ_1ilpqwWrjsRTKsW5pGpa_o",
+    "data_id": "0x3bae16aca6a558ff:0xfa6ba991e616ab4c",
+    "data_cid": "18044702776085621580",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae16aca6a558ff%3A0xfa6ba991e616ab4c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae16aca6a558ff%3A0xfa6ba991e616ab4c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9759351,
+     "longitude": 77.6527112
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ_1ilpqwWrjsRTKsW5pGpa_o",
+    "provider_id": "/g/1tmphz0k",
+    "type": "General education school",
+    "types": [
+     "General education school"
+    ],
+    "type_id": "general_education_school",
+    "type_ids": [
+     "general_education_school"
+    ],
+    "address": "32, Church Road, HAL 3rd Stage, Indiranagar, New Thippasandra, Bengaluru, Karnataka 560075, India",
+    "country": "India",
+    "open_state": "Open · Closes 4 PM",
+    "hours": "Open · Closes 4 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–4 PM",
+     "wednesday": "9 AM–4 PM",
+     "thursday": "9 AM–4 PM",
+     "friday": "9 AM–4 PM",
+     "saturday": "9 AM–12:30 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–4 PM"
+    },
+    "phone": "+91 80 2528 2890",
+    "website": "http://www.stthomaspublicschools.com/",
+    "extensions": [
+     {
+      "offerings": [
+       "Affiliated with CISCE "
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdRxGzbbSaN2wEMgvDRUnFkWp0ToQQ1WEfh31CSHQdYoWxuFSNJ_kRjCTXwfwPcIG_0W8IQS77QZ3uvcR7MMy-t6NcEQF2S9moelQhUoASOvf4T2o9LRCAagxeYoKBp3eEKbn61=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jiOQwHicHcTdboIwGADQJ0IKGNElu0AEdQpbWwzqjYFa2gj0I7b8zBfcM-xtluxcnN8faUyn32y7kd5MAIiG95o_GSjDlZkxaG3xLLS2mLaDYF23xzuZtq-ypEXqjlEihg05qbjOO5QBxk4eVdJzQrrD9wvkUx_T9ONWk0eYncdq_GL77Q3lyz2mvo-vXj8w4ifJt2UWKYtw7NJVC7zB8gQB_RyqeebC6kjCoBATv8Bh3Xk8OpRq4byPDkLIkv8zS_0BfsBESw"
+   },
+   {
+    "position": 9,
+    "title": "HAL NEW PUBLIC SCHOOL",
+    "place_id": "ChIJURgRKLATrjsR1feuG_JBInc",
+    "data_id": "0x3bae13b028111851:0x772241f21baef7d5",
+    "data_cid": "8584496347823929301",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae13b028111851%3A0x772241f21baef7d5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae13b028111851%3A0x772241f21baef7d5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9568783,
+     "longitude": 77.68161649999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJURgRKLATrjsR1feuG_JBInc",
+    "provider_id": "/g/11fj2lz_89",
+    "unclaimed_listing": true,
+    "type": "Middle school",
+    "types": [
+     "Middle school"
+    ],
+    "type_id": "middle_school",
+    "type_ids": [
+     "middle_school"
+    ],
+    "address": "XM4J+QJ5, Namjoshi Rd, Ramesh Nagar, Marathahalli, Bengaluru, Karnataka 560037, India",
+    "country": "India",
+    "open_state": "Closes soon · 2:55 PM · Opens 7:25 AM Wed",
+    "hours": "Closes soon · 2:55 PM · Opens 7:25 AM Wed",
+    "operating_hours": {
+     "tuesday": "7:25 AM–2:55 PM",
+     "wednesday": "7:25 AM–2:55 PM",
+     "thursday": "7:25 AM–2:55 PM",
+     "friday": "7:25 AM–2:55 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "7:25 AM–2:55 PM"
+    },
+    "website": "http://halnewpublicschool.co.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPU4jULGTFaokODikBDWq2pFn_wElOboYDapbVPDSUGC_4FEBooYdaPwRwDRH5Oyirp08NNrAn0JG4_uh2YwYwN-tadZPrMeGmrO9ovS4f_gJcY3iInXuf2X9DscGe0Gn8VcwHA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/C0Ac4XicHcRBjoIwFADQEyEVMdFJXCCVqnGAqKh1Q2qtgEJ_py02ntAzzG1MfIv3_66tVebH99t6NKgAqlb0RmgO0gppBxw6v9LMGI8bP4qfqu3yIrwXG7JPGDwy3Dzm-PgXqESWbtFmF6CYqcshx7uCxGWYLOYA9Mpyt3V4uxxnr0YrNElTHUm0JmHZ1wF11KWeZddzrn8F6XQ2hecuvJXVmtNRs5Kn_hacpthwIhCRkwN3y2jmhgghr_7OPfkB2Y1Fig"
+   },
+   {
+    "position": 10,
+    "title": "N E S Public School",
+    "place_id": "ChIJ7f2qA_AVrjsRf9rv1zHDaZ0",
+    "data_id": "0x3bae15f003aafded:0x9d69c331d7efda7f",
+    "data_cid": "11342811755352939135",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15f003aafded%3A0x9d69c331d7efda7f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15f003aafded%3A0x9d69c331d7efda7f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.912491,
+     "longitude": 77.6372544
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ7f2qA_AVrjsRf9rv1zHDaZ0",
+    "provider_id": "/g/11v03ypg52",
+    "rating": 4.6,
+    "reviews": 9,
+    "type": "School center",
+    "types": [
+     "School center",
+     "Preschool"
+    ],
+    "type_id": "school_center",
+    "type_ids": [
+     "school_center",
+     "preschool"
+    ],
+    "address": "C4, 14th Main Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
+    "country": "India",
+    "open_state": "Open · Closes 4 PM",
+    "hours": "Open · Closes 4 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–4 PM",
+     "wednesday": "9 AM–4 PM",
+     "thursday": "9 AM–4 PM",
+     "friday": "9 AM–4 PM",
+     "saturday": "9 AM–1 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–4 PM"
+    },
+    "website": "https://nespublicschool.in/",
+    "user_review": "\"My Daughter got impressed by the modern infrastructure...\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLc6aykbJKqLFIx3_xLIJzZq7_9NFLTNRjOvoJQjjbdLIlfkHAWvuxVKUPGrIrk6Xkf8cuEf1wKf5z3ni4iHYS1F8ZW-Lsl_C7JJb8LtCaZpwqNtgekC9XsvzNWrCPls_utAonB-eQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/R2BlY3icHcRdboIwAADgE1UgbIomPiCRSWlQNxXGC4GugLS20pYfuaFH8DZL_B6-17PW-q5WhsFqe1YJUTHSKSKx4JpwPcPiZlQyVwpgZbjuht4QnucPWsCwRX4w2tmIAjil7SJbRj46Rd_Nvhfw2DTFHwpYSXdu3HfjJTwfvmQg6TyhpYO7bWkNYfk52fz6cd39_li-k8YAKZZ5CwgLB2kvT-9DG-mKUG-ZqH6KYukdmMo67Qq-AeS4HizTNEH9HgP-D3vQRvM"
+   },
+   {
+    "position": 11,
+    "title": "LAKE VIEW PUBLIC SCHOOL",
+    "place_id": "ChIJ7dG_WSETrjsRmxZKzfHv1LE",
+    "data_id": "0x3bae132159bfd1ed:0xb1d4eff1cd4a169b",
+    "data_cid": "12814130661586245275",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae132159bfd1ed%3A0xb1d4eff1cd4a169b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae132159bfd1ed%3A0xb1d4eff1cd4a169b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.898983699999999,
+     "longitude": 77.69485999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ7dG_WSETrjsRmxZKzfHv1LE",
+    "provider_id": "/g/11b6z6bk32",
+    "rating": 4.1,
+    "reviews": 83,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution",
+     "School center"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution",
+     "school_center"
+    ],
+    "address": "13, Chikkanayakanhalli road, Sarjapur Main Rd, Doddakannelli, Chikkakannalli, Karnataka 560035, India",
+    "country": "India",
+    "open_state": "Closes soon · 3 PM · Opens 8 AM Wed",
+    "hours": "Closes soon · 3 PM · Opens 8 AM Wed",
+    "operating_hours": {
+     "tuesday": "8 AM–3 PM",
+     "wednesday": "8 AM–3 PM",
+     "thursday": "8 AM–3 PM",
+     "friday": "8 AM–3 PM",
+     "saturday": "8 AM–1 PM",
+     "sunday": "Closed",
+     "monday": "8 AM–3 PM"
+    },
+    "phone": "+91 85535 24050",
+    "website": "http://www.lakeviewpublicschool.in/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "book_online": "https://www.district.in/play/elite-sports-lake-view-public-school-doddakannelli-bengaluru-slots-booking?rwg_token=AE37R_gDhX6FUn-8R0gj4vHnfRgxXXXUPgUOYQC2Ax5wtQfpKZl8NgX3tVEwmoRwHpycwW3RVImpf6S1c7AbtiPZo86WuG2yiw%3D%3D",
+    "user_review": "\"The school has a spacious and well-maintained campus with modern facilities.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdEBYvWFeGLEiwzCVqORa0dO7lbSbGyqTu_3vRf8c2mc7aR5tyVapj-u9XbfUnQW4z4Do3b1f9FhrIjuPYhHvTdYIBhwep28c8jgOkC5MQCIjW7_lCP-09Xz0IQsSXxpXlD_gQw8kctEZq4=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/IemCqnicHcTBkkMwAADQL0ql6GBn9lCqrZnuKLpFL4aIpIQgwdZP7nn_Zmf6Du_vl0rZiw9FYVTbEM4Jw5PAI-KdxJ3cIN4qZMyFAEgo-73dtJfStdM5PuLTxX0uq3Mf_DCHpW-wIipOr-E2ZdocViZSW2Tk4U6-7nlfg8lKiuq7C2J91Q9cK7aVdaSjV0_XlJ7nW5l6Nl1wr5rIrInfOLuvwPHq2MiYcwXQSlboBSJKfvqEHTISLGaDpPsY9M9lCyEE9D0C3T8IJkgS"
+   },
+   {
+    "position": 12,
+    "title": "Indian Public school",
+    "place_id": "ChIJYedQ7_4TrjsRYE_pByRk9Eo",
+    "data_id": "0x3bae13feef50e761:0x4af4642407e94f60",
+    "data_cid": "5401051959038398304",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae13feef50e761%3A0x4af4642407e94f60&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae13feef50e761%3A0x4af4642407e94f60&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.966323299999999,
+     "longitude": 77.6576127
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJYedQ7_4TrjsRYE_pByRk9Eo",
+    "provider_id": "/g/1x5qr6sp",
+    "type": "General education school",
+    "types": [
+     "General education school",
+     "College",
+     "Secondary school"
+    ],
+    "type_id": "general_education_school",
+    "type_ids": [
+     "general_education_school",
+     "college",
+     "secondary_school"
+    ],
+    "address": "opposite LIC of India, Branch office, DOS Colony, Jeevan Bima Nagar, Bengaluru, Karnataka 560075, India",
+    "country": "India",
+    "open_state": "Open · Closes 4:30 PM",
+    "hours": "Open · Closes 4:30 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–4:30 PM",
+     "wednesday": "8:30 AM–4:30 PM",
+     "thursday": "8:30 AM–4:30 PM",
+     "friday": "8:30 AM–4:30 PM",
+     "saturday": "8:30 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–4:30 PM"
+    },
+    "phone": "+91 80 2521 4644",
+    "website": "http://www.ipsjbn.com/",
+    "extensions": [
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTfRrOwm4lhBT05Xi-_jGhxBAltHmpEH8oLsD8Jg1JEHbXNqHIF49Npc55azNE1EqI0l4FVnRwS_2kH1t0NFimycEsYI2vw7ATIFaw1SnWL9Be1zqHuT4FHl_2knhvHLBvns5Exg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Rqkl6HicHcpJDoIwAADAFyGtQlwSDzS2FkMwUeJyMlixVbsArVT9oU_wNxovc5rPWzhX20kYSjHocWO4rO62apnRrtKux4wKeVtaGzAbJgm6qexUnFft0qtIClSAeHcJDte5eKBEOqpqTEcms7PRgsMFpsdd3tCUROO8ZnFcvnIMcZMCGZGNXvn1oX-j0IGcXNSTYbtP-50fJkVKSg_XepuNUQVfDb0XEaHyl7XoaIY6bWP84FMPAQCB-MsC_QXEvETR"
+   },
+   {
+    "position": 13,
+    "title": "Elm Global School - Montessori",
+    "place_id": "ChIJWUPWQowUrjsRoc4-mtMX-vk",
+    "data_id": "0x3bae148c42d64359:0xf9fa17d39a3ecea1",
+    "data_cid": "18012735857215065761",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae148c42d64359%3A0xf9fa17d39a3ecea1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae148c42d64359%3A0xf9fa17d39a3ecea1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9166203,
+     "longitude": 77.6343006
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWUPWQowUrjsRoc4-mtMX-vk",
+    "provider_id": "/g/11cn3vvt5h",
+    "rating": 5,
+    "reviews": 203,
+    "type": "Preschool",
+    "types": [
+     "Preschool",
+     "Day care center",
+     "International school",
+     "Kindergarten",
+     "Montessori preschool",
+     "Montessori school",
+     "Playgroup"
+    ],
+    "type_id": "preschool",
+    "type_ids": [
+     "preschool",
+     "day_care_center",
+     "international_school",
+     "kindergarten",
+     "montessori_preschool",
+     "montessori_school",
+     "playgroup"
+    ],
+    "address": "7/8, Service Rd, Teacher's Colony, Sector 5, 1st Block Koramangala, HSR Layout, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–6 PM",
+     "wednesday": "8:30 AM–6 PM",
+     "thursday": "8:30 AM–6 PM",
+     "friday": "8:30 AM–6 PM",
+     "saturday": "9:30 AM–3 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–6 PM"
+    },
+    "phone": "+91 80500 01880",
+    "website": "http://elmearlyeducation.com/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Online classes",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_classes": true,
+     "onsite_services": true
+    },
+    "user_review": "\"Awesome Montessori with good value education for little once.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcxKBflLoFPaqeN2HJRaBLgjWDrJbfbgxQ7qDF5pjB6SDocmb6lWjL7hIoXAo-jRFnc6F5RFyrLtIi-NCmd5bhImP9Cq1CL2qLmH8-n9CAMjYqfctUIOkDvbvQMxeWNBSEPMyXQKA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/WSOCbnicHcRRboIwAADQE1VQA84l-2hhjWhBwCy4T9qVdpW2lnaKR9wRvM2SvY_3_JUhXP1rFI1yvRDWipH_eD4xawI3YcGsjsTUew-YjyBEF03YfEDDSCyue8er1W7f9ogI1eXTng5UzM3G5Ti5KpSecss0TcdOkY0s7BlaoFpsWIqTFj8mEopvUGX6K6Gy0PU2c8uMrBzRuxdgthks1acbWPgojpf8Rm9NOfOuQqf3unycmwN8uy_jOAbyfwbMHxQwRUQ"
+   },
+   {
+    "position": 14,
+    "title": "ABHIJNA INTERNATIONAL PUBLIC SCHOOL",
+    "place_id": "ChIJq8_7bqE_rjsRKyOL-2l0bCc",
+    "data_id": "0x3bae3fa16efbcfab:0x276c7469fb8b232b",
+    "data_cid": "2840773463504528171",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae3fa16efbcfab%3A0x276c7469fb8b232b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae3fa16efbcfab%3A0x276c7469fb8b232b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.902264599999999,
+     "longitude": 77.5471027
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq8_7bqE_rjsRKyOL-2l0bCc",
+    "provider_id": "/g/11sttvt02k",
+    "rating": 4.7,
+    "reviews": 88,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution"
+    ],
+    "address": "45, T. Lakshmaya Layout, Gundu, Swamy Temple Road, Uttarahalli Hobli, Muneshwara, Bengaluru, Karnataka 560061, India",
+    "country": "India",
+    "open_state": "Open · Closes 5 PM",
+    "hours": "Open · Closes 5 PM",
+    "operating_hours": {
+     "tuesday": "9 AM–5 PM",
+     "wednesday": "9 AM–5 PM",
+     "thursday": "9 AM–5 PM",
+     "friday": "9 AM–5 PM",
+     "saturday": "9 AM–5 PM",
+     "sunday": "9 AM–5 PM",
+     "monday": "9 AM–5 PM"
+    },
+    "phone": "+91 88670 04567",
+    "website": "https://abhijnainternationals.com/",
+    "user_review": "\"Excellent class rooms &  good teaching & excellent  faculties 👍\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfc3X3GP9T1fOr71wwDQWoYHt1ALfyPQpAznLSQgmXqnHhlIlUGRefr34R2BGEk4VVcsaiiG7aqVz9Y0pjMlwewjHjzlBe_WOEGTAUAAZvJeffRbEkYSTSIeCh7PVF_K2jqS0Q7DQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/IdRXTXicHcRRboIwAADQEyFFTIhL_CiKRWWRAqLsx2DTUqG0QOuacUOPsNss2ft4v29uzKA_XFdwf9Eo1Qj60nQiShoqzYKo3m2mWmuHaBfCsOsTRvybj9J14bHzFHjW7vBVVbHxYMJ-UjzAWSY5bvrbKGMuDuKCMsomf5UtQxR1q7Ikun4-UVCP5byuwNB-CkttG7ezCOn9eo5QAS8Qfn0fKWPZI-qqvMgPdMuDtNzfT8t2zAEOdnhjPQCAw_8njvwDIdVFjQ"
+   },
+   {
+    "position": 15,
+    "title": "Vitalyears Montessori School",
+    "place_id": "ChIJ4SuroFsTrjsRGWIbi_KNOzs",
+    "data_id": "0x3bae135ba0ab2be1:0x3b3b8df28b1b6219",
+    "data_cid": "4268161144719106585",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae135ba0ab2be1%3A0x3b3b8df28b1b6219&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae135ba0ab2be1%3A0x3b3b8df28b1b6219&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.901725899999999,
+     "longitude": 77.6782133
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4SuroFsTrjsRGWIbi_KNOzs",
+    "provider_id": "/g/11rtlprld8",
+    "rating": 4.9,
+    "reviews": 40,
+    "type": "Kindergarten",
+    "types": [
+     "Kindergarten"
+    ],
+    "type_id": "kindergarten",
+    "type_ids": [
+     "kindergarten"
+    ],
+    "address": "Site No. 337 50 feet road, Kasavanahalli, Karnataka 560035, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–6 PM",
+     "wednesday": "8:30 AM–6 PM",
+     "thursday": "8:30 AM–6 PM",
+     "friday": "8:30 AM–6 PM",
+     "saturday": "10:30 AM–1:30 PM",
+     "sunday": "Closed",
+     "monday": "8:30 AM–6 PM"
+    },
+    "user_review": "\"Excellent school for kids.All teachers are very supportive and helpful.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfYuYc6jXWpw1l95LllWiARJccFatckzGPvydBZa-tT5IcxvFC0suUfdgoG2xEPp-HOk8ZeVG5r6oTfDY6T1bMjKFr3cSxtAdBoJj3ug359H9beT163U--NmX4VSY7BO1bAbi4MVg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/IepuEnicHcRBcoIwFADQE0VIA1iccRFqQa1WRwHFHXxCEAJhSFDsDT2Ct3Gmb_Fez1LrTs0MQ5RkwqXkgg2K9SBbzVo9AdkYvE-VQqAMSr262RTJkIBTnU_dHQvX3ghxutLDGsBPNdR_wf72yL1LinRor2C8-V-mGqIi5zL4GL_3HVru6s8LiwO7d2RYLBInxNm2-vF7AsdR09yT64oMnNju0s1YiB0SIfTbnK34mEy9Hc5odrW2MZ_fsWmaqPwfUPsGN4FElw"
+   },
+   {
+    "position": 16,
+    "title": "Army Public School Bengaluru",
+    "place_id": "ChIJ8ybjFYYWrjsRwUuLq7tBm_o",
+    "data_id": "0x3bae168615e326f3:0xfa9b41bbab8b4bc1",
+    "data_cid": "18058099405164858305",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae168615e326f3%3A0xfa9b41bbab8b4bc1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae168615e326f3%3A0xfa9b41bbab8b4bc1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9786875,
+     "longitude": 77.60938929999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8ybjFYYWrjsRwUuLq7tBm_o",
+    "provider_id": "/g/1v8g9gbh",
+    "type": "CBSE school",
+    "types": [
+     "CBSE school",
+     "Public educational institution",
+     "School"
+    ],
+    "type_id": "cbse_school",
+    "type_ids": [
+     "cbse_school",
+     "public_school",
+     "school"
+    ],
+    "address": "Kamaraj Rd, FM Cariappa Colony, Sivanchetti Gardens, Bengaluru, Karnataka 560042, India",
+    "country": "India",
+    "open_state": "Closed · Opens 7 AM Wed",
+    "hours": "Closed · Opens 7 AM Wed",
+    "operating_hours": {
+     "tuesday": "7 AM–2 PM",
+     "wednesday": "7 AM–2 PM",
+     "thursday": "7 AM–2 PM",
+     "friday": "7 AM–2 PM",
+     "saturday": "7 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "7 AM–2 PM"
+    },
+    "phone": "+91 80 2558 1238",
+    "website": "https://apsbangalore.edu.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "offerings": [
+       "Affiliated with CBSE "
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfeuJOMtQkxQfVR66Tx7f6gUV77T7dhm6goKzhfYeDtQE6MIuUt4pk1haJo87wkVHaqiLpWizoNcSnzxtzhA0Klp8dqRDySi3Bk-3LbFK90iuJrR5F_H5i_PG7WXdYy27f4xWjkg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/r69ZQnicHcRLjoIwAADQEyF10FYnmQXGL5-ZARV0ZbD0Z4ECLRG5oUfwNia-xXs9uTG1_rbtgjsjphQrSKdJi1VlSGVGWJU2azOtLaxt113IMsCUdN5faCLZRzSJITz0iEJ2TBA6oJyXkCl_4PRMliZawXDXHc2klmOeeWqG7jLZZo0I6lQM6hfvq6E3A3eBX9SzvImXj71wFtJyguvanwPReW08XV-2U3H536D0lJ8fX4hO-vQm2c99DACw-GdsVW990UZp"
+   },
+   {
+    "position": 17,
+    "title": "St. Joseph's Indian Middle School",
+    "place_id": "ChIJ4wp2oHcWrjsRdyuhgX038Zo",
+    "data_id": "0x3bae1677a0760ae3:0x9af1377d81a12b77",
+    "data_cid": "11164765963413433207",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1677a0760ae3%3A0x9af1377d81a12b77&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1677a0760ae3%3A0x9af1377d81a12b77&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.970544,
+     "longitude": 77.5945035
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4wp2oHcWrjsRdyuhgX038Zo",
+    "provider_id": "/g/1ptwt26vh",
+    "unclaimed_listing": true,
+    "type": "Middle school",
+    "types": [
+     "Middle school"
+    ],
+    "type_id": "middle_school",
+    "type_ids": [
+     "middle_school"
+    ],
+    "address": "XHCV+6R6, D' Souza Layout, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "open_state": "Open · Closes 5:30 PM",
+    "hours": "Open · Closes 5:30 PM",
+    "operating_hours": {
+     "tuesday": "8:30 AM–5:30 PM",
+     "wednesday": "8:30 AM–5:30 PM",
+     "thursday": "8:30 AM–5:30 PM",
+     "friday": "8:30 AM–5:30 PM",
+     "saturday": "8:30 AM–5:30 PM",
+     "sunday": "8:30 AM–5:30 PM",
+     "monday": "8:30 AM–5:30 PM"
+    },
+    "phone": "+91 80 2221 2570",
+    "website": "https://www.sjiibangalore.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN6q5uimdL9zZYEUskdQI7p2KwbTQqnCUv2FFQh4gf7uYUuVs8fAlQpIU0iQIOlKPcon_T-2hfqFLHvbto7bDBJR8RgOa3gsZvpapxWgtdxn244v1F7xl6JlHKM-NH_XJoxVpg7=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vE1Q5nicHcxJDoIwAADAF1UQ0aqJB1wIi1uJqHgxrK2xtMWWSvygb_A3Gi9znM-bKCXk1DAoGfQw55iWrSwfOWeqZKqX89rAj1RKkEvDWWhB6-2oGba3ulhPXpdkFct7gXworPCZHVDDFrG2XBcRG1ewTeL2KMeVQ5HwY_OG_B0N97_6egAWqRp37elMcZgt50E0jvAuHWB50SIV3QmromOWbeu-Czs6CqgXbsDWu54D3h0FhrNn3zRNQP7mgH0B_ZlF4w"
+   },
+   {
+    "position": 18,
+    "title": "Boston International Public School",
+    "place_id": "ChIJ1eudzeQ9rjsRKu_REyT8y0g",
+    "data_id": "0x3bae3de4cd9debd5:0x48cbfc2413d1ef2a",
+    "data_cid": "5245563422884622122",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae3de4cd9debd5%3A0x48cbfc2413d1ef2a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae3de4cd9debd5%3A0x48cbfc2413d1ef2a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.973151999999999,
+     "longitude": 77.5511113
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ1eudzeQ9rjsRKu_REyT8y0g",
+    "provider_id": "/g/11c2j8mpym",
+    "unclaimed_listing": true,
+    "type": "General education school",
+    "types": [
+     "General education school"
+    ],
+    "type_id": "general_education_school",
+    "type_ids": [
+     "general_education_school"
+    ],
+    "address": "21, 2nd Cross Rd, Vidyaranya Nagar, Cholourpalya, Bengaluru, Karnataka 560023, India",
+    "country": "India",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPRi2b-OXx7xidVdxLkpLSWvhFHAxQyLBz5qx44poPMgz22jW6sVjl5Hfown9GNh45VA6UGbYMVDkxJGia5cXOAM5vs4hsaVJ_DQNTA5tnfE7ffYsmxo5PRVI4eq01HBnhR3A4czlpiG8oo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FLiAAXicHcRBcoIwFADQEyGIibad6SLUFuqAIm2jrjoYgaAhP_pTjFzSdW_Tmb7F-71Law0--b6Sk1ED0KjqB6uLAG0rbUcCOr-5lIieQJ-99EZ1edGGe2-1dTPXHvjBpSeTfmx6-ZYwt76l0UDPjhADedYMYXjcTJEfFU1quOrHeCkJ5Wz6Fe93GZ-f3CJuSyq2K5bRHonEki--5-vlJ6NW16-zut5h54DmBX8n1TkYJ5GWxYQRMSjTxg8Az9dxEASe_F94-g8tFkgh"
+   },
+   {
+    "position": 19,
+    "title": "Jayashree Public School",
+    "place_id": "ChIJq3olnnoVrjsRqrrL5bQIpms",
+    "data_id": "0x3bae157a9e257aab:0x6ba608b4e5cbbaaa",
+    "data_cid": "7756896981234727594",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae157a9e257aab%3A0x6ba608b4e5cbbaaa&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae157a9e257aab%3A0x6ba608b4e5cbbaaa&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9110952,
+     "longitude": 77.57312999999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq3olnnoVrjsRqrrL5bQIpms",
+    "provider_id": "/g/1q629ct_g",
+    "type": "Public educational institution",
+    "types": [
+     "Public educational institution"
+    ],
+    "type_id": "public_school",
+    "type_ids": [
+     "public_school"
+    ],
+    "address": "9th Cross Rd, SBI Colony, 1st Phase, J. P. Nagar, Bengaluru, Karnataka 560111, India",
+    "country": "India",
+    "open_state": "Closes soon · 3 PM · Opens 9 AM Wed",
+    "hours": "Closes soon · 3 PM · Opens 9 AM Wed",
+    "operating_hours": {
+     "tuesday": "9 AM–3 PM",
+     "wednesday": "9 AM–3 PM",
+     "thursday": "9 AM–3 PM",
+     "friday": "9 AM–3 PM",
+     "saturday": "8 AM–12 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–3 PM"
+    },
+    "phone": "+91 99025 26076",
+    "website": "http://www.jayashreepublicschool.com/",
+    "extensions": [
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcKcUw71XckVJSsVmbHMWuU9t1tGRDy0n-ds-absaBCPbU-WIYN5H1weljmoetLw5fLOsQm35sKT3Q8Ofz6_AuY3iVblqIy-VT7RWWReDF-dO8PqnTbvzQTcCC0-N3xtGEQhIS_=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2VG2X3icHcRbjoIwFADQFV0pafCV-IE4oyiKIA_9MrRWUGmr3iLqBl2Du5lkzsf5fipjrji0rLqinVLrshYNijvXyghlOlxLq7wXiMDRct3xRQZ8wdO2Z2_5JZtvMJNstsybdGBsM40nL6LggFAwLMbemqWQ-7uVM7NbUZ-lFiZonWMQYiSpg4uERv3w-O7u3WZHTxmrb_4LsqQX53ksJr9wCPvrm0rY4x0l3PMIrOjTTH-iyt_sR61NCIHqfw7qD3xFRG0"
+   },
+   {
+    "position": 20,
+    "title": "Najaf Public School",
+    "place_id": "ChIJm1BRPw8_rjsR51xeAUXi3nk",
+    "data_id": "0x3bae3f0f3f51509b:0x79dee245015e5ce7",
+    "data_cid": "8781705109422628071",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae3f0f3f51509b%3A0x79dee245015e5ce7&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae3f0f3f51509b%3A0x79dee245015e5ce7&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9595173,
+     "longitude": 77.5478155
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJm1BRPw8_rjsR51xeAUXi3nk",
+    "provider_id": "/g/11v5v198nt",
+    "rating": 4.7,
+    "reviews": 21,
+    "type": "Educational institution",
+    "types": [
+     "Educational institution"
+    ],
+    "type_id": "educational_institution",
+    "type_ids": [
+     "educational_institution"
+    ],
+    "address": "7/2 1st Cross Vinayaka Nagar, Old Guddadahalli, Padarayana Pura, Bengaluru, Karnataka 560026, India",
+    "country": "India",
+    "open_state": "Open · Closes 7:30 PM",
+    "hours": "Open · Closes 7:30 PM",
+    "operating_hours": {
+     "tuesday": "10 AM–7:30 PM",
+     "wednesday": "10 AM–7:30 PM",
+     "thursday": "10 AM–7:30 PM",
+     "friday": "10 AM–7:30 PM",
+     "saturday": "10 AM–7:30 PM",
+     "sunday": "9:30 AM–6:30 PM",
+     "monday": "10 AM–7:30 PM"
+    },
+    "phone": "+91 89042 43794",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Assisted listening devices",
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking",
+       "On-site parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Awesome school besttt technology and uniform style is very unique\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeEYna3A5tRgyWksDFsQyJNwX915roRyZ7B0xZOYAYKWtzCQTu8RvNBhSzYs43TbBzwUIzbMkt4hdqwyuS03ERdxW7cdNKMgOksW8PnWDcwsT4uraYZcRmJWieAPhwNCC6Mra6GhvecJuz2=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/o_0jZXicHcTdToMwGADQJ2J0wn408aKwaWTCNoap5Y6VpjWMVvu16-hLer23MfFcnPuvtPYbnuL4IpOZ0FpcuANumFaWKztjeoyF6QAiBjHG2TC-8y1VXYIXthYTGWDzAsepqPzn43xhdD21qwzd2j3FdEdsyI-NW9fXKpOnQCFNmnMW_MdbOJeDTWX_4yd3Qsm27m9kxfpqV4r9AGR9UGTDPDSpMx1tWT0W5Ivjg_RVni9L0y1f5ZWzwoWHZz9HCEXyfxapP0sHSUU"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9352403%2C77.624532%2C14z&q=school&start=20&type=search"
+  }
+ }
+}

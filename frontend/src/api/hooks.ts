@@ -7,6 +7,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import { apiFetch } from "./client";
 import type {
+  AreaIntel,
   BudgetStatus,
   HealthStatus,
   InvestorProfile,
@@ -150,5 +151,17 @@ export function useRunRecommendations(run: PipelineRun | undefined) {
     queryKey: ["runs", run?.id, "recommendations", run?.status],
     queryFn: () => apiFetch<Recommendation[]>(`/runs/${run?.id}/recommendations`),
     enabled: run !== undefined && ranked,
+  });
+}
+
+/** Area intelligence for the run's ranked localities (F-05), once enrichment has finished. */
+export function useRunAreas(run: PipelineRun | undefined) {
+  const enriched = (run?.events ?? []).some(
+    (event) => event.stage === "enrich" && (event.status === "succeeded" || event.status === "failed"),
+  );
+  return useQuery({
+    queryKey: ["runs", run?.id, "areas", run?.status],
+    queryFn: () => apiFetch<AreaIntel[]>(`/runs/${run?.id}/areas`),
+    enabled: run !== undefined && enriched,
   });
 }

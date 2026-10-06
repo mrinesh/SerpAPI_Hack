@@ -26,7 +26,8 @@ city) use the same shape.
 | GET | `/runs/{run_id}/verifications` | `Verification[]`: completed checks, including rejects and reasons | F-03 | ✅ |
 | GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked; empty until the rank stage runs | F-04 | ✅ |
 | GET | `/properties/{listing_id}` | `PropertyDetail` | F-07 | 🧱 |
-| GET | `/areas/{locality_key}` | `AreaIntel`; key like `bengaluru/whitefield` | F-05 | 🧱 |
+| GET | `/areas/{locality_key}` | `AreaIntel`; key like `bengaluru/whitefield`; 404 if never built | F-05 | ✅ |
+| GET | `/runs/{run_id}/areas` | `AreaIntel[]` for the localities of the run's ranked candidates | F-05 | ✅ |
 | GET | `/saved` | `SavedProperty[]` | F-08 | 🧱 |
 | POST | `/saved` | `SavedProperty` (201) | F-08 | 🧱 |
 | DELETE | `/saved/{listing_id}` | 204 | F-08 | 🧱 |
