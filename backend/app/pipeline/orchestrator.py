@@ -4,7 +4,8 @@
 
 `start_run` creates a `pipeline_runs` row and runs `run_pipeline` on a background thread with its
 own database session; the UI polls `GET /api/runs/{id}` for `StageEvent`s. Built so far: plan,
-fetch and clean (F-02). Later stages are reported as not built yet. A failing stage marks the
+fetch and clean (F-02), and verify (F-03). Later stages are reported as not built yet.
+A failing stage marks the
 run failed but keeps everything saved so far.
 """
 
@@ -26,8 +27,10 @@ from app.integrations.serpapi.gateway import SerpApiGateway
 from app.pipeline.cleaning import normalize_hits
 from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
-from app.pipeline.persist import save_candidates
+from app.pipeline.enrichment.price_level import price_levels
+from app.pipeline.persist import save_candidates, save_verification
 from app.pipeline.query_planner import plan_queries
+from app.pipeline.verification import extract, verify
 from app.reference import load_market
 from app.schemas.run import PipelineRun, PipelineStage, RunStatus, StageEvent
 from app.services import profiles
@@ -43,7 +46,6 @@ STAGE_ORDER: tuple[PipelineStage, ...] = (
     PipelineStage.RANK,
 )
 NOT_BUILT = {
-    PipelineStage.VERIFY: "F-03",
     PipelineStage.ENRICH: "F-05",
     PipelineStage.RANK: "F-04",
 }
@@ -94,7 +96,7 @@ def run_pipeline(run_id: str) -> None:
                 settings=settings,
                 db=db,
                 serp=SerpApiGateway(settings, db),
-                llm=get_llm(settings),
+                llm=get_llm(settings, db),
                 emit=tracker.replace,
             )
 
@@ -141,6 +143,48 @@ def run_pipeline(run_id: str) -> None:
                     f"{len(result.listings)} candidates from {result.pages} portal pages "
                     f"and {result.projects} Google Maps projects"
                 )
+
+            with tracker.stage(PipelineStage.VERIFY) as event:
+                # Discovery order is deterministic, so a capped run checks the same candidates.
+                checking = result.listings[: settings.verify_max_candidates]
+                event.counts = {
+                    "candidates": len(result.listings),
+                    "checked": 0,
+                    "rejected": 0,
+                    "flagged": 0,
+                    "unchecked": len(result.listings) - len(checking),
+                }
+                event.message = "Looking up locality price levels"
+                tracker.replace(event)
+                # Benchmarks for price flags: one search per locality and type (ADR 0014).
+                levels, level_notes = price_levels(ctx, market, result.listings)
+                for listing in checking:
+                    extracted = extract(ctx, listing)
+                    benchmark = levels.get(
+                        (extracted.locality.value, extracted.property_type.value)
+                    )
+                    verification = verify(ctx, extracted, benchmark)
+                    save_verification(db, run_id, extracted, verification)
+                    event.counts["checked"] += 1
+                    event.counts["rejected"] += int(verification.verdict == "reject")
+                    event.counts["flagged"] += int(
+                        any(flag.kind == "too_good_to_be_true" for flag in verification.flags)
+                    )
+                    event.message = (
+                        f"Checked {event.counts['checked']} of {len(checking)} candidates; "
+                        f"{event.counts['rejected']} filtered out, "
+                        f"{event.counts['flagged']} flagged as implausibly cheap"
+                    )
+                    tracker.replace(event)
+                if level_notes and checking:
+                    event.message += ". Price levels: " + "; ".join(level_notes)
+                if event.counts["unchecked"]:
+                    event.message += (
+                        f"; {event.counts['unchecked']} more not checked "
+                        f"(limit {settings.verify_max_candidates} per run)"
+                    )
+                if not result.listings:
+                    event.message = "No candidates to verify"
 
             for stage, feature in NOT_BUILT.items():
                 tracker.note(stage, f"Not built yet ({feature})")

@@ -1,0 +1,13 @@
+{
+  "key": "1459cb514946cb4b14a25f67b2b2d1ad5ae648e2fa21ae8efdde5a5d90f65a6c",
+  "task": "extract_price_level",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "result_index": 3,
+    "low": 17501.0,
+    "high": 17501.0,
+    "evidence": "Office Space (Average Price ₹/Sq-ft) ₹17501/Sq-ft",
+    "confidence": 0.95
+  }
+}

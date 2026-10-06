@@ -1,0 +1,33 @@
+{
+  "key": "0c001f428d8fb3a664d9f59b7fc7769db3e10b111e0f647d8db1fc4f9a198b12",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "office",
+      "confidence": 0.8,
+      "evidence": "The under construction building/office will be available within 3 months."
+    },
+    "price_inr": {
+      "value": "19100000",
+      "confidence": 0.8,
+      "evidence": "available at 1.91 crore"
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "under_construction",
+      "confidence": 0.8,
+      "evidence": "under construction"
+    }
+  }
+}

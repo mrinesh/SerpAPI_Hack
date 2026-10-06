@@ -1,0 +1,27 @@
+{
+  "key": "490d7fc81fa80ab28a4a2de58ab5e48fae9f5721071a0715dc4f3b954e17a687",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 68,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Segment: commercial matches investor segment",
+      "Property type: office matches requested office",
+      "Budget: reported price ₹1.91 crore is within ₹3 crore max budget (with caveat on price source)",
+      "Locality: appears in Koramangala search context, matching requested locality (query-derived, not verified for this listing)"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Listing size (sq ft) is not available; without it, size suitability cannot be assessed and strong verdict is prevented",
+      "Locality is query-derived (confidence 0.5) and may cover nearby areas; the specific listing's locality is not confirmed",
+      "Reported price ₹1.91 crore comes from a search snippet and is not a verified final unit price",
+      "IT services business suitability is not established by candidate evidence",
+      "Rental income potential, rental yield, and target ROI 4% cannot be confirmed at this stage",
+      "Risk appetite balanced cannot be assessed from property data",
+      "Under-construction status and availability within 3 months may affect rental income timing; not assessed"
+    ],
+    "confidence": 0.55
+  }
+}

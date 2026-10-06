@@ -141,9 +141,29 @@ export interface paths {
         };
         /**
          * Get Run Listings
-         * @description Candidates this run discovered (F-02): not yet AI-checked or ranked.
+         * @description All candidates from this run, including extraction additions and rejected candidates.
          */
         get: operations["get_run_listings_api_runs__run_id__listings_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/runs/{run_id}/verifications": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Run Verifications
+         * @description Completed relevance checks (F-03), including reasons for rejection.
+         */
+        get: operations["get_run_verifications_api_runs__run_id__verifications_get"];
         put?: never;
         post?: never;
         delete?: never;
@@ -1325,6 +1345,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["Listing"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_run_verifications_api_runs__run_id__verifications_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Verification"][];
                 };
             };
             /** @description Validation Error */

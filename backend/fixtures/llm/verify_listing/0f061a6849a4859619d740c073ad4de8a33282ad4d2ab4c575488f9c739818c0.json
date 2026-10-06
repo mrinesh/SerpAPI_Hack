@@ -1,0 +1,25 @@
+{
+  "key": "0f061a6849a4859619d740c073ad4de8a33282ad4d2ab4c575488f9c739818c0",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 35,
+    "verdict": "weak",
+    "matched_criteria": [
+      "Budget: listed price ₹72,00,000 is within the investor's maximum budget of ₹80,00,000 (subject to final unit price verification)",
+      "Segment: residential matches investor's residential requirement"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Exact locality not confirmed: locality is query-derived search context only; the page may cover nearby areas, so Whitefield match is unverified",
+      "Property type is not verified for a specific individual listing; source is a search result page, not a dedicated unit listing",
+      "Size is computed from price ÷ price per sqft estimate (≈1,419 sqft); no direct listing size provided",
+      "No bedroom count extracted despite snippet mentioning 2 and 3 bedroom options",
+      "No rental yield or rental income evidence to evaluate rental_income goal or 4% ROI target; investment metrics arrive later",
+      "No risk evidence to assess balanced risk appetite",
+      "Final asking price and unit details are not confirmed; price may be from one of multiple listings on the page and may not establish the final unit price"
+    ],
+    "confidence": 0.4
+  }
+}

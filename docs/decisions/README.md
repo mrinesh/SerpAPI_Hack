@@ -17,3 +17,5 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0010](0010-roi-definition.md) | One ROI target: rental yield, price growth or total return; no net yield or cap rate | Accepted |
 | [0011](0011-discovery-from-search-snippets.md) | Discovery reads portal search-page snippets and Google Maps projects | Accepted |
 | [0012](0012-deepseek-replaces-gemini.md) | DeepSeek V4 Pro replaces Gemini; thinking on for reasoning, off for extraction | Accepted |
+| [0013](0013-grounded-verification.md) | Evidence-grounded extraction, hard constraints, per-run verification snapshots | Accepted |
+| [0014](0014-area-relative-price-flags.md) | Price flags against a sourced per-locality price level, not a flat rate | Accepted |

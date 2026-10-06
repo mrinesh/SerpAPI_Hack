@@ -1,0 +1,25 @@
+{
+  "key": "954921e8e8fc73da432f7432c6ff6067ed30344820292b2d22a8cc9288c9b895",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Property type 'office' matches requested property type office.",
+      "Segment 'commercial' matches requested commercial segment.",
+      "Locality 'Koramangala' (4th Block Koramangala) matches requested locality, though confidence is query-level only.",
+      "Asking price ₹3,60,000 is within the maximum budget of ₹3,00,00,000."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Locality is query-derived with confidence 0.5 and the search page may cover nearby areas; a direct listing address or location field is needed to confirm exact locality.",
+      "The source is a search results page, not an individual listing URL, so the candidate may not be a verified priced unit.",
+      "Asking price and size are regex-extracted from a snippet at 0.8 confidence; the final unit price and exact area should be verified from the listing.",
+      "No evidence of current rent, yield, or ROI is supplied, so the target rental yield of 4% and rental income goal cannot be confirmed at this stage.",
+      "Risk appetite and investment goal are investor preferences, not property facts; no safety or return evidence is available."
+    ],
+    "confidence": 0.55
+  }
+}

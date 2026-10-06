@@ -4,12 +4,14 @@ import pytest
 
 from app.pipeline import orchestrator
 from tests.unit.test_profile_schema import COMMERCIAL, RESIDENTIAL
+from tests.unit.test_verification import FakeLLM
 
 
 @pytest.fixture(autouse=True)
 def run_inline(monkeypatch):
     """Run the pipeline inside the request instead of on a background thread."""
     monkeypatch.setattr(orchestrator, "_launch", orchestrator.run_pipeline)
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
 
 
 def run_for(client, profile: dict) -> tuple[dict, list[dict]]:
@@ -34,7 +36,7 @@ def test_residential_run_finds_priced_entries_and_projects(client):
         "plan": "succeeded",
         "fetch": "succeeded",
         "clean": "succeeded",
-        "verify": "pending",
+        "verify": "succeeded",
         "enrich": "pending",
         "rank": "pending",
     }

@@ -92,8 +92,9 @@ class RunResultRow(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     run_id: Mapped[str] = mapped_column(ForeignKey("pipeline_runs.id"), index=True)
     listing_id: Mapped[str] = mapped_column(ForeignKey("listings.id"), index=True)
-    rank: Mapped[int | None] = mapped_column(Integer)  # null when rejected by verification
-    recommendation: Mapped[dict[str, Any]] = mapped_column(JSON)  # Recommendation
+    rank: Mapped[int | None] = mapped_column(Integer)  # null until ranked, or when rejected
+    # Progressive payload: listing snapshot + optional Verification; F-04 adds recommendation.
+    recommendation: Mapped[dict[str, Any]] = mapped_column(JSON)
 
 
 class AreaIntelRow(Base):

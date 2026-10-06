@@ -6,6 +6,8 @@ enforced here, so no pipeline stage can spend searches by accident.
 Lookup order for `SerpApiGateway.search()`:
 1. **replay**: the fixture `fixtures/serpapi/<engine>/<key>.json`, otherwise `ReplayMiss`.
    Never touches the network.
+   **record** also serves an existing fixture first, so recording only spends searches that
+   have none (delete a fixture to refresh it).
 2. **live / record**: the `serp_cache` row if younger than `SERPAPI_CACHE_TTL_HOURS`. In record
    mode a cache hit also writes the fixture, so recording never re-spends a search.
 3. Otherwise a live call: needs `SERPAPI_API_KEY`, must fit the per-run and calendar-month
@@ -86,15 +88,16 @@ class SerpApiGateway:
         key = cache_key(engine, params)
         mode = self._settings.serpapi_mode
 
-        if mode is ProviderMode.REPLAY:
+        if mode in (ProviderMode.REPLAY, ProviderMode.RECORD):
             data = self._read_fixture(engine, key)
-            if data is None:
+            if data is not None:
+                return self._served(engine, params, key, data, run_id, live=False)
+            if mode is ProviderMode.REPLAY:
                 raise ReplayMiss(
                     f"No recorded {engine} response for {_describe(params)}. "
                     "Record it with SERPAPI_MODE=record.",
                     details={"engine": str(engine), "key": key},
                 )
-            return self._served(engine, params, key, data, run_id, live=False)
 
         cached = self._read_cache(key)
         if cached is not None:

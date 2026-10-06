@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 from app.api.deps import DbSession
-from app.schemas.listing import Listing
+from app.schemas.listing import Listing, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
 from app.services import runs
@@ -16,8 +16,14 @@ def get_run(run_id: str, db: DbSession) -> PipelineRun:
 
 @router.get("/{run_id}/listings")
 def get_run_listings(run_id: str, db: DbSession) -> list[Listing]:
-    """Candidates this run discovered (F-02): not yet AI-checked or ranked."""
+    """All candidates from this run, including extraction additions and rejected candidates."""
     return runs.get_run_listings(db, run_id)
+
+
+@router.get("/{run_id}/verifications")
+def get_run_verifications(run_id: str, db: DbSession) -> list[Verification]:
+    """Completed relevance checks (F-03), including reasons for rejection."""
+    return runs.get_verifications(db, run_id)
 
 
 @router.get("/{run_id}/recommendations")

@@ -1,0 +1,25 @@
+{
+  "key": "91bc22d054e5240ca0c81020fa42abb33169a1d485f4058e8619e6f54770456a",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 20,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Property type matches requested apartment (search snippet indicates 2 BHK flats).",
+      "Segment matches requested residential."
+    ],
+    "mismatches": [
+      "Asking price ₹85,00,000 exceeds investor's maximum budget ₹80,00,000 by ₹5,00,000."
+    ],
+    "missing_data": [
+      "Whitefield locality is query-derived, not confirmed from individual listing details.",
+      "Unit size is computed from price ÷ price per sq ft (≈1,240 sq ft), not a verified listed size.",
+      "Rental yield and investment return metrics are not present in candidate evidence.",
+      "Only a snippet-level price is available; final unit price may not be fully verified.",
+      "Property type is inferred from search snippet, not confirmed from individual listing details."
+    ],
+    "confidence": 0.7
+  }
+}

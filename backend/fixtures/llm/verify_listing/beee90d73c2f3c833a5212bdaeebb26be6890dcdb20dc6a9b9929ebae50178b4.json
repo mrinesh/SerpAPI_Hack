@@ -1,0 +1,22 @@
+{
+  "key": "beee90d73c2f3c833a5212bdaeebb26be6890dcdb20dc6a9b9929ebae50178b4",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 62,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Property type is apartment, matching profile.",
+      "Segment is residential, matching profile."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Locality is query-derived from search page context and not confirmed for this individual unit; page may cover nearby areas.",
+      "Asking price of ₹88 Lac is from a search-page snippet, not a verified individual listing; budget compliance vs ₹80 Lac max cannot be confirmed.",
+      "Computed size of ~1,500 sq ft is an estimate from price ÷ price/sqft and should be treated as unverified.",
+      "No rental yield or ROI evidence; the 4% rental yield target and rental income goal cannot be assessed at this stage."
+    ],
+    "confidence": 0.55
+  }
+}

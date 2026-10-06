@@ -5,8 +5,8 @@ from datetime import UTC, datetime
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.db.models import ListingObservationRow, ListingRow
-from app.schemas.listing import Listing
+from app.db.models import ListingObservationRow, ListingRow, RunResultRow
+from app.schemas.listing import Listing, Verification
 
 
 def save_candidates(db: Session, run_id: str, listings: list[Listing]) -> None:
@@ -44,4 +44,45 @@ def save_candidates(db: Session, run_id: str, listings: list[Listing]) -> None:
                     listing_id=listing.id, run_id=run_id, price_inr=listing.price_inr.value
                 )
             )
+        snapshot = db.scalar(
+            select(RunResultRow).where(
+                RunResultRow.run_id == run_id, RunResultRow.listing_id == listing.id
+            )
+        )
+        if snapshot is None:
+            db.add(
+                RunResultRow(
+                    run_id=run_id,
+                    listing_id=listing.id,
+                    rank=None,
+                    recommendation={
+                        "listing": listing.model_dump(mode="json"),
+                        "verification": None,
+                    },
+                )
+            )
+    db.commit()
+
+
+def save_verification(
+    db: Session, run_id: str, listing: Listing, verification: Verification
+) -> None:
+    """Commit each result independently so earlier checks survive a later provider failure."""
+    save_candidates(db, run_id, [listing])
+    observation = db.scalar(
+        select(ListingObservationRow).where(
+            ListingObservationRow.run_id == run_id, ListingObservationRow.listing_id == listing.id
+        )
+    )
+    observation.price_inr = listing.price_inr.value
+    result = db.scalar(
+        select(RunResultRow).where(
+            RunResultRow.run_id == run_id, RunResultRow.listing_id == listing.id
+        )
+    )
+    result.rank = None  # Ranking belongs to F-04; rejects are always retained.
+    result.recommendation = {
+        "listing": listing.model_dump(mode="json"),
+        "verification": verification.model_dump(mode="json"),
+    }
     db.commit()

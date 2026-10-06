@@ -13,6 +13,25 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-06 · F-12 price flags (part): too-good-to-be-true against a per-locality price level
+  from a live Google search, read by DeepSeek with a validated quote; run-median fallback, no flat
+  rate (ADR 0014). Missing price/size flags; flag chips on run cards. A high flag caps at weak.
+  Recorded for both demos (2 searches, 2 lite calls): the ₹3.6 L Koramangala "sale" at ₹75/sq ft
+  is now flagged against ₹17,501/sq ft. Record mode in both gateways reuses existing fixtures.
+- 2026-10-06 · F-03 / I-07 complete: live DeepSeek recordings committed for both demo profiles
+  (residential: first 16 of 28 candidates; commercial: all 6); both replay with no key.
+  - `VERIFY_MAX_CANDIDATES` (default 16) caps checks per run; the rest are reported `unchecked`.
+  - Prompt files no longer start with a BOM, and prompts are read as `utf-8-sig`, so an editor
+    BOM cannot change LLM cache keys. The uncertainty cap in `verify` no longer depends on list
+    order. `tests/integration/test_demo_replay.py` fails whenever recordings go stale.
+- 2026-10-05 · F-03: DeepSeek relevance verification, implemented and tested offline.
+  - Gap-only extraction with exact evidence, supported units/enums and original provenance.
+  - Profile verification with deterministic constraint overrides, missing-data handling and
+    explicit unverified ROI; rejected candidates retained with reasons.
+  - Incremental stage progress, per-run snapshots and durable partial results on failure;
+    `GET /api/runs/{id}/verifications` and run UI with a "Filtered out" view.
+  - I-07: validated LLM DB cache and record/replay, keyed by task/model/tier/schema/prompt.
+  - Recording script for residential/commercial demos using existing SerpApi fixtures.
 - 2026-10-04 · F-02: property discovery, end to end.
   - SerpApi gateway (I-02–I-04): replay / live / record, DB cache with TTL, per-run and monthly
     budgets, search ledger, error mapping. `GET /api/meta/budget` + header chip (I-05).
