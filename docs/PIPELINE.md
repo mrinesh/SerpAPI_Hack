@@ -131,13 +131,14 @@ once per locality of the rankable candidates, cached in `area_intel` for `AREA_I
 | Price growth, past 12 months | google | `"{locality} Bangalore property price trend year on year"` → `extract_price_growth` | Built |
 | Price level per type | google | from the verify stage (`price_level.py`, ADR 0014), merged in | Built |
 | Area + infrastructure summary | LLM lite | `summarize_area`, number-checked, code fallback | Built |
-| News and infrastructure | google_news | `"{locality} Bengaluru"` → `classify_news` | Deferred |
+| News | google_news | `'"{locality}" Bengaluru'` → locality-named, one per event, 10 newest → `classify_news` (topic, sentiment); display only ([ADR 0020](decisions/0020-local-news-and-frozen-run-areas.md)) | Built |
 | Rental demand (P1) | google_trends | `"flats for rent {locality}"`, up to 5 localities per call | Deferred |
 
 Amenities are kept by Maps place type, with distances computed in code. The rank stage turns them
 into the `area` score (metro, schools and hospitals within 3 km), measured from the listing's
 coordinates when it has them, else the centre. Growth is stored for F-09, not scored here.
-A provider error never fails a run, but it is never silent: each section records `ok`, `empty`
+Each run freezes the areas it used in `run_area_intel` (ADR 0020), so a later cache refresh
+never changes an old run's evidence. A provider error never fails a run, but it is never silent: each section records `ok`, `empty`
 or `failed` with the error in `warnings`, a failed section makes the area expire at once so the
 next run retries, and a cached area is reused only when it matches the current schema version
 and provider modes ([ADR 0019](decisions/0019-visible-failures-validated-cache-withheld-metrics.md)).

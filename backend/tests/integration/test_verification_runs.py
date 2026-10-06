@@ -273,3 +273,46 @@ def test_a_corrupt_cached_area_gives_a_clear_error(client, monkeypatch):
     response = client.get("/api/areas/bengaluru/whitefield")
     assert response.status_code == 500
     assert response.json()["error"]["details"]["operation"] == "area_cache_read"
+
+
+def test_a_runs_area_is_frozen_when_the_shared_cache_changes(client, monkeypatch):
+    from app.db.models import AreaIntelRow
+
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    run_id, _ = start(client)
+    before = client.get(f"/api/runs/{run_id}/areas").json()
+    with SessionLocal() as db:
+        row = db.get(AreaIntelRow, "bengaluru/whitefield")
+        row.data = {**row.data, "summary": "Changed by a later refresh"}
+        db.commit()
+    assert client.get("/api/areas/bengaluru/whitefield").json()["summary"] == (
+        "Changed by a later refresh"
+    )
+    assert client.get(f"/api/runs/{run_id}/areas").json() == before
+
+
+def test_deleting_a_profile_removes_its_frozen_areas(client, monkeypatch):
+    from app.db.models import RunAreaRow
+
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    profile_id = client.post("/api/profiles", json=RESIDENTIAL).json()["id"]
+    run_id = client.post(f"/api/profiles/{profile_id}/runs").json()["id"]
+    with SessionLocal() as db:
+        assert db.scalars(select(RunAreaRow).where(RunAreaRow.run_id == run_id)).all()
+    assert client.delete(f"/api/profiles/{profile_id}").status_code == 204
+    with SessionLocal() as db:
+        assert not db.scalars(select(RunAreaRow).where(RunAreaRow.run_id == run_id)).all()
+
+
+def test_runs_from_before_snapshots_fall_back_to_the_shared_cache(client, monkeypatch):
+    from sqlalchemy import delete
+
+    from app.db.models import RunAreaRow
+
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    run_id, _ = start(client)
+    with SessionLocal() as db:
+        db.execute(delete(RunAreaRow).where(RunAreaRow.run_id == run_id))
+        db.commit()
+    [area] = client.get(f"/api/runs/{run_id}/areas").json()
+    assert area["locality_key"] == "bengaluru/whitefield"

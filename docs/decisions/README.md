@@ -24,3 +24,4 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0017](0017-investment-metrics-and-roi-score.md) | Rental yield from a quoted area rent; proportional ROI score | Accepted |
 | [0018](0018-suggested-target-roi.md) | Suggest the target ROI from the market's sourced typical value | Accepted |
 | [0019](0019-visible-failures-validated-cache-withheld-metrics.md) | Visible area failures, validated area cache, withheld metrics (after gscode007's branches) | Accepted |
+| [0020](0020-local-news-and-frozen-run-areas.md) | Locality news shown but not scored; frozen per-run area evidence (after gscode007's branch) | Accepted |

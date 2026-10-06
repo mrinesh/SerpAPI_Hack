@@ -1,0 +1,1415 @@
+{
+ "engine": "google_news",
+ "params": {
+  "q": "\"Whitefield\" Bengaluru",
+  "gl": "in",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4d1bd5c4bf4760f496e6e",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/sh8idRH4vBXkZwhYFvFZ6QHfaQ2ZpwzJynPBSP_ooFU/6ac4d1bd5c4bf4760f496e6e.json",
+   "markdown_endpoint": "https://serpapi.com/searches/sh8idRH4vBXkZwhYFvFZ6QHfaQ2ZpwzJynPBSP_ooFU/6ac4d1bd5c4bf4760f496e6e.md",
+   "created_at": "2026-10-06 10:47:25 UTC",
+   "processed_at": "2026-10-06 10:47:25 UTC",
+   "google_news_url": "https://news.google.com/search?q=%22Whitefield%22+Bengaluru&hl=en&gl=IN",
+   "raw_html_file": "https://serpapi.com/searches/sh8idRH4vBXkZwhYFvFZ6QHfaQ2ZpwzJynPBSP_ooFU/6ac4d1bd5c4bf4760f496e6e.html",
+   "total_time_taken": 2.44
+  },
+  "search_parameters": {
+   "engine": "google_news",
+   "gl": "in",
+   "hl": "en",
+   "q": "\"Whitefield\" Bengaluru"
+  },
+  "news_results": [
+   {
+    "position": 2,
+    "title": "WeWork India adds 2.25 lakh sq ft across Bengaluru, Pune; opens two centres",
+    "source": {
+     "name": "ET Realty",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://realty.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://realty.economictimes.indiatimes.com/amp/news/commercial/wework-india-adds-2-25-lakh-sq-ft-across-bengaluru-pune-opens-two-centres/134722524",
+    "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134722524,width-1600,height-900,resizemode-4/.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXJkbXBrZDBJNWIxOUtaWFI0VFJDZkF4ampCU2dLTWdrQnNJQzFPS1NwRkFF",
+    "date": "10/06/2026, 04:06 AM, +0000 UTC",
+    "iso_date": "2026-10-06T04:06:27Z"
+   },
+   {
+    "position": 3,
+    "title": "Whitefield senior living community battles sewage, flooding",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/whitefield-senior-living-community-battles-sewage-rainwater-flooding/article71541106.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/48sn9n/article71541641.ece/alternates/LANDSCAPE_1200/Flood-4.JPG",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXBNa2RRT0ZKRGRXZEpNbFp6VFJDZkF4ampCU2dLTWdrUlFvQm1WYUZya1FF",
+    "date": "10/03/2026, 03:58 PM, +0000 UTC",
+    "iso_date": "2026-10-03T15:58:20Z"
+   },
+   {
+    "position": 4,
+    "title": "Bengaluru Passport Seva Kendra Shifts To Whitefield From October 5; Check New Address, Metro Access",
+    "source": {
+     "name": "News18",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.news18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Parishmita Saikia"
+     ]
+    },
+    "link": "https://www.news18.com/cities/bengaluru-news/bengaluru-passport-seva-kendra-shifts-to-whitefield-from-october-5-check-new-address-metro-access-ws-l-10367550.html",
+    "thumbnail": "https://images.news18.com/ibnlive/uploads/2025/09/Visa-Passport-2025-09-fe332ca3c825c1a07b93d41dea120623.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVpaMEpmVkZKV2VUaFllalJSVFJDZkF4ampCU2dLTWdhaEZJN1ByUWM",
+    "date": "10/05/2026, 07:04 AM, +0000 UTC",
+    "iso_date": "2026-10-05T07:04:13Z"
+   },
+   {
+    "position": 5,
+    "title": "WeWork India expands Bengaluru, Pune footprint with two new centres",
+    "source": {
+     "name": "Business Standard",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.business-standard.com/industry/news/wework-india-new-centres-bengaluru-pune-whitefield-wakad-126100500486_1.html",
+    "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-04/30/full/1714445075-1374.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTJOMDV5WDBSc1oyMURTakJFVFJEUEF4aVdCU2dLTWdhaFZJeXNJUWs",
+    "date": "10/05/2026, 08:46 AM, +0000 UTC",
+    "iso_date": "2026-10-05T08:46:30Z"
+   },
+   {
+    "position": 6,
+    "title": "Bengaluru Biker Falls On Waterlogged Road In Whitefield While Taking Alternative Route",
+    "source": {
+     "name": "Brut",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.brut.media&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.brut.media/in/videos/india/society/bengaluru-biker-falls-on-waterlogged-road-in-whitefield-while-taking-alternative-route",
+    "thumbnail": "https://cdn.prod.website-files.com/6638f8a6eb6d568220f98b00/6abd1ad21090aa1fccb65462_06942fd7-3a80-40e8-b89b-403765be8bc0-1790761382572.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUZjazFVVG1oaFZuUkRTMmxOVFJEakJSaWZBeWdLTWdZRjhJam0wQU0",
+    "date": "09/30/2026, 02:23 PM, +0000 UTC",
+    "iso_date": "2026-09-30T14:23:35Z"
+   },
+   {
+    "position": 7,
+    "title": "WeWork India expands Bengaluru and Pune footprint with Infinix Palladium and Millennium Towers; adds ~2.25 lakh sq. ft. and 4,500+ desks",
+    "source": {
+     "name": "India Technology News",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://indiatechnologynews.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://indiatechnologynews.in/wework-india-expands-bengaluru-and-pune-footprint-with-infinix-palladium-and-millennium-towers-adds-2-25-lakh-sq-ft-and-4500-desks/",
+    "thumbnail": "https://indiatechnologynews.in/wp-content/uploads/2026/10/wework.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFRVVo0TFdGUU1sTjRObXRGVFJDUUF4aVNBeWdLTWdhcGxKYU10UVk",
+    "date": "10/05/2026, 09:17 AM, +0000 UTC",
+    "iso_date": "2026-10-05T09:17:02Z"
+   },
+   {
+    "position": 8,
+    "title": "WeWork India adds 2.25 lakh sq ft across Bengaluru and Pune",
+    "source": {
+     "name": "scanx.trade",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://scanx.trade&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://scanx.trade/stock-market-news/companies/wework-india-adds-2-25-lakh-sq-ft-across-bengaluru-pune/52726682",
+    "thumbnail": "https://news-images.dhan.co/wework-india-adds-2-25-lakh-sq-ft-across-bengaluru-pune.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTVhWGQwZEZkSFFsTklSRkJoVFJDaUF4amRCU2dLTWdrQnNJckF2V1FlTkFF",
+    "date": "10/05/2026, 06:41 AM, +0000 UTC",
+    "iso_date": "2026-10-05T06:41:51Z"
+   },
+   {
+    "position": 9,
+    "title": "Ae Halo! 10 Garba Events In Bengaluru For Navaratri Nights, Dandiya & Full Dhamaal",
+    "source": {
+     "name": "curlytales.com",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://curlytales.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Mahi Adlakha"
+     ]
+    },
+    "link": "https://curlytales.com/india/experiences/ae-halo-garba-events-in-bengaluru-for-navaratri-nights-dandiya-full-dhamaal/",
+    "thumbnail": "https://curlytales.com/wp-content/uploads/2026/10/garba-events-2.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDRNREZTVUdoMmVWOVpOVVpFVFJDZkF4ampCU2dLTWdZQklJZ0dIUWM",
+    "date": "10/04/2026, 05:07 AM, +0000 UTC",
+    "iso_date": "2026-10-04T05:07:35Z"
+   },
+   {
+    "position": 10,
+    "title": "Weather forecast and conditions for Whitefield, Bengaluru, Karnataka - The Weather Channel | weather.com",
+    "source": {
+     "name": "The Weather Channel",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://weather.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://weather.com/en-IN/in/karnataka/bengaluru/locality/whitefield/today",
+    "date": "08/19/2026, 12:41 PM, +0000 UTC",
+    "iso_date": "2026-08-19T12:41:15Z"
+   },
+   {
+    "position": 11,
+    "title": "BMRCL awards contract for short Purple Line extension beyond Whitefield",
+    "source": {
+     "name": "deccanherald.com",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/bmrcl-awards-contract-for-short-purple-line-extension-beyond-whitefield-4161955",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-09-27%2Fs45z1qrd%2Ffile7o69jucn3mf1f4e5j351.jpg?rect=0%2C0%2C4162%2C2341&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUhWbTF2ZUcxQlp5MXNaM0UxVFJDZkF4ampCU2dLTWdhQmdJQVRUUVE",
+    "date": "09/27/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-27T07:00:00Z"
+   },
+   {
+    "position": 12,
+    "title": "DHR Holdings leases 1.8 lakh sq ft office space in Bengaluru’s Whitefield for total rent of ₹88 crore | Real Estate News",
+    "source": {
+     "name": "Hindustan Times",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Mehul Thakkar"
+     ]
+    },
+    "link": "https://www.hindustantimes.com/real-estate/dhr-holdings-leases-1-8-lakh-sq-ft-office-space-in-bengaluru-s-whitefield-for-total-rent-of-88-crore-101788854115334.html",
+    "thumbnail": "https://www.hindustantimes.com/ht-img/img/2026/09/08/1600x900/logo/pexels-photo-34901888_1764126925044_1764126957482_1788854537459_15f7b2ec-33f4-4c5b-be27-a35fbecabb9e_6693ced9-38f7-4bca-9308-82b12281858a_6722c35d-417c-456f-8cbb-40c7962c7047.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVpTVE5rV1VWa1kwcHlUR1JCVFJDZkF4ampCU2dLTWdsUkVJNGJCT2d0REFJ",
+    "date": "09/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-09T07:00:00Z"
+   },
+   {
+    "position": 13,
+    "title": "Brothers sell fake Louis Vuitton products at Whitefield store in Bengaluru, booked",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/brothers-sell-fake-louis-vuitton-products-at-whitefield-store-in-bengaluru-booked/articleshow/134644538.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-134650544,width-1280,height-720,imgsize-39990,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9VRnBhUVZGSE0zSkpkSGg1VFJDZkF4ampCU2dLTWdhZEJZWU1QZ1U",
+    "date": "10/02/2026, 05:32 PM, +0000 UTC",
+    "iso_date": "2026-10-02T17:32:00Z"
+   },
+   {
+    "position": 14,
+    "title": "After viral gridlock, residents take up road repair in Bengaluru",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/after-viral-gridlock-whitefield-traffic-police-and-residents-take-up-temporary-road-repairs/article71481587.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/glq0s0/article71482157.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-09-18%20at%2021.22.18%201.JPEG",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNUJjRVl5UVhSUE1FOUpRMlZ3VFJDZkF4ampCU2dLTWdzQkFKSlpsT3FoNHVvZVpB",
+    "date": "09/18/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-18T07:00:00Z"
+   },
+   {
+    "position": 15,
+    "title": "Weather Forecast and Conditions for Whitefield, Bengaluru, Karnataka, India - The Weather Channel | Weather.com",
+    "source": {
+     "name": "The Weather Channel",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://weather.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://weather.com/in/karnataka/bengaluru/locality/whitefield/today",
+    "date": "07/09/2026, 04:38 AM, +0000 UTC",
+    "iso_date": "2026-07-09T04:38:28Z"
+   },
+   {
+    "position": 16,
+    "title": "FOO opens outlet in Whitefield Bengaluru bringing another serving of signature Pan-Asian experience to city",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "http://hospitality.economictimes.indiatimes.com/news/restaurants/foo-opens-outlet-in-whitefield-bengaluru-bringing-another-serving-of-signature-pan-asian-experience-to-city/134384527",
+    "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-134384527,width-1600,height-900,resizemode-4/.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRURTgxWjIxUGJESmhUMkZPVFJDZkF4ampCU2dLTWdZQklJVFVHQWs",
+    "date": "09/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-22T07:00:00Z"
+   },
+   {
+    "position": 17,
+    "title": "Techie dies after jumping from seventh floor of PG in Bengaluru",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/national/karnataka/woman-dies-after-jumping-from-seventh-floor-of-pg-in-whitefield-man-sustains-multiple-injuries/article71408195.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/n86bl6/article71409648.ece/alternates/LANDSCAPE_1200/dowry.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVRVmRGWTI1ZlZVRnJlVEEzVFJDZkF4ampCU2dLTWdZWlpJanNzUVU",
+    "date": "08/30/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-30T07:00:00Z"
+   },
+   {
+    "position": 18,
+    "title": "Happy Streets returns to Whitefield in Bengaluru",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/happy-streets-returns-to-whitefield-in-bengaluru/articleshow/132295479.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-132295478,width-1280,height-720,imgsize-1275865,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWhkbVUyTlVSVExXMTNXaTF4VFJDZkF4ampCU2dLTWdrQlVKTFJyQ2VTU1FJ",
+    "date": "07/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-09T07:00:00Z"
+   },
+   {
+    "position": 19,
+    "title": "Bengaluru-based founder criticises Whitefield traffic situation after daughter's school bus stuck for over",
+    "source": {
+     "name": "The Economic Times",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://m.economictimes.com/news/new-updates/bengaluru-based-founder-criticises-whitefield-traffic-situation-after-daughters-school-bus-stuck-for-over-2-hours-in-varthur-gunjur-says-it-is-a-daily-occurrence/articleshow/134325757.cms",
+    "thumbnail": "https://m.economictimes.com/thumb/msid-134326542,width-1200,height-900,resizemode-4,imgsize-216780/bengaluru-traffic.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVdWelZZU1RndGIyWkNZWGM0VFJEZ0F4aUFCU2dLTWdB",
+    "date": "09/18/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-18T07:00:00Z"
+   },
+   {
+    "position": 20,
+    "title": "KTPO site in Bengaluru's Whitefield to get world-class convention, exhibition facilities on lines of...",
+    "source": {
+     "name": "Moneycontrol.com",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.moneycontrol.com/news/business/bengaluru-ktpo-site-in-whitefield-to-get-world-class-convention-exhibition-facilities-on-lines-of-delhi-s-bharat-mandapam-14030543.html",
+    "thumbnail": "https://images.moneycontrol.com/static-mcnews/2024/10/20241004053213_1577696423.png?impolicy=website&width=1600&height=900",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNVFVVWhuTFZCMU5tOTNaVVZTVFJDZkF4ampCU2dLTWdzQndJaWd5Q1BRemJtQkxR",
+    "date": "09/15/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-15T07:00:00Z"
+   },
+   {
+    "position": 21,
+    "title": "Karnataka plans global convention hub on 48-acre KTPO land in Whitefield",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Niranjan Kaggere"
+     ]
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/karnataka-plans-global-convention-hub-on-48-acre-ktpo-land-in-whitefield/articleshow/134268337.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-134268335,width-1280,height-720,imgsize-316365,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVFlVUp4ZWpBd2NHOUJWelYzVFJDZkF4amlCU2dLTWdZRmNaTHBNQWM",
+    "date": "09/15/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-15T07:00:00Z"
+   },
+   {
+    "position": 22,
+    "title": "Whitefield-Bangarpet four-line rail track work approved, says MP Mallesh Babu",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/Sep/12/whitefield-bangarpet-four-line-rail-track-work-approved-says-mp-mallesh-babu",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2024-06%2Fc0b892be-8fb7-4f64-860d-1fe7776f9523%2FNew_Project__87_.jpg?rect=0%2C0%2C1200%2C675&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU1ZMTlqZW1jd1lVbHFTR1pMVFJDZkF4ampCU2dLTWdhdE5aek9IUWs",
+    "date": "09/12/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-12T07:00:00Z"
+   },
+   {
+    "position": 23,
+    "title": "ParSEC Whitefield in Bengaluru is a science museum where anyone can innovate anything",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/parsec-whitefield-in-bengaluru-is-a-science-museum-where-anyone-can-innovate-anything/article71108274.ece",
+    "thumbnail": "https://th-i.thgim.com/public/news/cities/bangalore/ozfjlr/article71116852.ece/alternates/LANDSCAPE_1200/_DSC3929.JPG",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU5OMUpNV1d4dk9GUlVWblV6VFJDZkF4ampCU2dLTWdZWklJNUpJZ2c",
+    "date": "06/19/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-19T07:00:00Z"
+   },
+   {
+    "position": 24,
+    "title": "Evening showers leave Bengaluru flooded, trigger massive snarls at Whitefield",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/evening-showers-leave-bengaluru-flooded-trigger-massive-snarls-at-whitefield/article71127028.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/sltxuf/article71127127.ece/alternates/LANDSCAPE_1200/ALL_5060.JPG",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTZOME5JYjBkeFgyMW5kVFZ3VFJDZkF4ampCU2dLTWdhdGxaRE9zUVk",
+    "date": "06/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-20T07:00:00Z"
+   },
+   {
+    "position": 25,
+    "title": "Video | Karnataka News | Bengaluru Traffic Crisis: 6-Km School Commutes Take Over Two Hours In Whitefield",
+    "source": {
+     "name": "NDTV",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.ndtv.com/video/bengaluru-traffic-crisis-6-km-school-commutes-take-over-two-hours-in-whitefield-1160077",
+    "thumbnail": "https://c.ndtvimg.com/dmx-images/video/images/vod/medium/2026-09/1160077_maxresdefault.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBkekV4YVVoalgxaFNMVGx3VFJDZkF4ampCU2dLTWdZQk1JUlpsQW8",
+    "date": "09/18/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-18T07:00:00Z"
+   },
+   {
+    "position": 26,
+    "title": "18-year-old stabbed by acquaintance in Bengaluru’s Whitefield",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/national/karnataka/18-year-old-stabbed-by-acquaintance-in-bengalurus-whitefield/article71203465.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/33o510/article71203763.ece/alternates/LANDSCAPE_1200/iStock-1401717334%203.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXJXamwyWHpNNVpGTTFSRXh5VFJDZkF4ampCU2dLTWdZQkNaQURDd2s",
+    "date": "07/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-09T07:00:00Z"
+   },
+   {
+    "position": 27,
+    "title": "Greater Whitefield: The New Growth Engine of East Bengaluru",
+    "source": {
+     "name": "ThePrint",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://theprint.in/ani-press-releases/greater-whitefield-the-new-growth-engine-of-east-bengaluru/2950261/",
+    "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/06/ANI-20260604065723.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNTNWVXRrWjFCYVYwaHRVekU0VFJEZ0F4aUFCU2dLTWdNTmtnbw",
+    "date": "06/04/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-04T07:00:00Z"
+   },
+   {
+    "position": 28,
+    "title": "Radisson Opens Park Inn Bengaluru Whitefield",
+    "source": {
+     "name": "safariindia.com",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://safariindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Priyal Dutta"
+     ]
+    },
+    "link": "https://safariindia.com/radisson-opens-park-inn-bengaluru-whitefield/",
+    "thumbnail": "https://safariindia.com/wp-content/uploads/2026/08/Radisson-Opens-Park-Inn-Bengaluru-Whitefield-3-1024x681.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNXdNVlpqZFZrMFJqQklUMnR0VFJEREF4aW5CU2dLTWdB",
+    "date": "09/18/2026, 03:44 AM, +0000 UTC",
+    "iso_date": "2026-09-18T03:44:27Z"
+   },
+   {
+    "position": 29,
+    "title": "Sheraton Grand Bengaluru Whitefield Hotel & Convention Center appoints Shailender Kumar Yadav as food & beve..",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "http://hospitality.economictimes.indiatimes.com/news/hotels/sheraton-grand-bengaluru-whitefield-hotel-convention-center-appoints-shailender-kumar-yadav-as-food-beverage-manager/132848115",
+    "thumbnail": "https://etimg.etb2bimg.com/photo/132848286.cms",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHpSRE5XTkRoQ1p6TkxaMVZHVFJEZ0F4aUFCU2dLTWdZdFJaYk9vUWc",
+    "date": "08/05/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-05T07:00:00Z"
+   },
+   {
+    "position": 30,
+    "title": "KR Pura, Whitefield roads in Bengaluru to be closed next week",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/kr-pura-whitefield-roads-in-bengaluru-to-be-closed-next-week/articleshow/131411887.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-33486062,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNXlZVWxXVlhWcWNGcENVVEZFVFJDZkF4ampCU2dLTWdNRm94QQ",
+    "date": "05/30/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-30T07:00:00Z"
+   },
+   {
+    "position": 31,
+    "title": "Kunal Kamra’s gigs moved from Whitefield to Koramangala after protests in Bengaluru",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/entertainment/events/bangalore/kunal-kamras-gigs-moved-from-whitefield-to-koramangala-after-protests-in-bengaluru/articleshow/132828589.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-132828577,width-1280,height-720,imgsize-30508,resizemode-4,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVRRMGx1V2w5NWRIRlpVVGRpVFJDZkF4ampCU2dLTWdZTmNwTDBKQWc",
+    "date": "08/04/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-04T07:00:00Z"
+   },
+   {
+    "position": 32,
+    "title": "Court Slams Bengaluru Cops Over Action Against Man Opposing Kunal Kamra Show",
+    "source": {
+     "name": "NDTV",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Deepak Bopanna"
+     ]
+    },
+    "link": "https://www.ndtv.com/bangalore-news/karnataka-high-court-slams-bengaluru-cops-over-action-against-man-opposing-kunal-kamra-show-11974152",
+    "thumbnail": "https://c.ndtvimg.com/2025-03/2e7u18fg_kunal-kamra_625x300_24_March_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW1UMlJhVmxwbmNUSkdXbXQ2VFJDZkF4ampCU2dLTWdhdEpJaXVIUWM",
+    "date": "08/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-29T07:00:00Z"
+   },
+   {
+    "position": 33,
+    "title": "Karnataka HC pulls up DCP (Whitefield) for illegal arrest, detention; directs DG&IGP to caution police across ranks against such acts",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/national/karnataka/karnataka-hc-pulls-up-dcp-whitefield-for-illegal-arrest-detention-directs-dgigp-to-caution-police-across-ranks-against-such-acts/article71404682.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/cjxswm/article71405506.ece/alternates/LANDSCAPE_1200/_DSC6589.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU1jamxZVHpZeFFYQXhlSGx0VFJDZkF4ampCU2dLTWdhQnNJTEUxZ0U",
+    "date": "08/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-29T07:00:00Z"
+   },
+   {
+    "position": 34,
+    "title": "Bengaluru: Centre approves Whitefield-Bangarapet railway quadrupling project",
+    "source": {
+     "name": "Moneycontrol.com",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.moneycontrol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.moneycontrol.com/news/india/bengaluru-centre-approves-whitefield-bangarapet-railway-quadrupling-project-14026485.html",
+    "thumbnail": "https://images.moneycontrol.com/static-mcnews/2026/09/20260909170434_railway.jpg?impolicy=website&width=350&height=196",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHRVMWhUWW5WTlZGazBZWEV6VFJERUFSamVBaWdLTWdrQmNJYk90T2VDVVFF",
+    "date": "09/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-09T07:00:00Z"
+   },
+   {
+    "position": 35,
+    "title": "Happy Streets one last time in Whitefield",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/happy-streets-one-last-time-in-whitefield/articleshow/132445432.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-132445431,width-1280,height-720,imgsize-525937,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBiRGxXVURJMVlsOXRVVzFZVFJDZkF4amlCU2dLTWdZQkU0eXNvUVk",
+    "date": "07/16/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-16T07:00:00Z"
+   },
+   {
+    "position": 36,
+    "title": "Pretzels, Pints & Plenty Of Prost: 10 Bengaluru Spots For Oktoberfest 2026",
+    "source": {
+     "name": "curlytales.com",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://curlytales.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Mahi Adlakha"
+     ]
+    },
+    "link": "https://curlytales.com/india/food/pretzels-pints-plenty-of-prost-bengaluru-spots-for-oktoberfest/",
+    "thumbnail": "https://curlytales.com/wp-content/uploads/2026/09/Oktoberfest-in-Bengaluru.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDBMV3cxU0RCaU56SjJjMGc1VFJDZkF4ampCU2dLTWdZQkFJWW9GUWM",
+    "date": "09/28/2026, 01:44 PM, +0000 UTC",
+    "iso_date": "2026-09-28T13:44:22Z"
+   },
+   {
+    "position": 37,
+    "title": "Park Inn by Radisson opens 82-room hotel in Bengaluru’s Whitefield",
+    "source": {
+     "name": "BW Hotelier",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.bwhotelier.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.bwhotelier.com/article/park-inn-by-radisson-opens-82-room-hotel-in-bengaluru-s-whitefield-618984",
+    "thumbnail": "https://static.businessworld.in/Copy%20of%20Copy%20of%20Slider%20for%20website%20Final.ai%20-%202026-08-11T224200.939_20260812111428_original_image_36.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNTFlV3RHVEVjd2QyZFhVbFJWVFJEUkF4aVRCU2dLTWdB",
+    "date": "08/12/2026, 06:19 AM, +0000 UTC",
+    "iso_date": "2026-08-12T06:19:21Z"
+   },
+   {
+    "position": 38,
+    "title": "Greater Whitefield: The Emerging Growth Frontier of East Bengaluru",
+    "source": {
+     "name": "ThePrint",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://theprint.in/ani-press-releases/greater-whitefield-the-emerging-growth-frontier-of-east-bengaluru/2943652/",
+    "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/05/ANI-20260528032924.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNTZhVzlpTlhkVWF6VkJRVEJMVFJEZ0F4aUFCU2dLTWdB",
+    "date": "05/28/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-28T07:00:00Z"
+   },
+   {
+    "position": 39,
+    "title": "Sheraton Grand Bengaluru Whitefield promotes Disha Gulati as Rooms Division Manager",
+    "source": {
+     "name": "Hotelier India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.hotelierindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.hotelierindia.com/appointments/sheraton-grand-bengaluru-whitefield-promotes-disha-gulati-as-rooms-division-manager",
+    "thumbnail": "https://www.hotelierindia.com/cloud/2026/06/01/6F3rIebz-Disha-Gulati_Rooms-Division-Manager_Sheraton-Grand-Bengaluru-Whitefield-1200x738.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHhhM2xpYmtNeWNXSkRkMDVXVFJDeUF4akNCU2dLTWdZdFZaYXVKUWc",
+    "date": "06/01/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-01T07:00:00Z"
+   },
+   {
+    "position": 40,
+    "title": "Shri V. Somanna, Hon’ble Union Minister of State for Railways and Jal Shakti lays foundation stone for Pedestrian Subway",
+    "source": {
+     "name": "PIB",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pib.gov.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281755&reg=20&lang=1",
+    "thumbnail": "https://static.pib.gov.in/WriteReadData/userfiles/image/4M2RX.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVRkRkpqV0c5R2FUbFdOV3AwVFJDMkFSaVZBaWdCTWdrQk1KNVRHS3FweUFJ",
+    "date": "07/06/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-06T07:00:00Z"
+   },
+   {
+    "position": 41,
+    "title": "Tesla Opens Shop In Bengaluru's Whitefield Area, After Mumbai And Delhi",
+    "source": {
+     "name": "NDTV",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.ndtv.com/auto/tesla-opens-shop-in-bengalurus-whitefield-area-after-mumbai-and-delhi-11494297",
+    "thumbnail": "https://c.ndtvimg.com/2026-05/kqur228k_tesla_625x300_14_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=800",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdSVWRaWjBjd1VYTnNibWxwVFJERUF4aW1CU2dLTWdZQmNJQkM0Z0E",
+    "date": "05/14/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-14T07:00:00Z"
+   },
+   {
+    "position": 42,
+    "title": "Suba Hotels strengthens Bengaluru presence with launch of Quality Inn Bhavishya, Brookfield, Whitefield",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "http://hospitality.economictimes.indiatimes.com/news/hotels/suba-hotels-strengthens-bengaluru-presence-with-launch-of-quality-inn-bhavishya-brookfield-whitefield/132890460",
+    "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-132890460,imgsize-110176,width-1200,height=627,overlay-ethospitality,resizemode-75/hotels/suba-hotels-strengthens-bengaluru-presence-with-launch-of-quality-inn-bhavishya-brookfield-whitefield.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUlORzV4TWxkclgyNXdaMFE1VFJDaUFSaTNBaWdCTWdZWk5JTE5JUU0",
+    "date": "08/05/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-05T07:00:00Z"
+   },
+   {
+    "position": 43,
+    "title": "Chandrababu Naidu: AP CM Chandrababu Naidu Inaugurates ‘The Earth Center’..",
+    "source": {
+     "name": "AP7AM",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ap7am.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.ap7am.com/en/136058/ap-cm-chandrababu-naidu-inaugurates-the-earth-center-in-bengalurus-whitefield-calls-for-shift-from-grey-growth-to-green-growth",
+    "thumbnail": "https://imgc.ap7am.com/bimg/cr-20260920_0947432d7ea289e1.jpeg?format=webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUVhWEZ6TTI1eFgybFViRkZqVFJDZkF4ampCU2dLTWdZdFJaTE9vUWc",
+    "date": "09/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-20T07:00:00Z"
+   },
+   {
+    "position": 44,
+    "title": "A day after traffic stranded school buses for hours, nearly 5,000 East Bengaluru residents demand action",
+    "source": {
+     "name": "The South First",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thesouthfirst.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://thesouthfirst.com/karnataka/a-day-after-traffic-stranded-school-buses-for-hours-nearly-5000-east-bengaluru-residents-demand-action/",
+    "thumbnail": "https://s3.ap-south-1.amazonaws.com/media.thesouthfirst.com/wp-content/uploads/2026/09/Whitefield.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXphVVJOV2xaNmRsWlJRakp4VFJDZkF4ampCU2dLTWdZQmNJcnBzUVk",
+    "date": "09/18/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-18T07:00:00Z"
+   },
+   {
+    "position": 45,
+    "title": "Sheraton Grand Bengaluru Whitefield Hotel & Convention Center appoints Minu Budhathoki as director of spa",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/sheraton-grand-bengaluru-whitefield-hotel-convention-center-appoints-minu-budhathoki-as-director-of-spa/131848665",
+    "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-131848665,width-1200,height-900,resizemode-4/.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVhlbnBzUkd0dVlqQjZXV3d6VFJEZ0F4aUFCU2dLTWdB",
+    "date": "06/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-20T07:00:00Z"
+   },
+   {
+    "position": 46,
+    "title": "₹1.35 lakh monthly EMI in Bengaluru: Family's Whitefield home-buying experience sparks debate | Trending",
+    "source": {
+     "name": "Hindustan Times",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Vaishali kapila"
+     ]
+    },
+    "link": "https://www.hindustantimes.com/trending/135-lakh-monthly-emi-in-bengaluru-familys-whitefield-home-buying-experience-sparks-debate-101780912982650.html",
+    "date": "06/08/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-08T07:00:00Z"
+   },
+   {
+    "position": 47,
+    "title": "Bengaluru techie dies, lover injured after jumping from 7th-floor terrace following dispute",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Hm Chaithanya Swamy",
+      "Chaithanya Swamy"
+     ]
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-techie-dead-lover-injured-after-fall-from-7th-floor-police-suspect-she-pulled-him-along/articleshow/133633414.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-133633817,width-1280,height-720,imgsize-1450058,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNDVOa05FV0dwR05UWmFOblJIVFJDZkF4ampCU2dLTWdrSlU0akd0cU5NeVFF",
+    "date": "08/30/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-30T07:00:00Z"
+   },
+   {
+    "position": 48,
+    "title": "‘Change Whitefield to Darkfield’: Karnataka HC raps police for arrest of Udupi man over FB post on Kunal",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/change-whitefield-to-darkfield-karnataka-high-court-raps-cops-for-illegal-detention-over-kunal-kamra-show/articleshow/133621930.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-133621980,width-1280,height-720,imgsize-1566820,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVZTVkExTjBsS04wODNVVkp2VFJDZkF4ampCU2dLTWdhUlNJeUhvZ2M",
+    "date": "08/30/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-30T07:00:00Z"
+   },
+   {
+    "position": 49,
+    "title": "Bengaluru Has A Mango Mela In Whitefield, Where Entry Is Free & Mango Dishes Are Unlimited",
+    "source": {
+     "name": "curlytales.com",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://curlytales.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Tanvi Nalin Shrivastava"
+     ]
+    },
+    "link": "https://curlytales.com/india/experiences/bengaluru-has-a-mango-mela-in-whitefield-where-entry-is-free-mango-dishes-are-unlimited/",
+    "thumbnail": "https://curlytales.com/wp-content/uploads/2026/05/IMG_2226.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUpSRGQ2T1RsMU5VdGliMmQ1VFJDZkF4ampCU2dLTWdtQlFvUXdKV1BRTVFF",
+    "date": "05/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-22T07:00:00Z"
+   },
+   {
+    "position": 50,
+    "title": "Bengaluru Traffic Shock: 5 Km Takes More Than 2 Hours In Whitefield | Congress | The Breakfast Club",
+    "source": {
+     "name": "News18",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.news18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.news18.com/videos/the/bengaluru-traffic-shock-5-km-takes-more-than-2-hours-in-whitefield-congress-the-breakfast-club-10338101.html",
+    "thumbnail": "https://images.news18.com/ibnlive/uploads/2026/09/1789705021_7189086f-07e1-4da6-ab98-4a6280ea9d66.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNU5lamRvVDI1TWRFVlJjWGMwVFJDZkF4ampCU2dLTWdrRk1ZZ0RGLXBFRkFF",
+    "date": "09/18/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-18T07:00:00Z"
+   },
+   {
+    "position": 51,
+    "title": "Trail of Tales: These upcoming walks show a different side of Bengaluru",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Anjali Ram",
+      "Mahima Nagaraju"
+     ]
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/Jun/27/trail-of-tales-these-upcoming-walks-show-a-different-side-of-bengaluru",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2026-06-27%2Felut0oyg%2FIMG6552.jpg?rect=0%2C204%2C4032%2C2268&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHhSWFZXZFVSbVYzQlhYMU5UVFJDZkF4ampCU2dLTWdZQjRJaEFTQVE",
+    "date": "06/27/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-27T07:00:00Z"
+   },
+   {
+    "position": 52,
+    "title": "Happy Streets to bring fitness, creativity and community spirit to Whitefield in Bengaluru",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/happy-streets-to-bring-fitness-creativity-and-community-spirit-to-whitefield-in-bengaluru/articleshow/132318791.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-132318785,width-1280,height-720,imgsize-1154864,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU9PV3M1WW1zdGVFczVSbll4VFJDZ0F4amlCU2dLTWdhQkJJYk1pUWc",
+    "date": "07/10/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-10T07:00:00Z"
+   },
+   {
+    "position": 53,
+    "title": "Cantt-Whitefield rail quadruplingdeadline pushed to March 2027",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Suchith Kidiyoor"
+     ]
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/cantt-whitefield-rail-quadruplingdeadline-pushed-to-march-2027/articleshow/131021620.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-131021605,width-1280,height-720,imgsize-118488,resizemode-72,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXNZVlZHYlV0eVJTMVhURU50VFJDZkF4amlCU2dLTWdrQkFveHFEU2JvSVFN",
+    "date": "05/12/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-12T07:00:00Z"
+   },
+   {
+    "position": 54,
+    "title": "Sumadhura signs JDA for Bengaluru land",
+    "source": {
+     "name": "Construction Week India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.constructionweekonline.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.constructionweekonline.in/business/sumadhura-signs-jda-for-bengaluru-land",
+    "thumbnail": "https://www.constructionweekonline.in/cloud/2026/08/04/Madhusudhan-G-CMD-Sumadhura-Group.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWFOM1ZpVVRGTVNrRk9TM1kwVFJDZkF4ampCU2dLTWdZbGRvenNMUVk",
+    "date": "08/04/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-04T07:00:00Z"
+   },
+   {
+    "position": 55,
+    "title": "ExxonMobil leases 2.35 lakh sq ft office space in Bengaluru's Whitefield at ₹1.86 crore monthly rent | Real Estate News",
+    "source": {
+     "name": "Hindustan Times",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Vandana Ramnani"
+     ]
+    },
+    "link": "https://www.hindustantimes.com/real-estate/bengaluru-real-estate-exxonmobil-leases-2-35-lakh-sq-ft-office-space-in-whitefield-at-1-86-crore-monthly-rent-101783509334586.html",
+    "date": "07/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-09T07:00:00Z"
+   },
+   {
+    "position": 56,
+    "title": "Finally, some hope after 11-year delay: Work to ease traffic on one of Whitefield’s worst choke point beg",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/finally-some-hope-after-11-year-delay-work-to-ease-traffic-on-one-of-whitefields-worst-choke-point-begins/articleshow/131332183.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-131364748,width-1280,height-720,imgsize-104448,resizemode-72,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNHdiekpIYkdwRFpIWlNNMWx0VFJDZkF4ampCU2dLTWdzQk1JVHZyQ1BnaFpvTFhB",
+    "date": "05/28/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-28T07:00:00Z"
+   },
+   {
+    "position": 57,
+    "title": "Rape attempt on 23-year-old student in Whitefield; accused arrested within hours",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/national/karnataka/student-escapes-rape-attempt-in-whitefield-accused-arrested-within-hours/article71060127.ece",
+    "thumbnail": "https://www.thehindu.com/theme/images/amp-og-image.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUxjMll5TjBOVFpUQjRNSEZ4VFJDcUJCaXFCQ2dLTWdhTmtwQUlOUVk",
+    "date": "06/04/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-04T07:00:00Z"
+   },
+   {
+    "position": 58,
+    "title": "Whitefield-Bangarapet rail quadrupling gets Centre’s nod",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/whitefield-bangarapet-rail-quadrupling-gets-centres-nod/articleshow/133976568.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-133976566,width-1280,height-720,imgsize-996873,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNU9jRXhSU3pGNlVHeENZM1paVFJDZkF4amlCU2dLTWdhQk5aenJvUWc",
+    "date": "09/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-09T07:00:00Z"
+   },
+   {
+    "position": 59,
+    "title": "Tomo Kei Introduces Nikkei Dining To Bengaluru's Whitefield, Unfolding A New Culinary Journey",
+    "source": {
+     "name": "Travel and Leisure Asia",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.travelandleisureasia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.travelandleisureasia.com/in/dining/tomo-kei-introduces-nikkei-dining-to-bengalurus-whitefield-unfolding-a-new-culinary-journey/",
+    "thumbnail": "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2026/07/08154209/Untitled-design-50-1-1600x900.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXFiM0J0ZEZKMFFWRTVRM2h5VFJDZkF4ampCU2dLTWdhQkFvS3R3UUk",
+    "date": "07/09/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-09T07:00:00Z"
+   },
+   {
+    "position": 60,
+    "title": "Brigade Group and Bain Capital form joint venture to develop mixed-use project in Bengaluru",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "http://hospitality.economictimes.indiatimes.com/news/hotels/brigade-group-and-bain-capital-form-joint-venture-to-develop-mixed-use-project-in-bengaluru/130622694",
+    "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-130622694,width-1600,height-900,resizemode-4/.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNXlaMkoxUnpKTGJsTXRhRzlWVFJDZkF4ampCU2dLTWdzQk1Jd25IdWd6alFuMGtn",
+    "date": "04/30/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-04-30T07:00:00Z"
+   },
+   {
+    "position": 61,
+    "title": "Manipal Health Enterprises to acquire Kinder Women’s Hospital in Whitefield for ₹130 crore",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/national/karnataka/manipal-health-enterprises-to-acquire-kinder-womens-hospital-in-whitefield-for-130-crore/article71360416.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/ck8vb/article71360826.ece/alternates/LANDSCAPE_1200/2026-07-31T080237Z_1730123298_RC20HLAR38NY_RTRMADP_3_MANIPAL-HEALTH-IPO.JPG",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVBRMVp5VFRSV1MwbEpiak14VFJDZkF4ampCU2dLTWdZQllZcU51UVk",
+    "date": "08/18/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-18T07:00:00Z"
+   },
+   {
+    "position": 62,
+    "title": "Arvind SmartSpaces acquires residential project in Whitefield, Bengaluru",
+    "source": {
+     "name": "Business Standard",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.business-standard.com/markets/capital-market-news/arvind-smartspaces-acquires-residential-project-in-whitefield-bengaluru-126031001200_1.html",
+    "thumbnail": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNHlZVkptZGtoc1VsbHhObU0xVFJDQkF4aXRCU2dLTWdhbGxKS3N0UVk",
+    "date": "03/10/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-03-10T07:00:00Z"
+   },
+   {
+    "position": 63,
+    "title": "DHR Holdings Leases 0.18 mn Sq Ft Office In Whitefield For Rs 880 mn",
+    "source": {
+     "name": "Construction World",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.constructionworld.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.constructionworld.in/policy-updates-and-economic-news/dhr-holdings-leases-0.18-mn-sq-ft-office-in-whitefield-for-rs-880-mn/97334",
+    "thumbnail": "https://www.constructionworld.in/assets/uploads/img_39675_1789108336.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXNVeTB5Wm5ORFFWcEhaVWQwVFJDZkFSaS1BaWdCTWdZQllvQWgwd0k",
+    "date": "09/11/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-11T07:00:00Z"
+   },
+   {
+    "position": 64,
+    "title": "Whitefield, Varthur among worst-hit as downpour inundates Bengaluru",
+    "source": {
+     "name": "The News Minute",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thenewsminute.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thenewsminute.com/karnataka/whitefield-varthur-among-worst-hit-as-downpour-inundates-bengaluru",
+    "thumbnail": "https://cf-images.assettype.com/thenewsminute%2F2026-06-21%2Fy0cmvpv2%2FBengalururains.jpg?rect=0%2C221%2C946%2C532&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUZURXN4UjBKQ2FVUmxMVFZLVFJDZkF4ampCU2dLTWdaQmdvYjBOQVU",
+    "date": "06/21/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-21T07:00:00Z"
+   },
+   {
+    "position": 65,
+    "title": "Karnataka high court raps Whitefield police again over civil dispute interference",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/karnataka-high-court-raps-whitefield-police-again-over-civil-dispute-interference/articleshow/133660275.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-133660274,width-1280,height-720,imgsize-1848604,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVpTRmsxVHpWdE9VNW5kak10VFJDZkF4amlCU2dLTWdhaGc0NnVzUVk",
+    "date": "08/31/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-31T07:00:00Z"
+   },
+   {
+    "position": 66,
+    "title": "Techie in coma after hit-and-run accident during bike taxi ride in Bengaluru",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/cities/bangalore/techie-in-coma-after-hit-and-run-accident-during-bike-taxi-ride-at-whitefield-in-bengaluru/article71293921.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/ty1tra/article71294047.ece/alternates/LANDSCAPE_1200/ITP_Bangalore__22_.JPG",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUlXVkl5UVV4dk9YUnFjRzFuVFJDZkF4ampCU2dLTWdrQm9JWkxUU09wTlFF",
+    "date": "08/01/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-01T07:00:00Z"
+   },
+   {
+    "position": 67,
+    "title": "Six-year-old girl found murdered at Whitefield in Bengaluru",
+    "source": {
+     "name": "The Hindu",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thehindu.com/news/national/karnataka/six-year-old-girl-found-murdered-at-whitefield-in-bengaluru/article70480827.ece",
+    "thumbnail": "https://th-i.thgim.com/public/incoming/nf7ut2/article70480986.ece/alternates/LANDSCAPE_1200/CCI_UDHindu_KSL_U207HCHIT_R1592924190_0_baf08861-ab58-4034-adad-68e21f7c8cb6.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTJjelp4TVVwRGN6Rk1OVkpEVFJDZkF4ampCU2dLTWdZZFJJU3RLUVU",
+    "date": "01/07/2026, 08:00 AM, +0000 UTC",
+    "iso_date": "2026-01-07T08:00:00Z"
+   },
+   {
+    "position": 68,
+    "title": "'Once 20 mins, now 3.5 hours': Bengaluru biker highlights grim traffic reality of Vidyaranyapura-Whitefield commute",
+    "source": {
+     "name": "deccanherald.com",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/once-20-mins-now-35-hours-bengaluru-biker-highlights-grim-traffic-reality-of-vidyaranyapura-whitefield-commute-4016261",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-05-26%2Fq5hrhpwd%2F559d01b5-93a9-4d39-9d73-8e93269ca493.png?rect=0%2C1%2C1672%2C941&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTVNM2czUzJsUlVrRmFMVlV5VFJDZkF4amlCU2dLTWdrQkE0NW9PcVpqSkFN",
+    "date": "05/25/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-25T07:00:00Z"
+   },
+   {
+    "position": 69,
+    "title": "Radisson Opens Park Inn Hotel in Bengaluru Whitefield",
+    "source": {
+     "name": "Rediff MoneyWiz",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://money.rediff.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://money.rediff.com/news/market/radisson-opens-park-inn-hotel-in-bengaluru-whitefield/52349120260812",
+    "thumbnail": "https://im.rediff.com/1200-900/money/2021/nov/02travel.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDNaRkJ0TUdGWVVWcEpOMHhZVFJEZ0F4aUFCU2dLTWdZbEJvZ0xrZ28",
+    "date": "08/12/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-12T07:00:00Z"
+   },
+   {
+    "position": 70,
+    "title": "Bengaluru-Delhi ‘assured transit time’\nfreight train launched",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/states/karnataka/2026/Sep/06/bengaluru-delhi-assured-transit-timefreight-train-launched",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress/2026-09-05/phqihobr/Bengaluru.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTJhVXM0ZVVGc2IzQXlVM1ExVFJDWkF4anVCU2dLTWdZQlo0NkNLZ2c",
+    "date": "09/06/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-06T07:00:00Z"
+   },
+   {
+    "position": 71,
+    "title": "Kunal Kamra moves Bengaluru shows from Whitefield to Koramangala after Hindutva group seeks cancellation",
+    "source": {
+     "name": "The Statesman",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.thestatesman.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.thestatesman.com/entertainment/kunal-kamra-whitefield-show-cancelled-hindutva-opposition-bengaluru-1503623758.html",
+    "thumbnail": "https://www.thestatesman.com/wp-content/uploads/2025/04/Kunal-Kamra-jpg.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXhjVGc0YlVad2VrOVZhakJFVFJDZkF4ampCU2dLTWdZSmdwRDBMQVk",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 72,
+    "title": "Park Inn by Radisson makes its Whitefield debut",
+    "source": {
+     "name": "Hotelier India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.hotelierindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.hotelierindia.com/development/park-inn-by-radisson-makes-its-whitefield-debut",
+    "thumbnail": "https://www.hotelierindia.com/wp-content/uploads/cloud/2026/08/12/Untitled-Instagram-Post-45-1200x675.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNXNNVTVEU0RJdFYyWTBVRVZYVFJDZkF4ampCU2dLTWdB",
+    "date": "08/12/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-12T07:00:00Z"
+   },
+   {
+    "position": 73,
+    "title": "Suba Hotels opens its sixth hotel in Bengaluru",
+    "source": {
+     "name": "Hotelier India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.hotelierindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.hotelierindia.com/development/suba-hotels-opens-its-sixth-hotel-in-bengaluru",
+    "thumbnail": "https://www.hotelierindia.com/cloud/2026/08/05/Untitled-Instagram-Post-45.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNWxVbVpPYmxCMWQwUjRhRUpKVFJDX0F4aXZCU2dLTWdPWk13QQ",
+    "date": "08/05/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-05T07:00:00Z"
+   },
+   {
+    "position": 74,
+    "title": "Sheraton Grand Bengaluru Whitefield appoints Sijo John as director of finance",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "http://hospitality.economictimes.indiatimes.com/news/hotels/sheraton-grand-bengaluru-whitefield-appoints-sijo-john-as-director-of-finance/131320592",
+    "thumbnail": "https://etimg.etb2bimg.com/photo/131320609.cms",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXBkQzF6VmtZMlMwZDJiR290VFJDZkF4ampCU2dLTWdhcFJack5JUWs",
+    "date": "05/27/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-27T07:00:00Z"
+   },
+   {
+    "position": 75,
+    "title": "Radisson Hotel Group opens Park Inn by Radisson Bengaluru Whitefield, strengthening presence in city’s tec..",
+    "source": {
+     "name": "ET HospitalityWorld",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://hospitality.economictimes.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "http://hospitality.economictimes.indiatimes.com/news/hotels/radisson-hotel-group-opens-park-inn-by-radisson-bengaluru-whitefield-strengthening-presence-in-citys-tech-hub/133172894",
+    "thumbnail": "https://etimg.etb2bimg.com/thumb/msid-133172894,width-1600,height-900,resizemode-4/.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXhaemRJWlU5bFQyNWtTVmRMVFJDZkF4ampCU2dLTWdZQllKYUNyQWM",
+    "date": "08/12/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-12T07:00:00Z"
+   },
+   {
+    "position": 76,
+    "title": "Kerala Food Festival at Feast, Sheraton Grand Bengaluru Whitefield",
+    "source": {
+     "name": "HospiBuz",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://hospibuz.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://hospibuz.com/hotel/Hotel-listicles/kerala-food-festival-at-feast-sheraton-grand-bengaluru-whitefield-11858782",
+    "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/hospibuz/media/media_files/2026/05/21/sheraton-wf-kerala-food-festival-2026-05-21-15-31-52.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTRWamhmUlVSemFVdEpOMjgwVFJEUEF4aVdCU2dLTWdhQkJJeXN0UVE",
+    "date": "05/21/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-21T07:00:00Z"
+   },
+   {
+    "position": 77,
+    "title": "Karnataka HC pulls up Whitefield police for interfering in civil dispute",
+    "source": {
+     "name": "deccanherald.com",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/karnataka-hc-pulls-up-whitefield-police-for-interfering-in-civil-dispute-4130576",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-07-30%2Fmov9to82%2Ffile7k4qvqbd6ojd0wm3fi4.jpg?rect=0%2C0%2C1200%2C675&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWFRWGd6U2tablgxWlBWV1U0VFJDZkF4ampCU2dLTWdZQmNJQ3UwUU0",
+    "date": "08/31/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-31T07:00:00Z"
+   },
+   {
+    "position": 78,
+    "title": "ExxonMobil Leases 0.235 mn Sq Ft in Whitefield Bengaluru",
+    "source": {
+     "name": "Construction World",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.constructionworld.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.constructionworld.in/policy-updates-and-economic-news/exxonmobil-leases-0.235-mn-sq-ft-in-whitefield-bengaluru/94162",
+    "thumbnail": "https://www.constructionworld.in/assets/uploads/img_37049_1783923986.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNHphWEZOTW5oV2VtUmxVWHBhVFJDZkFSaS1BaWdCTWdrQm9JaTFRR1dwVXdF",
+    "date": "07/13/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-13T07:00:00Z"
+   },
+   {
+    "position": 79,
+    "title": "From today, 85 train services disrupted due to Whitefield yard work",
+    "source": {
+     "name": "deccanherald.com",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/from-today-85-train-services-disrupted-due-to-whitefield-yard-work-4025333",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2025-06-13%2Fjagyhr65%2Fdeccanherald2025-04-29liv64y6rdeccanherald2025-03-13mwdfbcz5deccanherald2024-06386fe1e3-771d-4dbc-8d83-6ddc56ba53aetrain18911701600747991.avif?rect=0%2C17%2C900%2C473&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iJ0NnNVVaR3BVVjNCcFgyVlNRaTFNVFJDUkF4ajhCU2dLTWdNQlFBNA",
+    "date": "06/02/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-06-02T07:00:00Z"
+   },
+   {
+    "position": 80,
+    "title": "Kerala Food Festival at Feast, Sheraton Grand Bengaluru Whitefield",
+    "source": {
+     "name": "HospiBuz",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://hospibuz.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://hospibuz.com/hotel/Hotel-listicles/kerala-food-festival-at-feast-sheraton-grand-bengaluru-whitefield-11833891",
+    "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/hospibuz/media/media_files/2026/05/14/sheraton-wf-kerala-food-festival-2026-05-14-13-54-19.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTRWamhmUlVSemFVdEpOMjgwVFJEUEF4aVdCU2dLTWdhQkJJeXN0UVE",
+    "date": "05/14/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-14T07:00:00Z"
+   },
+   {
+    "position": 81,
+    "title": "Woman kills teenage daughter, dies by suicide in Bengaluru’s Whitefield",
+    "source": {
+     "name": "Telangana Today",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://telanganatoday.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://telanganatoday.com/woman-kills-teenage-daughter-dies-by-suicide-in-bengalurus-whitefield",
+    "thumbnail": "https://media.telanganatoday.com/wp-content/uploads/2026/04/Whitefield-killing.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDVhbXRWU25GWE56VnRhV2Q2VFJDb0F4alVCU2dLTWdhbFJwWU1JZ2c",
+    "date": "04/14/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-04-14T07:00:00Z"
+   },
+   {
+    "position": 82,
+    "title": "Fitness, music and art bring Whitefield to life",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/fitness-music-and-art-bring-whitefield-to-life/articleshow/132347660.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-132347646,width-1280,height-720,imgsize-864630,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iMkNnNUJPRkJSUTNOTWNtdElaVUZXVFJDZ0F4amlCU2dLTWdzQk1veHJKV1pOU1dycWln",
+    "date": "07/12/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-12T07:00:00Z"
+   },
+   {
+    "position": 83,
+    "title": "This road promises no 'soukya' for Whitefield residents",
+    "source": {
+     "name": "deccanherald.com",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Asra Mavad"
+     ]
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/this-road-promises-nosoukya-for-whitefield-residents-4117435",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-08-19%2F50e4lk3i%2Fe85cf1d5-3536-4bd6-80b0-8bdd281211d4.png?rect=0%2C0%2C1672%2C941&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNUJZVGgzYldFelNWVm9OMUEwVFJDZkF4amlCU2dLTWdZQkFKd3dpUXM",
+    "date": "08/19/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-19T07:00:00Z"
+   },
+   {
+    "position": 84,
+    "title": "Inside Bengaluru’s Whitefield–Cantonment rail project nears completion",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/inside-bengalurus-whitefieldcantonment-rail-project-nears-completion/photostory/131261855.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131261870/131261870.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNUlZakF4VERnd2RXeEpNWGROVFJDZkF4ampCU2dLTWdrTkFJWnV3S05qS1FJ",
+    "date": "05/22/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-22T07:00:00Z"
+   },
+   {
+    "position": 85,
+    "title": "Brigade Group, Bain partner for ₹2,200 cr Whitefield project",
+    "source": {
+     "name": "Construction Week India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.constructionweekonline.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.constructionweekonline.in/news/brigade-group-bain-partner-for-%E2%82%B92200-cr-whitefield-project",
+    "thumbnail": "https://www.constructionweekonline.in/cloud/2026/04/30/Brigade-Group-Bain-partner-for-%E2%82%B92200-cr-Whitefield-project.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNWpTazlCVmtwQldWRkxWV2hsVFJDZkF4ampCU2dLTWdtTlVaYldKS2lwQ2dJ",
+    "date": "04/30/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-04-30T07:00:00Z"
+   },
+   {
+    "position": 86,
+    "title": "DoubleTree Bengaluru Whitefield to host 'Wedding Diaries' by Hilton",
+    "source": {
+     "name": "BW Hotelier",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.bwhotelier.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.bwhotelier.com/article/doubletree-bengaluru-whitefield-to-host-wedding-diaries-by-hilton-619171",
+    "thumbnail": "https://static.businessworld.in/Copy%20of%20Copy%20of%20Slider%20for%20website%20Final.ai%20-%202026-08-13T125651.228_20260813130410_original_image_45.webp",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTBTV1p3UkRCSFFXWTBSbWxwVFJEUkF4aVRCU2dLTWdrSkFZS0V0Q2U1YXdJ",
+    "date": "08/13/2026, 07:36 AM, +0000 UTC",
+    "iso_date": "2026-08-13T07:36:22Z"
+   },
+   {
+    "position": 87,
+    "title": "Karnataka High Court imposes Rs 3 lakh cost on Whitefield police, including senior officials, for illegal arrest",
+    "source": {
+     "name": "deccanherald.com",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.deccanherald.com/india/karnataka/bengaluru/karnataka-high-court-imposes-rs-3-lakh-cost-on-whitefield-police-including-senior-officials-for-illegal-arrest-4127659",
+    "thumbnail": "https://media.assettype.com/deccanherald%2F2026-08-28%2F7d6sir3g%2FSWARNA-2026-08-28T221048.348.png?rect=0%2C0%2C1280%2C720&w=undefined&auto=format%2Ccompress&fit=max",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVhSFo1UkRjeFpIVTRRemRwVFJDZkF4ampCU2dLTWdhQlFZTHptQW8",
+    "date": "08/28/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-28T07:00:00Z"
+   },
+   {
+    "position": 88,
+    "title": "Aster DM Healthcare invests Rs 96 crore to expand Whitefield hospital",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/business/2026/Apr/13/aster-dm-healthcare-invests-rs-96-crore-to-expand-whitefield-hospital",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2026-04-13%2Frj50xe1t%2FAster.jpg?rect=4%2C0%2C1156%2C650&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW5ZVGRNYVY5RGNIWTNiMFZPVFJDZkF4ampCU2dLTWdhTmtaS3lPQWM",
+    "date": "04/13/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-04-13T07:00:00Z"
+   },
+   {
+    "position": 89,
+    "title": "Science Experience for All: ParSEC Whitefield Opens as a 30,000 sq. ft. ‘Living Lab’ in Bengaluru",
+    "source": {
+     "name": "ThePrint",
+     "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theprint.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://theprint.in/ani-press-releases/science-experience-for-all-parsec-whitefield-opens-as-a-30000-sq-ft-living-lab-in-bengaluru/2921683/",
+    "thumbnail": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/05/ANI-20260504115122.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVhaM0J5VkRWNWJISlhORUpxVFJEZ0F4aUFCU2dLTWdZQlVJYmlvUWc",
+    "date": "05/04/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-04T07:00:00Z"
+   },
+   {
+    "position": 90,
+    "title": "PVR INOX Expands Bengaluru Footprint with New Six-Screen Cinema in Whitefield",
+    "source": {
+     "name": "This Week India",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thisweekindia.news&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://thisweekindia.news/pvr-inox-expands-bengaluru-footprint-with-new-six-screen-cinema-in-whitefield/",
+    "thumbnail": "https://thisweekindia.news/wp-content/uploads/2026/09/PVR-INOX-Expands-Bengaluru-Footprint-with-New-Six-Screen-Cinema-in-Whitefield-thisweekindia.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWpVa2hPZVZSTVVYaExWa3h5VFJDOEF4aXpCU2dLTWdhSlVvYUd6Z00",
+    "date": "09/10/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-09-10T07:00:00Z"
+   },
+   {
+    "position": 91,
+    "title": "Suba Hotels Ltd. Strengthens Bengaluru Presence with the Launch of Quality Inn Bhavishya, Brookfield, Whitefield",
+    "source": {
+     "name": "HospiBuz",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://hospibuz.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://hospibuz.com/hotels-hot-topics/suba-hotels-ltd-strengthens-bengaluru-presence-with-the-launch-of-quality-inn-bhavishya-brookfield-whitefield-12226966",
+    "thumbnail": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/hospibuz/media/media_files/2026/08/04/bengaluru1-2026-08-04-15-08-55.jpeg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNDNjR05PZEZOUU5ITmxUbmRQVFJEREJCaVJCQ2dLTWdB",
+    "date": "08/04/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-04T07:00:00Z"
+   },
+   {
+    "position": 92,
+    "title": "Bengaluru tragedy: Expectant father among 3 dead in Whitefield while cleaning rainwater pit",
+    "source": {
+     "name": "The Indian Express",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://indianexpress.com/article/cities/bangalore/whitefield-rainwater-harvesting-pit-death-toxic-fumes-bengaluru-10558631/",
+    "thumbnail": "https://images.indianexpress.com/2026/03/Bengaluru-rainwater-pit-accident.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWlVbWRsV1dkUGJsUXpSUzF5VFJDZkF4ampCU2dLTWdZUk1KcFNIQW8",
+    "date": "03/01/2026, 08:00 AM, +0000 UTC",
+    "iso_date": "2026-03-01T08:00:00Z"
+   },
+   {
+    "position": 93,
+    "title": "2 Pints Brewing Taproom & Kitchen, launches in Whitefield, Bengaluru",
+    "source": {
+     "name": "Hotelier India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.hotelierindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.hotelierindia.com/fb/2-pints-brewing-taproom-kitchen-launches-in-whitefield-bengaluru",
+    "thumbnail": "https://www.hotelierindia.com/cloud/2026/04/18/2-Pints-1.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNW5TaTEzV0ZsNlpsZHROMjVqVFJDX0F4aXRCU2dLTWdrQmdJWWd0cVVXMXdB",
+    "date": "04/19/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-04-19T07:00:00Z"
+   },
+   {
+    "position": 94,
+    "title": "Can fairness creams harm your kidneys? Doctor from Aster Hospital, Whitefield, Bengaluru explains.",
+    "source": {
+     "name": "IndiaMedToday",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://indiamedtoday.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://indiamedtoday.com/can-fairness-creams-harm-your-kidneys-doctor-from-aster-hospital-whitefield-bengaluru-explains/",
+    "thumbnail": "https://indiamedtoday.com/wp-content/uploads/2026/07/Dr-Kristen-1.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWZhelpIWW5BdE9YaFNjMnBvVFJDZkF4ampCU2dLTWdZcEpwTHRHUW8",
+    "date": "07/30/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-30T07:00:00Z"
+   },
+   {
+    "position": 95,
+    "title": "Inside Swiggy’s new HQ in Whitefield; as it repositions its Bengaluru base, leaves ORR",
+    "source": {
+     "name": "StoryBoard 18",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.storyboard18.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.storyboard18.com/brand-marketing/inside-swiggys-new-hq-in-whitefield-as-it-repositions-its-bengaluru-base-leaves-orr-95696.htm",
+    "thumbnail": "https://images.storyboard18.com/storyboard18/2026/04/Copy-of-THEN-2026-04-63c1079240ac97c89e02aebe5b2194b5-1019x573.png?impolicy=website&width=675&height=1200",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNTFabTVJTTBkeVdrZE5iMDVPVFJEOEFoaWpCU2dLTWdrQkVJYWd2bU1keEFJ",
+    "date": "04/20/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-04-20T07:00:00Z"
+   },
+   {
+    "position": 96,
+    "title": "Greater Whitefield: The Emerging Growth Frontier of East Bengaluru",
+    "source": {
+     "name": "Business Standard",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.business-standard.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.business-standard.com/content/press-releases-ani/greater-whitefield-the-emerging-growth-frontier-of-east-bengaluru-126052800440_1.html",
+    "thumbnail": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/28/full/20260528090038.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXRPVXgyVW1JeGJFdzJhbTVYVFJEZ0F4aUFCU2dLTWdZQmtvb251UVE",
+    "date": "05/29/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-05-29T07:00:00Z"
+   },
+   {
+    "position": 97,
+    "title": "Finale of Whitefield edition of Happy Streets in Bengaluru ends on cheerful note",
+    "source": {
+     "name": "The Times of India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://timesofindia.indiatimes.com/city/bengaluru/finale-of-whitefield-edition-of-happy-streets-in-bengaluru-ends-on-cheerful-note/articleshow/132496733.cms",
+    "thumbnail": "https://static.toiimg.com/thumb/msid-132496726,width-1280,height-720,imgsize-963574,resizemode-75,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNXdVbFIwV21sYU9VZHNjREZXVFJDZkF4amlCU2dLTWdhcEpJeXRsUWs",
+    "date": "07/19/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-07-19T07:00:00Z"
+   },
+   {
+    "position": 98,
+    "title": "Kunal Kamra’s Bengaluru show shifted after right-wing outfit seeks police action",
+    "source": {
+     "name": "The Indian Express",
+     "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://indianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+     "authors": [
+      "Kiran Parashar"
+     ]
+    },
+    "link": "https://indianexpress.com/article/cities/bangalore/kunal-kamra-bengaluru-show-shifted-koramangala-whitefield-venue-row-10815388/",
+    "thumbnail": "https://images.indianexpress.com/2026/02/kunal-kamra-2.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNW9NRkZpZDBwR2FXVkdRakIwVFJDZkF4ampCU2dLTWdZSllwTDBwQWM",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   },
+   {
+    "position": 99,
+    "title": "Brigade Hospitality gives MLR Cultural Centre a new identity in Bengaluru",
+    "source": {
+     "name": "Hotelier India",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.hotelierindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.hotelierindia.com/operations/brigade-hospitality-gives-mlr-cultural-centre-a-new-identity-in-bengaluru",
+    "thumbnail": "https://www.hotelierindia.com/cloud/2026/08/05/t5OIZWiG-MLR-Convention-Centre-Whitefield-1200x660.jpg",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNUJZbHAxUXpWMlYycDFOVGRvVFJDYkF4anJCU2dLTWdB",
+    "date": "08/05/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-05T07:00:00Z"
+   },
+   {
+    "position": 100,
+    "title": "Radisson opens Park Inn hotel in Bengaluru’s Whitefield",
+    "source": {
+     "name": "Prop News Time",
+     "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://propnewstime.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://propnewstime.com/latestnewsstories/MzQ1OTg=/radisson-opens-park-inn-hotel-in-bengaluru-s-whitefield",
+    "thumbnail": "https://propscience.s3.ap-south-1.amazonaws.com/backoffice_blogs/20260519090403_1_Hotel__3_.png",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNTFZbkZEV21NNVlsSTVUM2xXVFJDUUF4allCQ2dLTWdB",
+    "date": "08/14/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-14T07:00:00Z"
+   },
+   {
+    "position": 101,
+    "title": "Bengaluru: Kunal Kamra cancels Whitefield shows, moves performances to Koramangala venue",
+    "source": {
+     "name": "The New Indian Express",
+     "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+    },
+    "link": "https://www.newindianexpress.com/cities/bengaluru/2026/Aug/03/bengaluru-kunal-kamra-cancels-whitefield-shows-moves-performances-to-koramangala-venue",
+    "thumbnail": "https://cf-images.assettype.com/newindianexpress%2F2025-04-08%2Fwklp52pw%2FANI_20250408084828.jpg?rect=0%2C0%2C600%2C338&w=1200&h=675&auto=format%2Ccompress&fit=crop",
+    "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTVMWFJQYTBwQlVEVTVjbnB5VFJEU0FoallCQ2dLTWdhZEJvYnNrUW8",
+    "date": "08/03/2026, 07:00 AM, +0000 UTC",
+    "iso_date": "2026-08-03T07:00:00Z"
+   }
+  ],
+  "menu_links": [
+   {
+    "title": "India",
+    "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNRE55YXpBU0JXVnVMVWRDS0FBUAE"
+   },
+   {
+    "title": "World",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Your local news",
+    "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+   },
+   {
+    "title": "Business",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Technology",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Entertainment",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNREpxYW5RU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Sports",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp1ZEdvU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Science",
+    "topic_token": "CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKSlRpZ0FQAQ"
+   },
+   {
+    "title": "Health",
+    "topic_token": "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=in&topic_token=CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3QwTlRFU0JXVnVMVWRDS0FBUAE"
+   }
+  ]
+ }
+}

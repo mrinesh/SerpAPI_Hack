@@ -13,6 +13,11 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Locality news and frozen per-run areas, adapted from gscode007's `f-05` branch
+  (ADR 0020): Google News per locality, kept when it names the locality, one article per event,
+  10 newest, labelled by DeepSeek lite for topic and sentiment; shown in the area panel and not
+  scored. Each run now freezes the areas it used (`run_area_intel`). The teammate's recorded
+  news searches are reused (0 searches; 2 lite calls). Demo results unchanged.
 - 2026-10-07 · Hardening F-05 / F-09, adapted from gscode007's parallel `f-05` / `f-09` branches
   (ADR 0019): area sections record ok / empty / failed with typed warnings, shown in the run
   stage and the area panel instead of silently missing data; a partial area expires at once so

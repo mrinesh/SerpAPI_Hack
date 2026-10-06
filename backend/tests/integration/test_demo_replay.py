@@ -137,3 +137,14 @@ def test_suggestion_rejects_unknown_localities(client):
         "risk_appetite": "balanced",
     }
     assert client.post("/api/profiles/target-suggestion", json=body).status_code == 422
+
+
+@pytest.mark.parametrize("name", DEMO_PROFILES)
+def test_demo_areas_have_classified_local_news(client, name):
+    profile_id = client.post("/api/profiles", json=DEMO_PROFILES[name]).json()["id"]
+    run_id = client.post(f"/api/profiles/{profile_id}/runs").json()["id"]
+    [area] = client.get(f"/api/runs/{run_id}/areas").json()
+    assert area["section_status"]["news"] == "ok"
+    assert area["section_status"]["classify_news"] == "ok"
+    assert len(area["news"]) == 10 and all(item["classified"] for item in area["news"])
+    assert area["warnings"] == []

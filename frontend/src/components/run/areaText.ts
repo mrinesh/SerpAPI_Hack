@@ -25,7 +25,7 @@ export function nearestByCategory(area: AreaIntel, limit = 3): { label: string; 
 
 const SECTION_LABELS: Record<string, string> = {
   centre: "Locality centre", metro: "Metro stations", school: "Schools", hospital: "Hospitals",
-  growth: "Price growth", summary: "AI summary",
+  growth: "Price growth", summary: "AI summary", news: "Local news", classify_news: "News topics",
 };
 
 /** "Price growth: No recorded google response…", one line per section that failed (ADR 0019). */
@@ -36,4 +36,15 @@ export function areaWarnings(area: AreaIntel): string[] {
       : SECTION_LABELS[warning.section] ?? warning.section;
     return `${label}: ${warning.message}`;
   });
+}
+
+type NewsItem = NonNullable<AreaIntel["news"]>[number];
+
+/** Up to `limit` news items: infrastructure stories first, then newest (ADR 0020). */
+export function newsForPanel(area: AreaIntel, limit = 5): NewsItem[] {
+  const newest = (a: NewsItem, b: NewsItem) => (b.published_on ?? "").localeCompare(a.published_on ?? "");
+  const items = [...(area.news ?? [])].sort(newest);
+  const infrastructure = items.filter((item) => item.classified && item.topic === "infrastructure");
+  const rest = items.filter((item) => !(item.classified && item.topic === "infrastructure"));
+  return [...infrastructure, ...rest].slice(0, limit);
 }

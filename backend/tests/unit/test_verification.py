@@ -43,6 +43,20 @@ class FakeLLM:
 
     def generate_structured(self, **kwargs):
         self.calls.append(kwargs)
+        if kwargs["task"] == "classify_news":
+            import json
+
+            from app.pipeline.enrichment.area import ClassifiedNews
+
+            inputs = json.loads(kwargs["prompt"].split("INPUT JSON:\n", 1)[1])["news_items"]
+            return ClassifiedNews.model_validate(
+                {
+                    "items": [
+                        {"index": n["index"], "topic": "other", "sentiment": "neutral"}
+                        for n in inputs
+                    ]
+                }
+            )
         if kwargs["task"] == "extract_rent":
             from app.pipeline.enrichment.rent_level import RentExtract
 

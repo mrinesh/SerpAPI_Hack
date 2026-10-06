@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { AreaIntel } from "../../api/types";
-import { accessLine, areaWarnings, nearestByCategory } from "./areaText";
+import { accessLine, areaWarnings, nearestByCategory, newsForPanel } from "./areaText";
 
 describe("area text", () => {
   it("formats access, noting when it is measured from the locality centre", () => {
@@ -38,5 +38,21 @@ describe("area warnings", () => {
       "Rent (office): SerpApi timed out.",
     ]);
     expect(areaWarnings({} as AreaIntel)).toEqual([]);
+  });
+});
+
+describe("area news", () => {
+  it("puts classified infrastructure stories first, then the newest", () => {
+    const item = (title: string, published_on: string, topic = "other", classified = true) =>
+      ({ title, published_on, topic, classified, url: "https://x", sentiment: "neutral", source: { engine: "google_news" } });
+    const area = { news: [
+      item("Old civic", "2026-09-01", "civic"),
+      item("Metro extension", "2026-09-10", "infrastructure"),
+      item("New cafe", "2026-10-01", "market"),
+      item("Unlabelled road story", "2026-10-02", "infrastructure", false),
+    ] } as unknown as AreaIntel;
+    expect(newsForPanel(area, 3).map((n) => n.title)).toEqual([
+      "Metro extension", "Unlabelled road story", "New cafe",
+    ]);
   });
 });

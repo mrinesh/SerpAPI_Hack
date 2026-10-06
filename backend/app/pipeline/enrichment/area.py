@@ -24,7 +24,7 @@ from typing import TypeVar
 from pydantic import BaseModel, Field, ValidationError
 
 from app.config import Settings
-from app.core.errors import AppError
+from app.core.errors import AppError, UpstreamError
 from app.db.models import AreaIntelRow
 from app.integrations.llm.base import ModelTier
 from app.integrations.serpapi import engines
@@ -34,15 +34,25 @@ from app.pipeline.context import PipelineContext
 from app.pipeline.enrichment.rent_level import rent_level
 from app.pipeline.grounding import allowed_numbers, grounded
 from app.pipeline.verification import prompt_for
-from app.reference import Market
-from app.schemas.area import Amenity, AmenityCategory, AreaAccess, AreaIntel, AreaIssue
+from app.reference import Locality, Market
+from app.schemas.area import (
+    Amenity,
+    AmenityCategory,
+    AreaAccess,
+    AreaIntel,
+    AreaIssue,
+    NewsItem,
+    NewsTopic,
+    Sentiment,
+)
 from app.schemas.common import GeoPoint, SerpEngine
 from app.schemas.profile import PropertyType
 from app.schemas.provenance import ExtractionMethod, Sourced, SourceRef
 
 log = logging.getLogger(__name__)
 T = TypeVar("T")
-AREA_SCHEMA_VERSION = 2  # bump when AreaIntel's meaning changes, so cached areas are rebuilt
+AREA_SCHEMA_VERSION = 3  # bump when AreaIntel's meaning changes, so cached areas are rebuilt
+MAX_NEWS = 10
 
 AMENITY_QUERIES: dict[AmenityCategory, str] = {
     AmenityCategory.METRO: "metro station",
@@ -93,6 +103,18 @@ class LongRunGrowthExtract(BaseModel):
     confidence: float = Field(ge=0, le=1)
 
 
+class NewsLabel(BaseModel):
+    index: int
+    topic: NewsTopic
+    sentiment: Sentiment
+
+
+class ClassifiedNews(BaseModel):
+    """Output schema of the `classify_news` prompt."""
+
+    items: list[NewsLabel]
+
+
 class AreaSummary(BaseModel):
     """Output schema of the `summarize_area` prompt."""
 
@@ -121,6 +143,11 @@ def amenity_call(category: AmenityCategory, centre: GeoPoint, settings: Settings
     return engines.google_maps_search(
         AMENITY_QUERIES[category], settings, near=centre, zoom=AMENITY_ZOOM
     )
+
+
+def news_call(name: str, market: Market, settings: Settings) -> EngineCall:
+    # The exact wording of gscode007's F-05 branch, so their recorded fixtures replay here.
+    return engines.google_news(f'"{name}" {market.city}', settings)
 
 
 def growth_call(name: str, market: Market, settings: Settings) -> EngineCall:
@@ -243,6 +270,114 @@ def supported_long_run(extract: LongRunGrowthExtract, snippet: str) -> float | N
     if extract.total_pct == 0 or (extract.total_pct < 0) != bool(_FALL.search(span)):
         return None
     return round(annualised(extract.total_pct, extract.years), 2)
+
+
+def _normalized(text: str) -> str:
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", text.lower()).split())
+
+
+def mentions_locality(text: str, place: Locality) -> bool:
+    words = f" {_normalized(text)} "
+    return any(f" {_normalized(name)} " in words for name in (place.name, *place.aliases))
+
+
+def parse_news(data: dict, place: Locality, search_id: str | None) -> list[NewsItem]:
+    """News that names the locality in its own title or snippet, de-duplicated, newest first.
+
+    Adapted from gscode007's F-05 branch: a story group (`highlight` + `stories`) is one event,
+    so it contributes its first article that names the locality (recorded Koramangala news had
+    seven outlets on one incident); group headers without a link are skipped, and malformed
+    items are skipped rather than trusted.
+    """
+    found: list[NewsItem] = []
+    seen_urls, seen_titles = set(), set()
+    for row in data.get("news_results") or []:
+        if not isinstance(row, dict):
+            continue
+        group = [row.get("highlight"), *(row.get("stories") or [])] if "link" not in row else [row]
+        for candidate in group:
+            item = _news_item(candidate, place, search_id, seen_urls, seen_titles)
+            if item is not None:
+                found.append(item)
+                break
+    found.sort(key=lambda item: item.published_on or datetime.min.date(), reverse=True)
+    distinct: list[NewsItem] = []
+    for item in found:  # newest first, so the newest report of each event is kept
+        if not any(same_event(item.title, kept.title, place) for kept in distinct):
+            distinct.append(item)
+    return distinct[:MAX_NEWS]
+
+
+_STOPWORDS = {
+    "the", "and", "for", "with", "from", "into", "after", "over", "near", "this", "that",
+    "bengaluru", "bangalore", "karnataka", "india", "news", "video",
+}  # fmt: skip
+
+
+def same_event(a: str, b: str, place: Locality) -> bool:
+    """Two headlines about one event: at least half their meaningful words are shared (recorded:
+    seven outlets on one Koramangala incident, each worded differently)."""
+    names = {word for name in (place.name, *place.aliases) for word in _normalized(name).split()}
+
+    def words(title: str) -> set[str]:
+        return {w for w in _normalized(title).split() if len(w) > 2 and w not in _STOPWORDS | names}
+
+    first, second = words(a), words(b)
+    if not first or not second:
+        return False
+    return len(first & second) / len(first | second) >= 0.5
+
+
+def _news_item(
+    row: object,
+    place: Locality,
+    search_id: str | None,
+    seen_urls: set[str],
+    seen_titles: set[str],
+) -> NewsItem | None:
+    if not isinstance(row, dict):
+        return None
+    title, url, snippet = row.get("title"), row.get("link"), row.get("snippet")
+    if not isinstance(title, str) or not title.strip():
+        return None
+    if not isinstance(url, str) or not url.startswith(("http://", "https://")):
+        return None
+    snippet = snippet if isinstance(snippet, str) else None
+    if not mentions_locality(f"{title} {snippet or ''}", place):
+        return None
+    identity, title_key = url.split("#")[0], _normalized(title)
+    if identity in seen_urls or title_key in seen_titles:
+        return None
+    seen_urls.add(identity)
+    seen_titles.add(title_key)
+    published = None
+    if isinstance(row.get("iso_date"), str):
+        try:
+            published = datetime.fromisoformat(row["iso_date"].replace("Z", "+00:00")).date()
+        except ValueError:
+            published = None
+    source = row.get("source")
+    outlet = source.get("name") if isinstance(source, dict) else source
+    return NewsItem(
+        title=title.strip(),
+        url=url,
+        outlet=outlet if isinstance(outlet, str) else None,
+        published_on=published,
+        published_text=str(row["date"]) if row.get("date") else None,
+        snippet=snippet,
+        source=SourceRef(engine=SerpEngine.GOOGLE_NEWS, url=url, title=title, search_id=search_id),
+    )
+
+
+def apply_labels(news: list[NewsItem], labels: ClassifiedNews) -> list[NewsItem]:
+    """Labels for every item, each index exactly once; otherwise the classification is refused."""
+    if sorted(label.index for label in labels.items) != list(range(len(news))):
+        raise UpstreamError("News classification must label each article exactly once.")
+    labelled = [item.model_copy() for item in news]
+    for label in labels.items:
+        item = labelled[label.index]
+        item.topic, item.sentiment, item.classified = label.topic, label.sentiment, True
+    return labelled
 
 
 def access_from(point: GeoPoint, area: AreaIntel, measured_from: str) -> AreaAccess:
@@ -479,6 +614,30 @@ def build_area_intel(ctx: PipelineContext, market: Market, slug: str) -> AreaInt
     area.price_growth_pct = sections.run(
         "growth", "serpapi+deepseek", lambda: _growth(ctx, name, market)
     )
+    if place is not None:
+
+        def news() -> list[NewsItem]:
+            response = _search(ctx, news_call(name, market, ctx.settings))
+            return parse_news(response.data, place, response.search_id)
+
+        area.news = sections.run("news", "serpapi", news) or []
+    if area.news:
+        # Index, title and snippet only, so the prompt (and its recording) is stable across runs.
+        items = [
+            {"index": i, "title": item.title, "snippet": item.snippet}
+            for i, item in enumerate(area.news)
+        ]
+
+        def classify() -> list[NewsItem]:
+            labels = ctx.llm.generate_structured(
+                task="classify_news",
+                prompt=prompt_for("classify_news", locality=name, news_items=items),
+                schema=ClassifiedNews,
+                tier=ModelTier.LITE,
+            )
+            return apply_labels(area.news, labels)
+
+        area.news = sections.run("classify_news", "deepseek", classify) or area.news
     centre_access = (
         access_from(area.center, area, "locality centre")
         if area.center and area.amenities

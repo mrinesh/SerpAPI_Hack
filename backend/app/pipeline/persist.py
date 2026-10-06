@@ -5,7 +5,8 @@ from datetime import UTC, datetime
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.db.models import ListingObservationRow, ListingRow, RunResultRow
+from app.db.models import ListingObservationRow, ListingRow, RunAreaRow, RunResultRow
+from app.schemas.area import AreaIntel
 from app.schemas.listing import Listing, Verification
 from app.schemas.recommendation import Recommendation
 
@@ -115,4 +116,19 @@ def save_recommendation(db: Session, run_id: str, recommendation: Recommendation
             },
         ),
     }
+    db.commit()
+
+
+def save_run_area(db: Session, run_id: str, area: AreaIntel) -> None:
+    """Freeze the area this run used (one row per run and locality; a rerun of the stage
+    replaces it)."""
+    row = db.scalar(
+        select(RunAreaRow).where(
+            RunAreaRow.run_id == run_id, RunAreaRow.locality_key == area.locality_key
+        )
+    )
+    if row is None:
+        row = RunAreaRow(run_id=run_id, locality_key=area.locality_key)
+        db.add(row)
+    row.data = area.model_dump(mode="json")
     db.commit()
