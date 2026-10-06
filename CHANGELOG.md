@@ -13,6 +13,13 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Hardening F-05 / F-09, adapted from gscode007's parallel `f-05` / `f-09` branches
+  (ADR 0019): area sections record ok / empty / failed with typed warnings, shown in the run
+  stage and the area panel instead of silently missing data; a partial area expires at once so
+  the next run retries; the area cache is reused only when it parses and matches the schema
+  version and provider modes; metrics are withheld for starting / range prices as well as
+  implausible ones, and store the target they used plus a reason when there is no verdict.
+  Recorded demo results are unchanged.
 - 2026-10-06 · Suggested target ROI (F-01 / F-09): the wizard's Money step fills a target from
   the market's sourced typical value of the goal's measure (area yield; average yearly growth
   from a quoted multi-year change; or both), adjusted for risk and rounded to 0.5%. Fills only an

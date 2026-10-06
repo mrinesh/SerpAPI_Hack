@@ -21,8 +21,12 @@ export function metricsLine(metrics: InvestmentMetrics | null | undefined): stri
   return parts.length > 0 ? parts.join(" · ") : null;
 }
 
-/** "Meets 4% target" / "Below 4% target", or null when the measure is missing. */
-export function targetBadge(metrics: InvestmentMetrics | null | undefined, target: number): string | null {
-  if (metrics?.meets_target_roi == null) return null;
+/** "Meets 4% target" / "Below 4% target", using the target frozen into the metrics (the profile's
+ * current target only for older runs); null when there is no verdict. */
+export function targetBadge(
+  metrics: InvestmentMetrics | null | undefined, fallbackTarget?: number,
+): string | null {
+  const target = metrics?.target_roi_pct ?? fallbackTarget;
+  if (metrics?.meets_target_roi == null || target == null) return null;
   return `${metrics.meets_target_roi ? "Meets" : "Below"} ${target}% target`;
 }

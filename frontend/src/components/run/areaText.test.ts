@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { AreaIntel } from "../../api/types";
-import { accessLine, nearestByCategory } from "./areaText";
+import { accessLine, areaWarnings, nearestByCategory } from "./areaText";
 
 describe("area text", () => {
   it("formats access, noting when it is measured from the locality centre", () => {
@@ -24,5 +24,19 @@ describe("area text", () => {
       ["Schools", ["Near", "Mid", "Far"]],
       ["Hospitals", ["Clinic"]],
     ]);
+  });
+});
+
+describe("area warnings", () => {
+  it("names each failed section in plain words", () => {
+    const area = { warnings: [
+      { section: "growth", provider: "serpapi+deepseek", code: "replay_miss", message: "No recorded google response." },
+      { section: "rent:office", provider: "serpapi+deepseek", code: "upstream_error", message: "SerpApi timed out." },
+    ] } as unknown as AreaIntel;
+    expect(areaWarnings(area)).toEqual([
+      "Price growth: No recorded google response.",
+      "Rent (office): SerpApi timed out.",
+    ]);
+    expect(areaWarnings({} as AreaIntel)).toEqual([]);
   });
 });

@@ -1,8 +1,9 @@
 """Single-property and single-locality views (CHECKLIST F-07, F-05)."""
 
+from pydantic import ValidationError
 from sqlalchemy.orm import Session
 
-from app.core.errors import NotFound, NotImplementedYet
+from app.core.errors import AppError, NotFound, NotImplementedYet
 from app.db.models import AreaIntelRow
 from app.schemas.area import AreaIntel
 from app.schemas.views import PropertyDetail
@@ -17,4 +18,11 @@ def get_area(db: Session, locality_key: str) -> AreaIntel:
     row = db.get(AreaIntelRow, locality_key)
     if row is None:
         raise NotFound(f"No area intelligence for {locality_key}")
-    return AreaIntel.model_validate(row.data)
+    try:
+        return AreaIntel.model_validate(row.data)
+    except ValidationError as exc:
+        # Never trust or silently repair a corrupt row on a read; the next run rebuilds it.
+        raise AppError(
+            f"The cached area for {locality_key} is unreadable; run a search to rebuild it.",
+            details={"locality_key": locality_key, "operation": "area_cache_read"},
+        ) from exc

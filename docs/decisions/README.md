@@ -23,3 +23,4 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0016](0016-area-intelligence-and-score.md) | Area intelligence from five searches; area score is amenity access only | Accepted |
 | [0017](0017-investment-metrics-and-roi-score.md) | Rental yield from a quoted area rent; proportional ROI score | Accepted |
 | [0018](0018-suggested-target-roi.md) | Suggest the target ROI from the market's sourced typical value | Accepted |
+| [0019](0019-visible-failures-validated-cache-withheld-metrics.md) | Visible area failures, validated area cache, withheld metrics (after gscode007's branches) | Accepted |

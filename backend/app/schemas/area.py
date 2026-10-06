@@ -73,6 +73,16 @@ class RentalDemand(BaseModel):
     signal: Level
 
 
+class AreaIssue(BaseModel):
+    """One part of an area that could not be loaded; shown to the investor, never hidden as empty
+    (ADR 0019, after gscode007's F-05 branch)."""
+
+    section: str  # "centre", "metro", "school", "hospital", "growth", "summary", "rent:office"
+    provider: str  # "serpapi", "deepseek" or "serpapi+deepseek"
+    code: str  # the AppError code, e.g. "replay_miss", "upstream_error"
+    message: str
+
+
 class AreaIntel(BaseModel):
     locality_key: str  # normalised slug; the cache key
     locality: str
@@ -91,8 +101,14 @@ class AreaIntel(BaseModel):
     summary: str | None = None
     infrastructure_summary: str | None = None
     summary_by_ai: bool = False  # True when the summaries passed the number check (ADR 0016)
+    # "ok": data found; "empty": the search worked but found nothing; "failed": see `warnings`.
+    section_status: dict[str, Literal["ok", "empty", "failed"]] = Field(default_factory=dict)
+    warnings: list[AreaIssue] = Field(default_factory=list)
+    # A cached area is reused only when both match the running code and providers (ADR 0019).
+    schema_version: int = 1
+    provider_modes: dict[str, str] = Field(default_factory=dict)
     fetched_at: datetime
-    expires_at: datetime
+    expires_at: datetime  # equals fetched_at when a section failed, so the next run retries
 
 
 class AreaAccess(BaseModel):

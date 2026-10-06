@@ -1200,6 +1200,37 @@
             "title": "Summary By Ai",
             "default": false
           },
+          "section_status": {
+            "additionalProperties": {
+              "type": "string",
+              "enum": [
+                "ok",
+                "empty",
+                "failed"
+              ]
+            },
+            "type": "object",
+            "title": "Section Status"
+          },
+          "warnings": {
+            "items": {
+              "$ref": "#/components/schemas/AreaIssue"
+            },
+            "type": "array",
+            "title": "Warnings"
+          },
+          "schema_version": {
+            "type": "integer",
+            "title": "Schema Version",
+            "default": 1
+          },
+          "provider_modes": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Provider Modes"
+          },
           "fetched_at": {
             "type": "string",
             "format": "date-time",
@@ -1220,6 +1251,35 @@
           "expires_at"
         ],
         "title": "AreaIntel"
+      },
+      "AreaIssue": {
+        "properties": {
+          "section": {
+            "type": "string",
+            "title": "Section"
+          },
+          "provider": {
+            "type": "string",
+            "title": "Provider"
+          },
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          }
+        },
+        "type": "object",
+        "required": [
+          "section",
+          "provider",
+          "code",
+          "message"
+        ],
+        "title": "AreaIssue",
+        "description": "One part of an area that could not be loaded; shown to the investor, never hidden as empty\n(ADR 0019, after gscode007's F-05 branch)."
       },
       "BudgetStatus": {
         "properties": {
@@ -1591,6 +1651,28 @@
               }
             ],
             "title": "Meets Target Roi"
+          },
+          "target_roi_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target Roi Pct"
+          },
+          "assessment_note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Assessment Note"
           }
         },
         "type": "object",

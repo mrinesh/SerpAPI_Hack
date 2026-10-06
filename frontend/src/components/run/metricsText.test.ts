@@ -18,6 +18,8 @@ describe("metrics text", () => {
     } as unknown as InvestmentMetrics;
     expect(metricsLine(partial)).toBe("Growth +5.0% (your estimate)");
     expect(targetBadge(partial, 4)).toBeNull();
+    const frozen = { ...metrics, target_roi_pct: 3 } as unknown as InvestmentMetrics;
+    expect(targetBadge(frozen, 5)).toBe("Meets 3% target"); // the run's target, not today's profile
     expect(metricsLine(null)).toBeNull();
   });
 });

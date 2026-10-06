@@ -36,7 +36,7 @@ function RecommendationCard({ recommendation, details, targetRoi }: {
 }) {
   const { listing, verification } = recommendation;
   const returns = metricsLine(recommendation.metrics);
-  const badge = targetRoi != null ? targetBadge(recommendation.metrics, targetRoi) : null;
+  const badge = targetBadge(recommendation.metrics, targetRoi);
   return (
     <li className="grid gap-3 px-4 py-4 sm:grid-cols-[auto_1fr_auto]">
       <p className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">
@@ -48,6 +48,9 @@ function RecommendationCard({ recommendation, details, targetRoi }: {
           <p className="text-xs text-slate-500">{details}</p>
           {accessLine(recommendation.access) && (
             <p className="text-xs text-slate-500">{accessLine(recommendation.access)}</p>
+          )}
+          {recommendation.metrics?.assessment_note && !badge && (
+            <p className="text-xs text-slate-500">{recommendation.metrics.assessment_note}</p>
           )}
           {(returns || badge) && (
             <p className="text-xs text-slate-600">

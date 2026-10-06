@@ -254,18 +254,75 @@ def area_ctx(db):
     return ctx
 
 
-def test_area_is_cached_until_it_expires_and_merges_price_levels(db):
+def test_failed_sections_are_recorded_and_the_area_expires_at_once(db):
     ctx = area_ctx(db)
     level = Sourced(value=12_150.0, confidence=0.7, method=ExtractionMethod.LLM)
     first, cached = get_area_intel(ctx, MARKET, "whitefield", {"apartment": level})
-    assert not cached and first.center is None and first.amenities == []  # searches failed
-    assert first.price_levels["apartment"].value == 12_150
+    assert not cached and first.center is None and first.amenities == []
+    assert first.section_status == {"centre": "failed", "growth": "failed"}
+    assert {(w.section, w.code) for w in first.warnings} == {
+        ("centre", "replay_miss"),
+        ("growth", "replay_miss"),
+    }
+    assert first.expires_at == first.fetched_at  # retried next run, never cached as empty
+    assert first.price_levels["apartment"].value == 12_150  # still saved for inspection
     searches = NoSerp.calls
-    again, cached = get_area_intel(ctx, MARKET, "whitefield")
-    assert cached and NoSerp.calls == searches
-    assert again.price_levels["apartment"].value == 12_150  # kept from the first run
+    _, cached = get_area_intel(ctx, MARKET, "whitefield")
+    assert not cached and NoSerp.calls > searches
+
+
+class OkSerp:
+    """Recorded-shape responses: a geocoded centre, one station, and no growth results."""
+
+    calls = 0
+
+    def search(self, engine, params, run_id=None):
+        OkSerp.calls += 1
+        q = params.get("q", "")
+        if "metro" in q:
+            data = {"local_results": [place("Kadugodi Tree Park", "Subway station", 12.986)]}
+        elif "," in q:
+            data = {"place_results": {"gps_coordinates": {"latitude": 12.97, "longitude": 77.75}}}
+        else:
+            data = {}
+        return SimpleNamespace(data=data, search_id="s-1")
+
+
+def ok_ctx(db, **settings):
+    ctx = area_ctx(db)
+    ctx.serp = OkSerp()
+    ctx.settings = get_settings().model_copy(update=settings)
+    return ctx
+
+
+def test_a_complete_area_is_cached_until_it_expires(db):
+    ctx = ok_ctx(db)
+    first, cached = get_area_intel(ctx, MARKET, "whitefield")
+    assert not cached and first.warnings == [] and first.expires_at > first.fetched_at
+    assert first.section_status["metro"] == "ok" and first.section_status["school"] == "empty"
+    searches = OkSerp.calls
+    _, cached = get_area_intel(ctx, MARKET, "whitefield")
+    assert cached and OkSerp.calls == searches
     row = db.get(AreaIntelRow, "bengaluru/whitefield")
     row.expires_at = datetime.now(UTC) - timedelta(minutes=1)
     db.commit()
     _, cached = get_area_intel(ctx, MARKET, "whitefield")
-    assert not cached and NoSerp.calls > searches
+    assert not cached
+
+
+@pytest.mark.parametrize(
+    "spoil",
+    [
+        lambda data: {**data, "schema_version": 1},  # built by older code
+        lambda data: {**data, "provider_modes": {"serpapi": "live", "llm": "live"}},
+        lambda data: {**data, "center": "not a point"},  # unreadable
+    ],
+)
+def test_a_cached_area_is_rebuilt_unless_valid_for_this_code_and_providers(db, spoil):
+    ctx = ok_ctx(db)
+    get_area_intel(ctx, MARKET, "whitefield")
+    row = db.get(AreaIntelRow, "bengaluru/whitefield")
+    row.data = spoil(row.data)
+    db.commit()
+    _, cached = get_area_intel(ctx, MARKET, "whitefield")
+    assert not cached
