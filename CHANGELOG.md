@@ -13,6 +13,11 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-06 · Suggested target ROI (F-01 / F-09): the wizard's Money step fills a target from
+  the market's sourced typical value of the goal's measure (area yield; average yearly growth
+  from a quoted multi-year change; or both), adjusted for risk and rounded to 0.5%. Fills only an
+  empty or still-suggested field (ADR 0018). `POST /api/profiles/target-suggestion`. Demo
+  targets are now the suggestions (Whitefield 3%, Koramangala 6%); demos re-recorded.
 - 2026-10-06 · F-09 investment metrics: rental yield before costs from a quoted area rent
   (median of ≥ 3 checked rent ÷ size pairs per locality and type), price growth (investor
   override or the area's past 12 months), total return, price per sq ft vs the area, and

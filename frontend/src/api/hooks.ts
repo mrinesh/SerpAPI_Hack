@@ -16,6 +16,8 @@ import type {
   PipelineRun,
   ProfileOptions,
   Recommendation,
+  TargetSuggestion,
+  TargetSuggestionIn,
   Verification,
 } from "./types";
 
@@ -163,5 +165,20 @@ export function useRunAreas(run: PipelineRun | undefined) {
     queryKey: ["runs", run?.id, "areas", run?.status],
     queryFn: () => apiFetch<AreaIntel[]>(`/runs/${run?.id}/areas`),
     enabled: run !== undefined && enriched,
+  });
+}
+
+/** A sourced, typical target ROI for the profile being written (ADR 0018). Repeat lookups are
+ * cached server-side, so refetching when risk appetite changes is cheap. */
+export function useTargetSuggestion(input: TargetSuggestionIn | null) {
+  return useQuery({
+    queryKey: ["target-suggestion", input],
+    queryFn: () =>
+      apiFetch<TargetSuggestion>("/profiles/target-suggestion", {
+        method: "POST",
+        body: JSON.stringify(input),
+      }),
+    enabled: input !== null,
+    staleTime: Infinity,
   });
 }

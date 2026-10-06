@@ -76,6 +76,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/profiles/target-suggestion": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Suggest Target
+         * @description A typical target ROI for these localities and goal, from sourced search results.
+         */
+        post: operations["suggest_target_api_profiles_target_suggestion_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/profiles/{profile_id}": {
         parameters: {
             query?: never;
@@ -1052,6 +1072,43 @@ export interface components {
             /** Finished At */
             finished_at?: string | null;
         };
+        /** TargetSuggestion */
+        TargetSuggestion: {
+            /** Target Roi Pct */
+            target_roi_pct: number | null;
+            measure: components["schemas"]["ROIMeasure"];
+            /** Typical Pct */
+            typical_pct: number | null;
+            /** Basis */
+            basis: string;
+            /** Parts */
+            parts?: components["schemas"]["TargetSuggestionPart"][];
+        };
+        /**
+         * TargetSuggestionIn
+         * @description The profile fields a suggestion depends on; the wizard knows them by its Money step.
+         */
+        TargetSuggestionIn: {
+            segment: components["schemas"]["Segment"];
+            /** Property Types */
+            property_types: components["schemas"]["PropertyType"][];
+            /**
+             * City
+             * @default Bengaluru
+             */
+            city: string;
+            /** Localities */
+            localities: string[];
+            goal: components["schemas"]["InvestmentGoal"];
+            risk_appetite: components["schemas"]["RiskAppetite"];
+        };
+        /** TargetSuggestionPart */
+        TargetSuggestionPart: {
+            /** Locality */
+            locality: string;
+            property_type: components["schemas"]["PropertyType"];
+            typical: components["schemas"]["Sourced_float_"];
+        };
         /** TrendPoint */
         TrendPoint: {
             /** Period */
@@ -1215,6 +1272,39 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["InvestorProfile"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    suggest_target_api_profiles_target_suggestion_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["TargetSuggestionIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["TargetSuggestion"];
                 };
             };
             /** @description Validation Error */

@@ -1,0 +1,19 @@
+{
+  "key": "e60308fb7501e6a663fc1798c1b38c977fe0cb7b18073e28a213f448d22864b3",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This candidate fits your budget, property type, and locality search, but it comes from a search-page snippet, not a verified listing. Verify the exact unit price and Whitefield location before proceeding.",
+    "highlights": [
+      "Quoted price of ₹60 L is within your up to ₹80 L budget.",
+      "Rate of ₹8,185/sq ft is 33% below the Whitefield average of ₹12,150/sq ft.",
+      "Reported as an apartment in Whitefield, matching your criteria."
+    ],
+    "risks": [
+      "Source is a snippet entry, not a verified individual listing; ₹60 L may be indicative.",
+      "Locality is query-derived and not independently confirmed for this unit.",
+      "Size of 733 sq ft is computed from price ÷ rate, not a verified listed size."
+    ]
+  }
+}

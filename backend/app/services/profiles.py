@@ -9,8 +9,10 @@ from datetime import UTC, datetime
 from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
+from app.config import get_settings
 from app.core.errors import InvalidInput, NotFound
 from app.db.models import AlertRow, ListingObservationRow, ProfileRow, RunResultRow, RunRow
+from app.pipeline import targets
 from app.reference import load_market
 from app.schemas.profile import (
     GOAL_MEASURE,
@@ -24,6 +26,7 @@ from app.schemas.profile import (
     ROIMeasure,
     Segment,
 )
+from app.schemas.target import TargetSuggestion, TargetSuggestionIn
 from app.schemas.views import (
     GoalOption,
     LocalityOption,
@@ -152,3 +155,16 @@ def _to_schema(row: ProfileRow) -> InvestorProfile:
 def _as_utc(value: datetime) -> datetime:
     # SQLite drops the timezone on the way back in; every timestamp we write is UTC.
     return value if value.tzinfo is not None else value.replace(tzinfo=UTC)
+
+
+def suggest_target(db: Session, data: TargetSuggestionIn) -> TargetSuggestion:
+    """A sourced, typical target ROI for the profile being written (ADR 0018)."""
+    market = load_market(data.city)
+    if market is None:
+        raise InvalidInput(["body", "city"], f"{data.city} is not a supported city")
+    unknown = [slug for slug in data.localities if market.locality(slug) is None]
+    if unknown:
+        raise InvalidInput(
+            ["body", "localities"], f"unknown localities for {market.city}: {', '.join(unknown)}"
+        )
+    return targets.suggest_target(db, get_settings(), market, data)

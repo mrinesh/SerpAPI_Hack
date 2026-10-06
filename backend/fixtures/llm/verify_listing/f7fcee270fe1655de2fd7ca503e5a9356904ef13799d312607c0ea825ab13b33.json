@@ -1,0 +1,26 @@
+{
+  "key": "f7fcee270fe1655de2fd7ca503e5a9356904ef13799d312607c0ea825ab13b33",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 72,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Property type 'office' matches investor's required property type (office).",
+      "Segment 'commercial' matches investor's required segment.",
+      "Locality 'koramangala' matches investor's requested locality (query-derived, moderate confidence).",
+      "Asking price of ₹1.91 crore is within investor's maximum budget of ₹3 crore."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Size (sq ft) is not provided, so size requirement cannot be evaluated and final unit price per sq ft cannot be confirmed.",
+      "Locality is query-derived only, not a verified individual listing address or geo location.",
+      "Asking price is parsed from a search snippet (confidence 0.8), not a final negotiated unit price for a specific unit.",
+      "ROI/rental yield (target 6%) and investment goal 'rental_income' cannot be confirmed at this stage; no income or yield evidence supplied.",
+      "Price per sq ft field is null despite raw text containing '₹66 /sqft'; not treated as verified.",
+      "Under construction status: property not immediately ready; availability in 3 months; business suitability for IT services is not evidenced."
+    ],
+    "confidence": 0.68
+  }
+}

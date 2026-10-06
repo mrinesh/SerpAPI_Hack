@@ -16,6 +16,7 @@ city) use the same shape.
 | GET | `/meta/budget` | `BudgetStatus`: searches used, cache hits, account searches left | I-05 | ✅ |
 | GET | `/meta/profile-options?city=` | `ProfileOptions`: segments and property types, localities, goals with their ROI measure, risk levels, limits | F-01 | ✅ |
 | POST | `/profiles` | `InvestorProfile` (201) | F-01 | ✅ |
+| POST | `/profiles/target-suggestion` | `TargetSuggestion`: a sourced typical target ROI for segment, types, localities, goal and risk; `target_roi_pct` null when no data | F-01 / F-09 | ✅ |
 | GET | `/profiles` | `InvestorProfile[]` | F-01 | ✅ |
 | GET | `/profiles/{profile_id}` | `InvestorProfile` | F-01 | ✅ |
 | PUT | `/profiles/{profile_id}` | `InvestorProfile` | F-01 | ✅ |

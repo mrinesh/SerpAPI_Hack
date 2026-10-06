@@ -1,0 +1,25 @@
+{
+  "key": "83c7a9719ea9361aa711f9ded2bc429c32ffa3632884878188d6ecf263df92a6",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 35,
+    "verdict": "reject",
+    "matched_criteria": [
+      "property_type: apartment",
+      "segment: residential"
+    ],
+    "mismatches": [
+      "asking price ₹85,00,000 exceeds the investor's budget_max_inr ₹80,00,000 by ₹5,00,000"
+    ],
+    "missing_data": [
+      "locality: 'whitefield' is query-derived (confidence 0.5) and may cover nearby areas; exact unit address not verified",
+      "city: listing URL suggests Bangalore East, but no explicit city field for this unit",
+      "size_sqft: 1240.2 sq ft is computed from price ÷ price per sq ft and is an estimate, not a verified unit size",
+      "asking price is from a search page snippet and may not represent the final unit price",
+      "rental yield (target 3%) and ROI cannot be confirmed at this stage; no rental income data provided"
+    ],
+    "confidence": 0.8
+  }
+}
