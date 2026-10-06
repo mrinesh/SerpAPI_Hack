@@ -27,6 +27,7 @@ from app.integrations.serpapi.gateway import SerpApiGateway
 from app.pipeline.cleaning import normalize_hits
 from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
+from app.pipeline.enrichment.area import get_area_intel
 from app.pipeline.enrichment.price_level import price_levels
 from app.pipeline.persist import save_candidates, save_recommendation, save_verification
 from app.pipeline.query_planner import plan_queries
@@ -46,9 +47,6 @@ STAGE_ORDER: tuple[PipelineStage, ...] = (
     PipelineStage.ENRICH,
     PipelineStage.RANK,
 )
-NOT_BUILT = {
-    PipelineStage.ENRICH: "F-05",
-}
 
 
 class StageFailed(Exception):
@@ -188,12 +186,32 @@ def run_pipeline(run_id: str) -> None:
                 if not result.listings:
                     event.message = "No candidates to verify"
 
-            for stage, feature in NOT_BUILT.items():
-                tracker.note(stage, f"Not built yet ({feature})")
+            with tracker.stage(PipelineStage.ENRICH) as event:
+                # One shared, cached area per locality of the rankable candidates (ADR 0006).
+                localities = sorted(
+                    {
+                        listing.locality.value
+                        for listing, verification in checked
+                        if verification.verdict != "reject" and listing.locality.value
+                    }
+                )
+                areas = {}
+                notes = []
+                event.counts = {"localities": len(localities), "from_cache": 0}
+                for slug in localities:
+                    local_levels = {t: lvl for (loc, t), lvl in levels.items() if loc == slug}
+                    area, cached = get_area_intel(ctx, market, slug, local_levels)
+                    areas[slug] = area
+                    event.counts["from_cache"] += int(cached)
+                    notes.append(_area_note(area, cached))
+                    event.message = "; ".join(notes)
+                    tracker.replace(event)
+                if not localities:
+                    event.message = "No localities to enrich"
 
             with tracker.stage(PipelineStage.RANK) as event:
                 # Scores and code reasons are saved first, so an explanation failure keeps them.
-                ranked = score_candidates(ctx.profile, checked, levels, market)
+                ranked = score_candidates(ctx.profile, checked, levels, market, areas)
                 for recommendation in ranked:
                     save_recommendation(db, run_id, recommendation)
                 top = ranked[:EXPLAIN_TOP]
@@ -209,6 +227,7 @@ def run_pipeline(run_id: str) -> None:
                         len(ranked),
                         level_for(levels, recommendation.listing),
                         place_name(market, recommendation.listing),
+                        _growth(areas, recommendation.listing),
                     )
                     save_recommendation(db, run_id, written)
                     event.counts["explained"] += int(written.explained)
@@ -312,3 +331,16 @@ def _message(exc: Exception) -> str:
 
 def _utc(value: datetime) -> datetime:
     return value if value.tzinfo else value.replace(tzinfo=UTC)
+
+
+def _area_note(area, cached: bool) -> str:
+    metro = next((a for a in area.amenities if a.category == "metro"), None)
+    parts = [f"metro {metro.distance_km:.1f} km" if metro else "no metro found"]
+    if area.price_growth_pct is not None:
+        parts.append(f"growth {area.price_growth_pct.value:g}% (past 12 months)")
+    return f"{area.locality}: {', '.join(parts)}" + (" (cached)" if cached else "")
+
+
+def _growth(areas: dict, listing):
+    area = areas.get(listing.locality.value or "")
+    return area.price_growth_pct if area else None

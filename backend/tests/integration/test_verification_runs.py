@@ -180,3 +180,36 @@ def test_explanation_failure_keeps_scores_and_code_reasons(client, monkeypatch):
 
 def test_recommendations_for_unknown_run_return_404(client):
     assert client.get("/api/runs/missing/recommendations").status_code == 404
+
+
+def test_enrichment_builds_the_area_and_fills_the_area_score(client, monkeypatch):
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    run_id, run = start(client)
+    assert run["status"] == "succeeded", run
+    [area] = client.get(f"/api/runs/{run_id}/areas").json()
+    assert area["locality_key"] == "bengaluru/whitefield" and area["center"]
+    assert {a["category"] for a in area["amenities"]} == {"metro", "school", "hospital"}
+    assert area["price_levels"]["apartment"]["value"] > 0  # fake LLM: the run-median fallback
+    assert client.get("/api/areas/bengaluru/whitefield").json()["locality"] == "Whitefield"
+    top = client.get(f"/api/runs/{run_id}/recommendations").json()[0]
+    assert top["score_breakdown"]["area"] is not None and top["access"]["metro_name"]
+    event = next(e for e in run["events"] if e["stage"] == "enrich")
+    assert event["status"] == "succeeded" and event["counts"]["localities"] == 1
+
+
+def test_missing_area_data_leaves_the_area_score_empty_but_the_run_succeeds(client, monkeypatch):
+    from app.pipeline.enrichment import area as area_module
+
+    monkeypatch.setattr(orchestrator, "get_llm", lambda *_: FakeLLM())
+    monkeypatch.setattr(area_module, "_search", lambda *_: None)
+    run_id, run = start(client)
+    assert run["status"] == "succeeded", run
+    recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
+    assert recommendations
+    assert all(r["score_breakdown"]["area"] is None for r in recommendations)
+    assert all(r["access"] is None for r in recommendations)
+
+
+def test_area_routes_return_404_when_unknown(client):
+    assert client.get("/api/runs/missing/areas").status_code == 404
+    assert client.get("/api/areas/bengaluru/nowhere").status_code == 404

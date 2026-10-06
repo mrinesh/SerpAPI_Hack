@@ -2,6 +2,7 @@
 
 from pydantic import BaseModel, Field
 
+from app.schemas.area import AreaAccess
 from app.schemas.listing import Listing, Verification
 from app.schemas.metrics import InvestmentMetrics
 
@@ -18,4 +19,5 @@ class Recommendation(BaseModel):
     reason: str  # plain-language "why this one", grounded in sourced fields
     highlights: list[str] = Field(default_factory=list)
     risks: list[str] = Field(default_factory=list)
+    access: AreaAccess | None = None  # nearest metro and amenity counts (F-05)
     explained: bool = False  # True when `reason` was written by the LLM and passed the number check

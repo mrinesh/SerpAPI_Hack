@@ -1,5 +1,6 @@
 import type { Recommendation } from "../../api/types";
 import { formatInr } from "../../lib/money";
+import { accessLine } from "./areaText";
 import { FlagChips } from "./FlagChips";
 import { breakdownRows } from "./scoreBreakdown";
 
@@ -39,6 +40,9 @@ function RecommendationCard({ recommendation, details }: {
         <div>
           <p className="truncate font-medium" title={listing.name}>{listing.name}</p>
           <p className="text-xs text-slate-500">{details}</p>
+          {accessLine(recommendation.access) && (
+            <p className="text-xs text-slate-500">{accessLine(recommendation.access)}</p>
+          )}
         </div>
         <p className="text-sm text-slate-700">
           {recommendation.reason}

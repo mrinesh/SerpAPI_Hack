@@ -12,15 +12,16 @@ the LLM (`explain_recommendation`), which may only quote the display figures it 
 reason quoting any other number falls back to the code reason (ADR 0008).
 """
 
-import re
-
 from pydantic import BaseModel
 
 from app.integrations.llm.base import ModelTier
 from app.pipeline.context import PipelineContext
+from app.pipeline.enrichment.area import growth_text, listing_access
+from app.pipeline.grounding import allowed_numbers, grounded
 from app.pipeline.quality import listing_rate
 from app.pipeline.verification import listing_input, prompt_for
 from app.reference import Market
+from app.schemas.area import AreaAccess, AreaIntel
 from app.schemas.common import Level
 from app.schemas.listing import Listing, MatchVerdict, QualityFlagKind, Verification
 from app.schemas.profile import InvestmentGoal, InvestorProfile, RiskAppetite
@@ -46,6 +47,11 @@ RISK_SHIFTS: dict[RiskAppetite, dict[str, float]] = {
     RiskAppetite.BALANCED: {},
     RiskAppetite.AGGRESSIVE: {"evidence": -5, "value": 5},  # evidence never drops below 5
 }
+# Area access (ADR 0016): metro 100 at <= 0.5 km falling to 0 at 4 km; schools and hospitals
+# found within 3 km, full marks at 3 each. Price growth is F-09's (ROI), so it is not scored here.
+METRO_FULL_KM, METRO_ZERO_KM = 0.5, 4.0
+NEARBY_FULL = 3
+AREA_PARTS = {"metro": 0.5, "schools": 0.25, "hospitals": 0.25}
 VALUE_SLOPE = 125  # value score points per 100% of the area level: 0.6x -> 100, 1.4x -> 0
 FLAG_PENALTY = 25  # points off per high-severity quality flag
 EXPLAIN_TOP = 5  # LLM-written reasons per run
@@ -97,15 +103,33 @@ def evidence_score(listing: Listing, verification: Verification) -> float:
     return _clamp(100 * (0.5 * verification.confidence + 0.5 * completeness))
 
 
+def area_score(access: AreaAccess | None) -> float | None:
+    if access is None:
+        return None
+    metro = 0.0
+    if access.metro_km is not None:
+        span = METRO_ZERO_KM - METRO_FULL_KM
+        metro = _clamp(100 * (METRO_ZERO_KM - access.metro_km) / span)
+    parts = {
+        "metro": metro,
+        "schools": min(access.schools_3km, NEARBY_FULL) / NEARBY_FULL * 100,
+        "hospitals": min(access.hospitals_3km, NEARBY_FULL) / NEARBY_FULL * 100,
+    }
+    return sum(AREA_PARTS[name] * value for name, value in parts.items())
+
+
 def components(
-    listing: Listing, verification: Verification, level: Sourced[float] | None
+    listing: Listing,
+    verification: Verification,
+    level: Sourced[float] | None,
+    access: AreaAccess | None = None,
 ) -> dict[str, float | None]:
     return {
         "relevance": float(verification.match_score),
         "roi": None,  # F-09 investment metrics
         "value": value_score(listing, verification, level),
         "evidence": evidence_score(listing, verification),
-        "area": None,  # F-05 area intelligence
+        "area": area_score(access),
     }
 
 
@@ -137,6 +161,7 @@ def score_candidates(
     checked: list[tuple[Listing, Verification]],
     levels: dict[LevelKey, Sourced[float]],
     market: Market | None = None,
+    areas: dict[str, AreaIntel] | None = None,
 ) -> list[Recommendation]:
     """Rank every checked candidate that was not rejected; each gets a code-written reason."""
     weights = weights_for(profile.goal, profile.risk_appetite)
@@ -145,20 +170,24 @@ def score_candidates(
         if verification.verdict is MatchVerdict.REJECT:
             continue
         level = level_for(levels, listing)
-        score, breakdown = composite(
-            components(listing, verification, level), weights, flag_penalty(verification)
+        access = listing_access(
+            listing.location.value, (areas or {}).get(listing.locality.value or "")
         )
-        scored.append((score, listing, verification, breakdown))
+        score, breakdown = composite(
+            components(listing, verification, level, access), weights, flag_penalty(verification)
+        )
+        scored.append((score, listing, verification, breakdown, access))
     scored.sort(key=lambda item: (-item[0], item[1].price_inr.value or 0, item[1].id))
     total = len(scored)
     recommendations = []
-    for rank, (score, listing, verification, breakdown) in enumerate(scored, start=1):
+    for rank, (score, listing, verification, breakdown, access) in enumerate(scored, start=1):
         recommendation = Recommendation(
             rank=rank,
             listing=listing,
             verification=verification,
             score=score,
             score_breakdown=breakdown,
+            access=access,
             reason="",
         )
         recommendation.reason = code_reason(
@@ -209,6 +238,7 @@ def display_figures(
     level: Sourced[float] | None,
     place: str,
     profile: InvestorProfile | None,
+    growth: Sourced[float] | None = None,
 ) -> dict[str, str]:
     """The only figures an explanation may quote, already formatted for display."""
     listing, verification = recommendation.listing, recommendation.verification
@@ -236,6 +266,15 @@ def display_figures(
                 "in line with" if change == 0 else
                 f"{abs(change)}% {'below' if change < 0 else 'above'}"
             )  # fmt: skip
+    access = recommendation.access
+    if access is not None:
+        where = "" if access.measured_from == "listing" else f" from the centre of {place}"
+        if access.metro_km is not None:
+            figures["nearest_metro"] = f"{access.metro_name}, {access.metro_km:g} km{where}"
+        figures["schools"] = f"{access.schools_3km} schools found within 3 km"
+        figures["hospitals"] = f"{access.hospitals_3km} hospitals found within 3 km"
+    if text := growth_text(growth):
+        figures["price_growth"] = f"{place}: {text}"
     if profile is not None:
         figures["budget"] = f"up to {inr_short(profile.budget_max_inr)}"
         figures["target_roi"] = f"{_compact(profile.target_roi_pct)}% target ROI"
@@ -243,22 +282,10 @@ def display_figures(
     return figures
 
 
-_NUMBER = re.compile(r"\d[\d,]*(?:\.\d+)?")
-
-
-def numbers_in(text: str) -> set[str]:
-    return {_canonical(match) for match in _NUMBER.findall(text)}
-
-
-def grounded(text: str, allowed: set[str]) -> bool:
-    """True when every number in `text` appears in the display figures (ADR 0008)."""
-    return numbers_in(text) <= allowed
-
-
 def guard(
     explanation: Explanation, figures: dict[str, str], fallback: str
 ) -> tuple[str, list[str], list[str], bool]:
-    allowed = set().union(*(numbers_in(value) for value in figures.values()))
+    allowed = allowed_numbers(figures)
     explained = bool(explanation.reason.strip()) and grounded(explanation.reason, allowed)
     keep = [item for item in explanation.highlights[:3] if item.strip() and grounded(item, allowed)]
     risks = [item for item in explanation.risks[:3] if item.strip() and grounded(item, allowed)]
@@ -271,8 +298,9 @@ def explain(
     total: int,
     level: Sourced[float] | None,
     place: str,
+    growth: Sourced[float] | None = None,
 ) -> Recommendation:
-    figures = display_figures(recommendation, total, level, place, ctx.profile)
+    figures = display_figures(recommendation, total, level, place, ctx.profile, growth)
     profile = ctx.profile.model_dump(
         mode="json", exclude={"id", "name", "created_at", "updated_at"}
     )
@@ -324,8 +352,3 @@ def _clamp(value: float) -> float:
 
 def _compact(value: float) -> str:
     return f"{value:.2f}".rstrip("0").rstrip(".")
-
-
-def _canonical(number: str) -> str:
-    text = number.replace(",", "")
-    return text.rstrip("0").rstrip(".") if "." in text else text

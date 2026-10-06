@@ -1,0 +1,10 @@
+{
+  "key": "972fab8fd0fc4fb091faec5c4582bc4af2707f90c2c9286fd5774147a5f35c1e",
+  "task": "summarize_area",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "summary": "The area has several hospitals found nearby, with the nearest hospital at 1.6 km. There is 1 schools found within 3 km, and the price growth is recorded as 26.9% over the past 12 months, which is past data, not a forecast.",
+    "infrastructure_summary": "Transport access includes metro stations found nearby: the nearest are Bommanahalli Metro Station, 2.7 km and BTM Layout, 2.7 km."
+  }
+}

@@ -4,8 +4,18 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.core.errors import NotFound
-from app.db.models import ListingObservationRow, ListingRow, RunResultRow, RunRow
+from app.db.models import (
+    AreaIntelRow,
+    ListingObservationRow,
+    ListingRow,
+    ProfileRow,
+    RunResultRow,
+    RunRow,
+)
+from app.pipeline.enrichment.area import locality_key
 from app.pipeline.orchestrator import to_schema
+from app.reference import load_market
+from app.schemas.area import AreaIntel
 from app.schemas.listing import Listing, ResultKind, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
@@ -71,6 +81,32 @@ def get_recommendations(db: Session, run_id: str) -> list[Recommendation]:
         for row in rows
         if row.recommendation.get("recommendation")
     ]
+
+
+def get_run_areas(db: Session, run_id: str) -> list[AreaIntel]:
+    """Area intelligence for the localities of this run's ranked candidates (F-05)."""
+    run = _get_row(db, run_id)
+    profile = db.get(ProfileRow, run.profile_id)
+    city = (profile.data.get("city") if profile else None) or "Bengaluru"
+    market = load_market(city)
+    slugs = sorted(
+        {
+            slug
+            for row in db.scalars(
+                select(RunResultRow).where(
+                    RunResultRow.run_id == run_id, RunResultRow.rank.is_not(None)
+                )
+            )
+            if (slug := (row.recommendation["listing"].get("locality") or {}).get("value"))
+        }
+    )
+    areas = []
+    for slug in slugs:
+        place = market.locality(slug) if market else None
+        row = db.get(AreaIntelRow, locality_key(place.name if place else slug, city))
+        if row is not None:
+            areas.append(AreaIntel.model_validate(row.data))
+    return areas
 
 
 def _get_row(db: Session, run_id: str) -> RunRow:

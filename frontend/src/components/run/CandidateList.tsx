@@ -65,7 +65,7 @@ export function CandidateList({ listings, options, verifications, recommendation
       </div>
       <p className="text-xs text-slate-500">
         {tab === "recommended"
-          ? "Ranked by a score computed from relevance, price against the area level and evidence quality. ROI and area signals are not included yet."
+          ? "Ranked by a score computed from relevance, price against the area level, evidence quality and access to metro, schools and hospitals. ROI is not included yet."
           : tab === "filtered"
           ? "Candidates that fail your criteria. Their source links and rejection reasons are kept for review."
           : tab === "priced"

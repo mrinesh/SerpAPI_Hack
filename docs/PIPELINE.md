@@ -19,7 +19,7 @@ the pipeline working live (F-20). A failing stage marks the run failed without d
 earlier results.
 
 > Status: plan, fetch and clean (F-02), verification (F-03, with F-12 price flags) and rank
-> (F-04) are built. Enrich is reported as "not built yet" (F-05, F-09). Both demo profiles replay end to end with no keys, from committed
+> (F-04) are built, and enrich has area intelligence (F-05). Investment metrics (F-09) are next. Both demo profiles replay end to end with no keys, from committed
 > SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
@@ -121,15 +121,23 @@ criteria and evidence across repeat runs.
 
 ## 5 · Enrich (`enrichment/`, `metrics.py`, F-05, F-06, F-09)
 
-**Area intelligence**: once per locality, cached `AREA_INTEL_TTL_HOURS`:
+**Area intelligence** (`enrichment/area.py`, F-05, [ADR 0016](decisions/0016-area-intelligence-and-score.md)):
+once per locality of the rankable candidates, cached in `area_intel` for `AREA_INTEL_TTL_HOURS`:
 
-| Signal | Engine | Query shape *(S-01)* |
-|---|---|---|
-| Locality centre | google_maps | `"{locality}, Bengaluru"` |
-| Amenities | google_maps | `"metro station"`, `"school"`, `"hospital"` near the centre |
-| News and infrastructure | google_news | `"{locality} Bengaluru"` → classified by `classify_news` |
-| Price level | google | `"{locality} Bangalore property rates per sq ft"` |
-| Rental demand (P1) | google_trends | `"flats for rent {locality}"` for up to 5 localities in one call |
+| Signal | Engine | Query shape | Status |
+|---|---|---|---|
+| Locality centre | google_maps | `"{locality}, Bengaluru"`, rejected outside the city box | Built |
+| Amenities | google_maps | `"metro station"`, `"school"`, `"hospital"` near the centre, zoom 14 | Built |
+| Price growth, past 12 months | google | `"{locality} Bangalore property price trend year on year"` → `extract_price_growth` | Built |
+| Price level per type | google | from the verify stage (`price_level.py`, ADR 0014), merged in | Built |
+| Area + infrastructure summary | LLM lite | `summarize_area`, number-checked, code fallback | Built |
+| News and infrastructure | google_news | `"{locality} Bengaluru"` → `classify_news` | Deferred |
+| Rental demand (P1) | google_trends | `"flats for rent {locality}"`, up to 5 localities per call | Deferred |
+
+Amenities are kept by Maps place type, with distances computed in code. The rank stage turns them
+into the `area` score (metro, schools and hospitals within 3 km), measured from the listing's
+coordinates when it has them, else the centre. Growth is stored for F-09, not scored here.
+Any provider error leaves that part empty; enrichment never fails a run.
 
 **Competitors** (commercial only): google_maps `"{business_type}"` near the property →
 density, ratings, review volume, saturation. P1: google_maps_reviews for the top competitors →

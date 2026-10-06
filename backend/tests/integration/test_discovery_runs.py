@@ -37,7 +37,7 @@ def test_residential_run_finds_priced_entries_and_projects(client):
         "fetch": "succeeded",
         "clean": "succeeded",
         "verify": "succeeded",
-        "enrich": "pending",
+        "enrich": "succeeded",
         "rank": "succeeded",
     }
     assert (run["searches_used"], run["cache_hits"]) == (0, 2)  # replay never spends

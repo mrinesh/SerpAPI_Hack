@@ -1,0 +1,12 @@
+{
+  "key": "a5cde8b8145768321430688d82ac8067e0b4f29a6280058615d798ffb64fdd47",
+  "task": "extract_price_growth",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "result_index": 0,
+    "pct": 29.0,
+    "evidence": "flat prices appreciated by approximately 29% in the last one year",
+    "confidence": 1.0
+  }
+}

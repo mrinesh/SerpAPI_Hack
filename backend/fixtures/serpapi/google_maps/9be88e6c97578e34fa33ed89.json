@@ -1,0 +1,1798 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "hospital",
+  "type": "search",
+  "hl": "en",
+  "ll": "@12.9352403,77.624532,14z"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4b74ab7ff9da7c20690ae",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/96fan-ERGddYHa4Ah86XwvJZdsD0xrco-3Ts--NzvgY/6ac4b74ab7ff9da7c20690ae.json",
+   "markdown_endpoint": "https://serpapi.com/searches/96fan-ERGddYHa4Ah86XwvJZdsD0xrco-3Ts--NzvgY/6ac4b74ab7ff9da7c20690ae.md",
+   "created_at": "2026-10-06 08:54:34 UTC",
+   "processed_at": "2026-10-06 08:54:34 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/hospital/@12.9352403,77.624532,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/96fan-ERGddYHa4Ah86XwvJZdsD0xrco-3Ts--NzvgY/6ac4b74ab7ff9da7c20690ae.html",
+   "prettify_html_file": "https://serpapi.com/searches/96fan-ERGddYHa4Ah86XwvJZdsD0xrco-3Ts--NzvgY/6ac4b74ab7ff9da7c20690ae.prettify",
+   "total_time_taken": 0.87
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "hospital",
+   "ll": "@12.9352403,77.624532,14z",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "hospital"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Narayana Hospital, HSR Layout",
+    "place_id": "ChIJH3Y8FpoUrjsRyk6-2vITOjg",
+    "data_id": "0x3bae149a163c761f:0x383a13f2dabe4eca",
+    "data_cid": "4051572748546100938",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae149a163c761f%3A0x383a13f2dabe4eca&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae149a163c761f%3A0x383a13f2dabe4eca&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.908102399999999,
+     "longitude": 77.6435134
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJH3Y8FpoUrjsRyk6-2vITOjg",
+    "provider_id": "/g/11cs0rnmxd",
+    "rating": 4.5,
+    "reviews": 12596,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Diagnostic center",
+     "Private hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "diagnostic_center",
+     "private_hospital"
+    ],
+    "address": "Basant Health Centre Building, 1, 24th Cross Rd, Sector 3, HSR Layout, Bengaluru, Karnataka 560102, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 6215 4313",
+    "website": "https://www.narayanahealth.org/hospitals/bangalore/narayana-multispeciality-hospital-hsr-bangalore/?utm_source=Googlemaps&utm_medium=GMB",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom",
+       "Restroom"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking garage"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "book_online": "https://www.narayanahealth.org/hospitals/bangalore/narayana-multispeciality-hospital-hsr-bangalore/?utm_source=google-reserve-hospitals&utm_medium=book-online-button-hospitals&utm_campaign=innocean-google-reserve-hospitals&rwg_token=AE37R_gHKpClNoeDI60UL-RRsj5JLnS5qnkXGAEuqp2tBvuk356rQ4_KKMtFI3EK9vHdIYjMvVx04_WBu6QIYK1A4XA-FqR_FA%3D%3D",
+    "user_review": "\"A good hospital, abled doctors and no unnecessary costs or delays.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOtRx3gilQKnLmznqnnCns0Yo0D_c7gkNKpOPn2Sqfj2wtYHFGqOqz4ULo5VPoOhiI2gYzxogNmmMINIgOSdYbGod9qFAzK9icNP3MDXC2_pI3PnRtoiv2v22ylDBWn0JO9RJxn=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/7my0eHicHcRBjoIwFADQEyG1jDGYuFCIiihFjDqszEzFgrb_U1sRuaBn8DYmvsV7v0prazNyXVl6PYEoZHE3xY0j2AJsj6Nyxe3PGIcbdxI0tVTMZq0nKrmJYaU60AABGJIjCY98KK5JXLMU6FafL_Rh88VsrpnufnYrHOxTZGUVUZF3LYpEqXWURIJtT_n_HE--nk262K94knrr8DegxzryUsgsVg1tKH3KcHoAsmR-tmxh_OgTQpzyO3fgA2R9Rm8"
+   },
+   {
+    "position": 2,
+    "title": "The Bangalore Hospitals",
+    "place_id": "ChIJ8SECdY4VrjsRqpjSw4A9jvE",
+    "data_id": "0x3bae158e750221f1:0xf18e3d80c3d298aa",
+    "data_cid": "17405917233084012714",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae158e750221f1%3A0xf18e3d80c3d298aa&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae158e750221f1%3A0xf18e3d80c3d298aa&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.937740499999999,
+     "longitude": 77.58043359999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8SECdY4VrjsRqpjSw4A9jvE",
+    "provider_id": "/g/1tdxzbgd",
+    "rating": 4.7,
+    "reviews": 2805,
+    "type": "Hospital",
+    "types": [
+     "Hospital",
+     "Doctor",
+     "Laboratory"
+    ],
+    "type_id": "hospital",
+    "type_ids": [
+     "hospital",
+     "doctor",
+     "laboratory"
+    ],
+    "address": "202, Rashtriya Vidyalaya Rd, 2nd Block, Basavanagudi, Bengaluru, Karnataka 560011, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 83173 10513",
+    "website": "https://bangalorehospitals.in/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required",
+       "Appointments recommended"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Very good hospital fees are less staffs are friendly\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPNCtb_CUSSDS435ZtO0rfOhfWxpE-3qIRj8gvmOx97nh_HBnC7Kt2xOvTl3wQ8DLc9eC-JvoSGWRndgjw4SESiD9zSLYQaHHTZssZ1ujoapnPL04nrLEGfK2gGnAw93cqarh38=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jFimdHicHcRBjoIwFADQE1WqxQgmLrQQUImo1RDZGKzQSuAX2wpkLjhnmNtM4lu8v19pbWeWjtNIMhFKiab8mFJzBbYEO-GqdYQujEHcOGvad017PFD7uNMrYwFzyTy3KdZVKqts7EJE3ttz7Ym-TUd_AfIeb4Au9nY2pv2lIcPJCxLulxTtesWi7AxPUQ8uC9kr8H9YcjsVcXzJjcmnn1oVHRwT7IJOwqjaz0QE68En_F1oSbzVMMUYI_mdI_gHlCBE6g"
+   },
+   {
+    "position": 3,
+    "title": "Bengaluru City Hospital",
+    "place_id": "ChIJuX2PNAIVrjsRIm3Y8ullo9U",
+    "data_id": "0x3bae1502348f7db9:0xd5a365e9f2d86d22",
+    "data_cid": "15394260006758542626",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1502348f7db9%3A0xd5a365e9f2d86d22&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1502348f7db9%3A0xd5a365e9f2d86d22&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.907691,
+     "longitude": 77.5708525
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuX2PNAIVrjsRIm3Y8ullo9U",
+    "provider_id": "/g/11kq3kv00c",
+    "rating": 4.9,
+    "reviews": 160,
+    "type": "Hospital",
+    "types": [
+     "Hospital"
+    ],
+    "type_id": "hospital",
+    "type_ids": [
+     "hospital"
+    ],
+    "address": "Dr Puneeth Rajkumar Road, Post, opp. Bharat Petrol Bunk, Ilyas Nagar, J. P. Nagar, Bengaluru, Karnataka 560111, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 63608 48828",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "offerings": [
+       "Medication disposal"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking garage",
+       "Free parking lot",
+       "Free street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Good behaviour of doctors and staffs with best quality treatment\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMdOjryCQVP8-XQf2a1mdSWvMiVkDh3lBE5aU1SAmXkd1QeibePpqvaS1i1tIUWBjuOayz8mRiv9PXurFzKr3iR1x0x15XVSbOcYVVCPGdhdlWvIjZRXcQoKQi7pn6XzWT5nEpd=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/kBc5XnicHcRdboIwAADgEyF0BOeW7EGZLsYYKMzS7a22HS3Sn7WlUy64M-w2Jvsevr9fEYL1z2k6inzRG9OPfPLcUaMD12FBjUp7R7xPqE_XZbSjOrJqcLcSonqVYPj1QIBibRePEl1eRT5utgU5gXat8IUByOWZ1_Y7khZIEPanbjNMFbnNK9XI-FTjye3mg8tlA67ZFRQYteeKfiBU1m9MsLGL--GzwRSaA5SPVi_x3L0XemvZyw_IsiwR_9NE3wHwa0Yu"
+   },
+   {
+    "position": 4,
+    "title": "Spurthy Hospital",
+    "place_id": "ChIJy1AFmlUUrjsRTpeI0qSETdM",
+    "data_id": "0x3bae14559a0550cb:0xd34d84a4d288974e",
+    "data_cid": "15225971758651184974",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14559a0550cb%3A0xd34d84a4d288974e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14559a0550cb%3A0xd34d84a4d288974e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.923901299999999,
+     "longitude": 77.6113542
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJy1AFmlUUrjsRTpeI0qSETdM",
+    "provider_id": "/g/1tf7k_jg",
+    "rating": 4.7,
+    "reviews": 2336,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "hospital"
+    ],
+    "address": "Taverekere, 22, Chocolate Factory Rd, BTM 1st Stage, Bengaluru, Karnataka 560029, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 87622 97999",
+    "website": "http://www.spurthyhospital.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "offerings": [
+       "Medication disposal"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Overall, the hospital staff, cleanliness, and patient care were excellent.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmODaaEqBtsYL5Mn4SNnjk4v7Pbd2y5MlRV5-vcEvvJ0F-n3jVhp70v5KxF1tDpiijpVJuDisCe-wLJ7uAsQtrUseBc2GBMyl2L1kDGQ-pNy2fUWkV2ykTjkwUgxS_CmW0urE7on=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/KZv293icHcRbjoIwFADQFVVKlZCYzIc8NEHwOWD8Mlgrj5a2wy1FVjhrcDcmno_z_q-N0bB0HFHPZ5VSlWADsJ4qaZg0M6o6p-pLAETBWYVWi24flWX8Fxi4pl4mF-edbPnC-of7g0xeJk6FhyyNrU3wGsl5W9Tax9bbvtauiXTTtLpIhqiBkKExTfxhBUfT58ACSjZBNgmSujzaHJHeTeSZX3hBJv7b8jGvXudb2F3w0Me-kj-jizFG9XeK5Ae7BkWp"
+   },
+   {
+    "position": 5,
+    "title": "BMS Hospital",
+    "place_id": "ChIJE3fnXYsVrjsRrpBrFZFoOls",
+    "data_id": "0x3bae158b5de77713:0x5b3a6891156b90ae",
+    "data_cid": "6573681578439577774",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae158b5de77713%3A0x5b3a6891156b90ae&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae158b5de77713%3A0x5b3a6891156b90ae&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9412763,
+     "longitude": 77.56758839999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJE3fnXYsVrjsRrpBrFZFoOls",
+    "provider_id": "/g/1tgllbjp",
+    "rating": 4.2,
+    "reviews": 535,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Doctor",
+     "Hospital",
+     "Private hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "doctor",
+     "hospital",
+     "private_hospital"
+    ],
+    "address": "Sri Mallikarjuna Swamy, No 618, Sri Mallikarjuna Sw, 618, Mallikarjuna Temple St, NR Colony, Bengaluru, Karnataka 560019, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "On-site parking",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Excellent professional service from care takers, admin staff and doctors.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM0eQ6xHifwawLnsvHG1CeYOsNAIDFSawS8EZ6-Tgz7gB8dU5S0OMmCrfonNamokrATcWj_NxkvSba53Ab0SB9G7rx_PQHNiRm-JMITbtPrq0RRDf7VggDrdC-5PN24WGVjSEd9=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/g5tkDXicHcRLjoIwAADQE1XqB1GTWSA4oJGKlNE4G1NKKSptte0A8YKewduYzFu896u29m4WjtPU4wFXijfszzBNlbRM2gFVwuGaGAOocfygvTcigWw_7eNL1ZFuK00bR8OAnXYG-evwG5MOz1a_U5Dzp8eXs_LHxXCXiEBXSiIi1E37OT1ez6i_tbgg7tgvIF7OI0_353Qfo0smwCZZ54VN9QNmWVh5B85DXQbATdFocowOV7wq51_dEEII6v8pkB-dGkRK"
+   },
+   {
+    "position": 6,
+    "title": "South City Hospital",
+    "place_id": "ChIJQ4nr5esVrjsRSNxqj9zO2-A",
+    "data_id": "0x3bae15ebe5eb8943:0xe0dbcedc8f6adc48",
+    "data_cid": "16202771531089763400",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15ebe5eb8943%3A0xe0dbcedc8f6adc48&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15ebe5eb8943%3A0xe0dbcedc8f6adc48&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9497184,
+     "longitude": 77.5802372
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQ4nr5esVrjsRSNxqj9zO2-A",
+    "provider_id": "/g/1v2yx9kj",
+    "rating": 4.3,
+    "reviews": 218,
+    "type": "General hospital",
+    "types": [
+     "General hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital"
+    ],
+    "address": "53, SHALINI’, Mavalli, Main Road, Rashtriya Vidyalaya Rd, near Lalbagh West Gate on, Upparahalli, Mavalli, Bengaluru, Karnataka 560004, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 72049 31879",
+    "website": "https://southcityhospital.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom",
+       "Restroom"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"The hospital is neat and clean and offers cost effective treatment.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOzGtE9HV7DlYuFRJv4bs8ojfX53uPoHMtkmMYGyc6G0L-y9GJ0ugp8O5mcKfCPnCOMh8yCmfUjVJ3-N-sV_v7sQzk624shHS6-5Z2fwZFOKTg50Iwn_lYHnp74_T4xcYOzT5P0R-XMUSVn=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/8SbhFnicHcTdboIwGADQJ6pUoYBLdrGwCcOxMkUi3pCtgTbaH-JXYPCSXvs2Jp6Lc78Jazt4cRwp3AU3hsumh-bKjLaNtgtmlMOvvwCIgfMWDZ1UdI7txzopg3dZ9ZtdOnh_EJpzeyRun5sksxeVVfHE_Bh_oWkdp7jnXUiJYts2ynVEMxFOkWoP5zJ10TeCsh4C-Jkv_soDkex9RE6rdjxt6LbgBH-OupZVorvAqwvvn1V0LkiOd-iYHfalfh2XGGMknjOkH6LwRog"
+   },
+   {
+    "position": 7,
+    "title": "LIFE CARE HOSPITAL-LCH,BTM LAYOUT",
+    "place_id": "ChIJO3xF0P4UrjsRWdqRdMqGe-Y",
+    "data_id": "0x3bae14fed0457c3b:0xe67b86ca7491da59",
+    "data_cid": "16608016254956067417",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14fed0457c3b%3A0xe67b86ca7491da59&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14fed0457c3b%3A0xe67b86ca7491da59&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9193552,
+     "longitude": 77.61299919999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJO3xF0P4UrjsRWdqRdMqGe-Y",
+    "provider_id": "/g/1vcl266b",
+    "rating": 4.4,
+    "reviews": 2537,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Blood testing service",
+     "Dental clinic",
+     "Diagnostic center",
+     "Hospital",
+     "Private hospital",
+     "Specialized hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "blood_testing_service",
+     "dental_clinic",
+     "diagnostic_center",
+     "hospital",
+     "private_hospital",
+     "specialized_hospital"
+    ],
+    "address": "Gangothri circle, 23/24,new99, 20th Main Rd, 1st Stage, BTM 1st Stage, Bengaluru, Karnataka 560029, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2684 6677",
+    "website": "https://lifecarehosp.com/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom",
+       "Restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"The hospital was clean, well-maintained, and the treatment was excellent.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM441hu3issKH65AOMz4tq0Ll7t_EdSs-2AZ56CflUQeAs4thI4MeYuC-iXjgZcmVrOUVVl6GbEXZ50rq7W2Rm9yxN6vEwPFxhxsu13CxghR8Qbug8E4NO_jz5o0CXD2hOMpZ-Vow=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/87a0qXicHcTdboIwGADQJ6oUKMiWeEE6_MmGDBYZ48bMWltNocDXCvqGe4S9jYnn4vz_SWM6eHUcJf2Z0FooboEPTLeGt2bGdOOI4RcAMXBieu1UkxLiSuufAd7XYRBn6Z2YHn-oudknxy9AXlwHIT2pXc5jIEZuSMp_LEXn6iJq1pRDtitLFa4OSVUHeOjn317RvNymbXhNxs_lJCewrk8nIYsoP1gRJWSb7S_3QGNavXkyS7salXpcjC7GGMnnDLUP3a1FEg"
+   },
+   {
+    "position": 8,
+    "title": "Apollo Hospitals - Sarjapur Road | Best Hospital in Bengaluru",
+    "place_id": "ChIJfdkDqaQTrjsRSqw0-fVeu8Y",
+    "data_id": "0x3bae13a4a903d97d:0xc6bb5ef5f934ac4a",
+    "data_cid": "14320143850695601226",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae13a4a903d97d%3A0xc6bb5ef5f934ac4a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae13a4a903d97d%3A0xc6bb5ef5f934ac4a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9012497,
+     "longitude": 77.7087785
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJfdkDqaQTrjsRSqw0-fVeu8Y",
+    "provider_id": "/g/11qb8bnzqc",
+    "rating": 4.5,
+    "reviews": 4184,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Cardiologist",
+     "Gastroenterologist",
+     "Gastrointestinal surgeon",
+     "Hospital",
+     "Neurologist",
+     "Neurosurgeon",
+     "Orthopedic surgeon",
+     "Private hospital",
+     "Pulmonologist"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "cardiologist",
+     "gastroenterologist",
+     "gastrointestinal_surgeon",
+     "hospital",
+     "neurologist",
+     "neurosurgeon",
+     "orthopedic_surgeon",
+     "private_hospital",
+     "pulmonologist"
+    ],
+    "address": "Opposite Decathlon, Sarjapur Road, Hobli, Mullur, Bengaluru, Karnataka 560035, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 6936 6936",
+    "website": "https://www.apollohospitals.com/hospitals/sarjapur-road-bangalore",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "On-site parking",
+       "Paid parking lot",
+       "Paid street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"A good hospital with extremely polite caring, kind and attentive staff.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMI_PiNeToYCSS9sHzi7teMbqez-W53Zf-CVyn7XuNHMLl-oZCQazhzOVv8j7y8BOXZF5I2uwoFUse_DrTNIxweW9oHmGpF1-rgaa5ApkYmb8_LJl4V8sod93ojecWlqiQLT-Bb=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/lI2RFnicHcTREkJAFADQL9ooGTTTQ2lEg2oS5cWw3VDLlV0pP9g39DfNdB7O91MI0fCZJLFCGeWIOYOOQ0uxFlCLEcVKytuUc0K5tDCfDas8J9mVPgR4Ng8Hg9tDqQnwsgcMJFKV-ErM8F1rp863PZcRjM19OhTDNnzqN-2tL7en2FKdSdejdeSQrNrAd149RAba1bqxxqTN01RdNPdzlemJu2HTUOd4MRS8AY3Yo9y7AVlm834syzIp_lNS_wDnPUW6"
+   },
+   {
+    "position": 9,
+    "title": "Victoria Hospital",
+    "place_id": "ChIJ54EQ1uIVrjsRHnL6tjMIfW4",
+    "data_id": "0x3bae15e2d61081e7:0x6e7d0833b6fa721e",
+    "data_cid": "7961528734467125790",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15e2d61081e7%3A0x6e7d0833b6fa721e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15e2d61081e7%3A0x6e7d0833b6fa721e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.964308299999999,
+     "longitude": 77.57541979999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ54EQ1uIVrjsRHnL6tjMIfW4",
+    "provider_id": "/m/0f342b",
+    "rating": 3.1,
+    "reviews": 1328,
+    "unclaimed_listing": true,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Government hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "government_hospital"
+    ],
+    "address": "Mysore Rd, near City Market, New Tharagupet, Bengaluru, Karnataka 560002, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2670 1150",
+    "website": "https://victoriahospitalbangalore.org/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "offerings": [
+       "Medication disposal"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"The treatment was quick and efficient  and the costs were very reasonable.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMI8KknhWJeThhwaw6NIaJtBgxGCMtueEiuG0SV509zwqKZSQFhIgU0cLZHteGweqGn4GOahc-iycyAZDnlm-OuEZ2nVDNxm218yBywmpjWEAImvj7ke1jhoCQr80nuo4lZFmZ2=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_e5upXicHcRbjoIwFADQFVUKOoomfiBCxWeMM5r0jzRNL9gH0taKG3QNs5tJ5nyc3w8419lFFEkYj4QxQnJvec-Mdly7ETMqEn1tLWI2yvJnJ9WhSnd3Dbct_wYIdZgeq3rrVuJF8oPzvGg8wZfrF56_w2NHL-cSKvGD2Z5uHCeBP4iekFMNDDUDGzK61lKhky9ooq_r40slcTqshqC69lZklXq2szuPWzD5uU-x9mYiaalosgwxxhjB_wzpPx2XRlw"
+   },
+   {
+    "position": 10,
+    "title": "ASTRA SUPER SPECIALITY HOSPITAL",
+    "place_id": "ChIJuTSmSQQVrjsRYYsmzCbTBp4",
+    "data_id": "0x3bae150449a634b9:0x9e06d326cc268b61",
+    "data_cid": "11387020871440173921",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae150449a634b9%3A0x9e06d326cc268b61&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae150449a634b9%3A0x9e06d326cc268b61&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.8906923,
+     "longitude": 77.56344589999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuTSmSQQVrjsRYYsmzCbTBp4",
+    "provider_id": "/g/11fxxymbc6",
+    "rating": 4.8,
+    "reviews": 10038,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Dentist",
+     "Emergency room",
+     "Hospital",
+     "Laboratory",
+     "Nutritionist",
+     "Oncologist",
+     "Orthopedic clinic",
+     "Pulmonologist",
+     "Radiologist",
+     "Specialized hospital",
+     "Urologist",
+     "Vascular surgeon"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "dentist",
+     "emergency_room",
+     "hospital",
+     "laboratory",
+     "nutritionist",
+     "oncologist",
+     "orthopedic_clinic",
+     "pulmonologist",
+     "radiologist",
+     "specialized_hospital",
+     "urologist",
+     "vascular_surgeon"
+    ],
+    "address": "Konanakunte Cross, 21/7, Vasanthapura Main Road, Kanakapura Main Rd, Mango Garden Layout, Bikasipura, Bengaluru, Karnataka 560062, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2666 0333",
+    "website": "https://astrahospital.in/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Paid parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"I was admitted here on emergency basis and they took appropriate care.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNF-1FG9qgDJeuvOiPHmfJrRJJfCRwCjuEpN98rf7NschqIoHyYCSnI_qGeJ1AUp7OQj6-yQ55Uchn8z0ZdOgjH7f4KPC5ZPwE8k9dOVDKbSaOV95Ly4ioK-di_CxegzUy2fVj1=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/hmjN23icHcRJDoIwAADAF1VARcDEg6kLFkNRA4lejJYuILRAQcQP-gZ_Y-Ic5vsRbVvpuWEUYjLiSvGCdpo2RMmWynZEVGnw5qY1INpYwmdVlOEGWJutV_MVot0TZ5FfMtQcEWLw2MO8W1eh5zbMCTUR9U75wxme5O5abymylnHl4EM-A8PBtmMipPs2Lynmue-waRBB-xL1a_fhpThZBffTDSeevR-mmQpAml3hi_J3PIxZkluL3jJNE4j_BMgfgLBEhA"
+   },
+   {
+    "position": 11,
+    "title": "Marvel Multispeciality Hospital",
+    "place_id": "ChIJyWPANmIUrjsRNS2v8zRa7Ng",
+    "data_id": "0x3bae146236c063c9:0xd8ec5a34f3af2d35",
+    "data_cid": "15630967590169292085",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae146236c063c9%3A0xd8ec5a34f3af2d35&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae146236c063c9%3A0xd8ec5a34f3af2d35&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9254888,
+     "longitude": 77.6359119
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJyWPANmIUrjsRNS2v8zRa7Ng",
+    "provider_id": "/g/1tk6ns46",
+    "rating": 4.3,
+    "reviews": 1432,
+    "type": "General hospital",
+    "types": [
+     "General hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital"
+    ],
+    "address": "153, 1st Cross Rd, Besides Bandhan Bank, 1st Block Koramangala, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 4114 4999",
+    "website": "http://www.marvelhospitals.in/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking garage",
+       "Free parking lot",
+       "On-site parking",
+       "Paid parking garage"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "book_online": "https://book.healthplix.com/dr-mamatha-reddy-y--v--infertility-speciality---laparoscopic-surgeon-jakkasandra-bus-stop--bangalore?utm_source=gmb_cta&rwg_token=AE37R_inTvWxiqtrtSGt8j9o8jZq48_GF3EdxiaAWaB8_2SOChasbWwrVPa03xSWBIRvSxV18H_UGD-LWWmZhEvcIBRymQ9_Ew%3D%3D",
+    "user_review": "\"The hospital was clean, well-maintained, and had a hygienic environment.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmONIWrJArvlKYzO0Dvb4yowth2fliEqQgw-jfPfDToVOhf9zYQKaeJ7RCv-EZCGpa_4HQmYoKeBLS6kQwMl3DmwpEioplAruHsc5FVkQgwblmIVC5JctNbL0_usgNpMUNz7GaTcwA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/5H3-2XicHcxLcoIwAADQEwXS-hud6YICoqAgfnBw40AmJNaEpEkgIzf0CN6mHTdv-V5PaozUC9dldOQQIQjDncYKidbg1jhIcJeoSmuAtOv5vWQ8S9dnFXuqZ0k5ZDDo6_FDWEM_G3YLf3NiwU-za4KjKDLazIcyTyocz_Z-D8KLH8nqOl7lvBQJ_t4cpvfcbtko4FaGNyGZp7qVRpNlcf9_asbXhT-JkUnrDbx2mqRye0qHWVQdkfW-7AeEENC3CLR_43lHow"
+   },
+   {
+    "position": 12,
+    "title": "Sri Sairam Hospital - BTM Layout",
+    "place_id": "ChIJ-2haWwQVrjsRb5odcmE3HWU",
+    "data_id": "0x3bae15045b5a68fb:0x651d3761721d9a6f",
+    "data_cid": "7286040663821228655",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15045b5a68fb%3A0x651d3761721d9a6f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15045b5a68fb%3A0x651d3761721d9a6f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.914413,
+     "longitude": 77.6002987
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ-2haWwQVrjsRb5odcmE3HWU",
+    "provider_id": "/g/1td9tk5l",
+    "rating": 4.2,
+    "reviews": 644,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Private hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "private_hospital"
+    ],
+    "address": "33, Bannerghatta Main Rd, BHCS Layout, BHBCS Layout, BTM Layout 2nd Stage, BTM Layout, Bengaluru, Karnataka 560076, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 79751 42707",
+    "website": "https://srisairamhospitals.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "user_review": "\"Excellent staff , well maintained hygiene hospital.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM5OURoBoEErjJ4dBOlSIFw6TgeeBxkbVPjoBE89xHFfx6tHcNY_JsJB9K2xKX0mD2vUQ3RH6Tu9nwKULcCO9xaQgqCt-AN57X1esJCZ0bhQt0cwjwyw2pHeEC6MVmxUpvLefw8=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/nDIztnicHcThEoEwAADgJ0oTRe78aFOXkkQ5_HE1sy7V0qbNE3oGb-PO9-P7fkohOr7Q9bqcjChjtCYvTnrMWkFaMcKs0Wmfc65hrjto6OomMuNszyBz3b4KpjcY14e1J62UEgLVozjuKgbdua18764s4ePt-RrwANqhocITaFbGkCWTvW-lL7uVYbbBKLZVntAnEpqzNWenMeEBuoCiTATAspJvaXQ-cZEVHRuVdcOG3OV8KccAAK38j7X2B3c1RNM"
+   },
+   {
+    "position": 13,
+    "title": "St Philomena's Hospital",
+    "place_id": "ChIJfzt6rCsUrjsRCOjngS5VnQs",
+    "data_id": "0x3bae142bac7a3b7f:0xb9d552e81e7e808",
+    "data_cid": "836918763997095944",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae142bac7a3b7f%3A0xb9d552e81e7e808&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae142bac7a3b7f%3A0xb9d552e81e7e808&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.96533,
+     "longitude": 77.6110526
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJfzt6rCsUrjsRCOjngS5VnQs",
+    "provider_id": "/g/1tdcdtkr",
+    "rating": 3.7,
+    "reviews": 1240,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Doctor",
+     "Hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "doctor",
+     "hospital"
+    ],
+    "address": "Post, 4, Mother Teresa Rd, near Life Style, Vivek Nagar, Bengaluru, Karnataka 560047, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 4016 4346",
+    "website": "https://stphilomenashospital.com/index.php",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Paid parking lot",
+       "Paid street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "book_online": "https://book.healthplix.com/dr-prathibha-k-v-bengaluru?utm_source=gmb_cta&rwg_token=AE37R_gfsqQeFRJpF0lhyp0Ssqi7dlj-4_4bZat51Wur3AfT747pQtRPNe1N5-cqbf24m25jlPuLfYyehdbEo6NVjJWLgvi_bQ%3D%3D",
+    "user_review": "\"The doctors, nurses and support staff compassionate and gentle.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNvvHkFIC7s-cdWRwsPDhBEEQk76VRuvCwFYxxJRVijMS4qCkXYETCQIpz4q_lqeSqZaMnSpwfWn1ecAOZT3DNuEmmTuMPiGmWsD2nV0ylehLUKDcKNYD4YszAuAbSkUcUSqLfe=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/soiiuHicHchLEoIgAADQE5lWTs0008JA-2olfrJNU0RSAkqIVhfsDN2mps1bvM-b1nWlRqbJaL-Tl2XOiFbkjktRE1F3cMnN_H5UysDKdEBTMR40zazw5mD4u3MatmoD6cR1t8VwkIS6Aa2XPR6LMLnefGRLUOwyNwLbefWy5YFJguT-6AtUtZdUdAl21vuoDwPtch5pf3Od8lTBnkisJyN0FS8hXgYZtDP1crRzQkWMYyRXFzJuu5ZlGfQvNsQXJS5GpQ"
+   },
+   {
+    "position": 14,
+    "title": "Gangothri Hospital",
+    "place_id": "ChIJBddF9vsUrjsRGtEgPpx4GpU",
+    "data_id": "0x3bae14fbf645d705:0x951a789c3e20d11a",
+    "data_cid": "10744032473498308890",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae14fbf645d705%3A0x951a789c3e20d11a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae14fbf645d705%3A0x951a789c3e20d11a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9164075,
+     "longitude": 77.6137832
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBddF9vsUrjsRGtEgPpx4GpU",
+    "provider_id": "/g/1tk6tbvf",
+    "rating": 2.4,
+    "reviews": 263,
+    "unclaimed_listing": true,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "hospital"
+    ],
+    "address": "27, 100 Feet Ring Rd, BTM 2nd Stage, Kuvempu Nagar, BTM Layout 2nd Stage, BTM Layout, Bengaluru, Karnataka 560068, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2668 2734",
+    "website": "https://gangotrihospital.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "user_review": "\"Very caring and helpful staff\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOm7ZmIcCeS53H97c4dVcU_V68b4rq-CZZ9Glx3JH3qTq241feJQdh2nI6nHAunh2_NtY5y-QjdAfcZB2jHN04z4M-_atK5sDA8IvwMQNaBbTz1LqdTGB13e5sUHaNY1ay6GKs=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/THzgI3icHcRdCoIwAADgE02dm5ZBD2rg7MeQLNAXWXM5Qme6pdkBu0O3Cfoevu9HaP1QK9NsBDLqrqsb_lR8YJ3UXGqDda1ZD1QpwJTph-OjaY_tomhjFvKTg4i3YLi6sHN5cZdXPPQgLAoval5oS1Cf9TaGN75NK2HL2JXEf0phl4nOnRmk98q_sSKw7ySx8BsfQEn1zlEbfxmP0yFNaHDN3nDfV1kUQMQddSY0ySGd3Win1hO0LAuI_wzIH5nbQnI"
+   },
+   {
+    "position": 15,
+    "title": "Rangadore Memorial Hospital",
+    "place_id": "ChIJAQAAwJIVrjsR4Xn1wQxeQ5I",
+    "data_id": "0x3bae1592c0000001:0x92435e0cc1f579e1",
+    "data_cid": "10539370961863801313",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1592c0000001%3A0x92435e0cc1f579e1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1592c0000001%3A0x92435e0cc1f579e1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.953513899999999,
+     "longitude": 77.5710434
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAQAAwJIVrjsR4Xn1wQxeQ5I",
+    "provider_id": "/g/1tdxnwwy",
+    "rating": 3.8,
+    "reviews": 1507,
+    "type": "General hospital",
+    "types": [
+     "General hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital"
+    ],
+    "address": "1st Cross, Shankarapuram, Basavanagudi, Bengaluru, Karnataka 560004, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2698 3300",
+    "website": "https://rangadorememorialhospital.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "offerings": [
+       "Medication disposal"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Paid parking lot",
+       "Paid street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Excellent facility with life-saving critical care and well maintained.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMR3KtWPYw5o-R-bOAn-GzQT1PZEF_lrJbVbq7nqriB00WxcXFg5DeNLQ7QD_jk9qEC-zGTNQnnuXTEp3qUzr9kCRAwu8FsjS-M2qPUnJPXyx5lW8qCKBcehn_c2lagcDaQHjoW=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/aSfZrnicHcTbboIwGADgJ6pUCfGQ7AI5aHQqZTjQGwJNU8T6lx4YjhfcM_g2JvsuvtdfY21nVo4jGnfCpeSC9YZpKsEysBMqHw7XlTGIGscPfjrxOKTu3ubJZfAkSlF98gFtRpJNk2sUl0Lv6u9azUHp2xrj_EmLmHshO36SOQnL9r5UUYDGTXYkAH2RRZ2rzqNe3oPUH_pFbNovdJip5Ay7pPh9eiJfqGC_pqyBks5ExWlYkW0r849hijFGzf8UwRuB60Uu"
+   },
+   {
+    "position": 16,
+    "title": "Gayathri Hospital Pvt Ltd",
+    "place_id": "ChIJOb9TQuY9rjsR4vTmGrkM_t8",
+    "data_id": "0x3bae3de64253bf39:0xdffe0cb91ae6f4e2",
+    "data_cid": "16140352103702263010",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae3de64253bf39%3A0xdffe0cb91ae6f4e2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae3de64253bf39%3A0xdffe0cb91ae6f4e2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.974373499999999,
+     "longitude": 77.5426768
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJOb9TQuY9rjsR4vTmGrkM_t8",
+    "provider_id": "/g/1tg7qgct",
+    "rating": 4.2,
+    "reviews": 596,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Doctor",
+     "Hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "doctor",
+     "hospital"
+    ],
+    "address": "Magadi, 91, Chord Rd, Vijayanagar, Bengaluru, Karnataka 560040, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2335 2085",
+    "website": "https://gayathrihospital.co.in/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "user_review": "\"Good hospital , good staff and hygiene maintain\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM-4b4qVHS64n-xkSSYcNJDT1oXGHAkEWAqz4eB8CQ3qbCZtMXVA2MUTfh8hQii94oqm-AgHMM19qVFTLA3BjpP_DlgZ4jNTiLQZAXxo_ASv2daVzL6dLtO4SIkglxn-k9a2Gs=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/NIc8_HicHcRdboIwAADgE1X-GiIme6g4ZQvVkSIyXgxUbJHSUts54gG9g7cx8Xv4ng9u7WgWjiN4MGNKMdH-mfZKlbSttDOqBodda2MANQ6Kb6MYMIAN1EVCQijB1BPyS7ffq9xT5SZB_ecB6Ttsl_M4C3QTVxaXBfLxPj_zOc-6LoJKDwCxBGMv0sU6T1GwvIw_x5VgFbxs8y7NKlRO6ojIzT_VxT0NT6ndQfLVMzFJ0Ee1vzEf_57ruoC_p0C-ALrSQ1s"
+   },
+   {
+    "position": 17,
+    "title": "Nurture Multispeciality Clinic",
+    "place_id": "ChIJaZf5m6gTrjsRaAVCb7_xph0",
+    "data_id": "0x3bae13a89bf99769:0x1da6f1bf6f420568",
+    "data_cid": "2136660877741524328",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae13a89bf99769%3A0x1da6f1bf6f420568&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae13a89bf99769%3A0x1da6f1bf6f420568&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9344962,
+     "longitude": 77.6970169
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJaZf5m6gTrjsRaAVCb7_xph0",
+    "provider_id": "/g/11lgqf1bdr",
+    "rating": 4.6,
+    "reviews": 1117,
+    "type": "Hospital",
+    "types": [
+     "Hospital",
+     "Diagnostic center",
+     "Doctor"
+    ],
+    "type_id": "hospital",
+    "type_ids": [
+     "hospital",
+     "diagnostic_center",
+     "doctor"
+    ],
+    "address": "76/1B, Doddakannelli - Kaadubeesanahalli Rd, next to New Horizon Gurukul School, Kaverappa Layout, Kadubeesanahalli, Panathur, Bengaluru, Karnataka 560103, India",
+    "country": "India",
+    "open_state": "Open · Closes 9:30 PM",
+    "hours": "Open · Closes 9:30 PM",
+    "operating_hours": {
+     "tuesday": "7:45 AM–9:30 PM",
+     "wednesday": "7:45 AM–9:30 PM",
+     "thursday": "7:45 AM–9:30 PM",
+     "friday": "7:45 AM–9:30 PM",
+     "saturday": "7:45 AM–9:30 PM",
+     "sunday": "7:45 AM–9:30 PM",
+     "monday": "7:45 AM–9:30 PM"
+    },
+    "phone": "+91 87927 11450",
+    "website": "https://nurtureclinic.co.in/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Free street parking",
+       "On-site parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"No unnecessary tests and very nominal charge for xray and other things.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMAJdtJmsZdPdZdC6fDqURJlCqAo3AaXz8_wmdgH-iftSOSqRJ4QAx-YJiCCZVpwv-JC0BApWf8ixtfdsf_T7PAEEgP3YF3EvmqiMWwHC92vQ6pmJmRDMW1Sce-ybmEu9fxUGHNDA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/oPZNAHicHcRdDoIgAADgE5GWzX62Hggtx2aZVpYvzUDQTQSD1LphR-g2bX0P3_dTGqP00rLq0hlxKXldPHXxILIxRWNGRAqLP3KtAdEWRJ2qRQgxNVjojEY0o8hlXnuKcY1aKB2YX97zWy8oD0DFTLJP2hhPD3AAV1whlJ1V3wGM7DVUKZtXg2FUs9txFkHf55Fz3Th-J9oqTPsALSbdwVUCi9gL03FCCvC6C_-5YMNpG-w8uOrHtm2D8j8BzQ9gjUXD"
+   },
+   {
+    "position": 18,
+    "title": "Sevakshetra Hospital",
+    "place_id": "ChIJoVgZvYIVrjsRtaXe-L_e-ZA",
+    "data_id": "0x3bae1582bd1958a1:0x90f9debff8dea5b5",
+    "data_cid": "10446625726758036917",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1582bd1958a1%3A0x90f9debff8dea5b5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1582bd1958a1%3A0x90f9debff8dea5b5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9215653,
+     "longitude": 77.5722014
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJoVgZvYIVrjsRtaXe-L_e-ZA",
+    "provider_id": "/g/1tdgn86v",
+    "rating": 3.5,
+    "reviews": 477,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "hospital"
+    ],
+    "address": "27th Cross, Banashankari 2nd Stage, Banashankari, Bengaluru, Karnataka 560070, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 2671 4194",
+    "website": "https://sevakshetrahospital.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Excellent service in ICU and staffs are Well educated.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMXGjHHb6QwAdtAlQyCoBNwIq0r97ZkiiH-AcmUYKgZxUkXV2njfCaclK8l3NxfmbpM9urRp3OdTD1AgpiwtiAi8VNaYdnWqhu-yilRb6mdHdmfDmDAsXm7g9D4PHMiw2gcBJv5VQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/1obKFXicHcRdboIwAADgE1VANhQTHwok62Zgwyiib9BCqfZPWqwe0SPsNiZ-D9__c7BWm5Xn8SGcUaUo7ybTjVhJ20k7w0p4dGyMAdh4ML1pLvL664xQG5UOEgt5-UhVUrjvqz_Gi9OFMQQgFvvjhp7u-0tdzeW5TxvMN0seFvdetDqPp3Grw1-yywJINXOWQbasiuZI5OE6TODB-LaNBEFE9JnIoKnFgsbZxx_KmZtTnPzcPqty7QLf98HwHgP5Aq-XRwQ"
+   },
+   {
+    "position": 19,
+    "title": "Ramakrishna Hospital - Best Hospital in Jayanagar, Bangalore | Super Speciality Hospital in Bangalore",
+    "place_id": "ChIJ24dURpYVrjsRhryJfLgBAo8",
+    "data_id": "0x3bae1596465487db:0x8f0201b87c89bc86",
+    "data_cid": "10304800789252127878",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1596465487db%3A0x8f0201b87c89bc86&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1596465487db%3A0x8f0201b87c89bc86&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.936432499999999,
+     "longitude": 77.58329049999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ24dURpYVrjsRhryJfLgBAo8",
+    "provider_id": "/g/1tjym4f7",
+    "rating": 4.2,
+    "reviews": 1094,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Doctor",
+     "Emergency care service",
+     "Hospital",
+     "Medical Center",
+     "Pharmacy",
+     "Private hospital",
+     "Specialized hospital",
+     "Surgeon"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "doctor",
+     "emergency_care_service",
+     "hospital",
+     "medical_center",
+     "pharmacy",
+     "private_hospital",
+     "specialized_hospital",
+     "surgeon"
+    ],
+    "address": "24 & 26, 15th Cross Rd, near South End Circle, Jaya Nagar 1st Block, Jayanagar 3rd Block East, Jayanagar, Bengaluru, Karnataka 560011, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80678 00100",
+    "website": "https://rkhealth.com/?utm_source=Organic&utm_campaign=rkhealth&utm_id=G-CJ883NF5GX&utm_term=Ramakrishna+Super+Specialty+Hospital+Bangalore",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Free street parking"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"All nurses were well trained and were extremely kind and helpful.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSkUA9galmJ5H7orOnjWdtZQRFI4oGV-ymtA_Kj2Lpz3238PKQS5gXVYoFSOWqXMOqdog9ktot7McNtiv60ltPMFkrXpBXk7V0VhJ7mYz338PrMDzP9rFWD5UfSmQ2-D8y1eKzAg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/9HdMC3icHctBcoIwFADQE0UilAKd6YKWoSpSgoyA3XSciEFJ-JD82pEbegRvY6ebt3v3W4s4mBfLkq0zEwBCNj-m0Rx6bHqccVCW0HtjCDdW-H4ZpGJFtw0DsZdq5S480Fl_rg74lW_i5RN8lOSqMPxOzvZ6mBzb8VmSF66oyx3ERVaNdZqNBxBBh4Beyj_xdHmmElkad7oe3urOK2nZrjy1m5y_rNNoYoGOq8jdHguV2yTyr_MmmULx-junlJL2X076B0CERWU"
+   },
+   {
+    "position": 20,
+    "title": "Sri Krishna Sevashrama Hospital",
+    "place_id": "ChIJQaEB4aEVrjsRZP--L2qwAss",
+    "data_id": "0x3bae15a1e101a141:0xcb02b06a2fbeff64",
+    "data_cid": "14628448509766860644",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15a1e101a141%3A0xcb02b06a2fbeff64&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15a1e101a141%3A0xcb02b06a2fbeff64&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.917344199999999,
+     "longitude": 77.5851088
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQaEB4aEVrjsRZP--L2qwAss",
+    "provider_id": "/g/1tdz37y7",
+    "rating": 3.9,
+    "reviews": 736,
+    "type": "General hospital",
+    "types": [
+     "General hospital",
+     "Hospital"
+    ],
+    "type_id": "general_hospital",
+    "type_ids": [
+     "general_hospital",
+     "hospital"
+    ],
+    "address": "45th, Cross, 523, 10th Main Rd, 5th Block, Jayanagar, Bengaluru, Karnataka 560041, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours"
+    },
+    "phone": "+91 80 4534 0000",
+    "website": "https://www.srikrishnasevashrama.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "payments": [
+       "Credit cards",
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Nursing room"
+      ]
+     },
+     {
+      "parking": [
+       "Free street parking",
+       "On-site parking",
+       "Paid street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Outstanding care for the patient.. friendly doctors n staff.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPsPEQcGFiPJObstIgbpk6QCjhOYXb7QYWK4nmoIZRzCQk2TS6HiKjjCybql6u-q7LsQlhWiMruW6rWf5oyZxJZfLLBAXJpmndt4N_E6p7XT0jruE-lRXtcaM92JT14QqJR8UKjGg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zz5Qn3icHcRdboIwAADgE1VQWdlMfHCEOQtOylhAXhbpsKWWtrTFn93QI3ibJfsevsedOaftwvMEm0-oUlS0o20NUdK10k2I6j1qDtYCYr1VdNaiz2wWY7J-6zK0a6zb0EafII442-2rJsT7MglkrzZ1_hvh06z4hO9dwnl0awYBRzCEqcWCld3WjCU05fFJ3eorqo9p-rqqkO7ljws-vmOow6rwuRljIPLKkcP2ZYaKaYAHlD9_JXxNl5ep7_uA_U-A_AOZrUZP"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9352403%2C77.624532%2C14z&q=hospital&start=20&type=search"
+  }
+ }
+}

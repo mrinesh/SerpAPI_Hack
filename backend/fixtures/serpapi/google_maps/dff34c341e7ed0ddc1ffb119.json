@@ -1,0 +1,685 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "metro station",
+  "type": "search",
+  "hl": "en",
+  "ll": "@12.9698196,77.7499721,14z"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4b70455ba6594728a1e4e",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/8Ix74HA_auZcEnEWtk2Bv9hn0OLIgCZdQL9E1VLxll4/6ac4b70455ba6594728a1e4e.json",
+   "markdown_endpoint": "https://serpapi.com/searches/8Ix74HA_auZcEnEWtk2Bv9hn0OLIgCZdQL9E1VLxll4/6ac4b70455ba6594728a1e4e.md",
+   "created_at": "2026-10-06 08:53:24 UTC",
+   "processed_at": "2026-10-06 08:53:24 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/metro+station/@12.9698196,77.7499721,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/8Ix74HA_auZcEnEWtk2Bv9hn0OLIgCZdQL9E1VLxll4/6ac4b70455ba6594728a1e4e.html",
+   "prettify_html_file": "https://serpapi.com/searches/8Ix74HA_auZcEnEWtk2Bv9hn0OLIgCZdQL9E1VLxll4/6ac4b70455ba6594728a1e4e.prettify",
+   "total_time_taken": 0.43
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "metro station",
+   "ll": "@12.9698196,77.7499721,14z",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "metro station"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Garudacharapalya Metro station",
+    "place_id": "ChIJdXS8lmARrjsRMZjlQ12n39M",
+    "data_id": "0x3bae116096bc7475:0xd3dfa75d43e59831",
+    "data_cid": "15267105280822188081",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae116096bc7475%3A0xd3dfa75d43e59831&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae116096bc7475%3A0xd3dfa75d43e59831&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9934865,
+     "longitude": 77.7036972
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdXS8lmARrjsRMZjlQ12n39M",
+    "provider_id": "/g/11mh_n4kf7",
+    "rating": 4.5,
+    "reviews": 1399,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "XPV3+9FW, Whitefield Main Rd, Hoodi, Mahadevapura, Bengaluru, Karnataka 560048, India",
+    "country": "India",
+    "phone": "+91 1800 4251 2345",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOgdvmJBXh2JIXtGAmE8eAbBW0hntbsnmgn4L_IQHNn7-bjd1QGBgxKdtT9_IQLqGqTo23njq2M0nsnL9dXJmo6jVYzqpdh1q4tYlIILHy6_IzyLF20BZbi8zKitNaXkKtxSjs=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/AdNcJ3icHchLDoIwFADAEyEFjb_EBRjFQtUYjaIbI5S0In2l9vnjgN7B22jczGI-b4lY26HrVrLdElqLqrjZ4pprwAKwlWvliuvJWie3bjC-15VaCn5XcZhKP6YpRoGa9IsgC3dEAmYWlIAOO9LVbAE9Jyu5t4pC8Uw4bga_ZSYyG-23oTT-nIAFNuBprHS33O4bU3PpmQ7uK0rZ7NU90ubFpj4JD9m53yRnXJzSS4LPdWlHD48Q4si_uQNfoXBF3A"
+   },
+   {
+    "position": 2,
+    "title": "Kundalahalli",
+    "place_id": "ChIJRWICRIkRrjsRw99Xm5WFyhY",
+    "data_id": "0x3bae118944026245:0x16ca85959b57dfc3",
+    "data_cid": "1642271891732815811",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae118944026245%3A0x16ca85959b57dfc3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae118944026245%3A0x16ca85959b57dfc3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9774985,
+     "longitude": 77.7156756
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJRWICRIkRrjsRw99Xm5WFyhY",
+    "provider_id": "/g/11kj2csr8l",
+    "rating": 4.5,
+    "reviews": 1212,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdMDSm-q0KPMvA87sldhB4DmL3Ko0PUFzyXXOD4bFkw2z9hpt_K_P8r9LAzB1oM-NHqLExXK1TPfQlFnnef4w2KeBoVDhsjg576RTGHA_7JUR14aQcYdzPzHYS6c6cHO_roctwaoA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/uN5Z3nicHcTdboIwGADQJyoUZaAmuyhhSCxo_VvwimApNAr9lHbD9Q19BN_GZOfivJ7SmJteuG4np04L0HbiR4uBgzJCGYdD77ZDpTXi2iUkuvZZncf7Ht0xZfkvmYW6q2Xkx302pYDZMbF_RbGJ_XNyHSd2Lm-mpCWbDfOM2MiDHK3Te_b1KKh3YM22S5QSjT9OqIjgO5b60n6Ewe6wTEkZro47z6-2_FRbZtPTPuABTzflANyMFZDP0cMYI_k_R-oNpnpEsw"
+   },
+   {
+    "position": 3,
+    "title": "Benniganahalli",
+    "place_id": "ChIJ6eHf9mARrjsR274ajmNxxh0",
+    "data_id": "0x3bae1160f6dfe1e9:0x1dc671638e1abedb",
+    "data_cid": "2145526944888438491",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1160f6dfe1e9%3A0x1dc671638e1abedb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1160f6dfe1e9%3A0x1dc671638e1abedb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9963737,
+     "longitude": 77.6682628
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ6eHf9mARrjsR274ajmNxxh0",
+    "provider_id": "/g/11t257ph9g",
+    "rating": 4.4,
+    "reviews": 3279,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "316, Old Madras Rd, next to Salarpuria, Pai Layout, Mahadevapura, Bengaluru, Karnataka 560016, India",
+    "country": "India",
+    "phone": "+91 80 2248 3777",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeYJ-PhjupsQKPpgQavMG3jN1aOTZfRStQshmYkelnGw4fKVkjPtIKnL6Z57LxQJU_nkRClHDQXzTW_ucOJnfM2crs7qCcxHDZGu2BPYP8e_89ov8ZKtYLxTHvhVo20pJMs2DWrfnBgWv-k=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/4Hj__3icHcTdboIwGADQJ6ogTmVLdiGSwPiZraIMbghpShsKLeMrSHzJXe9tTDwX5_9PGDPAh2V1YrPiWvOOTcBGqpVhyqyo7i0-1gCIgnU4eLJPWBEhLNppABLjgZN6ToNN-72uT1nZnC-GgOgLyToV3N-a-CZbbL5ilezK7T5ZSHStlDwfu9AnP48sryZ6ilSTOnSE_e-RLqFfBpPj4QK7rHLf9eyWsSmSJQtncdOOPUQpOH4-Nsrj-Yzk531t2zYSrylST1Q9SM4"
+   },
+   {
+    "position": 4,
+    "title": "Seetharampalya",
+    "place_id": "ChIJB7d_qIURrjsRsGqFGTszZxM",
+    "data_id": "0x3bae1185a87fb707:0x1367333b19856ab0",
+    "data_cid": "1398142538246089392",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1185a87fb707%3A0x1367333b19856ab0&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1185a87fb707%3A0x1367333b19856ab0&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9808252,
+     "longitude": 77.7088526
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJB7d_qIURrjsRsGqFGTszZxM",
+    "provider_id": "/g/11txlfrjqj",
+    "rating": 4.5,
+    "reviews": 2839,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Hoodi, Seetharampalya, Mahadevapura, Bengaluru, Karnataka 560048, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcYr4ED4dj6BGMk8_HwP9yOYvFnM7V2qsF22nD6eeqkILj5vah0OKqw4cyPDLXmNNH0AdQwP_WqYbS7Q8kMf8Aj7TE05GlB21I138zwWL8uG2PEaPyv6M9Pf1FOsFlXPQ8sOjPL=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/SNFRjnicHcRJDoIwAADAFyGlslQTDxAWjUVKNCongqVAWIpQpMEP-gZ_Y-Ic5vuppukptqraVutV2fdly16CjbTnE-PTivadWo6ZEAoVqm07TYdpMuqeq-e16QRhg9K9JJslSmafh9YVDsKHkLsmY0NzwLUxZxWIjoPU6UJcfO9Opz2w81iS9DYkj7MVoyYskF1bFw8YQetA7aCt0VveMHoFkHgZWWYz3JBC8yPht3cSIxHVBO-kBgBQqv9U4T_pPkKy"
+   },
+   {
+    "position": 5,
+    "title": "Sri Sathya Sai Hospital",
+    "place_id": "ChIJwVTo-C0RrjsRbwe-HnEWN-0",
+    "data_id": "0x3bae112df8e854c1:0xed3716711ebe076f",
+    "data_cid": "17093155585810892655",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae112df8e854c1%3A0xed3716711ebe076f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae112df8e854c1%3A0xed3716711ebe076f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9810264,
+     "longitude": 77.72761469999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwVTo-C0RrjsRbwe-HnEWN-0",
+    "provider_id": "/g/11t994y2mz",
+    "rating": 4.5,
+    "reviews": 589,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "XPJH+C29, KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "phone": "+91 1800 4251 2345",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfjUD_B_6_MfW4lwCUJ1uYfMd_Gw5F6Wbc6hewkHDqJCncxGh_uPOS7jN3J6B7oqRTyBj4ETKtQ7OKBATamvC0y-eqG72kcRwJDsVZxoGW9uxUjeSRDoah8P_KESdrbD1mZ9WhH=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/oucH5XicHcRJDoIwAADAFyHgAmrigVLFgAqySPTSYC00bBVaLL7QN_gbE-cw3w8V4snXqlrT2aRgrKjJwEmPWStIKyaYNWrRZ5wrmKuWBarmkJcJRAAZ6Jin81raiasP1_z4QI5c7Iz0jg1KZLWHnWu3eHQoGgI_MsvTzDWAybowfoNyvo09cTZ9D1hx1rxs7a2QzjGnFQ6lC_nlNjInXQ1jUpIohCyjywB52-jR36He3FYp3W-krmmaQv9jpf0BdDBEtg"
+   },
+   {
+    "position": 6,
+    "title": "Whitefield (Kadugodi)",
+    "place_id": "ChIJOdwilxcOrjsR-6MvlsusM00",
+    "data_id": "0x3bae0e179722dc39:0x4d33accb962fa3fb",
+    "data_cid": "5562979955130737659",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e179722dc39%3A0x4d33accb962fa3fb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e179722dc39%3A0x4d33accb962fa3fb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.995626,
+     "longitude": 77.75780499999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJOdwilxcOrjsR-6MvlsusM00",
+    "provider_id": "/g/11t31wx9q8",
+    "rating": 4.5,
+    "reviews": 1629,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Kadugodi Colony, Kadugodi, Bengaluru, Karnataka 560067, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOm-2kVL5WAUmRQuIh1vAqzIBJikpmvUiMlLXzV343gEJ6kkE-h-vXy5MxY0mzUIZ1scBfAuG3xrrJYK96cgW2_ymtghjl7LxOqukWVKvdneleWO21lE3M70A_vnxRPUkBUg81K=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Mqg2G3icHcTbboIwAADQL6q0dF62ZA_FkIVb2EwK6otZatdqLyAtHfKD-4b9jYnn4fz_Se979xZFWuKF6Dqh-ej4wDrrufUL1plIDN_OAeYisg29NrUBsWrKZUuo2X2NmUSB3OYsyS-qN4FeKl3u5wa_YJHmK6VSIEHY35fVdIBmptkROZb8kPEDT8OQH4rXFRNtfLobL-RVr8upvo2qbYpwtlzzto6RTnG1huQU7LT7pCqhYoOK918EIQTyOQP2AdXKRZA"
+   },
+   {
+    "position": 7,
+    "title": "Kadugodi Tree Park",
+    "place_id": "ChIJS_ojywIOrjsRVtyLn4BoNnw",
+    "data_id": "0x3bae0e02cb23fa4b:0x7c3668809f8bdc56",
+    "data_cid": "8950456211087285334",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e02cb23fa4b%3A0x7c3668809f8bdc56&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e02cb23fa4b%3A0x7c3668809f8bdc56&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.985711,
+     "longitude": 77.746842
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJS_ojywIOrjsRVtyLn4BoNnw",
+    "provider_id": "/g/11t3hqd9s6",
+    "rating": 4.5,
+    "reviews": 2170,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Kadugodi, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOVOKCP5c5svC2R3CL5JuJ5BWcsXqANn4l9-jKUZKAHHPbEbQdvBHVb03Xv7e-VJ1JlceQd5a1iSZyTQ22WNdcfI5bIp6BqtOOUrNnJRToW5nUZHFiNOBRTlwXT3FGFnOLkh1M=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/k6B0bXicHcRJDoIwAADAF5XVajTxAETEolSQLdykVEBri7Ri_KB_8DcmzmG-n06pQa50nXW21grRMvqUdCSCK8qVRsRdb8ezlIBI3fGmgd1xjkPvCAmUk2cltreH6ImgWxBZPpyIz9gSXMOsCp0gONabOm4mN8hrwy6nBQU5MhEjNG7g2exP1TuNLauIGnLZwXo3zN2HwjgbI46SVBSQZ1Xg9xF2k5S9ytT2tz7H-1tnHtYv0zAM0P0ngP8AmDhCvA"
+   },
+   {
+    "position": 8,
+    "title": "Hoodi",
+    "place_id": "ChIJCyddpJARrjsRKnXrc3LZVNk",
+    "data_id": "0x3bae1190a45d270b:0xd954d97273eb752a",
+    "data_cid": "15660380889868367146",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1190a45d270b%3A0xd954d97273eb752a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1190a45d270b%3A0xd954d97273eb752a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.988781999999999,
+     "longitude": 77.711364
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCyddpJARrjsRKnXrc3LZVNk",
+    "provider_id": "/g/11t31wqslx",
+    "rating": 4.5,
+    "reviews": 1314,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Seetharampalya, Mahadevapura, Bengaluru, Karnataka 560048, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeIzZG34msC5fE3pbKHnJM-K9r-UyDsraxm3S2H8r-W4BDHrJiRCdw7V5yx4BSC6ATKm5F0ya_eZZMADBqKrYscWyBvgBfLppFfOEbT_xAvb3O_adFNMXgmuR2NYabaUz4EsrGhGw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/-EKKHXicHcTbboIwGADgJ6owC24u2UXLcSKaeIYbUkopyyxgfxTwDX0E38bE7-J7Pqqua-HbMM4VnsimkWdxBaF5U3ei7ia8UYbUDABxMAih_2opfu9pgC0Fjl16uM2jsF7EKJprtB9d0GxQeDsNvzQ6WtQN9eJv4xT958EeB4tunRnZRcr2zZFlIk1j4tJLpBPgx5HeJC2XbeuXay_fZQO55XidscJfxSeprpvpKmE5298tD3RQBf1P_2GaJqrec1S_AK4bRTI"
+   },
+   {
+    "position": 9,
+    "title": "K.R. Pura",
+    "place_id": "ChIJ6yYmDBYRrjsR-XAcsParqj4",
+    "data_id": "0x3bae11160c2626eb:0x3eaaabf6b01c70f9",
+    "data_cid": "4515610652397302009",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11160c2626eb%3A0x3eaaabf6b01c70f9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11160c2626eb%3A0x3eaaabf6b01c70f9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.999918599999999,
+     "longitude": 77.6776878
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ6yYmDBYRrjsR-XAcsParqj4",
+    "provider_id": "/g/11txlfzdhz",
+    "rating": 4.4,
+    "reviews": 3026,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Chinappa Colony, Dooravani Nagar, Bengaluru, Karnataka 560016, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUsf46CEt3xRGr6nzGLakniAxcEV0JLeh36nkb0IUsch0leSqluzZJLueFELbBFVkSx0EEWrZ2MYgtv_G3o_uJ8C0w4MNA9bwljlAVb8JCUDjxShgONd3mNzu2KfltRjCF-tN5IA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/mWixmnicHcTRroIgAADQLzIpylVbD2ToMvJuOW310pIQUoQSuDr_8H7C_Zu2zsP5_xPWvsza96WAE641l8wZ1lGtLFN2QnXr8-5ujEeNj9C2aUmVm2oehNjC4RR3gRpjcm_UEw0UFyAhTMBANSXY54YKIFn2lm68JsSxCJNyGxVNNgCMz911drxw-3uLob65ZBmCfn5M0arsZS1RUS6TMN_VQyb4T_qAbTq62aGS9lSHkWfTxR5t-ikAwBPfqac-Pj1FvA"
+   },
+   {
+    "position": 10,
+    "title": "Pattandur Agrahara",
+    "place_id": "ChIJ1-At8uQRrjsRU3foUV135ok",
+    "data_id": "0x3bae11e4f22de0d7:0x89e6775d51e87753",
+    "data_cid": "9936760870529431379",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11e4f22de0d7%3A0x89e6775d51e87753&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11e4f22de0d7%3A0x89e6775d51e87753&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.987622,
+     "longitude": 77.737737
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ1-At8uQRrjsRU3foUV135ok",
+    "provider_id": "/g/11t3hqkghc",
+    "rating": 4.4,
+    "reviews": 610,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Kadugodi, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMkxbUhj9IwxG5obHltUDLENK3FgY1C6i8GY7-HASlkDQvvaueSzI_vCHznSNq-rzOjefdGNF1CA210YAiwVcQ8Wfqdo04F_v8_qWqk-gWpzVUDNncmdyU4eDMVBHcI19hq_s8=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/LbsZmnicHcRdboIwAADgE1VaZQ6X-MBAfjJlMQQIT0RLbZXSUlqL44DeYbcx8Xv4_p_MmEF_OQ5nqwWVknJy12TEUhgizALL3qHjSWuAteMHduD9oXucC3bbpNMj_pDnhJsi3O-yn1VEaxSsr15cf4LEz3kXHq093Uk-p40NklnkmQLj_HsjlzbOIhT4SwRr_zqV-OhVF9VK6EaN9RpVqQ7QapjLIswE7tu_wiXhofxOcIo2TDXa204IQgjYewzEC3a1ROc"
+   },
+   {
+    "position": 11,
+    "title": "Hopefarm Channasandra",
+    "place_id": "ChIJMRmA3xoOrjsRCp8oIXTX9RM",
+    "data_id": "0x3bae0e1adf801931:0x13f5d77421289f0a",
+    "data_cid": "1438292549787229962",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0e1adf801931%3A0x13f5d77421289f0a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0e1adf801931%3A0x13f5d77421289f0a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.987347999999999,
+     "longitude": 77.753796
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMRmA3xoOrjsRCp8oIXTX9RM",
+    "provider_id": "/g/11s3d80zd9",
+    "rating": 4.5,
+    "reviews": 914,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Kadugodi Colony, Kadugodi, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOOQ7nKh9lpMmOCIRGyT4r2j1JJFG7FqLwdI58_z1MUh4BIlFeB_gk3etcgLCl1Cd_KfLJWMjeM7n4DW0u9YnkmJEro525MhDURBoxH4ObYa3-CfKLBxCG_wKeeu-Imzxc-yFI-=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/DPupv3icHcRdCoIwAADgEy01FSvoIWfa1CFFET1JzbVR-zE307pgZ-g2Qd_D9_1wa1uzcBzB_QnTmgnaG9oRrSxVdkK0dFh3NgYQ46zgsxWyqraRKvhctFhWEO2y1z7opjcvz9MsSh_l0KBwVr89fOBBjERK45rdfWoJK6HwYFMX1zI_4hvFkQqSo9vPT-ou83Wnw2mIeXLYxXrcBNXldPYBvBZlPMKsHgpKe4DkeyTglSKwHDzXdQH_T4D6ASu3Q6w"
+   },
+   {
+    "position": 12,
+    "title": "Singayyanapalya",
+    "place_id": "ChIJARDqkQwRrjsRv9n3wCZVhgo",
+    "data_id": "0x3bae110c91ea1001:0xa865526c0f7d9bf",
+    "data_cid": "758387212193094079",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae110c91ea1001%3A0xa865526c0f7d9bf&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae110c91ea1001%3A0xa865526c0f7d9bf&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.996557,
+     "longitude": 77.692708
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJARDqkQwRrjsRv9n3wCZVhgo",
+    "provider_id": "/g/11s3d819tj",
+    "rating": 4.5,
+    "reviews": 767,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Mahadevapura, Bengaluru, Karnataka 560048, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcL30ZaUd7LZEnJybLccZhWO5G4kX1LJZlMXtZglhQEbIWtTttR6W-5L-x6FgspiC3sG7SHyOo6P4VlBZh42mrWpseZeuFz4OAdHwuFIYxlQ0N54cZvuQNT0QEWQA7LWghddZGe=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/iT2pYHicHcRRboIwGADgE1WqFEhMfEADqKlip1vxf4PStMZCCS1Td8Gdwdss2ffwvX-194NbBoHR4UxZq4ycnByF7b3s_UzYLlBj7RwSLkjT9b2jgoYY6s82oZD1-1dDhQDNy6gg92pO92AOlQdlNMuaHfcX7z9ijiKKnnGu3HDbhK5IzttXaeMT-TJr0GTRjXxwEuSU_5AybbePKd9dn4bhY0QEfE_seMEs4yxNKFe6baGQq8ccY4z0_wL1f1M0RGI"
+   },
+   {
+    "position": 13,
+    "title": "Nallur Halli",
+    "place_id": "ChIJx9bz-_QRrjsRNU3ib6xyMXs",
+    "data_id": "0x3bae11f4fbf3d6c7:0x7b3172ac6fe24d35",
+    "data_cid": "8877002425461001525",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11f4fbf3d6c7%3A0x7b3172ac6fe24d35&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11f4fbf3d6c7%3A0x7b3172ac6fe24d35&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.976589299999999,
+     "longitude": 77.7248345
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJx9bz-_QRrjsRNU3ib6xyMXs",
+    "provider_id": "/g/11txlfyw_5",
+    "rating": 4.5,
+    "reviews": 278,
+    "type": "Subway station",
+    "types": [
+     "Subway station"
+    ],
+    "address": "Vijayanagar, KIADB Export Promotion Industrial Area, Whitefield, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf2sR3LqWSZ21_UtovbLDenK4mzDHHQHXXW03ygtZYdxfR0tfYS3Mj00MWyy7R8yajNrG_30WKvWgXXTjqs6NyZ8J2708bfkJMZDq6CnrwJPHkWYcx_yAWqLP2vm599twShbHJMGw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/U4oOWHicHcRNjoIwGADQEyGf1B80mQVKYoNgFMYU2BCoUALSCq1gveEcwdtM4lu8z1-t1ENuTfNeoxkTgt3LpywHKrgquZpR0ZlsyKU0qDQdZ9d2fmXJEPk9iVJrnl2VGAvfLflx0b1djC84jgkgzVSa3F5VCKpKIhQ0AAHReh3aOm9OwyFDQI4jYXH82_RyddKp7VlrsIuq9YLU7Vd7PkzeGbckoa9MO6T3z9bYLTcbNUV1gb3gMP1McwAw6u_U4P8N2UWZ"
+   },
+   {
+    "position": 14,
+    "title": "Marathahalli Metro Station",
+    "place_id": "ChIJs9DhZwATrjsRKh9_rX2qQKs",
+    "data_id": "0x3bae130067e1d0b3:0xab40aa7dad7f1f2a",
+    "data_cid": "12340050435753582378",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae130067e1d0b3%3A0xab40aa7dad7f1f2a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae130067e1d0b3%3A0xab40aa7dad7f1f2a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9565401,
+     "longitude": 77.7011088
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJs9DhZwATrjsRKh9_rX2qQKs",
+    "provider_id": "/g/11vrj4mcwl",
+    "rating": 4.3,
+    "reviews": 49,
+    "unclaimed_listing": true,
+    "type": "Metropolitan train company",
+    "types": [
+     "Metropolitan train company"
+    ],
+    "address": "2nd Floor, Sy No 92, 92near Bata Show, R.K. Lake Tower, Outer Ring Rd, Subbaiah Reddy Colony, Chandra Layout, Marathahalli, RoomBengaluru, Bengaluru, Karnataka 560037, India",
+    "country": "India",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeP60Z01Kl13m1q2rvuATfAA9Lh3u3TWgmVDKb_thmVjeGAVcs0jxyW_Z8ItnV1qbDdYddve1iFskH8K1ecMpCx28a8IGl5PsYot7WUpeRSeQ4Sm0F6858sOU6GKQ-AMgyNNCDI_E_OL0oR=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/XJeKfHicHcTLcoIwFADQL0ISURqd6SIVRQZ8ocLohtFwTaqEIDdY_UrX_ZvO9CzO71tZ2-DYdSvl9aQxsoIOoRWmtlDbnjDale0J0RHocv510wmsfXIkNK6op-m93z46vrtwPkqU13m7XOosiM-FVTq7QsgzgeT6fOXFkUW2zuj9HJSHsnwA_Z7hbc5iCmLRTJ59dmJRWA3XeDD2I983kG5hM9hqMvPZkOFq74fxxuEL-VouJ0FUTItVQkz6-UMJIY76Xzj1H2fERg4"
+   },
+   {
+    "position": 15,
+    "title": "Metro Station",
+    "place_id": "ChIJez1jh5oRrjsRK7GEREn8_FM",
+    "data_id": "0x3bae119a87633d7b:0x53fcfc494484b12b",
+    "data_cid": "6051989390891462955",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae119a87633d7b%3A0x53fcfc494484b12b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae119a87633d7b%3A0x53fcfc494484b12b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9871772,
+     "longitude": 77.7104974
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJez1jh5oRrjsRK7GEREn8_FM",
+    "provider_id": "/g/11zf0x1tqm",
+    "type": "Building",
+    "types": [
+     "Building"
+    ],
+    "address": "B 1406, Skylark Esta Pathway, near Hoodi, NCPR Industrial Layout, Seetharampalya, Mahadevapura, Bengaluru, Karnataka 560048, India",
+    "country": "India"
+   },
+   {
+    "position": 16,
+    "title": "Doddanekundi metro station",
+    "place_id": "ChIJX45MPwARrjsRrXlDBuJpw_0",
+    "data_id": "0x3bae11003f4c8e5f:0xfdc369e2064379ad",
+    "data_cid": "18285575331542956461",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11003f4c8e5f%3A0xfdc369e2064379ad&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11003f4c8e5f%3A0xfdc369e2064379ad&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.975773499999999,
+     "longitude": 77.6970724
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJX45MPwARrjsRrXlDBuJpw_0",
+    "provider_id": "/g/11w3rt2w2t",
+    "rating": 3.9,
+    "reviews": 7,
+    "unclaimed_listing": true,
+    "type": "Transit depot",
+    "types": [
+     "Transit depot"
+    ],
+    "address": "XMGW+8R4, NH 44, Ferns City, Doddanekkundi, Bengaluru, Karnataka 560037, India",
+    "country": "India",
+    "open_state": "Open now",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OyZZ8gbH4ZC5a9VFfO8_RQ&cb_client=search.gws-prod.grass&w=80&h=92&yaw=230.06769&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Wk8UCnicHc0xDsIgFADQ27AJtGptTYiDiXFrdHDo0vxSCiS0EECw1_FW3kbjBd77vFWMLhwJCdELEZMW2emXMGHjAEtrpRHgdMDcziQVJKrnPCygzcnBYvXI2rXrajlcd915D83jMrV1f78hPvTcaLFEFgR4rrDMP9HbEUsPIaDMaooUa0q0QmbllmJaHaoGOR25YhT9n8kmVlD6BcrDOdE"
+   },
+   {
+    "position": 17,
+    "title": "Metro Station",
+    "place_id": "ChIJbYwmFIURrjsR2O_zY31eSiM",
+    "data_id": "0x3bae118514268c6d:0x234a5e7d63f3efd8",
+    "data_cid": "2542948832244920280",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae118514268c6d%3A0x234a5e7d63f3efd8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae118514268c6d%3A0x234a5e7d63f3efd8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.982335899999999,
+     "longitude": 77.70909089999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJbYwmFIURrjsR2O_zY31eSiM",
+    "provider_id": "/g/11fwnz5qhn",
+    "type": "Building",
+    "types": [
+     "Building"
+    ],
+    "address": "Hoodi, Doddanakundi Industrial Area 2, Phase 1, Doddanekkundi, Bengaluru, Karnataka 560045, India",
+    "country": "India"
+   },
+   {
+    "position": 18,
+    "title": "Metro Station",
+    "place_id": "ChIJgWnVFYURrjsRdz-kjSl5fp8",
+    "data_id": "0x3bae118515d56981:0x9f7e79298da43f77",
+    "data_cid": "11492756518473056119",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae118515d56981%3A0x9f7e79298da43f77&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae118515d56981%3A0x9f7e79298da43f77&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9823969,
+     "longitude": 77.7090839
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJgWnVFYURrjsRdz-kjSl5fp8",
+    "provider_id": "/g/11zfb46vyp",
+    "type": "Building",
+    "types": [
+     "Building"
+    ],
+    "address": "Infront of Hoodi, Godrej air & nxt Hoodi, Hoodi, Doddanakundi Industrial Area 2, Phase 1, Doddanekkundi, Bengaluru, Karnataka 560045, India",
+    "country": "India"
+   },
+   {
+    "position": 19,
+    "title": "Whitefield Metro depot",
+    "place_id": "ChIJwanlU78PrjsRg8Rzz7l5zLw",
+    "data_id": "0x3bae0fbf53e5a9c1:0xbccc79b9cf73c483",
+    "data_cid": "13604382413335807107",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae0fbf53e5a9c1%3A0xbccc79b9cf73c483&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae0fbf53e5a9c1%3A0xbccc79b9cf73c483&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.987601999999999,
+     "longitude": 77.7491344
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwanlU78PrjsRg8Rzz7l5zLw",
+    "provider_id": "/g/11s2q3f0nd",
+    "rating": 4.5,
+    "reviews": 439,
+    "unclaimed_listing": true,
+    "type": "Train depot",
+    "types": [
+     "Train depot"
+    ],
+    "address": "XPQX+2MR, Kadugodi Colony, Kadugodi, Bengaluru, Karnataka 560066, India",
+    "country": "India",
+    "open_state": "Open now",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPvBt0DbXo2czu4YCq7xYx_kMPfFReIWq3SrIGK78TylL4zYw9DFjVp-z8dIgACaQfT--GZhsufC-L_l8O42WF17d1iPhAlnVqzeOOE0a2O2WKIzX-O-WSkOVFQYEK_8hSbjHU=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Tc9SVnicHcTdboIwGADQJ_qkIAlsiReIoASXoijIbgjUQtVKgRZ_-oB7h73Nkp2L8_vDlOrlp2FwNp-1QrScTpKORHSKdmpGxN1ox0pKINLw_EfP78ljqdCqPgmL6Mku_MF5Fa_y9pU04Z5G-TBPx2gdO-7hzbe2Lp4fq_Ca9aDdc9R6frVrDgDrbyanxodtyV1sW3loOmfzkjCPd9mgKcYBqixs5XGkT4AhT284C3dFEJcuS-vr5rh4mgghYP8T6P4AMu1DdQ"
+   },
+   {
+    "position": 20,
+    "title": "ISRO metro station",
+    "place_id": "ChIJe8iRRwATrjsRKh5wKMtj6ik",
+    "data_id": "0x3bae13004791c87b:0x29ea63cb28701e2a",
+    "data_cid": "3020336224313286186",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae13004791c87b%3A0x29ea63cb28701e2a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae13004791c87b%3A0x29ea63cb28701e2a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.970216899999999,
+     "longitude": 77.7003143
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJe8iRRwATrjsRKh5wKMtj6ik",
+    "provider_id": "/g/11w3rt73g7",
+    "rating": 3.5,
+    "reviews": 4,
+    "unclaimed_listing": true,
+    "type": "Transit depot",
+    "types": [
+     "Transit depot"
+    ],
+    "address": "87, NH 44, LRDE Layout, Doddanekundi, Marathahalli, Bengaluru, Karnataka 560037, India",
+    "country": "India",
+    "open_state": "Open now",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Mv3edv4FAsBIuuKK65cj8Q&cb_client=search.gws-prod.grass&w=80&h=92&yaw=251.81688&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/gfcC_3icHc3NDcIgGADQbbjJT7UNmhCjBxPTeHACQ-knYGghQEHXcSu30bjAe5-3yTmkHSEpR4BcLNRgn-DSKkisvdcOZLAJKz-Rwkg2yzTM0rp9kLO3o7iUNYxlczqk43lZ-r5r1YNfkRpuylmYs0ggozJY158Y_Yh1lCmhKjhFRmwb9JJVNC3DnHWco2CzMoKi_3P3RTBKv-FDOhY"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9698196%2C77.7499721%2C14z&q=metro+station&start=20&type=search"
+  }
+ }
+}

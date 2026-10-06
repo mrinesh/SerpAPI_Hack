@@ -466,6 +466,53 @@
         }
       }
     },
+    "/api/runs/{run_id}/areas": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Run Areas",
+        "description": "Area intelligence for the localities of this run's ranked candidates (F-05).",
+        "operationId": "get_run_areas_api_runs__run_id__areas_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AreaIntel"
+                  },
+                  "title": "Response Get Run Areas Api Runs  Run Id  Areas Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/runs/{run_id}/recommendations": {
       "get": {
         "tags": [
@@ -956,6 +1003,56 @@
         ],
         "title": "AmenityCategory"
       },
+      "AreaAccess": {
+        "properties": {
+          "metro_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Metro Name"
+          },
+          "metro_km": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Metro Km"
+          },
+          "schools_3km": {
+            "type": "integer",
+            "title": "Schools 3Km",
+            "default": 0
+          },
+          "hospitals_3km": {
+            "type": "integer",
+            "title": "Hospitals 3Km",
+            "default": 0
+          },
+          "measured_from": {
+            "type": "string",
+            "enum": [
+              "listing",
+              "locality centre"
+            ],
+            "title": "Measured From"
+          }
+        },
+        "type": "object",
+        "required": [
+          "measured_from"
+        ],
+        "title": "AreaAccess",
+        "description": "Distances from a listing (or its locality centre) to the area's amenities, in code."
+      },
       "AreaIntel": {
         "properties": {
           "locality_key": {
@@ -994,25 +1091,25 @@
             "type": "array",
             "title": "News"
           },
-          "infrastructure_summary": {
+          "price_growth_pct": {
             "anyOf": [
               {
-                "$ref": "#/components/schemas/Sourced_str_"
+                "$ref": "#/components/schemas/Sourced_float_"
               },
               {
                 "type": "null"
               }
             ]
           },
-          "price_trend": {
-            "anyOf": [
-              {
-                "$ref": "#/components/schemas/PriceTrend"
-              },
-              {
-                "type": "null"
-              }
-            ]
+          "price_levels": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Sourced_float_"
+            },
+            "propertyNames": {
+              "$ref": "#/components/schemas/PropertyType"
+            },
+            "type": "object",
+            "title": "Price Levels"
           },
           "rental_demand": {
             "anyOf": [
@@ -1034,6 +1131,22 @@
               }
             ],
             "title": "Summary"
+          },
+          "infrastructure_summary": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Infrastructure Summary"
+          },
+          "summary_by_ai": {
+            "type": "boolean",
+            "title": "Summary By Ai",
+            "default": false
           },
           "fetched_at": {
             "type": "string",
@@ -2086,29 +2199,6 @@
         "title": "Portal",
         "description": "Where a candidate came from: one of the searched portals, or Google Maps."
       },
-      "PriceTrend": {
-        "properties": {
-          "avg_price_per_sqft": {
-            "$ref": "#/components/schemas/Sourced_float_"
-          },
-          "yoy_change_pct": {
-            "$ref": "#/components/schemas/Sourced_float_"
-          },
-          "history": {
-            "items": {
-              "$ref": "#/components/schemas/TrendPoint"
-            },
-            "type": "array",
-            "title": "History"
-          }
-        },
-        "type": "object",
-        "required": [
-          "avg_price_per_sqft",
-          "yoy_change_pct"
-        ],
-        "title": "PriceTrend"
-      },
       "ProfileOptions": {
         "properties": {
           "city": {
@@ -2363,6 +2453,16 @@
             },
             "type": "array",
             "title": "Risks"
+          },
+          "access": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AreaAccess"
+              },
+              {
+                "type": "null"
+              }
+            ]
           },
           "explained": {
             "type": "boolean",

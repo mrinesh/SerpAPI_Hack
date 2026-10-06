@@ -103,7 +103,15 @@ def save_recommendation(db: Session, run_id: str, recommendation: Recommendation
         **result.recommendation,
         "recommendation": recommendation.model_dump(
             mode="json",
-            include={"score", "score_breakdown", "reason", "highlights", "risks", "explained"},
+            include={
+                "score",
+                "score_breakdown",
+                "reason",
+                "highlights",
+                "risks",
+                "explained",
+                "access",
+            },
         ),
     }
     db.commit()

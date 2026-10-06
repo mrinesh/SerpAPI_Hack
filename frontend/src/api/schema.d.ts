@@ -172,6 +172,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/runs/{run_id}/areas": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Run Areas
+         * @description Area intelligence for the localities of this run's ranked candidates (F-05).
+         */
+        get: operations["get_run_areas_api_runs__run_id__areas_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/runs/{run_id}/recommendations": {
         parameters: {
             query?: never;
@@ -362,6 +382,31 @@ export interface components {
          * @enum {string}
          */
         AmenityCategory: "metro" | "bus" | "school" | "hospital" | "mall" | "supermarket" | "park" | "tech_park" | "other";
+        /**
+         * AreaAccess
+         * @description Distances from a listing (or its locality centre) to the area's amenities, in code.
+         */
+        AreaAccess: {
+            /** Metro Name */
+            metro_name?: string | null;
+            /** Metro Km */
+            metro_km?: number | null;
+            /**
+             * Schools 3Km
+             * @default 0
+             */
+            schools_3km: number;
+            /**
+             * Hospitals 3Km
+             * @default 0
+             */
+            hospitals_3km: number;
+            /**
+             * Measured From
+             * @enum {string}
+             */
+            measured_from: "listing" | "locality centre";
+        };
         /** AreaIntel */
         AreaIntel: {
             /** Locality Key */
@@ -375,11 +420,21 @@ export interface components {
             amenities?: components["schemas"]["Amenity"][];
             /** News */
             news?: components["schemas"]["NewsItem"][];
-            infrastructure_summary?: components["schemas"]["Sourced_str_"] | null;
-            price_trend?: components["schemas"]["PriceTrend"] | null;
+            price_growth_pct?: components["schemas"]["Sourced_float_"] | null;
+            /** Price Levels */
+            price_levels?: {
+                [key: string]: components["schemas"]["Sourced_float_"];
+            };
             rental_demand?: components["schemas"]["RentalDemand"] | null;
             /** Summary */
             summary?: string | null;
+            /** Infrastructure Summary */
+            infrastructure_summary?: string | null;
+            /**
+             * Summary By Ai
+             * @default false
+             */
+            summary_by_ai: boolean;
             /**
              * Fetched At
              * Format: date-time
@@ -720,13 +775,6 @@ export interface components {
          * @enum {string}
          */
         Portal: "99acres" | "magicbricks" | "nobroker" | "google_maps";
-        /** PriceTrend */
-        PriceTrend: {
-            avg_price_per_sqft: components["schemas"]["Sourced_float_"];
-            yoy_change_pct: components["schemas"]["Sourced_float_"];
-            /** History */
-            history?: components["schemas"]["TrendPoint"][];
-        };
         /**
          * ProfileOptions
          * @description Everything the profile form offers, so the UI never hard-codes choices (CHECKLIST F-01).
@@ -811,6 +859,7 @@ export interface components {
             highlights?: string[];
             /** Risks */
             risks?: string[];
+            access?: components["schemas"]["AreaAccess"] | null;
             /**
              * Explained
              * @default false
@@ -1381,6 +1430,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["Verification"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_run_areas_api_runs__run_id__areas_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AreaIntel"][];
                 };
             };
             /** @description Validation Error */

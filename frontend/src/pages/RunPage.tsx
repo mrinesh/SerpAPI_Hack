@@ -6,10 +6,12 @@ import {
   useProfileOptions,
   useRun,
   useRunListings,
+  useRunAreas,
   useRunRecommendations,
   useRunVerifications,
 } from "../api/hooks";
 import { Notice } from "../components/Notice";
+import { AreaPanel } from "../components/run/AreaPanel";
 import { CandidateList } from "../components/run/CandidateList";
 import { StageList } from "../components/run/StageList";
 
@@ -22,6 +24,7 @@ export function RunPage() {
   const listings = useRunListings(run.data);
   const verifications = useRunVerifications(run.data);
   const recommendations = useRunRecommendations(run.data);
+  const areas = useRunAreas(run.data);
 
   if (run.error) return <Notice tone="error">{describeError(run.error)}</Notice>;
   if (!run.data) return <p className="text-sm text-slate-500">Loading…</p>;
@@ -54,6 +57,14 @@ export function RunPage() {
       {listings.error && <Notice tone="error">{describeError(listings.error)}</Notice>}
       {verifications.error && <Notice tone="error">{describeError(verifications.error)}</Notice>}
       {recommendations.error && <Notice tone="error">{describeError(recommendations.error)}</Notice>}
+      {areas.error && <Notice tone="error">{describeError(areas.error)}</Notice>}
+      {areas.data && options.data && (
+        <AreaPanel
+          areas={areas.data}
+          typeLabel={(value) =>
+            options.data.segments.flatMap((s) => s.property_types).find((t) => t.value === value)?.label ?? value}
+        />
+      )}
       {listings.data && options.data && (
         <CandidateList
           listings={listings.data}

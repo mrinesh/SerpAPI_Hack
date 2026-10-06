@@ -1,0 +1,19 @@
+{
+  "key": "26d56a72613aa7895543eaf0ab23674521c4cb3d1feaf2ae98b37fdc3a89b04e",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This candidate fits your rental income goal for an apartment in Whitefield and is priced at ₹76 L, within your up to ₹80 L budget. But the listing is only a search snippet, not a verified individual property, so the price, size, and exact locality need confirmation before acting.",
+    "highlights": [
+      "Price ₹76 L is within budget up to ₹80 L.",
+      "Located in Whitefield, a sought-after rental market with 29% price growth over 12 months.",
+      "Ready to move apartment at ₹10,340/sq ft, 15% below area level ₹12,150/sq ft."
+    ],
+    "risks": [
+      "No verified individual listing; source is a search snippet, not a specific property page.",
+      "Locality is query-derived and may cover nearby areas; not independently confirmed.",
+      "No rental yield or ROI data available to assess the 4% target rental yield."
+    ]
+  }
+}

@@ -58,3 +58,21 @@ def test_demo_recommendations_replay_with_recorded_explanations(client, name):
     if name == "commercial":
         # The rent quoted as a sale (₹3.6 L, flagged) ranks last, below every genuine office.
         assert recommendations[-1]["listing"]["price_inr"]["value"] == 360_000
+
+
+@pytest.mark.parametrize(("name", "growth"), [("residential", 29.0), ("commercial", 26.9)])
+def test_demo_areas_replay_with_centre_amenities_growth_and_summary(client, name, growth):
+    profile_id = client.post("/api/profiles", json=DEMO_PROFILES[name]).json()["id"]
+    run_id = client.post(f"/api/profiles/{profile_id}/runs").json()["id"]
+    [area] = client.get(f"/api/runs/{run_id}/areas").json()
+    assert area["center"] and {a["category"] for a in area["amenities"]} == {
+        "metro",
+        "school",
+        "hospital",
+    }
+    # Recorded quotes: "appreciated by approximately 29% in the last one year" (Whitefield),
+    # "+26.9% in 1 year" (Koramangala).
+    assert area["price_growth_pct"]["value"] == growth
+    assert area["summary_by_ai"] and "metro" in area["infrastructure_summary"].lower()
+    recommendations = client.get(f"/api/runs/{run_id}/recommendations").json()
+    assert all(r["score_breakdown"]["area"] is not None for r in recommendations)
