@@ -1,8 +1,9 @@
 import { useState, type ReactNode } from "react";
 
-import type { Listing, Portal, ProfileOptions, QualityFlag, SaleStatus, Verification } from "../../api/types";
+import type { Listing, ListingMetrics, Portal, ProfileOptions, QualityFlag, SaleStatus, Verification } from "../../api/types";
 import { formatInr } from "../../lib/money";
 import { groupCandidates } from "./groupCandidates";
+import { InvestmentMetricsPanel } from "./InvestmentMetricsPanel";
 
 const PORTAL_LABELS: Record<Portal, string> = {
   "99acres": "99acres",
@@ -21,12 +22,13 @@ const STATUS_LABELS: Record<SaleStatus, string> = {
 type Tab = "priced" | "projects" | "filtered";
 
 /** Discovered candidates with relevance checks. Rejects remain visible with their reasons. */
-export function CandidateList({ listings, options, verifications }: {
-  listings: Listing[]; options: ProfileOptions; verifications: Verification[];
+export function CandidateList({ listings, options, verifications, metrics = [] }: {
+  listings: Listing[]; options: ProfileOptions; verifications: Verification[]; metrics?: ListingMetrics[];
 }) {
   const groups = groupCandidates(listings, verifications);
   const { priced, projects, filtered } = groups;
   const checks = new Map(verifications.map((check) => [check.listing_id, check]));
+  const investments = new Map(metrics.map((item) => [item.listing_id, item.metrics]));
   const [tab, setTab] = useState<Tab>(priced.length > 0 ? "priced" : projects.length > 0 ? "projects" : "filtered");
   const shown = groups[tab];
   const typeLabel = (value: string | null | undefined) =>
@@ -87,6 +89,7 @@ export function CandidateList({ listings, options, verifications }: {
               {checks.has(listing.id)
                 ? <VerificationSummary verification={checks.get(listing.id)!} />
                 : <p className="mt-2 text-xs text-slate-500">Not AI-checked</p>}
+              {investments.has(listing.id) && <InvestmentMetricsPanel metrics={investments.get(listing.id)!} />}
             </div>
             <div className="text-left sm:text-right">
               {listing.price_inr.value != null && (

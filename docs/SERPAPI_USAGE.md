@@ -62,11 +62,19 @@ default timeout is 60 s because two searches exceeded 30 s.
 |---|---|
 | Fresh run, L localities × T property types | L × T Google, + L Google Maps if flats are wanted, + at most 1 retry per empty query, + up to L × T price-level Google searches (localities with candidates) |
 | Area enrichment for A discovered localities | Up to 5A additional searches: centre + metro/school/hospital + News; cached per locality for 168 hours |
+| F-09 financial inputs | One Google rent query per eligible locality/type/BHK cohort (size-based rate cohort for unknown layout), plus one annual growth query per eligible locality/type unless an override is supplied |
 | Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 15 area = 24 |
 | Largest profile: 5 localities × 4 types, with flats | Up to 45 discovery/price-level searches + 25 area searches before retries; the per-run cap of 40 is authoritative. Missing area sections expose budget warnings; price levels may fall back to run medians |
 | Repeat run within the cache TTL | 0 |
 
 ## Data handling
+
+F-09 reuses F-03 sale-price benchmarks and gateway caches. For the committed demos, four
+additional Google searches supply financial evidence: Whitefield rent/growth and Koramangala
+office rent/growth. Replay spends zero searches. Rent snippets are screened before DeepSeek
+selection, so absent usable snippets do not incur an LLM call. Large live profiles can hit the
+existing 40-search cap; financial input notes expose budget failures and prior snapshots remain
+readable. Details: [F-09 guide](F09_INVESTMENT_METRICS.md).
 
 - Fixtures store public search results only; `api_key` is stripped before anything is written.
 - The platform links to the portals' pages and never fetches or scrapes them

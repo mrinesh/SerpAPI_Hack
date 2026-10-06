@@ -56,6 +56,10 @@ class FakeLLM:
             )
         if kwargs["task"] == "summarize_area":
             return kwargs["schema"].model_validate({"facts": []})
+        if kwargs["task"] in {"extract_rent", "extract_growth"}:
+            return kwargs["schema"].model_validate(
+                {"result_index": None, "evidence": None, "confidence": 0}
+            )
         if kwargs["task"] == "extract_price_level":
             from app.pipeline.enrichment.price_level import PriceLevelExtract
 

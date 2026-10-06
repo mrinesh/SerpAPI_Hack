@@ -330,6 +330,53 @@
         }
       }
     },
+    "/api/runs/{run_id}/metrics": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Run Metrics",
+        "description": "F-09 frozen, progressively available metrics, including unavailable-input reasons.",
+        "operationId": "get_run_metrics_api_runs__run_id__metrics_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ListingMetrics"
+                  },
+                  "title": "Response Get Run Metrics Api Runs  Run Id  Metrics Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/runs/{run_id}": {
       "get": {
         "tags": [
@@ -1612,6 +1659,22 @@
               }
             ],
             "title": "Meets Target Roi"
+          },
+          "target_roi_pct": {
+            "type": "number",
+            "title": "Target Roi Pct",
+            "default": 0
+          },
+          "assessment_note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Assessment Note"
           }
         },
         "type": "object",
@@ -2049,6 +2112,23 @@
         ],
         "title": "Listing",
         "description": "A discovered, de-duplicated property candidate. Every factual field is `Sourced`."
+      },
+      "ListingMetrics": {
+        "properties": {
+          "listing_id": {
+            "type": "string",
+            "title": "Listing Id"
+          },
+          "metrics": {
+            "$ref": "#/components/schemas/InvestmentMetrics"
+          }
+        },
+        "type": "object",
+        "required": [
+          "listing_id",
+          "metrics"
+        ],
+        "title": "ListingMetrics"
       },
       "LocalityOption": {
         "properties": {

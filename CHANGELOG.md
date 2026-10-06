@@ -13,6 +13,11 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-06 · F-09: sourced rent inputs and reported annual growth, pure financial arithmetic,
+  same-type area price comparisons, gross rental yield before costs, explicit growth assumptions,
+  illustrative total return and goal-specific target checks. Unsafe sale prices cannot produce
+  an ROI verdict. Frozen/progressive run metrics API, candidate-card evidence and missing reasons,
+  real offline demo recordings, input/formula/API/rendering tests and a before/after benefit guide.
 - 2026-10-06 · F-05 P0: locality cache, typed Maps amenities with straight-line distances,
   locality-matched/dated News, DeepSeek topics and validated complete infrastructure evidence
   quotes. Read-only area/run-area APIs, immutable run snapshots, existing price benchmark reuse,

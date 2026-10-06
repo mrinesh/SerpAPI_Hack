@@ -20,3 +20,10 @@ class InvestmentMetrics(BaseModel):
     total_return_pct: Sourced[float]  # rental yield + price growth
     roi_measure: ROIMeasure  # which of the three the profile's target ROI is compared against
     meets_target_roi: bool | None = None  # None when the measured value is missing
+    target_roi_pct: float = 0
+    assessment_note: str | None = None
+
+
+class ListingMetrics(BaseModel):
+    listing_id: str
+    metrics: InvestmentMetrics

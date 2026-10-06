@@ -191,13 +191,17 @@ For cache-hit/request-start tracing, temporarily pass `logging.DEBUG` to `config
 in `app/main.py` (the default is INFO). Normal logs report cache misses, completed counts and failed operations,
 without credentials or full provider payloads.
 
-## Before F-09
+## F-09 integration
 
 1. A locality benchmark is sourced per property type; it is not a listing's asking price.
 2. Missing growth/rent inputs remain missing. `price_trend` and `rental_demand` are still null.
 3. Consume the run snapshot for consistent evidence; the shared cache can change later.
 4. Partial section status and source timestamps must survive into future calculations/explanations.
 5. Metrics should be pure code over sourced inputs; the LLM must not calculate yield/ROI.
+
+F-09 now implements those calculations and keeps type-specific growth/candidate rent inputs
+in frozen financial snapshots rather than the generic area payload. See the
+[F-09 walkthrough and before/after benefits](F09_INVESTMENT_METRICS.md).
 
 Google Trends rental-demand charts remain the separately prioritized F-05 P1 work. Permanent
 geocoding, full article retrieval and property-specific travel distances are not implemented.

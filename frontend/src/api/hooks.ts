@@ -13,6 +13,7 @@ import type {
   InvestorProfile,
   InvestorProfileIn,
   Listing,
+  ListingMetrics,
   PipelineRun,
   ProfileOptions,
   Verification,
@@ -147,6 +148,15 @@ export function useRunAreas(run: PipelineRun | undefined) {
   return useQuery({
     queryKey: ["runs", run?.id, "areas", run?.status, event?.counts?.areas ?? 0],
     queryFn: () => apiFetch<AreaIntel[]>(`/runs/${run?.id}/areas`),
+    enabled: hasCandidates(run),
+  });
+}
+
+export function useRunMetrics(run: PipelineRun | undefined) {
+  const event = run?.events?.find((item) => item.stage === "enrich");
+  return useQuery({
+    queryKey: ["runs", run?.id, "metrics", run?.status, event?.counts?.metrics ?? 0],
+    queryFn: () => apiFetch<ListingMetrics[]>(`/runs/${run?.id}/metrics`),
     enabled: hasCandidates(run),
   });
 }

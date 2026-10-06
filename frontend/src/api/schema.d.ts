@@ -115,6 +115,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/runs/{run_id}/metrics": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Run Metrics
+         * @description F-09 frozen, progressively available metrics, including unavailable-input reasons.
+         */
+        get: operations["get_run_metrics_api_runs__run_id__metrics_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/runs/{run_id}": {
         parameters: {
             query?: never;
@@ -590,6 +610,13 @@ export interface components {
             roi_measure: components["schemas"]["ROIMeasure"];
             /** Meets Target Roi */
             meets_target_roi?: boolean | null;
+            /**
+             * Target Roi Pct
+             * @default 0
+             */
+            target_roi_pct: number;
+            /** Assessment Note */
+            assessment_note?: string | null;
         };
         /** InvestorProfile */
         InvestorProfile: {
@@ -715,6 +742,12 @@ export interface components {
              * Format: date-time
              */
             last_seen_at: string;
+        };
+        /** ListingMetrics */
+        ListingMetrics: {
+            /** Listing Id */
+            listing_id: string;
+            metrics: components["schemas"]["InvestmentMetrics"];
         };
         /** LocalityOption */
         LocalityOption: {
@@ -1364,6 +1397,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["PipelineRun"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_run_metrics_api_runs__run_id__metrics_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ListingMetrics"][];
                 };
             };
             /** @description Validation Error */

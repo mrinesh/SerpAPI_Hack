@@ -4,7 +4,8 @@
 
 `start_run` creates a `pipeline_runs` row and runs `run_pipeline` on a background thread with its
 own database session; the UI polls `GET /api/runs/{id}` for `StageEvent`s. Built so far: plan,
-fetch and clean (F-02), verify (F-03), and area enrichment (F-05). Ranking is not built yet.
+fetch and clean (F-02), verify (F-03), area enrichment (F-05) and investment metrics (F-09).
+Ranking is not built yet.
 A failing stage marks the
 run failed but keeps everything saved so far.
 """
@@ -28,8 +29,10 @@ from app.pipeline.cleaning import normalize_hits
 from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
 from app.pipeline.enrichment.area import get_area_intel
+from app.pipeline.enrichment.investment import InvestmentInputs
 from app.pipeline.enrichment.price_level import price_levels
-from app.pipeline.persist import save_candidates, save_verification
+from app.pipeline.metrics import compute_metrics
+from app.pipeline.persist import save_candidates, save_metrics, save_verification
 from app.pipeline.query_planner import plan_queries
 from app.pipeline.verification import extract, verify
 from app.reference import load_market
@@ -158,6 +161,8 @@ def run_pipeline(run_id: str) -> None:
                 tracker.replace(event)
                 # Benchmarks for price flags: one search per locality and type (ADR 0014).
                 levels, level_notes = price_levels(ctx, market, result.listings)
+                extracted_by_id = {}
+                checks_by_id = {}
                 for listing in checking:
                     extracted = extract(ctx, listing)
                     benchmark = levels.get(
@@ -165,6 +170,8 @@ def run_pipeline(run_id: str) -> None:
                     )
                     verification = verify(ctx, extracted, benchmark)
                     save_verification(db, run_id, extracted, verification)
+                    extracted_by_id[listing.id] = extracted
+                    checks_by_id[listing.id] = verification
                     event.counts["checked"] += 1
                     event.counts["rejected"] += int(verification.verdict == "reject")
                     event.counts["flagged"] += int(
@@ -187,6 +194,9 @@ def run_pipeline(run_id: str) -> None:
                     event.message = "No candidates to verify"
 
             with tracker.stage(PipelineStage.ENRICH) as event:
+                candidates = [extracted_by_id.get(item.id, item) for item in result.listings]
+                inputs = InvestmentInputs(ctx, market)
+                areas = {}
                 localities = sorted(
                     {
                         listing.locality.value
@@ -199,6 +209,9 @@ def run_pipeline(run_id: str) -> None:
                     "areas": 0,
                     "warnings": 0,
                     "cache_hits": 0,
+                    "metrics": 0,
+                    "roi_assessed": 0,
+                    "investment_warnings": 0,
                 }
                 for locality in localities:
                     event.message = f"Enriching {locality}"
@@ -212,6 +225,7 @@ def run_pipeline(run_id: str) -> None:
                             if slug == locality
                         },
                     )
+                    areas[locality] = area
                     db.merge(
                         RunAreaIntelRow(
                             run_id=run_id,
@@ -227,11 +241,51 @@ def run_pipeline(run_id: str) -> None:
                     event.message = (
                         f"{event.counts['areas']} of {len(localities)} localities enriched; "
                         f"{event.counts['warnings']} section warnings. "
-                        "Investment metrics and competitors are not built yet (F-09, F-06)."
+                        "Computing investment metrics next."
                     )
                     tracker.replace(event)
                 if not localities:
                     event.message = "No discovered localities to enrich"
+                for listing in candidates:
+                    check = checks_by_id.get(listing.id)
+                    blocked = None
+                    if check is None:
+                        blocked = "Candidate has not completed relevance/price verification."
+                    elif check.verdict == "reject":
+                        blocked = "Candidate fails the profile criteria; ROI assessment withheld."
+                    elif any(flag.kind == "too_good_to_be_true" for flag in check.flags):
+                        blocked = (
+                            "Implausibly cheap quote: confirm the sale price before assessing ROI."
+                        )
+                    if listing.price_inr.note and any(
+                        word in listing.price_inr.note.lower()
+                        for word in ("range", "starting price", "lower bound")
+                    ):
+                        blocked = (
+                            blocked or "Final unit price is unconfirmed (range or starting price)."
+                        )
+                    rent = inputs.rent(listing) if not blocked and listing.price_inr.value else None
+                    growth = inputs.growth(listing) if not blocked else None
+                    metrics = compute_metrics(
+                        listing,
+                        areas.get(listing.locality.value),
+                        profile,
+                        rent=rent,
+                        growth=growth,
+                        blocked_reason=blocked,
+                    )
+                    save_metrics(db, run_id, listing.id, metrics)
+                    event.counts["metrics"] += 1
+                    event.counts["roi_assessed"] += int(metrics.meets_target_roi is not None)
+                    event.counts["investment_warnings"] = len(inputs.warnings)
+                    event.message = (
+                        f"Investment metrics saved for {event.counts['metrics']} candidates; "
+                        f"{event.counts['roi_assessed']} ROI targets assessed; "
+                        f"{len(inputs.warnings)} investment provider warnings. "
+                        "Competitors pending (F-06)."
+                    )
+                    tracker.update_search_counts()
+                    tracker.replace(event)
             tracker.update_search_counts()
             for stage, feature in NOT_BUILT.items():
                 tracker.note(stage, f"Not built yet ({feature})")

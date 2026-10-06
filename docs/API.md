@@ -24,6 +24,7 @@ city) use the same shape.
 | GET | `/runs/{run_id}` | `PipelineRun` with `StageEvent[]`, searches used, cache hits | I-09, F-20 | ✅ |
 | GET | `/runs/{run_id}/listings` | `Listing[]` the run discovered: priced entries cheapest first, then projects | F-02 | ✅ |
 | GET | `/runs/{run_id}/verifications` | `Verification[]`: completed checks, including rejects and reasons | F-03 | ✅ |
+| GET | `/runs/{run_id}/metrics` | `ListingMetrics[]`: listing ID + frozen financial inputs/results, goal target and unknown-assessment reason | F-09 | ✅ |
 | GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked | F-04 | 🧱 |
 | GET | `/properties/{listing_id}` | `PropertyDetail` | F-07 | 🧱 |
 | GET | `/areas/{locality_key}` | Latest shared `AreaIntel`; read-only, explicit stale state; 404 before enrichment | F-05 | ✅ |
@@ -53,6 +54,15 @@ than pretending failed requests were empty results. `stale` indicates that a new
 refresh the area. Only run snapshots contain the existing per-property-type `price_levels`.
 
 Schema, examples, cache behavior and diagnostics: [F-05 guide](F05_AREA_INTELLIGENCE.md).
+
+## Investment metrics (F-09)
+
+F-09 metrics are committed during enrichment, one candidate at a time. Known runs before
+enrichment return `[]`; partial and failed runs return saved snapshots; unknown/deleted runs
+return 404. GET is read-only. Enrichment adds `metrics`, `roi_assessed`, `investment_warnings`
+counts. Profile changes never rewrite old metric targets. Gross yield is before costs;
+growth is reported history or an explicitly labelled investor assumption. Details and real demo
+examples: [F-09 guide](F09_INVESTMENT_METRICS.md).
 
 ## Frontend types
 

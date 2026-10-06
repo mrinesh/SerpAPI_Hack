@@ -3,11 +3,18 @@ from fastapi import APIRouter
 from app.api.deps import DbSession
 from app.schemas.area import AreaIntel
 from app.schemas.listing import Listing, Verification
+from app.schemas.metrics import ListingMetrics
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
 from app.services import runs
 
 router = APIRouter(prefix="/runs", tags=["runs"])
+
+
+@router.get("/{run_id}/metrics")
+def get_run_metrics(run_id: str, db: DbSession) -> list[ListingMetrics]:
+    """F-09 frozen, progressively available metrics, including unavailable-input reasons."""
+    return runs.get_metrics(db, run_id)
 
 
 @router.get("/{run_id}")

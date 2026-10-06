@@ -49,7 +49,7 @@ code for an ID finds every stub that belongs to it.
 | F-06 | Competitor analysis (commercial) | P0 | 🧱 | |
 | F-07 | Property detail page | P0 | 🧱 | |
 | F-08 | Saved properties and side-by-side compare | P1 | 🧱 | |
-| F-09 | Investment metrics | P0 | 🧱 | |
+| F-09 | Investment metrics | P0 | ✅ | Sourced inputs, goal checks, replay and run cards |
 | F-10 | Alerts (new match, price drop) | P1 | 🧱 | |
 | F-11 | Source citations and confidence | P0 | 🧱 | |
 | F-12 | Listing quality flags | P1 | 🟨 | |
@@ -263,12 +263,14 @@ Implementation and debugging: [docs/F05_AREA_INTELLIGENCE.md](docs/F05_AREA_INTE
 - [ ] Save / unsave / list
 - [ ] Compare 2–4 properties side by side, best value per row highlighted
 
-### F-09 Investment metrics · P0 · 🧱
-- [ ] Rent estimate (`extract_rent` from search results)
+### F-09 Investment metrics · P0 · ✅
+- [x] Rent estimate (`extract_rent` from search results; comparable BHK or explicit monthly rate;
+      commercial unit rent/area conversion, unavailable evidence stays missing)
 - [x] ROI definition settled: rental yield, price growth, total return; no net yield or cap rate (ADR 0010)
-- [ ] Price per sq ft vs area average, rental yield, price growth (override or locality), total return
-- [ ] `meets_target_roi` using the goal's measure
-- [ ] Exhaustive unit tests (pure functions)
+- [x] Price per sq ft vs area average, rental yield, price growth (override or locality), total return
+- [x] `meets_target_roi` using the goal's measure; unsafe prices withhold assessments
+- [x] Exhaustive unit tests (pure functions), evidence and failure tests, frozen run API/replay tests
+- [x] Candidate metric panels with evidence/confidence, offline recordings and benefit/debugging guide
 
 ### F-10 Alerts · P1 · 🧱
 - [ ] Diff against `listings`: new matches and price drops

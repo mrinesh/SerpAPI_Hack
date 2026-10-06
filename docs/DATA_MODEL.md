@@ -66,7 +66,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `pipeline_runs` | `id` | status, current stage, `StageEvent[]`, searches used, cache hits | FK profile |
 | `listings` | `id` = stable hash of the candidate's identity | `Listing` JSON; `kind`, `portal`, `locality`, `price_inr`, `size_sqft`, `price_per_sqft` columns | Shared across runs, so a repeat run updates the same rows |
 | `listing_observations` | `id`; unique (`listing_id`, `run_id`) | price at the time | One row per candidate per run: "found in this run" and price history |
-| `run_results` | `id` | Progressive JSON: `listing` snapshot and nullable `verification`; F-04 will add recommendation fields | One row per listing per run; rank null until ranked, and for rejects |
+| `run_results` | `id` | Progressive JSON: `listing`, nullable `verification`, F-09 `metrics` including frozen target/source notes; F-04 will add recommendation fields | One row per listing per run; rank null until ranked, and for rejects |
 | `area_intel` | `locality_key` | Normalized `AreaIntel` JSON, assembly/expiry timestamps | Shared locality cache; excludes run-specific prices; partial results expire immediately |
 | `run_area_intel` | (`run_id`, `locality_key`) | Frozen `AreaIntel` JSON, including existing price benchmarks | FK run; deleted with profile; unaffected by later cache refreshes |
 | `competitor_reports` | hash(centre, category, radius) | `CompetitorReport` JSON | |
@@ -95,8 +95,18 @@ erDiagram
 `AreaIntel` adds centre provenance, structured `InfrastructureFact` evidence, `AreaIssue` warnings,
 section statuses, source retrieval timestamps, cache flags and a per-property-type benchmark map.
 Assembly time differs from original provider retrieval/publication time. Price growth and rental
-demand remain unavailable. See [F-05 guide](F05_AREA_INTELLIGENCE.md). The added run-area table is
+demand remain unavailable in the generic area payload; F-09 keeps type-specific annual growth
+and candidate rents in the financial snapshot. See [F-05 guide](F05_AREA_INTELLIGENCE.md) and
+[F-09 guide](F09_INVESTMENT_METRICS.md). The added run-area table is
 created automatically at startup; no existing tables or data need to be dropped.
+
+## F-09 financial snapshots
+
+F-09 appends sourced `InvestmentMetrics` to `run_results` without adding tables or columns.
+Snapshots preserve `target_roi_pct`, `roi_measure`, nullable `meets_target_roi` and the reason
+an assessment is unavailable. Each candidate is committed independently. Source unions and
+the weakest input confidence are preserved; changing a profile or shared listing leaves earlier
+comparisons unchanged. No database reset is needed for F-09.
 
 ## Changing the model
 

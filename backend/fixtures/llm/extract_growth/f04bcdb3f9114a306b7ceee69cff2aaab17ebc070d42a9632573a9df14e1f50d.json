@@ -1,0 +1,11 @@
+{
+  "key": "f04bcdb3f9114a306b7ceee69cff2aaab17ebc070d42a9632573a9df14e1f50d",
+  "task": "extract_growth",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "result_index": 0,
+    "evidence": "flat rates in Whitefield, Bangalore changed by 10.8 % in the last 1 year",
+    "confidence": 0.95
+  }
+}

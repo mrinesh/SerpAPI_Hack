@@ -18,3 +18,10 @@ database cache; see docs/DEVELOPMENT.md.
 
 `uv run python scripts/record_verification.py --profile residential` (or `commercial`) from
 `backend/` records F-03 against existing SerpApi fixtures, spending DeepSeek calls only.
+
+F-09 is recorded for both demo profiles: four new Google searches (rent/growth for each
+locality/type) and three DeepSeek selections (one eligible rent, two growth selections).
+Whitefield rental evidence remains unavailable; Koramangala annual office growth remains
+unavailable. These gaps are intentionally preserved, rather than fabricated for replay.
+From `backend/`, `uv run python scripts/record_investment_metrics.py --profile both` records
+missing responses in a temporary DB while reusing all existing provider fixtures.

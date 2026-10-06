@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 
 from app.db.models import ListingObservationRow, ListingRow, RunResultRow
 from app.schemas.listing import Listing, Verification
+from app.schemas.metrics import InvestmentMetrics
 
 
 def save_candidates(db: Session, run_id: str, listings: list[Listing]) -> None:
@@ -61,6 +62,19 @@ def save_candidates(db: Session, run_id: str, listings: list[Listing]) -> None:
                     },
                 )
             )
+    db.commit()
+
+
+def save_metrics(db: Session, run_id: str, listing_id: str, metrics: InvestmentMetrics) -> None:
+    """Append a frozen metric snapshot without replacing verification or future ranking."""
+    row = db.scalar(
+        select(RunResultRow).where(
+            RunResultRow.run_id == run_id, RunResultRow.listing_id == listing_id
+        )
+    )
+    if row is None:
+        raise ValueError(f"No candidate snapshot for {listing_id}")
+    row.recommendation = dict(row.recommendation, metrics=metrics.model_dump(mode="json"))
     db.commit()
 
 

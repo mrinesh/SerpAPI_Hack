@@ -1,0 +1,11 @@
+{
+  "key": "750b71a4034ad50f3d1a814bd59586507292b859e86556f89de4e1e7ab08f002",
+  "task": "extract_growth",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "result_index": 3,
+    "evidence": "Sale Price Trends in. Koramangala. Last 1 yr. Commercial Office Space.",
+    "confidence": 0.95
+  }
+}

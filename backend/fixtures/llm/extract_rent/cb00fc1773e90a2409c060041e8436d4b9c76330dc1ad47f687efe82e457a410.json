@@ -1,0 +1,11 @@
+{
+  "key": "cb00fc1773e90a2409c060041e8436d4b9c76330dc1ad47f687efe82e457a410",
+  "task": "extract_rent",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "result_index": 1,
+    "evidence": "Commercial office space for rent in Koramangala, Bangalore. ₹1.7 Lac / month. + Deposit 10 months rent. 1,800 sqft(167 sqm). Carpet area ... Total built up area ...",
+    "confidence": 0.95
+  }
+}

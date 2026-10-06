@@ -171,6 +171,20 @@ localities; existing recordings are reused. `make demo` then replays without net
 Start a new run: runs created before F-05 have no area snapshots. Full architecture, code
 walkthrough, API examples and debugging checklist: [F-05 guide](F05_AREA_INTELLIGENCE.md).
 
+## Investment metrics recording (F-09)
+
+```bash
+cd backend
+uv run python scripts/record_investment_metrics.py --profile both
+```
+
+Uses a temporary SQLite database and forces record mode in that process; it reuses prior
+discovery, verification, area and input recordings. Four financial searches and three current
+DeepSeek selections cover both demos. A missing financial quote remains missing in replay;
+it is distinct from a provider warning. Start a new run after upgrading: older metric-less
+snapshots are not backfilled. The run page now adds Investment comparison panels with evidence,
+gross yield before costs, and goal-target status. See [F-09 guide](F09_INVESTMENT_METRICS.md).
+
 ## Known tooling issues
 
 - **npm 10.9 cannot add vitest ≥ 4** (`Cannot read properties of null (reading 'edgesOut')`, an

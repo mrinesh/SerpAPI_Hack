@@ -11,6 +11,7 @@ from app.pipeline.enrichment.area import as_utc
 from app.pipeline.orchestrator import to_schema
 from app.schemas.area import AreaIntel
 from app.schemas.listing import Listing, ResultKind, Verification
+from app.schemas.metrics import ListingMetrics
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
 
@@ -59,6 +60,18 @@ def get_verifications(db: Session, run_id: str) -> list[Verification]:
 
 def get_recommendations(db: Session, run_id: str) -> list[Recommendation]:
     raise NotImplementedYet("F-04", "Reading ranked recommendations")
+
+
+def get_metrics(db: Session, run_id: str) -> list[ListingMetrics]:
+    _get_row(db, run_id)
+    rows = db.scalars(
+        select(RunResultRow).where(RunResultRow.run_id == run_id).order_by(RunResultRow.id)
+    )
+    return [
+        ListingMetrics(listing_id=row.listing_id, metrics=row.recommendation["metrics"])
+        for row in rows
+        if row.recommendation.get("metrics") is not None
+    ]
 
 
 def get_areas(db: Session, run_id: str) -> list[AreaIntel]:

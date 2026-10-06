@@ -147,7 +147,20 @@ Searches:
 density, ratings, review volume, saturation. P1: google_maps_reviews for the top competitors →
 `competitor_gaps` prompt.
 
-**Metrics**: pure functions, no I/O:
+**Metrics (F-09, built)**: `InvestmentInputs` searches one rent cohort per locality/type/BHK
+(unknown layout with size requires an explicit monthly per-area rate) and one annual growth
+input per locality/type. Commercial unit rent + a single quoted area can be converted to a rate.
+Rent units/amounts are screened in code before DeepSeek selects complete source evidence.
+Existing gateway budgets, record/replay and caches apply. Missing evidence and provider errors
+stay missing, with actionable notes. A profile growth override skips growth searches.
+
+Pure `compute_metrics` does no I/O. It uses extracted listings and existing area price levels,
+carries source unions and weakest confidence, and saves one frozen metric snapshot per candidate.
+Unchecked/rejected, range/starting, or implausibly cheap sale quotes withhold ROI assessments.
+The frontend exposes gross yield **before costs**, history versus assumptions, and target status
+alongside evidence. See [F-09 walkthrough and benefits](F09_INVESTMENT_METRICS.md).
+
+Metric formulae:
 
 | Metric | Formula |
 |---|---|

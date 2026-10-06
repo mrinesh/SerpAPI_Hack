@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router";
 
 import { describeError } from "../api/client";
-import { useProfile, useProfileOptions, useRun, useRunListings, useRunVerifications, useRunAreas } from "../api/hooks";
+import { useProfile, useProfileOptions, useRun, useRunListings, useRunVerifications, useRunAreas, useRunMetrics } from "../api/hooks";
 import { Notice } from "../components/Notice";
 import { CandidateList } from "../components/run/CandidateList";
 import { StageList } from "../components/run/StageList";
@@ -16,6 +16,7 @@ export function RunPage() {
   const listings = useRunListings(run.data);
   const verifications = useRunVerifications(run.data);
   const areas = useRunAreas(run.data);
+  const metrics = useRunMetrics(run.data);
 
   if (run.error) return <Notice tone="error">{describeError(run.error)}</Notice>;
   if (!run.data) return <p className="text-sm text-slate-500">Loading…</p>;
@@ -49,8 +50,9 @@ export function RunPage() {
 
       {listings.error && <Notice tone="error">{describeError(listings.error)}</Notice>}
       {verifications.error && <Notice tone="error">{describeError(verifications.error)}</Notice>}
+      {metrics.error && <Notice tone="error">{describeError(metrics.error)}</Notice>}
       {listings.data && options.data && (
-        <CandidateList listings={listings.data} options={options.data} verifications={verifications.data ?? []} />
+        <CandidateList listings={listings.data} options={options.data} verifications={verifications.data ?? []} metrics={metrics.data ?? []} />
       )}
     </div>
   );
