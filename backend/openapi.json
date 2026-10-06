@@ -1111,6 +1111,16 @@
             "type": "object",
             "title": "Price Levels"
           },
+          "rent_levels": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Sourced_float_"
+            },
+            "propertyNames": {
+              "$ref": "#/components/schemas/PropertyType"
+            },
+            "type": "object",
+            "title": "Rent Levels"
+          },
           "rental_demand": {
             "anyOf": [
               {

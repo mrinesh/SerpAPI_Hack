@@ -43,6 +43,10 @@ class FakeLLM:
 
     def generate_structured(self, **kwargs):
         self.calls.append(kwargs)
+        if kwargs["task"] == "extract_rent":
+            from app.pipeline.enrichment.rent_level import RentExtract
+
+            return RentExtract(pairs=[], confidence=0)
         if kwargs["task"] == "extract_price_growth":
             from app.pipeline.enrichment.area import PriceGrowthExtract
 

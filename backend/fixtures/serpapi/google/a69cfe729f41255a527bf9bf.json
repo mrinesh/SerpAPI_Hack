@@ -1,0 +1,565 @@
+{
+ "engine": "google",
+ "params": {
+  "q": "office space rent per sq ft in Koramangala Bangalore",
+  "location": "Bengaluru,Karnataka,India",
+  "google_domain": "google.co.in",
+  "gl": "in",
+  "hl": "en",
+  "start": 0
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac4c12cfd5991a4eaae6f8d",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/LPiMgAZpisZduPVhh5vu1b8l5BDu4XKWeiI0gzXm7JE/6ac4c12cfd5991a4eaae6f8d.json",
+   "markdown_endpoint": "https://serpapi.com/searches/LPiMgAZpisZduPVhh5vu1b8l5BDu4XKWeiI0gzXm7JE/6ac4c12cfd5991a4eaae6f8d.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/LPiMgAZpisZduPVhh5vu1b8l5BDu4XKWeiI0gzXm7JE/6ac4c12cfd5991a4eaae6f8d.json_with_pixel_position",
+   "created_at": "2026-10-06 09:36:44 UTC",
+   "processed_at": "2026-10-06 09:36:44 UTC",
+   "google_url": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&oq=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/LPiMgAZpisZduPVhh5vu1b8l5BDu4XKWeiI0gzXm7JE/6ac4c12cfd5991a4eaae6f8d.html",
+   "total_time_taken": 41.71
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "office space rent per sq ft in Koramangala Bangalore",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "start": 0,
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "office space rent per sq ft in Koramangala Bangalore",
+   "total_results": 106,
+   "time_taken_displayed": 0.32,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "local_map": {
+   "link": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&udm=local&lsack=VsHEaqHAA7ihw8cPusjEiQk&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQtgN6BAhTEAM",
+   "image": "https://serpapi.com/searches/6ac4c12cfd5991a4eaae6f8d/images/PcXLirvc3aXWvXYtyLUV2g.png",
+   "gps_coordinates": {
+    "latitude": 12.955713422193524,
+    "longitude": 77.62046813964844
+   }
+  },
+  "local_results": {
+   "places": [
+    {
+     "position": 1,
+     "title": "Novel Business Park",
+     "type": "Coworking space",
+     "rating": 4.1,
+     "reviews": 1115,
+     "description": "\"Very Good office space to start up with , at a reasonable cost\"",
+     "links": {
+      "phone": "tel:099000 07879",
+      "website": "https://www.noveloffice.in/"
+     },
+     "place_id": "2125511246753758938",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=2125511246753758938&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=0",
+     "provider_id": "/g/1vnthb5c",
+     "gps_coordinates": {
+      "latitude": 12.951336,
+      "longitude": 77.608174
+     },
+     "address": "57 13th Cross, Baldwins Road, Koramangala, Bengaluru, Karnataka 560030",
+     "hours": "Open 24 hours",
+     "phone": "099000 07879"
+    },
+    {
+     "position": 2,
+     "title": "IndiQube Sigma",
+     "type": "Coworking space",
+     "rating": 4,
+     "reviews": 174,
+     "description": "\"Decent office space, valet parking only for employees\"",
+     "links": {
+      "phone": "tel:073492 82552",
+      "website": "https://indiqube.com/indiqube-sigma/"
+     },
+     "place_id": "18192659035314024009",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=18192659035314024009&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=0",
+     "provider_id": "/g/11cnc9sq5f",
+     "gps_coordinates": {
+      "latitude": 12.925383,
+      "longitude": 77.631558
+     },
+     "address": "Nexus, No3/B, 3rd Block, Koramangala 1A Block, SBI Colony, Koramangala, Bengaluru, Karnataka 560034",
+     "hours": "Open 24 hours",
+     "phone": "073492 82552"
+    },
+    {
+     "position": 3,
+     "title": "Furnished Office Space In Bangalore / Office Space In Bangalore",
+     "type": "Office space rental agency",
+     "rating": 5,
+     "reviews": 231,
+     "description": "\"Best Website for finding Furnished Office Space in Bangalore\"",
+     "links": {
+      "phone": "tel:093410 00005",
+      "website": "http://www.bangalorefurnishedoffice.com/"
+     },
+     "place_id": "7531081891255577209",
+     "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&ludocid=7531081891255577209&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=0",
+     "provider_id": "/g/11cs3dfhyk",
+     "gps_coordinates": {
+      "latitude": 12.983133,
+      "longitude": 77.599747
+     },
+     "address": "1-2, Bowring Hospital Rd, behind Hotel Ramada 31, Shivaji Nagar, Bengaluru, Karnataka 560001",
+     "hours": "Open · Closes 8 pm",
+     "phone": "093410 00005"
+    }
+   ],
+   "more_locations_link": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&udm=local&lsack=VsHEaqHAA7ihw8cPusjEiQk&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQjGp6BAhUEAE"
+  },
+  "related_questions": [
+   {
+    "question": "Where can I find workspace for rent in Bangalore?",
+    "type": "ai_overview",
+    "page_token": "uEG1c3icHdBLbuIwAABQzWW6BJwQqiKh0QSclGjiyA7-xJtRbAMmcT6FqIHs5g49Qk_V03Q0-7d6fz_dpa2_fnzYYehv6_l8HMfZuevO7jjT3ezSzsvbo9VzXTqnSl2vV88r8POkN_Bdh9urDjHte7YjizwHZQbB1vC9JyZm092vpYxcQw4Scs7SXMiesheci6RG8f1iWNhJioGheqC7yFNVWKopyaQID6mvA8Ogd3T1w0TFkrbYly6MJehhtsOBmKIui9wqh8FC0QCZ2KacyxIdWI5YOmGRDJqSOPW6KeP7gdfDNa37vKjgUgoECq-HTCSPskV7WrkROcdNgzzKSVNQwzUn2yOTFXe2UUA2xktCCRIs6UuebwGB9p9Z2KgQ0R5T6Jfc-lmMsBHojXBHynt3wZRMunINpXpi3m1Svr0rZ98yZn6nr4xnUeKrWPpqgoEZn076feM__b_e_Dk1w7q_dudvcf6NMQ",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=uEG1c3icHdBLbuIwAABQzWW6BJwQqiKh0QSclGjiyA7-xJtRbAMmcT6FqIHs5g49Qk_V03Q0-7d6fz_dpa2_fnzYYehv6_l8HMfZuevO7jjT3ezSzsvbo9VzXTqnSl2vV88r8POkN_Bdh9urDjHte7YjizwHZQbB1vC9JyZm092vpYxcQw4Scs7SXMiesheci6RG8f1iWNhJioGheqC7yFNVWKopyaQID6mvA8Ogd3T1w0TFkrbYly6MJehhtsOBmKIui9wqh8FC0QCZ2KacyxIdWI5YOmGRDJqSOPW6KeP7gdfDNa37vKjgUgoECq-HTCSPskV7WrkROcdNgzzKSVNQwzUn2yOTFXe2UUA2xktCCRIs6UuebwGB9p9Z2KgQ0R5T6Jfc-lmMsBHojXBHynt3wZRMunINpXpi3m1Svr0rZ98yZn6nr4xnUeKrWPpqgoEZn076feM__b_e_Dk1w7q_dudvcf6NMQ",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSk1HUTRjMFo1VVdsd2RHNDBPQzFmYUdaWlIyZHZibGhKU1UxaUxVRnNVVXM0VDJJeVQzWnJTRkJWYnpKclMxVm5RWEJwU2xOZllUWjFYMmhITmtZNVUwdFRaMVZRU0ZGelNWVnZOVFJJWWxCcFZVWndWWGRMUm14TVp4SVhWbk5JUldGeFNFRkJOMmxvZHpoalVIVnpha1ZwVVdzYUlrRkVjM0k1WmxKRFpHNVNTa0prVVhabU9EWm5WREZvTkVaRFdGRm5Zeko0VEVFIiwiZmN2IjoiMyIsImVpIjoiVnNIRWFxSEFBN2lodzhjUHVzakVpUWsiLCJxYyI6ImMtTXl5VTlMeTB4T1ZTZ3VTQVNTUmFsNUpRb0ZxVVVLeFlVS2FTVUttWGtLMmZsRmlibUplZW1KT1lrS1NXQTZ2eWhWZ0tHMjZULWZQUUEiLCJxdWVzdGlvbiI6IldoZXJlIGNhbiBJIGZpbmQgd29ya3NwYWNlIGZvciByZW50IGluIEJhbmdhbG9yZT8iLCJsayI6IkdoOTNiM0pyYzNCaFkyVWdabTl5SUhKbGJuUWdhVzRnWW1GdVoyRnNiM0psIiwiYnMiOiJjNDNRdjJ2Q1VCQUhjRnpmNUp6RmI4RktFWmRtRTRkQU54SHNVblMtdmx5U0k4bDdjbmxFOHRfN0dtaHByWlpPTjl6bnlfMHdCX044ckZnWmxoeTJLTVRsT0h1dHV4TlpSdUVWeWk1QUhGN0lsZFI0NVN4OVNHYTN6ZnVuTWFfbWNkdEJBa3J2Y3dRZnV6MTNJX0pGSVRFM3ByTjBrY3psSDlDSTJmeGE5RHY0c2NlYmlxMkdGWFk3N0tra3pkSmw4blJYaDFHanJ1RS1zTEZtZmF3b3RqcUVpa0U5SzVWeHNHOWJWaXZVak1sWUJ1RW12X3BOdk9jUC1QV2c2ZVFDIiwiaWQiOiJmY19Wc0hFYXFIQUE3aWh3OGNQdXNqRWlRa182In0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSk1HUTRjMFo1VVdsd2RHNDBPQzFmYUdaWlIyZHZibGhKU1UxaUxVRnNVVXM0VDJJeVQzWnJTRkJWYnpKclMxVm5RWEJwU2xOZllUWjFYMmhITmtZNVUwdFRaMVZRU0ZGelNWVnZOVFJJWWxCcFZVWndWWGRMUm14TVp4SVhWbk5JUldGeFNFRkJOMmxvZHpoalVIVnpha1ZwVVdzYUlrRkVjM0k1WmxKRFpHNVNTa0prVVhabU9EWm5WREZvTkVaRFdGRm5Zeko0VEVFIiwiZmN2IjoiMyIsImVpIjoiVnNIRWFxSEFBN2lodzhjUHVzakVpUWsiLCJxYyI6ImMtTXl5VTlMeTB4T1ZTZ3VTQVNTUmFsNUpRb0ZxVVVLeFlVS2FTVUttWGtLMmZsRmlibUplZW1KT1lrS1NXQTZ2eWhWZ0tHMjZULWZQUUEiLCJxdWVzdGlvbiI6IldoZXJlIGNhbiBJIGZpbmQgd29ya3NwYWNlIGZvciByZW50IGluIEJhbmdhbG9yZT8iLCJsayI6IkdoOTNiM0pyYzNCaFkyVWdabTl5SUhKbGJuUWdhVzRnWW1GdVoyRnNiM0psIiwiYnMiOiJjNDNRdjJ2Q1VCQUhjRnpmNUp6RmI4RktFWmRtRTRkQU54SHNVblMtdmx5U0k4bDdjbmxFOHRfN0dtaHByWlpPTjl6bnlfMHdCX044ckZnWmxoeTJLTVRsT0h1dHV4TlpSdUVWeWk1QUhGN0lsZFI0NVN4OVNHYTN6ZnVuTWFfbWNkdEJBa3J2Y3dRZnV6MTNJX0pGSVRFM3ByTjBrY3psSDlDSTJmeGE5RHY0c2NlYmlxMkdGWFk3N0tra3pkSmw4blJYaDFHanJ1RS1zTEZtZmF3b3RqcUVpa0U5SzVWeHNHOWJWaXZVak1sWUJ1RW12X3BOdk9jUC1QV2c2ZVFDIiwiaWQiOiJmY19Wc0hFYXFIQUE3aWh3OGNQdXNqRWlRa182In0%3D"
+   },
+   {
+    "question": "Is it good to invest in office space?",
+    "type": "ai_overview",
+    "page_token": "_wNC93icHdBdboIwAADg7DI-Kj_GZSZmidIqRuootMW-LKVVKxbaKU7wbXfZqXaaLTvBl3xf3-bUnH-eOt227jodje73-_Bo7dHsh9IOT81IXPtGjqQwphTyPJ08T_zXg5yBWzxffMTzlDhHI-zlK0QLnwt6xgtMjCUP4yuIAwXMTTC_V57G5UPlSQUrtOLb8kF6xOgk89qAsnWxKZRNvC7JfAfYGV53obYSaKsCr1U5vhEPrnltLvuGViKi6zLSm8R_CRDokPDisViarWKmVzW_C59f5HL9ljNYUcpjCrpxAhzJG4czRgFfuWTLutN-6UMe0BUNdEBr7IhBIgkR4A2cA62Y9DTcFTBOCQgF0-F2iVJVoA_MDBadPaUEP2RlalJxnOf6KgNT7BmK_twoY-iQGJrtcnUrDb6QdHCQn7Nw8P85ez_U7dRd7PEXgtCEnw",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=_wNC93icHdBdboIwAADg7DI-Kj_GZSZmidIqRuootMW-LKVVKxbaKU7wbXfZqXaaLTvBl3xf3-bUnH-eOt227jodje73-_Bo7dHsh9IOT81IXPtGjqQwphTyPJ08T_zXg5yBWzxffMTzlDhHI-zlK0QLnwt6xgtMjCUP4yuIAwXMTTC_V57G5UPlSQUrtOLb8kF6xOgk89qAsnWxKZRNvC7JfAfYGV53obYSaKsCr1U5vhEPrnltLvuGViKi6zLSm8R_CRDokPDisViarWKmVzW_C59f5HL9ljNYUcpjCrpxAhzJG4czRgFfuWTLutN-6UMe0BUNdEBr7IhBIgkR4A2cA62Y9DTcFTBOCQgF0-F2iVJVoA_MDBadPaUEP2RlalJxnOf6KgNT7BmK_twoY-iQGJrtcnUrDb6QdHCQn7Nw8P85ez_U7dRd7PEXgtCEnw",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSk1HUTRjMFo1VVdsd2RHNDBPQzFmYUdaWlIyZHZibGhKU1UxaUxVRnNVVXM0VDJJeVQzWnJTRkJWYnpKclMxVm5RWEJwU2xOZllUWjFYMmhITmtZNVUwdFRaMVZRU0ZGelNWVnZOVFJJWWxCcFZVWndWWGRMUm14TVp4SVhWbk5JUldGeFNFRkJOMmxvZHpoalVIVnpha1ZwVVdzYUlrRkVjM0k1WmxKRFpHNVNTa0prVVhabU9EWm5WREZvTkVaRFdGRm5Zeko0VEVFIiwiZmN2IjoiMyIsImVpIjoiVnNIRWFxSEFBN2lodzhjUHVzakVpUWsiLCJxYyI6ImMtTXl5VTlMeTB4T1ZTZ3VTQVNTUmFsNUpRb0ZxVVVLeFlVS2FTVUttWGtLMmZsRmlibUplZW1KT1lrS1NXQTZ2eWhWZ0tHMjZULWZQUUEiLCJxdWVzdGlvbiI6IklzIGl0IGdvb2QgdG8gaW52ZXN0IGluIG9mZmljZSBzcGFjZT8iLCJsayI6IkdpUnBjeUJwZENCbmIyOWtJSFJ2SUdsdWRtVnpkQ0JwYmlCdlptWnBZMlVnYzNCaFkyVSIsImJzIjoiYzQzUXYydkNVQkFIY0Z6ZjVKekZiOEZLRVpkbUU0ZEFOeEhzVW5TLXZseVNJOGw3Y25sRTh0XzdHbWhwclpaT045em55XzB3Ql9OOHJGZ1psaHkyS01UbE9IdXR1eE5aUnVFVnlpNUFIRjdJbGRSNDVTeDlTR2EzemZ1bk1hX21jZHRCQWtydmN3UWZ1ejEzSV9KRklURTNwck4wa2N6bEg5Q0kyZnhhOUR2NHNjZWJpcTJHRlhZNzdLa2t6ZEpsOG5SWGgxR2pydUUtc0xGbWZhd290anFFaWtFOUs1VnhzRzliVml2VWpNbFlCdUVtdl9wTnZPY1AtUFdnNmVRQyIsImlkIjoiZmNfVnNIRWFxSEFBN2lodzhjUHVzakVpUWtfNiJ9",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSk1HUTRjMFo1VVdsd2RHNDBPQzFmYUdaWlIyZHZibGhKU1UxaUxVRnNVVXM0VDJJeVQzWnJTRkJWYnpKclMxVm5RWEJwU2xOZllUWjFYMmhITmtZNVUwdFRaMVZRU0ZGelNWVnZOVFJJWWxCcFZVWndWWGRMUm14TVp4SVhWbk5JUldGeFNFRkJOMmxvZHpoalVIVnpha1ZwVVdzYUlrRkVjM0k1WmxKRFpHNVNTa0prVVhabU9EWm5WREZvTkVaRFdGRm5Zeko0VEVFIiwiZmN2IjoiMyIsImVpIjoiVnNIRWFxSEFBN2lodzhjUHVzakVpUWsiLCJxYyI6ImMtTXl5VTlMeTB4T1ZTZ3VTQVNTUmFsNUpRb0ZxVVVLeFlVS2FTVUttWGtLMmZsRmlibUplZW1KT1lrS1NXQTZ2eWhWZ0tHMjZULWZQUUEiLCJxdWVzdGlvbiI6IklzIGl0IGdvb2QgdG8gaW52ZXN0IGluIG9mZmljZSBzcGFjZT8iLCJsayI6IkdpUnBjeUJwZENCbmIyOWtJSFJ2SUdsdWRtVnpkQ0JwYmlCdlptWnBZMlVnYzNCaFkyVSIsImJzIjoiYzQzUXYydkNVQkFIY0Z6ZjVKekZiOEZLRVpkbUU0ZEFOeEhzVW5TLXZseVNJOGw3Y25sRTh0XzdHbWhwclpaT045em55XzB3Ql9OOHJGZ1psaHkyS01UbE9IdXR1eE5aUnVFVnlpNUFIRjdJbGRSNDVTeDlTR2EzemZ1bk1hX21jZHRCQWtydmN3UWZ1ejEzSV9KRklURTNwck4wa2N6bEg5Q0kyZnhhOUR2NHNjZWJpcTJHRlhZNzdLa2t6ZEpsOG5SWGgxR2pydUUtc0xGbWZhd290anFFaWtFOUs1VnhzRzliVml2VWpNbFlCdUVtdl9wTnZPY1AtUFdnNmVRQyIsImlkIjoiZmNfVnNIRWFxSEFBN2lodzhjUHVzakVpUWtfNiJ9"
+   },
+   {
+    "question": "Where can I find office space for rent in Trichy, KK Nagar?",
+    "type": "ai_overview",
+    "page_token": "sV7wWnicHZBLjtowAEDVy8wSEjKlGiQ0moAdoIoje_xJvBkZB3Bi51OGjj3Z9Q49Qk_V0xR1-_Q27_3645re_v3y29xu4_tqPvfezy7DcHGnmR5mTT9X75-9nmvl3FFpu1p-W8bPZ70GHzrdXHWK2TjyLYleWQiscw2Dh4Fmpr37O2kdopn3p66aWHkoKK33x95sdCRlwRzlPO3pJj7kmZ80ID8VlyDvYYO7GFNIIGpBOPGXz0o4ekx4XLHLVwmxz0WIUZIH2d45NzvdPYk6CrFamFSCUOHW-JzV37lA11cbhQI82WoiA4lffA5QVpV1V9Daakcw5QYfLQ7FjosC1rx2DiEb3bgYOaOHRJcpuXd0aMsXJJYpa_kETC10ZGBVwj1mIFHCJEWGcF2iH0Q4osLQYEYm3bqOQ7lkQLashwvFxgXhJlHWPuYt3GtoCtHLLcMPZ_2xTh7-v16_nbvbarwOl3-hkY-U",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=sV7wWnicHZBLjtowAEDVy8wSEjKlGiQ0moAdoIoje_xJvBkZB3Bi51OGjj3Z9Q49Qk_V0xR1-_Q27_3645re_v3y29xu4_tqPvfezy7DcHGnmR5mTT9X75-9nmvl3FFpu1p-W8bPZ70GHzrdXHWK2TjyLYleWQiscw2Dh4Fmpr37O2kdopn3p66aWHkoKK33x95sdCRlwRzlPO3pJj7kmZ80ID8VlyDvYYO7GFNIIGpBOPGXz0o4ekx4XLHLVwmxz0WIUZIH2d45NzvdPYk6CrFamFSCUOHW-JzV37lA11cbhQI82WoiA4lffA5QVpV1V9Daakcw5QYfLQ7FjosC1rx2DiEb3bgYOaOHRJcpuXd0aMsXJJYpa_kETC10ZGBVwj1mIFHCJEWGcF2iH0Q4osLQYEYm3bqOQ7lkQLashwvFxgXhJlHWPuYt3GtoCtHLLcMPZ_2xTh7-v16_nbvbarwOl3-hkY-U",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSk1HUTRjMFo1VVdsd2RHNDBPQzFmYUdaWlIyZHZibGhKU1UxaUxVRnNVVXM0VDJJeVQzWnJTRkJWYnpKclMxVm5RWEJwU2xOZllUWjFYMmhITmtZNVUwdFRaMVZRU0ZGelNWVnZOVFJJWWxCcFZVWndWWGRMUm14TVp4SVhWbk5JUldGeFNFRkJOMmxvZHpoalVIVnpha1ZwVVdzYUlrRkVjM0k1WmxKRFpHNVNTa0prVVhabU9EWm5WREZvTkVaRFdGRm5Zeko0VEVFIiwiZmN2IjoiMyIsImVpIjoiVnNIRWFxSEFBN2lodzhjUHVzakVpUWsiLCJxYyI6ImMtTXl5VTlMeTB4T1ZTZ3VTQVNTUmFsNUpRb0ZxVVVLeFlVS2FTVUttWGtLMmZsRmlibUplZW1KT1lrS1NXQTZ2eWhWZ0tHMjZULWZQUUEiLCJxdWVzdGlvbiI6IldoZXJlIGNhbiBJIGZpbmQgb2ZmaWNlIHNwYWNlIGZvciByZW50IGluIFRyaWNoeSwgS0sgTmFnYXI/IiwibGsiOiJHaWh2Wm1acFkyVWdjM0JoWTJVZ1ptOXlJSEpsYm5RZ2FXNGdkSEpwWTJoNUlHdHJJRzVoWjJGeSIsImJzIjoiYzQzUXYydkNVQkFIY0Z6ZjVKekZiOEZLRVpkbUU0ZEFOeEhzVW5TLXZseVNJOGw3Y25sRTh0XzdHbWhwclpaT045em55XzB3Ql9OOHJGZ1psaHkyS01UbE9IdXR1eE5aUnVFVnlpNUFIRjdJbGRSNDVTeDlTR2EzemZ1bk1hX21jZHRCQWtydmN3UWZ1ejEzSV9KRklURTNwck4wa2N6bEg5Q0kyZnhhOUR2NHNjZWJpcTJHRlhZNzdLa2t6ZEpsOG5SWGgxR2pydUUtc0xGbWZhd290anFFaWtFOUs1VnhzRzliVml2VWpNbFlCdUVtdl9wTnZPY1AtUFdnNmVRQyIsImlkIjoiZmNfVnNIRWFxSEFBN2lodzhjUHVzakVpUWtfNiJ9",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSk1HUTRjMFo1VVdsd2RHNDBPQzFmYUdaWlIyZHZibGhKU1UxaUxVRnNVVXM0VDJJeVQzWnJTRkJWYnpKclMxVm5RWEJwU2xOZllUWjFYMmhITmtZNVUwdFRaMVZRU0ZGelNWVnZOVFJJWWxCcFZVWndWWGRMUm14TVp4SVhWbk5JUldGeFNFRkJOMmxvZHpoalVIVnpha1ZwVVdzYUlrRkVjM0k1WmxKRFpHNVNTa0prVVhabU9EWm5WREZvTkVaRFdGRm5Zeko0VEVFIiwiZmN2IjoiMyIsImVpIjoiVnNIRWFxSEFBN2lodzhjUHVzakVpUWsiLCJxYyI6ImMtTXl5VTlMeTB4T1ZTZ3VTQVNTUmFsNUpRb0ZxVVVLeFlVS2FTVUttWGtLMmZsRmlibUplZW1KT1lrS1NXQTZ2eWhWZ0tHMjZULWZQUUEiLCJxdWVzdGlvbiI6IldoZXJlIGNhbiBJIGZpbmQgb2ZmaWNlIHNwYWNlIGZvciByZW50IGluIFRyaWNoeSwgS0sgTmFnYXI%2FIiwibGsiOiJHaWh2Wm1acFkyVWdjM0JoWTJVZ1ptOXlJSEpsYm5RZ2FXNGdkSEpwWTJoNUlHdHJJRzVoWjJGeSIsImJzIjoiYzQzUXYydkNVQkFIY0Z6ZjVKekZiOEZLRVpkbUU0ZEFOeEhzVW5TLXZseVNJOGw3Y25sRTh0XzdHbWhwclpaT045em55XzB3Ql9OOHJGZ1psaHkyS01UbE9IdXR1eE5aUnVFVnlpNUFIRjdJbGRSNDVTeDlTR2EzemZ1bk1hX21jZHRCQWtydmN3UWZ1ejEzSV9KRklURTNwck4wa2N6bEg5Q0kyZnhhOUR2NHNjZWJpcTJHRlhZNzdLa2t6ZEpsOG5SWGgxR2pydUUtc0xGbWZhd290anFFaWtFOUs1VnhzRzliVml2VWpNbFlCdUVtdl9wTnZPY1AtUFdnNmVRQyIsImlkIjoiZmNfVnNIRWFxSEFBN2lodzhjUHVzakVpUWtfNiJ9"
+   },
+   {
+    "question": "What is the average commercial rental yield in Bangalore?",
+    "type": "ai_overview",
+    "page_token": "PgM0qnicHdBBcpswFADQ6WWytA24buoZT2acSgZaZJDRF2jTAckYgwAlEIt41zv0CDlVT9NO12_3fn3oa9_--fS7niYzbpdLa-3iMgwXfV7IYXHtl8X43sulLLQuC9luN182zlMld-gm98-vcp8wY-AbXaXI5AKr7ycfhjwN7nln-kibjPnkdmLaQBtuaDfFpCe1yihjh9GRCMclmnDUtrNCbGZo7ZxTUaUgsiPQ8J89M_w4nX0TKayCgqsu777OAsImaQSA-5mkrglKoFnR5xaacGDYbKIDjZWOXObDSwmtJzwRCIbfyqszHrnT_4DwTg8Xy_g0cBAj4XovVsae3PVEGlJxBoj7uFI9vKmWQp6iO81oETGIoRV7VCsuVzXOMxwkDHkFr73jgSQqIy-Ua1rMwzVh9C4b3TF4tGSl2jwLq4TbOXKj9ZGNFnxsJUQe5WEs7EMlbzvv4f_17mfVTVvzOlz-AklYj78",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=PgM0qnicHdBBcpswFADQ6WWytA24buoZT2acSgZaZJDRF2jTAckYgwAlEIt41zv0CDlVT9NO12_3fn3oa9_--fS7niYzbpdLa-3iMgwXfV7IYXHtl8X43sulLLQuC9luN182zlMld-gm98-vcp8wY-AbXaXI5AKr7ycfhjwN7nln-kibjPnkdmLaQBtuaDfFpCe1yihjh9GRCMclmnDUtrNCbGZo7ZxTUaUgsiPQ8J89M_w4nX0TKayCgqsu777OAsImaQSA-5mkrglKoFnR5xaacGDYbKIDjZWOXObDSwmtJzwRCIbfyqszHrnT_4DwTg8Xy_g0cBAj4XovVsae3PVEGlJxBoj7uFI9vKmWQp6iO81oETGIoRV7VCsuVzXOMxwkDHkFr73jgSQqIy-Ua1rMwzVh9C4b3TF4tGSl2jwLq4TbOXKj9ZGNFnxsJUQe5WEs7EMlbzvv4f_17mfVTVvzOlz-AklYj78",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSk1HUTRjMFo1VVdsd2RHNDBPQzFmYUdaWlIyZHZibGhKU1UxaUxVRnNVVXM0VDJJeVQzWnJTRkJWYnpKclMxVm5RWEJwU2xOZllUWjFYMmhITmtZNVUwdFRaMVZRU0ZGelNWVnZOVFJJWWxCcFZVWndWWGRMUm14TVp4SVhWbk5JUldGeFNFRkJOMmxvZHpoalVIVnpha1ZwVVdzYUlrRkVjM0k1WmxKRFpHNVNTa0prVVhabU9EWm5WREZvTkVaRFdGRm5Zeko0VEVFIiwiZmN2IjoiMyIsImVpIjoiVnNIRWFxSEFBN2lodzhjUHVzakVpUWsiLCJxYyI6ImMtTXl5VTlMeTB4T1ZTZ3VTQVNTUmFsNUpRb0ZxVVVLeFlVS2FTVUttWGtLMmZsRmlibUplZW1KT1lrS1NXQTZ2eWhWZ0tHMjZULWZQUUEiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGF2ZXJhZ2UgY29tbWVyY2lhbCByZW50YWwgeWllbGQgaW4gQmFuZ2Fsb3JlPyIsImxrIjoiR2lSamIyMXRaWEpqYVdGc0lISmxiblJoYkNCNWFXVnNaQ0JwYmlCaVlXNW5ZV3h2Y21VIiwiYnMiOiJjNDNRdjJ2Q1VCQUhjRnpmNUp6RmI4RktFWmRtRTRkQU54SHNVblMtdmx5U0k4bDdjbmxFOHRfN0dtaHByWlpPTjl6bnlfMHdCX044ckZnWmxoeTJLTVRsT0h1dHV4TlpSdUVWeWk1QUhGN0lsZFI0NVN4OVNHYTN6ZnVuTWFfbWNkdEJBa3J2Y3dRZnV6MTNJX0pGSVRFM3ByTjBrY3psSDlDSTJmeGE5RHY0c2NlYmlxMkdGWFk3N0tra3pkSmw4blJYaDFHanJ1RS1zTEZtZmF3b3RqcUVpa0U5SzVWeHNHOWJWaXZVak1sWUJ1RW12X3BOdk9jUC1QV2c2ZVFDIiwiaWQiOiJmY19Wc0hFYXFIQUE3aWh3OGNQdXNqRWlRa182In0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSk1HUTRjMFo1VVdsd2RHNDBPQzFmYUdaWlIyZHZibGhKU1UxaUxVRnNVVXM0VDJJeVQzWnJTRkJWYnpKclMxVm5RWEJwU2xOZllUWjFYMmhITmtZNVUwdFRaMVZRU0ZGelNWVnZOVFJJWWxCcFZVWndWWGRMUm14TVp4SVhWbk5JUldGeFNFRkJOMmxvZHpoalVIVnpha1ZwVVdzYUlrRkVjM0k1WmxKRFpHNVNTa0prVVhabU9EWm5WREZvTkVaRFdGRm5Zeko0VEVFIiwiZmN2IjoiMyIsImVpIjoiVnNIRWFxSEFBN2lodzhjUHVzakVpUWsiLCJxYyI6ImMtTXl5VTlMeTB4T1ZTZ3VTQVNTUmFsNUpRb0ZxVVVLeFlVS2FTVUttWGtLMmZsRmlibUplZW1KT1lrS1NXQTZ2eWhWZ0tHMjZULWZQUUEiLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGF2ZXJhZ2UgY29tbWVyY2lhbCByZW50YWwgeWllbGQgaW4gQmFuZ2Fsb3JlPyIsImxrIjoiR2lSamIyMXRaWEpqYVdGc0lISmxiblJoYkNCNWFXVnNaQ0JwYmlCaVlXNW5ZV3h2Y21VIiwiYnMiOiJjNDNRdjJ2Q1VCQUhjRnpmNUp6RmI4RktFWmRtRTRkQU54SHNVblMtdmx5U0k4bDdjbmxFOHRfN0dtaHByWlpPTjl6bnlfMHdCX044ckZnWmxoeTJLTVRsT0h1dHV4TlpSdUVWeWk1QUhGN0lsZFI0NVN4OVNHYTN6ZnVuTWFfbWNkdEJBa3J2Y3dRZnV6MTNJX0pGSVRFM3ByTjBrY3psSDlDSTJmeGE5RHY0c2NlYmlxMkdGWFk3N0tra3pkSmw4blJYaDFHanJ1RS1zTEZtZmF3b3RqcUVpa0U5SzVWeHNHOWJWaXZVak1sWUJ1RW12X3BOdk9jUC1QV2c2ZVFDIiwiaWQiOiJmY19Wc0hFYXFIQUE3aWh3OGNQdXNqRWlRa182In0%3D"
+   }
+  ],
+  "ai_overview": {
+   "page_token": "Sh5GxniczZbNkqo4FMdXs5vXGDb2VfGj1a6ibiURENS20VZbNxQGDCgfSrDV3s27zFPN00xA8WL7MX3vYmqyMITknJwTzi9___zLdfzl37__ZkfRij4VCtvtNk-CgLhWHgd5xy8YdO_jwjxwaYjt75uNawnbHAKKpiBlqnmjzbQkUfNN5TtiZGOvapuyFE4GO3Xm9VcTjbNdwfI5GmxCbDmmgO0w8CyOuILjc_t3ocxhKhQ5yxFGtCUa6xYANcfe1vHLhi5ER1tySQCCPjOotWAR7ha0oBfYz_KPcpMN8jRv-boM86-NcSmQ3tUIbPOlYqmc7xUMj60B_2kjCpiwTo2fxZurIADoK95E5gIqWUcQJl3GmrBpGHeKloylO94SM1EjSQSs6bvFR5OZySRds7xpfTYjHxxoStKLzBwpX0koE8xZsPeMb82RMw_JsZ9PXW0QZicVgEgXvCjAvm7Mzv5se3ZWzcN7DJR6qwLZ99DuxA7aBPSmQLQPtvfaEMrWaW-Jsm3EgklYARcLs5B1fMHBNk4eQhrXNXptFAOpEnbK7Tc3XFcf97vWS_3t3ZNXc0-Tu1oBz9g6NzBMy9Rtvfg9GfMlvlpslGv1h4QpTE9Q0SxUsjfT-3XckGpBvpOHfIoTyn6QbErx2-G1HGFcrWJacp8big0vzBAKzlwcF7CP0UUAncODpFZ8bCfQ2cOOgM15EaQIEXCJE0oj-RExIFq6Z187WZ-FqYjQyVhks2t9Tof5vsye9A6WiJXuwfOxNEXw-XpAIowZOwWwzU7GlwliUMMDDOuKcki0mynloqhe3EbxUdjM9Dg88p1-3En2-OIzYLcGi1MFChSVgcSuJZTuzsI7nhDD6TMPylUW4xNm2Wq3r8h7bfilVWLKzScMsvjI9T0oz5xlz-97xeW4Ohgj2bGkaeVxDq7jEniznxMh_H9jKpWoeIF4jyn0FaaYRJErEnX0d3CaSpSmHiXqNlNSwtRRomJHqUS1LiTqkqlllilZS6b7wQ2J-lmmlDtMnRxfZUq6xhS5zVQiUVmm7K52JlHKVYn6wdSvSNTwVyUqQcw6dOd6tVmQ27rV1tcfXk0dbeT6QKa2pvXCD9yttZvftv-qW3MvevIM033QHfMJltRobz7o7EXwZJncWgjmcwdbOboy2G9o-VFuZYU5us7No5zj59pBaHiGTwzXyMGkD0KL89wwEIpGtTnqh-N9p6raHSOoYd62Om3VrZjD4oTIroHUOux5E-J4kVzrPGtNNBPHUavrqfp0rHe6r_K3Pqy9Nh4_9E57X57zm3dzDaI-ccJevQRtkQZ6YwKGHSSKz7xd5q2XxcLZmo35qGUjp1trdnaqqI10cRBMx0lUVFDn5HVjTfzannIsTWoJPOeFWGDVUiHgWQNjAjFArJQQAUMjYP0WaPIjqwVYYmXEUWzoFmX_ts2KUedLuIGxWZ2XDM4j0X4lVMoc9UOB_wcxYWs9",
+   "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Sh5GxniczZbNkqo4FMdXs5vXGDb2VfGj1a6ibiURENS20VZbNxQGDCgfSrDV3s27zFPN00xA8WL7MX3vYmqyMITknJwTzi9___zLdfzl37__ZkfRij4VCtvtNk-CgLhWHgd5xy8YdO_jwjxwaYjt75uNawnbHAKKpiBlqnmjzbQkUfNN5TtiZGOvapuyFE4GO3Xm9VcTjbNdwfI5GmxCbDmmgO0w8CyOuILjc_t3ocxhKhQ5yxFGtCUa6xYANcfe1vHLhi5ER1tySQCCPjOotWAR7ha0oBfYz_KPcpMN8jRv-boM86-NcSmQ3tUIbPOlYqmc7xUMj60B_2kjCpiwTo2fxZurIADoK95E5gIqWUcQJl3GmrBpGHeKloylO94SM1EjSQSs6bvFR5OZySRds7xpfTYjHxxoStKLzBwpX0koE8xZsPeMb82RMw_JsZ9PXW0QZicVgEgXvCjAvm7Mzv5se3ZWzcN7DJR6qwLZ99DuxA7aBPSmQLQPtvfaEMrWaW-Jsm3EgklYARcLs5B1fMHBNk4eQhrXNXptFAOpEnbK7Tc3XFcf97vWS_3t3ZNXc0-Tu1oBz9g6NzBMy9Rtvfg9GfMlvlpslGv1h4QpTE9Q0SxUsjfT-3XckGpBvpOHfIoTyn6QbErx2-G1HGFcrWJacp8big0vzBAKzlwcF7CP0UUAncODpFZ8bCfQ2cOOgM15EaQIEXCJE0oj-RExIFq6Z187WZ-FqYjQyVhks2t9Tof5vsye9A6WiJXuwfOxNEXw-XpAIowZOwWwzU7GlwliUMMDDOuKcki0mynloqhe3EbxUdjM9Dg88p1-3En2-OIzYLcGi1MFChSVgcSuJZTuzsI7nhDD6TMPylUW4xNm2Wq3r8h7bfilVWLKzScMsvjI9T0oz5xlz-97xeW4Ohgj2bGkaeVxDq7jEniznxMh_H9jKpWoeIF4jyn0FaaYRJErEnX0d3CaSpSmHiXqNlNSwtRRomJHqUS1LiTqkqlllilZS6b7wQ2J-lmmlDtMnRxfZUq6xhS5zVQiUVmm7K52JlHKVYn6wdSvSNTwVyUqQcw6dOd6tVmQ27rV1tcfXk0dbeT6QKa2pvXCD9yttZvftv-qW3MvevIM033QHfMJltRobz7o7EXwZJncWgjmcwdbOboy2G9o-VFuZYU5us7No5zj59pBaHiGTwzXyMGkD0KL89wwEIpGtTnqh-N9p6raHSOoYd62Om3VrZjD4oTIroHUOux5E-J4kVzrPGtNNBPHUavrqfp0rHe6r_K3Pqy9Nh4_9E57X57zm3dzDaI-ccJevQRtkQZ6YwKGHSSKz7xd5q2XxcLZmo35qGUjp1trdnaqqI10cRBMx0lUVFDn5HVjTfzannIsTWoJPOeFWGDVUiHgWQNjAjFArJQQAUMjYP0WaPIjqwVYYmXEUWzoFmX_ts2KUedLuIGxWZ2XDM4j0X4lVMoc9UOB_wcxYWs9"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Furnished Office Space for Rent in Koramangala, Bangalore",
+    "link": "https://office.addressadvisors.com/furnished-office-space-for-rent-in-koramangala-bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlgEB6zswFWIJnqzwY7d-YEO9bdsUr6uNUcMvKgfrrvXrECa6_HoQTjHz1H1UIuYxI_00fWnOXvootVTjsWT-Oic6Ze6yeI0T8-JBzFTzIypF0uL5g6HXlxj6R8OQXdrni2o6Ft9nghBYCJ7Z2ykb5pR1FKIrMZZWBAdGl9YwjlN0X2B3BdIIIhH3-cqb8Q6kLzsl6LBFYHk&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://office.addressadvisors.com › furnished-office-sp...",
+    "favicon": "https://serpapi.com/images/i/UklGRoQBAABXRUJQVlA4IHgBAACwBwCdASocABwAPtEutFooIagoGAEAGglsAJ0zND9_8JzGzgb4B0nhXge3GgAFLsTkyfhwNQhCpefg29ADI8EXcjFe-wAAAP72E6enQ9wA8dcEZnxWerhjCtE09meYxlnPQ-62Hf2l4fWDAkywIRhLodwI4-6lVeYZDyEnDpchPEgL-bRWgUSJcKzH8U9MKM52w05qnYbswVVdKEw4x0UnMAHOlfvxnx0gluVaE9QJ7KqlmtvHJ3xy8YVDcFejt1aEu7Xy49sVCubWpQPhURD4Wfrx5_OS8SGd8kCHMsPj79eo8TpL3f-NGdt9-Z_w_tGQCkiQZ7q8d83f-Uic2e_0msjd3tPadRr8yV6Ogd4lXp2jG_c4hT_Of_jDsz5W2lDa2Hq0tD9-Ta6-um-4X-Vzff2biio1LZZ57PJ4ekbAyj4pkttqEndFfdf_1W0uxu458mVPv4ytpv4RlBOIBzpQbeUXheUE_X9MgP58J89mXFDvSslvIAAA.webp",
+    "snippet": "Explore furnished office space in Koramangala with modern amenities, flexible layouts, and prime connectivity. Enquire Now sort by SQFT (Low to High) Contact ...",
+    "snippet_highlighted_words": [
+     "Explore furnished office space in Koramangala"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Explore furnished office space in Koramangala with modern amenities, flexible layouts, and prime connectivity. Enquire Now sort by SQFT (Low to High) Contact ...",
+      "source_info_link": "https://office.addressadvisors.com/furnished-office-space-for-rent-in-koramangala-bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRoQBAABXRUJQVlA4IHgBAACwBwCdASocABwAPtEutFooIagoGAEAGglsAJ0zND9_8JzGzgb4B0nhXge3GgAFLsTkyfhwNQhCpefg29ADI8EXcjFe-wAAAP72E6enQ9wA8dcEZnxWerhjCtE09meYxlnPQ-62Hf2l4fWDAkywIRhLodwI4-6lVeYZDyEnDpchPEgL-bRWgUSJcKzH8U9MKM52w05qnYbswVVdKEw4x0UnMAHOlfvxnx0gluVaE9QJ7KqlmtvHJ3xy8YVDcFejt1aEu7Xy49sVCubWpQPhURD4Wfrx5_OS8SGd8kCHMsPj79eo8TpL3f-NGdt9-Z_w_tGQCkiQZ7q8d83f-Uic2e_0msjd3tPadRr8yV6Ogd4lXp2jG_c4hT_Of_jDsz5W2lDa2Hq0tD9-Ta6-um-4X-Vzff2biio1LZZ57PJ4ekbAyj4pkttqEndFfdf_1W0uxu458mVPv4ytpv4RlBOIBzpQbeUXheUE_X9MgP58J89mXFDvSslvIAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtkBL2dvdG8_dXJsPUNBRVNsZ0VCNnpzd0ZXSUpucXp3WTdkLVlFTzliZHNVcjZ1TlVjTXZLZ2ZycnZYckVDYTZfSG9RVGpIejFIMVVJdVl4SV8wMGZXbk9Ydm9vdFZUanNXVC1PaWM2WmU2eWVJMFQ4LUpCekZUekl5cEYwdUw1ZzZIWGx4ajZSOE9RWGRybmkybzZGdDluZ2hCWUNKN1oyeWtiNXBSMUZLSXJNWlpXQkFkR2w5WXdqbE4wWDJCM0JkSUlJaEgzLWNxYjhRNmtMenNsNkxCRllIaxIEGgIIABrCCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQIoICAAQABgAIAAqIwoGb2ZmaWNlFW1o20AaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFeQD20AaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVSMa2QBoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVAAAAABoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EVZQPNPBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVlA808GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRWUw-FAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVLp-1QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtkBL2dvdG8_dXJsPUNBRVNsZ0VCNnpzd0ZXSUpucXp3WTdkLVlFTzliZHNVcjZ1TlVjTXZLZ2ZycnZYckVDYTZfSG9RVGpIejFIMVVJdVl4SV8wMGZXbk9Ydm9vdFZUanNXVC1PaWM2WmU2eWVJMFQ4LUpCekZUekl5cEYwdUw1ZzZIWGx4ajZSOE9RWGRybmkybzZGdDluZ2hCWUNKN1oyeWtiNXBSMUZLSXJNWlpXQkFkR2w5WXdqbE4wWDJCM0JkSUlJaEgzLWNxYjhRNmtMenNsNkxCRllIazpVRnVybmlzaGVkIDxiPk9mZmljZSBTcGFjZTwvYj4gZm9yIDxiPlJlbnQ8L2I-IGluIDxiPktvcmFtYW5nYWxhPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkKtATxiPkV4cGxvcmUgZnVybmlzaGVkIG9mZmljZSBzcGFjZSBpbiBLb3JhbWFuZ2FsYTwvYj4gd2l0aCBtb2Rlcm4gYW1lbml0aWVzLCBmbGV4aWJsZSBsYXlvdXRzLCBhbmQgcHJpbWUgY29ubmVjdGl2aXR5LiBFbnF1aXJlIE5vdyBzb3J0IGJ5IFNRRlQgKExvdyB0byBIaWdoKSBDb250YWN0Jm5ic3A7Li4uSgJpblIHZm9yIHRoZVIFZm9yIGFSAmJ5UgZmb3IgYW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtkBL2dvdG8_dXJsPUNBRVNsZ0VCNnpzd0ZXSUpucXp3WTdkLVlFTzliZHNVcjZ1TlVjTXZLZ2ZycnZYckVDYTZfSG9RVGpIejFIMVVJdVl4SV8wMGZXbk9Ydm9vdFZUanNXVC1PaWM2WmU2eWVJMFQ4LUpCekZUekl5cEYwdUw1ZzZIWGx4ajZSOE9RWGRybmkybzZGdDluZ2hCWUNKN1oyeWtiNXBSMUZLSXJNWlpXQkFkR2w5WXdqbE4wWDJCM0JkSUlJaEgzLWNxYjhRNmtMenNsNkxCRllIaxIEGgIIABrCCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQIoICAAQABgAIAAqIwoGb2ZmaWNlFW1o20AaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFeQD20AaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVSMa2QBoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVAAAAABoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EVZQPNPBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVlA808GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRWUw-FAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVLp-1QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMtkBL2dvdG8_dXJsPUNBRVNsZ0VCNnpzd0ZXSUpucXp3WTdkLVlFTzliZHNVcjZ1TlVjTXZLZ2ZycnZYckVDYTZfSG9RVGpIejFIMVVJdVl4SV8wMGZXbk9Ydm9vdFZUanNXVC1PaWM2WmU2eWVJMFQ4LUpCekZUekl5cEYwdUw1ZzZIWGx4ajZSOE9RWGRybmkybzZGdDluZ2hCWUNKN1oyeWtiNXBSMUZLSXJNWlpXQkFkR2w5WXdqbE4wWDJCM0JkSUlJaEgzLWNxYjhRNmtMenNsNkxCRllIazpVRnVybmlzaGVkIDxiPk9mZmljZSBTcGFjZTwvYj4gZm9yIDxiPlJlbnQ8L2I-IGluIDxiPktvcmFtYW5nYWxhPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkKtATxiPkV4cGxvcmUgZnVybmlzaGVkIG9mZmljZSBzcGFjZSBpbiBLb3JhbWFuZ2FsYTwvYj4gd2l0aCBtb2Rlcm4gYW1lbml0aWVzLCBmbGV4aWJsZSBsYXlvdXRzLCBhbmQgcHJpbWUgY29ubmVjdGl2aXR5LiBFbnF1aXJlIE5vdyBzb3J0IGJ5IFNRRlQgKExvdyB0byBIaWdoKSBDb250YWN0Jm5ic3A7Li4uSgJpblIHZm9yIHRoZVIFZm9yIGFSAmJ5UgZmb3IgYW4iAhABSABYAGgA",
+    "source": "Address Advisors"
+   },
+   {
+    "position": 2,
+    "title": "Office Space for rent in Bangalore",
+    "link": "https://www.99acres.com/commercial-office-space-for-rent-in-bangalore-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFRQZ35aRspGDnwNXnwSdzhJbhAk0HJJpElmGwSSohyi3wbhITa4rznd1dCXBF055BqVQRy0ByhZ71Ou1DuVeBgMQOyGmwpmgZyO7srXB3Dghh2vMI5rlhTjQu2wd5Ba2Z16DfpdPNZAZUBn4XXpQdASJa4dtZSSzuoQ3B8TLERjK&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-office-space-for...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Furnished Commercial office space for rent in Koramangala, Bangalore ₹1.7 Lac / month + Deposit 10 months rent 1,800 sqft(167 sqm) 1800 sq.Ft.,",
+    "snippet_highlighted_words": [
+     "Furnished Commercial office space for rent in Koramangala, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Furnished Commercial office space for rent in Koramangala, Bangalore ₹1.7 Lac / month + Deposit 10 months rent 1,800 sqft(167 sqm) 1800 sq.Ft.,",
+      "source_info_link": "https://www.99acres.com/commercial-office-space-for-rent-in-bangalore-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZSUVozNWFSc3BHRG53Tlhud1NkemhKYmhBazBISkpwRWxtR3dTU29oeWkzd2JoSVRhNHJ6bmQxZENYQkYwNTVCcVZRUnkwQnloWjcxT3UxRHVWZUJnTVFPeUdtd3BtZ1p5TzdzclhCM0RnaGgydk1JNXJsaFRqUXUyd2Q1QmEyWjE2RGZwZFBOWkFaVUJuNFhYcFFkQVNKYTRkdFpTU3p1b1EzQjhUTEVSaksSBBoCCAAahggSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkDOBwgAEAAYACAAKiMKBm9mZmljZRUwswBBGgdvZmZpY2VzGgtvZmZpY2VzcGFjZSofCgVzcGFjZRWeM_tAGgRyb29tGgtvZmZpY2VzcGFjZSo7CgRyZW50FXuD9EAaD2FwYXJ0bWVudHMgbmVhchoFbGVhc2UaBnJlbnRhbBoHcmVudGFscxoFcmVudHMqRwoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaBmZvciBhbhoHZm9yIHRoZRoDcHNmGgVwZXJzcRoHcGVyc3FmdBoDZm9yKlQKAnNxFUxmVkAaA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHc3F1YXJlZBoFcGVyc3EaB3BlcnNxZnQaBHNxZnQaB2l2O3A7c3EqUAoCZnQVTGZWQBoEZmVldBoHZmVldCB0bxoEZm9vdBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdwZXJzcWZ0GgRzcWZ0KgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEVFdyVPxoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFYwM8UAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLCAS9nb3RvP3VybD1DQUVTaFFFQjZ6c3dGUlFaMzVhUnNwR0Rud05YbndTZHpoSmJoQWswSEpKcEVsbUd3U1NvaHlpM3diaElUYTRyem5kMWRDWEJGMDU1QnFWUVJ5MEJ5aFo3MU91MUR1VmVCZ01RT3lHbXdwbWdaeU83c3JYQjNEZ2hoMnZNSTVybGhUalF1MndkNUJhMloxNkRmcGRQTlpBWlVCbjRYWHBRZEFTSmE0ZHRaU1N6dW9RM0I4VExFUmpLOkU8Yj5PZmZpY2UgU3BhY2U8L2I-IGZvciA8Yj5yZW50PC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-IC0gOTlhY3Jlcy5jb21CmAE8Yj5GdXJuaXNoZWQgQ29tbWVyY2lhbCBvZmZpY2Ugc3BhY2UgZm9yIHJlbnQgaW4gS29yYW1hbmdhbGEsIEJhbmdhbG9yZTwvYj4g4oK5MS43IExhYyAvIG1vbnRoICsgRGVwb3NpdCAxMCBtb250aHMgcmVudCAxLDgwMCBzcWZ0KDE2NyBzcW0pIDE4MDAgc3EuRnQuLEoCaW5SB2ZvciB0aGVSBmZvciBhblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZSUVozNWFSc3BHRG53Tlhud1NkemhKYmhBazBISkpwRWxtR3dTU29oeWkzd2JoSVRhNHJ6bmQxZENYQkYwNTVCcVZRUnkwQnloWjcxT3UxRHVWZUJnTVFPeUdtd3BtZ1p5TzdzclhCM0RnaGgydk1JNXJsaFRqUXUyd2Q1QmEyWjE2RGZwZFBOWkFaVUJuNFhYcFFkQVNKYTRkdFpTU3p1b1EzQjhUTEVSaksSBBoCCAAahggSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkDOBwgAEAAYACAAKiMKBm9mZmljZRUwswBBGgdvZmZpY2VzGgtvZmZpY2VzcGFjZSofCgVzcGFjZRWeM_tAGgRyb29tGgtvZmZpY2VzcGFjZSo7CgRyZW50FXuD9EAaD2FwYXJ0bWVudHMgbmVhchoFbGVhc2UaBnJlbnRhbBoHcmVudGFscxoFcmVudHMqRwoDcGVyFQAAAAAaAmJ5GgVldmVyeRoFZm9yIGEaBmZvciBhbhoHZm9yIHRoZRoDcHNmGgVwZXJzcRoHcGVyc3FmdBoDZm9yKlQKAnNxFUxmVkAaA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHc3F1YXJlZBoFcGVyc3EaB3BlcnNxZnQaBHNxZnQaB2l2O3A7c3EqUAoCZnQVTGZWQBoEZmVldBoHZmVldCB0bxoEZm9vdBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdwZXJzcWZ0GgRzcWZ0KgkKAmluFQAAAAAqRgoLa29yYW1hbmdhbGEVFdyVPxoKa29ybWFuZ2FsYRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaEGl2O3A7a29yYW1hbmdhbGEqNgoJYmFuZ2Fsb3JlFYwM8UAaFGdlbzszYmFlMTAwMDAwMDAwMDAwGg5pdjtwO2JhbmdhbG9yZTLCAS9nb3RvP3VybD1DQUVTaFFFQjZ6c3dGUlFaMzVhUnNwR0Rud05YbndTZHpoSmJoQWswSEpKcEVsbUd3U1NvaHlpM3diaElUYTRyem5kMWRDWEJGMDU1QnFWUVJ5MEJ5aFo3MU91MUR1VmVCZ01RT3lHbXdwbWdaeU83c3JYQjNEZ2hoMnZNSTVybGhUalF1MndkNUJhMloxNkRmcGRQTlpBWlVCbjRYWHBRZEFTSmE0ZHRaU1N6dW9RM0I4VExFUmpLOkU8Yj5PZmZpY2UgU3BhY2U8L2I-IGZvciA8Yj5yZW50PC9iPiBpbiA8Yj5CYW5nYWxvcmU8L2I-IC0gOTlhY3Jlcy5jb21CmAE8Yj5GdXJuaXNoZWQgQ29tbWVyY2lhbCBvZmZpY2Ugc3BhY2UgZm9yIHJlbnQgaW4gS29yYW1hbmdhbGEsIEJhbmdhbG9yZTwvYj4g4oK5MS43IExhYyAvIG1vbnRoICsgRGVwb3NpdCAxMCBtb250aHMgcmVudCAxLDgwMCBzcWZ0KDE2NyBzcW0pIDE4MDAgc3EuRnQuLEoCaW5SB2ZvciB0aGVSBmZvciBhblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 3,
+    "title": "Best Coworking Space in Koramangala",
+    "link": "https://cofynd.com/coworking/bangalore/koramangala",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbQHrOzAVhga1a05V1-gd-lYj9gFeYSQ0uhuJZG4x-QdJzc3Wj_VfEy9lcRzaFkxnpc2UgxVqKVcg6tMt8g5N1Sq7AfgTiietXZaK9-bmhUXfhrMj0XoDvSKchEBVddVPFNpREqktQZ-8LioU-s0&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://cofynd.com › ... › Coworking Space in Bangalore",
+    "favicon": "https://serpapi.com/images/i/UklGRtAAAABXRUJQVlA4IMQAAABQBgCdASocABwAPtE-tFooIigoFAEAGglsAIHokBvALsr3knyZgGz_oKee1K0G_QfvLwbqGarfXp0tgAD-9gLem4oU1f4Jv4bd-G9PcJZdwEcdECK9nZqn0UWXb_g2e810WqbaOTmAjEdDpJ3GyPbq75ha3Q7D0-_UGGlTqrO6zWrtyRHkDGfzpI46smlDD1kmVJu2nH0x7pR9gqVLwp_L3U_w25YgES5tL98H7YNSbkf_Sje1_3_zdLLiUD_B0WiwhQAA.webp",
+    "snippet": "Ans- The price of a coworking space in Koramangala starts from ₹4,500 /month to ₹24,999 /month. Q- What kind of amenities are offered in the Coworking space ...",
+    "snippet_highlighted_words": [
+     "space",
+     "Koramangala",
+     "space"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 4.5,
+       "reviews": 8703
+      },
+      "extensions": [
+       "4.5(8,703)"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "Ans- The price of a coworking space in Koramangala starts from ₹4,500 /month to ₹24,999 /month. Q- What kind of amenities are offered in the Coworking space ...",
+      "source_info_link": "https://cofynd.com/coworking/bangalore/koramangala",
+      "icon": "https://serpapi.com/images/i/UklGRtAAAABXRUJQVlA4IMQAAABQBgCdASocABwAPtE-tFooIigoFAEAGglsAIHokBvALsr3knyZgGz_oKee1K0G_QfvLwbqGarfXp0tgAD-9gLem4oU1f4Jv4bd-G9PcJZdwEcdECK9nZqn0UWXb_g2e810WqbaOTmAjEdDpJ3GyPbq75ha3Q7D0-_UGGlTqrO6zWrtyRHkDGfzpI46smlDD1kmVJu2nH0x7pR9gqVLwp_L3U_w25YgES5tL98H7YNSbkf_Sje1_3_zdLLiUD_B0WiwhQAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVmhnYTFhMDVWMS1nZC1sWWo5Z0ZlWVNRMHVodUpaRzR4LVFkSnpjM1dqX1ZmRXk5bGNSemFGa3hucGMyVWd4VnFLVmNnNnRNdDhnNU4xU3E3QWZnVGlpZXRYWmFLOS1ibWhVWGZock1qMFhvRHZTS2NoRUJWZGRWUEZOcFJFcWt0UVotOExpb1UtczASBBoCCAAajwgSAggAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQNUHCAAQABgAIAAqIwoGb2ZmaWNlFfsFlkAaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFTSVpUAaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVAAAAABoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVAAAAABoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EV8G1pPRoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBXwbWk9GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRWC1rxAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVBtt0QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVmhnYTFhMDVWMS1nZC1sWWo5Z0ZlWVNRMHVodUpaRzR4LVFkSnpjM1dqX1ZmRXk5bGNSemFGa3hucGMyVWd4VnFLVmNnNnRNdDhnNU4xU3E3QWZnVGlpZXRYWmFLOS1ibWhVWGZock1qMFhvRHZTS2NoRUJWZGRWUEZOcFJFcWt0UVotOExpb1UtczA6R0Jlc3QgQ293b3JraW5nIFNwYWNlIGluIDxiPktvcmFtYW5nYWxhPC9iPiB8IFNoYXJlZCA8Yj5PZmZpY2UgU3BhY2U8L2I-Qr4BQW5zLSBUaGUgcHJpY2Ugb2YgYSBjb3dvcmtpbmcgPGI-c3BhY2U8L2I-IGluIDxiPktvcmFtYW5nYWxhPC9iPiBzdGFydHMgZnJvbSDigrk0LDUwMCAvbW9udGggdG8g4oK5MjQsOTk5IC9tb250aC4gUS0gV2hhdCBraW5kIG9mIGFtZW5pdGllcyBhcmUgb2ZmZXJlZCBpbiB0aGUgQ293b3JraW5nIDxiPnNwYWNlPC9iPiZuYnNwOy4uLkoCaW5SB2ZvciB0aGVSBmZvciBhblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVmhnYTFhMDVWMS1nZC1sWWo5Z0ZlWVNRMHVodUpaRzR4LVFkSnpjM1dqX1ZmRXk5bGNSemFGa3hucGMyVWd4VnFLVmNnNnRNdDhnNU4xU3E3QWZnVGlpZXRYWmFLOS1ibWhVWGZock1qMFhvRHZTS2NoRUJWZGRWUEZOcFJFcWt0UVotOExpb1UtczASBBoCCAAajwgSAggAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQNUHCAAQABgAIAAqIwoGb2ZmaWNlFfsFlkAaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFTSVpUAaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVAAAAABoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVAAAAABoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EV8G1pPRoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBXwbWk9GgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRWC1rxAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVBtt0QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVmhnYTFhMDVWMS1nZC1sWWo5Z0ZlWVNRMHVodUpaRzR4LVFkSnpjM1dqX1ZmRXk5bGNSemFGa3hucGMyVWd4VnFLVmNnNnRNdDhnNU4xU3E3QWZnVGlpZXRYWmFLOS1ibWhVWGZock1qMFhvRHZTS2NoRUJWZGRWUEZOcFJFcWt0UVotOExpb1UtczA6R0Jlc3QgQ293b3JraW5nIFNwYWNlIGluIDxiPktvcmFtYW5nYWxhPC9iPiB8IFNoYXJlZCA8Yj5PZmZpY2UgU3BhY2U8L2I-Qr4BQW5zLSBUaGUgcHJpY2Ugb2YgYSBjb3dvcmtpbmcgPGI-c3BhY2U8L2I-IGluIDxiPktvcmFtYW5nYWxhPC9iPiBzdGFydHMgZnJvbSDigrk0LDUwMCAvbW9udGggdG8g4oK5MjQsOTk5IC9tb250aC4gUS0gV2hhdCBraW5kIG9mIGFtZW5pdGllcyBhcmUgb2ZmZXJlZCBpbiB0aGUgQ293b3JraW5nIDxiPnNwYWNlPC9iPiZuYnNwOy4uLkoCaW5SB2ZvciB0aGVSBmZvciBhblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "source": "CoFynd",
+    "read_more_link": "https://cofynd.com/coworking/bangalore/koramangala#:~:text=Ans%2D%20The%20price%20of%20a,the%20Coworking%20space%20in%20Koramangala%3F"
+   },
+   {
+    "position": 4,
+    "title": "Best Office Space in Koramangala, Bangalore",
+    "link": "https://noveloffice.in/bangalore/office-space-in-koramangala/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESeAHrOzAV7pY-sIGHLzEV3NhFR6xw6vd8dVFrgzwJS7UrNFVVxt8mVPmqe7OYqlMR5WuSf1VPfWn0DvZ5aQquQaI6Z7JbR1Nms9HchH9xBMaHGGPP_-XTdEHRg0ZXf-qQd-zHCaxL-h8obze9hAPnEOL8X_1IEVbQGw&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://noveloffice.in › bangalore › office-space-in-kora...",
+    "favicon": "https://serpapi.com/images/i/UklGRnABAABXRUJQVlA4IGQBAADwBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0zNDAdquWMzsBWsX44OUrvTB5anT96HUmFZAWQWOqJ7mHC5agAAP72ERdOfrDfZYu0bYv_aL80rUpm0JjIn3xrsMUY8Lvi07tIojUe_rr4qwn_p3bD6Th7Lqxir66lOMFeNHESqRfbICINNOLLvEZxcZyn9mQi5qAsI_hGWvFtGuzdgL4wXuRzNs6s83MsHhmKjJfGDQYFH00Rb2BZXCv91Tv3Y-JiH79FZN82d4fjFZFjAQc5TvbwO5D7wimOUgleQMUX2jtix6d0amnJ3NMf80XwT16XNG1V-8rbcQZM8YPz72-tpcqIK3Ib37kPlK4a6M6B2DIjDf7Go0B8v8EqiWD1IQcBXP4SOWZb3U6nCmaKX9KUpAQb1sesEChft4KBh1YAoh-Icci04LWA-3G7zhrKeifZU781nZAAWCEj6E1o8bgDRoAAAA.webp",
+    "snippet": "Best office space in Koramangala, Bangalore, Flexible Leasing Plans Adaptive lease options that scale as your business evolves. small and medium-sized ...",
+    "snippet_highlighted_words": [
+     "Best office space in Koramangala, Bangalore"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Best office space in Koramangala, Bangalore, Flexible Leasing Plans Adaptive lease options that scale as your business evolves. small and medium-sized ...",
+      "source_info_link": "https://noveloffice.in/bangalore/office-space-in-koramangala/",
+      "icon": "https://serpapi.com/images/i/UklGRnABAABXRUJQVlA4IGQBAADwBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0zNDAdquWMzsBWsX44OUrvTB5anT96HUmFZAWQWOqJ7mHC5agAAP72ERdOfrDfZYu0bYv_aL80rUpm0JjIn3xrsMUY8Lvi07tIojUe_rr4qwn_p3bD6Th7Lqxir66lOMFeNHESqRfbICINNOLLvEZxcZyn9mQi5qAsI_hGWvFtGuzdgL4wXuRzNs6s83MsHhmKjJfGDQYFH00Rb2BZXCv91Tv3Y-JiH79FZN82d4fjFZFjAQc5TvbwO5D7wimOUgleQMUX2jtix6d0amnJ3NMf80XwT16XNG1V-8rbcQZM8YPz72-tpcqIK3Ib37kPlK4a6M6B2DIjDf7Go0B8v8EqiWD1IQcBXP4SOWZb3U6nCmaKX9KUpAQb1sesEChft4KBh1YAoh-Icci04LWA-3G7zhrKeifZU781nZAAWCEj6E1o8bgDRoAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVjdwWS1zSUdITHpFVjNOaEZSNnh3NnZkOGRWRnJnendKUzdVck5GVlZ4dDhtVlBtcWU3T1lxbE1SNVd1U2YxVlBmV24wRHZaNWFRcXVRYUk2WjdKYlIxTm1zOUhjaEg5eEJNYUhHR1BQXy1YVGRFSFJnMFpYZi1xUWQtekhDYXhMLWg4b2J6ZTloQVBuRU9MOFhfMUlFVmJRR3cSBBoCCAAa_wcSAggAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQMUHCAAQABgAIAAqIwoGb2ZmaWNlFcaMFkEaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFVES80AaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQV2V_EPxoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVAAAAABoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EVAAAAABoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBUAAAAAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRUkjA9BGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVr523QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVjdwWS1zSUdITHpFVjNOaEZSNnh3NnZkOGRWRnJnendKUzdVck5GVlZ4dDhtVlBtcWU3T1lxbE1SNVd1U2YxVlBmV24wRHZaNWFRcXVRYUk2WjdKYlIxTm1zOUhjaEg5eEJNYUhHR1BQXy1YVGRFSFJnMFpYZi1xUWQtekhDYXhMLWg4b2J6ZTloQVBuRU9MOFhfMUlFVmJRR3c6QEJlc3QgPGI-T2ZmaWNlIFNwYWNlPC9iPiBpbiA8Yj5Lb3JhbWFuZ2FsYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj5CpgE8Yj5CZXN0IG9mZmljZSBzcGFjZSBpbiBLb3JhbWFuZ2FsYSwgQmFuZ2Fsb3JlPC9iPiwgRmxleGlibGUgTGVhc2luZyBQbGFucyBBZGFwdGl2ZSBsZWFzZSBvcHRpb25zIHRoYXQgc2NhbGUgYXMgeW91ciBidXNpbmVzcyBldm9sdmVzLiBzbWFsbCBhbmQgbWVkaXVtLXNpemVkJm5ic3A7Li4uSgJpblIFZm9yIGFSAmJ5UgZmb3IgYW5SB2ZvciB0aGUiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVjdwWS1zSUdITHpFVjNOaEZSNnh3NnZkOGRWRnJnendKUzdVck5GVlZ4dDhtVlBtcWU3T1lxbE1SNVd1U2YxVlBmV24wRHZaNWFRcXVRYUk2WjdKYlIxTm1zOUhjaEg5eEJNYUhHR1BQXy1YVGRFSFJnMFpYZi1xUWQtekhDYXhMLWg4b2J6ZTloQVBuRU9MOFhfMUlFVmJRR3cSBBoCCAAa_wcSAggAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQMUHCAAQABgAIAAqIwoGb2ZmaWNlFcaMFkEaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFVES80AaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQV2V_EPxoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVAAAAABoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EVAAAAABoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBUAAAAAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRUkjA9BGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVr523QBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMrABL2dvdG8_dXJsPUNBRVNlQUhyT3pBVjdwWS1zSUdITHpFVjNOaEZSNnh3NnZkOGRWRnJnendKUzdVck5GVlZ4dDhtVlBtcWU3T1lxbE1SNVd1U2YxVlBmV24wRHZaNWFRcXVRYUk2WjdKYlIxTm1zOUhjaEg5eEJNYUhHR1BQXy1YVGRFSFJnMFpYZi1xUWQtekhDYXhMLWg4b2J6ZTloQVBuRU9MOFhfMUlFVmJRR3c6QEJlc3QgPGI-T2ZmaWNlIFNwYWNlPC9iPiBpbiA8Yj5Lb3JhbWFuZ2FsYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj5CpgE8Yj5CZXN0IG9mZmljZSBzcGFjZSBpbiBLb3JhbWFuZ2FsYSwgQmFuZ2Fsb3JlPC9iPiwgRmxleGlibGUgTGVhc2luZyBQbGFucyBBZGFwdGl2ZSBsZWFzZSBvcHRpb25zIHRoYXQgc2NhbGUgYXMgeW91ciBidXNpbmVzcyBldm9sdmVzLiBzbWFsbCBhbmQgbWVkaXVtLXNpemVkJm5ic3A7Li4uSgJpblIFZm9yIGFSAmJ5UgZmb3IgYW5SB2ZvciB0aGUiAhABSABYAGgA",
+    "source": "Novel Office"
+   },
+   {
+    "position": 5,
+    "title": "390 Commercial Property for rent in Koramangala, Bengaluru",
+    "link": "https://housing.com/commercial/rent/commercial-property-for-rent-in-koramangala-bengaluru-P5s2sntlyr4a7izpb",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpgEB6zswFfHuL9JzOcnibJ-oW3w_mD4rWFmAFa45O0rdRkewY4nHUg2vSGrnznb6Li2touuEHlZwe2NGd1P5BY68k515WbLRsNdLIaD3RbRprLQ1Lx_eEzODyqmSetjPp1TwNRKoIvcLrOtirpKVVZtC2Hz8jCeOMkRf042Oys_Qyqrkbg9DKMiPBKqSPn6yX-gmPIo7sBgZlMfHGL62LeIpIdBRIMzr&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECBcQAQ&uoh=1",
+    "displayed_link": "https://housing.com › Bengaluru",
+    "favicon": "https://serpapi.com/images/i/UklGRoYBAABXRUJQVlA4IHoBAADwCACdASocABwAPtEutFooIagoGAEAGglsAJ0yhH0fptzecAq5nqOd5TrLjdBhvplPj6oYPVKNW18b7FZSUWAM_rPB8g_MeCOqFSOv1YXogAD-9hHIDpcCrZsCWCOee_wtXBp_LxpO3e9YCszaJ3xezSStOJ-lwjkwzjN48NoDB0NlAbpK8dznLpX5p-CNL6vQ__iYFRjESAhYSdYtJ2tX0HO2Nve9x8sG7oYqrwJOmnjkKXWn9BxNC4kyIcbYIxqcq5CcatGb25IMNRKYJb_9xLUTJUW59qiwf5801l_zC7WRG875xuZCQa4pMYenyxvE8pV4D_S2kWHSdSH1Lvizb4RlKPKh1mLof82JdgzoL_BDuHWZ5wKitTbcANgUOtvXy3KgY0ZwfGS6DHI02uEOHtbPrks9SvF7ig9mMAt5Qc5gdo3khzsnd8OGUSEJpIkO132APkmoFNrrNefPF7HBEIb9csx-z7JEVdJ_P2JA1bknDMi1eT1_AAA.webp",
+    "date": "25 Sept 2026",
+    "snippet": "Office Space (7000 sq.ft) Office Space (1200 sq.ft) 65,000. From 3,900 sq.ft. From 7,000 sq.ft. From 1,500 sq.ft",
+    "snippet_highlighted_words": [
+     "Office Space",
+     "sq",
+     "ft",
+     "Office Space",
+     "sq",
+     "ft",
+     "sq",
+     "ft",
+     "sq",
+     "ft",
+     "sq",
+     "ft"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Office Space (7000 sq.ft) Office Space (1200 sq.ft) 65,000. From 3,900 sq.ft. From 7,000 sq.ft. From 1,500 sq.ft",
+      "source_info_link": "https://housing.com/commercial/rent/commercial-property-for-rent-in-koramangala-bengaluru-P5s2sntlyr4a7izpb",
+      "icon": "https://serpapi.com/images/i/UklGRoYBAABXRUJQVlA4IHoBAADwCACdASocABwAPtEutFooIagoGAEAGglsAJ0yhH0fptzecAq5nqOd5TrLjdBhvplPj6oYPVKNW18b7FZSUWAM_rPB8g_MeCOqFSOv1YXogAD-9hHIDpcCrZsCWCOee_wtXBp_LxpO3e9YCszaJ3xezSStOJ-lwjkwzjN48NoDB0NlAbpK8dznLpX5p-CNL6vQ__iYFRjESAhYSdYtJ2tX0HO2Nve9x8sG7oYqrwJOmnjkKXWn9BxNC4kyIcbYIxqcq5CcatGb25IMNRKYJb_9xLUTJUW59qiwf5801l_zC7WRG875xuZCQa4pMYenyxvE8pV4D_S2kWHSdSH1Lvizb4RlKPKh1mLof82JdgzoL_BDuHWZ5wKitTbcANgUOtvXy3KgY0ZwfGS6DHI02uEOHtbPrks9SvF7ig9mMAt5Qc5gdo3khzsnd8OGUSEJpIkO132APkmoFNrrNefPF7HBEIb9csx-z7JEVdJ_P2JA1bknDMi1eT1_AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZmSHVMOUp6T2NuaWJKLW9XM3dfbUQ0cldGbUFGYTQ1TzByZFJrZXdZNG5IVWcydlNHcm56bmI2TGkydG91dUVIbFp3ZTJOR2QxUDVCWTY4azUxNVdiTFJzTmRMSWFEM1JiUnByTFExTHhfZUV6T0R5cW1TZXRqUHAxVHdOUktvSXZjTHJPdGlycEtWVlp0QzJIejhqQ2VPTWtSZjA0Mk95c19ReXFya2JnOURLTWlQQktxU1BuNnlYLWdtUElvN3NCZ1psTWZIR0w2MkxlSXBJZEJSSU16chIEGgIIABrjCBICCAAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAqQgIABAAGAAgACojCgZvZmZpY2UVemwpQBoHb2ZmaWNlcxoLb2ZmaWNlc3BhY2UqHwoFc3BhY2UVKOofQBoEcm9vbRoLb2ZmaWNlc3BhY2UqOwoEcmVudBWWVbNAGg9hcGFydG1lbnRzIG5lYXIaBWxlYXNlGgZyZW50YWwaB3JlbnRhbHMaBXJlbnRzKkcKA3BlchUAAAAAGgJieRoFZXZlcnkaBWZvciBhGgZmb3IgYW4aB2ZvciB0aGUaA3BzZhoFcGVyc3EaB3BlcnNxZnQaA2ZvcipUCgJzcRUTFEJAGgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3NxdWFyZWQaBXBlcnNxGgdwZXJzcWZ0GgRzcWZ0GgdpdjtwO3NxKlAKAmZ0FRMUQkAaBGZlZXQaB2ZlZXQgdG8aBGZvb3QaA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHcGVyc3FmdBoEc3FmdCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFf0e3EAaCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRXTiT8-GhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy7gEvZ290bz91cmw9Q0FFU3BnRUI2enN3RmZIdUw5SnpPY25pYkotb1czd19tRDRyV0ZtQUZhNDVPMHJkUmtld1k0bkhVZzJ2U0dybnpuYjZMaTJ0b3V1RUhsWndlMk5HZDFQNUJZNjhrNTE1V2JMUnNOZExJYUQzUmJScHJMUTFMeF9lRXpPRHlxbVNldGpQcDFUd05SS29JdmNMck90aXJwS1ZWWnRDMkh6OGpDZU9Na1JmMDQyT3lzX1F5cXJrYmc5REtNaVBCS3FTUG42eVgtZ21QSW83c0JnWmxNZkhHTDYyTGVJcElkQlJJTXpyOkgzOTAgQ29tbWVyY2lhbCBQcm9wZXJ0eSBmb3IgPGI-UmVudDwvYj4gaW4gPGI-S29yYW1hbmdhbGE8L2I-LCBCZW5nYWx1cnVCxAE8Yj5PZmZpY2UgU3BhY2U8L2I-ICg3MDAwIDxiPnNxPC9iPi48Yj5mdDwvYj4pIDxiPk9mZmljZSBTcGFjZTwvYj4gKDEyMDAgPGI-c3E8L2I-LjxiPmZ0PC9iPikgNjUsMDAwLiBGcm9tIDMsOTAwIDxiPnNxPC9iPi48Yj5mdDwvYj4uIEZyb20gNywwMDAgPGI-c3E8L2I-LjxiPmZ0PC9iPi4gRnJvbSAxLDUwMCA8Yj5zcTwvYj4uPGI-ZnQ8L2I-SgJpblIFZm9yIGFSAmJ5UgZmb3IgYW5SB2ZvciB0aGUiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZmSHVMOUp6T2NuaWJKLW9XM3dfbUQ0cldGbUFGYTQ1TzByZFJrZXdZNG5IVWcydlNHcm56bmI2TGkydG91dUVIbFp3ZTJOR2QxUDVCWTY4azUxNVdiTFJzTmRMSWFEM1JiUnByTFExTHhfZUV6T0R5cW1TZXRqUHAxVHdOUktvSXZjTHJPdGlycEtWVlp0QzJIejhqQ2VPTWtSZjA0Mk95c19ReXFya2JnOURLTWlQQktxU1BuNnlYLWdtUElvN3NCZ1psTWZIR0w2MkxlSXBJZEJSSU16chIEGgIIABrjCBICCAAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAqQgIABAAGAAgACojCgZvZmZpY2UVemwpQBoHb2ZmaWNlcxoLb2ZmaWNlc3BhY2UqHwoFc3BhY2UVKOofQBoEcm9vbRoLb2ZmaWNlc3BhY2UqOwoEcmVudBWWVbNAGg9hcGFydG1lbnRzIG5lYXIaBWxlYXNlGgZyZW50YWwaB3JlbnRhbHMaBXJlbnRzKkcKA3BlchUAAAAAGgJieRoFZXZlcnkaBWZvciBhGgZmb3IgYW4aB2ZvciB0aGUaA3BzZhoFcGVyc3EaB3BlcnNxZnQaA2ZvcipUCgJzcRUTFEJAGgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3NxdWFyZWQaBXBlcnNxGgdwZXJzcWZ0GgRzcWZ0GgdpdjtwO3NxKlAKAmZ0FRMUQkAaBGZlZXQaB2ZlZXQgdG8aBGZvb3QaA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHcGVyc3FmdBoEc3FmdCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFf0e3EAaCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRXTiT8-GhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy7gEvZ290bz91cmw9Q0FFU3BnRUI2enN3RmZIdUw5SnpPY25pYkotb1czd19tRDRyV0ZtQUZhNDVPMHJkUmtld1k0bkhVZzJ2U0dybnpuYjZMaTJ0b3V1RUhsWndlMk5HZDFQNUJZNjhrNTE1V2JMUnNOZExJYUQzUmJScHJMUTFMeF9lRXpPRHlxbVNldGpQcDFUd05SS29JdmNMck90aXJwS1ZWWnRDMkh6OGpDZU9Na1JmMDQyT3lzX1F5cXJrYmc5REtNaVBCS3FTUG42eVgtZ21QSW83c0JnWmxNZkhHTDYyTGVJcElkQlJJTXpyOkgzOTAgQ29tbWVyY2lhbCBQcm9wZXJ0eSBmb3IgPGI-UmVudDwvYj4gaW4gPGI-S29yYW1hbmdhbGE8L2I-LCBCZW5nYWx1cnVCxAE8Yj5PZmZpY2UgU3BhY2U8L2I-ICg3MDAwIDxiPnNxPC9iPi48Yj5mdDwvYj4pIDxiPk9mZmljZSBTcGFjZTwvYj4gKDEyMDAgPGI-c3E8L2I-LjxiPmZ0PC9iPikgNjUsMDAwLiBGcm9tIDMsOTAwIDxiPnNxPC9iPi48Yj5mdDwvYj4uIEZyb20gNywwMDAgPGI-c3E8L2I-LjxiPmZ0PC9iPi4gRnJvbSAxLDUwMCA8Yj5zcTwvYj4uPGI-ZnQ8L2I-SgJpblIFZm9yIGFSAmJ5UgZmb3IgYW5SB2ZvciB0aGUiAhABSABYAGgA",
+    "source": "Housing"
+   },
+   {
+    "position": 6,
+    "title": "Office Space for Rent in Koramangala Bangalore",
+    "link": "https://www.nobroker.in/rent-office-space-in-koramangala_8th_block_koramangala_bangalore",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkwEB6zswFfezx4POEhFKsAj7MipOwir61AE87QPl7SSbWH1EHW1njYRGSzgL9ZdFeZDvzfg60ntisb-KXeMAGzCTb3VgGlYiqwrX7WS7yjmX9Wx9Bb6BT2V6gRctn8w8IjensY8gV3eRGeSSb8XgaqXgB3Uot1xCLK_jreZ0boA-haHq_IVB6IBREh6UjSbmgutLmA8&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECBsQAQ&uoh=1",
+    "displayed_link": "https://www.nobroker.in › rent-office-space-in-korama...",
+    "favicon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp",
+    "snippet": "Rent Range: ₹ 0 to ₹ 1 Cr BuiltUp Area: 0 Sq.ft to 1,00,000Sq.ft. Rent ₹1.50 Lacs + maintenance Included. Rent ₹3.60 Lacs … 200 sqft Unfurnished",
+    "snippet_highlighted_words": [
+     "Rent",
+     "Sq",
+     "ft",
+     "Sq",
+     "ft",
+     "Rent",
+     "Rent",
+     "sqft"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Rent Range: ₹ 0 to ₹ 1 Cr BuiltUp Area: 0 Sq.ft to 1,00,000Sq.ft. Rent ₹1.50 Lacs + maintenance Included. Rent ₹3.60 Lacs … 200 sqft Unfurnished",
+      "source_info_link": "https://www.nobroker.in/rent-office-space-in-koramangala_8th_block_koramangala_bangalore",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAABQCACdASocABwAPrkurlcnIacnG_DgFwlsAJ05jbs_sAvTzie3GuwDeP1-CAAlZTbAub3RTweA8JXrVhd58AtzrHkVV5OTpr1zrEAA_vfxWGx91deXFwhdT8TPtyCTvcyct5et2ZnobUFpfrrX4mZjy15fnhdfLxRjpmJqnibqd4_j5fOtd8tYtnpk-iFPF2L9_VuQQT41lkTrhRU2KgFmwbSy4ObtPzWAuhU_f2pTgZ2CCHUFfuw0BmpTzLspgQCOKgsShC4I1pkp5EfuJQw6FeWmYAFigQ920jlfSUoIxJNeH6WtVCwDbOfCPRBwdm_2Out8wk98hiLsAGyslD_6TStLpVVYKEDshwuBBggNLYsda_nGYnlFimygR5bE46mXev00bjE1v0nofvfq6nrg0SyDntF3SPykjpmYe76W7BhwVor9YtFLNngUMMRJDD8mbCN_abcq8YZQ2vafeUqrmPJT-VkAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZmZXp4NFBPRWhGS3NBajdNaXBPd2lyNjFBRTg3UVBsN1NTYldIMUVIVzFuallSR1N6Z0w5WmRGZVpEdnpmZzYwbnRpc2ItS1hlTUFHekNUYjNWZ0dsWWlxd3JYN1dTN3lqbVg5V3g5QmI2QlQyVjZnUmN0bjh3OElqZW5zWThnVjNlUkdlU1NiOFhnYXFYZ0IzVW90MXhDTEtfanJlWjBib0EtaGFIcV9JVkI2SUJSRWg2VWpTYm1ndXRMbUE4EgQaAggAGtwIEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJApAgIABAAGAAgACojCgZvZmZpY2UVWqcHQRoHb2ZmaWNlcxoLb2ZmaWNlc3BhY2UqHwoFc3BhY2UVtKUHQRoEcm9vbRoLb2ZmaWNlc3BhY2UqOwoEcmVudBXCTARBGg9hcGFydG1lbnRzIG5lYXIaBWxlYXNlGgZyZW50YWwaB3JlbnRhbHMaBXJlbnRzKkcKA3BlchUAAAAAGgJieRoFZXZlcnkaBWZvciBhGgZmb3IgYW4aB2ZvciB0aGUaA3BzZhoFcGVyc3EaB3BlcnNxZnQaA2ZvcipUCgJzcRWjWitAGgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3NxdWFyZWQaBXBlcnNxGgdwZXJzcWZ0GgRzcWZ0GgdpdjtwO3NxKlAKAmZ0FaNaK0AaBGZlZXQaB2ZlZXQgdG8aBGZvb3QaA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHcGVyc3FmdBoEc3FmdCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFahNAUEaCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRUDxQBBGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy1QEvZ290bz91cmw9Q0FFU2t3RUI2enN3RmZleng0UE9FaEZLc0FqN01pcE93aXI2MUFFODdRUGw3U1NiV0gxRUhXMW5qWVJHU3pnTDlaZEZlWkR2emZnNjBudGlzYi1LWGVNQUd6Q1RiM1ZnR2xZaXF3clg3V1M3eWptWDlXeDlCYjZCVDJWNmdSY3RuOHc4SWplbnNZOGdWM2VSR2VTU2I4WGdhcVhnQjNVb3QxeENMS19qcmVaMGJvQS1oYUhxX0lWQjZJQlJFaDZValNibWd1dExtQTg6TjxiPk9mZmljZSBTcGFjZTwvYj4gZm9yIDxiPlJlbnQ8L2I-IGluIDxiPktvcmFtYW5nYWxhIEJhbmdhbG9yZTwvYj4gLSBOb0Jyb2tlckLSATxiPlJlbnQ8L2I-IFJhbmdlOiDigrkgMCB0byDigrkgMSBDciBCdWlsdFVwIEFyZWE6IDAgPGI-U3E8L2I-LjxiPmZ0PC9iPiB0byAxLDAwLDAwMDxiPlNxPC9iPi48Yj5mdDwvYj4uIDxiPlJlbnQ8L2I-IOKCuTEuNTAgTGFjcyArIG1haW50ZW5hbmNlIEluY2x1ZGVkLiA8Yj5SZW50PC9iPiDigrkzLjYwIExhY3Mg4oCmIDIwMCA8Yj5zcWZ0PC9iPiBVbmZ1cm5pc2hlZEoCaW5SB2ZvciB0aGVSBmZvciBhblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZmZXp4NFBPRWhGS3NBajdNaXBPd2lyNjFBRTg3UVBsN1NTYldIMUVIVzFuallSR1N6Z0w5WmRGZVpEdnpmZzYwbnRpc2ItS1hlTUFHekNUYjNWZ0dsWWlxd3JYN1dTN3lqbVg5V3g5QmI2QlQyVjZnUmN0bjh3OElqZW5zWThnVjNlUkdlU1NiOFhnYXFYZ0IzVW90MXhDTEtfanJlWjBib0EtaGFIcV9JVkI2SUJSRWg2VWpTYm1ndXRMbUE4EgQaAggAGtwIEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJApAgIABAAGAAgACojCgZvZmZpY2UVWqcHQRoHb2ZmaWNlcxoLb2ZmaWNlc3BhY2UqHwoFc3BhY2UVtKUHQRoEcm9vbRoLb2ZmaWNlc3BhY2UqOwoEcmVudBXCTARBGg9hcGFydG1lbnRzIG5lYXIaBWxlYXNlGgZyZW50YWwaB3JlbnRhbHMaBXJlbnRzKkcKA3BlchUAAAAAGgJieRoFZXZlcnkaBWZvciBhGgZmb3IgYW4aB2ZvciB0aGUaA3BzZhoFcGVyc3EaB3BlcnNxZnQaA2ZvcipUCgJzcRWjWitAGgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3NxdWFyZWQaBXBlcnNxGgdwZXJzcWZ0GgRzcWZ0GgdpdjtwO3NxKlAKAmZ0FaNaK0AaBGZlZXQaB2ZlZXQgdG8aBGZvb3QaA3BzZhoCc2YaC3NxdWFyZSBmZWV0GgtzcXVhcmUgZm9vdBoHcGVyc3FmdBoEc3FmdCoJCgJpbhUAAAAAKkYKC2tvcmFtYW5nYWxhFahNAUEaCmtvcm1hbmdhbGEaFGdlbzszYmFlMTAwMDAwMDAwMDAwGhBpdjtwO2tvcmFtYW5nYWxhKjYKCWJhbmdhbG9yZRUDxQBBGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoOaXY7cDtiYW5nYWxvcmUy1QEvZ290bz91cmw9Q0FFU2t3RUI2enN3RmZleng0UE9FaEZLc0FqN01pcE93aXI2MUFFODdRUGw3U1NiV0gxRUhXMW5qWVJHU3pnTDlaZEZlWkR2emZnNjBudGlzYi1LWGVNQUd6Q1RiM1ZnR2xZaXF3clg3V1M3eWptWDlXeDlCYjZCVDJWNmdSY3RuOHc4SWplbnNZOGdWM2VSR2VTU2I4WGdhcVhnQjNVb3QxeENMS19qcmVaMGJvQS1oYUhxX0lWQjZJQlJFaDZValNibWd1dExtQTg6TjxiPk9mZmljZSBTcGFjZTwvYj4gZm9yIDxiPlJlbnQ8L2I-IGluIDxiPktvcmFtYW5nYWxhIEJhbmdhbG9yZTwvYj4gLSBOb0Jyb2tlckLSATxiPlJlbnQ8L2I-IFJhbmdlOiDigrkgMCB0byDigrkgMSBDciBCdWlsdFVwIEFyZWE6IDAgPGI-U3E8L2I-LjxiPmZ0PC9iPiB0byAxLDAwLDAwMDxiPlNxPC9iPi48Yj5mdDwvYj4uIDxiPlJlbnQ8L2I-IOKCuTEuNTAgTGFjcyArIG1haW50ZW5hbmNlIEluY2x1ZGVkLiA8Yj5SZW50PC9iPiDigrkzLjYwIExhY3Mg4oCmIDIwMCA8Yj5zcWZ0PC9iPiBVbmZ1cm5pc2hlZEoCaW5SB2ZvciB0aGVSBmZvciBhblICYnlSBWZvciBhIgIQAUgAWABoAA",
+    "source": "NoBroker"
+   },
+   {
+    "position": 7,
+    "title": "Office Space for rent in 2nd Block Koramangala, Bangalore",
+    "link": "https://www.99acres.com/commercial-office-space-for-rent-in-block-2-koramangala-bangalore-south-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnwEB6zswFWlVAl_MYyoEBeGLYlnvd4ju4gBa3Sav_m6AGdYTFYjpV44WKKrds6Bngy-wTeEHxYcgHMOwIw_0dye_i3Xx6cwAMRYq3fpqFTXM5g9WmsWRandxwZupDUNd6nTtL9c0SGNmHOGeAA0k2rfhH5oGaY8C-dVdLFSJGtvxVaVicZwjRd6YIfshptozNqbNTdTsojQLjXF7BvNq_zE&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECEkQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-office-space-for...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "₹6,000 / month 10,000 sqft(929 sqm) Plot area ・ ₹1.35 Lac / month 1,600 sqft(149 sqm) Plot area ・ ₹2.1 Lac / month + Deposit 5 months rent 4,000 sqft(372 sqm ...",
+    "snippet_highlighted_words": [
+     "sqft",
+     "sqft",
+     "rent",
+     "sqft"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "₹6,000 / month 10,000 sqft(929 sqm) Plot area ・ ₹1.35 Lac / month 1,600 sqft(149 sqm) Plot area ・ ₹2.1 Lac / month + Deposit 5 months rent 4,000 sqft(372 sqm ...",
+      "source_info_link": "https://www.99acres.com/commercial-office-space-for-rent-in-block-2-koramangala-bangalore-south-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuUBL2dvdG8_dXJsPUNBRVNud0VCNnpzd0ZXbFZBbF9NWXlvRUJlR0xZbG52ZDRqdTRnQmEzU2F2X202QUdkWVRGWWpwVjQ0V0tLcmRzNkJuZ3ktd1RlRUh4WWNnSE1Pd0l3XzBkeWVfaTNYeDZjd0FNUllxM2ZwcUZUWE01ZzlXbXNXUmFuZHh3WnVwRFVOZDZuVHRMOWMwU0dObUhPR2VBQTBrMnJmaEg1b0dhWThDLWRWZExGU0pHdHZ4VmFWaWNad2pSZDZZSWZzaHB0b3pOcWJOVGRUc29qUUxqWEY3QnZOcV96RRIEGgIIABrtCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQLUICAAQABgAIAAqIwoGb2ZmaWNlFdO_BUEaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFc9yBUEaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVHzICQRoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVAAAAABoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EVtoN0QBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVmsoNAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRVAkQZBGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVXVYAQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMuUBL2dvdG8_dXJsPUNBRVNud0VCNnpzd0ZXbFZBbF9NWXlvRUJlR0xZbG52ZDRqdTRnQmEzU2F2X202QUdkWVRGWWpwVjQ0V0tLcmRzNkJuZ3ktd1RlRUh4WWNnSE1Pd0l3XzBkeWVfaTNYeDZjd0FNUllxM2ZwcUZUWE01ZzlXbXNXUmFuZHh3WnVwRFVOZDZuVHRMOWMwU0dObUhPR2VBQTBrMnJmaEg1b0dhWThDLWRWZExGU0pHdHZ4VmFWaWNad2pSZDZZSWZzaHB0b3pOcWJOVGRUc29qUUxqWEY3QnZOcV96RTpVPGI-T2ZmaWNlIFNwYWNlPC9iPiBmb3IgPGI-cmVudDwvYj4gaW4gMm5kIEJsb2NrIDxiPktvcmFtYW5nYWxhPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkLMAeKCuTYsMDAwIC8gbW9udGggMTAsMDAwIDxiPnNxZnQ8L2I-KDkyOSBzcW0pIFBsb3QgYXJlYSDjg7sg4oK5MS4zNSBMYWMgLyBtb250aCAxLDYwMCA8Yj5zcWZ0PC9iPigxNDkgc3FtKSBQbG90IGFyZWEg44O7IOKCuTIuMSBMYWMgLyBtb250aCArIERlcG9zaXQgNSBtb250aHMgPGI-cmVudDwvYj4gNCwwMDAgPGI-c3FmdDwvYj4oMzcyIHNxbSZuYnNwOy4uLkoCaW5SBWZvciBhUgJieVIGZm9yIGFuUgdmb3IgdGhlIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuUBL2dvdG8_dXJsPUNBRVNud0VCNnpzd0ZXbFZBbF9NWXlvRUJlR0xZbG52ZDRqdTRnQmEzU2F2X202QUdkWVRGWWpwVjQ0V0tLcmRzNkJuZ3ktd1RlRUh4WWNnSE1Pd0l3XzBkeWVfaTNYeDZjd0FNUllxM2ZwcUZUWE01ZzlXbXNXUmFuZHh3WnVwRFVOZDZuVHRMOWMwU0dObUhPR2VBQTBrMnJmaEg1b0dhWThDLWRWZExGU0pHdHZ4VmFWaWNad2pSZDZZSWZzaHB0b3pOcWJOVGRUc29qUUxqWEY3QnZOcV96RRIEGgIIABrtCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQLUICAAQABgAIAAqIwoGb2ZmaWNlFdO_BUEaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFc9yBUEaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVHzICQRoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVAAAAABoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EVtoN0QBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVmsoNAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRVAkQZBGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVXVYAQRoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMuUBL2dvdG8_dXJsPUNBRVNud0VCNnpzd0ZXbFZBbF9NWXlvRUJlR0xZbG52ZDRqdTRnQmEzU2F2X202QUdkWVRGWWpwVjQ0V0tLcmRzNkJuZ3ktd1RlRUh4WWNnSE1Pd0l3XzBkeWVfaTNYeDZjd0FNUllxM2ZwcUZUWE01ZzlXbXNXUmFuZHh3WnVwRFVOZDZuVHRMOWMwU0dObUhPR2VBQTBrMnJmaEg1b0dhWThDLWRWZExGU0pHdHZ4VmFWaWNad2pSZDZZSWZzaHB0b3pOcWJOVGRUc29qUUxqWEY3QnZOcV96RTpVPGI-T2ZmaWNlIFNwYWNlPC9iPiBmb3IgPGI-cmVudDwvYj4gaW4gMm5kIEJsb2NrIDxiPktvcmFtYW5nYWxhPC9iPiwgPGI-QmFuZ2Fsb3JlPC9iPkLMAeKCuTYsMDAwIC8gbW9udGggMTAsMDAwIDxiPnNxZnQ8L2I-KDkyOSBzcW0pIFBsb3QgYXJlYSDjg7sg4oK5MS4zNSBMYWMgLyBtb250aCAxLDYwMCA8Yj5zcWZ0PC9iPigxNDkgc3FtKSBQbG90IGFyZWEg44O7IOKCuTIuMSBMYWMgLyBtb250aCArIERlcG9zaXQgNSBtb250aHMgPGI-cmVudDwvYj4gNCwwMDAgPGI-c3FmdDwvYj4oMzcyIHNxbSZuYnNwOy4uLkoCaW5SBWZvciBhUgJieVIGZm9yIGFuUgdmb3IgdGhlIgIQAUgAWABoAA",
+    "source": "99 Acres"
+   },
+   {
+    "position": 8,
+    "title": "Commercial property for rent in 5th block Koramangala, ...",
+    "link": "https://www.99acres.com/commercial-property-for-rent-in-5th-block-koramangala-bangalore-south-ffid",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnQEB6zswFWN4rcC2hE55O4eHP5F8tS-M4aoauE6DFQEweFgz-5uuhTJTOh6F3qPBXhvh79PzMqqyjQRu55-_8jRwIFgv4LC30GYjTFT6dsTbuHyx6saE4fyN-rKSORetRwpdl4EtfPuwFTxRKobMZCob1_iBr-uPiT_ZdIOwCuGblq_z8N-xK6BISlMnKk00XnbuiULeVxx-VtlNgZdP&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECEwQAQ&uoh=1",
+    "displayed_link": "https://www.99acres.com › commercial-property-for-re...",
+    "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png",
+    "snippet": "Located in 5th block koramangala, bangalore south, this 1600 sqft co-Working office space is available for lease at rs 1.35 lac. With one washroom, it offers ...",
+    "snippet_highlighted_words": [
+     "1600 sqft co-Working office space is available for lease at rs 1.35 lac"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Located in 5th block koramangala, bangalore south, this 1600 sqft co-Working office space is available for lease at rs 1.35 lac. With one washroom, it offers ...",
+      "source_info_link": "https://www.99acres.com/commercial-property-for-rent-in-5th-block-koramangala-bangalore-south-ffid",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEULcMAFNVwMf9n-__8BedcAcdPm8fmOvOYeh9xtq-NFltrG3vOw0O7Z6vZUqDCbAAAAAnRSTlPkQtRT22wAAADcSURBVCiRtZNJEsQgCEVtQQSU-1-3P2boLDrZxUWK4jF80JRPqTenfErRO6jlNm_lvgpbnmVxWnyBXG3I6Aof-4yYzidknZRnaGWTZRqfsAN0BHTWIJldSFbuKjuIatNBUh0RrVnGbZDhjrby3UhQkYnmBUrjdkDIRhuo3Mpmu5pSDGWHI_gH2ZdEfLxtugXwnNNClkjHVCLhcfZcW3BFz4DFiil-avedoSc8DBMaLnOqWZ9CAY9362NP3NcXqSJZDksH2-GQY-8GPdPb9cr-39jLz-QGPj7qp9_hC4FJCwKQ26trAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZXTjRyY0MyaEU1NU80ZUhQNUY4dFMtTTRhb2F1RTZERlFFd2VGZ3otNXV1aFRKVE9oNkYzcVBCWGh2aDc5UHpNcXF5alFSdTU1LV84alJ3SUZndjRMQzMwR1lqVEZUNmRzVGJ1SHl4NnNhRTRmeU4tcktTT1JldFJ3cGRsNEV0ZlB1d0ZUeFJLb2JNWkNvYjFfaUJyLXVQaVRfWmRJT3dDdUdibHFfejhOLXhLNkJJU2xNbktrMDBYbmJ1aVVMZVZ4eC1WdGxOZ1pkUBIEGgIIABq9CBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQIUICAAQABgAIAAqIwoGb2ZmaWNlFV0vj0AaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFYRAmkAaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVd1HaQBoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVEjDoPhoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EV-w2QQBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBXG_6BAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRWfx_lAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVyMHYQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZXTjRyY0MyaEU1NU80ZUhQNUY4dFMtTTRhb2F1RTZERlFFd2VGZ3otNXV1aFRKVE9oNkYzcVBCWGh2aDc5UHpNcXF5alFSdTU1LV84alJ3SUZndjRMQzMwR1lqVEZUNmRzVGJ1SHl4NnNhRTRmeU4tcktTT1JldFJ3cGRsNEV0ZlB1d0ZUeFJLb2JNWkNvYjFfaUJyLXVQaVRfWmRJT3dDdUdibHFfejhOLXhLNkJJU2xNbktrMDBYbmJ1aVVMZVZ4eC1WdGxOZ1pkUDpHQ29tbWVyY2lhbCBwcm9wZXJ0eSBmb3IgPGI-cmVudDwvYj4gaW4gNXRoIGJsb2NrIDxiPktvcmFtYW5nYWxhPC9iPiAuLi5CrQFMb2NhdGVkIGluIDV0aCBibG9jayBrb3JhbWFuZ2FsYSwgYmFuZ2Fsb3JlIHNvdXRoLCB0aGlzIDxiPjE2MDAgc3FmdCBjby1Xb3JraW5nIG9mZmljZSBzcGFjZSBpcyBhdmFpbGFibGUgZm9yIGxlYXNlIGF0IHJzIDEuMzUgbGFjPC9iPi4gV2l0aCBvbmUgd2FzaHJvb20sIGl0IG9mZmVycyZuYnNwOy4uLkoCaW5SBmZvciBhblICYnlSBWZvciBhUgdmb3IgdGhlIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZXTjRyY0MyaEU1NU80ZUhQNUY4dFMtTTRhb2F1RTZERlFFd2VGZ3otNXV1aFRKVE9oNkYzcVBCWGh2aDc5UHpNcXF5alFSdTU1LV84alJ3SUZndjRMQzMwR1lqVEZUNmRzVGJ1SHl4NnNhRTRmeU4tcktTT1JldFJ3cGRsNEV0ZlB1d0ZUeFJLb2JNWkNvYjFfaUJyLXVQaVRfWmRJT3dDdUdibHFfejhOLXhLNkJJU2xNbktrMDBYbmJ1aVVMZVZ4eC1WdGxOZ1pkUBIEGgIIABq9CBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQIUICAAQABgAIAAqIwoGb2ZmaWNlFV0vj0AaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFYRAmkAaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVd1HaQBoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVEjDoPhoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EV-w2QQBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBXG_6BAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRWfx_lAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVyMHYQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMuIBL2dvdG8_dXJsPUNBRVNuUUVCNnpzd0ZXTjRyY0MyaEU1NU80ZUhQNUY4dFMtTTRhb2F1RTZERlFFd2VGZ3otNXV1aFRKVE9oNkYzcVBCWGh2aDc5UHpNcXF5alFSdTU1LV84alJ3SUZndjRMQzMwR1lqVEZUNmRzVGJ1SHl4NnNhRTRmeU4tcktTT1JldFJ3cGRsNEV0ZlB1d0ZUeFJLb2JNWkNvYjFfaUJyLXVQaVRfWmRJT3dDdUdibHFfejhOLXhLNkJJU2xNbktrMDBYbmJ1aVVMZVZ4eC1WdGxOZ1pkUDpHQ29tbWVyY2lhbCBwcm9wZXJ0eSBmb3IgPGI-cmVudDwvYj4gaW4gNXRoIGJsb2NrIDxiPktvcmFtYW5nYWxhPC9iPiAuLi5CrQFMb2NhdGVkIGluIDV0aCBibG9jayBrb3JhbWFuZ2FsYSwgYmFuZ2Fsb3JlIHNvdXRoLCB0aGlzIDxiPjE2MDAgc3FmdCBjby1Xb3JraW5nIG9mZmljZSBzcGFjZSBpcyBhdmFpbGFibGUgZm9yIGxlYXNlIGF0IHJzIDEuMzUgbGFjPC9iPi4gV2l0aCBvbmUgd2FzaHJvb20sIGl0IG9mZmVycyZuYnNwOy4uLkoCaW5SBmZvciBhblICYnlSBWZvciBhUgdmb3IgdGhlIgIQAUgAWABoAA",
+    "source": "99acres.com",
+    "read_more_link": "https://www.99acres.com/commercial-property-for-rent-in-5th-block-koramangala-bangalore-south-ffid#:~:text=Located%20in%205th%20block%20koramangala%2C,With%20one%20washroom%2C%20it%20offers"
+   },
+   {
+    "position": 9,
+    "title": "Office Space for Sale in Koramangala, Bangalore",
+    "link": "https://www.magicbricks.com/office-space-for-sale-in-koramangala-bangalore-pppfs",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiwEB6zswFYOXLjheVztVT-nAdXAS_ubLPIb7w24VZKXOoK4RQdmCu1xTCNYUrs33wHOnTmfOG2ef9cwsLNbOusH1zoGuoERqasHXW9-9PLzVhcdvX899H1P1QkqR0n-35-m4OJk_jH_oVzvrXzFnGswTaTS9prt_b6nW79_KxQBWJvoK5Dlosv_f277H&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQFnoECEYQAQ&uoh=1",
+    "displayed_link": "https://www.magicbricks.com › office-space-for-sale-in...",
+    "favicon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp",
+    "snippet": "1400 sqft. Status. Ready to Move. At ₹3 Cr (₹21,276/sqft), this office space is on sale with a decent 1410 square feet in the Koramangala. This office is a ...",
+    "snippet_highlighted_words": [
+     "sqft",
+     "sqft",
+     "office space",
+     "square feet",
+     "Koramangala"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "1400 sqft. Status. Ready to Move. At ₹3 Cr (₹21,276/sqft), this office space is on sale with a decent 1410 square feet in the Koramangala. This office is a ...",
+      "source_info_link": "https://www.magicbricks.com/office-space-for-sale-in-koramangala-bangalore-pppfs",
+      "icon": "https://serpapi.com/images/i/UklGRiYBAABXRUJQVlA4IBoBAAAwBgCdASocABwAPtEutFooIagoGAEAGglsALEe434QYBz2nshkROL_WlRZ-kSbpHYuTVLyaRkUJwAAAP6caImWgPo0FJjMaBR8J2rLaP-Y54FFXYTDXExBXVqx3ZmM_HfVg-_lMETv_yU_vK5m3EOSe60JeIMZl4Sa3q_fP9wOif_37MW2FBtdAZFa73a0t_B9KNjiV0geJ7ds5279P6Jda1TBBzta_HWD5V3YDZOr4n1G36-3K84DVwyI5JUX95oJ-wdtYcvBiPbC6Z1fJJk-Kd-zys4gULx212uClccTlLMfhd22rbuWH_h5n-78_8sStmffbqML_hdqXGCUPfBkPvuqdYzcbUew7Pa0gJ89FmBNsmDOo4SAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZZT1hMamhlVnp0VlQtbkFkWEFTX3ViTFBJYjd3MjRWWktYT29LNFJRZG1DdTF4VENOWVVyczMzd0hPblRtZk9HMmVmOWN3c0xOYk91c0gxem9HdW9FUnFhc0hYVzktOVBMelZoY2R2WDg5OUgxUDFRa3FSMG4tMzUtbTRPSmtfakhfb1Z6dnJYekZuR3N3VGFUUzlwcnRfYjZuVzc5X0t4UUJXSnZvSzVEbG9zdl9mMjc3SBIEGgIIABrOCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQJYICAAQABgAIAAqIwoGb2ZmaWNlFfiv40AaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFY_e5kAaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVzpqtPxoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVEP0EPxoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EVbcMqQBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVtwypAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRUrSddAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVMCbtQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZZT1hMamhlVnp0VlQtbkFkWEFTX3ViTFBJYjd3MjRWWktYT29LNFJRZG1DdTF4VENOWVVyczMzd0hPblRtZk9HMmVmOWN3c0xOYk91c0gxem9HdW9FUnFhc0hYVzktOVBMelZoY2R2WDg5OUgxUDFRa3FSMG4tMzUtbTRPSmtfakhfb1Z6dnJYekZuR3N3VGFUUzlwcnRfYjZuVzc5X0t4UUJXSnZvSzVEbG9zdl9mMjc3SDpSPGI-T2ZmaWNlIFNwYWNlPC9iPiBmb3IgU2FsZSBpbiA8Yj5Lb3JhbWFuZ2FsYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gLSBNYWdpY0JyaWNrc0LLATE0MDAgPGI-c3FmdDwvYj4uIFN0YXR1cy4gUmVhZHkgdG8gTW92ZS4gQXQg4oK5MyBDciAo4oK5MjEsMjc2LzxiPnNxZnQ8L2I-KSwgdGhpcyA8Yj5vZmZpY2Ugc3BhY2U8L2I-IGlzIG9uIHNhbGUgd2l0aCBhIGRlY2VudCAxNDEwIDxiPnNxdWFyZSBmZWV0PC9iPiBpbiB0aGUgPGI-S29yYW1hbmdhbGE8L2I-LiBUaGlzIG9mZmljZSBpcyBhJm5ic3A7Li4uSgJpblIHZm9yIHRoZVIFZm9yIGFSAmJ5UgZmb3IgYW4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZZT1hMamhlVnp0VlQtbkFkWEFTX3ViTFBJYjd3MjRWWktYT29LNFJRZG1DdTF4VENOWVVyczMzd0hPblRtZk9HMmVmOWN3c0xOYk91c0gxem9HdW9FUnFhc0hYVzktOVBMelZoY2R2WDg5OUgxUDFRa3FSMG4tMzUtbTRPSmtfakhfb1Z6dnJYekZuR3N3VGFUUzlwcnRfYjZuVzc5X0t4UUJXSnZvSzVEbG9zdl9mMjc3SBIEGgIIABrOCBIAGgAiACoAOgBCBAgBEABKHAgBEhRCZW5nYWx1cnUsIEthcm5hdGFrYRoCCAJaAHIAegCCQJYICAAQABgAIAAqIwoGb2ZmaWNlFfiv40AaB29mZmljZXMaC29mZmljZXNwYWNlKh8KBXNwYWNlFY_e5kAaBHJvb20aC29mZmljZXNwYWNlKjsKBHJlbnQVzpqtPxoPYXBhcnRtZW50cyBuZWFyGgVsZWFzZRoGcmVudGFsGgdyZW50YWxzGgVyZW50cypHCgNwZXIVEP0EPxoCYnkaBWV2ZXJ5GgVmb3IgYRoGZm9yIGFuGgdmb3IgdGhlGgNwc2YaBXBlcnNxGgdwZXJzcWZ0GgNmb3IqVAoCc3EVbcMqQBoDcHNmGgJzZhoLc3F1YXJlIGZlZXQaC3NxdWFyZSBmb290GgdzcXVhcmVkGgVwZXJzcRoHcGVyc3FmdBoEc3FmdBoHaXY7cDtzcSpQCgJmdBVtwypAGgRmZWV0GgdmZWV0IHRvGgRmb290GgNwc2YaAnNmGgtzcXVhcmUgZmVldBoLc3F1YXJlIGZvb3QaB3BlcnNxZnQaBHNxZnQqCQoCaW4VAAAAACpGCgtrb3JhbWFuZ2FsYRUrSddAGgprb3JtYW5nYWxhGhRnZW87M2JhZTEwMDAwMDAwMDAwMBoQaXY7cDtrb3JhbWFuZ2FsYSo2CgliYW5nYWxvcmUVMCbtQBoUZ2VvOzNiYWUxMDAwMDAwMDAwMDAaDml2O3A7YmFuZ2Fsb3JlMsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZZT1hMamhlVnp0VlQtbkFkWEFTX3ViTFBJYjd3MjRWWktYT29LNFJRZG1DdTF4VENOWVVyczMzd0hPblRtZk9HMmVmOWN3c0xOYk91c0gxem9HdW9FUnFhc0hYVzktOVBMelZoY2R2WDg5OUgxUDFRa3FSMG4tMzUtbTRPSmtfakhfb1Z6dnJYekZuR3N3VGFUUzlwcnRfYjZuVzc5X0t4UUJXSnZvSzVEbG9zdl9mMjc3SDpSPGI-T2ZmaWNlIFNwYWNlPC9iPiBmb3IgU2FsZSBpbiA8Yj5Lb3JhbWFuZ2FsYTwvYj4sIDxiPkJhbmdhbG9yZTwvYj4gLSBNYWdpY0JyaWNrc0LLATE0MDAgPGI-c3FmdDwvYj4uIFN0YXR1cy4gUmVhZHkgdG8gTW92ZS4gQXQg4oK5MyBDciAo4oK5MjEsMjc2LzxiPnNxZnQ8L2I-KSwgdGhpcyA8Yj5vZmZpY2Ugc3BhY2U8L2I-IGlzIG9uIHNhbGUgd2l0aCBhIGRlY2VudCAxNDEwIDxiPnNxdWFyZSBmZWV0PC9iPiBpbiB0aGUgPGI-S29yYW1hbmdhbGE8L2I-LiBUaGlzIG9mZmljZSBpcyBhJm5ic3A7Li4uSgJpblIHZm9yIHRoZVIFZm9yIGFSAmJ5UgZmb3IgYW4iAhABSABYAGgA",
+    "source": "MagicBricks",
+    "read_more_link": "https://www.magicbricks.com/office-space-for-sale-in-koramangala-bangalore-pppfs#:~:text=1400%20sqft,named%20Salarpuria%20Sattva%20Money%20Centre."
+   }
+  ],
+  "filters": [
+   {
+    "name": "Online appointments",
+    "parameters": {
+     "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4roxEU8Z3kHaRSi6jt3393OB2xfCupGJNEDneFbRRhB1mPJB7RdceK6aA9QEx1BuwOzFU42lcSxlLDGOJ8M3K8vHkyr09dHVDUkA8FOGmHiJN10FiWsn2ullfmDON5pf1wThBAJmmpq19mCczU4SSiTwHpxmylL8f8lBHbhY2Kpop1uweJoUcoKXKfdrNRuQPs6c596yeT0EZJWaEHBAzpoP3niWkau1tw-R2AyKQJX0pVwrwGcSF8-tmSoObaObujnfBpHDeJrQr4-jPGz4h5pTzSgeW0HVY8c4JgaRMEs3_vNSF3",
+     "q": "online appointments office space rent per sq ft in Koramangala Bangalore"
+    },
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=online+appointments+office+space+rent+per+sq+ft+in+Koramangala+Bangalore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4roxEU8Z3kHaRSi6jt3393OB2xfCupGJNEDneFbRRhB1mPJB7RdceK6aA9QEx1BuwOzFU42lcSxlLDGOJ8M3K8vHkyr09dHVDUkA8FOGmHiJN10FiWsn2ullfmDON5pf1wThBAJmmpq19mCczU4SSiTwHpxmylL8f8lBHbhY2Kpop1uweJoUcoKXKfdrNRuQPs6c596yeT0EZJWaEHBAzpoP3niWkau1tw-R2AyKQJX0pVwrwGcSF8-tmSoObaObujnfBpHDeJrQr4-jPGz4h5pTzSgeW0HVY8c4JgaRMEs3_vNSF3&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQxKsJKAB6BAgVEAE&ictx=0",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=online+appointments+office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=0&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4roxEU8Z3kHaRSi6jt3393OB2xfCupGJNEDneFbRRhB1mPJB7RdceK6aA9QEx1BuwOzFU42lcSxlLDGOJ8M3K8vHkyr09dHVDUkA8FOGmHiJN10FiWsn2ullfmDON5pf1wThBAJmmpq19mCczU4SSiTwHpxmylL8f8lBHbhY2Kpop1uweJoUcoKXKfdrNRuQPs6c596yeT0EZJWaEHBAzpoP3niWkau1tw-R2AyKQJX0pVwrwGcSF8-tmSoObaObujnfBpHDeJrQr4-jPGz4h5pTzSgeW0HVY8c4JgaRMEs3_vNSF3"
+   },
+   {
+    "name": "Open now",
+    "parameters": {
+     "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rl80Y-M4mGGWiWOoQIo1olw4ACeBUF6oB9tFwN-zn5YnXL9pJTk5IopQe0Mehs483WCMzK72BgrgJB3-HlLNRF1DZWywOYbHE7dcS8n03izHJN-mphxlOivQtFheySnAOQ-fdigPFDYVIgmFFJALQzb1jnuqAknZ2kVWacQpb-YMvYZuhUdEZX74Gf3qRey9bOtb-52Rt-Ee0mGc8m1kyoQZVrqI",
+     "q": "office space rent per sq ft in Koramangala Bangalore open now"
+    },
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore+open+now&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rl80Y-M4mGGWiWOoQIo1olw4ACeBUF6oB9tFwN-zn5YnXL9pJTk5IopQe0Mehs483WCMzK72BgrgJB3-HlLNRF1DZWywOYbHE7dcS8n03izHJN-mphxlOivQtFheySnAOQ-fdigPFDYVIgmFFJALQzb1jnuqAknZ2kVWacQpb-YMvYZuhUdEZX74Gf3qRey9bOtb-52Rt-Ee0mGc8m1kyoQZVrqI&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQxKsJKAF6BAgfEAE&ictx=0",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore+open+now&start=0&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rl80Y-M4mGGWiWOoQIo1olw4ACeBUF6oB9tFwN-zn5YnXL9pJTk5IopQe0Mehs483WCMzK72BgrgJB3-HlLNRF1DZWywOYbHE7dcS8n03izHJN-mphxlOivQtFheySnAOQ-fdigPFDYVIgmFFJALQzb1jnuqAknZ2kVWacQpb-YMvYZuhUdEZX74Gf3qRey9bOtb-52Rt-Ee0mGc8m1kyoQZVrqI"
+   },
+   {
+    "name": "Top rated",
+    "parameters": {
+     "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rNhqn_Wuw92pQLndXQtd3NvnIcY-foikza6Q2vhJ4HCr39jaWSjCzYC_1fGs8DAJklZEgS01-IsshWvq5FyyOJiKDwhyAjBAdfNcp8be2rH_9V01VWQALmo60FaqFwoXFhfHvoT41FUjErqTdx3KPdKoux19n4HHGmsX3mCoQo5HP1Yoe1AGPkbWzUMs7BXVtRu4M1ANb55ekBEdOMu5iguCGW3ECtw4notDPI0dOUJh9TpY1",
+     "q": "top rated office space rent per sq ft in Koramangala Bangalore"
+    },
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=top+rated+office+space+rent+per+sq+ft+in+Koramangala+Bangalore&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rNhqn_Wuw92pQLndXQtd3NvnIcY-foikza6Q2vhJ4HCr39jaWSjCzYC_1fGs8DAJklZEgS01-IsshWvq5FyyOJiKDwhyAjBAdfNcp8be2rH_9V01VWQALmo60FaqFwoXFhfHvoT41FUjErqTdx3KPdKoux19n4HHGmsX3mCoQo5HP1Yoe1AGPkbWzUMs7BXVtRu4M1ANb55ekBEdOMu5iguCGW3ECtw4notDPI0dOUJh9TpY1&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQxKsJKAJ6BAgcEAE&ictx=0",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=top+rated+office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=0&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rNhqn_Wuw92pQLndXQtd3NvnIcY-foikza6Q2vhJ4HCr39jaWSjCzYC_1fGs8DAJklZEgS01-IsshWvq5FyyOJiKDwhyAjBAdfNcp8be2rH_9V01VWQALmo60FaqFwoXFhfHvoT41FUjErqTdx3KPdKoux19n4HHGmsX3mCoQo5HP1Yoe1AGPkbWzUMs7BXVtRu4M1ANb55ekBEdOMu5iguCGW3ECtw4notDPI0dOUJh9TpY1"
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "500 sqft office space for rent in Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=500+sqft+office+space+for+rent+in+Bangalore&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ1QJ6BAg-EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=500+sqft+office+space+for+rent+in+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Small office space for rent in Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=Small+office+space+for+rent+in+Bangalore&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ1QJ6BAhFEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Small+office+space+for+rent+in+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Small office space for rent in Bangalore without deposit",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=Small+office+space+for+rent+in+Bangalore+without+deposit&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ1QJ6BAhDEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Small+office+space+for+rent+in+Bangalore+without+deposit&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Office space for rent in Koramangala, Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=Office+space+for+rent+in+Koramangala,+Bangalore&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ1QJ6BAhEEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Office+space+for+rent+in+Koramangala%2C+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Small office space for rent in Bangalore under 5000",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=Small+office+space+for+rent+in+Bangalore+under+5000&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ1QJ6BAhCEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Small+office+space+for+rent+in+Bangalore+under+5000&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Office space for rent Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=Office+space+for+rent+Bangalore&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ1QJ6BAhBEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Office+space+for+rent+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Fully furnished office space for rent in Bangalore",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=Fully+furnished+office+space+for+rent+in+Bangalore&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ1QJ6BAg_EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Fully+furnished+office+space+for+rent+in+Bangalore&start=0"
+   },
+   {
+    "block_position": 1,
+    "query": "Office space for rent Bangalore near me",
+    "link": "https://www.google.co.in/search?sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&q=Office+space+for+rent+Bangalore+near+me&sa=X&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ1QJ6BAhAEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Office+space+for+rent+Bangalore+near+me&start=0"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=10&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8NMDegQIPBAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=10&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAE",
+    "3": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=20&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAG",
+    "4": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=30&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAI",
+    "5": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=40&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAK",
+    "6": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=50&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAM",
+    "7": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=60&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAO",
+    "8": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=70&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAQ",
+    "9": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=80&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAS",
+    "10": "https://www.google.co.in/search?q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&sca_esv=3d4a812c9ccd5f2a&hl=en&gl=in&sxsrf=APpeQnsrIUx7k-SYT5QhyCj3iFjRPfVJTQ:1791279446066&ei=VsHEaqHAA7ihw8cPusjEiQk&start=90&sa=N&sstk=AS6-VmLuog1RQckSO1Ese9b385tlCYhPIRq2NyAGW5xR57ZtZ6uvG0clDy-xfNkDGiqQNAMB4XLNPH4ZX8qH3qZZ9XiLAHUfC1wtdA&ved=2ahUKEwihw834i6WXAxW40PACHTokMZEQ8tMDegQIPBAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=office+space+rent+per+sq+ft+in+Koramangala+Bangalore&start=90"
+   }
+  }
+ }
+}

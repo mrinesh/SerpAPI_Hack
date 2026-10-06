@@ -49,7 +49,7 @@ code for an ID finds every stub that belongs to it.
 | F-06 | Competitor analysis (commercial) | P0 | 🧱 | |
 | F-07 | Property detail page | P0 | 🧱 | |
 | F-08 | Saved properties and side-by-side compare | P1 | 🧱 | |
-| F-09 | Investment metrics | P0 | 🧱 | |
+| F-09 | Investment metrics | P0 | ✅ | |
 | F-10 | Alerts (new match, price drop) | P1 | 🧱 | |
 | F-11 | Source citations and confidence | P0 | 🧱 | |
 | F-12 | Listing quality flags | P1 | 🟨 | |
@@ -268,12 +268,15 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [ ] Save / unsave / list
 - [ ] Compare 2–4 properties side by side, best value per row highlighted
 
-### F-09 Investment metrics · P0 · 🧱
-- [ ] Rent estimate (`extract_rent` from search results)
+### F-09 Investment metrics · P0 · ✅
+- [x] Rent estimate (`extract_rent` from search results): median of ≥ 3 checked rent ÷ size
+      pairs per locality and type (ADR 0017)
 - [x] ROI definition settled: rental yield, price growth, total return; no net yield or cap rate (ADR 0010)
-- [ ] Price per sq ft vs area average, rental yield, price growth (override or locality), total return
-- [ ] `meets_target_roi` using the goal's measure
-- [ ] Exhaustive unit tests (pure functions)
+- [x] Price per sq ft vs area average, rental yield, price growth (override or locality), total return
+- [x] `meets_target_roi` using the goal's measure; ROI score fills F-04's `roi` component
+- [x] Exhaustive unit tests (pure functions)
+- [x] Cards show yield before costs, growth, total and a target badge; area panel shows rents
+- [x] Recorded for both demos (2 rent calls, 9 explanations re-recorded; no new searches)
 
 ### F-10 Alerts · P1 · 🧱
 - [ ] Diff against `listings`: new matches and price drops

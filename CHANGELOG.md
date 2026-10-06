@@ -13,6 +13,13 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-06 · F-09 investment metrics: rental yield before costs from a quoted area rent
+  (median of ≥ 3 checked rent ÷ size pairs per locality and type), price growth (investor
+  override or the area's past 12 months), total return, price per sq ft vs the area, and
+  `meets_target_roi` for the goal's measure. Fills F-04's `roi` score proportionally (full marks
+  at 1.5× target); missing the target lowers the score, never filters (ADR 0017). Cards show
+  yield, growth, total and a target badge; the area panel shows rent. Recorded: Whitefield flats
+  ₹32.5/sq ft/month (Sowparnika 4.76%, meets 4%), Koramangala offices ₹84.4 (6.4–7.2%).
 - 2026-10-06 · F-05 area intelligence: geocoded locality centre (I-12), nearest metro stations,
   schools and hospitals from Google Maps with distances computed in code, past-12-month price
   growth from a quoted snippet (validated), and number-checked AI summaries; cached per

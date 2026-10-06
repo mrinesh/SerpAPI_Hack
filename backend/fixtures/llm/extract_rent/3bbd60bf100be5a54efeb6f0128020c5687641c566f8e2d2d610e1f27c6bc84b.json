@@ -1,0 +1,41 @@
+{
+  "key": "3bbd60bf100be5a54efeb6f0128020c5687641c566f8e2d2d610e1f27c6bc84b",
+  "task": "extract_rent",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "pairs": [
+      {
+        "result_index": 3,
+        "monthly_rent": 50000.0,
+        "size_sqft": 1540.0,
+        "evidence": "50,000 1,540 sqft(143 sqm)"
+      },
+      {
+        "result_index": 3,
+        "monthly_rent": 40000.0,
+        "size_sqft": 1650.0,
+        "evidence": "₹40,000 / month 1,650 sqft"
+      },
+      {
+        "result_index": 4,
+        "monthly_rent": 38000.0,
+        "size_sqft": 850.0,
+        "evidence": "₹38,000 / month + Deposit 2 months rent 850 sqft(79 sqm)"
+      },
+      {
+        "result_index": 7,
+        "monthly_rent": 16000.0,
+        "size_sqft": 700.0,
+        "evidence": "16,000 · 700 sqft"
+      },
+      {
+        "result_index": 7,
+        "monthly_rent": 20000.0,
+        "size_sqft": 300.0,
+        "evidence": "20,000 · 300 sqft"
+      }
+    ],
+    "confidence": 0.8
+  }
+}

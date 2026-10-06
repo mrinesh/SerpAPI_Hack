@@ -29,6 +29,7 @@ from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
 from app.pipeline.enrichment.area import get_area_intel
 from app.pipeline.enrichment.price_level import price_levels
+from app.pipeline.metrics import compute_metrics
 from app.pipeline.persist import save_candidates, save_recommendation, save_verification
 from app.pipeline.query_planner import plan_queries
 from app.pipeline.ranking import EXPLAIN_TOP, explain, level_for, place_name, score_candidates
@@ -200,18 +201,38 @@ def run_pipeline(run_id: str) -> None:
                 event.counts = {"localities": len(localities), "from_cache": 0}
                 for slug in localities:
                     local_levels = {t: lvl for (loc, t), lvl in levels.items() if loc == slug}
-                    area, cached = get_area_intel(ctx, market, slug, local_levels)
+                    area, cached = get_area_intel(
+                        ctx, market, slug, local_levels, set(ctx.profile.property_types)
+                    )
                     areas[slug] = area
                     event.counts["from_cache"] += int(cached)
                     notes.append(_area_note(area, cached))
                     event.message = "; ".join(notes)
                     tracker.replace(event)
+                # Investment metrics per rankable candidate (F-09, ADR 0010 / 0017).
+                metrics = {}
+                for listing, verification in checked:
+                    if verification.verdict == "reject":
+                        continue
+                    area = areas.get(listing.locality.value or "")
+                    kind = listing.property_type.value
+                    metrics[listing.id] = compute_metrics(
+                        listing,
+                        verification,
+                        ctx.profile,
+                        price_level=levels.get((listing.locality.value, kind)),
+                        rent_level=area.rent_levels.get(kind) if area and kind else None,
+                        area_growth=area.price_growth_pct if area else None,
+                    )
+                event.counts["with_yield"] = sum(
+                    m.rental_yield_pct.value is not None for m in metrics.values()
+                )
                 if not localities:
                     event.message = "No localities to enrich"
 
             with tracker.stage(PipelineStage.RANK) as event:
                 # Scores and code reasons are saved first, so an explanation failure keeps them.
-                ranked = score_candidates(ctx.profile, checked, levels, market, areas)
+                ranked = score_candidates(ctx.profile, checked, levels, market, areas, metrics)
                 for recommendation in ranked:
                     save_recommendation(db, run_id, recommendation)
                 top = ranked[:EXPLAIN_TOP]
@@ -338,6 +359,8 @@ def _area_note(area, cached: bool) -> str:
     parts = [f"metro {metro.distance_km:.1f} km" if metro else "no metro found"]
     if area.price_growth_pct is not None:
         parts.append(f"growth {area.price_growth_pct.value:g}% (past 12 months)")
+    for kind, rent in sorted(area.rent_levels.items()):
+        parts.append(f"{kind} rent ₹{rent.value:g}/sq ft/month")
     return f"{area.locality}: {', '.join(parts)}" + (" (cached)" if cached else "")
 
 

@@ -85,6 +85,8 @@ class AreaIntel(BaseModel):
     price_growth_pct: Sourced[float] | None = None
     # Sale price per sq ft by property type, from runs' price-level lookups (ADR 0014).
     price_levels: dict[PropertyType, Sourced[float]] = Field(default_factory=dict)
+    # Monthly rent per sq ft by property type: median of quoted rent ÷ size pairs (ADR 0017).
+    rent_levels: dict[PropertyType, Sourced[float]] = Field(default_factory=dict)
     rental_demand: RentalDemand | None = None  # not collected yet (F-05 P1)
     summary: str | None = None
     infrastructure_summary: str | None = None
