@@ -1,0 +1,22 @@
+{
+  "key": "1fa1a5b9c2d1fe5874fc8f15b9bbbca0a42536372ce1efc36f86fd1fcba3e38f",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This candidate ranks #1 because it appears to meet your basic criteria: it is a ready-to-move apartment in Whitefield, priced within budget at ₹60 L, and the listed rate of ₹8,185/sq ft is below the area level. However, the ranking is based on a search-page snippet, not a verified individual listing, and key details like exact location, size, and rental yield are unconfirmed. Before proceeding, contact the seller to verify the unit and confirm the actual price and flat details.",
+    "highlights": [
+      "Ready-to-move apartment in Whitefield, matching your locality preference.",
+      "Listed price of ₹60 L is comfortably within your ₹80 L budget.",
+      "Rate of ₹8,185/sq ft is 33% below the Whitefield average of ₹12,150/sq ft.",
+      "Strong area fundamentals: Whitefield prices grew 29% in the past year and there are 3 hospitals and 4 schools within 3 km.",
+      "Estimated rental yield of 4.8% and total return of 33.8% appear promising, though not yet verified."
+    ],
+    "risks": [
+      "Source is a search result snippet, not a verified individual listing; final unit price may differ.",
+      "Exact address and unit-level details (bedrooms, size) are not confirmed; size of 733 sq ft is an estimate.",
+      "Rental yield and ROI are not yet assessed; the 3% target cannot be confirmed at this stage.",
+      "Locality inference is moderate confidence (0.7) from page title; actual location may be nearby, not exactly Whitefield."
+    ]
+  }
+}

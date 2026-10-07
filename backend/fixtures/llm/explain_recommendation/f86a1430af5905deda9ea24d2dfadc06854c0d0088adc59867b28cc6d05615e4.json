@@ -1,0 +1,19 @@
+{
+  "key": "f86a1430af5905deda9ea24d2dfadc06854c0d0088adc59867b28cc6d05615e4",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This candidate is a partial match: the asking price of ₹69.3 L fits your budget up to ₹80 L, and it is listed as an apartment in Whitefield, but the snippet is not a verified individual listing and lacks unit size, so you should confirm the exact unit details and locality before proceeding.",
+    "highlights": [
+      "Asking price ₹69.3 L is within your budget up to ₹80 L.",
+      "Listed as an apartment, matching your preferred property type.",
+      "Search context indicates Whitefield, your target locality."
+    ],
+    "risks": [
+      "No unit size reported; size suitability cannot be verified.",
+      "Source is a 99acres search-page snippet, not a verified individual listing.",
+      "Exact locality within Whitefield is not fully confirmed."
+    ]
+  }
+}

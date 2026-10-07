@@ -37,7 +37,7 @@ code for an ID finds every stub that belongs to it.
 | I-09 | Pipeline orchestrator, background runs, stage events | P0 | ✅ | |
 | I-10 | Frontend shell, routing, API client, generated types | P0 | 🧱 | |
 | I-11 | Background scheduler | P1 | 🧱 | |
-| I-12 | Bengaluru locality data and geocoding | P0 | 🟨 | |
+| I-12 | Bengaluru locality data and geocoding | P0 | ✅ | |
 | I-13 | Recorded demo fixtures for judges | P0 | ✅ | |
 | I-14 | CI: lint, typecheck, tests on push | P1 | ⬜ | |
 | **Features (F-01 to F-08 match the product brief's numbering)** | | | | |
@@ -181,14 +181,14 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
 - [x] APScheduler wiring, off by default (`SCHEDULER_ENABLED`)
 - [ ] Alert job wired to F-10
 
-### I-12 Locality data and geocoding · P0 · 🟨
+### I-12 Locality data and geocoding · P0 · ✅
 - [x] `app/reference/bengaluru.json`: 15 localities verified on Wikipedia's neighbourhood list, with slugs
 - [x] Geocode each locality centre via google_maps (F-05), kept with the area for its TTL and
       in replay fixtures; rejected outside the market's bounding box
-- [ ] Locality matching (aliases, fuzzy) used by cleaning (ADR 0024): matcher, evidence levels and
-      the location_mismatch flag built and unit-tested; commercial demo re-recorded. **Pending:**
-      the residential re-recording (stopped at 6 of 16 checks when DeepSeek became unreachable),
-      then `make fixtures --prune` and the replay tests. Area news matching is unchanged
+- [x] Locality matching (observed aliases, joined initials, fuzzy for long names, landmarks
+      ignored) used by cleaning (ADR 0024): locality evidence from the result's own words and a
+      `location_mismatch` flag; both demos re-recorded (52 DeepSeek calls, 0 searches), 52
+      superseded recordings pruned. Area news matching is unchanged (ADR 0020)
 
 ### I-13 Demo fixtures · P0 · ✅
 - [x] Two demo profiles in `app/reference/demo_profiles.py`: apartment in Whitefield ≤ ₹80 L;

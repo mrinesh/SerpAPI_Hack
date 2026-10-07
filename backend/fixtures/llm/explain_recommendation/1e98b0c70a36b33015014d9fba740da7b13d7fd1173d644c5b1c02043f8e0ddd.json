@@ -1,0 +1,19 @@
+{
+  "key": "1e98b0c70a36b33015014d9fba740da7b13d7fd1173d644c5b1c02043f8e0ddd",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This Whitefield apartment fits your locality, property type, and budget, but key details like confirmed bedrooms, exact unit listing, and ROI evidence are missing. The price is from a search-page snippet, not a verified individual listing, and size is estimated. Verify the specific unit and rental yield before proceeding.",
+    "highlights": [
+      "Price ₹72 L is within your ₹80 L budget",
+      "Locality Whitefield matches your preferred area",
+      "Apartment type matches your residential requirement"
+    ],
+    "risks": [
+      "Source is a search results page, not a confirmed listing",
+      "Bedrooms and exact size are not verified",
+      "Rental yield and ROI target not yet assessed"
+    ]
+  }
+}

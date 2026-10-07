@@ -1,0 +1,26 @@
+{
+  "key": "a676f0fe50d504983d275b4f197c57597d9f91042ded46dace160d5dc2a969cf",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 0,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Segment: residential matches profile segment 'residential'.",
+      "Property type: apartment matches profile property_types 'apartment'.",
+      "Locality: whitefield matches profile localities 'whitefield'."
+    ],
+    "mismatches": [
+      "Budget: asking price ₹84,00,000 (84 lakh) exceeds budget_max_inr ₹80,00,000 (80 lakh). This is a hard constraint violation."
+    ],
+    "missing_data": [
+      "Size (sqft) not provided; cannot confirm size requirements (none specified anyway).",
+      "Price_per_sqft not provided.",
+      "Rental yield / ROI not yet available; investment goal 'rental_income' and target ROI 3.0% cannot be confirmed at this stage.",
+      "Price source is a search results page snippet, not an individual listing; final unit price may vary.",
+      "Property status (e.g., ready to move/under construction) not provided."
+    ],
+    "confidence": 0.8
+  }
+}

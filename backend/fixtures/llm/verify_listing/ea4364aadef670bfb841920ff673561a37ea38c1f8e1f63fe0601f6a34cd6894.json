@@ -1,0 +1,25 @@
+{
+  "key": "ea4364aadef670bfb841920ff673561a37ea38c1f8e1f63fe0601f6a34cd6894",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality: Whitefield matches requested locality",
+      "Property type: apartment matches requested property type",
+      "Segment: residential matches requested segment",
+      "City: Bengaluru matches requested city"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price is not provided, so budget_max_inr cannot be checked",
+      "Unit size is not provided, so size constraints cannot be checked",
+      "Rental income / yield cannot be confirmed at this stage",
+      "Candidate is a Google Maps project listing, not a priced individual unit",
+      "Property type is inferred from Google Maps place type with low confidence (0.5), not a verified listing detail"
+    ],
+    "confidence": 0.55
+  }
+}
