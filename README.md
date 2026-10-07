@@ -1,5 +1,7 @@
 # Realty Intel
 
+[![CI](https://github.com/mrinesh/SerpAPI_Hack/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mrinesh/SerpAPI_Hack/actions/workflows/ci.yml)
+
 **Real estate investor intelligence, built on live search data.** Tell it what you want to buy,
 and it finds listings through SerpApi, has DeepSeek check each one against your criteria, adds
 area intelligence (and nearby businesses for commercial property), and returns a ranked shortlist

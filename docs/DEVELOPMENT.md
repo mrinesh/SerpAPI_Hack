@@ -94,6 +94,12 @@ so re-recording a demo pays only for new requests. Delete a fixture file to refr
 - Small commits; message says what and why. Reference checklist IDs (`F-02: parse prices`).
 - Never commit `.env`, keys, or `backend/data/`. Fixtures are committed on purpose.
 
+## Continuous integration
+
+`.github/workflows/ci.yml` runs on every push and pull request: `make setup`, `make lint`,
+`make test`, `npm run build` and `make fixtures`. It needs no secrets: everything replays from
+the committed recordings. A red build on `main` blocks merging further branches.
+
 ## Definition of done
 
 A checklist item is ✅ only when **all** of these are true, in the same commit or PR:

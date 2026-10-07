@@ -13,6 +13,8 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · CI (I-14): GitHub Actions runs `make lint`, `make test`, the frontend build and
+  `make fixtures` on every push and pull request, in replay mode with no secrets. README badge.
 - 2026-10-07 · Fixture usage check (I-03): `make fixtures` runs the tests with a tracker of every
   recording read and lists what nothing uses; unused LLM recordings fail it and `--prune`
   deletes them, SerpApi ones are only reported. Removed one superseded `extract_listing`
