@@ -389,6 +389,9 @@ class _Tracker:
 
     def finish(self, status: RunStatus, error: str | None = None) -> None:
         self._db.rollback()  # drop anything half-written by a failed stage
+        # Count every stage's lookups (price levels, area, rent, competitors, Trends), not
+        # only discovery's, so "searches spent" is what the run really cost.
+        self.update_search_counts()
         self._run.status = status
         self._run.error = error
         self._run.finished_at = datetime.now(UTC)

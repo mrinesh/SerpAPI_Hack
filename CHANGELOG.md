@@ -12,6 +12,11 @@ Reference CHECKLIST IDs.
   `DEEPSEEK_*` settings replace `GEMINI_*`; `python -m app.cli llm` checks connectivity.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
+### Fixed
+- 2026-10-07 · A run's "searches spent" and cache hits are now counted when it finishes, so they
+  include every stage (price levels, area, rent, competitors, Trends); before, only discovery's
+  lookups were counted and live runs under-reported what they spent.
+
 ### Added
 - 2026-10-07 · Developing-area signals (ADR 0025), by gscode007, ported onto main: Google Trends
   weekly interest in each locality and its rentals, plus the app's own search history; code
