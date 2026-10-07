@@ -32,9 +32,20 @@ export type AreaAccess = Schemas["AreaAccess"];
 export type Amenity = Schemas["Amenity"];
 export type CompetitorReport = Schemas["CompetitorReport"];
 export type PropertyDetail = Schemas["PropertyDetail"];
+export type PriceObservation = Schemas["PriceObservation"];
 export type CompareResult = Schemas["CompareResult"];
 export type SavedProperty = Schemas["SavedProperty"];
 export type Alert = Schemas["Alert"];
 export type SourceRef = Schemas["SourceRef"];
+export type SerpEngine = Schemas["SerpEngine"];
+export type ExtractionMethod = Schemas["ExtractionMethod"];
+/** Any `Sourced[T]` field (F-11): a value with its confidence, method and sources. */
+export type SourcedField =
+  | Schemas["Sourced_float_"]
+  | Schemas["Sourced_int_"]
+  | Schemas["Sourced_str_"]
+  | Schemas["Sourced_PropertyType_"]
+  | Schemas["Sourced_SaleStatus_"]
+  | Schemas["Sourced_GeoPoint_"];
 export type TargetSuggestion = Schemas["TargetSuggestion"];
 export type TargetSuggestionIn = Schemas["TargetSuggestionIn"];

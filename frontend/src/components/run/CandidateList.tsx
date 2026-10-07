@@ -1,4 +1,5 @@
 import { useState, type ReactNode } from "react";
+import { Link } from "react-router";
 
 import type { Listing, Portal, ProfileOptions, Recommendation, SaleStatus, Verification } from "../../api/types";
 import { formatInr } from "../../lib/money";
@@ -6,14 +7,14 @@ import { FlagChips } from "./FlagChips";
 import { groupCandidates } from "./groupCandidates";
 import { RecommendationList } from "./RecommendationList";
 
-const PORTAL_LABELS: Record<Portal, string> = {
+export const PORTAL_LABELS: Record<Portal, string> = {
   "99acres": "99acres",
   magicbricks: "MagicBricks",
   nobroker: "NoBroker",
   google_maps: "Google Maps",
 };
 
-const STATUS_LABELS: Record<SaleStatus, string> = {
+export const STATUS_LABELS: Record<SaleStatus, string> = {
   ready_to_move: "Ready to move",
   under_construction: "Under construction",
   resale: "Resale",
@@ -24,8 +25,8 @@ type Tab = "recommended" | "priced" | "projects" | "filtered";
 
 /** The ranked shortlist first (F-04), then every discovered candidate with its relevance check.
  * Rejects remain visible with their reasons. */
-export function CandidateList({ listings, options, verifications, recommendations, targetRoi }: {
-  listings: Listing[]; options: ProfileOptions; verifications: Verification[];
+export function CandidateList({ runId, listings, options, verifications, recommendations, targetRoi }: {
+  runId: string; listings: Listing[]; options: ProfileOptions; verifications: Verification[];
   recommendations: Recommendation[]; targetRoi?: number;
 }) {
   const groups = groupCandidates(listings, verifications);
@@ -74,6 +75,7 @@ export function CandidateList({ listings, options, verifications, recommendation
       </p>
       {tab === "recommended" && (
         <RecommendationList
+          runId={runId}
           recommendations={recommendations}
           targetRoi={targetRoi}
           describe={({ listing }) => [
@@ -93,9 +95,13 @@ export function CandidateList({ listings, options, verifications, recommendation
         {shown.map((listing) => (
           <li key={listing.id} className="grid gap-1 px-4 py-3 sm:grid-cols-[1fr_auto]">
             <div className="min-w-0">
-              <p className="truncate font-medium" title={listing.name}>
+              <Link
+                to={`/runs/${runId}/properties/${listing.id}`}
+                className="block truncate font-medium hover:underline"
+                title={listing.name}
+              >
                 {listing.name}
-              </p>
+              </Link>
               <p className="text-xs text-slate-500">
                 {[
                   typeLabel(listing.property_type.value),
@@ -152,7 +158,7 @@ const VERDICT_LABELS: Record<Verification["verdict"], string> = {
   strong: "Strong match", partial: "Partial match", weak: "Weak match", reject: "Filtered out",
 };
 
-function VerificationSummary({ verification }: { verification: Verification }) {
+export function VerificationSummary({ verification }: { verification: Verification }) {
   const rejected = verification.verdict === "reject";
   return (
     <div className="mt-3 space-y-2 text-xs">
