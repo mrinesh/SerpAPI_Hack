@@ -13,6 +13,11 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Results map (F-19, ADR 0022): the run page maps every candidate on OpenStreetMap,
+  ranked ones numbered and coloured by score, at their own Google Maps GPS or grouped in one
+  dashed marker at the locality centre (never an invented point), with filtered-out and
+  metro / school / hospital overlays. The detail page maps the property with its area's
+  amenities. Frontend only; 0 searches, 0 LLM calls.
 - 2026-10-07 · Property detail page (F-07, ADR 0021): `GET /properties/{id}?run_id=` returns the
   listing as one run judged it (verification, rank and reasons, metrics, the run's area, price
   across runs, every source), from stored results only. The page at

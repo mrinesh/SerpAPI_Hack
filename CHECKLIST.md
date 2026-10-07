@@ -53,7 +53,7 @@ code for an ID finds every stub that belongs to it.
 | F-10 | Alerts (new match, price drop) | P1 | 🧱 | |
 | F-11 | Source citations and confidence | P0 | ✅ | |
 | F-12 | Listing quality flags | P1 | ✅ | |
-| F-19 | Results map view | P0 | ⬜ | |
+| F-19 | Results map view | P0 | ✅ | |
 | F-20 | Live pipeline progress view | P0 | ✅ | |
 | **Later (P2)** | | | | |
 | F-13 | Risk scoring (flood, legal, oversupply) | P2 | ⏸️ | |
@@ -269,7 +269,7 @@ Run-scoped, from stored results only ([ADR 0021](docs/decisions/0021-run-scoped-
 - [x] `GET /api/properties/{id}?run_id=` assembling listing, verification, recommendation, metrics,
       the run's area, price history and sources; latest run when `run_id` is omitted
 - [x] Detail page layout: header facts, relevance check, metrics, reasons, area card, sources;
-      linked from every run card. Competitors panel arrives with F-06, map layers with F-19
+      linked from every run card. Map with amenities from F-19; competitors panel arrives with F-06
 - [x] Tests: 9 API cases on both demos (ranked, rejected, unchecked, latest run, 404s), 3 source
       cases; checked in Chrome on the commercial demo
 
@@ -304,10 +304,16 @@ Run-scoped, from stored results only ([ADR 0021](docs/decisions/0021-run-scoped-
 - [x] Flag chips on run cards
 - [x] Flag chips on the detail page (F-07)
 
-### F-19 Results map view · P0 · ⬜
-- [ ] Leaflet + OpenStreetMap tiles, markers coloured by score (Maps projects carry GPS; snippet
-      entries only when matched to a project, else the locality centre from F-05)
-- [ ] Amenity and competitor layers on the detail page
+### F-19 Results map view · P0 · ✅
+Positions only from SerpApi ([ADR 0022](docs/decisions/0022-map-positions-only-from-serpapi.md)).
+- [x] Leaflet + OpenStreetMap tiles on the run page: ranked candidates numbered and coloured by
+      score band, the rest by status; Maps projects (and entries matched to one) at their own GPS,
+      the rest grouped in one dashed marker at the locality centre from F-05, never jittered
+- [x] Overlays: filtered out (off by default) and metro / schools / hospitals (on when no
+      candidate has its own position); legend lists only the colours on the map
+- [x] Detail page map: the property and its area's amenities (F-07). Competitor layer is F-06's
+- [x] Tests: 8 layout cases (placement, ungeocoded centres, status order, draw order, amenity
+      de-duplication, opening view, colours, legend); checked in headless Chrome on both demos
 
 ### F-20 Live pipeline progress · P0 · ✅
 - [x] Poll `GET /api/runs/{id}`; show each stage with counts, searches used, cache hits
@@ -322,7 +328,7 @@ Kept current as features land. ✅ means the doc exists and matches the code tod
 - [x] docs/PRODUCT.md, docs/ARCHITECTURE.md, docs/PIPELINE.md
 - [x] docs/SERPAPI_USAGE.md (doubles as the submission's SerpApi explanation)
 - [x] docs/DATA_MODEL.md, docs/API.md, docs/DEVELOPMENT.md
-- [x] docs/decisions/ ADR 0001–0021
+- [x] docs/decisions/ ADR 0001–0022
 - [x] docs/spikes/S-01 filled with real findings
 - [ ] Screenshots / GIF in README
 - [ ] Final pass: every endpoint in API.md shows its real status

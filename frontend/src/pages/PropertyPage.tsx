@@ -4,6 +4,8 @@ import { Link, useParams } from "react-router";
 import { describeError } from "../api/client";
 import { useProfile, useProfileOptions, usePropertyDetail } from "../api/hooks";
 import type { PropertyDetail, PropertyType } from "../api/types";
+import { layoutMap } from "../components/map/mapLayout";
+import { MapLegend, ResultsMap } from "../components/map/ResultsMap";
 import { Notice } from "../components/Notice";
 import { AreaCard } from "../components/run/AreaPanel";
 import { accessLine } from "../components/run/areaText";
@@ -18,8 +20,9 @@ const signedPct = (value: number) => `${value > 0 ? "+" : ""}${value.toFixed(1)}
 const sqft = (value: number) => `${Math.round(value).toLocaleString("en-IN")} sq ft`;
 const perSqft = (value: number) => `₹${Math.round(value).toLocaleString("en-IN")}/sq ft`;
 
-/** F-07: one property as one search judged it, with every figure's source (F-11). Built from
- * stored results only (ADR 0021). Competitors (F-06) and the map (F-19) plug in here. */
+/** F-07: one property as one search judged it, with every figure's source (F-11), on a map with
+ * its area's amenities (F-19). Built from stored results only (ADR 0021). Competitors (F-06)
+ * plug in here. */
 export function PropertyPage() {
   const { runId, listingId } = useParams();
   const detail = usePropertyDetail(listingId, runId);
@@ -178,6 +181,8 @@ export function PropertyPage() {
         </Card>
       )}
 
+      <PropertyMap detail={data} />
+
       {data.area && <AreaCard area={data.area} typeLabel={(value: PropertyType) => typeLabel(value)} />}
 
       <PriceHistory history={data.price_history ?? []} />
@@ -196,6 +201,33 @@ function Card({ title, note, children }: { title: string; note?: string; childre
       </header>
       {children}
     </section>
+  );
+}
+
+/** The property at its own GPS, or at its locality centre when none was quoted, with the area's
+ * metro stations, schools and hospitals. */
+function PropertyMap({ detail }: { detail: PropertyDetail }) {
+  const layout = layoutMap({
+    listings: [detail.listing],
+    verifications: detail.verification ? [detail.verification] : [],
+    recommendations: detail.recommendation ? [detail.recommendation] : [],
+    areas: detail.area ? [detail.area] : [],
+    fitAmenities: true,
+  });
+  if (layout.bounds.length === 0) return null;
+  const exact = layout.listings.length > 0;
+  return (
+    <Card
+      title="On the map"
+      note={exact
+        ? "Position from Google Maps, with the nearest metro stations, schools and hospitals."
+        : layout.localities.length > 0
+        ? `No position was quoted for this property; the dashed marker is the ${layout.localities[0].locality} centre.`
+        : "No position was quoted for this property; the area's amenities are shown."}
+    >
+      <ResultsMap layout={layout} runId={detail.run_id} focusId={detail.listing.id} showAmenities showFiltered className="h-80" />
+      <MapLegend layout={layout} />
+    </Card>
   );
 }
 
