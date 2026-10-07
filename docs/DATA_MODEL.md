@@ -34,7 +34,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `Listing` | `listing.py` | A discovered candidate: `snippet_entry` (priced entry quoted on a portal search page) or `project` (Google Maps place). Name, url, price, ₹/sq ft, size, BHK, sale status, GPS, rating, evidence text; all facts `Sourced` ([ADR 0011](decisions/0011-discovery-from-search-snippets.md)) |
 | `Verification`, `QualityFlag` | `listing.py` | LLM match score, verdict, mismatches, flags |
 | `AreaIntel` (+ `Amenity`, `NewsItem`, `PriceTrend`, `RentalDemand`) | `area.py` | Per-locality intelligence |
-| `CompetitorReport`, `Competitor` | `competitor.py` | Commercial competition around a point |
+| `CompetitorReport`, `Competitor`, `CompetitorReading` | `competitor.py` | Same-category businesses within 2 km of a commercial locality's centre, with density and a reading per property type (ADR 0023) |
 | `InvestmentMetrics` | `metrics.py` | Price per sq ft vs area, rental yield, price growth, total return, target check |
 | `Recommendation` | `recommendation.py` | Rank, composite score, breakdown, reason |
 | `PipelineRun`, `StageEvent` | `run.py` | Run status and live progress |
@@ -69,7 +69,8 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `run_results` | `id` | Progressive JSON: `listing` snapshot, nullable `verification`, and for ranked rows `recommendation` (score, score_breakdown, reason, highlights, risks, explained, access, metrics) | One row per listing per run; rank 1..n for ranked candidates, null for rejects and unchecked |
 | `run_area_intel` | `id` | `run_id`, `locality_key`, `AreaIntel` JSON as the run used it | One row per run and locality; frozen (ADR 0020); deleted with the profile |
 | `area_intel` | `locality_key` | `AreaIntel` JSON (centre, amenities, `price_growth_pct`, per-type `price_levels` and `rent_levels`, summaries, `section_status`, `warnings`, `schema_version`, `provider_modes`), `expires_at` (= `fetched_at` when a section failed) | e.g. `bengaluru/whitefield`; rebuilt after the TTL |
-| `competitor_reports` | hash(centre, category, radius) | `CompetitorReport` JSON | |
+| `competitor_reports` | hash(locality, rounded centre, business type, radius) | `CompetitorReport` JSON | Area TTL; a failed search expires at once (ADR 0023) |
+| `run_competitor_reports` | `id` | `run_id`, `locality_key`, `CompetitorReport` JSON as the run used it | One row per run and commercial locality; frozen; deleted with the profile |
 | `serp_cache` | `cache_key` | raw SerpApi JSON, `search_id` | Same key as fixture file names |
 | `search_ledger` | autoincrement | engine, key, run, `live` | Budget is computed from this |
 | `llm_cache` | hash(task, model, tier, prompt, schema) | validated LLM output | Replay reads fixtures only; record writes cache hits too |

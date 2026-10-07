@@ -19,7 +19,7 @@ the pipeline working live (F-20). A failing stage marks the run failed without d
 earlier results.
 
 > Status: plan, fetch and clean (F-02), verification (F-03, with F-12 price flags) and rank
-> (F-04) are built, and enrich has area intelligence (F-05) and investment metrics (F-09). Both demo profiles replay end to end with no keys, from committed
+> (F-04) are built, and enrich has area intelligence (F-05), competitors (F-06, commercial) and investment metrics (F-09). Both demo profiles replay end to end with no keys, from committed
 > SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
@@ -143,9 +143,14 @@ or `failed` with the error in `warnings`, a failed section makes the area expire
 next run retries, and a cached area is reused only when it matches the current schema version
 and provider modes ([ADR 0019](decisions/0019-visible-failures-validated-cache-withheld-metrics.md)).
 
-**Competitors** (commercial only): google_maps `"{business_type}"` near the property →
-density, ratings, review volume, saturation. P1: google_maps_reviews for the top competitors →
-`competitor_gaps` prompt.
+**Competitors** (`enrichment/competitors.py`, F-06, commercial profiles with a business type,
+[ADR 0023](decisions/0023-competitors-per-locality-read-by-type.md)): google_maps
+`"{business_type}"` at the area's centre, zoom 15 → places within 2 km, density, density level
+(10+ high, 4–9 medium, of one page of 20), average rating, total reviews; read as competition
+for shops and as a business cluster for offices, warehouses and land. Cached per locality,
+centre, business and radius; frozen per run in `run_competitor_reports`. Display only: not
+scored. A failed search is reported and retried next run. P1 (F-06b): google_maps_reviews for
+the top places → `competitor_gaps` prompt.
 
 **Rent level** (`enrichment/rent_level.py`, F-09): one Google search per locality and type
 ("flat rent per sq ft in Whitefield Bangalore"); `extract_rent` (LLM lite) lists quoted rent

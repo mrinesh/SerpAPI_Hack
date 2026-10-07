@@ -1,4 +1,4 @@
-import type { Amenity, AreaIntel, Listing, Recommendation, Verification } from "../../api/types";
+import type { Amenity, AreaIntel, Competitor, CompetitorReport, Listing, Recommendation, Verification } from "../../api/types";
 
 export type LatLng = [number, number];
 
@@ -32,10 +32,18 @@ export interface AmenityMarker {
   locality: string;
 }
 
+/** A same-category business from a commercial run's competitor report (F-06). */
+export interface CompetitorMarker {
+  position: LatLng;
+  competitor: Competitor;
+  businessType: string;
+}
+
 export interface MapLayout {
   listings: ListingMarker[];
   localities: LocalityMarker[];
   amenities: AmenityMarker[];
+  competitors: CompetitorMarker[];
   unplaced: MapItem[]; // no GPS and no locality centre (yet): counted, never drawn
   bounds: LatLng[]; // what the map opens on
 }
@@ -49,13 +57,15 @@ const byStatusThenRank = (a: MapItem, b: MapItem) =>
 
 /** Places a run's candidates for the results map (F-19). Positions only ever come from SerpApi:
  * a listing's own GPS, else its locality's centre, labelled as such. Amenities are drawn once
- * each. The map opens on the candidates, and also takes in the amenities when no candidate has
- * its own position (a lone locality centre says little) or when `fitAmenities` is set. */
-export function layoutMap({ listings, verifications, recommendations, areas, fitAmenities = false }: {
+ * each, as are commercial competitors (F-06). The map opens on the candidates. When none has its
+ * own position (a lone locality centre says little) it also takes in the competitors, which sit
+ * within 2 km, else the amenities; `fitAmenities` takes in everything (the detail page). */
+export function layoutMap({ listings, verifications, recommendations, areas, competitors = [], fitAmenities = false }: {
   listings: Listing[];
   verifications: Verification[];
   recommendations: Recommendation[];
   areas: AreaIntel[];
+  competitors?: CompetitorReport[];
   fitAmenities?: boolean;
 }): MapLayout {
   const ranked = new Map(recommendations.map((r) => [r.listing.id, r]));
@@ -64,7 +74,7 @@ export function layoutMap({ listings, verifications, recommendations, areas, fit
     areas.flatMap((area) => (area.center ? [[localitySlug(area), area] as const] : [])),
   );
 
-  const result: MapLayout = { listings: [], localities: [], amenities: [], unplaced: [], bounds: [] };
+  const result: MapLayout = { listings: [], localities: [], amenities: [], competitors: [], unplaced: [], bounds: [] };
   const groups = new Map<string, LocalityMarker>();
   for (const listing of listings) {
     const recommendation = ranked.get(listing.id);
@@ -101,9 +111,23 @@ export function layoutMap({ listings, verifications, recommendations, areas, fit
     }
   }
 
+  for (const report of competitors) {
+    for (const competitor of report.competitors ?? []) {
+      if (!competitor.location) continue;
+      result.competitors.push({
+        position: [competitor.location.lat, competitor.location.lng],
+        competitor,
+        businessType: report.business_type,
+      });
+    }
+  }
+
   const candidates = [...result.listings, ...result.localities].map((marker) => marker.position);
-  const amenities = result.amenities.map((marker) => marker.position);
-  result.bounds = fitAmenities || result.listings.length === 0 ? [...candidates, ...amenities] : candidates;
+  const near = result.competitors.map((marker) => marker.position); // within a 2 km radius
+  const amenities = result.amenities.map((marker) => marker.position); // up to 5 km out
+  result.bounds = fitAmenities ? [...candidates, ...near, ...amenities]
+    : result.listings.length > 0 ? candidates
+    : [...candidates, ...(near.length > 0 ? near : amenities)];
   return result;
 }
 
@@ -143,6 +167,8 @@ export function legendEntries(layout: MapLayout): { color: string; label: string
     ...Object.entries(AMENITY_LABELS)
       .filter(([category]) => categories.has(category as Amenity["category"]))
       .map(([category, label]) => ({ color: AMENITY_COLORS[category], label })),
+    ...[...new Set(layout.competitors.map((m) => m.businessType))]
+      .map((business) => ({ color: COMPETITOR_COLOR, label: `${business} nearby` })),
   ];
 }
 
@@ -154,6 +180,8 @@ export const STATUS_LABELS: Record<MapStatus, string> = {
   unchecked: "Not AI-checked",
   filtered: "Filtered out",
 };
+
+export const COMPETITOR_COLOR = "#92400e";
 
 export const AMENITY_COLORS: Record<string, string> = {
   metro: "#7c3aed", school: "#2563eb", hospital: "#0891b2",

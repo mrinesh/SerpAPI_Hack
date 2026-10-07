@@ -29,6 +29,7 @@ city) use the same shape.
 | GET | `/properties/{listing_id}?run_id=` | `PropertyDetail` as that run judged it (latest run that found it when `run_id` is omitted); 404 for an unknown listing or run, or a run that did not find it (ADR 0021) | F-07 | ✅ |
 | GET | `/areas/{locality_key}` | `AreaIntel`; key like `bengaluru/whitefield`; 404 if never built | F-05 | ✅ |
 | GET | `/runs/{run_id}/areas` | `AreaIntel[]` as this run used them (frozen per run, ADR 0020); older runs fall back to the shared cache | F-05 | ✅ |
+| GET | `/runs/{run_id}/competitors` | `CompetitorReport[]`, one per commercial locality, frozen per run; empty for residential runs (ADR 0023) | F-06 | ✅ |
 | GET | `/saved` | `SavedProperty[]` | F-08 | 🧱 |
 | POST | `/saved` | `SavedProperty` (201) | F-08 | 🧱 |
 | DELETE | `/saved/{listing_id}` | 204 | F-08 | 🧱 |
@@ -49,7 +50,11 @@ and `assessment_note` explains a missing verdict (ADR 0019). A corrupt cached ar
 `rank` stage counts contain `ranked` and `explained` (AI reasons that passed the number check).
 `PropertyDetail.recommendation` and `metrics` are null for an unranked or rejected candidate;
 `price_history` is the price quoted in every run that saw it; `sources` is every source behind
-the page's figures, de-duplicated (F-11). `competitors` stays null until F-06.
+the page's figures, de-duplicated (F-11). `competitors` is the run's report for the listing's
+locality (commercial only, else null); its places are included in `sources`. A
+`CompetitorReport` has `status` `ok`, `empty` or `failed` (with `warning`), `readings` per
+property type (`competition` or `cluster`), and `more_available` when the count is a floor;
+enrich stage counts add `competitor_reports` for commercial runs.
 
 ## Frontend types
 

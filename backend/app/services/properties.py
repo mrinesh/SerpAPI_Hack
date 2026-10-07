@@ -7,11 +7,17 @@ from sqlalchemy.orm import Session
 from app.core.errors import AppError, NotFound
 from app.db.models import AreaIntelRow, ListingObservationRow, ListingRow, RunResultRow, RunRow
 from app.schemas.area import AreaIntel
+from app.schemas.competitor import CompetitorReport
 from app.schemas.listing import Listing, Verification
 from app.schemas.metrics import InvestmentMetrics
 from app.schemas.provenance import Sourced, SourceRef
 from app.schemas.views import PriceObservation, PropertyDetail
-from app.services.runs import area_for_run, get_run_row, recommendation_from_row
+from app.services.runs import (
+    area_for_run,
+    competitors_for_run,
+    get_run_row,
+    recommendation_from_row,
+)
 
 
 def get_property_detail(db: Session, listing_id: str, run_id: str | None = None) -> PropertyDetail:
@@ -41,7 +47,9 @@ def get_property_detail(db: Session, listing_id: str, run_id: str | None = None)
     verification = Verification.model_validate(stored_check) if stored_check else None
     recommendation = recommendation_from_row(result)
     metrics = recommendation.metrics if recommendation else None
-    area = area_for_run(db, run, listing.locality.value) if listing.locality.value else None
+    slug = listing.locality.value
+    area = area_for_run(db, run, slug) if slug else None
+    competitors = competitors_for_run(db, run, slug) if slug else None
     return PropertyDetail(
         run_id=run.id,
         profile_id=run.profile_id,
@@ -50,16 +58,21 @@ def get_property_detail(db: Session, listing_id: str, run_id: str | None = None)
         recommendation=recommendation,
         metrics=metrics,
         area=area,
+        competitors=competitors,
         price_history=_price_history(db, listing_id),
-        sources=collect_sources(listing, metrics, area),
+        sources=collect_sources(listing, metrics, area, competitors),
     )
 
 
 def collect_sources(
-    listing: Listing, metrics: InvestmentMetrics | None, area: AreaIntel | None
+    listing: Listing,
+    metrics: InvestmentMetrics | None,
+    area: AreaIntel | None,
+    competitors: CompetitorReport | None = None,
 ) -> list[SourceRef]:
-    """Every source behind the listing's facts, its metrics and the area figures it uses, in that
-    order and de-duplicated. News is display only and feeds no figure, so it is left out."""
+    """Every source behind the listing's facts, its metrics, the area figures it uses and the
+    nearby businesses counted (F-06), in that order and de-duplicated. News is display only and
+    feeds no figure, so it is left out."""
     refs: list[SourceRef] = [*listing.sources, *_sourced_refs(listing)]
     if metrics is not None:
         refs += _sourced_refs(metrics)
@@ -73,6 +86,8 @@ def collect_sources(
             if value is not None:
                 refs += value.sources
         refs += [amenity.source for amenity in area.amenities]
+    if competitors is not None:
+        refs += [place.source for place in competitors.competitors]
     unique: dict[tuple, SourceRef] = {}
     for ref in refs:
         if ref.url or ref.search_id:

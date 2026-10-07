@@ -8,6 +8,7 @@ import { layoutMap } from "../components/map/mapLayout";
 import { MapLegend, ResultsMap } from "../components/map/ResultsMap";
 import { Notice } from "../components/Notice";
 import { AreaCard } from "../components/run/AreaPanel";
+import { CompetitorCard } from "../components/run/CompetitorCard";
 import { accessLine } from "../components/run/areaText";
 import { PORTAL_LABELS, STATUS_LABELS, VerificationSummary } from "../components/run/CandidateList";
 import { targetBadge } from "../components/run/metricsText";
@@ -21,8 +22,8 @@ const sqft = (value: number) => `${Math.round(value).toLocaleString("en-IN")} sq
 const perSqft = (value: number) => `₹${Math.round(value).toLocaleString("en-IN")}/sq ft`;
 
 /** F-07: one property as one search judged it, with every figure's source (F-11), on a map with
- * its area's amenities (F-19). Built from stored results only (ADR 0021). Competitors (F-06)
- * plug in here. */
+ * its area's amenities (F-19) and, for commercial properties, same-category businesses nearby
+ * (F-06). Built from stored results only (ADR 0021). */
 export function PropertyPage() {
   const { runId, listingId } = useParams();
   const detail = usePropertyDetail(listingId, runId);
@@ -185,6 +186,14 @@ export function PropertyPage() {
 
       {data.area && <AreaCard area={data.area} typeLabel={(value: PropertyType) => typeLabel(value)} />}
 
+      {data.competitors && (
+        <CompetitorCard
+          report={data.competitors}
+          typeLabel={(value: PropertyType) => typeLabel(value)}
+          only={listing.property_type.value}
+        />
+      )}
+
       <PriceHistory history={data.price_history ?? []} />
 
       <Sources sources={data.sources ?? []} />
@@ -212,6 +221,7 @@ function PropertyMap({ detail }: { detail: PropertyDetail }) {
     verifications: detail.verification ? [detail.verification] : [],
     recommendations: detail.recommendation ? [detail.recommendation] : [],
     areas: detail.area ? [detail.area] : [],
+    competitors: detail.competitors ? [detail.competitors] : [],
     fitAmenities: true,
   });
   if (layout.bounds.length === 0) return null;
@@ -220,7 +230,7 @@ function PropertyMap({ detail }: { detail: PropertyDetail }) {
     <Card
       title="On the map"
       note={exact
-        ? "Position from Google Maps, with the nearest metro stations, schools and hospitals."
+        ? `Position from Google Maps, with the nearest metro stations, schools and hospitals${detail.competitors ? ` and ${detail.competitors.business_type} nearby` : ""}.`
         : layout.localities.length > 0
         ? `No position was quoted for this property; the dashed marker is the ${layout.localities[0].locality} centre.`
         : "No position was quoted for this property; the area's amenities are shown."}

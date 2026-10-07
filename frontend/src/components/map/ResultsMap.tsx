@@ -6,6 +6,7 @@ import { Link } from "react-router";
 import { formatInr } from "../../lib/money";
 import {
   AMENITY_COLORS,
+  COMPETITOR_COLOR,
   legendEntries,
   markerColor,
   STATUS_LABELS,
@@ -21,8 +22,8 @@ const GROUP_LIMIT = 8;
 
 /** F-19: a run's candidates on OpenStreetMap. Positions come only from SerpApi: a candidate's
  * own Google Maps GPS, or, when it has none, its locality's centre, drawn as one dashed group so
- * no point is invented. Amenities are the area's metro stations, schools and hospitals (F-05).
- * With `focusId` (the detail page) the map shows one property and links nowhere. */
+ * no point is invented. Amenities are the area's metro stations, schools and hospitals (F-05);
+ * competitors are a commercial run's same-category businesses (F-06), on by default. With `focusId` (the detail page) the map shows one property and links nowhere. */
 export function ResultsMap({ layout, runId, focusId, showAmenities = false, showFiltered = false, className = "h-96" }: {
   layout: MapLayout;
   runId: string;
@@ -65,6 +66,30 @@ export function ResultsMap({ layout, runId, focusId, showAmenities = false, show
                     <Tooltip>
                       {amenity.name}
                       {amenity.distance_km != null && ` · ${amenity.distance_km} km from the ${locality} centre`}
+                    </Tooltip>
+                  </CircleMarker>
+                ))}
+              </LayerGroup>
+            </LayersControl.Overlay>
+          )}
+          {layout.competitors.length > 0 && (
+            <LayersControl.Overlay
+              name={`${layout.competitors[0].businessType} nearby (${layout.competitors.length})`}
+              checked
+            >
+              <LayerGroup>
+                {layout.competitors.map(({ position, competitor }) => (
+                  <CircleMarker
+                    key={`${competitor.place_id ?? competitor.name}-${position.join(",")}`}
+                    center={position}
+                    radius={5}
+                    pathOptions={{ color: "#fff", weight: 1.5, fillColor: COMPETITOR_COLOR, fillOpacity: 0.9 }}
+                  >
+                    <Tooltip>
+                      {competitor.name}
+                      {competitor.category && ` · ${competitor.category}`}
+                      {competitor.rating != null && ` · ${competitor.rating}★ (${competitor.reviews ?? 0})`}
+                      {competitor.distance_km != null && ` · ${competitor.distance_km} km from the centre`}
                     </Tooltip>
                   </CircleMarker>
                 ))}

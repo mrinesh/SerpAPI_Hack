@@ -13,6 +13,12 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Competitor analysis (F-06, ADR 0023): commercial runs search Google Maps for the
+  profile's business at each locality centre, keep places within 2 km, and show density, a
+  density level, average rating and review volume, read as competition for shops and as a
+  business cluster for offices, warehouses and land. Card beside the area card, a layer on both
+  maps, `GET /runs/{id}/competitors`, and `PropertyDetail.competitors`. Display only; ranks are
+  unchanged. Recorded for the commercial demo with 1 search.
 - 2026-10-07 · Results map (F-19, ADR 0022): the run page maps every candidate on OpenStreetMap,
   ranked ones numbered and coloured by score, at their own Google Maps GPS or grouped in one
   dashed marker at the locality centre (never an invented point), with filtered-out and

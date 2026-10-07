@@ -16,6 +16,7 @@ from app.db.models import (
     ListingObservationRow,
     ProfileRow,
     RunAreaRow,
+    RunCompetitorRow,
     RunResultRow,
     RunRow,
 )
@@ -127,6 +128,7 @@ def delete_profile(db: Session, profile_id: str) -> None:
     db.execute(delete(ListingObservationRow).where(ListingObservationRow.run_id.in_(run_ids)))
     db.execute(delete(RunResultRow).where(RunResultRow.run_id.in_(run_ids)))
     db.execute(delete(RunAreaRow).where(RunAreaRow.run_id.in_(run_ids)))
+    db.execute(delete(RunCompetitorRow).where(RunCompetitorRow.run_id.in_(run_ids)))
     db.execute(delete(RunRow).where(RunRow.profile_id == profile_id))
     db.execute(delete(AlertRow).where(AlertRow.profile_id == profile_id))
     db.delete(row)

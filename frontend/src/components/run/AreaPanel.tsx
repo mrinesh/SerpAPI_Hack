@@ -1,16 +1,20 @@
+import type { ReactNode } from "react";
+
 import type { AreaIntel, PropertyType } from "../../api/types";
 import { areaWarnings, nearestByCategory, newsForPanel } from "./areaText";
 
 /** F-05: one card per locality of the ranked candidates. Distances are computed in code; the
  * summary is AI-written only when every number in it was checked (ADR 0016). */
-export function AreaPanel({ areas, typeLabel }: {
+export function AreaPanel({ areas, typeLabel, children }: {
   areas: AreaIntel[];
   typeLabel: (value: PropertyType) => string;
+  children?: ReactNode; // more cards in the same grid, e.g. competitors (F-06)
 }) {
   if (areas.length === 0) return null;
   return (
-    <section className="grid gap-3 md:grid-cols-2">
+    <section className="grid items-start gap-3 md:grid-cols-2">
       {areas.map((area) => <AreaCard key={area.locality_key} area={area} typeLabel={typeLabel} />)}
+      {children}
     </section>
   );
 }

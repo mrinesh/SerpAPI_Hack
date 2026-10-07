@@ -118,10 +118,21 @@ class AreaIntelRow(Base):
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
 
 
+class RunCompetitorRow(Base):
+    """The competitor report one run used, frozen like its area (ADR 0020, ADR 0023)."""
+
+    __tablename__ = "run_competitor_reports"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    run_id: Mapped[str] = mapped_column(ForeignKey("pipeline_runs.id"), index=True)
+    locality_key: Mapped[str] = mapped_column(String(128))
+    data: Mapped[dict[str, Any]] = mapped_column(JSON)  # schemas.competitor.CompetitorReport
+
+
 class CompetitorReportRow(Base):
     __tablename__ = "competitor_reports"
 
-    key: Mapped[str] = mapped_column(String(64), primary_key=True)  # hash(center, category, radius)
+    key: Mapped[str] = mapped_column(String(64), primary_key=True)  # competitors.report_key
     data: Mapped[dict[str, Any]] = mapped_column(JSON)  # schemas.competitor.CompetitorReport
     fetched_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))

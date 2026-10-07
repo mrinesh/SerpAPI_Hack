@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import type { AreaIntel, Listing, Recommendation, Verification } from "../../api/types";
+import type { AreaIntel, CompetitorReport, Listing, Recommendation, Verification } from "../../api/types";
 import { layoutMap, legendEntries, markerColor } from "./mapLayout";
 
 const listing = (id: string, locality: string, gps?: [number, number]) =>
@@ -125,5 +125,22 @@ describe("results map layout", () => {
       areas: [area("whitefield", [0, 0], [["Metro A", "metro", [1, 2]]])],
     });
     expect(legendEntries(layout).map((e) => e.label)).toEqual(["Ranked, score 50–69", "Filtered out", "Metro"]);
+  });
+
+  it("places competitors with a position and takes them in when no candidate has its own", () => {
+    const report = {
+      business_type: "IT services",
+      competitors: [
+        { name: "Near Co", location: { lat: 1, lng: 1 } },
+        { name: "No point", location: null },
+      ],
+    } as CompetitorReport;
+    const layout = layoutMap({
+      listings: [listing("entry", "koramangala")], verifications: [], recommendations: [],
+      areas: [area("koramangala", [0, 0], [["Metro A", "metro", [9, 9]]])], competitors: [report],
+    });
+    expect(layout.competitors.map((m) => [m.competitor.name, m.position])).toEqual([["Near Co", [1, 1]]]);
+    expect(layout.bounds).toEqual([[0, 0], [1, 1]]); // the nearby competitors, not far amenities
+    expect(legendEntries(layout).map((e) => e.label)).toEqual(["Not AI-checked", "Metro", "IT services nearby"]);
   });
 });
