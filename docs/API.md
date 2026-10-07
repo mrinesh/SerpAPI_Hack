@@ -26,7 +26,7 @@ city) use the same shape.
 | GET | `/runs/{run_id}/listings` | `Listing[]` the run discovered: priced entries cheapest first, then projects | F-02 | ✅ |
 | GET | `/runs/{run_id}/verifications` | `Verification[]`: completed checks, including rejects and reasons | F-03 | ✅ |
 | GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked; empty until the rank stage runs | F-04 | ✅ |
-| GET | `/properties/{listing_id}` | `PropertyDetail` | F-07 | 🧱 |
+| GET | `/properties/{listing_id}?run_id=` | `PropertyDetail` as that run judged it (latest run that found it when `run_id` is omitted); 404 for an unknown listing or run, or a run that did not find it (ADR 0021) | F-07 | ✅ |
 | GET | `/areas/{locality_key}` | `AreaIntel`; key like `bengaluru/whitefield`; 404 if never built | F-05 | ✅ |
 | GET | `/runs/{run_id}/areas` | `AreaIntel[]` as this run used them (frozen per run, ADR 0020); older runs fall back to the shared cache | F-05 | ✅ |
 | GET | `/saved` | `SavedProperty[]` | F-08 | 🧱 |
@@ -47,6 +47,9 @@ counts add `area_warnings`. `InvestmentMetrics.target_roi_pct` is the target the
 and `assessment_note` explains a missing verdict (ADR 0019). A corrupt cached area makes
 `GET /areas/{key}` return 500 `internal_error` with `details.operation = "area_cache_read"`.
 `rank` stage counts contain `ranked` and `explained` (AI reasons that passed the number check).
+`PropertyDetail.recommendation` and `metrics` are null for an unranked or rejected candidate;
+`price_history` is the price quoted in every run that saw it; `sources` is every source behind
+the page's figures, de-duplicated (F-11). `competitors` stays null until F-06.
 
 ## Frontend types
 

@@ -11,6 +11,8 @@ from app.schemas.competitor import CompetitorReport
 from app.schemas.listing import Listing, Verification
 from app.schemas.metrics import InvestmentMetrics
 from app.schemas.profile import ROIMeasure
+from app.schemas.provenance import SourceRef
+from app.schemas.recommendation import Recommendation
 
 
 class HealthStatus(BaseModel):
@@ -61,15 +63,30 @@ class ProfileOptions(BaseModel):
     risk_levels: list[Option]
 
 
-class PropertyDetail(BaseModel):
-    """Everything known about one property, for the detail page (CHECKLIST F-07)."""
+class PriceObservation(BaseModel):
+    """The price a listing was quoted at when one run saw it."""
 
+    run_id: str
+    price_inr: int | None = None
+    seen_at: datetime
+
+
+class PropertyDetail(BaseModel):
+    """Everything known about one property as one run judged it, for the detail page
+    (CHECKLIST F-07). Run-scoped because the verdict, metrics and score belong to that run's
+    profile and are frozen with it (docs/decisions/0021-run-scoped-property-detail.md)."""
+
+    run_id: str
+    profile_id: str
     listing: Listing
-    verification: Verification | None = None
+    verification: Verification | None = None  # None until checked, or past the check cap
+    recommendation: Recommendation | None = None  # None unless ranked (rejects never are)
     metrics: InvestmentMetrics | None = None
-    area: AreaIntel | None = None
-    competitors: CompetitorReport | None = None
-    reason: str | None = None
+    area: AreaIntel | None = None  # the area this run used for the listing's locality
+    competitors: CompetitorReport | None = None  # commercial only, from F-06
+    price_history: list[PriceObservation] = Field(default_factory=list)  # every run, oldest first
+    # Every source behind the figures above, de-duplicated (F-11); news is display only.
+    sources: list[SourceRef] = Field(default_factory=list)
 
 
 class CompareResult(BaseModel):

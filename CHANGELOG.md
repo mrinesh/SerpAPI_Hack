@@ -13,6 +13,12 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Property detail page (F-07, ADR 0021): `GET /properties/{id}?run_id=` returns the
+  listing as one run judged it (verification, rank and reasons, metrics, the run's area, price
+  across runs, every source), from stored results only. The page at
+  `/runs/:runId/properties/:listingId`, linked from every run card, shows each fact with a
+  confidence badge and its sources (`SourcedValue`, F-11), flag chips (F-12) and a "Where this
+  came from" list. 0 searches, 0 LLM calls.
 - 2026-10-07 · Locality news and frozen per-run areas, adapted from gscode007's `f-05` branch
   (ADR 0020): Google News per locality, kept when it names the locality, one article per event,
   10 newest, labelled by DeepSeek lite for topic and sentiment; shown in the area panel and not

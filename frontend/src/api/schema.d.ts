@@ -236,7 +236,10 @@ export interface paths {
             path?: never;
             cookie?: never;
         };
-        /** Get Property */
+        /**
+         * Get Property
+         * @description The listing as `run_id` judged it; without it, the latest run that found it.
+         */
         get: operations["get_property_api_properties__listing_id__get"];
         put?: never;
         post?: never;
@@ -841,6 +844,21 @@ export interface components {
          */
         Portal: "99acres" | "magicbricks" | "nobroker" | "google_maps";
         /**
+         * PriceObservation
+         * @description The price a listing was quoted at when one run saw it.
+         */
+        PriceObservation: {
+            /** Run Id */
+            run_id: string;
+            /** Price Inr */
+            price_inr?: number | null;
+            /**
+             * Seen At
+             * Format: date-time
+             */
+            seen_at: string;
+        };
+        /**
          * ProfileOptions
          * @description Everything the profile form offers, so the UI never hard-codes choices (CHECKLIST F-01).
          */
@@ -864,16 +882,25 @@ export interface components {
         };
         /**
          * PropertyDetail
-         * @description Everything known about one property, for the detail page (CHECKLIST F-07).
+         * @description Everything known about one property as one run judged it, for the detail page
+         *     (CHECKLIST F-07). Run-scoped because the verdict, metrics and score belong to that run's
+         *     profile and are frozen with it (docs/decisions/0021-run-scoped-property-detail.md).
          */
         PropertyDetail: {
+            /** Run Id */
+            run_id: string;
+            /** Profile Id */
+            profile_id: string;
             listing: components["schemas"]["Listing"];
             verification?: components["schemas"]["Verification"] | null;
+            recommendation?: components["schemas"]["Recommendation"] | null;
             metrics?: components["schemas"]["InvestmentMetrics"] | null;
             area?: components["schemas"]["AreaIntel"] | null;
             competitors?: components["schemas"]["CompetitorReport"] | null;
-            /** Reason */
-            reason?: string | null;
+            /** Price History */
+            price_history?: components["schemas"]["PriceObservation"][];
+            /** Sources */
+            sources?: components["schemas"]["SourceRef"][];
         };
         /**
          * PropertyType
@@ -1642,7 +1669,9 @@ export interface operations {
     };
     get_property_api_properties__listing_id__get: {
         parameters: {
-            query?: never;
+            query?: {
+                run_id?: string | null;
+            };
             header?: never;
             path: {
                 listing_id: string;

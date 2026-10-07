@@ -15,6 +15,7 @@ import type {
   Listing,
   PipelineRun,
   ProfileOptions,
+  PropertyDetail,
   Recommendation,
   TargetSuggestion,
   TargetSuggestionIn,
@@ -165,6 +166,21 @@ export function useRunAreas(run: PipelineRun | undefined) {
     queryKey: ["runs", run?.id, "areas", run?.status],
     queryFn: () => apiFetch<AreaIntel[]>(`/runs/${run?.id}/areas`),
     enabled: run !== undefined && enriched,
+  });
+}
+
+// --- Property detail (F-07) ----------------------------------------------------------
+
+/** One property as a run judged it; without a run, the latest run that found it (ADR 0021).
+ * Stored results only, so it never spends a search. */
+export function usePropertyDetail(listingId: string | undefined, runId: string | undefined) {
+  return useQuery({
+    queryKey: ["properties", listingId, runId ?? "latest"],
+    queryFn: () =>
+      apiFetch<PropertyDetail>(
+        `/properties/${listingId}${runId ? `?run_id=${encodeURIComponent(runId)}` : ""}`,
+      ),
+    enabled: listingId !== undefined,
   });
 }
 

@@ -15,7 +15,7 @@ export function AreaPanel({ areas, typeLabel }: {
   );
 }
 
-function AreaCard({ area, typeLabel }: { area: AreaIntel; typeLabel: (value: PropertyType) => string }) {
+export function AreaCard({ area, typeLabel }: { area: AreaIntel; typeLabel: (value: PropertyType) => string }) {
   const levels = Object.entries(area.price_levels ?? {}) as [PropertyType, NonNullable<AreaIntel["price_levels"]>[string]][];
   const rents = area.rent_levels ?? {};
   const growth = area.price_growth_pct;

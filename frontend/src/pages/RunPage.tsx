@@ -67,6 +67,7 @@ export function RunPage() {
       )}
       {listings.data && options.data && (
         <CandidateList
+          runId={run.data.id}
           listings={listings.data}
           options={options.data}
           verifications={verifications.data ?? []}

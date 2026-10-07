@@ -18,6 +18,7 @@ export const router = createBrowserRouter([
       { path: "/profiles/new", element: <ProfileWizardPage /> },
       { path: "/profiles/:profileId/edit", element: <ProfileWizardPage /> },
       { path: "/runs/:runId", element: <RunPage /> },
+      { path: "/runs/:runId/properties/:listingId", element: <PropertyPage /> },
       { path: "/properties/:listingId", element: <PropertyPage /> },
       { path: "/saved", element: <SavedPage /> },
       { path: "/compare", element: <ComparePage /> },

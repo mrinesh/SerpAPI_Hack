@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 import type { Recommendation } from "../../api/types";
 import { formatInr } from "../../lib/money";
 import { accessLine } from "./areaText";
@@ -7,7 +9,8 @@ import { breakdownRows } from "./scoreBreakdown";
 
 /** F-04: the ranked shortlist. Scores are computed in code; reasons are AI-written for the top
  * picks and code-written for the rest (ADR 0015). */
-export function RecommendationList({ recommendations, describe, targetRoi }: {
+export function RecommendationList({ runId, recommendations, describe, targetRoi }: {
+  runId: string;
   recommendations: Recommendation[];
   describe: (recommendation: Recommendation) => string;
   targetRoi?: number;
@@ -20,6 +23,7 @@ export function RecommendationList({ recommendations, describe, targetRoi }: {
       {recommendations.map((recommendation) => (
         <RecommendationCard
           key={recommendation.listing.id}
+          runId={runId}
           recommendation={recommendation}
           details={describe(recommendation)}
           targetRoi={targetRoi}
@@ -29,7 +33,8 @@ export function RecommendationList({ recommendations, describe, targetRoi }: {
   );
 }
 
-function RecommendationCard({ recommendation, details, targetRoi }: {
+function RecommendationCard({ runId, recommendation, details, targetRoi }: {
+  runId: string;
   recommendation: Recommendation;
   details: string;
   targetRoi?: number;
@@ -44,7 +49,13 @@ function RecommendationCard({ recommendation, details, targetRoi }: {
       </p>
       <div className="min-w-0 space-y-2">
         <div>
-          <p className="truncate font-medium" title={listing.name}>{listing.name}</p>
+          <Link
+            to={`/runs/${runId}/properties/${listing.id}`}
+            className="block truncate font-medium hover:underline"
+            title={listing.name}
+          >
+            {listing.name}
+          </Link>
           <p className="text-xs text-slate-500">{details}</p>
           {accessLine(recommendation.access) && (
             <p className="text-xs text-slate-500">{accessLine(recommendation.access)}</p>
@@ -103,7 +114,7 @@ function RecommendationCard({ recommendation, details, targetRoi }: {
   );
 }
 
-function Points({ label, items }: { label: string; items: string[] }) {
+export function Points({ label, items }: { label: string; items: string[] }) {
   if (items.length === 0) return null;
   return (
     <div>
@@ -115,7 +126,7 @@ function Points({ label, items }: { label: string; items: string[] }) {
   );
 }
 
-function Breakdown({ recommendation }: { recommendation: Recommendation }) {
+export function Breakdown({ recommendation }: { recommendation: Recommendation }) {
   return (
     <p className="text-xs text-slate-500">
       <span className="font-medium text-slate-600">Score: </span>

@@ -607,6 +607,7 @@
           "properties"
         ],
         "summary": "Get Property",
+        "description": "The listing as `run_id` judged it; without it, the latest run that found it.",
         "operationId": "get_property_api_properties__listing_id__get",
         "parameters": [
           {
@@ -616,6 +617,22 @@
             "schema": {
               "type": "string",
               "title": "Listing Id"
+            }
+          },
+          {
+            "name": "run_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Run Id"
             }
           }
         ],
@@ -2349,6 +2366,37 @@
         "title": "Portal",
         "description": "Where a candidate came from: one of the searched portals, or Google Maps."
       },
+      "PriceObservation": {
+        "properties": {
+          "run_id": {
+            "type": "string",
+            "title": "Run Id"
+          },
+          "price_inr": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Price Inr"
+          },
+          "seen_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Seen At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "run_id",
+          "seen_at"
+        ],
+        "title": "PriceObservation",
+        "description": "The price a listing was quoted at when one run saw it."
+      },
       "ProfileOptions": {
         "properties": {
           "city": {
@@ -2415,6 +2463,14 @@
       },
       "PropertyDetail": {
         "properties": {
+          "run_id": {
+            "type": "string",
+            "title": "Run Id"
+          },
+          "profile_id": {
+            "type": "string",
+            "title": "Profile Id"
+          },
           "listing": {
             "$ref": "#/components/schemas/Listing"
           },
@@ -2422,6 +2478,16 @@
             "anyOf": [
               {
                 "$ref": "#/components/schemas/Verification"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "recommendation": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Recommendation"
               },
               {
                 "type": "null"
@@ -2458,24 +2524,29 @@
               }
             ]
           },
-          "reason": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Reason"
+          "price_history": {
+            "items": {
+              "$ref": "#/components/schemas/PriceObservation"
+            },
+            "type": "array",
+            "title": "Price History"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
           }
         },
         "type": "object",
         "required": [
+          "run_id",
+          "profile_id",
           "listing"
         ],
         "title": "PropertyDetail",
-        "description": "Everything known about one property, for the detail page (CHECKLIST F-07)."
+        "description": "Everything known about one property as one run judged it, for the detail page\n(CHECKLIST F-07). Run-scoped because the verdict, metrics and score belong to that run's\nprofile and are frozen with it (docs/decisions/0021-run-scoped-property-detail.md)."
       },
       "PropertyType": {
         "type": "string",
