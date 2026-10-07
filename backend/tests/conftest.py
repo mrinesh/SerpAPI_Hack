@@ -45,3 +45,13 @@ def db():
     session = SessionLocal()
     yield session
     session.close()
+
+
+# Record which committed fixtures the suite reads (scripts/check_fixtures.py).
+from tests import fixture_usage  # noqa: E402
+
+fixture_usage.install()
+
+
+def pytest_sessionfinish(session, exitstatus):
+    fixture_usage.write_report()
