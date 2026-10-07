@@ -1,0 +1,29 @@
+{
+  "key": "26412fa9ea86d4f520e1a4ca4314651cdfdcef4d96a03d2be77d798cd749052c",
+  "task": "review_development",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "review": "mixed",
+    "hypotheses": [
+      {
+        "driver": "transport",
+        "news_index": 4,
+        "quote": "BMRCL awards contract for short Purple Line extension beyond Whitefield",
+        "confidence": 0.9
+      },
+      {
+        "driver": "transport",
+        "news_index": 7,
+        "quote": "Video | Karnataka News | Bengaluru Traffic Crisis: 6-Km School Commutes Take Over Two Hours In Whitefield",
+        "confidence": 0.8
+      },
+      {
+        "driver": "amenities",
+        "news_index": 0,
+        "quote": "Bengaluru Passport Seva Kendra Shifts To Whitefield From October 5; Check New Address, Metro Access",
+        "confidence": 0.6
+      }
+    ]
+  }
+}

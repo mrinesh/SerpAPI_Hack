@@ -10,10 +10,12 @@ from app.db.models import (
     ListingRow,
     RunAreaRow,
     RunCompetitorRow,
+    RunDevelopmentRow,
     RunResultRow,
 )
 from app.schemas.area import AreaIntel
 from app.schemas.competitor import CompetitorReport
+from app.schemas.development import AreaDevelopment
 from app.schemas.listing import Listing, Verification
 from app.schemas.recommendation import Recommendation
 
@@ -152,4 +154,14 @@ def save_run_competitors(db: Session, run_id: str, report: CompetitorReport) -> 
         row = RunCompetitorRow(run_id=run_id, locality_key=report.locality_key)
         db.add(row)
     row.data = report.model_dump(mode="json")
+    db.commit()
+
+
+def save_run_development(db: Session, run_id: str, report: AreaDevelopment) -> None:
+    """Freeze one locality's developing-area report for this run (ADR 0025)."""
+    db.merge(
+        RunDevelopmentRow(
+            run_id=run_id, locality_key=report.locality_key, data=report.model_dump(mode="json")
+        )
+    )
     db.commit()

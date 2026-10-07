@@ -1,0 +1,29 @@
+{
+  "key": "8a5523641cda96492c38e3aac2ba6d27162b03f37a3b40c950907ac86d733b92",
+  "task": "review_development",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "review": "mixed",
+    "hypotheses": [
+      {
+        "driver": "transport",
+        "news_index": 2,
+        "quote": "Bengaluru CEO fixes footpath near Koramangala society, builds a ramp: ‘It cost me ₹2,700’ | Trending",
+        "confidence": 0.8
+      },
+      {
+        "driver": "amenities",
+        "news_index": 3,
+        "quote": "‘Waste into wealth’: Bengaluru opens solid waste management centre in Koramangala",
+        "confidence": 0.75
+      },
+      {
+        "driver": "policy",
+        "news_index": 7,
+        "quote": "Koramangala BDA complex in Bengaluru set for demolition, casting shadow over livelihood of 500 families",
+        "confidence": 0.7
+      }
+    ]
+  }
+}

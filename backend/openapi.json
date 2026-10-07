@@ -602,6 +602,53 @@
         }
       }
     },
+    "/api/runs/{run_id}/development": {
+      "get": {
+        "tags": [
+          "runs"
+        ],
+        "summary": "Get Run Development",
+        "description": "Developing-area signals per locality (ADR 0025): measured search growth, corroboration,\nresearch-priority rank and cited, unconfirmed explanations. Read-only; display only.",
+        "operationId": "get_run_development_api_runs__run_id__development_get",
+        "parameters": [
+          {
+            "name": "run_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AreaDevelopment"
+                  },
+                  "title": "Response Get Run Development Api Runs  Run Id  Development Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/runs/{run_id}/recommendations": {
       "get": {
         "tags": [
@@ -1159,6 +1206,140 @@
         "title": "AreaAccess",
         "description": "Distances from a listing (or its locality centre) to the area's amenities, in code."
       },
+      "AreaDevelopment": {
+        "properties": {
+          "locality_key": {
+            "type": "string",
+            "title": "Locality Key"
+          },
+          "locality": {
+            "type": "string",
+            "title": "Locality"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time",
+            "title": "As Of"
+          },
+          "public_interest": {
+            "items": {
+              "$ref": "#/components/schemas/SearchMomentum"
+            },
+            "type": "array",
+            "title": "Public Interest"
+          },
+          "app_interest": {
+            "$ref": "#/components/schemas/SearchMomentum"
+          },
+          "observed_price_growth": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Sourced_float_"
+            },
+            "type": "object",
+            "title": "Observed Price Growth"
+          },
+          "recent_positive_infrastructure": {
+            "type": "integer",
+            "title": "Recent Positive Infrastructure",
+            "default": 0
+          },
+          "evidence_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Evidence Score"
+          },
+          "score_breakdown": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object",
+            "title": "Score Breakdown"
+          },
+          "coverage_pct": {
+            "type": "number",
+            "title": "Coverage Pct",
+            "default": 0
+          },
+          "signal": {
+            "type": "string",
+            "enum": [
+              "corroborated_growth",
+              "interest_only",
+              "no_sustained_growth",
+              "insufficient_data"
+            ],
+            "title": "Signal"
+          },
+          "recommendation": {
+            "type": "string",
+            "title": "Recommendation"
+          },
+          "rank": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rank"
+          },
+          "hypotheses": {
+            "items": {
+              "$ref": "#/components/schemas/DevelopmentHypothesis"
+            },
+            "type": "array",
+            "title": "Hypotheses"
+          },
+          "ai_review": {
+            "type": "string",
+            "enum": [
+              "consistent",
+              "mixed",
+              "inconclusive",
+              "unavailable"
+            ],
+            "title": "Ai Review",
+            "default": "unavailable"
+          },
+          "warnings": {
+            "items": {
+              "$ref": "#/components/schemas/AreaIssue"
+            },
+            "type": "array",
+            "title": "Warnings"
+          },
+          "limitations": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Limitations"
+          }
+        },
+        "type": "object",
+        "required": [
+          "locality_key",
+          "locality",
+          "city",
+          "as_of",
+          "app_interest",
+          "signal",
+          "recommendation"
+        ],
+        "title": "AreaDevelopment"
+      },
       "AreaIntel": {
         "properties": {
           "locality_key": {
@@ -1632,6 +1813,36 @@
         ],
         "title": "CompetitorReport"
       },
+      "DevelopmentHypothesis": {
+        "properties": {
+          "driver": {
+            "type": "string",
+            "enum": [
+              "transport",
+              "employment",
+              "housing",
+              "policy",
+              "amenities",
+              "publicity"
+            ],
+            "title": "Driver"
+          },
+          "explanation": {
+            "type": "string",
+            "title": "Explanation"
+          },
+          "evidence": {
+            "$ref": "#/components/schemas/Sourced_str_"
+          }
+        },
+        "type": "object",
+        "required": [
+          "driver",
+          "explanation",
+          "evidence"
+        ],
+        "title": "DevelopmentHypothesis"
+      },
       "ExtractionMethod": {
         "type": "string",
         "enum": [
@@ -1735,6 +1946,26 @@
           "city"
         ],
         "title": "HealthStatus"
+      },
+      "InterestPoint": {
+        "properties": {
+          "week": {
+            "type": "string",
+            "format": "date",
+            "title": "Week"
+          },
+          "value": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Value"
+          }
+        },
+        "type": "object",
+        "required": [
+          "week",
+          "value"
+        ],
+        "title": "InterestPoint"
       },
       "InvestmentGoal": {
         "type": "string",
@@ -2933,6 +3164,158 @@
           "saved_at"
         ],
         "title": "SavedProperty"
+      },
+      "SearchMomentum": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "locality_interest",
+              "rental_interest",
+              "app_searches"
+            ],
+            "title": "Kind"
+          },
+          "query": {
+            "type": "string",
+            "title": "Query"
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "relative_interest_0_100",
+              "distinct_profiles_per_week"
+            ],
+            "title": "Unit"
+          },
+          "geo": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Geo"
+          },
+          "history": {
+            "items": {
+              "$ref": "#/components/schemas/InterestPoint"
+            },
+            "type": "array",
+            "title": "History"
+          },
+          "previous_mean": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Previous Mean"
+          },
+          "recent_mean": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Recent Mean"
+          },
+          "quarter_change_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Quarter Change Pct"
+          },
+          "annual_change_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Annual Change Pct"
+          },
+          "sustained_weeks": {
+            "type": "integer",
+            "title": "Sustained Weeks",
+            "default": 0
+          },
+          "signal": {
+            "type": "string",
+            "enum": [
+              "rising",
+              "falling",
+              "steady",
+              "unavailable"
+            ],
+            "title": "Signal",
+            "default": "unavailable"
+          },
+          "usable": {
+            "type": "boolean",
+            "title": "Usable",
+            "default": false
+          },
+          "note": {
+            "type": "string",
+            "title": "Note"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SourceRef"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "retrieved_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Retrieved At"
+          },
+          "sample_size": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sample Size"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind",
+          "query",
+          "unit",
+          "note"
+        ],
+        "title": "SearchMomentum"
       },
       "Segment": {
         "type": "string",
