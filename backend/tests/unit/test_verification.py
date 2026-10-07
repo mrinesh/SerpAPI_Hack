@@ -85,6 +85,10 @@ class FakeLLM:
             return PriceLevelExtract(
                 result_index=None, low=None, high=None, evidence=None, confidence=0
             )
+        if kwargs["task"] == "review_development":
+            from app.pipeline.enrichment.development import DevelopmentReview
+
+            return DevelopmentReview(review="inconclusive", hypotheses=[])
         return self.extraction if kwargs["task"] == "extract_listing" else self.assessment
 
 

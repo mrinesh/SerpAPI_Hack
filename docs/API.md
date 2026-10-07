@@ -30,6 +30,7 @@ city) use the same shape.
 | GET | `/areas/{locality_key}` | `AreaIntel`; key like `bengaluru/whitefield`; 404 if never built | F-05 | ✅ |
 | GET | `/runs/{run_id}/areas` | `AreaIntel[]` as this run used them (frozen per run, ADR 0020); older runs fall back to the shared cache | F-05 | ✅ |
 | GET | `/runs/{run_id}/competitors` | `CompetitorReport[]`, one per commercial locality, frozen per run; empty for residential runs (ADR 0023) | F-06 | ✅ |
+| GET | `/runs/{run_id}/development` | `AreaDevelopment[]`: developing-area signals per enriched locality (search histories, conclusion, research-priority rank, cited hypotheses), frozen per run; research priorities first; empty before enrichment (ADR 0025) | F-05 | ✅ |
 | GET | `/saved` | `SavedProperty[]` | F-08 | 🧱 |
 | POST | `/saved` | `SavedProperty` (201) | F-08 | 🧱 |
 | DELETE | `/saved/{listing_id}` | 204 | F-08 | 🧱 |
@@ -54,7 +55,8 @@ the page's figures, de-duplicated (F-11). `competitors` is the run's report for 
 locality (commercial only, else null); its places are included in `sources`. A
 `CompetitorReport` has `status` `ok`, `empty` or `failed` (with `warning`), `readings` per
 property type (`competition` or `cluster`), and `more_available` when the count is a floor;
-enrich stage counts add `competitor_reports` for commercial runs.
+enrich stage counts add `competitor_reports` for commercial runs, and `development` /
+`development_warnings` for developing-area reports (ADR 0025; display only).
 
 ## Frontend types
 

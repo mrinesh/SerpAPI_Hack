@@ -11,6 +11,7 @@ from app.db.models import (
     ProfileRow,
     RunAreaRow,
     RunCompetitorRow,
+    RunDevelopmentRow,
     RunResultRow,
     RunRow,
 )
@@ -19,6 +20,7 @@ from app.pipeline.orchestrator import to_schema
 from app.reference import load_market
 from app.schemas.area import AreaIntel
 from app.schemas.competitor import CompetitorReport
+from app.schemas.development import AreaDevelopment
 from app.schemas.listing import Listing, ResultKind, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
@@ -135,6 +137,15 @@ def get_run_competitors(db: Session, run_id: str) -> list[CompetitorReport]:
         .order_by(RunCompetitorRow.locality_key)
     )
     return [CompetitorReport.model_validate(row.data) for row in rows]
+
+
+def get_run_development(db: Session, run_id: str) -> list[AreaDevelopment]:
+    """Developing-area reports this run froze (ADR 0025): research priorities first, then the
+    rest by locality. Empty until enrichment, and for runs from before the feature."""
+    get_run_row(db, run_id)
+    rows = db.scalars(select(RunDevelopmentRow).where(RunDevelopmentRow.run_id == run_id))
+    reports = [AreaDevelopment.model_validate(row.data) for row in rows]
+    return sorted(reports, key=lambda r: (r.rank is None, r.rank or 0, r.locality_key))
 
 
 def competitors_for_run(db: Session, run: RunRow, slug: str) -> CompetitorReport | None:

@@ -3,6 +3,7 @@ from fastapi import APIRouter
 from app.api.deps import DbSession
 from app.schemas.area import AreaIntel
 from app.schemas.competitor import CompetitorReport
+from app.schemas.development import AreaDevelopment
 from app.schemas.listing import Listing, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
@@ -38,6 +39,13 @@ def get_run_areas(run_id: str, db: DbSession) -> list[AreaIntel]:
 def get_run_competitors(run_id: str, db: DbSession) -> list[CompetitorReport]:
     """Same-category businesses around each commercial locality (F-06); empty for residential."""
     return runs.get_run_competitors(db, run_id)
+
+
+@router.get("/{run_id}/development")
+def get_run_development(run_id: str, db: DbSession) -> list[AreaDevelopment]:
+    """Developing-area signals per locality (ADR 0025): measured search growth, corroboration,
+    research-priority rank and cited, unconfirmed explanations. Read-only; display only."""
+    return runs.get_run_development(db, run_id)
 
 
 @router.get("/{run_id}/recommendations")

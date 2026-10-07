@@ -7,6 +7,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import { apiFetch } from "./client";
 import type {
+  AreaDevelopment,
   AreaIntel,
   BudgetStatus,
   CompetitorReport,
@@ -179,6 +180,18 @@ export function useRunCompetitors(run: PipelineRun | undefined) {
   return useQuery({
     queryKey: ["runs", run?.id, "competitors", run?.status],
     queryFn: () => apiFetch<CompetitorReport[]>(`/runs/${run?.id}/competitors`),
+    enabled: run !== undefined && enriched,
+  });
+}
+
+/** Developing-area signals per locality (ADR 0025), once enrichment has finished. Display only. */
+export function useRunDevelopment(run: PipelineRun | undefined) {
+  const enriched = (run?.events ?? []).some(
+    (event) => event.stage === "enrich" && (event.status === "succeeded" || event.status === "failed"),
+  );
+  return useQuery({
+    queryKey: ["runs", run?.id, "development", run?.status],
+    queryFn: () => apiFetch<AreaDevelopment[]>(`/runs/${run?.id}/development`),
     enabled: run !== undefined && enriched,
   });
 }

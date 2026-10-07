@@ -28,13 +28,16 @@ from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
 from app.pipeline.enrichment.area import get_area_intel
 from app.pipeline.enrichment.competitors import get_competitor_report
+from app.pipeline.enrichment.development import build_report, rank_reports
 from app.pipeline.enrichment.price_level import price_levels
+from app.pipeline.enrichment.search_history import public_history, record_intent
 from app.pipeline.metrics import compute_metrics
 from app.pipeline.persist import (
     save_candidates,
     save_recommendation,
     save_run_area,
     save_run_competitors,
+    save_run_development,
     save_verification,
 )
 from app.pipeline.query_planner import plan_queries
@@ -63,7 +66,7 @@ class StageFailed(Exception):
 
 def start_run(db: Session, profile_id: str) -> PipelineRun:
     """Create the run record and run the pipeline in the background."""
-    profiles.get_profile(db, profile_id)  # 404 for an unknown profile
+    profile = profiles.get_profile(db, profile_id)  # 404 for an unknown profile
     run = RunRow(
         profile_id=profile_id,
         status=RunStatus.PENDING,
@@ -73,6 +76,10 @@ def start_run(db: Session, profile_id: str) -> PipelineRun:
         ],
     )
     db.add(run)
+    db.flush()
+    market = load_market(profile.city)
+    if market is not None:
+        record_intent(db, run.id, profile, market)  # the app's own search history (ADR 0025)
     db.commit()
     _launch(run.id)
     return to_schema(run)
@@ -238,6 +245,23 @@ def run_pipeline(run_id: str) -> None:
                         notes.append(_competitor_note(report, cached))
                         event.message = "; ".join(notes)
                         tracker.replace(event)
+                # Developing-area signals per enriched locality (ADR 0025, after gscode007's
+                # branch): search growth checked against prices and news. Display only: the
+                # reports never reach the score, so ranks and explanations do not change.
+                if areas:
+                    histories, history_issues = public_history(ctx, market, list(areas))
+                    reports = []
+                    for slug, area in areas.items():
+                        report = build_report(ctx, area, histories[slug])
+                        report.warnings = [*history_issues, *report.warnings]
+                        reports.append(report)
+                    for report in rank_reports(reports):
+                        save_run_development(db, run_id, report)
+                    event.counts["development"] = len(reports)
+                    event.counts["development_warnings"] = sum(len(r.warnings) for r in reports)
+                    notes.append(_development_note(reports))
+                    event.message = "; ".join(notes)
+                    tracker.replace(event)
                 # Investment metrics per rankable candidate (F-09, ADR 0010 / 0017).
                 metrics = {}
                 for listing, verification in checked:
@@ -365,6 +389,9 @@ class _Tracker:
 
     def finish(self, status: RunStatus, error: str | None = None) -> None:
         self._db.rollback()  # drop anything half-written by a failed stage
+        # Count every stage's lookups (price levels, area, rent, competitors, Trends), not
+        # only discovery's, so "searches spent" is what the run really cost.
+        self.update_search_counts()
         self._run.status = status
         self._run.error = error
         self._run.finished_at = datetime.now(UTC)
@@ -394,6 +421,15 @@ def _area_note(area, cached: bool) -> str:
         failed = ", ".join(f"{w.section} ({w.code})" for w in area.warnings)
         parts.append(f"{len(area.warnings)} section(s) could not be loaded: {failed}")
     return f"{area.locality}: {', '.join(parts)}" + (" (cached)" if cached else "")
+
+
+def _development_note(reports) -> str:
+    count = len(reports)
+    places = f"{count} {'locality' if count == 1 else 'localities'}"
+    priorities = sum(report.rank is not None for report in reports)
+    if priorities:
+        return f"search growth: {priorities} of {places} a research priority"
+    return f"search growth checked for {places}; no research priority"
 
 
 def _competitor_note(report, cached: bool) -> str:

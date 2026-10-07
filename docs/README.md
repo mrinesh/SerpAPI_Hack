@@ -11,6 +11,7 @@
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Setup, config, commands, conventions, definition of done |
 | [decisions/](decisions/) | Architecture Decision Records |
 | [spikes/](spikes/) | Investigation write-ups: S-01 data coverage, S-02 extraction accuracy |
+| [SEARCH_DRIVEN_AREA_INSIGHTS.md](SEARCH_DRIVEN_AREA_INSIGHTS.md) | Developing-area signals: Google Trends and app search history, method and recorded results (ADR 0025) |
 | [SUBMISSION.md](SUBMISSION.md) | Hackathon form drafts, demo script, pre-submit checks |
 | [../CHECKLIST.md](../CHECKLIST.md) | What's done and what's pending |
 | [../CHANGELOG.md](../CHANGELOG.md) | What changed, by date |

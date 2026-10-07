@@ -118,6 +118,35 @@ class AreaIntelRow(Base):
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
 
 
+class SearchIntentRow(Base):
+    """The localities a run asked for, when it started: the app's own search history for
+    developing-area signals (ADR 0025, after gscode007's branch). Kept even if the profile is
+    edited later; deleted with the run or the profile."""
+
+    __tablename__ = "search_intents"
+
+    run_id: Mapped[str] = mapped_column(
+        ForeignKey("pipeline_runs.id", ondelete="CASCADE"), primary_key=True
+    )
+    locality_key: Mapped[str] = mapped_column(String(128), primary_key=True)
+    profile_id: Mapped[str] = mapped_column(ForeignKey("investor_profiles.id"), index=True)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, index=True
+    )
+
+
+class RunDevelopmentRow(Base):
+    """The developing-area report one run produced per locality, frozen (ADR 0025)."""
+
+    __tablename__ = "run_development"
+
+    run_id: Mapped[str] = mapped_column(
+        ForeignKey("pipeline_runs.id", ondelete="CASCADE"), primary_key=True
+    )
+    locality_key: Mapped[str] = mapped_column(String(128), primary_key=True)
+    data: Mapped[dict[str, Any]] = mapped_column(JSON)  # schemas.development.AreaDevelopment
+
+
 class RunCompetitorRow(Base):
     """The competitor report one run used, frozen like its area (ADR 0020, ADR 0023)."""
 

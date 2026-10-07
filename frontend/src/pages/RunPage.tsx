@@ -8,6 +8,7 @@ import {
   useRunListings,
   useRunAreas,
   useRunCompetitors,
+  useRunDevelopment,
   useRunRecommendations,
   useRunVerifications,
 } from "../api/hooks";
@@ -18,6 +19,7 @@ import { Notice } from "../components/Notice";
 import { AreaPanel } from "../components/run/AreaPanel";
 import { CandidateList } from "../components/run/CandidateList";
 import { CompetitorCard } from "../components/run/CompetitorCard";
+import { DevelopmentPanel } from "../components/run/DevelopmentPanel";
 import { StageList } from "../components/run/StageList";
 
 /** Discovery and relevance verification, with live progress and partial results. */
@@ -31,6 +33,7 @@ export function RunPage() {
   const recommendations = useRunRecommendations(run.data);
   const areas = useRunAreas(run.data);
   const competitors = useRunCompetitors(run.data);
+  const development = useRunDevelopment(run.data);
 
   if (run.error) return <Notice tone="error">{describeError(run.error)}</Notice>;
   if (!run.data) return <p className="text-sm text-slate-500">Loading…</p>;
@@ -74,6 +77,7 @@ export function RunPage() {
       {recommendations.error && <Notice tone="error">{describeError(recommendations.error)}</Notice>}
       {areas.error && <Notice tone="error">{describeError(areas.error)}</Notice>}
       {competitors.error && <Notice tone="error">{describeError(competitors.error)}</Notice>}
+      {development.error && <Notice tone="error">{describeError(development.error)}</Notice>}
       {layout && layout.bounds.length > 0 && (
         <section className="space-y-2">
           <ResultsMap layout={layout} runId={run.data.id} showAmenities={layout.listings.length === 0} />
@@ -87,6 +91,7 @@ export function RunPage() {
           ))}
         </AreaPanel>
       )}
+      {development.data && <DevelopmentPanel reports={development.data} />}
       {listings.data && options.data && (
         <CandidateList
           runId={run.data.id}
