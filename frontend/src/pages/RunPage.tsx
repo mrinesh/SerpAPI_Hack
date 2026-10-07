@@ -10,6 +10,8 @@ import {
   useRunRecommendations,
   useRunVerifications,
 } from "../api/hooks";
+import { layoutMap } from "../components/map/mapLayout";
+import { MapLegend, ResultsMap } from "../components/map/ResultsMap";
 import { Notice } from "../components/Notice";
 import { AreaPanel } from "../components/run/AreaPanel";
 import { CandidateList } from "../components/run/CandidateList";
@@ -30,6 +32,14 @@ export function RunPage() {
   if (!run.data) return <p className="text-sm text-slate-500">Loading…</p>;
 
   const active = run.data.status === "pending" || run.data.status === "running";
+  const layout = listings.data && listings.data.length > 0
+    ? layoutMap({
+      listings: listings.data,
+      verifications: verifications.data ?? [],
+      recommendations: recommendations.data ?? [],
+      areas: areas.data ?? [],
+    })
+    : null;
   return (
     <div className="space-y-6">
       <div className="flex flex-wrap items-end justify-between gap-3">
@@ -58,6 +68,12 @@ export function RunPage() {
       {verifications.error && <Notice tone="error">{describeError(verifications.error)}</Notice>}
       {recommendations.error && <Notice tone="error">{describeError(recommendations.error)}</Notice>}
       {areas.error && <Notice tone="error">{describeError(areas.error)}</Notice>}
+      {layout && layout.bounds.length > 0 && (
+        <section className="space-y-2">
+          <ResultsMap layout={layout} runId={run.data.id} showAmenities={layout.listings.length === 0} />
+          <MapLegend layout={layout} />
+        </section>
+      )}
       {areas.data && options.data && (
         <AreaPanel
           areas={areas.data}

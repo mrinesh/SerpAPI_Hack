@@ -26,3 +26,4 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0019](0019-visible-failures-validated-cache-withheld-metrics.md) | Visible area failures, validated area cache, withheld metrics (after gscode007's branches) | Accepted |
 | [0020](0020-local-news-and-frozen-run-areas.md) | Locality news shown but not scored; frozen per-run area evidence (after gscode007's branch) | Accepted |
 | [0021](0021-run-scoped-property-detail.md) | Run-scoped property detail, assembled from stored results | Accepted |
+| [0022](0022-map-positions-only-from-serpapi.md) | Map positions only from SerpApi; unplaced candidates grouped at the locality centre | Accepted |
