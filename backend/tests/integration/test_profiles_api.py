@@ -106,3 +106,20 @@ def test_update_and_delete_unknown_profile_are_404(client):
 
 def test_starting_a_run_for_an_unknown_profile_is_404(client):
     assert client.post("/api/profiles/nope/runs").status_code == 404
+
+
+def test_demo_startup_seeds_the_demo_profiles_once(client, monkeypatch):
+    """`make demo` sets SEED_DEMO_PROFILES, so a fresh clone opens with runnable profiles (I-13)."""
+    from fastapi.testclient import TestClient
+
+    from app import main
+    from app.config import get_settings
+    from app.reference.demo_profiles import DEMO_PROFILES
+
+    assert client.get("/api/profiles").json() == []  # off by default
+    seeded = get_settings().model_copy(update={"seed_demo_profiles": True})
+    monkeypatch.setattr(main, "get_settings", lambda: seeded)
+    for _ in range(2):  # a restart does not add duplicates
+        with TestClient(main.create_app()) as demo:
+            names = sorted(p["name"] for p in demo.get("/api/profiles").json())
+    assert names == sorted(p["name"] for p in DEMO_PROFILES.values())

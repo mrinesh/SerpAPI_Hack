@@ -64,6 +64,10 @@ class Settings(BaseSettings):
     # Enrichment results are shared per locality, so they can live longer than search caches.
     area_intel_ttl_hours: int = 168
 
+    # Add the two demo profiles on startup when missing (I-13); `make demo` turns it on, so a
+    # fresh clone opens with profiles whose searches are recorded.
+    seed_demo_profiles: bool = False
+
     # Background jobs (alerts, scheduled refresh). Off by default for local runs.
     scheduler_enabled: bool = False
     alert_check_interval_minutes: int = 360

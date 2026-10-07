@@ -13,6 +13,10 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Submission prep (I-13, SUB): `make demo` seeds the two recorded demo profiles
+  (`SEED_DEMO_PROFILES`), so a fresh clone opens with searches that replay; MIT `LICENSE`;
+  README rewritten to match what is built, with screenshots; form text and video plan in
+  docs/SUBMISSION.md. Fresh-clone test and a secrets scan of every branch's history passed.
 - 2026-10-07 · Competitor analysis (F-06, ADR 0023): commercial runs search Google Maps for the
   profile's business at each locality centre, keep places within 2 km, and show density, a
   density level, average rating and review volume, read as competition for shops and as a

@@ -17,7 +17,7 @@ results fetched for that investor's criteria; without SerpApi there is no shortl
 
 | Engine | Used for | Status |
 |---|---|---|
-| `google` | Discovery: site-filtered searches of 99acres, MagicBricks and NoBroker. Google returns their search pages, whose snippets quote priced entries *(S-01)*. Also the locality price level per sq ft ("office space price per sq ft in Koramangala Bangalore"), the benchmark for price flags (ADR 0014) | Built (F-02, F-12) |
+| `google` | Discovery: site-filtered searches of 99acres, MagicBricks and NoBroker. Google returns their search pages, whose snippets quote priced entries *(S-01)*. Also the locality price level per sq ft ("office space price per sq ft in Koramangala Bangalore"), the benchmark for price flags (ADR 0014); the past-12-month price change (F-05); and rent levels per locality and type (F-09) | Built (F-02, F-05, F-09, F-12) |
 | `google_maps` | Discovery: named housing projects with GPS, rating and reviews for flat profiles *(S-01)*. Locality centres and amenities (F-05). Same-category businesses at a commercial locality's centre (F-06) | Built (F-02, F-05, F-06) |
 | `google_news` | Locality news with AI topic and sentiment labels, shown in the area panel (not scored) | Built (F-05, ADR 0020) |
 | `google_trends` | Rental and buying search interest, up to 5 localities per call | Planned (F-05) |

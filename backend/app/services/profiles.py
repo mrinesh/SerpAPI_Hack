@@ -22,6 +22,7 @@ from app.db.models import (
 )
 from app.pipeline import targets
 from app.reference import load_market
+from app.reference.demo_profiles import DEMO_PROFILES
 from app.schemas.profile import (
     GOAL_MEASURE,
     MAX_LOCALITIES,
@@ -101,6 +102,18 @@ def create_profile(db: Session, data: InvestorProfileIn) -> InvestorProfile:
     db.add(row)
     db.commit()
     return _to_schema(row)
+
+
+def seed_demo_profiles(db: Session) -> int:
+    """Add each demo profile that no profile has the name of yet; returns how many were added.
+    Their searches and LLM calls are recorded, so they run in replay mode (I-13)."""
+    names = {row.data.get("name") for row in db.scalars(select(ProfileRow))}
+    added = 0
+    for data in DEMO_PROFILES.values():
+        if data["name"] not in names:
+            create_profile(db, InvestorProfileIn.model_validate(data))
+            added += 1
+    return added
 
 
 def list_profiles(db: Session) -> list[InvestorProfile]:
