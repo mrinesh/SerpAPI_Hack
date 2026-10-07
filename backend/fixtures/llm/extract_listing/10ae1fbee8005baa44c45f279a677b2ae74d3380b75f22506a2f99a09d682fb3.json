@@ -1,0 +1,33 @@
+{
+  "key": "10ae1fbee8005baa44c45f279a677b2ae74d3380b75f22506a2f99a09d682fb3",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.7,
+      "evidence": "2 and 3 bedroom apartment"
+    },
+    "price_inr": {
+      "value": "7200000",
+      "confidence": 0.9,
+      "evidence": "Resale ₹72 Lac"
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.9,
+      "evidence": "Resale ₹72 Lac"
+    }
+  }
+}

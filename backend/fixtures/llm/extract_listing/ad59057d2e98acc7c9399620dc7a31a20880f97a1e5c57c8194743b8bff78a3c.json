@@ -1,0 +1,33 @@
+{
+  "key": "ad59057d2e98acc7c9399620dc7a31a20880f97a1e5c57c8194743b8bff78a3c",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "price_inr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.7,
+      "evidence": "For Sale"
+    }
+  }
+}

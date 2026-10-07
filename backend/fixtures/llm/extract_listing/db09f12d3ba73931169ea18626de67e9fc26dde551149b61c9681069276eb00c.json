@@ -1,0 +1,33 @@
+{
+  "key": "db09f12d3ba73931169ea18626de67e9fc26dde551149b61c9681069276eb00c",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "plot",
+      "confidence": 0.7,
+      "evidence": "Plot / Land in Yelahanka"
+    },
+    "price_inr": {
+      "value": "8400000",
+      "confidence": 0.9,
+      "evidence": "₹84 Lac"
+    },
+    "size_sqft": {
+      "value": "1200",
+      "confidence": 0.9,
+      "evidence": "1,200 sqft"
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    }
+  }
+}

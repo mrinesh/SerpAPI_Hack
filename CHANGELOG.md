@@ -13,6 +13,10 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Extraction accuracy spike (S-02): 20 hand-labelled snippet entries scored three
+  ways. Regex is right on 19/19 prices, rates and BHK and 18/19 sizes and statuses; DeepSeek
+  alone is never wrong but misses what needs arithmetic. Regex stays first and the LLM a gap
+  filler; three parser fixes are tracked as F-22. 0 searches, 31 DeepSeek lite calls recorded.
 - 2026-10-07 · Locality evidence from the result's own words (I-12, ADR 0024): a matcher for locality names, observed aliases, joined
   initials and long-name spelling variants that ignores landmarks such as "Sarjapur Road";
   candidates whose own text or Maps address names the searched locality are confirmed (0.8 /

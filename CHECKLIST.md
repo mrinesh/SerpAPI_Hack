@@ -23,7 +23,7 @@ code for an ID finds every stub that belongs to it.
 |---|---|---|---|---|
 | **Spikes** | | | | |
 | S-01 | Data coverage spike (Bengaluru, real queries) | P0 | ✅ | |
-| S-02 | LLM extraction accuracy check | P0 | 🟨 | |
+| S-02 | LLM extraction accuracy check | P0 | ✅ | |
 | S-03 | Search cost model per run | P0 | ✅ | |
 | **Infrastructure** | | | | |
 | I-01 | Repo scaffold, tooling, docs skeleton | P0 | ✅ | |
@@ -55,6 +55,7 @@ code for an ID finds every stub that belongs to it.
 | F-12 | Listing quality flags | P1 | ✅ | |
 | F-19 | Results map view | P0 | ✅ | |
 | F-20 | Live pipeline progress view | P0 | ✅ | |
+| F-22 | Parser fixes from S-02 | P1 | ⬜ | |
 | **Later (P2)** | | | | |
 | F-13 | Risk scoring (flood, legal, oversupply) | P2 | ⏸️ | |
 | F-14 | Neighbourhood trend forecasting | P2 | ⏸️ | |
@@ -99,13 +100,16 @@ Findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.m
 - [x] Query templates decided with the product owner and implemented in `query_planner.py`
 - [ ] google_news, google_trends and "property rates" queries: moved to F-05, which needs them
 
-### S-02 LLM extraction accuracy · P0 · 🟨
+### S-02 LLM extraction accuracy · P0 · ✅
+Findings: [docs/spikes/S-02-extraction-accuracy.md](docs/spikes/S-02-extraction-accuracy.md).
 - [x] Hand-label 20 S-01 hits: `fixtures/spikes/s02_labels.json` (19 listings, 1 filter phrase;
       labelled by Claude Code from the snippet text, **to be reviewed by the product owner**)
-- [ ] Run regex parsers + `extract_listing` and record field-level accuracy in the spike doc.
-      `scripts/s02_accuracy.py --regex-only` runs; the DeepSeek conditions need `--record` once
-      the network is back, then the write-up in docs/spikes/S-02-extraction-accuracy.md
-- [ ] Decide which fields need the LLM and which regex handles alone
+- [x] Regex vs `extract_listing` alone vs shipped, per field (`scripts/s02_accuracy.py`, 31
+      DeepSeek lite calls recorded, replayed by `test_s02_replay.py`): regex 19/19 on price,
+      rate and BHK, 18/19 on size and status; the LLM alone is never wrong but misses what needs
+      arithmetic (15/19 prices, 14/19 sizes) and gets status 19/19
+- [x] Decision: regex first for every field, the LLM stays a gap filler; three parser fixes
+      found, tracked as F-22
 
 ### S-03 Search cost model · P0 · ✅
 - [x] Fresh run: L × T Google + L Maps (flats only); repeat run within the TTL: 0
@@ -332,6 +336,13 @@ Positions only from SerpApi ([ADR 0022](docs/decisions/0022-map-positions-only-f
 - [x] Detail page map: the property, its area's amenities and, for commercial runs, competitors (F-06)
 - [x] Tests: 8 layout cases (placement, ungeocoded centres, status order, draw order, amenity
       de-duplication, opening view, colours, legend); checked in headless Chrome on both demos
+
+### F-22 Parser fixes from S-02 · P1 · ⬜
+Each has its S-02 entry as the test case ([S-02](docs/spikes/S-02-extraction-accuracy.md)).
+- [ ] Take a stated size range ("ranging from 1415.0 sq. ft. to 1470.0 sq. ft.") before computing
+      size from price ÷ rate
+- [ ] Do not read sale status from page filter text ("Buy Ready to move, Resale, …")
+- [ ] Skip "<price> Flats for" page-description phrases as entries
 
 ### F-20 Live pipeline progress · P0 · ✅
 - [x] Poll `GET /api/runs/{id}`; show each stage with counts, searches used, cache hits
