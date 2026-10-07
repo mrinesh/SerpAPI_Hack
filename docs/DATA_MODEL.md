@@ -34,6 +34,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `Listing` | `listing.py` | A discovered candidate: `snippet_entry` (priced entry quoted on a portal search page) or `project` (Google Maps place). Name, url, price, ₹/sq ft, size, BHK, sale status, GPS, rating, evidence text, `named_localities` (localities its own text or Maps address names, ADR 0024); all facts `Sourced` ([ADR 0011](decisions/0011-discovery-from-search-snippets.md)) |
 | `Verification`, `QualityFlag` | `listing.py` | LLM match score, verdict, mismatches, and code-raised flags: too good to be true, missing price/size (ADR 0014), location mismatch (ADR 0024) |
 | `AreaIntel` (+ `Amenity`, `NewsItem`, `PriceTrend`, `RentalDemand`) | `area.py` | Per-locality intelligence |
+| `AreaDevelopment`, `SearchMomentum`, `DevelopmentHypothesis` | `development.py` | Developing-area signals per locality: Trends and app search histories with code-computed changes, conclusion, evidence score, research-priority rank and cited, unconfirmed hypotheses (ADR 0025) |
 | `CompetitorReport`, `Competitor`, `CompetitorReading` | `competitor.py` | Same-category businesses within 2 km of a commercial locality's centre, with density and a reading per property type (ADR 0023) |
 | `InvestmentMetrics` | `metrics.py` | Price per sq ft vs area, rental yield, price growth, total return, target check |
 | `Recommendation` | `recommendation.py` | Rank, composite score, breakdown, reason |
@@ -71,6 +72,8 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `area_intel` | `locality_key` | `AreaIntel` JSON (centre, amenities, `price_growth_pct`, per-type `price_levels` and `rent_levels`, summaries, `section_status`, `warnings`, `schema_version`, `provider_modes`), `expires_at` (= `fetched_at` when a section failed) | e.g. `bengaluru/whitefield`; rebuilt after the TTL |
 | `competitor_reports` | hash(locality, rounded centre, business type, radius) | `CompetitorReport` JSON | Area TTL; a failed search expires at once (ADR 0023) |
 | `run_competitor_reports` | `id` | `run_id`, `locality_key`, `CompetitorReport` JSON as the run used it | One row per run and commercial locality; frozen; deleted with the profile |
+| `run_development` | (`run_id`, `locality_key`) | `AreaDevelopment` JSON | One row per run and enriched locality; frozen (ADR 0025); deleted with the run or profile |
+| `search_intents` | (`run_id`, `locality_key`) | `profile_id`, created time | The app's own search history: the localities each run asked for at start; kept through profile edits, deleted with the run or profile (ADR 0025) |
 | `serp_cache` | `key` (`gateway.cache_key`) | engine, params, raw SerpApi JSON, `search_id`, fetched time | Same key as fixture file names |
 | `search_ledger` | autoincrement `id` | engine, cache key, run, `live`, time | Budget is computed from this |
 | `llm_cache` | `key` = hash(task, model, tier, prompt, schema) | task, model, validated LLM output, time | Replay reads fixtures only; record writes cache hits too |
@@ -86,6 +89,8 @@ erDiagram
     pipeline_runs ||--o{ listing_observations : "found"
     pipeline_runs ||--o{ run_area_intel : "froze"
     pipeline_runs ||--o{ run_competitor_reports : "froze"
+    pipeline_runs ||--o{ run_development : "froze"
+    pipeline_runs ||--o{ search_intents : "asked for"
     listings ||--o{ listing_observations : "seen at a price"
     listings ||--o| saved_properties : "saved as"
     listings ||--o{ alerts : "about"

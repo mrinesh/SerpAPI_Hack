@@ -98,7 +98,8 @@ Findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.m
 - [x] Per portal: single listings 0 of 87; all search pages (+2 NoBroker project pages)
 - [x] Per field: price, ₹/sq ft, size, BHK, status coverage measured; no posted dates, no rich_snippet
 - [x] Query templates decided with the product owner and implemented in `query_planner.py`
-- [x] google_news and "property rates" queries built in F-05; google_trends deferred there (P1)
+- [x] google_news and "property rates" queries built in F-05; google_trends built for
+      developing-area signals (ADR 0025)
 
 ### S-02 LLM extraction accuracy · P0 · ✅
 Findings: [docs/spikes/S-02-extraction-accuracy.md](docs/spikes/S-02-extraction-accuracy.md).
@@ -277,7 +278,9 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [x] Area score fills F-04's `area` component (amenity access only; growth reserved for F-09)
 - [x] Area panel on the run page; access line on recommendation cards
 - [x] Recorded for both demos (10 searches, 4 lite calls; 9 explanations re-recorded)
-- [ ] P1, deferred: rental demand from google_trends (compare localities in one call) + chart
+- [x] P1: search demand from google_trends (up to 5 localities per call) with weekly charts:
+      developing-area signals, display only (ADR 0025, ported from gscode007's branch with their
+      code, tests and recordings)
 
 ### F-06 Competitor analysis (commercial) · P0 · ✅
 Per locality and business type, read by property type, display only
@@ -363,7 +366,7 @@ Kept current as features land. ✅ means the doc exists and matches the code tod
 - [x] docs/PRODUCT.md, docs/ARCHITECTURE.md, docs/PIPELINE.md
 - [x] docs/SERPAPI_USAGE.md (doubles as the submission's SerpApi explanation)
 - [x] docs/DATA_MODEL.md, docs/API.md, docs/DEVELOPMENT.md
-- [x] docs/decisions/ ADR 0001–0024
+- [x] docs/decisions/ ADR 0001–0025
 - [x] docs/spikes/S-01 filled with real findings
 - [x] Screenshots in README (`docs/images/`, from the replay demo)
 - [x] Final pass: API.md matches the routes in `openapi.json` exactly, each with its real status

@@ -232,6 +232,27 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/runs/{run_id}/development": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Run Development
+         * @description Developing-area signals per locality (ADR 0025): measured search growth, corroboration,
+         *     research-priority rank and cited, unconfirmed explanations. Read-only; display only.
+         */
+        get: operations["get_run_development_api_runs__run_id__development_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/runs/{run_id}/recommendations": {
         parameters: {
             query?: never;
@@ -450,6 +471,64 @@ export interface components {
              */
             measured_from: "listing" | "locality centre";
         };
+        /** AreaDevelopment */
+        AreaDevelopment: {
+            /** Locality Key */
+            locality_key: string;
+            /** Locality */
+            locality: string;
+            /** City */
+            city: string;
+            /**
+             * As Of
+             * Format: date-time
+             */
+            as_of: string;
+            /** Public Interest */
+            public_interest?: components["schemas"]["SearchMomentum"][];
+            app_interest: components["schemas"]["SearchMomentum"];
+            /** Observed Price Growth */
+            observed_price_growth?: {
+                [key: string]: components["schemas"]["Sourced_float_"];
+            };
+            /**
+             * Recent Positive Infrastructure
+             * @default 0
+             */
+            recent_positive_infrastructure: number;
+            /** Evidence Score */
+            evidence_score?: number | null;
+            /** Score Breakdown */
+            score_breakdown?: {
+                [key: string]: number;
+            };
+            /**
+             * Coverage Pct
+             * @default 0
+             */
+            coverage_pct: number;
+            /**
+             * Signal
+             * @enum {string}
+             */
+            signal: "corroborated_growth" | "interest_only" | "no_sustained_growth" | "insufficient_data";
+            /** Recommendation */
+            recommendation: string;
+            /** Rank */
+            rank?: number | null;
+            /** Hypotheses */
+            hypotheses?: components["schemas"]["DevelopmentHypothesis"][];
+            /**
+             * Ai Review
+             * @default unavailable
+             * @enum {string}
+             */
+            ai_review: "consistent" | "mixed" | "inconclusive" | "unavailable";
+            /** Warnings */
+            warnings?: components["schemas"]["AreaIssue"][];
+            /** Limitations */
+            limitations?: string[];
+        };
         /** AreaIntel */
         AreaIntel: {
             /** Locality Key */
@@ -635,6 +714,17 @@ export interface components {
              */
             expires_at: string;
         };
+        /** DevelopmentHypothesis */
+        DevelopmentHypothesis: {
+            /**
+             * Driver
+             * @enum {string}
+             */
+            driver: "transport" | "employment" | "housing" | "policy" | "amenities" | "publicity";
+            /** Explanation */
+            explanation: string;
+            evidence: components["schemas"]["Sourced_str_"];
+        };
         /**
          * ExtractionMethod
          * @enum {string}
@@ -672,6 +762,16 @@ export interface components {
             llm_mode: components["schemas"]["ProviderMode"];
             /** City */
             city: string;
+        };
+        /** InterestPoint */
+        InterestPoint: {
+            /**
+             * Week
+             * Format: date
+             */
+            week: string;
+            /** Value */
+            value: number;
         };
         /**
          * InvestmentGoal
@@ -1071,6 +1171,56 @@ export interface components {
              * Format: date-time
              */
             saved_at: string;
+        };
+        /** SearchMomentum */
+        SearchMomentum: {
+            /**
+             * Kind
+             * @enum {string}
+             */
+            kind: "locality_interest" | "rental_interest" | "app_searches";
+            /** Query */
+            query: string;
+            /**
+             * Unit
+             * @enum {string}
+             */
+            unit: "relative_interest_0_100" | "distinct_profiles_per_week";
+            /** Geo */
+            geo?: string | null;
+            /** History */
+            history?: components["schemas"]["InterestPoint"][];
+            /** Previous Mean */
+            previous_mean?: number | null;
+            /** Recent Mean */
+            recent_mean?: number | null;
+            /** Quarter Change Pct */
+            quarter_change_pct?: number | null;
+            /** Annual Change Pct */
+            annual_change_pct?: number | null;
+            /**
+             * Sustained Weeks
+             * @default 0
+             */
+            sustained_weeks: number;
+            /**
+             * Signal
+             * @default unavailable
+             * @enum {string}
+             */
+            signal: "rising" | "falling" | "steady" | "unavailable";
+            /**
+             * Usable
+             * @default false
+             */
+            usable: boolean;
+            /** Note */
+            note: string;
+            source?: components["schemas"]["SourceRef"] | null;
+            /** Retrieved At */
+            retrieved_at?: string | null;
+            /** Sample Size */
+            sample_size?: number | null;
         };
         /**
          * Segment
@@ -1723,6 +1873,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["CompetitorReport"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_run_development_api_runs__run_id__development_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AreaDevelopment"][];
                 };
             };
             /** @description Validation Error */

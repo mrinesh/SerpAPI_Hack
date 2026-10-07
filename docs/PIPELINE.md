@@ -162,6 +162,16 @@ centre, business and radius; frozen per run in `run_competitor_reports`. Display
 scored. A failed search is reported and retried next run. P1 (F-06b): google_maps_reviews for
 the top places → `competitor_gaps` prompt.
 
+**Developing-area signals** (`enrichment/search_history.py`, `enrichment/development.py`,
+[ADR 0025](decisions/0025-search-driven-developing-area-signals.md), after gscode007's
+branch): for the enriched localities, two Google Trends requests (`<locality>`,
+`<locality> rent`, `IN-KA`, five years) and the app's own search history (`search_intents`,
+recorded at run start). Code compares the last 13 complete weeks with the previous 13 and with
+the same weeks a year earlier, and checks growth against the area's past-12-month price change
+and recent positive infrastructure news; `review_development` (DeepSeek reasoning) may cite up
+to three news items as unconfirmed explanations. Frozen per run in `run_development`. Display
+only: nothing reaches the score. See [SEARCH_DRIVEN_AREA_INSIGHTS.md](SEARCH_DRIVEN_AREA_INSIGHTS.md).
+
 **Rent level** (`enrichment/rent_level.py`, F-09): one Google search per locality and type
 ("flat rent per sq ft in Whitefield Bangalore"); `extract_rent` (LLM lite) lists quoted rent
 and size pairs; code checks each against its snippet and takes the median rent ÷ size of at

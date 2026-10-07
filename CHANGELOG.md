@@ -13,6 +13,13 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Developing-area signals (ADR 0025), by gscode007, ported onto main: Google Trends
+  weekly interest in each locality and its rentals, plus the app's own search history; code
+  compares the last 13 weeks with the previous 13 and a year earlier and checks growth against
+  observed prices and recent infrastructure news; DeepSeek may cite news as unconfirmed
+  explanations. Run-page panel with weekly charts and `GET /runs/{id}/development`. Display
+  only. Their 4 Trends recordings replay unchanged (0 searches); 2 reviews recorded on main.
+  Neither demo is a research priority (rental interest -17.4% Whitefield, -28.5% Koramangala).
 - 2026-10-07 · CI (I-14): GitHub Actions runs `make lint`, `make test`, the frontend build and
   `make fixtures` on every push and pull request, in replay mode with no secrets. README badge.
 - 2026-10-07 · P0 close-out (I-08, I-09, I-10, F-05, S-01, D-01): DATA_MODEL.md audited against
