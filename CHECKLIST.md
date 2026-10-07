@@ -23,7 +23,7 @@ code for an ID finds every stub that belongs to it.
 |---|---|---|---|---|
 | **Spikes** | | | | |
 | S-01 | Data coverage spike (Bengaluru, real queries) | P0 | ✅ | |
-| S-02 | LLM extraction accuracy check | P0 | ⬜ | |
+| S-02 | LLM extraction accuracy check | P0 | 🟨 | |
 | S-03 | Search cost model per run | P0 | ✅ | |
 | **Infrastructure** | | | | |
 | I-01 | Repo scaffold, tooling, docs skeleton | P0 | ✅ | |
@@ -99,9 +99,12 @@ Findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.m
 - [x] Query templates decided with the product owner and implemented in `query_planner.py`
 - [ ] google_news, google_trends and "property rates" queries: moved to F-05, which needs them
 
-### S-02 LLM extraction accuracy · P0 · ⬜
-- [ ] Hand-label 20 S-01 hits (kind, price, size, BHK, locality)
-- [ ] Run regex parsers + `extract_listing` and record field-level accuracy in the spike doc
+### S-02 LLM extraction accuracy · P0 · 🟨
+- [x] Hand-label 20 S-01 hits: `fixtures/spikes/s02_labels.json` (19 listings, 1 filter phrase;
+      labelled by Claude Code from the snippet text, **to be reviewed by the product owner**)
+- [ ] Run regex parsers + `extract_listing` and record field-level accuracy in the spike doc.
+      `scripts/s02_accuracy.py --regex-only` runs; the DeepSeek conditions need `--record` once
+      the network is back, then the write-up in docs/spikes/S-02-extraction-accuracy.md
 - [ ] Decide which fields need the LLM and which regex handles alone
 
 ### S-03 Search cost model · P0 · ✅
