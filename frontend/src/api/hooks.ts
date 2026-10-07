@@ -9,6 +9,7 @@ import { apiFetch } from "./client";
 import type {
   AreaIntel,
   BudgetStatus,
+  CompetitorReport,
   HealthStatus,
   InvestorProfile,
   InvestorProfileIn,
@@ -165,6 +166,19 @@ export function useRunAreas(run: PipelineRun | undefined) {
   return useQuery({
     queryKey: ["runs", run?.id, "areas", run?.status],
     queryFn: () => apiFetch<AreaIntel[]>(`/runs/${run?.id}/areas`),
+    enabled: run !== undefined && enriched,
+  });
+}
+
+/** Same-category businesses around each commercial locality (F-06), once enrichment has
+ * finished. Empty for residential runs. */
+export function useRunCompetitors(run: PipelineRun | undefined) {
+  const enriched = (run?.events ?? []).some(
+    (event) => event.stage === "enrich" && (event.status === "succeeded" || event.status === "failed"),
+  );
+  return useQuery({
+    queryKey: ["runs", run?.id, "competitors", run?.status],
+    queryFn: () => apiFetch<CompetitorReport[]>(`/runs/${run?.id}/competitors`),
     enabled: run !== undefined && enriched,
   });
 }

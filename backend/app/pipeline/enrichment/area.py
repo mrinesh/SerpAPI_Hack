@@ -168,7 +168,7 @@ def haversine_km(a: GeoPoint, b: GeoPoint) -> float:
     return 2 * 6371.0 * math.asin(math.sqrt(h))
 
 
-def _gps(item: dict) -> GeoPoint | None:
+def place_point(item: dict) -> GeoPoint | None:
     gps = item.get("gps_coordinates") or {}
     if "latitude" not in gps or "longitude" not in gps:
         return None
@@ -177,9 +177,9 @@ def _gps(item: dict) -> GeoPoint | None:
 
 def parse_centre(data: dict, market: Market) -> GeoPoint | None:
     """The place result's point, else the first local result's; None outside the city box."""
-    point = _gps(data.get("place_results") or {})
+    point = place_point(data.get("place_results") or {})
     if point is None:
-        point = next((p for p in map(_gps, data.get("local_results") or []) if p), None)
+        point = next((p for p in map(place_point, data.get("local_results") or []) if p), None)
     if point is None or (market.bounds and not market.bounds.contains(point.lat, point.lng)):
         return None
     return point
@@ -190,7 +190,11 @@ def parse_amenities(
 ) -> list[Amenity]:
     found: dict[str, Amenity] = {}
     for place in data.get("local_results") or []:
-        kind, name, point = place.get("type") or "", (place.get("title") or "").strip(), _gps(place)
+        kind, name, point = (
+            place.get("type") or "",
+            (place.get("title") or "").strip(),
+            place_point(place),
+        )
         if not name or point is None or not _TYPES[category].search(kind):
             continue
         if category is AmenityCategory.SCHOOL and _NOT_A_SCHOOL.search(f"{kind} {name}"):

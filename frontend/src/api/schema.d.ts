@@ -212,6 +212,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/runs/{run_id}/competitors": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Get Run Competitors
+         * @description Same-category businesses around each commercial locality (F-06); empty for residential.
+         */
+        get: operations["get_run_competitors_api_runs__run_id__competitors_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/runs/{run_id}/recommendations": {
         parameters: {
             query?: never;
@@ -533,25 +553,48 @@ export interface components {
             rating?: number | null;
             /** Reviews */
             reviews?: number | null;
-            /** Price Level */
-            price_level?: string | null;
             /** Place Id */
             place_id?: string | null;
             /** Data Id */
             data_id?: string | null;
             source: components["schemas"]["SourceRef"];
         };
+        /**
+         * CompetitorReading
+         * @description What nearby same-category businesses mean for one property type (ADR 0023).
+         * @enum {string}
+         */
+        CompetitorReading: "competition" | "cluster";
         /** CompetitorReport */
         CompetitorReport: {
-            /** Category */
-            category: string;
+            /** Locality Key */
+            locality_key: string;
+            /** Locality */
+            locality: string;
+            /** Business Type */
+            business_type: string;
             center: components["schemas"]["GeoPoint"];
             /** Radius Km */
             radius_km: number;
             /** Competitors */
             competitors?: components["schemas"]["Competitor"][];
-            /** Density Per Sq Km */
+            /**
+             * Results Seen
+             * @default 0
+             */
+            results_seen: number;
+            /**
+             * More Available
+             * @default false
+             */
+            more_available: boolean;
+            /**
+             * Density Per Sq Km
+             * @default 0
+             */
             density_per_sq_km: number;
+            /** @default low */
+            density_level: components["schemas"]["Level"];
             /** Avg Rating */
             avg_rating?: number | null;
             /**
@@ -559,14 +602,38 @@ export interface components {
              * @default 0
              */
             total_reviews: number;
-            saturation: components["schemas"]["Level"];
+            /** Readings */
+            readings?: {
+                [key: string]: components["schemas"]["CompetitorReading"];
+            };
             /** Gaps */
             gaps?: components["schemas"]["Sourced_str_"][];
+            /**
+             * Status
+             * @default ok
+             * @enum {string}
+             */
+            status: "ok" | "empty" | "failed";
+            warning?: components["schemas"]["AreaIssue"] | null;
+            /**
+             * Schema Version
+             * @default 1
+             */
+            schema_version: number;
+            /** Provider Modes */
+            provider_modes?: {
+                [key: string]: string;
+            };
             /**
              * Fetched At
              * Format: date-time
              */
             fetched_at: string;
+            /**
+             * Expires At
+             * Format: date-time
+             */
+            expires_at: string;
         };
         /**
          * ExtractionMethod
@@ -1623,6 +1690,37 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["AreaIntel"][];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    get_run_competitors_api_runs__run_id__competitors_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                run_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CompetitorReport"][];
                 };
             };
             /** @description Validation Error */

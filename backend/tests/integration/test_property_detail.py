@@ -31,7 +31,13 @@ def test_ranked_detail_matches_the_run_and_its_frozen_area(client, name):
     assert detail["metrics"] == top["metrics"]
     assert detail["verification"] == top["verification"]
     assert detail["area"] == area
-    assert detail["competitors"] is None  # F-06
+    competitors = client.get(f"/api/runs/{run_id}/competitors").json()
+    if name == "commercial":
+        assert [detail["competitors"]] == competitors  # the run's frozen report (F-06)
+        places = {place["source"]["url"] for place in competitors[0]["competitors"]}
+        assert places <= {source["url"] for source in detail["sources"]}
+    else:
+        assert detail["competitors"] is None and competitors == []
     assert [p["run_id"] for p in detail["price_history"]] == [run_id]
     keys = [(s["engine"], s["url"], s["search_id"]) for s in detail["sources"]]
     assert keys and len(keys) == len(set(keys))

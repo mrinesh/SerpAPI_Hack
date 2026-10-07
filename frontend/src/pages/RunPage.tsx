@@ -7,14 +7,17 @@ import {
   useRun,
   useRunListings,
   useRunAreas,
+  useRunCompetitors,
   useRunRecommendations,
   useRunVerifications,
 } from "../api/hooks";
+import type { ProfileOptions, PropertyType } from "../api/types";
 import { layoutMap } from "../components/map/mapLayout";
 import { MapLegend, ResultsMap } from "../components/map/ResultsMap";
 import { Notice } from "../components/Notice";
 import { AreaPanel } from "../components/run/AreaPanel";
 import { CandidateList } from "../components/run/CandidateList";
+import { CompetitorCard } from "../components/run/CompetitorCard";
 import { StageList } from "../components/run/StageList";
 
 /** Discovery and relevance verification, with live progress and partial results. */
@@ -27,6 +30,7 @@ export function RunPage() {
   const verifications = useRunVerifications(run.data);
   const recommendations = useRunRecommendations(run.data);
   const areas = useRunAreas(run.data);
+  const competitors = useRunCompetitors(run.data);
 
   if (run.error) return <Notice tone="error">{describeError(run.error)}</Notice>;
   if (!run.data) return <p className="text-sm text-slate-500">Loading…</p>;
@@ -38,6 +42,7 @@ export function RunPage() {
       verifications: verifications.data ?? [],
       recommendations: recommendations.data ?? [],
       areas: areas.data ?? [],
+      competitors: competitors.data ?? [],
     })
     : null;
   return (
@@ -68,6 +73,7 @@ export function RunPage() {
       {verifications.error && <Notice tone="error">{describeError(verifications.error)}</Notice>}
       {recommendations.error && <Notice tone="error">{describeError(recommendations.error)}</Notice>}
       {areas.error && <Notice tone="error">{describeError(areas.error)}</Notice>}
+      {competitors.error && <Notice tone="error">{describeError(competitors.error)}</Notice>}
       {layout && layout.bounds.length > 0 && (
         <section className="space-y-2">
           <ResultsMap layout={layout} runId={run.data.id} showAmenities={layout.listings.length === 0} />
@@ -75,11 +81,11 @@ export function RunPage() {
         </section>
       )}
       {areas.data && options.data && (
-        <AreaPanel
-          areas={areas.data}
-          typeLabel={(value) =>
-            options.data.segments.flatMap((s) => s.property_types).find((t) => t.value === value)?.label ?? value}
-        />
+        <AreaPanel areas={areas.data} typeLabel={typeLabel(options.data)}>
+          {(competitors.data ?? []).map((report) => (
+            <CompetitorCard key={report.locality_key} report={report} typeLabel={typeLabel(options.data)} />
+          ))}
+        </AreaPanel>
       )}
       {listings.data && options.data && (
         <CandidateList
@@ -94,3 +100,6 @@ export function RunPage() {
     </div>
   );
 }
+
+const typeLabel = (options: ProfileOptions) => (value: PropertyType) =>
+  options.segments.flatMap((s) => s.property_types).find((t) => t.value === value)?.label ?? value;

@@ -10,6 +10,7 @@ from app.db.models import (
     ListingRow,
     ProfileRow,
     RunAreaRow,
+    RunCompetitorRow,
     RunResultRow,
     RunRow,
 )
@@ -17,6 +18,7 @@ from app.pipeline.enrichment.area import locality_key
 from app.pipeline.orchestrator import to_schema
 from app.reference import load_market
 from app.schemas.area import AreaIntel
+from app.schemas.competitor import CompetitorReport
 from app.schemas.listing import Listing, ResultKind, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
@@ -121,6 +123,29 @@ def area_for_run(db: Session, run: RunRow, slug: str) -> AreaIntel | None:
     if frozen is not None:
         return AreaIntel.model_validate(frozen.data)
     return _cached_area(db, slug, city)
+
+
+def get_run_competitors(db: Session, run_id: str) -> list[CompetitorReport]:
+    """Same-category businesses around each commercial locality, as this run saw them (F-06).
+    Empty for residential runs and runs from before F-06."""
+    get_run_row(db, run_id)
+    rows = db.scalars(
+        select(RunCompetitorRow)
+        .where(RunCompetitorRow.run_id == run_id)
+        .order_by(RunCompetitorRow.locality_key)
+    )
+    return [CompetitorReport.model_validate(row.data) for row in rows]
+
+
+def competitors_for_run(db: Session, run: RunRow, slug: str) -> CompetitorReport | None:
+    """The competitor report one run froze for one locality, if any."""
+    key = _area_key(slug, run_city(db, run))
+    row = db.scalar(
+        select(RunCompetitorRow).where(
+            RunCompetitorRow.run_id == run.id, RunCompetitorRow.locality_key == key
+        )
+    )
+    return CompetitorReport.model_validate(row.data) if row is not None else None
 
 
 def run_city(db: Session, run: RunRow) -> str:

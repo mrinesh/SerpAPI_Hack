@@ -148,3 +148,45 @@ def test_demo_areas_have_classified_local_news(client, name):
     assert area["section_status"]["classify_news"] == "ok"
     assert len(area["news"]) == 10 and all(item["classified"] for item in area["news"])
     assert area["warnings"] == []
+
+
+def _run(client, name):
+    profile_id = client.post("/api/profiles", json=DEMO_PROFILES[name]).json()["id"]
+    return client.post(f"/api/profiles/{profile_id}/runs").json()["id"]
+
+
+def test_commercial_demo_replays_its_competitor_report(client):
+    """F-06 from the recorded "IT services" search at the Koramangala centre (ADR 0023)."""
+    run_id = _run(client, "commercial")
+    [report] = client.get(f"/api/runs/{run_id}/competitors").json()
+    assert (report["locality"], report["business_type"]) == ("Koramangala", "IT services")
+    assert report["status"] == "ok" and report["warning"] is None
+    assert (report["results_seen"], report["more_available"]) == (20, True)
+    assert len(report["competitors"]) == 7 and report["density_level"] == "medium"
+    assert report["readings"] == {"office": "cluster"}
+    assert report["avg_rating"] is not None and report["total_reviews"] > 0
+    enrich = next(e for e in client.get(f"/api/runs/{run_id}").json()["events"]
+                  if e["stage"] == "enrich")  # fmt: skip
+    assert enrich["counts"]["competitor_reports"] == 1
+    assert "7 IT services places within 2 km (medium density)" in enrich["message"]
+    assert client.get(f"/api/runs/{_run(client, 'residential')}/competitors").json() == []
+
+
+def test_competitors_do_not_change_ranks_or_reasons(client, monkeypatch):
+    """Display only (ADR 0023): the same shortlist with and without the competitor report."""
+
+    def shortlist(run_id):
+        return [(r["listing"]["id"], r["score"], r["reason"])
+                for r in client.get(f"/api/runs/{run_id}/recommendations").json()]  # fmt: skip
+
+    with_competitors = shortlist(_run(client, "commercial"))
+    monkeypatch.setattr(orchestrator, "get_competitor_report", lambda *args: None)
+    assert shortlist(_run(client, "commercial")) == with_competitors
+
+
+def test_deleting_a_commercial_profile_removes_its_frozen_competitors(client):
+    profile_id = client.post("/api/profiles", json=DEMO_PROFILES["commercial"]).json()["id"]
+    run_id = client.post(f"/api/profiles/{profile_id}/runs").json()["id"]
+    assert client.get(f"/api/runs/{run_id}/competitors").json()
+    assert client.delete(f"/api/profiles/{profile_id}").status_code == 204
+    assert client.get(f"/api/runs/{run_id}/competitors").status_code == 404

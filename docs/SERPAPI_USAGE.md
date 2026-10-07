@@ -18,7 +18,7 @@ results fetched for that investor's criteria; without SerpApi there is no shortl
 | Engine | Used for | Status |
 |---|---|---|
 | `google` | Discovery: site-filtered searches of 99acres, MagicBricks and NoBroker. Google returns their search pages, whose snippets quote priced entries *(S-01)*. Also the locality price level per sq ft ("office space price per sq ft in Koramangala Bangalore"), the benchmark for price flags (ADR 0014) | Built (F-02, F-12) |
-| `google_maps` | Discovery: named housing projects with GPS, rating and reviews for flat profiles *(S-01)*. Later: amenities and commercial competitors | Discovery built (F-02); rest planned (F-05, F-06) |
+| `google_maps` | Discovery: named housing projects with GPS, rating and reviews for flat profiles *(S-01)*. Locality centres and amenities (F-05). Same-category businesses at a commercial locality's centre (F-06) | Built (F-02, F-05, F-06) |
 | `google_news` | Locality news with AI topic and sentiment labels, shown in the area panel (not scored) | Built (F-05, ADR 0020) |
 | `google_trends` | Rental and buying search interest, up to 5 localities per call | Planned (F-05) |
 | `google_maps_reviews` | Review text of top competitors, to find market gaps | Planned (F-06b) |
@@ -63,6 +63,7 @@ default timeout is 60 s because two searches exceeded 30 s.
 | Fresh run, L localities × T property types | L × T Google, + L Google Maps if flats are wanted, + at most 1 retry per empty query, + up to L × T price-level Google searches (localities with candidates) |
 | Area intelligence, per new locality, per 7-day TTL (F-05) | 1 Maps geocode + 3 Maps amenities + 1 Google growth + 1 Google News = 6 |
 | Rent level, per locality and property type, per TTL (F-09) | 1 Google |
+| Competitors, per commercial locality and business type, per TTL (F-06) | 1 Maps |
 | Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 18 area + 3 rent = 30 |
 | Largest profile: 5 localities × 4 types, with flats | 20 Google + 5 Maps + 20 price level = 45; the per-run cap of 40 stops discovery-first runs before that, and price levels then fall back to run medians |
 | Repeat run within the cache TTL | 0 |

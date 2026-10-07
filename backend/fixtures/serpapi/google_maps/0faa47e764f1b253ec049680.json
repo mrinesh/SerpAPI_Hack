@@ -1,0 +1,1271 @@
+{
+ "engine": "google_maps",
+ "params": {
+  "q": "IT services",
+  "type": "search",
+  "hl": "en",
+  "ll": "@12.9352403,77.624532,15z"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac5c68006ca7f11c26738d3",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/fmuPyauPdEIvls7dKSlODyOp3eEzD4fpgc7-07eOJpI/6ac5c68006ca7f11c26738d3.json",
+   "markdown_endpoint": "https://serpapi.com/searches/fmuPyauPdEIvls7dKSlODyOp3eEzD4fpgc7-07eOJpI/6ac5c68006ca7f11c26738d3.md",
+   "created_at": "2026-10-07 04:11:44 UTC",
+   "processed_at": "2026-10-07 04:11:44 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/IT+services/@12.9352403,77.624532,15z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/fmuPyauPdEIvls7dKSlODyOp3eEzD4fpgc7-07eOJpI/6ac5c68006ca7f11c26738d3.html",
+   "prettify_html_file": "https://serpapi.com/searches/fmuPyauPdEIvls7dKSlODyOp3eEzD4fpgc7-07eOJpI/6ac5c68006ca7f11c26738d3.prettify",
+   "total_time_taken": 0.58
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "IT services",
+   "ll": "@12.9352403,77.624532,15z",
+   "google_domain": "google.com",
+   "hl": "en"
+  },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "IT services"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Z IT Support & Services",
+    "place_id": "ChIJ_6Q8VjEUrjsR5W979IJjBS0",
+    "data_id": "0x3bae1431563ca4ff:0x2d056382f47b6fe5",
+    "data_cid": "3244108520688938981",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1431563ca4ff%3A0x2d056382f47b6fe5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1431563ca4ff%3A0x2d056382f47b6fe5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.936928199999999,
+     "longitude": 77.6266895
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ_6Q8VjEUrjsR5W979IJjBS0",
+    "provider_id": "/g/1ptwj1jjm",
+    "rating": 4.8,
+    "reviews": 15,
+    "type": "Computer support and services",
+    "types": [
+     "Computer support and services",
+     "Computer networking service"
+    ],
+    "type_id": "computer_support_and_services",
+    "type_ids": [
+     "computer_support_and_services",
+     "computer_networking_center"
+    ],
+    "address": "4th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–8 PM",
+     "thursday": "9 AM–8 PM",
+     "friday": "9 AM–8 PM",
+     "saturday": "9 AM–6 PM",
+     "sunday": "Open 24 hours",
+     "monday": "9 AM–8 PM",
+     "tuesday": "9 AM–8 PM"
+    },
+    "phone": "+91 83289 84479",
+    "website": "https://zitsupport.wordpress.com/",
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online appointments"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": false
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOxABcaqRDQa3qlxd8zT2TaZsaM19zJXnOjZ0R4j2NwNMw19K3qXamCWUNgip7RODKS5Ly7lQ9wN8eysMn8SJ2YSunUNN5whY2DAQwjRo9AFwiHGA_FlYoqLLaNNXzN06g2vBvf=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/2z2NAXicHcRNjoIwGADQEyGl-AMms6gSNQofATSCG9NULJLSgkWqXHDO4G0mmbd439-q71u9tG1RuROuFBflS5dPpmRfyn7CVGPzJ9XaYtom66EVTfwmK0a7NEio24n3zRuP-EgvmkaOP-5zGdcXlE5rDAYi4_gHt8tpsz6fgD_aRRoHh2wWfhYi8Q145UdH0sv2uMhe8gQwM1WBA5KYOlU-2ZjHbkuuG1GoLgwpQD4CmnM8rIb7j3EQQlb1P7PkH58URNA"
+   },
+   {
+    "position": 2,
+    "title": "IT Care",
+    "place_id": "ChIJcyJ1hGsVrjsROuFFwTRsq84",
+    "data_id": "0x3bae156b84752273:0xceab6c34c145e13a",
+    "data_cid": "14892115566667358522",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae156b84752273%3A0xceab6c34c145e13a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae156b84752273%3A0xceab6c34c145e13a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9169009,
+     "longitude": 77.6013529
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJcyJ1hGsVrjsROuFFwTRsq84",
+    "provider_id": "/g/11n55d1jvh",
+    "rating": 5,
+    "reviews": 88,
+    "type": "Computer service",
+    "types": [
+     "Computer service"
+    ],
+    "type_id": "computer_service",
+    "type_ids": [
+     "computer_service"
+    ],
+    "address": "Ekadantha Chambers, No:143, 5th Main Rd, KEB Colony, New Gurappana Palya, 1st Stage, BTM 1st Stage, Bengaluru, Karnataka 560029, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10:30 AM",
+    "hours": "Closed · Opens 10:30 AM",
+    "operating_hours": {
+     "wednesday": "10:30 AM–8:30 PM",
+     "thursday": "10:30 AM–8:30 PM",
+     "friday": "10:30 AM–8:30 PM",
+     "saturday": "10:30 AM–8:30 PM",
+     "sunday": "10:30 AM–8:30 PM",
+     "monday": "10:30 AM–8:30 PM",
+     "tuesday": "10:30 AM–8:30 PM"
+    },
+    "website": "https://itcareservices.in/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"My laptop looks better than before , their service is quick and efficient.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPhtRKeAtCcE7Q8bkx8WpVqszo0w-yCTUWPzWw0SmrfObnxdghYG7wlo0AXZ8bSp68GZ33bGuQUZ5eiuWUPdiCokqoYN8dI6HG9rJYSz2VLJgTqICWs5hW5HssQGgn89rK-NZRj-jUT62Y=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/61Ss1HicHcTNboIwAADgJ6p0ErAu8UCapf7FgYAVbqPUVoUW2iKOh9x9b2Pid_j-_6Rznf30vEb6M6G1aPhguWFaOa7cjOnWE-bHWsCsF-FH17SxdMcdjxxmX4sEVfcnot2pt5OGI_jFWU7jiY4wbc3lu1LPWsiCLMZGw-hcoirtQkRK36_IkORlwK8DzeP6ivW918UB1ZtwTZZmW6TT_LTfiqzfYGoDSYO1tQkRCi3NDhzK4w3c8iycF6vxA0II5HsG1AsSC0e_"
+   },
+   {
+    "position": 3,
+    "title": "We Touch Solutions",
+    "place_id": "ChIJLT2r3jEVrjsR2DJmoBLLORc",
+    "data_id": "0x3bae1531deab3d2d:0x1739cb12a06632d8",
+    "data_cid": "1673592017405752024",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1531deab3d2d%3A0x1739cb12a06632d8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1531deab3d2d%3A0x1739cb12a06632d8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9372784,
+     "longitude": 77.6333626
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJLT2r3jEVrjsR2DJmoBLLORc",
+    "provider_id": "/g/11gjv92qpw",
+    "rating": 5,
+    "reviews": 178,
+    "type": "Computer support and services",
+    "types": [
+     "Computer support and services",
+     "Computer accessories store",
+     "Computer networking service",
+     "Computer repair service"
+    ],
+    "type_id": "computer_support_and_services",
+    "type_ids": [
+     "computer_support_and_services",
+     "computer_accessories_store",
+     "computer_networking_center",
+     "computer_repair_service"
+    ],
+    "address": "3rd floor, Somesh Building, No.9, Intermediate Ring Rd, near Ejipura, New Friends Colony, Signal, Koramangala, Bengaluru, Karnataka 560047, India",
+    "country": "India",
+    "open_state": "Open · Closes 7:30 PM",
+    "hours": "Open · Closes 7:30 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–7:30 PM",
+     "thursday": "9 AM–7:30 PM",
+     "friday": "9 AM–7:30 PM",
+     "saturday": "9 AM–7:30 PM",
+     "sunday": "9 AM–7:30 PM",
+     "monday": "9 AM–7:30 PM",
+     "tuesday": "9 AM–7:30 PM"
+    },
+    "phone": "+91 98455 61896",
+    "website": "https://www.wtsblr.com/",
+    "extensions": [
+     {
+      "from_the_business": [
+       "Identifies as women-owned"
+      ]
+     },
+     {
+      "service_options": [
+       "Online appointments",
+       "Onsite services"
+      ]
+     },
+     {
+      "offerings": [
+       "Repair services"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     },
+     {
+      "payments": [
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking",
+       "On-site parking"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": true
+    },
+    "user_review": "\"They gave me a reasonable quote and fixed my laptop in no time.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeVf9Y0C6IcYfNqCv6m300DU1T2h-DTG1SB_JboD9ZaFCcO3mkwyrM9JQ32BdJS4gF0oKoZWEahRkRjvoWywiw5GeUwyoPs2SbnVmAGJcJERIwgNzXqtfJLP7PQ4rdbH8-j0MEBG9kiVcSj=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/BVK_SXicHcTLcoIwFADQL4oEsLY40wUvqakPBMXqpgMxJILhVpKawZ_s2r9xpmdxHn9C6x81tayLcEccgF_Yr2I9hU6zTo8oSIv3pVKIKsv3g1YuWFF7BxxO5vRQr67hbSJdjKOdvXUEiraJnQffpILIO5azkK5d2ZqhX3pk4zrBieRjPsPwCcd9XIqszZob7AdzNi8J25kBUuXkVVdIPyGUxNnc8NX966prskhf0824P1Ufb6jByzhIvPZc0Lx5NzbGGIn_KeqeIbtGcw"
+   },
+   {
+    "position": 4,
+    "title": "VIJESHA IT SERVICES LLP",
+    "place_id": "ChIJB32WBTMVrjsRvQwhvGBW2sc",
+    "data_id": "0x3bae153305967d07:0xc7da5660bc210cbd",
+    "data_cid": "14400917731943713981",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae153305967d07%3A0xc7da5660bc210cbd&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae153305967d07%3A0xc7da5660bc210cbd&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9359754,
+     "longitude": 77.6167409
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJB32WBTMVrjsRvQwhvGBW2sc",
+    "provider_id": "/g/11x8_0n_4q",
+    "rating": 4.5,
+    "reviews": 2213,
+    "type": "Software company",
+    "types": [
+     "Software company"
+    ],
+    "type_id": "software_company",
+    "type_ids": [
+     "software_company"
+    ],
+    "address": "203, 17th Main Rd, beside Bata Shoe Store, opp. to sanju s aquarium, KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Opens soon · 10 AM",
+    "hours": "Opens soon · 10 AM",
+    "operating_hours": {
+     "wednesday": "10 AM–7 PM",
+     "thursday": "10 AM–7 PM",
+     "friday": "10 AM–7 PM",
+     "saturday": "10 AM–7 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–7 PM",
+     "tuesday": "10 AM–7 PM"
+    },
+    "phone": "+91 90082 64959",
+    "website": "https://www.vijesha.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Online appointments",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot",
+       "Free street parking",
+       "On-site parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": true
+    },
+    "user_review": "\"excellent session on full stack my vijesha it service .\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN-kjCjSBFyz33VaR6s_1PRw1Hza0FCSAJx5d9fCEtylEG0ardzLy8QVgUP6NcEEnTGhVjg6XSq1JTl_pBBtO6dHnJpEMhTgddeuwYPRtHHYjp31O3KRfv1k7ev6zg8hX5TcjNkVNEkpH6M=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/jXrjc3icHcTBboMgAADQL7JCSFm7ZIdqaIlrrVNn2lNjgEKQIhOq05_ceX-zZO_wfn9UCM6_xrFRaCX7Xhrx9GJgvQ3ChhXrH7EcWu8j5uNdOjrzyKNOp7pK9vOCUNOW2N9gUU6QLi3Yp9Uu-17z7T0lYTbkANqBL8d589HIzwLnjBBbH1SjJb5UXzCrzc0lSThjTm3myEnVknPxnK5FGSi9aofgGb2X9xF2L2LEi9yoy7pmOu-anHSO4tPbBAEAkfqfRfYPybJHnA"
+   },
+   {
+    "position": 5,
+    "title": "IT SOLUTIONS",
+    "place_id": "ChIJSadrb-sVrjsRu_Bqzdwmaps",
+    "data_id": "0x3bae15eb6f6ba749:0x9b6a26dccd6af0bb",
+    "data_cid": "11198806153191157947",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15eb6f6ba749%3A0x9b6a26dccd6af0bb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15eb6f6ba749%3A0x9b6a26dccd6af0bb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9411419,
+     "longitude": 77.6170282
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJSadrb-sVrjsRu_Bqzdwmaps",
+    "provider_id": "/g/11rxsbm2bq",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Computer support and services",
+    "types": [
+     "Computer support and services",
+     "Computer security service"
+    ],
+    "type_id": "computer_support_and_services",
+    "type_ids": [
+     "computer_support_and_services",
+     "computer_security_service"
+    ],
+    "address": "339, 1st D Cross Rd, Koramangala 8th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "wednesday": "Open 24 hours",
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "3 AM–5 PM"
+    },
+    "phone": "+91 96167 79701",
+    "website": "https://www.instagram.com/itsolutionsblr/",
+    "extensions": [
+     {
+      "service_options": [
+       "Online appointments",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": true
+    },
+    "user_review": "\"Cheapest in cost than others.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNurNIiBtmtDUoxJsrDQmFsWG-1seUYkJc2PPpnSJBSYXzjYJpHCsU1n4xXr__Q4FvccfC8n5fRyzI5VkDT8YflZ5U2Z21Klg1D1y_BG4uONkAjh1IA6nE4ek_sd5AMYjRA0KWHAYbUfuYl=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/taOMHXicHcTLjoIwFADQL0IoA8aYuCjgA4z4mop1Q7QWEEpLeouj_qTr-RsTz-L8vytjOhjbtqh-BqVSpeA9cM2UNFyaAVOtXeozgMXAxuG9E23a6zS-BaY1EVGPBHS0bWeQzS0EnNAmYe5m08l9Euzp8VXTpFuEQJD0Hked51tvdmesCEfSL3bPV-wfmuh3RAtx8ol7ctFSlChCzzyYe_06bXBdoRgP5dTjTQ5XH69ovcPOMltgeiFFT8XkDzmOY1XfmSU_OzhHtQ"
+   },
+   {
+    "position": 6,
+    "title": "SST Services",
+    "place_id": "ChIJ2e-D2G8VrjsRYPpEXSp7aDU",
+    "data_id": "0x3bae156fd883efd9:0x35687b2a5d44fa60",
+    "data_cid": "3848461303471733344",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae156fd883efd9%3A0x35687b2a5d44fa60&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae156fd883efd9%3A0x35687b2a5d44fa60&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.923375,
+     "longitude": 77.618719
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2e-D2G8VrjsRYPpEXSp7aDU",
+    "provider_id": "/g/11hz1qvx58",
+    "rating": 4.5,
+    "reviews": 34,
+    "type": "Computer repair service",
+    "types": [
+     "Computer repair service"
+    ],
+    "type_id": "computer_repair_service",
+    "type_ids": [
+     "computer_repair_service"
+    ],
+    "address": "76, Hosur Rd, next to Grand Krishna Hotel, Old Madiwala, Madiwala, 1st Stage, BTM 1st Stage, Bengaluru, Karnataka 560068, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–6:30 PM",
+     "thursday": "9 AM–6:30 PM",
+     "friday": "9 AM–6:30 PM",
+     "saturday": "9 AM–6:30 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–6:30 PM",
+     "tuesday": "9 AM–6:30 PM"
+    },
+    "phone": "+91 88840 55887",
+    "website": "https://sstservices.in/",
+    "extensions": [
+     {
+      "service_options": [
+       "Online appointments",
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": true
+    },
+    "user_review": "\"He fixed cameras and price was reasonable and good service 👍.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMb6Uu6sz50dvjnR0d0h6it8wXqCutWA1m3THQ1CUp3bexJwYG65y63ynE9_fUYFIetIga2uKVU8oM5rqMJBN-RsZombdRCo3e5E-JVEruAeupkT25hknbakxdHrjWjZxJcPWF0LQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/kOGmQHicHcRLjoIwAADQE1WKTRudxAUS_KBMlIioGwOlUvm02I-gN_QIc5tJfIv39-HGdPrHcRqORqWUZcOsZopKYZgwIypbp1SZ1oBqx_OfXdNGOUks0W8Mi2clYlhATu5m0p8evjWp57bosNq7ftKhnA1hf14S_CLoJYLp9ZacF2tm1mU2tptjMpERVo8onP-CWF9kmxexLxHDAQiPgbIes119GGNeizyrh2KlqrS6DCHdpQu43c96F0II-HcKxD87bkYG"
+   },
+   {
+    "position": 7,
+    "title": "Quick IT Solution",
+    "place_id": "ChIJ29AmyPIVrjsRIcZ4GICKhAU",
+    "data_id": "0x3bae15f2c826d0db:0x5848a801878c621",
+    "data_cid": "397594949886461473",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15f2c826d0db%3A0x5848a801878c621&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15f2c826d0db%3A0x5848a801878c621&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9204954,
+     "longitude": 77.59178279999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ29AmyPIVrjsRIcZ4GICKhAU",
+    "provider_id": "/g/11gm9tp4p9",
+    "rating": 5,
+    "reviews": 65,
+    "type": "Computer repair service",
+    "types": [
+     "Computer repair service"
+    ],
+    "type_id": "computer_repair_service",
+    "type_ids": [
+     "computer_repair_service"
+    ],
+    "address": "No:1545, 22nd main, 39th Cross Rd, 4th T Block East, Jayanagar, Bengaluru, Karnataka 560041, India",
+    "country": "India",
+    "open_state": "Opens soon · 10 AM",
+    "hours": "Opens soon · 10 AM",
+    "operating_hours": {
+     "wednesday": "10 AM–9 PM",
+     "thursday": "10 AM–9 PM",
+     "friday": "10 AM–9 PM",
+     "saturday": "10 AM–10 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–9 PM",
+     "tuesday": "10 AM–9 PM"
+    },
+    "phone": "+91 95387 27374",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "offerings": [
+       "Repair services"
+      ]
+     },
+     {
+      "payments": [
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Online appointments"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true,
+     "online_appointments": false
+    },
+    "user_review": "\"... staff is very helpful, and they provide quick and reliable IT solutions.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNMxwxQA5Mn4lltuqtgXzAFdaX1d4TnC1YWN502lNt272HTr0S83OGYMsgB3JNFkfvQ-cn1Lr6pSjCMc_UQL3y-Bo0-awXtfYwoekw0c-eryZe6v-PlmvppayhksmZM1UJx_n_aNdvLutRF=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/LUc6G3icHcTBboMgAADQL6KCtt2yZAdr4pZG2FzbTHsxBClmIjBA0P3kzvubJX2H9_c7eG_cU5LIIdsIrYXks-OWaeW58hump0RY6hxgLsmLYORE8BKXOt9htZXSz99eND952dMG9duzKlD7SXYwlcSnD-nr2cLTY_b20mInDtmRlOMt1IApVNm9OX0VmHWXuspWcNAQ0Nj4Wxs1HyNkgNv1yvcBvMspGEPXYXTTFaPLcelUR0kfqtl_lM8RQQjBcJ8B9Q_6MkjM"
+   },
+   {
+    "position": 8,
+    "title": "Ansari Tech Solutions",
+    "place_id": "ChIJBzY0ddAVrjsRl_Jzh7P9Cps",
+    "data_id": "0x3bae15d075343607:0x9b0afdb38773f297",
+    "data_cid": "11172020773159432855",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15d075343607%3A0x9b0afdb38773f297&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15d075343607%3A0x9b0afdb38773f297&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9220302,
+     "longitude": 77.606139
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBzY0ddAVrjsRl_Jzh7P9Cps",
+    "provider_id": "/g/11wn5bdl46",
+    "rating": 4.9,
+    "reviews": 57,
+    "unclaimed_listing": true,
+    "type": "Computer support and services",
+    "types": [
+     "Computer support and services"
+    ],
+    "type_id": "computer_support_and_services",
+    "type_ids": [
+     "computer_support_and_services"
+    ],
+    "address": "16/1, D Cross Rd, Tavarekere, New Gurappana Palya, Madarsab Layout, BTM 1st Stage, Bengaluru, Karnataka 560029, India",
+    "country": "India",
+    "open_state": "Opens soon · 10 AM",
+    "hours": "Opens soon · 10 AM",
+    "operating_hours": {
+     "wednesday": "10 AM–9 PM",
+     "thursday": "10 AM–9 PM",
+     "friday": "10 AM–9 PM",
+     "saturday": "10 AM–9 PM",
+     "sunday": "10 AM–9 PM",
+     "monday": "10 AM–9 PM",
+     "tuesday": "10 AM–9 PM"
+    },
+    "phone": "+91 95356 45676",
+    "extensions": [
+     {
+      "service_options": [
+       "Online appointments",
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": true
+    },
+    "user_review": "\"Excellent service of computer and laptop\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO4wxLwIUYPQyXDjrRUVTVOrL2Jaqmgaal1RPDZFpzaLlnzSToveLv9g4OU6sV_7tJI4lNA9m117Kp6F4c0k8_Me9jfOqafo2VkBOOA2LNSDVrKJR7LBxEPl8JqjqEJdlMnSeVJxqLWI7ZS=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/j2qfVHicHcTbboIwAADQL0IuIyJL9oBDE2q1DKRTX0zT1RIsLb0MmD-5Z_9myc7Def62zg321fdF-7LgSnHBvi0zVEnHpFtQ1fvcEGs9av3sfRxEj-JphlPRnMuPn1PemarBR4wMjADRPSdEhFWZX7bDg0AhH_VRjQyOKY9Rs7T4mjhQxOKQpX0YJrthuY1pcF9d9yztbkiTm4rwfY1QFsFDnWOzA1UC1_OmFCugO70BX2Iva4bBrOFnkVzqtykMgsBr_6ee_AMdC0eu"
+   },
+   {
+    "position": 9,
+    "title": "KRIPEN IT CONSULTING SERVICES PRIVATE LIMITED",
+    "place_id": "ChIJCdteWRAVrjsRFq6U9b0BzQs",
+    "data_id": "0x3bae1510595edb09:0xbcd01bdf594ae16",
+    "data_cid": "850337820023500310",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1510595edb09%3A0xbcd01bdf594ae16&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1510595edb09%3A0xbcd01bdf594ae16&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.916514,
+     "longitude": 77.6028989
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJCdteWRAVrjsRFq6U9b0BzQs",
+    "provider_id": "/g/11rv6c3cgp",
+    "rating": 5,
+    "reviews": 31,
+    "type": "Software company",
+    "types": [
+     "Software company",
+     "Corporate office"
+    ],
+    "type_id": "software_company",
+    "type_ids": [
+     "software_company",
+     "corporate_office"
+    ],
+    "address": "51, 100 Feet Ring Rd, Vysya Bank Colony, BTM Layout 2nd Stage, BTM Layout, Bengaluru, Karnataka 560076, India",
+    "country": "India",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "wednesday": "6:30 AM–8 PM",
+     "thursday": "6:30 AM–8 PM",
+     "friday": "6:30 AM–8 PM",
+     "saturday": "9 AM–1 PM",
+     "sunday": "9 AM–1 PM",
+     "monday": "6:30 AM–8 PM",
+     "tuesday": "6:30 AM–8 PM"
+    },
+    "phone": "+91 90710 93483",
+    "website": "https://sites.google.com/kripen.com/kripen%20it%20consulting%20services",
+    "user_review": "\"Here interview preparation session are very helpful for me.\"",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=QPd854bBUCP72ZNWw3Edkw&cb_client=search.gws-prod.grass&w=80&h=92&yaw=182.66351&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/JyHFDnicHc1fCsIgHADg2_iWf7ZWK5Cg6DXWQwS9hFNTyU3RX7Ou0626TdEFvu_ztgAxrwnJkLSGyekS3VP7PIsCmxCM1yK6jGUYyMQI2MfQj8L5TRRjcIofO9U283572nXL6nI4l3qv7gXJ_iq90yPwrEWSFpvyE1NQ2CSRMyq8pcjyVYVeonDWVnixqBuGogNpOUX_5xYmzij9ArloOa8"
+   },
+   {
+    "position": 10,
+    "title": "Techpod IT Solutions",
+    "place_id": "ChIJK8_rt7YVrjsRZruU-s3UvPU",
+    "data_id": "0x3bae15b6b7ebcf2b:0xf5bcd4cdfa94bb66",
+    "data_cid": "17707261816051383142",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15b6b7ebcf2b%3A0xf5bcd4cdfa94bb66&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15b6b7ebcf2b%3A0xf5bcd4cdfa94bb66&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.915929199999999,
+     "longitude": 77.6310388
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJK8_rt7YVrjsRZruU-s3UvPU",
+    "provider_id": "/g/11hzzqb31y",
+    "rating": 5,
+    "reviews": 4,
+    "type": "Computer support and services",
+    "types": [
+     "Computer support and services",
+     "Computer security service"
+    ],
+    "type_id": "computer_support_and_services",
+    "type_ids": [
+     "computer_support_and_services",
+     "computer_security_service"
+    ],
+    "address": "158, 14th Cross, 5th Main Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–6:30 PM",
+     "thursday": "9 AM–6:30 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "9 AM–6:30 PM",
+     "tuesday": "9 AM–6:30 PM"
+    },
+    "phone": "+91 92064 87449",
+    "website": "https://www.techpodit.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Online appointments",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "crowd": [
+       "LGBTQ+ friendly"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": true
+    },
+    "user_review": "\"Good experience, professional team and on time service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNi2G_Wne0KZKQ-Vu4Y45VSiPwA-yu1J1jgdJCWYBQFmo9HR6KVzpeOJ4sla2azyv36tuGCMgsxKguiQK2aNd4UT0v3ies9PVsC0GmSXxv_PfwKZUd1bKrxrfU06taAy9DUCGld=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/pVxB0nicHcRbjoIwFADQFVXKQxJM_MBOxNCMggqO_pgKtTAplHBbHm7QNbibSeZ8nM-70rqDlWXJyl0IpYTkBnhfqFbzVi8K1ViiZwCoACskQyebfe1E90vLMb3RFOXGu3rL_FQnY4hmY8f2ryhjcrlu0m2jgt3Rp_mr44fYA8kc9poH19cmIt8CJipMnVKH7UsvO-PBrTkESQ4ER83pZxruyXOkt6y0H7Sf-meGfc3COfjKSCTL9WhjjFH1f4HaP37IRRY"
+   },
+   {
+    "position": 11,
+    "title": "Tyson IT Solutions Private Limited",
+    "place_id": "ChIJnWDLAQEVrjsReTbX9DYTAmM",
+    "data_id": "0x3bae150101cb609d:0x63021336f4d73679",
+    "data_cid": "7134285886465193593",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae150101cb609d%3A0x63021336f4d73679&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae150101cb609d%3A0x63021336f4d73679&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.927831699999999,
+     "longitude": 77.6330503
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJnWDLAQEVrjsReTbX9DYTAmM",
+    "provider_id": "/g/11fk8dhng9",
+    "rating": 4.5,
+    "reviews": 43,
+    "type": "Food producer",
+    "types": [
+     "Food producer",
+     "Software company"
+    ],
+    "type_id": "food_producer",
+    "type_ids": [
+     "food_producer",
+     "software_company"
+    ],
+    "address": "4th Floor, 80 Feet Rd, Koramangala 1A Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 8 PM",
+    "hours": "Open · Closes 8 PM",
+    "operating_hours": {
+     "wednesday": "8 AM–8 PM",
+     "thursday": "8 AM–8 PM",
+     "friday": "8 AM–8 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "8 AM–8 PM",
+     "tuesday": "8 AM–8 PM"
+    },
+    "website": "http://www.tysonfoods.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "payments": [
+       "Debit cards",
+       "NFC mobile payments"
+      ]
+     }
+    ],
+    "user_review": "\"Very good service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOFjS9D4RS5QEYU5RpPHGBxBVpc9D5WITrqBm6ARpaRas7NRNL59OxLDvlEWjtHJKVlQ9CPkdxO4JL09TBzKYLasiTTnL79JFPjSVpOLDql_M6GaSiHGuiaIAqOzgelFZcWJFgM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/xRczknicHcRdDoIgAADgE5m2UkdbD_6kZhSGpquXxsihhopC5bpgZ-g2bX0P3_dTKSXkStd5tZixvme8fMhypH2nyk7NaN_qbCRSalTqjvcUvEVBkwJ_iVPzuDmfTCySKHQnNxcU-GaxzcbBbS0HC4KJtA_4AE2AJug_-aZoVBTvcn4EXnK_TWgZQwNk7nt3hkTWWdZBG8RB0qS5QNAf-HVvhSSto_BRk60zoDcreXChRRyw_fo1NwxDq_5TrfsBGAhEBg"
+   },
+   {
+    "position": 12,
+    "title": "Facctum IT Solutions India Private Limited",
+    "place_id": "ChIJ70097REUrjsRiwIMtkwf4BM",
+    "data_id": "0x3bae1411ed3d4def:0x13e01f4cb60c028b",
+    "data_cid": "1432179095836033675",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1411ed3d4def%3A0x13e01f4cb60c028b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1411ed3d4def%3A0x13e01f4cb60c028b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.946375699999999,
+     "longitude": 77.6481969
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ70097REUrjsRiwIMtkwf4BM",
+    "provider_id": "/g/11rnbrjxqt",
+    "rating": 4.6,
+    "reviews": 10,
+    "type": "Software company",
+    "types": [
+     "Software company"
+    ],
+    "type_id": "software_company",
+    "type_ids": [
+     "software_company"
+    ],
+    "address": "Vaswani Augusta, 101-102, Embassy Golf Links Rd, Challaghatta, Bengaluru, Karnataka 560037, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM",
+     "tuesday": "9 AM–6 PM"
+    },
+    "phone": "+91 88611 17582",
+    "website": "http://facctum.com/",
+    "user_review": "\"Best company to worth with.\"",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Yqgwqd1jeni4_75AN8Flow&cb_client=search.gws-prod.grass&w=80&h=92&yaw=220.47269&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/R7tbgXicHc3BDcIgFADQbbgJlFRbTYjx4tG7p4bSL3xDgQIWXcet3EbjAu993raUmA-M5ZIAyopQIz7B5U1U1IRgHKiImeows7VhxT7m0St0x6h8wEleF1OXqbmDx3botqdLf3ahEj0O2iH4IjOopC019SemMFGTVM6kyp4TK_eCvFSVQnDadmK3JxGLtpKT_3MLq2w4_wIPDjqS"
+   },
+   {
+    "position": 13,
+    "title": "Technociate Solutions Pvt Ltd",
+    "place_id": "ChIJpdYZMQcVrjsRW6vAry9P_Mk",
+    "data_id": "0x3bae15073119d6a5:0xc9fc4f2fafc0ab5b",
+    "data_cid": "14554595161985297243",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15073119d6a5%3A0xc9fc4f2fafc0ab5b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15073119d6a5%3A0xc9fc4f2fafc0ab5b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9217747,
+     "longitude": 77.5919329
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpdYZMQcVrjsRW6vAry9P_Mk",
+    "provider_id": "/g/11sq4wym4q",
+    "rating": 4.8,
+    "reviews": 34,
+    "type": "Computer support and services",
+    "types": [
+     "Computer support and services"
+    ],
+    "type_id": "computer_support_and_services",
+    "type_ids": [
+     "computer_support_and_services"
+    ],
+    "address": "26/1, 3rd Floor , 38th cross, 23rd Main Rd, 4th T Block East, Jayanagar, Bengaluru, Karnataka 560041, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "wednesday": "9:30 AM–6:30 PM",
+     "thursday": "9:30 AM–6:30 PM",
+     "friday": "9:30 AM–6:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "9:30 AM–6:30 PM",
+     "tuesday": "9:30 AM–6:30 PM"
+    },
+    "extensions": [
+     {
+      "service_options": [
+       "Online appointments"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": false
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcw0gKQrD0SMzpJhFmtSTEDB9MKpucO28-cO2myLlA6Khq0yJmyevEZ_6w3hzzWrmvH_7Iverd8pSXb7Yn6B5VIWbdmCq-nZjrBa1ZLG_cOougI2DYwpeG2P1TJdsfPDIWeFnsF=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Wz45EnicHcRLjoIwAADQE1UKRvwkswAR5WN0ghFhQ7TUNko_tgUCF5wzeBsnvsV7_1FjpF5ZVkOnEyIEaXCrsUKCG8zNBAlmEXXVGiBteZ7_ZCnqIUl-VQCz_ShjGjKTnTaBv9wnskUHZwH-Y0PaeG5CX3CI2YC7TVm5_ZSOY65Yt6vmUYdVvZDZ5TYvuOvPzlF-q9n6BXj5UP7VLtNthQ6iJZETFL3EW-don-Ja349BlOOQ6_CntyGEgH5HgH8AsD5FZA"
+   },
+   {
+    "position": 14,
+    "title": "Trustwell IT Solutions",
+    "place_id": "ChIJg_bchk0VrjsRquUV6zWnkeM",
+    "data_id": "0x3bae154d86dcf683:0xe391a735eb15e5aa",
+    "data_cid": "16398071568251872682",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae154d86dcf683%3A0xe391a735eb15e5aa&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae154d86dcf683%3A0xe391a735eb15e5aa&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9254009,
+     "longitude": 77.5740187
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJg_bchk0VrjsRquUV6zWnkeM",
+    "provider_id": "/g/11t5gq5zfy",
+    "rating": 4.8,
+    "reviews": 107,
+    "type": "Computer service",
+    "types": [
+     "Computer service"
+    ],
+    "type_id": "computer_service",
+    "type_ids": [
+     "computer_service"
+    ],
+    "address": "524/J 8th Cross, Krishna Rajendra Rd, near Aksha Hospitals, 7th Block, Jayanagar, Bengaluru, Karnataka 560070, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "wednesday": "9:30 AM–9 PM",
+     "thursday": "9:30 AM–9 PM",
+     "friday": "9:30 AM–9 PM",
+     "saturday": "9:30 AM–9 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–9 PM",
+     "tuesday": "9:30 AM–9 PM"
+    },
+    "phone": "+91 88846 66226",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"There services was genuine, efficient, and incredibly cost-effective.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNlhYgTTFaMzkpHrvM_eej780Zay_iRvMbbmIkWfsCbrCFgwF8fWI-VD0gjcxsi_rR0gVBV138HXeUE6eiFHZp1hsj3WoYZ5-whc9RZ03vpIXOxQ32zqMTXZ8nf9WsmBohGLwh9=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/v0SNVnicHcRRboIwGADgE1XKGhWW7EFRhES2SBCwLwSa0oJAa38E9YKeYbdZsu_h-33LcdTwaVmdJAuhlOj4Hbhhahj5MC6Y6i1hSgDEwNp4k-76705eRJL4ZfS66sBMUcF5u3YwLZ9FE09RVfXhNavBq4zni9l36ixE6Q6Llj2gKUyMRbpNbeIEOT_vV7zxA6ptCS3J1IUu0SyZG1NMJh3mP48T-XjdoiSnzlC7GfRbJQ_HWbpfs40xRvJ_hoY_Ks5F9w"
+   },
+   {
+    "position": 15,
+    "title": "Accel IT Services (A Division of Accel Limited)",
+    "place_id": "ChIJxbcYkD0VrjsRBuSjfl9ALDk",
+    "data_id": "0x3bae153d9018b7c5:0x392c405f7ea3e406",
+    "data_cid": "4119738538027901958",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae153d9018b7c5%3A0x392c405f7ea3e406&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae153d9018b7c5%3A0x392c405f7ea3e406&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9556427,
+     "longitude": 77.63724669999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJxbcYkD0VrjsRBuSjfl9ALDk",
+    "provider_id": "/g/11sppqc0l_",
+    "rating": 5,
+    "reviews": 3,
+    "unclaimed_listing": true,
+    "type": "Corporate office",
+    "types": [
+     "Corporate office"
+    ],
+    "type_id": "corporate_office",
+    "type_ids": [
+     "corporate_office"
+    ],
+    "address": "39 ,3rd floor, Krishna Reddy Colony, Domlur, Bengaluru, Karnataka 560071, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "9 AM–6 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM",
+     "tuesday": "9 AM–6 PM"
+    },
+    "extensions": [
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     }
+    ],
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=F9hxWmAizZvSnVdCMRVEEA&cb_client=search.gws-prod.grass&w=80&h=92&yaw=191.3166&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/RDX77HicHc1NCgIhGADQ27jLn4KhCSQipl2bggnahOOYfuCoqOnUbTpWtym6wHuft8k5pA0hKUelcgFVA8zKpkUQWHuvrRIBEpZ-IoWRbB7T4ATYbRDOw8gPrZkv0w5e13J2_bg_nvqu2yE53KQF5TJPSkRpsK4_MfoR6yhSQpWvKTK8XaKnqJy1DK9Y06AAWRpO0b-5-8IZpV_Mpzo_"
+   },
+   {
+    "position": 16,
+    "title": "MKRINFOTECH -Website & Mobile Apps Development & Digital Services in Bangalore",
+    "place_id": "ChIJvdCUVC4ZgawRpgXmXGlQ85w",
+    "data_id": "0xac81192e5494d0bd:0x9cf350695ce605a6",
+    "data_cid": "11309471502717814182",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0xac81192e5494d0bd%3A0x9cf350695ce605a6&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0xac81192e5494d0bd%3A0x9cf350695ce605a6&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9591943,
+     "longitude": 77.646914
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJvdCUVC4ZgawRpgXmXGlQ85w",
+    "provider_id": "/g/11n4284qj3",
+    "rating": 4.6,
+    "reviews": 14,
+    "type": "Computer support and services",
+    "types": [
+     "Computer support and services",
+     "Software company",
+     "Graphic designer",
+     "Internet marketing service",
+     "Website designer"
+    ],
+    "type_id": "computer_support_and_services",
+    "type_ids": [
+     "computer_support_and_services",
+     "software_company",
+     "graphic_designer",
+     "internet_marketing_service",
+     "website_designer"
+    ],
+    "address": "Unit 101, OXFORD TOWERS, HAL Old Airport Rd, Kodihalli, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Open · Closes 9 PM",
+    "hours": "Open · Closes 9 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–9 PM",
+     "thursday": "9 AM–9 PM",
+     "friday": "9 AM–9 PM",
+     "saturday": "9 AM–9 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–9 PM",
+     "tuesday": "9 AM–9 PM"
+    },
+    "phone": "+91 77951 62233",
+    "website": "https://mkrinfotech.com/",
+    "user_review": "\"MKR Infotech did a great job developing our website.\"",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IMLCbYe1yoZAbkVHWNVVqw&cb_client=search.gws-prod.grass&w=80&h=92&yaw=100.149086&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/YegteHicHc3LCgIhGEDht3GXl4iYCSSiTUG1nKhNqPOnkjOa2tg8T0_V23RZH_jO-2VyDmlBSMoRIA8WSrBPcGkSBNbeawci2ISV78jASDaPTvbCumUQvbct3-53a3kCNvrzSt6azfHQNPeClLwoZ6HPPIGIymBdvmL0LdZRpIQKrygyvJ6iURTOKMVsVtNqjoLNynCK_qOrH37tAzkrOqs"
+   },
+   {
+    "position": 17,
+    "title": "Thoughtworks",
+    "place_id": "ChIJAbZOGIUWrjsRj575c5h3Ask",
+    "data_id": "0x3bae1685184eb601:0xc902779873f99e8f",
+    "data_cid": "14484270848241409679",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1685184eb601%3A0xc902779873f99e8f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1685184eb601%3A0xc902779873f99e8f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9288154,
+     "longitude": 77.6286947
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAbZOGIUWrjsRj575c5h3Ask",
+    "provider_id": "/g/1td9tk56",
+    "rating": 4.6,
+    "reviews": 619,
+    "type": "Software company",
+    "types": [
+     "Software company"
+    ],
+    "type_id": "software_company",
+    "type_ids": [
+     "software_company"
+    ],
+    "address": "ACR Mansion,G+ 3 Floors,3rd, 147/F, 8th Main Rd, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM",
+     "tuesday": "9 AM–6 PM"
+    },
+    "phone": "+91 80 4323 3704",
+    "website": "http://www.thoughtworks.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"... software design and delivery, and tools and consulting services.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNTasYVjaIjnTgDY6dMeJ6aGEkj1_pVirHN_zA0AylU_CuxEcfcw_VUhXZim3zUesA1BZh0xS93qo9Wf1WzcYD2NfMuU9UxgW1WGTS-qeosIp09nOjnRaiNhgZQHxNjz1ba5CyTww=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/G8xSPXicHcRdDoIgAADgE5mQq822HsxcP1u0SjR9cUQIkoKJpnnDjtBt2voevu9HtG1tFrZdCmfCteYl6wxrqFYtU-2E6srmDTHGosb2_FddVigkJokk2UkV8nUyvx_Yfk42wUPCrI6KZouy0QPeu8SZ3w0BzWmfRVhc06JyRsyMB1epAMPFdZ7ajXMYjzRZT1F-6LCLBx7DeBNerCfTZlcDVx2lOpMCCZ6etgOSI7yRmf8O-37ZQwCAJf5TS_0AvkNHVA"
+   },
+   {
+    "position": 18,
+    "title": "Innomatrics Technologies",
+    "place_id": "ChIJsWxbehw2BYERREsX_RmJs1s",
+    "data_id": "0x8105361c7a5b6cb1:0x5bb38919fd174b44",
+    "data_cid": "6607775822995999556",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x8105361c7a5b6cb1%3A0x5bb38919fd174b44&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x8105361c7a5b6cb1%3A0x5bb38919fd174b44&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.916297,
+     "longitude": 77.61023809999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJsWxbehw2BYERREsX_RmJs1s",
+    "provider_id": "/g/11vm5vk89l",
+    "rating": 4.8,
+    "reviews": 59,
+    "type": "Software company",
+    "types": [
+     "Software company"
+    ],
+    "type_id": "software_company",
+    "type_ids": [
+     "software_company"
+    ],
+    "address": "2nd floor, Akshay Complex, No. 01, 16th Main Rd, near Bharat Petroleum, BTM Layout 2nd Stage, Bengaluru, Karnataka 560076, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "wednesday": "9:30 AM–6:30 PM",
+     "thursday": "9:30 AM–6:30 PM",
+     "friday": "9:30 AM–6:30 PM",
+     "saturday": "Closed",
+     "sunday": "Closed",
+     "monday": "9:30 AM–6:30 PM",
+     "tuesday": "9:30 AM–6:30 PM"
+    },
+    "phone": "+91 84316 55799",
+    "website": "https://innomatricstech.com/",
+    "extensions": [
+     {
+      "service_options": [
+       "Online appointments",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking garage",
+       "Free parking lot",
+       "Free street parking",
+       "On-site parking",
+       "Paid parking garage",
+       "Paid parking lot",
+       "Paid street parking"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Assistive hearing loop",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": true
+    },
+    "user_review": "\"Good work timely deployment\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNUuVUZEpEgk2NlBQITQONljBzcFGXB1TFeaVe3ZixY_O5-JggxSpN7PTusE3euofovbMPO2TfTW_gDTnNb2TxGPhrUA3dDdAhVIjvvp4MH14CpCrrZCj4k5u2eoi02SvbnHQJV=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TdYLrHicHcRdboIwAADgEyFQMCYme-BfTSwQC9t4MVJrK9a2aWlHdsGdwduY7Hv4Xn9snpXZ-j5n0YpKSTmxhmgsxUzEvMLy6VN9McbDxk8yp_gTdrbvhkIV9AEgT9s9amvIp_QXl9VXGqKSXHoSDffl-1yvvQOly0nBTYOsKSJi5U268djUAN3Q55nmSMARoKVqmO6S6JpfE9bvJ-dUfNyFcaYyrYdsih9rC4i8B-DkRrFrD_3HTxgEgcf-x554A8qlRU8"
+   },
+   {
+    "position": 19,
+    "title": "Nsquare IT Solutions PVT. LTD .",
+    "place_id": "ChIJU3VY2ioXrjsRmm5xvkZKU4s",
+    "data_id": "0x3bae172ada587553:0x8b534a46be716e9a",
+    "data_cid": "10039449662042238618",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae172ada587553%3A0x8b534a46be716e9a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae172ada587553%3A0x8b534a46be716e9a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.916633899999999,
+     "longitude": 77.6146845
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJU3VY2ioXrjsRmm5xvkZKU4s",
+    "provider_id": "/g/11s3zj02_w",
+    "rating": 4.3,
+    "reviews": 12,
+    "type": "Software company",
+    "types": [
+     "Software company",
+     "Training center"
+    ],
+    "type_id": "software_company",
+    "type_ids": [
+     "software_company",
+     "training_center"
+    ],
+    "address": "No.12, 3rd floor shravanti blue chip Dr Puneeth Rajkumar Rd, BTM, 1st Stage, Bengaluru, Karnataka 560068, India",
+    "country": "India",
+    "open_state": "Open · Closes 6:30 PM",
+    "hours": "Open · Closes 6:30 PM",
+    "operating_hours": {
+     "wednesday": "9:30 AM–6:30 PM",
+     "thursday": "9:30 AM–6:30 PM",
+     "friday": "9:30 AM–6:30 PM",
+     "saturday": "9:30 AM–2 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–6:30 PM",
+     "tuesday": "9:30 AM–6:30 PM"
+    },
+    "phone": "+91 72598 23718",
+    "website": "http://www.nsquareitsolutionspvtltd.com/",
+    "user_review": "\"For working and good support team, get more knowledge\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSD2xIDoWjtRWnm73qRolZ_DojK3Mf59kuuCkfEDUGM_kH4lo-N6jmR99wmmWgPyWFBd15wxxQLQiRN2WY3pwQmuKTvPocMAZq8xK9PE4_D7u1vIjTkfQhI5gTxpWm5odRK8ZUkg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Ja89iHicHcRRboIwGADgEyEgMmXJHtQ6JYiBimnGC1kqFGnLj7aFesQdYbcx8Xv4_v9arQf16bqiDWYMgInaqPpBodd1r2cUpMsev0o5VLnr7TgImZ3R3MYISKcx6eUyuGMQZYWgS4K0CSNuzJY3O3TZpxU_LAQ4p49O4iiapCQse5LvzdUPJ2vzY37Dpzn5CYYplyYpxgxoui7vK5tE2W5RoaXxx7greJO3ccgKOxAZwhUnq_LC2dfke57ntO-p078Aco5GcQ"
+   },
+   {
+    "position": 20,
+    "title": "Dotcod innovation private limited",
+    "place_id": "ChIJAWBAGhkVrjsRIo5lkMeAa-o",
+    "data_id": "0x3bae15191a406001:0xea6b80c790658e22",
+    "data_cid": "16891736421992599074",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15191a406001%3A0xea6b80c790658e22&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15191a406001%3A0xea6b80c790658e22&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.915933599999999,
+     "longitude": 77.6165929
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAWBAGhkVrjsRIo5lkMeAa-o",
+    "provider_id": "/g/11nb_hp19c",
+    "rating": 4.9,
+    "reviews": 19,
+    "type": "Software company",
+    "types": [
+     "Software company"
+    ],
+    "type_id": "software_company",
+    "type_ids": [
+     "software_company"
+    ],
+    "address": "BMTC Complex, Outer Ring Rd, Old Madiwala, Kuvempu Nagar, BTM Layout 2nd Stage, BTM Layout, Bengaluru, Karnataka 560076, India",
+    "country": "India",
+    "open_state": "Open · Closes 6 PM",
+    "hours": "Open · Closes 6 PM",
+    "operating_hours": {
+     "wednesday": "9 AM–6 PM",
+     "thursday": "9 AM–6 PM",
+     "friday": "9 AM–6 PM",
+     "saturday": "9 AM–6 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–6 PM",
+     "tuesday": "9 AM–6 PM"
+    },
+    "phone": "+91 63649 44315",
+    "website": "https://dotcod.in/",
+    "user_review": "\"The team understood our requirements clearly and delivered on time.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPSrYnf19VUqi8kmomJ9Ui6n3wygVuWHc2LR0c5Td8M8ukBo-4HDtlJiQDGBlwOWEXgbq_J2EQ_ZJV-wcjpJKdswAMVS-5MKHrDzHCtjJpPZ0FAI1O4VQN4mkAZ9NDf08pxYPGu4L8CasE=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TqDjU3icHcRLcoIwAADQE0WCYid0pgsEKo2iUGusbBwbMSD5SUJje8juextnfIv3_9dYq82z5_FmMmJKMV4Ppu6pkraWdkSV8Fh_NAZQ40Xxt-ai2PR7efZDsr22qBNK4HDbPsmJ-2Fk2GV0vHyHdPpxQjkaupkCQZZYjtsymc-4W-_ST_Z1PeBxWh4qTICjF40XJ-OinGzANF9kffKbxfaCdVHB1-jNXwekXAWii6pwlZwh0rd9MR-CJYqPJn1xPoQQNI8pkHeEV0ZJ"
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4012.9352403%2C77.624532%2C15z&q=IT+services&start=20&type=search"
+  }
+ }
+}

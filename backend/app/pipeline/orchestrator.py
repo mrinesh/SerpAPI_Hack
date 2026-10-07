@@ -28,18 +28,21 @@ from app.pipeline.cleaning import normalize_hits
 from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
 from app.pipeline.enrichment.area import get_area_intel
+from app.pipeline.enrichment.competitors import get_competitor_report
 from app.pipeline.enrichment.price_level import price_levels
 from app.pipeline.metrics import compute_metrics
 from app.pipeline.persist import (
     save_candidates,
     save_recommendation,
     save_run_area,
+    save_run_competitors,
     save_verification,
 )
 from app.pipeline.query_planner import plan_queries
 from app.pipeline.ranking import EXPLAIN_TOP, explain, level_for, place_name, score_candidates
 from app.pipeline.verification import extract, verify
 from app.reference import load_market
+from app.schemas.profile import Segment
 from app.schemas.run import PipelineRun, PipelineStage, RunStatus, StageEvent
 from app.services import profiles
 
@@ -216,6 +219,26 @@ def run_pipeline(run_id: str) -> None:
                     notes.append(_area_note(area, cached))
                     event.message = "; ".join(notes)
                     tracker.replace(event)
+                # Same-category businesses per commercial locality (F-06): display only, not
+                # scored, so ranks and explanations do not change (ADR 0023).
+                business = ctx.profile.business_type
+                if ctx.profile.segment == Segment.COMMERCIAL and business:
+                    event.counts["competitor_reports"] = 0
+                    for slug in localities:
+                        found = get_competitor_report(
+                            ctx, areas[slug], business, set(ctx.profile.property_types)
+                        )
+                        if found is None:
+                            notes.append(
+                                f"{areas[slug].locality}: no centre to find {business} around"
+                            )
+                            continue
+                        report, cached = found
+                        save_run_competitors(db, run_id, report)
+                        event.counts["competitor_reports"] += int(report.status != "failed")
+                        notes.append(_competitor_note(report, cached))
+                        event.message = "; ".join(notes)
+                        tracker.replace(event)
                 # Investment metrics per rankable candidate (F-09, ADR 0010 / 0017).
                 metrics = {}
                 for listing, verification in checked:
@@ -372,6 +395,17 @@ def _area_note(area, cached: bool) -> str:
         failed = ", ".join(f"{w.section} ({w.code})" for w in area.warnings)
         parts.append(f"{len(area.warnings)} section(s) could not be loaded: {failed}")
     return f"{area.locality}: {', '.join(parts)}" + (" (cached)" if cached else "")
+
+
+def _competitor_note(report, cached: bool) -> str:
+    if report.status == "failed":
+        text = f"{report.business_type} nearby could not be loaded ({report.warning.code})"
+    else:
+        text = (
+            f"{len(report.competitors)} {report.business_type} places within "
+            f"{report.radius_km:g} km ({report.density_level} density)"
+        )
+    return f"{report.locality}: {text}" + (" (cached)" if cached else "")
 
 
 def _growth(areas: dict, listing):

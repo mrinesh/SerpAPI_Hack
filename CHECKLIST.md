@@ -46,7 +46,7 @@ code for an ID finds every stub that belongs to it.
 | F-03 | AI relevance verification | P0 | ✅ | |
 | F-04 | Ranked recommendations with reasons | P0 | ✅ | |
 | F-05 | Area intelligence | P0 | 🟨 | |
-| F-06 | Competitor analysis (commercial) | P0 | 🧱 | |
+| F-06 | Competitor analysis (commercial) | P0 | ✅ | |
 | F-07 | Property detail page | P0 | ✅ | |
 | F-08 | Saved properties and side-by-side compare | P1 | 🧱 | |
 | F-09 | Investment metrics | P0 | ✅ | |
@@ -258,10 +258,17 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [x] Recorded for both demos (10 searches, 4 lite calls; 9 explanations re-recorded)
 - [ ] P1: rental demand from google_trends (compare localities in one call) + chart (deferred)
 
-### F-06 Competitor analysis (commercial) · P0 · 🧱
-- [ ] Same-category places near the property via google_maps
-- [ ] Density, average rating, total reviews, saturation level
-- [ ] Competitor map layer and table
+### F-06 Competitor analysis (commercial) · P0 · ✅
+Per locality and business type, read by property type, display only
+([ADR 0023](docs/decisions/0023-competitors-per-locality-read-by-type.md)).
+- [x] Same-category places via google_maps at the locality centre (commercial candidates carry no
+      GPS), kept within 2 km; cached per locality, centre, business and radius; frozen per run
+- [x] Density, density level (10+ high, 4–9 medium), average rating, total reviews; competition
+      for shops, business cluster for offices, warehouses and land
+- [x] `GET /api/runs/{id}/competitors`; `PropertyDetail.competitors` and its sources
+- [x] Competitor card beside the area card, map layer on the run and detail maps
+- [x] Failed search shown and retried next run; never fails the run, never changes ranks
+- [x] Recorded for the commercial demo (1 search); tests: 18 unit, 3 replay (report, ranks unchanged, profile delete), 1 detail, 4 frontend
 - [ ] F-06b (P1): review-gap analysis via google_maps_reviews + `competitor_gaps` prompt
 
 ### F-07 Property detail page · P0 · ✅
@@ -269,7 +276,7 @@ Run-scoped, from stored results only ([ADR 0021](docs/decisions/0021-run-scoped-
 - [x] `GET /api/properties/{id}?run_id=` assembling listing, verification, recommendation, metrics,
       the run's area, price history and sources; latest run when `run_id` is omitted
 - [x] Detail page layout: header facts, relevance check, metrics, reasons, area card, sources;
-      linked from every run card. Map with amenities from F-19; competitors panel arrives with F-06
+      linked from every run card. Map with amenities from F-19; competitors card and layer from F-06
 - [x] Tests: 9 API cases on both demos (ranked, rejected, unchecked, latest run, 404s), 3 source
       cases; checked in Chrome on the commercial demo
 
@@ -311,7 +318,7 @@ Positions only from SerpApi ([ADR 0022](docs/decisions/0022-map-positions-only-f
       the rest grouped in one dashed marker at the locality centre from F-05, never jittered
 - [x] Overlays: filtered out (off by default) and metro / schools / hospitals (on when no
       candidate has its own position); legend lists only the colours on the map
-- [x] Detail page map: the property and its area's amenities (F-07). Competitor layer is F-06's
+- [x] Detail page map: the property, its area's amenities and, for commercial runs, competitors (F-06)
 - [x] Tests: 8 layout cases (placement, ungeocoded centres, status order, draw order, amenity
       de-duplication, opening view, colours, legend); checked in headless Chrome on both demos
 
@@ -328,7 +335,7 @@ Kept current as features land. ✅ means the doc exists and matches the code tod
 - [x] docs/PRODUCT.md, docs/ARCHITECTURE.md, docs/PIPELINE.md
 - [x] docs/SERPAPI_USAGE.md (doubles as the submission's SerpApi explanation)
 - [x] docs/DATA_MODEL.md, docs/API.md, docs/DEVELOPMENT.md
-- [x] docs/decisions/ ADR 0001–0022
+- [x] docs/decisions/ ADR 0001–0023
 - [x] docs/spikes/S-01 filled with real findings
 - [ ] Screenshots / GIF in README
 - [ ] Final pass: every endpoint in API.md shows its real status

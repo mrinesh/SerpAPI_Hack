@@ -5,8 +5,15 @@ from datetime import UTC, datetime
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.db.models import ListingObservationRow, ListingRow, RunAreaRow, RunResultRow
+from app.db.models import (
+    ListingObservationRow,
+    ListingRow,
+    RunAreaRow,
+    RunCompetitorRow,
+    RunResultRow,
+)
 from app.schemas.area import AreaIntel
+from app.schemas.competitor import CompetitorReport
 from app.schemas.listing import Listing, Verification
 from app.schemas.recommendation import Recommendation
 
@@ -131,4 +138,18 @@ def save_run_area(db: Session, run_id: str, area: AreaIntel) -> None:
         row = RunAreaRow(run_id=run_id, locality_key=area.locality_key)
         db.add(row)
     row.data = area.model_dump(mode="json")
+    db.commit()
+
+
+def save_run_competitors(db: Session, run_id: str, report: CompetitorReport) -> None:
+    """Freeze the competitor report this run used (one row per run and locality)."""
+    row = db.scalar(
+        select(RunCompetitorRow).where(
+            RunCompetitorRow.run_id == run_id, RunCompetitorRow.locality_key == report.locality_key
+        )
+    )
+    if row is None:
+        row = RunCompetitorRow(run_id=run_id, locality_key=report.locality_key)
+        db.add(row)
+    row.data = report.model_dump(mode="json")
     db.commit()
