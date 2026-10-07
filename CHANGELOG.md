@@ -13,6 +13,8 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · CI (I-14): GitHub Actions runs `make lint`, `make test`, the frontend build and
+  `make fixtures` on every push and pull request, in replay mode with no secrets. README badge.
 - 2026-10-07 · P0 close-out (I-08, I-09, I-10, F-05, S-01, D-01): DATA_MODEL.md audited against
   the models (column names, the frozen per-run tables in the diagram); API.md checked route by
   route against OpenAPI; status lines and the orchestrator docstring brought up to date; README

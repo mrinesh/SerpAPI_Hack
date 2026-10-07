@@ -39,7 +39,7 @@ code for an ID finds every stub that belongs to it.
 | I-11 | Background scheduler | P1 | 🧱 | |
 | I-12 | Bengaluru locality data and geocoding | P0 | ✅ | |
 | I-13 | Recorded demo fixtures for judges | P0 | ✅ | |
-| I-14 | CI: lint, typecheck, tests on push | P1 | ⬜ | |
+| I-14 | CI: lint, typecheck, tests on push | P1 | ✅ | |
 | **Features (F-01 to F-08 match the product brief's numbering)** | | | | |
 | F-01 | Investor profile | P0 | ✅ | |
 | F-02 | Property discovery | P0 | ✅ | |
@@ -210,8 +210,10 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
 - [x] `make setup && make demo` on a fresh clone with no `.env`: both profiles seeded, both runs
       succeed with 0 searches (2026-10-07)
 
-### I-14 CI · P1 · ⬜
-- [ ] GitHub Actions: `ruff`, `pytest`, `tsc`, `eslint`, `vite build`
+### I-14 CI · P1 · ✅
+- [x] GitHub Actions (`.github/workflows/ci.yml`): `make lint` (ruff, eslint, tsc), `make test`,
+      `vite build` and `make fixtures`, in replay mode with no secrets. First run on the `ci`
+      branch passed in 1 min 16 s (2026-10-07); badge in the README
 
 ---
 
