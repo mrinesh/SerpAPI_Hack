@@ -1,0 +1,19 @@
+{
+  "key": "251d17f0153d812aca925621b3356671be93ebb76a51acd717252a48bd783652",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This office space in Koramangala matches your locality and property type preferences, and the low asking price of ₹3.6 L fits comfortably within your budget of up to ₹3 Cr. However, the price appears highly unusual for the area and is likely a data error or monthly rent, so do not proceed without verifying the actual sale price and unit details directly with the listing.",
+    "highlights": [
+      "Located in Koramangala, your preferred locality",
+      "Office property type matches your requirement",
+      "Asking price in snippet is within your budget"
+    ],
+    "risks": [
+      "Price per sq ft of ₹75/sq ft is 0.4% of the area's typical ₹17,501/sq ft, flagged as too good to be true",
+      "Source is a search-page snippet, not a verified individual listing; actual unit price and size need confirmation",
+      "No rental yield or income evidence provided to assess your rental income goal or 6% target ROI"
+    ]
+  }
+}

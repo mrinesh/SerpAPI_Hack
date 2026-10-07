@@ -1,0 +1,19 @@
+{
+  "key": "c08db785aef8410397d5b8cb4485aa2de68d6839e8f5c291a8cc038c37044e13",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This office in Koramangala matches your locality, property type, and budget, with a strong area price growth signal and high relevance score. However, the rental yield and total return figures come from area-level data, not verified for this specific unit, and the listing is only a search snippet without a confirmed property page. Before proceeding, verify the actual rental income and ROI for this exact office, and confirm the unit details directly with the seller.",
+    "highlights": [
+      "Located in Koramangala as requested, with an asking price of ₹1.15 Cr within your budget of up to ₹3 Cr.",
+      "Koramangala area shows 26.9% price growth over the past 12 months and the area-level rental yield is 7.2% before costs.",
+      "Price per sq ft is 20% below the area average, potentially offering good value for the size of 820 sq ft."
+    ],
+    "risks": [
+      "The provided rental yield and total return are area-level signals, not verified for this specific office space.",
+      "Evidence is from a search-page snippet, not a verified individual listing, and no full property page or URL is available for confirmation.",
+      "Missing data prevents confirmation of the rental income, target ROI of 6%, and suitability for IT services."
+    ]
+  }
+}

@@ -185,7 +185,10 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
 - [x] `app/reference/bengaluru.json`: 15 localities verified on Wikipedia's neighbourhood list, with slugs
 - [x] Geocode each locality centre via google_maps (F-05), kept with the area for its TTL and
       in replay fixtures; rejected outside the market's bounding box
-- [ ] Locality matching (aliases, fuzzy) used by cleaning and area intel
+- [ ] Locality matching (aliases, fuzzy) used by cleaning (ADR 0024): matcher, evidence levels and
+      the location_mismatch flag built and unit-tested; commercial demo re-recorded. **Pending:**
+      the residential re-recording (stopped at 6 of 16 checks when DeepSeek became unreachable),
+      then `make fixtures --prune` and the replay tests. Area news matching is unchanged
 
 ### I-13 Demo fixtures · P0 · ✅
 - [x] Two demo profiles in `app/reference/demo_profiles.py`: apartment in Whitefield ≤ ₹80 L;

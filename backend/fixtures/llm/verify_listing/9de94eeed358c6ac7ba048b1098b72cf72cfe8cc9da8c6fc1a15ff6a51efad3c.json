@@ -1,0 +1,24 @@
+{
+  "key": "9de94eeed358c6ac7ba048b1098b72cf72cfe8cc9da8c6fc1a15ff6a51efad3c",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 25,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Property type 'apartment' matches requested apartment",
+      "Segment 'residential' matches requested residential",
+      "Locality 'Whitefield' matches requested locality (query-derived, lower confidence)"
+    ],
+    "mismatches": [
+      "Asking price ₹85,00,000 exceeds the investor's maximum budget of ₹80,00,000 by ₹5,00,000 (hard budget violation)"
+    ],
+    "missing_data": [
+      "Rental yield and target ROI of 3% cannot be confirmed from this snippet; no rental income or yield evidence is available",
+      "The asking price is from a snippet and may not reflect the final negotiated unit price",
+      "Computed size of 1240 sq ft is an estimate based on price and price per sq ft, not a verified floor plan figure"
+    ],
+    "confidence": 0.8
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "key": "c38c4835661e9b68cd0bc1e30eedb3a3732dd886975e9d3cb3e95d4ea170139b",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 72,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: asking price ₹1.91 crore is within max budget ₹3 crore",
+      "Property type: office matches requested office",
+      "Segment: commercial matches requested commercial",
+      "Locality: Koramangala matches requested locality"
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Size (sqft) is missing; no size requirement provided, but missing prevents full confidence",
+      "Price per sqft is missing",
+      "Exact location/address is not confirmed; locality is search-page context only",
+      "Rental income, yield, or ROI cannot be confirmed at this stage",
+      "Business suitability for IT services is not established; business_type is a request, not a verified office feature",
+      "Listing evidence is a search snippet, not a verified individual unit; availability under construction"
+    ],
+    "confidence": 0.7
+  }
+}

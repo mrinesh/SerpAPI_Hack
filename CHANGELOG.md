@@ -13,6 +13,12 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Locality evidence from the result's own words (I-12, ADR 0024; branch
+  `locality-matching`, not merged): a matcher for locality names, observed aliases, joined
+  initials and long-name spelling variants that ignores landmarks such as "Sarjapur Road";
+  candidates whose own text or Maps address names the searched locality are confirmed (0.8 /
+  0.9), the page title alone gives 0.7, and text naming only other localities raises a
+  `location_mismatch` flag. Residential demo re-recording pending.
 - 2026-10-07 · Fixture usage check (I-03): `make fixtures` runs the tests with a tracker of every
   recording read and lists what nothing uses; unused LLM recordings fail it and `--prune`
   deletes them, SerpApi ones are only reported. Removed one superseded `extract_listing`

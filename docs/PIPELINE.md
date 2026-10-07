@@ -73,8 +73,17 @@ characters):
    an entry headline, or "<BHK> <type> in <locality>".
 5. Merge duplicates (same identity, or same locality and price with near-identical names);
    give entries the GPS of a Maps project with the same name.
+6. Locality evidence ([ADR 0024](decisions/0024-locality-evidence-from-result-text.md)): which
+   reference localities the entry's own text or the Maps address names
+   (`reference/localities.py`: names and observed aliases, joined initials, fuzzy for long
+   names, landmarks such as "Sarjapur Road" ignored), kept as `named_localities`. Own text or
+   address naming the searched locality confirms it (0.8 text, 0.9 address); only the page
+   title, 0.7; nothing, 0.5 from the query; other localities only, 0.3. Verification raises a
+   `location_mismatch` flag for the last case: high (capped at weak) unless a named locality is
+   also in the profile, then medium.
 
-Confidence is fixed per method: text 0.8, computed 0.6, taken from the search 0.5, Maps field 0.9.
+Confidence is fixed per method: text 0.8, computed 0.6, taken from the search 0.5, Maps field
+0.9; locality evidence has the extra levels in step 6.
 Candidate ids are stable hashes, so a repeat run updates the same rows and adds observations.
 
 ## 4 · Verify (`verification.py`, `quality.py`, F-03, F-12)

@@ -1,0 +1,24 @@
+{
+  "key": "0afd8d7d84f676a43b2c87784c4b01a3864bd7baf298633f1080c71fd006d289",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 15,
+    "verdict": "reject",
+    "matched_criteria": [
+      "Property type: office matches requested office",
+      "Segment: commercial matches requested commercial"
+    ],
+    "mismatches": [
+      "Budget: listed asking price ₹23,00,00,000 (₹230,000,000) exceeds maximum budget ₹3,00,00,000 (₹30,000,000)"
+    ],
+    "missing_data": [
+      "Locality is derived from search query only (Koramangala); not verified as the exact listing locality",
+      "No evidence of suitability for IT services business type",
+      "No verified individual unit details; snippet entry may cover nearby areas",
+      "Size computed from price ÷ price per sqft is an estimate and not confirmed"
+    ],
+    "confidence": 0.8
+  }
+}

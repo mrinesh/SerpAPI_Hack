@@ -15,7 +15,8 @@ from pydantic import BaseModel, Field
 from app.integrations.llm.base import ModelTier
 from app.pipeline.cleaning import normalize_text, parse_property_type, parse_status
 from app.pipeline.context import PipelineContext
-from app.pipeline.quality import flag_listing, price_is_bound
+from app.pipeline.quality import flag_listing, location_flag, price_is_bound
+from app.reference import load_market
 from app.schemas.common import Level
 from app.schemas.listing import (
     Listing,
@@ -66,6 +67,10 @@ class VerificationAssessment(BaseModel):
     mismatches: list[str] = Field(default_factory=list)
     missing_data: list[str] = Field(default_factory=list)
     confidence: float = Field(ge=0, le=1)
+
+
+# High-severity flags that cap a verdict at weak (ADR 0014, ADR 0024).
+SUSPICIOUS = {QualityFlagKind.TOO_GOOD_TO_BE_TRUE, QualityFlagKind.LOCATION_MISMATCH}
 
 
 def listing_input(listing: Listing) -> dict:
@@ -255,13 +260,18 @@ def verify(
         if result.verdict is MatchVerdict.STRONG:
             result.verdict = MatchVerdict.PARTIAL
     result.flags = flag_listing(listing, benchmark)
+    if (
+        elsewhere := location_flag(listing, ctx.profile.localities, load_market(ctx.profile.city))
+    ) is not None:
+        result.flags.append(elsewhere)
     suspicious = [
         flag.reason
         for flag in result.flags
-        if flag.kind is QualityFlagKind.TOO_GOOD_TO_BE_TRUE and flag.severity is Level.HIGH
+        if flag.kind in SUSPICIOUS and flag.severity is Level.HIGH
     ]
     if suspicious:
-        # Implausibly cheap is suspicious, not proven wrong: keep it visible but never above weak.
+        # Implausibly cheap, or placed elsewhere by its own text, is suspicious, not proven
+        # wrong: keep it visible but never above weak.
         result.mismatches = list(dict.fromkeys([*result.mismatches, *suspicious]))
         if result.verdict in (MatchVerdict.STRONG, MatchVerdict.PARTIAL):
             result.verdict = MatchVerdict.WEAK

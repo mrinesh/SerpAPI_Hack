@@ -1,0 +1,27 @@
+{
+  "key": "4ba97782b852f6e7f83f7fa784305233cb8ad4f63a14a16cf92f8f32451d8b89",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 70,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Budget: candidate price ₹76,00,000 is within the maximum budget of ₹80,00,000 (as extracted from search snippet, not verified).",
+      "Property type: apartment matches requested apartment.",
+      "Segment: residential matches requested segment.",
+      "Locality: Whitefield matches requested locality.",
+      "City: Bengaluru/Bangalore implied by Whitefield locality matches profile city."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Final asking price is unconfirmed; the price is regex-extracted from a search results snippet, not a verified individual listing.",
+      "Size of 735 sqft is an estimate from snippet and may not be the final unit area.",
+      "No rental yield or ROI data; target 3% rental yield cannot be confirmed at this stage.",
+      "Risk appetite 'balanced' cannot be assessed from the candidate evidence.",
+      "Bedroom count is missing/null.",
+      "Source is a search results page, not an individual listing; treat as candidate only."
+    ],
+    "confidence": 0.55
+  }
+}

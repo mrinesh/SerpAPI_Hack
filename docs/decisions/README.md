@@ -28,3 +28,4 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0021](0021-run-scoped-property-detail.md) | Run-scoped property detail, assembled from stored results | Accepted |
 | [0022](0022-map-positions-only-from-serpapi.md) | Map positions only from SerpApi; unplaced candidates grouped at the locality centre | Accepted |
 | [0023](0023-competitors-per-locality-read-by-type.md) | Competitors per locality and business type, read by property type, not scored | Accepted |
+| [0024](0024-locality-evidence-from-result-text.md) | Locality evidence from the result's own words; flag text that places it elsewhere | Accepted |

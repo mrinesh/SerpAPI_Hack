@@ -31,8 +31,8 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 |---|---|---|
 | `InvestorProfileIn` / `InvestorProfile` | `profile.py` | Criteria for a run |
 | `RawSearchHit` | `listing.py` | One portal page (Google) or housing place (Maps) before cleaning, with the locality and type it was searched for |
-| `Listing` | `listing.py` | A discovered candidate: `snippet_entry` (priced entry quoted on a portal search page) or `project` (Google Maps place). Name, url, price, ₹/sq ft, size, BHK, sale status, GPS, rating, evidence text; all facts `Sourced` ([ADR 0011](decisions/0011-discovery-from-search-snippets.md)) |
-| `Verification`, `QualityFlag` | `listing.py` | LLM match score, verdict, mismatches, flags |
+| `Listing` | `listing.py` | A discovered candidate: `snippet_entry` (priced entry quoted on a portal search page) or `project` (Google Maps place). Name, url, price, ₹/sq ft, size, BHK, sale status, GPS, rating, evidence text, `named_localities` (localities its own text or Maps address names, ADR 0024); all facts `Sourced` ([ADR 0011](decisions/0011-discovery-from-search-snippets.md)) |
+| `Verification`, `QualityFlag` | `listing.py` | LLM match score, verdict, mismatches, and code-raised flags: too good to be true, missing price/size (ADR 0014), location mismatch (ADR 0024) |
 | `AreaIntel` (+ `Amenity`, `NewsItem`, `PriceTrend`, `RentalDemand`) | `area.py` | Per-locality intelligence |
 | `CompetitorReport`, `Competitor`, `CompetitorReading` | `competitor.py` | Same-category businesses within 2 km of a commercial locality's centre, with density and a reading per property type (ADR 0023) |
 | `InvestmentMetrics` | `metrics.py` | Price per sq ft vs area, rental yield, price growth, total return, target check |
