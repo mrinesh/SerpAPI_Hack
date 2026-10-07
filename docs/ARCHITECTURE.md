@@ -22,7 +22,7 @@ flowchart LR
     end
 
     SERP[(SerpApi<br/>google · google_maps<br/>google_news · google_trends<br/>google_maps_reviews)]
-    GEM[(DeepSeek API)]
+    DS[(DeepSeek API)]
     OSM[(OpenStreetMap tiles)]
     FIX[[fixtures/<br/>recorded responses]]
 
@@ -31,7 +31,7 @@ flowchart LR
     API --> SVC --> PIPE
     JOBS --> SVC
     PIPE --> GW --> SERP
-    PIPE --> LLM --> GEM
+    PIPE --> LLM --> DS
     GW <--> FIX
     LLM <--> FIX
     SVC <--> DB

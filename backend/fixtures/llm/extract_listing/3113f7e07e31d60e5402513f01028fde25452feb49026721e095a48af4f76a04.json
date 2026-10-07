@@ -1,0 +1,33 @@
+{
+  "key": "3113f7e07e31d60e5402513f01028fde25452feb49026721e095a48af4f76a04",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.9,
+      "evidence": "Flat"
+    },
+    "price_inr": {
+      "value": "7500000",
+      "confidence": 0.9,
+      "evidence": "₹75 Lac"
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": "3",
+      "confidence": 0.9,
+      "evidence": "3 BHK"
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.9,
+      "evidence": "Resale"
+    }
+  }
+}

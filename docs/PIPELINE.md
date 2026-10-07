@@ -18,9 +18,10 @@ Each stage emits a `StageEvent` (status, message, counts) that the UI polls, so 
 the pipeline working live (F-20). A failing stage marks the run failed without discarding
 earlier results.
 
-> Status: plan, fetch and clean (F-02), verification (F-03, with F-12 price flags) and rank
-> (F-04) are built, and enrich has area intelligence (F-05), competitors (F-06, commercial) and investment metrics (F-09). Both demo profiles replay end to end with no keys, from committed
-> SerpApi and DeepSeek recordings. Discovery comes from S-01
+> Status: every stage is built. Plan, fetch and clean (F-02, with locality evidence from I-12),
+> verify (F-03, with F-12 price and location flags), enrich (area intelligence F-05,
+> competitors F-06 for commercial profiles, investment metrics F-09) and rank (F-04). Both demo
+> profiles replay end to end with no keys, from committed SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
 ## 1 · Plan (`query_planner.py`, F-02)
@@ -73,8 +74,17 @@ characters):
    an entry headline, or "<BHK> <type> in <locality>".
 5. Merge duplicates (same identity, or same locality and price with near-identical names);
    give entries the GPS of a Maps project with the same name.
+6. Locality evidence ([ADR 0024](decisions/0024-locality-evidence-from-result-text.md)): which
+   reference localities the entry's own text or the Maps address names
+   (`reference/localities.py`: names and observed aliases, joined initials, fuzzy for long
+   names, landmarks such as "Sarjapur Road" ignored), kept as `named_localities`. Own text or
+   address naming the searched locality confirms it (0.8 text, 0.9 address); only the page
+   title, 0.7; nothing, 0.5 from the query; other localities only, 0.3. Verification raises a
+   `location_mismatch` flag for the last case: high (capped at weak) unless a named locality is
+   also in the profile, then medium.
 
-Confidence is fixed per method: text 0.8, computed 0.6, taken from the search 0.5, Maps field 0.9.
+Confidence is fixed per method: text 0.8, computed 0.6, taken from the search 0.5, Maps field
+0.9; locality evidence has the extra levels in step 6.
 Candidate ids are stable hashes, so a repeat run updates the same rows and adds observations.
 
 ## 4 · Verify (`verification.py`, `quality.py`, F-03, F-12)

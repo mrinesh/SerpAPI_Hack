@@ -1,0 +1,33 @@
+{
+  "key": "370da73df8a4c28a4b999f69d23b394664317fd80355a3b20f4c5e68d5c22b03",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "shop_showroom",
+      "confidence": 0.95,
+      "evidence": "Shop in Indiranagar, Bangalore for sale."
+    },
+    "price_inr": {
+      "value": "50500000",
+      "confidence": 0.95,
+      "evidence": "₹5.05 Cr"
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "ready_to_move",
+      "confidence": 0.8,
+      "evidence": "for sale"
+    }
+  }
+}

@@ -78,6 +78,9 @@ class Listing(BaseModel):
     rating: float | None = None  # Google Maps rating, for projects
     reviews: int | None = None
     evidence: str | None = None  # the snippet text this candidate was parsed from
+    # Reference localities its own text names (entry text or Maps address, not the page title),
+    # as slugs; drives the locality evidence and the location_mismatch flag (I-12, ADR 0024).
+    named_localities: list[str] = Field(default_factory=list)
     sources: list[SourceRef] = Field(default_factory=list)  # every hit merged into this candidate
     first_seen_at: datetime
     last_seen_at: datetime

@@ -1,0 +1,26 @@
+{
+  "key": "2f22a813b8b41f15fafcda847bbb28148a4463dd9d904b66b7ebf6d470a7ba46",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 25,
+    "verdict": "reject",
+    "matched_criteria": [
+      "segment: commercial",
+      "property_type: office"
+    ],
+    "mismatches": [
+      "Budget: listed price Rs 4.65 crore exceeds the maximum budget of Rs 3 crore by Rs 1.65 crore."
+    ],
+    "missing_data": [
+      "Locality: 'Koramangala' is query-derived and not a verified individual listing location; source title references Outer Ring Road South.",
+      "Size: no square footage supplied, so requested size range cannot be checked.",
+      "Business suitability for IT services is not established; no evidence of fit-out, power, connectivity, or layout.",
+      "Rental income goal and 6% target yield cannot be confirmed; no rent or yield data is available at this stage.",
+      "Final unit price: snippet price may not be the final negotiated price, but as listed it violates the budget constraint.",
+      "Individual listing verification: source is a search-page snippet, not a property detail page; price and property type may represent search context."
+    ],
+    "confidence": 0.75
+  }
+}

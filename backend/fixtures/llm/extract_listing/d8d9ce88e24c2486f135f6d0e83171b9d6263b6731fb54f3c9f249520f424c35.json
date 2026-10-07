@@ -1,0 +1,33 @@
+{
+  "key": "d8d9ce88e24c2486f135f6d0e83171b9d6263b6731fb54f3c9f249520f424c35",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.9,
+      "evidence": "1 BHK Apartments / Flat"
+    },
+    "price_inr": {
+      "value": "5500000",
+      "confidence": 0.9,
+      "evidence": "₹55 Lac"
+    },
+    "size_sqft": {
+      "value": "750",
+      "confidence": 0.9,
+      "evidence": "750 sqft"
+    },
+    "bedrooms": {
+      "value": "1",
+      "confidence": 0.9,
+      "evidence": "1 BHK"
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    }
+  }
+}

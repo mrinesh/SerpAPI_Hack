@@ -1,0 +1,33 @@
+{
+  "key": "2e3d6b33ce5bea0d805cce52f10af836f5ff4824c4d4df94fe4c806b8b5ad123",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.7,
+      "evidence": "3 BHK Flat"
+    },
+    "price_inr": {
+      "value": "13600000",
+      "confidence": 0.9,
+      "evidence": "₹1.36 Cr"
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": "3",
+      "confidence": 0.9,
+      "evidence": "3 BHK Flat"
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    }
+  }
+}

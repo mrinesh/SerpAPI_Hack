@@ -1,0 +1,25 @@
+{
+  "key": "ca49950f783853e3aa101d23097511831a4f99f51f39d0c98f8dfcf8e3731fea",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 30,
+    "verdict": "reject",
+    "matched_criteria": [
+      "property_type: apartment (matches profile, but derived from search context)",
+      "segment: residential (matches profile)"
+    ],
+    "mismatches": [
+      "price_inr: 8,800,000 exceeds budget_max_inr 8,000,000; hard budget violation"
+    ],
+    "missing_data": [
+      "locality not confirmed for individual listing; 'Whitefield' is search context only",
+      "size_sqft is computed from price ÷ price_per_sqft; not directly sourced",
+      "price is from search-page snippet, not final unit asking price",
+      "rental yield/ROI target not evaluated; no rental income data",
+      "no must_haves declared, so none to verify"
+    ],
+    "confidence": 0.78
+  }
+}

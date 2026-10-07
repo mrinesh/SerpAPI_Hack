@@ -1,0 +1,33 @@
+{
+  "key": "0e6ecc6489327576ac750acb7b62ce3b23cc2a75723ab38eb9e3636c9d71ad6f",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "warehouse",
+      "confidence": 0.9,
+      "evidence": "warehouse"
+    },
+    "price_inr": {
+      "value": "125000",
+      "confidence": 0.9,
+      "evidence": "rs1.25 lac"
+    },
+    "size_sqft": {
+      "value": "2400",
+      "confidence": 0.9,
+      "evidence": "2400 sqft"
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "ready_to_move",
+      "confidence": 0.8,
+      "evidence": "Immediate availability"
+    }
+  }
+}

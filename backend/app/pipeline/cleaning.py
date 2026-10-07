@@ -27,6 +27,7 @@ from urllib.parse import urlencode, urlparse
 from rapidfuzz import fuzz
 
 from app.reference import Market
+from app.reference.localities import named_slugs
 from app.schemas.common import SerpEngine
 from app.schemas.listing import Listing, Portal, RawSearchHit, ResultKind, SaleStatus
 from app.schemas.profile import (
@@ -344,8 +345,8 @@ def normalize_hits(
     result.projects = len(places)
 
     entries, result.merged_duplicates = _merge_duplicates(entries)
-    unmatched = _attach_places(entries, places, result)
-    projects = [_project_listing(place, segment, now) for place in unmatched]
+    unmatched = _attach_places(entries, places, result, market)
+    projects = [_project_listing(place, segment, market, now) for place in unmatched]
     result.listings = entries + projects
     return result
 
@@ -372,6 +373,7 @@ def _entry_listing(
             entry.size_sqft,
         )
     )
+    named = named_slugs(entry.evidence, market)
     price_method = ExtractionMethod.COMPUTED if entry.price_computed else ExtractionMethod.REGEX
     size_method = ExtractionMethod.COMPUTED if entry.size_computed else ExtractionMethod.REGEX
     return Listing(
@@ -387,12 +389,8 @@ def _entry_listing(
             source,
             None if type_from_text else "the property type that was searched for",
         ),
-        locality=_sourced(
-            hit.locality,
-            ExtractionMethod.QUERY,
-            source,
-            "the locality that was searched for; the page may cover nearby areas",
-        ),
+        locality=_locality(hit.locality, named, named_slugs(hit.title, market), source),
+        named_localities=named,
         price_inr=_sourced(entry.price_inr, price_method, source, entry.price_note),
         price_per_sqft=_sourced(entry.price_per_sqft, ExtractionMethod.REGEX, source),
         size_sqft=_sourced(
@@ -411,10 +409,13 @@ def _entry_listing(
     )
 
 
-def _project_listing(place: RawSearchHit, segment: Segment, now: datetime) -> Listing:
+def _project_listing(
+    place: RawSearchHit, segment: Segment, market: Market, now: datetime
+) -> Listing:
     source = SourceRef(
         engine=place.engine, url=_maps_url(place), title=place.title, search_id=place.search_id
     )
+    named = named_slugs(place.address, market)
     return Listing(
         id=_hash(f"project|{place.place_id or _norm(place.title)}"),
         kind=ResultKind.PROJECT,
@@ -428,9 +429,8 @@ def _project_listing(place: RawSearchHit, segment: Segment, now: datetime) -> Li
             source,
             f"Google Maps place type: {place.place_type}",
         ),
-        locality=_sourced(
-            place.locality, ExtractionMethod.QUERY, source, "the locality that was searched for"
-        ),
+        locality=_locality(place.locality, named, [], source, address=True),
+        named_localities=named,
         price_inr=_sourced(None, ExtractionMethod.REGEX, None, "no price quoted for this project"),
         price_per_sqft=_sourced(None, ExtractionMethod.REGEX, None),
         size_sqft=_sourced(None, ExtractionMethod.REGEX, None),
@@ -472,7 +472,7 @@ def _same_entry(a: Listing, b: Listing) -> bool:
 
 
 def _attach_places(
-    entries: list[Listing], places: list[RawSearchHit], result: CleaningResult
+    entries: list[Listing], places: list[RawSearchHit], result: CleaningResult, market: Market
 ) -> list[RawSearchHit]:
     """Give priced entries the GPS of the Maps project with the same name; return the rest."""
     unmatched = []
@@ -499,6 +499,11 @@ def _attach_places(
             )
             entry.rating, entry.reviews = place.rating, place.reviews
             entry.sources.append(source)
+            address = named_slugs(place.address, market)
+            if address and not entry.named_localities:
+                # The entry's text named no locality; the matched project's address does.
+                entry.named_localities = address
+                entry.locality = _locality(place.locality, address, [], source, address=True)
     return unmatched
 
 
@@ -527,6 +532,43 @@ def _maps_url(place: RawSearchHit) -> str | None:
     return "https://www.google.com/maps/search/?" + urlencode(
         {"api": 1, "query": place.title, "query_place_id": place.place_id}
     )
+
+
+def _locality(
+    searched: str,
+    named: list[str],
+    in_title: list[str],
+    source: SourceRef,
+    *,
+    address: bool = False,
+) -> Sourced:
+    """The searched locality, with evidence from the result's own words (ADR 0024): its own text
+    or Maps address names it; else the page title does; else only the query does. Text naming
+    other localities only lowers confidence here; the location_mismatch flag reports it."""
+    where = "Google Maps address" if address else "result text"
+    if searched in named:
+        method = ExtractionMethod.SERPAPI_FIELD if address else ExtractionMethod.REGEX
+        return _sourced(searched, method, source, f"named in the {where}")
+    if named:
+        return Sourced(
+            value=searched,
+            confidence=0.3,
+            method=ExtractionMethod.QUERY,
+            sources=[source],
+            note=f"the locality that was searched for, but the {where} names another locality",
+        )
+    if searched in in_title:
+        return Sourced(
+            value=searched,
+            confidence=0.7,
+            method=ExtractionMethod.REGEX,
+            sources=[source],
+            note="named in the page title; the page may cover nearby areas",
+        )
+    note = "the locality that was searched for"
+    if not address:
+        note += "; the page may cover nearby areas"
+    return _sourced(searched, ExtractionMethod.QUERY, source, note)
 
 
 def _sourced(value, method: ExtractionMethod, source: SourceRef | None, note: str | None = None):

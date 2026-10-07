@@ -1,0 +1,19 @@
+{
+  "key": "9c79a2f0370a10ba1b65ba95ae6401e594a74fd965e1564fe456e5c9b545c442",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This candidate is a partial match because the asking price is within the ₹80 L budget and it is listed as an apartment in the Whitefield area, but key details like size and bedrooms are missing. The price comes from a search snippet, so it is not confirmed as the final unit price. Verify the exact property, size, and locality before proceeding.",
+    "highlights": [
+      "Asking price ₹75 L is within the ₹80 L budget",
+      "Listed as an apartment, matching your property type",
+      "Located in Whitefield, your preferred locality"
+    ],
+    "risks": [
+      "No size or bedroom information provided",
+      "Price and locality are unverified from a search snippet",
+      "Target ROI is not assessed for this candidate"
+    ]
+  }
+}

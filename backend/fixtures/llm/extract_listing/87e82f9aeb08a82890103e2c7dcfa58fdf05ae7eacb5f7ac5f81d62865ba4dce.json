@@ -1,0 +1,33 @@
+{
+  "key": "87e82f9aeb08a82890103e2c7dcfa58fdf05ae7eacb5f7ac5f81d62865ba4dce",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "office",
+      "confidence": 0.9,
+      "evidence": "Office Space for sale in 4th Block Koramangala, Bangalore"
+    },
+    "price_inr": {
+      "value": "360000",
+      "confidence": 0.9,
+      "evidence": "₹3.6 Lac"
+    },
+    "size_sqft": {
+      "value": "4800",
+      "confidence": 0.9,
+      "evidence": "4,800 sqft"
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.9,
+      "evidence": "Resale"
+    }
+  }
+}

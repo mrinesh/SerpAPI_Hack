@@ -1,0 +1,33 @@
+{
+  "key": "b3eacf43b97a5c547d3317ff278b2bde95f9be72bf795f27c361c63cc3f6f252",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "builder_floor",
+      "confidence": 0.95,
+      "evidence": "Builder Floor"
+    },
+    "price_inr": {
+      "value": "14500000",
+      "confidence": 0.95,
+      "evidence": "₹1.45 Cr"
+    },
+    "size_sqft": {
+      "value": "1100",
+      "confidence": 0.95,
+      "evidence": "1100 sqft"
+    },
+    "bedrooms": {
+      "value": "2",
+      "confidence": 0.95,
+      "evidence": "2 BHK"
+    },
+    "status": {
+      "value": "ready_to_move",
+      "confidence": 0.95,
+      "evidence": "Ready to Move"
+    }
+  }
+}

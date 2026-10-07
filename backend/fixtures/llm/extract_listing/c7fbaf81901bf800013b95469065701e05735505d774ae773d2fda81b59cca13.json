@@ -1,0 +1,33 @@
+{
+  "key": "c7fbaf81901bf800013b95469065701e05735505d774ae773d2fda81b59cca13",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "shop_showroom",
+      "confidence": 0.8,
+      "evidence": "Commercial showroom"
+    },
+    "price_inr": {
+      "value": "290000000",
+      "confidence": 0.8,
+      "evidence": "₹29 Cr"
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.8,
+      "evidence": "Resale"
+    }
+  }
+}

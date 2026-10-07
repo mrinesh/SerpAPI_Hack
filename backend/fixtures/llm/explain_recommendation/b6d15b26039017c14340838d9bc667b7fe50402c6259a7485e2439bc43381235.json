@@ -1,0 +1,19 @@
+{
+  "key": "b6d15b26039017c14340838d9bc667b7fe50402c6259a7485e2439bc43381235",
+  "task": "explain_recommendation",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "reason": "This candidate ranks #2 of 4 because it is an office space in Koramangala priced at ₹1.3 Cr, within your budget of up to ₹3 Cr, and it meets the 6% target ROI according to the provided figures. However, the listing is under construction, which conflicts with a rental income goal, and the locality is only query-derived, not verified. Before going further, confirm the exact location, completion timeline, and rental yield for this specific unit.",
+    "highlights": [
+      "Priced at ₹1.3 Cr, well under the ₹3 Cr budget",
+      "Property type is office, matching your requirement",
+      "Estimated rental yield of 6.4% before costs meets your 6% target"
+    ],
+    "risks": [
+      "Under construction status delays rental income",
+      "Exact locality not verified; may be outside Koramangala",
+      "Listing is a search snippet, not a verified individual unit"
+    ]
+  }
+}

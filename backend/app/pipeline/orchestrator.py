@@ -3,10 +3,9 @@
     plan -> fetch -> clean -> verify -> enrich -> rank
 
 `start_run` creates a `pipeline_runs` row and runs `run_pipeline` on a background thread with its
-own database session; the UI polls `GET /api/runs/{id}` for `StageEvent`s. Built so far: plan,
-fetch and clean (F-02), and verify (F-03). Later stages are reported as not built yet.
-A failing stage marks the
-run failed but keeps everything saved so far.
+own database session; the UI polls `GET /api/runs/{id}` for `StageEvent`s. Every stage is built:
+plan, fetch and clean (F-02), verify (F-03), enrich (F-05, F-06, F-09) and rank (F-04). A failing
+stage marks the run failed but keeps everything saved so far.
 """
 
 import logging

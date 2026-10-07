@@ -1,0 +1,28 @@
+{
+  "key": "e98131690c83fb07f64922f2b2180c083f25dab48578b84731df504c00070f44",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 65,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Asking price ₹69.3 Lac (₹6,930,000) from the snippet is within the profile's maximum budget of ₹80 Lac.",
+      "Property type is listed as apartment, matching the requested apartment type.",
+      "Segment is residential, matching the requested residential segment.",
+      "Search context indicates Whitefield, aligning with the requested locality (exact unit location not confirmed)."
+    ],
+    "mismatches": [
+      "No confirmed mismatches against hard constraints were identified from the available snippet evidence."
+    ],
+    "missing_data": [
+      "No unit size (sqft) is reported, so size suitability cannot be verified; missing size prevents a strong verdict.",
+      "The source is a 99acres search-result page/snippet, not a verified individual listing; price, type, locality, and status are query-derived and may not represent the final unit price or the specific unit's exact location.",
+      "The asking price shown may be a starting or filtered-range price, not the confirmed final unit price.",
+      "Exact locality of the Godrej Splendour unit is not fully confirmed; the page title says Whitefield but the note indicates the page may cover nearby areas.",
+      "No rent, yield, or return evidence is available; the rental income goal and target ROI of 3.0% cannot be assessed at this stage.",
+      "Bedroom count and price per sqft are missing."
+    ],
+    "confidence": 0.55
+  }
+}

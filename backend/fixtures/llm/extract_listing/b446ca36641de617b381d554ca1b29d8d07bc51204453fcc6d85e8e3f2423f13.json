@@ -1,0 +1,33 @@
+{
+  "key": "b446ca36641de617b381d554ca1b29d8d07bc51204453fcc6d85e8e3f2423f13",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "shop_showroom",
+      "confidence": 0.9,
+      "evidence": "Shop in K R Puram, Bangalore for sale."
+    },
+    "price_inr": {
+      "value": "38400000",
+      "confidence": 1.0,
+      "evidence": "₹3.84 Cr"
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.9,
+      "evidence": "for sale"
+    }
+  }
+}

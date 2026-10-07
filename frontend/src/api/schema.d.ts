@@ -807,6 +807,8 @@ export interface components {
             reviews?: number | null;
             /** Evidence */
             evidence?: string | null;
+            /** Named Localities */
+            named_localities?: string[];
             /** Sources */
             sources?: components["schemas"]["SourceRef"][];
             /**

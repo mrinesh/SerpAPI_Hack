@@ -10,7 +10,7 @@
 | [API.md](API.md) | Endpoints and their build status |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Setup, config, commands, conventions, definition of done |
 | [decisions/](decisions/) | Architecture Decision Records |
-| [spikes/](spikes/) | Investigation write-ups (S-01 data coverage, ...) |
+| [spikes/](spikes/) | Investigation write-ups: S-01 data coverage, S-02 extraction accuracy |
 | [SUBMISSION.md](SUBMISSION.md) | Hackathon form drafts, demo script, pre-submit checks |
 | [../CHECKLIST.md](../CHECKLIST.md) | What's done and what's pending |
 | [../CHANGELOG.md](../CHANGELOG.md) | What changed, by date |

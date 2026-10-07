@@ -1,0 +1,33 @@
+{
+  "key": "44d2d3260c37c1dbe7a1f159e3d8ab0bf73ceb061ccc130d65b001d7ab689dc1",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.9,
+      "evidence": "1 BHK Apartment / Flat in Whitefield"
+    },
+    "price_inr": {
+      "value": "7700000",
+      "confidence": 0.9,
+      "evidence": "₹77 Lac"
+    },
+    "size_sqft": {
+      "value": "615",
+      "confidence": 0.9,
+      "evidence": "615 sqft(57 sqm)"
+    },
+    "bedrooms": {
+      "value": "1",
+      "confidence": 0.9,
+      "evidence": "1 bedroom(s)"
+    },
+    "status": {
+      "value": "ready_to_move",
+      "confidence": 0.9,
+      "evidence": "Ready To Move"
+    }
+  }
+}

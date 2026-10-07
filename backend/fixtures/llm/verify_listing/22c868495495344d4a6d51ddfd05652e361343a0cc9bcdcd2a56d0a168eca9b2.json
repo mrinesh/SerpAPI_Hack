@@ -1,0 +1,24 @@
+{
+  "key": "22c868495495344d4a6d51ddfd05652e361343a0cc9bcdcd2a56d0a168eca9b2",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 70,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality matches investor's preferred locality Koramangala.",
+      "Property type is office, which matches investor's requested office type.",
+      "Segment is commercial, matching investor's commercial segment.",
+      "Asking price in snippet (₹3.6 Lac) is within the investor's maximum budget of ₹3 Crore."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Asking price and size are extracted from a 99acres search-page snippet, not a verified individual listing; final unit price and carpet area need confirmation.",
+      "No rental yield or rental income evidence is provided to assess the investor's stated goal of rental income or target ROI of 6%.",
+      "Source is a search snippet entry, not a verified priced unit; locality and property type indicate search context only.",
+      "No must-have criteria were supplied, so none could be checked; if any are later added, evidence is needed."
+    ],
+    "confidence": 0.6
+  }
+}

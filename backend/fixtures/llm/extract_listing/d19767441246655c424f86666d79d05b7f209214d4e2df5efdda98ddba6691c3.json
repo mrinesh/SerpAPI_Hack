@@ -1,0 +1,33 @@
+{
+  "key": "d19767441246655c424f86666d79d05b7f209214d4e2df5efdda98ddba6691c3",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.9,
+      "evidence": "2 BHK Flat"
+    },
+    "price_inr": {
+      "value": "5500000",
+      "confidence": 1.0,
+      "evidence": "₹55 Lacs"
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": "2",
+      "confidence": 1.0,
+      "evidence": "2 BHK"
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.7,
+      "evidence": "For Sale"
+    }
+  }
+}

@@ -13,6 +13,21 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · P0 close-out (I-08, I-09, I-10, F-05, S-01, D-01): DATA_MODEL.md audited against
+  the models (column names, the frozen per-run tables in the diagram); API.md checked route by
+  route against OpenAPI; status lines and the orchestrator docstring brought up to date; README
+  screenshots retaken after the I-12 re-recording. Every P0 row is done except SUB.
+- 2026-10-07 · Extraction accuracy spike (S-02): 20 hand-labelled snippet entries scored three
+  ways. Regex is right on 19/19 prices, rates and BHK and 18/19 sizes and statuses; DeepSeek
+  alone is never wrong but misses what needs arithmetic. Regex stays first and the LLM a gap
+  filler; three parser fixes are tracked as F-22. 0 searches, 31 DeepSeek lite calls recorded.
+- 2026-10-07 · Locality evidence from the result's own words (I-12, ADR 0024): a matcher for locality names, observed aliases, joined
+  initials and long-name spelling variants that ignores landmarks such as "Sarjapur Road";
+  candidates whose own text or Maps address names the searched locality are confirmed (0.8 /
+  0.9), the page title alone gives 0.7, and text naming only other localities raises a
+  `location_mismatch` flag. Both demos re-recorded (0 searches) and superseded recordings
+  pruned: no verdict changed; scores moved by about ±2 points, swapping residential ranks 1
+  and 2.
 - 2026-10-07 · Fixture usage check (I-03): `make fixtures` runs the tests with a tracker of every
   recording read and lists what nothing uses; unused LLM recordings fail it and `--prune`
   deletes them, SerpApi ones are only reported. Removed one superseded `extract_listing`

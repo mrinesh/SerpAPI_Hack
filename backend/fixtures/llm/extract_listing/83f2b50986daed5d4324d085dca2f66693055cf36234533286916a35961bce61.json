@@ -1,0 +1,33 @@
+{
+  "key": "83f2b50986daed5d4324d085dca2f66693055cf36234533286916a35961bce61",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.9,
+      "evidence": "2 BHK Apartment"
+    },
+    "price_inr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "size_sqft": {
+      "value": "1256",
+      "confidence": 0.9,
+      "evidence": "1256 sqft"
+    },
+    "bedrooms": {
+      "value": "2",
+      "confidence": 0.9,
+      "evidence": "2 BHK"
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.0,
+      "evidence": null
+    }
+  }
+}

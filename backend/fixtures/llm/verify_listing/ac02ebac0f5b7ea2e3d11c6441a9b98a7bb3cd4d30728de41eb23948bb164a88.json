@@ -1,0 +1,27 @@
+{
+  "key": "ac02ebac0f5b7ea2e3d11c6441a9b98a7bb3cd4d30728de41eb23948bb164a88",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 68,
+    "verdict": "partial",
+    "matched_criteria": [
+      "City: Bengaluru (Bangalore) implied by Whitefield locality and source title.",
+      "Locality: Whitefield matches requested locality.",
+      "Property type: apartment matches requested property_types.",
+      "Segment: residential matches requested segment.",
+      "Price: ₹72,00,000 is within the budget maximum of ₹80,00,000."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Price is extracted from a search-page snippet, not a verified individual listing; final unit asking price is not confirmed.",
+      "Size is computed from price ÷ price_per_sqft (1,419 sq ft) and is an estimate; no directly sourced size field.",
+      "Bedrooms are not confirmed for this candidate; evidence mentions '2 and 3 bedroom apartment' but not a specific unit.",
+      "Rental yield or ROI evidence is not available; investor's target ROI of 3% and rental income goal cannot be assessed in this stage.",
+      "Property details such as condition, amenities, and exact listing status are not provided.",
+      "The source appears to be a search results page rather than an individual property listing."
+    ],
+    "confidence": 0.55
+  }
+}

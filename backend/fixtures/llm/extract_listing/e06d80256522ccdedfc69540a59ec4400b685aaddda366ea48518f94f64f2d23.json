@@ -1,0 +1,33 @@
+{
+  "key": "e06d80256522ccdedfc69540a59ec4400b685aaddda366ea48518f94f64f2d23",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.9,
+      "evidence": "flats"
+    },
+    "price_inr": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "bedrooms": {
+      "value": "2",
+      "confidence": 0.9,
+      "evidence": "2 BHK"
+    },
+    "status": {
+      "value": "under_construction",
+      "confidence": 0.9,
+      "evidence": "Under Construction"
+    }
+  }
+}

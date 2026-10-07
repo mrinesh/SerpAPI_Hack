@@ -4,13 +4,17 @@ Rule-based and explainable on purpose; each flag's `reason` is shown to the inve
 - too_good_to_be_true: price per sq ft below `TOO_LOW_SHARE` of the locality's price level
   (`enrichment/price_level.py`); this also catches snippet prices that are really rents
   (S-01 saw "₹3.6 Lac … ₹75 /sqft"). No benchmark means no flag: there is no flat rate;
-- missing_price / missing_size: from cleaning and extraction.
+- missing_price / missing_size: from cleaning and extraction;
+- location_mismatch: the listing's own text names other localities and not the one searched
+  (I-12, ADR 0024). High when none of them is in the profile (it contradicts a hard
+  constraint, unconfirmed); medium when one is (the listing is mislabelled, not out of area).
 Duplicates are merged in cleaning, so they need no flag. There is no "stale" flag: search
 results carry no posted dates (S-01).
 """
 
 import re
 
+from app.reference import Market
 from app.schemas.common import Level
 from app.schemas.listing import Listing, QualityFlag, QualityFlagKind
 from app.schemas.provenance import ExtractionMethod, Sourced
@@ -69,6 +73,37 @@ def flag_listing(listing: Listing, benchmark: Sourced[float] | None) -> list[Qua
             )
         )
     return flags
+
+
+def location_flag(
+    listing: Listing, profile_localities: list[str], market: Market | None
+) -> QualityFlag | None:
+    named, searched = listing.named_localities, listing.locality.value
+    if not named or searched is None or searched in named:
+        return None
+
+    def name(slug: str) -> str:
+        place = market.locality(slug) if market else None
+        return place.name if place else slug
+
+    names = ", ".join(name(slug) for slug in named)
+    if any(slug in profile_localities for slug in named):
+        return QualityFlag(
+            kind=QualityFlagKind.LOCATION_MISMATCH,
+            severity=Level.MEDIUM,
+            reason=(
+                f"The result text places it in {names}, not {name(searched)} where it "
+                "was found; that is also one of your localities."
+            ),
+        )
+    return QualityFlag(
+        kind=QualityFlagKind.LOCATION_MISMATCH,
+        severity=Level.HIGH,
+        reason=(
+            f"The result text places it in {names}, not {name(searched)}, the locality "
+            "searched. It may be outside your localities."
+        ),
+    )
 
 
 def _origin(benchmark: Sourced[float]) -> str:

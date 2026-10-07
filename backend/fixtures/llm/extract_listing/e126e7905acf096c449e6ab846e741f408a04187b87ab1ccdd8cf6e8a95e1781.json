@@ -1,0 +1,33 @@
+{
+  "key": "e126e7905acf096c449e6ab846e741f408a04187b87ab1ccdd8cf6e8a95e1781",
+  "task": "extract_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "lite",
+  "response": {
+    "property_type": {
+      "value": "office",
+      "confidence": 0.9,
+      "evidence": "Office Space"
+    },
+    "price_inr": {
+      "value": "11500000",
+      "confidence": 0.9,
+      "evidence": "₹1.15 Cr"
+    },
+    "size_sqft": {
+      "value": "820",
+      "confidence": 0.9,
+      "evidence": "820 sqft"
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.9,
+      "evidence": "Resale"
+    }
+  }
+}

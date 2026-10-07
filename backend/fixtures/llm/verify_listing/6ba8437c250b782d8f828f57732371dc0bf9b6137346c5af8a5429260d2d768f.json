@@ -1,0 +1,25 @@
+{
+  "key": "6ba8437c250b782d8f828f57732371dc0bf9b6137346c5af8a5429260d2d768f",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 64,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Asking price ₹75,00,000 is within the ₹80,00,000 budget maximum.",
+      "Property type apartment matches requested apartment.",
+      "Segment residential matches requested residential.",
+      "Locality Whitefield is indicated by the listing title/search snippet."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "Size (sqft) is missing, so size suitability cannot be confirmed.",
+      "Bedrooms are missing.",
+      "The candidate is a search snippet entry; the ₹75 Lacs price is not verified as an individual unit's final asking price.",
+      "Locality is derived from search context and may cover nearby areas like Kadugodi; exact property locality is unconfirmed.",
+      "No verified individual property listing confirms final price and availability."
+    ],
+    "confidence": 0.65
+  }
+}

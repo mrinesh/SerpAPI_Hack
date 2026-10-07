@@ -1,0 +1,24 @@
+{
+  "key": "2dfd010fdcd41df9b19626a3800975c18e0c16b2dd2b639e635a6a3a1bbc33d2",
+  "task": "verify_listing",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "match_score": 62,
+    "verdict": "partial",
+    "matched_criteria": [
+      "Locality Whitefield matches the requested locality list.",
+      "Property type apartment matches the requested property type.",
+      "Segment residential matches the requested segment."
+    ],
+    "mismatches": [],
+    "missing_data": [
+      "No asking price or price per sq ft; budget_max of 8,000,000 INR cannot be verified.",
+      "No unit size or bedroom count; requested size is not specified, but the lack of size prevents strong matching.",
+      "The candidate is a Google Maps project entry, not a priced individual listing; no current availability or status.",
+      "Property type is inferred from Google Maps place type 'Apartment complex' with moderate confidence, not a verified portal category.",
+      "Rental income, ROI, and risk appetite are investor preferences and cannot be confirmed from this evidence."
+    ],
+    "confidence": 0.55
+  }
+}

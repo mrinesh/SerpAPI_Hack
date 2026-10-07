@@ -10,10 +10,10 @@
   "_bounds_note": "A loose box around Bengaluru Urban, widened; it only rejects geocodes that land in another city. It is not a locality coordinate.",
   "localities": [
     {"slug": "whitefield", "name": "Whitefield", "aliases": []},
-    {"slug": "sarjapura", "name": "Sarjapura", "aliases": []},
+    {"slug": "sarjapura", "name": "Sarjapura", "aliases": ["Sarjapur"]},
     {"slug": "hsr-layout", "name": "HSR Layout", "aliases": []},
     {"slug": "koramangala", "name": "Koramangala", "aliases": []},
-    {"slug": "indiranagar", "name": "Indiranagar", "aliases": []},
+    {"slug": "indiranagar", "name": "Indiranagar", "aliases": ["Indira Nagar"]},
     {"slug": "bellandur", "name": "Bellandur", "aliases": []},
     {"slug": "marathahalli", "name": "Marathahalli", "aliases": []},
     {"slug": "electronic-city", "name": "Electronic City", "aliases": []},
@@ -21,7 +21,7 @@
     {"slug": "hebbal", "name": "Hebbal", "aliases": []},
     {"slug": "yelahanka", "name": "Yelahanka", "aliases": []},
     {"slug": "jp-nagar", "name": "JP Nagar", "aliases": ["Jayaprakash Nagar"]},
-    {"slug": "jayanagar", "name": "Jayanagar", "aliases": []},
+    {"slug": "jayanagar", "name": "Jayanagar", "aliases": ["Jaya Nagar"]},
     {"slug": "rajajinagar", "name": "Rajajinagar", "aliases": []},
     {"slug": "malleswaram", "name": "Malleswaram", "aliases": []}
   ],
