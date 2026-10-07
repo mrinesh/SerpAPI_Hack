@@ -68,6 +68,7 @@ so re-recording a demo pays only for new requests. Delete a fixture file to refr
 | `make lint` | ruff, ruff format check, eslint, tsc |
 | `make fmt` | Auto-format and fix the backend |
 | `make types` | Export OpenAPI and regenerate `frontend/src/api/schema.d.ts` |
+| `make fixtures` | Run the tests and list committed recordings nothing uses (see [Keeping fixtures clean](#keeping-fixtures-clean)) |
 | `make reset-db` | Delete the local SQLite database (recreated on next start; also clears the search ledger) |
 
 ## Conventions
@@ -152,12 +153,28 @@ uv run python scripts/record_verification.py --profile commercial
 
 These scripts force SerpApi replay and DeepSeek record, use a temporary isolated database,
 and write validated LLM fixtures. They spend DeepSeek calls only, about 30 seconds per candidate.
-Delete the stale files in `fixtures/llm/<task>/` first after a prompt change. Residential criteria:
+After a prompt or input change, re-record, then run `make fixtures` and prune what it lists.
+Residential criteria:
 Whitefield apartment, max ₹80 L, rental income, 3% target, balanced risk, no must-haves or size
 limits. Commercial criteria: Koramangala office, max ₹3 Cr, business type `IT services`, 6%
 target, same goal and risk. Both targets are the wizard's suggestions (ADR 0018), so in the demo
 you accept the suggested value. Other criteria require their own recordings. No fake LLM responses are shipped
 as real provider recordings; tests generate fake responses in temporary fixture directories.
+
+### Keeping fixtures clean
+
+Every committed recording must be read by a test or a demo flow, so stale ones do not pile up
+after a re-recording. `make fixtures` runs the test suite with a usage tracker
+(`tests/fixture_usage.py`) and lists what nothing read; a fixture also counts as used when a test
+or script names its file.
+
+- **LLM recordings** that nothing uses fail the check. They are superseded responses: after a
+  prompt or input change the request key changes and the old file is never read again. Delete
+  them with `uv run python scripts/check_fixtures.py --prune` and commit the deletion with the
+  new recordings.
+- **SerpApi recordings** are only reported. Each cost a search, and the S-01 ones are the spike's
+  evidence, so they are never deleted automatically.
+- A recording a real flow uses but no test covers is a missing test, not an orphan: add the test.
 
 ## Known tooling issues
 

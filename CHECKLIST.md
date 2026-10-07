@@ -133,6 +133,8 @@ Findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.m
 - [x] Record mode writes `fixtures/serpapi/<engine>/<key>.json` (with `api_key` stripped), also from cache
 - [x] Replay mode reads fixtures only and raises `ReplayMiss` on a miss
 - [x] `make record` and the CLI documented in docs/DEVELOPMENT.md
+- [x] `make fixtures`: unused LLM recordings fail the check, `--prune` removes them; SerpApi
+      recordings are reported only
 
 ### I-04 Search budget · P0 · ✅
 - [x] Write every lookup to `search_ledger` (live or cached)

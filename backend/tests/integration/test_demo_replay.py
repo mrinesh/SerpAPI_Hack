@@ -116,6 +116,21 @@ def test_demo_targets_are_the_wizards_suggestions(client, name):
     assert suggestion["parts"][0]["typical"]["sources"], "the suggestion must be sourced"
 
 
+@pytest.mark.parametrize(
+    ("name", "goal", "target"),
+    [("residential", "appreciation", 25.0), ("residential", "balanced", 28.5),
+     ("commercial", "appreciation", 14.0), ("commercial", "balanced", 20.0)],
+)  # fmt: skip
+def test_growth_goals_suggest_from_the_recorded_multi_year_change(client, name, goal, target):
+    """ADR 0018: appreciation uses the average yearly change over several years ("96% over three
+    years" in Whitefield, "+92.2% in last 5 years" in Koramangala); balanced adds the yield."""
+    keys = ("segment", "property_types", "localities", "risk_appetite")
+    body = {key: DEMO_PROFILES[name][key] for key in keys} | {"goal": goal}
+    suggestion = client.post("/api/profiles/target-suggestion", json=body).json()
+    assert suggestion["target_roi_pct"] == target
+    assert suggestion["parts"][0]["typical"]["sources"]
+
+
 def test_suggestion_without_recorded_data_is_empty_not_an_error(client):
     body = {
         "segment": "residential",

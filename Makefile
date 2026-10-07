@@ -47,5 +47,8 @@ types: ## Export OpenAPI and regenerate frontend/src/api/schema.d.ts
 	cd $(BACKEND) && uv run python -m app.export_openapi > openapi.json
 	cd $(FRONTEND) && npm run gen:types
 
+fixtures: ## Run the tests and list committed recordings nothing uses (fails on unused LLM ones)
+	cd $(BACKEND) && uv run python scripts/check_fixtures.py
+
 reset-db: ## Delete the local SQLite database (recreated on next start)
 	rm -f $(BACKEND)/data/*.db

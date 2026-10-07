@@ -13,6 +13,11 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · Fixture usage check (I-03): `make fixtures` runs the tests with a tracker of every
+  recording read and lists what nothing uses; unused LLM recordings fail it and `--prune`
+  deletes them, SerpApi ones are only reported. Removed one superseded `extract_listing`
+  recording; added a test for the appreciation and balanced target suggestions, whose recorded
+  multi-year growth was untested.
 - 2026-10-07 · Submission prep (I-13, SUB): `make demo` seeds the two recorded demo profiles
   (`SEED_DEMO_PROFILES`), so a fresh clone opens with searches that replay; MIT `LICENSE`;
   README rewritten to match what is built, with screenshots; form text and video plan in
