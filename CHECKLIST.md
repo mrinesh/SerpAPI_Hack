@@ -33,9 +33,9 @@ code for an ID finds every stub that belongs to it.
 | I-05 | Budget endpoint via SerpApi Account API | P1 | ✅ | |
 | I-06 | DeepSeek provider with structured output | P0 | ✅ | |
 | I-07 | LLM record / replay cache | P0 | ✅ | |
-| I-08 | Database schema and session | P0 | 🧱 | |
+| I-08 | Database schema and session | P0 | ✅ | |
 | I-09 | Pipeline orchestrator, background runs, stage events | P0 | ✅ | |
-| I-10 | Frontend shell, routing, API client, generated types | P0 | 🧱 | |
+| I-10 | Frontend shell, routing, API client, generated types | P0 | ✅ | |
 | I-11 | Background scheduler | P1 | 🧱 | |
 | I-12 | Bengaluru locality data and geocoding | P0 | ✅ | |
 | I-13 | Recorded demo fixtures for judges | P0 | ✅ | |
@@ -45,7 +45,7 @@ code for an ID finds every stub that belongs to it.
 | F-02 | Property discovery | P0 | ✅ | |
 | F-03 | AI relevance verification | P0 | ✅ | |
 | F-04 | Ranked recommendations with reasons | P0 | ✅ | |
-| F-05 | Area intelligence | P0 | 🟨 | |
+| F-05 | Area intelligence | P0 | ✅ | |
 | F-06 | Competitor analysis (commercial) | P0 | ✅ | |
 | F-07 | Property detail page | P0 | ✅ | |
 | F-08 | Saved properties and side-by-side compare | P1 | 🧱 | |
@@ -65,7 +65,7 @@ code for an ID finds every stub that belongs to it.
 | F-18 | Natural-language search → profile | P2 | ⏸️ | |
 | F-21 | Auth and multi-user | P2 | ⏸️ | |
 | **Docs and submission** | | | | |
-| D-01 | Docs kept current (see Docs section) | P0 | 🟨 | |
+| D-01 | Docs kept current (see Docs section) | P0 | ✅ | |
 | SUB | Hackathon submission | P0 | ⬜ | |
 
 ---
@@ -98,7 +98,7 @@ Findings in [docs/spikes/S-01-data-coverage.md](docs/spikes/S-01-data-coverage.m
 - [x] Per portal: single listings 0 of 87; all search pages (+2 NoBroker project pages)
 - [x] Per field: price, ₹/sq ft, size, BHK, status coverage measured; no posted dates, no rich_snippet
 - [x] Query templates decided with the product owner and implemented in `query_planner.py`
-- [ ] google_news, google_trends and "property rates" queries: moved to F-05, which needs them
+- [x] google_news and "property rates" queries built in F-05; google_trends deferred there (P1)
 
 ### S-02 LLM extraction accuracy · P0 · ✅
 Findings: [docs/spikes/S-02-extraction-accuracy.md](docs/spikes/S-02-extraction-accuracy.md).
@@ -166,23 +166,27 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
       tested with fake provider outputs
 - [x] Replay mode runs the whole demo without a DeepSeek key (`test_demo_replay.py`)
 
-### I-08 Database · P0 · 🧱
+### I-08 Database · P0 · ✅
 - [x] Tables defined in `app/db/models.py`, created on startup
 - [x] WAL mode, `busy_timeout`, foreign keys on (ADR 0009)
-- [ ] Repository helpers as each feature needs them
-- [ ] docs/DATA_MODEL.md kept in sync
+- [x] Persistence helpers as features needed them (`pipeline/persist.py`, services); F-08/F-10
+      add theirs
+- [x] docs/DATA_MODEL.md audited against `models.py` (2026-10-07): all 14 tables, keys and
+      columns, with the frozen per-run tables in the diagram
 
 ### I-09 Pipeline orchestrator · P0 · ✅
 - [x] `start_run`: create run row, launch `run_pipeline` in a background thread
 - [x] Emit `StageEvent`s with counts per stage; persist partial results
 - [x] Failure handling: failed stage marks run failed, earlier results stay viewable
-- [ ] Each later feature adds its stage (verify F-03, enrich F-05/F-06/F-09, rank F-04)
+- [x] Each later feature added its stage (verify F-03, enrich F-05/F-06/F-09, rank F-04)
 
-### I-10 Frontend shell · P0 · 🧱
+### I-10 Frontend shell · P0 · ✅
 - [x] Routes and placeholder pages for every screen
 - [x] Typed API client with the shared error shape
 - [x] `make types` generates `src/api/schema.d.ts` from OpenAPI (rerun after schema changes)
-- [ ] TanStack Query hooks per endpoint (health, profiles, runs, property detail done)
+- [x] TanStack Query hooks for every endpoint a screen uses (health, budget, profile options,
+      profiles, target suggestion, runs and their listings, checks, areas, competitors,
+      recommendations, property detail). F-08/F-10 add theirs; `/areas/{key}` needs none
 
 ### I-11 Scheduler · P1 · 🧱
 - [x] APScheduler wiring, off by default (`SCHEDULER_ENABLED`)
@@ -259,7 +263,7 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [x] Recorded for both demos (9 lite calls); tests for weights, value curve, penalties,
       ties, number guard, failure handling and demo replay
 
-### F-05 Area intelligence · P0 · 🟨
+### F-05 Area intelligence · P0 · ✅
 - [x] `locality_key` + cache per locality with TTL (`area_intel`, 7 days)
 - [x] Amenities from google_maps (metro, school, hospital) with distances (ADR 0016)
 - [x] News from google_news, classified by topic and sentiment; display only (ADR 0020, after
@@ -271,7 +275,7 @@ Design from S-01 and the product owner's checkpoint ([ADR 0011](docs/decisions/0
 - [x] Area score fills F-04's `area` component (amenity access only; growth reserved for F-09)
 - [x] Area panel on the run page; access line on recommendation cards
 - [x] Recorded for both demos (10 searches, 4 lite calls; 9 explanations re-recorded)
-- [ ] P1: rental demand from google_trends (compare localities in one call) + chart (deferred)
+- [ ] P1, deferred: rental demand from google_trends (compare localities in one call) + chart
 
 ### F-06 Competitor analysis (commercial) · P0 · ✅
 Per locality and business type, read by property type, display only
@@ -357,10 +361,11 @@ Kept current as features land. ✅ means the doc exists and matches the code tod
 - [x] docs/PRODUCT.md, docs/ARCHITECTURE.md, docs/PIPELINE.md
 - [x] docs/SERPAPI_USAGE.md (doubles as the submission's SerpApi explanation)
 - [x] docs/DATA_MODEL.md, docs/API.md, docs/DEVELOPMENT.md
-- [x] docs/decisions/ ADR 0001–0023
+- [x] docs/decisions/ ADR 0001–0024
 - [x] docs/spikes/S-01 filled with real findings
 - [x] Screenshots in README (`docs/images/`, from the replay demo)
-- [ ] Final pass: every endpoint in API.md shows its real status
+- [x] Final pass: API.md matches the routes in `openapi.json` exactly, each with its real status
+      (2026-10-07)
 
 ---
 

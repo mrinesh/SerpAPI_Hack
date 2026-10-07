@@ -18,9 +18,10 @@ Each stage emits a `StageEvent` (status, message, counts) that the UI polls, so 
 the pipeline working live (F-20). A failing stage marks the run failed without discarding
 earlier results.
 
-> Status: plan, fetch and clean (F-02), verification (F-03, with F-12 price flags) and rank
-> (F-04) are built, and enrich has area intelligence (F-05), competitors (F-06, commercial) and investment metrics (F-09). Both demo profiles replay end to end with no keys, from committed
-> SerpApi and DeepSeek recordings. Discovery comes from S-01
+> Status: every stage is built. Plan, fetch and clean (F-02, with locality evidence from I-12),
+> verify (F-03, with F-12 price and location flags), enrich (area intelligence F-05,
+> competitors F-06 for commercial profiles, investment metrics F-09) and rank (F-04). Both demo
+> profiles replay end to end with no keys, from committed SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
 
 ## 1 · Plan (`query_planner.py`, F-02)

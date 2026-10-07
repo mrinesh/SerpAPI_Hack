@@ -63,7 +63,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | Table | Key | Holds | Notes |
 |---|---|---|---|
 | `investor_profiles` | `id` | `InvestorProfileIn` JSON | |
-| `pipeline_runs` | `id` | status, current stage, `StageEvent[]`, searches used, cache hits | FK profile |
+| `pipeline_runs` | `id` | status, current stage, `StageEvent[]`, searches used, cache hits, error, created and finished times | FK profile |
 | `listings` | `id` = stable hash of the candidate's identity | `Listing` JSON; `kind`, `portal`, `locality`, `price_inr`, `size_sqft`, `price_per_sqft` columns | Shared across runs, so a repeat run updates the same rows |
 | `listing_observations` | `id`; unique (`listing_id`, `run_id`) | price at the time | One row per candidate per run: "found in this run" and price history |
 | `run_results` | `id` | Progressive JSON: `listing` snapshot, nullable `verification`, and for ranked rows `recommendation` (score, score_breakdown, reason, highlights, risks, explained, access, metrics) | One row per listing per run; rank 1..n for ranked candidates, null for rejects and unchecked |
@@ -71,11 +71,11 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `area_intel` | `locality_key` | `AreaIntel` JSON (centre, amenities, `price_growth_pct`, per-type `price_levels` and `rent_levels`, summaries, `section_status`, `warnings`, `schema_version`, `provider_modes`), `expires_at` (= `fetched_at` when a section failed) | e.g. `bengaluru/whitefield`; rebuilt after the TTL |
 | `competitor_reports` | hash(locality, rounded centre, business type, radius) | `CompetitorReport` JSON | Area TTL; a failed search expires at once (ADR 0023) |
 | `run_competitor_reports` | `id` | `run_id`, `locality_key`, `CompetitorReport` JSON as the run used it | One row per run and commercial locality; frozen; deleted with the profile |
-| `serp_cache` | `cache_key` | raw SerpApi JSON, `search_id` | Same key as fixture file names |
-| `search_ledger` | autoincrement | engine, key, run, `live` | Budget is computed from this |
-| `llm_cache` | hash(task, model, tier, prompt, schema) | validated LLM output | Replay reads fixtures only; record writes cache hits too |
-| `saved_properties` | `listing_id` | note, saved time | |
-| `alerts` | `id` | kind, listing, message, read time | |
+| `serp_cache` | `key` (`gateway.cache_key`) | engine, params, raw SerpApi JSON, `search_id`, fetched time | Same key as fixture file names |
+| `search_ledger` | autoincrement `id` | engine, cache key, run, `live`, time | Budget is computed from this |
+| `llm_cache` | `key` = hash(task, model, tier, prompt, schema) | task, model, validated LLM output, time | Replay reads fixtures only; record writes cache hits too |
+| `saved_properties` | `listing_id` | note, saved time | F-08 (not built) |
+| `alerts` | `id` | profile, kind, listing, message, created and read times | F-10 (not built) |
 
 ```mermaid
 erDiagram
@@ -84,6 +84,8 @@ erDiagram
     pipeline_runs ||--o{ run_results : "produces"
     listings ||--o{ run_results : "ranked in"
     pipeline_runs ||--o{ listing_observations : "found"
+    pipeline_runs ||--o{ run_area_intel : "froze"
+    pipeline_runs ||--o{ run_competitor_reports : "froze"
     listings ||--o{ listing_observations : "seen at a price"
     listings ||--o| saved_properties : "saved as"
     listings ||--o{ alerts : "about"

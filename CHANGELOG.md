@@ -13,6 +13,10 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · P0 close-out (I-08, I-09, I-10, F-05, S-01, D-01): DATA_MODEL.md audited against
+  the models (column names, the frozen per-run tables in the diagram); API.md checked route by
+  route against OpenAPI; status lines and the orchestrator docstring brought up to date; README
+  screenshots retaken after the I-12 re-recording. Every P0 row is done except SUB.
 - 2026-10-07 · Extraction accuracy spike (S-02): 20 hand-labelled snippet entries scored three
   ways. Regex is right on 19/19 prices, rates and BHK and 18/19 sizes and statuses; DeepSeek
   alone is never wrong but misses what needs arithmetic. Regex stays first and the LLM a gap
