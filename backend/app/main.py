@@ -11,14 +11,18 @@ from app.api.router import api_router
 from app.config import get_settings
 from app.core.errors import register_exception_handlers
 from app.core.logging import configure_logging
-from app.db.session import init_db
+from app.db.session import SessionLocal, init_db
 from app.jobs.scheduler import shutdown_scheduler, start_scheduler
+from app.services.profiles import seed_demo_profiles
 
 
 @asynccontextmanager
 async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     configure_logging()
     init_db()
+    if get_settings().seed_demo_profiles:
+        with SessionLocal() as db:
+            seed_demo_profiles(db)
     if get_settings().scheduler_enabled:
         start_scheduler()
     yield

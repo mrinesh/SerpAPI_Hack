@@ -21,7 +21,7 @@ dev: ## Run backend (:8000) and frontend (:5173) with modes from .env
 	wait
 
 demo: ## Run both in replay mode: no keys, no searches spent
-	SERPAPI_MODE=replay LLM_MODE=replay $(MAKE) dev
+	SERPAPI_MODE=replay LLM_MODE=replay SEED_DEMO_PROFILES=true $(MAKE) dev
 
 record: ## Run the backend in record mode (spends searches; commit new fixtures)
 	cd $(BACKEND) && SERPAPI_MODE=record LLM_MODE=record $(UVICORN)

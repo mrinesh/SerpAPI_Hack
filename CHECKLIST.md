@@ -38,7 +38,7 @@ code for an ID finds every stub that belongs to it.
 | I-10 | Frontend shell, routing, API client, generated types | P0 | 🧱 | |
 | I-11 | Background scheduler | P1 | 🧱 | |
 | I-12 | Bengaluru locality data and geocoding | P0 | 🟨 | |
-| I-13 | Recorded demo fixtures for judges | P0 | ⬜ | |
+| I-13 | Recorded demo fixtures for judges | P0 | ✅ | |
 | I-14 | CI: lint, typecheck, tests on push | P1 | ⬜ | |
 | **Features (F-01 to F-08 match the product brief's numbering)** | | | | |
 | F-01 | Investor profile | P0 | ✅ | |
@@ -185,11 +185,14 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
       in replay fixtures; rejected outside the market's bounding box
 - [ ] Locality matching (aliases, fuzzy) used by cleaning and area intel
 
-### I-13 Demo fixtures · P0 · ⬜
-- [ ] Two demo profiles (values chosen with the team, moved here from F-01). Already replayable
-      from S-01 fixtures: apartment in Whitefield ≤ ₹80 L; office in Koramangala ≤ ₹3 Cr
-- [ ] Record one residential and one commercial demo run end to end
-- [ ] Verify `make demo` works on a fresh clone with no `.env`
+### I-13 Demo fixtures · P0 · ✅
+- [x] Two demo profiles in `app/reference/demo_profiles.py`: apartment in Whitefield ≤ ₹80 L;
+      office in Koramangala ≤ ₹3 Cr for IT services. `make demo` seeds them on startup
+      (`SEED_DEMO_PROFILES`), so a fresh clone opens with runnable profiles
+- [x] Both demo runs recorded end to end (searches and DeepSeek calls) and replayed in
+      `test_demo_replay.py`
+- [x] `make setup && make demo` on a fresh clone with no `.env`: both profiles seeded, both runs
+      succeed with 0 searches (2026-10-07)
 
 ### I-14 CI · P1 · ⬜
 - [ ] GitHub Actions: `ruff`, `pytest`, `tsc`, `eslint`, `vite build`
@@ -337,7 +340,7 @@ Kept current as features land. ✅ means the doc exists and matches the code tod
 - [x] docs/DATA_MODEL.md, docs/API.md, docs/DEVELOPMENT.md
 - [x] docs/decisions/ ADR 0001–0023
 - [x] docs/spikes/S-01 filled with real findings
-- [ ] Screenshots / GIF in README
+- [x] Screenshots in README (`docs/images/`, from the replay demo)
 - [ ] Final pass: every endpoint in API.md shows its real status
 
 ---
@@ -346,12 +349,14 @@ Kept current as features land. ✅ means the doc exists and matches the code tod
 
 From [HACKATHON_BRIEF.md](HACKATHON_BRIEF.md#submission-checklist); details in [docs/SUBMISSION.md](docs/SUBMISSION.md).
 
-- [ ] Choose a license (MIT suggested) and add `LICENSE`
-- [ ] Public GitHub repo; secrets scan (no keys in history)
-- [ ] Fresh-clone test: `make setup && make demo` works with no `.env`
+- [x] Choose a license and add `LICENSE` (MIT, "Realty Intel contributors"; confirm)
+- [x] Secrets scan: no keys in any branch's history (2026-10-07)
+- [ ] Public GitHub repo (private today; make public before submitting)
+- [x] Fresh-clone test: `make setup && make demo` works with no `.env` (2026-10-07)
 - [ ] **First submit by Thu Oct 8** (timestamp locks on first submit; edits allowed after)
 - [ ] Demo video under 3 min, running locally, opens in incognito
-- [ ] Project description, SerpApi usage explanation (from docs/SERPAPI_USAGE.md)
+- [x] Project description and SerpApi usage explanation drafted in docs/SUBMISSION.md
+- [ ] Paste them into the form
 - [ ] Disclosures: new project; AI tools used (Claude Code, DeepSeek); community source = BangPypers (confirm)
 - [ ] Track: Commerce & Market Intelligence
 - [ ] Teammates added (name + email), all of whom contributed

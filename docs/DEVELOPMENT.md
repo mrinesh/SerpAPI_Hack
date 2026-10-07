@@ -13,7 +13,7 @@
 
 ```bash
 make setup     # uv sync + npm install + creates .env from .env.example
-make demo      # backend + frontend in replay mode: no keys, no searches spent
+make demo      # backend + frontend in replay mode with the demo profiles: no keys, no searches
 ```
 
 Open <http://localhost:5173>. API docs: <http://localhost:8000/docs>.
@@ -61,7 +61,7 @@ so re-recording a demo pays only for new requests. Delete a fixture file to refr
 |---|---|
 | `make setup` | Install everything, create `.env` |
 | `make dev` | Backend (:8000) + frontend (:5173) with your `.env` modes |
-| `make demo` | Same, forced to replay mode |
+| `make demo` | Same, forced to replay mode, with the two demo profiles added if missing (`SEED_DEMO_PROFILES=true`) |
 | `make record` | Backend in record mode (spends searches; commit the new fixtures) |
 | `make backend` / `make frontend` | Run one side |
 | `make test` | Backend tests (pytest), frontend typecheck and tests (vitest) |
