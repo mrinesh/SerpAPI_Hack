@@ -79,8 +79,10 @@ def google_trends(
 
     Google Trends compares at most 5 queries per request.
     """
+    if not 1 <= len(queries) <= 5 or any(not q.strip() or "," in q for q in queries):
+        raise ValueError("Google Trends needs 1-5 non-empty queries without commas")
     return SerpEngine.GOOGLE_TRENDS, {
-        "q": ",".join(queries[:5]),
+        "q": ",".join(queries),
         "geo": geo,
         "date": date,
         "data_type": "TIMESERIES",

@@ -56,6 +56,8 @@ class FakeLLM:
             )
         if kwargs["task"] == "summarize_area":
             return kwargs["schema"].model_validate({"facts": []})
+        if kwargs["task"] == "review_development":
+            return kwargs["schema"].model_validate({"review": "inconclusive", "hypotheses": []})
         if kwargs["task"] in {"extract_rent", "extract_growth"}:
             return kwargs["schema"].model_validate(
                 {"result_index": None, "evidence": None, "confidence": 0}

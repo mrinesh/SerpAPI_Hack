@@ -25,6 +25,7 @@ city) use the same shape.
 | GET | `/runs/{run_id}/listings` | `Listing[]` the run discovered: priced entries cheapest first, then projects | F-02 | ✅ |
 | GET | `/runs/{run_id}/verifications` | `Verification[]`: completed checks, including rejects and reasons | F-03 | ✅ |
 | GET | `/runs/{run_id}/metrics` | `ListingMetrics[]`: listing ID + frozen financial inputs/results, goal target and unknown-assessment reason | F-09 | ✅ |
+| GET | `/runs/{run_id}/development` | Frozen `AreaDevelopment[]`: public/app histories, measured changes, corroboration, research priorities and cited AI hypotheses | F-05 P1 | ✅ |
 | GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked | F-04 | 🧱 |
 | GET | `/properties/{listing_id}` | `PropertyDetail` | F-07 | 🧱 |
 | GET | `/areas/{locality_key}` | Latest shared `AreaIntel`; read-only, explicit stale state; 404 before enrichment | F-05 | ✅ |
@@ -46,7 +47,7 @@ F-04 ranking is still pending.
 
 ## Area intelligence (F-05)
 
-Areas are produced during the enrich stage, once per discovered locality. Both GET endpoints
+Areas are produced during the enrich stage, once per selected locality. Both GET endpoints
 are read-only and never call external providers. A run created before F-05, or one still
 enriching, may return an empty/partial list. Unknown runs return 404; unknown geography returns
 422. Section failures return readable partial data with `warnings` and `section_status`, rather
@@ -63,6 +64,14 @@ return 404. GET is read-only. Enrichment adds `metrics`, `roi_assessed`, `invest
 counts. Profile changes never rewrite old metric targets. Gross yield is before costs;
 growth is reported history or an explicitly labelled investor assumption. Details and real demo
 examples: [F-09 guide](F09_INVESTMENT_METRICS.md).
+
+## Search-driven locality research (F-05 P1)
+
+`/runs/{run_id}/development` is read-only. Known pre-enrichment/older runs return `[]`;
+partial/failed runs return saved reports; unknown/deleted runs return 404. Profile edits and
+new searches never rewrite an old snapshot. Enrichment progress adds `development` and
+`development_warnings`. Scores and ranks are computed in code; AI reviews and cited hypotheses
+cannot override them. See [methodology and examples](SEARCH_DRIVEN_AREA_INSIGHTS.md).
 
 ## Frontend types
 

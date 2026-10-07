@@ -6,10 +6,18 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.core.errors import NotFound, NotImplementedYet
-from app.db.models import ListingObservationRow, ListingRow, RunAreaIntelRow, RunResultRow, RunRow
+from app.db.models import (
+    ListingObservationRow,
+    ListingRow,
+    RunAreaIntelRow,
+    RunDevelopmentRow,
+    RunResultRow,
+    RunRow,
+)
 from app.pipeline.enrichment.area import as_utc
 from app.pipeline.orchestrator import to_schema
 from app.schemas.area import AreaIntel
+from app.schemas.development import AreaDevelopment
 from app.schemas.listing import Listing, ResultKind, Verification
 from app.schemas.metrics import ListingMetrics
 from app.schemas.recommendation import Recommendation
@@ -94,3 +102,10 @@ def _get_row(db: Session, run_id: str) -> RunRow:
     if row is None:
         raise NotFound(f"Run {run_id} not found")
     return row
+
+
+def get_development(db: Session, run_id: str) -> list[AreaDevelopment]:
+    _get_row(db, run_id)
+    rows = db.scalars(select(RunDevelopmentRow).where(RunDevelopmentRow.run_id == run_id))
+    reports = [AreaDevelopment.model_validate(row.data) for row in rows]
+    return sorted(reports, key=lambda r: (r.rank is None, r.rank or 0, r.locality_key))

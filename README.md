@@ -10,6 +10,9 @@ a reason and a source link for every number.
 > Discovery, DeepSeek verification and area intelligence are implemented and recorded for both
 > offline demos. F-09 investment comparisons now add sourced rent estimates, gross yield,
 > past growth/assumptions and goal-specific target checks; missing inputs remain explicit.
+> Locality research now measures Google Trends and actual app search history, checks sustained
+> growth and price/news corroboration, and uses AI for cited possible explanations. See
+> [what changed and why it helps](docs/SEARCH_DRIVEN_AREA_INSIGHTS.md).
 > Ranking and property details remain pending. See the [F-09 walkthrough and benefits](docs/F09_INVESTMENT_METRICS.md)
 > and [F-05 implementation/debugging guide](docs/F05_AREA_INTELLIGENCE.md).
 >
@@ -32,6 +35,7 @@ It is slow and inconsistent, and the results are hard to compare. Realty Intel r
 | **Area intelligence** | Amenities (Maps), news and infrastructure (News), price level (Search), rental demand (Trends), cached per locality |
 | **Competitor analysis** | For commercial property: same-category businesses nearby, ratings, review volume, density, market gaps |
 | **Investment metrics** | Price per sq ft vs area average, rental yield, price growth and total return, checked against your ROI target |
+| **Developing-area signals** | Measured public/app search growth, seasonal comparison, corroborating evidence and research priorities with cited AI hypotheses |
 | **Trust** | Every data point shows its source and the model's confidence |
 
 ## SerpApi usage

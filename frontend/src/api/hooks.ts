@@ -8,6 +8,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { apiFetch } from "./client";
 import type {
   AreaIntel,
+  AreaDevelopment,
   BudgetStatus,
   HealthStatus,
   InvestorProfile,
@@ -157,6 +158,15 @@ export function useRunMetrics(run: PipelineRun | undefined) {
   return useQuery({
     queryKey: ["runs", run?.id, "metrics", run?.status, event?.counts?.metrics ?? 0],
     queryFn: () => apiFetch<ListingMetrics[]>(`/runs/${run?.id}/metrics`),
+    enabled: hasCandidates(run),
+  });
+}
+
+export function useRunDevelopment(run: PipelineRun | undefined) {
+  const event = run?.events?.find((item) => item.stage === "enrich");
+  return useQuery({
+    queryKey: ["runs", run?.id, "development", run?.status, event?.counts?.development ?? 0],
+    queryFn: () => apiFetch<AreaDevelopment[]>(`/runs/${run?.id}/development`),
     enabled: hasCandidates(run),
   });
 }

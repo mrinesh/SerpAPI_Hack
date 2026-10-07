@@ -34,6 +34,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `Listing` | `listing.py` | A discovered candidate: `snippet_entry` (priced entry quoted on a portal search page) or `project` (Google Maps place). Name, url, price, ₹/sq ft, size, BHK, sale status, GPS, rating, evidence text; all facts `Sourced` ([ADR 0011](decisions/0011-discovery-from-search-snippets.md)) |
 | `Verification`, `QualityFlag` | `listing.py` | LLM match score, verdict, mismatches, flags |
 | `AreaIntel` (+ `Amenity`, `NewsItem`, `PriceTrend`, `RentalDemand`) | `area.py` | Per-locality intelligence |
+| `AreaDevelopment`, `SearchMomentum`, `InterestPoint`, `DevelopmentHypothesis` | `development.py` | Measured public/app histories, research priorities and cited unconfirmed causes |
 | `CompetitorReport`, `Competitor` | `competitor.py` | Commercial competition around a point |
 | `InvestmentMetrics` | `metrics.py` | Price per sq ft vs area, rental yield, price growth, total return, target check |
 | `Recommendation` | `recommendation.py` | Rank, composite score, breakdown, reason |
@@ -69,6 +70,8 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `run_results` | `id` | Progressive JSON: `listing`, nullable `verification`, F-09 `metrics` including frozen target/source notes; F-04 will add recommendation fields | One row per listing per run; rank null until ranked, and for rejects |
 | `area_intel` | `locality_key` | Normalized `AreaIntel` JSON, assembly/expiry timestamps | Shared locality cache; excludes run-specific prices; partial results expire immediately |
 | `run_area_intel` | (`run_id`, `locality_key`) | Frozen `AreaIntel` JSON, including existing price benchmarks | FK run; deleted with profile; unaffected by later cache refreshes |
+| `search_intents` | (`run_id`, `locality_key`) | Requested locality, profile ID, UTC creation time | Actual run-start intent; count distinct profiles/week; FK run cascades on deletion |
+| `run_development` | (`run_id`, `locality_key`) | Frozen `AreaDevelopment` JSON | FK run cascades; old reports retain their historical aggregates |
 | `competitor_reports` | hash(centre, category, radius) | `CompetitorReport` JSON | |
 | `serp_cache` | `cache_key` | raw SerpApi JSON, `search_id` | Same key as fixture file names |
 | `search_ledger` | autoincrement | engine, key, run, `live` | Budget is computed from this |
@@ -82,6 +85,8 @@ erDiagram
     investor_profiles ||--o{ alerts : "receives"
     pipeline_runs ||--o{ run_results : "produces"
     pipeline_runs ||--o{ run_area_intel : "enriches"
+    pipeline_runs ||--o{ search_intents : "records"
+    pipeline_runs ||--o{ run_development : "assesses"
     listings ||--o{ run_results : "ranked in"
     pipeline_runs ||--o{ listing_observations : "found"
     listings ||--o{ listing_observations : "seen at a price"
@@ -99,6 +104,12 @@ demand remain unavailable in the generic area payload; F-09 keeps type-specific 
 and candidate rents in the financial snapshot. See [F-05 guide](F05_AREA_INTELLIGENCE.md) and
 [F-09 guide](F09_INVESTMENT_METRICS.md). The added run-area table is
 created automatically at startup; no existing tables or data need to be dropped.
+
+Public/app demand history and observed price corroboration now live in `run_development`,
+separate from the shared generic area cache. Its two new tables are created on startup without
+resetting data. No browser history or profile identifiers are sent to the development-review
+prompt; app history is aggregate distinct-profile weekly counts. See
+[search-driven research](SEARCH_DRIVEN_AREA_INSIGHTS.md).
 
 ## F-09 financial snapshots
 

@@ -2,6 +2,7 @@ from fastapi import APIRouter
 
 from app.api.deps import DbSession
 from app.schemas.area import AreaIntel
+from app.schemas.development import AreaDevelopment
 from app.schemas.listing import Listing, Verification
 from app.schemas.metrics import ListingMetrics
 from app.schemas.recommendation import Recommendation
@@ -9,6 +10,12 @@ from app.schemas.run import PipelineRun
 from app.services import runs
 
 router = APIRouter(prefix="/runs", tags=["runs"])
+
+
+@router.get("/{run_id}/development")
+def get_run_development(run_id: str, db: DbSession) -> list[AreaDevelopment]:
+    """Frozen, data-driven locality priorities with public/app histories and cited hypotheses."""
+    return runs.get_development(db, run_id)
 
 
 @router.get("/{run_id}/metrics")

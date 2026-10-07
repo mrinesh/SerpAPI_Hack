@@ -20,7 +20,7 @@ results fetched for that investor's criteria; without SerpApi there is no shortl
 | `google` | Discovery: site-filtered searches of 99acres, MagicBricks and NoBroker. Google returns their search pages, whose snippets quote priced entries *(S-01)*. Also the locality price level per sq ft ("office space price per sq ft in Koramangala Bangalore"), the benchmark for price flags (ADR 0014) | Built (F-02, F-12) |
 | `google_maps` | Discovery: named housing projects with GPS, rating and reviews for flat profiles *(S-01)*. Later: amenities and commercial competitors | Discovery and area centre/amenities built (F-02, F-05); competitors pending (F-06) |
 | `google_news` | Locality-matched news and sourced infrastructure/civic/policy evidence | Built (F-05 P0) |
-| `google_trends` | Rental and buying search interest, up to 5 localities per call | Planned (F-05) |
+| `google_trends` | Broad locality and rental-research weekly interest, up to five queries per batch | Built (F-05 P1) |
 | `google_maps_reviews` | Review text of top competitors, to find market gaps | Planned (F-06b) |
 | `google_local` | Tested in S-01: the same projects as Maps for flats, irrelevant results for commercial | Not used |
 
@@ -61,13 +61,20 @@ default timeout is 60 s because two searches exceeded 30 s.
 | Run | Searches |
 |---|---|
 | Fresh run, L localities × T property types | L × T Google, + L Google Maps if flats are wanted, + at most 1 retry per empty query, + up to L × T price-level Google searches (localities with candidates) |
-| Area enrichment for A discovered localities | Up to 5A additional searches: centre + metro/school/hospital + News; cached per locality for 168 hours |
+| Area enrichment for A selected localities | Up to 5A additional searches: centre + metro/school/hospital + News; cached per locality for 168 hours |
 | F-09 financial inputs | One Google rent query per eligible locality/type/BHK cohort (size-based rate cohort for unknown layout), plus one annual growth query per eligible locality/type unless an override is supplied |
-| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 15 area = 24 |
+| Search-driven locality research | Two Trends calls per run (up to five queries each); observed growth per selected locality/type reuses F-09 queries where present and still runs when an investor assumption exists |
+| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 15 area + 2 Trends = 26 before financial inputs/retries |
 | Largest profile: 5 localities × 4 types, with flats | Up to 45 discovery/price-level searches + 25 area searches before retries; the per-run cap of 40 is authoritative. Missing area sections expose budget warnings; price levels may fall back to run medians |
 | Repeat run within the cache TTL | 0 |
 
 ## Data handling
+
+Four real Google Trends recordings cover broad and rental interest for the two demo localities.
+Weekly percentage changes are computed from each normalized series; raw indexes from separate
+requests are not compared. Two real DeepSeek reviews supply cited hypotheses, without changing
+measured conclusions. App demand uses database search intents, spending no provider searches.
+See [search-driven research](SEARCH_DRIVEN_AREA_INSIGHTS.md).
 
 F-09 reuses F-03 sale-price benchmarks and gateway caches. For the committed demos, four
 additional Google searches supply financial evidence: Whitefield rent/growth and Koramangala

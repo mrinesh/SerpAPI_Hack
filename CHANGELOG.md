@@ -13,6 +13,11 @@ Reference CHECKLIST IDs.
   Tests no longer read `.env`, so they cannot pick up real API keys.
 
 ### Added
+- 2026-10-07 · F-05 P1: real Google Trends locality/rental histories and actual app search intents;
+  distinct-profile weekly counts, quarter/annual growth checks, transparent corroborated research
+  priorities, validated DeepSeek news hypotheses, frozen development API and weekly evidence UI.
+  Recorded demos correctly receive no priority with falling rental interest. Added tests and
+  methodology/benefit guide; no invented app-history backfill.
 - 2026-10-06 · F-09: sourced rent inputs and reported annual growth, pure financial arithmetic,
   same-type area price comparisons, gross rental yield before costs, explicit growth assumptions,
   illustrative total return and goal-specific target checks. Unsafe sale prices cannot produce

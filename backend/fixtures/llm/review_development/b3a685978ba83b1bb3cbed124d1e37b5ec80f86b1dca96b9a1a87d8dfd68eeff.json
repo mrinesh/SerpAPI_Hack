@@ -1,0 +1,29 @@
+{
+  "key": "b3a685978ba83b1bb3cbed124d1e37b5ec80f86b1dca96b9a1a87d8dfd68eeff",
+  "task": "review_development",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "review": "mixed",
+    "hypotheses": [
+      {
+        "driver": "transport",
+        "news_index": 4,
+        "quote": "BMRCL awards contract for short Purple Line extension beyond Whitefield",
+        "confidence": 0.9
+      },
+      {
+        "driver": "employment",
+        "news_index": 5,
+        "quote": "DHR Holdings leases 1.8 lakh sq ft office space in Bengaluru’s Whitefield for total rent of ₹88 crore | Real Estate News",
+        "confidence": 0.85
+      },
+      {
+        "driver": "amenities",
+        "news_index": 1,
+        "quote": "Bengaluru Passport Seva Kendra Shifts To Whitefield From October 5; Check New Address, Metro Access",
+        "confidence": 0.8
+      }
+    ]
+  }
+}

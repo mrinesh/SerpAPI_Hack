@@ -25,3 +25,9 @@ Whitefield rental evidence remains unavailable; Koramangala annual office growth
 unavailable. These gaps are intentionally preserved, rather than fabricated for replay.
 From `backend/`, `uv run python scripts/record_investment_metrics.py --profile both` records
 missing responses in a temporary DB while reusing all existing provider fixtures.
+
+Search-driven area research adds four real `google_trends` fixtures (broad and rental interest
+for Whitefield and Koramangala, `IN-KA`, `today 5-y`) and two real `review_development` DeepSeek
+responses. Each report retains 104 complete public weeks; falling rental histories receive no
+priority rank. App histories are collected from real run starts, never seeded as provider data.
+`uv run python scripts/record_search_growth.py --profile both` records these in an isolated DB.

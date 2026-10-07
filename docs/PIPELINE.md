@@ -18,8 +18,9 @@ Each stage emits a `StageEvent` (status, message, counts) that the UI polls, so 
 the pipeline working live (F-20). A failing stage marks the run failed without discarding
 earlier results.
 
-> Status: plan, fetch and clean (F-02), verification (F-03) and area enrichment (F-05 P0) are built.
-> Ranking, investment metrics and competitors remain pending. Both demo profiles replay end to end
+> Status: plan, fetch and clean (F-02), verification (F-03), area enrichment/search histories
+> (F-05) and investment metrics (F-09) are built. Property ranking and competitors remain pending.
+> Both demo profiles replay end to end
 > with no keys, from committed
 > SerpApi and DeepSeek recordings. Discovery comes from S-01
 > ([findings](spikes/S-01-data-coverage.md), [ADR 0011](decisions/0011-discovery-from-search-snippets.md)).
@@ -122,7 +123,7 @@ criteria and evidence across repeat runs.
 
 ## 5 · Enrich (`enrichment/`, `metrics.py`, F-05, F-06, F-09)
 
-**Area intelligence (built)**: once per discovered locality, cached `AREA_INTEL_TTL_HOURS`
+**Area intelligence (built)**: once per selected locality, cached `AREA_INTEL_TTL_HOURS`
 (default 168). Uses canonical reference names/aliases, validates source results and preserves
 partial failures as section warnings. Snapshots are committed per run/locality. Existing
 verification price levels are attached without repeating their searches.
@@ -141,7 +142,14 @@ Searches:
 | Amenities | google_maps | `"{category} near {locality} {city}"`, with `ll` from the sourced centre |
 | News and infrastructure | google_news | `"{locality}" Bengaluru` → classified by `classify_news` |
 | Price level | google | Reuse F-12 per-locality/type benchmark searches; no extra F-05 call |
-| Rental demand (P1, pending) | google_trends | `"flats for rent {locality}"` for up to 5 localities in one call |
+| Public search histories (P1, built) | google_trends | Two batches: locality names, and `{locality} rent`; up to five each, `IN-KA`, `today 5-y` |
+
+**Locality research (built):** run start records actual requested locality intents. Enrichment
+compares complete public/app weekly histories in code, checks annual persistence and corroborates
+property-search growth with observed prices or recent news. It saves progressive frozen reports,
+then ranks only eligible research priorities. DeepSeek reviews consistency and selects complete
+cited news quotes for explicitly unconfirmed causes; it cannot alter scores/ranks. Missing history
+and provider failures stay explicit. See [benefits and methodology](SEARCH_DRIVEN_AREA_INSIGHTS.md).
 
 **Competitors** (commercial only): google_maps `"{business_type}"` near the property →
 density, ratings, review volume, saturation. P1: google_maps_reviews for the top competitors →
@@ -152,7 +160,8 @@ density, ratings, review volume, saturation. P1: google_maps_reviews for the top
 input per locality/type. Commercial unit rent + a single quoted area can be converted to a rate.
 Rent units/amounts are screened in code before DeepSeek selects complete source evidence.
 Existing gateway budgets, record/replay and caches apply. Missing evidence and provider errors
-stay missing, with actionable notes. A profile growth override skips growth searches.
+stay missing, with actionable notes. A profile growth override skips F-09 growth searches;
+locality research separately requests observed growth, which never uses that assumption.
 
 Pure `compute_metrics` does no I/O. It uses extracted listings and existing area price levels,
 carries source unions and weakest confidence, and saves one frozen metric snapshot per candidate.

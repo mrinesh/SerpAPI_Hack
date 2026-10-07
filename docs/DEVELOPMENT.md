@@ -160,6 +160,11 @@ as real provider recordings; tests generate fake responses in temporary fixture 
 
 ## Area intelligence recording (F-05)
 
+For public search histories and grounded development reviews, run
+`uv run python scripts/record_search_growth.py --profile both` from `backend/` with configured
+keys. This records real providers in an isolated database and reuses existing fixtures.
+It never seeds fake app histories. See [growth methodology and replay results](SEARCH_DRIVEN_AREA_INSIGHTS.md).
+
 ```bash
 cd backend
 uv run python scripts/record_area_intel.py --profile both

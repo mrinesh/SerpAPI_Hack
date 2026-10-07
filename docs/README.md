@@ -10,6 +10,8 @@
 | [API.md](API.md) | Endpoints and their build status |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Setup, config, commands, conventions, definition of done |
 | [F05_AREA_INTELLIGENCE.md](F05_AREA_INTELLIGENCE.md) | F-05 architecture, file walkthrough, cache/evidence decisions, API examples and debugging |
+| [F09_INVESTMENT_METRICS.md](F09_INVESTMENT_METRICS.md) | Financial calculations, evidence and before/after benefits |
+| [SEARCH_DRIVEN_AREA_INSIGHTS.md](SEARCH_DRIVEN_AREA_INSIGHTS.md) | Public/app histories, growth checks, research ranks, AI hypotheses and actual demo results |
 | [decisions/](decisions/) | Architecture Decision Records |
 | [spikes/](spikes/) | Investigation write-ups (S-01 data coverage, ...) |
 | [SUBMISSION.md](SUBMISSION.md) | Hackathon form drafts, demo script, pre-submit checks |

@@ -1,0 +1,29 @@
+{
+  "key": "9473d7f84d0e3564e816e2998951471c8fba5c3f3b87f3fad80ba1e28c739ad4",
+  "task": "review_development",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "review": "consistent",
+    "hypotheses": [
+      {
+        "driver": "transport",
+        "news_index": 5,
+        "quote": "Bengaluru CEO fixes footpath near Koramangala society, builds a ramp: ‘It cost me ₹2,700’ | Trending",
+        "confidence": 0.7
+      },
+      {
+        "driver": "amenities",
+        "news_index": 9,
+        "quote": "Bengaluru's Koramangala gets ‘wealth from waste’ centre",
+        "confidence": 0.7
+      },
+      {
+        "driver": "publicity",
+        "news_index": 0,
+        "quote": "Man found dead inside parked car in Bengaluru's Koramangala",
+        "confidence": 0.5
+      }
+    ]
+  }
+}

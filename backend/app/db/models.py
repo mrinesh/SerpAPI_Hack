@@ -116,6 +116,29 @@ class RunAreaIntelRow(Base):
     data: Mapped[dict[str, Any]] = mapped_column(JSON)
 
 
+class SearchIntentRow(Base):
+    """Actual requested locality at run start; independent of subsequent profile edits."""
+
+    __tablename__ = "search_intents"
+    run_id: Mapped[str] = mapped_column(
+        ForeignKey("pipeline_runs.id", ondelete="CASCADE"), primary_key=True
+    )
+    locality_key: Mapped[str] = mapped_column(String(128), primary_key=True)
+    profile_id: Mapped[str] = mapped_column(ForeignKey("investor_profiles.id"), index=True)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, index=True
+    )
+
+
+class RunDevelopmentRow(Base):
+    __tablename__ = "run_development"
+    run_id: Mapped[str] = mapped_column(
+        ForeignKey("pipeline_runs.id", ondelete="CASCADE"), primary_key=True
+    )
+    locality_key: Mapped[str] = mapped_column(String(128), primary_key=True)
+    data: Mapped[dict[str, Any]] = mapped_column(JSON)
+
+
 class CompetitorReportRow(Base):
     __tablename__ = "competitor_reports"
 

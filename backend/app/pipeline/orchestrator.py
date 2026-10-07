@@ -21,7 +21,7 @@ from sqlalchemy.orm import Session
 
 from app.config import get_settings
 from app.core.errors import AppError, InvalidInput
-from app.db.models import RunAreaIntelRow, RunRow, SearchLedgerRow
+from app.db.models import RunAreaIntelRow, RunDevelopmentRow, RunRow, SearchLedgerRow
 from app.db.session import SessionLocal
 from app.integrations.llm.factory import get_llm
 from app.integrations.serpapi.gateway import SerpApiGateway
@@ -29,13 +29,16 @@ from app.pipeline.cleaning import normalize_hits
 from app.pipeline.context import PipelineContext
 from app.pipeline.discovery import fetch_hits
 from app.pipeline.enrichment.area import get_area_intel
+from app.pipeline.enrichment.development import build_report, rank_reports
 from app.pipeline.enrichment.investment import InvestmentInputs
 from app.pipeline.enrichment.price_level import price_levels
+from app.pipeline.enrichment.search_history import public_history, record_intent
 from app.pipeline.metrics import compute_metrics
 from app.pipeline.persist import save_candidates, save_metrics, save_verification
 from app.pipeline.query_planner import plan_queries
 from app.pipeline.verification import extract, verify
 from app.reference import load_market
+from app.schemas.area import AreaIssue
 from app.schemas.run import PipelineRun, PipelineStage, RunStatus, StageEvent
 from app.services import profiles
 
@@ -60,7 +63,7 @@ class StageFailed(Exception):
 
 def start_run(db: Session, profile_id: str) -> PipelineRun:
     """Create the run record and run the pipeline in the background."""
-    profiles.get_profile(db, profile_id)  # 404 for an unknown profile
+    profile = profiles.get_profile(db, profile_id)  # 404 for an unknown profile
     run = RunRow(
         profile_id=profile_id,
         status=RunStatus.PENDING,
@@ -70,6 +73,8 @@ def start_run(db: Session, profile_id: str) -> PipelineRun:
         ],
     )
     db.add(run)
+    db.flush()
+    record_intent(db, run.id, profile)
     db.commit()
     _launch(run.id)
     return to_schema(run)
@@ -197,13 +202,8 @@ def run_pipeline(run_id: str) -> None:
                 candidates = [extracted_by_id.get(item.id, item) for item in result.listings]
                 inputs = InvestmentInputs(ctx, market)
                 areas = {}
-                localities = sorted(
-                    {
-                        listing.locality.value
-                        for listing in result.listings
-                        if listing.locality.value
-                    }
-                )
+                # Area research remains useful even when no matching sale candidate is found.
+                localities = sorted(profile.localities)
                 event.counts = {
                     "localities": len(localities),
                     "areas": 0,
@@ -212,6 +212,8 @@ def run_pipeline(run_id: str) -> None:
                     "metrics": 0,
                     "roi_assessed": 0,
                     "investment_warnings": 0,
+                    "development": 0,
+                    "development_warnings": 0,
                 }
                 for locality in localities:
                     event.message = f"Enriching {locality}"
@@ -286,6 +288,58 @@ def run_pipeline(run_id: str) -> None:
                     )
                     tracker.update_search_counts()
                     tracker.replace(event)
+                event.message = "Comparing public search trends and recorded app search history"
+                tracker.replace(event)
+                histories, history_issues = public_history(ctx, market, localities)
+                tracker.update_search_counts()
+                reports = []
+                for locality in localities:
+                    prior_warnings = len(inputs.warnings)
+                    observed = {
+                        str(kind): inputs.observed_growth(locality, kind)
+                        for kind in profile.property_types
+                    }
+                    tracker.update_search_counts()
+                    report = build_report(ctx, areas[locality], histories[locality], observed)
+                    report.warnings.extend(history_issues)
+                    report.warnings.extend(
+                        AreaIssue(
+                            operation="observed_prices",
+                            provider="search/llm",
+                            code="evidence_unavailable",
+                            message=message,
+                        )
+                        for message in inputs.warnings[prior_warnings:]
+                    )
+                    event.counts["investment_warnings"] = len(inputs.warnings)
+                    reports.append(report)
+                    db.merge(
+                        RunDevelopmentRow(
+                            run_id=run_id,
+                            locality_key=report.locality_key,
+                            data=report.model_dump(mode="json"),
+                        )
+                    )
+                    db.commit()
+                    event.counts["development"] += 1
+                    event.counts["development_warnings"] += len(report.warnings)
+                    tracker.update_search_counts()
+                    tracker.replace(event)
+                for report in rank_reports(reports):
+                    db.merge(
+                        RunDevelopmentRow(
+                            run_id=run_id,
+                            locality_key=report.locality_key,
+                            data=report.model_dump(mode="json"),
+                        )
+                    )
+                db.commit()
+                event.message = (
+                    f"{len(reports)} locality search-history assessments saved; "
+                    f"{sum(r.rank is not None for r in reports)} developing-area priorities; "
+                    f"{event.counts['development_warnings']} analysis warnings. "
+                    "Property ranking remains pending (F-04)."
+                )
             tracker.update_search_counts()
             for stage, feature in NOT_BUILT.items():
                 tracker.note(stage, f"Not built yet ({feature})")

@@ -45,7 +45,7 @@ code for an ID finds every stub that belongs to it.
 | F-02 | Property discovery | P0 | ✅ | |
 | F-03 | AI relevance verification | P0 | ✅ | |
 | F-04 | Ranked recommendations with reasons | P0 | 🧱 | |
-| F-05 | Area intelligence (P0; Trends P1 pending) | P0 | ✅ | |
+| F-05 | Area intelligence (P0 + Trends P1) | P0 | ✅ | Public/app growth observations and research priorities |
 | F-06 | Competitor analysis (commercial) | P0 | 🧱 | |
 | F-07 | Property detail page | P0 | 🧱 | |
 | F-08 | Saved properties and side-by-side compare | P1 | 🧱 | |
@@ -247,7 +247,11 @@ Implementation and debugging: [docs/F05_AREA_INTELLIGENCE.md](docs/F05_AREA_INTE
       F-12 flags and attached to run area snapshots; no duplicate search; growth inputs remain F-09)
 - [x] Structured infrastructure/civic/policy evidence, complete validated quotes and source links; run-page area panel
 - [x] Typed read-only area/run-area APIs; real recordings for both demos; normalization/cache/failure/API tests
-- [ ] P1: rental demand from google_trends (compare localities in one call) + chart
+- [x] P1: public locality/rental Google Trends histories (up to five per batch), weekly charts and raw observations
+- [x] Actual app search-intent history, distinct-profile weekly counts and explicit insufficient-baseline state
+- [x] Pure quarter/annual growth checks, corroborated locality research ranks and validated AI causal hypotheses
+- [x] Frozen development API, real demo recordings, growth/sample/evidence/API/rendering tests;
+      [benefits and methodology](docs/SEARCH_DRIVEN_AREA_INSIGHTS.md)
 
 ### F-06 Competitor analysis (commercial) · P0 · 🧱
 - [ ] Same-category places near the property via google_maps

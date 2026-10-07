@@ -203,5 +203,7 @@ F-09 now implements those calculations and keeps type-specific growth/candidate 
 in frozen financial snapshots rather than the generic area payload. See the
 [F-09 walkthrough and before/after benefits](F09_INVESTMENT_METRICS.md).
 
-Google Trends rental-demand charts remain the separately prioritized F-05 P1 work. Permanent
+Google Trends charts, actual app search history, growth checks and corroborated locality
+research priorities are now implemented as frozen development reports. See
+[search-driven research and its benefits](SEARCH_DRIVEN_AREA_INSIGHTS.md). Permanent
 geocoding, full article retrieval and property-specific travel distances are not implemented.

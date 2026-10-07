@@ -154,6 +154,10 @@ class InvestmentInputs:
         if self.ctx.profile.expected_growth_pct is not None:
             return missing("Investor override supplied; no growth search needed")
         slug, kind = listing.locality.value, listing.property_type.value
+        return self.observed_growth(slug, kind)
+
+    def observed_growth(self, slug: str | None, kind: PropertyType | None) -> Sourced[float]:
+        """Measured history for area research; an investor assumption never replaces evidence."""
         if not slug or kind not in TYPE_WORDS:
             return missing("No supported same-type annual price growth input")
         key = slug, kind
