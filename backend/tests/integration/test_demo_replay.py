@@ -4,6 +4,7 @@ import pytest
 
 from app.config import get_settings
 from app.pipeline import orchestrator
+from app.reference import load_market
 from app.reference.demo_profiles import DEMO_PROFILES
 
 
@@ -205,3 +206,43 @@ def test_deleting_a_commercial_profile_removes_its_frozen_competitors(client):
     assert client.get(f"/api/runs/{run_id}/competitors").json()
     assert client.delete(f"/api/profiles/{profile_id}").status_code == 204
     assert client.get(f"/api/runs/{run_id}/competitors").status_code == 404
+
+
+# Recorded weekday 9 AM drives from each demo centre (F-23, S-04): (minutes, typical range).
+DEMO_COMMUTES = {
+    "residential": {"orr-bellandur": (60, 45, 90), "manyata": (70, 55, 110),
+                    "electronic-city": (80, 60, 120)},
+    "commercial": {"orr-bellandur": (45, 35, 70), "manyata": (65, 45, 100),
+                   "electronic-city": (35, 22, 55)},
+}  # fmt: skip
+
+
+@pytest.mark.parametrize("name", DEMO_PROFILES)
+def test_demo_areas_have_commutes_to_every_job_hub(client, name):
+    [area] = client.get(f"/api/runs/{_run(client, name)}/areas").json()
+    found = {
+        slug: (c["duration_min"]["value"], c["typical_min"], c["typical_max"])
+        for slug, c in area["commutes"].items()
+    }
+    assert found == DEMO_COMMUTES[name]
+    assert all(area["section_status"][f"commute:{slug}"] == "ok" for slug in found)
+    assert all(
+        c["hub_location"] and c["duration_min"]["sources"] for c in area["commutes"].values()
+    )
+    assert area["warnings"] == []
+
+
+@pytest.mark.parametrize("name", DEMO_PROFILES)
+def test_commutes_are_display_only(client, name, monkeypatch):
+    """The shortlist and its scores are identical with and without job hubs (ADR 0026)."""
+
+    def shortlist(run_id):
+        return [
+            (r["listing"]["id"], r["score"], r["score_breakdown"], r["reason"])
+            for r in client.get(f"/api/runs/{run_id}/recommendations").json()
+        ]
+
+    with_commutes = shortlist(_run(client, name))
+    monkeypatch.setattr(load_market("Bengaluru"), "job_hubs", [])
+    without = shortlist(_run(client, name))
+    assert with_commutes == without

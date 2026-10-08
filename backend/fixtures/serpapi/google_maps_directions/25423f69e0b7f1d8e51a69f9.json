@@ -1,0 +1,1158 @@
+{
+ "engine": "google_maps_directions",
+ "params": {
+  "start_coords": "12.9698196,77.7499721",
+  "end_addr": "Electronic City Phase 1, Bengaluru",
+  "travel_mode": 0,
+  "time": "depart_at:1791882000",
+  "distance_unit": 0,
+  "gl": "in",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac72ccdafea45e41370bd49",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/Qj1xl7LhgyhVIAKEU3ZpHxXquTvpB46m96Ku6ox7MMo/6ac72ccdafea45e41370bd49.json",
+   "markdown_endpoint": "https://serpapi.com/searches/Qj1xl7LhgyhVIAKEU3ZpHxXquTvpB46m96Ku6ox7MMo/6ac72ccdafea45e41370bd49.md",
+   "created_at": "2026-10-08 05:40:29 UTC",
+   "processed_at": "2026-10-08 05:40:29 UTC",
+   "google_maps_directions_url": "https://www.google.com/maps/dir/12.9698196%2C+77.7499721/Electronic+City+Phase+I%2C+Electronic+City%2C+Bengaluru%2C+Karnataka/data=!3m1!4b1!4m16!4m15!1m3!2m2!1d77.7499721!2d12.9698196!1m5!1m1!1s0x3bae6c84c653f867:0xa2b7177c72352af9!2m2!1d77.655452!2d12.839274699999999!2m3!6e0!7e2!8j1791882000!3e0?hl=en&gl=in",
+   "raw_html_file": "https://serpapi.com/searches/Qj1xl7LhgyhVIAKEU3ZpHxXquTvpB46m96Ku6ox7MMo/6ac72ccdafea45e41370bd49.html",
+   "prettify_html_file": "https://serpapi.com/searches/Qj1xl7LhgyhVIAKEU3ZpHxXquTvpB46m96Ku6ox7MMo/6ac72ccdafea45e41370bd49.prettify",
+   "total_time_taken": 1.93
+  },
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "in",
+   "end_addr": "Electronic City Phase 1, Bengaluru",
+   "start_coords": "12.9698196,77.7499721",
+   "travel_mode": "0",
+   "distance_unit": "0",
+   "time": "depart_at:1791882000"
+  },
+  "places_info": [
+   {
+    "address": "12.9698196, 77.7499721",
+    "gps_coordinates": {
+     "latitude": 12.9698196,
+     "longitude": 77.7499721
+    }
+   },
+   {
+    "address": "Electronic City Phase I, Electronic City, Bengaluru, Karnataka",
+    "data_id": "0x3bae6c84c653f867:0xa2b7177c72352af9",
+    "gps_coordinates": {
+     "latitude": 12.839274699999999,
+     "longitude": 77.655452
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Driving",
+    "via": "Chandapura - Dommasandra Rd",
+    "distance": 33161,
+    "duration": 4800,
+    "arrive_around": 1791869400,
+    "typical_duration_range": "1–2 hr",
+    "formatted_distance": "33.2 km",
+    "formatted_duration": "1 hr 20 min",
+    "formatted_arrive_around": "11:00 AM",
+    "extensions": [
+     "Fastest route now, avoids slowdowns on HAL Old Airport Rd."
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "distance": 57,
+      "duration": 13,
+      "formatted_distance": "57 m",
+      "formatted_duration": "13 sec",
+      "details": [
+       {
+        "title": "Head toward  Whitefield Main Rd",
+        "action": "straight",
+        "distance": 57,
+        "duration": 13,
+        "formatted_distance": "57 m",
+        "formatted_duration": "13 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PdGHUIvlbXchnw5Hamlk7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=66.4867&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969783991526203,
+         "longitude": 77.75000686241592
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Borewell Rd  and  Ramagondanahalli Borewell Rd  to  Varthur Main Rd / SH 35  in  Ramagondanahalli",
+      "distance": 2729,
+      "duration": 468,
+      "formatted_distance": "2.7 km",
+      "formatted_duration": "8 min",
+      "details": [
+       {
+        "title": "Turn  left  after  Brothers Bakery And Sweets (on the left)",
+        "action": "turn-left",
+        "distance": 211,
+        "duration": 60,
+        "formatted_distance": "210 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V6rStA3__unaeQWPLwQDEg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=191.85803&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.970148969769989,
+         "longitude": 77.74997761265716
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  3rd Cross Rd",
+        "action": "turn-left",
+        "distance": 148,
+        "duration": 32,
+        "formatted_distance": "150 m",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YHb91vrNPcXYBDpjLm9mHQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=92.82989&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.96972883552626,
+         "longitude": 77.74840221797896
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Borewell Rd",
+        "action": "turn-right",
+        "distance": 563,
+        "duration": 111,
+        "formatted_distance": "550 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uYxbiEmGl-0VnkbAd8fyiw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=9.908226&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.968615392641627,
+         "longitude": 77.74800188272613
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Ramagondanahalli Borewell Rd",
+        "action": "turn-left",
+        "distance": 1448,
+        "duration": 217,
+        "formatted_distance": "1.4 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=m1FHuYmzkqKaDLsJLvSDvA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=100.11974&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969090233951052,
+         "longitude": 77.74298896926733
+        },
+        "extensions": [
+         "Pass by the lake (on the left in 400m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  HAL Old Airport Rd / Varthur Main Rd / Whitefield Main Rd",
+        "action": "turn-left",
+        "distance": 359,
+        "duration": 48,
+        "formatted_distance": "350 m",
+        "formatted_duration": "48 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VFTOxIRvhFmv1TN5O136Uw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=183.94298&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.957291022823474,
+         "longitude": 77.7421287067567
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Continue on  SH 35  to  Choudadenahalli, Thigala Chowdadenahalli",
+      "distance": 9220,
+      "duration": 1296,
+      "formatted_distance": "9.2 km",
+      "formatted_duration": "22 min",
+      "details": [
+       {
+        "title": "At the roundabout, take the  2nd  exit onto  Varthur Main Rd / SH 35",
+        "action": "roundabout-left",
+        "distance": 6544,
+        "duration": 1071,
+        "formatted_distance": "6.5 km",
+        "formatted_duration": "18 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xxQEl-bSfSQJmglSq5IIpg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=243.94237&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.956912537144918,
+         "longitude": 77.74520490910494
+        },
+        "extensions": [
+         "Continue to follow SH 35",
+         "Pass by the lake (on the right)"
+        ]
+       },
+       {
+        "title": "Continue onto  Varthur Rd / Varthur - Sarjapur Rd",
+        "action": "straight",
+        "distance": 2676,
+        "duration": 225,
+        "formatted_distance": "2.7 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PX-A-3yEZHVVKI4mqC742g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=165.10968&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.906763669302906,
+         "longitude": 77.7463564329022
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Chandapura - Dommasandra Rd  to  NH 44 / NH 48  in  Keerthi Layout, Andapura",
+      "distance": 13164,
+      "duration": 1446,
+      "formatted_distance": "13.2 km",
+      "formatted_duration": "24 min",
+      "details": [
+       {
+        "title": "Turn  right  after  Bake wala (on the left)",
+        "action": "turn-right",
+        "distance": 1601,
+        "duration": 202,
+        "formatted_distance": "1.6 km",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IoCJH1Ulq64diJsoR08TIA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=340.79977&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.883464976770163,
+         "longitude": 77.752357644652
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Chandapura - Dommasandra Rd",
+        "action": "turn-left",
+        "distance": 10956,
+        "duration": 1157,
+        "formatted_distance": "11.0 km",
+        "formatted_duration": "19 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VAMaz0S0xEheAKuJrGTAeA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=97.74112&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.887351540374949,
+         "longitude": 77.73861406519252
+        },
+        "extensions": [
+         "Pass by the lake (on the right in 10.6 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  at  VENKATESH STORE  onto  Bengaluru - Chennai Hwy / Hosur Rd / Mumbai Hwy / Srinagar - Kanyakumari Hwy",
+        "action": "turn-left",
+        "distance": 62,
+        "duration": 17,
+        "formatted_distance": "62 m",
+        "formatted_duration": "17 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZYFzWbz16hCWe4dj-20-hg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=19.718603&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.802718529604556,
+         "longitude": 77.70465768908171
+        },
+        "extensions": [
+         "Pass by Ujjivan Small Finance Bank ATM (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Make a  U-turn  at  Muthulakshmi Flowers",
+        "action": "uturn-right",
+        "distance": 545,
+        "duration": 70,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VIkw1O4ZX5qxgxFLONVErg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=280.1192&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.80252105546205,
+         "longitude": 77.7050110998884
+        },
+        "extensions": [
+         "Pass by SBI Branch Surya Nagar (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_u_turn_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "distance": 5316,
+      "duration": 473,
+      "formatted_distance": "5.3 km",
+      "formatted_duration": "8 min",
+      "details": [
+       {
+        "title": "Merge onto  Bengaluru - Chennai Hwy / Hosur Rd / Mumbai Hwy / Srinagar - Kanyakumari Hwy / NH 44 / NH 48",
+        "action": "merge",
+        "distance": 5316,
+        "duration": 473,
+        "formatted_distance": "5.3 km",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=bgUdH6Qww2m827rB0HSSkw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=144.9515&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.803919553566814,
+         "longitude": 77.70100699294092
+        },
+        "extensions": [
+         "Pass by the lake (on the left in 4.7 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/merge_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Take  2nd main Rd ,  4th Cross Rd  and  Wipro Ave  to  Neeladri Rd  in  Electronic City Phase I, Doddathoguru",
+      "distance": 2675,
+      "duration": 458,
+      "formatted_distance": "2.7 km",
+      "formatted_duration": "8 min",
+      "details": [
+       {
+        "title": "Turn  left  toward  HCL Technologies Rd",
+        "action": "turn-left",
+        "distance": 64,
+        "duration": 12,
+        "formatted_distance": "64 m",
+        "formatted_duration": "12 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6VMFVOIdtKGTjFIUC6WC4Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=302.495&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.843318921507626,
+         "longitude": 77.67430840035021
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At  MANJUNATHA G , continue onto  HCL Technologies Rd",
+        "action": "turn-right",
+        "distance": 230,
+        "duration": 44,
+        "formatted_distance": "230 m",
+        "formatted_duration": "44 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=cJ5iTWqcWJuVd1z7iATJiw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=234.78127&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.84325416938279,
+         "longitude": 77.67385249187903
+        },
+        "extensions": [
+         "Pass by BETPL (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  at  the park  onto  2nd main Rd",
+        "action": "turn-left",
+        "distance": 901,
+        "duration": 148,
+        "formatted_distance": "900 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=M8cBSwICXmAXXm5FADzq_w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=143.67493&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.8446514015269,
+         "longitude": 77.67248134774835
+        },
+        "extensions": [
+         "Pass by YASKAWA INDIA (on the left in 350m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At  ENNOVI MOBILITY SOLUTIONS INDIA PRIVATE LIMITED , continue onto  4th Cross Rd",
+        "action": "straight",
+        "distance": 531,
+        "duration": 89,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MRXDShBO_mjIG42m5J5qWg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=88.32693&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.841893259859177,
+         "longitude": 77.66507060524374
+        },
+        "extensions": [
+         "Pass by Center for Development of Advanced Computing (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Wipro Ave",
+        "action": "turn-left",
+        "distance": 539,
+        "duration": 102,
+        "formatted_distance": "550 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by Teknic Electromeconics Private Limited (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  right  at  Wipro Gate Shikaripalya  onto  Neeladri Rd",
+        "action": "turn-slight-right",
+        "distance": 410,
+        "duration": 63,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gJfShuN39mF1JGeMQLrA4A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=44.590206&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.83907423098748,
+         "longitude": 77.65924199220002
+        },
+        "extensions": [
+         "Pass by Wipro Limited (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "SH 35",
+    "distance": 27954,
+    "duration": 4800,
+    "arrive_around": 1791869400,
+    "typical_duration_range": "1 hr 5 min to 2 hr",
+    "formatted_distance": "28.0 km",
+    "formatted_duration": "1 hr 20 min",
+    "formatted_arrive_around": "11:00 AM",
+    "extensions": [
+     "Avoids slowdowns on HAL Old Airport Rd"
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Ramagondanahalli Borewell Rd ,  SH 35 ,  Varthur Rd / Varthur - Sarjapur Rd ,  Ambalipura - Sarjapur Rd / Sarjapur - Marathahalli Rd , ... and  Shantipura Main Rd  to  Neeladri Rd  in  Electronic City Phase I, Doddathoguru",
+      "distance": 27954,
+      "duration": 4313,
+      "formatted_distance": "28.0 km",
+      "formatted_duration": "1 hr 12 min",
+      "details": [
+       {
+        "title": "Head toward  Whitefield Main Rd",
+        "action": "straight",
+        "distance": 57,
+        "duration": 13,
+        "formatted_distance": "57 m",
+        "formatted_duration": "13 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PdGHUIvlbXchnw5Hamlk7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=66.4867&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969783991526203,
+         "longitude": 77.75000686241592
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  after  Brothers Bakery And Sweets (on the left)",
+        "action": "turn-left",
+        "distance": 211,
+        "duration": 60,
+        "formatted_distance": "210 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V6rStA3__unaeQWPLwQDEg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=191.85803&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.970148969769989,
+         "longitude": 77.74997761265716
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  3rd Cross Rd",
+        "action": "turn-left",
+        "distance": 148,
+        "duration": 32,
+        "formatted_distance": "150 m",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YHb91vrNPcXYBDpjLm9mHQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=92.82989&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.96972883552626,
+         "longitude": 77.74840221797896
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Borewell Rd",
+        "action": "turn-right",
+        "distance": 563,
+        "duration": 111,
+        "formatted_distance": "550 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uYxbiEmGl-0VnkbAd8fyiw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=9.908226&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.968615392641627,
+         "longitude": 77.74800188272613
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Ramagondanahalli Borewell Rd",
+        "action": "turn-left",
+        "distance": 1448,
+        "duration": 217,
+        "formatted_distance": "1.4 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=m1FHuYmzkqKaDLsJLvSDvA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=100.11974&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969090233951052,
+         "longitude": 77.74298896926733
+        },
+        "extensions": [
+         "Pass by the lake (on the left in 400m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  HAL Old Airport Rd / Varthur Main Rd / Whitefield Main Rd",
+        "action": "turn-left",
+        "distance": 359,
+        "duration": 48,
+        "formatted_distance": "350 m",
+        "formatted_duration": "48 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VFTOxIRvhFmv1TN5O136Uw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=183.94298&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.957291022823474,
+         "longitude": 77.7421287067567
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At the roundabout, take the  2nd  exit onto  Varthur Main Rd / SH 35",
+        "action": "roundabout-left",
+        "distance": 6544,
+        "duration": 1071,
+        "formatted_distance": "6.5 km",
+        "formatted_duration": "18 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xxQEl-bSfSQJmglSq5IIpg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=243.94237&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.956912537144918,
+         "longitude": 77.74520490910494
+        },
+        "extensions": [
+         "Continue to follow SH 35",
+         "Pass by the lake (on the right)"
+        ]
+       },
+       {
+        "title": "Continue onto  Varthur Rd / Varthur - Sarjapur Rd",
+        "action": "straight",
+        "distance": 2676,
+        "duration": 225,
+        "formatted_distance": "2.7 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PX-A-3yEZHVVKI4mqC742g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=165.10968&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.906763669302906,
+         "longitude": 77.7463564329022
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  after  Bake wala (on the left)",
+        "action": "turn-right",
+        "distance": 1601,
+        "duration": 202,
+        "formatted_distance": "1.6 km",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IoCJH1Ulq64diJsoR08TIA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=340.79977&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.883464976770163,
+         "longitude": 77.752357644652
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Chandapura - Dommasandra Rd",
+        "action": "turn-left",
+        "distance": 1619,
+        "duration": 174,
+        "formatted_distance": "1.6 km",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VAMaz0S0xEheAKuJrGTAeA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=97.74112&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.887351540374949,
+         "longitude": 77.73861406519252
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  at  Chokkasandra Cross  onto  Huskur Dommasandra Rd",
+        "action": "turn-right",
+        "distance": 1735,
+        "duration": 311,
+        "formatted_distance": "1.7 km",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dFEpFKFNQo4YS2iHIfj1YA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=25.745249&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.873663749778526,
+         "longitude": 77.73419777120468
+        },
+        "extensions": [
+         "Pass by Chokkasandra Cross (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At  Sri Skanda trailer weigh bridge , continue onto  Dommasandra Huskur Road",
+        "action": "straight",
+        "distance": 2585,
+        "duration": 531,
+        "formatted_distance": "2.6 km",
+        "formatted_duration": "9 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YDBezcv8kaisMGRqHydvAg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=263.36243&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.877286084854674,
+         "longitude": 77.7190668739468
+        },
+        "extensions": [
+         "Pass by Satish moasik (on the left in 1.1 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Smrti Academy Rd",
+        "action": "turn-right",
+        "distance": 520,
+        "duration": 90,
+        "formatted_distance": "500 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=26U1i3aEwXTdO-zTVix0xg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=36.731533&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.858616160286736,
+         "longitude": 77.70869852452171
+        },
+        "extensions": [
+         "Pass by Puncher shop (on the right in 500m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  at  S R S Fruits And Vegetables  onto  Huskur Rd",
+        "action": "turn-left",
+        "distance": 2870,
+        "duration": 386,
+        "formatted_distance": "2.9 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=DzYn8cEfE3rbrcz0Jpvh6Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=343.43323&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.861357370311154,
+         "longitude": 77.70576901641772
+        },
+        "extensions": [
+         "Pass by the lake (on the right in 1.1 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Shantipura Main Rd",
+        "action": "turn-right",
+        "distance": 1889,
+        "duration": 342,
+        "formatted_distance": "1.9 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ZtQ3IU7MqQzoNfonwzIMqQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=35.640045&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.844039957808034,
+         "longitude": 77.68824870834993
+        },
+        "extensions": [
+         "Pass by Inspira Tropical Garden (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Use the right 2 lanes to take the ramp",
+        "action": "merge",
+        "distance": 563,
+        "duration": 63,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dB_NUt1JhzjviPFv7wlcsA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=141.6778&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.845696174982832,
+         "longitude": 77.67302148949965
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/merge_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  left",
+        "action": "turn-slight-left",
+        "distance": 236,
+        "duration": 42,
+        "formatted_distance": "240 m",
+        "formatted_duration": "42 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dBjjv19R6RvUmJuXsGslqQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=282.81726&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.845249083856714,
+         "longitude": 77.67228580565605
+        },
+        "extensions": [
+         "Pass by Electronic City NICE-10 (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  at  SVBT Electronic City Pickup Point  onto  1st Main Rd",
+        "action": "turn-left",
+        "distance": 528,
+        "duration": 84,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "extensions": [
+         "Pass by Electronic City (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Infosys Avenue",
+        "action": "straight",
+        "distance": 663,
+        "duration": 116,
+        "formatted_distance": "650 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by IIIT-Bangalore (Ecity Campus) (on the left in 350m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  at  Amity Online - Study Abroad | Electronic City  onto  Wipro Ave",
+        "action": "turn-left",
+        "distance": 729,
+        "duration": 132,
+        "formatted_distance": "750 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by Exasense Labs Limited (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  right  at  Wipro Gate Shikaripalya  onto  Neeladri Rd",
+        "action": "turn-slight-right",
+        "distance": 410,
+        "duration": 63,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gJfShuN39mF1JGeMQLrA4A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=44.590206&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.83907423098748,
+         "longitude": 77.65924199220002
+        },
+        "extensions": [
+         "Pass by Wipro Limited (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "Outer Ring Rd/Srinagar - Kanyakumari Hwy and Hosur Rd",
+    "distance": 29558,
+    "duration": 5400,
+    "arrive_around": 1791871200,
+    "typical_duration_range": "1 hr 10 min to 2 hr 30 min",
+    "formatted_distance": "29.6 km",
+    "formatted_duration": "1 hr 30 min",
+    "formatted_arrive_around": "11:30 AM",
+    "extensions": [
+     "Heavy traffic, as usual",
+     "This route has tolls."
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Ramagondanahalli Borewell Rd ,  HAL Old Airport Rd / Marathahalli Main Rd / Varthur Main Rd  and  Service Rd  to  NH 44  in  Kodbisanhalli",
+      "distance": 8701,
+      "duration": 1509,
+      "formatted_distance": "8.7 km",
+      "formatted_duration": "25 min",
+      "details": [
+       {
+        "title": "Head toward  Whitefield Main Rd",
+        "action": "straight",
+        "distance": 57,
+        "duration": 13,
+        "formatted_distance": "57 m",
+        "formatted_duration": "13 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PdGHUIvlbXchnw5Hamlk7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=66.4867&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969783991526203,
+         "longitude": 77.75000686241592
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  after  Brothers Bakery And Sweets (on the left)",
+        "action": "turn-left",
+        "distance": 211,
+        "duration": 60,
+        "formatted_distance": "210 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V6rStA3__unaeQWPLwQDEg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=191.85803&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.970148969769989,
+         "longitude": 77.74997761265716
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  3rd Cross Rd",
+        "action": "turn-left",
+        "distance": 148,
+        "duration": 32,
+        "formatted_distance": "150 m",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YHb91vrNPcXYBDpjLm9mHQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=92.82989&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.96972883552626,
+         "longitude": 77.74840221797896
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Borewell Rd",
+        "action": "turn-right",
+        "distance": 563,
+        "duration": 111,
+        "formatted_distance": "550 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uYxbiEmGl-0VnkbAd8fyiw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=9.908226&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.968615392641627,
+         "longitude": 77.74800188272613
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Ramagondanahalli Borewell Rd",
+        "action": "turn-left",
+        "distance": 1448,
+        "duration": 217,
+        "formatted_distance": "1.4 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=m1FHuYmzkqKaDLsJLvSDvA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=100.11974&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969090233951052,
+         "longitude": 77.74298896926733
+        },
+        "extensions": [
+         "Pass by the lake (on the left in 400m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  HAL Old Airport Rd / Marathahalli Main Rd / Varthur Main Rd",
+        "action": "turn-right",
+        "distance": 2795,
+        "duration": 499,
+        "formatted_distance": "2.8 km",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VFTOxIRvhFmv1TN5O136Uw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=183.94298&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.957291022823474,
+         "longitude": 77.7421287067567
+        },
+        "extensions": [
+         "Pass by SBI Branch Ramagondanahalli (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue straight",
+        "action": "straight",
+        "distance": 346,
+        "duration": 34,
+        "formatted_distance": "350 m",
+        "formatted_duration": "34 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1mfEnT0MjfMPyeYaa3fxxA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=270.25284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.955760114726287,
+         "longitude": 77.71673372799698
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Merge onto  HAL Old Airport Rd / Marathahalli Main Rd / Varthur Main Rd",
+        "action": "merge",
+        "distance": 1294,
+        "duration": 232,
+        "formatted_distance": "1.3 km",
+        "formatted_duration": "4 min",
+        "extensions": [
+         "Pass by TRENDS (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/merge_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Service Rd",
+        "action": "turn-left",
+        "distance": 1828,
+        "duration": 309,
+        "formatted_distance": "1.8 km",
+        "formatted_duration": "5 min",
+        "extensions": [
+         "Pass by Chef Bakers - Marathahalli CKB Layout (on the left in 500m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  right  toward  NH 44",
+        "action": "turn-slight-right",
+        "distance": 11,
+        "duration": 2,
+        "formatted_distance": "11 m",
+        "formatted_duration": "2 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  NH 44  and  100 Feet Ring Rd / Outer Ring Rd / Srinagar - Kanyakumari Hwy  to  Sector 6",
+      "distance": 7873,
+      "duration": 818,
+      "formatted_distance": "7.9 km",
+      "formatted_duration": "14 min",
+      "details": [
+       {
+        "title": "Turn  left  onto  NH 44",
+        "action": "turn-left",
+        "distance": 1275,
+        "duration": 118,
+        "formatted_distance": "1.3 km",
+        "formatted_duration": "2 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 1117,
+        "duration": 105,
+        "formatted_distance": "1.1 km",
+        "formatted_duration": "2 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 1426,
+        "duration": 139,
+        "formatted_distance": "1.4 km",
+        "formatted_duration": "2 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 3375,
+        "duration": 390,
+        "formatted_distance": "3.4 km",
+        "formatted_duration": "7 min",
+        "extensions": [
+         "Continue to follow 100 Feet Ring Rd/Outer Ring Rd/Srinagar - Kanyakumari Hwy",
+         "Pass by the lake (on the right in 3 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  left  to take the flyover",
+        "action": "turn-left",
+        "distance": 680,
+        "duration": 66,
+        "formatted_distance": "700 m",
+        "formatted_duration": "1 min",
+        "extensions": [
+         "Continue to follow 100 Feet Ring Rd/Outer Ring Rd/Srinagar - Kanyakumari Hwy"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  Service Rd  to  NH 44 / NH 48",
+      "distance": 2090,
+      "duration": 418,
+      "formatted_distance": "2.1 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Slight  left  toward  Service Rd",
+        "action": "turn-slight-left",
+        "distance": 33,
+        "duration": 4,
+        "formatted_distance": "33 m",
+        "formatted_duration": "4 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Merge onto  Service Rd",
+        "action": "merge",
+        "distance": 1213,
+        "duration": 258,
+        "formatted_distance": "1.2 km",
+        "formatted_duration": "4 min",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/merge_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  to stay on  Service Rd",
+        "action": "turn-left",
+        "distance": 837,
+        "duration": 155,
+        "formatted_distance": "850 m",
+        "formatted_duration": "3 min",
+        "extensions": [
+         "Pass by Krimson Squre (on the left in 550m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  before  Nidhi Motors - Hero MotoCorp",
+        "action": "turn-right",
+        "distance": 7,
+        "duration": 1,
+        "formatted_distance": "7 m",
+        "formatted_duration": "1 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  Electronic City Flyover / Hosur Rd  to  Konappana Agrahara",
+      "distance": 8480,
+      "duration": 649,
+      "formatted_distance": "8.5 km",
+      "formatted_duration": "11 min",
+      "details": [
+       {
+        "title": "Turn  left  onto  NH 44 / NH 48",
+        "action": "turn-left",
+        "distance": 116,
+        "duration": 15,
+        "formatted_distance": "120 m",
+        "formatted_duration": "15 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 8364,
+        "duration": 634,
+        "formatted_distance": "8.4 km",
+        "formatted_duration": "11 min",
+        "extensions": [
+         "Continue to follow Electronic City Flyover/Hosur Rd"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Infosys Avenue  and  Wipro Ave  to  Neeladri Rd  in  Electronic City Phase I, Doddathoguru",
+      "distance": 2414,
+      "duration": 411,
+      "formatted_distance": "2.4 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 659,
+        "duration": 112,
+        "formatted_distance": "650 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Toll road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Infosys Avenue",
+        "action": "straight",
+        "distance": 616,
+        "duration": 104,
+        "formatted_distance": "600 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by IIIT-Bangalore (Ecity Campus) (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  at  Amity Online - Study Abroad | Electronic City  onto  Wipro Ave",
+        "action": "turn-left",
+        "distance": 729,
+        "duration": 132,
+        "formatted_distance": "750 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by Exasense Labs Limited (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  right  at  Wipro Gate Shikaripalya  onto  Neeladri Rd",
+        "action": "turn-slight-right",
+        "distance": 410,
+        "duration": 63,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gJfShuN39mF1JGeMQLrA4A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=44.590206&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.83907423098748,
+         "longitude": 77.65924199220002
+        },
+        "extensions": [
+         "Pass by Wipro Limited (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 4800,
+    "formatted_duration": "1 hr 20"
+   },
+   {
+    "travel_mode": "Two-wheeler",
+    "duration": 5100,
+    "formatted_duration": "1 hr 25"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 6180,
+    "formatted_duration": "1 hr 43"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 19663,
+    "formatted_duration": "5 hr"
+   }
+  ]
+ }
+}

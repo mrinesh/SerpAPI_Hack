@@ -25,6 +25,7 @@ code for an ID finds every stub that belongs to it.
 | S-01 | Data coverage spike (Bengaluru, real queries) | P0 | ✅ | |
 | S-02 | LLM extraction accuracy check | P0 | ✅ | |
 | S-03 | Search cost model per run | P0 | ✅ | |
+| S-04 | Commute directions: traffic-aware 9 AM times? | P1 | ✅ | |
 | **Infrastructure** | | | | |
 | I-01 | Repo scaffold, tooling, docs skeleton | P0 | ✅ | |
 | I-02 | SerpApi gateway: params, cache, TTL | P0 | ✅ | |
@@ -56,6 +57,7 @@ code for an ID finds every stub that belongs to it.
 | F-19 | Results map view | P0 | ✅ | |
 | F-20 | Live pipeline progress view | P0 | ✅ | |
 | F-22 | Parser fixes from S-02 | P1 | ⬜ | |
+| F-23 | Commute to job hubs (google_maps_directions) | P1 | ✅ | |
 | **Later (P2)** | | | | |
 | F-13 | Risk scoring (flood, legal, oversupply) | P2 | ⏸️ | |
 | F-14 | Neighbourhood trend forecasting | P2 | ⏸️ | |
@@ -116,6 +118,11 @@ Findings: [docs/spikes/S-02-extraction-accuracy.md](docs/spikes/S-02-extraction-
 - [x] Fresh run: L × T Google + L Maps (flats only); repeat run within the TTL: 0
 - [x] Commercial run: L × T Google, no Maps
 - [x] `SERPAPI_RUN_BUDGET` 40 covers the largest profile (25); model in docs/SERPAPI_USAGE.md
+
+### S-04 Commute directions · P1 · ✅
+- [x] 4 searches, Whitefield → Manyata at four departures: times are traffic-aware (40 min vs
+      1 hr 10 min); `depart_at` is read as local wall-clock time; a past date still works
+      ([S-04](docs/spikes/S-04-commute-directions.md))
 
 ---
 
@@ -352,6 +359,18 @@ Each has its S-02 entry as the test case ([S-02](docs/spikes/S-02-extraction-acc
       size from price ÷ rate
 - [ ] Do not read sale status from page filter text ("Buy Ready to move, Resale, …")
 - [ ] Skip "<price> Flats for" page-description phrases as entries
+
+### F-23 Commute to job hubs · P1 · ✅
+- [x] `google_maps_directions` builder and CLI; `COMMUTE_DEPART_AT` pinned to Tuesday 09:00
+      local time (ADR 0026)
+- [x] Three hubs by address in `bengaluru.json` (ORR/Bellandur, Manyata, Electronic City);
+      positions only from `places_info`
+- [x] `AreaIntel.commutes`: Google's route time (`Sourced`), typical range, km, via; filled in on
+      any run lacking it, `commute:<hub>` section on failure, no schema bump
+- [x] Area card "Drive to job hubs, weekday 9 AM" on the run and property pages; enrich note
+- [x] Display only: the shortlist and scores are identical with and without hubs (test)
+- [x] Recorded for both demos (5 searches, plus S-04's Whitefield → Manyata); tests for the parser,
+      ranges, departure reading, fill-in, failure and replay
 
 ### F-20 Live pipeline progress · P0 · ✅
 - [x] Poll `GET /api/runs/{id}`; show each stage with counts, searches used, cache hits

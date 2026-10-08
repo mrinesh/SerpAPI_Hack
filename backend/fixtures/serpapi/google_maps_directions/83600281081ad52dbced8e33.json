@@ -1,0 +1,708 @@
+{
+ "engine": "google_maps_directions",
+ "params": {
+  "start_coords": "12.9352403,77.624532",
+  "end_addr": "Manyata Tech Park, Nagavara, Bengaluru",
+  "travel_mode": 0,
+  "time": "depart_at:1791882000",
+  "distance_unit": 0,
+  "gl": "in",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac72cd2ac1765204d5a7664",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/Q3Kp7UUHkikGLw8bytaK4UW3O6fMXfmgjemM9spVgUY/6ac72cd2ac1765204d5a7664.json",
+   "markdown_endpoint": "https://serpapi.com/searches/Q3Kp7UUHkikGLw8bytaK4UW3O6fMXfmgjemM9spVgUY/6ac72cd2ac1765204d5a7664.md",
+   "created_at": "2026-10-08 05:40:34 UTC",
+   "processed_at": "2026-10-08 05:40:34 UTC",
+   "google_maps_directions_url": "https://www.google.com/maps/dir/12.9352403%2C+77.6245320/Manyata+Tech+Park%2C+Level+Six%2C+N1+Block%2C+Outer+Ring+Rd%2C+MS+Ramaiah+North+City%2C+Manayata+Tech+Park%2C+Nagavara%2C+Bengaluru%2C+Karnataka+560045/data=!3m1!4b1!4m16!4m15!1m3!2m2!1d77.624532!2d12.9352403!1m5!1m1!1s0x3bae174a0130109b:0x29e61da83c2b385b!2m2!1d77.6215943!2d13.0449229!2m3!6e0!7e2!8j1791882000!3e0?hl=en&gl=in",
+   "raw_html_file": "https://serpapi.com/searches/Q3Kp7UUHkikGLw8bytaK4UW3O6fMXfmgjemM9spVgUY/6ac72cd2ac1765204d5a7664.html",
+   "prettify_html_file": "https://serpapi.com/searches/Q3Kp7UUHkikGLw8bytaK4UW3O6fMXfmgjemM9spVgUY/6ac72cd2ac1765204d5a7664.prettify",
+   "total_time_taken": 1.27
+  },
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "in",
+   "end_addr": "Manyata Tech Park, Nagavara, Bengaluru",
+   "start_coords": "12.9352403,77.624532",
+   "travel_mode": "0",
+   "distance_unit": "0",
+   "time": "depart_at:1791882000"
+  },
+  "places_info": [
+   {
+    "address": "12.9352403, 77.6245320",
+    "gps_coordinates": {
+     "latitude": 12.9352403,
+     "longitude": 77.624532
+    }
+   },
+   {
+    "address": "Manyata Tech Park, Level Six, N1 Block, Outer Ring Rd, MS Ramaiah North City, Manayata Tech Park, Nagavara, Bengaluru, Karnataka 560045",
+    "data_id": "0x3bae174a0130109b:0x29e61da83c2b385b",
+    "gps_coordinates": {
+     "latitude": 13.0449229,
+     "longitude": 77.6215943
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Driving",
+    "via": "Intermediate Ring Rd",
+    "distance": 17915,
+    "duration": 3900,
+    "arrive_around": 1791868200,
+    "typical_duration_range": "45 min to 1 hr 40 min",
+    "formatted_distance": "17.9 km",
+    "formatted_duration": "1 hr 5 min",
+    "formatted_arrive_around": "10:40 AM",
+    "extensions": [
+     "Fastest route now due to traffic conditions",
+     "This route has restricted usage or private roads."
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Drive from  Intermediate Ring Rd ,  HAL Old Airport Rd ,  Kensington Rd ,  Hennur Main Rd  and  NH 44 / NH 75  to  MS Ramaiah North City",
+      "distance": 17002,
+      "duration": 2834,
+      "formatted_distance": "17.0 km",
+      "formatted_duration": "47 min",
+      "details": [
+       {
+        "title": "Head toward  100 Feet Rd / 17th Main Rd / 18th Main Rd / Intermediate Ring Rd / Mahakavi Vemana Rd",
+        "action": "straight",
+        "distance": 3764,
+        "duration": 591,
+        "formatted_distance": "3.8 km",
+        "formatted_duration": "10 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5gnpOShWB2kHTq2tZ0cxWg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=155.71033&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.935195790235108,
+         "longitude": 77.62460669042858
+        },
+        "extensions": [
+         "Continue to follow 100 Feet Rd/Intermediate Ring Rd",
+         "Pass by Karur Vysya Bank Bangalore - Koramangala (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  left  at  the pharmacy  onto  Intermediate Ring Rd",
+        "action": "turn-slight-left",
+        "distance": 243,
+        "duration": 34,
+        "formatted_distance": "240 m",
+        "formatted_duration": "34 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vs5ge1SkjxiOKcGAYVKoMw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=189.00432&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.958109641510134,
+         "longitude": 77.6413518682546
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  HAL Old Airport Rd / Link Rd 4",
+        "action": "turn-left",
+        "distance": 193,
+        "duration": 40,
+        "formatted_distance": "190 m",
+        "formatted_duration": "40 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iEZIB8WE6VbA69SC_eYCdA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=193.04117&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.960268492148693,
+         "longitude": 77.64155410654897
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  HAL Old Airport Rd / Link Rd 4",
+        "action": "turn-left",
+        "distance": 2389,
+        "duration": 346,
+        "formatted_distance": "2.4 km",
+        "formatted_duration": "6 min",
+        "extensions": [
+         "Continue to follow HAL Old Airport Rd"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Trinity Church Rd",
+        "action": "turn-right",
+        "distance": 668,
+        "duration": 165,
+        "formatted_distance": "650 m",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RU4oihk3a_pXOPbNjx-BJg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=63.992287&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.966776147757967,
+         "longitude": 77.6207906194594
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Mahatma Gandhi Rd / Swami Vivekananda Rd",
+        "action": "turn-right",
+        "distance": 82,
+        "duration": 28,
+        "formatted_distance": "82 m",
+        "formatted_duration": "28 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PgiU83x-ULxwpwGr24h0eA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=174.13472&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.972358029910039,
+         "longitude": 77.61949706301438
+        },
+        "extensions": [
+         "Pass by the gas station (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Bhaskaran Rd / Kensington Rd",
+        "action": "turn-left",
+        "distance": 1111,
+        "duration": 220,
+        "formatted_distance": "1.1 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3VHpXjV_pDGLmI51g-t9tQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=263.34952&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.972712155978948,
+         "longitude": 77.61991123346832
+        },
+        "extensions": [
+         "Pass by Taj MG Road, Bengaluru (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Kensington Rd",
+        "action": "turn-left",
+        "distance": 685,
+        "duration": 89,
+        "formatted_distance": "700 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=70_bIPi3f1RJLxQRAUdvgA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=223.23038&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.981503994648444,
+         "longitude": 77.62287419486387
+        },
+        "extensions": [
+         "Pass by the lake (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At the roundabout, take the  1st  exit and stay on  Kensington Rd",
+        "action": "roundabout-left",
+        "distance": 387,
+        "duration": 57,
+        "formatted_distance": "400 m",
+        "formatted_duration": "57 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=TPIiEaherv3Ypy_4s41CNA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=156.16905&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.98751724846807,
+         "longitude": 77.62247034998519
+        }
+       },
+       {
+        "title": "Turn  right  onto  Assaye Rd",
+        "action": "turn-right",
+        "distance": 826,
+        "duration": 139,
+        "formatted_distance": "850 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=P8jPrVuASvTj77OziaKEZQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=131.28185&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.987082577009708,
+         "longitude": 77.61935527615594
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Sunderamurthy Rd",
+        "action": "turn-right",
+        "distance": 318,
+        "duration": 75,
+        "formatted_distance": "300 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=07f7HFkeGdLwH-Yae4J2Xg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=329.88885&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.994121865382526,
+         "longitude": 77.61813355905738
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Websters Rd",
+        "action": "turn-left",
+        "distance": 68,
+        "duration": 14,
+        "formatted_distance": "68 m",
+        "formatted_duration": "14 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rUGfCgJ1cfcXnA2KkvSOXw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=246.66714&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.995813510414653,
+         "longitude": 77.620096202305
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Thambuchetty Rd",
+        "action": "turn-right",
+        "distance": 134,
+        "duration": 25,
+        "formatted_distance": "130 m",
+        "formatted_duration": "25 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RrwaKBssKykqRvVBeKJEfg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=156.20573&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.99628564144871,
+         "longitude": 77.62004235507578
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  after  Bank of Baroda Cox Town Branch (on the left)",
+        "action": "turn-left",
+        "distance": 344,
+        "duration": 63,
+        "formatted_distance": "350 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_OL6KgHkk4OmsdDvuyq7IA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=245.30725&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.996862965994117,
+         "longitude": 77.6209507613775
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Pottery Rd",
+        "action": "turn-right",
+        "distance": 316,
+        "duration": 51,
+        "formatted_distance": "300 m",
+        "formatted_duration": "51 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vgkUY6G9tr2Bm1xTeK5DzQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=310.14334&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.99958514671024,
+         "longitude": 77.6199015304633
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Pottery Rd  turns  right  and becomes  Hennur Main Rd / New Airport Rd",
+        "action": "turn-right",
+        "distance": 1734,
+        "duration": 296,
+        "formatted_distance": "1.7 km",
+        "formatted_duration": "5 min",
+        "extensions": [
+         "Pass by New Shoba Stores (on the left in 1.4 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  to stay on  Hennur Main Rd / New Airport Rd",
+        "action": "turn-right",
+        "distance": 1094,
+        "duration": 199,
+        "formatted_distance": "1.1 km",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ezbuwaRtckT2uSkfRBuRRg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=37.150166&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.014409612141996,
+         "longitude": 77.6269602892378
+        },
+        "extensions": [
+         "Pass by the gas station (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Hennur Main Rd",
+        "action": "turn-left",
+        "distance": 629,
+        "duration": 120,
+        "formatted_distance": "650 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yTkZQ8syJjy_TsNJiAJCdQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=48.017166&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.022444088996803,
+         "longitude": 77.6305016082859
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 240,
+        "duration": 63,
+        "formatted_distance": "240 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vafLEXBEf5QC0kfPdIiimg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=33.771847&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.027686542470482,
+         "longitude": 77.63253334766779
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Merge onto  NH 44 / NH 75",
+        "action": "merge",
+        "distance": 1777,
+        "duration": 219,
+        "formatted_distance": "1.8 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7LTXoO4LFBFlMSiZr8YNTA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=88.94122&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.02930393409534,
+         "longitude": 77.63133222659091
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/merge_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Drive to your destination",
+      "distance": 913,
+      "duration": 232,
+      "formatted_distance": "900 m",
+      "formatted_duration": "4 min",
+      "details": [
+       {
+        "title": "Slight  right",
+        "action": "turn-slight-right",
+        "distance": 74,
+        "duration": 10,
+        "formatted_distance": "74 m",
+        "formatted_duration": "10 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aVtouaw_UtduwXHxoI-Iag&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=88.87716&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041040228060464,
+         "longitude": 77.6216029527198
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 136,
+        "duration": 18,
+        "formatted_distance": "140 m",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_YGKso7FLPXg3KsnpZsqHA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.9581&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041346618401494,
+         "longitude": 77.62108607762414
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue straight",
+        "action": "straight",
+        "distance": 284,
+        "duration": 39,
+        "formatted_distance": "280 m",
+        "formatted_duration": "39 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8Tuxz0HRnMce6XYegxA4fg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.43164&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.042532146768302,
+         "longitude": 77.62103397914018
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 30,
+        "duration": 16,
+        "formatted_distance": "30 m",
+        "formatted_duration": "16 sec",
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 311,
+        "duration": 120,
+        "formatted_distance": "300 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 78,
+        "duration": 29,
+        "formatted_distance": "78 m",
+        "formatted_duration": "29 sec",
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "100 Feet Rd and NH 44/NH 75",
+    "distance": 18306,
+    "duration": 3900,
+    "arrive_around": 1791868200,
+    "typical_duration_range": "50 min to 1 hr 40 min",
+    "formatted_distance": "18.3 km",
+    "formatted_duration": "1 hr 5 min",
+    "formatted_arrive_around": "10:40 AM",
+    "extensions": [
+     "Heavy traffic, as usual",
+     "This route has restricted usage or private roads."
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  100 Feet Rd  to  Old Madras Rd / Swami Vivekananda Rd  in  Binnamangala",
+      "distance": 6637,
+      "duration": 1269,
+      "formatted_distance": "6.6 km",
+      "formatted_duration": "21 min",
+      "details": [
+       {
+        "title": "Head toward  100 Feet Rd / 17th Main Rd / 18th Main Rd / Intermediate Ring Rd / Mahakavi Vemana Rd",
+        "action": "straight",
+        "distance": 3764,
+        "duration": 591,
+        "formatted_distance": "3.8 km",
+        "formatted_duration": "10 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5gnpOShWB2kHTq2tZ0cxWg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=155.71033&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.935195790235108,
+         "longitude": 77.62460669042858
+        },
+        "extensions": [
+         "Continue to follow 100 Feet Rd/Intermediate Ring Rd",
+         "Pass by Karur Vysya Bank Bangalore - Koramangala (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 2873,
+        "duration": 678,
+        "formatted_distance": "2.9 km",
+        "formatted_duration": "11 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vs5ge1SkjxiOKcGAYVKoMw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=189.00432&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.958109641510134,
+         "longitude": 77.6413518682546
+        },
+        "extensions": [
+         "Continue to follow 100 Feet Rd",
+         "Pass by Metro Pillar Number 60 (on the right in 2.4 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  Old Madras Rd / Swami Vivekananda Rd  and  NH 44 / NH 75  to  MS Ramaiah North City",
+      "distance": 10756,
+      "duration": 1353,
+      "formatted_distance": "10.8 km",
+      "formatted_duration": "23 min",
+      "details": [
+       {
+        "title": "Turn  right  onto  Old Madras Rd / Swami Vivekananda Rd",
+        "action": "turn-right",
+        "distance": 2724,
+        "duration": 472,
+        "formatted_distance": "2.7 km",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=JAfVkJOE7ef36XkYfxrlGg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=178.72844&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.983898455173811,
+         "longitude": 77.64055602119595
+        },
+        "extensions": [
+         "Pass by Metro Pillar Number 35 (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  left",
+        "action": "turn-slight-left",
+        "distance": 151,
+        "duration": 26,
+        "formatted_distance": "150 m",
+        "formatted_duration": "26 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=q2tLH0eS4Q7zwoR1yGaLoQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=245.35158&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.994168137804174,
+         "longitude": 77.66317498269063
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  left  to merge onto  NH 44 / NH 75",
+        "action": "merge",
+        "distance": 4240,
+        "duration": 469,
+        "formatted_distance": "4.2 km",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1eOpsN24bsAjAGbPfJ32EQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=70.098656&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.994836894472725,
+         "longitude": 77.66431049014383
+        },
+        "extensions": [
+         "Pass by the gas station (on the left in 2.3 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/merge_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 3641,
+        "duration": 386,
+        "formatted_distance": "3.6 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZIsVxi0ifkTftwrzffM7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=115.70314&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.022759620411703,
+         "longitude": 77.64674968792053
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Drive to your destination",
+      "distance": 913,
+      "duration": 232,
+      "formatted_distance": "900 m",
+      "formatted_duration": "4 min",
+      "details": [
+       {
+        "title": "Slight  right",
+        "action": "turn-slight-right",
+        "distance": 74,
+        "duration": 10,
+        "formatted_distance": "74 m",
+        "formatted_duration": "10 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aVtouaw_UtduwXHxoI-Iag&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=88.87716&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041040228060464,
+         "longitude": 77.6216029527198
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 136,
+        "duration": 18,
+        "formatted_distance": "140 m",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_YGKso7FLPXg3KsnpZsqHA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.9581&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041346618401494,
+         "longitude": 77.62108607762414
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue straight",
+        "action": "straight",
+        "distance": 284,
+        "duration": 39,
+        "formatted_distance": "280 m",
+        "formatted_duration": "39 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8Tuxz0HRnMce6XYegxA4fg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.43164&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.042532146768302,
+         "longitude": 77.62103397914018
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 30,
+        "duration": 16,
+        "formatted_distance": "30 m",
+        "formatted_duration": "16 sec",
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 311,
+        "duration": 120,
+        "formatted_distance": "300 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 78,
+        "duration": 29,
+        "formatted_distance": "78 m",
+        "formatted_duration": "29 sec",
+        "extensions": [
+         "Destination will be on the left"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 3900,
+    "formatted_duration": "1 hr 5"
+   },
+   {
+    "travel_mode": "Two-wheeler",
+    "duration": 3600,
+    "formatted_duration": "1 hr"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 5460,
+    "formatted_duration": "1 hr 31"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 12722,
+    "formatted_duration": "3 hr 32"
+   }
+  ]
+ }
+}

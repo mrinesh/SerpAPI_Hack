@@ -19,6 +19,15 @@ class Locality(BaseModel):
     aliases: list[str] = Field(default_factory=list)
 
 
+class JobHub(BaseModel):
+    """A large employment cluster; commute times are measured to it (F-23). Named by address,
+    never by coordinates: its position comes from the directions search (ADR 0022)."""
+
+    slug: str
+    name: str
+    address: str  # the `end_addr` sent to google_maps_directions
+
+
 class Bounds(BaseModel):
     """A loose box around the city, used only to reject geocoding results from elsewhere."""
 
@@ -37,10 +46,12 @@ class Market(BaseModel):
     query_city_name: str  # the city word used in search queries; "Bangalore" was tested in S-01
     serpapi_location: str
     trends_geo: str
+    timezone: str = "Asia/Kolkata"  # wall-clock zone for commute departures (F-23)
     locality_source: str
     localities: list[Locality]
     business_type_suggestions: list[str]
     bounds: Bounds | None = None
+    job_hubs: list[JobHub] = Field(default_factory=list)
 
     def locality(self, slug: str) -> Locality | None:
         return next((loc for loc in self.localities if loc.slug == slug), None)

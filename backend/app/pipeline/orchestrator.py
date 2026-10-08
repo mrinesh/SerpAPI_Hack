@@ -417,6 +417,9 @@ def _area_note(area, cached: bool) -> str:
         parts.append(f"growth {area.price_growth_pct.value:g}% (past 12 months)")
     for kind, rent in sorted(area.rent_levels.items()):
         parts.append(f"{kind} rent ₹{rent.value:g}/sq ft/month")
+    if area.commutes:
+        drives = ", ".join(f"{c.hub} {c.duration_min.value} min" for c in area.commutes.values())
+        parts.append(f"9 AM drive: {drives}")
     if area.warnings:
         failed = ", ".join(f"{w.section} ({w.code})" for w in area.warnings)
         parts.append(f"{len(area.warnings)} section(s) could not be loaded: {failed}")

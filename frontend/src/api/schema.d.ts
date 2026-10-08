@@ -551,6 +551,10 @@ export interface components {
             rent_levels?: {
                 [key: string]: components["schemas"]["Sourced_float_"];
             };
+            /** Commutes */
+            commutes?: {
+                [key: string]: components["schemas"]["Commute"];
+            };
             rental_demand?: components["schemas"]["RentalDemand"] | null;
             /** Summary */
             summary?: string | null;
@@ -613,6 +617,34 @@ export interface components {
             cache_hits_this_month: number;
             /** Account Searches Left */
             account_searches_left?: number | null;
+        };
+        /**
+         * Commute
+         * @description Driving time from the locality centre to one job hub, leaving on a weekday at 9 AM, as
+         *     Google Maps quotes it with its usual traffic (F-23, ADR 0026). Display only.
+         */
+        Commute: {
+            /** Hub Slug */
+            hub_slug: string;
+            /** Hub */
+            hub: string;
+            hub_location?: components["schemas"]["GeoPoint"] | null;
+            /**
+             * Depart At
+             * Format: date-time
+             */
+            depart_at: string;
+            duration_min: components["schemas"]["Sourced_int_"];
+            /** Typical Min */
+            typical_min?: number | null;
+            /** Typical Max */
+            typical_max?: number | null;
+            /** Typical Text */
+            typical_text?: string | null;
+            /** Distance Km */
+            distance_km: number;
+            /** Via */
+            via?: string | null;
         };
         /** CompareResult */
         CompareResult: {
@@ -1246,7 +1278,7 @@ export interface components {
          * @description SerpApi engines the platform uses. See docs/SERPAPI_USAGE.md for what each one does.
          * @enum {string}
          */
-        SerpEngine: "google" | "google_local" | "google_maps" | "google_maps_reviews" | "google_news" | "google_trends";
+        SerpEngine: "google" | "google_local" | "google_maps" | "google_maps_directions" | "google_maps_reviews" | "google_news" | "google_trends";
         /** SourceRef */
         SourceRef: {
             engine: components["schemas"]["SerpEngine"];

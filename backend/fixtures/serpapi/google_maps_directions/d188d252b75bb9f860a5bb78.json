@@ -1,0 +1,949 @@
+{
+ "engine": "google_maps_directions",
+ "params": {
+  "start_coords": "12.9698196,77.7499721",
+  "end_addr": "Manyata Tech Park, Nagavara, Bengaluru",
+  "travel_mode": 0,
+  "time": "depart_at:1791882000",
+  "distance_unit": 0,
+  "gl": "in",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac72c5b408027086e671625",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/Pu6dngQchopDhPx86izW4DR4P0HKH0oiJEsRpvkX8Tg/6ac72c5b408027086e671625.json",
+   "markdown_endpoint": "https://serpapi.com/searches/Pu6dngQchopDhPx86izW4DR4P0HKH0oiJEsRpvkX8Tg/6ac72c5b408027086e671625.md",
+   "created_at": "2026-10-08 05:38:35 UTC",
+   "processed_at": "2026-10-08 05:38:35 UTC",
+   "google_maps_directions_url": "https://www.google.com/maps/dir/12.9698196%2C+77.7499721/Manyata+Tech+Park+Rd%2C+Bengaluru%2C+Karnataka+560045/data=!3m1!4b1!4m16!4m15!1m3!2m2!1d77.7499721!2d12.9698196!1m5!1m1!1s0x3bae177206475813:0x28695826eb487994!2m2!1d77.6199556!2d13.0473805!2m3!6e0!7e2!8j1791882000!3e0?hl=en&gl=in",
+   "raw_html_file": "https://serpapi.com/searches/Pu6dngQchopDhPx86izW4DR4P0HKH0oiJEsRpvkX8Tg/6ac72c5b408027086e671625.html",
+   "prettify_html_file": "https://serpapi.com/searches/Pu6dngQchopDhPx86izW4DR4P0HKH0oiJEsRpvkX8Tg/6ac72c5b408027086e671625.prettify",
+   "total_time_taken": 2.23
+  },
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "in",
+   "end_addr": "Manyata Tech Park, Nagavara, Bengaluru",
+   "start_coords": "12.9698196,77.7499721",
+   "travel_mode": "0",
+   "distance_unit": "0",
+   "time": "depart_at:1791882000"
+  },
+  "places_info": [
+   {
+    "address": "12.9698196, 77.7499721",
+    "gps_coordinates": {
+     "latitude": 12.9698196,
+     "longitude": 77.7499721
+    }
+   },
+   {
+    "address": "Manyata Tech Park Rd, Bengaluru, Karnataka 560045",
+    "data_id": "0x3bae177206475813:0x28695826eb487994",
+    "gps_coordinates": {
+     "latitude": 13.0473805,
+     "longitude": 77.6199556
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Driving",
+    "via": "ITPL Main Rd and NH 44",
+    "distance": 21431,
+    "duration": 4200,
+    "arrive_around": 1791868800,
+    "typical_duration_range": "55 min to 1 hr 50 min",
+    "formatted_distance": "21.4 km",
+    "formatted_duration": "1 hr 10 min",
+    "formatted_arrive_around": "10:50 AM",
+    "extensions": [
+     "Fastest route, despite the usual traffic"
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "distance": 1490,
+      "duration": 261,
+      "formatted_distance": "1.5 km",
+      "formatted_duration": "4 min",
+      "details": [
+       {
+        "title": "Head toward  Whitefield Main Rd",
+        "action": "straight",
+        "distance": 1490,
+        "duration": 261,
+        "formatted_distance": "1.5 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PdGHUIvlbXchnw5Hamlk7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=66.4867&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969783991526203,
+         "longitude": 77.75000686241592
+        },
+        "extensions": [
+         "Pass by Brothers Bakery And Sweets (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Continue on  ITPL Main Rd  to  Chinappa Colony",
+      "distance": 9433,
+      "duration": 1480,
+      "formatted_distance": "9.4 km",
+      "formatted_duration": "25 min",
+      "details": [
+       {
+        "title": "Turn  left  onto  ITPL Main Rd",
+        "action": "turn-left",
+        "distance": 2195,
+        "duration": 377,
+        "formatted_distance": "2.2 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Gc8OvI8gvGr_d0eo6hJWqA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=8.42471&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.98278451278443,
+         "longitude": 77.7521497573251
+        },
+        "extensions": [
+         "Pass by Bhagini Residency ITPL (on the left in 900m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Pattandur Agrahara ITPL Main Rd",
+        "action": "straight",
+        "distance": 629,
+        "duration": 87,
+        "formatted_distance": "650 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=WT0M7S1Ru2qMu_Yb3GURwA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=99.67278&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.987892602115354,
+         "longitude": 77.73354772093192
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Make a  U-turn  at  Road No. 10",
+        "action": "uturn-right",
+        "distance": 405,
+        "duration": 61,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6aHOzvvuCqzUn6_A18xE2g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=41.638054&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.984378262555346,
+         "longitude": 77.72918205099856
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_u_turn_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  1st Main Rd",
+        "action": "turn-left",
+        "distance": 174,
+        "duration": 29,
+        "formatted_distance": "170 m",
+        "formatted_duration": "29 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nSCtKDZoDihSIqPX815ymg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=239.29918&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.986499509304547,
+         "longitude": 77.7315972853032
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Use any lane to turn  left  onto  ITPL Main Rd",
+        "action": "turn-left",
+        "distance": 1853,
+        "duration": 321,
+        "formatted_distance": "1.9 km",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=oru46ggSqpZlx3eM-P1JVw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=189.46669&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.988015825146686,
+         "longitude": 77.73171290644052
+        },
+        "extensions": [
+         "Pass by Sri Chaitanya Techno School,Hoodi (on the left in 1.5 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Hoodi Main Rd",
+        "action": "straight",
+        "distance": 127,
+        "duration": 22,
+        "formatted_distance": "130 m",
+        "formatted_duration": "22 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2Bg3_Ap_ugnOQS_SyIuK-A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=220.922&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.99189793164513,
+         "longitude": 77.71573491626633
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  left  to stay on  Hoodi Main Rd",
+        "action": "turn-left",
+        "distance": 98,
+        "duration": 18,
+        "formatted_distance": "98 m",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=0fuMa3bcMwZ2Ibg1n27_rQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=76.90641&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.991093051339972,
+         "longitude": 77.71483313074874
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Sharp  right  onto  ITPL Main Rd",
+        "action": "turn-sharp-right",
+        "distance": 3952,
+        "duration": 565,
+        "formatted_distance": "4.0 km",
+        "formatted_duration": "9 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6FIX_e-gUI9n3gXUHXyIrA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=202.57132&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.990519669357305,
+         "longitude": 77.71419598103148
+        },
+        "extensions": [
+         "Pass by V Cinema - Vijayalakshmi Theatre (4K Dolby Atmos Air-Cooled), Garudacharpalya (on the left in 1.5 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_sharp_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  NH 44  to  MS Ramaiah North City",
+      "distance": 9622,
+      "duration": 1103,
+      "formatted_distance": "9.6 km",
+      "formatted_duration": "18 min",
+      "details": [
+       {
+        "title": "Merge onto  NH 44",
+        "action": "merge",
+        "distance": 5981,
+        "duration": 717,
+        "formatted_distance": "6.0 km",
+        "formatted_duration": "12 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PTr-P__e7j3DW955DyO_Lg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=259.76913&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.000342520069712,
+         "longitude": 77.68094367649118
+        },
+        "extensions": [
+         "Pass by the gas station (on the left in 4 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/merge_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 3641,
+        "duration": 386,
+        "formatted_distance": "3.6 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZIsVxi0ifkTftwrzffM7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=115.70314&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.022759620411703,
+         "longitude": 77.64674968792053
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Drive to  Manyata Tech Park Rd",
+      "distance": 886,
+      "duration": 133,
+      "formatted_distance": "900 m",
+      "formatted_duration": "2 min",
+      "details": [
+       {
+        "title": "Slight  right",
+        "action": "turn-slight-right",
+        "distance": 74,
+        "duration": 10,
+        "formatted_distance": "74 m",
+        "formatted_duration": "10 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aVtouaw_UtduwXHxoI-Iag&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=88.87716&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041040228060464,
+         "longitude": 77.6216029527198
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 136,
+        "duration": 18,
+        "formatted_distance": "140 m",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_YGKso7FLPXg3KsnpZsqHA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.9581&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041346618401494,
+         "longitude": 77.62108607762414
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue straight",
+        "action": "straight",
+        "distance": 530,
+        "duration": 72,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8Tuxz0HRnMce6XYegxA4fg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.43164&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.042532146768302,
+         "longitude": 77.62103397914018
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Manyata Tech Park Rd",
+        "action": "turn-left",
+        "distance": 127,
+        "duration": 26,
+        "formatted_distance": "130 m",
+        "formatted_duration": "26 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At the roundabout, turn left onto  Manyata Tech Park Rd",
+        "action": "roundabout-left",
+        "distance": 19,
+        "duration": 7,
+        "formatted_distance": "19 m",
+        "formatted_duration": "7 sec"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "NH 75",
+    "distance": 23796,
+    "duration": 4800,
+    "arrive_around": 1791869400,
+    "typical_duration_range": "55 min to 2 hr",
+    "formatted_distance": "23.8 km",
+    "formatted_duration": "1 hr 20 min",
+    "formatted_arrive_around": "11:00 AM",
+    "extensions": [
+     "Heavy traffic, as usual"
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Whitefield Main Rd  to  Belathur Main Rd  in  Belathur",
+      "distance": 4022,
+      "duration": 661,
+      "formatted_distance": "4.0 km",
+      "formatted_duration": "11 min",
+      "details": [
+       {
+        "title": "Head toward  Whitefield Main Rd",
+        "action": "straight",
+        "distance": 2727,
+        "duration": 458,
+        "formatted_distance": "2.7 km",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PdGHUIvlbXchnw5Hamlk7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=66.4867&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969783991526203,
+         "longitude": 77.75000686241592
+        },
+        "extensions": [
+         "Pass by Brothers Bakery And Sweets (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Whitefield - Hoskote Rd",
+        "action": "straight",
+        "distance": 1295,
+        "duration": 203,
+        "formatted_distance": "1.3 km",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UbfvoE_aXNaBwj-ypf1e_Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=36.982937&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.992712922076207,
+         "longitude": 77.75701304862942
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  Belathur Main Rd ,  Kodigehalli Main Rd  and  Devasandra Main Rd  to  NH 75  in  Devasandra Extension",
+      "distance": 7398,
+      "duration": 1384,
+      "formatted_distance": "7.4 km",
+      "formatted_duration": "23 min",
+      "details": [
+       {
+        "title": "Turn  left  before  Kpm fruit’s and Vegetable",
+        "action": "turn-left",
+        "distance": 1995,
+        "duration": 300,
+        "formatted_distance": "2.0 km",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KRsagjTZPTvAAtHC5SygCQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=350.4364&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.003953520198111,
+         "longitude": 77.75701147710018
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  to stay on  Belathur Main Rd",
+        "action": "turn-left",
+        "distance": 817,
+        "duration": 130,
+        "formatted_distance": "800 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=S-jOszzIHtyVGveb4OvgQw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=161.9256&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.008109723272533,
+         "longitude": 77.74081690710118
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Belathur Main Rd  turns slightly  right  and becomes  Kodigehalli Main Rd",
+        "action": "turn-slight-right",
+        "distance": 980,
+        "duration": 178,
+        "formatted_distance": "1.0 km",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aI_OiOHrJnjgiW2BgsrwNg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=45.78227&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.006575899775063,
+         "longitude": 77.73555147733178
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  1st Main Rd / Kodigehalli Main Rd",
+        "action": "turn-left",
+        "distance": 1693,
+        "duration": 369,
+        "formatted_distance": "1.7 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gmUCw3Y7Ivua3O5MrZspKA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=106.85568&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.00421621855365,
+         "longitude": 77.72801218439204
+        },
+        "extensions": [
+         "Continue to follow Kodigehalli Main Rd",
+         "Pass by Diya Academy of Learning (on the left in 1 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At  Sri Buragamara Muneshwara Temple Trust , continue onto  Devasandra Main Rd",
+        "action": "straight",
+        "distance": 1913,
+        "duration": 407,
+        "formatted_distance": "1.9 km",
+        "formatted_duration": "7 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nH-JWHgQto16LsSy-_C-5w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=73.19029&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.004540114401149,
+         "longitude": 77.71276000076423
+        },
+        "extensions": [
+         "Pass by the gas station (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  NH 75  to  MS Ramaiah North City",
+      "distance": 11490,
+      "duration": 1255,
+      "formatted_distance": "11.5 km",
+      "formatted_duration": "21 min",
+      "details": [
+       {
+        "title": "Turn  left  at  Nandhana Palace - Andhra Style Restaurant - KR Puram  onto  NH 75",
+        "action": "turn-left",
+        "distance": 7849,
+        "duration": 869,
+        "formatted_distance": "7.8 km",
+        "formatted_duration": "14 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=EZATiVO-XY96cUN90oProw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=290.74213&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.008234959086911,
+         "longitude": 77.69606708598337
+        },
+        "extensions": [
+         "Pass by the gas station (on the left in 5.9 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 3641,
+        "duration": 386,
+        "formatted_distance": "3.6 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZIsVxi0ifkTftwrzffM7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=115.70314&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.022759620411703,
+         "longitude": 77.64674968792053
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Drive to  Manyata Tech Park Rd",
+      "distance": 886,
+      "duration": 133,
+      "formatted_distance": "900 m",
+      "formatted_duration": "2 min",
+      "details": [
+       {
+        "title": "Slight  right",
+        "action": "turn-slight-right",
+        "distance": 74,
+        "duration": 10,
+        "formatted_distance": "74 m",
+        "formatted_duration": "10 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aVtouaw_UtduwXHxoI-Iag&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=88.87716&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041040228060464,
+         "longitude": 77.6216029527198
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 136,
+        "duration": 18,
+        "formatted_distance": "140 m",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_YGKso7FLPXg3KsnpZsqHA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.9581&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041346618401494,
+         "longitude": 77.62108607762414
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue straight",
+        "action": "straight",
+        "distance": 530,
+        "duration": 72,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8Tuxz0HRnMce6XYegxA4fg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.43164&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.042532146768302,
+         "longitude": 77.62103397914018
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Manyata Tech Park Rd",
+        "action": "turn-left",
+        "distance": 127,
+        "duration": 26,
+        "formatted_distance": "130 m",
+        "formatted_duration": "26 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At the roundabout, turn left onto  Manyata Tech Park Rd",
+        "action": "roundabout-left",
+        "distance": 19,
+        "duration": 7,
+        "formatted_distance": "19 m",
+        "formatted_duration": "7 sec"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "NH 44",
+    "distance": 23938,
+    "duration": 5400,
+    "arrive_around": 1791870600,
+    "typical_duration_range": "1 hr 5 min to 2 hr 20 min",
+    "formatted_distance": "23.9 km",
+    "formatted_duration": "1 hr 30 min",
+    "formatted_arrive_around": "11:20 AM",
+    "extensions": [
+     "Heavy traffic, as usual"
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Ramagondanahalli Borewell Rd  and  HAL Old Airport Rd / Marathahalli Main Rd / Varthur Main Rd  to  NH 44  in  Aswath Nagar",
+      "distance": 8283,
+      "duration": 1497,
+      "formatted_distance": "8.3 km",
+      "formatted_duration": "25 min",
+      "details": [
+       {
+        "title": "Head toward  Whitefield Main Rd",
+        "action": "straight",
+        "distance": 57,
+        "duration": 13,
+        "formatted_distance": "57 m",
+        "formatted_duration": "13 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PdGHUIvlbXchnw5Hamlk7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=66.4867&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969783991526203,
+         "longitude": 77.75000686241592
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  after  Brothers Bakery And Sweets (on the left)",
+        "action": "turn-left",
+        "distance": 211,
+        "duration": 60,
+        "formatted_distance": "210 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=V6rStA3__unaeQWPLwQDEg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=191.85803&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.970148969769989,
+         "longitude": 77.74997761265716
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  3rd Cross Rd",
+        "action": "turn-left",
+        "distance": 148,
+        "duration": 32,
+        "formatted_distance": "150 m",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YHb91vrNPcXYBDpjLm9mHQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=92.82989&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.96972883552626,
+         "longitude": 77.74840221797896
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Borewell Rd",
+        "action": "turn-right",
+        "distance": 563,
+        "duration": 111,
+        "formatted_distance": "550 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uYxbiEmGl-0VnkbAd8fyiw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=9.908226&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.968615392641627,
+         "longitude": 77.74800188272613
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Ramagondanahalli Borewell Rd",
+        "action": "turn-left",
+        "distance": 1448,
+        "duration": 217,
+        "formatted_distance": "1.4 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=m1FHuYmzkqKaDLsJLvSDvA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=100.11974&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.969090233951052,
+         "longitude": 77.74298896926733
+        },
+        "extensions": [
+         "Pass by the lake (on the left in 400m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  HAL Old Airport Rd / Marathahalli Main Rd / Varthur Main Rd",
+        "action": "turn-right",
+        "distance": 2795,
+        "duration": 499,
+        "formatted_distance": "2.8 km",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VFTOxIRvhFmv1TN5O136Uw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=183.94298&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.957291022823474,
+         "longitude": 77.7421287067567
+        },
+        "extensions": [
+         "Pass by SBI Branch Ramagondanahalli (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue straight",
+        "action": "straight",
+        "distance": 346,
+        "duration": 34,
+        "formatted_distance": "350 m",
+        "formatted_duration": "34 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1mfEnT0MjfMPyeYaa3fxxA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=270.25284&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.955760114726287,
+         "longitude": 77.71673372799698
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Merge onto  HAL Old Airport Rd / Marathahalli Main Rd / Varthur Main Rd",
+        "action": "merge",
+        "distance": 1841,
+        "duration": 347,
+        "formatted_distance": "1.8 km",
+        "formatted_duration": "6 min",
+        "extensions": [
+         "Continue to follow Marathahalli Main Rd/Varthur Main Rd",
+         "Pass by TRENDS (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/merge_grey800_18dp.png"
+       },
+       {
+        "title": "Make a  U-turn",
+        "action": "uturn-right",
+        "distance": 512,
+        "duration": 114,
+        "formatted_distance": "500 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=CejT36UD6CtfCy58MxgfkQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=81.37946&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.956645842797101,
+         "longitude": 77.6965594180512
+        },
+        "extensions": [
+         "Pass by The Raymond shop (on the left in 450m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_u_turn_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Service Rd",
+        "action": "turn-left",
+        "distance": 150,
+        "duration": 32,
+        "formatted_distance": "150 m",
+        "formatted_duration": "32 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xNxJD-0Mq2JZ6vwBGy24Tw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=273.95612&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.957032053346733,
+         "longitude": 77.70084949862165
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Service Rd",
+        "action": "straight",
+        "distance": 212,
+        "duration": 38,
+        "formatted_distance": "210 m",
+        "formatted_duration": "38 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=FzHh9eZ4QxxJJhbhXNi9Tw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=175.39848&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.958189311218048,
+         "longitude": 77.70111478426578
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  NH 44  to  MS Ramaiah North City",
+      "distance": 14769,
+      "duration": 1606,
+      "formatted_distance": "14.8 km",
+      "formatted_duration": "27 min",
+      "details": [
+       {
+        "title": "Keep  right  to continue on  NH 44",
+        "action": "turn-right",
+        "distance": 1931,
+        "duration": 216,
+        "formatted_distance": "1.9 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vJoATeMlwHzhdlNFxDWlaw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=189.94127&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.96009835928317,
+         "longitude": 77.7012203917107
+        },
+        "extensions": [
+         "Pass by Yamaha Motor Showroom - Panache Enterprises (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 1347,
+        "duration": 113,
+        "formatted_distance": "1.3 km",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=bkW_t2OzPOQNLfxcY4wtFA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=330.2619&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.975912592674204,
+         "longitude": 77.6968609660019
+        },
+        "extensions": [
+         "Pass by IDEB Grand Mall (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 7850,
+        "duration": 891,
+        "formatted_distance": "7.8 km",
+        "formatted_duration": "15 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=fYbzNG1zko6FAAj_qOpRdw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=149.89825&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.986365937928108,
+         "longitude": 77.69048478288414
+        },
+        "extensions": [
+         "Pass by the gas station (on the left in 5.9 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 3641,
+        "duration": 386,
+        "formatted_distance": "3.6 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jZIsVxi0ifkTftwrzffM7A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=115.70314&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.022759620411703,
+         "longitude": 77.64674968792053
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Drive to  Manyata Tech Park Rd",
+      "distance": 886,
+      "duration": 133,
+      "formatted_distance": "900 m",
+      "formatted_duration": "2 min",
+      "details": [
+       {
+        "title": "Slight  right",
+        "action": "turn-slight-right",
+        "distance": 74,
+        "duration": 10,
+        "formatted_distance": "74 m",
+        "formatted_duration": "10 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aVtouaw_UtduwXHxoI-Iag&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=88.87716&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041040228060464,
+         "longitude": 77.6216029527198
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 136,
+        "duration": 18,
+        "formatted_distance": "140 m",
+        "formatted_duration": "18 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_YGKso7FLPXg3KsnpZsqHA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=352.9581&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.041346618401494,
+         "longitude": 77.62108607762414
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue straight",
+        "action": "straight",
+        "distance": 530,
+        "duration": 72,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8Tuxz0HRnMce6XYegxA4fg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=357.43164&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 13.042532146768302,
+         "longitude": 77.62103397914018
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  toward  Manyata Tech Park Rd",
+        "action": "turn-left",
+        "distance": 127,
+        "duration": 26,
+        "formatted_distance": "130 m",
+        "formatted_duration": "26 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "At the roundabout, turn left onto  Manyata Tech Park Rd",
+        "action": "roundabout-left",
+        "distance": 19,
+        "duration": 7,
+        "formatted_distance": "19 m",
+        "formatted_duration": "7 sec"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 4200,
+    "formatted_duration": "1 hr 10"
+   },
+   {
+    "travel_mode": "Two-wheeler",
+    "duration": 3900,
+    "formatted_duration": "1 hr 5"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 5820,
+    "formatted_duration": "1 hr 37"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 16913,
+    "formatted_duration": "4 hr 42"
+   }
+  ]
+ }
+}

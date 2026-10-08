@@ -28,7 +28,7 @@ city) use the same shape.
 | GET | `/runs/{run_id}/recommendations` | `Recommendation[]`, ranked; empty until the rank stage runs | F-04 | ✅ |
 | GET | `/properties/{listing_id}?run_id=` | `PropertyDetail` as that run judged it (latest run that found it when `run_id` is omitted); 404 for an unknown listing or run, or a run that did not find it (ADR 0021) | F-07 | ✅ |
 | GET | `/areas/{locality_key}` | `AreaIntel`; key like `bengaluru/whitefield`; 404 if never built | F-05 | ✅ |
-| GET | `/runs/{run_id}/areas` | `AreaIntel[]` as this run used them (frozen per run, ADR 0020); older runs fall back to the shared cache | F-05 | ✅ |
+| GET | `/runs/{run_id}/areas` | `AreaIntel[]` as this run used them (frozen per run, ADR 0020), including `commutes` to job hubs (F-23); older runs fall back to the shared cache | F-05 | ✅ |
 | GET | `/runs/{run_id}/competitors` | `CompetitorReport[]`, one per commercial locality, frozen per run; empty for residential runs (ADR 0023) | F-06 | ✅ |
 | GET | `/runs/{run_id}/development` | `AreaDevelopment[]`: developing-area signals per enriched locality (search histories, conclusion, research-priority rank, cited hypotheses), frozen per run; research priorities first; empty before enrichment (ADR 0025) | F-05 | ✅ |
 | GET | `/saved` | `SavedProperty[]` | F-08 | 🧱 |

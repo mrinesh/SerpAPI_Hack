@@ -19,6 +19,7 @@ results fetched for that investor's criteria; without SerpApi there is no shortl
 |---|---|---|
 | `google` | Discovery: site-filtered searches of 99acres, MagicBricks and NoBroker. Google returns their search pages, whose snippets quote priced entries *(S-01)*. Also the locality price level per sq ft ("office space price per sq ft in Koramangala Bangalore"), the benchmark for price flags (ADR 0014); the past-12-month price change (F-05); and rent levels per locality and type (F-09) | Built (F-02, F-05, F-09, F-12) |
 | `google_maps` | Discovery: named housing projects with GPS, rating and reviews for flat profiles *(S-01)*. Locality centres and amenities (F-05). Same-category businesses at a commercial locality's centre (F-06) | Built (F-02, F-05, F-06) |
+| `google_maps_directions` | Commute: the weekday 9 AM drive from each locality centre to three job hubs (ORR/Bellandur, Manyata, Electronic City), with Google's typical-traffic range; shown, not scored ([ADR 0026](decisions/0026-commute-to-job-hubs-display-only.md), [S-04](spikes/S-04-commute-directions.md)) | Built (F-23) |
 | `google_news` | Locality news with AI topic and sentiment labels, shown in the area panel (not scored) | Built (F-05, ADR 0020) |
 | `google_trends` | Developing-area signals: weekly interest in `<locality>` and `<locality> rent` over five years, up to 5 localities per call (2 calls per run), shown but not scored ([ADR 0025](decisions/0025-search-driven-developing-area-signals.md), after gscode007's branch) | Built |
 | `google_maps_reviews` | Review text of top competitors, to find market gaps | Planned (F-06b) |
@@ -62,10 +63,11 @@ default timeout is 60 s because two searches exceeded 30 s.
 |---|---|
 | Fresh run, L localities × T property types | L × T Google, + L Google Maps if flats are wanted, + at most 1 retry per empty query, + up to L × T price-level Google searches (localities with candidates) |
 | Area intelligence, per new locality, per 7-day TTL (F-05) | 1 Maps geocode + 3 Maps amenities + 1 Google growth + 1 Google News = 6 |
+| Commute, per locality and job hub, per area TTL (F-23) | 1 Maps directions × 3 hubs = 3 |
 | Rent level, per locality and property type, per TTL (F-09) | 1 Google |
 | Competitors, per commercial locality and business type, per TTL (F-06) | 1 Maps |
 | Developing-area signals, per run, up to 5 localities (ADR 0025) | 2 Trends (cached) |
-| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 18 area + 3 rent = 30 |
+| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 18 area + 9 commute + 3 rent + 2 Trends = 41; the per-run cap of 40 stops the last lookup (the second Trends request, which runs after the areas); a repeat run makes it from cache plus 1 search |
 | Largest profile: 5 localities × 4 types, with flats | 20 Google + 5 Maps + 20 price level = 45; the per-run cap of 40 stops discovery-first runs before that, and price levels then fall back to run medians |
 | Repeat run within the cache TTL | 0 |
 

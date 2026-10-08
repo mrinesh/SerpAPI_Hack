@@ -1,0 +1,679 @@
+{
+ "engine": "google_maps_directions",
+ "params": {
+  "start_coords": "12.9352403,77.624532",
+  "end_addr": "Electronic City Phase 1, Bengaluru",
+  "travel_mode": 0,
+  "time": "depart_at:1791882000",
+  "distance_unit": 0,
+  "gl": "in",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac72cd3a3f730ef04939de3",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/eBRnECbOQp3OwJHnaNwoUTQljgcXv2w058kEp-MVOtA/6ac72cd3a3f730ef04939de3.json",
+   "markdown_endpoint": "https://serpapi.com/searches/eBRnECbOQp3OwJHnaNwoUTQljgcXv2w058kEp-MVOtA/6ac72cd3a3f730ef04939de3.md",
+   "created_at": "2026-10-08 05:40:35 UTC",
+   "processed_at": "2026-10-08 05:40:35 UTC",
+   "google_maps_directions_url": "https://www.google.com/maps/dir/12.9352403%2C+77.6245320/Electronic+City+Phase+I%2C+Electronic+City%2C+Bengaluru%2C+Karnataka/data=!3m1!4b1!4m16!4m15!1m3!2m2!1d77.624532!2d12.9352403!1m5!1m1!1s0x3bae6c84c653f867:0xa2b7177c72352af9!2m2!1d77.655452!2d12.839274699999999!2m3!6e0!7e2!8j1791882000!3e0?hl=en&gl=in",
+   "raw_html_file": "https://serpapi.com/searches/eBRnECbOQp3OwJHnaNwoUTQljgcXv2w058kEp-MVOtA/6ac72cd3a3f730ef04939de3.html",
+   "prettify_html_file": "https://serpapi.com/searches/eBRnECbOQp3OwJHnaNwoUTQljgcXv2w058kEp-MVOtA/6ac72cd3a3f730ef04939de3.prettify",
+   "total_time_taken": 2.25
+  },
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "in",
+   "end_addr": "Electronic City Phase 1, Bengaluru",
+   "start_coords": "12.9352403,77.624532",
+   "travel_mode": "0",
+   "distance_unit": "0",
+   "time": "depart_at:1791882000"
+  },
+  "places_info": [
+   {
+    "address": "12.9352403, 77.6245320",
+    "gps_coordinates": {
+     "latitude": 12.9352403,
+     "longitude": 77.624532
+    }
+   },
+   {
+    "address": "Electronic City Phase I, Electronic City, Bengaluru, Karnataka",
+    "data_id": "0x3bae6c84c653f867:0xa2b7177c72352af9",
+    "gps_coordinates": {
+     "latitude": 12.839274699999999,
+     "longitude": 77.655452
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Driving",
+    "via": "Hosur Rd",
+    "distance": 14732,
+    "duration": 2100,
+    "arrive_around": 1791865500,
+    "typical_duration_range": "22–55 min",
+    "formatted_distance": "14.7 km",
+    "formatted_duration": "35 min",
+    "formatted_arrive_around": "9:55 AM",
+    "extensions": [
+     "Fastest route, despite the usual traffic",
+     "This route has tolls."
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  8th Main Rd  to  NH 44  in  Santhosapuram",
+      "distance": 1466,
+      "duration": 301,
+      "formatted_distance": "1.5 km",
+      "formatted_duration": "5 min",
+      "details": [
+       {
+        "title": "Head toward  16th C Main Rd",
+        "action": "straight",
+        "distance": 1418,
+        "duration": 281,
+        "formatted_distance": "1.4 km",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Lu0I9RO1GVMFcVo2AlK5AA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=291.4813&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.93534183207317,
+         "longitude": 77.62445197319104
+        },
+        "extensions": [
+         "Pass by The Hole In The Wall Cafe (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Sarjapur - Marathahalli Rd",
+        "action": "turn-left",
+        "distance": 48,
+        "duration": 20,
+        "formatted_distance": "48 m",
+        "formatted_duration": "20 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=el09gybAqWACZoeZjnOx7g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=197.25745&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.924740405441803,
+         "longitude": 77.62838618288299
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Drive from  Electronic City Flyover / Hosur Rd  to  Konappana Agrahara",
+      "distance": 10852,
+      "duration": 991,
+      "formatted_distance": "10.9 km",
+      "formatted_duration": "17 min",
+      "details": [
+       {
+        "title": "Turn  right  onto  NH 44",
+        "action": "turn-right",
+        "distance": 1017,
+        "duration": 152,
+        "formatted_distance": "1.0 km",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-gPUE-NNIJarU9iOekycgg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=113.87856&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.924448222879052,
+         "longitude": 77.62854736288226
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Use any lane to turn  left  after  Madivala Law And Order Police Station (on the left)",
+        "action": "turn-left",
+        "distance": 230,
+        "duration": 59,
+        "formatted_distance": "230 m",
+        "formatted_duration": "59 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dasMB7crNVXKxZZausy8HA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=59.698006&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.92120568587756,
+         "longitude": 77.62055879789482
+        },
+        "extensions": [
+         "Pass by Madiwala Traffic Police Station (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to stay on  NH 44 / NH 48",
+        "action": "turn-right",
+        "distance": 1241,
+        "duration": 146,
+        "formatted_distance": "1.2 km",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Czjrogoi_qzi_6hTPe3wdg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=144.29568&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.91951401523845,
+         "longitude": 77.62137130765505
+        },
+        "extensions": [
+         "Pass by Krimson Squre (on the left in 850m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 8364,
+        "duration": 634,
+        "formatted_distance": "8.4 km",
+        "formatted_duration": "11 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6AbZ-PW_KGh6lmYEfFQZ7g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=148.30733&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.909958725437686,
+         "longitude": 77.62728938356457
+        },
+        "extensions": [
+         "Continue to follow Electronic City Flyover/Hosur Rd"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Infosys Avenue  and  Wipro Ave  to  Neeladri Rd  in  Electronic City Phase I, Doddathoguru",
+      "distance": 2414,
+      "duration": 411,
+      "formatted_distance": "2.4 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 659,
+        "duration": 112,
+        "formatted_distance": "650 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=SlqBT_WYZbbEP7gg6Jd0gQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=143.1079&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.848044007911852,
+         "longitude": 77.67074408670645
+        },
+        "extensions": [
+         "Toll road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Infosys Avenue",
+        "action": "straight",
+        "distance": 616,
+        "duration": 104,
+        "formatted_distance": "600 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by IIIT-Bangalore (Ecity Campus) (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  at  Amity Online - Study Abroad | Electronic City  onto  Wipro Ave",
+        "action": "turn-left",
+        "distance": 729,
+        "duration": 132,
+        "formatted_distance": "750 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by Exasense Labs Limited (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  right  at  Wipro Gate Shikaripalya  onto  Neeladri Rd",
+        "action": "turn-slight-right",
+        "distance": 410,
+        "duration": 63,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gJfShuN39mF1JGeMQLrA4A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=44.590206&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.83907423098748,
+         "longitude": 77.65924199220002
+        },
+        "extensions": [
+         "Pass by Wipro Limited (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "NH 44/NH 48",
+    "distance": 14180,
+    "duration": 2400,
+    "arrive_around": 1791866400,
+    "typical_duration_range": "28 min to 1 hr 10 min",
+    "formatted_distance": "14.2 km",
+    "formatted_duration": "40 min",
+    "formatted_arrive_around": "10:10 AM",
+    "extensions": [
+     "Heavy traffic, as usual"
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  8th Main Rd  to  NH 44  in  Santhosapuram",
+      "distance": 1466,
+      "duration": 301,
+      "formatted_distance": "1.5 km",
+      "formatted_duration": "5 min",
+      "details": [
+       {
+        "title": "Head toward  16th C Main Rd",
+        "action": "straight",
+        "distance": 1418,
+        "duration": 281,
+        "formatted_distance": "1.4 km",
+        "formatted_duration": "5 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Lu0I9RO1GVMFcVo2AlK5AA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=291.4813&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.93534183207317,
+         "longitude": 77.62445197319104
+        },
+        "extensions": [
+         "Pass by The Hole In The Wall Cafe (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Sarjapur - Marathahalli Rd",
+        "action": "turn-left",
+        "distance": 48,
+        "duration": 20,
+        "formatted_distance": "48 m",
+        "formatted_duration": "20 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=el09gybAqWACZoeZjnOx7g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=197.25745&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.924740405441803,
+         "longitude": 77.62838618288299
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  NH 44  to  Hewlett Packard Avenue / Mumbai Hwy  in  Konappana Agrahara",
+      "distance": 9694,
+      "duration": 1277,
+      "formatted_distance": "9.7 km",
+      "formatted_duration": "21 min",
+      "details": [
+       {
+        "title": "Turn  right  onto  NH 44",
+        "action": "turn-right",
+        "distance": 1017,
+        "duration": 152,
+        "formatted_distance": "1.0 km",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-gPUE-NNIJarU9iOekycgg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=113.87856&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.924448222879052,
+         "longitude": 77.62854736288226
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Use any lane to turn  left  after  Madivala Law And Order Police Station (on the left)",
+        "action": "turn-left",
+        "distance": 230,
+        "duration": 59,
+        "formatted_distance": "230 m",
+        "formatted_duration": "59 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dasMB7crNVXKxZZausy8HA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=59.698006&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.92120568587756,
+         "longitude": 77.62055879789482
+        },
+        "extensions": [
+         "Pass by Madiwala Traffic Police Station (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to stay on  NH 44 / NH 48",
+        "action": "turn-right",
+        "distance": 1241,
+        "duration": 146,
+        "formatted_distance": "1.2 km",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Czjrogoi_qzi_6hTPe3wdg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=144.29568&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.91951401523845,
+         "longitude": 77.62137130765505
+        },
+        "extensions": [
+         "Pass by Krimson Squre (on the left in 850m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  left  to stay on  NH 44 / NH 48",
+        "action": "turn-left",
+        "distance": 7206,
+        "duration": 920,
+        "formatted_distance": "7.2 km",
+        "formatted_duration": "15 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6AbZ-PW_KGh6lmYEfFQZ7g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=148.30733&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.909958725437686,
+         "longitude": 77.62728938356457
+        },
+        "extensions": [
+         "Pass by Pillar Number 53 (on the right in 2 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Continue on  Hewlett Packard Avenue . Take  Infosys Drive  and  Wipro Ave  to  Neeladri Rd  in  Electronic City Phase I, Doddathoguru",
+      "distance": 3020,
+      "duration": 490,
+      "formatted_distance": "3.0 km",
+      "formatted_duration": "8 min",
+      "details": [
+       {
+        "title": "Turn  right  onto  Hewlett Packard Avenue / Mumbai Hwy",
+        "action": "turn-right",
+        "distance": 858,
+        "duration": 136,
+        "formatted_distance": "850 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=MBulcLQPxXkoSFjo-8SVyA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=143.12239&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.856307518985945,
+         "longitude": 77.66428881992854
+        },
+        "extensions": [
+         "Continue to follow Hewlett Packard Avenue",
+         "Pass by Konar Engineering Services (on the right in 600m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Hewlett Packard Avenue  turns  left  and becomes  Infosys Drive",
+        "action": "turn-left",
+        "distance": 869,
+        "duration": 135,
+        "formatted_distance": "850 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=GF6vAWWItLa9yOjfBSO3Mg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=344.4163&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.850843233365122,
+         "longitude": 77.66037876288813
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  Infosys Avenue",
+        "action": "turn-right",
+        "distance": 154,
+        "duration": 24,
+        "formatted_distance": "150 m",
+        "formatted_duration": "24 sec",
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Wipro Ave",
+        "action": "turn-left",
+        "distance": 729,
+        "duration": 132,
+        "formatted_distance": "750 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by Exasense Labs Limited (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  right  onto  Neeladri Rd",
+        "action": "turn-slight-right",
+        "distance": 410,
+        "duration": 63,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gJfShuN39mF1JGeMQLrA4A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=44.590206&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.83907423098748,
+         "longitude": 77.65924199220002
+        },
+        "extensions": [
+         "Pass by Wipro Limited (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "100 Feet Rd and Hosur Rd",
+    "distance": 14117,
+    "duration": 2100,
+    "arrive_around": 1791865800,
+    "typical_duration_range": "24 min to 1 hr",
+    "formatted_distance": "14.1 km",
+    "formatted_duration": "35 min",
+    "formatted_arrive_around": "10:00 AM",
+    "extensions": [
+     "Heavy traffic, as usual",
+     "This route has tolls."
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  100 Feet Rd  to  NH 48  in  Santhosapuram",
+      "distance": 1524,
+      "duration": 394,
+      "formatted_distance": "1.5 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Head toward  5th Cross Rd / 60 Feet Rd",
+        "action": "straight",
+        "distance": 1412,
+        "duration": 358,
+        "formatted_distance": "1.4 km",
+        "formatted_duration": "6 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RYm1Uhvs6K1wOZZEsCPT3w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=38.301216&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.935338253122348,
+         "longitude": 77.62463833313682
+        },
+        "extensions": [
+         "Continue to follow 100 Feet Rd",
+         "Pass by Essae Teraoka Private Limited - Weighing Scale, Point of sale, Milk Analyzer Manufacturer (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  after  Poorvika Mobiles Madiwala (on the left)",
+        "action": "turn-left",
+        "distance": 112,
+        "duration": 36,
+        "formatted_distance": "110 m",
+        "formatted_duration": "36 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=CBhAh2EyksrlubWHWdz84A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=66.90835&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.9247049260534,
+         "longitude": 77.61845306348553
+        },
+        "extensions": [
+         "Pass by Veta Madiwala (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Drive from  Electronic City Flyover / Hosur Rd  to  Konappana Agrahara",
+      "distance": 10179,
+      "duration": 968,
+      "formatted_distance": "10.2 km",
+      "formatted_duration": "16 min",
+      "details": [
+       {
+        "title": "Turn  left  onto  NH 48",
+        "action": "turn-left",
+        "distance": 574,
+        "duration": 188,
+        "formatted_distance": "550 m",
+        "formatted_duration": "3 min",
+        "extensions": [
+         "Pass by Khalsa Public School (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to continue on  NH 44 / NH 48",
+        "action": "turn-right",
+        "distance": 1241,
+        "duration": 146,
+        "formatted_distance": "1.2 km",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Czjrogoi_qzi_6hTPe3wdg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=144.29568&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.91951401523845,
+         "longitude": 77.62137130765505
+        },
+        "extensions": [
+         "Pass by Krimson Squre (on the left in 850m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 8364,
+        "duration": 634,
+        "formatted_distance": "8.4 km",
+        "formatted_duration": "11 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6AbZ-PW_KGh6lmYEfFQZ7g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=148.30733&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.909958725437686,
+         "longitude": 77.62728938356457
+        },
+        "extensions": [
+         "Continue to follow Electronic City Flyover/Hosur Rd"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Take  Infosys Avenue  and  Wipro Ave  to  Neeladri Rd  in  Electronic City Phase I, Doddathoguru",
+      "distance": 2414,
+      "duration": 411,
+      "formatted_distance": "2.4 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 659,
+        "duration": 112,
+        "formatted_distance": "650 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=SlqBT_WYZbbEP7gg6Jd0gQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=143.1079&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.848044007911852,
+         "longitude": 77.67074408670645
+        },
+        "extensions": [
+         "Toll road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  Infosys Avenue",
+        "action": "straight",
+        "distance": 616,
+        "duration": 104,
+        "formatted_distance": "600 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by IIIT-Bangalore (Ecity Campus) (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  at  Amity Online - Study Abroad | Electronic City  onto  Wipro Ave",
+        "action": "turn-left",
+        "distance": 729,
+        "duration": 132,
+        "formatted_distance": "750 m",
+        "formatted_duration": "2 min",
+        "extensions": [
+         "Pass by Exasense Labs Limited (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Slight  right  at  Wipro Gate Shikaripalya  onto  Neeladri Rd",
+        "action": "turn-slight-right",
+        "distance": 410,
+        "duration": 63,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gJfShuN39mF1JGeMQLrA4A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=44.590206&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.83907423098748,
+         "longitude": 77.65924199220002
+        },
+        "extensions": [
+         "Pass by Wipro Limited (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 2100,
+    "formatted_duration": "35 min"
+   },
+   {
+    "travel_mode": "Two-wheeler",
+    "duration": 2100,
+    "formatted_duration": "35 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 3600,
+    "formatted_duration": "1 hr"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 10905,
+    "formatted_duration": "3 hr 2"
+   }
+  ]
+ }
+}

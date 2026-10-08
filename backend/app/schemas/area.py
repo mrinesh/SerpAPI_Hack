@@ -64,6 +64,22 @@ class NewsItem(BaseModel):
     source: SourceRef
 
 
+class Commute(BaseModel):
+    """Driving time from the locality centre to one job hub, leaving on a weekday at 9 AM, as
+    Google Maps quotes it with its usual traffic (F-23, ADR 0026). Display only."""
+
+    hub_slug: str
+    hub: str  # display name, e.g. "Manyata Tech Park"
+    hub_location: GeoPoint | None = None  # from the directions response, never hand-entered
+    depart_at: datetime  # the pinned departure, as Bengaluru wall-clock time
+    duration_min: Sourced[int]  # Google's route time for that departure
+    typical_min: int | None = None  # Google's "typically 55 min to 1 hr 50 min" range
+    typical_max: int | None = None
+    typical_text: str | None = None  # the range as quoted, kept when it cannot be parsed
+    distance_km: float
+    via: str | None = None  # e.g. "ITPL Main Rd and NH 44"
+
+
 class TrendPoint(BaseModel):
     period: str  # e.g. "2026-09" or "Q3 2026"
     value: float
@@ -79,7 +95,8 @@ class AreaIssue(BaseModel):
     """One part of an area that could not be loaded; shown to the investor, never hidden as empty
     (ADR 0019, after gscode007's F-05 branch)."""
 
-    section: str  # "centre", "metro", "school", "hospital", "growth", "summary", "rent:office"
+    # "centre", "metro", "school", "hospital", "growth", "summary", "rent:office", "commute:manyata"
+    section: str
     provider: str  # "serpapi", "deepseek" or "serpapi+deepseek"
     code: str  # the AppError code, e.g. "replay_miss", "upstream_error"
     message: str
@@ -99,6 +116,8 @@ class AreaIntel(BaseModel):
     price_levels: dict[PropertyType, Sourced[float]] = Field(default_factory=dict)
     # Monthly rent per sq ft by property type: median of quoted rent ÷ size pairs (ADR 0017).
     rent_levels: dict[PropertyType, Sourced[float]] = Field(default_factory=dict)
+    # Drive to each job hub by hub slug, weekday 9 AM, from the centre (F-23); display only.
+    commutes: dict[str, Commute] = Field(default_factory=dict)
     rental_demand: RentalDemand | None = None  # not collected yet (F-05 P1)
     summary: str | None = None
     infrastructure_summary: str | None = None

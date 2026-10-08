@@ -15,12 +15,15 @@ from app.pipeline.enrichment.area import (
     _summarize,
     access_from,
     apply_labels,
+    departure,
     get_area_intel,
     haversine_km,
     listing_access,
     locality_key,
     parse_amenities,
     parse_centre,
+    parse_commute,
+    parse_duration_range,
     parse_news,
     same_event,
     supported_growth,
@@ -28,7 +31,7 @@ from app.pipeline.enrichment.area import (
 from app.pipeline.ranking import area_score
 from app.reference import load_market
 from app.schemas.area import Amenity, AmenityCategory, AreaAccess, AreaIntel
-from app.schemas.common import GeoPoint
+from app.schemas.common import GeoPoint, SerpEngine
 from app.schemas.provenance import ExtractionMethod, Sourced, SourceRef
 from tests.unit.test_verification import context
 
@@ -434,3 +437,146 @@ def test_an_area_cached_before_news_existed_is_rebuilt(db):
     db.commit()
     _, cached = get_area_intel(ctx, MARKET, "whitefield")
     assert not cached
+
+
+# --- commute to job hubs (F-23, S-04, ADR 0026) -------------------------------------------
+
+
+def directions(key):
+    import json
+    from pathlib import Path
+
+    path = Path(__file__).parents[2] / f"fixtures/serpapi/google_maps_directions/{key}.json"
+    return json.loads(path.read_text(encoding="utf-8"))["response"]
+
+
+MANYATA = next(hub for hub in MARKET.job_hubs if hub.slug == "manyata")
+# Whitefield centre -> Manyata, recorded in S-04 at four departures (Unix value -> minutes).
+NINE_AM = "d188d252b75bb9f860a5bb78"  # 1791882000: Tue 09:00 local, the pinned departure
+HALF_THREE_AM = "555bab9b60b5255bcf07acf9"  # 1791862200: 09:00 IST as a true instant
+HALF_NINE_PM = "deebb8b9e081911a533e5aef"  # 1791840600: 03:00 IST as a true instant
+PAST_HALF_THREE_AM = "681acc7ea82c86fd5613b6ec"  # 1790652600: two weeks before the pinned date
+
+
+def minutes(key):
+    return parse_commute(directions(key), MANYATA, departure(get_settings(), MARKET), None)
+
+
+def test_recorded_nine_am_drive_parses_with_googles_typical_range():
+    commute = parse_commute(directions(NINE_AM), MANYATA, departure(get_settings(), MARKET), "s-9")
+    assert (commute.duration_min.value, commute.typical_min, commute.typical_max) == (70, 55, 110)
+    assert commute.typical_text == "55 min to 1 hr 50 min"
+    assert (commute.distance_km, commute.via) == (21.4, "ITPL Main Rd and NH 44")
+    assert commute.hub_location == GeoPoint(lat=13.0473805, lng=77.6199556)
+    [source] = commute.duration_min.sources
+    assert source.engine is SerpEngine.GOOGLE_MAPS_DIRECTIONS and source.search_id == "s-9"
+    assert source.url.startswith("https://www.google.com/maps/dir/")
+    assert commute.depart_at.isoformat() == "2026-10-13T09:00:00+05:30"
+    assert "Tuesday at 09:00" in commute.duration_min.note
+
+
+def test_departure_is_read_as_local_wall_clock_time():
+    """S-04: Google Maps reads `depart_at` as local time written as UTC. The value for 09:00 IST
+    as a true instant reads as 03:30 (light traffic), and 03:00 IST reads as 21:30 (rush)."""
+    assert minutes(HALF_THREE_AM).duration_min.value == 40
+    assert minutes(HALF_NINE_PM).duration_min.value == 60
+    assert minutes(NINE_AM).duration_min.value == 70
+    # A departure date in the past still returns that hour's usual traffic, so the pin lasts.
+    past, pinned = minutes(PAST_HALF_THREE_AM), minutes(HALF_THREE_AM)
+    assert (past.duration_min.value, past.typical_text) == (40, pinned.typical_text)
+
+
+@pytest.mark.parametrize(
+    "data",
+    [
+        {},
+        {"directions": []},
+        {"directions": ["not a route"]},
+        {"directions": [{"duration": "40 min", "distance": 21500}]},
+        {"directions": [{"duration": True, "distance": 21500}]},
+        {"directions": [{"duration": 2400, "distance": 0}]},
+    ],
+)
+def test_a_route_without_numeric_time_and_distance_is_not_a_commute(data):
+    assert parse_commute(data, MANYATA, departure(get_settings(), MARKET), None) is None
+
+
+def test_a_hub_with_impossible_coordinates_keeps_its_time():
+    data = {
+        "directions": [{"duration": 2400, "distance": 21500}],
+        "places_info": [{}, {"gps_coordinates": {"latitude": 130.4, "longitude": 77.6}}],
+    }
+    commute = parse_commute(data, MANYATA, departure(get_settings(), MARKET), None)
+    assert commute.duration_min.value == 40 and commute.hub_location is None
+
+
+@pytest.mark.parametrize(
+    ("text", "expected"),
+    [
+        ("30\u201355 min", (30, 55)),
+        ("40 min to 1 hr", (40, 60)),
+        ("55 min to 1 hr 50 min", (55, 110)),
+        ("1 hr 5 min to 2 hr 20 min", (65, 140)),
+        ("1\u20132 hr", (60, 120)),
+        ("55\u201330 min", None),  # reversed
+        ("about an hour", None),
+        (None, None),
+    ],
+)
+def test_typical_duration_ranges(text, expected):
+    assert parse_duration_range(text) == expected
+
+
+class CommuteSerp(OkSerp):
+    """OkSerp plus directions: the recorded 9 AM route, or an error for the hubs in `failing`."""
+
+    def __init__(self, *failing: str) -> None:
+        self.failing = failing
+
+    def search(self, engine, params, run_id=None):
+        if engine is not SerpEngine.GOOGLE_MAPS_DIRECTIONS:
+            return super().search(engine, params, run_id)
+        OkSerp.calls += 1
+        if any(name in params["end_addr"] for name in self.failing):
+            raise UpstreamError("SerpApi request failed: timeout")
+        return SimpleNamespace(data=directions(NINE_AM), search_id="s-dir")
+
+
+def test_a_failing_hub_is_reported_and_retried_without_expiring_the_area(db):
+    ctx = ok_ctx(db)
+    ctx.serp = CommuteSerp("Manyata")
+    first, _ = get_area_intel(ctx, MARKET, "whitefield")
+    assert set(first.commutes) == {"orr-bellandur", "electronic-city"}
+    assert first.section_status["commute:manyata"] == "failed"
+    assert [(w.section, w.code) for w in first.warnings] == [("commute:manyata", "upstream_error")]
+    assert first.expires_at > first.fetched_at  # the rest of the area stays cached
+
+    ctx.serp = CommuteSerp()
+    searches = OkSerp.calls
+    second, cached = get_area_intel(ctx, MARKET, "whitefield")
+    assert cached and OkSerp.calls == searches + 1  # only the missing hub is searched again
+    assert set(second.commutes) == {hub.slug for hub in MARKET.job_hubs}
+    assert second.warnings == [] and second.section_status["commute:manyata"] == "ok"
+
+
+def test_an_area_cached_before_commutes_existed_gains_them_without_a_rebuild(db):
+    ctx = ok_ctx(db)
+    get_area_intel(ctx, MARKET, "whitefield")  # OkSerp: no directions data, so "empty"
+    row = db.get(AreaIntelRow, "bengaluru/whitefield")
+    row.data = {
+        **row.data,
+        "commutes": {},
+        "section_status": {
+            k: v for k, v in row.data["section_status"].items() if not k.startswith("commute:")
+        },
+    }
+    db.commit()
+    ctx.serp = CommuteSerp()
+    area, cached = get_area_intel(ctx, MARKET, "whitefield")
+    assert cached and len(area.commutes) == len(MARKET.job_hubs)
+
+
+def test_no_commute_is_searched_without_a_centre(db):
+    ctx = area_ctx(db)  # every search fails, the centre included
+    area, _ = get_area_intel(ctx, MARKET, "whitefield")
+    assert area.commutes == {} and not any(k.startswith("commute:") for k in area.section_status)

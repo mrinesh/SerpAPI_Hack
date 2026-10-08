@@ -3,6 +3,8 @@
     uv run python -m app.cli serp google q="flat for sale in Whitefield Bangalore"
     uv run python -m app.cli serp google_maps q="flats for sale Whitefield"
     uv run python -m app.cli serp google q="..." start=10
+    uv run python -m app.cli serp google_maps_directions start_coords=12.97,77.75 \
+        end_addr="Manyata Tech Park, Bengaluru" time=depart_at:1791882000
     uv run python -m app.cli budget
     uv run python -m app.cli llm "Reply with one word: ready"
     uv run python -m app.cli llm --tier lite "..."
@@ -25,7 +27,7 @@ from app.integrations.llm.base import ModelTier
 from app.integrations.llm.deepseek import DeepSeekProvider
 from app.integrations.serpapi import engines
 from app.integrations.serpapi.gateway import SerpApiGateway
-from app.schemas.common import SerpEngine
+from app.schemas.common import GeoPoint, SerpEngine
 from app.services.budget import get_budget_status
 
 BUILDERS = {
@@ -33,6 +35,7 @@ BUILDERS = {
     SerpEngine.GOOGLE_LOCAL: engines.google_local,
     SerpEngine.GOOGLE_MAPS: engines.google_maps_search,
     SerpEngine.GOOGLE_NEWS: engines.google_news,
+    SerpEngine.GOOGLE_MAPS_DIRECTIONS: engines.google_maps_directions,
 }
 RESULT_BLOCKS = ("organic_results", "local_results", "news_results")
 
@@ -42,7 +45,11 @@ def main(argv: list[str] | None = None) -> int:
     commands = parser.add_subparsers(dest="command", required=True)
     serp = commands.add_parser("serp", help="run one SerpApi search through the gateway")
     serp.add_argument("engine", choices=[str(e) for e in BUILDERS])
-    serp.add_argument("params", nargs="+", help='key=value pairs; q="..." is required')
+    serp.add_argument(
+        "params",
+        nargs="+",
+        help='key=value pairs; q="..." is required (directions: start_coords, end_addr)',
+    )
     serp.add_argument("--show", type=int, default=10, help="results to print per block")
     commands.add_parser("budget", help="searches used this month and left on the account")
     llm = commands.add_parser("llm", help="send one prompt to the LLM provider (live)")
@@ -62,11 +69,7 @@ def main(argv: list[str] | None = None) -> int:
                 return 0
             overrides = _parse_pairs(args.params)
             engine = SerpEngine(args.engine)
-            q = overrides.pop("q", None)
-            if not q:
-                parser.error('q="..." is required')
-            _, params = BUILDERS[engine](q, settings)
-            params.update(overrides)
+            params = _params(parser, engine, overrides, settings)
             result = SerpApiGateway(settings, db).search(engine, params)
         except AppError as exc:
             print(f"error [{exc.code}]: {exc.message}", file=sys.stderr)
@@ -74,6 +77,7 @@ def main(argv: list[str] | None = None) -> int:
 
     print(f"mode={settings.serpapi_mode} live={result.live} search_id={result.search_id}")
     print(f"params={result.params}")
+    _print_directions(result.data)
     for block in RESULT_BLOCKS:
         items = _items(result.data.get(block))
         if items:
@@ -82,6 +86,37 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"  #{item.get('position')} {item.get('title')}")
                 print(f"     {item.get('link') or item.get('address') or ''}")
     return 0
+
+
+def _params(parser, engine: SerpEngine, overrides: dict[str, Any], settings) -> dict[str, Any]:
+    if engine is SerpEngine.GOOGLE_MAPS_DIRECTIONS:
+        if not overrides.get("start_coords") or not overrides.get("end_addr"):
+            parser.error("start_coords=lat,lng and end_addr=... are required")
+        lat, _, lng = str(overrides["start_coords"]).partition(",")
+        _, params = engines.google_maps_directions(
+            GeoPoint(lat=float(lat), lng=float(lng)),
+            str(overrides["end_addr"]),
+            settings,
+            depart_at=settings.commute_depart_at,
+        )
+    else:
+        q = overrides.pop("q", None)
+        if not q:
+            parser.error('q="..." is required')
+        _, params = BUILDERS[engine](q, settings)
+    params.update(overrides)
+    return params
+
+
+def _print_directions(data: dict[str, Any]) -> None:
+    for place in data.get("places_info") or []:
+        print(f"place: {place.get('address')} {place.get('gps_coordinates')}")
+    for route in data.get("directions") or []:
+        print(
+            f"route via {route.get('via')}: {route.get('formatted_duration')} "
+            f"({route.get('duration')} s), {route.get('formatted_distance')}, "
+            f"typical {route.get('typical_duration_range')}, {route.get('extensions')}"
+        )
 
 
 def _llm(provider: DeepSeekProvider, prompt: str, tier: ModelTier) -> int:

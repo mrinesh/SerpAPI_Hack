@@ -33,7 +33,9 @@ export function areaWarnings(area: AreaIntel): string[] {
   return (area.warnings ?? []).map((warning) => {
     const label = warning.section.startsWith("rent:")
       ? `Rent (${warning.section.slice(5).replace("_", " ")})`
-      : SECTION_LABELS[warning.section] ?? warning.section;
+      : warning.section.startsWith("commute:")
+        ? `Commute (${warning.section.slice(8).replace(/-/g, " ")})`
+        : SECTION_LABELS[warning.section] ?? warning.section;
     return `${label}: ${warning.message}`;
   });
 }
@@ -47,4 +49,40 @@ export function newsForPanel(area: AreaIntel, limit = 5): NewsItem[] {
   const infrastructure = items.filter((item) => item.classified && item.topic === "infrastructure");
   const rest = items.filter((item) => !(item.classified && item.topic === "infrastructure"));
   return [...infrastructure, ...rest].slice(0, limit);
+}
+
+type Commute = NonNullable<AreaIntel["commutes"]>[string];
+
+/** 70 -> "1 hr 10 min", 60 -> "1 hr", 45 -> "45 min". */
+export function formatMinutes(minutes: number): string {
+  const hours = Math.floor(minutes / 60);
+  const rest = minutes % 60;
+  if (hours === 0) return `${rest} min`;
+  return rest === 0 ? `${hours} hr` : `${hours} hr ${rest} min`;
+}
+
+export interface CommuteRow {
+  hub: string;
+  time: string; // "1 hr 10 min"
+  typical: string | null; // "typically 55 min–1 hr 50 min"
+  route: string; // "21.4 km via ITPL Main Rd and NH 44"
+  url: string | null;
+}
+
+/** The weekday 9 AM drive to each job hub, quickest first (F-23, ADR 0026). */
+export function commuteRows(area: AreaIntel): CommuteRow[] {
+  const commutes = Object.values(area.commutes ?? {}).filter(
+    (c): c is Commute => c?.duration_min?.value != null,
+  );
+  return commutes
+    .sort((a, b) => (a.duration_min.value ?? 0) - (b.duration_min.value ?? 0))
+    .map((c) => ({
+      hub: c.hub,
+      time: formatMinutes(c.duration_min.value ?? 0),
+      typical: c.typical_min != null && c.typical_max != null
+        ? `typically ${formatMinutes(c.typical_min)}–${formatMinutes(c.typical_max)}`
+        : c.typical_text ? `typically ${c.typical_text}` : null,
+      route: [`${c.distance_km} km`, c.via && `via ${c.via}`].filter(Boolean).join(" "),
+      url: c.duration_min.sources?.[0]?.url ?? null,
+    }));
 }

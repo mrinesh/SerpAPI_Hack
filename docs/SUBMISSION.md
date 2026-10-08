@@ -49,11 +49,17 @@ gateway with a database cache, a per-run and monthly search budget, and record/r
 - **Google Maps (`google_maps`)**: housing projects with GPS, ratings and reviews; geocoding
   each locality; the nearest metro stations, schools and hospitals; and, for commercial
   profiles, same-category businesses within 2 km for density and ratings.
+- **Google Maps Directions (`google_maps_directions`)**: the weekday 9 AM drive from each
+  locality to Bengaluru's three big job hubs (ORR/Bellandur, Manyata, Electronic City), with
+  Google's typical-traffic range, e.g. Whitefield → Manyata 1 hr 10 min (typically 55 min to
+  1 hr 50 min). Rental demand follows the commute.
 - **Google News (`google_news`)**: recent locality news, labelled by topic and sentiment.
+- **Google Trends (`google_trends`)**: weekly search interest in each locality and its rentals,
+  for developing-area signals.
 - **Account API** for searches left (shown in the app) and **Locations API** for the `location`
   parameter.
 
-A fresh search of one locality costs about 10 searches; repeats within the cache window cost 0.
+A fresh search of one locality costs about 15 searches; repeats within the cache window cost 0.
 
 ## Demo video plan (< 3 min, running locally)
 

@@ -41,8 +41,9 @@ def test_residential_run_finds_priced_entries_and_projects(client):
         "rank": "succeeded",
     }
     # Every stage's lookups, all from recordings (replay never spends): 2 discovery, 1 price
-    # level, 6 area (centre, 3 amenities, growth, news), 1 rent and 2 Google Trends.
-    assert (run["searches_used"], run["cache_hits"]) == (0, 12)
+    # level, 6 area (centre, 3 amenities, growth, news), 1 rent, 2 Google Trends and 3 job-hub
+    # drives (F-23).
+    assert (run["searches_used"], run["cache_hits"]) == (0, 15)
 
     entries = [item for item in listings if item["kind"] == "snippet_entry"]
     projects = [item for item in listings if item["kind"] == "project"]
@@ -73,9 +74,9 @@ def test_commercial_run_skips_maps(client):
     }
     run, listings = run_for(client, profile)
     assert run["status"] == "succeeded"
-    # 1 discovery (no Maps for offices), 1 price level, 6 area, 1 rent and 2 Trends; this
+    # 1 discovery (no Maps for offices), 1 price level, 6 area, 1 rent, 2 Trends and 3 drives; this
     # profile's "Cafe" competitor search has no recording, so it is not a lookup.
-    assert run["cache_hits"] == 11
+    assert run["cache_hits"] == 14
     assert listings and {item["kind"] for item in listings} == {"snippet_entry"}
 
 

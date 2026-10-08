@@ -8,6 +8,12 @@
   "_note": "Locality centres are filled by geocoding through google_maps and cached (CHECKLIST I-12). Do not hand-enter coordinates. Add listing-text aliases only from observed data (I-12).",
   "bounds": {"south": 12.7, "west": 77.3, "north": 13.3, "east": 77.9},
   "_bounds_note": "A loose box around Bengaluru Urban, widened; it only rejects geocodes that land in another city. It is not a locality coordinate.",
+  "_job_hubs_note": "Commute destinations (F-23, ADR 0026): the three largest employment clusters, by address only. Their positions come from the directions search.",
+  "job_hubs": [
+    {"slug": "orr-bellandur", "name": "ORR (Bellandur)", "address": "RMZ Ecoworld, Bellandur, Bengaluru"},
+    {"slug": "manyata", "name": "Manyata Tech Park", "address": "Manyata Tech Park, Nagavara, Bengaluru"},
+    {"slug": "electronic-city", "name": "Electronic City", "address": "Electronic City Phase 1, Bengaluru"}
+  ],
   "localities": [
     {"slug": "whitefield", "name": "Whitefield", "aliases": []},
     {"slug": "sarjapura", "name": "Sarjapura", "aliases": ["Sarjapur"]},

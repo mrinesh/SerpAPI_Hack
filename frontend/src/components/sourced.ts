@@ -23,6 +23,7 @@ export const ENGINE_LABELS: Record<SerpEngine, string> = {
   google: "Google Search",
   google_local: "Google Local",
   google_maps: "Google Maps",
+  google_maps_directions: "Google Maps directions",
   google_maps_reviews: "Google Maps reviews",
   google_news: "Google News",
   google_trends: "Google Trends",

@@ -11,7 +11,9 @@ A provider error never fails a run, but it is never silent either (ADR 0019): th
 marked failed with the error in `warnings`, and the area expires at once so the next run
 retries. A cached area is reused only if it parses and matches the current schema version and
 provider modes.
-News and Google Trends demand are not collected yet.
+Also one google_news search per new locality (ADR 0020), and, filled in on any run that lacks
+them, one google_maps_directions search per job hub: the weekday 9 AM drive from the centre
+(F-23, ADR 0026), display only.
 """
 
 import logging
@@ -20,6 +22,7 @@ import re
 from collections.abc import Callable
 from datetime import UTC, datetime, timedelta
 from typing import TypeVar
+from zoneinfo import ZoneInfo
 
 from pydantic import BaseModel, Field, ValidationError
 
@@ -34,13 +37,14 @@ from app.pipeline.context import PipelineContext
 from app.pipeline.enrichment.rent_level import rent_level
 from app.pipeline.grounding import allowed_numbers, grounded
 from app.pipeline.verification import prompt_for
-from app.reference import Locality, Market
+from app.reference import JobHub, Locality, Market
 from app.schemas.area import (
     Amenity,
     AmenityCategory,
     AreaAccess,
     AreaIntel,
     AreaIssue,
+    Commute,
     NewsItem,
     NewsTopic,
     Sentiment,
@@ -156,6 +160,12 @@ def growth_call(name: str, market: Market, settings: Settings) -> EngineCall:
     )
 
 
+def commute_call(centre: GeoPoint, hub: JobHub, settings: Settings) -> EngineCall:
+    return engines.google_maps_directions(
+        centre, hub.address, settings, depart_at=settings.commute_depart_at
+    )
+
+
 # --- pure parsing and distances -----------------------------------------------------------
 
 
@@ -217,6 +227,104 @@ def parse_amenities(
             ),
         )
     return sorted(found.values(), key=lambda a: a.distance_km or 0)[:AMENITIES_PER_CATEGORY]
+
+
+_DURATION_PART = re.compile(r"(\d+)\s*(hours?|hrs?|h|minutes?|mins?)?\b", re.I)
+_RANGE_SPLIT = re.compile(r"\s*(?:\u2013|\u2014|-|\bto\b)\s*")  # en dash, em dash, hyphen, "to"
+
+
+def _minutes(text: str, default_unit: str | None) -> int | None:
+    parts = _DURATION_PART.findall(text)
+    if not parts:
+        return None
+    total = 0
+    for number, unit in parts:
+        unit = (unit or default_unit or "").lower()
+        if not unit:
+            return None
+        total += int(number) * (60 if unit.startswith("h") else 1)
+    return total
+
+
+def parse_duration_range(text: str | None) -> tuple[int, int] | None:
+    """Minutes in Google's typical range, as recorded in S-04: "30-55 min" (an en dash in the
+    response) -> (30, 55),
+    "55 min to 1 hr 50 min" -> (55, 110), "1 hr 5 min to 2 hr 20 min" -> (65, 140). A bare
+    number takes the other side's first unit ("1-2 hr" -> (60, 120)); anything else is None."""
+    if not text:
+        return None
+    sides = _RANGE_SPLIT.split(text.strip())
+    if len(sides) != 2:
+        return None
+    units = [(_DURATION_PART.findall(side) or [("", "")])[0][1] for side in sides]
+    low = _minutes(sides[0], units[1])
+    high = _minutes(sides[1], units[0])
+    if low is None or high is None or not 0 < low <= high:
+        return None
+    return low, high
+
+
+def _number(value: object) -> float | None:
+    return float(value) if isinstance(value, int | float) and not isinstance(value, bool) else None
+
+
+def parse_commute(
+    data: dict, hub: JobHub, depart_at: datetime, search_id: str | None
+) -> Commute | None:
+    """Google's recommended (first) driving route, or None when it has no time or distance."""
+    routes = data.get("directions")
+    route = routes[0] if isinstance(routes, list) and routes else None
+    if not isinstance(route, dict):
+        return None
+    seconds, metres = _number(route.get("duration")), _number(route.get("distance"))
+    if not seconds or not metres or seconds <= 0 or metres <= 0:
+        return None
+    places = data.get("places_info")
+    end = places[-1] if isinstance(places, list) and len(places) >= 2 else None
+    try:
+        hub_location = place_point(end) if isinstance(end, dict) else None
+    except ValidationError:  # coordinates out of range; the time is still usable
+        hub_location = None
+    typical_text = route.get("typical_duration_range")
+    typical_text = typical_text.strip() if isinstance(typical_text, str) else None
+    typical = parse_duration_range(typical_text)
+    via = route.get("via")
+    url = (data.get("search_metadata") or {}).get("google_maps_directions_url")
+    return Commute(
+        hub_slug=hub.slug,
+        hub=hub.name,
+        hub_location=hub_location,
+        depart_at=depart_at,
+        duration_min=Sourced(
+            value=round(seconds / 60),
+            confidence=0.8,
+            method=ExtractionMethod.SERPAPI_FIELD,
+            sources=[
+                SourceRef(
+                    engine=SerpEngine.GOOGLE_MAPS_DIRECTIONS,
+                    url=url if isinstance(url, str) else None,
+                    title=f"Driving directions to {hub.name}",
+                    search_id=search_id,
+                )
+            ],
+            note=(
+                f"Driving from the locality centre, leaving on a {depart_at:%A} at "
+                f"{depart_at:%H:%M}; Google's usual traffic for that hour, not a guarantee."
+            ),
+        ),
+        typical_min=typical[0] if typical else None,
+        typical_max=typical[1] if typical else None,
+        typical_text=typical_text,
+        distance_km=round(metres / 1000, 1),
+        via=via.strip() if isinstance(via, str) and via.strip() else None,
+    )
+
+
+def departure(settings: Settings, market: Market) -> datetime:
+    """The pinned departure as wall-clock time in the market's zone. Google Maps reads the Unix
+    value as local time written as UTC (S-04), so it is reinterpreted, not converted."""
+    wall = datetime.fromtimestamp(settings.commute_depart_at, UTC).replace(tzinfo=None)
+    return wall.replace(tzinfo=ZoneInfo(market.timezone))
 
 
 def supported_growth(extract: PriceGrowthExtract, snippet: str) -> float | None:
@@ -709,6 +817,23 @@ def get_area_intel(
             )
             if found is not None:
                 area.rent_levels[PropertyType(kind)] = found
+    if area.center is not None:
+        for hub in market.job_hubs:
+            section = f"commute:{hub.slug}"
+            if hub.slug in area.commutes or area.section_status.get(section) == "empty":
+                continue
+            # Filled in on any run that lacks it (areas cached before F-23 included), like rent;
+            # a failure is retried next run without expiring the rest of the area.
+
+            def drive(hub: JobHub = hub) -> Commute | None:
+                response = _search(ctx, commute_call(area.center, hub, ctx.settings))
+                return parse_commute(
+                    response.data, hub, departure(ctx.settings, market), response.search_id
+                )
+
+            found = sections.run(section, "serpapi", drive)
+            if found is not None:
+                area.commutes[hub.slug] = found
     if row is None:
         row = AreaIntelRow(locality_key=key)
         ctx.db.add(row)
