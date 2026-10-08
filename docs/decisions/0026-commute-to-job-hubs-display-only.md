@@ -44,9 +44,8 @@ still works.
 
 - A new locality costs 3 more searches (9 in total for area intelligence), which are then free
   for the area's TTL. A fresh 3-locality apartment run rises from 32 to 41 lookups (Trends
-  included), one over `SERPAPI_RUN_BUDGET` (40), so its last Trends request is stopped. Bigger
-  runs stop earlier, and a hub cut off by the cap shows as "could not be loaded" and is filled
-  in on the next run. Searches already made are served from the cache, so the retry costs only
+  included), so `SERPAPI_RUN_BUDGET` is raised from 40 to 45. Bigger runs can still hit the cap,
+  and a hub cut off by it shows as "could not be loaded" and is filled in on the next run. Searches already made are served from the cache, so the retry costs only
   what was missing.
 - Both demos are recorded: Whitefield to Manyata takes 1 hr 10 min at 9 AM (typically 55 min to
   1 hr 50 min). Koramangala to Electronic City takes 35 min.

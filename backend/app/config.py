@@ -37,7 +37,8 @@ class Settings(BaseSettings):
     serpapi_api_key: str | None = None
     serpapi_mode: ProviderMode = ProviderMode.REPLAY
     serpapi_monthly_budget: int = 250  # free tier
-    serpapi_run_budget: int = 40  # hard cap on live searches per pipeline run
+    # Hard cap on live searches per pipeline run; 45 fits a fresh 3-locality run (41, ADR 0026).
+    serpapi_run_budget: int = 45
     serpapi_cache_ttl_hours: int = 72
     serpapi_timeout_s: int = 60  # two S-01 searches took longer than 30 s
 

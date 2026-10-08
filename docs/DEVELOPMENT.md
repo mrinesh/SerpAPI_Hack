@@ -28,7 +28,7 @@ environment variables override `.env`.
 | `SERPAPI_API_KEY` | – | Needed for `live` / `record` mode only |
 | `SERPAPI_MODE` | `replay` | `live` · `record` · `replay` (see below) |
 | `SERPAPI_MONTHLY_BUDGET` | `250` | Live searches allowed per calendar month |
-| `SERPAPI_RUN_BUDGET` | `40` | Live searches allowed per pipeline run |
+| `SERPAPI_RUN_BUDGET` | `45` | Live searches allowed per pipeline run |
 | `SERPAPI_CACHE_TTL_HOURS` | `72` | How long a cached search is reused |
 | `SERPAPI_TIMEOUT_S` | `60` | Per-request timeout; some searches took over 30 s in S-01 |
 | `SERPAPI_LOCATION` | `Bengaluru,Karnataka,India` | SerpApi `location` parameter |
