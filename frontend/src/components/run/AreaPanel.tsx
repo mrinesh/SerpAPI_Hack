@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 import type { AreaIntel, PropertyType } from "../../api/types";
-import { areaWarnings, nearestByCategory, newsForPanel } from "./areaText";
+import { areaWarnings, commuteRows, nearestByCategory, newsForPanel } from "./areaText";
 
 /** F-05: one card per locality of the ranked candidates. Distances are computed in code; the
  * summary is AI-written only when every number in it was checked (ADR 0016). */
@@ -91,12 +91,39 @@ export function AreaCard({ area, typeLabel }: { area: AreaIntel; typeLabel: (val
           </div>
         ))}
       </div>
+      <Commutes area={area} />
       <LocalNews area={area} />
       <p className="text-xs text-slate-400">
         Amenities come from one Google Maps search per category near the locality centre, so counts are a sample.
         Price change is past data, not a forecast.
       </p>
     </article>
+  );
+}
+
+/** Weekday 9 AM drive from the locality centre to each job hub, as Google Maps quotes it with its
+ * usual traffic (F-23). Display only: it does not change the score (ADR 0026). */
+function Commutes({ area }: { area: AreaIntel }) {
+  const rows = commuteRows(area);
+  if (rows.length === 0) return null;
+  return (
+    <div className="space-y-1 text-xs">
+      <p className="font-medium text-slate-600">Drive to job hubs, weekday 9 AM</p>
+      <ul className="space-y-0.5 text-slate-600">
+        {rows.map((row) => (
+          <li key={row.hub} className="flex flex-wrap items-baseline gap-x-1">
+            <span>{row.hub}:</span>
+            <span className="font-medium text-slate-800">{row.time}</span>
+            {row.typical && <span className="text-slate-500">({row.typical})</span>}
+            <span className="text-slate-400">
+              · {row.route}
+              {row.url && <>{" · "}<a href={row.url} target="_blank" rel="noreferrer" className="underline">route</a></>}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <p className="text-slate-400">From the locality centre, by car, with Google's usual traffic for that hour; not a guarantee.</p>
+    </div>
   );
 }
 

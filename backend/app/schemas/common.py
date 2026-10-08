@@ -16,6 +16,7 @@ class SerpEngine(StrEnum):
     GOOGLE = "google"
     GOOGLE_LOCAL = "google_local"
     GOOGLE_MAPS = "google_maps"
+    GOOGLE_MAPS_DIRECTIONS = "google_maps_directions"
     GOOGLE_MAPS_REVIEWS = "google_maps_reviews"
     GOOGLE_NEWS = "google_news"
     GOOGLE_TRENDS = "google_trends"

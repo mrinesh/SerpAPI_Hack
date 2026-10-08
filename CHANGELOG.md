@@ -18,6 +18,12 @@ Reference CHECKLIST IDs.
   lookups were counted and live runs under-reported what they spent.
 
 ### Added
+- 2026-10-08 · Commute to job hubs (F-23, ADR 0026, spike S-04): one `google_maps_directions`
+  search per locality and hub (ORR/Bellandur, Manyata, Electronic City), leaving at a pinned
+  weekday 9 AM. The area card shows Google's time and typical-traffic range, e.g. Whitefield to
+  Manyata 1 hr 10 min (typically 55 min to 1 hr 50 min). Display only, so ranks are unchanged.
+  Hubs are filled in on cached areas without a rebuild. S-04 found that Google reads the
+  departure as local wall-clock time. 9 searches spent (4 spike, 5 demo recordings).
 - 2026-10-07 · Developing-area signals (ADR 0025), by gscode007, ported onto main: Google Trends
   weekly interest in each locality and its rentals, plus the app's own search history; code
   compares the last 13 weeks with the previous 13 and a year earlier and checks growth against

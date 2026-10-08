@@ -1,0 +1,806 @@
+{
+ "engine": "google_maps_directions",
+ "params": {
+  "start_coords": "12.9352403,77.624532",
+  "end_addr": "RMZ Ecoworld, Bellandur, Bengaluru",
+  "travel_mode": 0,
+  "time": "depart_at:1791882000",
+  "distance_unit": 0,
+  "gl": "in",
+  "hl": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac72cd006ca7f5b8972532b",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/jiKP46gpHJhXlnE3Rj1OnhogE6e7sOB8rylUzdk7i-s/6ac72cd006ca7f5b8972532b.json",
+   "markdown_endpoint": "https://serpapi.com/searches/jiKP46gpHJhXlnE3Rj1OnhogE6e7sOB8rylUzdk7i-s/6ac72cd006ca7f5b8972532b.md",
+   "created_at": "2026-10-08 05:40:32 UTC",
+   "processed_at": "2026-10-08 05:40:32 UTC",
+   "google_maps_directions_url": "https://www.google.com/maps/dir/12.9352403%2C+77.6245320/RMZ+ECOWORLD%2C+Bellandur%2C+Bengaluru%2C+Karnataka+560103/data=!3m1!4b1!4m16!4m15!1m3!2m2!1d77.624532!2d12.9352403!1m5!1m1!1s0x3bae130f2ab4764d:0xfa8184652933aee9!2m2!1d77.685174!2d12.920650799999999!2m3!6e0!7e2!8j1791882000!3e0?hl=en&gl=in",
+   "raw_html_file": "https://serpapi.com/searches/jiKP46gpHJhXlnE3Rj1OnhogE6e7sOB8rylUzdk7i-s/6ac72cd006ca7f5b8972532b.html",
+   "prettify_html_file": "https://serpapi.com/searches/jiKP46gpHJhXlnE3Rj1OnhogE6e7sOB8rylUzdk7i-s/6ac72cd006ca7f5b8972532b.prettify",
+   "total_time_taken": 1.29
+  },
+  "search_parameters": {
+   "engine": "google_maps_directions",
+   "hl": "en",
+   "gl": "in",
+   "end_addr": "RMZ Ecoworld, Bellandur, Bengaluru",
+   "start_coords": "12.9352403,77.624532",
+   "travel_mode": "0",
+   "distance_unit": "0",
+   "time": "depart_at:1791882000"
+  },
+  "places_info": [
+   {
+    "address": "12.9352403, 77.6245320",
+    "gps_coordinates": {
+     "latitude": 12.9352403,
+     "longitude": 77.624532
+    }
+   },
+   {
+    "address": "RMZ ECOWORLD, Bellandur, Bengaluru, Karnataka 560103",
+    "data_id": "0x3bae130f2ab4764d:0xfa8184652933aee9",
+    "gps_coordinates": {
+     "latitude": 12.920650799999999,
+     "longitude": 77.685174
+    }
+   }
+  ],
+  "directions": [
+   {
+    "travel_mode": "Driving",
+    "via": "NH 44",
+    "distance": 9046,
+    "duration": 2700,
+    "arrive_around": 1791866400,
+    "typical_duration_range": "35 min to 1 hr 10 min",
+    "formatted_distance": "9.0 km",
+    "formatted_duration": "45 min",
+    "formatted_arrive_around": "10:10 AM",
+    "extensions": [
+     "Fastest route, despite slowdown on NH 44 causing 16-min delay"
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Take  8th Main Rd  and  1st Main Rd  to  NH 44  in  Jakkasandra Extension",
+      "distance": 2065,
+      "duration": 422,
+      "formatted_distance": "2.1 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Head toward  16th C Main Rd",
+        "action": "straight",
+        "distance": 794,
+        "duration": 147,
+        "formatted_distance": "800 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Lu0I9RO1GVMFcVo2AlK5AA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=291.4813&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.93534183207317,
+         "longitude": 77.62445197319104
+        },
+        "extensions": [
+         "Pass by The Hole In The Wall Cafe (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  7th Cross Rd",
+        "action": "turn-left",
+        "distance": 420,
+        "duration": 85,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BMsQnhG5vRk_IBXKvZ0-eQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=161.45338&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.930259834582781,
+         "longitude": 77.62921323312024
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Continue onto  1st Main Rd",
+        "action": "straight",
+        "distance": 851,
+        "duration": 190,
+        "formatted_distance": "850 m",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=on7HFB1zXEr6hxv6ZZCwwA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=246.1816&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.929767478525768,
+         "longitude": 77.63288401456455
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  NH 44  to  Service Rd  in  Kariyammana Agrahara",
+      "distance": 5025,
+      "duration": 635,
+      "formatted_distance": "5.0 km",
+      "formatted_duration": "11 min",
+      "details": [
+       {
+        "title": "Turn  left  onto  NH 44",
+        "action": "turn-left",
+        "distance": 3253,
+        "duration": 455,
+        "formatted_distance": "3.3 km",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OnyJeiaO2WuFFel4LDvPBQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=191.37079&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.925384106966316,
+         "longitude": 77.63744686728477
+        },
+        "extensions": [
+         "Pass by Pillar Number 9 (on the right in 3.2 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to stay on  NH 44",
+        "action": "turn-right",
+        "distance": 952,
+        "duration": 103,
+        "formatted_distance": "1.0 km",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OnpB4FuBiWbKIpSATmTWGA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=250.12029&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.921153222051279,
+         "longitude": 77.66599227829302
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 820,
+        "duration": 77,
+        "formatted_distance": "800 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=F-rtFDFrIFvkVS_vt7hOAw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=61.813976&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.924780796839222,
+         "longitude": 77.6739110313996
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  Service Rd  and  Bellandur - Doddakannelli Rd / RMZ Ecoworld Rd  to your destination",
+      "distance": 1956,
+      "duration": 423,
+      "formatted_distance": "2.0 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Keep  left  to continue on  Service Rd",
+        "action": "turn-left",
+        "distance": 532,
+        "duration": 89,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=O8txpv9AgmD-oPT6OKeGgg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=244.79263&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.928059447026381,
+         "longitude": 77.68072464745866
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Make a  U-turn  at  Sakra Hospital Rd",
+        "action": "uturn-right",
+        "distance": 82,
+        "duration": 25,
+        "formatted_distance": "82 m",
+        "formatted_duration": "25 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HIANr3BGg0syt0G87BAMSg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=57.023014&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.930180606174678,
+         "longitude": 77.68492255636367
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_u_turn_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Bellandur - Doddakannelli Rd / RMZ Ecoworld Rd",
+        "action": "turn-left",
+        "distance": 1198,
+        "duration": 211,
+        "formatted_distance": "1.2 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rLTqgujUbwmMag1zn9A5Og&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=61.61507&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.929833133914,
+         "longitude": 77.6851052338959
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 10,
+        "formatted_distance": "21 m",
+        "formatted_duration": "10 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6JbbKudOptQbPcCjzHlCUw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=3.2637858&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.919756830706305,
+         "longitude": 77.68553611056464
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 104,
+        "duration": 42,
+        "formatted_distance": "100 m",
+        "formatted_duration": "42 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nJ-ws1Lhsb3CDWo9xsKVnw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=94.45361&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.919624768605264,
+         "longitude": 77.68547478150522
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 19,
+        "duration": 46,
+        "formatted_distance": "19 m",
+        "formatted_duration": "46 sec",
+        "extensions": [
+         "Restricted usage road",
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "1st Main Rd and NH 44",
+    "distance": 9281,
+    "duration": 2700,
+    "arrive_around": 1791866400,
+    "typical_duration_range": "35 min to 1 hr 10 min",
+    "formatted_distance": "9.3 km",
+    "formatted_duration": "45 min",
+    "formatted_arrive_around": "10:10 AM",
+    "extensions": [
+     "Slowdown on NH 44 causing 16-min delay"
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Take  1st Main Rd  to  NH 44  in  Jakkasandra Extension",
+      "distance": 2300,
+      "duration": 480,
+      "formatted_distance": "2.3 km",
+      "formatted_duration": "8 min",
+      "details": [
+       {
+        "title": "Head toward  16th C Main Rd",
+        "action": "straight",
+        "distance": 422,
+        "duration": 86,
+        "formatted_distance": "400 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Lu0I9RO1GVMFcVo2AlK5AA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=291.4813&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.93534183207317,
+         "longitude": 77.62445197319104
+        },
+        "extensions": [
+         "Pass by The Hole In The Wall Cafe (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  12th Main Rd",
+        "action": "turn-left",
+        "distance": 353,
+        "duration": 90,
+        "formatted_distance": "350 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dyDGTruaGUFpwC_kJyKOHw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=137.18939&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.933126233752258,
+         "longitude": 77.62745983044692
+        },
+        "extensions": [
+         "Pass by Akshatha Skin & Hair Care Centre (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  1st Main Rd",
+        "action": "turn-right",
+        "distance": 589,
+        "duration": 117,
+        "formatted_distance": "600 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=iOwCUtXc4YAo2oHjh1EWcQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=236.78177&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.934754592826586,
+         "longitude": 77.6300811835487
+        },
+        "extensions": [
+         "Pass by Pinnacle Family Dental and Implant Clinic (on the left)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  after  Nuts corner (on the right)",
+        "action": "turn-right",
+        "distance": 150,
+        "duration": 33,
+        "formatted_distance": "150 m",
+        "formatted_duration": "33 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YeTxOz7yZspCdBlLH1dOyQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=313.51782&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.931210819442116,
+         "longitude": 77.63394946883686
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  1st Main Rd",
+        "action": "turn-left",
+        "distance": 786,
+        "duration": 154,
+        "formatted_distance": "800 m",
+        "formatted_duration": "3 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=97oQvHZmHdh8ZABpD1ec0A&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=205.16913&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.930036674884038,
+         "longitude": 77.63362992101959
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  NH 44  to  Service Rd  in  Kariyammana Agrahara",
+      "distance": 5025,
+      "duration": 635,
+      "formatted_distance": "5.0 km",
+      "formatted_duration": "11 min",
+      "details": [
+       {
+        "title": "Turn  left  onto  NH 44",
+        "action": "turn-left",
+        "distance": 3253,
+        "duration": 455,
+        "formatted_distance": "3.3 km",
+        "formatted_duration": "8 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OnyJeiaO2WuFFel4LDvPBQ&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=191.37079&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.925384106966316,
+         "longitude": 77.63744686728477
+        },
+        "extensions": [
+         "Pass by Pillar Number 9 (on the right in 3.2 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to stay on  NH 44",
+        "action": "turn-right",
+        "distance": 952,
+        "duration": 103,
+        "formatted_distance": "1.0 km",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OnpB4FuBiWbKIpSATmTWGA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=250.12029&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.921153222051279,
+         "longitude": 77.66599227829302
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 820,
+        "duration": 77,
+        "formatted_distance": "800 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=F-rtFDFrIFvkVS_vt7hOAw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=61.813976&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.924780796839222,
+         "longitude": 77.6739110313996
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  Service Rd  and  Bellandur - Doddakannelli Rd / RMZ Ecoworld Rd  to your destination",
+      "distance": 1956,
+      "duration": 423,
+      "formatted_distance": "2.0 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Keep  left  to continue on  Service Rd",
+        "action": "turn-left",
+        "distance": 532,
+        "duration": 89,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=O8txpv9AgmD-oPT6OKeGgg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=244.79263&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.928059447026381,
+         "longitude": 77.68072464745866
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Make a  U-turn  at  Sakra Hospital Rd",
+        "action": "uturn-right",
+        "distance": 82,
+        "duration": 25,
+        "formatted_distance": "82 m",
+        "formatted_duration": "25 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HIANr3BGg0syt0G87BAMSg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=57.023014&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.930180606174678,
+         "longitude": 77.68492255636367
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_u_turn_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Bellandur - Doddakannelli Rd / RMZ Ecoworld Rd",
+        "action": "turn-left",
+        "distance": 1198,
+        "duration": 211,
+        "formatted_distance": "1.2 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rLTqgujUbwmMag1zn9A5Og&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=61.61507&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.929833133914,
+         "longitude": 77.6851052338959
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 10,
+        "formatted_distance": "21 m",
+        "formatted_duration": "10 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6JbbKudOptQbPcCjzHlCUw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=3.2637858&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.919756830706305,
+         "longitude": 77.68553611056464
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 104,
+        "duration": 42,
+        "formatted_distance": "100 m",
+        "formatted_duration": "42 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nJ-ws1Lhsb3CDWo9xsKVnw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=94.45361&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.919624768605264,
+         "longitude": 77.68547478150522
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 19,
+        "duration": 46,
+        "formatted_distance": "19 m",
+        "formatted_duration": "46 sec",
+        "extensions": [
+         "Restricted usage road",
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "travel_mode": "Driving",
+    "via": "Sarjapur - Marathahalli Rd",
+    "distance": 9753,
+    "duration": 3000,
+    "arrive_around": 1791866400,
+    "typical_duration_range": "35 min to 1 hr 10 min",
+    "formatted_distance": "9.8 km",
+    "formatted_duration": "50 min",
+    "formatted_arrive_around": "10:10 AM",
+    "extensions": [
+     "Slowdown on NH 44 causing 16-min delay"
+    ],
+    "icon": "https://serpapi.com/assets/google_maps_directions/driving.svg",
+    "trips": [
+     {
+      "travel_mode": "Driving",
+      "title": "Take  100 Feet Rd / 18th Main Rd / Intermediate Ring Rd / Mahakavi Vemana Rd  and  16th Main Rd  to  Sarjapur - Marathahalli Rd  in  Santhosapuram",
+      "distance": 1200,
+      "duration": 227,
+      "formatted_distance": "1.2 km",
+      "formatted_duration": "4 min",
+      "details": [
+       {
+        "title": "Head toward  5th Cross Rd / 60 Feet Rd",
+        "action": "straight",
+        "distance": 464,
+        "duration": 97,
+        "formatted_distance": "450 m",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RYm1Uhvs6K1wOZZEsCPT3w&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=38.301216&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.935338253122348,
+         "longitude": 77.62463833313682
+        },
+        "extensions": [
+         "Pass by Essae Teraoka Private Limited - Weighing Scale, Point of sale, Milk Analyzer Manufacturer (on the left in 300m)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/straight_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  after  Maruti Suzuki ARENA (Surakshaa, Bangalore, Koramangala) (on the left)",
+        "action": "turn-left",
+        "distance": 258,
+        "duration": 56,
+        "formatted_distance": "260 m",
+        "formatted_duration": "56 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=o7Y1mJ5u26e83wjo53xp9Q&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=199.74208&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.93172958946835,
+         "longitude": 77.62270365362112
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right  onto  16th Main Rd",
+        "action": "turn-right",
+        "distance": 478,
+        "duration": 74,
+        "formatted_distance": "500 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=1WXVd9hpYXQZBOFXmj7zRg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=293.0319&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.93075006570562,
+         "longitude": 77.62468693352221
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  Sarjapur - Marathahalli Rd  and  NH 44  to  Service Rd  in  Kariyammana Agrahara",
+      "distance": 6597,
+      "duration": 924,
+      "formatted_distance": "6.6 km",
+      "formatted_duration": "15 min",
+      "details": [
+       {
+        "title": "Turn  left  onto  Sarjapur - Marathahalli Rd",
+        "action": "turn-left",
+        "distance": 4685,
+        "duration": 714,
+        "formatted_distance": "4.7 km",
+        "formatted_duration": "12 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=f1kbP4Va7Vaoy3enTxuc8g&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=18.545485&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.92672676087517,
+         "longitude": 77.62351405001583
+        },
+        "extensions": [
+         "Pass by Pingara (on the left in 1.2 km)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Sarjapur - Marathahalli Rd  turns slightly  left  and becomes  NH 44",
+        "action": "turn-slight-left",
+        "distance": 140,
+        "duration": 30,
+        "formatted_distance": "140 m",
+        "formatted_duration": "30 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=r8tUqAZGXZMMh0uYxDCaOw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=95.40775&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.920811909177932,
+         "longitude": 77.66472746621177
+        },
+        "extensions": [
+         "Pass by Pillar Number 9 (on the right)"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_slight_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to stay on  NH 44",
+        "action": "turn-right",
+        "distance": 952,
+        "duration": 103,
+        "formatted_distance": "1.0 km",
+        "formatted_duration": "2 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=OnpB4FuBiWbKIpSATmTWGA&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=250.12029&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.921153222051279,
+         "longitude": 77.66599227829302
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Keep  right  to take the flyover",
+        "action": "turn-right",
+        "distance": 820,
+        "duration": 77,
+        "formatted_distance": "800 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=F-rtFDFrIFvkVS_vt7hOAw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=61.813976&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.924780796839222,
+         "longitude": 77.6739110313996
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     },
+     {
+      "travel_mode": "Driving",
+      "title": "Follow  Service Rd  and  Bellandur - Doddakannelli Rd / RMZ Ecoworld Rd  to your destination",
+      "distance": 1956,
+      "duration": 423,
+      "formatted_distance": "2.0 km",
+      "formatted_duration": "7 min",
+      "details": [
+       {
+        "title": "Keep  left  to continue on  Service Rd",
+        "action": "turn-left",
+        "distance": 532,
+        "duration": 89,
+        "formatted_distance": "550 m",
+        "formatted_duration": "1 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=O8txpv9AgmD-oPT6OKeGgg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=244.79263&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.928059447026381,
+         "longitude": 77.68072464745866
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Make a  U-turn  at  Sakra Hospital Rd",
+        "action": "uturn-right",
+        "distance": 82,
+        "duration": 25,
+        "formatted_distance": "82 m",
+        "formatted_duration": "25 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=HIANr3BGg0syt0G87BAMSg&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=57.023014&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.930180606174678,
+         "longitude": 77.68492255636367
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_u_turn_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left  onto  Bellandur - Doddakannelli Rd / RMZ Ecoworld Rd",
+        "action": "turn-left",
+        "distance": 1198,
+        "duration": 211,
+        "formatted_distance": "1.2 km",
+        "formatted_duration": "4 min",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rLTqgujUbwmMag1zn9A5Og&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=61.61507&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.929833133914,
+         "longitude": 77.6851052338959
+        },
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 21,
+        "duration": 10,
+        "formatted_distance": "21 m",
+        "formatted_duration": "10 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6JbbKudOptQbPcCjzHlCUw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=3.2637858&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.919756830706305,
+         "longitude": 77.68553611056464
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  right",
+        "action": "turn-right",
+        "distance": 104,
+        "duration": 42,
+        "formatted_distance": "100 m",
+        "formatted_duration": "42 sec",
+        "geo_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nJ-ws1Lhsb3CDWo9xsKVnw&cb_client=unknown_client.gws.gps&w=203&h=100&yaw=94.45361&pitch=0&thumbfov=100",
+        "gps_coordinates": {
+         "latitude": 12.919624768605264,
+         "longitude": 77.68547478150522
+        },
+        "extensions": [
+         "Restricted usage road"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       },
+       {
+        "title": "Turn  left",
+        "action": "turn-left",
+        "distance": 19,
+        "duration": 46,
+        "formatted_distance": "19 m",
+        "formatted_duration": "46 sec",
+        "extensions": [
+         "Restricted usage road",
+         "Destination will be on the right"
+        ],
+        "icon": "https://maps.gstatic.com/consumer/images/icons/2x/turn_left_grey800_18dp.png"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "durations": [
+   {
+    "travel_mode": "Driving",
+    "duration": 2700,
+    "formatted_duration": "45 min"
+   },
+   {
+    "travel_mode": "Two-wheeler",
+    "duration": 2400,
+    "formatted_duration": "40 min"
+   },
+   {
+    "travel_mode": "Transit",
+    "duration": 3660,
+    "formatted_duration": "1 hr 1"
+   },
+   {
+    "travel_mode": "Walking",
+    "duration": 8056,
+    "formatted_duration": "2 hr 14"
+   }
+  ]
+ }
+}

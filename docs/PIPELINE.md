@@ -142,6 +142,7 @@ once per locality of the rankable candidates, cached in `area_intel` for `AREA_I
 | Price level per type | google | from the verify stage (`price_level.py`, ADR 0014), merged in | Built |
 | Area + infrastructure summary | LLM lite | `summarize_area`, number-checked, code fallback | Built |
 | News | google_news | `'"{locality}" Bengaluru'` → locality-named, one per event, 10 newest → `classify_news` (topic, sentiment); display only ([ADR 0020](decisions/0020-local-news-and-frozen-run-areas.md)) | Built |
+| Commute to job hubs | google_maps_directions | centre → each hub's address (`job_hubs` in `bengaluru.json`), driving, pinned weekday 09:00 local departure → first route's time, Google's typical range, km, via; filled in on any run lacking it; display only ([ADR 0026](decisions/0026-commute-to-job-hubs-display-only.md)) | Built (F-23) |
 | Rental demand (P1) | google_trends | `"flats for rent {locality}"`, up to 5 localities per call | Deferred |
 
 Amenities are kept by Maps place type, with distances computed in code. The rank stage turns them

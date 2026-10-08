@@ -1408,6 +1408,13 @@
             "type": "object",
             "title": "Rent Levels"
           },
+          "commutes": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Commute"
+            },
+            "type": "object",
+            "title": "Commutes"
+          },
           "rental_demand": {
             "anyOf": [
               {
@@ -1563,6 +1570,94 @@
           "cache_hits_this_month"
         ],
         "title": "BudgetStatus"
+      },
+      "Commute": {
+        "properties": {
+          "hub_slug": {
+            "type": "string",
+            "title": "Hub Slug"
+          },
+          "hub": {
+            "type": "string",
+            "title": "Hub"
+          },
+          "hub_location": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/GeoPoint"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "depart_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Depart At"
+          },
+          "duration_min": {
+            "$ref": "#/components/schemas/Sourced_int_"
+          },
+          "typical_min": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Typical Min"
+          },
+          "typical_max": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Typical Max"
+          },
+          "typical_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Typical Text"
+          },
+          "distance_km": {
+            "type": "number",
+            "title": "Distance Km"
+          },
+          "via": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Via"
+          }
+        },
+        "type": "object",
+        "required": [
+          "hub_slug",
+          "hub",
+          "depart_at",
+          "duration_min",
+          "distance_km"
+        ],
+        "title": "Commute",
+        "description": "Driving time from the locality centre to one job hub, leaving on a weekday at 9 AM, as\nGoogle Maps quotes it with its usual traffic (F-23, ADR 0026). Display only."
       },
       "CompareResult": {
         "properties": {
@@ -3366,6 +3461,7 @@
           "google",
           "google_local",
           "google_maps",
+          "google_maps_directions",
           "google_maps_reviews",
           "google_news",
           "google_trends"

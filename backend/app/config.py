@@ -63,6 +63,11 @@ class Settings(BaseSettings):
 
     # Enrichment results are shared per locality, so they can live longer than search caches.
     area_intel_ttl_hours: int = 168
+    # Departure for commute times to job hubs (F-23, ADR 0026): Tuesday 09:00 in Bengaluru. Google
+    # Maps reads it as local wall-clock time written as UTC (S-04), so this is 2026-10-13T09:00Z.
+    # Pinned, not "next weekday", so the search's cache key and recording never change; a past
+    # date still returns typical traffic for that weekday and hour (S-04).
+    commute_depart_at: int = 1791882000
 
     # Add the two demo profiles on startup when missing (I-13); `make demo` turns it on, so a
     # fresh clone opens with profiles whose searches are recorded.

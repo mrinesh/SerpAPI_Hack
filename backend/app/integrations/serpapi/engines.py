@@ -56,6 +56,25 @@ def google_maps_search(
     return SerpEngine.GOOGLE_MAPS, params
 
 
+def google_maps_directions(
+    start: GeoPoint, end_addr: str, settings: Settings, *, depart_at: int
+) -> EngineCall:
+    """Driving time from a locality centre to a named job hub, leaving at `depart_at` (Unix).
+
+    `travel_mode` 0 is driving and `distance_unit` 0 is km. The hub is an address, never
+    coordinates (ADR 0022); its position comes back in `places_info`.
+    """
+    return SerpEngine.GOOGLE_MAPS_DIRECTIONS, {
+        "start_coords": f"{start.lat},{start.lng}",
+        "end_addr": end_addr,
+        "travel_mode": 0,
+        "time": f"depart_at:{depart_at}",
+        "distance_unit": 0,
+        "gl": settings.serpapi_gl,
+        "hl": settings.serpapi_hl,
+    }
+
+
 def google_maps_reviews(
     data_id: str, settings: Settings, *, sort_by: str = "qualityScore"
 ) -> EngineCall:

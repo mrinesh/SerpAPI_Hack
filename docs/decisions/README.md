@@ -30,3 +30,4 @@ for a new one; never edit an accepted ADR's decision, supersede it with a new on
 | [0023](0023-competitors-per-locality-read-by-type.md) | Competitors per locality and business type, read by property type, not scored | Accepted |
 | [0024](0024-locality-evidence-from-result-text.md) | Locality evidence from the result's own words; flag text that places it elsewhere | Accepted |
 | [0025](0025-search-driven-developing-area-signals.md) | Search-driven developing-area signals, display only (after gscode007's branch) | Accepted |
+| [0026](0026-commute-to-job-hubs-display-only.md) | Commute to job hubs from google_maps_directions, display only | Accepted |
