@@ -49,7 +49,7 @@ Only the gateway, `backend/app/integrations/serpapi/gateway.py`, imports it.
 | Record / replay | `backend/fixtures/serpapi/` | Tests, development and the judges' demo spend nothing |
 | Database cache with TTL | gateway, `serp_cache` | Repeat queries cost nothing for `SERPAPI_CACHE_TTL_HOURS` (72) |
 | Deterministic query planning | `query_planner.py` | The same profile hits the same cache keys every time |
-| Per-run and monthly caps | gateway, `search_ledger` | A run stops spending at `SERPAPI_RUN_BUDGET` (40) |
+| Per-run and monthly caps | gateway, `search_ledger` | A run stops spending at `SERPAPI_RUN_BUDGET` (45) |
 | Page 1 only | `query_planner.py` | Page 2 returned no portal results in S-01 |
 | One retry at most | `discovery.py` | A query with no portal results is retried once without the budget phrase |
 
@@ -67,8 +67,8 @@ default timeout is 60 s because two searches exceeded 30 s.
 | Rent level, per locality and property type, per TTL (F-09) | 1 Google |
 | Competitors, per commercial locality and business type, per TTL (F-06) | 1 Maps |
 | Developing-area signals, per run, up to 5 localities (ADR 0025) | 2 Trends (cached) |
-| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 18 area + 9 commute + 3 rent + 2 Trends = 41; the per-run cap of 40 stops the last lookup (the second Trends request, which runs after the areas); a repeat run makes it from cache plus 1 search |
-| Largest profile: 5 localities × 4 types, with flats | 20 Google + 5 Maps + 20 price level = 45; the per-run cap of 40 stops discovery-first runs before that, and price levels then fall back to run medians |
+| Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 18 area + 9 commute + 3 rent + 2 Trends = 41, inside the per-run cap of 45 |
+| Largest profile: 5 localities × 4 types, with flats | 20 Google + 5 Maps + 20 price level = 45, the whole per-run cap of 45: that run's area lookups show as "could not be loaded" and are filled in on later runs, from cache plus what was missing |
 | Repeat run within the cache TTL | 0 |
 
 ## Data handling

@@ -6,6 +6,8 @@ Reference CHECKLIST IDs.
 ## [Unreleased]
 
 ### Changed
+- 2026-10-08 · `SERPAPI_RUN_BUDGET` default 40 → 45, so a fresh 3-locality run (41 lookups
+  with F-23's commutes) is not cut off (ADR 0026).
 - 2026-10-05 · I-06: DeepSeek V4 Pro replaces Gemini (ADR 0012). `DeepSeekProvider` uses the
   `openai` SDK against the OpenAI-compatible API: JSON-mode structured output validated with
   Pydantic and retried once, thinking on for the reasoning tier and off for lite extraction.

@@ -118,6 +118,7 @@ Findings: [docs/spikes/S-02-extraction-accuracy.md](docs/spikes/S-02-extraction-
 - [x] Fresh run: L × T Google + L Maps (flats only); repeat run within the TTL: 0
 - [x] Commercial run: L × T Google, no Maps
 - [x] `SERPAPI_RUN_BUDGET` 40 covers the largest profile (25); model in docs/SERPAPI_USAGE.md
+      (raised to 45 on 2026-10-08 so a fresh 3-locality run, 41 with F-23's commutes, fits)
 
 ### S-04 Commute directions · P1 · ✅
 - [x] 4 searches, Whitefield → Manyata at four departures: times are traffic-aware (40 min vs
