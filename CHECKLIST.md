@@ -356,10 +356,10 @@ Positions only from SerpApi ([ADR 0022](docs/decisions/0022-map-positions-only-f
 
 ### F-22 Parser fixes from S-02 · P1 · ⬜
 Each has its S-02 entry as the test case ([S-02](docs/spikes/S-02-extraction-accuracy.md)).
-- [ ] Take a stated size range ("ranging from 1415.0 sq. ft. to 1470.0 sq. ft.") before computing
+- [x] Take a stated size range ("ranging from 1415.0 sq. ft. to 1470.0 sq. ft.") before computing
       size from price ÷ rate
-- [ ] Do not read sale status from page filter text ("Buy Ready to move, Resale, …")
-- [ ] Skip "<price> Flats for" page-description phrases as entries
+- [x] Do not read sale status from page filter text ("Buy Ready to move, Resale, …")
+- [x] Skip "<price> Flats for" page-description phrases as entries
 
 ### F-23 Commute to job hubs · P1 · ✅
 - [x] `google_maps_directions` builder and CLI; `COMMUTE_DEPART_AT` pinned to Tuesday 09:00

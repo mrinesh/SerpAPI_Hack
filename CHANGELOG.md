@@ -6,6 +6,7 @@ Reference CHECKLIST IDs.
 ## [Unreleased]
 
 ### Changed
+- F-22: prefer stated size ranges, ignore sale-status filters and skip page-description prices; preserve the original S-02 benchmark inputs.
 - 2026-10-08 · `SERPAPI_RUN_BUDGET` default 40 → 45, so a fresh 3-locality run (41 lookups
   with F-23's commutes) is not cut off (ADR 0026).
 - 2026-10-05 · I-06: DeepSeek V4 Pro replaces Gemini (ADR 0012). `DeepSeekProvider` uses the

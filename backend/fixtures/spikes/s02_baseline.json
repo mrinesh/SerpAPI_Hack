@@ -1,0 +1,2217 @@
+{
+  "0e3d00a8e370c69a3ea6d0b9:3:0": {
+    "id": "9ceaa63f4b64af57a7efe97c",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "1 BHK Apartment / Flat in Electronic City",
+    "url": "https://www.99acres.com/apartments-flats-in-electronic-city-phase-2-bangalore-south-without-brokerage-50-lakhs-to-60-lakhs-ffid",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/apartments-flats-in-electronic-city-phase-2-bangalore-south-without-brokerage-50-lakhs-to-60-lakhs-ffid",
+          "title": "Flats in Electronic City Phase 2, Bangalore for Sale Below ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "electronic-city",
+      "confidence": 0.7,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/apartments-flats-in-electronic-city-phase-2-bangalore-south-without-brokerage-50-lakhs-to-60-lakhs-ffid",
+          "title": "Flats in Electronic City Phase 2, Bangalore for Sale Below ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": "named in the page title; the page may cover nearby areas"
+    },
+    "price_inr": {
+      "value": 5500000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/apartments-flats-in-electronic-city-phase-2-bangalore-south-without-brokerage-50-lakhs-to-60-lakhs-ffid",
+          "title": "Flats in Electronic City Phase 2, Bangalore for Sale Below ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 7333.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/apartments-flats-in-electronic-city-phase-2-bangalore-south-without-brokerage-50-lakhs-to-60-lakhs-ffid",
+          "title": "Flats in Electronic City Phase 2, Bangalore for Sale Below ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 750.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/apartments-flats-in-electronic-city-phase-2-bangalore-south-without-brokerage-50-lakhs-to-60-lakhs-ffid",
+          "title": "Flats in Electronic City Phase 2, Bangalore for Sale Below ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": 1,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/apartments-flats-in-electronic-city-phase-2-bangalore-south-without-brokerage-50-lakhs-to-60-lakhs-ffid",
+          "title": "Flats in Electronic City Phase 2, Bangalore for Sale Below ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "1 BHK Apartments / Flat · ₹55 Lac. ₹7,333 /sqft · 750 sqft(70 sqm)",
+    "named_localities": [],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/apartments-flats-in-electronic-city-phase-2-bangalore-south-without-brokerage-50-lakhs-to-60-lakhs-ffid",
+        "title": "Flats in Electronic City Phase 2, Bangalore for Sale Below ...",
+        "search_id": "6ac1d879ce77193b3ab9b0ba"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.833519Z",
+    "last_seen_at": "2026-10-09T18:02:07.833519Z"
+  },
+  "0e3d00a8e370c69a3ea6d0b9:4:0": {
+    "id": "c6d366ea155b50497d83c5c7",
+    "kind": "snippet_entry",
+    "portal": "nobroker",
+    "name": "Nandhini Prakruthi Solitaire",
+    "url": "https://www.nobroker.in/properties-for-sale-below-60-lakhs-near-i_land_expressions_apartments_bangalore",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-60-lakhs-near-i_land_expressions_apartments_bangalore",
+          "title": "Flats For Sale in Shree Ananth Nagar Layout , Bangalore ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "electronic-city",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-60-lakhs-near-i_land_expressions_apartments_bangalore",
+          "title": "Flats For Sale in Shree Ananth Nagar Layout , Bangalore ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 5500000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-60-lakhs-near-i_land_expressions_apartments_bangalore",
+          "title": "Flats For Sale in Shree Ananth Nagar Layout , Bangalore ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 4400.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-60-lakhs-near-i_land_expressions_apartments_bangalore",
+          "title": "Flats For Sale in Shree Ananth Nagar Layout , Bangalore ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 1250.0,
+      "confidence": 0.6,
+      "method": "computed",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-60-lakhs-near-i_land_expressions_apartments_bangalore",
+          "title": "Flats For Sale in Shree Ananth Nagar Layout , Bangalore ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": "computed from price ÷ price per sq ft"
+    },
+    "bedrooms": {
+      "value": 2,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-60-lakhs-near-i_land_expressions_apartments_bangalore",
+          "title": "Flats For Sale in Shree Ananth Nagar Layout , Bangalore ...",
+          "search_id": "6ac1d879ce77193b3ab9b0ba"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "2 BHK Flat In Nandhini Prakruthi Solitaire For Sale In Electronic City. ₹55 Lacs. ₹4,400/sq.ft. Electronic City, Bangalore, Electronic City, bangalore. Nearby",
+    "named_localities": [
+      "electronic-city"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.nobroker.in/properties-for-sale-below-60-lakhs-near-i_land_expressions_apartments_bangalore",
+        "title": "Flats For Sale in Shree Ananth Nagar Layout , Bangalore ...",
+        "search_id": "6ac1d879ce77193b3ab9b0ba"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.836857Z",
+    "last_seen_at": "2026-10-09T18:02:07.836857Z"
+  },
+  "116b3357af4c1c49aed367c8:2:0": {
+    "id": "de08e562fb98ff4613f8bc1d",
+    "kind": "snippet_entry",
+    "portal": "nobroker",
+    "name": "Rs Abode Apartments",
+    "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "hebbal",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 9500000,
+      "confidence": 0.6,
+      "method": "computed",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": "computed from price per sq ft × size"
+    },
+    "price_per_sqft": {
+      "value": 7600.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 1250.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": 2,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "2 BHK Apartment In Rs Abode Apartments For Sale In Hebbal · ₹7,600/sq.ft · 1250 sqft",
+    "named_localities": [
+      "hebbal"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_bangalore",
+        "title": "Properties for Sale Below 1 Crore in Hebbal,Bangalore",
+        "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.840519Z",
+    "last_seen_at": "2026-10-09T18:02:07.840519Z"
+  },
+  "116b3357af4c1c49aed367c8:3:0": {
+    "id": "35a98491024b627969ce0ac6",
+    "kind": "snippet_entry",
+    "portal": "magicbricks",
+    "name": "Apartment / Flat in Hebbal",
+    "url": "https://www.magicbricks.com/flats-in-hebbal-bangalore-under-1-crore-pppfs",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-hebbal-bangalore-under-1-crore-pppfs",
+          "title": "Flats in Hebbal Bangalore for Sale under ₹ 𝟏 𝐂𝐫𝐨𝐫𝐞",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "hebbal",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-hebbal-bangalore-under-1-crore-pppfs",
+          "title": "Flats in Hebbal Bangalore for Sale under ₹ 𝟏 𝐂𝐫𝐨𝐫𝐞",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 11500000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-hebbal-bangalore-under-1-crore-pppfs",
+          "title": "Flats in Hebbal Bangalore for Sale under ₹ 𝟏 𝐂𝐫𝐨𝐫𝐞",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": "ready_to_move",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-hebbal-bangalore-under-1-crore-pppfs",
+          "title": "Flats in Hebbal Bangalore for Sale under ₹ 𝟏 𝐂𝐫𝐨𝐫𝐞",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "Choose from over 22+ Flats for sale in Hebbal Bangalore under 1 Crore. Buy Ready to move, Resale, apartments/flats in Hebbal within ₹ 1 Crore. ₹1.15 Cr (₹8,712",
+    "named_localities": [
+      "hebbal"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.magicbricks.com/flats-in-hebbal-bangalore-under-1-crore-pppfs",
+        "title": "Flats in Hebbal Bangalore for Sale under ₹ 𝟏 𝐂𝐫𝐨𝐫𝐞",
+        "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.845096Z",
+    "last_seen_at": "2026-10-09T18:02:07.845096Z"
+  },
+  "116b3357af4c1c49aed367c8:4:0": {
+    "id": "d4c3879edd0381f4b6865a8e",
+    "kind": "snippet_entry",
+    "portal": "nobroker",
+    "name": "Anagha Peridot",
+    "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal Kempapura ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "hebbal",
+      "confidence": 0.7,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal Kempapura ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": "named in the page title; the page may cover nearby areas"
+    },
+    "price_inr": {
+      "value": 9500384,
+      "confidence": 0.6,
+      "method": "computed",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal Kempapura ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": "computed from price per sq ft × size"
+    },
+    "price_per_sqft": {
+      "value": 7564.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal Kempapura ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 1256.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal Kempapura ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": 2,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+          "title": "Properties for Sale Below 1 Crore in Hebbal Kempapura ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "2 BHK Apartment In Anagha Peridot For Sale In Nagavara · ₹7,564/sq.ft · 1256 sqft",
+    "named_localities": [],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.nobroker.in/properties-for-sale-below-1-crores-in-hebbal_kempapura_bangalore",
+        "title": "Properties for Sale Below 1 Crore in Hebbal Kempapura ...",
+        "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.871471Z",
+    "last_seen_at": "2026-10-09T18:02:07.871471Z"
+  },
+  "116b3357af4c1c49aed367c8:9:0": {
+    "id": "28047bd8ce6313767e17905a",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "Sri Sai Nivas",
+    "url": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+          "title": "3 BHK Property in Hebbal, Bangalore from 1 crore to 1.5 ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "hebbal",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+          "title": "3 BHK Property in Hebbal, Bangalore from 1 crore to 1.5 ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 13600000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+          "title": "3 BHK Property in Hebbal, Bangalore from 1 crore to 1.5 ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "bedrooms": {
+      "value": 3,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+          "title": "3 BHK Property in Hebbal, Bangalore from 1 crore to 1.5 ...",
+          "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "3 BHK Flat in Hebbal, Bangalore. SRI SAI NIVAS · ₹1.36 Cr",
+    "named_localities": [
+      "hebbal"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/3-bhk-property-in-hebbal-bangalore-north-1-crore-to-1-point-5-crores-ffid",
+        "title": "3 BHK Property in Hebbal, Bangalore from 1 crore to 1.5 ...",
+        "search_id": "6ac1d8f92c2bb43aed1bf9c6"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.874567Z",
+    "last_seen_at": "2026-10-09T18:02:07.874567Z"
+  },
+  "1d0c77abcfcd7142a90c0ce6:1:0": {
+    "id": "84ced1e61da6b906a367f0f6",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "Plot / Land in Yelahanka",
+    "url": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+    "segment": "residential",
+    "property_type": {
+      "value": "plot",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+          "title": "Plots in Yelahanka, Bangalore from 75 lakhs to 1 crore",
+          "search_id": "6ac1d92999d5f4e907b23d3f"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "yelahanka",
+      "confidence": 0.7,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+          "title": "Plots in Yelahanka, Bangalore from 75 lakhs to 1 crore",
+          "search_id": "6ac1d92999d5f4e907b23d3f"
+        }
+      ],
+      "note": "named in the page title; the page may cover nearby areas"
+    },
+    "price_inr": {
+      "value": 8400000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+          "title": "Plots in Yelahanka, Bangalore from 75 lakhs to 1 crore",
+          "search_id": "6ac1d92999d5f4e907b23d3f"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 7000.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+          "title": "Plots in Yelahanka, Bangalore from 75 lakhs to 1 crore",
+          "search_id": "6ac1d92999d5f4e907b23d3f"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 1200.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+          "title": "Plots in Yelahanka, Bangalore from 75 lakhs to 1 crore",
+          "search_id": "6ac1d92999d5f4e907b23d3f"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "₹84 Lac. ₹7,000 /sqft · 1,200 sqft(111 sqm)",
+    "named_localities": [],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/residential-land-in-yelahanka-bangalore-north-75-lakhs-to-1-crore-ffid",
+        "title": "Plots in Yelahanka, Bangalore from 75 lakhs to 1 crore",
+        "search_id": "6ac1d92999d5f4e907b23d3f"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.905072Z",
+    "last_seen_at": "2026-10-09T18:02:07.905072Z"
+  },
+  "768d839efc1bbb1af4d3c10a:2:0": {
+    "id": "7662eac24369bc10b7e61a2f",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "2 BHK Apartment / Flat in Whitefield",
+    "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+          "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "whitefield",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+          "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 12500000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+          "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": "price range up to 1.28 Cr; lower bound used"
+    },
+    "price_per_sqft": {
+      "value": 10241.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+          "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 1220.6,
+      "confidence": 0.6,
+      "method": "computed",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+          "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": "computed from price ÷ price per sq ft"
+    },
+    "bedrooms": {
+      "value": 2,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+          "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": "under_construction",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+          "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "This project offers 2 BHK flats in Whitefield, Bangalore East. ranging from 1415.0 sq. ft. to 1470.0 sq. ft., ₹1.25 - 1.28 Cr ₹10,241 /sqft Under Construction",
+    "named_localities": [
+      "whitefield"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/2-bhk-society-flats-apartments-in-whitefield-bangalore-east-ffid",
+        "title": "2 BHK Society Flats / Apartments in Whitefield, Bangalore",
+        "search_id": "6ac1d85312eb147443360f4b"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.924992Z",
+    "last_seen_at": "2026-10-09T18:02:07.924992Z"
+  },
+  "768d839efc1bbb1af4d3c10a:5:0": {
+    "id": "6b488277bb8dc89c90d2e98f",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "1 BHK Apartment / Flat in Whitefield",
+    "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.5,
+      "method": "query",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+          "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": "the property type that was searched for"
+    },
+    "locality": {
+      "value": "whitefield",
+      "confidence": 0.7,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+          "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": "named in the page title; the page may cover nearby areas"
+    },
+    "price_inr": {
+      "value": 7700000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+          "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 12520.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+          "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 615.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+          "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": 1,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+          "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": "ready_to_move",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+          "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+          "search_id": "6ac1d85312eb147443360f4b"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "₹77 Lac ₹12,520 /sqft Ready To Move 615 sqft(57 sqm) 1 bedroom(s), 1 bathroom and 1 balcony",
+    "named_localities": [],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/property-in-whitefield-bangalore-east-75-lakhs-to-90-lakhs-ffid",
+        "title": "Property in Whitefield, Bangalore for Sale Below 90 Lakhs",
+        "search_id": "6ac1d85312eb147443360f4b"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.928275Z",
+    "last_seen_at": "2026-10-09T18:02:07.928275Z"
+  },
+  "e01994e6b188c1d79cd88e9c:4:0": {
+    "id": "0f6c68949ad49760f9578f82",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "Apartment / Flat in Whitefield",
+    "url": "https://www.99acres.com/flats-in-whitefield-bangalore-east-50-lakhs-to-80-lakhs-ffid-page-5",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/flats-in-whitefield-bangalore-east-50-lakhs-to-80-lakhs-ffid-page-5",
+          "title": "Flats in Whitefield, Bangalore for Sale Below 80 Lakhs",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "whitefield",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/flats-in-whitefield-bangalore-east-50-lakhs-to-80-lakhs-ffid-page-5",
+          "title": "Flats in Whitefield, Bangalore for Sale Below 80 Lakhs",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 7200000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/flats-in-whitefield-bangalore-east-50-lakhs-to-80-lakhs-ffid-page-5",
+          "title": "Flats in Whitefield, Bangalore for Sale Below 80 Lakhs",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 5073.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/flats-in-whitefield-bangalore-east-50-lakhs-to-80-lakhs-ffid-page-5",
+          "title": "Flats in Whitefield, Bangalore for Sale Below 80 Lakhs",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 1419.3,
+      "confidence": 0.6,
+      "method": "computed",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/flats-in-whitefield-bangalore-east-50-lakhs-to-80-lakhs-ffid-page-5",
+          "title": "Flats in Whitefield, Bangalore for Sale Below 80 Lakhs",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": "computed from price ÷ price per sq ft"
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/flats-in-whitefield-bangalore-east-50-lakhs-to-80-lakhs-ffid-page-5",
+          "title": "Flats in Whitefield, Bangalore for Sale Below 80 Lakhs",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "Find Flats in Whitefield, Bangalore from 50 lakhs to 80 lakhs on 99acres.com. 2 and 3 bedroom apartment. Resale ₹72 Lac ₹5,073 /sqft. Lac ₹12,479 /sqft Under",
+    "named_localities": [
+      "whitefield"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/flats-in-whitefield-bangalore-east-50-lakhs-to-80-lakhs-ffid-page-5",
+        "title": "Flats in Whitefield, Bangalore for Sale Below 80 Lakhs",
+        "search_id": "6ac1d823079a2beaa0d3af4b"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.944267Z",
+    "last_seen_at": "2026-10-09T18:02:07.944267Z"
+  },
+  "e01994e6b188c1d79cd88e9c:10:0": {
+    "id": "c32225eb4e13a33c97a028af",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "3 BHK Apartment / Flat in Whitefield",
+    "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+    "segment": "residential",
+    "property_type": {
+      "value": "apartment",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+          "title": "3 BHK Apartments / Flat in Kadugodi, Near Whitefield",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "whitefield",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+          "title": "3 BHK Apartments / Flat in Kadugodi, Near Whitefield",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 7500000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+          "title": "3 BHK Apartments / Flat in Kadugodi, Near Whitefield",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 7545.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+          "title": "3 BHK Apartments / Flat in Kadugodi, Near Whitefield",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 994.0,
+      "confidence": 0.6,
+      "method": "computed",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+          "title": "3 BHK Apartments / Flat in Kadugodi, Near Whitefield",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": "computed from price ÷ price per sq ft"
+    },
+    "bedrooms": {
+      "value": 3,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+          "title": "3 BHK Apartments / Flat in Kadugodi, Near Whitefield",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+          "title": "3 BHK Apartments / Flat in Kadugodi, Near Whitefield",
+          "search_id": "6ac1d823079a2beaa0d3af4b"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "3 BHK Flat in Whitefield, Bangalore. Resale. ₹75 Lac. ₹7,545 /sqft",
+    "named_localities": [
+      "whitefield"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/3-bhk-apartments-flats-in-kadugodi-bangalore-east-without-brokerage-50-lakhs-to-80-lakhs-ffid",
+        "title": "3 BHK Apartments / Flat in Kadugodi, Near Whitefield",
+        "search_id": "6ac1d823079a2beaa0d3af4b"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.946930Z",
+    "last_seen_at": "2026-10-09T18:02:07.946930Z"
+  },
+  "ef291fe12c1a2b9c95a24e0c:3:0": {
+    "id": "bee43402defd1d298970d65f",
+    "kind": "snippet_entry",
+    "portal": "magicbricks",
+    "name": "2 BHK Builder Floor for Sale in Jayanagar Bangalore",
+    "url": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+    "segment": "residential",
+    "property_type": {
+      "value": "builder_floor",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+          "title": "Flats in Block 3rd Jayanagar East Bangalore for Sale under ...",
+          "search_id": "6ac1d876874d5071f818306f"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "jayanagar",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+          "title": "Flats in Block 3rd Jayanagar East Bangalore for Sale under ...",
+          "search_id": "6ac1d876874d5071f818306f"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 14500000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+          "title": "Flats in Block 3rd Jayanagar East Bangalore for Sale under ...",
+          "search_id": "6ac1d876874d5071f818306f"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 1100.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+          "title": "Flats in Block 3rd Jayanagar East Bangalore for Sale under ...",
+          "search_id": "6ac1d876874d5071f818306f"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": 2,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+          "title": "Flats in Block 3rd Jayanagar East Bangalore for Sale under ...",
+          "search_id": "6ac1d876874d5071f818306f"
+        }
+      ],
+      "note": null
+    },
+    "status": {
+      "value": "ready_to_move",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+          "title": "Flats in Block 3rd Jayanagar East Bangalore for Sale under ...",
+          "search_id": "6ac1d876874d5071f818306f"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "₹1.45 Cr 2 BHK. 2 BHK Builder Floor for Sale in Jayanagar Bangalore. Super Area. 1100 sqft. Status. Ready to Move. Builder floor apartment is available for",
+    "named_localities": [
+      "jayanagar"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.magicbricks.com/flats-in-jaya-nagar-block-3-bangalore-under-2-crore-pppfs",
+        "title": "Flats in Block 3rd Jayanagar East Bangalore for Sale under ...",
+        "search_id": "6ac1d876874d5071f818306f"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.967352Z",
+    "last_seen_at": "2026-10-09T18:02:07.967352Z"
+  },
+  "059421a1d446ce9bae3a0971:2:0": {
+    "id": "303cb1c8400439d231288897",
+    "kind": "snippet_entry",
+    "portal": "magicbricks",
+    "name": "Shop / Showroom in Indiranagar",
+    "url": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+    "segment": "commercial",
+    "property_type": {
+      "value": "shop_showroom",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+          "title": "Showroom for Sale in Indira nagar Stage 1, Bangalore",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "indiranagar",
+      "confidence": 0.7,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+          "title": "Showroom for Sale in Indira nagar Stage 1, Bangalore",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": "named in the page title; the page may cover nearby areas"
+    },
+    "price_inr": {
+      "value": 290000000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+          "title": "Showroom for Sale in Indira nagar Stage 1, Bangalore",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 16111.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+          "title": "Showroom for Sale in Indira nagar Stage 1, Bangalore",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 18000.1,
+      "confidence": 0.6,
+      "method": "computed",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+          "title": "Showroom for Sale in Indira nagar Stage 1, Bangalore",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": "computed from price ÷ price per sq ft"
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+          "title": "Showroom for Sale in Indira nagar Stage 1, Bangalore",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "for Resale in ₹29 Cr ₹16111 / sqft. Commercial showroom is available for sale. Suitable for:",
+    "named_localities": [],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.magicbricks.com/showroom-for-sale-in-indira-nagar-stage-1-bangalore-pppfs",
+        "title": "Showroom for Sale in Indira nagar Stage 1, Bangalore",
+        "search_id": "6ac1d88f124815ffecd5492d"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.993298Z",
+    "last_seen_at": "2026-10-09T18:02:07.993298Z"
+  },
+  "059421a1d446ce9bae3a0971:3:0": {
+    "id": "683def55fd9e7117821d49d8",
+    "kind": "snippet_entry",
+    "portal": "nobroker",
+    "name": "Shop / Showroom in Indiranagar",
+    "url": "https://www.nobroker.in/commercial-properties-for-sale-near-mkretail_indira_nagar_bangalore",
+    "segment": "commercial",
+    "property_type": {
+      "value": "shop_showroom",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-properties-for-sale-near-mkretail_indira_nagar_bangalore",
+          "title": "Commercial Properties for Sale Near Indira Nagar ...",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "indiranagar",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-properties-for-sale-near-mkretail_indira_nagar_bangalore",
+          "title": "Commercial Properties for Sale Near Indira Nagar ...",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 50500000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-properties-for-sale-near-mkretail_indira_nagar_bangalore",
+          "title": "Commercial Properties for Sale Near Indira Nagar ...",
+          "search_id": "6ac1d88f124815ffecd5492d"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "Shop in Indiranagar, Bangalore for sale. ₹5.05 Cr. EMI: ₹3.8 Lacs/m. Hoysala",
+    "named_localities": [
+      "indiranagar"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.nobroker.in/commercial-properties-for-sale-near-mkretail_indira_nagar_bangalore",
+        "title": "Commercial Properties for Sale Near Indira Nagar ...",
+        "search_id": "6ac1d88f124815ffecd5492d"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:07.995151Z",
+    "last_seen_at": "2026-10-09T18:02:07.995151Z"
+  },
+  "334c2e55d43bc86fc4cead51:2:0": {
+    "id": "829ad94b987f4102a04f37ce",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "Office Space for sale in 4th Block Koramangala, Bangalore",
+    "url": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+    "segment": "commercial",
+    "property_type": {
+      "value": "office",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+          "title": "7+ Commercial property for sale in 4th Block Koramangala, ...",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "koramangala",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+          "title": "7+ Commercial property for sale in 4th Block Koramangala, ...",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 360000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+          "title": "7+ Commercial property for sale in 4th Block Koramangala, ...",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 75.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+          "title": "7+ Commercial property for sale in 4th Block Koramangala, ...",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 4800.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+          "title": "7+ Commercial property for sale in 4th Block Koramangala, ...",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": "resale",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+          "title": "7+ Commercial property for sale in 4th Block Koramangala, ...",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "Office Space for sale in 4th Block Koramangala, Bangalore Resale ₹3.6 Lac ₹75 /sqft 4,800 sqft(446 sqm) Carpet area Fully furnished plug & play office space",
+    "named_localities": [
+      "koramangala"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/commercial-property-in-4th-block-koramangala-bangalore-south-ffid",
+        "title": "7+ Commercial property for sale in 4th Block Koramangala, ...",
+        "search_id": "6ac1d87dafea45ffeed02e20"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:08.009257Z",
+    "last_seen_at": "2026-10-09T18:02:08.009257Z"
+  },
+  "334c2e55d43bc86fc4cead51:3:0": {
+    "id": "484026900b87ae98d84408f9",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "Office Space for sale in 1st Block Koramangala, Bangalore",
+    "url": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+    "segment": "commercial",
+    "property_type": {
+      "value": "office",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+          "title": "1 crore to 2 crores - Property in Bangalore South",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "koramangala",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+          "title": "1 crore to 2 crores - Property in Bangalore South",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 11500000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+          "title": "1 crore to 2 crores - Property in Bangalore South",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": 14024.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+          "title": "1 crore to 2 crores - Property in Bangalore South",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 820.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+          "title": "1 crore to 2 crores - Property in Bangalore South",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": "ready_to_move",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+          "title": "1 crore to 2 crores - Property in Bangalore South",
+          "search_id": "6ac1d87dafea45ffeed02e20"
+        }
+      ],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "Office Space for sale in 1st Block Koramangala, Bangalore Resale ₹1.15 Cr ₹14,024 /sqft Ready To Move 820 sqft(76 sqm) Carpet area",
+    "named_localities": [
+      "koramangala"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/commercial-property-in-bangalore-south-1-crore-to-2-crores-ffid",
+        "title": "1 crore to 2 crores - Property in Bangalore South",
+        "search_id": "6ac1d87dafea45ffeed02e20"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:08.010578Z",
+    "last_seen_at": "2026-10-09T18:02:08.010578Z"
+  },
+  "6628384ba3a4b500034fcd16:4:0": {
+    "id": "cfb552369681b738f46867d6",
+    "kind": "snippet_entry",
+    "portal": "99acres",
+    "name": "Warehouse / Godown in KR Puram",
+    "url": "https://www.99acres.com/factory-land-in-kr-puram-bangalore-east-ffid",
+    "segment": "commercial",
+    "property_type": {
+      "value": "warehouse",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/factory-land-in-kr-puram-bangalore-east-ffid",
+          "title": "Factory for sale in KR Puram, Bangalore",
+          "search_id": "6ac1d8911c38820286c6d807"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "kr-puram",
+      "confidence": 0.7,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/factory-land-in-kr-puram-bangalore-east-ffid",
+          "title": "Factory for sale in KR Puram, Bangalore",
+          "search_id": "6ac1d8911c38820286c6d807"
+        }
+      ],
+      "note": "named in the page title; the page may cover nearby areas"
+    },
+    "price_inr": {
+      "value": 125000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/factory-land-in-kr-puram-bangalore-east-ffid",
+          "title": "Factory for sale in KR Puram, Bangalore",
+          "search_id": "6ac1d8911c38820286c6d807"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "size_sqft": {
+      "value": 2400.0,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.99acres.com/factory-land-in-kr-puram-bangalore-east-ffid",
+          "title": "Factory for sale in KR Puram, Bangalore",
+          "search_id": "6ac1d8911c38820286c6d807"
+        }
+      ],
+      "note": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "Immediate availability of a 2400 sqft warehouse in keb colony, hoodi, bangalore east. Priced at rs1.25 lac, this commercial property is 0-1 year old and",
+    "named_localities": [],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.99acres.com/factory-land-in-kr-puram-bangalore-east-ffid",
+        "title": "Factory for sale in KR Puram, Bangalore",
+        "search_id": "6ac1d8911c38820286c6d807"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:08.028206Z",
+    "last_seen_at": "2026-10-09T18:02:08.028206Z"
+  },
+  "6628384ba3a4b500034fcd16:6:0": {
+    "id": "96f9b7e916b8a95c8fca0525",
+    "kind": "snippet_entry",
+    "portal": "nobroker",
+    "name": "Shop / Showroom in KR Puram",
+    "url": "https://www.nobroker.in/commercial-shops-for-sale-in-k_r_puram_bangalore",
+    "segment": "commercial",
+    "property_type": {
+      "value": "shop_showroom",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-shops-for-sale-in-k_r_puram_bangalore",
+          "title": "Shops for Sale in Krishnarajapura ...",
+          "search_id": "6ac1d8911c38820286c6d807"
+        }
+      ],
+      "note": null
+    },
+    "locality": {
+      "value": "kr-puram",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-shops-for-sale-in-k_r_puram_bangalore",
+          "title": "Shops for Sale in Krishnarajapura ...",
+          "search_id": "6ac1d8911c38820286c6d807"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 38400000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-shops-for-sale-in-k_r_puram_bangalore",
+          "title": "Shops for Sale in Krishnarajapura ...",
+          "search_id": "6ac1d8911c38820286c6d807"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "Shop in K R Puram, Bangalore for sale. ₹3.84 Cr. EMI: ₹2.88 Lacs/m",
+    "named_localities": [
+      "kr-puram"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.nobroker.in/commercial-shops-for-sale-in-k_r_puram_bangalore",
+        "title": "Shops for Sale in Krishnarajapura ...",
+        "search_id": "6ac1d8911c38820286c6d807"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:08.029499Z",
+    "last_seen_at": "2026-10-09T18:02:08.029499Z"
+  },
+  "7e01f37be4b401d8219db34f:2:0": {
+    "id": "23973d5eeb156965fa898008",
+    "kind": "snippet_entry",
+    "portal": "nobroker",
+    "name": "Office Space in Whitefield",
+    "url": "https://www.nobroker.in/commercial-properties-for-sale-near-prashant_layout_bangalore",
+    "segment": "commercial",
+    "property_type": {
+      "value": "office",
+      "confidence": 0.5,
+      "method": "query",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-properties-for-sale-near-prashant_layout_bangalore",
+          "title": "Commercial Properties for Sale Near Whitefield Bangalore",
+          "search_id": "6ac1d89df61b7d5b96a349f2"
+        }
+      ],
+      "note": "the property type that was searched for"
+    },
+    "locality": {
+      "value": "whitefield",
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-properties-for-sale-near-prashant_layout_bangalore",
+          "title": "Commercial Properties for Sale Near Whitefield Bangalore",
+          "search_id": "6ac1d89df61b7d5b96a349f2"
+        }
+      ],
+      "note": "named in the result text"
+    },
+    "price_inr": {
+      "value": 1000000,
+      "confidence": 0.8,
+      "method": "regex",
+      "sources": [
+        {
+          "engine": "google",
+          "url": "https://www.nobroker.in/commercial-properties-for-sale-near-prashant_layout_bangalore",
+          "title": "Commercial Properties for Sale Near Whitefield Bangalore",
+          "search_id": "6ac1d89df61b7d5b96a349f2"
+        }
+      ],
+      "note": null
+    },
+    "price_per_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "size_sqft": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "bedrooms": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "status": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "regex",
+      "sources": [],
+      "note": null
+    },
+    "location": {
+      "value": null,
+      "confidence": 0.0,
+      "method": "serpapi_field",
+      "sources": [],
+      "note": null
+    },
+    "rating": null,
+    "reviews": null,
+    "evidence": "Restaurant/Cafe in Whitefield, Bangalore for sale · 10 Lacs. EMI: ₹7,509/m",
+    "named_localities": [
+      "whitefield"
+    ],
+    "sources": [
+      {
+        "engine": "google",
+        "url": "https://www.nobroker.in/commercial-properties-for-sale-near-prashant_layout_bangalore",
+        "title": "Commercial Properties for Sale Near Whitefield Bangalore",
+        "search_id": "6ac1d89df61b7d5b96a349f2"
+      }
+    ],
+    "first_seen_at": "2026-10-09T18:02:08.047641Z",
+    "last_seen_at": "2026-10-09T18:02:08.047641Z"
+  }
+}

@@ -78,6 +78,14 @@ _AREA = re.compile(
     r"(?P<unit>sq\.?\s?ft\.?|sqft|sq\.?\s?yd|sqyd|sq\.?\s?m\b|sqm)",
     re.IGNORECASE,
 )
+_AREA_RANGE = re.compile(
+    r"\branging from\s+(?P<low>\d[\d,]*(?:\.\d+)?)\s*"
+    r"(?P<unit>sq\.?\s?ft\.?|sqft|sq\.?\s?yd|sqyd|sq\.?\s?m\b|sqm)"
+    r"\s*to\s*\d[\d,]*(?:\.\d+)?\s*(?:sq\.?\s?ft|sqft|sq\.?\s?yd|sqyd|sq\.?\s?m|sqm)",
+    re.IGNORECASE,
+)
+_PRICE_PAGE_DESCRIPTION = re.compile(r"^\s*(?:flats?|apartments?)\s+for\b", re.I)
+_STATUS_FILTER = re.compile(r"\b(?:buy|choose|find|explore|search)\b[^.;]*", re.I)
 _BHK = re.compile(r"(?<![\d,]\s)(?<![\d,])(?P<n>\d)\s?\+?\s?BHK", re.IGNORECASE)
 _BEDROOMS = re.compile(r"(?<!and )(?<!to )(?<![\d,])\b(?P<n>\d)\s*bedroom", re.IGNORECASE)
 # Words that make a number a filter, statistic or instalment rather than an asking price,
@@ -153,7 +161,11 @@ def find_prices(text: str) -> list[PriceMention]:
     prices = []
     for m in _PRICE.finditer(text):
         before, after = text[max(0, m.start() - 30) : m.start()], text[m.end() :]
-        if _NOT_A_PRICE_BEFORE.search(before) or _PER_MONTH_AFTER.match(after):
+        if (
+            _NOT_A_PRICE_BEFORE.search(before)
+            or _PER_MONTH_AFTER.match(after)
+            or _PRICE_PAGE_DESCRIPTION.match(after)
+        ):
             continue
         low_unit = (m["lowunit"] or m["unit"]).lower()
         inr = round(float(m["low"]) * UNIT_INR[_unit_key(low_unit)])
@@ -178,12 +190,15 @@ def parse_price_per_sqft(text: str) -> float | None:
 
 
 def parse_area_sqft(text: str) -> float | None:
-    """First area in sq ft, sq m or sq yd, as sq ft. Skips ranges like "from 2000 sq ft"."""
+    """Read an explicit property size before deriving it; ranges use the lower bound.
+    Search filters such as 'Find Shops ... from 2000 sq ft to 2500 sq ft' stay excluded."""
     text = normalize_text(text)
-    for m in _AREA.finditer(text):
-        if _NOT_A_PRICE_BEFORE.search(text[max(0, m.start() - 30) : m.start()]):
+    size_range = _AREA_RANGE.search(text)
+    matches = [size_range] if size_range else _AREA.finditer(text)
+    for m in matches:
+        if not size_range and _NOT_A_PRICE_BEFORE.search(text[max(0, m.start() - 30) : m.start()]):
             continue
-        value = float(m["value"].replace(",", ""))
+        value = float(m["low" if size_range else "value"].replace(",", ""))
         unit = m["unit"].lower().replace(".", "").replace(" ", "")
         if unit.startswith("sqm"):
             value *= SQ_M_TO_SQ_FT
@@ -201,6 +216,7 @@ def parse_bedrooms(text: str) -> int | None:
 
 
 def parse_status(text: str) -> SaleStatus | None:
+    text = _STATUS_FILTER.sub("", normalize_text(text))
     return next((status for rx, status in _STATUS if rx.search(text)), None)
 
 
@@ -397,7 +413,11 @@ def _entry_listing(
             entry.size_sqft,
             size_method,
             source,
-            "computed from price ÷ price per sq ft" if entry.size_computed else None,
+            "computed from price ÷ price per sq ft"
+            if entry.size_computed
+            else "size range; lower bound used"
+            if _AREA_RANGE.search(entry.evidence)
+            else None,
         ),
         bedrooms=_page_fallback(entry.bedrooms, parse_bedrooms(hit.title), source),
         status=_page_fallback(entry.status, parse_status(hit.title), source),
