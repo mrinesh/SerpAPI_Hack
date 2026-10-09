@@ -160,8 +160,8 @@ and provider modes ([ADR 0019](decisions/0019-visible-failures-validated-cache-w
 (10+ high, 4–9 medium, of one page of 20), average rating, total reviews; read as competition
 for shops and as a business cluster for offices, warehouses and land. Cached per locality,
 centre, business and radius; frozen per run in `run_competitor_reports`. Display only: not
-scored. A failed search is reported and retried next run. P1 (F-06b): google_maps_reviews for
-the top places → `competitor_gaps` prompt.
+scored. A failed search is reported and retried next run. F-06b adds a bounded first-page low-rating review sample
+and the `competitor_gaps` prompt with checked citations (ADR 0029).
 
 **Developing-area signals** (`enrichment/search_history.py`, `enrichment/development.py`,
 [ADR 0025](decisions/0025-search-driven-developing-area-signals.md), after gscode007's
@@ -231,3 +231,7 @@ provider failure keeps the ranking.
 Manual checks run the same full pipeline serially per idle profile and diff successful frozen
 results against profile history. Only strong/partial matches notify. Failed runs retain the
 previous successful baseline; per-profile errors are returned to the user (ADR 0028).
+
+F-06b enriches commercial competitor reports with one first-page low-rating review search
+per locality by default and a cited DeepSeek analysis when there are two usable low-rated
+reviews. Review failures are nonfatal, visible and retried; ranks stay unchanged.

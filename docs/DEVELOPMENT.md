@@ -39,6 +39,7 @@ environment variables override `.env`.
 | `DEEPSEEK_MAX_TOKENS` | `16384` | Completion cap per call, thinking included |
 | `DEEPSEEK_TIMEOUT_S` | `120` | Per-request timeout; thinking replies take several seconds |
 | `DEEPSEEK_BASE_URL` | `https://api.deepseek.com` | OpenAI-compatible endpoint |
+| `COMPETITOR_REVIEW_MAX_PLACES` | `1` | Review pages per commercial locality, from 1 to 3 |
 | `AREA_INTEL_TTL_HOURS` | `168` | How long locality intelligence is reused |
 | `ALERT_CHECK_INTERVAL_MINUTES` | `360` | Positive interval for scheduled profile refreshes |
 | `SCHEDULER_ENABLED` | `false` | Run scheduled alert checks (spends live searches) |
@@ -204,3 +205,8 @@ ticks. It uses the same profile lock, provider modes, caches and search budget a
 Failures are logged per profile. Leave it off for the usual replay demo and use Check now.
 Run one backend process: this is an in-process scheduler. Shutdown stops future ticks; a
 running check is allowed to finish.
+
+F-06b commercial demo recordings can be refreshed with
+`uv run python scripts/record_verification.py --profile commercial --serpapi-record`.
+Existing fixtures are reused; the review feature adds one search and one analysis by default.
+Increasing `COMPETITOR_REVIEW_MAX_PLACES` needs additional recordings and search budget.

@@ -66,7 +66,7 @@ def test_places_are_kept_within_the_radius_once_each_nearest_first():
 
 
 def test_recorded_koramangala_search_has_seven_places_within_two_km():
-    data = json.loads(FIXTURE.read_text())["response"]
+    data = json.loads(FIXTURE.read_text(encoding="utf-8"))["response"]
     found = parse_competitors(data, CENTRE, "s-1")
     assert len(data["local_results"]) == 20
     assert len(found) == 7

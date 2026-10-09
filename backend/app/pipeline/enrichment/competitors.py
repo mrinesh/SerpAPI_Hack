@@ -9,7 +9,7 @@ in code; no LLM is involved. What the count means depends on the property type: 
 a shop, a business cluster for an office, warehouse or land (`READINGS`).
 Cached in `competitor_reports` for `area_intel_ttl_hours`. A failed search never fails the run:
 the report says so and expires at once, so the next run retries (as areas do, ADR 0019).
-F-06b (P1, not built): google_maps_reviews of the top places -> `competitor_gaps`.
+F-06b: a bounded first page of reviews -> cited, evidence-checked complaint themes.
 """
 
 import hashlib
@@ -26,6 +26,7 @@ from app.integrations.serpapi import engines
 from app.integrations.serpapi.engines import EngineCall
 from app.pipeline.context import PipelineContext
 from app.pipeline.enrichment.area import haversine_km, place_point, provider_modes
+from app.pipeline.enrichment.competitor_reviews import enrich_reviews
 from app.schemas.area import AreaIntel, AreaIssue
 from app.schemas.common import GeoPoint, Level, SerpEngine
 from app.schemas.competitor import Competitor, CompetitorReading, CompetitorReport
@@ -33,7 +34,7 @@ from app.schemas.profile import PropertyType
 from app.schemas.provenance import SourceRef
 
 log = logging.getLogger(__name__)
-COMPETITOR_SCHEMA_VERSION = 1  # bump when CompetitorReport's meaning changes
+COMPETITOR_SCHEMA_VERSION = 2  # F-06b adds review evidence and checked complaint themes
 COMPETITOR_ZOOM = 15  # about a 2-3 km view; Maps still returns places farther out
 RADIUS_KM = 2.0  # roughly a locality; places beyond it are dropped
 HIGH_COUNT, MEDIUM_COUNT = 10, 4  # places within the radius, out of one page of 20 (ADR 0023)
@@ -158,6 +159,9 @@ def build_report(ctx: PipelineContext, area: AreaIntel, business_type: str) -> C
     report.competitors = parse_competitors(response.data, area.center, response.search_id)
     report.status = "ok" if report.competitors else "empty"
     fill_figures(report)
+    enrich_reviews(ctx, report)
+    if report.review_warnings:
+        report.expires_at = report.fetched_at
     return report
 
 
@@ -176,6 +180,8 @@ def read_cached(row: CompetitorReportRow | None, settings: Settings) -> Competit
     if report.schema_version != COMPETITOR_SCHEMA_VERSION or report.provider_modes != (
         provider_modes(settings)
     ):
+        return None
+    if report.review_places_limit != settings.competitor_review_max_places:
         return None
     return report
 

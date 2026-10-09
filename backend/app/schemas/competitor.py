@@ -35,6 +35,14 @@ class Competitor(BaseModel):
     source: SourceRef
 
 
+class CompetitorReview(BaseModel):
+    id: str
+    business: str
+    rating: float = Field(ge=1, le=5, allow_inf_nan=False)
+    snippet: str = Field(min_length=1, max_length=800)
+    source: SourceRef
+
+
 class CompetitorReport(BaseModel):
     locality_key: str  # the area's key, e.g. "bengaluru/koramangala"
     locality: str
@@ -51,6 +59,13 @@ class CompetitorReport(BaseModel):
     total_reviews: int = 0
     readings: dict[PropertyType, CompetitorReading] = Field(default_factory=dict)
     gaps: list[Sourced[str]] = Field(default_factory=list)  # F-06b: market gaps from reviews
+    reviews: list[CompetitorReview] = Field(default_factory=list)
+    review_status: Literal["not_loaded", "unavailable", "ok", "empty", "partial", "failed"] = (
+        "not_loaded"
+    )
+    review_places_sampled: int = 0
+    review_places_limit: int = 1
+    review_warnings: list[AreaIssue] = Field(default_factory=list)
     # "ok": places found; "empty": the search worked but none were in range; "failed": `warning`.
     status: Literal["ok", "empty", "failed"] = "ok"
     warning: AreaIssue | None = None

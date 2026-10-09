@@ -88,6 +88,8 @@ def collect_sources(
         refs += [amenity.source for amenity in area.amenities]
     if competitors is not None:
         refs += [place.source for place in competitors.competitors]
+        refs += [review.source for review in competitors.reviews]
+        refs += [ref for gap in competitors.gaps for ref in gap.sources]
     unique: dict[tuple, SourceRef] = {}
     for ref in refs:
         if ref.url or ref.search_id:

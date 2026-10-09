@@ -1,0 +1,36 @@
+{
+  "key": "8ce2652ac6ea519edfae491e6fbf3d0fc909b81564d98d04d3275fe3163b4c15",
+  "task": "competitor_gaps",
+  "model": "deepseek-v4-pro",
+  "tier": "reasoning",
+  "response": {
+    "gaps": [
+      {
+        "theme": "service_quality",
+        "evidence": [
+          {
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrM2VrdHdZVzh5Y3pScVh6QnFhM0pFY0doNVVuYxAB",
+            "quote": "they postpone the class and never took it again"
+          },
+          {
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psYWNFWXhRa04zYWxONVIycFRlV1EyWjNReWFuYxAB",
+            "quote": "they completely ignored it every single time"
+          }
+        ]
+      },
+      {
+        "theme": "customer_support",
+        "evidence": [
+          {
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wb1NHazBkVVpIZFc1ZmJVUnlNR2d4ZUZrd2JIYxAB",
+            "quote": "the company response was very poor"
+          },
+          {
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5a1FVTTFkREJzYlc5ek0wZFRjbWhJV1c1S2IxRRAB",
+            "quote": "the company response was too poor while asking for certificate"
+          }
+        ]
+      }
+    ]
+  }
+}

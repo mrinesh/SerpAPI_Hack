@@ -77,8 +77,8 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `serp_cache` | `key` (`gateway.cache_key`) | engine, params, raw SerpApi JSON, `search_id`, fetched time | Same key as fixture file names |
 | `search_ledger` | autoincrement `id` | engine, cache key, run, `live`, time | Budget is computed from this |
 | `llm_cache` | `key` = hash(task, model, tier, prompt, schema) | task, model, validated LLM output, time | Replay reads fixtures only; record writes cache hits too |
-| `saved_properties` | `listing_id` | note, saved time | F-08 (not built) |
-| `alerts` | `id` | profile, kind, listing, message, created and read times | F-10 (not built) |
+| `saved_properties` | `listing_id` | note, saved time | F-08 |
+| `alerts` | `id` | profile, kind, listing, message, created and read times | F-10 |
 
 ```mermaid
 erDiagram
@@ -113,3 +113,6 @@ save time. Comparison reads existing frozen run results through property detail 
 F-10 persists notifications and read times in existing `alerts`. Event IDs are deterministic
 per profile, run, kind and listing; no table migration is required. Diffs read frozen successful
 run snapshots rather than mutable shared listing prices (ADR 0028).
+
+F-06b stores review evidence and sourced gap hypotheses inside existing shared and frozen
+competitor report JSON. Version 2 invalidates older shared caches; no DB migration is needed.

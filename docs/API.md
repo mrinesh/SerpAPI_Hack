@@ -36,6 +36,7 @@ city) use the same shape.
 | DELETE | `/saved/{listing_id}` | 204 | F-08 | ✅ |
 | GET | `/compare?ids=a&ids=b` | `CompareResult` (2–4 ids) | F-08 | ✅ |
 | GET | `/alerts?unread_only=` | `Alert[]` | F-10 | ✅ |
+| POST | `/alerts/{alert_id}/read` | `Alert` with persisted read time (idempotent) | F-10 | ✅ |
 | POST | `/alerts/check` | `AlertCheckResult`: new alerts, checked/skipped counts and per-profile errors | F-10 | ✅ |
 
 Run listings include grounded extraction additions and rejected candidates, from snapshots
@@ -80,3 +81,11 @@ checked/skipped profiles and errors. Only successful runs and strong/partial mat
 A concurrent check returns 409 `alert_check_busy`. `GET /alerts?unread_only=true` filters
 unread alerts; `POST /alerts/{id}/read` marks one read idempotently (404 if absent). See ADR 0028
 for conservative matching when a price-sensitive candidate ID changes.
+
+## Competitor review gaps (F-06b)
+
+Competitor reports now include `reviews`, `gaps`, `review_status`, `review_places_sampled`,
+`review_places_limit` and `review_warnings`. Gaps are sourced, tentative complaint themes
+backed by at least two low-rated reviews with checked quotes; not part of ranking. Old runs
+show `not_loaded`. Failed or partial review loads preserve nearby businesses and retry on
+the next search. Property-detail sources include review and gap citations (ADR 0029).

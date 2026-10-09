@@ -246,6 +246,12 @@ def run_pipeline(run_id: str) -> None:
                         report, cached = found
                         save_run_competitors(db, run_id, report)
                         event.counts["competitor_reports"] += int(report.status != "failed")
+                        event.counts["competitor_reviews"] = event.counts.get(
+                            "competitor_reviews", 0
+                        ) + len(report.reviews)
+                        event.counts["review_warnings"] = event.counts.get(
+                            "review_warnings", 0
+                        ) + len(report.review_warnings)
                         notes.append(_competitor_note(report, cached))
                         event.message = "; ".join(notes)
                         tracker.replace(event)

@@ -760,6 +760,26 @@ export interface components {
             };
             /** Gaps */
             gaps?: components["schemas"]["Sourced_str_"][];
+            /** Reviews */
+            reviews?: components["schemas"]["CompetitorReview"][];
+            /**
+             * Review Status
+             * @default not_loaded
+             * @enum {string}
+             */
+            review_status: "not_loaded" | "unavailable" | "ok" | "empty" | "partial" | "failed";
+            /**
+             * Review Places Sampled
+             * @default 0
+             */
+            review_places_sampled: number;
+            /**
+             * Review Places Limit
+             * @default 1
+             */
+            review_places_limit: number;
+            /** Review Warnings */
+            review_warnings?: components["schemas"]["AreaIssue"][];
             /**
              * Status
              * @default ok
@@ -786,6 +806,18 @@ export interface components {
              * Format: date-time
              */
             expires_at: string;
+        };
+        /** CompetitorReview */
+        CompetitorReview: {
+            /** Id */
+            id: string;
+            /** Business */
+            business: string;
+            /** Rating */
+            rating: number;
+            /** Snippet */
+            snippet: string;
+            source: components["schemas"]["SourceRef"];
         };
         /** DevelopmentHypothesis */
         DevelopmentHypothesis: {

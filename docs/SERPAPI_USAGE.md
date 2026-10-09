@@ -22,7 +22,7 @@ results fetched for that investor's criteria; without SerpApi there is no shortl
 | `google_maps_directions` | Commute: the weekday 9 AM drive from each locality centre to three job hubs (ORR/Bellandur, Manyata, Electronic City), with Google's typical-traffic range; shown, not scored ([ADR 0026](decisions/0026-commute-to-job-hubs-display-only.md), [S-04](spikes/S-04-commute-directions.md)) | Built (F-23) |
 | `google_news` | Locality news with AI topic and sentiment labels, shown in the area panel (not scored) | Built (F-05, ADR 0020) |
 | `google_trends` | Developing-area signals: weekly interest in `<locality>` and `<locality> rent` over five years, up to 5 localities per call (2 calls per run), shown but not scored ([ADR 0025](decisions/0025-search-driven-developing-area-signals.md), after gscode007's branch) | Built |
-| `google_maps_reviews` | Review text of top competitors, to find market gaps | Planned (F-06b) |
+| `google_maps_reviews` | Review text of top competitors, to find market gaps | Built (F-06b, ADR 0029) |
 | `google_local` | Tested in S-01: the same projects as Maps for flats, irrelevant results for commercial | Not used |
 
 Free SerpApi APIs we use:
@@ -65,6 +65,7 @@ default timeout is 60 s because two searches exceeded 30 s.
 | Area intelligence, per new locality, per 7-day TTL (F-05) | 1 Maps geocode + 3 Maps amenities + 1 Google growth + 1 Google News = 6 |
 | Commute, per locality and job hub, per area TTL (F-23) | 1 Maps directions × 3 hubs = 3 |
 | Rent level, per locality and property type, per TTL (F-09) | 1 Google |
+| Review gaps, per commercial locality and business type, per TTL (F-06b) | 1 review page by default (maximum 3 configurable); no pagination |
 | Competitors, per commercial locality and business type, per TTL (F-06) | 1 Maps |
 | Developing-area signals, per run, up to 5 localities (ADR 0025) | 2 Trends (cached) |
 | Example: 3 localities, apartments only | 3 Google + 3 Maps + 3 price level + 18 area + 9 commute + 3 rent + 2 Trends = 41, inside the per-run cap of 45 |
@@ -76,3 +77,8 @@ default timeout is 60 s because two searches exceeded 30 s.
 - Fixtures store public search results only; `api_key` is stripped before anything is written.
 - The platform links to the portals' pages and never fetches or scrapes them
   ([ADR 0002](decisions/0002-serpapi-as-the-only-listing-source.md)).
+
+F-10 scheduled and manual alert refreshes use the same pipeline, cache TTLs and budget caps.
+F-06b uses `google_maps_reviews` with `sort_by=ratingLow`; the deliberately complaint-biased
+sample supports hypotheses, not market-wide claims. Parameters checked against the
+[official reviews API](https://serpapi.com/google-maps-reviews-api) on 2026-10-10 (ADR 0029).

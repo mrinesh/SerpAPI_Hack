@@ -64,6 +64,8 @@ class Settings(BaseSettings):
 
     # Enrichment results are shared per locality, so they can live longer than search caches.
     area_intel_ttl_hours: int = 168
+    # One first-page review search per commercial locality by default (F-06b).
+    competitor_review_max_places: int = Field(default=1, ge=1, le=3)
     # Departure for commute times to job hubs (F-23, ADR 0026): Tuesday 09:00 in Bengaluru. Google
     # Maps reads it as local wall-clock time written as UTC (S-04), so this is 2026-10-13T09:00Z.
     # Pinned, not "next weekday", so the search's cache key and recording never change; a past

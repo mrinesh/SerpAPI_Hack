@@ -195,7 +195,7 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
 - [x] `make types` generates `src/api/schema.d.ts` from OpenAPI (rerun after schema changes)
 - [x] TanStack Query hooks for every endpoint a screen uses (health, budget, profile options,
       profiles, target suggestion, runs and their listings, checks, areas, competitors,
-      recommendations, property detail). F-08/F-10 add theirs; `/areas/{key}` needs none
+      recommendations, property detail, saved properties, comparison and alerts); `/areas/{key}` needs none
 
 ### I-11 Scheduler · P1 · ✅
 - [x] APScheduler wiring, off by default (`SCHEDULER_ENABLED`)
@@ -301,7 +301,7 @@ Per locality and business type, read by property type, display only
 - [x] Competitor card beside the area card, map layer on the run and detail maps
 - [x] Failed search shown and retried next run; never fails the run, never changes ranks
 - [x] Recorded for the commercial demo (1 search); tests: 18 unit, 3 replay (report, ranks unchanged, profile delete), 1 detail, 4 frontend
-- [ ] F-06b (P1): review-gap analysis via google_maps_reviews + `competitor_gaps` prompt
+- [x] F-06b (P1): bounded google_maps_reviews sample + cited `competitor_gaps` analysis, visible warnings and replay coverage (ADR 0029)
 
 ### F-07 Property detail page · P0 · ✅
 Run-scoped, from stored results only ([ADR 0021](docs/decisions/0021-run-scoped-property-detail.md)).

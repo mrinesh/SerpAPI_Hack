@@ -29,7 +29,7 @@ SOURCES = [BACKEND / "tests", BACKEND / "scripts"]
 def used_by_tests() -> set[str]:
     with tempfile.TemporaryDirectory(prefix="fixture-report-") as temporary:
         report = Path(temporary) / "used.json"
-        env = {**os.environ, "FIXTURE_REPORT": str(report)}
+        env = {**os.environ, "FIXTURE_REPORT": str(report), "PYTHONUTF8": "1"}
         result = subprocess.run(
             [sys.executable, "-m", "pytest", "-q", "-p", "no:cacheprovider"],
             cwd=BACKEND,

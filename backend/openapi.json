@@ -1939,6 +1939,43 @@
             "type": "array",
             "title": "Gaps"
           },
+          "reviews": {
+            "items": {
+              "$ref": "#/components/schemas/CompetitorReview"
+            },
+            "type": "array",
+            "title": "Reviews"
+          },
+          "review_status": {
+            "type": "string",
+            "enum": [
+              "not_loaded",
+              "unavailable",
+              "ok",
+              "empty",
+              "partial",
+              "failed"
+            ],
+            "title": "Review Status",
+            "default": "not_loaded"
+          },
+          "review_places_sampled": {
+            "type": "integer",
+            "title": "Review Places Sampled",
+            "default": 0
+          },
+          "review_places_limit": {
+            "type": "integer",
+            "title": "Review Places Limit",
+            "default": 1
+          },
+          "review_warnings": {
+            "items": {
+              "$ref": "#/components/schemas/AreaIssue"
+            },
+            "type": "array",
+            "title": "Review Warnings"
+          },
           "status": {
             "type": "string",
             "enum": [
@@ -1993,6 +2030,42 @@
           "expires_at"
         ],
         "title": "CompetitorReport"
+      },
+      "CompetitorReview": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "business": {
+            "type": "string",
+            "title": "Business"
+          },
+          "rating": {
+            "type": "number",
+            "maximum": 5.0,
+            "minimum": 1.0,
+            "title": "Rating"
+          },
+          "snippet": {
+            "type": "string",
+            "maxLength": 800,
+            "minLength": 1,
+            "title": "Snippet"
+          },
+          "source": {
+            "$ref": "#/components/schemas/SourceRef"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "business",
+          "rating",
+          "snippet",
+          "source"
+        ],
+        "title": "CompetitorReview"
       },
       "DevelopmentHypothesis": {
         "properties": {

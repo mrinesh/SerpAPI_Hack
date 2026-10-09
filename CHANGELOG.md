@@ -6,6 +6,7 @@ Reference CHECKLIST IDs.
 ## [Unreleased]
 
 ### Changed
+- F-06b: sampled competitor reviews, cited and checked complaint themes, visible evidence and failure states; real commercial demo recordings, no ranking changes.
 - I-11: finish scheduled alert refreshes with overlap protection, missed-tick coalescing, validated intervals, lifecycle tests and per-profile failure logs.
 - F-10: verified new-match and conservative quoted-price-drop alerts, manual refresh, unread badge and persisted read status; failed profiles are reported separately.
 - F-08: save/unsave properties, edit notes, and compare 2–4 sourced property snapshots with best-value highlights.
