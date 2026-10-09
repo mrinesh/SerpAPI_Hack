@@ -1,0 +1,285 @@
+{
+ "engine": "google_maps_reviews",
+ "params": {
+  "data_id": "0x3bae153305967d07:0xc7da5660bc210cbd",
+  "hl": "en",
+  "sort_by": "ratingLow"
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ac9345df6d5ee47c246ba58",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/Etcak4GGHJsTNTwBLCmisYogmQxuzaQDFLSHRWSqqhU/6ac9345df6d5ee47c246ba58.json",
+   "markdown_endpoint": "https://serpapi.com/searches/Etcak4GGHJsTNTwBLCmisYogmQxuzaQDFLSHRWSqqhU/6ac9345df6d5ee47c246ba58.md",
+   "created_at": "2026-10-09 18:37:17 UTC",
+   "processed_at": "2026-10-09 18:37:17 UTC",
+   "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x3bae153305967d07:0xc7da5660bc210cbd!5m2!4m1!1i2!9m1!1b1?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/Etcak4GGHJsTNTwBLCmisYogmQxuzaQDFLSHRWSqqhU/6ac9345df6d5ee47c246ba58.html",
+   "prettify_html_file": "https://serpapi.com/searches/Etcak4GGHJsTNTwBLCmisYogmQxuzaQDFLSHRWSqqhU/6ac9345df6d5ee47c246ba58.prettify",
+   "total_time_taken": 1.13
+  },
+  "search_parameters": {
+   "engine": "google_maps_reviews",
+   "data_id": "0x3bae153305967d07:0xc7da5660bc210cbd",
+   "hl": "en",
+   "sort_by": "ratingLow"
+  },
+  "place_info": {
+   "title": "VIJESHA IT SERVICES LLP",
+   "address": "203, 17th Main Rd, beside Bata Shoe Store, opp. to sanju s aquarium, KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+   "rating": 4.5,
+   "reviews": 2216,
+   "type": "Software company"
+  },
+  "topics": [
+   {
+    "keyword": "ethical hacking",
+    "mentions": 37,
+    "id": "RBXKmfLBSQI"
+   },
+   {
+    "keyword": "webinar",
+    "mentions": 200,
+    "id": "GuMoAK3tPwY"
+   },
+   {
+    "keyword": "cybersecurity concepts",
+    "mentions": 25,
+    "id": "BAUYGDbQnpI"
+   },
+   {
+    "keyword": "new concepts",
+    "mentions": 73,
+    "id": "JNCB4b2vnGA"
+   },
+   {
+    "keyword": "python",
+    "mentions": 27,
+    "id": "AB9IueiWK3s"
+   },
+   {
+    "keyword": "clear explanations",
+    "mentions": 48,
+    "id": "pEPJpDX4gEI"
+   },
+   {
+    "keyword": "engaging session",
+    "mentions": 18,
+    "id": "DPF_MLLF1L4"
+   },
+   {
+    "keyword": "career opportunities",
+    "mentions": 14,
+    "id": "B9P_1aj03Ig"
+   },
+   {
+    "keyword": "learning experience",
+    "mentions": 44,
+    "id": "jHGqDZT0hIA"
+   },
+   {
+    "keyword": "data analytics",
+    "mentions": 10,
+    "id": "AsEG_XIcjqo"
+   }
+  ],
+  "reviews": [
+   {
+    "position": 1,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1elRUZDNabUpVY0c1ME1XOU5hRlpxVVU0NVduYxAB!2m1!1s0x0:0xc7da5660bc210cbd!3m1!1s2@1:CAIQACodChtycF9oOk5zTTd3ZmJUcG50MW9NaFZqUU45Wnc%7C%7C?hl=en-US",
+    "rating": 1.0,
+    "date": "2 months ago",
+    "iso_date": "2026-07-18T14:07:32Z",
+    "iso_date_of_last_edit": "2026-07-18T14:07:32Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1elRUZDNabUpVY0c1ME1XOU5hRlpxVVU0NVduYxAB",
+    "user": {
+     "name": "Sooraj Nule",
+     "link": "https://www.google.com/maps/contrib/100210555759435310691?hl=en-US",
+     "contributor_id": "100210555759435310691",
+     "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX-4aDrAzVqQda8NpayfYzyghboO8sk6qkeDJ_DP3YYntL0cuCv=s120-c-rp-mo-br100",
+     "local_guide": true,
+     "reviews": 1,
+     "photos": 0
+    },
+    "snippet": "I believe in continuous learning, teamwork, and honesty. I enjoy solving problems, improving my skills, and giving my best in every opportunity. My goal is to grow professionally while contributing positively to the organization.",
+    "extracted_snippet": {
+     "original": "I believe in continuous learning, teamwork, and honesty. I enjoy solving problems, improving my skills, and giving my best in every opportunity. My goal is to grow professionally while contributing positively to the organization."
+    },
+    "likes": 0
+   },
+   {
+    "position": 2,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xrM2VrdHdZVzh5Y3pScVh6QnFhM0pFY0doNVVuYxAB!2m1!1s0x0:0xc7da5660bc210cbd!3m1!1s2@1:CAIQACodChtycF9oOlk3ektwYW8yczRqXzBqa3JEcGh5Unc%7C%7C?hl=en-US",
+    "rating": 1.0,
+    "date": "4 months ago",
+    "iso_date": "2026-05-12T19:03:51Z",
+    "iso_date_of_last_edit": "2026-05-12T19:34:41Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrM2VrdHdZVzh5Y3pScVh6QnFhM0pFY0doNVVuYxAB",
+    "user": {
+     "name": "SADIQ_ PRINCE____",
+     "link": "https://www.google.com/maps/contrib/102681375697895571430?hl=en-US",
+     "contributor_id": "102681375697895571430",
+     "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIdYCQIUJpbYQqPCz5G8kK6yWpd4GceUKk5v37DH0B2x0UOkg=s120-c-rp-mo-br100",
+     "local_guide": true,
+     "reviews": 5,
+     "photos": 1
+    },
+    "snippet": "I came to share my experience, which I faced during this course and before.\nBefore enrolling they promised me about the sincere classes, mock and they also told that they will provide the internship.\nThe classes start too late, which was only on weekends (Saturday and Sunday) only for 2 hours, and when course got started 3-4 classes was good but later, they postpone the class and never took it again, weekly they provide only 2 classes Saturday and Sunday, classes were in Google meet, while taking the classes if any technical glitches occurs and meeting or classes got cut, they'll postpone it to next week, if next there is any festival then they'll postpone it again,  if any small problem occurs they just postpone the classes, in my whole 4 months of this course they only took 9 - 14 classes less than of one hour,\nThis was the worst course I ever experienced. After the course they didn't even managed the internships, when I called and asked they just delayed it.\n\nAfter enrollment they'll not care about you guys, so be carefull.\nI'm sharing this because I had a worst experience and spent my money on waste platform.\nI suggest you guys, whenever you invest your money on course, be aware.\nAnd select a best platform.\n\nI had enrolled for cybersecurity, totally waste.\nComplaint For Hubballi branch.",
+    "extracted_snippet": {
+     "original": "I came to share my experience, which I faced during this course and before.\nBefore enrolling they promised me about the sincere classes, mock and they also told that they will provide the internship.\nThe classes start too late, which was only on weekends (Saturday and Sunday) only for 2 hours, and when course got started 3-4 classes was good but later, they postpone the class and never took it again, weekly they provide only 2 classes Saturday and Sunday, classes were in Google meet, while taking the classes if any technical glitches occurs and meeting or classes got cut, they'll postpone it to next week, if next there is any festival then they'll postpone it again,  if any small problem occurs they just postpone the classes, in my whole 4 months of this course they only took 9 - 14 classes less than of one hour,\nThis was the worst course I ever experienced. After the course they didn't even managed the internships, when I called and asked they just delayed it.\n\nAfter enrollment they'll not care about you guys, so be carefull.\nI'm sharing this because I had a worst experience and spent my money on waste platform.\nI suggest you guys, whenever you invest your money on course, be aware.\nAnd select a best platform.\n\nI had enrolled for cybersecurity, totally waste.\nComplaint For Hubballi branch."
+    },
+    "likes": 0
+   },
+   {
+    "position": 3,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSUk56QkViRlZpWW0xRFFXRXdiMk5GVDBOVmJGRRAB!2m1!1s0x0:0xc7da5660bc210cbd!3m1!1s2@1:CAIQACodChtycF9oOlRRNzBEbFViYm1DQWEwb2NFT0NVbFE%7C%7C?hl=en-US",
+    "rating": 1.0,
+    "date": "2 months ago",
+    "iso_date": "2026-07-29T13:50:13Z",
+    "iso_date_of_last_edit": "2026-07-29T13:50:13Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSUk56QkViRlZpWW0xRFFXRXdiMk5GVDBOVmJGRRAB",
+    "user": {
+     "name": "Fouz Flh",
+     "link": "https://www.google.com/maps/contrib/101409200647561694076?hl=en-US",
+     "contributor_id": "101409200647561694076",
+     "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIBJbA3_weC_DTlkauoLOLcfV7HKGSSyCpYKv5wI0iq8W99OA=s120-c-rp-mo-br100",
+     "local_guide": true,
+     "reviews": 2,
+     "photos": 0
+    },
+    "snippet": "The host is not well informed about the subject and mispronounces the words, which change the meaning completely.  The webinar is less about the topic and more about social media following and fee for participation and certificate.",
+    "extracted_snippet": {
+     "original": "The host is not well informed about the subject and mispronounces the words, which change the meaning completely.  The webinar is less about the topic and more about social media following and fee for participation and certificate."
+    },
+    "likes": 0
+   },
+   {
+    "position": 4,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2psYWNFWXhRa04zYWxONVIycFRlV1EyWjNReWFuYxAB!2m1!1s0x0:0xc7da5660bc210cbd!3m1!1s2@1:CAIQACodChtycF9oOjlacEYxQkN3alN5R2pTeWQ2Z3Qyanc%7C%7C?hl=en-US",
+    "rating": 1.0,
+    "date": "10 months ago",
+    "iso_date": "2025-11-22T14:15:31Z",
+    "iso_date_of_last_edit": "2025-11-22T14:15:31Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psYWNFWXhRa04zYWxONVIycFRlV1EyWjNReWFuYxAB",
+    "user": {
+     "name": "TarunSingh",
+     "link": "https://www.google.com/maps/contrib/106734043866170355053?hl=en-US",
+     "contributor_id": "106734043866170355053",
+     "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLwJ5oxTfd1ps1zwBD07npO3olT23fuff-3oBcDAS7YBF8Mzg=s120-c-rp-mo-br100",
+     "local_guide": true,
+     "reviews": 1,
+     "photos": 0
+    },
+    "snippet": "The online seminar by Vijesha IT Company today was honestly a waste of time. They kept saying “raise your hand, first one who raises will get to answer” — and guess what? I raised my hand multiple times, on multiple questions, and they completely ignored it every single time. What’s the point of calling it an interactive internship session on DSA and algorithms if you don’t even bother to acknowledge participants?\n\nThe experience was frustrating, unprofessional, and totally disappointing. If you’re not going to follow your own rules or give everyone a fair chance, don’t pretend it's an engaging seminar. I expected better.",
+    "extracted_snippet": {
+     "original": "The online seminar by Vijesha IT Company today was honestly a waste of time. They kept saying “raise your hand, first one who raises will get to answer” — and guess what? I raised my hand multiple times, on multiple questions, and they completely ignored it every single time. What’s the point of calling it an interactive internship session on DSA and algorithms if you don’t even bother to acknowledge participants?\n\nThe experience was frustrating, unprofessional, and totally disappointing. If you’re not going to follow your own rules or give everyone a fair chance, don’t pretend it's an engaging seminar. I expected better."
+    },
+    "likes": 0
+   },
+   {
+    "position": 5,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kNGFIRnpjbTFYZUdSeVRuQm1VVFZTUjNwdFNWRRAB!2m1!1s0x0:0xc7da5660bc210cbd!3m1!1s2@1:CAIQACodChtycF9oOmd4aHFzcm1XeGRyTnBmUTVSR3ptSVE%7C%7C?hl=en-US",
+    "rating": 1.0,
+    "date": "4 months ago",
+    "iso_date": "2026-06-03T15:58:11Z",
+    "iso_date_of_last_edit": "2026-06-03T15:58:11Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kNGFIRnpjbTFYZUdSeVRuQm1VVFZTUjNwdFNWRRAB",
+    "user": {
+     "name": "VIJAY RAJ",
+     "link": "https://www.google.com/maps/contrib/109764936775161763638?hl=en-US",
+     "contributor_id": "109764936775161763638",
+     "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUwEtMg2tFzvwfF3-2h06FW2AqGND0g8j2zjZyhk-uYKp6ZQu0p=s120-c-rp-mo-br100",
+     "local_guide": true,
+     "reviews": 1,
+     "photos": 0
+    },
+    "snippet": "Worst company they just sell certificates for money don't go here it's just waste of your time",
+    "extracted_snippet": {
+     "original": "Worst company they just sell certificates for money don't go here it's just waste of your time"
+    },
+    "likes": 0
+   },
+   {
+    "position": 6,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wb1NHazBkVVpIZFc1ZmJVUnlNR2d4ZUZrd2JIYxAB!2m1!1s0x0:0xc7da5660bc210cbd!3m1!1s2@1:CAIQACodChtycF9oOmpoSGk0dUZHdW5fbURyMGgxeFkwbHc%7C%7C?hl=en-US",
+    "rating": 1.0,
+    "date": "2 months ago",
+    "iso_date": "2026-08-04T07:41:01Z",
+    "iso_date_of_last_edit": "2026-08-04T07:46:57Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wb1NHazBkVVpIZFc1ZmJVUnlNR2d4ZUZrd2JIYxAB",
+    "user": {
+     "name": "KASHLY RAJ W 502444",
+     "link": "https://www.google.com/maps/contrib/104449003317833037026?hl=en-US",
+     "contributor_id": "104449003317833037026",
+     "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJu92t9xlFFhUg2DIc9ElA0TVUjthMwpmFX26gCrwaQR5FWHw=s120-c-rp-mo-br100",
+     "local_guide": true,
+     "reviews": 1,
+     "photos": 0
+    },
+    "snippet": "very very worst  experience in my life  the company response was very poor",
+    "extracted_snippet": {
+     "original": "very very worst  experience in my life  the company response was very poor"
+    },
+    "likes": 0
+   },
+   {
+    "position": 7,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OaVNqZE1PWFkwZUVsV2NrdFpRbkJsVFRWT1ZFRRAB!2m1!1s0x0:0xc7da5660bc210cbd!3m1!1s2@1:CAIQACodChtycF9oOnNiSjdMOXY0eElWcktZQnBlTTVOVEE%7C%7C?hl=en-US",
+    "rating": 1.0,
+    "date": "2 months ago",
+    "iso_date": "2026-07-25T13:55:06Z",
+    "iso_date_of_last_edit": "2026-07-25T13:55:06Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OaVNqZE1PWFkwZUVsV2NrdFpRbkJsVFRWT1ZFRRAB",
+    "user": {
+     "name": "Bhabani Sankar Mohanty",
+     "link": "https://www.google.com/maps/contrib/106293702051222617434?hl=en-US",
+     "contributor_id": "106293702051222617434",
+     "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocILl1oHPg6U3ily3Snhl0CJiKztRcZq5jvcNv4mLyTU28XV9A=s120-c-rp-mo-br100",
+     "local_guide": true,
+     "reviews": 1,
+     "photos": 0
+    },
+    "snippet": "After registration for certification it show payment procedure in next page!!!",
+    "extracted_snippet": {
+     "original": "After registration for certification it show payment procedure in next page!!!"
+    },
+    "likes": 0
+   },
+   {
+    "position": 8,
+    "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s5a1FVTTFkREJzYlc5ek0wZFRjbWhJV1c1S2IxRRAB!2m1!1s0x0:0xc7da5660bc210cbd!3m1!1s2@1:CAIQACodChtycF9oOk9kQUM1dDBsbW9zM0dTcmhIWW5Kb1E%7C%7C?hl=en-US",
+    "rating": 1.0,
+    "date": "Edited 2 months ago",
+    "iso_date": "2026-07-03T08:11:29Z",
+    "iso_date_of_last_edit": "2026-08-04T07:42:35Z",
+    "source": "Google",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5a1FVTTFkREJzYlc5ek0wZFRjbWhJV1c1S2IxRRAB",
+    "user": {
+     "name": "JEBEECIN JOE J S 502437",
+     "link": "https://www.google.com/maps/contrib/116025586345898366028?hl=en-US",
+     "contributor_id": "116025586345898366028",
+     "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXhlbU5lkGM03xgwYn6ijnI151fviO9l0_UMSnA8evCn5ByL5g=s120-c-rp-mo-br100",
+     "local_guide": true,
+     "reviews": 1,
+     "photos": 0
+    },
+    "snippet": "the company response was too poor\nwhile asking for certificate",
+    "extracted_snippet": {
+     "original": "the company response was too poor\nwhile asking for certificate"
+    },
+    "likes": 0
+   }
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?data_id=0x3bae153305967d07%3A0xc7da5660bc210cbd&engine=google_maps_reviews&hl=en&next_page_token=CjEIARIpCgoAP7-mzHfNv___EhCCzK7__qoqkHQ8n-QAAAAAGgn94IsCYDRGkfQYACIA&sort_by=ratingLow",
+   "next_page_token": "CjEIARIpCgoAP7-mzHfNv___EhCCzK7__qoqkHQ8n-QAAAAAGgn94IsCYDRGkfQYACIA"
+  }
+ }
+}

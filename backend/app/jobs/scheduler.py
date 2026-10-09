@@ -17,6 +17,8 @@ _scheduler: BackgroundScheduler | None = None
 
 def start_scheduler() -> None:
     global _scheduler
+    if _scheduler is not None and _scheduler.running:
+        return
     settings = get_settings()
     _scheduler = BackgroundScheduler(timezone="Asia/Kolkata")
     _scheduler.add_job(
@@ -25,6 +27,8 @@ def start_scheduler() -> None:
         minutes=settings.alert_check_interval_minutes,
         id="alert_check",
         max_instances=1,
+        coalesce=True,
+        misfire_grace_time=300,
     )
     _scheduler.start()
     log.info("Scheduler started; alert check every %s min", settings.alert_check_interval_minutes)
@@ -33,5 +37,6 @@ def start_scheduler() -> None:
 def shutdown_scheduler() -> None:
     global _scheduler
     if _scheduler is not None:
-        _scheduler.shutdown(wait=False)
+        if _scheduler.running:
+            _scheduler.shutdown(wait=False)
         _scheduler = None

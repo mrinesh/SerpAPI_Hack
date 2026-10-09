@@ -94,8 +94,8 @@ class CompareResult(BaseModel):
 
 
 class SaveRequest(BaseModel):
-    listing_id: str
-    note: str | None = None
+    listing_id: str = Field(min_length=1, max_length=32)
+    note: str | None = Field(default=None, max_length=2000)
 
 
 class SavedProperty(BaseModel):
@@ -117,3 +117,15 @@ class Alert(BaseModel):
     message: str
     created_at: datetime
     read_at: datetime | None = None
+
+
+class AlertCheckIssue(BaseModel):
+    profile_id: str
+    message: str
+
+
+class AlertCheckResult(BaseModel):
+    alerts: list[Alert] = Field(default_factory=list)
+    checked_profiles: int = 0
+    skipped_profiles: int = 0
+    errors: list[AlertCheckIssue] = Field(default_factory=list)

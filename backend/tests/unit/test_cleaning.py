@@ -67,7 +67,7 @@ def test_price_per_sqft_and_area():
     assert parse_price_per_sqft("₹55 Lacs. ₹4,400/sq.ft.") == 4400
     assert parse_price_per_sqft("for Resale in ₹29 Cr ₹16111 / sqft.") == 16111
     assert parse_area_sqft("Ready To Move 735 sqft(68 sqm) bedrooms") == 735
-    assert parse_area_sqft("ranging from 1415.0 sq. ft. to 1470.0 sq. ft.,") is None
+    assert parse_area_sqft("ranging from 1415.0 sq. ft. to 1470.0 sq. ft.,") == 1415
     assert parse_area_sqft("offers 950 sq.Ft. featuring 2 bedrooms") == 950
     assert parse_area_sqft("68 sqm") == pytest.approx(731.9, abs=0.1)  # x 10.7639
     assert parse_area_sqft("Find Shops for sale in Bangalore from 2000 sq ft to 2500 sq ft") is None
@@ -186,3 +186,33 @@ def test_bedroom_counts_written_out():
     assert parse_bedrooms("comprises 2 bedrooms, 3 bathrooms .") == 2
     assert parse_bedrooms("615 sqft(57 sqm) 1 bedroom(s), 1 bathroom") == 1
     assert parse_bedrooms("2 and 3 bedroom apartment.") is None
+
+
+def test_stated_size_range_precedes_price_divided_by_rate():
+    (entry,) = snippet_entries(
+        "ranging from 1415.0 sq. ft. to 1470.0 sq. ft., ₹1.25 - 1.28 Cr ₹10,241 /sqft"
+    )
+    assert entry.size_sqft == 1415 and not entry.size_computed
+
+
+def test_page_filter_status_is_not_a_property_status():
+    (entry,) = snippet_entries(
+        "Choose from over 22+ Flats. Buy Ready to move, Resale, apartments/flats in Hebbal "
+        "within ₹ 1 Crore. ₹1.15 Cr"
+    )
+    assert entry.status is None
+    assert parse_status("Buy Ready to move, Resale, apartments. Status. Under Construction") == (
+        SaleStatus.UNDER_CONSTRUCTION
+    )
+
+
+def test_page_description_price_is_not_an_entry():
+    assert (
+        snippet_entries(
+            "Finding for resale or new flats for sale below 60 lakhs in Electronic City … "
+            "45 Lakhs Flats for"
+        )
+        == []
+    )
+    (entry,) = snippet_entries("₹45 Lakhs. 2 BHK Flat for sale in Electronic City. 950 sqft")
+    assert entry.price_inr == 4_500_000

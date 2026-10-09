@@ -399,6 +399,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/alerts/{alert_id}/read": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Mark Read */
+        post: operations["mark_read_api_alerts__alert_id__read_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
 }
 export type webhooks = Record<string, never>;
 export interface components {
@@ -421,6 +438,30 @@ export interface components {
             created_at: string;
             /** Read At */
             read_at?: string | null;
+        };
+        /** AlertCheckIssue */
+        AlertCheckIssue: {
+            /** Profile Id */
+            profile_id: string;
+            /** Message */
+            message: string;
+        };
+        /** AlertCheckResult */
+        AlertCheckResult: {
+            /** Alerts */
+            alerts?: components["schemas"]["Alert"][];
+            /**
+             * Checked Profiles
+             * @default 0
+             */
+            checked_profiles: number;
+            /**
+             * Skipped Profiles
+             * @default 0
+             */
+            skipped_profiles: number;
+            /** Errors */
+            errors?: components["schemas"]["AlertCheckIssue"][];
         };
         /**
          * AlertKind
@@ -719,6 +760,26 @@ export interface components {
             };
             /** Gaps */
             gaps?: components["schemas"]["Sourced_str_"][];
+            /** Reviews */
+            reviews?: components["schemas"]["CompetitorReview"][];
+            /**
+             * Review Status
+             * @default not_loaded
+             * @enum {string}
+             */
+            review_status: "not_loaded" | "unavailable" | "ok" | "empty" | "partial" | "failed";
+            /**
+             * Review Places Sampled
+             * @default 0
+             */
+            review_places_sampled: number;
+            /**
+             * Review Places Limit
+             * @default 1
+             */
+            review_places_limit: number;
+            /** Review Warnings */
+            review_warnings?: components["schemas"]["AreaIssue"][];
             /**
              * Status
              * @default ok
@@ -745,6 +806,18 @@ export interface components {
              * Format: date-time
              */
             expires_at: string;
+        };
+        /** CompetitorReview */
+        CompetitorReview: {
+            /** Id */
+            id: string;
+            /** Business */
+            business: string;
+            /** Rating */
+            rating: number;
+            /** Snippet */
+            snippet: string;
+            source: components["schemas"]["SourceRef"];
         };
         /** DevelopmentHypothesis */
         DevelopmentHypothesis: {
@@ -2203,7 +2276,38 @@ export interface operations {
                     [name: string]: unknown;
                 };
                 content: {
-                    "application/json": components["schemas"]["Alert"][];
+                    "application/json": components["schemas"]["AlertCheckResult"];
+                };
+            };
+        };
+    };
+    mark_read_api_alerts__alert_id__read_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                alert_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Alert"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
                 };
             };
         };

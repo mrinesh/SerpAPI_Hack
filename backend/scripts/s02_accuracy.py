@@ -82,14 +82,29 @@ def score(tally: Tally, label: dict, name: str, found, tolerance: float, where: 
 
 
 def entry_listing(label: dict, market, settings):
-    """The candidate cleaning builds for this labelled entry, from the recorded search."""
+    """The frozen pre-F-22 candidate used by this historical comparison.
+    New parser regressions are checked separately, without changing old LLM request keys."""
+    from app.schemas.listing import Listing
+
+    baseline = json.loads(
+        (BACKEND / "fixtures/spikes/s02_baseline.json").read_text(encoding="utf-8")
+    )
+    return Listing.model_validate(
+        baseline[f"{label['fixture']}:{label['position']}:{label['entry']}"]
+    )
+
+
+def current_entry_listing(label: dict, market, settings):
+    """The candidate the current parser builds, from the recorded search."""
     from app.pipeline.cleaning import is_rental_page, normalize_hits, snippet_entries
     from app.reference.localities import named_slugs
     from app.schemas.common import SerpEngine
     from app.schemas.listing import RawSearchHit
 
     recorded = json.loads(
-        (settings.fixtures_dir / "serpapi" / "google" / f"{label['fixture']}.json").read_text()
+        (settings.fixtures_dir / "serpapi" / "google" / f"{label['fixture']}.json").read_text(
+            encoding="utf-8"
+        )
     )
     query = recorded["params"]["q"]
     result = next(

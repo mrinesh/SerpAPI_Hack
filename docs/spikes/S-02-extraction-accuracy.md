@@ -80,3 +80,11 @@ Electronic City … 45 Lakhs Flats for" is a page description; all three ways re
   1. take a stated size range ("ranging from X sq. ft. to Y") before computing size;
   2. do not read sale status from page filter text ("Buy Ready to move, Resale, …");
   3. skip "<price> Flats for" page-description phrases as entries.
+
+## F-22 follow-up (2026-10-09)
+
+The three parser fixes are implemented with the quoted snippets as regressions. Explicit
+size ranges keep their lower bound and provenance; filter clauses cannot supply sale status;
+price phrases followed by "Flats for" are not candidates. The historical comparison above
+uses frozen pre-fix inputs in `fixtures/spikes/s02_baseline.json`, retaining its real DeepSeek
+recordings. Current parser behavior is tested independently.

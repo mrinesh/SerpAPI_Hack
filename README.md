@@ -31,7 +31,9 @@ It is slow and inconsistent, and the results are hard to compare. Realty Intel r
 | **Area intelligence** | Per locality: geocoded centre, nearest metro stations, schools and hospitals (Maps), past-12-month price change and price level (Search), recent news labelled by topic (News), and a summary whose every number is checked |
 | **Investment metrics** | Price vs area level, estimated rent, rental yield, price growth and total return against the investor's ROI target, all computed in code |
 | **Ranking** | A score computed in code from relevance, value, evidence, ROI and area access, with an AI-written reason, highlights and risks for the top five (numbers checked against the figures) |
-| **Competitor analysis** | Commercial: same-category businesses within 2 km of the locality, density, ratings and reviews, read as competition for shops and as a business cluster for offices |
+| **Competitor analysis** | Commercial: nearby business density and ratings, plus sampled low-rated reviews and cited potential service gaps to investigate |
+| **Saved and compare** | Save properties with notes, select 2–4 and compare sourced prices, size, returns, scores, amenity access and quality flags |
+| **Alerts** | Check profiles for new verified matches and quoted price drops, with an unread badge; optional scheduled checks |
 | **Map** | Candidates at their Google Maps position, or grouped at the locality centre when none was quoted, with amenity and competitor layers |
 | **Trust** | Every figure on the property page shows its confidence, how it was obtained and its sources, plus a "Where this came from" list |
 
@@ -50,11 +52,12 @@ one gateway that adds a database cache, a search budget, and record/replay fixtu
   12-month price change, and rent levels.
 - **`google_maps`**: housing projects with GPS (discovery), locality centres, nearby metro
   stations, schools and hospitals, and same-category businesses for commercial profiles.
+- **`google_maps_reviews`**: bounded competitor review samples and evidence for potential service gaps.
 - **`google_news`**: recent locality news, labelled by topic and sentiment.
 - Free **Account API** for searches left (shown in the header) and the **Locations API** to fix
   the `location` parameter.
 
-A fresh residential search of one locality costs about 10 searches; a repeat within the cache
+A fresh residential search of one locality costs about 13 searches (including job-hub commutes); a repeat within the cache
 window costs 0. Details, what we measured and the cost model:
 **[docs/SERPAPI_USAGE.md](docs/SERPAPI_USAGE.md)**.
 
@@ -76,6 +79,16 @@ rental income) and **Koramangala office demo** (an office under ₹3 Cr for an I
 business). Click **Find properties** on either to watch the pipeline run from recordings, then
 open any candidate. Other profiles need live keys: replay mode can only answer searches that
 were recorded.
+
+To try the P1 features, run a demo search and save two candidates. Open **Saved**, edit a note,
+select the two properties and choose **Compare selected**. **Alerts → Check now** refreshes idle
+profiles; replaying unchanged results correctly produces no new changes. For a first-check
+new-match demo, use Check now before running Find properties. The commercial results show
+**Potential gaps from reviews**, with exact supporting quotes and source links.
+
+Enable automatic checks with `SCHEDULER_ENABLED=true` and a positive
+`ALERT_CHECK_INTERVAL_MINUTES` (default 360), then restart the backend. Live checks use the
+normal search budget and cache; replay checks spend no searches.
 
 To run against live data, put `SERPAPI_API_KEY` and `DEEPSEEK_API_KEY` in `.env`, set
 `SERPAPI_MODE=live` and `LLM_MODE=live`, then `make dev`. See

@@ -1,4 +1,5 @@
 import type { CompetitorReport, PropertyType } from "../../api/types";
+import { SourcedValue } from "../SourcedValue";
 import { countLine, readingLines } from "./competitorText";
 
 const NEAREST = 6;
@@ -69,6 +70,28 @@ export function CompetitorCard({ report, typeLabel, only }: {
               {places.length > NEAREST && <p className="text-slate-400">+{places.length - NEAREST} more on the map.</p>}
             </div>
           )}
+          <section className="space-y-2 border-t border-slate-100 pt-3">
+            <h3 className="font-medium">Potential gaps from reviews</h3>
+            <p className="text-xs text-slate-500">Low-rated review sample from {report.review_places_sampled ?? 0} business(es). These are complaints to investigate, not proof of market demand.</p>
+            {(report.review_warnings ?? []).map((warning, i) => <p key={i} className="text-xs text-amber-800" role="status">{warning.message}</p>)}
+            {(report.gaps ?? []).length > 0 ? <dl className="space-y-3">
+              {report.gaps!.map((gap, i) => <SourcedValue key={i} label="Review-supported hypothesis" fact={gap} format={value => value} />)}
+            </dl> : <p className="text-xs text-slate-600">
+              {report.review_status === "unavailable" ? "Review identifiers were unavailable for these businesses."
+                : report.review_status === "not_loaded" ? "This older search has no review analysis. Run a new search to load it."
+                : report.review_status === "failed" ? "Reviews could not be loaded; the next search will retry."
+                : report.review_status === "partial" ? "Review analysis is incomplete; the next search will retry."
+                : "No sufficiently supported complaint theme was found in this sample."}
+            </p>}
+            {(report.reviews ?? []).length > 0 && <details className="text-xs text-slate-500">
+              <summary className="cursor-pointer">Review evidence ({report.reviews!.length})</summary>
+              <ul className="mt-2 space-y-2">{report.reviews!.map(review => <li key={review.id}>
+                <p className="font-medium">{review.business} · {review.rating}/5</p>
+                <p>{review.snippet}</p>
+                {review.source.url && <a className="underline" href={review.source.url} target="_blank" rel="noreferrer">Open review source</a>}
+              </li>)}</ul>
+            </details>}
+          </section>
         </>
       )}
     </article>

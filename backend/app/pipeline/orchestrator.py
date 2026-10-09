@@ -64,7 +64,7 @@ class StageFailed(Exception):
     """A stage could not produce anything usable; the message is shown to the investor."""
 
 
-def start_run(db: Session, profile_id: str) -> PipelineRun:
+def start_run(db: Session, profile_id: str, *, background: bool = True) -> PipelineRun:
     """Create the run record and run the pipeline in the background."""
     profile = profiles.get_profile(db, profile_id)  # 404 for an unknown profile
     run = RunRow(
@@ -81,7 +81,11 @@ def start_run(db: Session, profile_id: str) -> PipelineRun:
     if market is not None:
         record_intent(db, run.id, profile, market)  # the app's own search history (ADR 0025)
     db.commit()
-    _launch(run.id)
+    if background:
+        _launch(run.id)
+    else:
+        run_pipeline(run.id)
+        db.refresh(run)
     return to_schema(run)
 
 
@@ -242,6 +246,12 @@ def run_pipeline(run_id: str) -> None:
                         report, cached = found
                         save_run_competitors(db, run_id, report)
                         event.counts["competitor_reports"] += int(report.status != "failed")
+                        event.counts["competitor_reviews"] = event.counts.get(
+                            "competitor_reviews", 0
+                        ) + len(report.reviews)
+                        event.counts["review_warnings"] = event.counts.get(
+                            "review_warnings", 0
+                        ) + len(report.review_warnings)
                         notes.append(_competitor_note(report, cached))
                         event.message = "; ".join(notes)
                         tracker.replace(event)

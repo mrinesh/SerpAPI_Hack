@@ -2,10 +2,12 @@
 (docs/spikes/S-02-extraction-accuracy.md)."""
 
 import importlib.util
+import json
 from pathlib import Path
 
 from app.config import get_settings
 from app.integrations.llm.factory import get_llm
+from app.reference import load_market
 
 SCRIPT = Path(__file__).resolve().parents[2] / "scripts" / "s02_accuracy.py"
 
@@ -36,3 +38,21 @@ def test_s02_headline_numbers_replay():
     }  # fmt: skip
     # The LLM alone never states a wrong value; it misses what needs arithmetic.
     assert sum(t.wrong + t.spurious for t in tallies["llm"].values()) == 0
+
+
+def test_current_parsers_correct_all_labelled_listing_fields():
+    s02 = load_script()
+    labels = json.loads(s02.LABELS.read_text(encoding="utf-8"))
+    market = load_market("Bengaluru")
+    for label in labels["entries"]:
+        if label["kind"] != "listing":
+            continue
+        listing = s02.current_entry_listing(label, market, get_settings())
+        for name in s02.FIELDS:
+            found = getattr(listing, name).value
+            accepted = s02.expected(label, name)
+            assert (
+                found is None
+                if accepted is None
+                else s02.matches(found, accepted, labels["tolerance_pct"] / 100)
+            ), (label, name, found)

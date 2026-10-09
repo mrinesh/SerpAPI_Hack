@@ -31,12 +31,13 @@ city) use the same shape.
 | GET | `/runs/{run_id}/areas` | `AreaIntel[]` as this run used them (frozen per run, ADR 0020), including `commutes` to job hubs (F-23); older runs fall back to the shared cache | F-05 | ✅ |
 | GET | `/runs/{run_id}/competitors` | `CompetitorReport[]`, one per commercial locality, frozen per run; empty for residential runs (ADR 0023) | F-06 | ✅ |
 | GET | `/runs/{run_id}/development` | `AreaDevelopment[]`: developing-area signals per enriched locality (search histories, conclusion, research-priority rank, cited hypotheses), frozen per run; research priorities first; empty before enrichment (ADR 0025) | F-05 | ✅ |
-| GET | `/saved` | `SavedProperty[]` | F-08 | 🧱 |
-| POST | `/saved` | `SavedProperty` (201) | F-08 | 🧱 |
-| DELETE | `/saved/{listing_id}` | 204 | F-08 | 🧱 |
-| GET | `/compare?ids=a&ids=b` | `CompareResult` (2–4 ids) | F-08 | 🧱 |
-| GET | `/alerts?unread_only=` | `Alert[]` | F-10 | 🧱 |
-| POST | `/alerts/check` | `Alert[]` newly created | F-10 | 🧱 |
+| GET | `/saved` | `SavedProperty[]` | F-08 | ✅ |
+| POST | `/saved` | `SavedProperty` (201) | F-08 | ✅ |
+| DELETE | `/saved/{listing_id}` | 204 | F-08 | ✅ |
+| GET | `/compare?ids=a&ids=b` | `CompareResult` (2–4 ids) | F-08 | ✅ |
+| GET | `/alerts?unread_only=` | `Alert[]` | F-10 | ✅ |
+| POST | `/alerts/{alert_id}/read` | `Alert` with persisted read time (idempotent) | F-10 | ✅ |
+| POST | `/alerts/check` | `AlertCheckResult`: new alerts, checked/skipped counts and per-profile errors | F-10 | ✅ |
 
 Run listings include grounded extraction additions and rejected candidates, from snapshots
 within that run. Verification responses can be read while the run is active or after a failure;
@@ -65,3 +66,26 @@ The frontend never hand-writes response types. After changing a schema:
 ```bash
 make types   # exports backend/openapi.json and regenerates frontend/src/api/schema.d.ts
 ```
+
+## Saved properties and comparison (F-08)
+
+`POST /saved` upserts by listing ID and updates an optional note (at most 2000 characters),
+keeping the original save time. Unknown IDs return 404; deleting an absent save returns 204.
+`GET /compare` requires 2–4 distinct IDs and preserves their order. Each column is the latest
+stored property detail with its source run; no searches or AI calls are made (ADR 0027).
+
+## Alerts (F-10)
+
+`POST /alerts/check` refreshes idle profiles through the pipeline, reporting new alerts,
+checked/skipped profiles and errors. Only successful runs and strong/partial matches count.
+A concurrent check returns 409 `alert_check_busy`. `GET /alerts?unread_only=true` filters
+unread alerts; `POST /alerts/{id}/read` marks one read idempotently (404 if absent). See ADR 0028
+for conservative matching when a price-sensitive candidate ID changes.
+
+## Competitor review gaps (F-06b)
+
+Competitor reports now include `reviews`, `gaps`, `review_status`, `review_places_sampled`,
+`review_places_limit` and `review_warnings`. Gaps are sourced, tentative complaint themes
+backed by at least two low-rated reviews with checked quotes; not part of ranking. Old runs
+show `not_loaded`. Failed or partial review loads preserve nearby businesses and retry on
+the next search. Property-detail sources include review and gap citations (ADR 0029).

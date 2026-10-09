@@ -7,6 +7,11 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import { apiFetch } from "./client";
 import type {
+  Alert,
+  AlertCheckResult,
+  CompareResult,
+  SavedProperty,
+  SaveRequest,
   AreaDevelopment,
   AreaIntel,
   BudgetStatus,
@@ -223,5 +228,64 @@ export function useTargetSuggestion(input: TargetSuggestionIn | null) {
       }),
     enabled: input !== null,
     staleTime: Infinity,
+  });
+}
+
+// --- Saved properties and comparison (F-08) ------------------------------------------
+export function useSaved() {
+  return useQuery({ queryKey: ["saved"], queryFn: () => apiFetch<SavedProperty[]>("/saved") });
+}
+
+export function useSave() {
+  const cache = useQueryClient();
+  return useMutation({
+    mutationFn: (request: SaveRequest) => apiFetch<SavedProperty>("/saved", {
+      method: "POST", body: JSON.stringify(request),
+    }),
+    onSuccess: () => cache.invalidateQueries({ queryKey: ["saved"] }),
+  });
+}
+
+export function useUnsave() {
+  const cache = useQueryClient();
+  return useMutation({
+    mutationFn: (id: string) => apiFetch<void>(`/saved/${id}`, { method: "DELETE" }),
+    onSuccess: () => cache.invalidateQueries({ queryKey: ["saved"] }),
+  });
+}
+
+export function useCompare(ids: string[]) {
+  const valid = ids.length >= 2 && ids.length <= 4 && new Set(ids).size === ids.length;
+  return useQuery({
+    queryKey: ["compare", ids], enabled: valid,
+    queryFn: () => apiFetch<CompareResult>(`/compare?${new URLSearchParams(ids.map(id => ["ids", id]))}`),
+  });
+}
+
+// --- Alerts (F-10) -------------------------------------------------------------------
+export function useAlerts(unreadOnly = false) {
+  return useQuery({
+    queryKey: ["alerts", unreadOnly],
+    queryFn: () => apiFetch<Alert[]>(`/alerts?unread_only=${unreadOnly}`),
+    refetchInterval: 30_000,
+  });
+}
+
+export function useCheckAlerts() {
+  const cache = useQueryClient();
+  return useMutation({
+    mutationFn: () => apiFetch<AlertCheckResult>("/alerts/check", { method: "POST" }),
+    onSuccess: () => {
+      cache.invalidateQueries({ queryKey: ["alerts"] });
+      cache.invalidateQueries({ queryKey: ["budget"] });
+    },
+  });
+}
+
+export function useReadAlert() {
+  const cache = useQueryClient();
+  return useMutation({
+    mutationFn: (id: string) => apiFetch<Alert>(`/alerts/${id}/read`, { method: "POST" }),
+    onSuccess: () => cache.invalidateQueries({ queryKey: ["alerts"] }),
   });
 }

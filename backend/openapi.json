@@ -1004,11 +1004,49 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "items": {
-                    "$ref": "#/components/schemas/Alert"
-                  },
-                  "type": "array",
-                  "title": "Response Check Alerts Api Alerts Check Post"
+                  "$ref": "#/components/schemas/AlertCheckResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/alerts/{alert_id}/read": {
+      "post": {
+        "tags": [
+          "alerts"
+        ],
+        "summary": "Mark Read",
+        "operationId": "mark_read_api_alerts__alert_id__read_post",
+        "parameters": [
+          {
+            "name": "alert_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Alert Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Alert"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
                 }
               }
             }
@@ -1068,6 +1106,54 @@
           "created_at"
         ],
         "title": "Alert"
+      },
+      "AlertCheckIssue": {
+        "properties": {
+          "profile_id": {
+            "type": "string",
+            "title": "Profile Id"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          }
+        },
+        "type": "object",
+        "required": [
+          "profile_id",
+          "message"
+        ],
+        "title": "AlertCheckIssue"
+      },
+      "AlertCheckResult": {
+        "properties": {
+          "alerts": {
+            "items": {
+              "$ref": "#/components/schemas/Alert"
+            },
+            "type": "array",
+            "title": "Alerts"
+          },
+          "checked_profiles": {
+            "type": "integer",
+            "title": "Checked Profiles",
+            "default": 0
+          },
+          "skipped_profiles": {
+            "type": "integer",
+            "title": "Skipped Profiles",
+            "default": 0
+          },
+          "errors": {
+            "items": {
+              "$ref": "#/components/schemas/AlertCheckIssue"
+            },
+            "type": "array",
+            "title": "Errors"
+          }
+        },
+        "type": "object",
+        "title": "AlertCheckResult"
       },
       "AlertKind": {
         "type": "string",
@@ -1853,6 +1939,43 @@
             "type": "array",
             "title": "Gaps"
           },
+          "reviews": {
+            "items": {
+              "$ref": "#/components/schemas/CompetitorReview"
+            },
+            "type": "array",
+            "title": "Reviews"
+          },
+          "review_status": {
+            "type": "string",
+            "enum": [
+              "not_loaded",
+              "unavailable",
+              "ok",
+              "empty",
+              "partial",
+              "failed"
+            ],
+            "title": "Review Status",
+            "default": "not_loaded"
+          },
+          "review_places_sampled": {
+            "type": "integer",
+            "title": "Review Places Sampled",
+            "default": 0
+          },
+          "review_places_limit": {
+            "type": "integer",
+            "title": "Review Places Limit",
+            "default": 1
+          },
+          "review_warnings": {
+            "items": {
+              "$ref": "#/components/schemas/AreaIssue"
+            },
+            "type": "array",
+            "title": "Review Warnings"
+          },
           "status": {
             "type": "string",
             "enum": [
@@ -1907,6 +2030,42 @@
           "expires_at"
         ],
         "title": "CompetitorReport"
+      },
+      "CompetitorReview": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "business": {
+            "type": "string",
+            "title": "Business"
+          },
+          "rating": {
+            "type": "number",
+            "maximum": 5.0,
+            "minimum": 1.0,
+            "title": "Rating"
+          },
+          "snippet": {
+            "type": "string",
+            "maxLength": 800,
+            "minLength": 1,
+            "title": "Snippet"
+          },
+          "source": {
+            "$ref": "#/components/schemas/SourceRef"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "business",
+          "rating",
+          "snippet",
+          "source"
+        ],
+        "title": "CompetitorReview"
       },
       "DevelopmentHypothesis": {
         "properties": {
@@ -3211,12 +3370,15 @@
         "properties": {
           "listing_id": {
             "type": "string",
+            "maxLength": 32,
+            "minLength": 1,
             "title": "Listing Id"
           },
           "note": {
             "anyOf": [
               {
-                "type": "string"
+                "type": "string",
+                "maxLength": 2000
               },
               {
                 "type": "null"
