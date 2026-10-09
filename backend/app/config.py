@@ -76,7 +76,7 @@ class Settings(BaseSettings):
 
     # Background jobs (alerts, scheduled refresh). Off by default for local runs.
     scheduler_enabled: bool = False
-    alert_check_interval_minutes: int = 360
+    alert_check_interval_minutes: int = Field(default=360, ge=1)
 
     fixtures_dir: Path = BACKEND_DIR / "fixtures"
 

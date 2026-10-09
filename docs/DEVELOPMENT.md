@@ -40,6 +40,7 @@ environment variables override `.env`.
 | `DEEPSEEK_TIMEOUT_S` | `120` | Per-request timeout; thinking replies take several seconds |
 | `DEEPSEEK_BASE_URL` | `https://api.deepseek.com` | OpenAI-compatible endpoint |
 | `AREA_INTEL_TTL_HOURS` | `168` | How long locality intelligence is reused |
+| `ALERT_CHECK_INTERVAL_MINUTES` | `360` | Positive interval for scheduled profile refreshes |
 | `SCHEDULER_ENABLED` | `false` | Run scheduled alert checks (spends live searches) |
 | `DATABASE_URL` | SQLite file at `backend/data/realty_intel.db` | Any SQLAlchemy URL |
 
@@ -194,3 +195,12 @@ graphify keeps a knowledge graph of the code in `graphify-out/` for navigation. 
 **local only** (gitignored): its git hooks rebuild it after every commit and checkout, which made
 the tracked copy show up as modified constantly. On a fresh clone, or after changing code,
 run `graphify update .` (AST only, no API cost).
+
+## Scheduled alerts (I-11)
+
+Set `SCHEDULER_ENABLED=true` and optionally `ALERT_CHECK_INTERVAL_MINUTES=360`, then restart
+the backend. The job starts after one interval, runs one check at a time and coalesces missed
+ticks. It uses the same profile lock, provider modes, caches and search budget as Check now.
+Failures are logged per profile. Leave it off for the usual replay demo and use Check now.
+Run one backend process: this is an in-process scheduler. Shutdown stops future ticks; a
+running check is allowed to finish.

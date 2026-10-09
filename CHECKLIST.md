@@ -37,7 +37,7 @@ code for an ID finds every stub that belongs to it.
 | I-08 | Database schema and session | P0 | ✅ | |
 | I-09 | Pipeline orchestrator, background runs, stage events | P0 | ✅ | |
 | I-10 | Frontend shell, routing, API client, generated types | P0 | ✅ | |
-| I-11 | Background scheduler | P1 | 🧱 | |
+| I-11 | Background scheduler | P1 | ✅ | |
 | I-12 | Bengaluru locality data and geocoding | P0 | ✅ | |
 | I-13 | Recorded demo fixtures for judges | P0 | ✅ | |
 | I-14 | CI: lint, typecheck, tests on push | P1 | ✅ | |
@@ -197,9 +197,9 @@ DeepSeek V4 Pro replaced Gemini before any Gemini code existed (ADR 0012).
       profiles, target suggestion, runs and their listings, checks, areas, competitors,
       recommendations, property detail). F-08/F-10 add theirs; `/areas/{key}` needs none
 
-### I-11 Scheduler · P1 · 🧱
+### I-11 Scheduler · P1 · ✅
 - [x] APScheduler wiring, off by default (`SCHEDULER_ENABLED`)
-- [ ] Alert job wired to F-10
+- [x] Alert job wired to F-10; coalesced, one instance, positive interval, idempotent lifecycle and error logs
 
 ### I-12 Locality data and geocoding · P0 · ✅
 - [x] `app/reference/bengaluru.json`: 15 localities verified on Wikipedia's neighbourhood list, with slugs

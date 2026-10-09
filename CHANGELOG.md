@@ -6,6 +6,7 @@ Reference CHECKLIST IDs.
 ## [Unreleased]
 
 ### Changed
+- I-11: finish scheduled alert refreshes with overlap protection, missed-tick coalescing, validated intervals, lifecycle tests and per-profile failure logs.
 - F-10: verified new-match and conservative quoted-price-drop alerts, manual refresh, unread badge and persisted read status; failed profiles are reported separately.
 - F-08: save/unsave properties, edit notes, and compare 2–4 sourced property snapshots with best-value highlights.
 - F-22: prefer stated size ranges, ignore sale-status filters and skip page-description prices; preserve the original S-02 benchmark inputs.
