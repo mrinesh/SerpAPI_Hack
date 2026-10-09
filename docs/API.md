@@ -65,3 +65,10 @@ The frontend never hand-writes response types. After changing a schema:
 ```bash
 make types   # exports backend/openapi.json and regenerates frontend/src/api/schema.d.ts
 ```
+
+## Saved properties and comparison (F-08)
+
+`POST /saved` upserts by listing ID and updates an optional note (at most 2000 characters),
+keeping the original save time. Unknown IDs return 404; deleting an absent save returns 204.
+`GET /compare` requires 2?4 distinct IDs and preserves their order. Each column is the latest
+stored property detail with its source run; no searches or AI calls are made (ADR 0027).

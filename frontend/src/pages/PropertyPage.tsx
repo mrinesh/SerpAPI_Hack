@@ -1,3 +1,4 @@
+import { SaveButton } from "../components/SaveButton";
 import type { ReactNode } from "react";
 import { Link, useParams } from "react-router";
 
@@ -63,6 +64,7 @@ export function PropertyPage() {
           )}
         </div>
         <div className="text-left sm:text-right">
+          <SaveButton listingId={listing.id} />
           {listing.price_inr.value != null && (
             <p className="text-2xl font-semibold">{formatInr(listing.price_inr.value)}</p>
           )}

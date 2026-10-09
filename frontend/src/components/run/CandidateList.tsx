@@ -1,3 +1,4 @@
+import { SaveButton } from "../SaveButton";
 import { useState, type ReactNode } from "react";
 import { Link } from "react-router";
 
@@ -125,6 +126,7 @@ export function CandidateList({ runId, listings, options, verifications, recomme
                 : <p className="mt-2 text-xs text-slate-500">Not AI-checked</p>}
             </div>
             <div className="text-left sm:text-right">
+          <SaveButton listingId={listing.id} />
               {listing.price_inr.value != null && (
                 <p className="font-semibold" title={listing.price_inr.note ?? undefined}>
                   {formatInr(listing.price_inr.value)}

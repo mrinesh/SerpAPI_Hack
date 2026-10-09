@@ -106,3 +106,6 @@ erDiagram
    table keeps the search ledger, which the monthly budget is counted from.
 3. Run `make types` to regenerate the frontend types.
 4. Update this page.
+
+F-08 uses `saved_properties` without new tables: one listing ID, note and immutable original
+save time. Comparison reads existing frozen run results through property detail (ADR 0027).

@@ -1,3 +1,4 @@
+import { SaveButton } from "../SaveButton";
 import { Link } from "react-router";
 
 import type { Recommendation } from "../../api/types";
@@ -97,6 +98,7 @@ function RecommendationCard({ runId, recommendation, details, targetRoi }: {
         <Breakdown recommendation={recommendation} />
       </div>
       <div className="text-left sm:text-right">
+          <SaveButton listingId={listing.id} />
         <p className="text-lg font-semibold">
           {recommendation.score}
           <span className="text-xs font-normal text-slate-500">/100</span>

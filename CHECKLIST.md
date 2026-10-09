@@ -313,8 +313,8 @@ Run-scoped, from stored results only ([ADR 0021](docs/decisions/0021-run-scoped-
       cases; checked in Chrome on the commercial demo
 
 ### F-08 Saved and compare · P1 · 🧱
-- [ ] Save / unsave / list
-- [ ] Compare 2–4 properties side by side, best value per row highlighted
+- [x] Save / unsave / list
+- [x] Compare 2–4 properties side by side, best value per row highlighted
 
 ### F-09 Investment metrics · P0 · ✅
 - [x] Rent estimate (`extract_rent` from search results): median of ≥ 3 checked rent ÷ size

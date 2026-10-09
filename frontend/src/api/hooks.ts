@@ -7,6 +7,9 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import { apiFetch } from "./client";
 import type {
+  CompareResult,
+  SavedProperty,
+  SaveRequest,
   AreaDevelopment,
   AreaIntel,
   BudgetStatus,
@@ -223,5 +226,36 @@ export function useTargetSuggestion(input: TargetSuggestionIn | null) {
       }),
     enabled: input !== null,
     staleTime: Infinity,
+  });
+}
+
+// --- Saved properties and comparison (F-08) ------------------------------------------
+export function useSaved() {
+  return useQuery({ queryKey: ["saved"], queryFn: () => apiFetch<SavedProperty[]>("/saved") });
+}
+
+export function useSave() {
+  const cache = useQueryClient();
+  return useMutation({
+    mutationFn: (request: SaveRequest) => apiFetch<SavedProperty>("/saved", {
+      method: "POST", body: JSON.stringify(request),
+    }),
+    onSuccess: () => cache.invalidateQueries({ queryKey: ["saved"] }),
+  });
+}
+
+export function useUnsave() {
+  const cache = useQueryClient();
+  return useMutation({
+    mutationFn: (id: string) => apiFetch<void>(`/saved/${id}`, { method: "DELETE" }),
+    onSuccess: () => cache.invalidateQueries({ queryKey: ["saved"] }),
+  });
+}
+
+export function useCompare(ids: string[]) {
+  const valid = ids.length >= 2 && ids.length <= 4 && new Set(ids).size === ids.length;
+  return useQuery({
+    queryKey: ["compare", ids], enabled: valid,
+    queryFn: () => apiFetch<CompareResult>(`/compare?${new URLSearchParams(ids.map(id => ["ids", id]))}`),
   });
 }

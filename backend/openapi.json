@@ -3211,12 +3211,15 @@
         "properties": {
           "listing_id": {
             "type": "string",
+            "maxLength": 32,
+            "minLength": 1,
             "title": "Listing Id"
           },
           "note": {
             "anyOf": [
               {
-                "type": "string"
+                "type": "string",
+                "maxLength": 2000
               },
               {
                 "type": "null"

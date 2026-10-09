@@ -9,11 +9,11 @@ def test_health_reports_modes(client):
 
 
 def test_unbuilt_endpoint_returns_501_with_checklist_id(client):
-    response = client.get("/api/saved")
+    response = client.get("/api/alerts")
     assert response.status_code == 501
     error = response.json()["error"]
     assert error["code"] == "not_implemented"
-    assert error["details"]["feature_id"] == "F-08"
+    assert error["details"]["feature_id"] == "F-10"
 
 
 def test_openapi_schema_builds(client):

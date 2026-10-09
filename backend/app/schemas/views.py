@@ -94,8 +94,8 @@ class CompareResult(BaseModel):
 
 
 class SaveRequest(BaseModel):
-    listing_id: str
-    note: str | None = None
+    listing_id: str = Field(min_length=1, max_length=32)
+    note: str | None = Field(default=None, max_length=2000)
 
 
 class SavedProperty(BaseModel):
