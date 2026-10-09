@@ -109,3 +109,7 @@ erDiagram
 
 F-08 uses `saved_properties` without new tables: one listing ID, note and immutable original
 save time. Comparison reads existing frozen run results through property detail (ADR 0027).
+
+F-10 persists notifications and read times in existing `alerts`. Event IDs are deterministic
+per profile, run, kind and listing; no table migration is required. Diffs read frozen successful
+run snapshots rather than mutable shared listing prices (ADR 0028).

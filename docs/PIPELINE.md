@@ -225,3 +225,9 @@ provider failure keeps the ranking.
 | `extract_rent` | lite | 1 per new locality and unit type |
 | `competitor_gaps` | reasoning | 1 per commercial property (P1) |
 | `explain_recommendation` | reasoning | 1 per top-N listing |
+
+## Alert refreshes (F-10)
+
+Manual checks run the same full pipeline serially per idle profile and diff successful frozen
+results against profile history. Only strong/partial matches notify. Failed runs retain the
+previous successful baseline; per-profile errors are returned to the user (ADR 0028).

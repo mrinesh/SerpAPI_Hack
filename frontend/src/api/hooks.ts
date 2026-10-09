@@ -7,6 +7,8 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import { apiFetch } from "./client";
 import type {
+  Alert,
+  AlertCheckResult,
   CompareResult,
   SavedProperty,
   SaveRequest,
@@ -257,5 +259,33 @@ export function useCompare(ids: string[]) {
   return useQuery({
     queryKey: ["compare", ids], enabled: valid,
     queryFn: () => apiFetch<CompareResult>(`/compare?${new URLSearchParams(ids.map(id => ["ids", id]))}`),
+  });
+}
+
+// --- Alerts (F-10) -------------------------------------------------------------------
+export function useAlerts(unreadOnly = false) {
+  return useQuery({
+    queryKey: ["alerts", unreadOnly],
+    queryFn: () => apiFetch<Alert[]>(`/alerts?unread_only=${unreadOnly}`),
+    refetchInterval: 30_000,
+  });
+}
+
+export function useCheckAlerts() {
+  const cache = useQueryClient();
+  return useMutation({
+    mutationFn: () => apiFetch<AlertCheckResult>("/alerts/check", { method: "POST" }),
+    onSuccess: () => {
+      cache.invalidateQueries({ queryKey: ["alerts"] });
+      cache.invalidateQueries({ queryKey: ["budget"] });
+    },
+  });
+}
+
+export function useReadAlert() {
+  const cache = useQueryClient();
+  return useMutation({
+    mutationFn: (id: string) => apiFetch<Alert>(`/alerts/${id}/read`, { method: "POST" }),
+    onSuccess: () => cache.invalidateQueries({ queryKey: ["alerts"] }),
   });
 }

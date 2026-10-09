@@ -117,3 +117,15 @@ class Alert(BaseModel):
     message: str
     created_at: datetime
     read_at: datetime | None = None
+
+
+class AlertCheckIssue(BaseModel):
+    profile_id: str
+    message: str
+
+
+class AlertCheckResult(BaseModel):
+    alerts: list[Alert] = Field(default_factory=list)
+    checked_profiles: int = 0
+    skipped_profiles: int = 0
+    errors: list[AlertCheckIssue] = Field(default_factory=list)

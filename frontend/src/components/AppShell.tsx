@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router";
 
-import { useBudget, useHealth } from "../api/hooks";
+import { useAlerts, useBudget, useHealth } from "../api/hooks";
 
 const NAV = [
   { to: "/", label: "Profiles", end: true },
@@ -10,6 +10,7 @@ const NAV = [
 ];
 
 export function AppShell() {
+  const unread = useAlerts(true);
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <header className="border-b border-slate-200 bg-white">
@@ -25,7 +26,9 @@ export function AppShell() {
                   `rounded-md px-3 py-1.5 ${isActive ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"}`
                 }
               >
-                {item.label}
+                {item.label}{item.to === "/alerts" && (unread.data?.length ?? 0) > 0 && (
+                  <span className="ml-1 rounded-full bg-amber-100 px-1.5 text-amber-900" aria-label={`${unread.data!.length} unread alerts`}>{unread.data!.length}</span>
+                )}
               </NavLink>
             ))}
           </nav>

@@ -12,7 +12,7 @@ log = logging.getLogger(__name__)
 def run_alert_check() -> None:
     with SessionLocal() as db:
         try:
-            created = check_alerts(db)
-            log.info("Alert check created %d alerts", len(created))
+            result = check_alerts(db)
+            log.info("Alert check created %d alerts", len(result.alerts))
         except AppError as exc:
             log.warning("Alert check skipped: %s", exc.message)

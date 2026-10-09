@@ -6,7 +6,8 @@ Reference CHECKLIST IDs.
 ## [Unreleased]
 
 ### Changed
-- F-08: save/unsave properties, edit notes, and compare 2?4 sourced property snapshots with best-value highlights.
+- F-10: verified new-match and conservative quoted-price-drop alerts, manual refresh, unread badge and persisted read status; failed profiles are reported separately.
+- F-08: save/unsave properties, edit notes, and compare 2–4 sourced property snapshots with best-value highlights.
 - F-22: prefer stated size ranges, ignore sale-status filters and skip page-description prices; preserve the original S-02 benchmark inputs.
 - 2026-10-08 · `SERPAPI_RUN_BUDGET` default 40 → 45, so a fresh 3-locality run (41 lookups
   with F-23's commutes) is not cut off (ADR 0026).

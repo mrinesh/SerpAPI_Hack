@@ -55,3 +55,5 @@ export type TargetSuggestion = Schemas["TargetSuggestion"];
 export type TargetSuggestionIn = Schemas["TargetSuggestionIn"];
 
 export type SaveRequest = Schemas["SaveRequest"];
+
+export type AlertCheckResult = Schemas["AlertCheckResult"];

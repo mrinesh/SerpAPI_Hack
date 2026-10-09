@@ -14,13 +14,13 @@ export function SavedPage() {
   return (
     <div className="space-y-5">
       <h1 className="text-2xl font-semibold">Saved properties</h1>
-      <p className="text-sm text-slate-600">Keep notes and select 2?4 properties to compare.</p>
+      <p className="text-sm text-slate-600">Keep notes and select 2–4 properties to compare.</p>
       <Link to={`/compare?${new URLSearchParams(ids.map(id => ["ids", id]))}`}
         aria-disabled={ids.length < 2} onClick={e => { if (ids.length < 2) e.preventDefault(); }}
         className={`inline-block rounded bg-slate-900 px-4 py-2 text-white ${ids.length < 2 ? "opacity-40" : ""}`}>
         Compare selected ({ids.length}/4)
       </Link>
-      {!saved.data ? <p>Loading?</p> : saved.data.length === 0
+      {!saved.data ? <p>Loading…</p> : saved.data.length === 0
         ? <p>No saved properties yet. Save a property from your search results.</p>
         : <ul className="space-y-3">{saved.data.map(item => (
           <SavedCard key={item.listing.id} item={item} selected={ids.includes(item.listing.id)}

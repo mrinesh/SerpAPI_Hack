@@ -49,14 +49,14 @@ code for an ID finds every stub that belongs to it.
 | F-05 | Area intelligence | P0 | ✅ | |
 | F-06 | Competitor analysis (commercial) | P0 | ✅ | |
 | F-07 | Property detail page | P0 | ✅ | |
-| F-08 | Saved properties and side-by-side compare | P1 | 🧱 | |
+| F-08 | Saved properties and side-by-side compare | P1 | ✅ | |
 | F-09 | Investment metrics | P0 | ✅ | |
-| F-10 | Alerts (new match, price drop) | P1 | 🧱 | |
+| F-10 | Alerts (new match, price drop) | P1 | ✅ | |
 | F-11 | Source citations and confidence | P0 | ✅ | |
 | F-12 | Listing quality flags | P1 | ✅ | |
 | F-19 | Results map view | P0 | ✅ | |
 | F-20 | Live pipeline progress view | P0 | ✅ | |
-| F-22 | Parser fixes from S-02 | P1 | ⬜ | |
+| F-22 | Parser fixes from S-02 | P1 | ✅ | |
 | F-23 | Commute to job hubs (google_maps_directions) | P1 | ✅ | |
 | **Later (P2)** | | | | |
 | F-13 | Risk scoring (flood, legal, oversupply) | P2 | ⏸️ | |
@@ -312,7 +312,7 @@ Run-scoped, from stored results only ([ADR 0021](docs/decisions/0021-run-scoped-
 - [x] Tests: 9 API cases on both demos (ranked, rejected, unchecked, latest run, 404s), 3 source
       cases; checked in Chrome on the commercial demo
 
-### F-08 Saved and compare · P1 · 🧱
+### F-08 Saved and compare · P1 · ✅
 - [x] Save / unsave / list
 - [x] Compare 2–4 properties side by side, best value per row highlighted
 
@@ -326,10 +326,10 @@ Run-scoped, from stored results only ([ADR 0021](docs/decisions/0021-run-scoped-
 - [x] Cards show yield before costs, growth, total and a target badge; area panel shows rents
 - [x] Recorded for both demos (2 rent calls, 9 explanations re-recorded; no new searches)
 
-### F-10 Alerts · P1 · 🧱
-- [ ] Diff against `listings`: new matches and price drops
-- [ ] `POST /api/alerts/check` for the demo, scheduler for real use
-- [ ] Alerts page and unread badge
+### F-10 Alerts · P1 · ✅
+- [x] Diff successful profile snapshots: verified new matches and conservative quoted price drops (ADR 0028)
+- [x] `POST /api/alerts/check` for the demo, scheduler for real use
+- [x] Alerts page and unread badge
 
 ### F-11 Source citations and confidence · P0 · ✅
 - [x] `Sourced[T]` on every investor-facing field (schemas)
@@ -354,7 +354,7 @@ Positions only from SerpApi ([ADR 0022](docs/decisions/0022-map-positions-only-f
 - [x] Tests: 8 layout cases (placement, ungeocoded centres, status order, draw order, amenity
       de-duplication, opening view, colours, legend); checked in headless Chrome on both demos
 
-### F-22 Parser fixes from S-02 · P1 · ⬜
+### F-22 Parser fixes from S-02 · P1 · ✅
 Each has its S-02 entry as the test case ([S-02](docs/spikes/S-02-extraction-accuracy.md)).
 - [x] Take a stated size range ("ranging from 1415.0 sq. ft. to 1470.0 sq. ft.") before computing
       size from price ÷ rate
