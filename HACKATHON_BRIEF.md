@@ -8,7 +8,7 @@ Terms > Rules where they conflict.
 
 | Item | Value |
 |---|---|
-| Window | Sep 1, 2026 00:00 IST → **Oct 10, 2026 23:59 IST** |
+| Window | Sep 1, 2026 00:00 IST → **Oct 12, 2026 23:59 IST** (extended from Oct 10) |
 | Eligibility | 18+ **resident in India** (blog says "citizens"; Rules say residency — Rules govern) |
 | Team | 1–5 people (lead + up to 4). Every member must have actually contributed. |
 | Stack | Any language / framework. No restrictions. |

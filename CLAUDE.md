@@ -1,6 +1,6 @@
 # Realty Intel: real estate investor intelligence on SerpApi
 
-SerpApi India Hackathon 2026 entry (deadline **Oct 10, 2026, 23:59 IST**; track Commerce &
+SerpApi India Hackathon 2026 entry (deadline **Oct 12, 2026, 23:59 IST**, extended from Oct 10; track Commerce &
 Market Intelligence; demo market Bengaluru). Constraints: [HACKATHON_BRIEF.md](HACKATHON_BRIEF.md).
 Product: [docs/PRODUCT.md](docs/PRODUCT.md). Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 

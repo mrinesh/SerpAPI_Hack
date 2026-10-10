@@ -3,7 +3,7 @@
 Single source of truth for what is built, in progress and pending. Update it in the same commit
 as the work (see [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md#definition-of-done)).
 
-**Deadline:** Sat Oct 10, 2026, 23:59 IST · **Track:** Commerce & Market Intelligence ·
+**Deadline:** Mon Oct 12, 2026, 23:59 IST (extended from Oct 10) · **Track:** Commerce & Market Intelligence ·
 **Demo market:** Bengaluru
 
 **Status legend:** ⬜ todo · 🟨 in progress · 🧱 scaffolded (interfaces and stubs exist, logic not
@@ -68,7 +68,7 @@ code for an ID finds every stub that belongs to it.
 | F-21 | Auth and multi-user | P2 | ✅ | |
 | **Docs and submission** | | | | |
 | D-01 | Docs kept current (see Docs section) | P0 | ✅ | |
-| SUB | Hackathon submission | P0 | ⬜ | |
+| SUB | Hackathon submission | P0 | 🟨 | |
 
 ---
 
@@ -404,7 +404,8 @@ From [HACKATHON_BRIEF.md](HACKATHON_BRIEF.md#submission-checklist); details in [
 - [x] Fresh-clone test: `make setup && make demo` works with no `.env` (2026-10-07)
 - [ ] **First submit by Thu Oct 8** (timestamp locks on first submit; edits allowed after)
 - [ ] Demo video under 3 min, running locally, opens in incognito
-- [x] Project description and SerpApi usage explanation drafted in docs/SUBMISSION.md
+- [x] Project description and SerpApi usage explanation drafted in docs/SUBMISSION.md (description
+      rewritten for the form's 4,000-character limit and track rationale added, 2026-10-10)
 - [ ] Paste them into the form
 - [ ] Disclosures: new project; AI tools used (Claude Code, DeepSeek); community source = BangPypers (confirm)
 - [ ] Track: Commerce & Market Intelligence
