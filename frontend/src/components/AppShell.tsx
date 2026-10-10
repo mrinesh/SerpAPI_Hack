@@ -5,6 +5,7 @@ import { useAlerts, useBudget, useHealth } from "../api/hooks";
 const NAV = [
   { to: "/", label: "Profiles", end: true },
   { to: "/saved", label: "Saved" },
+  { to: "/portfolio", label: "Portfolio" },
   { to: "/compare", label: "Compare" },
   { to: "/alerts", label: "Alerts" },
 ];

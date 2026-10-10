@@ -221,3 +221,14 @@ class AlertRow(Base):
     message: Mapped[str] = mapped_column(Text)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
     read_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+
+
+class HoldingRow(Base):
+    __tablename__ = "portfolio_holdings"
+
+    id: Mapped[str] = mapped_column(String(32), primary_key=True, default=new_id)
+    owner_id: Mapped[str] = mapped_column(String(32), default="local", index=True)
+    data: Mapped[dict[str, Any]] = mapped_column(JSON)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )

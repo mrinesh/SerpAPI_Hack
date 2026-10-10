@@ -9,6 +9,7 @@ import { ProfileWizardPage } from "./pages/ProfileWizardPage";
 import { PropertyPage } from "./pages/PropertyPage";
 import { RunPage } from "./pages/RunPage";
 import { SavedPage } from "./pages/SavedPage";
+import { PortfolioPage } from "./pages/PortfolioPage";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ export const router = createBrowserRouter([
       { path: "/runs/:runId/properties/:listingId", element: <PropertyPage /> },
       { path: "/properties/:listingId", element: <PropertyPage /> },
       { path: "/saved", element: <SavedPage /> },
+      { path: "/portfolio", element: <PortfolioPage /> },
       { path: "/compare", element: <ComparePage /> },
       { path: "/alerts", element: <AlertsPage /> },
       { path: "*", element: <NotFoundPage /> },

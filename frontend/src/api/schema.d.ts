@@ -327,6 +327,42 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/portfolio": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Portfolio Summary */
+        get: operations["portfolio_summary_api_portfolio_get"];
+        put?: never;
+        /** Add Holding */
+        post: operations["add_holding_api_portfolio_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/portfolio/{holding_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        /** Update Holding */
+        put: operations["update_holding_api_portfolio__holding_id__put"];
+        post?: never;
+        /** Delete Holding */
+        delete: operations["delete_holding_api_portfolio__holding_id__delete"];
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/saved": {
         parameters: {
             query?: never;
@@ -901,6 +937,111 @@ export interface components {
             /** City */
             city: string;
         };
+        /** Holding */
+        Holding: {
+            /** Name */
+            name: string;
+            /** Listing Id */
+            listing_id?: string | null;
+            /**
+             * Acquired On
+             * Format: date
+             */
+            acquired_on: string;
+            /** Purchase Price Inr */
+            purchase_price_inr: number;
+            /**
+             * Acquisition Costs Inr
+             * @default 0
+             */
+            acquisition_costs_inr: number;
+            /** Current Value Inr */
+            current_value_inr?: number | null;
+            /** Valued On */
+            valued_on?: string | null;
+            /**
+             * Outstanding Loan Inr
+             * @default 0
+             */
+            outstanding_loan_inr: number;
+            /**
+             * Monthly Rent Inr
+             * @default 0
+             */
+            monthly_rent_inr: number;
+            /**
+             * Monthly Expenses Inr
+             * @default 0
+             */
+            monthly_expenses_inr: number;
+            /**
+             * Monthly Emi Inr
+             * @default 0
+             */
+            monthly_emi_inr: number;
+            /** Note */
+            note?: string | null;
+            /** Id */
+            id: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+            /** Monthly Cash Flow Inr */
+            monthly_cash_flow_inr: number;
+            /** Equity Inr */
+            equity_inr: number | null;
+            /** Unrealized Gain Inr */
+            unrealized_gain_inr: number | null;
+            /** Net Yield On Cost Pct */
+            net_yield_on_cost_pct: number;
+        };
+        /** HoldingIn */
+        HoldingIn: {
+            /** Name */
+            name: string;
+            /** Listing Id */
+            listing_id?: string | null;
+            /**
+             * Acquired On
+             * Format: date
+             */
+            acquired_on: string;
+            /** Purchase Price Inr */
+            purchase_price_inr: number;
+            /**
+             * Acquisition Costs Inr
+             * @default 0
+             */
+            acquisition_costs_inr: number;
+            /** Current Value Inr */
+            current_value_inr?: number | null;
+            /** Valued On */
+            valued_on?: string | null;
+            /**
+             * Outstanding Loan Inr
+             * @default 0
+             */
+            outstanding_loan_inr: number;
+            /**
+             * Monthly Rent Inr
+             * @default 0
+             */
+            monthly_rent_inr: number;
+            /**
+             * Monthly Expenses Inr
+             * @default 0
+             */
+            monthly_expenses_inr: number;
+            /**
+             * Monthly Emi Inr
+             * @default 0
+             */
+            monthly_emi_inr: number;
+            /** Note */
+            note?: string | null;
+        };
         /** InterestPoint */
         InterestPoint: {
             /**
@@ -1150,6 +1291,26 @@ export interface components {
          * @enum {string}
          */
         Portal: "99acres" | "magicbricks" | "nobroker" | "google_maps";
+        /** PortfolioSummary */
+        PortfolioSummary: {
+            /** Holdings */
+            holdings: components["schemas"]["Holding"][];
+            /** Invested Cost Inr */
+            invested_cost_inr: number;
+            /** Valued Holdings */
+            valued_holdings: number;
+            /** Current Value Inr */
+            current_value_inr: number | null;
+            /** Equity Inr */
+            equity_inr: number | null;
+            /** Monthly Cash Flow Inr */
+            monthly_cash_flow_inr: number;
+            /**
+             * Note
+             * @default Manual amounts and dated valuations. Totals for value/equity are withheld unless every holding has a valuation. Unrealized gains exclude sale costs and taxes.
+             */
+            note: string;
+        };
         /**
          * PriceObservation
          * @description The price a listing was quoted at when one run saw it.
@@ -2231,6 +2392,123 @@ export interface operations {
                 content: {
                     "application/json": components["schemas"]["AreaIntel"];
                 };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    portfolio_summary_api_portfolio_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PortfolioSummary"];
+                };
+            };
+        };
+    };
+    add_holding_api_portfolio_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["HoldingIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Holding"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    update_holding_api_portfolio__holding_id__put: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                holding_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["HoldingIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Holding"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    delete_holding_api_portfolio__holding_id__delete: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                holding_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
             };
             /** @description Validation Error */
             422: {

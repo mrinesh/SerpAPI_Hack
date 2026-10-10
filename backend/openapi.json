@@ -851,6 +851,151 @@
         }
       }
     },
+    "/api/portfolio": {
+      "get": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Portfolio Summary",
+        "operationId": "portfolio_summary_api_portfolio_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PortfolioSummary"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Add Holding",
+        "operationId": "add_holding_api_portfolio_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoldingIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Holding"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/portfolio/{holding_id}": {
+      "put": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Update Holding",
+        "operationId": "update_holding_api_portfolio__holding_id__put",
+        "parameters": [
+          {
+            "name": "holding_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Holding Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoldingIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Holding"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Delete Holding",
+        "operationId": "delete_holding_api_portfolio__holding_id__delete",
+        "parameters": [
+          {
+            "name": "holding_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Holding Id"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/saved": {
       "get": {
         "tags": [
@@ -2291,6 +2436,277 @@
         ],
         "title": "HealthStatus"
       },
+      "Holding": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 160,
+            "minLength": 1,
+            "title": "Name"
+          },
+          "listing_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 32,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Listing Id"
+          },
+          "acquired_on": {
+            "type": "string",
+            "format": "date",
+            "title": "Acquired On"
+          },
+          "purchase_price_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "exclusiveMinimum": 0.0,
+            "title": "Purchase Price Inr"
+          },
+          "acquisition_costs_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "minimum": 0.0,
+            "title": "Acquisition Costs Inr",
+            "default": 0
+          },
+          "current_value_inr": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 1000000000000.0,
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Value Inr"
+          },
+          "valued_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valued On"
+          },
+          "outstanding_loan_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "minimum": 0.0,
+            "title": "Outstanding Loan Inr",
+            "default": 0
+          },
+          "monthly_rent_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Rent Inr",
+            "default": 0
+          },
+          "monthly_expenses_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Expenses Inr",
+            "default": 0
+          },
+          "monthly_emi_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Emi Inr",
+            "default": 0
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2000
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          },
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Updated At"
+          },
+          "monthly_cash_flow_inr": {
+            "type": "number",
+            "title": "Monthly Cash Flow Inr"
+          },
+          "equity_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Equity Inr"
+          },
+          "unrealized_gain_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unrealized Gain Inr"
+          },
+          "net_yield_on_cost_pct": {
+            "type": "number",
+            "title": "Net Yield On Cost Pct"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "acquired_on",
+          "purchase_price_inr",
+          "id",
+          "updated_at",
+          "monthly_cash_flow_inr",
+          "equity_inr",
+          "unrealized_gain_inr",
+          "net_yield_on_cost_pct"
+        ],
+        "title": "Holding"
+      },
+      "HoldingIn": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 160,
+            "minLength": 1,
+            "title": "Name"
+          },
+          "listing_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 32,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Listing Id"
+          },
+          "acquired_on": {
+            "type": "string",
+            "format": "date",
+            "title": "Acquired On"
+          },
+          "purchase_price_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "exclusiveMinimum": 0.0,
+            "title": "Purchase Price Inr"
+          },
+          "acquisition_costs_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "minimum": 0.0,
+            "title": "Acquisition Costs Inr",
+            "default": 0
+          },
+          "current_value_inr": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 1000000000000.0,
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Value Inr"
+          },
+          "valued_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valued On"
+          },
+          "outstanding_loan_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "minimum": 0.0,
+            "title": "Outstanding Loan Inr",
+            "default": 0
+          },
+          "monthly_rent_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Rent Inr",
+            "default": 0
+          },
+          "monthly_expenses_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Expenses Inr",
+            "default": 0
+          },
+          "monthly_emi_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Emi Inr",
+            "default": 0
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2000
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "acquired_on",
+          "purchase_price_inr"
+        ],
+        "title": "HoldingIn"
+      },
       "InterestPoint": {
         "properties": {
           "week": {
@@ -3060,6 +3476,66 @@
         ],
         "title": "Portal",
         "description": "Where a candidate came from: one of the searched portals, or Google Maps."
+      },
+      "PortfolioSummary": {
+        "properties": {
+          "holdings": {
+            "items": {
+              "$ref": "#/components/schemas/Holding"
+            },
+            "type": "array",
+            "title": "Holdings"
+          },
+          "invested_cost_inr": {
+            "type": "number",
+            "title": "Invested Cost Inr"
+          },
+          "valued_holdings": {
+            "type": "integer",
+            "title": "Valued Holdings"
+          },
+          "current_value_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Value Inr"
+          },
+          "equity_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Equity Inr"
+          },
+          "monthly_cash_flow_inr": {
+            "type": "number",
+            "title": "Monthly Cash Flow Inr"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note",
+            "default": "Manual amounts and dated valuations. Totals for value/equity are withheld unless every holding has a valuation. Unrealized gains exclude sale costs and taxes."
+          }
+        },
+        "type": "object",
+        "required": [
+          "holdings",
+          "invested_cost_inr",
+          "valued_holdings",
+          "current_value_inr",
+          "equity_inr",
+          "monthly_cash_flow_inr"
+        ],
+        "title": "PortfolioSummary"
       },
       "PriceObservation": {
         "properties": {
