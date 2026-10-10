@@ -29,6 +29,13 @@ export function DevelopmentPanel({ reports }: { reports: AreaDevelopment[] }) {
             {[...(report.public_interest ?? []), report.app_interest].map((signal) => <History key={signal.kind} signal={signal} />)}
           </div>
           <div className="text-sm">
+            <h4 className="font-medium">Neighbourhood search-interest projections</h4>
+            {(report.forecasts ?? []).map(forecast => <div key={forecast.kind} className="my-2 text-xs">
+              <p>{forecast.kind.replaceAll("_", " ")} · {forecast.status} · As of {forecast.as_of}</p>
+              <p className="text-slate-500">{forecast.note}</p>
+              {(forecast.points ?? []).map(point => <p key={point.week}>{point.week}: {point.value.toFixed(1)} / 100 (error band {point.lower.toFixed(1)}–{point.upper.toFixed(1)})</p>)}
+              {forecast.holdout_mae != null && <p>Last 4 weeks backtest: mean absolute error {forecast.holdout_mae.toFixed(1)} index points.</p>}
+            </div>)}
             <p className="font-medium">Observed corroborating evidence</p>
             {Object.entries(report.observed_price_growth ?? {}).map(([kind, growth]) => (
               <p key={kind}>{kind}: {change(growth.value)} reported past annual price change · <a href={growth.sources?.[0]?.url ?? undefined} target="_blank" rel="noreferrer" className="text-blue-700 underline">Price evidence</a></p>

@@ -514,6 +514,8 @@ export interface components {
         };
         /** AreaDevelopment */
         AreaDevelopment: {
+            /** Forecasts */
+            forecasts?: components["schemas"]["TrendForecast"][];
             /** Locality Key */
             locality_key: string;
             /** Locality */
@@ -835,6 +837,20 @@ export interface components {
          * @enum {string}
          */
         ExtractionMethod: "serpapi_field" | "regex" | "llm" | "computed" | "query";
+        /** ForecastPoint */
+        ForecastPoint: {
+            /**
+             * Week
+             * Format: date
+             */
+            week: string;
+            /** Value */
+            value: number;
+            /** Lower */
+            lower: number;
+            /** Upper */
+            upper: number;
+        };
         /** GeoPoint */
         GeoPoint: {
             /** Lat */
@@ -1533,6 +1549,33 @@ export interface components {
             locality: string;
             property_type: components["schemas"]["PropertyType"];
             typical: components["schemas"]["Sourced_float_"];
+        };
+        /** TrendForecast */
+        TrendForecast: {
+            /** Kind */
+            kind: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "projected" | "unavailable";
+            /**
+             * As Of
+             * Format: date
+             */
+            as_of: string;
+            /**
+             * Observations
+             * @default 0
+             */
+            observations: number;
+            /** Holdout Mae */
+            holdout_mae?: number | null;
+            /** Points */
+            points?: components["schemas"]["ForecastPoint"][];
+            source?: components["schemas"]["SourceRef"] | null;
+            /** Note */
+            note: string;
         };
         /** TrendPoint */
         TrendPoint: {

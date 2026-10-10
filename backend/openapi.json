@@ -1294,6 +1294,13 @@
       },
       "AreaDevelopment": {
         "properties": {
+          "forecasts": {
+            "items": {
+              "$ref": "#/components/schemas/TrendForecast"
+            },
+            "type": "array",
+            "title": "Forecasts"
+          },
           "locality_key": {
             "type": "string",
             "title": "Locality Key"
@@ -2107,6 +2114,35 @@
           "query"
         ],
         "title": "ExtractionMethod"
+      },
+      "ForecastPoint": {
+        "properties": {
+          "week": {
+            "type": "string",
+            "format": "date",
+            "title": "Week"
+          },
+          "value": {
+            "type": "number",
+            "title": "Value"
+          },
+          "lower": {
+            "type": "number",
+            "title": "Lower"
+          },
+          "upper": {
+            "type": "number",
+            "title": "Upper"
+          }
+        },
+        "type": "object",
+        "required": [
+          "week",
+          "value",
+          "lower",
+          "upper"
+        ],
+        "title": "ForecastPoint"
       },
       "GeoPoint": {
         "properties": {
@@ -4236,6 +4272,72 @@
           "typical"
         ],
         "title": "TargetSuggestionPart"
+      },
+      "TrendForecast": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "title": "Kind"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "projected",
+              "unavailable"
+            ],
+            "title": "Status"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date",
+            "title": "As Of"
+          },
+          "observations": {
+            "type": "integer",
+            "title": "Observations",
+            "default": 0
+          },
+          "holdout_mae": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Holdout Mae"
+          },
+          "points": {
+            "items": {
+              "$ref": "#/components/schemas/ForecastPoint"
+            },
+            "type": "array",
+            "title": "Points"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SourceRef"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "note": {
+            "type": "string",
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind",
+          "status",
+          "as_of",
+          "note"
+        ],
+        "title": "TrendForecast"
       },
       "TrendPoint": {
         "properties": {
