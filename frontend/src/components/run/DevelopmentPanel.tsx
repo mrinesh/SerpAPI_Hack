@@ -6,7 +6,7 @@ const SIGNALS = {
   no_sustained_growth: "No sustained search growth",
   insufficient_data: "Insufficient history",
 };
-const NAMES = { locality_interest: "Public locality interest", rental_interest: "Public rental research", app_searches: "Searches inside this app" };
+const NAMES = { locality_interest: "Public locality interest", rental_interest: "Public rental research", app_searches: "Your searches inside this app" };
 const change = (value?: number | null) => value == null ? "Unavailable" : `${value >= 0 ? "+" : ""}${value.toFixed(1)}%`;
 
 export function DevelopmentPanel({ reports }: { reports: AreaDevelopment[] }) {

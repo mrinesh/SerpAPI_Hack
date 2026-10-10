@@ -32,6 +32,9 @@ class Settings(BaseSettings):
     app_env: str = "development"
     database_url: str = f"sqlite:///{BACKEND_DIR / 'data' / 'realty_intel.db'}"
     cors_origins: list[str] = ["http://localhost:5173"]
+    auth_enabled: bool = False
+    auth_cookie_secure: bool = True  # HTTP localhost development must explicitly set false
+    auth_session_hours: int = Field(default=24, ge=1, le=168)
 
     # SerpApi. Replay is the default so a fresh clone never spends search credits.
     serpapi_api_key: str | None = None

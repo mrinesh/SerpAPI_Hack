@@ -1,5 +1,24 @@
 # Data Model
 
+P2 adds `RiskReport`, `TrendForecast`, `Holding`, `PortfolioSummary`, `ScenarioIn/Result`,
+`LanguageProfileResult` and `AuthState` (see [P2.md](P2.md)). Risk/forecast reports are derived
+on reads from frozen evidence; they do not replace or influence ranking/ROI.
+
+Additional tables are created on startup without changing existing primary keys:
+
+| Table | Key | Purpose |
+|---|---|---|
+| `portfolio_holdings` | `id` | Owner ID, investor-entered amounts and dated valuation JSON |
+| `users` | `id` | Unique normalized username and salted scrypt hash |
+| `auth_sessions` | token hash | User ID, CSRF hash and expiry; no raw session tokens |
+| `auth_attempts` | IP hash | Atomic attempt count and 15-minute window |
+| `profile_owners` | profile ID | Owner ID; missing owner belongs to legacy local mode |
+| `user_saved_properties` | (owner ID, listing ID) | Private notes, save time and the owner's listing snapshot |
+
+Private run/history/alert reads use the profile ownership relation. Public listing and locality
+caches remain shared; private saved snapshots do not change when another user's search refreshes
+the shared listing. Legacy `saved_properties` stays intact for local mode.
+
 Two layers:
 - **Domain schemas** (`backend/app/schemas`, Pydantic): the shape of every object. The single
   source of truth for the API and for the generated frontend types.
@@ -68,7 +87,7 @@ Every investor-facing fact is wrapped like this (`schemas/provenance.py`):
 | `listings` | `id` = stable hash of the candidate's identity | `Listing` JSON; `kind`, `portal`, `locality`, `price_inr`, `size_sqft`, `price_per_sqft` columns | Shared across runs, so a repeat run updates the same rows |
 | `listing_observations` | `id`; unique (`listing_id`, `run_id`) | price at the time | One row per candidate per run: "found in this run" and price history |
 | `run_results` | `id` | Progressive JSON: `listing` snapshot, nullable `verification`, and for ranked rows `recommendation` (score, score_breakdown, reason, highlights, risks, explained, access, metrics) | One row per listing per run; rank 1..n for ranked candidates, null for rejects and unchecked |
-| `run_area_intel` | `id` | `run_id`, `locality_key`, `AreaIntel` JSON as the run used it | One row per run and locality; frozen (ADR 0020); deleted with the profile |
+| `run_area_intel` | (`run_id`, `locality_key`) | `AreaIntel` JSON as the run used it | One row per run/locality; frozen (ADR 0020); old surrogate-id tables stay compatible without rebuilding |
 | `area_intel` | `locality_key` | `AreaIntel` JSON (centre, amenities, `price_growth_pct`, per-type `price_levels` and `rent_levels`, `commutes`, summaries, `section_status`, `warnings`, `schema_version`, `provider_modes`), `expires_at` (= `fetched_at` when a section failed) | e.g. `bengaluru/whitefield`; rebuilt after the TTL |
 | `competitor_reports` | hash(locality, rounded centre, business type, radius) | `CompetitorReport` JSON | Area TTL; a failed search expires at once (ADR 0023) |
 | `run_competitor_reports` | `id` | `run_id`, `locality_key`, `CompetitorReport` JSON as the run used it | One row per run and commercial locality; frozen; deleted with the profile |

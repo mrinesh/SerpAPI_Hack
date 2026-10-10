@@ -36,6 +36,11 @@ It is slow and inconsistent, and the results are hard to compare. Realty Intel r
 | **Alerts** | Check profiles for new verified matches and quoted price drops, with an unread badge; optional scheduled checks |
 | **Map** | Candidates at their Google Maps position, or grouped at the locality centre when none was quoted, with amenity and competitor layers |
 | **Trust** | Every figure on the property page shows its confidence, how it was obtained and its sources, plus a "Where this came from" list |
+| **Risk screening** | Cited flood, legal and oversupply news leads; missing evidence stays unknown |
+| **Trend projections** | Public search-interest continuation with a holdout error check; separate from price growth and ROI |
+| **PDF reports** | Download property research with confidence, assumptions, unknowns and citations |
+| **Portfolio and scenarios** | Track owned properties with dated manual valuations; calculate EMI, cash flow and debt-adjusted exits |
+| **Language and accounts** | Review a draft profile from recognized search phrases; optional login with private profiles, saved notes, alerts and holdings |
 
 | | |
 |---|---|
@@ -45,7 +50,7 @@ It is slow and inconsistent, and the results are hard to compare. Realty Intel r
 
 ## SerpApi usage
 
-Everything the product knows comes from SerpApi, through the official `serpapi` Python SDK and
+External property and locality research comes from SerpApi, through the official `serpapi` Python SDK and
 one gateway that adds a database cache, a search budget, and record/replay fixtures:
 
 - **`google`**: site-filtered portal searches (discovery), locality price level per sq ft, past
@@ -89,6 +94,13 @@ new-match demo, use Check now before running Find properties. The commercial res
 Enable automatic checks with `SCHEDULER_ENABLED=true` and a positive
 `ALERT_CHECK_INTERVAL_MINUTES` (default 360), then restart the backend. Live checks use the
 normal search budget and cache; replay checks spend no searches.
+
+P2 tools are ready too: inspect **Risk evidence screening** or download a PDF on a property
+page; see projections in the run's development panel; open **Portfolio** and **Scenarios**
+for your own costs and assumptions. The profile wizard can prefill recognized phrases after
+you review them. For local accounts set `AUTH_ENABLED=true` and `AUTH_COOKIE_SECURE=false`,
+restart and use `make dev`. `make demo` keeps auth off. Existing local data remains separate
+from new accounts. Methods, limits, API examples and debugging: **[docs/P2.md](docs/P2.md)**.
 
 To run against live data, put `SERPAPI_API_KEY` and `DEEPSEEK_API_KEY` in `.env`, set
 `SERPAPI_MODE=live` and `LLM_MODE=live`, then `make dev`. See

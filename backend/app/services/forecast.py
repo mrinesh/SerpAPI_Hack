@@ -43,7 +43,7 @@ def project_interest(signal: SearchMomentum, as_of: date) -> TrendForecast:
         or not 0 <= (as_of - history[-1].week).days <= 21
         or any(not math.isfinite(p.value) or not 0 <= p.value <= 100 for p in history)
         or any((b.week - a.week).days != 7 for a, b in pairwise(history))
-        or sum(p.value > 0 for p in history) < 8
+        or sum(p.value > 0 for p in history) < 20
     ):
         result.note = (
             "Needs 26 consecutive, recent, sourced, non-sparse public weekly observations. " + NOTE

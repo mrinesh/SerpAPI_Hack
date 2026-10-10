@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from "react-router";
 
 import { useAlerts, useBudget, useHealth } from "../api/hooks";
+import { AccountGate, AccountMenu } from "./AccountGate";
 
 const NAV = [
   { to: "/", label: "Profiles", end: true },
@@ -12,11 +13,15 @@ const NAV = [
 ];
 
 export function AppShell() {
+  return <AccountGate><PrivateShell /></AccountGate>;
+}
+
+function PrivateShell() {
   const unread = useAlerts(true);
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <header className="border-b border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 px-4 py-3">
           <span className="font-semibold tracking-tight">Realty Intel</span>
           <nav className="flex gap-1 text-sm">
             {NAV.map((item) => (
@@ -35,6 +40,7 @@ export function AppShell() {
             ))}
           </nav>
           <BackendStatus />
+          <AccountMenu />
         </div>
       </header>
       <main className="mx-auto max-w-6xl px-4 py-8">

@@ -22,6 +22,8 @@ from app.pipeline.cleaning import _caps_name, _nobroker_name
 from app.pipeline.orchestrator import start_run
 from app.schemas.listing import Listing
 from app.schemas.views import Alert, AlertCheckIssue, AlertCheckResult
+from app.services.access import profile_ids
+from app.services.profiles import get_profile
 
 _check_lock = threading.Lock()
 log = logging.getLogger(__name__)
@@ -33,7 +35,11 @@ class AlertCheckBusy(AppError):
 
 
 def list_alerts(db: Session, *, unread_only: bool = False) -> list[Alert]:
-    query = select(AlertRow).order_by(AlertRow.created_at.desc(), AlertRow.id)
+    query = (
+        select(AlertRow)
+        .where(AlertRow.profile_id.in_(profile_ids(db)))
+        .order_by(AlertRow.created_at.desc(), AlertRow.id)
+    )
     if unread_only:
         query = query.where(AlertRow.read_at.is_(None))
     return [_view(row) for row in db.scalars(query)]
@@ -43,6 +49,7 @@ def mark_read(db: Session, alert_id: str) -> Alert:
     row = db.get(AlertRow, alert_id)
     if row is None:
         raise NotFound(f"Alert {alert_id} not found")
+    get_profile(db, row.profile_id)
     if row.read_at is None:
         row.read_at = utcnow()
         db.commit()
@@ -132,8 +139,8 @@ def check_alerts(db: Session) -> AlertCheckResult:
         raise AlertCheckBusy("An alert check is already running. Try again after it finishes.")
     result = AlertCheckResult()
     try:
-        profile_ids = list(db.scalars(select(ProfileRow.id).order_by(ProfileRow.id)))
-        for profile_id in profile_ids:
+        owned_ids = list(db.scalars(profile_ids(db).order_by(ProfileRow.id)))
+        for profile_id in owned_ids:
             active = db.scalar(
                 select(RunRow.id)
                 .where(RunRow.profile_id == profile_id, RunRow.status.in_(["pending", "running"]))

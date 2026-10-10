@@ -11,6 +11,7 @@ log = logging.getLogger(__name__)
 
 def run_alert_check() -> None:
     with SessionLocal() as db:
+        db.info["system_job"] = True
         try:
             result = check_alerts(db)
             log.info(

@@ -14,6 +14,7 @@ from app.core.errors import InvalidInput, NotFound
 from app.db.models import (
     AlertRow,
     ListingObservationRow,
+    ProfileOwnerRow,
     ProfileRow,
     RunAreaRow,
     RunCompetitorRow,
@@ -45,6 +46,7 @@ from app.schemas.views import (
     ProfileOptions,
     SegmentOption,
 )
+from app.services.access import owner_id, profile_condition
 
 SEGMENT_LABELS = {Segment.RESIDENTIAL: "Residential", Segment.COMMERCIAL: "Commercial"}
 GOAL_LABELS = {
@@ -102,24 +104,43 @@ def create_profile(db: Session, data: InvestorProfileIn) -> InvestorProfile:
     _check_reference_data(data)
     row = ProfileRow(data=data.model_dump(mode="json"))
     db.add(row)
+    db.flush()
+    db.add(ProfileOwnerRow(profile_id=row.id, owner_id=owner_id(db)))
     db.commit()
     return _to_schema(row)
 
 
 def seed_demo_profiles(db: Session) -> int:
-    """Add each demo profile that no profile has the name of yet; returns how many were added.
-    Their searches and LLM calls are recorded, so they run in replay mode (I-13)."""
-    names = {row.data.get("name") for row in db.scalars(select(ProfileRow))}
+    """Ensure recorded demo criteria exist without overwriting an edited/older demo profile."""
+    rows = list(db.scalars(select(ProfileRow).where(profile_condition(db))))
+    names = {row.data.get("name") for row in rows}
     added = 0
     for data in DEMO_PROFILES.values():
-        if data["name"] not in names:
-            create_profile(db, InvestorProfileIn.model_validate(data))
-            added += 1
+        expected = InvestorProfileIn.model_validate(data)
+        criteria = expected.model_dump(mode="json", exclude={"name"})
+        if any(
+            (row.data.get("name") or "").startswith(data["name"])
+            and {k: v for k, v in row.data.items() if k != "name"} == criteria
+            for row in rows
+        ):
+            continue
+        name = data["name"]
+        if name in names:
+            name += " (recorded criteria)"
+            suffix = 2
+            while name in names:
+                name = f"{data['name']} (recorded criteria {suffix})"
+                suffix += 1
+        create_profile(db, expected.model_copy(update={"name": name}))
+        names.add(name)
+        added += 1
     return added
 
 
 def list_profiles(db: Session) -> list[InvestorProfile]:
-    rows = db.scalars(select(ProfileRow).order_by(ProfileRow.updated_at.desc())).all()
+    rows = db.scalars(
+        select(ProfileRow).where(profile_condition(db)).order_by(ProfileRow.updated_at.desc())
+    ).all()
     return [_to_schema(row) for row in rows]
 
 
@@ -153,7 +174,7 @@ def delete_profile(db: Session, profile_id: str) -> None:
 
 
 def _get_row(db: Session, profile_id: str) -> ProfileRow:
-    row = db.get(ProfileRow, profile_id)
+    row = db.scalar(select(ProfileRow).where(ProfileRow.id == profile_id, profile_condition(db)))
     if row is None:
         raise NotFound(f"Profile {profile_id} not found")
     return row

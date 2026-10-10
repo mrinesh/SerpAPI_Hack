@@ -54,14 +54,18 @@ export function describeError(error: unknown): string {
 }
 
 export async function apiFetch<T>(path: string, init: RequestInit = {}): Promise<T> {
+  const csrf = typeof document === "undefined" ? "" : document.cookie.split("; ")
+    .find(value => value.startsWith("realty_csrf="))?.slice("realty_csrf=".length) ?? "";
   const response = await fetch(`${BASE_URL}${path}`, {
     ...init,
-    headers: { "Content-Type": "application/json", ...init.headers },
+    credentials: "same-origin",
+    headers: { "Content-Type": "application/json", ...(csrf ? { "X-CSRF-Token": decodeURIComponent(csrf) } : {}), ...init.headers },
   });
   if (response.status === 204) return undefined as T;
 
   const body: unknown = await response.json().catch(() => null);
   if (!response.ok) {
+    if (response.status === 401 && typeof window !== "undefined") window.dispatchEvent(new Event("realty-auth-expired"));
     const error = (body as ApiErrorBody | null)?.error;
     // The dev proxy answers 502/504 with no body when FastAPI is down.
     if (!error && (response.status === 502 || response.status === 504)) {

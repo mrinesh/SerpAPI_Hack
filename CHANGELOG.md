@@ -6,6 +6,7 @@ Reference CHECKLIST IDs.
 ## [Unreleased]
 
 ### Changed
+- P2: cited risk screening and bounded search-interest projections, investment PDF export, owned-property portfolio with dated valuations, fixed-rate loan/exit scenarios, reviewable language-to-profile drafts, and optional accounts with ownership isolation, CSRF, expiring sessions and replay/demo compatibility (ADR 0030).
 - F-06b: sampled competitor reviews, cited and checked complaint themes, visible evidence and failure states; real commercial demo recordings, no ranking changes.
 - I-11: finish scheduled alert refreshes with overlap protection, missed-tick coalescing, validated intervals, lifecycle tests and per-profile failure logs.
 - F-10: verified new-match and conservative quoted-price-drop alerts, manual refresh, unread badge and persisted read status; failed profiles are reported separately.

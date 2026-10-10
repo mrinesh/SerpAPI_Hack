@@ -4,6 +4,28 @@ Base path `/api`. Interactive docs at <http://localhost:8000/docs> while the bac
 Errors use one shape, `{"error": {"code", "message", "details"}}`; see
 [ARCHITECTURE.md](ARCHITECTURE.md#error-contract).
 
+When `AUTH_ENABLED=true`, all endpoints except `/health` and `/auth/*` require the session
+cookie. Mutations additionally require `X-CSRF-Token` matching the login's CSRF cookie.
+Profiles, runs, saved notes, alerts, portfolio and reports are owner-scoped. Account state and
+all API responses use `Cache-Control: no-store`. Local mode remains the default.
+
+P2 endpoints (built):
+
+| Method | Path | Returns |
+|---|---|---|
+| GET | `/auth/state` | `AuthState`: enabled flag and current user |
+| POST | `/auth/register`, `/auth/login`, `/auth/logout` | `AuthState`, sets/revokes cookies |
+| POST | `/profiles/parse-language` | `LanguageProfileResult`: partial draft, matched phrases, unresolved criteria |
+| GET | `/portfolio` | `PortfolioSummary`: holdings and totals with valuation coverage |
+| POST | `/portfolio` | New `Holding` from investor-entered amounts |
+| PUT / DELETE | `/portfolio/{id}` | Updated holding / 204 |
+| POST | `/scenarios` | `ScenarioResult`: submitted assumptions, EMI, annual amortization and exit cash flows |
+| GET | `/properties/{id}/report.pdf?run_id={run}` | Paginated PDF from the authorized run snapshot |
+
+`PropertyDetail.risk` adds cited screening indicators. Run development responses add
+`forecasts` for public search-interest continuation, including explicit unavailable states.
+Example bodies, methods and scope: [P2.md](P2.md).
+
 Status: ✅ built · 🧱 scaffolded (returns `501 not_implemented` with the checklist ID).
 
 Invalid input returns `422` with `details.fields`, a list of `{loc, msg}` where `loc` is like

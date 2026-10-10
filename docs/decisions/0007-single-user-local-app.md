@@ -1,6 +1,6 @@
 # 0007. Single-user local app; auth deferred
 
-- **Status:** Accepted
+- **Status:** Superseded for optional account mode by [ADR 0030](0030-p2-evidence-tools-and-optional-accounts.md); retained for local demo mode
 - **Date:** 2026-10-03
 
 ## Context

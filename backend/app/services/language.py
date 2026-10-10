@@ -6,7 +6,14 @@ from decimal import Decimal
 from app.core.errors import InvalidInput
 from app.reference import load_market
 from app.schemas.language import LanguageProfileIn, LanguageProfileResult, ProfileDraft
-from app.schemas.profile import MAX_LOCALITIES, SEGMENT_PROPERTY_TYPES, Segment
+from app.schemas.profile import (
+    MAX_LOCALITIES,
+    SEGMENT_PROPERTY_TYPES,
+    InvestmentGoal,
+    PropertyType,
+    RiskAppetite,
+    Segment,
+)
 
 TYPES = {
     "apartment": r"apartments?|flats?",
@@ -44,7 +51,7 @@ def parse_profile(data: LanguageProfileIn) -> LanguageProfileResult:
     for kind, pattern in TYPES.items():
         found = matches(pattern)
         if found:
-            draft.property_types.append(kind)
+            draft.property_types.append(PropertyType(kind))
             evidence["property_type:" + kind] = found[0].group()
     segments = {
         s
@@ -110,7 +117,8 @@ def parse_profile(data: LanguageProfileIn) -> LanguageProfileResult:
         }
         values = {mapping.get(m.group().lower(), "balanced") for m in found}
         if len(values) == 1:
-            setattr(draft, field, values.pop())
+            enum_type = InvestmentGoal if field == "goal" else RiskAppetite
+            setattr(draft, field, enum_type(values.pop()))
             evidence[field] = found[0].group()
         elif len(values) > 1:
             unresolved.append(f"Conflicting {field.replace('_', ' ')} phrases; choose in the form.")
