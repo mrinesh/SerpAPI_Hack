@@ -1171,6 +1171,7 @@ export interface components {
             metrics?: components["schemas"]["InvestmentMetrics"] | null;
             area?: components["schemas"]["AreaIntel"] | null;
             competitors?: components["schemas"]["CompetitorReport"] | null;
+            risk?: components["schemas"]["RiskReport"] | null;
             /** Price History */
             price_history?: components["schemas"]["PriceObservation"][];
             /** Sources */
@@ -1249,6 +1250,38 @@ export interface components {
          * @enum {string}
          */
         RiskAppetite: "conservative" | "balanced" | "aggressive";
+        /** RiskIndicator */
+        RiskIndicator: {
+            /**
+             * Kind
+             * @enum {string}
+             */
+            kind: "flood" | "legal" | "oversupply";
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "reported_concern" | "unknown";
+            /** Score */
+            score?: number | null;
+            /** Evidence */
+            evidence?: string[];
+            /** Sources */
+            sources?: components["schemas"]["SourceRef"][];
+            /** Next Step */
+            next_step: string;
+        };
+        /** RiskReport */
+        RiskReport: {
+            /** Indicators */
+            indicators: components["schemas"]["RiskIndicator"][];
+            /** Reported Concern Score */
+            reported_concern_score?: number | null;
+            /** Coverage Pct */
+            coverage_pct: number;
+            /** Note */
+            note: string;
+        };
         /**
          * RunStatus
          * @enum {string}

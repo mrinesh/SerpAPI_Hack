@@ -3129,6 +3129,16 @@
               }
             ]
           },
+          "risk": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/RiskReport"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
           "price_history": {
             "items": {
               "$ref": "#/components/schemas/PriceObservation"
@@ -3345,6 +3355,100 @@
           "aggressive"
         ],
         "title": "RiskAppetite"
+      },
+      "RiskIndicator": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "flood",
+              "legal",
+              "oversupply"
+            ],
+            "title": "Kind"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "reported_concern",
+              "unknown"
+            ],
+            "title": "Status"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "evidence": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Evidence"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "next_step": {
+            "type": "string",
+            "title": "Next Step"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind",
+          "status",
+          "next_step"
+        ],
+        "title": "RiskIndicator"
+      },
+      "RiskReport": {
+        "properties": {
+          "indicators": {
+            "items": {
+              "$ref": "#/components/schemas/RiskIndicator"
+            },
+            "type": "array",
+            "title": "Indicators"
+          },
+          "reported_concern_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reported Concern Score"
+          },
+          "coverage_pct": {
+            "type": "number",
+            "title": "Coverage Pct"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "indicators",
+          "coverage_pct",
+          "note"
+        ],
+        "title": "RiskReport"
       },
       "RunStatus": {
         "type": "string",

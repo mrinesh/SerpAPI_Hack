@@ -13,6 +13,7 @@ from app.schemas.metrics import InvestmentMetrics
 from app.schemas.profile import ROIMeasure
 from app.schemas.provenance import SourceRef
 from app.schemas.recommendation import Recommendation
+from app.schemas.risk import RiskReport
 
 
 class HealthStatus(BaseModel):
@@ -84,6 +85,7 @@ class PropertyDetail(BaseModel):
     metrics: InvestmentMetrics | None = None
     area: AreaIntel | None = None  # the area this run used for the listing's locality
     competitors: CompetitorReport | None = None  # commercial only, from F-06
+    risk: RiskReport | None = None
     price_history: list[PriceObservation] = Field(default_factory=list)  # every run, oldest first
     # Every source behind the figures above, de-duplicated (F-11); news is display only.
     sources: list[SourceRef] = Field(default_factory=list)

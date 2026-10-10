@@ -1,4 +1,5 @@
 import { SaveButton } from "../components/SaveButton";
+import { RiskCard } from "../components/run/RiskCard";
 import type { ReactNode } from "react";
 import { Link, useParams } from "react-router";
 
@@ -185,6 +186,7 @@ export function PropertyPage() {
       )}
 
       <PropertyMap detail={data} />
+      {data.risk && <RiskCard report={data.risk} />}
 
       {data.area && <AreaCard area={data.area} typeLabel={(value: PropertyType) => typeLabel(value)} />}
 

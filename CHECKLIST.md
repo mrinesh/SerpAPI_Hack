@@ -59,7 +59,7 @@ code for an ID finds every stub that belongs to it.
 | F-22 | Parser fixes from S-02 | P1 | ✅ | |
 | F-23 | Commute to job hubs (google_maps_directions) | P1 | ✅ | |
 | **Later (P2)** | | | | |
-| F-13 | Risk scoring (flood, legal, oversupply) | P2 | ⏸️ | |
+| F-13 | Risk scoring (flood, legal, oversupply) | P2 | ✅ | |
 | F-14 | Neighbourhood trend forecasting | P2 | ⏸️ | |
 | F-15 | PDF investment report export | P2 | ⏸️ | |
 | F-16 | Portfolio tracker | P2 | ⏸️ | |

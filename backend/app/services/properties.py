@@ -12,6 +12,7 @@ from app.schemas.listing import Listing, Verification
 from app.schemas.metrics import InvestmentMetrics
 from app.schemas.provenance import Sourced, SourceRef
 from app.schemas.views import PriceObservation, PropertyDetail
+from app.services.risk import assess_risk
 from app.services.runs import (
     area_for_run,
     competitors_for_run,
@@ -59,6 +60,7 @@ def get_property_detail(db: Session, listing_id: str, run_id: str | None = None)
         metrics=metrics,
         area=area,
         competitors=competitors,
+        risk=assess_risk(area),
         price_history=_price_history(db, listing_id),
         sources=collect_sources(listing, metrics, area, competitors),
     )
