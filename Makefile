@@ -2,7 +2,9 @@
 
 BACKEND  := backend
 FRONTEND := frontend
-UVICORN  := uv run uvicorn app.main:app --reload --port 8000
+BACKEND_PORT ?= 8000
+FRONTEND_PORT ?= 5173
+UVICORN  := uv run uvicorn app.main:app --reload --port $(BACKEND_PORT)
 
 .PHONY: help setup dev demo record backend frontend test lint fmt types reset-db
 
@@ -17,11 +19,11 @@ setup: ## Install backend and frontend, create .env
 dev: ## Run backend (:8000) and frontend (:5173) with modes from .env
 	@trap 'kill 0' INT TERM; \
 	(cd $(BACKEND) && $(UVICORN)) & \
-	(cd $(FRONTEND) && npm run dev) & \
+	(cd $(FRONTEND) && VITE_BACKEND_URL=http://127.0.0.1:$(BACKEND_PORT) npm run dev -- --port $(FRONTEND_PORT)) & \
 	wait
 
 demo: ## Run both in replay mode: no keys, no searches spent
-	SERPAPI_MODE=replay LLM_MODE=replay SEED_DEMO_PROFILES=true $(MAKE) dev
+	SERPAPI_MODE=replay LLM_MODE=replay SEED_DEMO_PROFILES=true AUTH_ENABLED=false $(MAKE) dev
 
 record: ## Run the backend in record mode (spends searches; commit new fixtures)
 	cd $(BACKEND) && SERPAPI_MODE=record LLM_MODE=record $(UVICORN)
@@ -30,7 +32,7 @@ backend: ## Run only the backend
 	cd $(BACKEND) && $(UVICORN)
 
 frontend: ## Run only the frontend
-	cd $(FRONTEND) && npm run dev
+	cd $(FRONTEND) && VITE_BACKEND_URL=http://127.0.0.1:$(BACKEND_PORT) npm run dev -- --port $(FRONTEND_PORT)
 
 test: ## Backend tests, frontend typecheck and frontend tests
 	cd $(BACKEND) && uv run pytest

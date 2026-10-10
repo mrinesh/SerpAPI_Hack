@@ -6,6 +6,7 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 from app.schemas.area import AreaIssue
+from app.schemas.forecast import TrendForecast
 from app.schemas.provenance import Sourced, SourceRef
 
 
@@ -40,6 +41,7 @@ class DevelopmentHypothesis(BaseModel):
 
 
 class AreaDevelopment(BaseModel):
+    forecasts: list[TrendForecast] = Field(default_factory=list)
     locality_key: str
     locality: str
     city: str

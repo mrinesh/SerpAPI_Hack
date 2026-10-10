@@ -21,6 +21,74 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/auth/state": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Auth State */
+        get: operations["auth_state_api_auth_state_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/auth/register": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Register */
+        post: operations["register_api_auth_register_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/auth/login": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Login */
+        post: operations["login_api_auth_login_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/auth/logout": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Logout */
+        post: operations["logout_api_auth_logout_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/meta/budget": {
         parameters: {
             query?: never;
@@ -52,6 +120,23 @@ export interface paths {
         get: operations["get_profile_options_api_meta_profile_options_get"];
         put?: never;
         post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/profiles/parse-language": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Parse Language */
+        post: operations["parse_language_api_profiles_parse_language_post"];
         delete?: never;
         options?: never;
         head?: never;
@@ -270,6 +355,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/properties/{listing_id}/report.pdf": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Export Report */
+        get: operations["export_report_api_properties__listing_id__report_pdf_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/properties/{listing_id}": {
         parameters: {
             query?: never;
@@ -305,6 +407,59 @@ export interface paths {
         put?: never;
         post?: never;
         delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/scenarios": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Investment Scenario */
+        post: operations["investment_scenario_api_scenarios_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/portfolio": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** Portfolio Summary */
+        get: operations["portfolio_summary_api_portfolio_get"];
+        put?: never;
+        /** Add Holding */
+        post: operations["add_holding_api_portfolio_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/portfolio/{holding_id}": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        /** Update Holding */
+        put: operations["update_holding_api_portfolio__holding_id__put"];
+        post?: never;
+        /** Delete Holding */
+        delete: operations["delete_holding_api_portfolio__holding_id__delete"];
         options?: never;
         head?: never;
         patch?: never;
@@ -514,6 +669,8 @@ export interface components {
         };
         /** AreaDevelopment */
         AreaDevelopment: {
+            /** Forecasts */
+            forecasts?: components["schemas"]["TrendForecast"][];
             /** Locality Key */
             locality_key: string;
             /** Locality */
@@ -646,6 +803,12 @@ export interface components {
             code: string;
             /** Message */
             message: string;
+        };
+        /** AuthState */
+        AuthState: {
+            /** Enabled */
+            enabled: boolean;
+            user?: components["schemas"]["User"] | null;
         };
         /** BudgetStatus */
         BudgetStatus: {
@@ -819,6 +982,16 @@ export interface components {
             snippet: string;
             source: components["schemas"]["SourceRef"];
         };
+        /** Credentials */
+        Credentials: {
+            /** Username */
+            username: string;
+            /**
+             * Password
+             * Format: password
+             */
+            password: string;
+        };
         /** DevelopmentHypothesis */
         DevelopmentHypothesis: {
             /**
@@ -835,6 +1008,20 @@ export interface components {
          * @enum {string}
          */
         ExtractionMethod: "serpapi_field" | "regex" | "llm" | "computed" | "query";
+        /** ForecastPoint */
+        ForecastPoint: {
+            /**
+             * Week
+             * Format: date
+             */
+            week: string;
+            /** Value */
+            value: number;
+            /** Lower */
+            lower: number;
+            /** Upper */
+            upper: number;
+        };
         /** GeoPoint */
         GeoPoint: {
             /** Lat */
@@ -867,6 +1054,111 @@ export interface components {
             llm_mode: components["schemas"]["ProviderMode"];
             /** City */
             city: string;
+        };
+        /** Holding */
+        Holding: {
+            /** Name */
+            name: string;
+            /** Listing Id */
+            listing_id?: string | null;
+            /**
+             * Acquired On
+             * Format: date
+             */
+            acquired_on: string;
+            /** Purchase Price Inr */
+            purchase_price_inr: number;
+            /**
+             * Acquisition Costs Inr
+             * @default 0
+             */
+            acquisition_costs_inr: number;
+            /** Current Value Inr */
+            current_value_inr?: number | null;
+            /** Valued On */
+            valued_on?: string | null;
+            /**
+             * Outstanding Loan Inr
+             * @default 0
+             */
+            outstanding_loan_inr: number;
+            /**
+             * Monthly Rent Inr
+             * @default 0
+             */
+            monthly_rent_inr: number;
+            /**
+             * Monthly Expenses Inr
+             * @default 0
+             */
+            monthly_expenses_inr: number;
+            /**
+             * Monthly Emi Inr
+             * @default 0
+             */
+            monthly_emi_inr: number;
+            /** Note */
+            note?: string | null;
+            /** Id */
+            id: string;
+            /**
+             * Updated At
+             * Format: date-time
+             */
+            updated_at: string;
+            /** Monthly Cash Flow Inr */
+            monthly_cash_flow_inr: number;
+            /** Equity Inr */
+            equity_inr: number | null;
+            /** Unrealized Gain Inr */
+            unrealized_gain_inr: number | null;
+            /** Net Yield On Cost Pct */
+            net_yield_on_cost_pct: number;
+        };
+        /** HoldingIn */
+        HoldingIn: {
+            /** Name */
+            name: string;
+            /** Listing Id */
+            listing_id?: string | null;
+            /**
+             * Acquired On
+             * Format: date
+             */
+            acquired_on: string;
+            /** Purchase Price Inr */
+            purchase_price_inr: number;
+            /**
+             * Acquisition Costs Inr
+             * @default 0
+             */
+            acquisition_costs_inr: number;
+            /** Current Value Inr */
+            current_value_inr?: number | null;
+            /** Valued On */
+            valued_on?: string | null;
+            /**
+             * Outstanding Loan Inr
+             * @default 0
+             */
+            outstanding_loan_inr: number;
+            /**
+             * Monthly Rent Inr
+             * @default 0
+             */
+            monthly_rent_inr: number;
+            /**
+             * Monthly Expenses Inr
+             * @default 0
+             */
+            monthly_expenses_inr: number;
+            /**
+             * Monthly Emi Inr
+             * @default 0
+             */
+            monthly_emi_inr: number;
+            /** Note */
+            note?: string | null;
         };
         /** InterestPoint */
         InterestPoint: {
@@ -978,6 +1270,31 @@ export interface components {
             /** Expected Growth Pct */
             expected_growth_pct?: number | null;
             risk_appetite: components["schemas"]["RiskAppetite"];
+        };
+        /** LanguageProfileIn */
+        LanguageProfileIn: {
+            /** Text */
+            text: string;
+            /**
+             * City
+             * @default Bengaluru
+             */
+            city: string;
+        };
+        /** LanguageProfileResult */
+        LanguageProfileResult: {
+            draft: components["schemas"]["ProfileDraft"];
+            /** Matched Phrases */
+            matched_phrases: {
+                [key: string]: string;
+            };
+            /** Unresolved */
+            unresolved: string[];
+            /**
+             * Note
+             * @default Recognized phrases only; no AI guesses or network calls. Review every filled field and complete missing criteria before saving. No profile or search is created.
+             */
+            note: string;
         };
         /**
          * Level
@@ -1117,6 +1434,26 @@ export interface components {
          * @enum {string}
          */
         Portal: "99acres" | "magicbricks" | "nobroker" | "google_maps";
+        /** PortfolioSummary */
+        PortfolioSummary: {
+            /** Holdings */
+            holdings: components["schemas"]["Holding"][];
+            /** Invested Cost Inr */
+            invested_cost_inr: number;
+            /** Valued Holdings */
+            valued_holdings: number;
+            /** Current Value Inr */
+            current_value_inr: number | null;
+            /** Equity Inr */
+            equity_inr: number | null;
+            /** Monthly Cash Flow Inr */
+            monthly_cash_flow_inr: number;
+            /**
+             * Note
+             * @default Manual amounts and dated valuations. Totals for value/equity are withheld unless every holding has a valuation. Unrealized gains exclude sale costs and taxes.
+             */
+            note: string;
+        };
         /**
          * PriceObservation
          * @description The price a listing was quoted at when one run saw it.
@@ -1131,6 +1468,30 @@ export interface components {
              * Format: date-time
              */
             seen_at: string;
+        };
+        /** ProfileDraft */
+        ProfileDraft: {
+            segment?: components["schemas"]["Segment"] | null;
+            /** Property Types */
+            property_types?: components["schemas"]["PropertyType"][];
+            /** Localities */
+            localities?: string[];
+            /** Budget Min Inr */
+            budget_min_inr?: number | null;
+            /** Budget Max Inr */
+            budget_max_inr?: number | null;
+            /** Size Min Sqft */
+            size_min_sqft?: number | null;
+            /** Size Max Sqft */
+            size_max_sqft?: number | null;
+            goal?: components["schemas"]["InvestmentGoal"] | null;
+            /** Target Roi Pct */
+            target_roi_pct?: number | null;
+            risk_appetite?: components["schemas"]["RiskAppetite"] | null;
+            /** Business Type */
+            business_type?: string | null;
+            /** Must Haves */
+            must_haves?: string[];
         };
         /**
          * ProfileOptions
@@ -1171,6 +1532,7 @@ export interface components {
             metrics?: components["schemas"]["InvestmentMetrics"] | null;
             area?: components["schemas"]["AreaIntel"] | null;
             competitors?: components["schemas"]["CompetitorReport"] | null;
+            risk?: components["schemas"]["RiskReport"] | null;
             /** Price History */
             price_history?: components["schemas"]["PriceObservation"][];
             /** Sources */
@@ -1249,6 +1611,38 @@ export interface components {
          * @enum {string}
          */
         RiskAppetite: "conservative" | "balanced" | "aggressive";
+        /** RiskIndicator */
+        RiskIndicator: {
+            /**
+             * Kind
+             * @enum {string}
+             */
+            kind: "flood" | "legal" | "oversupply";
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "reported_concern" | "unknown";
+            /** Score */
+            score?: number | null;
+            /** Evidence */
+            evidence?: string[];
+            /** Sources */
+            sources?: components["schemas"]["SourceRef"][];
+            /** Next Step */
+            next_step: string;
+        };
+        /** RiskReport */
+        RiskReport: {
+            /** Indicators */
+            indicators: components["schemas"]["RiskIndicator"][];
+            /** Reported Concern Score */
+            reported_concern_score?: number | null;
+            /** Coverage Pct */
+            coverage_pct: number;
+            /** Note */
+            note: string;
+        };
         /**
          * RunStatus
          * @enum {string}
@@ -1276,6 +1670,96 @@ export interface components {
              * Format: date-time
              */
             saved_at: string;
+        };
+        /** ScenarioIn */
+        ScenarioIn: {
+            /** Purchase Price Inr */
+            purchase_price_inr: number;
+            /** Down Payment Pct */
+            down_payment_pct: number;
+            /**
+             * Purchase Cost Pct
+             * @default 0
+             */
+            purchase_cost_pct: number;
+            /** Loan Interest Pct */
+            loan_interest_pct: number;
+            /** Loan Years */
+            loan_years: number;
+            /** Hold Years */
+            hold_years: number;
+            /** Monthly Rent Inr */
+            monthly_rent_inr: number;
+            /**
+             * Vacancy Pct
+             * @default 0
+             */
+            vacancy_pct: number;
+            /**
+             * Monthly Expenses Inr
+             * @default 0
+             */
+            monthly_expenses_inr: number;
+            /**
+             * Annual Rent Growth Pct
+             * @default 0
+             */
+            annual_rent_growth_pct: number;
+            /** Annual Price Growth Pct */
+            annual_price_growth_pct: number;
+            /**
+             * Exit Cost Pct
+             * @default 0
+             */
+            exit_cost_pct: number;
+        };
+        /** ScenarioResult */
+        ScenarioResult: {
+            assumptions: components["schemas"]["ScenarioIn"];
+            /** Initial Cash Inr */
+            initial_cash_inr: number;
+            /** Loan Principal Inr */
+            loan_principal_inr: number;
+            /** Monthly Emi Inr */
+            monthly_emi_inr: number;
+            /** Years */
+            years: components["schemas"]["ScenarioYear"][];
+            /** Exit Value Inr */
+            exit_value_inr: number;
+            /** Exit Loan Balance Inr */
+            exit_loan_balance_inr: number;
+            /** Net Exit Proceeds Inr */
+            net_exit_proceeds_inr: number;
+            /** Cumulative Cash Flow Inr */
+            cumulative_cash_flow_inr: number;
+            /** Total Profit Inr */
+            total_profit_inr: number;
+            /** Equity Return Pct */
+            equity_return_pct: number;
+            /**
+             * Note
+             * @default Illustrative fixed-rate monthly amortization and user-entered assumptions. Rent changes annually; expenses stay fixed. Exit proceeds repay remaining debt. Equity return is for the entire holding period, not annualized or IRR. Taxes, loan fees, inflation and prepayment penalties are excluded.
+             */
+            note: string;
+        };
+        /** ScenarioYear */
+        ScenarioYear: {
+            /** Year */
+            year: number;
+            /** Rent Inr */
+            rent_inr: number;
+            /** Expenses Inr */
+            expenses_inr: number;
+            /** Loan Payments Inr */
+            loan_payments_inr: number;
+            /** Interest Inr */
+            interest_inr: number;
+            /** Principal Inr */
+            principal_inr: number;
+            /** Balance Inr */
+            balance_inr: number;
+            /** Cash Flow Inr */
+            cash_flow_inr: number;
         };
         /** SearchMomentum */
         SearchMomentum: {
@@ -1501,12 +1985,46 @@ export interface components {
             property_type: components["schemas"]["PropertyType"];
             typical: components["schemas"]["Sourced_float_"];
         };
+        /** TrendForecast */
+        TrendForecast: {
+            /** Kind */
+            kind: string;
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "projected" | "unavailable";
+            /**
+             * As Of
+             * Format: date
+             */
+            as_of: string;
+            /**
+             * Observations
+             * @default 0
+             */
+            observations: number;
+            /** Holdout Mae */
+            holdout_mae?: number | null;
+            /** Points */
+            points?: components["schemas"]["ForecastPoint"][];
+            source?: components["schemas"]["SourceRef"] | null;
+            /** Note */
+            note: string;
+        };
         /** TrendPoint */
         TrendPoint: {
             /** Period */
             period: string;
             /** Value */
             value: number;
+        };
+        /** User */
+        User: {
+            /** Id */
+            id: string;
+            /** Username */
+            username: string;
         };
         /** ValidationError */
         ValidationError: {
@@ -1573,6 +2091,112 @@ export interface operations {
             };
         };
     };
+    auth_state_api_auth_state_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AuthState"];
+                };
+            };
+        };
+    };
+    register_api_auth_register_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["Credentials"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AuthState"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    login_api_auth_login_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["Credentials"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AuthState"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    logout_api_auth_logout_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["AuthState"];
+                };
+            };
+        };
+    };
     get_budget_api_meta_budget_get: {
         parameters: {
             query?: never;
@@ -1611,6 +2235,39 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["ProfileOptions"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    parse_language_api_profiles_parse_language_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["LanguageProfileIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LanguageProfileResult"];
                 };
             };
             /** @description Validation Error */
@@ -2053,6 +2710,39 @@ export interface operations {
             };
         };
     };
+    export_report_api_properties__listing_id__report_pdf_get: {
+        parameters: {
+            query?: {
+                run_id?: string | null;
+            };
+            header?: never;
+            path: {
+                listing_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/pdf": unknown;
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
     get_property_api_properties__listing_id__get: {
         parameters: {
             query?: {
@@ -2105,6 +2795,156 @@ export interface operations {
                 content: {
                     "application/json": components["schemas"]["AreaIntel"];
                 };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    investment_scenario_api_scenarios_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ScenarioIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ScenarioResult"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    portfolio_summary_api_portfolio_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["PortfolioSummary"];
+                };
+            };
+        };
+    };
+    add_holding_api_portfolio_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["HoldingIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Holding"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    update_holding_api_portfolio__holding_id__put: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                holding_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["HoldingIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Holding"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    delete_holding_api_portfolio__holding_id__delete: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                holding_id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            204: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
             };
             /** @description Validation Error */
             422: {

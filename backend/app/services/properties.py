@@ -12,6 +12,8 @@ from app.schemas.listing import Listing, Verification
 from app.schemas.metrics import InvestmentMetrics
 from app.schemas.provenance import Sourced, SourceRef
 from app.schemas.views import PriceObservation, PropertyDetail
+from app.services.access import profile_ids
+from app.services.risk import assess_risk
 from app.services.runs import (
     area_for_run,
     competitors_for_run,
@@ -26,14 +28,16 @@ def get_property_detail(db: Session, listing_id: str, run_id: str | None = None)
     listing_row = db.get(ListingRow, listing_id)
     if listing_row is None:
         raise NotFound(f"Property {listing_id} not found")
-    query = select(RunResultRow).where(RunResultRow.listing_id == listing_id)
+    query = (
+        select(RunResultRow)
+        .join(RunRow, RunRow.id == RunResultRow.run_id)
+        .where(RunResultRow.listing_id == listing_id, RunRow.profile_id.in_(profile_ids(db)))
+    )
     if run_id is not None:
         get_run_row(db, run_id)
         query = query.where(RunResultRow.run_id == run_id)
     else:
-        query = query.join(RunRow, RunRow.id == RunResultRow.run_id).order_by(
-            RunRow.created_at.desc(), RunResultRow.id.desc()
-        )
+        query = query.order_by(RunRow.created_at.desc(), RunResultRow.id.desc())
     result = db.scalars(query.limit(1)).first()
     if result is None:
         raise NotFound(
@@ -59,6 +63,7 @@ def get_property_detail(db: Session, listing_id: str, run_id: str | None = None)
         metrics=metrics,
         area=area,
         competitors=competitors,
+        risk=assess_risk(area),
         price_history=_price_history(db, listing_id),
         sources=collect_sources(listing, metrics, area, competitors),
     )
@@ -109,7 +114,10 @@ def _sourced_refs(model: BaseModel) -> list[SourceRef]:
 def _price_history(db: Session, listing_id: str) -> list[PriceObservation]:
     rows = db.scalars(
         select(ListingObservationRow)
-        .where(ListingObservationRow.listing_id == listing_id)
+        .join(RunRow, RunRow.id == ListingObservationRow.run_id)
+        .where(
+            ListingObservationRow.listing_id == listing_id, RunRow.profile_id.in_(profile_ids(db))
+        )
         .order_by(ListingObservationRow.seen_at, ListingObservationRow.id)
     )
     return [

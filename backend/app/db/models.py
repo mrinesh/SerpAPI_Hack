@@ -103,9 +103,10 @@ class RunAreaRow(Base):
 
     __tablename__ = "run_area_intel"
 
-    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
-    run_id: Mapped[str] = mapped_column(ForeignKey("pipeline_runs.id"), index=True)
-    locality_key: Mapped[str] = mapped_column(String(128))
+    # The domain identity also works with legacy composite-key tables. Existing SQLite tables
+    # with a surrogate `id` keep that auto-generated column; no data/table rebuild is needed.
+    run_id: Mapped[str] = mapped_column(ForeignKey("pipeline_runs.id"), primary_key=True)
+    locality_key: Mapped[str] = mapped_column(String(128), primary_key=True)
     data: Mapped[dict[str, Any]] = mapped_column(JSON)  # schemas.area.AreaIntel
 
 
@@ -221,3 +222,56 @@ class AlertRow(Base):
     message: Mapped[str] = mapped_column(Text)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
     read_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+
+
+class HoldingRow(Base):
+    __tablename__ = "portfolio_holdings"
+
+    id: Mapped[str] = mapped_column(String(32), primary_key=True, default=new_id)
+    owner_id: Mapped[str] = mapped_column(String(32), default="local", index=True)
+    data: Mapped[dict[str, Any]] = mapped_column(JSON)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=utcnow, onupdate=utcnow
+    )
+
+
+class UserRow(Base):
+    __tablename__ = "users"
+    id: Mapped[str] = mapped_column(String(32), primary_key=True, default=new_id)
+    username: Mapped[str] = mapped_column(String(40), unique=True)
+    password_hash: Mapped[str] = mapped_column(Text)
+
+
+class AuthSessionRow(Base):
+    __tablename__ = "auth_sessions"
+    token_hash: Mapped[str] = mapped_column(String(64), primary_key=True)
+    user_id: Mapped[str] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    csrf_hash: Mapped[str] = mapped_column(String(64))
+    expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+
+
+class AuthAttemptRow(Base):
+    __tablename__ = "auth_attempts"
+    key: Mapped[str] = mapped_column(String(64), primary_key=True)
+    window: Mapped[int] = mapped_column(Integer)
+    attempts: Mapped[int] = mapped_column(Integer)
+
+
+class ProfileOwnerRow(Base):
+    # Separate table avoids ALTER/rebuilding existing profile and saved-property tables.
+    __tablename__ = "profile_owners"
+    profile_id: Mapped[str] = mapped_column(
+        ForeignKey("investor_profiles.id", ondelete="CASCADE"), primary_key=True
+    )
+    owner_id: Mapped[str] = mapped_column(String(32), index=True)
+
+
+class UserSavedPropertyRow(Base):
+    __tablename__ = "user_saved_properties"
+    owner_id: Mapped[str] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), primary_key=True
+    )
+    listing_id: Mapped[str] = mapped_column(ForeignKey("listings.id"), primary_key=True)
+    note: Mapped[str | None] = mapped_column(Text)
+    data: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)  # owner's listing snapshot
+    saved_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)

@@ -50,7 +50,7 @@ Numbering matches [CHECKLIST.md](../CHECKLIST.md), which tracks status.
 | F-12 | Listing quality flags | Stale, duplicate and too-good-to-be-true listings | P1 |
 | F-19 | Map view | Results and amenities on a map | P0 |
 | F-20 | Live pipeline progress | Watch the search → verify → enrich stages run | P0 |
-| F-13–F-18, F-21 | Later | Risk scoring, forecasting, PDF report, portfolio tracker, scenario calculator, natural-language search, auth | P2 |
+| F-13–F-18, F-21 | Investor tools | Cited risk screening, search-interest projections, PDF reports, owned-property tracking, loan/exit scenarios, editable language drafts and optional isolated accounts. Methods and limits: [P2 guide](P2.md). | P2 |
 
 ## End-to-end flow
 

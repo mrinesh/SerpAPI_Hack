@@ -47,6 +47,7 @@ from app.reference import load_market
 from app.schemas.profile import Segment
 from app.schemas.run import PipelineRun, PipelineStage, RunStatus, StageEvent
 from app.services import profiles
+from app.services.access import set_pipeline_owner
 
 log = logging.getLogger(__name__)
 
@@ -100,6 +101,7 @@ def run_pipeline(run_id: str) -> None:
     settings = get_settings()
     with SessionLocal() as db:
         run = db.get(RunRow, run_id)
+        set_pipeline_owner(db, run.profile_id)
         tracker = _Tracker(db, run)
         tracker.set_status(RunStatus.RUNNING)
         try:

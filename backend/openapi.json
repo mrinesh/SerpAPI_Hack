@@ -27,6 +27,130 @@
         }
       }
     },
+    "/api/auth/state": {
+      "get": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Auth State",
+        "operationId": "auth_state_api_auth_state_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthState"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/auth/register": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Register",
+        "operationId": "register_api_auth_register_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Credentials"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthState"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/auth/login": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Login",
+        "operationId": "login_api_auth_login_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Credentials"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthState"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/auth/logout": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Logout",
+        "operationId": "logout_api_auth_logout_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthState"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/meta/budget": {
       "get": {
         "tags": [
@@ -81,6 +205,47 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ProfileOptions"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/profiles/parse-language": {
+      "post": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "Parse Language",
+        "operationId": "parse_language_api_profiles_parse_language_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LanguageProfileIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LanguageProfileResult"
                 }
               }
             }
@@ -695,6 +860,60 @@
         }
       }
     },
+    "/api/properties/{listing_id}/report.pdf": {
+      "get": {
+        "tags": [
+          "properties"
+        ],
+        "summary": "Export Report",
+        "operationId": "export_report_api_properties__listing_id__report_pdf_get",
+        "parameters": [
+          {
+            "name": "listing_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Listing Id"
+            }
+          },
+          {
+            "name": "run_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Run Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/pdf": {}
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/properties/{listing_id}": {
       "get": {
         "tags": [
@@ -783,6 +1002,192 @@
                 }
               }
             }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/scenarios": {
+      "post": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Investment Scenario",
+        "operationId": "investment_scenario_api_scenarios_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScenarioIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScenarioResult"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/portfolio": {
+      "get": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Portfolio Summary",
+        "operationId": "portfolio_summary_api_portfolio_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PortfolioSummary"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Add Holding",
+        "operationId": "add_holding_api_portfolio_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoldingIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Holding"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/portfolio/{holding_id}": {
+      "put": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Update Holding",
+        "operationId": "update_holding_api_portfolio__holding_id__put",
+        "parameters": [
+          {
+            "name": "holding_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Holding Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoldingIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Holding"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Delete Holding",
+        "operationId": "delete_holding_api_portfolio__holding_id__delete",
+        "parameters": [
+          {
+            "name": "holding_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Holding Id"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
           },
           "422": {
             "description": "Validation Error",
@@ -1294,6 +1699,13 @@
       },
       "AreaDevelopment": {
         "properties": {
+          "forecasts": {
+            "items": {
+              "$ref": "#/components/schemas/TrendForecast"
+            },
+            "type": "array",
+            "title": "Forecasts"
+          },
           "locality_key": {
             "type": "string",
             "title": "Locality Key"
@@ -1618,6 +2030,29 @@
         ],
         "title": "AreaIssue",
         "description": "One part of an area that could not be loaded; shown to the investor, never hidden as empty\n(ADR 0019, after gscode007's F-05 branch)."
+      },
+      "AuthState": {
+        "properties": {
+          "enabled": {
+            "type": "boolean",
+            "title": "Enabled"
+          },
+          "user": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/User"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "enabled"
+        ],
+        "title": "AuthState"
       },
       "BudgetStatus": {
         "properties": {
@@ -2067,6 +2502,31 @@
         ],
         "title": "CompetitorReview"
       },
+      "Credentials": {
+        "properties": {
+          "username": {
+            "type": "string",
+            "maxLength": 40,
+            "minLength": 3,
+            "pattern": "^[a-zA-Z0-9_]+$",
+            "title": "Username"
+          },
+          "password": {
+            "type": "string",
+            "maxLength": 128,
+            "minLength": 12,
+            "format": "password",
+            "title": "Password",
+            "writeOnly": true
+          }
+        },
+        "type": "object",
+        "required": [
+          "username",
+          "password"
+        ],
+        "title": "Credentials"
+      },
       "DevelopmentHypothesis": {
         "properties": {
           "driver": {
@@ -2107,6 +2567,35 @@
           "query"
         ],
         "title": "ExtractionMethod"
+      },
+      "ForecastPoint": {
+        "properties": {
+          "week": {
+            "type": "string",
+            "format": "date",
+            "title": "Week"
+          },
+          "value": {
+            "type": "number",
+            "title": "Value"
+          },
+          "lower": {
+            "type": "number",
+            "title": "Lower"
+          },
+          "upper": {
+            "type": "number",
+            "title": "Upper"
+          }
+        },
+        "type": "object",
+        "required": [
+          "week",
+          "value",
+          "lower",
+          "upper"
+        ],
+        "title": "ForecastPoint"
       },
       "GeoPoint": {
         "properties": {
@@ -2200,6 +2689,277 @@
           "city"
         ],
         "title": "HealthStatus"
+      },
+      "Holding": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 160,
+            "minLength": 1,
+            "title": "Name"
+          },
+          "listing_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 32,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Listing Id"
+          },
+          "acquired_on": {
+            "type": "string",
+            "format": "date",
+            "title": "Acquired On"
+          },
+          "purchase_price_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "exclusiveMinimum": 0.0,
+            "title": "Purchase Price Inr"
+          },
+          "acquisition_costs_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "minimum": 0.0,
+            "title": "Acquisition Costs Inr",
+            "default": 0
+          },
+          "current_value_inr": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 1000000000000.0,
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Value Inr"
+          },
+          "valued_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valued On"
+          },
+          "outstanding_loan_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "minimum": 0.0,
+            "title": "Outstanding Loan Inr",
+            "default": 0
+          },
+          "monthly_rent_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Rent Inr",
+            "default": 0
+          },
+          "monthly_expenses_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Expenses Inr",
+            "default": 0
+          },
+          "monthly_emi_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Emi Inr",
+            "default": 0
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2000
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          },
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Updated At"
+          },
+          "monthly_cash_flow_inr": {
+            "type": "number",
+            "title": "Monthly Cash Flow Inr"
+          },
+          "equity_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Equity Inr"
+          },
+          "unrealized_gain_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unrealized Gain Inr"
+          },
+          "net_yield_on_cost_pct": {
+            "type": "number",
+            "title": "Net Yield On Cost Pct"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "acquired_on",
+          "purchase_price_inr",
+          "id",
+          "updated_at",
+          "monthly_cash_flow_inr",
+          "equity_inr",
+          "unrealized_gain_inr",
+          "net_yield_on_cost_pct"
+        ],
+        "title": "Holding"
+      },
+      "HoldingIn": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 160,
+            "minLength": 1,
+            "title": "Name"
+          },
+          "listing_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 32,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Listing Id"
+          },
+          "acquired_on": {
+            "type": "string",
+            "format": "date",
+            "title": "Acquired On"
+          },
+          "purchase_price_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "exclusiveMinimum": 0.0,
+            "title": "Purchase Price Inr"
+          },
+          "acquisition_costs_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "minimum": 0.0,
+            "title": "Acquisition Costs Inr",
+            "default": 0
+          },
+          "current_value_inr": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 1000000000000.0,
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Value Inr"
+          },
+          "valued_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valued On"
+          },
+          "outstanding_loan_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "minimum": 0.0,
+            "title": "Outstanding Loan Inr",
+            "default": 0
+          },
+          "monthly_rent_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Rent Inr",
+            "default": 0
+          },
+          "monthly_expenses_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Expenses Inr",
+            "default": 0
+          },
+          "monthly_emi_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Emi Inr",
+            "default": 0
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2000
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "acquired_on",
+          "purchase_price_inr"
+        ],
+        "title": "HoldingIn"
       },
       "InterestPoint": {
         "properties": {
@@ -2591,6 +3351,59 @@
         ],
         "title": "InvestorProfileIn"
       },
+      "LanguageProfileIn": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Text"
+          },
+          "city": {
+            "type": "string",
+            "title": "City",
+            "default": "Bengaluru"
+          }
+        },
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "LanguageProfileIn"
+      },
+      "LanguageProfileResult": {
+        "properties": {
+          "draft": {
+            "$ref": "#/components/schemas/ProfileDraft"
+          },
+          "matched_phrases": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Matched Phrases"
+          },
+          "unresolved": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Unresolved"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note",
+            "default": "Recognized phrases only; no AI guesses or network calls. Review every filled field and complete missing criteria before saving. No profile or search is created."
+          }
+        },
+        "type": "object",
+        "required": [
+          "draft",
+          "matched_phrases",
+          "unresolved"
+        ],
+        "title": "LanguageProfileResult"
+      },
       "Level": {
         "type": "string",
         "enum": [
@@ -2971,6 +3784,66 @@
         "title": "Portal",
         "description": "Where a candidate came from: one of the searched portals, or Google Maps."
       },
+      "PortfolioSummary": {
+        "properties": {
+          "holdings": {
+            "items": {
+              "$ref": "#/components/schemas/Holding"
+            },
+            "type": "array",
+            "title": "Holdings"
+          },
+          "invested_cost_inr": {
+            "type": "number",
+            "title": "Invested Cost Inr"
+          },
+          "valued_holdings": {
+            "type": "integer",
+            "title": "Valued Holdings"
+          },
+          "current_value_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Value Inr"
+          },
+          "equity_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Equity Inr"
+          },
+          "monthly_cash_flow_inr": {
+            "type": "number",
+            "title": "Monthly Cash Flow Inr"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note",
+            "default": "Manual amounts and dated valuations. Totals for value/equity are withheld unless every holding has a valuation. Unrealized gains exclude sale costs and taxes."
+          }
+        },
+        "type": "object",
+        "required": [
+          "holdings",
+          "invested_cost_inr",
+          "valued_holdings",
+          "current_value_inr",
+          "equity_inr",
+          "monthly_cash_flow_inr"
+        ],
+        "title": "PortfolioSummary"
+      },
       "PriceObservation": {
         "properties": {
           "run_id": {
@@ -3001,6 +3874,129 @@
         ],
         "title": "PriceObservation",
         "description": "The price a listing was quoted at when one run saw it."
+      },
+      "ProfileDraft": {
+        "properties": {
+          "segment": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Segment"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "property_types": {
+            "items": {
+              "$ref": "#/components/schemas/PropertyType"
+            },
+            "type": "array",
+            "title": "Property Types"
+          },
+          "localities": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Localities"
+          },
+          "budget_min_inr": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget Min Inr"
+          },
+          "budget_max_inr": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget Max Inr"
+          },
+          "size_min_sqft": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Size Min Sqft"
+          },
+          "size_max_sqft": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Size Max Sqft"
+          },
+          "goal": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/InvestmentGoal"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "target_roi_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target Roi Pct"
+          },
+          "risk_appetite": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/RiskAppetite"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "business_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Business Type"
+          },
+          "must_haves": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Must Haves"
+          }
+        },
+        "type": "object",
+        "title": "ProfileDraft"
       },
       "ProfileOptions": {
         "properties": {
@@ -3123,6 +4119,16 @@
             "anyOf": [
               {
                 "$ref": "#/components/schemas/CompetitorReport"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "risk": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/RiskReport"
               },
               {
                 "type": "null"
@@ -3346,6 +4352,100 @@
         ],
         "title": "RiskAppetite"
       },
+      "RiskIndicator": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "flood",
+              "legal",
+              "oversupply"
+            ],
+            "title": "Kind"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "reported_concern",
+              "unknown"
+            ],
+            "title": "Status"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "evidence": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Evidence"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "next_step": {
+            "type": "string",
+            "title": "Next Step"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind",
+          "status",
+          "next_step"
+        ],
+        "title": "RiskIndicator"
+      },
+      "RiskReport": {
+        "properties": {
+          "indicators": {
+            "items": {
+              "$ref": "#/components/schemas/RiskIndicator"
+            },
+            "type": "array",
+            "title": "Indicators"
+          },
+          "reported_concern_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reported Concern Score"
+          },
+          "coverage_pct": {
+            "type": "number",
+            "title": "Coverage Pct"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "indicators",
+          "coverage_pct",
+          "note"
+        ],
+        "title": "RiskReport"
+      },
       "RunStatus": {
         "type": "string",
         "enum": [
@@ -3421,6 +4521,216 @@
           "saved_at"
         ],
         "title": "SavedProperty"
+      },
+      "ScenarioIn": {
+        "properties": {
+          "purchase_price_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "exclusiveMinimum": 0.0,
+            "title": "Purchase Price Inr"
+          },
+          "down_payment_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Down Payment Pct"
+          },
+          "purchase_cost_pct": {
+            "type": "number",
+            "maximum": 50.0,
+            "minimum": 0.0,
+            "title": "Purchase Cost Pct",
+            "default": 0
+          },
+          "loan_interest_pct": {
+            "type": "number",
+            "maximum": 50.0,
+            "minimum": 0.0,
+            "title": "Loan Interest Pct"
+          },
+          "loan_years": {
+            "type": "integer",
+            "maximum": 40.0,
+            "minimum": 1.0,
+            "title": "Loan Years"
+          },
+          "hold_years": {
+            "type": "integer",
+            "maximum": 40.0,
+            "minimum": 1.0,
+            "title": "Hold Years"
+          },
+          "monthly_rent_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Rent Inr"
+          },
+          "vacancy_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Vacancy Pct",
+            "default": 0
+          },
+          "monthly_expenses_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Expenses Inr",
+            "default": 0
+          },
+          "annual_rent_growth_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": -100.0,
+            "title": "Annual Rent Growth Pct",
+            "default": 0
+          },
+          "annual_price_growth_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": -100.0,
+            "title": "Annual Price Growth Pct"
+          },
+          "exit_cost_pct": {
+            "type": "number",
+            "maximum": 50.0,
+            "minimum": 0.0,
+            "title": "Exit Cost Pct",
+            "default": 0
+          }
+        },
+        "type": "object",
+        "required": [
+          "purchase_price_inr",
+          "down_payment_pct",
+          "loan_interest_pct",
+          "loan_years",
+          "hold_years",
+          "monthly_rent_inr",
+          "annual_price_growth_pct"
+        ],
+        "title": "ScenarioIn"
+      },
+      "ScenarioResult": {
+        "properties": {
+          "assumptions": {
+            "$ref": "#/components/schemas/ScenarioIn"
+          },
+          "initial_cash_inr": {
+            "type": "number",
+            "title": "Initial Cash Inr"
+          },
+          "loan_principal_inr": {
+            "type": "number",
+            "title": "Loan Principal Inr"
+          },
+          "monthly_emi_inr": {
+            "type": "number",
+            "title": "Monthly Emi Inr"
+          },
+          "years": {
+            "items": {
+              "$ref": "#/components/schemas/ScenarioYear"
+            },
+            "type": "array",
+            "title": "Years"
+          },
+          "exit_value_inr": {
+            "type": "number",
+            "title": "Exit Value Inr"
+          },
+          "exit_loan_balance_inr": {
+            "type": "number",
+            "title": "Exit Loan Balance Inr"
+          },
+          "net_exit_proceeds_inr": {
+            "type": "number",
+            "title": "Net Exit Proceeds Inr"
+          },
+          "cumulative_cash_flow_inr": {
+            "type": "number",
+            "title": "Cumulative Cash Flow Inr"
+          },
+          "total_profit_inr": {
+            "type": "number",
+            "title": "Total Profit Inr"
+          },
+          "equity_return_pct": {
+            "type": "number",
+            "title": "Equity Return Pct"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note",
+            "default": "Illustrative fixed-rate monthly amortization and user-entered assumptions. Rent changes annually; expenses stay fixed. Exit proceeds repay remaining debt. Equity return is for the entire holding period, not annualized or IRR. Taxes, loan fees, inflation and prepayment penalties are excluded."
+          }
+        },
+        "type": "object",
+        "required": [
+          "assumptions",
+          "initial_cash_inr",
+          "loan_principal_inr",
+          "monthly_emi_inr",
+          "years",
+          "exit_value_inr",
+          "exit_loan_balance_inr",
+          "net_exit_proceeds_inr",
+          "cumulative_cash_flow_inr",
+          "total_profit_inr",
+          "equity_return_pct"
+        ],
+        "title": "ScenarioResult"
+      },
+      "ScenarioYear": {
+        "properties": {
+          "year": {
+            "type": "integer",
+            "title": "Year"
+          },
+          "rent_inr": {
+            "type": "number",
+            "title": "Rent Inr"
+          },
+          "expenses_inr": {
+            "type": "number",
+            "title": "Expenses Inr"
+          },
+          "loan_payments_inr": {
+            "type": "number",
+            "title": "Loan Payments Inr"
+          },
+          "interest_inr": {
+            "type": "number",
+            "title": "Interest Inr"
+          },
+          "principal_inr": {
+            "type": "number",
+            "title": "Principal Inr"
+          },
+          "balance_inr": {
+            "type": "number",
+            "title": "Balance Inr"
+          },
+          "cash_flow_inr": {
+            "type": "number",
+            "title": "Cash Flow Inr"
+          }
+        },
+        "type": "object",
+        "required": [
+          "year",
+          "rent_inr",
+          "expenses_inr",
+          "loan_payments_inr",
+          "interest_inr",
+          "principal_inr",
+          "balance_inr",
+          "cash_flow_inr"
+        ],
+        "title": "ScenarioYear"
       },
       "SearchMomentum": {
         "properties": {
@@ -4133,6 +5443,72 @@
         ],
         "title": "TargetSuggestionPart"
       },
+      "TrendForecast": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "title": "Kind"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "projected",
+              "unavailable"
+            ],
+            "title": "Status"
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date",
+            "title": "As Of"
+          },
+          "observations": {
+            "type": "integer",
+            "title": "Observations",
+            "default": 0
+          },
+          "holdout_mae": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Holdout Mae"
+          },
+          "points": {
+            "items": {
+              "$ref": "#/components/schemas/ForecastPoint"
+            },
+            "type": "array",
+            "title": "Points"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SourceRef"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "note": {
+            "type": "string",
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind",
+          "status",
+          "as_of",
+          "note"
+        ],
+        "title": "TrendForecast"
+      },
       "TrendPoint": {
         "properties": {
           "period": {
@@ -4150,6 +5526,24 @@
           "value"
         ],
         "title": "TrendPoint"
+      },
+      "User": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "username": {
+            "type": "string",
+            "title": "Username"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "username"
+        ],
+        "title": "User"
       },
       "ValidationError": {
         "properties": {

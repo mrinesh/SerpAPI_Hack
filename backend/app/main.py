@@ -20,7 +20,7 @@ from app.services.profiles import seed_demo_profiles
 async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     configure_logging()
     init_db()
-    if get_settings().seed_demo_profiles:
+    if get_settings().seed_demo_profiles and not get_settings().auth_enabled:
         with SessionLocal() as db:
             seed_demo_profiles(db)
     if get_settings().scheduler_enabled:
@@ -42,8 +42,17 @@ def create_app() -> FastAPI:
         allow_origins=settings.cors_origins,
         allow_methods=["*"],
         allow_headers=["*"],
+        allow_credentials=True,
     )
     register_exception_handlers(app)
+
+    @app.middleware("http")
+    async def private_response_cache(request, call_next):
+        response = await call_next(request)
+        if request.url.path.startswith("/api/"):
+            response.headers["Cache-Control"] = "no-store"
+        return response
+
     app.include_router(api_router, prefix="/api")
     return app
 

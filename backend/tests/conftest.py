@@ -8,6 +8,7 @@ _tmp = Path(tempfile.mkdtemp(prefix="realty-intel-tests-"))
 os.environ["DATABASE_URL"] = f"sqlite:///{_tmp / 'test.db'}"
 os.environ["SERPAPI_MODE"] = "replay"
 os.environ["LLM_MODE"] = "replay"
+os.environ["AUTH_ENABLED"] = "false"
 os.environ["SERPAPI_API_KEY"] = ""
 os.environ["DEEPSEEK_API_KEY"] = ""
 

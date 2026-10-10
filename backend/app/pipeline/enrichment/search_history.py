@@ -23,6 +23,7 @@ from app.schemas.common import SerpEngine
 from app.schemas.development import InterestPoint, SearchMomentum
 from app.schemas.profile import InvestorProfile
 from app.schemas.provenance import SourceRef
+from app.services.access import profile_ids
 
 WINDOW_WEEKS = 13
 
@@ -206,7 +207,11 @@ def public_history(
 
 
 def app_history(db: Session, key: str, *, now: datetime) -> SearchMomentum:
-    earliest = db.scalar(select(func.min(SearchIntentRow.created_at)))
+    earliest = db.scalar(
+        select(func.min(SearchIntentRow.created_at)).where(
+            SearchIntentRow.profile_id.in_(profile_ids(db))
+        )
+    )
     momentum = SearchMomentum(
         kind="app_searches",
         query=key,
@@ -227,6 +232,7 @@ def app_history(db: Session, key: str, *, now: datetime) -> SearchMomentum:
     rows = db.execute(
         select(SearchIntentRow.created_at, SearchIntentRow.profile_id).where(
             SearchIntentRow.locality_key == key,
+            SearchIntentRow.profile_id.in_(profile_ids(db)),
             SearchIntentRow.created_at >= datetime.combine(start, datetime.min.time(), UTC),
             SearchIntentRow.created_at < datetime.combine(end, datetime.min.time(), UTC),
         )

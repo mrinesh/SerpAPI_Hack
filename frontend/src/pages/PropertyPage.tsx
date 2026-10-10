@@ -1,4 +1,5 @@
 import { SaveButton } from "../components/SaveButton";
+import { RiskCard } from "../components/run/RiskCard";
 import type { ReactNode } from "react";
 import { Link, useParams } from "react-router";
 
@@ -65,6 +66,8 @@ export function PropertyPage() {
         </div>
         <div className="text-left sm:text-right">
           <SaveButton listingId={listing.id} />
+          <Link className="ml-3 text-sm underline" to={`/portfolio?listing_id=${encodeURIComponent(listing.id)}`}>Track purchase</Link>
+          <a className="ml-3 text-sm underline" href={`/api/properties/${encodeURIComponent(listing.id)}/report.pdf?run_id=${encodeURIComponent(data.run_id)}`}>Download PDF report</a>
           {listing.price_inr.value != null && (
             <p className="text-2xl font-semibold">{formatInr(listing.price_inr.value)}</p>
           )}
@@ -185,6 +188,7 @@ export function PropertyPage() {
       )}
 
       <PropertyMap detail={data} />
+      {data.risk && <RiskCard report={data.risk} />}
 
       {data.area && <AreaCard area={data.area} typeLabel={(value: PropertyType) => typeLabel(value)} />}
 

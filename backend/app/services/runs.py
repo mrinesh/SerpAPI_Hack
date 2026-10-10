@@ -24,6 +24,8 @@ from app.schemas.development import AreaDevelopment
 from app.schemas.listing import Listing, ResultKind, Verification
 from app.schemas.recommendation import Recommendation
 from app.schemas.run import PipelineRun
+from app.services.forecast import project_interest
+from app.services.profiles import get_profile
 
 
 def get_run(db: Session, run_id: str) -> PipelineRun:
@@ -145,6 +147,10 @@ def get_run_development(db: Session, run_id: str) -> list[AreaDevelopment]:
     get_run_row(db, run_id)
     rows = db.scalars(select(RunDevelopmentRow).where(RunDevelopmentRow.run_id == run_id))
     reports = [AreaDevelopment.model_validate(row.data) for row in rows]
+    for report in reports:
+        report.forecasts = [
+            project_interest(signal, report.as_of.date()) for signal in report.public_interest
+        ]
     return sorted(reports, key=lambda r: (r.rank is None, r.rank or 0, r.locality_key))
 
 
@@ -179,4 +185,5 @@ def get_run_row(db: Session, run_id: str) -> RunRow:
     row = db.get(RunRow, run_id)
     if row is None:
         raise NotFound(f"Run {run_id} not found")
+    get_profile(db, row.profile_id)
     return row
