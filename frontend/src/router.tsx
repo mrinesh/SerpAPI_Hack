@@ -10,6 +10,7 @@ import { PropertyPage } from "./pages/PropertyPage";
 import { RunPage } from "./pages/RunPage";
 import { SavedPage } from "./pages/SavedPage";
 import { PortfolioPage } from "./pages/PortfolioPage";
+import { ScenarioPage } from "./pages/ScenarioPage";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
       { path: "/properties/:listingId", element: <PropertyPage /> },
       { path: "/saved", element: <SavedPage /> },
       { path: "/portfolio", element: <PortfolioPage /> },
+      { path: "/scenarios", element: <ScenarioPage /> },
       { path: "/compare", element: <ComparePage /> },
       { path: "/alerts", element: <AlertsPage /> },
       { path: "*", element: <NotFoundPage /> },

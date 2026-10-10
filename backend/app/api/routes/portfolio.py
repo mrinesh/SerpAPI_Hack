@@ -4,10 +4,17 @@ from fastapi import APIRouter, Query, status
 
 from app.api.deps import DbSession
 from app.schemas.holding import Holding, HoldingIn, PortfolioSummary
+from app.schemas.scenario import ScenarioIn, ScenarioResult
 from app.schemas.views import CompareResult, SavedProperty, SaveRequest
 from app.services import holdings, portfolio
+from app.services.scenarios import calculate
 
 router = APIRouter(tags=["portfolio"])
+
+
+@router.post("/scenarios")
+def investment_scenario(data: ScenarioIn) -> ScenarioResult:
+    return calculate(data)
 
 
 @router.get("/portfolio")

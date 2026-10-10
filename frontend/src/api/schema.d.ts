@@ -327,6 +327,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/scenarios": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Investment Scenario */
+        post: operations["investment_scenario_api_scenarios_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/portfolio": {
         parameters: {
             query?: never;
@@ -1504,6 +1521,96 @@ export interface components {
              */
             saved_at: string;
         };
+        /** ScenarioIn */
+        ScenarioIn: {
+            /** Purchase Price Inr */
+            purchase_price_inr: number;
+            /** Down Payment Pct */
+            down_payment_pct: number;
+            /**
+             * Purchase Cost Pct
+             * @default 0
+             */
+            purchase_cost_pct: number;
+            /** Loan Interest Pct */
+            loan_interest_pct: number;
+            /** Loan Years */
+            loan_years: number;
+            /** Hold Years */
+            hold_years: number;
+            /** Monthly Rent Inr */
+            monthly_rent_inr: number;
+            /**
+             * Vacancy Pct
+             * @default 0
+             */
+            vacancy_pct: number;
+            /**
+             * Monthly Expenses Inr
+             * @default 0
+             */
+            monthly_expenses_inr: number;
+            /**
+             * Annual Rent Growth Pct
+             * @default 0
+             */
+            annual_rent_growth_pct: number;
+            /** Annual Price Growth Pct */
+            annual_price_growth_pct: number;
+            /**
+             * Exit Cost Pct
+             * @default 0
+             */
+            exit_cost_pct: number;
+        };
+        /** ScenarioResult */
+        ScenarioResult: {
+            assumptions: components["schemas"]["ScenarioIn"];
+            /** Initial Cash Inr */
+            initial_cash_inr: number;
+            /** Loan Principal Inr */
+            loan_principal_inr: number;
+            /** Monthly Emi Inr */
+            monthly_emi_inr: number;
+            /** Years */
+            years: components["schemas"]["ScenarioYear"][];
+            /** Exit Value Inr */
+            exit_value_inr: number;
+            /** Exit Loan Balance Inr */
+            exit_loan_balance_inr: number;
+            /** Net Exit Proceeds Inr */
+            net_exit_proceeds_inr: number;
+            /** Cumulative Cash Flow Inr */
+            cumulative_cash_flow_inr: number;
+            /** Total Profit Inr */
+            total_profit_inr: number;
+            /** Equity Return Pct */
+            equity_return_pct: number;
+            /**
+             * Note
+             * @default Illustrative fixed-rate monthly amortization and user-entered assumptions. Rent changes annually; expenses stay fixed. Exit proceeds repay remaining debt. Equity return is for the entire holding period, not annualized or IRR. Taxes, loan fees, inflation and prepayment penalties are excluded.
+             */
+            note: string;
+        };
+        /** ScenarioYear */
+        ScenarioYear: {
+            /** Year */
+            year: number;
+            /** Rent Inr */
+            rent_inr: number;
+            /** Expenses Inr */
+            expenses_inr: number;
+            /** Loan Payments Inr */
+            loan_payments_inr: number;
+            /** Interest Inr */
+            interest_inr: number;
+            /** Principal Inr */
+            principal_inr: number;
+            /** Balance Inr */
+            balance_inr: number;
+            /** Cash Flow Inr */
+            cash_flow_inr: number;
+        };
         /** SearchMomentum */
         SearchMomentum: {
             /**
@@ -2391,6 +2498,39 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["AreaIntel"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    investment_scenario_api_scenarios_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ScenarioIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ScenarioResult"];
                 };
             };
             /** @description Validation Error */

@@ -851,6 +851,47 @@
         }
       }
     },
+    "/api/scenarios": {
+      "post": {
+        "tags": [
+          "portfolio"
+        ],
+        "summary": "Investment Scenario",
+        "operationId": "investment_scenario_api_scenarios_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScenarioIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScenarioResult"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/portfolio": {
       "get": {
         "tags": [
@@ -4091,6 +4132,216 @@
           "saved_at"
         ],
         "title": "SavedProperty"
+      },
+      "ScenarioIn": {
+        "properties": {
+          "purchase_price_inr": {
+            "type": "number",
+            "maximum": 1000000000000.0,
+            "exclusiveMinimum": 0.0,
+            "title": "Purchase Price Inr"
+          },
+          "down_payment_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Down Payment Pct"
+          },
+          "purchase_cost_pct": {
+            "type": "number",
+            "maximum": 50.0,
+            "minimum": 0.0,
+            "title": "Purchase Cost Pct",
+            "default": 0
+          },
+          "loan_interest_pct": {
+            "type": "number",
+            "maximum": 50.0,
+            "minimum": 0.0,
+            "title": "Loan Interest Pct"
+          },
+          "loan_years": {
+            "type": "integer",
+            "maximum": 40.0,
+            "minimum": 1.0,
+            "title": "Loan Years"
+          },
+          "hold_years": {
+            "type": "integer",
+            "maximum": 40.0,
+            "minimum": 1.0,
+            "title": "Hold Years"
+          },
+          "monthly_rent_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Rent Inr"
+          },
+          "vacancy_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": 0.0,
+            "title": "Vacancy Pct",
+            "default": 0
+          },
+          "monthly_expenses_inr": {
+            "type": "number",
+            "maximum": 1000000000.0,
+            "minimum": 0.0,
+            "title": "Monthly Expenses Inr",
+            "default": 0
+          },
+          "annual_rent_growth_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": -100.0,
+            "title": "Annual Rent Growth Pct",
+            "default": 0
+          },
+          "annual_price_growth_pct": {
+            "type": "number",
+            "maximum": 100.0,
+            "minimum": -100.0,
+            "title": "Annual Price Growth Pct"
+          },
+          "exit_cost_pct": {
+            "type": "number",
+            "maximum": 50.0,
+            "minimum": 0.0,
+            "title": "Exit Cost Pct",
+            "default": 0
+          }
+        },
+        "type": "object",
+        "required": [
+          "purchase_price_inr",
+          "down_payment_pct",
+          "loan_interest_pct",
+          "loan_years",
+          "hold_years",
+          "monthly_rent_inr",
+          "annual_price_growth_pct"
+        ],
+        "title": "ScenarioIn"
+      },
+      "ScenarioResult": {
+        "properties": {
+          "assumptions": {
+            "$ref": "#/components/schemas/ScenarioIn"
+          },
+          "initial_cash_inr": {
+            "type": "number",
+            "title": "Initial Cash Inr"
+          },
+          "loan_principal_inr": {
+            "type": "number",
+            "title": "Loan Principal Inr"
+          },
+          "monthly_emi_inr": {
+            "type": "number",
+            "title": "Monthly Emi Inr"
+          },
+          "years": {
+            "items": {
+              "$ref": "#/components/schemas/ScenarioYear"
+            },
+            "type": "array",
+            "title": "Years"
+          },
+          "exit_value_inr": {
+            "type": "number",
+            "title": "Exit Value Inr"
+          },
+          "exit_loan_balance_inr": {
+            "type": "number",
+            "title": "Exit Loan Balance Inr"
+          },
+          "net_exit_proceeds_inr": {
+            "type": "number",
+            "title": "Net Exit Proceeds Inr"
+          },
+          "cumulative_cash_flow_inr": {
+            "type": "number",
+            "title": "Cumulative Cash Flow Inr"
+          },
+          "total_profit_inr": {
+            "type": "number",
+            "title": "Total Profit Inr"
+          },
+          "equity_return_pct": {
+            "type": "number",
+            "title": "Equity Return Pct"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note",
+            "default": "Illustrative fixed-rate monthly amortization and user-entered assumptions. Rent changes annually; expenses stay fixed. Exit proceeds repay remaining debt. Equity return is for the entire holding period, not annualized or IRR. Taxes, loan fees, inflation and prepayment penalties are excluded."
+          }
+        },
+        "type": "object",
+        "required": [
+          "assumptions",
+          "initial_cash_inr",
+          "loan_principal_inr",
+          "monthly_emi_inr",
+          "years",
+          "exit_value_inr",
+          "exit_loan_balance_inr",
+          "net_exit_proceeds_inr",
+          "cumulative_cash_flow_inr",
+          "total_profit_inr",
+          "equity_return_pct"
+        ],
+        "title": "ScenarioResult"
+      },
+      "ScenarioYear": {
+        "properties": {
+          "year": {
+            "type": "integer",
+            "title": "Year"
+          },
+          "rent_inr": {
+            "type": "number",
+            "title": "Rent Inr"
+          },
+          "expenses_inr": {
+            "type": "number",
+            "title": "Expenses Inr"
+          },
+          "loan_payments_inr": {
+            "type": "number",
+            "title": "Loan Payments Inr"
+          },
+          "interest_inr": {
+            "type": "number",
+            "title": "Interest Inr"
+          },
+          "principal_inr": {
+            "type": "number",
+            "title": "Principal Inr"
+          },
+          "balance_inr": {
+            "type": "number",
+            "title": "Balance Inr"
+          },
+          "cash_flow_inr": {
+            "type": "number",
+            "title": "Cash Flow Inr"
+          }
+        },
+        "type": "object",
+        "required": [
+          "year",
+          "rent_inr",
+          "expenses_inr",
+          "loan_payments_inr",
+          "interest_inr",
+          "principal_inr",
+          "balance_inr",
+          "cash_flow_inr"
+        ],
+        "title": "ScenarioYear"
       },
       "SearchMomentum": {
         "properties": {
