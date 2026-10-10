@@ -11,7 +11,9 @@ with a reason, a confidence level and a source link for every number.
 > Demo market: **Bengaluru** · Runs offline from recorded data: `make setup && make demo`, no
 > API keys needed. Status of every feature: **[CHECKLIST.md](CHECKLIST.md)**.
 
-![A residential search: live pipeline stages and the ranked candidates on a map](docs/images/run-pipeline-and-map.jpg)
+[![Watch the 30-second Realty Intel video](docs/media/realty-intel-ad-poster.jpg)](docs/media/realty-intel-ad-30s-web.mp4)
+
+▶ **[Watch the 30-second video](docs/media/realty-intel-ad-30s-web.mp4)**
 
 ## Why
 

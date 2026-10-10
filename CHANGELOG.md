@@ -6,6 +6,7 @@ Reference CHECKLIST IDs.
 ## [Unreleased]
 
 ### Changed
+- 2026-10-11 · SUB: README opens with the 30 s ad video (clickable poster) instead of the pipeline screenshot.
 - 2026-10-10 · SUB: submission description rewritten for the form (plain text, 3,875 of 4,000 characters, all features through P2), track rationale added, SerpApi usage rewritten for the form (all six engines, what feeds scoring vs display); deadline moved to Oct 12 (site extension).
 - P2: cited risk screening and bounded search-interest projections, investment PDF export, owned-property portfolio with dated valuations, fixed-rate loan/exit scenarios, reviewable language-to-profile drafts, and optional accounts with ownership isolation, CSRF, expiring sessions and replay/demo compatibility (ADR 0030).
 - F-06b: sampled competitor reviews, cited and checked complaint themes, visible evidence and failure states; real commercial demo recordings, no ranking changes.
