@@ -2,12 +2,19 @@ from fastapi import APIRouter, status
 
 from app.api.deps import DbSession
 from app.pipeline import orchestrator
+from app.schemas.language import LanguageProfileIn, LanguageProfileResult
 from app.schemas.profile import InvestorProfile, InvestorProfileIn
 from app.schemas.run import PipelineRun
 from app.schemas.target import TargetSuggestion, TargetSuggestionIn
 from app.services import profiles
+from app.services.language import parse_profile
 
 router = APIRouter(prefix="/profiles", tags=["profiles"])
+
+
+@router.post("/parse-language")
+def parse_language(data: LanguageProfileIn) -> LanguageProfileResult:
+    return parse_profile(data)
 
 
 @router.post("", status_code=status.HTTP_201_CREATED)

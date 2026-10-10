@@ -58,6 +58,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/profiles/parse-language": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Parse Language */
+        post: operations["parse_language_api_profiles_parse_language_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/profiles": {
         parameters: {
             query?: never;
@@ -1170,6 +1187,31 @@ export interface components {
             expected_growth_pct?: number | null;
             risk_appetite: components["schemas"]["RiskAppetite"];
         };
+        /** LanguageProfileIn */
+        LanguageProfileIn: {
+            /** Text */
+            text: string;
+            /**
+             * City
+             * @default Bengaluru
+             */
+            city: string;
+        };
+        /** LanguageProfileResult */
+        LanguageProfileResult: {
+            draft: components["schemas"]["ProfileDraft"];
+            /** Matched Phrases */
+            matched_phrases: {
+                [key: string]: string;
+            };
+            /** Unresolved */
+            unresolved: string[];
+            /**
+             * Note
+             * @default Recognized phrases only; no AI guesses or network calls. Review every filled field and complete missing criteria before saving. No profile or search is created.
+             */
+            note: string;
+        };
         /**
          * Level
          * @enum {string}
@@ -1342,6 +1384,30 @@ export interface components {
              * Format: date-time
              */
             seen_at: string;
+        };
+        /** ProfileDraft */
+        ProfileDraft: {
+            segment?: components["schemas"]["Segment"] | null;
+            /** Property Types */
+            property_types?: components["schemas"]["PropertyType"][];
+            /** Localities */
+            localities?: string[];
+            /** Budget Min Inr */
+            budget_min_inr?: number | null;
+            /** Budget Max Inr */
+            budget_max_inr?: number | null;
+            /** Size Min Sqft */
+            size_min_sqft?: number | null;
+            /** Size Max Sqft */
+            size_max_sqft?: number | null;
+            goal?: components["schemas"]["InvestmentGoal"] | null;
+            /** Target Roi Pct */
+            target_roi_pct?: number | null;
+            risk_appetite?: components["schemas"]["RiskAppetite"] | null;
+            /** Business Type */
+            business_type?: string | null;
+            /** Must Haves */
+            must_haves?: string[];
         };
         /**
          * ProfileOptions
@@ -1972,6 +2038,39 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["ProfileOptions"];
+                };
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    parse_language_api_profiles_parse_language_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["LanguageProfileIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["LanguageProfileResult"];
                 };
             };
             /** @description Validation Error */

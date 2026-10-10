@@ -17,6 +17,7 @@ import {
 import { StepMoney } from "./StepMoney";
 import { StepWhat } from "./StepWhat";
 import { StepWhere } from "./StepWhere";
+import { LanguagePrefill } from "./LanguagePrefill";
 
 export interface StepProps {
   form: ProfileFormState;
@@ -85,6 +86,7 @@ export function ProfileWizard({ options, initial, submitLabel, onSubmit }: Profi
   const CurrentStep = STEP_COMPONENTS[step];
   return (
     <form onSubmit={submit} noValidate className="space-y-6">
+      <LanguagePrefill city={options.city} apply={update} />
       <WizardSteps current={step} errors={errors} onSelect={(target) => target < step && setStep(target)} />
       {formError && <Notice tone="error">{formError}</Notice>}
       <section className="rounded-xl border border-slate-200 bg-white p-6">

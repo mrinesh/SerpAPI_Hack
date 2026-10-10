@@ -98,6 +98,47 @@
         }
       }
     },
+    "/api/profiles/parse-language": {
+      "post": {
+        "tags": [
+          "profiles"
+        ],
+        "summary": "Parse Language",
+        "operationId": "parse_language_api_profiles_parse_language_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LanguageProfileIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LanguageProfileResult"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/profiles": {
       "get": {
         "tags": [
@@ -3138,6 +3179,59 @@
         ],
         "title": "InvestorProfileIn"
       },
+      "LanguageProfileIn": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Text"
+          },
+          "city": {
+            "type": "string",
+            "title": "City",
+            "default": "Bengaluru"
+          }
+        },
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "LanguageProfileIn"
+      },
+      "LanguageProfileResult": {
+        "properties": {
+          "draft": {
+            "$ref": "#/components/schemas/ProfileDraft"
+          },
+          "matched_phrases": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Matched Phrases"
+          },
+          "unresolved": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Unresolved"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note",
+            "default": "Recognized phrases only; no AI guesses or network calls. Review every filled field and complete missing criteria before saving. No profile or search is created."
+          }
+        },
+        "type": "object",
+        "required": [
+          "draft",
+          "matched_phrases",
+          "unresolved"
+        ],
+        "title": "LanguageProfileResult"
+      },
       "Level": {
         "type": "string",
         "enum": [
@@ -3608,6 +3702,129 @@
         ],
         "title": "PriceObservation",
         "description": "The price a listing was quoted at when one run saw it."
+      },
+      "ProfileDraft": {
+        "properties": {
+          "segment": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Segment"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "property_types": {
+            "items": {
+              "$ref": "#/components/schemas/PropertyType"
+            },
+            "type": "array",
+            "title": "Property Types"
+          },
+          "localities": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Localities"
+          },
+          "budget_min_inr": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget Min Inr"
+          },
+          "budget_max_inr": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Budget Max Inr"
+          },
+          "size_min_sqft": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Size Min Sqft"
+          },
+          "size_max_sqft": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Size Max Sqft"
+          },
+          "goal": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/InvestmentGoal"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "target_roi_pct": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target Roi Pct"
+          },
+          "risk_appetite": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/RiskAppetite"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "business_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Business Type"
+          },
+          "must_haves": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Must Haves"
+          }
+        },
+        "type": "object",
+        "title": "ProfileDraft"
       },
       "ProfileOptions": {
         "properties": {

@@ -64,7 +64,7 @@ code for an ID finds every stub that belongs to it.
 | F-15 | PDF investment report export | P2 | ✅ | |
 | F-16 | Portfolio tracker | P2 | ✅ | |
 | F-17 | Scenario calculator (loan, EMI, exit) | P2 | ✅ | |
-| F-18 | Natural-language search → profile | P2 | ⏸️ | |
+| F-18 | Natural-language search → profile | P2 | ✅ | |
 | F-21 | Auth and multi-user | P2 | ⏸️ | |
 | **Docs and submission** | | | | |
 | D-01 | Docs kept current (see Docs section) | P0 | ✅ | |
